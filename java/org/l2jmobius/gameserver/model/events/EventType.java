@@ -105,6 +105,7 @@ import org.l2jmobius.gameserver.model.events.impl.creature.player.OnPlayerProfes
 import org.l2jmobius.gameserver.model.events.impl.creature.player.OnPlayerPvPChanged;
 import org.l2jmobius.gameserver.model.events.impl.creature.player.OnPlayerPvPKill;
 import org.l2jmobius.gameserver.model.events.impl.creature.player.OnPlayerQuestAbort;
+import org.l2jmobius.gameserver.model.events.impl.creature.player.OnPlayerQuestAccept;
 import org.l2jmobius.gameserver.model.events.impl.creature.player.OnPlayerQuestComplete;
 import org.l2jmobius.gameserver.model.events.impl.creature.player.OnPlayerReputationChanged;
 import org.l2jmobius.gameserver.model.events.impl.creature.player.OnPlayerRestore;
@@ -275,6 +276,7 @@ public enum EventType
 	ON_PLAYER_TAKE_HERO(OnPlayerTakeHero.class, void.class),
 	ON_PLAYER_TRANSFORM(OnPlayerTransform.class, void.class),
 	ON_PLAYER_SUB_CHANGE(OnPlayerSubChange.class, void.class),
+	ON_PLAYER_QUEST_ACCEPT(OnPlayerQuestAccept.class, void.class),
 	ON_PLAYER_QUEST_ABORT(OnPlayerQuestAbort.class, void.class),
 	ON_PLAYER_QUEST_COMPLETE(OnPlayerQuestComplete.class, void.class),
 	ON_PLAYER_SUMMON_AGATHION(OnPlayerSummonAgathion.class, void.class),

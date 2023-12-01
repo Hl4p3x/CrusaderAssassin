@@ -30,7 +30,9 @@ import org.l2jmobius.gameserver.data.xml.AdminData;
 import org.l2jmobius.gameserver.data.xml.BeautyShopData;
 import org.l2jmobius.gameserver.data.xml.ClanHallData;
 import org.l2jmobius.gameserver.data.xml.EnchantItemGroupsData;
+import org.l2jmobius.gameserver.data.xml.NewQuestData;
 import org.l2jmobius.gameserver.data.xml.SkillTreeData;
+import org.l2jmobius.gameserver.enums.CategoryType;
 import org.l2jmobius.gameserver.enums.ChatType;
 import org.l2jmobius.gameserver.enums.IllegalActionPunishmentType;
 import org.l2jmobius.gameserver.enums.PlayerCondOverride;
@@ -45,6 +47,7 @@ import org.l2jmobius.gameserver.instancemanager.MailManager;
 import org.l2jmobius.gameserver.instancemanager.PcCafePointsManager;
 import org.l2jmobius.gameserver.instancemanager.PetitionManager;
 import org.l2jmobius.gameserver.instancemanager.PunishmentManager;
+import org.l2jmobius.gameserver.instancemanager.QuestManager;
 import org.l2jmobius.gameserver.instancemanager.ServerRestartManager;
 import org.l2jmobius.gameserver.instancemanager.SiegeManager;
 import org.l2jmobius.gameserver.instancemanager.WorldExchangeManager;
@@ -62,6 +65,9 @@ import org.l2jmobius.gameserver.model.itemcontainer.Inventory;
 import org.l2jmobius.gameserver.model.punishment.PunishmentAffect;
 import org.l2jmobius.gameserver.model.punishment.PunishmentType;
 import org.l2jmobius.gameserver.model.quest.Quest;
+import org.l2jmobius.gameserver.model.quest.QuestDialogType;
+import org.l2jmobius.gameserver.model.quest.QuestState;
+import org.l2jmobius.gameserver.model.quest.newquestdata.NewQuest;
 import org.l2jmobius.gameserver.model.residences.ClanHall;
 import org.l2jmobius.gameserver.model.siege.Castle;
 import org.l2jmobius.gameserver.model.siege.Fort;
@@ -110,7 +116,6 @@ import org.l2jmobius.gameserver.network.serverpackets.NpcHtmlMessage;
 import org.l2jmobius.gameserver.network.serverpackets.PledgeShowMemberListAll;
 import org.l2jmobius.gameserver.network.serverpackets.PledgeShowMemberListUpdate;
 import org.l2jmobius.gameserver.network.serverpackets.PledgeSkillList;
-import org.l2jmobius.gameserver.network.serverpackets.QuestList;
 import org.l2jmobius.gameserver.network.serverpackets.ShortCutInit;
 import org.l2jmobius.gameserver.network.serverpackets.SkillCoolTime;
 import org.l2jmobius.gameserver.network.serverpackets.SkillList;
@@ -127,6 +132,8 @@ import org.l2jmobius.gameserver.network.serverpackets.huntpass.HuntPassSimpleInf
 import org.l2jmobius.gameserver.network.serverpackets.limitshop.ExBloodyCoinCount;
 import org.l2jmobius.gameserver.network.serverpackets.magiclamp.ExMagicLampExpInfoUI;
 import org.l2jmobius.gameserver.network.serverpackets.pledgedonation.ExPledgeContributionList;
+import org.l2jmobius.gameserver.network.serverpackets.quest.ExQuestDialog;
+import org.l2jmobius.gameserver.network.serverpackets.quest.ExQuestNotificationAll;
 import org.l2jmobius.gameserver.network.serverpackets.randomcraft.ExCraftInfo;
 import org.l2jmobius.gameserver.network.serverpackets.settings.ExItemAnnounceSetting;
 import org.l2jmobius.gameserver.network.serverpackets.steadybox.ExSteadyBoxUiInit;
@@ -453,8 +460,25 @@ public class EnterWorld implements ClientPacket
 		
 		Quest.playerEnter(player);
 		
-		// Send Quest List
-		player.sendPacket(new QuestList(player));
+		// Send quest list.
+		if (!Config.DISABLE_TUTORIAL)
+		{
+			player.sendPacket(new ExQuestNotificationAll(player));
+			for (NewQuest newQuest : NewQuestData.getInstance().getQuests())
+			{
+				final Quest quest = QuestManager.getInstance().getQuest(newQuest.getId());
+				if (quest != null)
+				{
+					final QuestState questState = player.getQuestState(quest.getScriptName());
+					if ((questState == null) && quest.canStartQuest(player) && !newQuest.getConditions().getSpecificStart())
+					{
+						player.sendPacket(new ExQuestDialog(quest.getId(), QuestDialogType.ACCEPT));
+						break; // Only send first dialog.
+					}
+				}
+			}
+		}
+		
 		if (Config.PLAYER_SPAWN_PROTECTION > 0)
 		{
 			player.setSpawnProtection(true);
@@ -705,6 +729,11 @@ public class EnterWorld implements ClientPacket
 			player.setBeastPoints(1000);
 			player.setBeastPoints(player.getVariables().getInt(PlayerVariables.BEAST_POINT_COUNT, 1000));
 		}
+		// Assassin points init.
+		else if (player.isAssassin() && player.isInCategory(CategoryType.FOURTH_CLASS_GROUP))
+		{
+			player.setAssassinationPoints(player.getVariables().getInt(PlayerVariables.ASSASSINATION_POINT_COUNT, 0));
+		}
 		
 		// Sayha's Grace.
 		if (Config.ENABLE_VITALITY)
@@ -730,6 +759,11 @@ public class EnterWorld implements ClientPacket
 		if (Config.ENABLE_ACHIEVEMENT_BOX)
 		{
 			player.sendPacket(new ExSteadyBoxUiInit(player));
+		}
+		
+		if ((player.getLevel() >= 40) && (player.getClassId().level() > 1))
+		{
+			player.initElementalSpirits();
 		}
 		
 		for (int category = 1; category <= 7; category++)
@@ -762,6 +796,9 @@ public class EnterWorld implements ClientPacket
 		
 		// World Trade.
 		WorldExchangeManager.getInstance().checkPlayerSellAlarm(player);
+		
+		// Dual inventory.
+		player.restoreDualInventory();
 		
 		if (Config.ENABLE_ATTENDANCE_REWARDS)
 		{

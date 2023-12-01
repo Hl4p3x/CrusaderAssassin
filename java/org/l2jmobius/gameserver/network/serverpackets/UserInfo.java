@@ -376,13 +376,15 @@ public class UserInfo extends AbstractMaskPacket<UserInfoType>
 		}
 		if (containsMask(UserInfoType.ATT_SPIRITS)) // 152
 		{
-			writeShort(26);
-			writeInt((int) _player.getActiveElementalSpiritAttack());
+			writeShort(34);
+			writeInt((int) _player.getFireSpiritAttack());
+			writeInt((int) _player.getWaterSpiritAttack());
+			writeInt((int) _player.getWindSpiritAttack());
+			writeInt((int) _player.getEarthSpiritAttack());
 			writeInt((int) _player.getFireSpiritDefense());
 			writeInt((int) _player.getWaterSpiritDefense());
 			writeInt((int) _player.getWindSpiritDefense());
 			writeInt((int) _player.getEarthSpiritDefense());
-			writeInt(_player.getActiveElementalSpiritType());
 		}
 		if (containsMask(UserInfoType.RANKING)) // 196
 		{

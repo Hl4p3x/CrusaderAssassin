@@ -58,6 +58,7 @@ public class PartySpelled extends ServerPacket
 			{
 				writeInt(info.getSkill().getDisplayId());
 				writeShort(info.getSkill().getDisplayLevel());
+				writeShort(0); // Sub level
 				writeInt(info.getSkill().getAbnormalType().getClientId());
 				writeOptionalInt(info.getTime());
 			}
@@ -68,6 +69,7 @@ public class PartySpelled extends ServerPacket
 			{
 				writeInt(skill.getDisplayId());
 				writeShort(skill.getDisplayLevel());
+				writeShort(0); // Sub level
 				writeInt(skill.getAbnormalType().getClientId());
 				writeShort(-1);
 			}

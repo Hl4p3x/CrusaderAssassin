@@ -389,7 +389,9 @@ import org.l2jmobius.gameserver.network.serverpackets.autopeel.ExStopItemAutoPee
 import org.l2jmobius.gameserver.network.serverpackets.autoplay.ExActivateAutoShortcut;
 import org.l2jmobius.gameserver.network.serverpackets.autoplay.ExAutoPlaySettingSend;
 import org.l2jmobius.gameserver.network.serverpackets.commission.ExResponseCommissionInfo;
+import org.l2jmobius.gameserver.network.serverpackets.dualinventory.ExDualInventorySwap;
 import org.l2jmobius.gameserver.network.serverpackets.elementalspirits.ElementalSpiritInfo;
+import org.l2jmobius.gameserver.network.serverpackets.elementalspirits.ExElementalSpiritAttackType;
 import org.l2jmobius.gameserver.network.serverpackets.friend.FriendStatus;
 import org.l2jmobius.gameserver.network.serverpackets.huntingzones.TimeRestrictFieldDieLimitTime;
 import org.l2jmobius.gameserver.network.serverpackets.limitshop.ExBloodyCoinCount;
@@ -521,6 +523,7 @@ public class Player extends Playable
 	protected int _classIndex = 0;
 	private boolean _isDeathKnight = false;
 	private boolean _isVanguard = false;
+	private boolean _isAssassin = false;
 	
 	/** data for mounted pets */
 	private int _controlItemId;
@@ -771,6 +774,10 @@ public class Player extends Playable
 	private int _beastPoints = 0;
 	private int _maxBeastPoints = 0;
 	
+	// Assasination points
+	private int _assassinationPoints = 0;
+	private final int _maxAssassinationPoints = 100000;
+	
 	// WorldPosition used by TARGET_SIGNET_GROUND
 	private Location _currentSkillWorldPosition;
 	
@@ -976,6 +983,10 @@ public class Player extends Playable
 	private final Map<Integer, PetEvolveHolder> _petEvolves = new HashMap<>();
 	
 	private MissionLevelPlayerDataHolder _missionLevelProgress = null;
+	
+	private int _dualInventorySlot = 0;
+	private List<Integer> _dualInventorySetA;
+	private List<Integer> _dualInventorySetB;
 	
 	private final List<QuestTimer> _questTimers = new ArrayList<>();
 	private final List<TimerHolder<?>> _timerHolders = new ArrayList<>();
@@ -1594,6 +1605,18 @@ public class Player extends Playable
 	public boolean hasQuestState(String quest)
 	{
 		return _quests.containsKey(quest);
+	}
+	
+	public boolean hasAnyCompletedQuestStates(List<Integer> questIds)
+	{
+		for (QuestState questState : _quests.values())
+		{
+			if (questIds.contains(questState.getQuest().getId()) && questState.isCompleted())
+			{
+				return true;
+			}
+		}
+		return false;
 	}
 	
 	/**
@@ -2407,6 +2430,8 @@ public class Player extends Playable
 		SystemMessage sm = null;
 		if (isEquiped)
 		{
+			getDualInventorySet().set(item.getLocationSlot(), 0);
+			
 			if (item.getEnchantLevel() > 0)
 			{
 				sm = new SystemMessage(SystemMessageId.S1_S2_UNEQUIPPED);
@@ -2462,6 +2487,8 @@ public class Player extends Playable
 				{
 					EventDispatcher.getInstance().notifyEventAsync(new OnPlayerItemEquip(this, item), item.getTemplate());
 				}
+				
+				getDualInventorySet().set(item.getLocationSlot(), item.getObjectId());
 			}
 			else
 			{
@@ -7010,15 +7037,14 @@ public class Player extends Playable
 					{
 						player._isVanguard = true;
 					}
+					else if (CategoryData.getInstance().isInCategory(CategoryType.ASSASSIN_ALL_CLASS, player.getBaseTemplate().getClassId().getId()))
+					{
+						player._isAssassin = true;
+					}
 					
 					player.setApprentice(rset.getInt("apprentice"));
 					player.setSponsor(rset.getInt("sponsor"));
 					player.setLvlJoinedAcademy(rset.getInt("lvl_joined_academy"));
-					
-					if ((player.getLevel() >= 40) && (player.getClassId().level() > 1))
-					{
-						player.initElementalSpirits();
-					}
 					
 					// Set Hero status if it applies.
 					player.setHero(Hero.getInstance().isHero(objectId));
@@ -7438,6 +7464,8 @@ public class Player extends Playable
 		storeSubjugation();
 		
 		_challengePoints.storeChallengePoints();
+		
+		storeDualInventory();
 		
 		final PlayerVariables vars = getScript(PlayerVariables.class);
 		if (vars != null)
@@ -9144,6 +9172,19 @@ public class Player extends Playable
 	public void setVanguard(boolean value)
 	{
 		_isVanguard = value;
+	}
+	
+	/**
+	 * @return True if the Player is a Assassin.
+	 */
+	public boolean isAssassin()
+	{
+		return _isAssassin;
+	}
+	
+	public void setAssassin(boolean value)
+	{
+		_isAssassin = value;
 	}
 	
 	public boolean isMounted()
@@ -11563,6 +11604,11 @@ public class Player extends Playable
 			getVariables().set(PlayerVariables.BEAST_POINT_COUNT, _beastPoints);
 		}
 		
+		if (_isAssassin)
+		{
+			getVariables().set(PlayerVariables.ASSASSINATION_POINT_COUNT, _assassinationPoints);
+		}
+		
 		// Make sure player variables are stored.
 		getVariables().storeMe();
 		
@@ -12306,6 +12352,28 @@ public class Player extends Playable
 		final StatusUpdate su = new StatusUpdate(this);
 		computeStatusUpdate(su, StatusUpdateType.MAX_BP);
 		computeStatusUpdate(su, StatusUpdateType.CUR_BP);
+		sendPacket(su);
+	}
+	
+	public int getAssassinationPoints()
+	{
+		return _assassinationPoints;
+	}
+	
+	public int getMaxAssassinationPoints()
+	{
+		return _maxAssassinationPoints;
+	}
+	
+	public void setAssassinationPoints(int value)
+	{
+		// Set current points.
+		_assassinationPoints = Math.min(_maxAssassinationPoints, Math.max(0, value));
+		
+		// Send StatusUpdate.
+		final StatusUpdate su = new StatusUpdate(this);
+		computeStatusUpdate(su, StatusUpdateType.MAX_AP);
+		computeStatusUpdate(su, StatusUpdateType.CUR_AP);
 		sendPacket(su);
 	}
 	
@@ -14925,6 +14993,10 @@ public class Player extends Playable
 		{
 			addStatusUpdateValue(StatusUpdateType.CUR_BP);
 		}
+		else if (_isAssassin)
+		{
+			addStatusUpdateValue(StatusUpdateType.CUR_AP);
+		}
 	}
 	
 	public TrainingHolder getTraingCampInfo()
@@ -15156,13 +15228,37 @@ public class Player extends Playable
 					_activeElementalSpiritType = ElementalType.of(spiritData.getType());
 				}
 			}
-			ThreadPool.schedule(() -> sendPacket(new ElementalSpiritInfo(this, getActiveElementalSpiritType(), (byte) 0)), 2000);
+			ThreadPool.schedule(() ->
+			{
+				sendPacket(new ElementalSpiritInfo(this, (byte) 0));
+				sendPacket(new ExElementalSpiritAttackType(this));
+			}, 4000);
 		}
 	}
 	
 	public double getActiveElementalSpiritAttack()
 	{
 		return getStat().getElementalSpiritPower(_activeElementalSpiritType, CommonUtil.zeroIfNullOrElse(getElementalSpirit(_activeElementalSpiritType), ElementalSpirit::getAttack));
+	}
+	
+	public double getFireSpiritAttack()
+	{
+		return getElementalSpiritAttackOf(ElementalType.FIRE);
+	}
+	
+	public double getWaterSpiritAttack()
+	{
+		return getElementalSpiritAttackOf(ElementalType.WATER);
+	}
+	
+	public double getWindSpiritAttack()
+	{
+		return getElementalSpiritAttackOf(ElementalType.WIND);
+	}
+	
+	public double getEarthSpiritAttack()
+	{
+		return getElementalSpiritAttackOf(ElementalType.EARTH);
 	}
 	
 	public double getFireSpiritDefense()
@@ -15189,6 +15285,12 @@ public class Player extends Playable
 	public double getElementalSpiritDefenseOf(ElementalType type)
 	{
 		return getStat().getElementalSpiritDefense(type, CommonUtil.zeroIfNullOrElse(getElementalSpirit(type), ElementalSpirit::getDefense));
+	}
+	
+	@Override
+	public double getElementalSpiritAttackOf(ElementalType type)
+	{
+		return getStat().getElementSpiritAttack(type, CommonUtil.zeroIfNullOrElse(getElementalSpirit(type), ElementalSpirit::getAttack));
 	}
 	
 	public double getElementalSpiritCritRate()
@@ -15230,6 +15332,7 @@ public class Player extends Playable
 				if (spirit != null)
 				{
 					spirit.setInUse(spirit.getType() == element);
+					sendPacket(new ExElementalSpiritAttackType(this));
 				}
 			}
 		}
@@ -15300,6 +15403,7 @@ public class Player extends Playable
 		final int potionPercent = settings.get(5);
 		final boolean respectfulHunting = settings.get(6) == 1;
 		final int petPotionPercent = settings.size() < 8 ? 0 : settings.get(7);
+		final int macroIndex = settings.size() < 9 ? 0 : settings.get(8);
 		
 		getAutoPlaySettings().setAutoPotionPercent(potionPercent);
 		getAutoPlaySettings().setOptions(options);
@@ -15308,6 +15412,7 @@ public class Player extends Playable
 		getAutoPlaySettings().setShortRange(shortRange);
 		getAutoPlaySettings().setRespectfulHunting(respectfulHunting);
 		getAutoPlaySettings().setAutoPetPotionPercent(petPotionPercent);
+		getAutoPlaySettings().setMacroIndex(macroIndex);
 		
 		sendPacket(new ExAutoPlaySettingSend(options, active, pickUp, nextTargetMode, shortRange, potionPercent, respectfulHunting, petPotionPercent));
 		
@@ -16048,5 +16153,119 @@ public class Player extends Playable
 			}
 		}
 		return _missionLevelProgress;
+	}
+	
+	private void storeDualInventory()
+	{
+		getVariables().set(PlayerVariables.DUAL_INVENTORY_SLOT, _dualInventorySlot);
+		getVariables().setIntegerList(PlayerVariables.DUAL_INVENTORY_SET_A, _dualInventorySetA);
+		getVariables().setIntegerList(PlayerVariables.DUAL_INVENTORY_SET_B, _dualInventorySetB);
+	}
+	
+	public void restoreDualInventory()
+	{
+		_dualInventorySlot = getVariables().getInt(PlayerVariables.DUAL_INVENTORY_SLOT, 0);
+		
+		if (getVariables().contains(PlayerVariables.DUAL_INVENTORY_SET_A))
+		{
+			_dualInventorySetA = getVariables().getIntegerList(PlayerVariables.DUAL_INVENTORY_SET_A);
+		}
+		else
+		{
+			final List<Integer> list = new ArrayList<>(Inventory.PAPERDOLL_TOTALSLOTS);
+			for (int i = 0; i < Inventory.PAPERDOLL_TOTALSLOTS; i++)
+			{
+				list.add(getInventory().getPaperdollObjectId(i));
+			}
+			getVariables().setIntegerList(PlayerVariables.DUAL_INVENTORY_SET_A, list);
+			_dualInventorySetA = list;
+		}
+		
+		if (getVariables().contains(PlayerVariables.DUAL_INVENTORY_SET_B))
+		{
+			_dualInventorySetB = getVariables().getIntegerList(PlayerVariables.DUAL_INVENTORY_SET_B);
+		}
+		else
+		{
+			final List<Integer> list = new ArrayList<>(Inventory.PAPERDOLL_TOTALSLOTS);
+			for (int i = 0; i < Inventory.PAPERDOLL_TOTALSLOTS; i++)
+			{
+				list.add(0);
+			}
+			getVariables().setIntegerList(PlayerVariables.DUAL_INVENTORY_SET_B, list);
+			_dualInventorySetB = list;
+		}
+		
+		sendPacket(new ExDualInventorySwap(_dualInventorySlot));
+	}
+	
+	public void setDualInventorySlot(int slot)
+	{
+		_dualInventorySlot = slot;
+		
+		boolean changed = false;
+		final List<Integer> itemObjectIds = getDualInventorySet();
+		for (int i = 0; i < Inventory.PAPERDOLL_TOTALSLOTS; i++)
+		{
+			final int existingObjectId = getInventory().getPaperdollObjectId(i);
+			final int itemObjectId = itemObjectIds.get(i);
+			if (existingObjectId != itemObjectId)
+			{
+				changed = true;
+				
+				if (existingObjectId > 0)
+				{
+					getInventory().unEquipItemInSlot(i);
+				}
+				
+				if (itemObjectId > 0)
+				{
+					final Item item = getInventory().getItemByObjectId(itemObjectId);
+					if (item != null)
+					{
+						useEquippableItem(item, false);
+					}
+				}
+			}
+		}
+		
+		sendPacket(new ExDualInventorySwap(slot));
+		
+		if (changed)
+		{
+			sendItemList();
+			broadcastUserInfo();
+		}
+	}
+	
+	private List<Integer> getDualInventorySet()
+	{
+		return _dualInventorySlot == 0 ? _dualInventorySetA : _dualInventorySetB;
+	}
+	
+	public int getSkillEnchantExp(int level)
+	{
+		return getVariables().getInt(PlayerVariables.SKILL_ENCHANT_STAR + level, 0);
+	}
+	
+	public void setSkillEnchantExp(int level, int exp)
+	{
+		getVariables().set(PlayerVariables.SKILL_ENCHANT_STAR + level, exp);
+	}
+	
+	public void increaseTrySkillEnchant(int level)
+	{
+		final int currentTry = getSkillTryEnchant(level) + 1;
+		getVariables().set(PlayerVariables.SKILL_TRY_ENCHANT + level, currentTry);
+	}
+	
+	public int getSkillTryEnchant(int level)
+	{
+		return getVariables().getInt(PlayerVariables.SKILL_TRY_ENCHANT + level, 1);
+	}
+	
+	public void setSkillTryEnchant(int level)
+	{
+		getVariables().set(PlayerVariables.SKILL_TRY_ENCHANT + level, 1);
 	}
 }

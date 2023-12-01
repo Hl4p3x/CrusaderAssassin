@@ -21,18 +21,16 @@ import org.l2jmobius.gameserver.model.actor.Player;
 import org.l2jmobius.gameserver.network.ServerPackets;
 
 /**
- * @author JoeAlisson
+ * @author Magik
  */
 public class ElementalSpiritInfo extends AbstractElementalSpiritPacket
 {
 	private final Player _player;
-	private final byte _spiritType;
 	private final byte _type;
 	
-	public ElementalSpiritInfo(Player player, byte spiritType, byte packetType)
+	public ElementalSpiritInfo(Player player, byte packetType)
 	{
 		_player = player;
-		_spiritType = spiritType;
 		_type = packetType;
 	}
 	
@@ -48,18 +46,19 @@ public class ElementalSpiritInfo extends AbstractElementalSpiritPacket
 			writeByte(0);
 			return;
 		}
+		
 		writeByte(_type); // show spirit info window 1; Change type 2; Only update 0
-		writeByte(_spiritType);
 		writeByte(spirits.length); // spirit count
+		
 		for (ElementalSpirit spirit : spirits)
 		{
 			writeByte(spirit.getType());
-			writeByte(1); // spirit active ?
-			// if active
+			writeByte(1);
 			writeSpiritInfo(spirit);
 		}
+		
 		writeInt(1); // Reset talent items count
-		for (int j = 0; j < 1; j++)
+		for (int i = 0; i < 1; i++)
 		{
 			writeInt(57);
 			writeLong(50000);

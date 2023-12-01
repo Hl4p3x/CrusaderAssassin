@@ -32,8 +32,8 @@ import java.util.stream.Collectors;
 
 import org.l2jmobius.Config;
 import org.l2jmobius.commons.util.Rnd;
-import org.l2jmobius.gameserver.data.xml.EnchantSkillGroupsData;
 import org.l2jmobius.gameserver.data.xml.SkillData;
+import org.l2jmobius.gameserver.data.xml.SkillEnchantData;
 import org.l2jmobius.gameserver.data.xml.SkillTreeData;
 import org.l2jmobius.gameserver.enums.AttributeType;
 import org.l2jmobius.gameserver.enums.BasicProperty;
@@ -1844,6 +1844,6 @@ public class Skill implements IIdentifiable
 	
 	public boolean isEnchantable()
 	{
-		return EnchantSkillGroupsData.getInstance().isEnchantable(this);
+		return SkillEnchantData.getInstance().getSkillEnchant(getId()) != null;
 	}
 }

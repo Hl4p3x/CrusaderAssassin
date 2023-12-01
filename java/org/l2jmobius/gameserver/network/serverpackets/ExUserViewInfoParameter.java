@@ -47,10 +47,10 @@ public class ExUserViewInfoParameter extends ServerPacket
 		// Number of parameters.
 		writeInt(185);
 		
-		// XXX Attack Section
+		// ################################## ATTACK ##############################
 		// P. Atk. (%)
 		writeShort(index++);
-		writeInt((_player.getPAtk() / Config.MAX_PATK) * 100);
+		writeInt((int) _player.getStat().getValue(Stat.PHYSICAL_ATTACK, 0));
 		
 		// P. Atk. (num.)
 		writeShort(index++);
@@ -58,7 +58,7 @@ public class ExUserViewInfoParameter extends ServerPacket
 		
 		// M. Atk. (%)
 		writeShort(index++);
-		writeInt((_player.getMAtk() / Config.MAX_MATK) * 100);
+		writeInt((int) _player.getStat().getValue(Stat.MAGIC_ATTACK, 0));
 		
 		// M. Atk. (num)
 		writeShort(index++);
@@ -102,7 +102,7 @@ public class ExUserViewInfoParameter extends ServerPacket
 		
 		// Inflicted PvP Damage
 		writeShort(index++);
-		writeInt(0);
+		writeInt((int) _player.getStat().getValue(Stat.PVP_PHYSICAL_ATTACK_DAMAGE, 0));
 		
 		// PvP Damage Decrease Ignore
 		writeShort(index++);
@@ -122,11 +122,11 @@ public class ExUserViewInfoParameter extends ServerPacket
 		
 		// PvE Damage
 		writeShort(index++);
-		writeInt(0);
+		writeInt((int) _player.getStat().getValue(Stat.PVE_DAMAGE_TAKEN) * 100);
 		
 		// PvE Damage Decrease Ignore
 		writeShort(index++);
-		writeInt(0);
+		writeInt((int) _player.getStat().getValue(Stat.PVE_PHYSICAL_SKILL_DAMAGE) * 100);
 		
 		// Basic Power
 		writeShort(index++);
@@ -142,11 +142,19 @@ public class ExUserViewInfoParameter extends ServerPacket
 		
 		// AoE Skill Damage
 		writeShort(index++);
-		writeInt(0);
+		writeInt((int) _player.getStat().getValue(Stat.AREA_OF_EFFECT_DAMAGE_MODIFY) * 100);
 		
 		// Damage Bonus - Sword
 		writeShort(index++);
 		writeInt(((_player.getActiveWeaponInstance() != null) && (_player.getActiveWeaponInstance().getItemType() == WeaponType.SWORD)) ? _player.getStat().getWeaponBonusPAtk() : 0);
+		
+		// Damage Bonus - Sword Two hand
+		writeShort(index++);
+		writeInt(0);
+		
+		// Damage Bonus - Magic Sword
+		writeShort(index++);
+		writeInt(0);
 		
 		// Damage Bonus - Ancient Sword
 		writeShort(index++);
@@ -160,9 +168,21 @@ public class ExUserViewInfoParameter extends ServerPacket
 		writeShort(index++);
 		writeInt((_player.getActiveWeaponInstance() != null) && (_player.getActiveWeaponInstance().getItemType() == WeaponType.RAPIER) ? _player.getStat().getWeaponBonusPAtk() : 0);
 		
-		// Damage Bonus - Blunt Weapon
+		// Damage Bonus - Blunt Weapon (one hand)
 		writeShort(index++);
 		writeInt((_player.getActiveWeaponInstance() != null) && ((_player.getActiveWeaponInstance().getItemType() == WeaponType.ETC) || (_player.getActiveWeaponInstance().getItemType() == WeaponType.BLUNT) || (_player.getActiveWeaponInstance().getItemType() == WeaponType.DUALBLUNT)) ? _player.getStat().getWeaponBonusPAtk() : 0);
+		
+		// Damage Bonus - Blunt Weapon (two hand)
+		writeShort(index++);
+		writeInt(0);
+		
+		// Damage Bonus - Magic Blunt Weapon (one hand)
+		writeShort(index++);
+		writeInt(0);
+		
+		// Damage Bonus - Magic Blunt Weapon (two hand)
+		writeShort(index++);
+		writeInt(0);
 		
 		// Damage Bonus - Spear
 		writeShort(index++);
@@ -184,10 +204,10 @@ public class ExUserViewInfoParameter extends ServerPacket
 		writeShort(index++);
 		writeInt((_player.getActiveWeaponInstance() != null) && (_player.getActiveWeaponInstance().getItemType() == WeaponType.PISTOLS) ? _player.getStat().getWeaponBonusPAtk() : 0);
 		
-		// XXX Defense Section
+		// ################################## DEFENCE ##############################
 		// P. Def. (%)
 		writeShort(index++);
-		writeInt((_player.getTemplate().getBasePDef() / _player.getPDef()) * 100);
+		writeInt((int) _player.getStat().getValue(Stat.PHYSICAL_DEFENCE) * 100);
 		
 		// P. Def. (num.)
 		writeShort(index++);
@@ -195,7 +215,7 @@ public class ExUserViewInfoParameter extends ServerPacket
 		
 		// M. Def. (%)
 		writeShort(index++);
-		writeInt((_player.getTemplate().getBaseMDef() / _player.getMDef()) * 100);
+		writeInt((int) _player.getStat().getValue(Stat.MAGICAL_DEFENCE) * 100);
 		
 		// M. Def. (num.)
 		writeShort(index++);
@@ -211,15 +231,15 @@ public class ExUserViewInfoParameter extends ServerPacket
 		
 		// Received basic PvP Damage
 		writeShort(index++);
-		writeInt(0);
+		writeInt((int) _player.getStat().getValue(Stat.PVP_PHYSICAL_ATTACK_DEFENCE) * 100);
 		
 		// Received P. Skill Damage in PvP
 		writeShort(index++);
-		writeInt(0);
+		writeInt((int) _player.getStat().getValue(Stat.PVP_PHYSICAL_SKILL_DEFENCE) * 100);
 		
 		// Received M. Skill Damage in PvP
 		writeShort(index++);
-		writeInt(0);
+		writeInt((int) _player.getStat().getValue(Stat.PVP_MAGICAL_SKILL_DEFENCE) * 100);
 		
 		// Received PvP Damage
 		writeShort(index++);
@@ -235,11 +255,11 @@ public class ExUserViewInfoParameter extends ServerPacket
 		
 		// Received P. Skill Damage in PvE
 		writeShort(index++);
-		writeInt(0);
+		writeInt((int) _player.getStat().getValue(Stat.PVE_PHYSICAL_SKILL_DAMAGE) * 100);
 		
 		// Received M. Skill Damage in PvE
 		writeShort(index++);
-		writeInt(0);
+		writeInt((int) _player.getStat().getValue(Stat.PVE_MAGICAL_SKILL_DAMAGE) * 100);
 		
 		// Received PvE Damage
 		writeShort(index++);
@@ -255,17 +275,25 @@ public class ExUserViewInfoParameter extends ServerPacket
 		
 		// P. Skill Power when hit
 		writeShort(index++);
-		writeInt(0);
+		writeInt((int) _player.getStat().getValue(Stat.PHYSICAL_SKILL_POWER) * 100);
 		
 		// M. Skill Power when hit
 		writeShort(index++);
-		writeInt(0);
+		writeInt((int) _player.getStat().getValue(Stat.MAGICAL_SKILL_POWER) * 100);
 		
 		// Received AoE Skill Damage
 		writeShort(index++);
-		writeInt(0);
+		writeInt((int) _player.getStat().getValue(Stat.AREA_OF_EFFECT_DAMAGE_DEFENCE) * 100);
 		
-		// Damage Resistance Bonus - Sword
+		// Damage Resistance Bonus - One hand Sword
+		writeShort(index++);
+		writeInt((int) _player.getStat().getDefenceTrait(TraitType.SWORD) * 100);
+		
+		// Damage Resistance Bonus - Two hand Sword
+		writeShort(index++);
+		writeInt((int) _player.getStat().getDefenceTrait(TraitType.SWORD) * 100);
+		
+		// Damage Resistance Bonus - Magic Sword
 		writeShort(index++);
 		writeInt((int) _player.getStat().getDefenceTrait(TraitType.SWORD) * 100);
 		
@@ -281,7 +309,19 @@ public class ExUserViewInfoParameter extends ServerPacket
 		writeShort(index++);
 		writeInt((int) _player.getStat().getDefenceTrait(TraitType.RAPIER) * 100);
 		
-		// Damage Resistance Bonus - Blunt Weapon
+		// Damage Resistance Bonus - Blunt Weapon one hand
+		writeShort(index++);
+		writeInt((int) _player.getStat().getDefenceTrait(TraitType.BLUNT) * 100);
+		
+		// Damage Resistance Bonus - Blunt Weapon two hand
+		writeShort(index++);
+		writeInt((int) _player.getStat().getDefenceTrait(TraitType.BLUNT) * 100);
+		
+		// Damage Resistance Bonus - Magic Blunt Weapon (one hand)
+		writeShort(index++);
+		writeInt((int) _player.getStat().getDefenceTrait(TraitType.BLUNT) * 100);
+		
+		// Damage Resistance Bonus - Magic Blunt Weapon (two hand)
 		writeShort(index++);
 		writeInt((int) _player.getStat().getDefenceTrait(TraitType.BLUNT) * 100);
 		
@@ -307,8 +347,7 @@ public class ExUserViewInfoParameter extends ServerPacket
 		
 		// Shield Defense (%)
 		writeShort(index++);
-		// writeInt((_player.getStat().getShldDef() - _player.getShldDef()) / _player.getShldDef());
-		writeInt(_player.getStat().getShldDef());
+		writeInt((int) _player.getStat().getValue(Stat.SHIELD_DEFENCE) * 100);
 		
 		// Shield Defence (num.)
 		writeShort(index++);
@@ -320,36 +359,36 @@ public class ExUserViewInfoParameter extends ServerPacket
 		
 		// M. Damage Resistance (%)
 		writeShort(index++);
-		writeInt(0);
+		writeInt((int) _player.getStat().getValue(Stat.ABNORMAL_RESIST_MAGICAL) * 100);
 		
 		// M. Damage Resistance (num.)
 		writeShort(index++);
-		writeInt(0);
+		writeInt(_player.getMDef());
 		
 		// M. Damage Reflection (%)
 		writeShort(index++);
-		writeInt(0);
+		writeInt((int) _player.getStat().getValue(Stat.REFLECT_DAMAGE_PERCENT) * 100);
 		
 		// M. Damage Reflection Resistance
 		writeShort(index++);
-		writeInt(0);
+		writeInt((int) _player.getStat().getValue(Stat.REFLECT_DAMAGE_PERCENT_DEFENSE) * 100);
 		
 		// Received Fixed Damage (%)
 		writeShort(index++);
-		writeInt(0);
+		writeInt((int) _player.getStat().getValue(Stat.REAL_DAMAGE_RESIST) * 100);
 		
 		// Casting Interruption Rate (%)
 		writeShort(index++);
-		writeInt(0);
+		writeInt((int) _player.getStat().getValue(Stat.ATTACK_CANCEL) * 100);
 		
 		// Casting Interruption Rate (num.)
 		writeShort(index++);
 		writeInt(0);
 		
-		// XXX Accuracy Section
+		// ################################## ACCURACY ##############################
 		// P. Accuracy (%)
 		writeShort(index++);
-		writeInt(0);
+		writeInt((int) _player.getStat().getValue(Stat.ACCURACY_COMBAT) * 100);
 		
 		// P. Accuracy (num.)
 		writeShort(index++);
@@ -357,7 +396,7 @@ public class ExUserViewInfoParameter extends ServerPacket
 		
 		// M. Accuracy (%)
 		writeShort(index++);
-		writeInt(0);
+		writeInt((int) _player.getStat().getValue(Stat.ACCURACY_MAGIC) * 100);
 		
 		// M. Accuracy (num.)
 		writeShort(index++);
@@ -365,13 +404,13 @@ public class ExUserViewInfoParameter extends ServerPacket
 		
 		// Vital Point Attack Rate (%)
 		writeShort(index++);
-		writeInt(0);
+		writeInt((int) _player.getStat().getValue(Stat.BLOW_RATE) * 100);
 		
 		// Vital Point Attack Rate (num.)
 		writeShort(index++);
 		writeInt(0);
 		
-		// XXX Evasion Section
+		// ################################## EVASION ##############################
 		// P. Evasion (%)
 		writeShort(index++);
 		writeInt(((_player.getEvasionRate() * 100) / Config.MAX_EVASION));
@@ -390,7 +429,7 @@ public class ExUserViewInfoParameter extends ServerPacket
 		
 		// Received Vital Point Attack Rate (%)
 		writeShort(index++);
-		writeInt(0);
+		writeInt((int) _player.getStat().getValue(Stat.BLOW_RATE_DEFENCE) * 100);
 		
 		// Received Vital Point Attack Rate (num.)
 		writeShort(index++);
@@ -398,13 +437,13 @@ public class ExUserViewInfoParameter extends ServerPacket
 		
 		// P. Skill Evasion (%)
 		writeShort(index++);
-		writeInt(0);
+		writeInt((int) _player.getStat().getValue(Stat.EVASION_RATE) * 100);
 		
 		// M. Skill Evasion (%)
 		writeShort(index++);
-		writeInt(0);
+		writeInt((int) _player.getStat().getValue(Stat.MAGIC_EVASION_RATE) * 100);
 		
-		// XXX Speed Section
+		// ################################## SPEED ##############################
 		// Atk. Spd. (%)
 		writeShort(index++);
 		writeInt(((_player.getPAtkSpd() * 100) / Config.MAX_PATK_SPEED));
@@ -429,7 +468,7 @@ public class ExUserViewInfoParameter extends ServerPacket
 		writeShort(index++);
 		writeInt((int) _player.getStat().getMoveSpeed());
 		
-		// XXX Critical Rate Section
+		// ################################## CRITICAL RATE ##############################
 		// Basic Critical Rate (%)
 		writeShort(index++);
 		writeInt(_player.getStat().getCriticalHit());
@@ -440,23 +479,23 @@ public class ExUserViewInfoParameter extends ServerPacket
 		
 		// P. Skill Critical Rate (%)
 		writeShort(index++);
-		writeInt(0);
+		writeInt((int) _player.getStat().getValue(Stat.CRITICAL_RATE_SKILL) * 100);
 		
 		// P. Skill Critical Rate (num.)
 		writeShort(index++);
-		writeInt(0);
+		writeInt(_player.getCriticalHit());
 		
 		// M. Skill Critical Rate (%)
 		writeShort(index++);
-		writeInt(0);
+		writeInt((int) _player.getStat().getValue(Stat.MAGIC_CRITICAL_RATE) * 100);
 		
 		// M. Skill Critical Rate (num.)
 		writeShort(index++);
-		writeInt(0);
+		writeInt(_player.getMCriticalHit());
 		
 		// Received basic Critical Rate (%)
 		writeShort(index++);
-		writeInt(0);
+		writeInt((int) _player.getStat().getValue(Stat.CRITICAL_RATE) * 100);
 		
 		// Received basic Critical Rate (num.)
 		writeShort(index++);
@@ -464,21 +503,21 @@ public class ExUserViewInfoParameter extends ServerPacket
 		
 		// Received P. Skill Critical Rate (%)
 		writeShort(index++);
-		writeInt(0);
+		writeInt((int) _player.getStat().getValue(Stat.DEFENCE_CRITICAL_RATE) * 100);
 		
 		// Received P. Skill Critical Rate (num.)
 		writeShort(index++);
-		writeInt(0);
+		writeInt((int) _player.getStat().getValue(Stat.DEFENCE_CRITICAL_RATE_ADD));
 		
 		// Received M. Skill Critical Rate (%)
 		writeShort(index++);
-		writeInt(0);
+		writeInt((int) _player.getStat().getValue(Stat.DEFENCE_MAGIC_CRITICAL_RATE) * 100);
 		
 		// Received M. Skill Critical Rate (num.)
 		writeShort(index++);
-		writeInt(0);
+		writeInt((int) _player.getStat().getValue(Stat.DEFENCE_MAGIC_CRITICAL_RATE_ADD));
 		
-		// XXX Critical Damage Section
+		// ################################## CRITICAL DAMAGE ##############################
 		// Basic Critical Damage (%)
 		writeShort(index++);
 		writeInt((int) _player.getStat().getValue(Stat.CRITICAL_DAMAGE) * 100);
@@ -489,23 +528,23 @@ public class ExUserViewInfoParameter extends ServerPacket
 		
 		// P. Skill Critical Damage (%)
 		writeShort(index++);
-		writeInt(0);
+		writeInt((int) _player.getStat().getValue(Stat.PHYSICAL_SKILL_CRITICAL_DAMAGE) * 100);
 		
 		// P. Skill Critical Damage (num.)
 		writeShort(index++);
-		writeInt(0);
+		writeInt((int) _player.getStat().getValue(Stat.PHYSICAL_SKILL_CRITICAL_DAMAGE_ADD));
 		
 		// M. Skill Critical Damage (%)
 		writeShort(index++);
-		writeInt(0);
+		writeInt((int) _player.getStat().getValue(Stat.MAGIC_CRITICAL_DAMAGE) * 100);
 		
 		// M. Skill Critical Damage (num.)
 		writeShort(index++);
-		writeInt(0);
+		writeInt((int) _player.getStat().getValue(Stat.MAGIC_CRITICAL_DAMAGE_ADD));
 		
 		// Received Basic Critical Damage (%)
 		writeShort(index++);
-		writeInt(0);
+		writeInt((int) _player.getStat().getValue(Stat.DEFENCE_CRITICAL_DAMAGE) * 100);
 		
 		// Received Basic Critical Damage (num.)
 		writeShort(index++);
@@ -513,21 +552,21 @@ public class ExUserViewInfoParameter extends ServerPacket
 		
 		// Received P. Skill Critical Damage (%)
 		writeShort(index++);
-		writeInt(0);
+		writeInt((int) _player.getStat().getValue(Stat.DEFENCE_PHYSICAL_SKILL_CRITICAL_DAMAGE) * 100);
 		
 		// Received P. Skill Critical Damage (num.)
 		writeShort(index++);
-		writeInt(0);
+		writeInt((int) _player.getStat().getValue(Stat.DEFENCE_PHYSICAL_SKILL_CRITICAL_DAMAGE_ADD));
 		
 		// Received M. Skill Critical Damage (%)
 		writeShort(index++);
-		writeInt(0);
+		writeInt((int) _player.getStat().getValue(Stat.DEFENCE_MAGIC_CRITICAL_DAMAGE) * 100);
 		
 		// Received M. Skill Critical Damage (num.)
 		writeShort(index++);
-		writeInt(0);
+		writeInt((int) _player.getStat().getValue(Stat.DEFENCE_MAGIC_CRITICAL_DAMAGE_ADD));
 		
-		// XXX Recovery Section
+		// ################################## RECOVERY ##############################
 		// HP ReCovery Potions' Effect (%)
 		writeShort(index++);
 		writeInt((int) _player.getStat().getValue(Stat.ADDITIONAL_POTION_HP) * 100);
@@ -546,7 +585,7 @@ public class ExUserViewInfoParameter extends ServerPacket
 		
 		// HP Recovery Rate (%)
 		writeShort(index++);
-		writeInt(_player.getStat().getHpRegen());
+		writeInt((int) _player.getStat().getValue(Stat.REGENERATE_HP_RATE) * 100);
 		
 		// HP Recovery Rate (num.)
 		writeShort(index++);
@@ -586,7 +625,7 @@ public class ExUserViewInfoParameter extends ServerPacket
 		
 		// MP Recovery Rate (%)
 		writeShort(index++);
-		writeInt(_player.getStat().getMpRegen());
+		writeInt((int) _player.getStat().getValue(Stat.REGENERATE_MP_RATE) * 100);
 		
 		// MP Recovery Rate (num.)
 		writeShort(index++);
@@ -626,7 +665,7 @@ public class ExUserViewInfoParameter extends ServerPacket
 		
 		// CP Recovery Rate (%)
 		writeShort(index++);
-		writeInt(_player.getStat().getCpRegen());
+		writeInt((int) _player.getStat().getValue(Stat.REGENERATE_CP_RATE) * 100);
 		
 		// CP Recovery Rate (num.)
 		writeShort(index++);
@@ -664,7 +703,7 @@ public class ExUserViewInfoParameter extends ServerPacket
 		writeShort(index++);
 		writeInt(_player.isRunning() ? _player.getStat().getCpRegen() : 0);
 		
-		// XXX Skill Cooldown Section
+		// ################################## SKILL COOLDOWN ##############################
 		// P. Skill Cooldown (%)
 		writeShort(index++);
 		writeInt((int) _player.getStat().getReuseTypeValue(1) * 100);
@@ -677,7 +716,7 @@ public class ExUserViewInfoParameter extends ServerPacket
 		writeShort(index++);
 		writeInt((int) _player.getStat().getReuseTypeValue(3) * 100);
 		
-		// XXX MP Consumption Section
+		// ################################## MP CONSUMPTION ##############################
 		// P. Skill MP Consumption Decrease (%)
 		writeShort(index++);
 		writeInt((int) _player.getStat().getMpConsumeTypeValue(1) * 100);
@@ -702,7 +741,7 @@ public class ExUserViewInfoParameter extends ServerPacket
 		writeShort(index++);
 		writeInt((int) _player.getStat().getMpConsumeTypeValue(3) * 100);
 		
-		// XXX Anomalies Section
+		// ################################## ANOMALIES ##############################
 		// Buff Cancel Resistance Bonus (%)
 		writeShort(index++);
 		writeInt((int) _player.getStat().getValue(Stat.RESIST_DISPEL_BUFF) * 100);
@@ -710,6 +749,10 @@ public class ExUserViewInfoParameter extends ServerPacket
 		// Debuff/ Anomaly Resistance Bonus (%)
 		writeShort(index++);
 		writeInt((int) _player.getStat().getValue(Stat.ABNORMAL_RESIST_MAGICAL) * 100);
+		
+		// Unequip Resistance (%)
+		writeShort(index++);
+		writeInt(4600); // 46%
 		
 		// Paralysis Atk. Rate (%)
 		writeShort(index++);

@@ -185,7 +185,7 @@ public class RequestItemEnsoul implements ClientPacket
 			final EnsoulOption option = EnsoulData.getInstance().getOption(itemOption.getSoulCrystalOption());
 			if (option == null)
 			{
-				PacketLogger.warning("Player: " + player + " attempting to ensoul item option that doesn't exist!");
+				PacketLogger.warning("Player: " + player + " attempting to ensoul item option that doesn't exists!");
 				continue;
 			}
 			
@@ -216,7 +216,7 @@ public class RequestItemEnsoul implements ClientPacket
 			
 			if (fee == null)
 			{
-				PacketLogger.warning("Player: " + player + " attempting to ensoul item option that doesn't exist! (unknown fee)");
+				PacketLogger.warning("Player: " + player + " attempting to ensoul item option that doesn't exists! (unknown fee)");
 				continue;
 			}
 			

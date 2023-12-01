@@ -26,11 +26,17 @@ import org.l2jmobius.gameserver.enums.QuestSound;
 import org.l2jmobius.gameserver.enums.QuestType;
 import org.l2jmobius.gameserver.instancemanager.QuestManager;
 import org.l2jmobius.gameserver.model.actor.Player;
+import org.l2jmobius.gameserver.model.events.Containers;
 import org.l2jmobius.gameserver.model.events.EventDispatcher;
 import org.l2jmobius.gameserver.model.events.EventType;
+import org.l2jmobius.gameserver.model.events.impl.creature.player.OnPlayerQuestAccept;
 import org.l2jmobius.gameserver.model.events.impl.creature.player.OnPlayerQuestComplete;
-import org.l2jmobius.gameserver.network.serverpackets.ExShowQuestMark;
+import org.l2jmobius.gameserver.model.quest.newquestdata.QuestCondType;
 import org.l2jmobius.gameserver.network.serverpackets.QuestList;
+import org.l2jmobius.gameserver.network.serverpackets.quest.ExQuestAcceptableList;
+import org.l2jmobius.gameserver.network.serverpackets.quest.ExQuestNotification;
+import org.l2jmobius.gameserver.network.serverpackets.quest.ExQuestNotificationAll;
+import org.l2jmobius.gameserver.network.serverpackets.quest.ExQuestUI;
 
 /**
  * Quest state class.
@@ -42,6 +48,7 @@ public class QuestState
 	
 	// Constants
 	private static final String COND_VAR = "cond";
+	private static final String COUNT_VAR = "count";
 	private static final String RESTART_VAR = "restartTime";
 	private static final String MEMO_VAR = "memoState";
 	private static final String MEMO_EX_VAR = "memoStateEx";
@@ -394,13 +401,8 @@ public class QuestState
 		}
 		
 		// send a packet to the client to inform it of the quest progress (step change)
-		_player.sendPacket(new QuestList(_player));
-		
-		final Quest q = getQuest();
-		if (!q.isCustomQuest() && (cond > 0))
-		{
-			_player.sendPacket(new ExShowQuestMark(q.getId(), getCond()));
-		}
+		_player.sendPacket(new ExQuestUI(_player));
+		_player.sendPacket(new ExQuestNotificationAll(_player));
 	}
 	
 	/**
@@ -487,12 +489,23 @@ public class QuestState
 	}
 	
 	/**
+	 * Checks if the quest state progress ({@code cond}) is at the specified step.
+	 * @param condition the condition to check against
+	 * @return {@code true} if the quest condition is equal to {@code condition}, {@code false} otherwise
+	 * @see #getInt(String var)
+	 */
+	public boolean isCond(QuestCondType condition)
+	{
+		return _cond == condition.getId();
+	}
+	
+	/**
 	 * Sets the quest state progress ({@code cond}) to the specified step.
-	 * @param value the new value of the quest state progress
+	 * @param condition the new condition of the quest state progress
 	 * @see #set(String var, String value)
 	 * @see #setCond(int, boolean)
 	 */
-	public void setCond(int value)
+	public void setCond(int condition)
 	{
 		if (_simulated)
 		{
@@ -501,8 +514,23 @@ public class QuestState
 		
 		if (isStarted())
 		{
-			set(COND_VAR, Integer.toString(value));
+			set(COND_VAR, Integer.toString(condition));
+			if (condition == QuestCondType.DONE.getId())
+			{
+				_player.sendPacket(QuestSound.ITEMSOUND_QUEST_MIDDLE.getPacket());
+			}
 		}
+	}
+	
+	/**
+	 * Sets the quest state progress ({@code cond}) to the specified step.
+	 * @param condition the new condition of the quest state progress
+	 * @see #set(String var, String value)
+	 * @see #setCond(int, boolean)
+	 */
+	public void setCond(QuestCondType condition)
+	{
+		setCond(condition.getId());
 	}
 	
 	/**
@@ -578,6 +606,7 @@ public class QuestState
 		}
 		
 		set(COND_VAR, String.valueOf(value));
+		
 		if (playQuestMiddle)
 		{
 			_player.sendPacket(QuestSound.ITEMSOUND_QUEST_MIDDLE.getPacket());
@@ -602,6 +631,33 @@ public class QuestState
 		if (isStarted())
 		{
 			return getInt(MEMO_VAR);
+		}
+		
+		return 0;
+	}
+	
+	public void setCount(int value)
+	{
+		if (_simulated)
+		{
+			return;
+		}
+		
+		set(COUNT_VAR, String.valueOf(value));
+		
+		_player.sendPacket(QuestSound.ITEMSOUND_QUEST_ITEMGET.getPacket());
+		_player.sendPacket(new ExQuestUI(_player));
+		_player.sendPacket(new ExQuestNotificationAll(_player));
+	}
+	
+	/**
+	 * @return the current count
+	 */
+	public int getCount()
+	{
+		if (isStarted())
+		{
+			return getInt(COUNT_VAR);
 		}
 		
 		return 0;
@@ -688,9 +744,18 @@ public class QuestState
 		if (isCreated() && !getQuest().isCustomQuest())
 		{
 			set(COND_VAR, "1");
+			set(COUNT_VAR, "0");
 			setState(State.STARTED);
 			_player.sendPacket(QuestSound.ITEMSOUND_QUEST_ACCEPT.getPacket());
-			getQuest().sendNpcLogList(getPlayer());
+			_player.sendPacket(new ExQuestUI(_player));
+			_player.sendPacket(new ExQuestNotification(this));
+			_player.sendPacket(new ExQuestNotificationAll(_player));
+			_player.sendPacket(new ExQuestAcceptableList(_player));
+			
+			if (EventDispatcher.getInstance().hasListener(EventType.ON_PLAYER_QUEST_ACCEPT, _player, Containers.Players()))
+			{
+				EventDispatcher.getInstance().notifyEventAsync(new OnPlayerQuestAccept(_player, getQuest().getId()), _player, Containers.Players());
+			}
 		}
 	}
 	
@@ -754,6 +819,8 @@ public class QuestState
 		{
 			_player.sendPacket(QuestSound.ITEMSOUND_QUEST_FINISH.getPacket());
 		}
+		
+		_player.sendPacket(new ExQuestNotificationAll(getPlayer()));
 	}
 	
 	/**
@@ -785,12 +852,16 @@ public class QuestState
 		if (repeatable)
 		{
 			_player.delQuestState(_questName);
-			_player.sendPacket(new QuestList(_player));
+			_player.sendPacket(new ExQuestUI(_player));
 		}
 		else
 		{
 			setState(State.COMPLETED);
 		}
+		
+		_player.sendPacket(new ExQuestNotificationAll(_player));
+		_player.sendPacket(new ExQuestUI(_player));
+		
 		_vars = null;
 	}
 	
@@ -815,6 +886,9 @@ public class QuestState
 		{
 			_player.sendPacket(QuestSound.ITEMSOUND_QUEST_FINISH.getPacket());
 		}
+		
+		_player.sendPacket(new ExQuestNotificationAll(_player));
+		_player.sendPacket(new ExQuestUI(_player));
 		
 		// Notify to scripts
 		if (EventDispatcher.getInstance().hasListener(EventType.ON_PLAYER_QUEST_COMPLETE, _player))

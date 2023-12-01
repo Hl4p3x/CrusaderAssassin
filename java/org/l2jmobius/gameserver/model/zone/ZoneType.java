@@ -219,7 +219,7 @@ public abstract class ZoneType extends ListenersContainer
 		{
 			if (creature.isPlayer())
 			{
-				creature.getActingPlayer().sendPacket(new ExShowScreenMessage(SystemMessageId.YOU_CANNOT_ENTER_AS_YOUR_LEVEL_DOESN_T_MEED_THE_REQUIREMENTS, ExShowScreenMessage.TOP_CENTER, 10000));
+				creature.getActingPlayer().sendPacket(new ExShowScreenMessage(SystemMessageId.YOU_CANNOT_ENTER_AS_YOUR_LEVEL_DOES_NOT_MEET_THE_REQUIREMENTS, ExShowScreenMessage.TOP_CENTER, 10000));
 			}
 			return false;
 		}

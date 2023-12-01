@@ -41,6 +41,7 @@ public class ExAutoPlaySetting implements ClientPacket
 	private int _potionPercent;
 	private int _petPotionPercent;
 	private boolean _respectfulHunting;
+	private int _macroIndex;
 	
 	@Override
 	public void read(ReadablePacket packet)
@@ -53,6 +54,7 @@ public class ExAutoPlaySetting implements ClientPacket
 		_potionPercent = packet.readInt();
 		_petPotionPercent = packet.readInt(); // 272
 		_respectfulHunting = packet.readByte() == 1;
+		_macroIndex = packet.readByte();
 	}
 	
 	@Override
@@ -89,6 +91,7 @@ public class ExAutoPlaySetting implements ClientPacket
 		settings.add(5, _potionPercent);
 		settings.add(6, _respectfulHunting ? 1 : 0);
 		settings.add(7, _petPotionPercent);
+		settings.add(8, _macroIndex);
 		player.getVariables().setIntegerList(PlayerVariables.AUTO_USE_SETTINGS, settings);
 		
 		player.getAutoPlaySettings().setOptions(_options);
@@ -97,6 +100,7 @@ public class ExAutoPlaySetting implements ClientPacket
 		player.getAutoPlaySettings().setShortRange(_shortRange);
 		player.getAutoPlaySettings().setRespectfulHunting(_respectfulHunting);
 		player.getAutoPlaySettings().setAutoPetPotionPercent(_petPotionPercent);
+		player.getAutoPlaySettings().setMacroIndex(_macroIndex);
 		
 		if (_active)
 		{

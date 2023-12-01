@@ -225,8 +225,8 @@ public class UseItem implements ClientPacket
 			
 			if (item.isArmor())
 			{
-				// Prevent equip shields for Death Knight, Sylph or Vanguard players.
-				if ((item.getItemType() == ArmorType.SHIELD) && (player.isDeathKnight() || (player.getRace() == Race.SYLPH) || player.isVanguard()))
+				// Prevent equip shields for Death Knight, Sylph, Vanguard or Assassin players.
+				if ((item.getItemType() == ArmorType.SHIELD) && (player.isDeathKnight() || (player.getRace() == Race.SYLPH) || player.isVanguard() || player.isAssassin()))
 				{
 					player.sendPacket(SystemMessageId.YOU_DO_NOT_MEET_THE_REQUIRED_CONDITION_TO_EQUIP_THAT_ITEM);
 					return;
@@ -276,6 +276,15 @@ public class UseItem implements ClientPacket
 					else if (player.isVanguard())
 					{
 						if (item.getItemType() != WeaponType.POLE)
+						{
+							player.sendPacket(SystemMessageId.YOU_DO_NOT_MEET_THE_REQUIRED_CONDITION_TO_EQUIP_THAT_ITEM);
+							return;
+						}
+					}
+					// Prevent Assassins players to equip other weapons than Dagger.
+					else if (player.isAssassin())
+					{
+						if (item.getItemType() != WeaponType.DAGGER)
 						{
 							player.sendPacket(SystemMessageId.YOU_DO_NOT_MEET_THE_REQUIRED_CONDITION_TO_EQUIP_THAT_ITEM);
 							return;

@@ -38,7 +38,7 @@ public class RequestSetPledgeCrest implements ClientPacket
 	public void read(ReadablePacket packet)
 	{
 		_length = packet.readInt();
-		if (_length > 256)
+		if (_length > 384)
 		{
 			return;
 		}
@@ -61,9 +61,9 @@ public class RequestSetPledgeCrest implements ClientPacket
 			return;
 		}
 		
-		if (_length > 256)
+		if (_length > 384)
 		{
-			player.sendPacket(SystemMessageId.THE_SIZE_OF_THE_IMAGE_FILE_IS_INAPPROPRIATE_PLEASE_ADJUST_TO_16X12_PIXELS);
+			player.sendPacket(SystemMessageId.THE_FILE_FORMAT_BMP_256_COLORS_24X12_PIXELS);
 			return;
 		}
 		

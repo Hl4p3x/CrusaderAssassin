@@ -21,21 +21,20 @@ import java.util.logging.Logger;
 import org.l2jmobius.Config;
 import org.l2jmobius.commons.network.ReadablePacket;
 import org.l2jmobius.commons.util.Rnd;
-import org.l2jmobius.gameserver.data.xml.EnchantSkillGroupsData;
 import org.l2jmobius.gameserver.data.xml.SkillData;
+import org.l2jmobius.gameserver.data.xml.SkillEnchantData;
 import org.l2jmobius.gameserver.enums.PrivateStoreType;
 import org.l2jmobius.gameserver.enums.SkillEnchantType;
 import org.l2jmobius.gameserver.model.actor.Player;
-import org.l2jmobius.gameserver.model.holders.EnchantSkillHolder;
-import org.l2jmobius.gameserver.model.holders.ItemHolder;
+import org.l2jmobius.gameserver.model.holders.EnchantStarHolder;
+import org.l2jmobius.gameserver.model.holders.SkillEnchantHolder;
 import org.l2jmobius.gameserver.model.skill.Skill;
 import org.l2jmobius.gameserver.network.GameClient;
 import org.l2jmobius.gameserver.network.PacketLogger;
 import org.l2jmobius.gameserver.network.SystemMessageId;
-import org.l2jmobius.gameserver.network.serverpackets.ExEnchantSkillInfo;
-import org.l2jmobius.gameserver.network.serverpackets.ExEnchantSkillInfoDetail;
 import org.l2jmobius.gameserver.network.serverpackets.ExEnchantSkillResult;
 import org.l2jmobius.gameserver.network.serverpackets.SystemMessage;
+import org.l2jmobius.gameserver.network.serverpackets.newskillenchant.ExSkillEnchantInfo;
 
 /**
  * @author -Wooden-
@@ -86,10 +85,6 @@ public class RequestExEnchantSkill implements ClientPacket
 			return;
 		}
 		
-		// if (!player.isInCategory(CategoryType.SIXTH_CLASS_GROUP))
-		// {
-		// return;
-		// }
 		if (!player.isAllowedToEnchantSkills())
 		{
 			return;
@@ -145,121 +140,58 @@ public class RequestExEnchantSkill implements ClientPacket
 			}
 		}
 		
-		final EnchantSkillHolder enchantSkillHolder = EnchantSkillGroupsData.getInstance().getEnchantSkillHolder(_skillSubLevel % 1000);
-		
-		// Verify if player has all the ingredients
-		for (ItemHolder holder : enchantSkillHolder.getRequiredItems(_type))
+		SkillEnchantHolder skillEnchantHolder = SkillEnchantData.getInstance().getSkillEnchant(skill.getId());
+		if (skillEnchantHolder == null)
 		{
-			if (player.getInventory().getInventoryItemCount(holder.getId(), 0) < holder.getCount())
-			{
-				player.sendPacket(SystemMessageId.YOU_DO_NOT_HAVE_ALL_OF_THE_ITEMS_NEEDED_TO_ENCHANT_THAT_SKILL);
-				return;
-			}
+			LOGGER.warning(getClass().getSimpleName() + " request enchant skill dont have star lvl skillId-" + skill.getId());
+			return;
 		}
-		
-		// Consume all ingredients
-		for (ItemHolder holder : enchantSkillHolder.getRequiredItems(_type))
+		EnchantStarHolder starHolder = SkillEnchantData.getInstance().getEnchantStar(skillEnchantHolder.getStarLevel());
+		if (starHolder == null)
 		{
-			if (!player.destroyItemByItemId("Skill enchanting", holder.getId(), holder.getCount(), player, true))
-			{
-				return;
-			}
-		}
-		
-		if (player.getSp() < enchantSkillHolder.getSp(_type))
-		{
-			player.sendPacket(SystemMessageId.YOU_DO_NOT_HAVE_ENOUGH_SP_TO_ENCHANT_THAT_SKILL);
+			LOGGER.warning(getClass().getSimpleName() + " request enchant skill dont have star lvl-" + skill.getId());
 			return;
 		}
 		
-		player.getStat().removeExpAndSp(0, enchantSkillHolder.getSp(_type), false);
-		
-		switch (_type)
+		if (player.getAdena() < 1000000)
 		{
-			case BLESSED:
-			case NORMAL:
-			case IMMORTAL:
-			{
-				if (Rnd.get(100) <= enchantSkillHolder.getChance(_type))
-				{
-					final Skill enchantedSkill = SkillData.getInstance().getSkill(_skillId, _skillLevel, _skillSubLevel);
-					if (Config.LOG_SKILL_ENCHANTS)
-					{
-						final StringBuilder sb = new StringBuilder();
-						LOGGER_ENCHANT.info(sb.append("Success, Character:").append(player.getName()).append(" [").append(player.getObjectId()).append("] Account:").append(player.getAccountName()).append(" IP:").append(player.getIPAddress()).append(", +").append(enchantedSkill.getLevel()).append(" ").append(enchantedSkill.getSubLevel()).append(" - ").append(enchantedSkill.getName()).append(" (").append(enchantedSkill.getId()).append("), ").append(enchantSkillHolder.getChance(_type)).toString());
-					}
-					player.addSkill(enchantedSkill, true);
-					
-					final SystemMessage sm = new SystemMessage(SystemMessageId.SKILL_ENCHANT_WAS_SUCCESSFUL_S1_HAS_BEEN_ENCHANTED);
-					sm.addSkillName(_skillId);
-					player.sendPacket(sm);
-					
-					player.sendPacket(ExEnchantSkillResult.STATIC_PACKET_TRUE);
-				}
-				else
-				{
-					final int newSubLevel = ((skill.getSubLevel() > 0) && (enchantSkillHolder.getEnchantFailLevel() > 0)) ? ((skill.getSubLevel() - (skill.getSubLevel() % 1000)) + enchantSkillHolder.getEnchantFailLevel()) : 0;
-					final Skill enchantedSkill = SkillData.getInstance().getSkill(_skillId, _skillLevel, _type == SkillEnchantType.NORMAL ? newSubLevel : skill.getSubLevel());
-					if (_type == SkillEnchantType.NORMAL)
-					{
-						player.addSkill(enchantedSkill, true);
-						player.sendPacket(SystemMessageId.SKILL_ENCHANT_FAILED_THE_SKILL_WILL_BE_INITIALIZED);
-					}
-					else if (_type == SkillEnchantType.BLESSED)
-					{
-						player.sendPacket(new SystemMessage(SystemMessageId.SKILL_ENCHANT_FAILED_CURRENT_LEVEL_OF_ENCHANT_SKILL_S1_WILL_REMAIN_UNCHANGED).addSkillName(skill));
-					}
-					player.sendPacket(ExEnchantSkillResult.STATIC_PACKET_FALSE);
-					
-					if (Config.LOG_SKILL_ENCHANTS)
-					{
-						final StringBuilder sb = new StringBuilder();
-						LOGGER_ENCHANT.info(sb.append("Failed, Character:").append(player.getName()).append(" [").append(player.getObjectId()).append("] Account:").append(player.getAccountName()).append(" IP:").append(player.getIPAddress()).append(", +").append(enchantedSkill.getLevel()).append(" ").append(enchantedSkill.getSubLevel()).append(" - ").append(enchantedSkill.getName()).append(" (").append(enchantedSkill.getId()).append("), ").append(enchantSkillHolder.getChance(_type)).toString());
-					}
-				}
-				break;
-			}
-			case CHANGE:
-			{
-				if (Rnd.get(100) <= enchantSkillHolder.getChance(_type))
-				{
-					final Skill enchantedSkill = SkillData.getInstance().getSkill(_skillId, _skillLevel, _skillSubLevel);
-					if (Config.LOG_SKILL_ENCHANTS)
-					{
-						final StringBuilder sb = new StringBuilder();
-						LOGGER_ENCHANT.info(sb.append("Success, Character:").append(player.getName()).append(" [").append(player.getObjectId()).append("] Account:").append(player.getAccountName()).append(" IP:").append(player.getIPAddress()).append(", +").append(enchantedSkill.getLevel()).append(" ").append(enchantedSkill.getSubLevel()).append(" - ").append(enchantedSkill.getName()).append(" (").append(enchantedSkill.getId()).append("), ").append(enchantSkillHolder.getChance(_type)).toString());
-					}
-					player.addSkill(enchantedSkill, true);
-					
-					final SystemMessage sm = new SystemMessage(SystemMessageId.ENCHANT_SKILL_ROUTE_CHANGE_WAS_SUCCESSFUL_LV_OF_ENCHANT_SKILL_S1_WILL_REMAIN);
-					sm.addSkillName(_skillId);
-					player.sendPacket(sm);
-					
-					player.sendPacket(ExEnchantSkillResult.STATIC_PACKET_TRUE);
-				}
-				else
-				{
-					final Skill enchantedSkill = SkillData.getInstance().getSkill(_skillId, _skillLevel, enchantSkillHolder.getEnchantFailLevel());
-					player.addSkill(enchantedSkill, true);
-					player.sendPacket(SystemMessageId.SKILL_ENCHANT_FAILED_THE_SKILL_WILL_BE_INITIALIZED);
-					player.sendPacket(ExEnchantSkillResult.STATIC_PACKET_FALSE);
-					
-					if (Config.LOG_SKILL_ENCHANTS)
-					{
-						final StringBuilder sb = new StringBuilder();
-						LOGGER_ENCHANT.info(sb.append("Failed, Character:").append(player.getName()).append(" [").append(player.getObjectId()).append("] Account:").append(player.getAccountName()).append(" IP:").append(player.getIPAddress()).append(", +").append(enchantedSkill.getLevel()).append(" ").append(enchantedSkill.getSubLevel()).append(" - ").append(enchantedSkill.getName()).append(" (").append(enchantedSkill.getId()).append("), ").append(enchantSkillHolder.getChance(_type)).toString());
-					}
-				}
-				break;
-			}
+			return;
 		}
 		
+		final int starLevel = starHolder.getLevel();
+		if (Rnd.get(100) <= SkillEnchantData.getInstance().getChanceEnchantMap(skill))
+		{
+			final Skill enchantedSkill = SkillData.getInstance().getSkill(_skillId, _skillLevel, _skillSubLevel);
+			if (Config.LOG_SKILL_ENCHANTS)
+			{
+				final StringBuilder sb = new StringBuilder();
+				LOGGER_ENCHANT.info(sb.append("Success, Character:").append(player.getName()).append(" [").append(player.getObjectId()).append("] Account:").append(player.getAccountName()).append(" IP:").append(player.getIPAddress()).append(", +").append(enchantedSkill.getLevel()).append(" ").append(enchantedSkill.getSubLevel()).append(" - ").append(enchantedSkill.getName()).append(" (").append(enchantedSkill.getId()).append("), ").toString());
+			}
+			player.addSkill(enchantedSkill, true);
+			final SystemMessage sm = new SystemMessage(SystemMessageId.SKILL_ENCHANT_WAS_SUCCESSFUL_S1_HAS_BEEN_ENCHANTED);
+			sm.addSkillName(_skillId);
+			player.sendPacket(sm);
+			// player.setSkillEnchantExp(starHolder.getLvl(), 0);
+			player.setSkillEnchantExp(starLevel, 0);
+			player.sendPacket(ExEnchantSkillResult.STATIC_PACKET_TRUE);
+			player.setSkillTryEnchant(starLevel);
+		}
+		else
+		{
+			player.sendPacket(ExEnchantSkillResult.STATIC_PACKET_FALSE);
+			// player.setSkillEnchantExp(starHolder.getLvl(), 90000);
+			int stepExp = 90_000;
+			int curTry = player.getSkillTryEnchant(starLevel);
+			int finalResult = stepExp * curTry;
+			player.setSkillEnchantExp(starLevel, finalResult);
+			player.increaseTrySkillEnchant(starLevel);
+		}
 		player.broadcastUserInfo();
 		player.sendSkillList();
 		
 		skill = player.getKnownSkill(_skillId);
-		player.sendPacket(new ExEnchantSkillInfo(skill.getId(), skill.getLevel(), skill.getSubLevel(), skill.getSubLevel()));
-		player.sendPacket(new ExEnchantSkillInfoDetail(_type, skill.getId(), skill.getLevel(), Math.min(skill.getSubLevel() + 1, EnchantSkillGroupsData.MAX_ENCHANT_LEVEL), player));
+		player.reduceAdena("Try enchant skill", 1_000_000, null, true);
+		player.sendPacket(new ExSkillEnchantInfo(skill, player));
 		player.updateShortCuts(skill.getId(), skill.getLevel(), skill.getSubLevel());
 	}
 }

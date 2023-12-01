@@ -46,19 +46,17 @@ public class ExPrivateStoreSearchItem extends AbstractItemPacket
 	public void write()
 	{
 		ServerPackets.EX_PRIVATE_STORE_SEARCH_ITEM.writeId(this);
-		
 		writeByte(_page); // cPage
 		writeByte(_maxPage); // cMaxPage
 		writeInt(_nSize); // nSize
-		
 		if (_nSize > 0)
 		{
 			for (int itemIndex = (_page - 1) * ExRequestPrivateStoreSearchList.MAX_ITEM_PER_PAGE; (itemIndex < (_page * ExRequestPrivateStoreSearchList.MAX_ITEM_PER_PAGE)) && (itemIndex < _items.size()); itemIndex++)
 			{
 				final ShopItem shopItem = _items.get(itemIndex);
-				
 				writeSizedString(shopItem.getOwner().getName()); // Vendor name
-				writeByte(shopItem.getStoreType() == PrivateStoreType.PACKAGE_SELL ? 0x02 : shopItem.getStoreType() == PrivateStoreType.SELL ? 0x00 : 0x01); // store type (maybe "sold"/buy/Package (translated as Total Score...))
+				writeInt(shopItem.getOwner().getObjectId());
+				writeByte(shopItem.getStoreType() == PrivateStoreType.PACKAGE_SELL ? 2 : shopItem.getStoreType() == PrivateStoreType.SELL ? 0 : 1); // store type (maybe "sold"/buy/Package (translated as Total Score...))
 				writeLong(shopItem.getPrice()); // Price
 				writeInt(shopItem.getOwner().getX()); // X
 				writeInt(shopItem.getOwner().getY()); // Y

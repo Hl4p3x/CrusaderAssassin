@@ -38,6 +38,7 @@ import org.l2jmobius.gameserver.network.SystemMessageId;
 import org.l2jmobius.gameserver.network.serverpackets.SystemMessage;
 import org.l2jmobius.gameserver.network.serverpackets.UserInfo;
 import org.l2jmobius.gameserver.network.serverpackets.elementalspirits.ElementalSpiritInfo;
+import org.l2jmobius.gameserver.network.serverpackets.elementalspirits.ExElementalSpiritAttackType;
 import org.l2jmobius.gameserver.network.serverpackets.elementalspirits.ExElementalSpiritGetExp;
 
 /**
@@ -80,7 +81,8 @@ public class ElementalSpirit
 		{
 			levelUp();
 			_owner.sendPacket(new SystemMessage(SystemMessageId.S1_ATTRIBUTE_SPIRIT_BECAME_LEVEL_S2).addElementalSpirit(_data.getType()).addByte(_data.getLevel()));
-			_owner.sendPacket(new ElementalSpiritInfo(_owner, _owner.getActiveElementalSpiritType(), (byte) 0));
+			_owner.sendPacket(new ElementalSpiritInfo(_owner, (byte) 0));
+			_owner.sendPacket(new ExElementalSpiritAttackType(_owner));
 			final UserInfo userInfo = new UserInfo(_owner);
 			userInfo.addComponentType(UserInfoType.ATT_SPIRITS);
 			_owner.sendPacket(userInfo);
@@ -314,5 +316,10 @@ public class ElementalSpirit
 	public void setInUse(boolean value)
 	{
 		_data.setInUse(value);
+	}
+	
+	public boolean isInUse()
+	{
+		return _data.isInUse();
 	}
 }

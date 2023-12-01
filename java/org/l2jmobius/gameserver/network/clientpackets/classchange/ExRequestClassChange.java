@@ -31,6 +31,7 @@ import org.l2jmobius.gameserver.network.serverpackets.PlaySound;
 import org.l2jmobius.gameserver.network.serverpackets.UserInfo;
 import org.l2jmobius.gameserver.network.serverpackets.classchange.ExClassChangeSetAlarm;
 import org.l2jmobius.gameserver.network.serverpackets.elementalspirits.ElementalSpiritInfo;
+import org.l2jmobius.gameserver.network.serverpackets.elementalspirits.ExElementalSpiritAttackType;
 
 /**
  * @author Mobius
@@ -208,6 +209,20 @@ public class ExRequestClassChange implements ClientPacket
 						player.addItem("ExRequestClassChange", 93496, 1, player, true); // 1st Class Transfer Gift Box.
 						break;
 					}
+					case ASSASSIN_MALE_1:
+					case ASSASSIN_FEMALE_1:
+					{
+						player.addItem("ExRequestClassChange", 94998, 1, player, true); // Maingauche.
+						player.addItem("ExRequestClassChange", 93494, 1, player, true); // Moon Shell Set.
+						player.addItem("ExRequestClassChange", 93496, 1, player, true); // 1st Class Transfer Gift Box.
+						break;
+					}
+					case ASSASSIN_FEMALE_3:
+					case ASSASSIN_MALE_3:
+					{
+						player.setAssassinationPoints(1);
+						break;
+					}
 				}
 			}
 			
@@ -228,7 +243,8 @@ public class ExRequestClassChange implements ClientPacket
 				final UserInfo userInfo = new UserInfo(player);
 				userInfo.addComponentType(UserInfoType.ATT_SPIRITS);
 				player.sendPacket(userInfo);
-				player.sendPacket(new ElementalSpiritInfo(player, player.getActiveElementalSpiritType(), (byte) 0x01));
+				player.sendPacket(new ElementalSpiritInfo(player, (byte) 0));
+				player.sendPacket(new ExElementalSpiritAttackType(player));
 			}
 			
 			if (Config.AUTO_LEARN_SKILLS)

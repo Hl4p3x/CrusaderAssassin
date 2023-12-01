@@ -77,6 +77,7 @@ import org.l2jmobius.gameserver.instancemanager.QuestManager;
 import org.l2jmobius.gameserver.instancemanager.ZoneManager;
 import org.l2jmobius.gameserver.model.AccessLevel;
 import org.l2jmobius.gameserver.model.EffectList;
+import org.l2jmobius.gameserver.model.ElementalSpirit;
 import org.l2jmobius.gameserver.model.Hit;
 import org.l2jmobius.gameserver.model.Location;
 import org.l2jmobius.gameserver.model.Party;
@@ -152,6 +153,7 @@ import org.l2jmobius.gameserver.network.serverpackets.ActionFailed;
 import org.l2jmobius.gameserver.network.serverpackets.Attack;
 import org.l2jmobius.gameserver.network.serverpackets.ChangeMoveType;
 import org.l2jmobius.gameserver.network.serverpackets.ChangeWaitType;
+import org.l2jmobius.gameserver.network.serverpackets.ExMax;
 import org.l2jmobius.gameserver.network.serverpackets.ExTeleportToLocationActivate;
 import org.l2jmobius.gameserver.network.serverpackets.FakePlayerInfo;
 import org.l2jmobius.gameserver.network.serverpackets.MoveToLocation;
@@ -1785,6 +1787,15 @@ public abstract class Creature extends WorldObject implements ISkillsHolder, IDe
 		if (EventDispatcher.getInstance().hasListener(EventType.ON_CREATURE_KILLED, killer))
 		{
 			EventDispatcher.getInstance().notifyEvent(new OnCreatureKilled(killer, this), killer);
+		}
+		
+		if ((killer != null) && killer.isPlayer())
+		{
+			final Player player = killer.getActingPlayer();
+			if (player.isAssassin() && player.isAffectedBySkill(CommonSkill.BRUTALITY.getId()))
+			{
+				player.setAssassinationPoints(player.getAssassinationPoints() + 10000);
+			}
 		}
 		
 		abortAttack();
@@ -4232,6 +4243,19 @@ public abstract class Creature extends WorldObject implements ISkillsHolder, IDe
 					player.setBeastPoints(player.getBeastPoints() + 1);
 				}
 			}
+			else if (player.isAssassin() && CategoryData.getInstance().isInCategory(CategoryType.FOURTH_CLASS_GROUP, player.getBaseTemplate().getClassId().getId()) && target.isDead())
+			{
+				if (target.isPlayable())
+				{
+					player.setAssassinationPoints(player.getAssassinationPoints() + 1000);
+					player.sendPacket(new UserInfo(player));
+				}
+				else if (target.isAttackable())
+				{
+					player.setAssassinationPoints(player.getAssassinationPoints() + 5);
+					player.sendPacket(new UserInfo(player));
+				}
+			}
 		}
 	}
 	
@@ -5040,6 +5064,19 @@ public abstract class Creature extends WorldObject implements ISkillsHolder, IDe
 		if (attacker != null)
 		{
 			attacker.sendDamageMessage(this, skill, (int) amount, elementalDamage, critical, false, elementalCrit);
+		}
+		
+		if (isMonster() && (attacker instanceof Playable))
+		{
+			final ElementalSpirit[] playerSpirits = attacker.getActingPlayer().getSpirits();
+			if (playerSpirits != null)
+			{
+				final ElementalType monsterElementalType = getElementalSpiritType();
+				if ((monsterElementalType != ElementalType.NONE) && (attacker.getActingPlayer().getActiveElementalSpiritType() != monsterElementalType.getId()))
+				{
+					attacker.getActingPlayer().changeElementalSpirit(ElementalType.superior(monsterElementalType).getId());
+				}
+			}
 		}
 	}
 	
@@ -5883,6 +5920,11 @@ public abstract class Creature extends WorldObject implements ISkillsHolder, IDe
 					{
 						su.addUpdate(StatusUpdateType.CUR_BP, getActingPlayer().getBeastPoints());
 					}
+					else if ((type == StatusUpdateType.MAX_AP))
+					{
+						getActingPlayer().sendPacket(new ExMax()); // TODO: Investigate this.
+						su.addUpdate(StatusUpdateType.CUR_AP, getActingPlayer().getAssassinationPoints());
+					}
 				}
 				return newValue;
 			}
@@ -6021,6 +6063,11 @@ public abstract class Creature extends WorldObject implements ISkillsHolder, IDe
 	}
 	
 	public double getElementalSpiritDefenseOf(ElementalType type)
+	{
+		return getElementalSpiritType() == type ? 100 : 0;
+	}
+	
+	public double getElementalSpiritAttackOf(ElementalType type)
 	{
 		return getElementalSpiritType() == type ? 100 : 0;
 	}

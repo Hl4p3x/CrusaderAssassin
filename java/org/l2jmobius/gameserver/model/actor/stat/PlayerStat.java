@@ -723,6 +723,11 @@ public class PlayerStat extends PlayableStat
 		return type == null ? 0 : getValue(type.getDefenseStat(), base);
 	}
 	
+	public double getElementSpiritAttack(ElementalType type, double base)
+	{
+		return type == null ? 0 : getValue(type.getDefenseStat(), base);
+	}
+	
 	@Override
 	public int getReuseTime(Skill skill)
 	{

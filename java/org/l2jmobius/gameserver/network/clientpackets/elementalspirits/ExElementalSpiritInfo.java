@@ -44,6 +44,6 @@ public class ExElementalSpiritInfo implements ClientPacket
 			return;
 		}
 		
-		client.sendPacket(new ElementalSpiritInfo(player, player.getActiveElementalSpiritType(), _type));
+		client.sendPacket(new ElementalSpiritInfo(player, _type));
 	}
 }

@@ -618,7 +618,6 @@ public class Attackable extends Npc
 											attacker.updateVitalityPoints(getVitalityPoints(attacker.getLevel(), exp, _isRaid), true, false);
 										}
 										PcCafePointsManager.getInstance().givePcCafePoint(attacker, exp);
-										MagicLampData.getInstance().addLampExp(attacker, exp, true);
 										
 										final HuntPass huntPass = attacker.getHuntPass();
 										if (huntPass != null)
@@ -633,7 +632,7 @@ public class Attackable extends Npc
 										}
 									}
 								}
-								
+								MagicLampData.getInstance().addLampExp(attacker, exp, true);
 								rewardAttributeExp(attacker, damage, totalDamage);
 							}
 						}

@@ -14,51 +14,50 @@
  * You should have received a copy of the GNU General Public License
  * along with this program. If not, see <http://www.gnu.org/licenses/>.
  */
-package org.l2jmobius.gameserver.network.clientpackets.elementalspirits;
+package org.l2jmobius.gameserver.network.clientpackets.quest;
 
 import org.l2jmobius.commons.network.ReadablePacket;
-import org.l2jmobius.gameserver.enums.ElementalType;
-import org.l2jmobius.gameserver.model.ElementalSpirit;
+import org.l2jmobius.gameserver.instancemanager.QuestManager;
 import org.l2jmobius.gameserver.model.actor.Player;
+import org.l2jmobius.gameserver.model.quest.Quest;
 import org.l2jmobius.gameserver.network.GameClient;
-import org.l2jmobius.gameserver.network.SystemMessageId;
 import org.l2jmobius.gameserver.network.clientpackets.ClientPacket;
-import org.l2jmobius.gameserver.network.serverpackets.SystemMessage;
-import org.l2jmobius.gameserver.network.serverpackets.elementalspirits.ElementalSpiritInfo;
 
 /**
- * @author JoeAlisson
+ * @author Magik, Mobius
  */
-public class ExElementalSpiritChangeType implements ClientPacket
+public class RequestExQuestAccept implements ClientPacket
 {
-	private byte _type;
-	private byte _element;
+	private int _questId;
+	private boolean _isAccepted;
 	
 	@Override
 	public void read(ReadablePacket packet)
 	{
-		_type = (byte) packet.readByte();
-		_element = (byte) packet.readByte(); // 1 - Fire, 2 - Water, 3 - Wind, 4 Earth
+		_questId = packet.readInt();
+		_isAccepted = packet.readBoolean();
 	}
 	
 	@Override
 	public void run(GameClient client)
 	{
+		if (!_isAccepted)
+		{
+			return;
+		}
+		
 		final Player player = client.getPlayer();
 		if (player == null)
 		{
 			return;
 		}
 		
-		final ElementalSpirit spirit = player.getElementalSpirit(ElementalType.of(_type));
-		if (spirit == null)
+		final Quest quest = QuestManager.getInstance().getQuest(_questId);
+		if (quest == null)
 		{
-			client.sendPacket(SystemMessageId.NO_SPIRITS_ARE_AVAILABLE);
 			return;
 		}
 		
-		player.changeElementalSpirit(_element);
-		client.sendPacket(new ElementalSpiritInfo(player, _element, _type));
-		client.sendPacket(new SystemMessage(SystemMessageId.S1_WILL_BE_YOUR_ATTACK_ATTRIBUTE_FROM_NOW_ON).addElementalSpirit(_element));
+		quest.notifyEvent("ACCEPT", null, player);
 	}
 }

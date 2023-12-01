@@ -1074,11 +1074,14 @@ public class Item extends WorldObject
 	 */
 	public boolean setAugmentation(VariationInstance augmentation, boolean updateDatabase)
 	{
-		// there shall be no previous augmentation..
+		// Remove previous augmentation.
 		if (_augmentation != null)
 		{
-			LOGGER.info("Warning: Augment set for (" + getObjectId() + ") " + getName() + " owner: " + _ownerId);
-			return false;
+			if (isEquipped())
+			{
+				_augmentation.removeBonus(getActingPlayer());
+			}
+			removeAugmentation();
 		}
 		
 		_augmentation = augmentation;

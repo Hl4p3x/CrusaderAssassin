@@ -49,7 +49,7 @@ public enum UserInfoType implements IUpdateTypeComponent
 	INVENTORY_LIMIT(0x15, 13),
 	TRUE_HERO(0x16, 9),
 	
-	ATT_SPIRITS(0x17, 26),
+	ATT_SPIRITS(0x17, 34),
 	
 	RANKING(0x18, 6),
 	
@@ -58,7 +58,8 @@ public enum UserInfoType implements IUpdateTypeComponent
 	
 	ELIXIR_USED(0x1B, 1),
 	
-	VANGUARD_MOUNT(0x1C, 1);
+	VANGUARD_MOUNT(0x1C, 1),
+	UNK_414(0x1D, 1);
 	
 	/** Int mask. */
 	private final int _mask;

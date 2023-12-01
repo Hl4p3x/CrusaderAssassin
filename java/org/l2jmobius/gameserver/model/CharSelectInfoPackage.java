@@ -172,6 +172,16 @@ public class CharSelectInfoPackage
 		{
 			_baseClassId = 217;
 		}
+		// Assassin Male
+		else if ((baseClassId >= 221) && (baseClassId <= 224))
+		{
+			_baseClassId = 221;
+		}
+		// Assassin Female
+		else if ((baseClassId >= 225) && (baseClassId <= 228))
+		{
+			_baseClassId = 225;
+		}
 		// Other Classes
 		else
 		{

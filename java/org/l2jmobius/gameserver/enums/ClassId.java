@@ -177,7 +177,16 @@ public enum ClassId implements IIdentifiable
 	ORC_LANCER(217, false, Race.ORC, null),
 	RIDER(218, false, Race.ORC, ORC_LANCER),
 	DRAGOON(219, false, Race.ORC, RIDER),
-	VANGUARD_RIDER(220, false, Race.ORC, DRAGOON);
+	VANGUARD_RIDER(220, false, Race.ORC, DRAGOON),
+	
+	ASSASSIN_MALE_0(221, false, Race.HUMAN, null),
+	ASSASSIN_MALE_1(222, false, Race.HUMAN, ASSASSIN_MALE_0),
+	ASSASSIN_MALE_2(223, false, Race.HUMAN, ASSASSIN_MALE_1),
+	ASSASSIN_MALE_3(224, false, Race.HUMAN, ASSASSIN_MALE_2),
+	ASSASSIN_FEMALE_0(225, false, Race.DARK_ELF, null),
+	ASSASSIN_FEMALE_1(226, false, Race.DARK_ELF, ASSASSIN_FEMALE_0),
+	ASSASSIN_FEMALE_2(227, false, Race.DARK_ELF, ASSASSIN_FEMALE_1),
+	ASSASSIN_FEMALE_3(228, false, Race.DARK_ELF, ASSASSIN_FEMALE_2);
 	
 	/** The Identifier of the Class */
 	private final int _id;

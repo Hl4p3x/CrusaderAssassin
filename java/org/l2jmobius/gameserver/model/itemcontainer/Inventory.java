@@ -92,6 +92,8 @@ public abstract class Inventory extends ItemContainer
 	public static final int ELCYUM_CRYSTAL_ID = 36514;
 	public static final int LCOIN_ID = 91663;
 	public static final long MAX_ADENA = Config.MAX_ADENA;
+	public static final int SP_POUCH = 98232;
+	public static final int SP_POINTS = 15624;
 	
 	public static final int PAPERDOLL_UNDER = 0;
 	public static final int PAPERDOLL_HEAD = 1;

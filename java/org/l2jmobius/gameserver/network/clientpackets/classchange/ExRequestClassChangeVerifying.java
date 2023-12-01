@@ -18,7 +18,10 @@ package org.l2jmobius.gameserver.network.clientpackets.classchange;
 
 import org.l2jmobius.commons.network.ReadablePacket;
 import org.l2jmobius.gameserver.enums.CategoryType;
+import org.l2jmobius.gameserver.enums.ClassId;
+import org.l2jmobius.gameserver.instancemanager.QuestManager;
 import org.l2jmobius.gameserver.model.actor.Player;
+import org.l2jmobius.gameserver.model.quest.Quest;
 import org.l2jmobius.gameserver.model.quest.QuestState;
 import org.l2jmobius.gameserver.network.GameClient;
 import org.l2jmobius.gameserver.network.clientpackets.ClientPacket;
@@ -86,7 +89,13 @@ public class ExRequestClassChangeVerifying implements ClientPacket
 		QuestState qs = null;
 		if (player.isDeathKnight())
 		{
-			qs = player.getQuestState("Q10959_ChallengingYourDestiny");
+			final Quest quest = QuestManager.getInstance().getQuest(10101);
+			qs = player.getQuestState(quest.getName());
+		}
+		else if (player.isAssassin())
+		{
+			final Quest quest = QuestManager.getInstance().getQuest(10123);
+			qs = player.getQuestState(quest.getName());
 		}
 		else
 		{
@@ -94,37 +103,52 @@ public class ExRequestClassChangeVerifying implements ClientPacket
 			{
 				case HUMAN:
 				{
-					qs = player.getQuestState("Q10982_SpiderHunt");
+					if (player.getClassId() == ClassId.FIGHTER)
+					{
+						final Quest quest = QuestManager.getInstance().getQuest(10009);
+						qs = player.getQuestState(quest.getName());
+					}
+					else
+					{
+						final Quest quest = QuestManager.getInstance().getQuest(10020);
+						qs = player.getQuestState(quest.getName());
+					}
 					break;
 				}
 				case ELF:
 				{
-					qs = player.getQuestState("Q10984_CollectSpiderweb");
+					final Quest quest = QuestManager.getInstance().getQuest(10033);
+					qs = player.getQuestState(quest.getName());
 					break;
 				}
 				case DARK_ELF:
 				{
-					qs = player.getQuestState("Q10986_SwampMonster");
+					final Quest quest = QuestManager.getInstance().getQuest(10046);
+					qs = player.getQuestState(quest.getName());
 					break;
 				}
 				case ORC:
 				{
-					qs = player.getQuestState("Q10988_Conspiracy");
+					final Quest quest = QuestManager.getInstance().getQuest(10057);
+					qs = player.getQuestState(quest.getName());
 					break;
 				}
 				case DWARF:
 				{
-					qs = player.getQuestState("Q10990_PoisonExtraction");
+					final Quest quest = QuestManager.getInstance().getQuest(10079);
+					qs = player.getQuestState(quest.getName());
 					break;
 				}
 				case KAMAEL:
 				{
-					qs = player.getQuestState("Q10962_NewHorizons");
+					final Quest quest = QuestManager.getInstance().getQuest(10090);
+					qs = player.getQuestState(quest.getName());
 					break;
 				}
 				case SYLPH:
 				{
-					qs = player.getQuestState("Q10956_WeSylphs");
+					final Quest quest = QuestManager.getInstance().getQuest(10112);
+					qs = player.getQuestState(quest.getName());
 					break;
 				}
 			}
@@ -140,7 +164,8 @@ public class ExRequestClassChangeVerifying implements ClientPacket
 	
 	private boolean thirdClassCheck(Player player)
 	{
-		final QuestState qs = player.getQuestState("Q10673_SagaOfLegend");
+		final Quest quest = QuestManager.getInstance().getQuest(19900);
+		final QuestState qs = player.getQuestState(quest.getName());
 		return (qs != null) && qs.isCompleted();
 	}
 }

@@ -48,6 +48,7 @@ import org.l2jmobius.gameserver.network.PacketLogger;
 import org.l2jmobius.gameserver.network.SystemMessageId;
 import org.l2jmobius.gameserver.network.serverpackets.AcquireSkillDone;
 import org.l2jmobius.gameserver.network.serverpackets.ExAcquirableSkillListByClass;
+import org.l2jmobius.gameserver.network.serverpackets.ExAcquireSkillResult;
 import org.l2jmobius.gameserver.network.serverpackets.ExAlchemySkillList;
 import org.l2jmobius.gameserver.network.serverpackets.ExBasicActionList;
 import org.l2jmobius.gameserver.network.serverpackets.PledgeSkillList;
@@ -519,7 +520,7 @@ public class RequestAcquireSkill implements ClientPacket
 			final long levelUpSp = skillLearn.getLevelUpSp();
 			if ((levelUpSp > 0) && (levelUpSp > player.getSp()))
 			{
-				player.sendPacket(SystemMessageId.YOU_DO_NOT_HAVE_ENOUGH_SP_TO_LEARN_THIS_SKILL);
+				player.sendPacket(new ExAcquireSkillResult(skillLearn.getSkillId(), skillLearn.getSkillLevel(), false, SystemMessageId.YOU_DO_NOT_HAVE_ENOUGH_SP_TO_LEARN_THIS_SKILL));
 				showSkillList(trainer, player);
 				return false;
 			}
@@ -538,11 +539,11 @@ public class RequestAcquireSkill implements ClientPacket
 					{
 						if (skill.getSkillId() == CommonSkill.ONYX_BEAST_TRANSFORMATION.getId())
 						{
-							player.sendPacket(SystemMessageId.YOU_MUST_LEARN_THE_ONYX_BEAST_SKILL_BEFORE_YOU_CAN_LEARN_FURTHER_SKILLS);
+							player.sendPacket(new ExAcquireSkillResult(skillLearn.getSkillId(), skillLearn.getSkillLevel(), false, SystemMessageId.YOU_MUST_LEARN_THE_ONYX_BEAST_SKILL_BEFORE_YOU_CAN_LEARN_FURTHER_SKILLS));
 						}
 						else
 						{
-							player.sendPacket(SystemMessageId.NOT_ENOUGH_ITEMS_TO_LEARN_THE_SKILL);
+							player.sendPacket(new ExAcquireSkillResult(skillLearn.getSkillId(), skillLearn.getSkillLevel(), false, SystemMessageId.NOT_ENOUGH_ITEMS_TO_LEARN_THE_SKILL));
 						}
 						return false;
 					}
@@ -569,7 +570,7 @@ public class RequestAcquireSkill implements ClientPacket
 						
 						if (count == items.size())
 						{
-							player.sendPacket(SystemMessageId.NOT_ENOUGH_ITEMS_TO_LEARN_THE_SKILL);
+							player.sendPacket(new ExAcquireSkillResult(skillLearn.getSkillId(), skillLearn.getSkillLevel(), false, SystemMessageId.NOT_ENOUGH_ITEMS_TO_LEARN_THE_SKILL));
 							showSkillList(trainer, player);
 							return false;
 						}
@@ -642,18 +643,13 @@ public class RequestAcquireSkill implements ClientPacket
 	 */
 	private void giveSkill(Player player, Npc trainer, Skill skill, boolean store)
 	{
-		// Send message.
-		final SystemMessage sm = new SystemMessage(SystemMessageId.YOU_HAVE_LEARNED_S1);
-		sm.addSkillName(skill);
-		player.sendPacket(sm);
-		
 		player.addSkill(skill, store);
 		player.sendItemList();
 		player.updateShortCuts(_id, skill.getLevel(), skill.getSubLevel());
 		player.sendPacket(new ShortCutInit(player));
 		player.sendPacket(ExBasicActionList.STATIC_PACKET);
+		player.sendPacket(new ExAcquireSkillResult(skill.getId(), skill.getLevel(), true, SystemMessageId.YOU_HAVE_LEARNED_S1));
 		player.sendSkillList(skill.getId());
-		showSkillList(trainer, player);
 		
 		// If skill is expand type then sends packet:
 		if ((_id >= 1368) && (_id <= 1372))

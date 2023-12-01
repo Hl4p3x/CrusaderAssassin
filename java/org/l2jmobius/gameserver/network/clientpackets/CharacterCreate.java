@@ -180,6 +180,11 @@ public class CharacterCreate implements ClientPacket
 						client.sendPacket(new CharCreateFail(CharCreateFail.REASON_CREATION_FAILED));
 						return;
 					}
+					if (CategoryData.getInstance().isInCategory(CategoryType.ASSASSIN_ALL_CLASS, _classId) && _isFemale)
+					{
+						client.sendPacket(new CharCreateFail(CharCreateFail.REASON_CREATION_FAILED));
+						return;
+					}
 					break;
 				}
 				case ELF:
@@ -204,6 +209,11 @@ public class CharacterCreate implements ClientPacket
 						return;
 					}
 					if (CategoryData.getInstance().isInCategory(CategoryType.DEATH_KNIGHT_ALL_CLASS, _classId) && _isFemale)
+					{
+						client.sendPacket(new CharCreateFail(CharCreateFail.REASON_CREATION_FAILED));
+						return;
+					}
+					if (CategoryData.getInstance().isInCategory(CategoryType.ASSASSIN_ALL_CLASS, _classId) && !_isFemale)
 					{
 						client.sendPacket(new CharCreateFail(CharCreateFail.REASON_CREATION_FAILED));
 						return;

@@ -66,6 +66,7 @@ public class MultisellData implements IXmlReader
 	{
 		_multisells.clear();
 		parseDatapackDirectory("data/multisell", false);
+		parseDatapackDirectory("data/multisell/items", false);
 		if (Config.CUSTOM_MULTISELL_LOAD)
 		{
 			parseDatapackDirectory("data/multisell/custom", false);

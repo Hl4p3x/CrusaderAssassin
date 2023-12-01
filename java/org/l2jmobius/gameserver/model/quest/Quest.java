@@ -38,7 +38,9 @@ import org.l2jmobius.commons.database.DatabaseFactory;
 import org.l2jmobius.commons.util.CommonUtil;
 import org.l2jmobius.commons.util.Rnd;
 import org.l2jmobius.gameserver.cache.HtmCache;
+import org.l2jmobius.gameserver.data.xml.ExperienceData;
 import org.l2jmobius.gameserver.data.xml.ItemData;
+import org.l2jmobius.gameserver.data.xml.NewQuestData;
 import org.l2jmobius.gameserver.enums.AcquireSkillType;
 import org.l2jmobius.gameserver.enums.CategoryType;
 import org.l2jmobius.gameserver.enums.ClassId;
@@ -55,21 +57,29 @@ import org.l2jmobius.gameserver.model.actor.Npc;
 import org.l2jmobius.gameserver.model.actor.Player;
 import org.l2jmobius.gameserver.model.actor.Summon;
 import org.l2jmobius.gameserver.model.actor.instance.Trap;
+import org.l2jmobius.gameserver.model.effects.EffectFlag;
 import org.l2jmobius.gameserver.model.events.AbstractScript;
 import org.l2jmobius.gameserver.model.events.EventType;
 import org.l2jmobius.gameserver.model.events.listeners.AbstractEventListener;
 import org.l2jmobius.gameserver.model.events.returns.TerminateReturn;
+import org.l2jmobius.gameserver.model.holders.ItemHolder;
 import org.l2jmobius.gameserver.model.holders.NpcLogListHolder;
 import org.l2jmobius.gameserver.model.holders.SkillHolder;
 import org.l2jmobius.gameserver.model.instancezone.Instance;
 import org.l2jmobius.gameserver.model.interfaces.IIdentifiable;
+import org.l2jmobius.gameserver.model.interfaces.ILocational;
 import org.l2jmobius.gameserver.model.item.ItemTemplate;
 import org.l2jmobius.gameserver.model.item.instance.Item;
 import org.l2jmobius.gameserver.model.olympiad.Participant;
+import org.l2jmobius.gameserver.model.quest.newquestdata.NewQuest;
+import org.l2jmobius.gameserver.model.quest.newquestdata.NewQuestCondition;
+import org.l2jmobius.gameserver.model.quest.newquestdata.NewQuestReward;
 import org.l2jmobius.gameserver.model.skill.Skill;
 import org.l2jmobius.gameserver.model.skill.SkillCaster;
+import org.l2jmobius.gameserver.model.zone.ZoneId;
 import org.l2jmobius.gameserver.model.zone.ZoneType;
 import org.l2jmobius.gameserver.network.NpcStringId;
+import org.l2jmobius.gameserver.network.SystemMessageId;
 import org.l2jmobius.gameserver.network.serverpackets.ActionFailed;
 import org.l2jmobius.gameserver.network.serverpackets.ExQuestNpcLogList;
 import org.l2jmobius.gameserver.network.serverpackets.NpcHtmlMessage;
@@ -95,6 +105,8 @@ public class Quest extends AbstractScript implements IIdentifiable
 	private NpcStringId _questNameNpcStringId;
 	
 	private int[] _questItemIds = null;
+	
+	private final NewQuest _questData;
 	
 	private static final String DEFAULT_NO_QUEST_MSG = "<html><body>You are either not on a quest that involves this NPC, or you don't meet this NPC's minimum quest requirements.</body></html>";
 	
@@ -144,6 +156,37 @@ public class Quest extends AbstractScript implements IIdentifiable
 		else
 		{
 			QuestManager.getInstance().addScript(this);
+		}
+		
+		_questData = NewQuestData.getInstance().getQuestById(questId);
+		if (_questData != null)
+		{
+			addNewQuestConditions(_questData.getConditions(), null);
+			
+			if (_questData.getQuestType() == 1)
+			{
+				if (_questData.getStartNpcId() > 0)
+				{
+					addFirstTalkId(_questData.getStartNpcId());
+				}
+				
+				if ((_questData.getEndNpcId() > 0) && (_questData.getEndNpcId() != _questData.getStartNpcId()))
+				{
+					addFirstTalkId(_questData.getEndNpcId());
+				}
+			}
+			else if (_questData.getQuestType() == 4)
+			{
+				if (_questData.getStartItemId() > 0)
+				{
+					addItemTalkId(_questData.getStartItemId());
+				}
+			}
+			
+			if (_questData.getGoal().getItemId() > 0)
+			{
+				registerQuestItems(_questData.getGoal().getItemId());
+			}
 		}
 		
 		onLoad();
@@ -3109,6 +3152,46 @@ public class Quest extends AbstractScript implements IIdentifiable
 	}
 	
 	/**
+	 * Adds a class IDs start condition to the quest.
+	 * @param classIds the class ID
+	 * @param html the HTML to display if the condition is not met
+	 */
+	public void addCondClassIds(List<ClassId> classIds, String html)
+	{
+		addCondStart(p -> classIds.contains(p.getClassId()), html);
+	}
+	
+	public void addNewQuestConditions(NewQuestCondition condition, String html)
+	{
+		if (!condition.getAllowedClassIds().isEmpty())
+		{
+			addCondStart(p -> condition.getAllowedClassIds().contains(p.getClassId()), html);
+		}
+		
+		if (!condition.getPreviousQuestIds().isEmpty())
+		{
+			for (Integer questId : condition.getPreviousQuestIds())
+			{
+				final Quest quest = QuestManager.getInstance().getQuest(questId);
+				if (quest != null)
+				{
+					if (!condition.getOneOfPreQuests())
+					{
+						addCondStart(p -> p.hasQuestState(quest.getName()) && p.getQuestState(quest.getName()).isCompleted(), html);
+					}
+					else
+					{
+						addCondStart(p -> p.hasAnyCompletedQuestStates(condition.getPreviousQuestIds()), html);
+					}
+				}
+			}
+			
+			addCondMinLevel(condition.getMinLevel(), html);
+			addCondMaxLevel(condition.getMaxLevel(), html);
+		}
+	}
+	
+	/**
 	 * Adds a not-class ID start condition to the quest.
 	 * @param classId the class ID
 	 * @param html the HTML to display if the condition is not met
@@ -3222,5 +3305,97 @@ public class Quest extends AbstractScript implements IIdentifiable
 				SkillCaster.triggerCast(npc, player, holder.getSkill());
 			}
 		}
+	}
+	
+	public NewQuest getQuestData()
+	{
+		return _questData;
+	}
+	
+	public void rewardPlayer(Player player)
+	{
+		final NewQuestReward reward = _questData.getRewards();
+		if (reward.getItems() != null)
+		{
+			if ((reward.getItems() != null) && !reward.getItems().isEmpty())
+			{
+				for (ItemHolder item : reward.getItems())
+				{
+					giveItems(player, item);
+				}
+			}
+			
+		}
+		if (reward.getLevel() > 0)
+		{
+			final long playerExp = player.getExp();
+			final long targetExp = ExperienceData.getInstance().getExpForLevel(reward.getLevel());
+			if (playerExp < targetExp)
+			{
+				player.addExpAndSp(targetExp - playerExp, 0);
+				player.setCurrentHpMp(player.getMaxHp(), player.getMaxMp());
+				player.setCurrentCp(player.getMaxCp());
+				player.broadcastUserInfo();
+			}
+		}
+		
+		if (reward.getExp() > 0)
+		{
+			player.getStat().addExp(reward.getExp());
+			
+			player.broadcastUserInfo();
+		}
+		
+		if (reward.getSp() > 0)
+		{
+			player.getStat().addSp(reward.getSp());
+			player.broadcastUserInfo();
+		}
+	}
+	
+	public void teleportToQuestLocation(Player player, ILocational loc)
+	{
+		if (loc == null)
+		{
+			return;
+		}
+		
+		if (player.isDead())
+		{
+			player.sendPacket(SystemMessageId.DEAD_CHARACTERS_CANNOT_USE_TELEPORTS);
+			return;
+		}
+		
+		// Players should not be able to teleport if in a special location.
+		if ((player.getMovieHolder() != null) || player.isFishing() || player.isInInstance() || player.isOnEvent() || player.isInOlympiadMode() || player.inObserverMode() || player.isInTraingCamp() || player.isInsideZone(ZoneId.TIMED_HUNTING))
+		{
+			player.sendPacket(SystemMessageId.YOU_CANNOT_TELEPORT_RIGHT_NOW);
+			return;
+		}
+		
+		// Teleport in combat configuration.
+		if (!Config.TELEPORT_WHILE_PLAYER_IN_COMBAT && (player.isInCombat() || player.isCastingNow()))
+		{
+			player.sendPacket(SystemMessageId.YOU_CANNOT_TELEPORT_WHILE_IN_COMBAT);
+			return;
+		}
+		
+		// Karma related configurations.
+		if ((!Config.ALT_GAME_KARMA_PLAYER_CAN_TELEPORT || !Config.ALT_GAME_KARMA_PLAYER_CAN_USE_GK) && (player.getReputation() < 0))
+		{
+			player.sendPacket(SystemMessageId.YOU_CANNOT_TELEPORT_RIGHT_NOW);
+			return;
+		}
+		
+		// Cannot escape effect.
+		if (player.isAffected(EffectFlag.CANNOT_ESCAPE))
+		{
+			player.sendPacket(SystemMessageId.YOU_CANNOT_TELEPORT_RIGHT_NOW);
+			return;
+		}
+		
+		player.abortCast();
+		player.stopMove(null);
+		player.teleToLocation(loc);
 	}
 }

@@ -23,8 +23,8 @@ import org.l2jmobius.gameserver.network.ServerPackets;
  */
 public class ExEnchantSkillResult extends ServerPacket
 {
-	public static final ExEnchantSkillResult STATIC_PACKET_TRUE = new ExEnchantSkillResult(true);
-	public static final ExEnchantSkillResult STATIC_PACKET_FALSE = new ExEnchantSkillResult(false);
+	public static final ExEnchantSkillResult STATIC_PACKET_TRUE = new ExEnchantSkillResult(false);
+	public static final ExEnchantSkillResult STATIC_PACKET_FALSE = new ExEnchantSkillResult(true);
 	
 	private final boolean _enchanted;
 	

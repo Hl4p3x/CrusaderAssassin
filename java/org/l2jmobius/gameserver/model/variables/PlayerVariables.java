@@ -71,6 +71,7 @@ public class PlayerVariables extends AbstractVariables
 	public static final String MAGIC_LAMP_COUNT = "MAGIC_LAMP_COUNT";
 	public static final String DEATH_POINT_COUNT = "DEATH_POINT_COUNT";
 	public static final String BEAST_POINT_COUNT = "BEAST_POINT_COUNT";
+	public static final String ASSASSINATION_POINT_COUNT = "ASSASSINATION_POINT_COUNT";
 	public static final String FAVORITE_TELEPORTS = "FAVORITE_TELEPORTS";
 	public static final String ELIXIRS_AVAILABLE = "ELIXIRS_AVAILABLE";
 	public static final String STAT_POINTS = "STAT_POINTS";
@@ -92,6 +93,12 @@ public class PlayerVariables extends AbstractVariables
 	public static final String DYE_POTENTIAL_DAILY_COUNT = "DYE_POTENTIAL_DAILY_COUNT";
 	public static final String MISSION_LEVEL_PROGRESS = "MISSION_LEVEL_PROGRESS_";
 	public static final String BALOK_AVAILABLE_REWARD = "BALOK_AVAILABLE_REWARD";
+	public static final String DUAL_INVENTORY_SLOT = "DUAL_INVENTORY_SLOT";
+	public static final String DUAL_INVENTORY_SET_A = "DUAL_INVENTORY_SET_A";
+	public static final String DUAL_INVENTORY_SET_B = "DUAL_INVENTORY_SET_B";
+	public static final String DAILY_EXTRACT_ITEM = "DAILY_EXTRACT_ITEM";
+	public static final String SKILL_ENCHANT_STAR = "SKILL_ENCHANT_STAR_";
+	public static final String SKILL_TRY_ENCHANT = "SKILL_TRY_ENCHANT_";
 	
 	private final int _objectId;
 	

@@ -71,7 +71,7 @@ public class AcquireSkillList extends ServerPacket
 			final int skillId = _player.getReplacementSkill(skill.getSkillId());
 			writeInt(skillId);
 			
-			writeShort(skill.getSkillLevel()); // Main writeInt, Essence writeShort.
+			writeInt(skill.getSkillLevel()); // 414 both Main and Essence writeInt.
 			writeLong(skill.getLevelUpSp());
 			writeByte(skill.getGetLevel());
 			writeByte(0); // Skill dual class level.
@@ -99,7 +99,7 @@ public class AcquireSkillList extends ServerPacket
 			for (Skill removed : removeSkills)
 			{
 				writeInt(removed.getId());
-				writeShort(removed.getLevel()); // Main writeInt, Essence writeShort.
+				writeInt(removed.getLevel()); // 414 both Main and Essence writeInt.
 			}
 		}
 	}
