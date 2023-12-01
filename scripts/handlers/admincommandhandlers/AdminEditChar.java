@@ -465,6 +465,24 @@ public class AdminEditChar implements IAdminCommandHandler
 						}
 					}
 					
+					// Assassin checks.
+					if (CategoryData.getInstance().isInCategory(CategoryType.ASSASSIN_ALL_CLASS, classidval))
+					{
+						if (player.getRace() == Race.HUMAN)
+						{
+							player.getAppearance().setMale();
+						}
+						else
+						{
+							player.getAppearance().setFemale();
+						}
+						
+						if (CategoryData.getInstance().isInCategory(CategoryType.FOURTH_CLASS_GROUP, classidval))
+						{
+							player.setAssassinationPoints(0);
+						}
+					}
+					
 					final String newclass = ClassListData.getInstance().getClass(player.getClassId()).getClassName();
 					player.store(false);
 					for (Skill oldSkill : player.getAllSkills())

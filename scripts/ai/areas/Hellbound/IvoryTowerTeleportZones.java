@@ -47,18 +47,18 @@ public class IvoryTowerTeleportZones extends AbstractNpcAI
 		calendar.set(Calendar.MILLISECOND, 0);
 		
 		// Current day check.
-		if ((calendar.get(Calendar.DAY_OF_WEEK) == Calendar.SATURDAY) && ((calendar.get(Calendar.HOUR_OF_DAY) >= 10) && (calendar.get(Calendar.HOUR_OF_DAY) < 22)))
+		if ((calendar.get(Calendar.DAY_OF_WEEK) == Calendar.SATURDAY) && (calendar.get(Calendar.HOUR_OF_DAY) >= 10))
 		{
 			enableZones();
 			calendar.add(Calendar.DAY_OF_WEEK, 7);
-			calendar.set(Calendar.HOUR_OF_DAY, 10);
+			calendar.set(Calendar.HOUR, 10);
 			closeZones();
 		}
 		else
 		{
 			disableZones();
 			calendar.add(Calendar.DAY_OF_WEEK, Calendar.SATURDAY - calendar.get(Calendar.DAY_OF_WEEK));
-			calendar.set(Calendar.HOUR_OF_DAY, 10);
+			calendar.set(Calendar.HOUR, 10);
 		}
 		
 		// Schedule task to check if it is Saturday.
@@ -68,7 +68,7 @@ public class IvoryTowerTeleportZones extends AbstractNpcAI
 	private void checkCondition()
 	{
 		final Calendar calendar = Calendar.getInstance();
-		if ((calendar.get(Calendar.DAY_OF_WEEK) == Calendar.SATURDAY) && ((calendar.get(Calendar.HOUR_OF_DAY) >= 10) && (calendar.get(Calendar.HOUR_OF_DAY) < 22)))
+		if ((calendar.get(Calendar.DAY_OF_WEEK) == Calendar.SATURDAY) && (calendar.get(Calendar.HOUR_OF_DAY) >= 10))
 		{
 			enableZones();
 			closeZones();
@@ -78,7 +78,8 @@ public class IvoryTowerTeleportZones extends AbstractNpcAI
 	private void closeZones()
 	{
 		final Calendar calendar = Calendar.getInstance();
-		calendar.set(Calendar.HOUR_OF_DAY, 22);
+		calendar.add(Calendar.DAY_OF_WEEK, 1);
+		calendar.set(Calendar.HOUR, 0);
 		calendar.set(Calendar.MINUTE, 0);
 		calendar.set(Calendar.SECOND, 0);
 		calendar.set(Calendar.MILLISECOND, 0);

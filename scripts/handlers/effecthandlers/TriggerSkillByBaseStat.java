@@ -24,23 +24,23 @@ import org.l2jmobius.gameserver.model.actor.Creature;
 import org.l2jmobius.gameserver.model.effects.AbstractEffect;
 import org.l2jmobius.gameserver.model.skill.Skill;
 import org.l2jmobius.gameserver.model.skill.SkillCaster;
-import org.l2jmobius.gameserver.model.stats.Stat;
+import org.l2jmobius.gameserver.model.stats.BaseStat;
 
 /**
- * @author Mobius
+ * @author dims
  */
-public class TriggerSkillByStat extends AbstractEffect
+public class TriggerSkillByBaseStat extends AbstractEffect
 {
-	private final Stat _stat;
+	private final BaseStat _baseStat;
 	private final int _skillId;
 	private final int _skillLevel;
 	private final int _skillSubLevel;
 	private final int _min;
 	private final int _max;
 	
-	public TriggerSkillByStat(StatSet params)
+	public TriggerSkillByBaseStat(StatSet params)
 	{
-		_stat = params.getEnum("stat", Stat.class);
+		_baseStat = params.getEnum("baseStat", BaseStat.class);
 		_skillId = params.getInt("skillId", 0);
 		_skillLevel = params.getInt("skillLevel", 1);
 		_skillSubLevel = params.getInt("skillSubLevel", 0);
@@ -56,7 +56,45 @@ public class TriggerSkillByStat extends AbstractEffect
 		// In some cases, without ThreadPool, values did not apply.
 		ThreadPool.schedule(() ->
 		{
-			final int currentValue = (int) effected.getStat().getValue(_stat);
+			final int currentValue;
+			switch (_baseStat)
+			{
+				case STR:
+				{
+					currentValue = target.getSTR();
+					break;
+				}
+				case INT:
+				{
+					currentValue = target.getINT();
+					break;
+				}
+				case DEX:
+				{
+					currentValue = target.getDEX();
+					break;
+				}
+				case WIT:
+				{
+					currentValue = target.getWIT();
+					break;
+				}
+				case CON:
+				{
+					currentValue = target.getCON();
+					break;
+				}
+				case MEN:
+				{
+					currentValue = target.getMEN();
+					break;
+				}
+				default:
+				{
+					currentValue = 0;
+					break;
+				}
+			}
 			
 			// Synchronized because the same skill could be used twice and isAffectedBySkill ignored.
 			synchronized (target)

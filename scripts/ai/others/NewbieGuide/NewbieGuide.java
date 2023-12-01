@@ -96,12 +96,12 @@ public class NewbieGuide extends AbstractNpcAI
 			if (player.isMageClass() && (player.getRace() != Race.ORC))
 			{
 				giveItems(player, SPIRITSHOT_REWARD);
-				playTutorialVoice(player, "tutorial_voice_027");
+				playTutorialVoice(player, "tutorial_voice_027_a");
 			}
 			else
 			{
 				giveItems(player, SOULSHOT_REWARD);
-				playTutorialVoice(player, "tutorial_voice_026");
+				playTutorialVoice(player, "tutorial_voice_026_a");
 			}
 		}
 		if (Config.MAX_NEWBIE_BUFF_LEVEL > 0)

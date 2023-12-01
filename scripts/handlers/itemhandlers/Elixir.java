@@ -49,7 +49,7 @@ public class Elixir extends ItemSkills
 			((playable.getLevel() < 95) && (elixirsAvailable >= (23 + effectBonus))) || //
 			((playable.getLevel() < 100) && (elixirsAvailable >= (25 + effectBonus))))
 		{
-			playable.sendPacket(SystemMessageId.THE_ELIXIR_UNAVAILABLE);
+			playable.sendPacket(SystemMessageId.THE_ELIXIR_IS_UNAVAILABLE);
 			return false;
 		}
 		

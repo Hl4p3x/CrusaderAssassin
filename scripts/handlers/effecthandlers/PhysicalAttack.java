@@ -22,6 +22,7 @@ import java.util.HashSet;
 import java.util.Set;
 
 import org.l2jmobius.Config;
+import org.l2jmobius.commons.util.Rnd;
 import org.l2jmobius.gameserver.enums.Race;
 import org.l2jmobius.gameserver.enums.ShotType;
 import org.l2jmobius.gameserver.model.StatSet;
@@ -54,6 +55,8 @@ public class PhysicalAttack extends AbstractEffect
 	private final double _abnormalDamageMod;
 	private final double _abnormalPowerMod;
 	private final double _raceModifier;
+	private final int _chanceToRepeat;
+	private final int _repeatCount;
 	private final Set<Race> _races = EnumSet.noneOf(Race.class);
 	
 	public PhysicalAttack(StatSet params)
@@ -89,6 +92,9 @@ public class PhysicalAttack extends AbstractEffect
 				_races.add(Race.valueOf(race));
 			}
 		}
+		
+		_repeatCount = params.getInt("repeatCount", 1);
+		_chanceToRepeat = params.getInt("chanceToRepeat", 0);
 	}
 	
 	@Override
@@ -142,96 +148,105 @@ public class PhysicalAttack extends AbstractEffect
 		
 		final double shieldDefenceIgnoreRemoval = effected.getStat().getValue(Stat.SHIELD_DEFENCE_IGNORE_REMOVAL, 1);
 		final double shieldDefenceIgnoreRemovalAdd = effected.getStat().getValue(Stat.SHIELD_DEFENCE_IGNORE_REMOVAL_ADD, 0);
-		if (!_ignoreShieldDefence || (shieldDefenceIgnoreRemoval > 1) || (shieldDefenceIgnoreRemovalAdd > 0))
+		
+		for (int i = 0; i < _repeatCount; i++)
 		{
-			final byte shield = Formulas.calcShldUse(effector, effected);
-			switch (shield)
+			if ((i > 0) && (_chanceToRepeat > 0) && (Rnd.get(100) >= _chanceToRepeat))
 			{
-				case Formulas.SHIELD_DEFENSE_SUCCEED:
-				{
-					int shieldDef = effected.getShldDef();
-					if (_ignoreShieldDefence)
-					{
-						final double shieldDefMod = Math.max(0, shieldDefenceIgnoreRemoval - 1);
-						double ignoredShieldDef = shieldDef - (shieldDef * shieldDefMod);
-						if (ignoredShieldDef > 0)
-						{
-							ignoredShieldDef = Math.max(0, ignoredShieldDef - shieldDefenceIgnoreRemovalAdd);
-						}
-						defence += shieldDef - ignoredShieldDef;
-					}
-					else
-					{
-						defence += effected.getShldDef();
-					}
-					break;
-				}
-				case Formulas.SHIELD_DEFENSE_PERFECT_BLOCK:
-				{
-					defence = -1;
-					break;
-				}
+				break;
 			}
-		}
-		
-		double damage = 1;
-		final boolean critical = Formulas.calcCrit(_criticalChance, effector, effected, skill);
-		
-		if (defence != -1)
-		{
-			// Trait, elements
-			final double weaponTraitMod = Formulas.calcWeaponTraitBonus(effector, effected);
-			final double generalTraitMod = Formulas.calcGeneralTraitBonus(effector, effected, skill.getTraitType(), true);
-			final double weaknessMod = Formulas.calcWeaknessBonus(effector, effected, skill.getTraitType());
-			final double attributeMod = Formulas.calcAttributeBonus(effector, effected, skill);
-			final double pvpPveMod = Formulas.calculatePvpPveBonus(effector, effected, skill, true);
-			final double randomMod = effector.getRandomDamageMultiplier();
 			
-			// Skill specific modifiers.
-			boolean hasAbnormalType = false;
-			if (!_abnormals.isEmpty())
+			if (!_ignoreShieldDefence || (shieldDefenceIgnoreRemoval > 1) || (shieldDefenceIgnoreRemovalAdd > 0))
 			{
-				for (AbnormalType abnormal : _abnormals)
+				final byte shield = Formulas.calcShldUse(effector, effected);
+				switch (shield)
 				{
-					if (effected.hasAbnormalType(abnormal))
+					case Formulas.SHIELD_DEFENSE_SUCCEED:
 					{
-						hasAbnormalType = true;
+						int shieldDef = effected.getShldDef();
+						if (_ignoreShieldDefence)
+						{
+							final double shieldDefMod = Math.max(0, shieldDefenceIgnoreRemoval - 1);
+							double ignoredShieldDef = shieldDef - (shieldDef * shieldDefMod);
+							if (ignoredShieldDef > 0)
+							{
+								ignoredShieldDef = Math.max(0, ignoredShieldDef - shieldDefenceIgnoreRemovalAdd);
+							}
+							defence += shieldDef - ignoredShieldDef;
+						}
+						else
+						{
+							defence += effected.getShldDef();
+						}
+						break;
+					}
+					case Formulas.SHIELD_DEFENSE_PERFECT_BLOCK:
+					{
+						defence = -1;
 						break;
 					}
 				}
 			}
-			final double power = ((_power * (hasAbnormalType ? _abnormalPowerMod : 1)) + effector.getStat().getValue(Stat.SKILL_POWER_ADD, 0));
-			final double weaponMod = effector.getAttackType().isRanged() ? 70 : 77;
-			final double rangedBonus = effector.getAttackType().isRanged() ? attack + power : 0;
-			final double critMod = critical ? Formulas.calcCritDamage(effector, effected, skill) : 1;
-			double ssmod = 1;
-			if (skill.useSoulShot())
+			
+			double damage = 1;
+			final boolean critical = Formulas.calcCrit(_criticalChance, effector, effected, skill);
+			
+			if (defence != -1)
 			{
-				if (effector.isChargedShot(ShotType.SOULSHOTS))
+				// Trait, elements
+				final double weaponTraitMod = Formulas.calcWeaponTraitBonus(effector, effected);
+				final double generalTraitMod = Formulas.calcGeneralTraitBonus(effector, effected, skill.getTraitType(), true);
+				final double weaknessMod = Formulas.calcWeaknessBonus(effector, effected, skill.getTraitType());
+				final double attributeMod = Formulas.calcAttributeBonus(effector, effected, skill);
+				final double pvpPveMod = Formulas.calculatePvpPveBonus(effector, effected, skill, true);
+				final double randomMod = effector.getRandomDamageMultiplier();
+				
+				// Skill specific modifiers.
+				boolean hasAbnormalType = false;
+				if (!_abnormals.isEmpty())
 				{
-					ssmod = 2 * effector.getStat().getValue(Stat.SHOTS_BONUS) * effected.getStat().getValue(Stat.SOULSHOT_RESISTANCE, 1); // 2.04 for dual weapon?
+					for (AbnormalType abnormal : _abnormals)
+					{
+						if (effected.hasAbnormalType(abnormal))
+						{
+							hasAbnormalType = true;
+							break;
+						}
+					}
 				}
-				else if (effector.isChargedShot(ShotType.BLESSED_SOULSHOTS))
+				final double power = ((_power * (hasAbnormalType ? _abnormalPowerMod : 1)) + effector.getStat().getValue(Stat.SKILL_POWER_ADD, 0));
+				final double weaponMod = effector.getAttackType().isRanged() ? 70 : 77;
+				final double rangedBonus = effector.getAttackType().isRanged() ? attack + power : 0;
+				final double critMod = critical ? Formulas.calcCritDamage(effector, effected, skill) : 1;
+				double ssmod = 1;
+				if (skill.useSoulShot())
 				{
-					ssmod = 4 * effector.getStat().getValue(Stat.SHOTS_BONUS) * effected.getStat().getValue(Stat.SOULSHOT_RESISTANCE, 1);
+					if (effector.isChargedShot(ShotType.SOULSHOTS))
+					{
+						ssmod = 2 * effector.getStat().getValue(Stat.SHOTS_BONUS) * effected.getStat().getValue(Stat.SOULSHOT_RESISTANCE, 1); // 2.04 for dual weapon?
+					}
+					else if (effector.isChargedShot(ShotType.BLESSED_SOULSHOTS))
+					{
+						ssmod = 4 * effector.getStat().getValue(Stat.SHOTS_BONUS) * effected.getStat().getValue(Stat.SOULSHOT_RESISTANCE, 1);
+					}
+				}
+				
+				// ...................____________Melee Damage_____________......................................___________________Ranged Damage____________________
+				// ATTACK CALCULATION 77 * ((pAtk * lvlMod) + power) / pdef            RANGED ATTACK CALCULATION 70 * ((pAtk * lvlMod) + power + patk + power) / pdef
+				// ```````````````````^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^``````````````````````````````````````^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+				final double baseMod = (weaponMod * ((attack * effector.getLevelMod()) + power + rangedBonus)) / defence;
+				// Nasseka rev. 10200: generalTraitMod == 0 ? 1 : generalTraitMod (no invulnerable traits).
+				damage = baseMod * (hasAbnormalType ? _abnormalDamageMod : 1) * ssmod * critMod * weaponTraitMod * (generalTraitMod == 0 ? 1 : generalTraitMod) * weaknessMod * attributeMod * pvpPveMod * randomMod;
+				damage *= effector.getStat().getValue(Stat.PHYSICAL_SKILL_POWER, 1);
+				
+				// Apply race modifier.
+				if (_races.contains(effected.getRace()))
+				{
+					damage *= _raceModifier;
 				}
 			}
 			
-			// ...................____________Melee Damage_____________......................................___________________Ranged Damage____________________
-			// ATTACK CALCULATION 77 * ((pAtk * lvlMod) + power) / pdef            RANGED ATTACK CALCULATION 70 * ((pAtk * lvlMod) + power + patk + power) / pdef
-			// ```````````````````^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^``````````````````````````````````````^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-			final double baseMod = (weaponMod * ((attack * effector.getLevelMod()) + power + rangedBonus)) / defence;
-			// Nasseka rev. 10200: generalTraitMod == 0 ? 1 : generalTraitMod (no invulnerable traits).
-			damage = baseMod * (hasAbnormalType ? _abnormalDamageMod : 1) * ssmod * critMod * weaponTraitMod * (generalTraitMod == 0 ? 1 : generalTraitMod) * weaknessMod * attributeMod * pvpPveMod * randomMod;
-			damage *= effector.getStat().getValue(Stat.PHYSICAL_SKILL_POWER, 1);
-			
-			// Apply race modifier.
-			if (_races.contains(effected.getRace()))
-			{
-				damage *= _raceModifier;
-			}
+			effector.doAttack(damage, effected, skill, false, false, critical, false);
 		}
-		
-		effector.doAttack(damage, effected, skill, false, false, critical, false);
 	}
 }

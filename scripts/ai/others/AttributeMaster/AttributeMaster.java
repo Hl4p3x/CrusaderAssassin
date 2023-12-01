@@ -27,6 +27,7 @@ import org.l2jmobius.gameserver.model.events.EventType;
 import org.l2jmobius.gameserver.model.events.impl.creature.player.OnElementalSpiritLearn;
 import org.l2jmobius.gameserver.network.serverpackets.UserInfo;
 import org.l2jmobius.gameserver.network.serverpackets.elementalspirits.ElementalSpiritInfo;
+import org.l2jmobius.gameserver.network.serverpackets.elementalspirits.ExElementalSpiritAttackType;
 
 import ai.AbstractNpcAI;
 
@@ -70,10 +71,12 @@ public class AttributeMaster extends AbstractNpcAI
 					spirit.upgrade();
 				}
 			}
+			
 			final UserInfo userInfo = new UserInfo(player);
 			userInfo.addComponentType(UserInfoType.ATT_SPIRITS);
 			player.sendPacket(userInfo);
-			player.sendPacket(new ElementalSpiritInfo(player, player.getActiveElementalSpiritType(), (byte) 0x01));
+			player.sendPacket(new ElementalSpiritInfo(player, (byte) 0x01));
+			player.sendPacket(new ExElementalSpiritAttackType(player));
 			
 			if (EventDispatcher.getInstance().hasListener(EventType.ON_ELEMENTAL_SPIRIT_LEARN, player))
 			{

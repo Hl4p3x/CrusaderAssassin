@@ -511,6 +511,16 @@ public class ClassMaster extends AbstractNpcAI implements IXmlReader
 						htmltext = "test_server_helper026o.html";
 						break;
 					}
+					case ASSASSIN_MALE_0:
+					{
+						htmltext = "test_server_helper026p.html";
+						break;
+					}
+					case ASSASSIN_FEMALE_0:
+					{
+						htmltext = "test_server_helper026q.html";
+						break;
+					}
 				}
 			}
 		}
@@ -711,6 +721,16 @@ public class ClassMaster extends AbstractNpcAI implements IXmlReader
 					case RIDER:
 					{
 						htmltext = "test_server_helper020j.html";
+						break;
+					}
+					case ASSASSIN_MALE_1:
+					{
+						htmltext = "test_server_helper020k.html";
+						break;
+					}
+					case ASSASSIN_FEMALE_1:
+					{
+						htmltext = "test_server_helper020l.html";
 						break;
 					}
 				}

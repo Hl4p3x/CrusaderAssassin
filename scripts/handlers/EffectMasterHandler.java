@@ -39,6 +39,7 @@ public class EffectMasterHandler
 		EffectHandler.getInstance().registerHandler("Accuracy", Accuracy::new);
 		EffectHandler.getInstance().registerHandler("AddHate", AddHate::new);
 		EffectHandler.getInstance().registerHandler("AddHuntingTime", AddHuntingTime::new);
+		EffectHandler.getInstance().registerHandler("AdditionalPhysicalAttack", AdditionalPhysicalAttack::new);
 		EffectHandler.getInstance().registerHandler("AdditionalPotionCp", AdditionalPotionCp::new);
 		EffectHandler.getInstance().registerHandler("AdditionalPotionHp", AdditionalPotionHp::new);
 		EffectHandler.getInstance().registerHandler("AdditionalPotionMp", AdditionalPotionMp::new);
@@ -245,6 +246,7 @@ public class EffectMasterHandler
 		EffectHandler.getInstance().registerHandler("MaxCp", MaxCp::new);
 		EffectHandler.getInstance().registerHandler("MaxHp", MaxHp::new);
 		EffectHandler.getInstance().registerHandler("MaxMp", MaxMp::new);
+		EffectHandler.getInstance().registerHandler("ModifyAssassinationPoints", ModifyAssassinationPoints::new);
 		EffectHandler.getInstance().registerHandler("ModifyBeastPoints", ModifyBeastPoints::new);
 		EffectHandler.getInstance().registerHandler("ModifyCraftPoints", ModifyCraftPoints::new);
 		EffectHandler.getInstance().registerHandler("ModifyDeathPoints", ModifyDeathPoints::new);
@@ -339,6 +341,7 @@ public class EffectMasterHandler
 		EffectHandler.getInstance().registerHandler("SayhaGraceSupport", SayhaGraceSupport::new);
 		EffectHandler.getInstance().registerHandler("SendSystemMessageToClan", SendSystemMessageToClan::new);
 		EffectHandler.getInstance().registerHandler("ServitorShare", ServitorShare::new);
+		EffectHandler.getInstance().registerHandler("ServitorShareSkills", ServitorShareSkills::new);
 		EffectHandler.getInstance().registerHandler("SetHp", SetHp::new);
 		EffectHandler.getInstance().registerHandler("SetCp", SetCp::new);
 		EffectHandler.getInstance().registerHandler("SetSkill", SetSkill::new);
@@ -411,6 +414,7 @@ public class EffectMasterHandler
 		EffectHandler.getInstance().registerHandler("TriggerSkill", TriggerSkill::new);
 		EffectHandler.getInstance().registerHandler("TriggerSkillByAttack", TriggerSkillByAttack::new);
 		EffectHandler.getInstance().registerHandler("TriggerSkillByAvoid", TriggerSkillByAvoid::new);
+		EffectHandler.getInstance().registerHandler("TriggerSkillByBaseStat", TriggerSkillByBaseStat::new);
 		EffectHandler.getInstance().registerHandler("TriggerSkillByDamage", TriggerSkillByDamage::new);
 		EffectHandler.getInstance().registerHandler("TriggerSkillByDeathBlow", TriggerSkillByDeathBlow::new);
 		EffectHandler.getInstance().registerHandler("TriggerSkillByDualRange", TriggerSkillByDualRange::new);

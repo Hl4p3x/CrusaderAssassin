@@ -114,7 +114,7 @@ public class ResidenceOfKingProcella extends AbstractNpcAI
 				final Instance world = npc.getInstanceWorld();
 				if (world != null)
 				{
-					final Player plr = world.getPlayers().stream().findAny().orElse(null); // Usamos orElse(null) para evitar el Optional vacΞ“Β­o
+					final Player plr = world.getPlayers().stream().findAny().orElse(null); // Usamos orElse(null) para evitar el Optional vacΓ­o
 					if ((plr != null) && (plr.isInsideRadius3D(npc, 100)))
 					{
 						npc.abortAttack();

@@ -87,7 +87,7 @@ public class AddSpiritExp implements IItemHandler
 		}
 		if ((spirit.getLevel() == spirit.getMaxLevel()) && (spirit.getExperience() == spirit.getExperienceToNextLevel()))
 		{
-			player.sendPacket(SystemMessageId.UNABLE_TO_ABSORB_BECAUSE_REACHED_MAXIMUM_LEVEL);
+			player.sendPacket(SystemMessageId.YOU_HAVE_REACHED_THE_MAXIMUM_LEVEL_AND_CANNOT_ABSORB_ANY_FURTHER);
 			return false;
 		}
 		return true;

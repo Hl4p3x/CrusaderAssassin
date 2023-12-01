@@ -24,6 +24,7 @@ import java.util.Set;
 import java.util.TreeMap;
 
 import org.l2jmobius.Config;
+import org.l2jmobius.gameserver.data.xml.NewQuestData;
 import org.l2jmobius.gameserver.handler.IBypassHandler;
 import org.l2jmobius.gameserver.instancemanager.QuestManager;
 import org.l2jmobius.gameserver.model.actor.Creature;
@@ -96,7 +97,7 @@ public class QuestLink implements IBypassHandler
 		for (AbstractEventListener listener : npc.getListeners(EventType.ON_NPC_QUEST_START))
 		{
 			final Object owner = listener.getOwner();
-			if (owner instanceof Quest)
+			if ((owner instanceof Quest) && (NewQuestData.getInstance().getQuestById(((Quest) owner).getId()) == null))
 			{
 				startingQuests.add((Quest) owner);
 			}
@@ -108,7 +109,10 @@ public class QuestLink implements IBypassHandler
 			final Map<Integer, Quest> orderedQuests = new TreeMap<>(); // Use TreeMap to order quests
 			for (Quest q : questList)
 			{
-				orderedQuests.put(q.getId(), q);
+				if (NewQuestData.getInstance().getQuestById(q.getId()) == null)
+				{
+					orderedQuests.put(q.getId(), q);
+				}
 			}
 			questList = orderedQuests.values();
 		}
