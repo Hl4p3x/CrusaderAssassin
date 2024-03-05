@@ -181,7 +181,7 @@
 		<reuseDelay>1000</reuseDelay>
 	</skill>
 	<skill id="51110" toLevel="1" name="Fisherman's Blessing">
-		<!-- For 24 h., Acquired XP/ SP through fishing +50%. Effect remains after death. -->
+		<!-- For 24 h., acquired XP/ SP while fishing +50%. The effect remains after death. -->
 		<icon>icon.fishing_zone_ticket_1</icon>
 		<operateType>A1</operateType>
 		<isMagic>4</isMagic>
@@ -352,7 +352,7 @@
 		</effects>
 	</skill>
 	<skill id="51126" toLevel="1" name="Mid-grade Spirit's Blessing">
-		<!-- For 20 min., acquired attribute XP while huntiing +30%. -->
+		<!-- For 20 min., acquired attribute XP while hunting +30%. -->
 		<icon>icon.elemental_bless_scrl_i00</icon>
 		<operateType>A2</operateType>
 		<isMagic>4</isMagic>
@@ -370,7 +370,7 @@
 		</effects>
 	</skill>
 	<skill id="51127" toLevel="1" name="High-grade Spirit's Blessing">
-		<!-- For 20 min., acquired attribute XP while huntiing +50%. -->
+		<!-- For 20 min., acquired attribute XP while hunting +50%. -->
 		<icon>icon.elemental_bless_scrl_i00</icon>
 		<operateType>A2</operateType>
 		<isMagic>4</isMagic>
@@ -753,7 +753,7 @@
 		<operateType>A1</operateType>
 		<effectPoint>1</effectPoint>
 	</skill>
-	<skill id="51154" toLevel="1" name="Santa Girl's Magic Box">
+	<skill id="51154" toLevel="1" name="Santa Girl's Magic Chest">
 		<!-- Activates Santa Girl's Gift when used. -->
 		<icon>BranchSys.icon.br_valentine_agathion_pack_i00</icon>
 		<operateType>A1</operateType>
@@ -774,7 +774,7 @@
 		<reuseDelay>1000</reuseDelay>
 	</skill>
 	<skill id="51157" toLevel="1" name="Christmas Amulet">
-		<!-- Acquired XP/ SP through hunting/ fishing +20%. -->
+		<!-- Acquired XP/ SP while hunting/ fishing +20%. -->
 		<icon>BranchSys.icon.br_xmas_present_luck_i00</icon>
 		<operateType>P</operateType>
 		<magicCriticalRate>5</magicCriticalRate>

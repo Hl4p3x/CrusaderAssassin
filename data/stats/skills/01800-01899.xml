@@ -361,7 +361,7 @@
 		</effects>
 	</skill>
 	<skill id="1817" toLevel="1" name="Adventurer - Heal">
-		<!-- Immediately restores the target's HP with 301 Power. -->
+		<!-- Momentarily recovers the target's HP. Power 301. -->
 		<icon>icon.skill1011</icon>
 		<operateType>A1</operateType>
 		<isMagic>1</isMagic> <!-- Magic Skill -->

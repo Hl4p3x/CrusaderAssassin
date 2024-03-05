@@ -237,7 +237,7 @@
 			<item id="90907" min="20" max="20" chance="20.0" /> <!-- Soulshot Ticket - Sealed -->
 			<item id="49674" min="5" max="5" chance="20.0" /> <!-- XP Growth Scroll - Sealed -->
 			<item id="93486" min="1" max="1" chance="10.0" /> <!-- Old Combat Scroll - Sealed -->
-			<item id="91712" min="5" max="5" chance="10.0" /> <!-- Sayha's Storm Lv. 3 - Sealed -->
+			<item id="91712" min="5" max="5" chance="10.0" /> <!-- Sayha's Storm - Sealed -->
 			<item id="90311" min="1" max="1" chance="5.63" /> <!-- Brooch Lv. 1 -->
 			<item id="9589" min="1" max="1" chance="5.63" /> <!-- Talisman Bracelet Lv. 1 -->
 			<item id="93304" min="1" max="1" chance="5.63" /> <!-- Package: Einhasad's Pendant Lv. 1 - Sealed -->
@@ -294,7 +294,7 @@
 			<item id="90907" min="20" max="20" chance="20.0" /> <!-- Soulshot Ticket - Sealed -->
 			<item id="49674" min="5" max="5" chance="20.0" /> <!-- XP Growth Scroll - Sealed -->
 			<item id="93486" min="1" max="1" chance="10.0" /> <!-- Old Combat Scroll - Sealed -->
-			<item id="91712" min="5" max="5" chance="10.0" /> <!-- Sayha's Storm Lv. 3 - Sealed -->
+			<item id="91712" min="5" max="5" chance="10.0" /> <!-- Sayha's Storm - Sealed -->
 			<item id="90311" min="1" max="1" chance="5.63" /> <!-- Brooch Lv. 1 -->
 			<item id="9589" min="1" max="1" chance="5.63" /> <!-- Talisman Bracelet Lv. 1 -->
 			<item id="93304" min="1" max="1" chance="5.63" /> <!-- Package: Einhasad's Pendant Lv. 1 - Sealed -->
@@ -386,7 +386,7 @@
 		<set name="is_stackable" val="true" />
 	</item>
 	<item id="71973" name="+3 ~ +8 Talisman/ Belt Coupon Box" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.bm_gold_lure_box" />
 		<set name="default_action" val="SKILL_REDUCE_ON_SKILL_SUCCESS" />
 		<set name="material" val="FISH" />
@@ -477,7 +477,7 @@
 			<item id="91034" min="1" max="1" chance="6.147" /> <!-- Earth Spirit Evolution Stone -->
 			<item id="91076" min="1" max="1" chance="6.147" /> <!-- Venir's Talisman Fragment -->
 			<item id="91641" min="2" max="2" chance="10.0" /> <!-- Sayha's Blessing - Sealed -->
-			<item id="91712" min="2" max="2" chance="10.0" /> <!-- Sayha's Storm Lv. 3 - Sealed -->
+			<item id="91712" min="2" max="2" chance="10.0" /> <!-- Sayha's Storm - Sealed -->
 			<item id="91780" min="2" max="2" chance="6.147" /> <!-- Old Battle Scroll - Sealed -->
 			<item id="93486" min="2" max="2" chance="6.147" /> <!-- Old Combat Scroll - Sealed -->
 			<item id="9591" min="1" max="1" chance="3.0" /> <!-- Talisman Bracelet Lv. 3 -->
@@ -497,7 +497,7 @@
 			<item id="93387" min="1" max="1" chance="0.1" /> <!-- Spellbook: Ultimate Death Knight Transformation -->
 			<item id="93448" min="1" max="1" chance="0.1" /> <!-- A-grade Weapon Coupon - Sealed -->
 			<item id="93449" min="1" max="1" chance="0.1" /> <!-- A-grade Armor Coupon - Sealed -->
-			<item id="93930" min="1" max="1" chance="0.1" /> <!-- Special Armor Coupon - Sealed -->
+			<item id="93930" min="1" max="1" chance="0.1" /> <!-- Special Armor Coupon (Time-limited) - Sealed -->
 			<item id="94156" min="1" max="1" chance="0.1" /> <!-- Package: Baium Doll Lv. 1 - Sealed -->
 			<item id="94159" min="1" max="1" chance="0.1" /> <!-- Package: Queen Ant Doll Lv. 1 - Sealed -->
 			<item id="94162" min="1" max="1" chance="0.1" /> <!-- Package: Orfen Doll Lv. 1 - Sealed -->

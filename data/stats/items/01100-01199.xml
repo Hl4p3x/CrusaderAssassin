@@ -608,7 +608,7 @@
 		<set name="isAppearanceable" val="true" />
 		<set name="is_sellable" val="false" />
 		<stats>
-			<stat type="pDef">33</stat>
+			<stat type="pDef">68</stat>
 		</stats>
 	</item>
 	<item id="1147" name="Squire's Pants" additionalName="Sealed" type="Armor">
@@ -625,7 +625,7 @@
 		<set name="isAppearanceable" val="true" />
 		<set name="is_sellable" val="false" />
 		<stats>
-			<stat type="pDef">20</stat>
+			<stat type="pDef">43</stat>
 		</stats>
 	</item>
 	<item id="1148" name="Durable Leather Helmet" type="Armor">

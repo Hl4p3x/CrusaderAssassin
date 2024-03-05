@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/items.xsd">
 	<item id="600" name="Sealed Avadon Boots" type="Armor">
-		<!-- The seal can be removed by a blacksmith in any village. -->
+		<!-- Sealed Avadon Boots. The seal can be removed by a blacksmith in any town. -->
 		<set name="icon" val="icon.armor_t66_b_i02" />
 		<set name="default_action" val="EQUIP" />
 		<set name="bodypart" val="feet" />
@@ -19,7 +19,7 @@
 		</stats>
 	</item>
 	<item id="601" name="Sealed Doom Boots" type="Armor">
-		<!-- Sealed Doom Boots. The seal can be removed by a blacksmith in any village. -->
+		<!-- Sealed Doom Boots. The seal can be removed by a blacksmith in any town. -->
 		<set name="icon" val="icon.armor_t71_b_i02" />
 		<set name="default_action" val="EQUIP" />
 		<set name="bodypart" val="feet" />

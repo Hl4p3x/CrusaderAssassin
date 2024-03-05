@@ -40,7 +40,7 @@
 			</effect>
 		</effects>
 	</skill>
-	<skill id="5901" toLevel="2" name="Burst of Oblivion">
+	<skill id="5901" toLevel="2" name="Mist of Oblivion">
 		<!-- When receiving damage, the character's target is cancelled, and they can't use skills. -->
 		<icon>icon.skill1481</icon>
 		<abnormalLevel>8</abnormalLevel>
@@ -358,7 +358,7 @@
 		</effects>
 	</skill>
 	<skill id="5914" toLevel="1" name="Putrefaction Cleanse">
-		<!-- P./ M. Def., P. Evasion and Speed are decreased. -->
+		<!-- Decreases P./ M. Def., P. Evasion and Speed. -->
 		<icon>icon.skill1337</icon>
 		<abnormalLevel>1</abnormalLevel>
 		<abnormalTime>10</abnormalTime>
@@ -599,7 +599,7 @@
 		</effects>
 	</skill>
 	<skill id="5922" toLevel="1" name="Exhale">
-		<!-- P. Evasion, P./ M. Def. and Speed are decreased. -->
+		<!-- Decreases P. Evasion, P. Def., M. Def. and Speed. -->
 		<icon>icon.skill1263</icon>
 		<abnormalLevel>1</abnormalLevel>
 		<abnormalTime>10</abnormalTime>
@@ -1805,7 +1805,7 @@
 		<affectScope>SINGLE</affectScope>
 	</skill>
 	<skill id="5984" toLevel="1" name="Hand of Death">
-		<!-- P./ M. Def. and Speed are decreased. -->
+		<!-- Decreases P./ M. Def. and Speed. -->
 		<icon>icon.skill0122</icon>
 		<abnormalLevel>1</abnormalLevel>
 		<abnormalTime>60</abnormalTime>
@@ -2013,7 +2013,7 @@
 		<affectScope>SINGLE</affectScope>
 	</skill>
 	<skill id="5990" toLevel="3" name="Lesser Heal">
-		<!-- Quickly restores HP. Power 817. -->
+		<!-- Quickly recovers HP. Power 817. -->
 		<icon>icon.skill0000</icon>
 		<effectPoint>
 			<value level="1">595</value>

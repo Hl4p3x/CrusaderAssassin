@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/items.xsd">
 	<item id="97100" name="Squire's Spear" type="Weapon">
-		<!-- <font color=ff6666><Unavailable to Sylphs></font> -->
+		<!-- <font color=ff6666><Unavailable to Sylphs/ Assassins.></font> -->
 		<set name="icon" val="icon.weapon_short_spear_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="POLE" />
@@ -58,7 +58,7 @@
 		<set name="is_stackable" val="true" />
 	</item>
 	<item id="97104" name="Spellbook: Master of Combat Lv. 3" type="EtcItem">
-		<!-- A book for learning Master of Combat Lv. 3 skill. <Classes>. Warriors after the 3rd class change. <Skill effect>. Increases Max HP/ Max CP and decreases Received P. Critical Damage. -->
+		<!-- A book for learning Master of Combat Lv. 3 skill. <Classes>. Dreadnought. Duelist. Titan. Grand Khavatari. Vanguard Rider. Fortune Seeker. Maestro. Doombringer. Soul Hound. <Skill effect>. Increases Max HP/ Max CP and decreases Received P. Critical Damage. -->
 		<set name="icon" val="icon.etc_magic_book_red_i00" />
 		<set name="default_action" val="NONE" />
 		<set name="immediate_effect" val="true" />
@@ -130,7 +130,7 @@
 		<set name="is_stackable" val="true" />
 	</item>
 	<item id="97112" name="Spellbook: Master of Combat Lv. 3" additionalName="Sealed" type="EtcItem">
-		<!-- A book for learning Master of Combat Lv. 3 skill. <Classes>. Warriors after the 3rd class change. <Skill effect>. Increases Max HP/ Max CP and decreases Received P. Critical Damage. -->
+		<!-- A book for learning Master of Combat Lv. 3 skill. <Classes>. Dreadnought. Duelist. Titan. Grand Khavatari. Vanguard Rider. Fortune Seeker. Maestro. Doombringer. Soul Hound. <Skill effect>. Increases Max HP/ Max CP and decreases Received P. Critical Damage. -->
 		<set name="icon" val="icon.etc_magic_book_red_i00" />
 		<set name="default_action" val="NONE" />
 		<set name="immediate_effect" val="true" />
@@ -228,7 +228,7 @@
 		<set name="is_sellable" val="false" />
 	</item>
 	<item id="97121" name="Spellbook Coupon (Sealed) - 1 Star (Time-limited)" additionalName="Sealed" type="EtcItem">
-		<!-- Not used. -->
+		<!-- Double-click to choose 1 Spellbook - 1 Star <font color=ff6666>(unexchangeable)</font>. -->
 		<set name="icon" val="icon.ev_sb_1_trade_ticket" />
 		<set name="default_action" val="NONE" />
 		<set name="immediate_effect" val="true" />
@@ -239,7 +239,7 @@
 		<set name="is_stackable" val="true" />
 	</item>
 	<item id="97122" name="Spellbook Coupon (Sealed) - 2 Stars (Time-limited)" additionalName="Sealed" type="EtcItem">
-		<!-- Not used. -->
+		<!-- Double-click to choose 1 Spellbook - 2 Stars <font color=ff6666>(unexchangeable)</font>. -->
 		<set name="icon" val="icon.ev_sb_2_trade_ticket" />
 		<set name="default_action" val="NONE" />
 		<set name="immediate_effect" val="true" />
@@ -250,7 +250,7 @@
 		<set name="is_stackable" val="true" />
 	</item>
 	<item id="97123" name="Spellbook Coupon (Sealed) - 3 Stars (Time-limited)" additionalName="Sealed" type="EtcItem">
-		<!-- Not used. -->
+		<!-- Double-click to choose 1 Spellbook - 3 Stars <font color=ff6666>(unexchangeable)</font>. -->
 		<set name="icon" val="icon.ev_sb_3_trade_ticket" />
 		<set name="default_action" val="NONE" />
 		<set name="immediate_effect" val="true" />
@@ -261,7 +261,7 @@
 		<set name="is_stackable" val="true" />
 	</item>
 	<item id="97124" name="Spellbook Coupon (Sealed) - 4 Stars (Time-limited)" additionalName="Sealed" type="EtcItem">
-		<!-- Not used. -->
+		<!-- Double-click to choose 1 Spellbook - 4 Stars <font color=ff6666>(unexchangeable)</font>. -->
 		<set name="icon" val="icon.ev_sb_4_trade_ticket" />
 		<set name="default_action" val="NONE" />
 		<set name="immediate_effect" val="true" />
@@ -308,7 +308,7 @@
 		<set name="handler" val="ChallengePointsCoupon" />
 	</item>
 	<item id="97128" name="Collection Replacement Items - Common (Time-limited)" additionalName="Sealed" type="EtcItem">
-		<!-- Can be used as replacements for items of the corresponded category. -->
+		<!-- Can be used as replacements for items of corresponded categories and of some collections. -->
 		<set name="icon" val="icon.etc_scroll_of_memory_i00" />
 		<set name="default_action" val="NONE" />
 		<set name="immediate_effect" val="true" />
@@ -318,7 +318,7 @@
 		<set name="is_sellable" val="false" />
 	</item>
 	<item id="97129" name="Collection Replacement Items - Improved (Time-limited)" additionalName="Sealed" type="EtcItem">
-		<!-- Can be used as replacements for items of the corresponded category. -->
+		<!-- Can be used as replacements for items of corresponded categories and of some collections. -->
 		<set name="icon" val="icon.etc_scroll_of_memory_i00" />
 		<set name="default_action" val="NONE" />
 		<set name="immediate_effect" val="true" />
@@ -328,7 +328,7 @@
 		<set name="is_sellable" val="false" />
 	</item>
 	<item id="97130" name="Active Skill Armor Coupon (Time-limited)" additionalName="Sealed" type="EtcItem">
-		<!-- Can be exchanged for a sealed active skill armor through the Game Assistant. <How to use>. Game Assistant - Event. -->
+		<!-- Double-click to choose 1 Special Armor <font color=ff6666>(unexchangeable)</font>. -->
 		<set name="icon" val="icon.bm_armor_ticket_a" />
 		<set name="default_action" val="NONE" />
 		<set name="immediate_effect" val="true" />
@@ -338,8 +338,8 @@
 		<set name="is_sellable" val="false" />
 	</item>
 	<item id="97131" name="Field Boss' Weapon Coupon (Time-limited)" additionalName="Sealed" type="EtcItem">
-		<!-- Not used. -->
-		<set name="icon" val="icon.bm_weapon_ticket_a" />
+		<!-- Double-click to choose 1 Boss Weapon <font color=00FF00>(exchangeable)</font>. -->
+		<set name="icon" val="icon.boss_weapon_ticket_i00" />
 		<set name="default_action" val="NONE" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="LIQUID" />
@@ -457,7 +457,7 @@
 		<set name="is_sellable" val="false" />
 	</item>
 	<item id="97141" name="Anniversary Cupid's Bow (Time-limited)" additionalName="Sealed" type="Weapon">
-		<!-- A souvenir in honor of the anniversary. A collection item, can be equipped. <font color=ff6666>Sylphs/ Vanguard Riders cannot equip it. Cannot be enchanted or augmented. No soul crystal can be inserted. Cannot be equipped on a pet.</font> -->
+		<!-- A souvenir in honor of the anniversary. A collection item, can be equipped. <font color=ff6666><Unavailable to Sylphs/ Vanguard Riders/ Assassins.>. Cannot be enchanted or augmented. No soul crystal can be inserted. Cannot be equipped on a pet.</font> -->
 		<set name="icon" val="icon.weapon_krono_bow_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="BOW" />
@@ -492,7 +492,7 @@
 		<set name="is_sellable" val="false" />
 	</item>
 	<item id="97143" name="Anniversary Death Knight's Flame Sword (Time-limited)" additionalName="Sealed" type="Weapon">
-		<!-- A souvenir in honor of the anniversary. A collection item, can be equipped. <font color=ff6666>Sylphs/ Vanguard Riders cannot equip it. Cannot be enchanted or augmented. No soul crystal can be inserted. Cannot be equipped on a pet.</font> -->
+		<!-- A souvenir in honor of the anniversary. A collection item, can be equipped. <font color=ff6666><Unavailable to Sylphs/ Vanguard Riders/ Assassins.>. Cannot be enchanted or augmented. No soul crystal can be inserted. Cannot be equipped on a pet.</font> -->
 		<set name="icon" val="icon.fire_sword_aden" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="SWORD" />
@@ -606,7 +606,7 @@
 		<set name="is_sellable" val="false" />
 	</item>
 	<item id="97151" name="Special Black Pack (Time-limited)" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.bm_artifact_box_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -619,7 +619,7 @@
 		<capsuled_items>
 			<item id="93448" min="2" max="2" chance="100" /> <!-- A-grade Weapon Coupon - Sealed -->
 			<item id="93449" min="2" max="2" chance="100" /> <!-- A-grade Armor Coupon - Sealed -->
-			<item id="91712" min="500" max="500" chance="100" /> <!-- Sayha's Storm Lv. 3 - Sealed -->
+			<item id="91712" min="500" max="500" chance="100" /> <!-- Sayha's Storm - Sealed -->
 			<item id="94269" min="500" max="500" chance="100" /> <!-- Scroll: Boost Attack - Sealed -->
 			<item id="94271" min="500" max="500" chance="100" /> <!-- Scroll: Boost Defense - Sealed -->
 			<item id="90907" min="500" max="500" chance="100" /> <!-- Soulshot Ticket - Sealed -->
@@ -639,7 +639,7 @@
 		<set name="is_stackable" val="true" />
 	</item>
 	<item id="97153" name="Anniversary Box (Time-limited)" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.event_six_party_box_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -658,7 +658,7 @@
 		</capsuled_items>
 	</item>
 	<item id="97154" name="Relic of Protection Pouch (Time-limited)" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.etc_crystal_spice_blessed_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -719,11 +719,11 @@
 			<item id="92314" min="2" max="2" chance="2.083333" /> <!-- Giran Seal -->
 			<item id="92314" min="1" max="1" chance="2.083333" /> <!-- Giran Seal -->
 			<item id="93303" min="1" max="1" chance="2.083333" /> <!-- Package: Cloak of Protection - Sealed -->
-			<item id="91713" min="1" max="1" chance="2.083333" /> <!-- Sayha's Storm Lv. 3 -->
+			<item id="91713" min="1" max="1" chance="2.083333" /> <!-- Sayha's Storm -->
 		</capsuled_items>
 	</item>
 	<item id="97155" name="Kit: Relic of Protection Pouch (Time-limited)" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.freya_box_i01" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -735,7 +735,7 @@
 		<set name="handler" val="ExtractableItems" />
 		<capsuled_items>
 			<item id="97154" min="100" max="100" chance="100" /> <!-- Relic of Protection Pouch (Time-limited) - Sealed -->
-			<item id="91712" min="100" max="100" chance="100" /> <!-- Sayha's Storm Lv. 3 - Sealed -->
+			<item id="91712" min="100" max="100" chance="100" /> <!-- Sayha's Storm - Sealed -->
 		</capsuled_items>
 	</item>
 	<item id="97156" name="Monster's Weapon: Silenos Recruit's One-handed Axe - Not Available" type="Weapon">
@@ -889,7 +889,7 @@
 		</stats>
 	</item>
 	<item id="97163" name="Daily Life Stone Chest" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.renewal_mineral_r" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -963,7 +963,7 @@
 		<set name="time" val="10080" />
 	</item>
 	<item id="97169" name="Package: Energy Rune (Time-limited)" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.bm_freya_rune" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -978,7 +978,7 @@
 		</capsuled_items>
 	</item>
 	<item id="97170" name="Lv. 1 Doll Pack (Time-limited)" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.etc_pi_gift_box_i02" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -1001,7 +1001,7 @@
 		</capsuled_items>
 	</item>
 	<item id="97171" name="Diamond Box Lv. 5 (Time-limited)" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.etc_pi_gift_box_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -1030,7 +1030,7 @@
 		<set name="is_sellable" val="false" />
 	</item>
 	<item id="97173" name="Purge Weapon Coupon (Time-limited)" type="EtcItem">
-		<!-- Can be exchanged for sealed purge weapon. <How to use>. Game Assistant - Event. -->
+		<!-- Can be exchanged for a sealed Purge weapon. <How to use>. Game Assistant - Event -->
 		<set name="icon" val="icon.bm_challenger_wp_trade_ticket" />
 		<set name="default_action" val="NONE" />
 		<set name="immediate_effect" val="true" />
@@ -1049,7 +1049,7 @@
 		<set name="is_sellable" val="false" />
 	</item>
 	<item id="97175" name="Spellbook Coupon - 1 Star" additionalName="Sealed" type="EtcItem">
-		<!-- Can be exchanged for Spellbook (Sealed) - 1 Star. <How to use>. Game Assistant - Items -->
+		<!-- Double-click to choose 1 Spellbook - 1 Star <font color=ff6666>(unexchangeable)</font>. <How to use>. Game Assistant - Items -->
 		<set name="icon" val="icon.ev_sb_1_trade_ticket" />
 		<set name="default_action" val="NONE" />
 		<set name="immediate_effect" val="true" />
@@ -1059,7 +1059,7 @@
 		<set name="is_sellable" val="false" />
 	</item>
 	<item id="97176" name="Spellbook Coupon - 2 Stars" additionalName="Sealed" type="EtcItem">
-		<!-- Can be exchanged for Spellbook (Sealed) - 2 Stars. <How to use>. Game Assistant - Items -->
+		<!-- Double-click to choose 1 Spellbook - 2 Stars <font color=ff6666>(unexchangeable)</font>. <How to use>. Game Assistant - Items -->
 		<set name="icon" val="icon.ev_sb_2_trade_ticket" />
 		<set name="default_action" val="NONE" />
 		<set name="immediate_effect" val="true" />
@@ -1069,7 +1069,7 @@
 		<set name="is_sellable" val="false" />
 	</item>
 	<item id="97177" name="Spellbook Coupon - 3 Stars" additionalName="Sealed" type="EtcItem">
-		<!-- Can be exchanged for Spellbook (Sealed) - 3 Stars. <How to use>. Game Assistant - Items -->
+		<!-- Double-click to choose 1 Spellbook - 3 Stars <font color=ff6666>(unexchangeable)</font>. <How to use>. Game Assistant - Items -->
 		<set name="icon" val="icon.ev_sb_3_trade_ticket" />
 		<set name="default_action" val="NONE" />
 		<set name="immediate_effect" val="true" />
@@ -1079,7 +1079,7 @@
 		<set name="is_sellable" val="false" />
 	</item>
 	<item id="97178" name="Spellbook Coupon - 4 Stars" additionalName="Sealed" type="EtcItem">
-		<!-- Can be exchanged for Spellbook (Sealed) - 4 Stars. <How to use>. Game Assistant - Items -->
+		<!-- Double-click to choose 1 Spellbook - 4 Stars <font color=ff6666>(unexchangeable)</font>. <How to use>. Game Assistant - Items -->
 		<set name="icon" val="icon.ev_sb_4_trade_ticket" />
 		<set name="default_action" val="NONE" />
 		<set name="immediate_effect" val="true" />
@@ -1089,7 +1089,7 @@
 		<set name="is_sellable" val="false" />
 	</item>
 	<item id="97179" name="VIP Collection Reward - Gold (Time-limited)" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.bm_sayha_gold_present" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -1105,7 +1105,7 @@
 		</capsuled_items>
 	</item>
 	<item id="97180" name="VIP Collection Reward - Silver (Time-limited)" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.bm_sayha_silver_present" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -1121,7 +1121,7 @@
 		</capsuled_items>
 	</item>
 	<item id="97181" name="VIP Collection Reward - Bronze (Time-limited)" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.bm_sayha_present" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />

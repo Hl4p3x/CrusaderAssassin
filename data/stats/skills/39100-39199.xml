@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/skills.xsd">
 	<skill id="39100" toLevel="1" name="Agathion Teleport - Hunters' Village">
-		<!-- Teleports to Hunter's Village. -->
+		<!-- Teleports to Hunters' Village. -->
 		<icon>icon.skill0000</icon>
 		<operateType>A1</operateType>
 		<blockedInOlympiad>true</blockedInOlympiad>
@@ -224,7 +224,7 @@
 		</effects>
 	</skill>
 	<skill id="39120" toLevel="1" name="Teleport: Giran Harbor">
-		<!-- Teleports to Giran Harbor. -->
+		<!-- Teleports to the Giran Harbor. -->
 		<icon>icon.skill0000</icon>
 		<operateType>A1</operateType>
 		<hitTime>3000</hitTime>
@@ -739,10 +739,10 @@
 			<effect name="RestorationRandom">
 				<items>
 					<item chance="33.34">
-						<item id="49521" count="1" /> <!-- Refined Romantic Chapeau <STR+1 INT+1> -->
+						<item id="49521" count="1" /> <!-- Refined Romantic Chapeau <STR +1 INT +1> -->
 					</item>
 					<item chance="33.33">
-						<item id="49687" count="1" /> <!-- Chic Silver Chapeau <Str+1 Int+1> -->
+						<item id="49687" count="1" /> <!-- Chic Silver Chapeau <STR +1 INT +1> -->
 					</item>
 					<item chance="33.33">
 						<item id="49688" count="1" /> <!-- Refined Silver Chapeau Box - 30-day -->
@@ -798,25 +798,25 @@
 		<affectScope>SINGLE</affectScope>
 	</skill>
 	<skill id="39140" toLevel="1" name="Magic Potion of Leaping Lv. 1">
-		<!-- XP +1,200,000, SP +40,000. Required level: 20+. -->
+		<!-- XP +1,200,000, SP +4000 SP. Required level: 20+. -->
 		<icon>icon.etc_holy_potion_i00</icon>
 		<operateType>A1</operateType>
 		<reuseDelay>1000</reuseDelay>
 	</skill>
 	<skill id="39141" toLevel="1" name="Magic Potion of Leaping Lv. 2">
-		<!-- XP +7,800,000, SP +240,000. Required level: 30+. -->
+		<!-- XP +7,800,000, SP +24,000 SP. Required level: 30+. -->
 		<icon>icon.etc_wind_potion_i00</icon>
 		<operateType>A1</operateType>
 		<reuseDelay>1000</reuseDelay>
 	</skill>
 	<skill id="39142" toLevel="1" name="Magic Potion of Leaping Lv. 3">
-		<!-- Allows to receive 34,200,000 XP/ 1,040,000 SP. Available for characters from Lv. 40 or higher. -->
+		<!-- XP +34,200,000, SP +104,000 SP. Required level: 40+. -->
 		<icon>icon.etc_water_potion_i00</icon>
 		<operateType>A1</operateType>
 		<reuseDelay>1000</reuseDelay>
 	</skill>
 	<skill id="39143" toLevel="1" name="Gift from a Returned Friend">
-		<!-- Allows to receive 37,000,000 XP/ 1,110,000 SP. Available for characters from Lv. 45 or higher. -->
+		<!-- XP +37,000,000, SP +114,000 SP. Required level: 45+. -->
 		<icon>icon.BranchSys.icon.br_lucky_bag_i00</icon>
 		<operateType>A1</operateType>
 		<reuseDelay>1000</reuseDelay>
@@ -950,7 +950,7 @@
 						<item id="49713" count="1" /> <!-- Talisman of Darkness - Max HP - 1-hour -->
 					</item>
 					<item chance="10.0">
-						<item id="49714" count="1" /> <!-- Talisman of Darkness - Max MP - 1-hour -->
+						<item id="49714" count="1" /> <!-- Talisman of Darkness - MP - 1-hour -->
 					</item>
 					<item chance="10.0">
 						<item id="49715" count="1" /> <!-- Talisman of Darkness - Received Healing - 1-hour -->
@@ -1506,7 +1506,7 @@
 		</effects>
 	</skill>
 	<skill id="39161" toLevel="1" name="Express Bus Pass Card">
-		<!-- Allows to receive 5,000,000 XP/ 160,000 SP. Available for characters from Lv. 20 or higher. -->
+		<!-- XP +5,000,000, SP +16,000 SP. Required level: 20+. -->
 		<icon>icon.etc_holy_potion_i00</icon>
 		<operateType>A1</operateType>
 		<reuseDelay>1000</reuseDelay>
@@ -1739,7 +1739,7 @@
 		<effectPoint>1</effectPoint>
 	</skill>
 	<skill id="39168" toLevel="1" name="Gift of Sated Spirit">
-		<!-- Allows to receive 37,000,000 XP/ 1,110,000 SP. Available for characters from Lv. 45 or higher. -->
+		<!-- XP +37,000,000, SP +114,000 SP. Required level: 45+. -->
 		<icon>icon.BranchSys.icon.br_lucky_bag_i00</icon>
 		<operateType>A1</operateType>
 		<reuseDelay>1000</reuseDelay>

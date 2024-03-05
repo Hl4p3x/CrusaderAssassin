@@ -28,7 +28,7 @@
 		</effects>
 	</option>
 	<option id="22158" name="o_f_82_2g_4">
-		<!-- Max MP +21.81. -->
+		<!-- Max MP +21.81 -->
 		<effects>
 			<effect name="MaxMp">
 				<amount>21.807</amount>
@@ -37,7 +37,7 @@
 		</effects>
 	</option>
 	<option id="22159" name="o_f_82_2g_5">
-		<!-- Max CP +119.7. -->
+		<!-- Max CP +119.7 -->
 		<effects>
 			<effect name="MaxCp">
 				<amount>119.7</amount>
@@ -147,7 +147,7 @@
 	</option>
 	<option id="22170" name="o_f_82_2g_16">
 		<!-- P. Def. +9.61. -->
-		<!-- Max MP +10.07. -->
+		<!-- Max MP +10.07 -->
 		<effects>
 			<effect name="PhysicalDefence">
 				<amount>9.611</amount>
@@ -161,7 +161,7 @@
 	</option>
 	<option id="22171" name="o_f_82_2g_17">
 		<!-- P. Def. +9.61. -->
-		<!-- Max CP +55.25. -->
+		<!-- Max CP +55.25 -->
 		<effects>
 			<effect name="PhysicalDefence">
 				<amount>9.611</amount>
@@ -189,7 +189,7 @@
 	</option>
 	<option id="22173" name="o_f_82_2g_19">
 		<!-- P. Def. +9.61. -->
-		<!-- M. Atk. +6.73. -->
+		<!-- M. Atk. +6.73 -->
 		<effects>
 			<effect name="PhysicalDefence">
 				<amount>9.611</amount>
@@ -301,7 +301,7 @@
 	</option>
 	<option id="22181" name="o_f_82_2g_27">
 		<!-- M. Def. +7.85. -->
-		<!-- Max MP +10.07. -->
+		<!-- Max MP +10.07 -->
 		<effects>
 			<effect name="MagicalDefence">
 				<amount>7.853</amount>
@@ -315,7 +315,7 @@
 	</option>
 	<option id="22182" name="o_f_82_2g_28">
 		<!-- M. Def. +7.85. -->
-		<!-- Max CP +55.25. -->
+		<!-- Max CP +55.25 -->
 		<effects>
 			<effect name="MagicalDefence">
 				<amount>7.853</amount>
@@ -441,7 +441,7 @@
 	</option>
 	<option id="22191" name="o_f_82_2g_37">
 		<!-- Max HP +35.81 -->
-		<!-- Max MP +10.07. -->
+		<!-- Max MP +10.07 -->
 		<effects>
 			<effect name="MaxHp">
 				<amount>35.808</amount>
@@ -455,7 +455,7 @@
 	</option>
 	<option id="22192" name="o_f_82_2g_38">
 		<!-- Max HP +35.81 -->
-		<!-- Max CP +55.25. -->
+		<!-- Max CP +55.25 -->
 		<effects>
 			<effect name="MaxHp">
 				<amount>35.808</amount>
@@ -483,7 +483,7 @@
 	</option>
 	<option id="22194" name="o_f_82_2g_40">
 		<!-- Max HP +35.81 -->
-		<!-- M. Atk. +6.73. -->
+		<!-- M. Atk. +6.73 -->
 		<effects>
 			<effect name="MaxHp">
 				<amount>35.808</amount>

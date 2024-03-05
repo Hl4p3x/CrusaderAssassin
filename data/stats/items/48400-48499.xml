@@ -22,7 +22,7 @@
 		<set name="time" val="15" />
 	</item>
 	<item id="48411" name="Item Unseal Scroll (15-min) Box" additionalName="15 min." type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="BranchSys3.g_ev_invite_fantasy_box" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />

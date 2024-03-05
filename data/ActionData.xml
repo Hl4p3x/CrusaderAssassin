@@ -3,10 +3,10 @@
 	<action id="0" handler="SitStand" /> <!-- Sit / Stand -->
 	<action id="1" handler="RunWalk" /> <!-- Walk / Run -->
 	<action id="2" handler="None" /> <!-- Attack -->
-	<action id="3" handler="None" /> <!-- Trade -->
+	<action id="3" handler="None" /> <!-- Exchange -->
 	<action id="4" handler="None" /> <!-- Next Target (Melee) -->
 	<action id="5" handler="None" /> <!-- Pick Up -->
-	<action id="6" handler="None" /> <!-- Assist -->
+	<action id="6" handler="None" /> <!-- Help -->
 	<action id="7" handler="None" /> <!-- Invite -->
 	<action id="8" handler="None" /> <!-- Leave Party -->
 	<action id="9" handler="None" /> <!-- Dismiss Party Member -->
@@ -56,9 +56,10 @@
 	<action id="93" handler="None" /> <!-- Next Target (Range) -->
 	<action id="96" handler="None" /> <!-- Strike Back -->
 	<action id="97" handler="None" /> <!-- Combat Mode -->
-	<action id="98" handler="None" /> <!-- Disapproval -->
-	<action id="99" handler="None" /> <!-- Share location -->
+	<action id="98" handler="None" /> <!-- Dislike -->
+	<action id="99" handler="None" /> <!-- Share Location -->
 	<action id="100" handler="None" /> <!-- Party/Command Channel Request -->
+	<action id="101" handler="None" /> <!-- Equipment Set Change -->
 	<action id="1000" handler="ServitorSkillUse" option="4079" /> <!-- Siege Hammer -->
 	<action id="1001" handler="None" /> <!-- Ultimate Bombastic Buster -->
 	<action id="1002" handler="PetSkillUse" option="4123" /> <!-- Hostile Feeling -->

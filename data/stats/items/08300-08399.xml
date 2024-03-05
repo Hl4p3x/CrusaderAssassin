@@ -204,7 +204,7 @@
 		<set name="is_stackable" val="true" />
 	</item>
 	<item id="8350" name="Chrono Maracas" type="Weapon">
-		<!-- Chronicle V Souvenir!. <font color=ff6666><Unavailable to Sylphs/ Vanguard Riders.></font> -->
+		<!-- Chronicle Letter V Souvenir!. <font color=ff6666><Unavailable to Sylphs/ Vanguard Riders/ Assassins.></font> -->
 		<set name="icon" val="icon.weapon_chrono_maracas_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="DUAL" />

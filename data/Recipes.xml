@@ -1809,7 +1809,7 @@
 		<statUse name="MP" value="120" />
 	</item>
 	<item id="265" recipeId="2974" name="mk_elven_mithril_hose" craftLevel="3" type="dwarven" successRate="100">
-		<ingredient id="92699" count="3" /> <!-- Elven Mithril Stocking Pattern -->
+		<ingredient id="92699" count="3" /> <!-- Elven Mithril Stockings Pattern -->
 		<ingredient id="92481" count="140" /> <!-- Cloth -->
 		<ingredient id="1458" count="72" /> <!-- D-grade Crystal -->
 		<ingredient id="2130" count="35" /> <!-- D-grade Gemstone -->
@@ -2779,7 +2779,7 @@
 		<statUse name="MP" value="174" />
 	</item>
 	<item id="425" recipeId="4959" name="mk_avadon_boots_i" craftLevel="6" type="dwarven" successRate="60">
-		<ingredient id="92783" count="5" /> <!-- Sealed Avadon Boot Design -->
+		<ingredient id="92783" count="5" /> <!-- Sealed Avadon Boots Design -->
 		<ingredient id="92479" count="312" /> <!-- Metallograph -->
 		<ingredient id="1459" count="35" /> <!-- C-grade Crystal -->
 		<ingredient id="2132" count="8" /> <!-- B-grade Gemstone -->
@@ -2787,7 +2787,7 @@
 		<statUse name="MP" value="174" />
 	</item>
 	<item id="426" recipeId="4175" name="mk_avadon_boots_ii" craftLevel="6" type="dwarven" successRate="100">
-		<ingredient id="92783" count="7" /> <!-- Sealed Avadon Boot Design -->
+		<ingredient id="92783" count="7" /> <!-- Sealed Avadon Boots Design -->
 		<ingredient id="92479" count="519" /> <!-- Metallograph -->
 		<ingredient id="1459" count="58" /> <!-- C-grade Crystal -->
 		<ingredient id="2132" count="13" /> <!-- B-grade Gemstone -->
@@ -4277,7 +4277,7 @@
 	</item>
 	<item id="638" recipeId="6893" name="mk_saint_spear_i" craftLevel="9" type="dwarven" successRate="30">
 		<ingredient id="6893" count="1" /> <!-- Recipe: Saint Spear (30%) -->
-		<ingredient id="92868" count="25" /> <!-- Divine Spear Blade -->
+		<ingredient id="92868" count="25" /> <!-- Saint Spear Blade -->
 		<ingredient id="92477" count="12828" /> <!-- Wood -->
 		<ingredient id="1462" count="283" /> <!-- S-grade Crystal -->
 		<ingredient id="2134" count="33" /> <!-- S-grade Gemstone -->
@@ -4774,14 +4774,14 @@
 		<statUse name="MP" value="210" />
 	</item>
 	<item id="866" recipeId="93912" name="mk_fire_sword_blade_aden" craftLevel="8" type="dwarven" successRate="10">
-		<ingredient id="93912" count="1" /> <!-- Recipe: Flame Sword's Blade (10%) -->
+		<ingredient id="93912" count="1" /> <!-- Old Recipe: Flame Sword's Blade (10%) -->
 		<ingredient id="93906" count="1" /> <!-- Zaken's Crystal -->
 		<ingredient id="93907" count="1" /> <!-- Orfen's Crystal -->
 		<ingredient id="93908" count="1" /> <!-- Core's Crystal -->
 		<ingredient id="93909" count="1" /> <!-- Baium's Crystal -->
 		<ingredient id="93910" count="1" /> <!-- Queen Ant's Crystal -->
 		<ingredient id="92476" count="600000" /> <!-- Metal Ingot -->
-		<ingredient id="93914" count="1400" /> <!-- Dragon Blood - Sealed -->
+		<ingredient id="93914" count="1400" /> <!-- Dragon Blood -->
 		<ingredient id="2133" count="2000" /> <!-- A-grade Gemstone -->
 		<production id="93911" count="1" /> <!-- Flame Sword's Blade -->
 		<statUse name="MP" value="210" />
@@ -4789,7 +4789,7 @@
 	<item id="867" recipeId="93913" name="mk_fire_sword_aden" craftLevel="8" type="dwarven" successRate="100">
 		<ingredient id="93913" count="1" /> <!-- Recipe: Death Knight's Flame Sword (100%) -->
 		<ingredient id="93911" count="1" /> <!-- Flame Sword's Blade -->
-		<ingredient id="93914" count="8000" /> <!-- Dragon Blood - Sealed -->
+		<ingredient id="93914" count="8000" /> <!-- Dragon Blood -->
 		<ingredient id="1461" count="400000" /> <!-- A-grade Crystal -->
 		<ingredient id="2133" count="67000" /> <!-- A-grade Gemstone -->
 		<production id="93864" count="1" /> <!-- Death Knight's Flame Sword -->
@@ -4798,7 +4798,7 @@
 	<item id="868" recipeId="96299" name="mk_fire_sword_20per_aden" craftLevel="8" type="dwarven" successRate="20">
 		<ingredient id="96299" count="1" /> <!-- Recipe: Death Knight's Flame Sword (20%) -->
 		<ingredient id="93911" count="1" /> <!-- Flame Sword's Blade -->
-		<ingredient id="93914" count="1600" /> <!-- Dragon Blood - Sealed -->
+		<ingredient id="93914" count="1600" /> <!-- Dragon Blood -->
 		<ingredient id="1461" count="80000" /> <!-- A-grade Crystal -->
 		<ingredient id="2133" count="13400" /> <!-- A-grade Gemstone -->
 		<production id="93864" count="1" /> <!-- Death Knight's Flame Sword -->

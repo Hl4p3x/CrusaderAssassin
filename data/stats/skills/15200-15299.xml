@@ -72,7 +72,7 @@
 		<magicLevel>1</magicLevel>
 	</skill>
 	<skill id="15216" toLevel="1" name="Raid Boss (Lv. 97)">
-		<!-- This is an undead monster that was created through the blood of Shillien from the corpse of a criminal who went insane from the torture in the fortress. It is trapped in the illusion of the blood. It seeks to bring about the resurrection of Shillien by killing everything, thereby taking sacrifices for the darkness. -->
+		<!-- An undead monster created by Shilen's blood seeping into the body of a criminal who has gone mad from the tortures practiced in the fortress. Seized by the hallucinations from the blood, he seeks to kill everything in sight to complete the Great Sacrifice for the darkness and bring Shilen to resurrection. -->
 		<icon>icon.skillraid</icon>
 		<operateType>P</operateType>
 		<magicCriticalRate>-5</magicCriticalRate>
@@ -412,7 +412,7 @@
 		</effects>
 	</skill>
 	<skill id="15231" toLevel="1" name="Quick Thrust">
-		<!-- Launches a powerful attack on the target. -->
+		<!-- A powerful attack on the enemy. -->
 		<icon>icon.skill11508</icon>
 		<operateType>DA2</operateType>
 		<mpConsume>10</mpConsume>
@@ -684,7 +684,7 @@
 		<affectScope>SINGLE</affectScope>
 	</skill>
 	<skill id="15246" toLevel="1" name="Nurka Blow">
-		<!-- Inflicts a powerful blow on the target and nearby enemies. -->
+		<!-- A powerful blow on the target and nearby enemies. -->
 		<icon>icon.skill0036</icon>
 		<operateType>A1</operateType>
 		<mpConsume>10</mpConsume>
@@ -981,7 +981,7 @@
 		<affectScope>SINGLE</affectScope>
 	</skill>
 	<skill id="15269" toLevel="1" name="Lindvior's Rage">
-		<!-- Lindvior's Aerial Yoke for All Skill Presentation -->
+		<!-- A red wind from the furious Lindvior that deals heavy damage. -->
 		<icon>icon.skill0000</icon>
 		<operateType>A1</operateType>
 		<hitTime>15000</hitTime>
@@ -993,7 +993,7 @@
 		<affectScope>SINGLE</affectScope>
 	</skill>
 	<skill id="15270" toLevel="1" name="Lindvior's Mass Yoke">
-		<!-- Lindvior's Aerial Yoke for All Skill Area Data -->
+		<!-- A red wind from the furious Lindvior that deals heavy damage. -->
 		<icon>icon.skill1042</icon>
 		<operateType>A2</operateType>
 		<hitTime>2000</hitTime>
@@ -1049,7 +1049,7 @@
 		<affectScope>SINGLE</affectScope>
 	</skill>
 	<skill id="15276" toLevel="1" name="Bleed">
-		<!-- Bleeding -->
+		<!-- Inflicts Bleed. -->
 		<icon>icon.skill0096</icon>
 		<operateType>A2</operateType>
 		<castRange>600</castRange>
@@ -1079,7 +1079,7 @@
 		<targetType>SELF</targetType>
 		<affectScope>SINGLE</affectScope>
 	</skill>
-	<skill id="15279" toLevel="1" name="Soar">
+	<skill id="15279" toLevel="1" name="Flying">
 		<!-- Lindvior Raid's PC Chain Skill -->
 		<icon>icon.skill0000</icon>
 		<operateType>A1</operateType>
@@ -1104,7 +1104,7 @@
 		<affectScope>SINGLE</affectScope>
 	</skill>
 	<skill id="15281" toLevel="1" name="Lindvior's Skill 21">
-		<!-- Atk. Spd. and Speed +30%. -->
+		<!-- Atk. Spd./ Speed +30%. -->
 		<icon>icon.skill0000</icon>
 		<operateType>A2</operateType>
 		<castRange>1100</castRange>

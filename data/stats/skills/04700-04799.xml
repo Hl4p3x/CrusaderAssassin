@@ -6169,7 +6169,7 @@
 		<operateType>P</operateType>
 		<magicCriticalRate>-5</magicCriticalRate>
 	</skill>
-	<skill id="4799" toLevel="1" name="Raid Boss (Lv. 75)">
+	<skill id="4799" toLevel="1" name="Raid Boss (Lv. 80)">
 		<!-- He is the Commander of the advance forces of the powerful Ketra Orc tribe, who hail from the Goddard Territory of Elmore Kingdom. He believes completely in the superiority of his tribe. He was dispatched to expand their influence upon Aden Kingdom. He greatly detests the Silenos as well as humans, and is a formidable enemy. -->
 		<icon>icon.skillraid</icon>
 		<magicLevel>1</magicLevel>

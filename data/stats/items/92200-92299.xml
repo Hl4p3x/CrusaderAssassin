@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/items.xsd">
 	<item id="92200" name="Coral Jewelry Box Lv. 6" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.etc_bm_jewelbox_coral_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -15,7 +15,7 @@
 		</capsuled_items>
 	</item>
 	<item id="92201" name="Coral Jewelry Box Lv. 7" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.etc_bm_jewelbox_coral_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -29,7 +29,7 @@
 		</capsuled_items>
 	</item>
 	<item id="92202" name="Coral Jewelry Box Lv. 8" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.etc_bm_jewelbox_coral_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -43,7 +43,7 @@
 		</capsuled_items>
 	</item>
 	<item id="92203" name="Coral Jewelry Box Lv. 8" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.etc_ertheia2" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -57,7 +57,7 @@
 		</capsuled_items>
 	</item>
 	<item id="92204" name="Coral Jewelry Box Lv. 9" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.etc_ertheia2" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -71,7 +71,7 @@
 		</capsuled_items>
 	</item>
 	<item id="92205" name="Coral Jewelry Box Lv. 10" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.etc_ertheia2" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -85,7 +85,7 @@
 		</capsuled_items>
 	</item>
 	<item id="92206" name="Onyx Jewelry Box Lv. 1" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.etc_bm_jewelbox_onyx_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -99,7 +99,7 @@
 		</capsuled_items>
 	</item>
 	<item id="92207" name="Onyx Jewelry Box Lv. 2" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.etc_bm_jewelbox_onyx_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -113,7 +113,7 @@
 		</capsuled_items>
 	</item>
 	<item id="92208" name="Onyx Jewelry Box Lv. 3" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.etc_bm_jewelbox_onyx_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -127,7 +127,7 @@
 		</capsuled_items>
 	</item>
 	<item id="92209" name="Onyx Jewelry Box Lv. 4" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.etc_bm_jewelbox_onyx_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -141,7 +141,7 @@
 		</capsuled_items>
 	</item>
 	<item id="92210" name="Onyx Jewelry Box Lv. 6" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.etc_bm_jewelbox_onyx_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -155,7 +155,7 @@
 		</capsuled_items>
 	</item>
 	<item id="92211" name="Onyx Jewelry Box Lv. 7" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.etc_bm_jewelbox_onyx_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -169,7 +169,7 @@
 		</capsuled_items>
 	</item>
 	<item id="92212" name="Onyx Jewelry Box Lv. 8" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.etc_bm_jewelbox_onyx_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -183,7 +183,7 @@
 		</capsuled_items>
 	</item>
 	<item id="92213" name="Onyx Jewelry Box Lv. 8" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.etc_ertheia2" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -197,7 +197,7 @@
 		</capsuled_items>
 	</item>
 	<item id="92214" name="Onyx Jewelry Box Lv. 9" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.etc_ertheia2" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -211,7 +211,7 @@
 		</capsuled_items>
 	</item>
 	<item id="92215" name="Onyx Jewelry Box Lv. 10" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.etc_ertheia2" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -225,7 +225,7 @@
 		</capsuled_items>
 	</item>
 	<item id="92216" name="Spinel Jewelry Box Lv. 1" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.etc_bm_jewelbox_garnet_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -239,7 +239,7 @@
 		</capsuled_items>
 	</item>
 	<item id="92217" name="Spinel Jewelry Box Lv. 2" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.etc_bm_jewelbox_garnet_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -253,7 +253,7 @@
 		</capsuled_items>
 	</item>
 	<item id="92218" name="Spinel Jewelry Box Lv. 3" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.etc_bm_jewelbox_garnet_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -267,7 +267,7 @@
 		</capsuled_items>
 	</item>
 	<item id="92219" name="Spinel Jewelry Box Lv. 4" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.etc_bm_jewelbox_garnet_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -281,7 +281,7 @@
 		</capsuled_items>
 	</item>
 	<item id="92220" name="Spinel Jewelry Box Lv. 6" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.etc_bm_jewelbox_garnet_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -295,7 +295,7 @@
 		</capsuled_items>
 	</item>
 	<item id="92221" name="Spinel Jewelry Box Lv. 7" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.etc_bm_jewelbox_garnet_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -309,7 +309,7 @@
 		</capsuled_items>
 	</item>
 	<item id="92222" name="Spinel Jewelry Box Lv. 8" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.etc_bm_jewelbox_garnet_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -323,7 +323,7 @@
 		</capsuled_items>
 	</item>
 	<item id="92223" name="Spinel Jewelry Box Lv. 8" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.etc_ertheia2" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -337,7 +337,7 @@
 		</capsuled_items>
 	</item>
 	<item id="92224" name="Spinel Jewelry Box Lv. 9" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.etc_ertheia2" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -351,7 +351,7 @@
 		</capsuled_items>
 	</item>
 	<item id="92225" name="Spinel Jewelry Box Lv. 10" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.etc_ertheia2" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -365,7 +365,7 @@
 		</capsuled_items>
 	</item>
 	<item id="92226" name="Zircon Jewelry Box Lv. 1" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.etc_bm_jewelbox_bloodstone_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -379,7 +379,7 @@
 		</capsuled_items>
 	</item>
 	<item id="92227" name="Zircon Jewelry Box Lv. 2" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.etc_bm_jewelbox_bloodstone_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -393,7 +393,7 @@
 		</capsuled_items>
 	</item>
 	<item id="92228" name="Zircon Jewelry Box Lv. 3" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.etc_bm_jewelbox_bloodstone_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -407,7 +407,7 @@
 		</capsuled_items>
 	</item>
 	<item id="92229" name="Zircon Jewelry Box Lv. 4" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.etc_bm_jewelbox_bloodstone_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -421,7 +421,7 @@
 		</capsuled_items>
 	</item>
 	<item id="92230" name="Zircon Jewelry Box Lv. 6" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.etc_bm_jewelbox_bloodstone_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -435,7 +435,7 @@
 		</capsuled_items>
 	</item>
 	<item id="92231" name="Zircon Jewelry Box Lv. 7" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.etc_bm_jewelbox_bloodstone_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -449,7 +449,7 @@
 		</capsuled_items>
 	</item>
 	<item id="92232" name="Zircon Jewelry Box Lv. 8" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.etc_bm_jewelbox_bloodstone_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -463,7 +463,7 @@
 		</capsuled_items>
 	</item>
 	<item id="92233" name="Zircon Jewelry Box Lv. 8" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.etc_ertheia2" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -477,7 +477,7 @@
 		</capsuled_items>
 	</item>
 	<item id="92234" name="Zircon Jewelry Box Lv. 9" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.etc_ertheia2" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -491,7 +491,7 @@
 		</capsuled_items>
 	</item>
 	<item id="92235" name="Zircon Jewelry Box Lv. 10" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.etc_ertheia2" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -505,7 +505,7 @@
 		</capsuled_items>
 	</item>
 	<item id="92236" name="Moonstone Jewelry Box Lv. 1" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.etc_bm_jewelbox_moonstone_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -519,7 +519,7 @@
 		</capsuled_items>
 	</item>
 	<item id="92237" name="Moonstone Jewelry Box Lv. 2" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.etc_bm_jewelbox_moonstone_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -533,7 +533,7 @@
 		</capsuled_items>
 	</item>
 	<item id="92238" name="Moonstone Jewelry Box Lv. 3" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.etc_bm_jewelbox_moonstone_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -547,7 +547,7 @@
 		</capsuled_items>
 	</item>
 	<item id="92239" name="Moonstone Jewelry Box Lv. 4" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.etc_bm_jewelbox_moonstone_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -561,7 +561,7 @@
 		</capsuled_items>
 	</item>
 	<item id="92240" name="Moonstone Jewelry Box Lv. 6" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.etc_bm_jewelbox_moonstone_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -575,7 +575,7 @@
 		</capsuled_items>
 	</item>
 	<item id="92241" name="Moonstone Jewelry Box Lv. 7" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.etc_bm_jewelbox_moonstone_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -589,7 +589,7 @@
 		</capsuled_items>
 	</item>
 	<item id="92242" name="Moonstone Jewelry Box Lv. 8" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.etc_bm_jewelbox_moonstone_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -603,7 +603,7 @@
 		</capsuled_items>
 	</item>
 	<item id="92243" name="Moonstone Jewelry Box Lv. 8" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.etc_ertheia2" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -617,7 +617,7 @@
 		</capsuled_items>
 	</item>
 	<item id="92244" name="Moonstone Jewelry Box Lv. 9" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.etc_ertheia2" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -631,7 +631,7 @@
 		</capsuled_items>
 	</item>
 	<item id="92245" name="Moonstone Jewelry Box Lv. 10" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.etc_ertheia2" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -645,7 +645,7 @@
 		</capsuled_items>
 	</item>
 	<item id="92246" name="Jewel Box Lv. 6" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.bm_special_jewelbox_lv5" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -692,7 +692,7 @@
 		<set name="is_sellable" val="false" />
 	</item>
 	<item id="92249" name="Coral Lv. 4" additionalName="3-day" type="Armor">
-		<!-- Available for 3 days. Atk. Spd./ Casting Spd. +7%. Effects of two identical jewels do not stack, the higher-level jewel takes precedence. -->
+		<!-- Available for 3 d. Atk. Spd./ Casting Spd. +7%. Effects of two identical jewels do not stack, the higher-level jewel takes precedence. -->
 		<set name="icon" val="icon.etc_bm_jewel_coral_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="bodypart" val="brooch_jewel" />
@@ -728,7 +728,7 @@
 		<set name="is_sellable" val="false" />
 	</item>
 	<item id="92252" name="Zircon Lv. 4" additionalName="3-day" type="Armor">
-		<!-- Available for 3 days. P. Critical Damage/ M. Skill Critical Damage +8%. Effects of two identical jewels do not stack, the higher-level jewel takes precedence. -->
+		<!-- Available for 3 d. When equipped, P. Critical Damage/ M. Skill Critical Damage +8%. Effects of two identical jewels do not stack, the higher-level jewel takes precedence. -->
 		<set name="icon" val="icon.etc_bm_jewel_bloodstone_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="bodypart" val="brooch_jewel" />
@@ -752,7 +752,7 @@
 		<set name="is_sellable" val="false" />
 	</item>
 	<item id="92254" name="Jewel Pouch" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.bm_special_jewelbox_lv5" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />

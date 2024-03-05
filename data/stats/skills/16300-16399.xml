@@ -21,27 +21,27 @@
 		<operateType>P</operateType>
 	</skill>
 	<skill id="16304" toLevel="1" name="Raid Boss (Lv. 98)">
-		<!-- A wizard of Aden buried in the Cemetery, Afjak was forcefully awakened by Shillien's Disciple Lavidos as Dark Messenger Afjak. -->
+		<!-- Afjak was Aden's wizard who died a long time ago. He rose from the dead answering the summons of Shillien's apostle Lavidos as Dark Messenger Afjak. -->
 		<icon>icon.skillraid</icon>
 		<operateType>P</operateType>
 	</skill>
 	<skill id="16305" toLevel="1" name="Raid Boss (Lv. 98)">
-		<!-- A knight of Aden buried in the Cemetery, Feilnor was forcefully awakened by Shillien's Disciple Lavidos as a Dusk Knight, and now brings around a follower of Shillien's army previously sealed away in the nearby Seal of Shillien area. -->
+		<!-- Felinor was Aden's knight who died a long time ago. He rose from the dead answering the summons of Shillien's apostle Lavidos as Dusk Knight Felinor. He resurrected all soldiers buried at the Cemetery and became their leader in the name of Shillien. -->
 		<icon>icon.skillraid</icon>
 		<operateType>P</operateType>
 	</skill>
 	<skill id="16306" toLevel="1" name="Raid Boss (Lv. 98)">
-		<!-- A wizard of Aden buried in the Cemetery, Amormio was forcefully awakened by Shillien's Disciple Lavidos as a Chaos Wizard, and now brings around a follower of Shillien's army previously sealed away in the nearby Seal of Shillien area. -->
+		<!-- Amormio was Aden's wizard who died a long time ago. She rose from the dead answering the summons of Shillien's apostle Lavidos as Chaos Wizard Amormio. She resurrected all soldiers buried at the Cemetery and became their leader in the name of Shillien. -->
 		<icon>icon.skillraid</icon>
 		<operateType>P</operateType>
 	</skill>
 	<skill id="16307" toLevel="1" name="Raid Boss (Lv. 98)">
-		<!-- A knight of Aden buried in the Cemetery, Lahav was forcefully awakened by Shillien's Disciple Lavidos as an Insolence Knight, and now brings around a follower of Shillien's army previously sealed away in the nearby Seal of Shillien area. -->
+		<!-- Lahav was Aden's knight who died a long time ago. He rose from the dead answering the summons of Shillien's apostle Lavidos as Insolent Knight Lahav. He resurrected all soldiers buried at the Cemetery and became their leader in the name of Shillien. -->
 		<icon>icon.skillraid</icon>
 		<operateType>P</operateType>
 	</skill>
 	<skill id="16308" toLevel="1" name="Raid Boss (Lv. 98)">
-		<!-- A priest of Aden buried in the Cemetery, Borhunt was forcefully awakened by Shillien's Disciple Lavidos as a Death Priest, and now brings around a follower of Shillien's army previously sealed away in the nearby Seal of Shillien area. -->
+		<!-- Borhunt was Aden's priest who died a long time ago. He rose from the dead answering the summons of Shillien's apostle Lavidos as Death Priest Borhunt. He resurrected all soldiers buried at the Cemetery and became their leader in the name of Shillien. -->
 		<icon>icon.skillraid</icon>
 		<operateType>P</operateType>
 	</skill>
@@ -56,7 +56,7 @@
 		<operateType>P</operateType>
 	</skill>
 	<skill id="16311" toLevel="1" name="Raid Boss (Lv. 98)">
-		<!-- To aid the resurrection of its mother Shillien, Antharas accepted her Disciples' plea and sent its herald Komabor to the Immortal Plateau to complete the monster magic circle. Komabor commands a circle of Minos, otherwise known as Dragon Fragments, and possesses earth-attribute powers as great as those of Antharas. -->
+		<!-- Striving to resurrect their mistress, Shillien's apostles asked for Antharas' help. The mighty dragon sent his herald, Komabor, who came with dragon statues as his servants. Though considered only a herald to the mighty Earth Dragon, Komabor was his equal in power. To close the magic megalith circle, Shillien's apostles imprisoned heralds of the six dragons deep in the mountains. -->
 		<icon>icon.skillraid</icon>
 		<operateType>P</operateType>
 	</skill>
@@ -66,12 +66,12 @@
 		<operateType>P</operateType>
 	</skill>
 	<skill id="16313" toLevel="1" name="Raid Boss (Lv. 98)">
-		<!-- To aid the resurrection of its mother Shillien, Valakas accepted her Disciples' plea and sent its herald Potigia to the Immortal Plateau to complete the monster magic circle. Potigia commands a circle of Minos, otherwise known as Dragon Fragments, and possesses fire-attribute powers as great as those of Valakas. -->
+		<!-- Striving to resurrect their mistress, Shillien's apostles asked for Valakas' help. The mighty dragon sent his herald, Potigia, who came with dragon statues as his servants. Though considered only a herald to the mighty Fire Dragon, Potigia was his equal in power. To close the magic megalith circle, Shillien's apostles imprisoned heralds of the six dragons deep in the mountains. -->
 		<icon>icon.skillraid</icon>
 		<operateType>P</operateType>
 	</skill>
 	<skill id="16314" toLevel="1" name="Raid Boss (Lv. 98)">
-		<!-- To aid the resurrection of its mother Shillien, Lindvior accepted her Disciples' plea and sent its herald Numa to the Immortal Plateau to complete the monster magic circle. Numa commands a circle of Minos, otherwise known as Dragon Fragments, and possesses wind-attribute powers as great as those of Lindvior. -->
+		<!-- Striving to resurrect their mistress, Shillien's apostles asked for Lindvior's help. The mighty dragon sent his herald, Numa, who came with dragon statues as his servants. Though considered only a herald to the mighty dragon, Numa was his equal in power. To close the magic megalith circle, Shillien's apostles imprisoned heralds of the six dragons deep in the mountains. -->
 		<icon>icon.skillraid</icon>
 		<operateType>P</operateType>
 	</skill>
@@ -247,7 +247,7 @@
 		<isMagic>1</isMagic>
 	</skill>
 	<skill id="16338" toLevel="2" name="Stiff Charge">
-		<!-- Petrified -->
+		<!-- Petrification -->
 		<icon>icon.skill4111</icon>
 		<operateType>A2</operateType>
 		<mpConsume>15</mpConsume>
@@ -357,7 +357,7 @@
 		<effectPoint>-100</effectPoint>
 		<isMagic>1</isMagic>
 	</skill>
-	<skill id="16352" toLevel="1" name="Kain's Sonic Storm">
+	<skill id="16352" toLevel="1" name="Kain: Sonic Storm">
 		<icon>icon.skill0007</icon>
 		<operateType>A1</operateType>
 		<mpConsume>50</mpConsume>
@@ -367,7 +367,7 @@
 		<effectPoint>-709</effectPoint>
 		<reuseDelay>10000</reuseDelay>
 	</skill>
-	<skill id="16353" toLevel="1" name="Kain's Triple Sonic Slash">
+	<skill id="16353" toLevel="1" name="Kain: Triple Sonic Slash">
 		<icon>icon.skill0261</icon>
 		<operateType>A1</operateType>
 		<mpConsume>25</mpConsume>
@@ -472,7 +472,7 @@
 		<isDebuff>true</isDebuff>
 	</skill>
 	<skill id="16368" toLevel="1" name="Dimensional Strike">
-		<!-- Attacks target with 150% of P. Atk. power. -->
+		<!-- Deals physical damage to the enemy. Power 150%. -->
 		<icon>icon.skill0000</icon>
 		<operateType>A1</operateType>
 		<castRange>40</castRange>
@@ -482,7 +482,7 @@
 		<reuseDelay>3000</reuseDelay>
 	</skill>
 	<skill id="16369" toLevel="1" name="Dimensional Crush">
-		<!-- Attacks target with 200% of P. Atk. power. -->
+		<!-- Deals physical damage to the enemy. Power 200%. -->
 		<icon>icon.skill0000</icon>
 		<operateType>A1</operateType>
 		<castRange>40</castRange>
@@ -492,7 +492,7 @@
 		<reuseDelay>3000</reuseDelay>
 	</skill>
 	<skill id="16370" toLevel="1" name="Dimensional Slasher">
-		<!-- Attacks target with 250% of P. Atk. power. -->
+		<!-- Deals physical damage to the enemy. Power 250%. -->
 		<icon>icon.skill0000</icon>
 		<operateType>A1</operateType>
 		<castRange>40</castRange>
@@ -512,7 +512,7 @@
 		<reuseDelay>3000</reuseDelay>
 	</skill>
 	<skill id="16372" toLevel="1" name="Dimensional Spike">
-		<!-- Deals magic damage to the target. Power 200. -->
+		<!-- Deals magic damage to the enemy. Power 200. -->
 		<icon>icon.skill0000</icon>
 		<operateType>A1</operateType>
 		<castRange>600</castRange>
@@ -534,7 +534,7 @@
 		<isMagic>1</isMagic>
 	</skill>
 	<skill id="16374" toLevel="1" name="Dimensional Destruction">
-		<!-- Attacks target with 300 Power added to M. Atk. -->
+		<!-- Deals magic damage to the enemy. Power 300. -->
 		<icon>icon.skill0000</icon>
 		<operateType>A1</operateType>
 		<castRange>600</castRange>
@@ -564,7 +564,7 @@
 		<isDebuff>true</isDebuff>
 	</skill>
 	<skill id="16379" toLevel="1" name="Dimensional Remedy">
-		<!-- Recover 40% of Max HP. -->
+		<!-- Recovers 40% HP. -->
 		<icon>icon.skill0000</icon>
 		<operateType>A1</operateType>
 		<hitTime>2500</hitTime>
@@ -579,7 +579,7 @@
 		<reuseDelay>3000</reuseDelay>
 	</skill>
 	<skill id="16382" toLevel="1" name="Dimensional Death Ring">
-		<!-- Attacks target's nearby enemies with 250 Power added to M. Atk. Damage increases as number of enemies affected increases. -->
+		<!-- Deals massive magic damage to nearby enemies. Power 250. -->
 		<icon>icon.skill0000</icon>
 		<operateType>A1</operateType>
 		<castRange>600</castRange>
@@ -589,7 +589,7 @@
 		<isMagic>1</isMagic>
 	</skill>
 	<skill id="16383" toLevel="1" name="Dimensional Silence">
-		<!-- Attacks target's nearby enemies with 250 Power added to M. Atk. and block their P./ M. Skills for 5 sec. -->
+		<!-- Deals massive damage to nearby enemies. Power 250. Blocks P./ M. skills for 5 sec. -->
 		<icon>icon.skill1064</icon>
 		<operateType>A2</operateType>
 		<castRange>600</castRange>
@@ -609,8 +609,8 @@
 		<effectPoint>-100</effectPoint>
 		<isDebuff>true</isDebuff>
 	</skill>
-	<skill id="16385" toLevel="1" name="Dimesional Devil">
-		<!-- Attacks target's nearby enemies with 300% of P. Atk. power. Damage decreases as number of enemies affected increases. -->
+	<skill id="16385" toLevel="1" name="Dimensional Devil">
+		<!-- Deals massive physical damage to nearby enemies. Power 300%. -->
 		<icon>icon.skill0000</icon>
 		<operateType>A1</operateType>
 		<castRange>40</castRange>
@@ -755,7 +755,7 @@
 		<isDebuff>true</isDebuff>
 	</skill>
 	<skill id="16399" toLevel="1" name="Ferin's Cure">
-		<!-- Heals the target with 1488 power. If HP is full, CP is restored with the remaining power. -->
+		<!-- Recovers the target's HP. If HP is full, recovers CP. Power 1488. -->
 		<icon>icon.skill11756</icon>
 		<operateType>A1</operateType>
 		<castRange>600</castRange>

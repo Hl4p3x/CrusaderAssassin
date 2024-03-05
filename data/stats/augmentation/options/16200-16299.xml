@@ -361,7 +361,7 @@
 		<active_skill id="3141" level="10" /> <!-- Item Skill: Focus -->
 	</option>
 	<option id="16290" name="o_s_75_2u_4">
-		<!-- Active skill: Reflect Damage -->
+		<!-- Active skill: Damage Reflection -->
 		<active_skill id="3204" level="3" /> <!-- Item Skill: Damage Reflection -->
 	</option>
 	<option id="16291" name="o_s_75_2u_5">

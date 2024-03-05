@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/items.xsd">
 	<item id="91000" name="Rash's Supplies - Baium" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.bm_pirate_treasure_box" />
 		<set name="default_action" val="SKILL_REDUCE_ON_SKILL_SUCCESS" />
 		<set name="is_tradable" val="false" />
@@ -18,7 +18,7 @@
 		</capsuled_items>
 	</item>
 	<item id="91001" name="Box with 3 Jewels Lv. 3" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.etc_bm_jewelbox_shhadai" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -35,7 +35,7 @@
 		</capsuled_items>
 	</item>
 	<item id="91002" name="Box with 5 Jewels Lv. 4" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.etc_bm_jewelbox_shhadai" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -106,7 +106,7 @@
 		</stats>
 	</item>
 	<item id="91007" name="Rash's Supplies - Zaken" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.bm_pirate_king_box" />
 		<set name="default_action" val="SKILL_REDUCE_ON_SKILL_SUCCESS" />
 		<set name="is_tradable" val="false" />
@@ -123,7 +123,7 @@
 		</capsuled_items>
 	</item>
 	<item id="91008" name="Dragon Relic Chest" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.card_event_blue_box" />
 		<set name="default_action" val="SKILL_REDUCE" />
 		<set name="is_dropable" val="false" />
@@ -136,7 +136,7 @@
 		</skills>
 	</item>
 	<item id="91009" name="Fire Dragon Relic Chest" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.card_event_red_box" />
 		<set name="default_action" val="SKILL_REDUCE_ON_SKILL_SUCCESS" />
 		<set name="is_dropable" val="false" />
@@ -149,7 +149,7 @@
 		</skills>
 	</item>
 	<item id="91010" name="Earth Dragon Relic Pack" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.card_event_black_box" />
 		<set name="default_action" val="SKILL_REDUCE_ON_SKILL_SUCCESS" />
 		<set name="is_dropable" val="false" />
@@ -196,7 +196,7 @@
 		</capsuled_items>
 	</item>
 	<item id="91011" name="Dragon Dye Box" additionalName="3rd Class" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.card_event_gold_box" />
 		<set name="default_action" val="SKILL_REDUCE_ON_SKILL_SUCCESS" />
 		<set name="is_dropable" val="false" />
@@ -209,7 +209,7 @@
 		</skills>
 	</item>
 	<item id="91012" name="Top-grade A-grade Weapon Pack" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.etc_treasure_box_i00" />
 		<set name="default_action" val="SKILL_REDUCE_ON_SKILL_SUCCESS" />
 		<set name="is_dropable" val="false" />
@@ -222,7 +222,7 @@
 		</skills>
 	</item>
 	<item id="91013" name="Top A-grade Weapon Ingredient/ Recipe Pack" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.etc_treasure_box_i00" />
 		<set name="default_action" val="SKILL_REDUCE_ON_SKILL_SUCCESS" />
 		<set name="is_dropable" val="false" />
@@ -247,7 +247,7 @@
 		</capsuled_items>
 	</item>
 	<item id="91014" name="Weapon Recipe Box (Best A-grade)" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.etc_treasure_box_i00" />
 		<set name="default_action" val="SKILL_REDUCE_ON_SKILL_SUCCESS" />
 		<set name="is_dropable" val="false" />
@@ -260,7 +260,7 @@
 		</skills>
 	</item>
 	<item id="91015" name="Sirra's Blade Ingredient/Recipe Box" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.etc_treasure_box_i04" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -275,7 +275,7 @@
 		</capsuled_items>
 	</item>
 	<item id="91016" name="Sword of Ipos Ingredient/Recipe Box" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.etc_treasure_box_i04" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -290,7 +290,7 @@
 		</capsuled_items>
 	</item>
 	<item id="91017" name="Barakiel's Axe Ingredient/Recipe Box" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.etc_treasure_box_i04" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -305,7 +305,7 @@
 		</capsuled_items>
 	</item>
 	<item id="91018" name="Behemoth' Tuning Fork Ingredient/Recipe Box" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.etc_treasure_box_i04" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -320,7 +320,7 @@
 		</capsuled_items>
 	</item>
 	<item id="91019" name="Naga Storm Ingredient/Recipe Box" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.etc_treasure_box_i04" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -335,7 +335,7 @@
 		</capsuled_items>
 	</item>
 	<item id="91020" name="Tiphon's Spear Ingredient/Recipe Box" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.etc_treasure_box_i04" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -350,7 +350,7 @@
 		</capsuled_items>
 	</item>
 	<item id="91021" name="Shyeed's Bow Ingredient/Recipe Box" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.etc_treasure_box_i04" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -365,7 +365,7 @@
 		</capsuled_items>
 	</item>
 	<item id="91022" name="Sobekk's Hurricane Ingredient/Recipe Box" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.etc_treasure_box_i04" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -380,7 +380,7 @@
 		</capsuled_items>
 	</item>
 	<item id="91023" name="Themis' Tongue Ingredient/Recipe Box" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.etc_treasure_box_i04" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -395,7 +395,7 @@
 		</capsuled_items>
 	</item>
 	<item id="91024" name="Cabrio's Hand Ingredient/Recipe Box" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.etc_treasure_box_i04" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -410,7 +410,7 @@
 		</capsuled_items>
 	</item>
 	<item id="91025" name="Daimon Crystal Ingredient/Recipe Box" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.etc_treasure_box_i04" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -464,7 +464,7 @@
 		</skills>
 	</item>
 	<item id="91029" name="Hidden Box" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.etc_exchange_box_i00" />
 		<set name="default_action" val="SKILL_REDUCE_ON_SKILL_SUCCESS" />
 		<set name="is_tradable" val="false" />
@@ -479,7 +479,7 @@
 		</skills>
 	</item>
 	<item id="91030" name="Blessed Soul" additionalName="Sealed" type="EtcItem">
-		<!-- Applies a buff when used. <Buff effect>. When hunting attribute monsters, acquired attribute XP +20%. Duration: 20 min. -->
+		<!-- Applies a buff when used. <Buff effect>. While hunting attribute monsters, acquired attribute XP +20%. Duration: 20 min. -->
 		<set name="icon" val="icon.elemental_bless_scrl_i00" />
 		<set name="default_action" val="SKILL_REDUCE" />
 		<set name="handler" val="ItemSkills" />
@@ -1116,7 +1116,7 @@
 		<set name="material" val="PAPER" />
 	</item>
 	<item id="91077" name="Venir's Talisman Lv. 1" additionalName="Sealed" type="Armor">
-		<!-- <When equipped>. CON +1. <font color=bbaa88><Upgrading></font>. Compound with Venir's Talisman Fragment. <font color=ff6666>Note!</font>. In case of failure the talisman level value drops to 1. Effects of two identical talismans do not stack. -->
+		<!-- <font color=bbaa88><Properties></font>. CON +1. <font color=bbaa88><Compound></font>. Materials: Venir's Talisman Fragment. In case of failure, you will get a <font color=eeaa22>Venir's Talisman Lv. 1</font>. Effects of two identical talismans do not stack. -->
 		<set name="icon" val="icon.benir_talisman_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="bodypart" val="deco1" />
@@ -1130,7 +1130,7 @@
 		</skills>
 	</item>
 	<item id="91078" name="Venir's Talisman Lv. 2" additionalName="Sealed" type="Armor">
-		<!-- <When equipped>. CON +1. MEN +1. <font color=bbaa88><Upgrading></font>. Compound with Venir's Talisman Fragment. <font color=ff6666>Note!</font>. In case of failure the talisman level value drops to 1. Effects of two identical talismans do not stack. -->
+		<!-- <font color=bbaa88><Properties></font>. CON +1. MEN +1. <font color=bbaa88><Compound></font>. Materials: Venir's Talisman Fragment. In case of failure, you will get a <font color=eeaa22>Venir's Talisman Lv. 1</font>. Effects of two identical talismans do not stack. -->
 		<set name="icon" val="icon.benir_talisman_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="bodypart" val="deco1" />
@@ -1144,7 +1144,7 @@
 		</skills>
 	</item>
 	<item id="91079" name="Venir's Talisman Lv. 3" additionalName="Sealed" type="Armor">
-		<!-- <When equipped>. CON +1. MEN +1. DEX +1. <font color=bbaa88><Upgrading></font>. Compound with Venir's Talisman Fragment. <font color=ff6666>Note!</font>. In case of failure the talisman level value drops to 1. Effects of two identical talismans do not stack. -->
+		<!-- <font color=bbaa88><Properties></font>. CON +1. MEN +1. DEX +1. <font color=bbaa88><Compound></font>. Materials: Venir's Talisman Fragment. In case of failure, you will get a <font color=eeaa22>Venir's Talisman Lv. 1</font>. Effects of two identical talismans do not stack. -->
 		<set name="icon" val="icon.benir_talisman_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="bodypart" val="deco1" />
@@ -1158,7 +1158,7 @@
 		</skills>
 	</item>
 	<item id="91080" name="Venir's Talisman Lv. 4" additionalName="Sealed" type="Armor">
-		<!-- <When equipped>. CON +1. MEN +1. DEX +1. WIT +1. <font color=bbaa88><Upgrading></font>. Compound with Venir's Talisman Fragment. <font color=ff6666>Note!</font>. In case of failure the talisman level value drops to 1. Effects of two identical talismans do not stack. -->
+		<!-- <font color=bbaa88><Properties></font>. CON +1. MEN +1. DEX +1. WIT +1. <font color=bbaa88><Compound></font>. Materials: Venir's Talisman Fragment. In case of failure, you will get a <font color=eeaa22>Venir's Talisman Lv. 1</font>. Effects of two identical talismans do not stack. -->
 		<set name="icon" val="icon.benir_talisman_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="bodypart" val="deco1" />
@@ -1172,7 +1172,7 @@
 		</skills>
 	</item>
 	<item id="91081" name="Venir's Talisman Lv. 5" additionalName="Sealed" type="Armor">
-		<!-- <When equipped>. CON +1. MEN +1. DEX +1. WIT +1. STR +1. <font color=bbaa88><Upgrading></font>. Compound with Venir's Talisman Fragment. <font color=ff6666>Note!</font>. In case of failure the talisman level value drops to 1. Effects of two identical talismans do not stack. -->
+		<!-- <font color=bbaa88><Properties></font>. CON +1. MEN +1. DEX +1. WIT +1. STR +1. <font color=bbaa88><Compound></font>. Materials: Venir's Talisman Fragment. In case of failure, you will get a <font color=eeaa22>Venir's Talisman Lv. 1</font>. Effects of two identical talismans do not stack. -->
 		<set name="icon" val="icon.benir_talisman_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="bodypart" val="deco1" />
@@ -1186,7 +1186,7 @@
 		</skills>
 	</item>
 	<item id="91082" name="Venir's Talisman Lv. 6" additionalName="Sealed" type="Armor">
-		<!-- <When equipped>. CON +1. MEN +1. DEX +1. WIT +1. STR +1. INT +1. <font color=bbaa88><Upgrading></font>. Compound with Venir's Talisman Fragment. <font color=ff6666>Note!</font>. In case of failure the talisman level value drops to 6. Effects of two identical talismans do not stack. -->
+		<!-- <font color=bbaa88><Properties></font>. CON +1. MEN +1. DEX +1. WIT +1. STR +1. INT +1. <font color=bbaa88><Compound></font>. Materials: Venir's Talisman Fragment. In case of failure, you will get a <font color=eeaa22>Venir's Talisman Lv. 6</font>. Effects of two identical talismans do not stack. -->
 		<set name="icon" val="icon.benir_talisman_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="bodypart" val="deco1" />
@@ -1200,7 +1200,7 @@
 		</skills>
 	</item>
 	<item id="91083" name="Venir's Talisman Lv. 7" additionalName="Sealed" type="Armor">
-		<!-- <When equipped>. CON +2. MEN +1. DEX +1. WIT +1. STR +1. INT +1. <font color=bbaa88><Upgrading></font>. Compound with Venir's Talisman Fragment. <font color=ff6666>Note!</font>. In case of failure the talisman level value drops to 6. Effects of two identical talismans do not stack. -->
+		<!-- <font color=bbaa88><Properties></font>. CON +2. MEN +1. DEX +1. WIT +1. STR +1. INT +1. <font color=bbaa88><Compound></font>. Materials: Venir's Talisman Fragment. In case of failure, you will get a <font color=eeaa22>Venir's Talisman Lv. 6</font>. Effects of two identical talismans do not stack. -->
 		<set name="icon" val="icon.benir_talisman_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="bodypart" val="deco1" />
@@ -1214,7 +1214,7 @@
 		</skills>
 	</item>
 	<item id="91084" name="Venir's Talisman Lv. 8" additionalName="Sealed" type="Armor">
-		<!-- <When equipped>. CON +2. MEN +2. DEX +1. WIT +1. STR +1. INT +1. <font color=bbaa88><Upgrading></font>. Compound with Venir's Talisman Fragment. <font color=ff6666>Note!</font>. In case of failure the talisman level value drops to 6. Effects of two identical talismans do not stack. -->
+		<!-- <font color=bbaa88><Properties></font>. CON +2. MEN +2. DEX +1. WIT +1. STR +1. INT +1. <font color=bbaa88><Compound></font>. Materials: Venir's Talisman Fragment. In case of failure, you will get a <font color=eeaa22>Venir's Talisman Lv. 6</font>. Effects of two identical talismans do not stack. -->
 		<set name="icon" val="icon.benir_talisman_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="bodypart" val="deco1" />
@@ -1228,7 +1228,7 @@
 		</skills>
 	</item>
 	<item id="91085" name="Venir's Talisman Lv. 9" additionalName="Sealed" type="Armor">
-		<!-- <When equipped>. CON +2. MEN +2. DEX +2. WIT +1. STR +1. INT +1. <font color=bbaa88><Upgrading></font>. Compound with Venir's Talisman Fragment. <font color=ff6666>Note!</font>. In case of failure the talisman level value drops to 6. Effects of two identical talismans do not stack. -->
+		<!-- <font color=bbaa88><Properties></font>. CON +2. MEN +2. DEX +2. WIT +1. STR +1. INT +1. <font color=bbaa88><Compound></font>. Materials: Venir's Talisman Fragment. In case of failure, you will get a <font color=eeaa22>Venir's Talisman Lv. 6</font>. Effects of two identical talismans do not stack. -->
 		<set name="icon" val="icon.benir_talisman_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="bodypart" val="deco1" />
@@ -1242,7 +1242,7 @@
 		</skills>
 	</item>
 	<item id="91086" name="Venir's Talisman Lv. 10" additionalName="Sealed" type="Armor">
-		<!-- <When equipped>. CON +2. MEN +2. DEX +2. WIT +2. STR +1. INT +1. <font color=bbaa88><Upgrading></font>. Compound with Venir's Talisman Fragment. <font color=ff6666>Note!</font>. In case of failure the talisman level value drops to 6. Effects of two identical talismans do not stack. -->
+		<!-- <font color=bbaa88><Properties></font>. CON +2. MEN +2. DEX +2. WIT +2. STR +1. INT +1. <font color=bbaa88><Compound></font>. Materials: Venir's Talisman Fragment. In case of failure, you will get a <font color=eeaa22>Venir's Talisman Lv. 6</font>. Effects of two identical talismans do not stack. -->
 		<set name="icon" val="icon.benir_talisman_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="bodypart" val="deco1" />
@@ -1256,7 +1256,7 @@
 		</skills>
 	</item>
 	<item id="91087" name="Venir's Talisman Lv. 11" additionalName="Sealed" type="Armor">
-		<!-- <When equipped>. CON +2. MEN +2. DEX +2. WIT +2. STR +2. INT +1. <font color=bbaa88><Upgrading></font>. Compound with Venir's Talisman Fragment. <font color=ff6666>Note!</font>. In case of failure the talisman level value drops to 6. Effects of two identical talismans do not stack. -->
+		<!-- <font color=bbaa88><Properties></font>. CON +2. MEN +2. DEX +2. WIT +2. STR +2. INT +1. <font color=bbaa88><Compound></font>. Materials: Venir's Talisman Fragment. In case of failure, you will get a <font color=eeaa22>Venir's Talisman Lv. 6</font>. Effects of two identical talismans do not stack. -->
 		<set name="icon" val="icon.benir_talisman_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="bodypart" val="deco1" />
@@ -1270,7 +1270,7 @@
 		</skills>
 	</item>
 	<item id="91088" name="Venir's Talisman Lv. 12" additionalName="Sealed" type="Armor">
-		<!-- <When equipped>. CON +2. MEN +2. DEX +2. WIT +2. STR +2. INT +2. All received Critical Rate -2%. P./ M. Skill Cooldown -1%. <font color=bbaa88><Upgrading></font>. Compound with Venir's Talisman Fragment. <font color=ff6666>Note!</font>. In case of failure the talisman level value drops to 12. Effects of two identical talismans do not stack. -->
+		<!-- <font color=bbaa88><Properties>. </font>CON +2. MEN +2. DEX +2. WIT +2. STR +2. INT +2. All received Critical Rate -2%. P./ M. Skill Cooldown -1%. <font color=bbaa88><Compound></font>. Materials: Venir's Talisman Fragment. In case of failure, you will get a <font color=eeaa22>Venir's Talisman Lv. 12</font>. Effects of two identical talismans do not stack. -->
 		<set name="icon" val="icon.benir_talisman_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="bodypart" val="deco1" />
@@ -1284,7 +1284,7 @@
 		</skills>
 	</item>
 	<item id="91089" name="Venir's Talisman Lv. 13" additionalName="Sealed" type="Armor">
-		<!-- <When equipped>. CON +3. MEN +2. DEX +2. WIT +2. STR +2. INT +2. All received Critical Rate -4%. P./ M. Skill Cooldown -3%. <font color=bbaa88><Upgrading></font>. Compound with Venir's Talisman Fragment. <font color=ff6666>Note!</font>. In case of failure the talisman level value drops to 12. Effects of two identical talismans do not stack. -->
+		<!-- <font color=bbaa88><Properties></font>. CON +3. MEN +2. DEX +2. WIT +2. STR +2. INT +2. All received Critical Rate -4%. P./ M. Skill Cooldown -3%. <font color=bbaa88><Compound></font>. Materials: Venir's Talisman Fragment. In case of failure, you will get a <font color=eeaa22>Venir's Talisman Lv. 12</font>. Effects of two identical talismans do not stack. -->
 		<set name="icon" val="icon.benir_talisman_i01" />
 		<set name="default_action" val="EQUIP" />
 		<set name="bodypart" val="deco1" />
@@ -1298,7 +1298,7 @@
 		</skills>
 	</item>
 	<item id="91090" name="Venir's Talisman Lv. 14" additionalName="Sealed" type="Armor">
-		<!-- <When equipped>. CON +3. MEN +3. DEX +2. WIT +2. STR +2. INT +2. All received Critical Rate -6%. P./ M. Skill Cooldown -5%. <font color=bbaa88><Upgrading></font>. Compound with Venir's Talisman Fragment. <font color=ff6666>Note!</font>. In case of failure the talisman level value drops to 12. Effects of two identical talismans do not stack. -->
+		<!-- <font color=bbaa88><Properties></font>. CON +3. MEN +3. DEX +2. WIT +2. STR +2. INT +2. All received Critical Rate -6%. P./ M. Skill Cooldown -5%. <font color=bbaa88><Compound></font>. Materials: Venir's Talisman Fragment. In case of failure, you will get a <font color=eeaa22>Venir's Talisman Lv. 12</font>. Effects of two identical talismans do not stack. -->
 		<set name="icon" val="icon.benir_talisman_i01" />
 		<set name="default_action" val="EQUIP" />
 		<set name="bodypart" val="deco1" />
@@ -1312,7 +1312,7 @@
 		</skills>
 	</item>
 	<item id="91091" name="Venir's Talisman Lv. 15" additionalName="Sealed" type="Armor">
-		<!-- <When equipped>. CON +3. MEN +3. DEX +3. WIT +2. STR +2. INT +2. All received Critical Rate -8%. P./ M. Skill Cooldown -7%. <font color=bbaa88><Upgrading></font>. Compound with Venir's Talisman Fragment. <font color=ff6666>Note!</font>. In case of failure the talisman level value drops to 12. Effects of two identical talismans do not stack. -->
+		<!-- <font color=bbaa88><Properties></font>. CON +3. MEN +3. DEX +3. WIT +2. STR +3. INT +2. All received Critical Rate -8%. P./ M. Skill Cooldown -7%. <font color=bbaa88><Compound></font>. Materials: Venir's Talisman Fragment. In case of failure, you will get a <font color=eeaa22>Venir's Talisman Lv. 12</font>. Effects of two identical talismans do not stack. -->
 		<set name="icon" val="icon.benir_talisman_i01" />
 		<set name="default_action" val="EQUIP" />
 		<set name="bodypart" val="deco1" />

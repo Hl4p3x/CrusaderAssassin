@@ -295,7 +295,7 @@
 		</stats>
 	</item>
 	<item id="2415" name="Sealed Avadon Circlet" type="Armor">
-		<!-- The seal can be removed by a blacksmith in any village. -->
+		<!-- Sealed Avadon Circlet. The seal can be removed by a blacksmith in any town. -->
 		<set name="icon" val="icon.armor_leather_helmet_i02" />
 		<set name="default_action" val="EQUIP" />
 		<set name="bodypart" val="head" />
@@ -329,7 +329,7 @@
 		</stats>
 	</item>
 	<item id="2417" name="Sealed Doom Helmet" type="Armor">
-		<!-- Sealed Doom Helmet. The seal can be removed by a blacksmith in any village. -->
+		<!-- Sealed Doom Helmet. The seal can be removed by a blacksmith in any town. -->
 		<set name="icon" val="icon.armor_leather_helmet_i02" />
 		<set name="default_action" val="EQUIP" />
 		<set name="bodypart" val="head" />
@@ -1045,7 +1045,7 @@
 		</stats>
 	</item>
 	<item id="2464" name="Sealed Avadon Gloves" type="Armor">
-		<!-- The seal can be removed by a blacksmith in any village. -->
+		<!-- Sealed Avadon Gloves. The seal can be removed by a blacksmith in any town. -->
 		<set name="icon" val="icon.armor_t66_g_i02" />
 		<set name="default_action" val="EQUIP" />
 		<set name="bodypart" val="gloves" />
@@ -1133,7 +1133,7 @@
 		</stats>
 	</item>
 	<item id="2475" name="Sealed Doom Gloves" type="Armor">
-		<!-- Sealed Doom Gloves. The seal can be removed by a blacksmith in any village. -->
+		<!-- Sealed Doom Gloves. The seal can be removed by a blacksmith in any town. -->
 		<set name="icon" val="icon.armor_t71_g_i02" />
 		<set name="default_action" val="EQUIP" />
 		<set name="bodypart" val="gloves" />
@@ -1402,7 +1402,7 @@
 		</stats>
 	</item>
 	<item id="2499" name="Elven Long Sword" type="Weapon">
-		<!-- <font color=ff6666><Unavailable to Sylphs/ Vanguard Riders.></font> -->
+		<!-- <font color=ff6666><Unavailable to Sylphs/ Vanguard Riders/ Assassins.></font> -->
 		<set name="icon" val="icon.weapon_elven_long_sword_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="SWORD" />

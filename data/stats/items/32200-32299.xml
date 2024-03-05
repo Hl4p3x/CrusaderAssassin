@@ -12,7 +12,7 @@
 		<set name="is_infinite" val="true" />
 	</item>
 	<item id="32250" name="Infinite Bone Quiver" type="EtcItem">
-		<!-- Quiver containing arrows made of sharply ground bone. Used with a D-grade bow. -->
+		<!-- A quiver with arrows made of sharpened bones. For D-grade bows. -->
 		<set name="icon" val="br_cashtex.item.br_cash_quiver_of_bone_arrows_i00" />
 		<set name="default_action" val="NONE" />
 		<set name="etcitem_type" val="ARROW" />
@@ -60,7 +60,7 @@
 		<set name="is_infinite" val="true" />
 	</item>
 	<item id="32254" name="Infinite Quiver of Light" type="EtcItem">
-		<!-- This quiver contains arrows made of unknown material. Used with S-grade bows. -->
+		<!-- A quiver with arrows made of unknown metal. For S-grade bows. -->
 		<set name="icon" val="br_cashtex.item.br_cash_quiver_of_shining_arrows_i00" />
 		<set name="default_action" val="NONE" />
 		<set name="etcitem_type" val="ARROW" />

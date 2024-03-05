@@ -37,7 +37,7 @@
 		<set name="is_depositable" val="false" />
 	</item>
 	<item id="1503" name="Grandma's Mirror" type="EtcItem">
-		<!-- Article left by the grandmother of Redbonnet. Can be sold in any shop for a high price. -->
+		<!-- An article left by the grandmother of Redbonnet. Can be sold in any shop for a high price. -->
 		<set name="icon" val="icon.etc_mirror_i00" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="LIQUID" />
@@ -49,7 +49,7 @@
 		<set name="is_depositable" val="false" />
 	</item>
 	<item id="1504" name="Grandma's Necklace" type="EtcItem">
-		<!-- Article left by the grandmother of Redbonnet. Can be sold in any shop for a high price. -->
+		<!-- An article left by the grandmother of Redbonnet. Can be sold in any shop for a high price. -->
 		<set name="icon" val="icon.accessary_aquastone_necklace_i00" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="LIQUID" />
@@ -61,7 +61,7 @@
 		<set name="is_depositable" val="false" />
 	</item>
 	<item id="1505" name="Grandma's Hairpin" type="EtcItem">
-		<!-- Article left by the grandmother of Redbonnet. Can be sold in any shop for a high price. -->
+		<!-- An article left by the grandmother of Redbonnet. Can be sold in any shop for a high price. -->
 		<set name="icon" val="icon.etc_jewel_white_i00" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="LIQUID" />
@@ -129,7 +129,7 @@
 		</stats>
 	</item>
 	<item id="1510" name="Butcher's Sword" type="Weapon">
-		<!-- Sword granted to young Orc Fighters who distinguished themselves at war. <font color=ff6666><Unavailable to Sylphs/ Vanguard Riders.></font> -->
+		<!-- Sword granted to young Orc Fighters who distinguished themselves at war. <font color=ff6666><Unavailable to Sylphs/ Vanguard Riders/ Assassins.></font> -->
 		<set name="icon" val="icon.weapon_orcish_sword_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="SWORD" />
@@ -153,7 +153,7 @@
 		</stats>
 	</item>
 	<item id="1511" name="Silversmith Hammer" type="Weapon">
-		<!-- A hammer once used by Elmoreden's blacksmiths. <font color=ff6666><Unavailable to Sylphs/ Vanguard Riders.></font> -->
+		<!-- A hammer once used by Elmoreden's blacksmiths. <font color=ff6666><Unavailable to Sylphs/ Vanguard Riders/ Assassins.></font> -->
 		<set name="icon" val="icon.weapon_iron_hammer_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="BLUNT" />
@@ -178,7 +178,7 @@
 		</stats>
 	</item>
 	<item id="1512" name="Spellbook: Confusion" additionalName="Not Available" type="EtcItem">
-		<!-- The item is not available. A spellbook for learning the Confusion skill. Used by Palus Knights and Assassins. Required level: 24. -->
+		<!-- The item is not available. A spellbook for learning the Confusion skill. Used by Dark Knights and Dark Slayers. Required level: 24. -->
 		<set name="icon" val="icon.etc_ertheia2" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="PAPER" />
@@ -420,7 +420,7 @@
 		<set name="is_stackable" val="true" />
 	</item>
 	<item id="1538" name="Improved Scroll of Escape" type="EtcItem">
-		<!-- Teleports to the nearest village. -->
+		<!-- Teleports to the nearest town. -->
 		<set name="icon" val="icon.etc_scroll_of_return_i01" />
 		<set name="default_action" val="SKILL_REDUCE" />
 		<set name="etcitem_type" val="SCROLL" />

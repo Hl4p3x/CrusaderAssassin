@@ -114,7 +114,7 @@
 			<height normal="30" />
 		</collision>
 	</npc>
-	<npc id="13403" level="1" type="Monster" name="Snowy Large Young Squash">
+	<npc id="13403" level="1" type="Monster" name="Young Large Snowy Pumpkin">
 		<race>ETC</race>
 		<sex>ETC</sex>
 		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">

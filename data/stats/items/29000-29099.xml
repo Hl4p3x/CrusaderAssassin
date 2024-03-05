@@ -70,7 +70,7 @@
 		<capsuled_items>
 			<item id="736" min="1" max="1" chance="100" /> <!-- Scroll of Escape -->
 			<item id="737" min="1" max="1" chance="100" /> <!-- Scroll of Resurrection -->
-			<item id="29652" min="3" max="3" chance="100" /> <!-- Major Healing Potion - Not Available -->
+			<item id="29652" min="3" max="3" chance="100" /> <!-- Greater Healing Potion - Not Available -->
 			<item id="29520" min="25" max="25" chance="100" /> <!-- VIP Coin - Not Available -->
 		</capsuled_items>
 	</item>
@@ -88,7 +88,7 @@
 		<set name="handler" val="ExtractableItems" />
 		<capsuled_items>
 			<item id="1538" min="1" max="1" chance="100" /> <!-- Improved Scroll of Escape -->
-			<item id="29652" min="3" max="3" chance="100" /> <!-- Major Healing Potion - Not Available -->
+			<item id="29652" min="3" max="3" chance="100" /> <!-- Greater Healing Potion - Not Available -->
 			<item id="29520" min="40" max="40" chance="100" /> <!-- VIP Coin - Not Available -->
 		</capsuled_items>
 	</item>
@@ -106,7 +106,7 @@
 		<set name="handler" val="ExtractableItems" />
 		<capsuled_items>
 			<item id="3936" min="1" max="1" chance="100" /> <!-- Blessed Scroll of Resurrection -->
-			<item id="29652" min="3" max="3" chance="100" /> <!-- Major Healing Potion - Not Available -->
+			<item id="29652" min="3" max="3" chance="100" /> <!-- Greater Healing Potion - Not Available -->
 			<item id="29520" min="100" max="100" chance="100" /> <!-- VIP Coin - Not Available -->
 		</capsuled_items>
 	</item>
@@ -125,7 +125,7 @@
 		<capsuled_items>
 			<item id="1538" min="1" max="1" chance="100" /> <!-- Improved Scroll of Escape -->
 			<item id="3936" min="1" max="1" chance="100" /> <!-- Blessed Scroll of Resurrection -->
-			<item id="29652" min="3" max="3" chance="100" /> <!-- Major Healing Potion - Not Available -->
+			<item id="29652" min="3" max="3" chance="100" /> <!-- Greater Healing Potion - Not Available -->
 			<item id="29520" min="150" max="150" chance="100" /> <!-- VIP Coin - Not Available -->
 		</capsuled_items>
 	</item>
@@ -390,7 +390,7 @@
 		<set name="is_stackable" val="true" />
 	</item>
 	<item id="29030" name="Blessed Resurrection Scroll" additionalName="Not Available" type="EtcItem">
-		<!-- The item is not available. Magic scroll that resurrects a dead character and restores his or her XP completely. -->
+		<!-- The item is not available. A magic scroll that resurrects a dead party member fully recovering their XP. -->
 		<set name="icon" val="icon.etc_ertheia2" />
 		<set name="default_action" val="SKILL_REDUCE" />
 		<set name="material" val="PAPER" />
@@ -929,7 +929,7 @@
 		<set name="is_sellable" val="false" />
 	</item>
 	<item id="29073" name="Agathion Aquarius" additionalName="Not Available" type="Armor">
-		<!-- The item is not available. Summons Agathion Aquarius. -->
+		<!-- The item is not available. A bracelet for summoning Agathion Aquarius. -->
 		<set name="icon" val="icon.etc_ertheia2" />
 		<set name="default_action" val="EQUIP" />
 		<set name="bodypart" val="lbracelet" />
@@ -954,7 +954,7 @@
 		<set name="is_sellable" val="false" />
 	</item>
 	<item id="29075" name="Agathion Pisces" additionalName="Not Available" type="Armor">
-		<!-- The item is not available. Summons Agathion Pisces. -->
+		<!-- The item is not available. A bracelet for summoning Agathion Pisces. -->
 		<set name="icon" val="icon.etc_ertheia2" />
 		<set name="default_action" val="EQUIP" />
 		<set name="bodypart" val="lbracelet" />
@@ -979,7 +979,7 @@
 		<set name="is_sellable" val="false" />
 	</item>
 	<item id="29077" name="Agathion Sagittarius" additionalName="Not Available" type="Armor">
-		<!-- The item is not available. Summons Agathion Sagittarius. -->
+		<!-- The item is not available. A bracelet for summoning Agathion Sagittarius. -->
 		<set name="icon" val="icon.etc_ertheia2" />
 		<set name="default_action" val="EQUIP" />
 		<set name="bodypart" val="lbracelet" />
@@ -1004,7 +1004,7 @@
 		<set name="is_sellable" val="false" />
 	</item>
 	<item id="29079" name="Agathion Cancer" additionalName="Not Available" type="Armor">
-		<!-- The item is not available. Summons Agathion Cancer. -->
+		<!-- The item is not available. A bracelet for summoning Agathion Cancer. -->
 		<set name="icon" val="icon.etc_ertheia2" />
 		<set name="default_action" val="EQUIP" />
 		<set name="bodypart" val="lbracelet" />

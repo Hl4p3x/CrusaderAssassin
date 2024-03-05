@@ -503,7 +503,7 @@
 		</stats>
 	</item>
 	<item id="6676" name="Sealed Imperial Crusader Gauntlets" type="Armor">
-		<!-- The seal can be removed by a blacksmith in any village. -->
+		<!-- The seal can be removed by a blacksmith in any town. -->
 		<set name="icon" val="icon.armor_t88_g_i02" />
 		<set name="default_action" val="EQUIP" />
 		<set name="bodypart" val="gloves" />
@@ -518,7 +518,7 @@
 		</stats>
 	</item>
 	<item id="6677" name="Sealed Imperial Crusader Boots" type="Armor">
-		<!-- The seal can be removed by a blacksmith in any village. -->
+		<!-- The seal can be removed by a blacksmith in any town. -->
 		<set name="icon" val="icon.armor_t88_b_i02" />
 		<set name="default_action" val="EQUIP" />
 		<set name="bodypart" val="feet" />
@@ -533,7 +533,7 @@
 		</stats>
 	</item>
 	<item id="6678" name="Sealed Imperial Crusader Shield" type="Armor">
-		<!-- The seal can be removed by a blacksmith in any village. -->
+		<!-- The seal can be removed by a blacksmith in any town. -->
 		<set name="icon" val="icon.shield_imperial_crusader_shield_i02" />
 		<set name="default_action" val="EQUIP" />
 		<set name="immediate_effect" val="true" />
@@ -549,7 +549,7 @@
 		</stats>
 	</item>
 	<item id="6679" name="Sealed Imperial Crusader Helmet" type="Armor">
-		<!-- The seal can be removed by a blacksmith in any village. -->
+		<!-- The seal can be removed by a blacksmith in any town. -->
 		<set name="icon" val="icon.armor_helmet_i02" />
 		<set name="default_action" val="EQUIP" />
 		<set name="bodypart" val="head" />
@@ -564,7 +564,7 @@
 		</stats>
 	</item>
 	<item id="6680" name="Sealed Draconic Leather Armor" type="Armor">
-		<!-- The seal can be removed by a blacksmith in any village. -->
+		<!-- The seal can be removed by a blacksmith in any town. -->
 		<set name="icon" val="icon.armor_t89_ul_i02" />
 		<set name="default_action" val="EQUIP" />
 		<set name="armor_type" val="LIGHT" />
@@ -580,7 +580,7 @@
 		</stats>
 	</item>
 	<item id="6681" name="Sealed Draconic Leather Gloves" type="Armor">
-		<!-- The seal can be removed by a blacksmith in any village. -->
+		<!-- The seal can be removed by a blacksmith in any town. -->
 		<set name="icon" val="icon.armor_t89_g_i02" />
 		<set name="default_action" val="EQUIP" />
 		<set name="bodypart" val="gloves" />
@@ -595,7 +595,7 @@
 		</stats>
 	</item>
 	<item id="6682" name="Sealed Draconic Leather Boots" type="Armor">
-		<!-- The seal can be removed by a blacksmith in any village. -->
+		<!-- The seal can be removed by a blacksmith in any town. -->
 		<set name="icon" val="icon.armor_t89_b_i02" />
 		<set name="default_action" val="EQUIP" />
 		<set name="bodypart" val="feet" />
@@ -610,7 +610,7 @@
 		</stats>
 	</item>
 	<item id="6683" name="Sealed Draconic Leather Helmet" type="Armor">
-		<!-- The seal can be removed by a blacksmith in any village. -->
+		<!-- The seal can be removed by a blacksmith in any town. -->
 		<set name="icon" val="icon.armor_leather_helmet_i02" />
 		<set name="default_action" val="EQUIP" />
 		<set name="bodypart" val="head" />
@@ -625,7 +625,7 @@
 		</stats>
 	</item>
 	<item id="6684" name="Sealed Major Arcana Robe" type="Armor">
-		<!-- The seal can be removed by a blacksmith in any village. -->
+		<!-- The seal can be removed by a blacksmith in any town. -->
 		<set name="icon" val="icon.armor_t90_ul_i02" />
 		<set name="default_action" val="EQUIP" />
 		<set name="armor_type" val="MAGIC" />
@@ -642,7 +642,7 @@
 		</stats>
 	</item>
 	<item id="6685" name="Sealed Major Arcana Gloves" type="Armor">
-		<!-- The seal can be removed by a blacksmith in any village. -->
+		<!-- The seal can be removed by a blacksmith in any town. -->
 		<set name="icon" val="icon.armor_t90_g_i02" />
 		<set name="default_action" val="EQUIP" />
 		<set name="bodypart" val="gloves" />
@@ -657,7 +657,7 @@
 		</stats>
 	</item>
 	<item id="6686" name="Sealed Major Arcana Boots" type="Armor">
-		<!-- The seal can be removed by a blacksmith in any village. -->
+		<!-- The seal can be removed by a blacksmith in any town. -->
 		<set name="icon" val="icon.armor_t90_b_i02" />
 		<set name="default_action" val="EQUIP" />
 		<set name="bodypart" val="feet" />
@@ -672,7 +672,7 @@
 		</stats>
 	</item>
 	<item id="6687" name="Sealed Major Arcana Circlet" type="Armor">
-		<!-- The seal can be removed by a blacksmith in any village. -->
+		<!-- The seal can be removed by a blacksmith in any town. -->
 		<set name="icon" val="icon.armor_circlet_i02" />
 		<set name="default_action" val="EQUIP" />
 		<set name="bodypart" val="head" />

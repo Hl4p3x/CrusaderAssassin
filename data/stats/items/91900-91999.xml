@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/items.xsd">
 	<item id="91900" name="Colichemarde" type="Weapon">
-		<!-- <font color=ff6666><Unavailable to Orcs/ Sylphs/ Dwarves.></font> -->
+		<!-- <font color=ff6666><Unavailable to Orcs/ Sylphs/ Dwarves/ Assassins.></font> -->
 		<set name="icon" val="icon.weapon_colichemarde_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="RAPIER" />
@@ -31,7 +31,7 @@
 		</skills>
 	</item>
 	<item id="91901" name="Military Fleuret" type="Weapon">
-		<!-- <font color=ff6666><Unavailable to Orcs/ Sylphs/ Dwarves.></font> -->
+		<!-- <font color=ff6666><Unavailable to Orcs/ Sylphs/ Dwarves/ Assassins.></font> -->
 		<set name="icon" val="icon.weapon_assult_fleuret_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="RAPIER" />
@@ -61,7 +61,7 @@
 		</skills>
 	</item>
 	<item id="91902" name="Éclair Bijou" type="Weapon">
-		<!-- <font color=ff6666><Unavailable to Orcs/ Sylphs/ Dwarves.></font> -->
+		<!-- <font color=ff6666><Unavailable to Orcs/ Sylphs/ Dwarves/ Assassins.></font> -->
 		<set name="icon" val="icon.weapon_greed_stinger_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="RAPIER" />
@@ -99,7 +99,7 @@
 		</skills>
 	</item>
 	<item id="91903" name="Lacerator" type="Weapon">
-		<!-- <font color=ff6666><Unavailable to Orcs/ Sylphs/ Dwarves.></font> -->
+		<!-- <font color=ff6666><Unavailable to Orcs/ Sylphs/ Dwarves/ Assassins.></font> -->
 		<set name="icon" val="icon.weapon_greed_stinger_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="RAPIER" />
@@ -137,7 +137,7 @@
 		</skills>
 	</item>
 	<item id="91904" name="White Lightning" type="Weapon">
-		<!-- <font color=ff6666><Unavailable to Orcs/ Sylphs/ Dwarves.></font> -->
+		<!-- <font color=ff6666><Unavailable to Orcs/ Sylphs/ Dwarves/ Assassins.></font> -->
 		<set name="icon" val="icon.weapon_lightning_blaze_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="RAPIER" />
@@ -175,7 +175,7 @@
 		</skills>
 	</item>
 	<item id="91905" name="Laevateinn" type="Weapon">
-		<!-- <font color=ff6666><Unavailable to Orcs/ Sylphs/ Dwarves.></font> -->
+		<!-- <font color=ff6666><Unavailable to Orcs/ Sylphs/ Dwarves/ Assassins.></font> -->
 		<set name="icon" val="icon.weapon_leavatein_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="RAPIER" />
@@ -208,7 +208,7 @@
 		<set name="is_sellable" val="false" />
 	</item>
 	<item id="91907" name="+10 High-grade Agathion Pack" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.npoint_earthworm_30day_box" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -240,7 +240,7 @@
 		</capsuled_items>
 	</item>
 	<item id="91908" name="+12 S-grade Weapon Pack" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.npoint_earthworm_30day_box" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -266,7 +266,7 @@
 		</capsuled_items>
 	</item>
 	<item id="91909" name="Wind Treasure Chest" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.sayha2017_box_i01" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -281,7 +281,7 @@
 		</skills>
 	</item>
 	<item id="91910" name="Sayha's Blessing - Lv. 1-75" additionalName="Sealed" type="EtcItem">
-		<!-- Sayha's Grace points +35,000. Reqiured level: 1-75. -->
+		<!-- Sayha's Grace points +35,000. Required level: 1-75. -->
 		<set name="icon" val="icon.etc_wind_potion_i00" />
 		<set name="default_action" val="SKILL_REDUCE" />
 		<set name="material" val="LIQUID" />
@@ -349,7 +349,7 @@
 		<set name="is_stackable" val="true" />
 	</item>
 	<item id="91915" name="Enhanced Ancient Warrior's Sword" additionalName="Sealed" type="Weapon">
-		<!-- Cannot be enchanted or augmented. No soul crystal can be inserted. <font color=ff6666><Unavailable to Humans/ Elves/ Dark Elves/ Sylphs/ Vanguard Riders.></font> -->
+		<!-- Cannot be enchanted or augmented. No soul crystal can be inserted. <font color=ff6666><Unavailable to Humans/ Elves/ Dark Elves/ Sylphs/ Vanguard Riders/ Assassins.></font> -->
 		<set name="icon" val="icon.weapon_tulwar_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="ANCIENTSWORD" />
@@ -396,7 +396,7 @@
 		</stats>
 	</item>
 	<item id="91917" name="Scroll of Escape: Effective Training" additionalName="Sealed" type="EtcItem">
-		<!-- Teleports to Reahen in the Kamael Village. -->
+		<!-- A magic scroll for teleporting to Reahen in the Kamael Village. -->
 		<set name="default_action" val="SKILL_REDUCE" />
 		<set name="material" val="PAPER" />
 		<set name="price" val="35000" />
@@ -497,7 +497,7 @@
 		<set name="is_stackable" val="true" />
 	</item>
 	<item id="91926" name="+3 Dragon Belt Pack" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.etc_readybox_bronze" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -588,7 +588,7 @@
 		</skills>
 	</item>
 	<item id="91931" name="Adventurer's Mark Lv. 5" additionalName="Sealed" type="EtcItem">
-		<!-- A reward for completing the Adventurer's Journey mission. <Effect>. HP Recovery +25%. MP Recovery +25%. Double-click to see the list of hunting zones by level. Note!. Effects of several identical marks in the inventory do not stack, the higher-level mark takes precedence. -->
+		<!-- A mark given as a reward for completing the 'Stop the Lizardmen - 1' quest. -->
 		<set name="icon" val="icon.etc_crest_blue_i00" />
 		<set name="default_action" val="SHOW_HTML" />
 		<set name="immediate_effect" val="true" />
@@ -738,7 +738,7 @@
 		<set name="is_stackable" val="true" />
 	</item>
 	<item id="91941" name="Blessing Chest" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.event_six_party_box_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -776,13 +776,13 @@
 			<item id="49674" min="1" max="1" chance="3.703704" /> <!-- XP Growth Scroll - Sealed -->
 			<item id="91780" min="1" max="1" chance="3.703704" /> <!-- Old Battle Scroll - Sealed -->
 			<item id="91781" min="1" max="1" chance="3.703704" /> <!-- Old Sayha's Buff Scroll - Sealed -->
-			<item id="91712" min="1" max="1" chance="3.703704" /> <!-- Sayha's Storm Lv. 3 - Sealed -->
+			<item id="91712" min="1" max="1" chance="3.703704" /> <!-- Sayha's Storm - Sealed -->
 			<item id="90907" min="1" max="1" chance="3.703704" /> <!-- Soulshot Ticket - Sealed -->
 			<item id="91641" min="1" max="1" chance="3.703704" /> <!-- Sayha's Blessing - Sealed -->
 		</capsuled_items>
 	</item>
 	<item id="91942" name="Crystal of Light" type="EtcItem">
-		<!-- A spellbook for learning the Collect Light Souls Lv. 2 skill. <Classes>. All Kamael classes after the 3rd class change. <Skill effect>. Allows to obtain 100 Light Souls. -->
+		<!-- A spellbook for learning the Collect Light Souls Lv. 2 skill. <Classes>. Doombringer. Soul Hound. Trickster. <Skill effect>. Allows to obtain 100 Light Souls. -->
 		<set name="icon" val="icon.giant_book_i02" />
 		<set name="material" val="PAPER" />
 		<set name="weight" val="120" />
@@ -790,7 +790,7 @@
 		<set name="is_stackable" val="true" />
 	</item>
 	<item id="91943" name="Crystal of Shadows" type="EtcItem">
-		<!-- A spellbook for learning the Collect Shadow Souls Lv. 2 skill. <Classes>. All Kamael classes after the 3rd class change. <Skill effect>. Allows to obtain 100 Shadow Souls. -->
+		<!-- A spellbook for learning the Collect Shadow Souls Lv. 2 skill. <Classes>. Doombringer. Soul Hound. Trickster. <Skill effect>. Allows to obtain 100 Shadow Souls. -->
 		<set name="icon" val="icon.giant_book_i00" />
 		<set name="material" val="PAPER" />
 		<set name="weight" val="120" />
@@ -798,7 +798,7 @@
 		<set name="is_stackable" val="true" />
 	</item>
 	<item id="91944" name="Book of Light" type="EtcItem">
-		<!-- A spellbook for learning the Light Master Lv. 2 skill. <Classes>. Kamael after the 2nd class change. <Skill effect>. In Light Veil. P. Atk. +280. Atk. Spd. +80. Casting Spd. +120. Speed +15. P. Def. +10%. M. Def. +10%. Skill Critical Damage +200. Additionally recovers HP/ MP at regular intervals. Has a certain chance to recover MP after an attack. -->
+		<!-- A spellbook for learning Light Master Lv. 2. <Classes>. Berserker. Soul Breaker. Soul Ranger. <Skill effect>. In Light Veil:. P. Atk. +280. Atk. Spd. +80. Casting Spd. +120. Speed +15. P. Def. +10%. M. Def. +10%. Skill Critical Damage +200. Additionally recovers HP/ MP at regular intervals. With a certain chance, recovers MP after an attack. -->
 		<set name="icon" val="icon.giant_book_i02" />
 		<set name="material" val="PAPER" />
 		<set name="weight" val="120" />
@@ -806,7 +806,7 @@
 		<set name="is_stackable" val="true" />
 	</item>
 	<item id="91945" name="Book of Shadows" type="EtcItem">
-		<!-- A spellbook for learning the Shadow Master Lv. 2 skill. <Classes>. Kamael after the 2nd class change. <Skill effect>. In Shadow Veil. P. Atk. +500. Atk. Spd. +200. Casting Spd. +250. Speed +20. Skill Critical Damage +200. When attacking, delivers an additional blow. (Probability: 20%). The ultimate skill is available. -->
+		<!-- A spellbook for learning the Shadow Master Lv. 2 skill. <Classes>. Berserker. Soul Breaker. Soul Ranger. <Skill effect>. In Shadow Veil. P. Atk. +500. Atk. Spd. +200. Casting Spd. +250. Speed +20. Skill Critical Damage +200. When attacking, delivers an additional blow. (Probability: 20%). The ultimate skill is available. -->
 		<set name="icon" val="icon.giant_book_i00" />
 		<set name="material" val="PAPER" />
 		<set name="weight" val="120" />
@@ -826,7 +826,7 @@
 		</cond>
 	</item>
 	<item id="91947" name="Package: +7 Admiral's Estoc" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.weapon_rapier_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -841,7 +841,7 @@
 		</capsuled_items>
 	</item>
 	<item id="91948" name="Package: +7 Saber Tooth" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.weapon_invincible_blade_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -856,7 +856,7 @@
 		</capsuled_items>
 	</item>
 	<item id="91949" name="Novice Warrior's Rapier" additionalName="Sealed" type="Weapon">
-		<!-- <font color=ff6666><Unavailable to Orcs/ Sylphs/ Dwarves.></font> -->
+		<!-- <font color=ff6666><Unavailable to Orcs/ Sylphs/ Dwarves/ Assassins.></font> -->
 		<set name="icon" val="icon.weapon_sealed_rapier_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="RAPIER" />
@@ -880,7 +880,7 @@
 		</stats>
 	</item>
 	<item id="91950" name="Novice Warrior's Ancient Sword" additionalName="Sealed" type="Weapon">
-		<!-- <font color=ff6666><Unavailable to Humans/ Elves/ Dark Elves/ Sylphs/ Vanguard Riders.></font> -->
+		<!-- <font color=ff6666><Unavailable to Humans/ Elves/ Dark Elves/ Sylphs/ Vanguard Riders/ Assassins.></font> -->
 		<set name="icon" val="icon.weapon_tulwar_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="ANCIENTSWORD" />
@@ -1234,7 +1234,7 @@
 		</skills>
 	</item>
 	<item id="91968" name="Enhanced Warrior's Rapier Chest" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.weapon_sealed_rapier_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -1249,7 +1249,7 @@
 		</capsuled_items>
 	</item>
 	<item id="91969" name="Enhanced Ancient Warrior's Sword Chest" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.weapon_tulwar_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -1264,7 +1264,7 @@
 		</capsuled_items>
 	</item>
 	<item id="91970" name="Package: +7 Ecliptic Axe" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.weapon_eclipse_axe_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -1350,7 +1350,7 @@
 		</skills>
 	</item>
 	<item id="91976" name="Unidentified Rock" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.destiny_stone" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -1387,7 +1387,7 @@
 		<set name="is_stackable" val="true" />
 	</item>
 	<item id="91979" name="Giant's Shining Pack" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.bm_sheep_agathion_30d_box" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -1428,7 +1428,7 @@
 		</capsuled_items>
 	</item>
 	<item id="91980" name="Giants' Coin Pouch" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.pouch_i01" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -1460,7 +1460,7 @@
 		<set name="is_stackable" val="true" />
 	</item>
 	<item id="91982" name="+10 Special White Sayha's Cloak Chest" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.bm_nebit_box" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -1538,7 +1538,7 @@
 		</stats>
 	</item>
 	<item id="91987" name="+8 Blue Wolf Heavy Armor Set" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.armor_t68_u_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -1557,7 +1557,7 @@
 		</capsuled_items>
 	</item>
 	<item id="91988" name="+8 Blue Wolf Light Armor Set" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.armor_t69_ul_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -1575,7 +1575,7 @@
 		</capsuled_items>
 	</item>
 	<item id="91989" name="+8 Blue Wolf Robe Set" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.armor_t70_u_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -1594,7 +1594,7 @@
 		</capsuled_items>
 	</item>
 	<item id="91990" name="+8 Doom Heavy Armor Set" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.armor_t71_ul_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -1612,7 +1612,7 @@
 		</capsuled_items>
 	</item>
 	<item id="91991" name="+8 Doom Light Armor Set" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.armor_t72_ul_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -1630,7 +1630,7 @@
 		</capsuled_items>
 	</item>
 	<item id="91992" name="+8 Doom Robe Set" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.armor_t73_u_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -1649,7 +1649,7 @@
 		</capsuled_items>
 	</item>
 	<item id="91993" name="+8 Avadon Robe Set" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.armor_t59_ul_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -1667,7 +1667,7 @@
 		</capsuled_items>
 	</item>
 	<item id="91994" name="+8 Plated Leather Armor Set" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.armor_t47_u_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -1684,7 +1684,7 @@
 		</capsuled_items>
 	</item>
 	<item id="91995" name="A-grade Luxury Box" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.bm_sayha_gold_present" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -1699,7 +1699,7 @@
 		</skills>
 	</item>
 	<item id="91996" name="Scroll of Escape Pack: Tower of Insolence (Floors 1-7)" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.etc_exchange_box_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -1722,7 +1722,7 @@
 		</capsuled_items>
 	</item>
 	<item id="91997" name="Package: Primeval Isle's Time Stone (L-Coins)" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.timezone_refill_1" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -1737,7 +1737,7 @@
 		</capsuled_items>
 	</item>
 	<item id="91998" name="Package: Primeval Isle's Time Stone (Adena)" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.timezone_refill_1" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />

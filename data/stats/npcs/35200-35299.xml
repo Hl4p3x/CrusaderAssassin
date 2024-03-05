@@ -1467,7 +1467,7 @@
 			<height normal="23.5" />
 		</collision>
 	</npc>
-	<npc id="35232" level="70" type="Folk" name="Sherwood" title="Herald from Oren">
+	<npc id="35232" level="70" type="Folk" name="Sherwood" title="Oren Herald">
 		<parameters>
 			<param name="MoveAroundSocial" value="0" />
 			<param name="MoveAroundSocial1" value="92" />
@@ -3682,7 +3682,7 @@
 			<height normal="19" />
 		</collision>
 	</npc>
-	<npc id="35278" level="70" type="Folk" name="Ruford" title="Herald from Aden">
+	<npc id="35278" level="70" type="Folk" name="Ruford" title="Aden Herald">
 		<parameters>
 			<param name="MoveAroundSocial" value="0" />
 			<param name="MoveAroundSocial1" value="92" />

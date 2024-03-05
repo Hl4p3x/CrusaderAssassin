@@ -936,7 +936,7 @@
 		<set name="is_depositable" val="false" />
 	</item>
 	<item id="6364" name="Forgotten Blade" type="Weapon">
-		<!-- <font color=ff6666><Unavailable to Sylphs/ Vanguard Riders.></font> -->
+		<!-- <font color=ff6666><Unavailable to Sylphs/ Vanguard Riders/ Assassins.></font> -->
 		<set name="icon" val="icon.weapon_forgotten_blade_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="SWORD" />
@@ -965,7 +965,7 @@
 		</stats>
 	</item>
 	<item id="6365" name="Basalt Battlehammer" type="Weapon">
-		<!-- <font color=ff6666><Unavailable to Sylphs/ Vanguard Riders.></font> -->
+		<!-- <font color=ff6666><Unavailable to Sylphs/ Vanguard Riders/ Assassins.></font> -->
 		<set name="icon" val="icon.weapon_basalt_battlehammer_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="BLUNT" />
@@ -994,7 +994,7 @@
 		</stats>
 	</item>
 	<item id="6366" name="Imperial Staff" type="Weapon">
-		<!-- <font color=ff6666><Unavailable to Sylphs/ Vanguard Riders.></font> -->
+		<!-- <font color=ff6666><Unavailable to Sylphs/ Vanguard Riders/ Assassins.></font> -->
 		<set name="icon" val="icon.weapon_imperial_staff_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="BLUNT" />
@@ -1055,7 +1055,7 @@
 		</stats>
 	</item>
 	<item id="6369" name="Dragon Hunter Axe" type="Weapon">
-		<!-- <font color=ff6666><Unavailable to Sylphs/ Vanguard Riders.></font> -->
+		<!-- <font color=ff6666><Unavailable to Sylphs/ Vanguard Riders/ Assassins.></font> -->
 		<set name="icon" val="icon.weapon_dragon_hunter_axe_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="BLUNT" />
@@ -1085,7 +1085,7 @@
 		</stats>
 	</item>
 	<item id="6370" name="Saint Spear" type="Weapon">
-		<!-- <font color=ff6666><Unavailable to Sylphs></font> -->
+		<!-- <font color=ff6666><Unavailable to Sylphs/ Assassins.></font> -->
 		<set name="icon" val="icon.weapon_saint_spear_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="POLE" />
@@ -1115,7 +1115,7 @@
 		</stats>
 	</item>
 	<item id="6371" name="Demon Splinter" type="Weapon">
-		<!-- <font color=ff6666><Unavailable to Sylphs/ Vanguard Riders.></font> -->
+		<!-- <font color=ff6666><Unavailable to Sylphs/ Vanguard Riders/ Assassins.></font> -->
 		<set name="icon" val="icon.weapon_demon_splinter_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="DUALFIST" />
@@ -1142,7 +1142,7 @@
 		</stats>
 	</item>
 	<item id="6372" name="Heaven's Divider" type="Weapon">
-		<!-- <font color=ff6666><Unavailable to Sylphs/ Vanguard Riders.></font> -->
+		<!-- <font color=ff6666><Unavailable to Sylphs/ Vanguard Riders/ Assassins.></font> -->
 		<set name="icon" val="icon.weapon_heavens_divider_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="SWORD" />
@@ -1386,7 +1386,7 @@
 		<set name="is_stackable" val="true" />
 	</item>
 	<item id="6389" name="Squash Seed" type="EtcItem">
-		<!-- Autumn Harvest Event - double-click to make a Young Squash appear. -->
+		<!-- Autumn Harvest Event. Double-click to make Young Pumpkin appear. -->
 		<set name="icon" val="icon.etc_gourd_i00" />
 		<set name="default_action" val="SKILL_REDUCE" />
 		<set name="material" val="PAPER" />
@@ -1399,7 +1399,7 @@
 		</skills>
 	</item>
 	<item id="6390" name="Large Squash Seed" type="EtcItem">
-		<!-- Autumn Harvest Event - double-click to make a Large Young Squash appear. -->
+		<!-- Autumn Harvest Event. Double-click to make Young Large Pumpkin appear. -->
 		<set name="icon" val="icon.etc_gourd_i01" />
 		<set name="default_action" val="SKILL_REDUCE" />
 		<set name="material" val="PAPER" />

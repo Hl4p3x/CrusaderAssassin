@@ -64,7 +64,7 @@
 			<height normal="0.1" />
 		</collision>
 	</npc>
-	<npc id="18002" level="1" type="Monster" name="Scarecrow">
+	<npc id="18002" level="1" type="Monster" name="Dummy">
 		<parameters>
 			<param name="MoveAroundSocial" value="60" />
 			<param name="MoveAroundSocial1" value="60" />
@@ -75,7 +75,7 @@
 		</parameters>
 		<race>CONSTRUCT</race>
 		<sex>MALE</sex>
-		<acquire exp="68" />
+		<acquire exp="68" sp="1" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="41.9253083414476" hpRegen="2" mp="40" mpRegen="0.9" />
 			<attack physical="8.47458" magical="5.78704" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
@@ -135,7 +135,7 @@
 		</parameters>
 		<race>CONSTRUCT</race>
 		<sex>FEMALE</sex>
-		<acquire exp="5085" />
+		<acquire exp="5085" sp="51" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="2823.47946968528" hpRegen="8.5" mp="1507.8" mpRegen="3" />
 			<attack physical="794.70901" magical="542.68324" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
@@ -169,7 +169,7 @@
 	<npc id="18004" level="75" type="Monster" name="Tower">
 		<race>ETC</race>
 		<sex>ETC</sex>
-		<acquire exp="5085" />
+		<acquire exp="5085" sp="51" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="2823.47946968528" hpRegen="8.5" mp="1507.8" mpRegen="3" />
 			<attack physical="794.70901" magical="542.68324" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
@@ -299,7 +299,7 @@
 		</parameters>
 		<race>DEMONIC</race>
 		<sex>MALE</sex>
-		<acquire exp="4435" sp="275698" />
+		<acquire exp="4435" sp="44" />
 		<equipment rhand="5800" lhand="5799" />
 		<stats str="60" int="76" dex="73" wit="70" con="57" men="80">
 			<vitals hp="2240316.42745449" hpRegen="2500" mp="1345.8" mpRegen="2.7" />
@@ -866,8 +866,8 @@
 		<!-- DEFEAT THE QUEEN EVENT -->
 		<parameters>
 			<minions name="Privates">
-				<npc id="18023" count="2" respawnTime="200" weightPoint="1" />
-				<npc id="18024" count="2" respawnTime="200" weightPoint="1" />
+				<npc id="18023" count="2" respawnTime="200" weightPoint="1" /> <!-- Escort Ant -->
+				<npc id="18024" count="2" respawnTime="200" weightPoint="1" /> <!-- Royal Guard Ant -->
 			</minions>
 		</parameters>
 		<race>BUG</race>
@@ -910,12 +910,74 @@
 			<radius normal="45" />
 			<height normal="53" />
 		</collision>
+		<dropLists>
+			<drop>
+				<item id="91944" min="1" max="1" chance="0.042" /> <!-- Spellbook: Light Master Lv. 2 -->
+				<item id="91945" min="1" max="1" chance="0.042" /> <!-- Spellbook: Shadow Master Lv. 2 -->
+				<item id="92401" min="1" max="1" chance="0.166" /> <!-- Spellbook: White Guardian -->
+				<item id="93631" min="1" max="1" chance="0.031" /> <!-- Spellbook: Hellfire -->
+				<item id="93869" min="1" max="1" chance="0.017" /> <!-- Spellbook: Elemental Burst -->
+				<item id="93870" min="1" max="1" chance="0.007" /> <!-- Spellbook: Ethereal Strike -->
+				<item id="94137" min="1" max="1" chance="0.031" /> <!-- Spellbook: Devour -->
+				<item id="94324" min="1" max="1" chance="0.008" /> <!-- Spellbook: Song of Earth Lv. 2 -->
+				<item id="94325" min="1" max="1" chance="0.008" /> <!-- Spellbook: Song of Hunter Lv. 2 -->
+				<item id="94326" min="1" max="1" chance="0.014" /> <!-- Spellbook: Dance of Warrior Lv. 2 -->
+				<item id="94327" min="1" max="1" chance="0.014" /> <!-- Spellbook: Dance of Fire Lv. 2 -->
+				<item id="94383" min="1" max="1" chance="0.376" /> <!-- Scroll: Enchant Rare Accessories -->
+				<item id="94385" min="1" max="1" chance="0.094" /> <!-- Improved Scroll: Enchant Rare Accessories -->
+				<item id="94500" min="1" max="1" chance="0.002" /> <!-- Spellbook: Titanic Sweep -->
+				<item id="94501" min="1" max="1" chance="0.002" /> <!-- Spellbook: Titanic Break -->
+				<item id="94505" min="1" max="1" chance="0.005" /> <!-- Spellbook: Burning Strike -->
+				<item id="94507" min="1" max="1" chance="0.005" /> <!-- Spellbook: Armor Break -->
+				<item id="94670" min="1" max="1" chance="0.012" /> <!-- Spellbook: Debuff Master -->
+				<item id="94674" min="1" max="1" chance="0.006" /> <!-- Spellbook: Blood Bond -->
+				<item id="95348" min="1" max="1" chance="0.003" /> <!-- Spellbook: Song of Wind Lv. 2 -->
+				<item id="95349" min="1" max="1" chance="0.005" /> <!-- Spellbook: Dance of Fury Lv. 2 -->
+				<item id="95350" min="1" max="1" chance="0.027" /> <!-- Spellbook: Goring Charge -->
+				<item id="95352" min="1" max="1" chance="0.027" /> <!-- Spellbook: Elemental Changing -->
+				<item id="95365" min="1" max="1" chance="0.027" /> <!-- Spellbook: Elemental Spirit Lv. 4 -->
+				<item id="91257" min="1" max="1" chance="0.05" /> <!-- Queen Ant Doll Lv. 2 -->
+				<item id="6660" min="1" max="1" chance="0.38" /> <!-- Queen Ant's Ring -->
+				<item id="5311" min="1" max="1" chance="1.077" /> <!-- Sealed Armor of Nightmare -->
+				<item id="5312" min="1" max="1" chance="1.077" /> <!-- Sealed Helm of Nightmare -->
+				<item id="5313" min="1" max="1" chance="1.077" /> <!-- Sealed Gauntlets of Nightmare -->
+				<item id="5314" min="1" max="1" chance="1.077" /> <!-- Sealed Boots of Nightmare -->
+				<item id="5315" min="1" max="1" chance="1.077" /> <!-- Sealed Shield of Nightmare -->
+				<item id="5316" min="1" max="1" chance="1.077" /> <!-- Sealed Majestic Plate Armor -->
+				<item id="5317" min="1" max="1" chance="1.077" /> <!-- Sealed Majestic Circlet -->
+				<item id="5318" min="1" max="1" chance="1.077" /> <!-- Sealed Majestic Gauntlets -->
+				<item id="5319" min="1" max="1" chance="1.078" /> <!-- Sealed Majestic Boots -->
+				<item id="5320" min="1" max="1" chance="1.077" /> <!-- Sealed Leather Armor of Nightmare -->
+				<item id="5323" min="1" max="1" chance="1.078" /> <!-- Sealed Majestic Leather Armor -->
+				<item id="5326" min="1" max="1" chance="1.077" /> <!-- Sealed Robe of Nightmare -->
+				<item id="5329" min="1" max="1" chance="1.078" /> <!-- Sealed Majestic Robe -->
+				<item id="6326" min="1" max="1" chance="11.099" /> <!-- Sealed Majestic Necklace -->
+				<item id="6327" min="1" max="1" chance="11.099" /> <!-- Sealed Majestic Earring -->
+				<item id="6328" min="1" max="1" chance="11.102" /> <!-- Sealed Majestic Ring -->
+				<item id="8678" min="1" max="1" chance="0.153" /> <!-- Sirra's Blade -->
+				<item id="8679" min="1" max="1" chance="0.153" /> <!-- Sword of Ipos -->
+				<item id="8680" min="1" max="1" chance="0.153" /> <!-- Barakiel's Axe -->
+				<item id="8681" min="1" max="1" chance="0.153" /> <!-- Behemoth' Tuning Fork -->
+				<item id="8682" min="1" max="1" chance="0.153" /> <!-- Naga's Storm -->
+				<item id="8683" min="1" max="1" chance="0.153" /> <!-- Tiphon's Spear -->
+				<item id="8684" min="1" max="1" chance="0.153" /> <!-- Shyeed's Bow -->
+				<item id="8685" min="1" max="1" chance="0.153" /> <!-- Sobekk's Hurricane -->
+				<item id="8686" min="1" max="1" chance="0.153" /> <!-- Themis' Tongue -->
+				<item id="8687" min="1" max="1" chance="0.153" /> <!-- Cabrio's Hand -->
+				<item id="8688" min="1" max="1" chance="0.153" /> <!-- Daimon Crystal -->
+				<item id="8938" min="1" max="1" chance="0.153" /> <!-- Tallum Blade*Damascus Sword -->
+				<item id="91887" min="1" max="1" chance="0.153" /> <!-- Durendal -->
+				<item id="91902" min="1" max="1" chance="0.153" /> <!-- Éclair Bijou -->
+				<item id="92421" min="1" max="1" chance="0.02" /> <!-- Queen Ant's Stone Breaker -->
+				<item id="94886" min="1" max="1" chance="0.153" /> <!-- Zephyrus -->
+			</drop>
+		</dropLists>
 	</npc>
 	<npc id="18021" level="38" type="Monster" name="Queen Ant Larva">
 		<!-- AUTO GENERATED NPC TODO: FIX IT -->
 		<race>BUG</race>
 		<sex>MALE</sex>
-		<acquire exp="1255" />
+		<acquire exp="1255" sp="12" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="591.77215" hpRegen="4.5" mp="315.1" mpRegen="1.8" />
 			<attack physical="312.44546" magical="213.35974" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
@@ -1024,7 +1086,7 @@
 		</parameters>
 		<race>BUG</race>
 		<sex>MALE</sex>
-		<acquire exp="4663" />
+		<acquire exp="4663" sp="43" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="7800.76" hpRegen="122" mp="463.3" mpRegen="1.8" />
 			<attack physical="1190" magical="1074" random="10" critical="4" accuracy="4.75" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
@@ -1064,7 +1126,7 @@
 		<!-- AUTO GENERATED NPC TODO: FIX IT -->
 		<race>DRAGON</race>
 		<sex>MALE</sex>
-		<acquire exp="1410" />
+		<acquire exp="1410" sp="13" />
 		<stats str="60" int="76" dex="73" wit="70" con="57" men="80">
 			<vitals hp="183874.772280041" hpRegen="85.0969448447131" mp="478.8" mpRegen="1.8" />
 			<attack physical="472.68726669442" magical="74.6516744182408" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
@@ -1100,7 +1162,7 @@
 		<!-- AUTO GENERATED NPC TODO: FIX IT -->
 		<race>DRAGON</race>
 		<sex>MALE</sex>
-		<acquire exp="1331" />
+		<acquire exp="1331" sp="12" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="173743.03797" hpRegen="4.5" mp="463.32" mpRegen="1.8" />
 			<attack physical="332.12952" magical="226.8014" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
@@ -1125,7 +1187,7 @@
 		<!-- AUTO GENERATED NPC TODO: FIX IT -->
 		<race>DEMONIC</race>
 		<sex>MALE</sex>
-		<acquire exp="1331" />
+		<acquire exp="1331" sp="12" />
 		<stats str="60" int="76" dex="73" wit="70" con="57" men="80">
 			<vitals hp="122006.22222" hpRegen="4.5" mp="463.32" mpRegen="1.8" />
 			<attack physical="664.25904" magical="453.6028" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
@@ -1152,7 +1214,7 @@
 		<!-- AUTO GENERATED NPC TODO: FIX IT -->
 		<race>CONSTRUCT</race>
 		<sex>MALE</sex>
-		<acquire exp="1633" />
+		<acquire exp="1633" sp="15" />
 		<stats str="60" int="76" dex="73" wit="70" con="57" men="80">
 			<vitals hp="295133.674501199" hpRegen="133.418313858623" mp="557.4" mpRegen="2.1" />
 			<attack physical="1089.9199091275" magical="412.56626918897" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
@@ -1188,7 +1250,7 @@
 		<!-- AUTO GENERATED NPC TODO: FIX IT -->
 		<race>FAIRY</race>
 		<sex>FEMALE</sex>
-		<acquire exp="2298" />
+		<acquire exp="2298" sp="23" />
 		<stats str="60" int="76" dex="73" wit="70" con="57" men="80">
 			<vitals hp="523103.852" hpRegen="441.65" mp="1708.8" mpRegen="20" />
 			<attack physical="3652" magical="1535" random="10" critical="4" accuracy="0" attackSpeed="253" type="SWORD" range="80" distance="80" width="120" />
@@ -1223,7 +1285,7 @@
 		<!-- AUTO GENERATED NPC TODO: FIX IT -->
 		<race>BUG</race>
 		<sex>MALE</sex>
-		<acquire exp="2083" />
+		<acquire exp="2083" sp="21" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="10618.98734" hpRegen="5.5" mp="36936" mpRegen="2.1" />
 			<attack physical="551.6541" magical="376.70824" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
@@ -1247,7 +1309,7 @@
 		<!-- AUTO GENERATED NPC TODO: FIX IT -->
 		<race>BUG</race>
 		<sex>MALE</sex>
-		<acquire exp="2187" />
+		<acquire exp="2187" sp="22" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="10618.98734" hpRegen="5.5" mp="36936" mpRegen="2.1" />
 			<attack physical="580.89176" magical="396.67376" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
@@ -1271,7 +1333,7 @@
 		<!-- AUTO GENERATED NPC TODO: FIX IT -->
 		<race>BUG</race>
 		<sex>MALE</sex>
-		<acquire exp="2083" />
+		<acquire exp="2083" sp="21" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="10618.98734" hpRegen="5.5" mp="36936" mpRegen="2.1" />
 			<attack physical="551.6541" magical="376.70824" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
@@ -1295,7 +1357,7 @@
 		<!-- AUTO GENERATED NPC TODO: FIX IT -->
 		<race>BUG</race>
 		<sex>MALE</sex>
-		<acquire exp="2187" />
+		<acquire exp="2187" sp="22" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="10618.98734" hpRegen="5.5" mp="36936" mpRegen="2.1" />
 			<attack physical="580.89176" magical="396.67376" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
@@ -1319,7 +1381,7 @@
 		<!-- AUTO GENERATED NPC TODO: FIX IT -->
 		<race>DEMONIC</race>
 		<sex>FEMALE</sex>
-		<acquire exp="2780" />
+		<acquire exp="2780" sp="27" />
 		<stats str="60" int="76" dex="73" wit="70" con="57" men="80">
 			<vitals hp="379320.258720905" hpRegen="160.428352228262" mp="889.8" mpRegen="2.4" />
 			<attack physical="1220.8780225827" magical="374.074597271571" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
@@ -1355,7 +1417,7 @@
 		<!-- AUTO GENERATED NPC TODO: FIX IT -->
 		<race>ETC</race>
 		<sex>MALE</sex>
-		<acquire exp="2686" />
+		<acquire exp="2686" sp="26" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="365762.02532" hpRegen="6.5" mp="861" mpRegen="2.4" />
 			<attack physical="741.37808" magical="506.26512" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
@@ -1379,7 +1441,7 @@
 		<!-- AUTO GENERATED NPC TODO: FIX IT -->
 		<race>DEMONIC</race>
 		<sex>MALE</sex>
-		<acquire exp="2686" />
+		<acquire exp="2686" sp="26" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="365762.02532" hpRegen="6.5" mp="861" mpRegen="2.4" />
 			<attack physical="741.37808" magical="506.26512" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
@@ -1406,7 +1468,7 @@
 		<race>HUMANOID</race>
 		<sex>MALE</sex>
 		<equipment rhand="201" />
-		<acquire exp="2979" />
+		<acquire exp="2979" sp="29" />
 		<stats str="60" int="76" dex="73" wit="70" con="57" men="80">
 			<vitals hp="405588.390681831" hpRegen="169.817256865542" mp="948" mpRegen="2.4" />
 			<attack physical="1356.00171218861" magical="428.34500246787" random="20" critical="1" accuracy="9" attackSpeed="253" type="BLUNT" range="40" distance="80" width="120" />
@@ -1443,7 +1505,7 @@
 		<race>HUMANOID</race>
 		<sex>MALE</sex>
 		<equipment rhand="74" /> <!-- Katana -->
-		<acquire exp="2879" />
+		<acquire exp="2879" sp="28" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="392613.29114" hpRegen="6.5" mp="918.8" mpRegen="2.4" />
 			<attack physical="811.9291" magical="554.44232" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
@@ -1468,7 +1530,7 @@
 		<race>HUMANOID</race>
 		<sex>MALE</sex>
 		<equipment rhand="74" /> <!-- Katana -->
-		<acquire exp="2879" />
+		<acquire exp="2879" sp="28" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="392613.29114" hpRegen="6.5" mp="918.8" mpRegen="2.4" />
 			<attack physical="811.9291" magical="554.44232" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
@@ -1493,7 +1555,7 @@
 		<race>UNDEAD</race>
 		<sex>MALE</sex>
 		<equipment rhand="1472" />
-		<acquire exp="3301" />
+		<acquire exp="3301" sp="32" />
 		<stats str="60" int="76" dex="73" wit="70" con="57" men="80">
 			<vitals hp="442200.04994986" hpRegen="182.410955849033" mp="1036.8" mpRegen="2.4" />
 			<attack physical="1570.35490008098" magical="534.047830747273" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
@@ -1532,7 +1594,7 @@
 		<race>UNDEAD</race>
 		<sex>MALE</sex>
 		<equipment rhand="946" lhand="945" /> <!-- Skeleton Dagger / Skeleton Buckler -->
-		<acquire exp="3192" />
+		<acquire exp="3192" sp="31" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="430415.18987" hpRegen="6.5" mp="1007" mpRegen="2.4" />
 			<attack physical="923.88774" magical="630.89556" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
@@ -1562,7 +1624,7 @@
 		<race>UNDEAD</race>
 		<sex>MALE</sex>
 		<equipment rhand="148" lhand="103" /> <!-- Sword of Valhalla / Tower Shield -->
-		<acquire exp="3192" />
+		<acquire exp="3192" sp="31" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="430415.18987" hpRegen="6.5" mp="1007" mpRegen="2.4" />
 			<attack physical="923.88774" magical="630.89556" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
@@ -1592,7 +1654,7 @@
 		<race>HUMANOID</race>
 		<sex>MALE</sex>
 		<equipment rhand="71" />
-		<acquire exp="3301" />
+		<acquire exp="3301" sp="32" />
 		<stats str="60" int="76" dex="73" wit="70" con="57" men="80">
 			<vitals hp="442200.04994986" hpRegen="182.410955849033" mp="1036.8" mpRegen="2.4" />
 			<attack physical="1570.35490008098" magical="534.047830747273" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
@@ -1629,7 +1691,7 @@
 		<race>HUMANOID</race>
 		<sex>MALE</sex>
 		<equipment rhand="283" /> <!-- Akat Longbow -->
-		<acquire exp="3192" />
+		<acquire exp="3192" sp="31" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="430415.18987" hpRegen="6.5" mp="1007" mpRegen="2.4" />
 			<attack physical="923.88774" magical="630.89556" random="5" critical="8" accuracy="0" attackSpeed="253" type="BOW" range="1100" distance="10" width="0" />
@@ -1655,7 +1717,7 @@
 		<race>HUMANOID</race>
 		<sex>MALE</sex>
 		<equipment rhand="127" /> <!-- Crimson Sword -->
-		<acquire exp="3192" />
+		<acquire exp="3192" sp="31" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="430415.18987" hpRegen="6.5" mp="1007" mpRegen="2.4" />
 			<attack physical="923.88774" magical="630.89556" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
@@ -1680,7 +1742,7 @@
 		<race>HUMANOID</race>
 		<sex>MALE</sex>
 		<equipment rhand="186" />
-		<acquire exp="3502" />
+		<acquire exp="3502" sp="35" />
 		<stats str="60" int="76" dex="73" wit="70" con="57" men="80">
 			<vitals hp="645830.017167712" hpRegen="263.705714180557" mp="1097" mpRegen="2.7" />
 			<attack physical="3212.37778975842" magical="2154.88561326698" random="20" critical="1" accuracy="9" attackSpeed="253" type="BLUNT" range="40" distance="80" width="120" />
@@ -1717,7 +1779,7 @@
 		<race>HUMANOID</race>
 		<sex>MALE</sex>
 		<equipment rhand="9" /> <!-- Cedar Staff -->
-		<acquire exp="3401" />
+		<acquire exp="3401" sp="33" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="630372.1519" hpRegen="7.5" mp="1066.8" mpRegen="2.7" />
 			<attack physical="1002.16136" magical="684.3463" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
@@ -1743,7 +1805,7 @@
 		<race>HUMANOID</race>
 		<sex>MALE</sex>
 		<equipment rhand="79" /> <!-- Damascus Sword -->
-		<acquire exp="3401" />
+		<acquire exp="3401" sp="33" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="630372.1519" hpRegen="7.5" mp="1066.8" mpRegen="2.7" />
 			<attack physical="1002.16136" magical="684.3463" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
@@ -1769,7 +1831,7 @@
 		<race>DEMONIC</race>
 		<sex>MALE</sex>
 		<equipment rhand="189" />
-		<acquire exp="4435" />
+		<acquire exp="4435" sp="44" />
 		<stats str="60" int="76" dex="73" wit="70" con="57" men="80">
 			<vitals hp="746772.142484831" hpRegen="294.21090607215" mp="1345.8" mpRegen="2.7" />
 			<attack physical="4309.76223426093" magical="2869.61548504493" random="20" critical="1" accuracy="9" attackSpeed="253" type="BLUNT" range="40" distance="80" width="120" />
@@ -1806,7 +1868,7 @@
 		<race>UNDEAD</race>
 		<sex>MALE</sex>
 		<equipment rhand="279" /> <!-- Reinforced Longbow -->
-		<acquire exp="4309" />
+		<acquire exp="4309" sp="43" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="736091.13924" hpRegen="7.5" mp="1314" mpRegen="2.7" />
 			<attack physical="1335.00722" magical="911.63688" random="5" critical="8" accuracy="0" attackSpeed="253" type="BOW" range="1100" distance="10" width="0" />
@@ -1834,7 +1896,7 @@
 		<race>DEMONIC</race>
 		<sex>MALE</sex>
 		<equipment rhand="5129" lhand="5129" /> <!-- Doll Knife - Not Available / Doll Knife - Not Available -->
-		<acquire exp="4309" />
+		<acquire exp="4309" sp="43" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="736091.13924" hpRegen="7.5" mp="1314" mpRegen="2.7" />
 			<attack physical="1335.00722" magical="911.63688" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
@@ -1860,7 +1922,7 @@
 		<!-- AUTO GENERATED NPC TODO: FIX IT -->
 		<race>GIANT</race>
 		<sex>MALE</sex>
-		<acquire exp="5085" />
+		<acquire exp="5085" sp="51" />
 		<stats str="60" int="76" dex="73" wit="70" con="57" men="80">
 			<vitals hp="2384623.50864054" hpRegen="2530.1828558908" mp="3015.6" mpRegen="6" />
 			<attack physical="15385.5614" magical="6675.005" random="20" critical="1" accuracy="9" attackSpeed="253" type="BLUNT" range="40" distance="80" width="120" />
@@ -1882,7 +1944,7 @@
 		<!-- AUTO GENERATED NPC TODO: FIX IT -->
 		<race>UNDEAD</race>
 		<sex>MALE</sex>
-		<acquire exp="5085" />
+		<acquire exp="5085" sp="51" />
 		<stats str="60" int="76" dex="73" wit="70" con="57" men="80">
 			<vitals hp="18648000" hpRegen="718" mp="18000" mpRegen="99" />
 			<attack physical="10122.54" magical="4400" random="10" critical="4" accuracy="4.75" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
@@ -1905,7 +1967,7 @@
 		<race>DIVINE</race>
 		<sex>MALE</sex>
 		<equipment rhand="93" /> <!-- Winged Spear -->
-		<acquire exp="4956" />
+		<acquire exp="4956" sp="49" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="747660.12658" hpRegen="8.5" mp="1475" mpRegen="3" />
 			<attack physical="1547.63196" magical="1056.83202" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
@@ -1963,7 +2025,7 @@
 		<!-- AUTO GENERATED NPC TODO: FIX IT -->
 		<race>CONSTRUCT</race>
 		<sex>MALE</sex>
-		<acquire exp="5408" />
+		<acquire exp="5408" sp="51" />
 		<stats str="60" int="76" dex="73" wit="70" con="57" men="80">
 			<vitals hp="34045100" hpRegen="1323.68411612557" mp="712533" mpRegen="6" />
 			<attack physical="16359.0626928439" magical="7778.19336328959" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
@@ -1999,7 +2061,7 @@
 		<!-- AUTO GENERATED NPC TODO: FIX IT -->
 		<race>DRAGON</race>
 		<sex>MALE</sex>
-		<acquire exp="5408" />
+		<acquire exp="5408" sp="51" />
 		<stats str="60" int="76" dex="73" wit="70" con="57" men="80">
 			<vitals hp="34045100" hpRegen="1323.68411612557" mp="712533" mpRegen="6" />
 			<attack physical="16359.0626928439" magical="7778.19336328959" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
@@ -2031,11 +2093,11 @@
 			<skill id="4045" level="1" /> <!-- Full Magic Attack Resistance -->
 		</skillList>
 	</npc>
-	<npc id="18058" level="80" type="RaidBoss" name="Super Mew the Cat" title="Raid Boss">
+	<npc id="18058" level="80" type="RaidBoss" name="Mighty Mew the Cat" title="Raid Boss">
 		<!-- AUTO GENERATED NPC TODO: FIX IT -->
 		<race>ANIMAL</race>
 		<sex>FEMALE</sex>
-		<acquire exp="5408" />
+		<acquire exp="5408" sp="51" />
 		<stats str="60" int="76" dex="73" wit="70" con="57" men="80">
 			<vitals hp="34045100" hpRegen="1323.68411612557" mp="712533" mpRegen="6" />
 			<attack physical="16359.0626928439" magical="7778.19336328959" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
@@ -2071,7 +2133,7 @@
 		<!-- AUTO GENERATED NPC TODO: FIX IT -->
 		<race>CONSTRUCT</race>
 		<sex>MALE</sex>
-		<acquire exp="5408" />
+		<acquire exp="5408" sp="51" />
 		<stats str="60" int="76" dex="73" wit="70" con="57" men="80">
 			<vitals hp="34045100" hpRegen="1323.68411612557" mp="712533" mpRegen="6" />
 			<attack physical="16359.0626928439" magical="7778.19336328959" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />

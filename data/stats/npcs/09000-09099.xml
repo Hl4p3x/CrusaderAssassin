@@ -53,7 +53,7 @@
 			<skill id="4045" level="1" /> <!-- Full Magic Attack Resistance -->
 		</skillList>
 	</npc>
-	<npc id="9001" level="75" type="Folk" name="Diana" title="Contest Participant">
+	<npc id="9001" level="75" type="Folk" name="Diane" title="Contest Participant">
 		<!-- Classic NPC -->
 		<race>HUMAN</race>
 		<sex>FEMALE</sex>
@@ -382,7 +382,7 @@
 		<race>CONSTRUCT</race>
 		<sex>MALE</sex>
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="4234.06312688557" hpRegen="8.5" mp="1846.8" mpRegen="3" />
+			<vitals hp="4657.46943957413" hpRegen="8.5" mp="1846.8" mpRegen="3" />
 			<attack physical="1188.87259499001" magical="811.84586495282" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
 			<defence physical="361.78814" magical="264.74086" />
 			<speed>
@@ -415,7 +415,7 @@
 		<race>CONSTRUCT</race>
 		<sex>MALE</sex>
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="4234.06312688557" hpRegen="8.5" mp="1846.8" mpRegen="3" />
+			<vitals hp="4657.46943957413" hpRegen="8.5" mp="1846.8" mpRegen="3" />
 			<attack physical="1188.87259499001" magical="811.84586495282" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
 			<defence physical="361.78814" magical="264.74086" />
 			<speed>
@@ -448,7 +448,7 @@
 		<race>CONSTRUCT</race>
 		<sex>MALE</sex>
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="4234.06312688557" hpRegen="8.5" mp="1846.8" mpRegen="3" />
+			<vitals hp="4657.46943957413" hpRegen="8.5" mp="1846.8" mpRegen="3" />
 			<attack physical="1188.87259499001" magical="811.84586495282" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
 			<defence physical="361.78814" magical="264.74086" />
 			<speed>
@@ -481,7 +481,7 @@
 		<race>CONSTRUCT</race>
 		<sex>MALE</sex>
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="4234.06312688557" hpRegen="8.5" mp="1846.8" mpRegen="3" />
+			<vitals hp="4657.46943957413" hpRegen="8.5" mp="1846.8" mpRegen="3" />
 			<attack physical="1188.87259499001" magical="811.84586495282" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
 			<defence physical="361.78814" magical="264.74086" />
 			<speed>
@@ -514,7 +514,7 @@
 		<race>CONSTRUCT</race>
 		<sex>MALE</sex>
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="4234.06312688557" hpRegen="8.5" mp="1846.8" mpRegen="3" />
+			<vitals hp="4657.46943957413" hpRegen="8.5" mp="1846.8" mpRegen="3" />
 			<attack physical="1188.87259499001" magical="811.84586495282" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
 			<defence physical="361.78814" magical="264.74086" />
 			<speed>
@@ -748,7 +748,7 @@
 		<race>ETC</race>
 		<sex>FEMALE</sex>
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="7489.87342" hpRegen="2" mp="1812" mpRegen="0.9" />
+			<vitals hp="4039" hpRegen="2" mp="1812" mpRegen="0.9" />
 			<attack physical="8.47458" magical="5.78704" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
 			<defence physical="44.44444" magical="32.52252" />
 			<speed>

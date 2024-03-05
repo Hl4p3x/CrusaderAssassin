@@ -885,7 +885,7 @@
 		<targetType>SELF</targetType>
 		<affectScope>SINGLE</affectScope>
 	</skill>
-	<skill id="5441" toLevel="1" name="Incarnation">
+	<skill id="5441" toLevel="1" name="Reflection">
 		<icon>icon.skill0000</icon>
 		<hitTime>3000</hitTime>
 		<magicLevel>1</magicLevel>
@@ -1988,7 +1988,7 @@
 		</effects>
 	</skill>
 	<skill id="5497" toLevel="1" name="Horn of Rising Darkness">
-		<!-- Cannot move and HP decreases temporarily due to the stun and bleeding. -->
+		<!-- Stuns and inflicts Bleed. -->
 		<icon>icon.skill0100</icon>
 		<abnormalLevel>1</abnormalLevel>
 		<abnormalTime>9</abnormalTime>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/skills.xsd">
 	<skill id="15400" toLevel="1" name="Shield of Darkness">
-		<!-- P. Def. greatly increases temporarily due to the power of darkness. -->
+		<!-- The power of darkness greatly increases P. Atk. -->
 		<icon>icon.skill0110</icon>
 		<abnormalLevel>2</abnormalLevel>
 		<abnormalTime>10</abnormalTime>
@@ -34,7 +34,7 @@
 		</effects>
 	</skill>
 	<skill id="15402" toLevel="1" name="Wisp's Blessing">
-		<!-- P./ M. Atk. increases temporarily. -->
+		<!-- Temporarily increases P./ M. Atk. -->
 		<icon>icon.skill11046</icon>
 		<abnormalLevel>1</abnormalLevel>
 		<abnormalTime>60</abnormalTime>
@@ -945,7 +945,7 @@
 		<magicLevel>97</magicLevel>
 	</skill>
 	<skill id="15456" toLevel="1" name="Triol's Voice">
-		<!-- Triol's Voice. -->
+		<!-- Triol's Voice -->
 		<icon>icon.skill0223</icon>
 		<operateType>A1</operateType>
 		<hitTime>5000</hitTime>
@@ -1170,7 +1170,7 @@
 			</effect>
 		</effects>
 	</skill>
-	<skill id="15467" toLevel="1" name="Triol's P. Def. Increase">
+	<skill id="15467" toLevel="1" name="Triol's P. Def. Boost">
 		<!-- P. Def. +200%. -->
 		<icon>icon.skill1040</icon>
 		<operateType>P</operateType>
@@ -1487,7 +1487,7 @@
 		</effects>
 	</skill>
 	<skill id="15481" toLevel="1" name="Shoot Spider Web">
-		<!-- Target's Speed -10%. -->
+		<!-- The target's Speed -10%. -->
 		<icon>icon.skill0102</icon>
 		<abnormalLevel>1</abnormalLevel>
 		<abnormalTime>10</abnormalTime>
@@ -1620,7 +1620,7 @@
 		<effectPoint>-100</effectPoint>
 		<isDebuff>true</isDebuff>
 	</skill>
-	<skill id="15493" toLevel="1" name="Charge">
+	<skill id="15493" toLevel="1" name="Attack">
 		<!-- Launches an attack on a target. -->
 		<icon>icon.skill0000</icon>
 		<operateType>A2</operateType>

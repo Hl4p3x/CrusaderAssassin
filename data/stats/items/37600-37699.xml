@@ -47,7 +47,7 @@
 		</stats>
 	</item>
 	<item id="37689" name="Valentine One-handed Sword" additionalName="Sealed" type="Weapon">
-		<!-- Modifies the appearance of a weapon. Valentine One-handed Sword form. <font color=ff6666><Unavailable to Sylphs/ Vanguard Riders.></font> -->
+		<!-- Modifies the appearance of a weapon. Valentine One-handed Sword form. <font color=ff6666><Unavailable to Sylphs/ Vanguard Rider/ Assassins.></font> -->
 		<set name="icon" val="icon.ev_hallowinday_candy_i00" />
 		<set name="weapon_type" val="SWORD" />
 		<set name="default_action" val="EQUIP" />
@@ -91,7 +91,7 @@
 		</stats>
 	</item>
 	<item id="37691" name="Valentine One-handed Club" additionalName="Sealed" type="Weapon">
-		<!-- Can be used for changing a weapon's appearance to that of Valentine One-handed Club. <font color=ff6666><Unavailable to Sylphs/ Vanguard Riders.></font> -->
+		<!-- Can be used for changing a weapon's appearance to that of Valentine One-handed Club. <font color=ff6666><Unavailable to Sylphs/ Vanguard Riders/ Assassins.></font> -->
 		<set name="icon" val="icon.ev_hallowinday_candy_i00" />
 		<set name="weapon_type" val="BLUNT" />
 		<set name="default_action" val="EQUIP" />
@@ -113,7 +113,7 @@
 		</stats>
 	</item>
 	<item id="37692" name="Valentine Fist Weapon" additionalName="Sealed" type="Weapon">
-		<!-- Can be used for changing a weapon's appearance to that of Valentine Fist. <font color=ff6666><Unavailable to Sylphs/ Vanguard Riders.></font> -->
+		<!-- Can be used for changing a weapon's appearance to that of Valentine Fist. <font color=ff6666><Unavailable to Sylphs/ Vanguard Rider/ Assassins.></font> -->
 		<set name="icon" val="icon.ev_hallowinday_candy_i00" />
 		<set name="weapon_type" val="DUALFIST" />
 		<set name="default_action" val="EQUIP" />
@@ -161,7 +161,7 @@
 		</stats>
 	</item>
 	<item id="37694" name="Valentine Bow" additionalName="Sealed" type="Weapon">
-		<!-- Modifies the appearance of a weapon. Valentine Bow form. <font color=ff6666><Unavailable to Sylphs/ Vanguard Riders.></font> -->
+		<!-- Modifies the appearance of a weapon. Valentine Bow form. <font color=ff6666><Unavailable to Sylphs/ Vanguard Riders/ Assassins.></font> -->
 		<set name="icon" val="icon.ev_hallowinday_candy_i00" />
 		<set name="weapon_type" val="BOW" />
 		<set name="default_action" val="EQUIP" />
@@ -277,7 +277,7 @@
 		</stats>
 	</item>
 	<item id="37699" name="Valentine Dual Sword" additionalName="Sealed" type="Weapon">
-		<!-- Modifies the appearance of a weapon. Valentine Dual Sword form. <font color=ff6666><Unavailable to Sylphs/ Vanguard Riders.></font> -->
+		<!-- Modifies the appearance of a weapon. Valentine Dual Sword form. <font color=ff6666><Unavailable to Sylphs/ Vanguard Riders/ Assassins.></font> -->
 		<set name="icon" val="icon.ev_hallowinday_candy_i00" />
 		<set name="weapon_type" val="DUAL" />
 		<set name="default_action" val="EQUIP" />

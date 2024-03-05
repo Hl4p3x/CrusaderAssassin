@@ -868,7 +868,7 @@
 		<magicCriticalRate>-5</magicCriticalRate>
 	</skill>
 	<skill id="5032" toLevel="1" name="Raid Boss (Lv. 80)">
-		<!-- Although he appears human, he is actually a high-ranking Angel who directly interacts with Einhasad and worships the Grail. Recently an ancient religious document found in the Tower of Insolence provided proof that the Grail is hidden in the Monastery of Silence. Since then, adherents of the Pagan Temple have frequently tried to steal it, but none has avoided the judgment of the Lord of Splendor. -->
+		<!-- He may look like a mere Human, but in reality he is a high-ranking Angel who guards the Holy Grail. -->
 		<icon>icon.skillraid</icon>
 		<magicLevel>1</magicLevel>
 		<operateType>P</operateType>
@@ -896,7 +896,7 @@
 		<magicCriticalRate>-5</magicCriticalRate>
 	</skill>
 	<skill id="5036" toLevel="1" name="Raid Boss (Lv. 60)">
-		<!-- The Ice Fairy who came to Freya after Princess Felicia was turned, she oversees everything in the Frozen Labyrinth on behalf of Freya. She has watched the movements of the Zinnia Guild ever since the Order of Canna Knights disappeared. -->
+		<!-- An ice fairy that appeared after Princess Melisa turned into Freya. The Ice Queen made her overseer of the Frozen Labyrinth. Her main job is to track movements of Kanna's knights that were later renamed into Jinia Guild. -->
 		<icon>icon.skillraid</icon>
 		<magicLevel>1</magicLevel>
 		<operateType>P</operateType>
@@ -3113,7 +3113,7 @@
 		</effects>
 	</skill>
 	<skill id="5085" toLevel="1" name="Anesthesia">
-		<!-- Momentarily stunned and immobilized. -->
+		<!-- Temporarily stunned and immobilized. -->
 		<icon>icon.skill5085</icon>
 		<abnormalLevel>1</abnormalLevel>
 		<abnormalTime>30</abnormalTime>

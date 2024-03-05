@@ -450,7 +450,7 @@
 		</effects>
 	</option>
 	<option id="34248" name="max_hp">
-		<!-- Max HP +180. -->
+		<!-- Max HP +180 -->
 		<effects>
 			<effect name="MaxHp">
 				<amount>180</amount>
@@ -810,7 +810,7 @@
 		</effects>
 	</option>
 	<option id="34288" name="max_mp">
-		<!-- Max MP +180. -->
+		<!-- Max MP +180 -->
 		<effects>
 			<effect name="MaxHp">
 				<amount>180</amount>

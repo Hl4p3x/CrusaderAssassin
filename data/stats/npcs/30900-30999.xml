@@ -621,7 +621,7 @@
 			<height normal="28" />
 		</collision>
 	</npc>
-	<npc id="30916" level="75" type="Guard" name="Gosta" title="Captain">
+	<npc id="30916" level="75" type="Guard" name="Gosta" title="Guard Captain">
 		<parameters>
 			<param name="MoveAroundSocial" value="0" />
 			<param name="MoveAroundSocial1" value="92" />
@@ -1630,7 +1630,7 @@
 			<height normal="23" />
 		</collision>
 	</npc>
-	<npc id="30942" level="70" type="Folk" name="Ruvard" title="Priest">
+	<npc id="30942" level="70" type="Folk" name="Ruvard " title="Priest">
 		<parameters>
 			<param name="MoveAroundSocial" value="0" />
 			<param name="MoveAroundSocial1" value="0" />
@@ -2204,7 +2204,7 @@
 			<height normal="23" />
 		</collision>
 	</npc>
-	<npc id="30957" level="70" type="Folk" name="Swan" title="Bard">
+	<npc id="30957" level="70" type="Folk" name="Sven" title="Bard">
 		<parameters>
 			<param name="MoveAroundSocial" value="0" />
 			<param name="MoveAroundSocial1" value="120" />
@@ -3674,7 +3674,7 @@
 			<height normal="23.5" />
 		</collision>
 	</npc>
-	<npc id="30995" level="70" type="RaceManager" name="Race Manager" title="Monster Race Track">
+	<npc id="30995" level="70" type="RaceManager" name="Manager" title="Monster Race Track">
 		<race>DWARF</race>
 		<sex>FEMALE</sex>
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">

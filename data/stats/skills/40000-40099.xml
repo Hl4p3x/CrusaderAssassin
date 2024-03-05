@@ -289,7 +289,7 @@
 		<reuseDelay>10000</reuseDelay>
 	</skill>
 	<skill id="40036" toLevel="1" name="Tune of Vampiric Rage">
-		<!-- For 4 h., has a certain chance to absorb 9% of the inflicted damage as HP. The effect remains after death. -->
+		<!-- For 4 h., with a certain chance, absorbs 9% of the inflicted damage as HP. The effect remains after death. -->
 		<icon>icon.skill1268</icon>
 		<operateType>A2</operateType>
 		<isMagic>1</isMagic> <!-- Magic Skill -->
@@ -401,7 +401,7 @@
 		<reuseDelay>10000</reuseDelay>
 	</skill>
 	<skill id="40050" toLevel="1" name="Tune of Vampiric Rage">
-		<!-- For 8 h., has a certain chance to absorb 9% of the inflicted damage as HP. The effect remains after death. -->
+		<!-- For 8 h., with a certain chance, absorbs 9% of the inflicted damage as HP. The effect remains after death. -->
 		<icon>icon.skill1268</icon>
 		<operateType>A2</operateType>
 		<isMagic>1</isMagic> <!-- Magic Skill -->

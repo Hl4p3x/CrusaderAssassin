@@ -1756,7 +1756,7 @@
 		</stats>
 	</item>
 	<item id="29386" name="Stockings of Devotion" additionalName="Not Available" type="Armor">
-		<!-- The item is not available. Part of the Devotion set. -->
+		<!-- The item is not available. A part of the Devotion set. -->
 		<set name="icon" val="icon.etc_ertheia2" />
 		<set name="default_action" val="EQUIP" />
 		<set name="armor_type" val="MAGIC" />

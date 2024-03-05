@@ -359,7 +359,7 @@
 		<set name="is_stackable" val="true" />
 	</item>
 	<item id="92930" name="Tallum Blade" additionalName="Sealed" type="Weapon">
-		<!-- <font color=ff6666><Unavailable to Sylphs/ Vanguard Riders.></font> -->
+		<!-- <font color=ff6666><Unavailable to Sylphs/ Vanguard Riders/ Assassins.></font> -->
 		<set name="icon" val="icon.weapon_tallum_blade_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="SWORD" />
@@ -397,7 +397,7 @@
 		</skills>
 	</item>
 	<item id="92931" name="Dragon Slayer" additionalName="Sealed" type="Weapon">
-		<!-- <font color=ff6666><Unavailable to Sylphs/ Vanguard Riders.></font> -->
+		<!-- <font color=ff6666><Unavailable to Sylphs/ Vanguard Riders/ Assassins.></font> -->
 		<set name="icon" val="icon.weapon_dragon_slayer_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="SWORD" />
@@ -435,7 +435,7 @@
 		</skills>
 	</item>
 	<item id="92932" name="Halberd" additionalName="Sealed" type="Weapon">
-		<!-- <font color=ff6666><Unavailable to Sylphs></font> -->
+		<!-- <font color=ff6666><Unavailable to Sylphs/ Assassins.></font> -->
 		<set name="icon" val="icon.weapon_halbard_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="POLE" />
@@ -475,7 +475,7 @@
 		</skills>
 	</item>
 	<item id="92933" name="Elemental Sword" additionalName="Sealed" type="Weapon">
-		<!-- <font color=ff6666><Unavailable to Sylphs/ Vanguard Riders.></font> -->
+		<!-- <font color=ff6666><Unavailable to Sylphs/ Vanguard Riders/ Assassins.></font> -->
 		<set name="icon" val="icon.weapon_elemental_sword_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="SWORD" />
@@ -514,7 +514,7 @@
 		</skills>
 	</item>
 	<item id="92934" name="Sword of Miracles" additionalName="Sealed" type="Weapon">
-		<!-- <font color=ff6666><Unavailable to Sylphs/ Vanguard Riders.></font> -->
+		<!-- <font color=ff6666><Unavailable to Sylphs/ Vanguard Riders/ Assassins.></font> -->
 		<set name="icon" val="icon.weapon_sword_of_miracle_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="SWORD" />
@@ -553,7 +553,7 @@
 		</skills>
 	</item>
 	<item id="92935" name="Elysian" additionalName="Sealed" type="Weapon">
-		<!-- <font color=ff6666><Unavailable to Sylphs/ Vanguard Riders.></font> -->
+		<!-- <font color=ff6666><Unavailable to Sylphs/ Vanguard Riders/ Assassins.></font> -->
 		<set name="icon" val="icon.weapon_elysian_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="BLUNT" />
@@ -592,7 +592,7 @@
 		</skills>
 	</item>
 	<item id="92936" name="Dasparion's Staff" additionalName="Sealed" type="Weapon">
-		<!-- <font color=ff6666><Unavailable to Sylphs/ Vanguard Riders.></font> -->
+		<!-- <font color=ff6666><Unavailable to Sylphs/ Vanguard Riders/ Assassins.></font> -->
 		<set name="icon" val="icon.weapon_dasparions_staff_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="BLUNT" />
@@ -632,7 +632,7 @@
 		</skills>
 	</item>
 	<item id="92937" name="Branch of the Mother Tree" additionalName="Sealed" type="Weapon">
-		<!-- <font color=ff6666><Unavailable to Sylphs/ Vanguard Riders.></font> -->
+		<!-- <font color=ff6666><Unavailable to Sylphs/ Vanguard Riders/ Assassins.></font> -->
 		<set name="icon" val="icon.weapon_worldtrees_branch_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="BLUNT" />
@@ -750,7 +750,7 @@
 		</skills>
 	</item>
 	<item id="92940" name="Blood Tornado" additionalName="Sealed" type="Weapon">
-		<!-- <font color=ff6666><Unavailable to Sylphs/ Vanguard Riders.></font> -->
+		<!-- <font color=ff6666><Unavailable to Sylphs/ Vanguard Riders/ Assassins.></font> -->
 		<set name="icon" val="icon.weapon_blood_tornado_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="DUALFIST" />
@@ -789,7 +789,7 @@
 		</skills>
 	</item>
 	<item id="92941" name="Dragon Grinder" additionalName="Sealed" type="Weapon">
-		<!-- <font color=ff6666><Unavailable to Sylphs/ Vanguard Riders.></font> -->
+		<!-- <font color=ff6666><Unavailable to Sylphs/ Vanguard Riders/ Assassins.></font> -->
 		<set name="icon" val="icon.weapon_dragon_grinder_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="DUALFIST" />
@@ -828,7 +828,7 @@
 		</skills>
 	</item>
 	<item id="92942" name="Carnage Bow" additionalName="Sealed" type="Weapon">
-		<!-- <font color=ff6666><Unavailable to Sylphs/ Vanguard Riders.></font> -->
+		<!-- <font color=ff6666><Unavailable to Sylphs/ Vanguard Riders/ Assassins.></font> -->
 		<set name="icon" val="icon.weapon_carnium_bow_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="BOW" />
@@ -868,7 +868,7 @@
 		</skills>
 	</item>
 	<item id="92943" name="Soul Bow" additionalName="Sealed" type="Weapon">
-		<!-- <font color=ff6666><Unavailable to Sylphs/ Vanguard Riders.></font> -->
+		<!-- <font color=ff6666><Unavailable to Sylphs/ Vanguard Riders/ Assassins.></font> -->
 		<set name="icon" val="icon.weapon_soul_bow_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="BOW" />
@@ -908,7 +908,7 @@
 		</skills>
 	</item>
 	<item id="92944" name="Tallum Glaive" additionalName="Sealed" type="Weapon">
-		<!-- <font color=ff6666><Unavailable to Sylphs></font> -->
+		<!-- <font color=ff6666><Unavailable to Sylphs/ Assassins.></font> -->
 		<set name="icon" val="icon.weapon_tallum_glaive_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="POLE" />
@@ -948,7 +948,7 @@
 		</skills>
 	</item>
 	<item id="92945" name="Dark Legion's Edge" additionalName="Sealed" type="Weapon">
-		<!-- <font color=ff6666><Unavailable to Sylphs/ Vanguard Riders.></font> -->
+		<!-- <font color=ff6666><Unavailable to Sylphs/ Vanguard Riders/ Assassins.></font> -->
 		<set name="icon" val="icon.weapon_dark_legions_edge_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="SWORD" />
@@ -986,7 +986,7 @@
 		</skills>
 	</item>
 	<item id="92946" name="Meteor Shower" additionalName="Sealed" type="Weapon">
-		<!-- <font color=ff6666><Unavailable to Sylphs/ Vanguard Riders.></font> -->
+		<!-- <font color=ff6666><Unavailable to Sylphs/ Vanguard Riders/ Assassins.></font> -->
 		<set name="icon" val="icon.weapon_meteor_shower_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="BLUNT" />
@@ -1025,7 +1025,7 @@
 		</skills>
 	</item>
 	<item id="92947" name="Keshanberk*Keshanberk" additionalName="Sealed" type="Weapon">
-		<!-- When enchanting dual swords, two-handed swords/ blunts and fists, the P. Atk. bonus is higher than that of one-handed weapons. <font color=ff6666><Unavailable to Sylphs/ Vanguard Riders.></font> -->
+		<!-- When enchanting dual swords, two-handed swords/ blunts and fists, the P. Atk. bonus is higher than that of one-handed weapons. <font color=ff6666><Unavailable to Sylphs/ Vanguard Riders/ Assassins.></font> -->
 		<set name="icon" val="icon.weapon_dual_sword_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="DUAL" />
@@ -1063,7 +1063,7 @@
 		</skills>
 	</item>
 	<item id="92948" name="Keshanberk*Damascus" additionalName="Sealed" type="Weapon">
-		<!-- When enchanting dual swords, two-handed swords/ blunts and fists, the P. Atk. bonus is higher than that of one-handed weapons. <font color=ff6666><Unavailable to Sylphs/ Vanguard Riders.></font> -->
+		<!-- When enchanting dual swords, two-handed swords/ blunts and fists, the P. Atk. bonus is higher than that of one-handed weapons. <font color=ff6666><Unavailable to Sylphs/ Vanguard Riders/ Assassins.></font> -->
 		<set name="icon" val="icon.weapon_dual_sword_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="DUAL" />
@@ -1101,7 +1101,7 @@
 		</skills>
 	</item>
 	<item id="92949" name="Damascus*Damascus" additionalName="Sealed" type="Weapon">
-		<!-- When enchanting dual swords, two-handed swords/ blunts and fists, the P. Atk. bonus is higher than that of one-handed weapons. <font color=ff6666><Unavailable to Sylphs/ Vanguard Riders.></font> -->
+		<!-- When enchanting dual swords, two-handed swords/ blunts and fists, the P. Atk. bonus is higher than that of one-handed weapons. <font color=ff6666><Unavailable to Sylphs/ Vanguard Riders/ Assassins.></font> -->
 		<set name="icon" val="icon.weapon_dual_sword_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="DUAL" />
@@ -1139,7 +1139,7 @@
 		</skills>
 	</item>
 	<item id="92950" name="Infernal Master" additionalName="Sealed" type="Weapon">
-		<!-- <font color=ff6666><Unavailable to Sylphs/ Vanguard Riders.></font> -->
+		<!-- <font color=ff6666><Unavailable to Sylphs/ Vanguard Riders/ Assassins.></font> -->
 		<set name="icon" val="icon.weapon_inferno_master_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="SWORD" />
@@ -1177,7 +1177,7 @@
 		</skills>
 	</item>
 	<item id="92951" name="Spiritual Eye" additionalName="Sealed" type="Weapon">
-		<!-- <font color=ff6666><Unavailable to Sylphs/ Vanguard Riders.></font> -->
+		<!-- <font color=ff6666><Unavailable to Sylphs/ Vanguard Riders/ Assassins.></font> -->
 		<set name="icon" val="icon.weapon_eye_of_soul_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="BLUNT" />
@@ -1217,7 +1217,7 @@
 		</skills>
 	</item>
 	<item id="92952" name="Flaming Dragon Skull" additionalName="Sealed" type="Weapon">
-		<!-- <font color=ff6666><Unavailable to Sylphs/ Vanguard Riders.></font> -->
+		<!-- <font color=ff6666><Unavailable to Sylphs/ Vanguard Riders/ Assassins.></font> -->
 		<set name="icon" val="icon.weapon_dragon_flame_head_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="BLUNT" />
@@ -1257,7 +1257,7 @@
 		</skills>
 	</item>
 	<item id="92953" name="Destroyer Hammer" additionalName="Sealed" type="Weapon">
-		<!-- <font color=ff6666><Unavailable to Sylphs/ Vanguard Riders.></font> -->
+		<!-- <font color=ff6666><Unavailable to Sylphs/ Vanguard Riders/ Assassins.></font> -->
 		<set name="icon" val="icon.weapon_hammer_of_destroyer_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="BLUNT" />
@@ -1296,7 +1296,7 @@
 		</skills>
 	</item>
 	<item id="92954" name="Doom Crusher" additionalName="Sealed" type="Weapon">
-		<!-- <font color=ff6666><Unavailable to Sylphs/ Vanguard Riders.></font> -->
+		<!-- <font color=ff6666><Unavailable to Sylphs/ Vanguard Riders/ Assassins.></font> -->
 		<set name="icon" val="icon.weapon_doom_crusher_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="BLUNT" />
@@ -1335,7 +1335,7 @@
 		</skills>
 	</item>
 	<item id="92955" name="Sirra's Blade" additionalName="Sealed" type="Weapon">
-		<!-- <font color=ff6666><Unavailable to Sylphs/ Vanguard Riders.></font> -->
+		<!-- <font color=ff6666><Unavailable to Sylphs/ Vanguard Riders/ Assassins.></font> -->
 		<set name="icon" val="icon.weapon_sirr_blade_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="SWORD" />
@@ -1373,7 +1373,7 @@
 		</skills>
 	</item>
 	<item id="92956" name="Sword of Ipos" additionalName="Sealed" type="Weapon">
-		<!-- <font color=ff6666><Unavailable to Sylphs/ Vanguard Riders.></font> -->
+		<!-- <font color=ff6666><Unavailable to Sylphs/ Vanguard Riders/ Assassins.></font> -->
 		<set name="icon" val="icon.weapon_sword_of_ipos_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="SWORD" />
@@ -1411,7 +1411,7 @@
 		</skills>
 	</item>
 	<item id="92957" name="Barakiel's Axe" additionalName="Sealed" type="Weapon">
-		<!-- <font color=ff6666><Unavailable to Sylphs/ Vanguard Riders.></font> -->
+		<!-- <font color=ff6666><Unavailable to Sylphs/ Vanguard Riders/ Assassins.></font> -->
 		<set name="icon" val="icon.weapon_barakiel_axe_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="BLUNT" />
@@ -1450,7 +1450,7 @@
 		</skills>
 	</item>
 	<item id="92958" name="Behemoth' Tuning Fork" additionalName="Sealed" type="Weapon">
-		<!-- <font color=ff6666><Unavailable to Sylphs/ Vanguard Riders.></font> -->
+		<!-- <font color=ff6666><Unavailable to Sylphs/ Vanguard Riders/ Assassins.></font> -->
 		<set name="icon" val="icon.weapon_tuning_fork_of_behemoth_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="BLUNT" />
@@ -1528,7 +1528,7 @@
 		</skills>
 	</item>
 	<item id="92960" name="Tiphon's Spear" additionalName="Sealed" type="Weapon">
-		<!-- <font color=ff6666><Unavailable to Sylphs></font> -->
+		<!-- <font color=ff6666><Unavailable to Sylphs/ Assassins.></font> -->
 		<set name="icon" val="icon.weapon_tiphon_spear_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="POLE" />
@@ -1568,7 +1568,7 @@
 		</skills>
 	</item>
 	<item id="92961" name="Shyeed's Bow" additionalName="Sealed" type="Weapon">
-		<!-- <font color=ff6666><Unavailable to Sylphs/ Vanguard Riders.></font> -->
+		<!-- <font color=ff6666><Unavailable to Sylphs/ Vanguard Riders/ Assassins.></font> -->
 		<set name="icon" val="icon.weapon_shyid_bow_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="BOW" />
@@ -1608,7 +1608,7 @@
 		</skills>
 	</item>
 	<item id="92962" name="Sobekk's Hurricane" additionalName="Sealed" type="Weapon">
-		<!-- <font color=ff6666><Unavailable to Sylphs/ Vanguard Riders.></font> -->
+		<!-- <font color=ff6666><Unavailable to Sylphs/ Vanguard Riders/ Assassins.></font> -->
 		<set name="icon" val="icon.weapon_sobekk_hurricane_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="DUALFIST" />
@@ -1647,7 +1647,7 @@
 		</skills>
 	</item>
 	<item id="92963" name="Themis' Tongue" additionalName="Sealed" type="Weapon">
-		<!-- <font color=ff6666><Unavailable to Sylphs/ Vanguard Riders.></font> -->
+		<!-- <font color=ff6666><Unavailable to Sylphs/ Vanguard Riders/ Assassins.></font> -->
 		<set name="icon" val="icon.weapon_tongue_of_themis_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="SWORD" />
@@ -1686,7 +1686,7 @@
 		</skills>
 	</item>
 	<item id="92964" name="Cabrio's Hand" additionalName="Sealed" type="Weapon">
-		<!-- <font color=ff6666><Unavailable to Sylphs/ Vanguard Riders.></font> -->
+		<!-- <font color=ff6666><Unavailable to Sylphs/ Vanguard Riders/ Assassins.></font> -->
 		<set name="icon" val="icon.weapon_hand_of_cabrio_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="BLUNT" />
@@ -1726,7 +1726,7 @@
 		</skills>
 	</item>
 	<item id="92965" name="Daimon Crystal" additionalName="Sealed" type="Weapon">
-		<!-- <font color=ff6666><Unavailable to Sylphs/ Vanguard Riders.></font> -->
+		<!-- <font color=ff6666><Unavailable to Sylphs/ Vanguard Riders/ Assassins.></font> -->
 		<set name="icon" val="icon.weapon_crystal_of_deamon_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="BLUNT" />
@@ -1766,7 +1766,7 @@
 		</skills>
 	</item>
 	<item id="92966" name="Tallum Blade*Damascus Sword" additionalName="Sealed" type="Weapon">
-		<!-- When enchanting dual swords, two-handed swords/ blunts and fists, the P. Atk. bonus is higher than that of one-handed weapons. <font color=ff6666><Unavailable to Sylphs/ Vanguard Riders.></font> -->
+		<!-- When enchanting dual swords, two-handed swords/ blunts and fists, the P. Atk. bonus is higher than that of one-handed weapons. <font color=ff6666><Unavailable to Sylphs/ Vanguard Riders/ Assassins.></font> -->
 		<set name="icon" val="icon.weapon_dual_sword_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="DUAL" />
@@ -1804,7 +1804,7 @@
 		</skills>
 	</item>
 	<item id="92967" name="Durendal" additionalName="Sealed" type="Weapon">
-		<!-- <font color=ff6666><Unavailable to Humans/ Elves/ Dark Elves/ Sylphs/ Vanguard Riders.></font> -->
+		<!-- <font color=ff6666><Unavailable to Humans/ Elves/ Dark Elves/ Sylphs/ Vanguard Riders/ Assassins.></font> -->
 		<set name="icon" val="icon.weapon_death_bringer_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="ANCIENTSWORD" />
@@ -1843,7 +1843,7 @@
 		</skills>
 	</item>
 	<item id="92968" name="Undertaker" additionalName="Sealed" type="Weapon">
-		<!-- <font color=ff6666><Unavailable to Humans/ Elves/ Dark Elves/ Sylphs/ Vanguard Riders.></font> -->
+		<!-- <font color=ff6666><Unavailable to Humans/ Elves/ Dark Elves/ Sylphs/ Vanguard Riders/ Assassins.></font> -->
 		<set name="icon" val="icon.weapon_death_bringer_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="ANCIENTSWORD" />
@@ -1882,7 +1882,7 @@
 		</skills>
 	</item>
 	<item id="92969" name="Divine Pain" additionalName="Sealed" type="Weapon">
-		<!-- <font color=ff6666><Unavailable to Humans/ Elves/ Dark Elves/ Sylphs/ Vanguard Riders.></font> -->
+		<!-- <font color=ff6666><Unavailable to Humans/ Elves/ Dark Elves/ Sylphs/ Vanguard Riders/ Assassins.></font> -->
 		<set name="icon" val="icon.weapon_pain_of_godness_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="ANCIENTSWORD" />
@@ -1921,7 +1921,7 @@
 		</skills>
 	</item>
 	<item id="92970" name="Éclair Bijou" additionalName="Sealed" type="Weapon">
-		<!-- <font color=ff6666><Unavailable to Orcs/ Sylphs/ Dwarves.></font> -->
+		<!-- <font color=ff6666><Unavailable to Orcs/ Sylphs/ Dwarves/ Assassins.></font> -->
 		<set name="icon" val="icon.weapon_greed_stinger_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="RAPIER" />
@@ -1960,7 +1960,7 @@
 		</skills>
 	</item>
 	<item id="92971" name="Lacerator" additionalName="Sealed" type="Weapon">
-		<!-- <font color=ff6666><Unavailable to Orcs/ Sylphs/ Dwarves.></font> -->
+		<!-- <font color=ff6666><Unavailable to Orcs/ Sylphs/ Dwarves/ Assassins.></font> -->
 		<set name="icon" val="icon.weapon_greed_stinger_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="RAPIER" />
@@ -1999,7 +1999,7 @@
 		</skills>
 	</item>
 	<item id="92972" name="White Lightning" additionalName="Sealed" type="Weapon">
-		<!-- <font color=ff6666><Unavailable to Orcs/ Sylphs/ Dwarves.></font> -->
+		<!-- <font color=ff6666><Unavailable to Orcs/ Sylphs/ Dwarves/ Assassins.></font> -->
 		<set name="icon" val="icon.weapon_lightning_blaze_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="RAPIER" />
@@ -2038,7 +2038,7 @@
 		</skills>
 	</item>
 	<item id="92973" name="Scroll of Escape Pack: Tower of Insolence (Floors 8-12)" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.etc_exchange_box_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -2065,7 +2065,7 @@
 		<set name="is_stackable" val="true" />
 	</item>
 	<item id="92975" name="Helmet Crafting (B-grade and higher)" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.armor_leather_helmet_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -2106,7 +2106,7 @@
 		</capsuled_items>
 	</item>
 	<item id="92976" name="Armor Crafting (B-grade and higher)" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.armor_t96_u_i03" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -2148,7 +2148,7 @@
 		</capsuled_items>
 	</item>
 	<item id="92977" name="Full Armor Crafting (B-grade and higher)" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.armor_t83_ul_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -2178,7 +2178,7 @@
 		</capsuled_items>
 	</item>
 	<item id="92978" name="Gloves Crafting (B-grade and higher)" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.armor_t96_g_i03" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -2220,7 +2220,7 @@
 		</capsuled_items>
 	</item>
 	<item id="92979" name="Boots Crafting (B-grade and higher)" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.armor_t100_b_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -2261,7 +2261,7 @@
 		</capsuled_items>
 	</item>
 	<item id="92980" name="Accessory Crafting (B-grade and higher)" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.accessory_ring_of_baium_i03" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -2296,7 +2296,7 @@
 		</capsuled_items>
 	</item>
 	<item id="92981" name="Dagger" additionalName="Sealed" type="EtcItem">
-		<!-- Enables to get a dagger (B-grade and higher). -->
+		<!-- Double-click to obtain a dagger of B-grade and higher. -->
 		<set name="icon" val="icon.weapon_soul_separator_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -2307,7 +2307,7 @@
 		<set name="is_stackable" val="true" />
 	</item>
 	<item id="92982" name="dualfist" additionalName="Sealed" type="EtcItem">
-		<!-- Enables to get a fist weapon (B-grade and higher). -->
+		<!-- Double-click to obtain a fist weapon of B-grade and higher. -->
 		<set name="icon" val="icon.weapon_dragon_grinder_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -2318,7 +2318,7 @@
 		<set name="is_stackable" val="true" />
 	</item>
 	<item id="92983" name="Bow" additionalName="Sealed" type="EtcItem">
-		<!-- Enables to get a bow (B-grade and higher). -->
+		<!-- Double-click to obtain a bow of B-grade and higher. -->
 		<set name="icon" val="icon.weapon_soul_bow_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -2329,7 +2329,7 @@
 		<set name="is_stackable" val="true" />
 	</item>
 	<item id="92984" name="ancientsword" additionalName="Sealed" type="EtcItem">
-		<!-- Enables to get an ancient sword (B-grade and higher). -->
+		<!-- Double-click to obtain an ancient sword of B-grade and higher. -->
 		<set name="icon" val="icon.weapon_death_bringer_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -2340,7 +2340,7 @@
 		<set name="is_stackable" val="true" />
 	</item>
 	<item id="92985" name="Rapier" additionalName="Sealed" type="EtcItem">
-		<!-- Enables to get a rapier (B-grade and higher). -->
+		<!-- Double-click to obtain a rapier of B-grade and higher. -->
 		<set name="icon" val="icon.weapon_greed_stinger_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -2351,7 +2351,7 @@
 		<set name="is_stackable" val="true" />
 	</item>
 	<item id="92986" name="A-grade Accessories" additionalName="Sealed" type="EtcItem">
-		<!-- Enables to get accessories (A-grade and higher). -->
+		<!-- Double-click to obtain accessories of B-grade and higher. -->
 		<set name="icon" val="icon.accessory_group" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -2362,7 +2362,7 @@
 		<set name="is_stackable" val="true" />
 	</item>
 	<item id="92987" name="A-grade Armor" additionalName="Sealed" type="EtcItem">
-		<!-- Enables to get an armor (B-grade and higher). -->
+		<!-- Double-click to obtain armor of B-grade and higher. -->
 		<set name="icon" val="icon.armor_group" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -2373,7 +2373,7 @@
 		<set name="is_stackable" val="true" />
 	</item>
 	<item id="92988" name="Orcish Treasure" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.bm_freya_snowman_box" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -2412,7 +2412,7 @@
 		</capsuled_items>
 	</item>
 	<item id="92989" name="Orc King's Treasure" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.bm_freya_snowman_box" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -2458,7 +2458,7 @@
 		</capsuled_items>
 	</item>
 	<item id="92990" name="Boss' Weapon Pack" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.zariche_box" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -2495,7 +2495,7 @@
 		</skills>
 	</item>
 	<item id="92992" name="Full Buff Pack" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="BranchSys.icon.br_lucky_bag_box_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -2509,7 +2509,7 @@
 			<item id="92991" min="72" max="72" chance="100" /> <!-- Einhasad's Blessing Scroll - Sealed -->
 			<item id="91781" min="72" max="72" chance="100" /> <!-- Old Sayha's Buff Scroll - Sealed -->
 			<item id="91780" min="72" max="72" chance="100" /> <!-- Old Battle Scroll - Sealed -->
-			<item id="91712" min="72" max="72" chance="100" /> <!-- Sayha's Storm Lv. 3 - Sealed -->
+			<item id="91712" min="72" max="72" chance="100" /> <!-- Sayha's Storm - Sealed -->
 			<item id="92434" min="2" max="2" chance="100" /> <!-- Mysterious Talisman Pack - Sealed -->
 		</capsuled_items>
 	</item>

@@ -429,7 +429,7 @@
 		<set name="is_questitem" val="true" />
 	</item>
 	<item id="3140" name="Mark of Life" additionalName="Not Available" type="EtcItem">
-		<!-- The item is not available. Mark given to those who have passed the Testimony of Life. Class transfer related item. -->
+		<!-- The item is not available. A mark given to those who have passed the Testimony of Life. Required for changing class. -->
 		<set name="icon" val="icon.etc_ertheia2" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="STEEL" />
@@ -813,7 +813,7 @@
 		<set name="is_questitem" val="true" />
 	</item>
 	<item id="3172" name="Mark of Fate" additionalName="Not Available" type="EtcItem">
-		<!-- The item is not available. Mark given to those who have passed the Testimony of Fate. Item for class transfer. -->
+		<!-- The item is not available. A mark given to those who have passed the Testimony of Fate. Required for changing class. -->
 		<set name="icon" val="icon.etc_ertheia2" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="STEEL" />

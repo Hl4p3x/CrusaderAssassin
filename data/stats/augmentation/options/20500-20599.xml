@@ -37,7 +37,7 @@
 		</effects>
 	</option>
 	<option id="20521" name="o_f_80_2g_5">
-		<!-- Max CP +115.18. -->
+		<!-- Max CP +115.18 -->
 		<effects>
 			<effect name="MaxCp">
 				<amount>115.176</amount>
@@ -147,7 +147,7 @@
 	</option>
 	<option id="20532" name="o_f_80_2g_16">
 		<!-- P. Def. +9.15. -->
-		<!-- Max MP +9.67. -->
+		<!-- Max MP +9.67 -->
 		<effects>
 			<effect name="PhysicalDefence">
 				<amount>9.153</amount>
@@ -161,7 +161,7 @@
 	</option>
 	<option id="20533" name="o_f_80_2g_17">
 		<!-- P. Def. +9.15. -->
-		<!-- Max CP +53.16. -->
+		<!-- Max CP +53.16 -->
 		<effects>
 			<effect name="PhysicalDefence">
 				<amount>9.153</amount>
@@ -301,7 +301,7 @@
 	</option>
 	<option id="20543" name="o_f_80_2g_27">
 		<!-- M. Def. +7.22. -->
-		<!-- Max MP +9.67. -->
+		<!-- Max MP +9.67 -->
 		<effects>
 			<effect name="MagicalDefence">
 				<amount>7.222</amount>
@@ -315,7 +315,7 @@
 	</option>
 	<option id="20544" name="o_f_80_2g_28">
 		<!-- M. Def. +7.22. -->
-		<!-- Max CP +53.16. -->
+		<!-- Max CP +53.16 -->
 		<effects>
 			<effect name="MagicalDefence">
 				<amount>7.222</amount>
@@ -441,7 +441,7 @@
 	</option>
 	<option id="20553" name="o_f_80_2g_37">
 		<!-- Max HP +34.45 -->
-		<!-- Max MP +9.67. -->
+		<!-- Max MP +9.67 -->
 		<effects>
 			<effect name="MaxHp">
 				<amount>34.454</amount>
@@ -455,7 +455,7 @@
 	</option>
 	<option id="20554" name="o_f_80_2g_38">
 		<!-- Max HP +34.45 -->
-		<!-- Max CP +53.16. -->
+		<!-- Max CP +53.16 -->
 		<effects>
 			<effect name="MaxHp">
 				<amount>34.454</amount>
@@ -580,8 +580,8 @@
 		</effects>
 	</option>
 	<option id="20563" name="o_f_80_2g_47">
-		<!-- Max MP +11.28. -->
-		<!-- Max CP +53.16. -->
+		<!-- Max MP +11.28 -->
+		<!-- Max CP +53.16 -->
 		<effects>
 			<effect name="MaxCp">
 				<amount>53.158</amount>
@@ -594,7 +594,7 @@
 		</effects>
 	</option>
 	<option id="20564" name="o_f_80_2g_48">
-		<!-- Max MP +11.28. -->
+		<!-- Max MP +11.28 -->
 		<!-- P. Atk. +4.95. -->
 		<effects>
 			<effect name="MaxMp">
@@ -608,7 +608,7 @@
 		</effects>
 	</option>
 	<option id="20565" name="o_f_80_2g_49">
-		<!-- Max MP +11.28. -->
+		<!-- Max MP +11.28 -->
 		<!-- M. Atk. +6.11. -->
 		<effects>
 			<effect name="MaxMp">
@@ -622,7 +622,7 @@
 		</effects>
 	</option>
 	<option id="20566" name="o_f_80_2g_50">
-		<!-- Max MP +11.28. -->
+		<!-- Max MP +11.28 -->
 		<!-- HP Recovery Rate +0.14 -->
 		<effects>
 			<effect name="MaxMp">
@@ -636,7 +636,7 @@
 		</effects>
 	</option>
 	<option id="20567" name="o_f_80_2g_51">
-		<!-- Max MP +11.28. -->
+		<!-- Max MP +11.28 -->
 		<!-- MP Recovery Rate +0.06 -->
 		<effects>
 			<effect name="MpRegen">
@@ -650,7 +650,7 @@
 		</effects>
 	</option>
 	<option id="20568" name="o_f_80_2g_52">
-		<!-- Max MP +11.28. -->
+		<!-- Max MP +11.28 -->
 		<!-- CP Recovery Rate +0.14 -->
 		<effects>
 			<effect name="CpRegen">
@@ -664,7 +664,7 @@
 		</effects>
 	</option>
 	<option id="20569" name="o_f_80_2g_53">
-		<!-- Max MP +11.28. -->
+		<!-- Max MP +11.28 -->
 		<!-- P. Evasion +0.68 -->
 		<effects>
 			<effect name="PhysicalEvasion">
@@ -678,7 +678,7 @@
 		</effects>
 	</option>
 	<option id="20570" name="o_f_80_2g_54">
-		<!-- Max MP +11.28. -->
+		<!-- Max MP +11.28 -->
 		<!-- P. Accuracy +0.68 -->
 		<effects>
 			<effect name="Accuracy">
@@ -692,7 +692,7 @@
 		</effects>
 	</option>
 	<option id="20571" name="o_f_80_2g_55">
-		<!-- Max MP +11.28. -->
+		<!-- Max MP +11.28 -->
 		<!-- P. Critical Rate +5.3 -->
 		<effects>
 			<effect name="CriticalRate">
@@ -706,7 +706,7 @@
 		</effects>
 	</option>
 	<option id="20572" name="o_f_80_2g_56">
-		<!-- Max CP +62.02. -->
+		<!-- Max CP +62.02 -->
 		<!-- P. Atk. +4.95. -->
 		<effects>
 			<effect name="MaxCp">
@@ -720,7 +720,7 @@
 		</effects>
 	</option>
 	<option id="20573" name="o_f_80_2g_57">
-		<!-- Max CP +62.02. -->
+		<!-- Max CP +62.02 -->
 		<!-- M. Atk. +6.11. -->
 		<effects>
 			<effect name="MaxCp">
@@ -734,7 +734,7 @@
 		</effects>
 	</option>
 	<option id="20574" name="o_f_80_2g_58">
-		<!-- Max CP +62.02. -->
+		<!-- Max CP +62.02 -->
 		<!-- HP Recovery Rate +0.14 -->
 		<effects>
 			<effect name="MaxCp">
@@ -748,7 +748,7 @@
 		</effects>
 	</option>
 	<option id="20575" name="o_f_80_2g_59">
-		<!-- Max CP +62.02. -->
+		<!-- Max CP +62.02 -->
 		<!-- MP Recovery Rate +0.06 -->
 		<effects>
 			<effect name="MpRegen">
@@ -762,7 +762,7 @@
 		</effects>
 	</option>
 	<option id="20576" name="o_f_80_2g_60">
-		<!-- Max CP +62.02. -->
+		<!-- Max CP +62.02 -->
 		<!-- CP Recovery Rate +0.14 -->
 		<effects>
 			<effect name="CpRegen">
@@ -776,7 +776,7 @@
 		</effects>
 	</option>
 	<option id="20577" name="o_f_80_2g_61">
-		<!-- Max CP +62.02. -->
+		<!-- Max CP +62.02 -->
 		<!-- P. Evasion +0.68 -->
 		<effects>
 			<effect name="PhysicalEvasion">
@@ -790,7 +790,7 @@
 		</effects>
 	</option>
 	<option id="20578" name="o_f_80_2g_62">
-		<!-- Max CP +62.02. -->
+		<!-- Max CP +62.02 -->
 		<!-- P. Accuracy +0.68 -->
 		<effects>
 			<effect name="Accuracy">
@@ -804,7 +804,7 @@
 		</effects>
 	</option>
 	<option id="20579" name="o_f_80_2g_63">
-		<!-- Max CP +62.02. -->
+		<!-- Max CP +62.02 -->
 		<!-- P. Critical Rate +5.3 -->
 		<effects>
 			<effect name="CriticalRate">
@@ -916,7 +916,7 @@
 		</effects>
 	</option>
 	<option id="20587" name="o_f_80_2g_71">
-		<!-- M. Atk. +7.12. -->
+		<!-- M. Atk. +7.12 -->
 		<!-- HP Recovery Rate +0.14 -->
 		<effects>
 			<effect name="MAtk">
@@ -930,7 +930,7 @@
 		</effects>
 	</option>
 	<option id="20588" name="o_f_80_2g_72">
-		<!-- M. Atk. +7.12. -->
+		<!-- M. Atk. +7.12 -->
 		<!-- MP Recovery Rate +0.06 -->
 		<effects>
 			<effect name="MpRegen">
@@ -944,7 +944,7 @@
 		</effects>
 	</option>
 	<option id="20589" name="o_f_80_2g_73">
-		<!-- M. Atk. +7.12. -->
+		<!-- M. Atk. +7.12 -->
 		<!-- CP Recovery Rate +0.14 -->
 		<effects>
 			<effect name="CpRegen">
@@ -958,7 +958,7 @@
 		</effects>
 	</option>
 	<option id="20590" name="o_f_80_2g_74">
-		<!-- M. Atk. +7.12. -->
+		<!-- M. Atk. +7.12 -->
 		<!-- P. Evasion +0.68 -->
 		<effects>
 			<effect name="PhysicalEvasion">
@@ -972,7 +972,7 @@
 		</effects>
 	</option>
 	<option id="20591" name="o_f_80_2g_75">
-		<!-- M. Atk. +7.12. -->
+		<!-- M. Atk. +7.12 -->
 		<!-- P. Accuracy +0.68 -->
 		<effects>
 			<effect name="Accuracy">

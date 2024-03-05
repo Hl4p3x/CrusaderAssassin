@@ -434,7 +434,7 @@
 		</effects>
 	</skill>
 	<skill id="35011" toLevel="1" name="Refined Romantic Chapeau: Teleport">
-		<!-- Teleports character to the nearest village. Cooldown - 2 h. -->
+		<!-- Teleports to the nearest town. Cooldown: 2 h. -->
 		<icon>icon.skill0000</icon>
 		<blockedInOlympiad>true</blockedInOlympiad>
 		<hitTime>1000</hitTime>
@@ -462,7 +462,7 @@
 		<operateType>P</operateType>
 	</skill>
 	<skill id="35013" toLevel="1" name="Pirate King Hat: Teleport">
-		<!-- Teleports character to the nearest village. Cooldown - 2 h. -->
+		<!-- Teleports to the nearest town. Cooldown: 2 h. -->
 		<icon>icon.skill0000</icon>
 		<operateType>A1</operateType>
 		<hitTime>1000</hitTime>
@@ -474,7 +474,7 @@
 		<operateType>P</operateType>
 	</skill>
 	<skill id="35015" toLevel="1" name="Demon's Circlet: Teleport">
-		<!-- Teleports character to the nearest village. Cooldown - 2 h. -->
+		<!-- Teleports to the nearest town. Cooldown: 2 h. -->
 		<icon>icon.skill0000</icon>
 		<operateType>A1</operateType>
 		<hitTime>1000</hitTime>
@@ -870,7 +870,7 @@
 		<operateType>P</operateType>
 	</skill>
 	<skill id="35023" toLevel="1" name="Chic Silver Chapeau Teleport">
-		<!-- Teleports character to the nearest village. Cooldown - 2 h. -->
+		<!-- Teleports to the nearest town. Cooldown: 2 h. -->
 		<icon>icon.skill0000</icon>
 		<operateType>A1</operateType>
 		<hitTime>1000</hitTime>

@@ -28,7 +28,7 @@
 		</effects>
 	</option>
 	<option id="23250" name="o_f_84_1r_4">
-		<!-- Max MP +50.57. -->
+		<!-- Max MP +50.57 -->
 		<effects>
 			<effect name="MaxMp">
 				<amount>50.572</amount>
@@ -147,7 +147,7 @@
 	</option>
 	<option id="23262" name="o_f_84_1r_16">
 		<!-- P. Def. +21.64. -->
-		<!-- Max MP +24.41. -->
+		<!-- Max MP +24.41 -->
 		<effects>
 			<effect name="PhysicalDefence">
 				<amount>21.639</amount>
@@ -301,7 +301,7 @@
 	</option>
 	<option id="23273" name="o_f_84_1r_27">
 		<!-- M. Def. +18.35. -->
-		<!-- Max MP +24.41. -->
+		<!-- Max MP +24.41 -->
 		<effects>
 			<effect name="MagicalDefence">
 				<amount>18.351</amount>
@@ -441,7 +441,7 @@
 	</option>
 	<option id="23283" name="o_f_84_1r_37">
 		<!-- Max HP +79.67 -->
-		<!-- Max MP +24.41. -->
+		<!-- Max MP +24.41 -->
 		<effects>
 			<effect name="MaxHp">
 				<amount>79.665</amount>
@@ -580,7 +580,7 @@
 		</effects>
 	</option>
 	<option id="23293" name="o_f_84_1r_47">
-		<!-- Max MP +26.16. -->
+		<!-- Max MP +26.16 -->
 		<!-- Max CP +133.84. -->
 		<effects>
 			<effect name="MaxCp">
@@ -594,7 +594,7 @@
 		</effects>
 	</option>
 	<option id="23294" name="o_f_84_1r_48">
-		<!-- Max MP +26.16. -->
+		<!-- Max MP +26.16 -->
 		<!-- P. Atk. +13.77. -->
 		<effects>
 			<effect name="MaxMp">
@@ -608,7 +608,7 @@
 		</effects>
 	</option>
 	<option id="23295" name="o_f_84_1r_49">
-		<!-- Max MP +26.16. -->
+		<!-- Max MP +26.16 -->
 		<!-- M. Atk. +17.32. -->
 		<effects>
 			<effect name="MaxMp">
@@ -622,7 +622,7 @@
 		</effects>
 	</option>
 	<option id="23296" name="o_f_84_1r_50">
-		<!-- Max MP +26.16. -->
+		<!-- Max MP +26.16 -->
 		<!-- HP Recovery Rate +0.32 -->
 		<effects>
 			<effect name="MaxMp">
@@ -636,7 +636,7 @@
 		</effects>
 	</option>
 	<option id="23297" name="o_f_84_1r_51">
-		<!-- Max MP +26.16. -->
+		<!-- Max MP +26.16 -->
 		<!-- MP Recovery Rate +0.14 -->
 		<effects>
 			<effect name="MpRegen">
@@ -650,7 +650,7 @@
 		</effects>
 	</option>
 	<option id="23298" name="o_f_84_1r_52">
-		<!-- Max MP +26.16. -->
+		<!-- Max MP +26.16 -->
 		<!-- CP Recovery Rate +0.32 -->
 		<effects>
 			<effect name="CpRegen">
@@ -664,7 +664,7 @@
 		</effects>
 	</option>
 	<option id="23299" name="o_f_84_1r_53">
-		<!-- Max MP +26.16. -->
+		<!-- Max MP +26.16 -->
 		<!-- P. Evasion +1.64 -->
 		<effects>
 			<effect name="PhysicalEvasion">

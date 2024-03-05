@@ -109,7 +109,7 @@
 		<set name="handler" val="MercTicket" />
 	</item>
 	<item id="5208" name="Mercenary Posting Ticket (Cleric/Stationary)" additionalName="Not Available" type="EtcItem">
-		<!-- The item is not available. Innadril/Cleric/Stationary. -->
+		<!-- The item is not available. Innadril/ Healer/ Stationary. -->
 		<set name="icon" val="icon.etc_ertheia2" />
 		<set name="etcitem_type" val="CASTLE_GUARD" />
 		<set name="immediate_effect" val="true" />
@@ -131,7 +131,7 @@
 		<set name="handler" val="MercTicket" />
 	</item>
 	<item id="5210" name="Mercenary Posting Ticket (Sword/ Mobile)" additionalName="Not Available" type="EtcItem">
-		<!-- The item is not available. Innadril/Sword/Mobile. -->
+		<!-- The item is not available. Innadril/ Sword/ Mobile. -->
 		<set name="icon" val="icon.etc_ertheia2" />
 		<set name="etcitem_type" val="CASTLE_GUARD" />
 		<set name="immediate_effect" val="true" />
@@ -142,7 +142,7 @@
 		<set name="handler" val="MercTicket" />
 	</item>
 	<item id="5211" name="Mercenary Posting Ticket (Spear/ Mobile)" additionalName="Not Available" type="EtcItem">
-		<!-- The item is not available. Innadril/Spear/Mobile. -->
+		<!-- The item is not available. Innadril/ Spear/ Mobile. -->
 		<set name="icon" val="icon.etc_ertheia2" />
 		<set name="etcitem_type" val="CASTLE_GUARD" />
 		<set name="immediate_effect" val="true" />
@@ -153,7 +153,7 @@
 		<set name="handler" val="MercTicket" />
 	</item>
 	<item id="5212" name="Mercenary Posting Ticket (Bow/ Mobile)" additionalName="Not Available" type="EtcItem">
-		<!-- The item is not available. Innadril/Bow/Mobile. -->
+		<!-- The item is not available. Innadril/ Bow/ Mobile. -->
 		<set name="icon" val="icon.etc_ertheia2" />
 		<set name="etcitem_type" val="CASTLE_GUARD" />
 		<set name="immediate_effect" val="true" />
@@ -164,7 +164,7 @@
 		<set name="handler" val="MercTicket" />
 	</item>
 	<item id="5213" name="Mercenary Posting Ticket (Cleric/ Mobile)" additionalName="Not Available" type="EtcItem">
-		<!-- The item is not available. Innadril/Cleric/Mobile. -->
+		<!-- The item is not available. Innadril/ Healer/ Mobile. -->
 		<set name="icon" val="icon.etc_ertheia2" />
 		<set name="etcitem_type" val="CASTLE_GUARD" />
 		<set name="immediate_effect" val="true" />
@@ -270,7 +270,7 @@
 		<set name="is_questitem" val="true" />
 	</item>
 	<item id="5233" name="Keshanberk*Keshanberk" type="Weapon">
-		<!-- When enchanting dual swords, two-handed swords/ blunts and fists, the P. Atk. bonus is higher than that of one-handed weapons. <font color=ff6666><Unavailable to Sylphs/ Vanguard Riders.></font> -->
+		<!-- When enchanting dual swords, two-handed swords/ blunts and fists, the P. Atk. bonus is higher than that of one-handed weapons. <font color=ff6666><Unavailable to Sylphs/ Vanguard Riders/ Assassins.></font> -->
 		<set name="icon" val="icon.weapon_dual_sword_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="DUAL" />
@@ -477,7 +477,7 @@
 		</skills>
 	</item>
 	<item id="5242" name="Hair Style Change Potion A" type="EtcItem">
-		<!-- Beauty potion that changes one's hair style to Type A. <font color=eeaa22>Both genders. The results may be viewed on the Character Creation Screen.</font> -->
+		<!-- A beauty potion that changes one's hairstyle to Type A. <font color=eeaa22>Both genders. The result may be viewed on the Character Creation Screen.</font> -->
 		<set name="icon" val="icon.etc_lesser_potion_green_i00" />
 		<set name="default_action" val="SKILL_REDUCE" />
 		<set name="etcitem_type" val="POTION" />
@@ -498,7 +498,7 @@
 		</skills>
 	</item>
 	<item id="5243" name="Hair Style Change Potion B" type="EtcItem">
-		<!-- Beauty potion that changes one's hair style to Type B. <font color=eeaa22>Both genders. The results may be viewed on the Character Creation Screen.</font> -->
+		<!-- A beauty potion that changes one's hairstyle to Type B. <font color=eeaa22>Both genders. The result may be viewed on the Character Creation Screen.</font> -->
 		<set name="icon" val="icon.etc_lesser_potion_green_i00" />
 		<set name="default_action" val="SKILL_REDUCE" />
 		<set name="etcitem_type" val="POTION" />
@@ -1017,7 +1017,7 @@
 		</skills>
 	</item>
 	<item id="5284" name="Zweihander" type="Weapon">
-		<!-- <font color=ff6666><Unavailable to Sylphs/ Vanguard Riders.></font> -->
+		<!-- <font color=ff6666><Unavailable to Sylphs/ Vanguard Riders/ Assassins.></font> -->
 		<set name="icon" val="icon.weapon_zweihander_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="SWORD" />
@@ -1041,7 +1041,7 @@
 		</stats>
 	</item>
 	<item id="5285" name="Heavy Sword" type="Weapon">
-		<!-- <font color=ff6666><Unavailable to Sylphs/ Vanguard Riders.></font> -->
+		<!-- <font color=ff6666><Unavailable to Sylphs/ Vanguard Riders/ Assassins.></font> -->
 		<set name="icon" val="icon.weapon_heavy_sword_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="SWORD" />
@@ -1071,7 +1071,7 @@
 		</stats>
 	</item>
 	<item id="5286" name="Berserker Blade" type="Weapon">
-		<!-- <font color=ff6666><Unavailable to Sylphs/ Vanguard Riders.></font> -->
+		<!-- <font color=ff6666><Unavailable to Sylphs/ Vanguard Riders/ Assassins.></font> -->
 		<set name="icon" val="icon.weapon_berserker_blade_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="SWORD" />
@@ -1231,7 +1231,7 @@
 		</stats>
 	</item>
 	<item id="5294" name="Sealed Tallum Helmet" type="Armor">
-		<!-- Sealed Tallum Helmet. The seal can be removed by a blacksmith in any village. -->
+		<!-- Sealed Tallum Helmet. The seal can be removed by a blacksmith in any town. -->
 		<set name="icon" val="icon.armor_helmet_i02" />
 		<set name="default_action" val="EQUIP" />
 		<set name="bodypart" val="head" />
@@ -1248,7 +1248,7 @@
 		</stats>
 	</item>
 	<item id="5295" name="Sealed Tallum Gloves" type="Armor">
-		<!-- Sealed Tallum Gloves. The seal can be removed by a blacksmith in any village. -->
+		<!-- Sealed Tallum Gloves. The seal can be removed by a blacksmith in any town. -->
 		<set name="icon" val="icon.armor_t77_g_i02" />
 		<set name="default_action" val="EQUIP" />
 		<set name="bodypart" val="gloves" />
@@ -1266,7 +1266,7 @@
 		</stats>
 	</item>
 	<item id="5296" name="Sealed Tallum Boots" type="Armor">
-		<!-- Sealed Tallum Boots. The seal can be removed by a blacksmith in any village. -->
+		<!-- Sealed Tallum Boots. The seal can be removed by a blacksmith in any town. -->
 		<set name="icon" val="icon.armor_t77_b_i02" />
 		<set name="default_action" val="EQUIP" />
 		<set name="bodypart" val="feet" />

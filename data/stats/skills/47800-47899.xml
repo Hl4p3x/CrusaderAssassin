@@ -481,8 +481,7 @@
 	<skill id="47807" toLevel="6" name="Wild Charge">
 		<!-- <<font color="FF8000">Beast skill</font>>. The embodied beast's soul attacks the target. Attacks the target twice with 3773 power. Ignores Shield Defense. Ignores 10% of the target's defense. Critical. -->
 		<icon>icon.s_wild_charge</icon>
-		<castRange>400</castRange>
-		<basicProperty>PHYSICAL</basicProperty>
+		<coolTime>500</coolTime>
 		<effectPoint>
 			<value level="1">-1520</value>
 			<value level="2">-1600</value>
@@ -491,9 +490,11 @@
 			<value level="5">-1760</value>
 			<value level="6">-1800</value>
 		</effectPoint>
+		<affectLimit>5-10</affectLimit>
+		<affectRange>200</affectRange>
+		<castRange>400</castRange>
 		<effectRange>1100</effectRange>
 		<hitTime>1200</hitTime>
-		<coolTime>500</coolTime>
 		<magicLevel>
 			<value level="1">76</value>
 			<value level="2">80</value>
@@ -504,17 +505,27 @@
 		</magicLevel>
 		<mpConsume>
 			<value level="1">88</value>
-			<value level="2">89</value>
+			<value level="2">93</value>
 			<value level="3">96</value>
 			<value level="4">99</value>
 			<value level="5">102</value>
 			<value level="6">105</value>
 		</mpConsume>
 		<operateType>A1</operateType>
+		<nextAction>ATTACK</nextAction>
 		<reuseDelay>30000</reuseDelay>
+		<reuseDelayGroup>47807</reuseDelayGroup>
 		<magicCriticalRate>5</magicCriticalRate>
 		<targetType>ENEMY</targetType>
-		<affectScope>SINGLE</affectScope>
+		<affectScope>RANGE</affectScope>
+		<affectObject>NOT_FRIEND</affectObject>
+		<conditions>
+			<condition name="EquipWeapon">
+				<weaponType>
+					<item>POLE</item>
+				</weaponType>
+			</condition>
+		</conditions>
 		<effects>
 			<effect name="PhysicalAttack">
 				<power>
@@ -525,35 +536,73 @@
 					<value level="5">4581</value>
 					<value level="6">4718</value>
 				</power>
-				<pDefMod>0.90</pDefMod>
+				<ignoreShieldDefence>true</ignoreShieldDefence>
+				<pDefMod>0.9</pDefMod>
 				<criticalChance>15</criticalChance>
 			</effect>
-			<effect name="CallSkill">
-				<skillId>47808</skillId> <!-- Spectral Charge -->
-				<skillLevel>
-					<value level="1">1</value>
-					<value level="2">2</value>
-					<value level="3">3</value>
-					<value level="4">4</value>
-					<value level="5">5</value>
-					<value level="6">6</value>
-				</skillLevel>
+			<effect name="PhysicalAttack">
+				<power>
+					<value level="1">3773</value>
+					<value level="2">4038</value>
+					<value level="3">4240</value>
+					<value level="4">4374</value>
+					<value level="5">4581</value>
+					<value level="6">4718</value>
+				</power>
+				<ignoreShieldDefence>true</ignoreShieldDefence>
+				<pDefMod>0.9</pDefMod>
+				<criticalChance>15</criticalChance>
 			</effect>
 		</effects>
 	</skill>
 	<skill id="47808" toLevel="6" name="Spectral Charge">
 		<!-- <<font color="FF8000">Beast skill</font>>. The embodied beast's soul makes a powerful attack on the target. Attacks the target thrice with 3773 power. Ignores Shield Defense. Ignores 10% of the target's defense. Critical. -->
 		<icon>icon.s_phantom_charge</icon>
+		<coolTime>500</coolTime>
+		<effectPoint>
+			<value level="1">-1520</value>
+			<value level="2">-1600</value>
+			<value level="3">-1660</value>
+			<value level="4">-1700</value>
+			<value level="5">-1760</value>
+			<value level="6">-1800</value>
+		</effectPoint>
+		<affectLimit>5-10</affectLimit>
+		<affectRange>200</affectRange>
 		<castRange>400</castRange>
-		<basicProperty>PHYSICAL</basicProperty>
 		<effectRange>1100</effectRange>
 		<hitTime>1200</hitTime>
-		<coolTime>500</coolTime>
+		<magicLevel>
+			<value level="1">76</value>
+			<value level="2">80</value>
+			<value level="3">83</value>
+			<value level="4">85</value>
+			<value level="5">88</value>
+			<value level="6">90</value>
+		</magicLevel>
+		<mpConsume>
+			<value level="1">88</value>
+			<value level="2">93</value>
+			<value level="3">96</value>
+			<value level="4">99</value>
+			<value level="5">102</value>
+			<value level="6">105</value>
+		</mpConsume>
 		<operateType>A1</operateType>
+		<nextAction>ATTACK</nextAction>
 		<reuseDelay>30000</reuseDelay>
+		<reuseDelayGroup>47807</reuseDelayGroup>
 		<magicCriticalRate>5</magicCriticalRate>
 		<targetType>ENEMY</targetType>
-		<affectScope>SINGLE</affectScope>
+		<affectScope>RANGE</affectScope>
+		<affectObject>NOT_FRIEND</affectObject>
+		<conditions>
+			<condition name="EquipWeapon">
+				<weaponType>
+					<item>POLE</item>
+				</weaponType>
+			</condition>
+		</conditions>
 		<effects>
 			<effect name="PhysicalAttack">
 				<power>
@@ -564,7 +613,34 @@
 					<value level="5">4581</value>
 					<value level="6">4718</value>
 				</power>
-				<pDefMod>0.90</pDefMod>
+				<ignoreShieldDefence>true</ignoreShieldDefence>
+				<pDefMod>0.9</pDefMod>
+				<criticalChance>15</criticalChance>
+			</effect>
+			<effect name="PhysicalAttack">
+				<power>
+					<value level="1">3773</value>
+					<value level="2">4038</value>
+					<value level="3">4240</value>
+					<value level="4">4374</value>
+					<value level="5">4581</value>
+					<value level="6">4718</value>
+				</power>
+				<ignoreShieldDefence>true</ignoreShieldDefence>
+				<pDefMod>0.9</pDefMod>
+				<criticalChance>15</criticalChance>
+			</effect>
+			<effect name="PhysicalAttack">
+				<power>
+					<value level="1">3773</value>
+					<value level="2">4038</value>
+					<value level="3">4240</value>
+					<value level="4">4374</value>
+					<value level="5">4581</value>
+					<value level="6">4718</value>
+				</power>
+				<ignoreShieldDefence>true</ignoreShieldDefence>
+				<pDefMod>0.9</pDefMod>
 				<criticalChance>15</criticalChance>
 			</effect>
 		</effects>
@@ -593,7 +669,12 @@
 		<magicLevel>80</magicLevel>
 		<mpConsume>120</mpConsume>
 		<operateType>A1</operateType>
-		<reuseDelay>60000</reuseDelay>
+		<reuseDelay>
+			<value level="1">60000</value>
+			<value fromLevel="1" toLevel="1" fromSubLevel="1001" toSubLevel="1001">50000</value>
+			<value fromLevel="1" toLevel="1" fromSubLevel="1002" toSubLevel="1002">40000</value>
+			<value fromLevel="1" toLevel="1" fromSubLevel="1003" toSubLevel="1003">30000</value>
+		</reuseDelay>
 		<magicCriticalRate>5</magicCriticalRate>
 		<targetType>SELF</targetType>
 		<affectScope>POINT_BLANK</affectScope>
@@ -607,7 +688,12 @@
 		</conditions>
 		<effects>
 			<effect name="CallSkill">
-				<skillId>47812</skillId> <!-- Giant's Stomp -->
+				<skillId>
+					<value level="1">47812</value>
+					<value fromLevel="1" toLevel="1" fromSubLevel="1001" toSubLevel="1001">1047812</value>
+					<value fromLevel="1" toLevel="1" fromSubLevel="1002" toSubLevel="1002">2047812</value>
+					<value fromLevel="1" toLevel="1" fromSubLevel="1003" toSubLevel="1003">3047812</value>
+				</skillId> <!-- Giant's Stomp -->
 				<skillLevel>1</skillLevel>
 			</effect>
 		</effects>
@@ -641,19 +727,14 @@
 	<skill id="47813" toLevel="2" name="Wild Growl">
 		<!-- <<font color="FF8000">Suppression skill</font>>. Suppresses nearby enemies for 3 sec. Speed -70% -->
 		<icon>icon.s_wild_roar</icon>
-		<castRange>40</castRange>
-		<affectLimit>5-12</affectLimit>
-		<affectRange>150</affectRange>
-		<basicProperty>PHYSICAL</basicProperty>
-		<activateRate>80</activateRate>
 		<coolTime>500</coolTime>
 		<effectPoint>
 			<value level="1">-1560</value>
 			<value level="2">-1740</value>
 		</effectPoint>
-		<effectRange>1000</effectRange>
+		<affectLimit>5-10</affectLimit>
+		<affectRange>200</affectRange>
 		<hitTime>1200</hitTime>
-		<isDebuff>true</isDebuff>
 		<magicLevel>
 			<value level="1">78</value>
 			<value level="2">87</value>
@@ -662,13 +743,19 @@
 			<value level="1">90</value>
 			<value level="2">100</value>
 		</mpConsume>
-		<operateType>A2</operateType>
+		<operateType>A1</operateType>
 		<reuseDelay>45000</reuseDelay>
 		<magicCriticalRate>5</magicCriticalRate>
-		<trait>ANOMALY</trait>
-		<targetType>ENEMY</targetType>
-		<affectScope>RANGE</affectScope>
+		<targetType>SELF</targetType>
+		<affectScope>POINT_BLANK</affectScope>
 		<affectObject>NOT_FRIEND</affectObject>
+		<conditions>
+			<condition name="EquipWeapon">
+				<weaponType>
+					<item>POLE</item>
+				</weaponType>
+			</condition>
+		</conditions>
 		<effects>
 			<effect name="CallSkill">
 				<skillId>47815</skillId> <!-- Wild Growl - Suppression -->
@@ -682,65 +769,64 @@
 	<skill id="47814" toLevel="1" name="Wild Growl - Hold">
 		<!-- Unable to move. -->
 		<icon>icon.skill10792</icon>
-		<abnormalLevel>1</abnormalLevel>
-		<abnormalTime>5</abnormalTime>
-		<abnormalType>ROOT_PHYSICALLY</abnormalType>
-		<abnormalVisualEffect>ROOT</abnormalVisualEffect>
-		<activateRate>80</activateRate>
-		<affectLimit>5-10</affectLimit>
-		<affectRange>150</affectRange>
-		<basicProperty>PHYSICAL</basicProperty>
 		<effectPoint>-1800</effectPoint>
-		<isDebuff>true</isDebuff>
+		<effectRange>1000</effectRange>
+		<magicLevel>83</magicLevel>
 		<operateType>A2</operateType>
-		<magicCriticalRate>5</magicCriticalRate>
+		<abnormalTime>5</abnormalTime>
+		<abnormalLevel>2</abnormalLevel>
+		<abnormalVisualEffect>ZARICHE_PRISION2_AVE</abnormalVisualEffect>
+		<abnormalType>ROOT_PHYSICALLY</abnormalType>
 		<trait>HOLD</trait>
+		<isDebuff>true</isDebuff>
+		<activateRate>-1</activateRate>
+		<lvlBonusRate>20</lvlBonusRate>
+		<magicCriticalRate>5</magicCriticalRate>
 		<targetType>ENEMY</targetType>
-		<affectScope>RANGE</affectScope>
-		<affectObject>NOT_FRIEND</affectObject>
+		<affectScope>SINGLE</affectScope>
 		<effects>
 			<effect name="Root" />
+			<effect name="DefenceTrait">
+				<HOLD>100</HOLD>
+			</effect>
 		</effects>
 	</skill>
 	<skill id="47815" toLevel="2" name="Wild Growl - Suppression">
 		<!-- Speed -70% -->
 		<icon>icon.skill10514</icon>
-		<affectLimit>5-12</affectLimit>
-		<affectRange>150</affectRange>
-		<abnormalLevel>
-			<value level="1">1</value>
-			<value level="2">2</value>
-		</abnormalLevel>
-		<abnormalTime>3</abnormalTime>
-		<abnormalType>SPEED_DOWN</abnormalType>
-		<basicProperty>PHYSICAL</basicProperty>
-		<activateRate>80</activateRate>
 		<effectPoint>
 			<value level="1">-1600</value>
 			<value level="2">-1800</value>
 		</effectPoint>
 		<effectRange>1000</effectRange>
-		<isDebuff>true</isDebuff>
+		<magicLevel>
+			<value level="1">78</value>
+			<value level="2">87</value>
+		</magicLevel>
 		<operateType>A2</operateType>
-		<magicCriticalRate>5</magicCriticalRate>
+		<abnormalTime>3</abnormalTime>
+		<abnormalLevel>30</abnormalLevel>
+		<abnormalType>SPEED_DOWN</abnormalType>
 		<trait>SUPPRESSION</trait>
+		<isDebuff>true</isDebuff>
+		<activateRate>80</activateRate>
+		<lvlBonusRate>30</lvlBonusRate>
+		<magicCriticalRate>5</magicCriticalRate>
 		<targetType>ENEMY</targetType>
-		<affectScope>RANGE</affectScope>
-		<affectObject>NOT_FRIEND</affectObject>
+		<affectScope>SINGLE</affectScope>
 		<effects>
 			<effect name="Speed">
 				<amount>
 					<value level="1">-70</value>
 					<value level="2">-90</value>
 				</amount>
+				<mode>PER</mode>
 			</effect>
-		</effects>
-		<endEffects>
-			<effect name="CallSkill">
+			<effect name="CallSkill" fromLevel="2" toLevel="2">
 				<skillId>47814</skillId> <!-- Wild Growl - Hold -->
 				<skillLevel>1</skillLevel>
 			</effect>
-		</endEffects>
+		</effects>
 	</skill>
 	<skill id="47821" toLevel="1" name="Wild Assault">
 		<!-- <<font color="FF8000">Dash skill</font>>. Dashes to the specified point. Activate the skill, choose your destination within the skill area and double-click it to move there. Upon arriving, the skill deals an AoE attack. Deals 15% of damage depending on P. Atk. To cancel the skill, press ESC. The skill is cancelled automatically, if the destination is not chosen in 5 sec. <<font color="FF8000">Blazing Beast effect</font>>. While the buff is active, the skill can be used without cooldown. -->
@@ -779,7 +865,7 @@
 		</effects>
 	</skill>
 	<skill id="47822" toLevel="3" name="Wild Rush">
-		<!-- <<font color="FF8000">Rush skill</font>>. Charges at the target. The skill can be used if the distance to the target is no more than 150. <<font color="FF8000">Blazing Beast effect</font>>. While the buff is active, the skill can be used without cooldown. -->
+		<!-- <<font color="FF8000">Rush skill</font>>. Charges at the target. The skill can be used if the distance to the target is more than 150. <<font color="FF8000">Blazing Beast effect</font>>. While the buff is active, the skill can be used without cooldown. -->
 		<icon>icon.s_wild_rush</icon>
 		<castRange>
 			<value level="1">300</value>
@@ -829,9 +915,40 @@
 		<!-- <<font color="FF8000">Dash skill</font>>. Dashes to the specified point. Activate the skill, choose your destination within the skill area and double-click it to move there. Upon arriving, the skill deals an AoE attack. Deals 15% of damage depending on P. Atk. To cancel the skill, press ESC. The skill is cancelled automatically, if the destination is not chosen in 5 sec. <<font color="FF8000">Blazing Beast effect</font>>. No restrictions on cooldown. -->
 		<icon>icon.s_wild_assault</icon>
 		<operateType>A1</operateType>
+		<itemConsumeCount>1</itemConsumeCount>
+		<itemConsumeId>3031</itemConsumeId>
+		<castRange>-1</castRange>
+		<coolTime>200</coolTime>
+		<effectPoint>-400</effectPoint>
+		<affectLimit>5-12</affectLimit>
+		<affectRange>250</affectRange>
+		<fanRange>0;0;250;60</fanRange>
+		<effectRange>1100</effectRange>
+		<magicLevel>40</magicLevel>
+		<mpConsume>100</mpConsume>
+		<hitTime>400</hitTime>
+		<operateType>DA1</operateType>
+		<reuseDelay>0</reuseDelay>
+		<reuseDelayGroup>47821</reuseDelayGroup>
+		<magicCriticalRate>5</magicCriticalRate>
+		<targetType>GROUND</targetType>
+		<affectScope>POINT_BLANK</affectScope>
+		<affectObject>NOT_FRIEND</affectObject>
+		<conditions>
+			<condition name="EquipWeapon">
+				<weaponType>
+					<item>POLE</item>
+				</weaponType>
+			</condition>
+		</conditions>
+		<effects>
+			<effect name="PhysicalAttack">
+				<power>15000</power>
+			</effect>
+		</effects>
 	</skill>
 	<skill id="47824" toLevel="3" name="Wild Rush: Burning">
-		<!-- <<font color="FF8000">Rush skill</font>>. Charges at the target. The skill can be used if the distance to the target is no more than 150. <<font color="FF8000">Blazing Beast effect</font>>. While the buff is active, the skill can be used without cooldown. -->
+		<!-- <<font color="FF8000">Rush skill</font>>. Charges at the target. The skill can be used if the distance to the target is more than 150. <<font color="FF8000">Blazing Beast effect</font>>. While the buff is active, the skill can be used without cooldown. -->
 		<icon>icon.s_wild_rush</icon>
 		<castRange>
 			<value level="1">300</value>
@@ -1025,25 +1142,36 @@
 	</skill>
 	<skill id="47833" toLevel="1" name="Flame of Pa'agrio">
 		<icon>icon.skill1171</icon>
-		<castRange>40</castRange>
 		<abnormalLevel>1</abnormalLevel>
-		<abnormalTime>2</abnormalTime>
-		<abnormalType>PD_DOWN</abnormalType>
-		<activateRate>70</activateRate>
-		<basicProperty>PHYSICAL</basicProperty>
-		<lvlBonusRate>20</lvlBonusRate>
-		<effectPoint>-1000</effectPoint>
-		<effectRange>400</effectRange>
+		<abnormalTime>3</abnormalTime>
+		<affectLimit>5-10</affectLimit>
+		<abnormalType>DOT_ATTR</abnormalType>
+		<abnormalVisualEffect>DOT_BLEEDING</abnormalVisualEffect>
+		<activateRate>80</activateRate>
+		<basicProperty>MAGIC</basicProperty>
+		<castRange>600</castRange>
+		<coolTime>500</coolTime>
+		<hitTime>1000</hitTime>
+		<effectPoint>-500</effectPoint>
+		<effectRange>1100</effectRange>
+		<affectRange>300</affectRange>
 		<isDebuff>true</isDebuff>
-		<nextAction>ATTACK</nextAction>
+		<attributeType>FIRE</attributeType>
+		<attributeValue>20</attributeValue>
+		<isMagic>1</isMagic> <!-- Magic Skill -->
+		<isTriggeredSkill>true</isTriggeredSkill>
+		<lvlBonusRate>1</lvlBonusRate>
 		<operateType>A2</operateType>
-		<magicCriticalRate>5</magicCriticalRate>
+		<reuseDelay>1000</reuseDelay>
+		<magicCriticalRate>-5</magicCriticalRate>
+		<trait>INFECTION</trait>
 		<targetType>ENEMY</targetType>
-		<affectScope>SINGLE</affectScope>
+		<affectScope>RANGE</affectScope>
+		<affectObject>NOT_FRIEND</affectObject>
 		<effects>
-			<effect name="FatalBlow">
+			<effect name="DamOverTime">
 				<power>50</power>
-				<chanceBoost>200</chanceBoost>
+				<ticks>1</ticks>
 			</effect>
 		</effects>
 	</skill>
@@ -1094,12 +1222,15 @@
 		</effects>
 	</skill>
 	<skill id="47855" toLevel="1" name="Blazing Beast">
-		<!-- <<font color="FF8000">BP skill</font>>. Available when you have <font color="FF8000">500+</font> BP. Consumes <font color="FF8000">100</font> BP. Imbues the beast with Fire God Pa'agrio's power. Received PvP damage -10%. The beast deals repeated blows to nearby enemies. Summons <font color="FF0000">Flame of Pa'agrio</font>. <<font color="FF8000">No cooldown for the following skills:</font>>. - Wild Rush. - Wild Assault. <font color="FF8000">Note!</font>. Upon activating the skill, your BP cannot decrease for 3 sec. BP is decreased when hit. The skill effect is cancelled when BP reaches 0. -->
+		<!-- <<font color="FF8000">BP skill</font>>. Available when you have <font color="FF8000">500+</font> BP. Consumes <font color="FF8000">100</font> BP. Imbues the beast with Fire God Pa'agrio's power. Received PvP damage -10%. The beast deals repeated blows to nearby enemies. Summons <font color="FF0000">Flame of Pa'agrio</font>. <<font color="FF8000">No cooldown for the following skills:</font>>. - Wild Rush. - Wild Assault. <font color="FF8000">Note!</font>. Upon activating the skill, your BP cannot decrease for 3 sec. BP is decreased for 3 sec. when hit. The skill effect is momentarily cancelled when BP reaches 0. If the Blazing Beast is manually cancelled leaving the Pa'agrio's Power Veil effect, it disappears when BP reaches 0. -->
 		<icon>icon.s_burning_beast</icon>
 		<abnormalLevel>1</abnormalLevel>
 		<abnormalTime>1200</abnormalTime>
-		<abnormalType>BLAZING_BEAST</abnormalType>
+		<abnormalVisualEffect>V_OR_BURNING_BEAST_FIRE_AVE</abnormalVisualEffect>
+		<coolTime>500</coolTime>
+		<effectPoint>650</effectPoint>
 		<hitTime>500</hitTime>
+		<isMagic>2</isMagic> <!-- Static Skill -->
 		<magicLevel>1</magicLevel>
 		<operateType>A2</operateType>
 		<reuseDelay>10000</reuseDelay>
@@ -1109,15 +1240,13 @@
 		<affectScope>SINGLE</affectScope>
 		<conditions>
 			<condition name="BeastPoints">
-				<amount>500</amount>
+				<amount>500</amount> <!-- 500 -->
 			</condition>
 		</conditions>
-		<selfEffects>
-			<effect name="ModifyBeastPoints">
-				<amount>-100</amount>
-			</effect>
-		</selfEffects>
 		<effects>
+			<effect name="ModifyBeastPoints">
+				<amount>-100</amount> <!-- -100 -->
+			</effect>
 			<effect name="PvpMagicalSkillDefenceBonus">
 				<amount>10</amount>
 				<mode>PER</mode>
@@ -1129,6 +1258,27 @@
 			<effect name="PvpPhysicalSkillDefenceBonus">
 				<amount>10</amount>
 				<mode>PER</mode>
+			</effect>
+			<effect name="ReplaceSkillBySkill">
+				<existingSkillId>47822</existingSkillId>
+				<replacementSkillId>47824</replacementSkillId>
+			</effect>
+			<effect name="ReplaceSkillBySkill">
+				<existingSkillId>47821</existingSkillId>
+				<replacementSkillId>47823</replacementSkillId>
+			</effect>
+			<effect name="CallSkillOnActionTime">
+				<skillId>47833</skillId> <!-- Flame of Pa'agrio -->
+				<skillLevel>1</skillLevel>
+				<ticks>3</ticks>
+			</effect>
+			<effect name="CallSkill">
+				<skillId>47857</skillId> <!-- Pa'agrio's Power Veil -->
+				<skillLevel>1</skillLevel>
+			</effect>
+			<effect name="CallSkill">
+				<skillId>47856</skillId> <!-- Pa'agrio's Grace -->
+				<skillLevel>1</skillLevel>
 			</effect>
 		</effects>
 	</skill>
@@ -1152,7 +1302,7 @@
 		</endEffects>
 	</skill>
 	<skill id="47857" toLevel="1" name="Pa'agrio's Power Veil">
-		<!-- When the Pa'agrio's Grace effect expires, activates Pa'agrio's Power Veil. BP -100 when hit. -->
+		<!-- When the Pa'agrio's Grace effect expires, the Pa'agrio's Power Veil effect is enabled. BP -100 when hit. Disappears when BP reaches 0. -->
 		<icon>icon.skill10326</icon>
 		<abnormalLevel>1</abnormalLevel>
 		<abnormalType>PAAGRIO_GRACE</abnormalType>
@@ -1363,11 +1513,19 @@
 		<icon>icon.s_awaken_darkness</icon>
 		<magicLevel>76</magicLevel>
 		<operateType>P</operateType>
-		<magicCriticalRate>5</magicCriticalRate>
 		<effects>
 			<effect name="PAtk">
 				<amount>15</amount>
 				<mode>PER</mode>
+			</effect>
+			<effect name="TriggerSkillBySkillAttack">
+				<attackSkillId>47806</attackSkillId> <!-- Shadow Scratch -->
+				<attackerType>Creature</attackerType>
+				<minDamage>100</minDamage>
+				<chance>30</chance>
+				<targetType>ENEMY</targetType>
+				<skillId>47809</skillId> <!-- Shadow Scratch -->
+				<skillLevel>1</skillLevel>
 			</effect>
 		</effects>
 	</skill>

@@ -819,7 +819,7 @@
 	</option>
 	<option id="7663" name="o_f_58_2g_19">
 		<!-- P. Def. +6.6. -->
-		<!-- M. Atk. +3.6. -->
+		<!-- M. Atk. +3.6 -->
 		<effects>
 			<effect name="PhysicalDefence">
 				<amount>6.597</amount>
@@ -973,7 +973,7 @@
 	</option>
 	<option id="7674" name="o_f_58_2g_30">
 		<!-- M. Def. +5.3. -->
-		<!-- M. Atk. +3.6. -->
+		<!-- M. Atk. +3.6 -->
 		<effects>
 			<effect name="MagicalDefence">
 				<amount>5.301</amount>
@@ -1113,7 +1113,7 @@
 	</option>
 	<option id="7684" name="o_f_58_2g_40">
 		<!-- Max HP +26.5 -->
-		<!-- M. Atk. +3.6. -->
+		<!-- M. Atk. +3.6 -->
 		<effects>
 			<effect name="MaxHp">
 				<amount>26.496</amount>
@@ -1239,7 +1239,7 @@
 	</option>
 	<option id="7693" name="o_f_58_2g_49">
 		<!-- Max MP +8.46. -->
-		<!-- M. Atk. +3.6. -->
+		<!-- M. Atk. +3.6 -->
 		<effects>
 			<effect name="MaxMp">
 				<amount>8.46</amount>

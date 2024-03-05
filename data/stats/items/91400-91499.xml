@@ -85,13 +85,13 @@
 		</skills>
 	</item>
 	<item id="91406" name="Pass to Sepulcher" type="EtcItem">
-		<!-- The pass is needed to enter the Four Sepulchers of Emperors. Find Nameless Spirit near the entrance to the Four Sepulchers of Emperors and get further guidance. -->
+		<!-- A pass for entry into the Four Sepulchers of Emperors. Ask the Nameless Spirit at the entrance of the sepulchers for instructions. -->
 		<set name="icon" val="icon.etc_memopad_i00" />
 		<set name="material" val="CRYSTAL" />
 		<set name="is_stackable" val="true" />
 	</item>
 	<item id="91407" name="Elmoreden Treasure Chest" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.bm_elmoaden_box" />
 		<set name="default_action" val="SKILL_REDUCE_ON_SKILL_SUCCESS" />
 		<set name="material" val="FISH" />
@@ -114,7 +114,7 @@
 		<set name="is_stackable" val="true" />
 	</item>
 	<item id="91409" name="Elmoreden Relic Pouch" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.card_event_luck_pocket" />
 		<set name="default_action" val="SKILL_REDUCE_ON_SKILL_SUCCESS" />
 		<set name="material" val="FISH" />
@@ -150,7 +150,7 @@
 		</capsuled_items>
 	</item>
 	<item id="91410" name="Elmoreden's Golden Pack" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.bm_elmoaden_gold_box" />
 		<set name="default_action" val="SKILL_REDUCE_ON_SKILL_SUCCESS" />
 		<set name="material" val="FISH" />
@@ -186,7 +186,7 @@
 		</capsuled_items>
 	</item>
 	<item id="91411" name="Elmoreden's Silver Pack" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.bm_elmoaden_silver_box" />
 		<set name="default_action" val="SKILL_REDUCE_ON_SKILL_SUCCESS" />
 		<set name="material" val="FISH" />
@@ -204,8 +204,8 @@
 			<item id="49081" min="1" max="1" chance="4.347826" /> <!-- XP Growth Scroll -->
 			<item id="10649" min="1" max="1" chance="4.347826" /> <!-- Feather of Blessing -->
 			<item id="91027" min="1" max="1" chance="4.347826" /> <!-- Dragon's Miracle Potion -->
-			<item id="91114" min="1" max="1" chance="4.347826" /> <!-- Old Inventory Expansion Ticket Lv. 2 -->
-			<item id="91113" min="1" max="1" chance="4.347826" /> <!-- Old Inventory Expansion Ticket Lv. 1 -->
+			<item id="91114" min="1" max="1" chance="4.347826" /> <!-- Old Inventory Expansion Coupon Lv. 2 -->
+			<item id="91113" min="1" max="1" chance="4.347826" /> <!-- Old Inventory Expansion Coupon Lv. 1 -->
 			<item id="90172" min="1" max="1" chance="4.347826" /> <!-- Gemstone of Border -->
 			<item id="49704" min="1" max="1" chance="4.347826" /> <!-- Talisman of Border Fragment -->
 			<item id="947" min="1" max="1" chance="4.347826" /> <!-- Scroll: Enchant B-grade Weapon -->
@@ -309,7 +309,7 @@
 		<set name="time" val="43200" />
 	</item>
 	<item id="91419" name="Sapphire Lv. 5" additionalName="30-day" type="Armor">
-		<!-- Available for 30 days. Spiritshot, Blessed Spiritshot and Beast Spiritshot damage +16%. The effect doesn't stack if two identical jewels are equipped, the higher-level jewel takes precedence. -->
+		<!-- Available for 30 d. When equipped, Spiritshot/ Blessed Spiritshot/ Beast Spiritshot damage +16%. Effects of two identical jewels do not stack, the higher-level jewel takes precedence. -->
 		<set name="icon" val="icon.etc_bm_jewel_sapphire_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="bodypart" val="brooch_jewel" />
@@ -335,7 +335,7 @@
 		<set name="time" val="43200" />
 	</item>
 	<item id="91421" name="Pearl Lv. 5" additionalName="30-day" type="Armor">
-		<!-- Available for 30 days. M. Def. +74, Received M. Skill Critical Damage -10%. The effect doesn't stack if two identical jewels are equipped, the higher-level jewel takes precedence. -->
+		<!-- Available for 30 d. When equipped, M. Def. +74, received M. Skill Critical Damage -10%. Effects of two identical jewels do not stack, the higher-level jewel takes precedence. -->
 		<set name="icon" val="icon.etc_bm_jewel_pearl_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="bodypart" val="brooch_jewel" />
@@ -348,7 +348,7 @@
 		<set name="time" val="43200" />
 	</item>
 	<item id="91422" name="Queen Ant Doll Lv. 3" type="EtcItem">
-		<!-- <Queen Ant Doll's Sorcery Lv. 3>. P. Atk. +12%. P. Critical Damage +10%. P. Skill Critical Damage +10%. Max HP +15%. Boosts stats when in inventory. Can be upgraded through compounding. -->
+		<!-- <Queen Ant Doll's Sorcery Lv. 3>. P. Atk. +12%. P. Critical Damage +10%. P. Skill Critical Damage +10%. Max HP + 15%. Boosts stats when in inventory. <font color=bbaa88><Compound></font>. Materials: Queen Ant Doll Lv. 3. In case of failure, the doll's level remains the same, but materials disappear. -->
 		<set name="icon" val="icon.bm_queen_ant_doll_30d" />
 		<set name="material" val="PAPER" />
 		<set name="is_dropable" val="false" />
@@ -361,7 +361,7 @@
 		</skills>
 	</item>
 	<item id="91423" name="Baium Doll Lv. 3" type="EtcItem">
-		<!-- <Baium Doll's Sorcery Lv. 3>. Skill Cooldown -4%. P. Def. +15%. M. Def. +15%. Silence Resistance +45%. Fear Resistance +45%. Paralysis Resistance +25%. Knockback Resistance +25%. Pull Resistance +25%. Boosts stats when in inventory. Can be upgraded through compounding. -->
+		<!-- <Baium Doll's Sorcery Lv. 3>. Skill Cooldown -4%. P. Def. +15%. M. Def. +15%. Silence Resistance +45%. Fear Resistance +45%. Paralysis Resistance +25%. Knockback Resistance +25%. Pull Resistance +25%. Boosts stats when in inventory. <font color=bbaa88><Compound></font>. Materials: Baium Doll Lv. 3. In case of failure, the doll's level remains the same, but materials disappear. -->
 		<set name="icon" val="icon.bm_baium_doll_30d" />
 		<set name="material" val="PAPER" />
 		<set name="is_dropable" val="false" />
@@ -374,7 +374,7 @@
 		</skills>
 	</item>
 	<item id="91424" name="Orfen Doll Lv. 3" type="EtcItem">
-		<!-- <Orfen Doll's Sorcery Lv. 3>. M. Atk. +15%. M. Skill Critical Damage +10%. Max MP +15%. Boosts stats when in inventory. Can be upgraded through compounding. -->
+		<!-- <Orfen Doll's Sorcery Lv. 3>. M. Atk. +15%. M. Skill Critical Damage +10%. Max MP +15%. Boosts stats when in inventory. <font color=bbaa88><Compound></font>. Materials: Orfen Doll Lv. 3. In case of failure, the doll's level remains the same, but materials disappear. -->
 		<set name="icon" val="icon.bm_orfen_doll_30d" />
 		<set name="material" val="PAPER" />
 		<set name="is_dropable" val="false" />
@@ -387,7 +387,7 @@
 		</skills>
 	</item>
 	<item id="91425" name="Greater Vital Stone Lv. 5" additionalName="30-day" type="Armor">
-		<!-- Available for 30 d. When equipped, while Sayha's Grace is active, acquired XP/ SP while hunting +30%, acquired XP while huntiing in the attribute zones +50%, Sayha's Grace Consumption -35%. Effects of two identical jewels do not stack, the higher-level jewel takes precedence. -->
+		<!-- Available for 30 d. When equipped, while Sayha's Grace is active, acquired XP/ SP while hunting +30%, acquired XP while hunting in the attribute zones +50%, Sayha's Grace Consumption -35%. Effects of two identical jewels do not stack, the higher-level jewel takes precedence. -->
 		<set name="icon" val="icon.bm_jewel_vital_high_lv1_lavianrose" />
 		<set name="default_action" val="EQUIP" />
 		<set name="bodypart" val="brooch_jewel" />
@@ -515,7 +515,7 @@
 		</skills>
 	</item>
 	<item id="91433" name="Greater Jade Lv. 5" additionalName="30-day" type="Armor">
-		<!-- Available for 30 days. Atk. Spd./ Casting Spd. +20%, Speed +7%, Melee Weapon Atk. Resistance +10%. The effect doesn't stack if two identical jewels are equipped, the higher-level jewel takes precedence. -->
+		<!-- Available for 30 d. Atk. Spd./ Casting Spd. +20%, Speed +7%, Melee Weapon Resistance +10%. Effects of two identical jewels do not stack, the higher-level jewel takes precedence. -->
 		<set name="icon" val="icon.bm_jewel_speedup_lv1_high" />
 		<set name="default_action" val="EQUIP" />
 		<set name="bodypart" val="brooch_jewel" />
@@ -594,7 +594,7 @@
 		<set name="time" val="43200" />
 	</item>
 	<item id="91438" name="Shining Golden Bait Box" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.bm_gold_lure_special_box" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -609,7 +609,7 @@
 		</capsuled_items>
 	</item>
 	<item id="91439" name="Greater Vital Stone Jewelry Box Lv. 5" additionalName="30-day" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.etc_bm_jewelbox_vital_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -625,7 +625,7 @@
 		</capsuled_items>
 	</item>
 	<item id="91440" name="Greater Aquamarine Jewelry Box Lv. 5" additionalName="30-day" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.etc_bm_jewelbox_aquamarine_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -641,7 +641,7 @@
 		</capsuled_items>
 	</item>
 	<item id="91441" name="Greater Diamond Jewelry Box Lv. 5" additionalName="30-day" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.etc_bm_jewelbox_diamond_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -657,7 +657,7 @@
 		</capsuled_items>
 	</item>
 	<item id="91442" name="Greater Pearl Jewelry Box Lv. 5" additionalName="30-day" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.etc_bm_jewelbox_pearl_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -673,7 +673,7 @@
 		</capsuled_items>
 	</item>
 	<item id="91443" name="Greater Topaz Jewelry Box Lv. 5" additionalName="30-day" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.etc_bm_jewelbox_topaz_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -689,7 +689,7 @@
 		</capsuled_items>
 	</item>
 	<item id="91444" name="Greater Garnet Jewelry Box Lv. 5" additionalName="30-day" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.etc_bm_jewelbox_garnet_i01" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -705,7 +705,7 @@
 		</capsuled_items>
 	</item>
 	<item id="91445" name="Greater Ruby Jewelry Box Lv. 5" additionalName="30-day" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.etc_bm_jewelbox_ruby_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -721,7 +721,7 @@
 		</capsuled_items>
 	</item>
 	<item id="91446" name="Greater Sapphire Jewelry Box Lv. 5" additionalName="30-day" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.etc_bm_jewelbox_sapphire_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -737,7 +737,7 @@
 		</capsuled_items>
 	</item>
 	<item id="91447" name="Greater Jade Jewelry Box Lv. 5" additionalName="30-day" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.etc_bm_jewelbox_jade_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -753,7 +753,7 @@
 		</capsuled_items>
 	</item>
 	<item id="91448" name="Greater Cat's Eye Jewelry Box Lv. 5" additionalName="30-day" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.bm_jewelbox_red_catseye_lavianrose" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -769,7 +769,7 @@
 		</capsuled_items>
 	</item>
 	<item id="91449" name="Greater Emerald Jewelry Box Lv. 5" additionalName="30-day" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.etc_bm_jewelbox_emerald_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -785,7 +785,7 @@
 		</capsuled_items>
 	</item>
 	<item id="91450" name="Zaken's Earring Box Lv. 3" additionalName="30-day" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.npoint_earthworm_30day_box" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -801,7 +801,7 @@
 		</capsuled_items>
 	</item>
 	<item id="91451" name="Baium's Ring Box Lv. 3" additionalName="30-day" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.npoint_tauti_30day_box" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -817,7 +817,7 @@
 		</capsuled_items>
 	</item>
 	<item id="91452" name="Blessed Dragon Pendant Box" additionalName="30-day" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.etc_pi_box_belief_pack" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -833,7 +833,7 @@
 		</capsuled_items>
 	</item>
 	<item id="91453" name="+10 Sayha's Cloak Chest" additionalName="30-day" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.npoint_earring_of_lind_30day_box" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -849,7 +849,7 @@
 		</capsuled_items>
 	</item>
 	<item id="91454" name="+10 White Sayha's Cloak Chest" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.etc_treasure_box_i00" />
 		<set name="default_action" val="SKILL_REDUCE_ON_SKILL_SUCCESS" />
 		<set name="material" val="FISH" />
@@ -863,7 +863,7 @@
 		</skills>
 	</item>
 	<item id="91455" name="+10 Black Sayha's Cloak Chest" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.etc_treasure_box_i05" />
 		<set name="default_action" val="SKILL_REDUCE_ON_SKILL_SUCCESS" />
 		<set name="material" val="FISH" />
@@ -877,7 +877,7 @@
 		</skills>
 	</item>
 	<item id="91456" name="+10 Red Sayha's Cloak Chest" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.etc_treasure_box_i03" />
 		<set name="default_action" val="SKILL_REDUCE_ON_SKILL_SUCCESS" />
 		<set name="material" val="FISH" />
@@ -977,60 +977,132 @@
 		<!-- <font color=bbaa88><When enchanted from +1 to +3></font>. One-handed sword/ blunt weapon, dagger, rapier, spear: P. Atk. +4, M. Atk. +3. Two-handed sword/ blunt weapon, dual swords, fist weapon, ancient sword: P. Atk. +5, M. Atk. +3. Bow, firearms: P. Atk. +8, M. Atk. +3. <font color=bbaa88><When enchanted to +4 or higher></font>. One-handed sword/ blunt weapon, dagger, rapier, spear: P. Atk. +8, M. Atk. +6. Two-handed sword/ blunt weapon, dual swords, fist weapon, ancient sword: P. Atk. +10, M. Atk. +6. Bow, firearms: P. Atk. +16, M. Atk. +6. <font color=eeaa22>Safe enchanting to +4. In case of failure the enchant value remains the same. For items enchanted from +7 to +15.</font>. <font color=ff6666>Cannot be used for mass enchanting.</font> -->
 		<set name="icon" val="icon.giant_scrl_of_ench_wp_d" />
 		<set name="default_action" val="SKILL_REDUCE" />
+		<set name="etcitem_type" val="ENCHT_ATTR_ANCIENT_CRYSTAL_ENCHANT_WP" />
+		<set name="immediate_effect" val="true" />
 		<set name="material" val="PAPER" />
 		<set name="is_stackable" val="true" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="handler" val="EnchantScrolls" />
+		<set name="commissionItemType" val="SCROLL_ENCHANT_WEAPON" />
+		<set name="is_sellable" val="false" />
+		<skills>
+			<skill id="51263" level="1" />
+		</skills>
 	</item>
 	<item id="91465" name="High-grade Stable Scroll: Enchant D-grade Armor" type="EtcItem">
 		<!-- <font color=bbaa88><When enchanted from +1 to +3></font>. Armor: P. Def. +1. Accessories: M. Def. +1. <font color=bbaa88><When enchanted to +4 or higher></font>. Armor: P. Def. +3. Accessories: M. Def. +3. <font color=eeaa22>Safe enchanting to +4. In case of failure the enchant value remains the same. For armor and accessories enchanted from +6 to +9</font>. <font color=ff6666>Cannot be used for mass enchanting.</font> -->
 		<set name="icon" val="icon.giant_scrl_of_ench_am_d" />
 		<set name="default_action" val="SKILL_REDUCE" />
+		<set name="etcitem_type" val="ENCHT_ATTR_ANCIENT_CRYSTAL_ENCHANT_AM" />
+		<set name="immediate_effect" val="true" />
 		<set name="material" val="PAPER" />
 		<set name="is_stackable" val="true" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="handler" val="EnchantScrolls" />
+		<set name="commissionItemType" val="SCROLL_ENCHANT_ARMOR" />
+		<set name="is_sellable" val="false" />
+		<skills>
+			<skill id="51264" level="1" />
+		</skills>
 	</item>
 	<item id="91466" name="High-grade Stable Scroll: Enchant C-grade Weapon" type="EtcItem">
 		<!-- <font color=bbaa88><When enchanted from +1 to +3></font>. One-handed sword/ blunt weapon, dagger, rapier, spear: P. Atk. +4, M. Atk. +3. Two-handed sword/ blunt weapon, dual swords, fist weapon, ancient sword: P. Atk. +5, M. Atk. +3. Bow, firearms: P. Atk. +8, M. Atk. +3. <font color=bbaa88><When enchanted to +4 or higher></font>. One-handed sword/ blunt weapon, dagger, rapier, spear: P. Atk. +8, M. Atk. +6. Two-handed sword/ blunt weapon, dual swords, fist weapon, ancient sword: P. Atk. +10, M. Atk. +6. Bow, firearms: P. Atk. +16, M. Atk. +6. <font color=eeaa22>Safe enchanting to +4. In case of failure the enchant value remains the same. For items enchanted from +7 to +15.</font>. <font color=ff6666>Cannot be used for mass enchanting.</font> -->
 		<set name="icon" val="icon.giant_scrl_of_ench_wp_c" />
 		<set name="default_action" val="SKILL_REDUCE" />
+		<set name="etcitem_type" val="ENCHT_ATTR_ANCIENT_CRYSTAL_ENCHANT_WP" />
+		<set name="immediate_effect" val="true" />
 		<set name="material" val="PAPER" />
 		<set name="is_stackable" val="true" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="handler" val="EnchantScrolls" />
+		<set name="commissionItemType" val="SCROLL_ENCHANT_WEAPON" />
+		<set name="is_sellable" val="false" />
+		<skills>
+			<skill id="51265" level="1" />
+		</skills>
 	</item>
 	<item id="91467" name="High-grade Stable Scroll: Enchant C-grade Armor" type="EtcItem">
 		<!-- <font color=bbaa88><When enchanted from +1 to +3></font>. Armor: P. Def. +1. Accessories: M. Def. +1. <font color=bbaa88><When enchanted to +4 or higher></font>. Armor: P. Def. +3. Accessories: M. Def. +3. <font color=eeaa22>Safe enchanting to +4. In case of failure the enchant value remains the same. For armor and accessories enchanted from +6 to +9</font>. <font color=ff6666>Cannot be used for mass enchanting.</font> -->
 		<set name="icon" val="icon.giant_scrl_of_ench_am_c" />
 		<set name="default_action" val="SKILL_REDUCE" />
+		<set name="etcitem_type" val="ENCHT_ATTR_ANCIENT_CRYSTAL_ENCHANT_AM" />
+		<set name="immediate_effect" val="true" />
 		<set name="material" val="PAPER" />
 		<set name="is_stackable" val="true" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="handler" val="EnchantScrolls" />
+		<set name="commissionItemType" val="SCROLL_ENCHANT_ARMOR" />
+		<set name="is_sellable" val="false" />
+		<skills>
+			<skill id="51266" level="1" />
+		</skills>
 	</item>
 	<item id="91468" name="High-grade Stable Scroll: Enchant B-grade Weapon" type="EtcItem">
 		<!-- <font color=bbaa88><When enchanted from +1 to +3></font>. One-handed sword/ blunt weapon, dagger, rapier, spear: P. Atk. +4, M. Atk. +3. Two-handed sword/ blunt weapon, dual swords, fist weapon, ancient sword: P. Atk. +5, M. Atk. +3. Bow, firearms: P. Atk. +8, M. Atk. +3. <font color=bbaa88><When enchanted to +4 or higher></font>. One-handed sword/ blunt weapon, dagger, rapier, spear: P. Atk. +8, M. Atk. +6. Two-handed sword/ blunt weapon, dual swords, fist weapon, ancient sword: P. Atk. +10, M. Atk. +6. Bow, firearms: P. Atk. +16, M. Atk. +6. <font color=eeaa22>Safe enchanting to +4. In case of failure the enchant value remains the same. For items enchanted from +7 to +15.</font>. <font color=ff6666>Cannot be used for mass enchanting.</font> -->
 		<set name="icon" val="icon.giant_scrl_of_ench_wp_b" />
 		<set name="default_action" val="SKILL_REDUCE" />
+		<set name="etcitem_type" val="ENCHT_ATTR_ANCIENT_CRYSTAL_ENCHANT_WP" />
+		<set name="immediate_effect" val="true" />
 		<set name="material" val="PAPER" />
 		<set name="is_stackable" val="true" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="handler" val="EnchantScrolls" />
+		<set name="commissionItemType" val="SCROLL_ENCHANT_WEAPON" />
+		<set name="is_sellable" val="false" />
+		<skills>
+			<skill id="51267" level="1" />
+		</skills>
 	</item>
 	<item id="91469" name="High-grade Stable Scroll: Enchant B-grade Armor" type="EtcItem">
 		<!-- <font color=bbaa88><When enchanted from +1 to +3></font>. Armor: P. Def. +1. Accessories: M. Def. +1. <font color=bbaa88><When enchanted to +4 or higher></font>. Armor: P. Def. +3. Accessories: M. Def. +3. <font color=eeaa22>Safe enchanting to +4. In case of failure the enchant value remains the same. For armor and accessories enchanted from +6 to +9</font>. <font color=ff6666>Cannot be used for mass enchanting.</font> -->
 		<set name="icon" val="icon.giant_scrl_of_ench_am_b" />
 		<set name="default_action" val="SKILL_REDUCE" />
+		<set name="etcitem_type" val="ENCHT_ATTR_ANCIENT_CRYSTAL_ENCHANT_AM" />
+		<set name="immediate_effect" val="true" />
 		<set name="material" val="PAPER" />
 		<set name="is_stackable" val="true" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="handler" val="EnchantScrolls" />
+		<set name="commissionItemType" val="SCROLL_ENCHANT_ARMOR" />
+		<set name="is_sellable" val="false" />
+		<skills>
+			<skill id="51268" level="1" />
+		</skills>
 	</item>
 	<item id="91470" name="High-grade Stable Scroll: Enchant A-grade Weapon" type="EtcItem">
 		<!-- <font color=bbaa88><When enchanted from +1 to +3></font>. One-handed sword/ blunt weapon, dagger, rapier, spear: P. Atk. +10, M. Atk. +6. Two-handed sword/ blunt weapon, dual swords, fist weapon, ancient sword: P. Atk. +12, M. Atk. +6. Bow, firearms: P. Atk. +16, M. Atk. +6. <font color=bbaa88><When enchanted to +4 or higher></font>. One-handed sword/ blunt weapon, dagger, rapier, spear: P. Atk. +30, M. Atk. +18. Two-handed sword/ blunt weapon, dual swords, fist weapon, ancient sword: P. Atk. +36, M. Atk. +18. Bow, firearms: P. Atk. +48, M. Atk. +18. <font color=eeaa22>Safe enchanting to +4. In case of failure the enchant value remains the same. For items enchanted from +7 to +15.</font>. <font color=ff6666>Cannot be used for mass enchanting.</font> -->
 		<set name="icon" val="icon.giant_scrl_of_ench_wp_a" />
 		<set name="default_action" val="SKILL_REDUCE" />
+		<set name="etcitem_type" val="ENCHT_ATTR_ANCIENT_CRYSTAL_ENCHANT_WP" />
+		<set name="immediate_effect" val="true" />
 		<set name="material" val="PAPER" />
 		<set name="is_stackable" val="true" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="handler" val="EnchantScrolls" />
+		<set name="commissionItemType" val="SCROLL_ENCHANT_WEAPON" />
+		<set name="is_sellable" val="false" />
+		<skills>
+			<skill id="51269" level="1" />
+		</skills>
 	</item>
 	<item id="91471" name="High-grade Stable Scroll: Enchant A-grade Armor" type="EtcItem">
 		<!-- <font color=bbaa88><When enchanted from +1 to +3></font>. Armor: P. Def. +4. Accessories: M. Def. +3. <font color=bbaa88><When enchanted to +4 or higher></font>. Armor: P. Def. +9. Accessories: M. Def. +7. <font color=eeaa22>Safe enchanting to +4. In case of failure the enchant value remains the same. For armor and accessories enchanted from +6 to +9</font>. <font color=ff6666>Cannot be used for mass enchanting.</font> -->
 		<set name="icon" val="icon.giant_scrl_of_ench_am_a" />
 		<set name="default_action" val="SKILL_REDUCE" />
+		<set name="etcitem_type" val="ENCHT_ATTR_ANCIENT_CRYSTAL_ENCHANT_AM" />
+		<set name="immediate_effect" val="true" />
 		<set name="material" val="PAPER" />
 		<set name="is_stackable" val="true" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="handler" val="EnchantScrolls" />
+		<set name="commissionItemType" val="SCROLL_ENCHANT_ARMOR" />
+		<set name="is_sellable" val="false" />
+		<skills>
+			<skill id="51270" level="1" />
+		</skills>
 	</item>
 	<item id="91472" name="+5 Sealed Agathion Virgo" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.agathion_virgo_star_1" />
 		<set name="default_action" val="SKILL_REDUCE_ON_SKILL_SUCCESS" />
 		<set name="material" val="FISH" />
@@ -1044,7 +1116,7 @@
 		</capsuled_items>
 	</item>
 	<item id="91473" name="+5 Sealed Agathion Capricorn" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.agathion_capr_star_1" />
 		<set name="default_action" val="SKILL_REDUCE_ON_SKILL_SUCCESS" />
 		<set name="material" val="FISH" />
@@ -1058,7 +1130,7 @@
 		</capsuled_items>
 	</item>
 	<item id="91474" name="+5 Sealed Agathion Libra" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.agathion_lib_star_1" />
 		<set name="default_action" val="SKILL_REDUCE_ON_SKILL_SUCCESS" />
 		<set name="material" val="FISH" />
@@ -1072,7 +1144,7 @@
 		</capsuled_items>
 	</item>
 	<item id="91475" name="+5 Sealed Agathion Taurus" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.agathion_tau_star_1" />
 		<set name="default_action" val="SKILL_REDUCE_ON_SKILL_SUCCESS" />
 		<set name="material" val="FISH" />
@@ -1086,7 +1158,7 @@
 		</capsuled_items>
 	</item>
 	<item id="91476" name="+5 Sealed Agathion Leo" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.agathion_leo_star_1" />
 		<set name="default_action" val="SKILL_REDUCE_ON_SKILL_SUCCESS" />
 		<set name="material" val="FISH" />
@@ -1100,7 +1172,7 @@
 		</capsuled_items>
 	</item>
 	<item id="91477" name="+5 Sealed Agathion Gemini" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.agathion_gem_star_1" />
 		<set name="default_action" val="SKILL_REDUCE_ON_SKILL_SUCCESS" />
 		<set name="material" val="FISH" />
@@ -1114,7 +1186,7 @@
 		</capsuled_items>
 	</item>
 	<item id="91478" name="+5 Sealed Agathion Scorpio" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.agathion_sco_star_1" />
 		<set name="default_action" val="SKILL_REDUCE_ON_SKILL_SUCCESS" />
 		<set name="material" val="FISH" />
@@ -1128,7 +1200,7 @@
 		</capsuled_items>
 	</item>
 	<item id="91479" name="+5 Sealed Agathion Aquarius" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.agathion_aqu_star_1" />
 		<set name="default_action" val="SKILL_REDUCE_ON_SKILL_SUCCESS" />
 		<set name="material" val="FISH" />
@@ -1142,7 +1214,7 @@
 		</capsuled_items>
 	</item>
 	<item id="91480" name="+5 Sealed Agathion Sagittarius" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.agathion_sag_star_1" />
 		<set name="default_action" val="SKILL_REDUCE_ON_SKILL_SUCCESS" />
 		<set name="material" val="FISH" />
@@ -1185,7 +1257,7 @@
 		</cond>
 	</item>
 	<item id="91484" name="Scroll: Mass Chain Strike" type="EtcItem">
-		<!-- A scroll for learning the Mass Chain Strike skill. <Classes>. Phoenix Knight, Hell Knight, Eva's Templar, Shillien Templar. <Skill effect>. Pulls a selected target and the enemies surrounding it and provokes. -->
+		<!-- A scroll for learning the Mass Chain Strike skill. <Classes>. Phoenix Knight, Hell Knight, Eva's Templar, Shillien Templar. <Skill effect>. Pulls a selected target and nearby enemies to you and provokes them to attack. -->
 		<set name="icon" val="icon.etc_magic_book_black_i00" />
 		<set name="material" val="PAPER" />
 		<set name="is_stackable" val="true" />
@@ -1324,7 +1396,7 @@
 		<set name="is_stackable" val="true" />
 	</item>
 	<item id="91498" name="Tallum Blade and Dark Legion's Edge Chest" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.etc_treasure_box_i05" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -1339,7 +1411,7 @@
 		</capsuled_items>
 	</item>
 	<item id="91499" name="Forgotten Blade Crafting Pack" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.event_hero_treasure_box_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />

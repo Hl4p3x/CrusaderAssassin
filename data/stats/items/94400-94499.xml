@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/items.xsd">
 	<item id="94400" name="Package: +4 Ring of Core" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.accessory_ring_of_core_i03" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -16,7 +16,7 @@
 		</capsuled_items>
 	</item>
 	<item id="94401" name="Package: +5 Ring of Core" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.accessory_ring_of_core_i03" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -31,7 +31,7 @@
 		</capsuled_items>
 	</item>
 	<item id="94402" name="Package: +1 Baium's Ring" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.accessory_ring_of_baium_i03" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -46,7 +46,7 @@
 		</capsuled_items>
 	</item>
 	<item id="94403" name="Package: +2 Baium's Ring" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.accessory_ring_of_baium_i03" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -61,7 +61,7 @@
 		</capsuled_items>
 	</item>
 	<item id="94404" name="Package: +3 Baium's Ring" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.accessory_ring_of_baium_i03" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -76,7 +76,7 @@
 		</capsuled_items>
 	</item>
 	<item id="94405" name="Package: +4 Baium's Ring" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.accessory_ring_of_baium_i03" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -91,7 +91,7 @@
 		</capsuled_items>
 	</item>
 	<item id="94406" name="Package: +5 Baium's Ring" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.accessory_ring_of_baium_i03" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -106,7 +106,7 @@
 		</capsuled_items>
 	</item>
 	<item id="94407" name="Package: +1 Zaken's Earring" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.accessory_earring_of_zaken_i03" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -121,7 +121,7 @@
 		</capsuled_items>
 	</item>
 	<item id="94408" name="Package: +2 Zaken's Earring" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.accessory_earring_of_zaken_i03" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -136,7 +136,7 @@
 		</capsuled_items>
 	</item>
 	<item id="94409" name="Package: +3 Zaken's Earring" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.accessory_earring_of_zaken_i03" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -151,7 +151,7 @@
 		</capsuled_items>
 	</item>
 	<item id="94410" name="Package: +4 Zaken's Earring" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.accessory_earring_of_zaken_i03" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -166,7 +166,7 @@
 		</capsuled_items>
 	</item>
 	<item id="94411" name="Package: +5 Zaken's Earring" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.accessory_earring_of_zaken_i03" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -181,7 +181,7 @@
 		</capsuled_items>
 	</item>
 	<item id="94412" name="Package: +1 Frintezza's Necklace" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.accessory_necklace_of_frintessa_i04" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -196,7 +196,7 @@
 		</capsuled_items>
 	</item>
 	<item id="94413" name="Package: +2 Frintezza's Necklace" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.accessory_necklace_of_frintessa_i04" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -211,7 +211,7 @@
 		</capsuled_items>
 	</item>
 	<item id="94414" name="Package: +3 Frintezza's Necklace" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.accessory_necklace_of_frintessa_i04" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -226,7 +226,7 @@
 		</capsuled_items>
 	</item>
 	<item id="94415" name="Package: +4 Frintezza's Necklace" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.accessory_necklace_of_frintessa_i04" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -241,7 +241,7 @@
 		</capsuled_items>
 	</item>
 	<item id="94416" name="Package: +5 Frintezza's Necklace" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.accessory_necklace_of_frintessa_i04" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -256,7 +256,7 @@
 		</capsuled_items>
 	</item>
 	<item id="94417" name="Package: +1 Antharas' Earring" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.accessory_earring_of_antaras_i02" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -271,7 +271,7 @@
 		</capsuled_items>
 	</item>
 	<item id="94418" name="Package: +2 Antharas' Earring" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.accessory_earring_of_antaras_i02" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -286,7 +286,7 @@
 		</capsuled_items>
 	</item>
 	<item id="94419" name="Package: +3 Antharas' Earring" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.accessory_earring_of_antaras_i02" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -301,7 +301,7 @@
 		</capsuled_items>
 	</item>
 	<item id="94420" name="Package: +4 Antharas' Earring" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.accessory_earring_of_antaras_i02" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -316,7 +316,7 @@
 		</capsuled_items>
 	</item>
 	<item id="94421" name="Package: +5 Antharas' Earring" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.accessory_earring_of_antaras_i02" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -331,7 +331,7 @@
 		</capsuled_items>
 	</item>
 	<item id="94422" name="Elixir Powder Pouch" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.pouch_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -382,7 +382,7 @@
 			<item id="91641" min="5" max="5" chance="25.0" /> <!-- Sayha's Blessing - Sealed -->
 			<item id="94269" min="2" max="2" chance="15.0" /> <!-- Scroll: Boost Attack - Sealed -->
 			<item id="94271" min="2" max="2" chance="15.0" /> <!-- Scroll: Boost Defense - Sealed -->
-			<item id="91712" min="2" max="2" chance="10.0" /> <!-- Sayha's Storm Lv. 3 - Sealed -->
+			<item id="91712" min="2" max="2" chance="10.0" /> <!-- Sayha's Storm - Sealed -->
 			<item id="94210" min="1" max="1" chance="3.44" /> <!-- Augmenting Stone: Weapon - Sealed -->
 			<item id="94212" min="1" max="1" chance="3.44" /> <!-- Augmenting Stone: Armor - Sealed -->
 			<item id="94304" min="1" max="1" chance="3.44" /> <!-- Augmenting Stone: Circlet - Sealed -->
@@ -411,10 +411,10 @@
 			<item id="93387" min="1" max="1" chance="0.01" /> <!-- Spellbook: Ultimate Death Knight Transformation -->
 			<item id="94319" min="1" max="1" chance="0.01" /> <!-- Spellbook: Sword Symphony -->
 			<item id="94320" min="1" max="1" chance="0.01" /> <!-- Spellbook: Dance of Blood -->
-			<item id="94324" min="1" max="1" chance="0.01" /> <!-- Spellbook: Song of Earth -->
-			<item id="94325" min="1" max="1" chance="0.01" /> <!-- Spellbook: Song of Hunter -->
-			<item id="94326" min="1" max="1" chance="0.01" /> <!-- Spellbook: Dance of Warrior -->
-			<item id="94327" min="1" max="1" chance="0.01" /> <!-- Spellbook: Dance of Fire -->
+			<item id="94324" min="1" max="1" chance="0.01" /> <!-- Spellbook: Song of Earth Lv. 2 -->
+			<item id="94325" min="1" max="1" chance="0.01" /> <!-- Spellbook: Song of Hunter Lv. 2 -->
+			<item id="94326" min="1" max="1" chance="0.01" /> <!-- Spellbook: Dance of Warrior Lv. 2 -->
+			<item id="94327" min="1" max="1" chance="0.01" /> <!-- Spellbook: Dance of Fire Lv. 2 -->
 			<item id="6660" min="1" max="1" chance="0.001" /> <!-- Queen Ant's Ring -->
 			<item id="6661" min="1" max="1" chance="0.001" /> <!-- Orfen's Earring -->
 			<item id="6662" min="1" max="1" chance="0.001" /> <!-- Ring of Core -->
@@ -428,7 +428,7 @@
 		</capsuled_items>
 	</item>
 	<item id="94426" name="Package: Frintezza's Necklace" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.accessory_necklace_of_frintessa_i04" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -463,7 +463,7 @@
 		</stats>
 	</item>
 	<item id="94428" name="+2 Zaken's Earring Box" additionalName="7-day" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.bm_freya_gift_box" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -636,7 +636,7 @@
 		</capsuled_items>
 	</item>
 	<item id="94436" name="Jewelry Box Lv. 3" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.etc_bm_jewelbox_main_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -924,7 +924,7 @@
 		</capsuled_items>
 	</item>
 	<item id="94456" name="Augustina's Support Box Lv. 76 (Time-limited)" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to obtain the following items. <Guaranteed>. Enchant Kit: Circlet of Hero. Inventory Expansion Ticket Lv. 1. Sayha's Cookie (200 pcs.) -->
+		<!-- Double-click to obtain the following items. <Guaranteed>. Enchant Kit: Circlet of Hero. Inventory Expansion Coupon Lv. 1. Sayha's Cookie (200 pcs.) -->
 		<set name="icon" val="icon.etc_pi_box_wish_pack" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -935,7 +935,7 @@
 		<set name="material" val="FISH" />
 		<set name="handler" val="ExtractableItems" />
 		<capsuled_items>
-			<item id="92004" min="1" max="1" chance="100" /> <!-- Inventory Expansion Ticket Lv. 1 - Sealed -->
+			<item id="92004" min="1" max="1" chance="100" /> <!-- Inventory Expansion Coupon - Sealed -->
 			<item id="93848" min="200" max="200" chance="100" /> <!-- Sayha's Cookie (Time-limited) - Sealed -->
 			<item id="94168" min="1" max="1" chance="100" /> <!-- Enchant Kit: Circlet of Hero - Sealed -->
 		</capsuled_items>
@@ -1217,7 +1217,7 @@
 		<set name="material" val="LIQUID" />
 	</item>
 	<item id="94479" name="Pet XP Crystal (Exchangeable) - Not Available" additionalName="Not used" type="EtcItem">
-		<!-- The item is not available. Applies the following effect. <When used>. XP +100,000,000 for a summoned pet. Note!. Can be used only when a pet is summoned. -->
+		<!-- The item is not available. Applies the following effect. <When used>. XP +100,000,000 for a summoned pet. Note!. Can only be used when a pet is summoned. -->
 		<set name="icon" val="icon.etc_ertheia2" />
 		<set name="default_action" val="SKILL_REDUCE" />
 		<set name="is_sellable" val="false" />
@@ -1225,7 +1225,7 @@
 		<set name="material" val="PAPER" />
 	</item>
 	<item id="94480" name="Pet XP Crystal" additionalName="Sealed" type="EtcItem">
-		<!-- Applies the following effect. <When used>. XP +100,000,000 for a summoned pet. Note!. Can be used only when a pet is summoned. -->
+		<!-- Applies the following effect. <When used>. XP +100,000,000 for a summoned pet. Note!. Can only be used when a pet is summoned. -->
 		<set name="icon" val="icon.r99_soul_stone_piece_i04" />
 		<set name="default_action" val="SKILL_REDUCE" />
 		<set name="is_tradable" val="false" />
@@ -1410,7 +1410,7 @@
 			<item id="94329" min="1" max="1" chance="14.28571" /> <!-- Package: Giran Seal (500 pcs.) - Sealed -->
 			<item id="92020" min="1" max="1" chance="14.28571" /> <!-- Enchant Kit: Talisman of Eva - Sealed -->
 			<item id="91767" min="1" max="1" chance="14.28571" /> <!-- Enchant Kit: Talisman of Aden - Sealed -->
-			<item id="91712" min="15" max="15" chance="14.28571" /> <!-- Sayha's Storm Lv. 3 - Sealed -->
+			<item id="91712" min="15" max="15" chance="14.28571" /> <!-- Sayha's Storm - Sealed -->
 		</capsuled_items>
 	</item>
 	<item id="94492" name="Mysterious Pack Lv. 4 (Time-limited)" type="EtcItem">

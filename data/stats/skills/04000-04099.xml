@@ -276,7 +276,7 @@
 		</effects>
 	</skill>
 	<skill id="4018" toLevel="1" name="Decrease Speed">
-		<!-- Immediately target's Speed -30%. -->
+		<!-- Momentarily the target's Speed -30%. -->
 		<icon>icon.skill4018</icon>
 		<abnormalLevel>3</abnormalLevel>
 		<abnormalTime>60</abnormalTime>
@@ -307,7 +307,7 @@
 		</effects>
 	</skill>
 	<skill id="4019" toLevel="1" name="Decrease Speed">
-		<!-- Immediately target's Speed -30%, decreases character's HP. -->
+		<!-- Momentarily the target's Speed -30%, the character's HP decreased. -->
 		<icon>icon.skill4019</icon>
 		<abnormalLevel>3</abnormalLevel>
 		<abnormalTime>60</abnormalTime>
@@ -359,7 +359,7 @@
 		</effects>
 	</skill>
 	<skill id="4021" toLevel="1" name="Queen Ant">
-		<!-- The forbidden magic that the Ivory Tower's wizards used to seal Beleth also affected monsters from the Wasteland. The Queen Ant absorbed this power of chaos and spawned countless hordes of giant insects. -->
+		<!-- The forbidden magic that the Ivory Tower's wizards used to seal Beleth, also affected monsters from the Wasteland. The Queen Ant absorbed this power of chaos and spawned countless hordes of giant insects. -->
 		<icon>icon.skillboss</icon>
 		<magicLevel>40</magicLevel>
 		<operateType>P</operateType>
@@ -809,7 +809,7 @@
 		</effects>
 	</skill>
 	<skill id="4034" toLevel="12" name="Ice Bolt">
-		<!-- Immediately target's Speed -20%. -->
+		<!-- Momentarily the target's Speed -20%. -->
 		<icon>icon.skill1184</icon>
 		<abnormalLevel>2</abnormalLevel>
 		<abnormalTime>60</abnormalTime>
@@ -1100,7 +1100,7 @@
 		</effects>
 	</skill>
 	<skill id="4038" toLevel="5" name="Shackle">
-		<!-- Immediately Atk. Spd. -17%. -->
+		<!-- Momentarily Atk. Spd. -17%. -->
 		<icon>icon.skill4038</icon>
 		<abnormalLevel>
 			<value level="1">1</value>
@@ -2458,7 +2458,7 @@
 		</effects>
 	</skill>
 	<skill id="4070" toLevel="1" name="Decrease Atk. Spd.">
-		<!-- Immediately Atk. Spd. -23%. -->
+		<!-- Momentarily Atk. Spd. -23%. -->
 		<icon>icon.skill1206</icon>
 		<abnormalLevel>3</abnormalLevel>
 		<abnormalTime>5</abnormalTime>
@@ -2773,7 +2773,7 @@
 		</effects>
 	</skill>
 	<skill id="4076" toLevel="3" name="Slow">
-		<!-- Immediately target's Speed -10%. -->
+		<!-- Momentarily the target's Speed -10%. -->
 		<icon>icon.skill1160</icon>
 		<abnormalLevel>
 			<value level="1">1</value>
@@ -3253,7 +3253,7 @@
 		</effects>
 	</skill>
 	<skill id="4089" toLevel="1" name="Spirit Bear">
-		<!-- P. Atk. +15% and Speed +15%. -->
+		<!-- P. Atk. +15%, Speed -15%. -->
 		<icon>icon.skill0076</icon>
 		<abnormalLevel>1</abnormalLevel>
 		<abnormalTime>300</abnormalTime>

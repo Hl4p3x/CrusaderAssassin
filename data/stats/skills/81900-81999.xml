@@ -20,23 +20,23 @@
 		<icon>icon.skill0000</icon>
 		<operateType>A1</operateType>
 	</skill>
-	<skill id="81905" toLevel="1" name="Mark of the King I">
+	<skill id="81905" toLevel="1" name="King's Mark I">
 		<icon>icon.skill0000</icon>
 		<operateType>A1</operateType>
 	</skill>
-	<skill id="81906" toLevel="1" name="Mark of the King II">
+	<skill id="81906" toLevel="1" name="King's Mark II">
 		<icon>icon.skill0000</icon>
 		<operateType>A1</operateType>
 	</skill>
-	<skill id="81907" toLevel="1" name="Mark of the King III">
+	<skill id="81907" toLevel="1" name="King's Mark III">
 		<icon>icon.skill0000</icon>
 		<operateType>A1</operateType>
 	</skill>
-	<skill id="81908" toLevel="1" name="Mark of the King IV">
+	<skill id="81908" toLevel="1" name="King's Mark IV">
 		<icon>icon.skill0000</icon>
 		<operateType>A1</operateType>
 	</skill>
-	<skill id="81909" toLevel="1" name="Mark of the King V">
+	<skill id="81909" toLevel="1" name="King's Mark V">
 		<icon>icon.skill0000</icon>
 		<operateType>A1</operateType>
 	</skill>
@@ -347,5 +347,174 @@
 	<skill id="81986" toLevel="1" name="Summons to the Tower of Insolence">
 		<icon>icon.skill0000</icon>
 		<operateType>A1</operateType>
+	</skill>
+	<skill id="81987" toLevel="1" name="May the force be with you I">
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+		<isMagic>0</isMagic>
+		<mpConsume>0</mpConsume>
+		<castRange>-1</castRange>
+		<hitTime>0</hitTime>
+		<coolTime>0</coolTime>
+		<reuseDelay>0</reuseDelay>
+		<effectPoint>0</effectPoint>
+		<hpConsume>0</hpConsume>
+		<abnormalTime>0</abnormalTime>
+	</skill>
+	<skill id="81988" toLevel="1" name="May the force be with you II">
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+		<isMagic>0</isMagic>
+		<mpConsume>0</mpConsume>
+		<castRange>-1</castRange>
+		<hitTime>0</hitTime>
+		<coolTime>0</coolTime>
+		<reuseDelay>0</reuseDelay>
+		<effectPoint>0</effectPoint>
+		<hpConsume>0</hpConsume>
+		<abnormalTime>0</abnormalTime>
+	</skill>
+	<skill id="81989" toLevel="1" name="Reconnaissance in Kelbim's Fortress I">
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+		<isMagic>0</isMagic>
+		<mpConsume>0</mpConsume>
+		<castRange>-1</castRange>
+		<hitTime>0</hitTime>
+		<coolTime>0</coolTime>
+		<reuseDelay>0</reuseDelay>
+		<effectPoint>0</effectPoint>
+		<hpConsume>0</hpConsume>
+		<abnormalTime>0</abnormalTime>
+	</skill>
+	<skill id="81990" toLevel="1" name="Reconnaissance in Kelbim's Fortress II">
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+		<isMagic>0</isMagic>
+		<mpConsume>0</mpConsume>
+		<castRange>-1</castRange>
+		<hitTime>0</hitTime>
+		<coolTime>0</coolTime>
+		<reuseDelay>0</reuseDelay>
+		<effectPoint>0</effectPoint>
+		<hpConsume>0</hpConsume>
+		<abnormalTime>0</abnormalTime>
+	</skill>
+	<skill id="81991" toLevel="1" name="Exploring Pagan Temple I">
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+		<isMagic>0</isMagic>
+		<mpConsume>0</mpConsume>
+		<castRange>-1</castRange>
+		<hitTime>0</hitTime>
+		<coolTime>0</coolTime>
+		<reuseDelay>0</reuseDelay>
+		<effectPoint>0</effectPoint>
+		<hpConsume>0</hpConsume>
+		<abnormalTime>0</abnormalTime>
+	</skill>
+	<skill id="81992" toLevel="1" name="Exploring Pagan Temple II">
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+		<isMagic>0</isMagic>
+		<mpConsume>0</mpConsume>
+		<castRange>-1</castRange>
+		<hitTime>0</hitTime>
+		<coolTime>0</coolTime>
+		<reuseDelay>0</reuseDelay>
+		<effectPoint>0</effectPoint>
+		<hpConsume>0</hpConsume>
+		<abnormalTime>0</abnormalTime>
+	</skill>
+	<skill id="81993" toLevel="1" name="Sealed Collection Book">
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+		<isMagic>0</isMagic>
+		<mpConsume>0</mpConsume>
+		<castRange>-1</castRange>
+		<hitTime>0</hitTime>
+		<coolTime>0</coolTime>
+		<reuseDelay>0</reuseDelay>
+		<effectPoint>0</effectPoint>
+		<hpConsume>0</hpConsume>
+		<abnormalTime>0</abnormalTime>
+	</skill>
+	<skill id="81994" toLevel="1" name="Unsealed Collection Book">
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+		<isMagic>0</isMagic>
+		<mpConsume>0</mpConsume>
+		<castRange>-1</castRange>
+		<hitTime>0</hitTime>
+		<coolTime>0</coolTime>
+		<reuseDelay>0</reuseDelay>
+		<effectPoint>0</effectPoint>
+		<hpConsume>0</hpConsume>
+		<abnormalTime>0</abnormalTime>
+	</skill>
+	<skill id="81995" toLevel="1" name="Assassin Update Collection">
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+		<isMagic>0</isMagic>
+		<mpConsume>0</mpConsume>
+		<castRange>-1</castRange>
+		<hitTime>0</hitTime>
+		<coolTime>0</coolTime>
+		<reuseDelay>0</reuseDelay>
+		<effectPoint>0</effectPoint>
+		<hpConsume>0</hpConsume>
+		<abnormalTime>0</abnormalTime>
+	</skill>
+	<skill id="81996" toLevel="1" name="Anniversary">
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+		<isMagic>0</isMagic>
+		<mpConsume>0</mpConsume>
+		<castRange>-1</castRange>
+		<hitTime>0</hitTime>
+		<coolTime>0</coolTime>
+		<reuseDelay>0</reuseDelay>
+		<effectPoint>0</effectPoint>
+		<hpConsume>0</hpConsume>
+		<abnormalTime>0</abnormalTime>
+	</skill>
+	<skill id="81997" toLevel="1" name="19th">
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+		<isMagic>0</isMagic>
+		<mpConsume>0</mpConsume>
+		<castRange>-1</castRange>
+		<hitTime>0</hitTime>
+		<coolTime>0</coolTime>
+		<reuseDelay>0</reuseDelay>
+		<effectPoint>0</effectPoint>
+		<hpConsume>0</hpConsume>
+		<abnormalTime>0</abnormalTime>
+	</skill>
+	<skill id="81998" toLevel="1" name="Lineage2">
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+		<isMagic>0</isMagic>
+		<mpConsume>0</mpConsume>
+		<castRange>-1</castRange>
+		<hitTime>0</hitTime>
+		<coolTime>0</coolTime>
+		<reuseDelay>0</reuseDelay>
+		<effectPoint>0</effectPoint>
+		<hpConsume>0</hpConsume>
+		<abnormalTime>0</abnormalTime>
+	</skill>
+	<skill id="81999" toLevel="1" name="Adventurer's Mark">
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+		<isMagic>0</isMagic>
+		<mpConsume>0</mpConsume>
+		<castRange>-1</castRange>
+		<hitTime>0</hitTime>
+		<coolTime>0</coolTime>
+		<reuseDelay>0</reuseDelay>
+		<effectPoint>0</effectPoint>
+		<hpConsume>0</hpConsume>
+		<abnormalTime>0</abnormalTime>
 	</skill>
 </list>

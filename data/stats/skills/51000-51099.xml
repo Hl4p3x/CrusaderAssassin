@@ -158,7 +158,7 @@
 		<isMagic>4</isMagic>
 		<reuseDelay>60000</reuseDelay>
 	</skill>
-	<skill id="51007" toLevel="1" name="Golden Treasure Chest">
+	<skill id="51007" toLevel="1" name="Sayha's XP Amulet">
 		<!-- Acquired XP/ SP +20%, Sayha Grace Consumption -10%. -->
 		<icon>icon.bm_sayha_rune</icon>
 		<operateType>P</operateType>
@@ -723,8 +723,8 @@
 			</effect>
 		</effects>
 	</skill>
-	<skill id="51034" toLevel="1" name="Teleport: Hunter's Village">
-		<!-- Teleports to Hunter's Village. -->
+	<skill id="51034" toLevel="1" name="Teleport: Hunters' Village">
+		<!-- Teleports to Hunters' Village. -->
 		<icon>icon.skill0000</icon>
 		<hitTime>30000</hitTime>
 		<reuseDelay>600000</reuseDelay>
@@ -766,7 +766,7 @@
 		</effects>
 	</skill>
 	<skill id="51036" toLevel="1" name="Rudolph's Blessing">
-		<!-- Atk. Spd. and Casting Spd. +5%, Acquired XP/ SP +10%. -->
+		<!-- Atk. Spd./ Casting Spd. +5%, acquired XP/ SP +10%. -->
 		<icon>BranchSys2.icon.event_lbracelet_rudolph</icon>
 		<operateType>P</operateType>
 	</skill>
@@ -958,16 +958,16 @@
 						<item count="3" id="2133" /> <!-- Gemstone (A-grade) -->
 					</item>
 					<item chance="19.6">
-						<item id="947" count="1" /> <!-- Scroll: Enchant B-grade Weapon -->
+						<item id="947" count="1" /> <!-- Scroll: Enchant Weapon (B-grade) - Exchangeable -->
 					</item>
 					<item chance="19.6">
-						<item id="948" count="1" /> <!-- Scroll: Enchant B-grade Armor -->
+						<item id="948" count="1" /> <!-- Scroll: Enchant Armor (B-grade) - Exchangeable -->
 					</item>
 					<item chance="19.6">
-						<item id="729" count="1" /> <!-- Scroll: Enchant A-grade Weapon -->
+						<item id="729" count="1" /> <!-- Scroll: Enchant Weapon (A-grade) - Exchangeable -->
 					</item>
 					<item chance="19.6">
-						<item id="730" count="1" /> <!-- Scroll: Enchant A-grade Armor -->
+						<item id="730" count="1" /> <!-- Scroll: Enchant Armor (A-grade) - Exchangeable -->
 					</item>
 					<item chance="2">
 						<item id="49756" count="1" /> <!-- Cloth Piece -->
@@ -1277,7 +1277,7 @@
 			</effect>
 		</effects>
 	</skill>
-	<skill id="51055" toLevel="1" name="Items Seal Scroll">
+	<skill id="51055" toLevel="1" name="Item Seal Scroll">
 		<icon>icon.scrl_item_lock</icon>
 		<operateType>A1</operateType>
 	</skill>
@@ -1928,7 +1928,7 @@
 						<item id="46254" count="10" /> <!-- Dandy's Home Run Ball - Sealed -->
 					</item>
 					<item chance="9.9945">
-						<item id="90149" count="1" /> <!-- Savior Scroll: Enchant Weapon - Sealed -->
+						<item id="90149" count="1" /> <!-- Scroll: Enchant Savior's Weapon - Sealed -->
 					</item>
 					<item chance="9.9945">
 						<item id="90990" count="1" /> <!-- Scroll: Enchant Savior's Earring - Sealed -->

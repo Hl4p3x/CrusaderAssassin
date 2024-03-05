@@ -155,7 +155,7 @@
 		<magicCriticalRate>-5</magicCriticalRate>
 	</skill>
 	<skill id="4922" toLevel="1" name="Raid Boss (Lv. 80)">
-		<!-- One of four Guardian Knights assigned to protect Prince Frintezza, she was sacrificed and sold to Halisha by the unwise Prince in an attempt to save his own skin. In her lifetime, she was called Valkyrie Tisha of Calmness because of her handsome appearance, formidable skill and dignified character. -->
+		<!-- One of four Guardian Knights assigned to protect Prince Frintezza, she was sacrificed and sold to Halisha by the unwise Prince in an attempt to save his own skin. In his lifetime, she was called Valkyrie Tisha of Calmness because of her handsome appearance, formidable skill and dignified character. -->
 		<icon>icon.skillraid</icon>
 		<magicLevel>1</magicLevel>
 		<operateType>P</operateType>
@@ -169,7 +169,7 @@
 		<magicCriticalRate>-5</magicCriticalRate>
 	</skill>
 	<skill id="4924" toLevel="1" name="Raid Boss (Lv. 80)">
-		<!-- One of four Guardian Knights assigned to protect Prince Frintezza, she was sacrificed and sold to Halisha by the unwise Prince in an attempt to save his own skin. In his lifetime, she was called Valkyrie Morigul of the Ivory Tower because she hailed from the Ivory Tower. -->
+		<!-- One of four Guardian Knights assigned to protect Prince Frintezza, she was sacrificed and sold to Halisha by the unwise Prince in an attempt to save his own skin. In his lifetime, she was called Valkyrie Morigul of the Ivory Tower. -->
 		<icon>icon.skillraid</icon>
 		<magicLevel>1</magicLevel>
 		<operateType>P</operateType>
@@ -217,14 +217,14 @@
 		<operateType>P</operateType>
 		<magicCriticalRate>-5</magicCriticalRate>
 	</skill>
-	<skill id="4931" toLevel="1" name="Raid Boss (Lv. 85)">
+	<skill id="4931" toLevel="1" name="Raid Boss (Lv. 90)">
 		<!-- This fanatical Priest serves Patriarch Kuroboros and is helping spread the new conquering religion among the Lizardmen in southern Gludio. He devoutly believes that the Patriarch will make Lizardmen glorious conquerors someday, and his small number of worshipers and disciples are fervently spreading the words of Kuroboros. -->
 		<icon>icon.skillraid</icon>
 		<magicLevel>1</magicLevel>
 		<operateType>P</operateType>
 		<magicCriticalRate>-5</magicCriticalRate>
 	</skill>
-	<skill id="4932" toLevel="1" name="Raid Boss (Lv. 75)">
+	<skill id="4932" toLevel="1" name="Raid Boss (Lv. 80)">
 		<!-- These Ghosts wander the Ruins of Agony, taking the souls of careless adventurers. Originally residents slain during the war, their spirits were called forth and controlled by the powerful dark magic of Beleth' followers. -->
 		<icon>icon.skillraid</icon>
 		<magicLevel>1</magicLevel>
@@ -266,7 +266,7 @@
 		<operateType>P</operateType>
 		<magicCriticalRate>-5</magicCriticalRate>
 	</skill>
-	<skill id="4938" toLevel="1" name="Raid Boss (Lv. 75)">
+	<skill id="4938" toLevel="1" name="Raid Boss (Lv. 80)">
 		<!-- This Devil sustains himself from the storm of hatred and grudges that abound in the ghosts who roam the Execution Grounds. Standing at the center of the Execution Grounds, he controls the ghosts. There is a rumor that Ashton's brutal temperament stemmed in part from this Evil Spirit Tempest. -->
 		<icon>icon.skillraid</icon>
 		<magicLevel>1</magicLevel>
@@ -308,7 +308,7 @@
 		<operateType>P</operateType>
 		<magicCriticalRate>-5</magicCriticalRate>
 	</skill>
-	<skill id="4944" toLevel="1" name="Raid Boss (Lv. 80)">
+	<skill id="4944" toLevel="1" name="Raid Boss (Lv. 85)">
 		<!-- One of the Monster Eyes who acted as a spy for Devil Beleth during his failed rebellion. Now that Beleth is sealed away, the Eye is responsible for providing Beleth' followers with information. -->
 		<icon>icon.skillraid</icon>
 		<magicLevel>1</magicLevel>

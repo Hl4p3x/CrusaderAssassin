@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/items.xsd">
 	<item id="70000" name="Sealed Rune Lv. 1" additionalName="Not Available" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.etc_ertheia2" />
 		<set name="default_action" val="SKILL_REDUCE_ON_SKILL_SUCCESS" />
 		<set name="material" val="FISH" />
@@ -13,7 +13,7 @@
 		</skills>
 	</item>
 	<item id="70001" name="Sealed Rune Lv. 2" additionalName="Not Available" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.etc_ertheia2" />
 		<set name="default_action" val="SKILL_REDUCE_ON_SKILL_SUCCESS" />
 		<set name="material" val="FISH" />
@@ -25,7 +25,7 @@
 		</skills>
 	</item>
 	<item id="70002" name="Sealed Rune Lv. 3" additionalName="Not Available" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.etc_ertheia2" />
 		<set name="default_action" val="SKILL_REDUCE_ON_SKILL_SUCCESS" />
 		<set name="material" val="FISH" />
@@ -37,7 +37,7 @@
 		</skills>
 	</item>
 	<item id="70003" name="Sealed Rune Lv. 4" additionalName="Not Available" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.etc_ertheia2" />
 		<set name="default_action" val="SKILL_REDUCE_ON_SKILL_SUCCESS" />
 		<set name="material" val="FISH" />
@@ -49,7 +49,7 @@
 		</skills>
 	</item>
 	<item id="70004" name="Sealed Rune Lv. 5" additionalName="Not Available" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.etc_ertheia2" />
 		<set name="default_action" val="SKILL_REDUCE_ON_SKILL_SUCCESS" />
 		<set name="material" val="FISH" />
@@ -61,7 +61,7 @@
 		</skills>
 	</item>
 	<item id="70005" name="Sealed Rune Lv. 6" additionalName="Not Available" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.etc_ertheia2" />
 		<set name="default_action" val="SKILL_REDUCE_ON_SKILL_SUCCESS" />
 		<set name="material" val="FISH" />
@@ -73,7 +73,7 @@
 		</skills>
 	</item>
 	<item id="70006" name="Sealed Rune Lv. 7" additionalName="Not Available" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.etc_ertheia2" />
 		<set name="default_action" val="SKILL_REDUCE_ON_SKILL_SUCCESS" />
 		<set name="material" val="FISH" />
@@ -85,7 +85,7 @@
 		</skills>
 	</item>
 	<item id="70007" name="Sealed Rune Lv. 8" additionalName="Not Available" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.etc_ertheia2" />
 		<set name="default_action" val="SKILL_REDUCE_ON_SKILL_SUCCESS" />
 		<set name="material" val="FISH" />
@@ -97,7 +97,7 @@
 		</skills>
 	</item>
 	<item id="70008" name="Sealed Rune Lv. 9" additionalName="Not Available" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.etc_ertheia2" />
 		<set name="default_action" val="SKILL_REDUCE_ON_SKILL_SUCCESS" />
 		<set name="material" val="FISH" />
@@ -109,7 +109,7 @@
 		</skills>
 	</item>
 	<item id="70009" name="Sealed Rune Lv. 10" additionalName="Not Available" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.etc_ertheia2" />
 		<set name="default_action" val="SKILL_REDUCE_ON_SKILL_SUCCESS" />
 		<set name="material" val="FISH" />
@@ -121,7 +121,7 @@
 		</skills>
 	</item>
 	<item id="70010" name="Sealed Rune Lv. 11" additionalName="Not Available" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.etc_ertheia2" />
 		<set name="default_action" val="SKILL_REDUCE_ON_SKILL_SUCCESS" />
 		<set name="material" val="FISH" />
@@ -133,7 +133,7 @@
 		</skills>
 	</item>
 	<item id="70011" name="Sealed Rune Lv. 12" additionalName="Not Available" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.etc_ertheia2" />
 		<set name="default_action" val="SKILL_REDUCE_ON_SKILL_SUCCESS" />
 		<set name="material" val="FISH" />
@@ -145,7 +145,7 @@
 		</skills>
 	</item>
 	<item id="70012" name="Sealed Rune Lv. 13" additionalName="Not Available" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.etc_ertheia2" />
 		<set name="default_action" val="SKILL_REDUCE_ON_SKILL_SUCCESS" />
 		<set name="material" val="FISH" />
@@ -157,7 +157,7 @@
 		</skills>
 	</item>
 	<item id="70013" name="Sealed Rune Lv. 14" additionalName="Not Available" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.etc_ertheia2" />
 		<set name="default_action" val="SKILL_REDUCE_ON_SKILL_SUCCESS" />
 		<set name="material" val="FISH" />
@@ -165,7 +165,7 @@
 		<set name="is_stackable" val="true" />
 	</item>
 	<item id="70014" name="Sealed Rune Lv. 15" additionalName="Not Available" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.etc_ertheia2" />
 		<set name="default_action" val="SKILL_REDUCE_ON_SKILL_SUCCESS" />
 		<set name="material" val="FISH" />
@@ -173,7 +173,7 @@
 		<set name="is_stackable" val="true" />
 	</item>
 	<item id="70015" name="Sealed Rune Lv. 16" additionalName="Not Available" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.etc_ertheia2" />
 		<set name="default_action" val="SKILL_REDUCE_ON_SKILL_SUCCESS" />
 		<set name="material" val="FISH" />
@@ -181,7 +181,7 @@
 		<set name="is_stackable" val="true" />
 	</item>
 	<item id="70016" name="Sealed Rune Lv. 17" additionalName="Not Available" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.etc_ertheia2" />
 		<set name="default_action" val="SKILL_REDUCE_ON_SKILL_SUCCESS" />
 		<set name="material" val="FISH" />
@@ -189,7 +189,7 @@
 		<set name="is_stackable" val="true" />
 	</item>
 	<item id="70017" name="Sealed Rune Lv. 18" additionalName="Not Available" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.etc_ertheia2" />
 		<set name="default_action" val="SKILL_REDUCE_ON_SKILL_SUCCESS" />
 		<set name="material" val="FISH" />
@@ -197,7 +197,7 @@
 		<set name="is_stackable" val="true" />
 	</item>
 	<item id="70018" name="Sealed Rune Lv. 19" additionalName="Not Available" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.etc_ertheia2" />
 		<set name="default_action" val="SKILL_REDUCE_ON_SKILL_SUCCESS" />
 		<set name="material" val="FISH" />
@@ -205,7 +205,7 @@
 		<set name="is_stackable" val="true" />
 	</item>
 	<item id="70019" name="Sealed Rune Lv. 20" additionalName="Not Available" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.etc_ertheia2" />
 		<set name="default_action" val="SKILL_REDUCE_ON_SKILL_SUCCESS" />
 		<set name="material" val="FISH" />
@@ -213,7 +213,7 @@
 		<set name="is_stackable" val="true" />
 	</item>
 	<item id="70020" name="Clan's Supplies" additionalName="Not Available" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.etc_ertheia2" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -290,7 +290,7 @@
 		<set name="is_stackable" val="true" />
 	</item>
 	<item id="70025" name="Clan's Special Supplies" additionalName="Not Available" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.etc_ertheia2" />
 		<set name="default_action" val="SKILL_REDUCE_ON_SKILL_SUCCESS" />
 		<set name="material" val="FISH" />
@@ -305,7 +305,7 @@
 		</skills>
 	</item>
 	<item id="70026" name="Clan's Special Supplies" additionalName="Not Available" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.etc_ertheia2" />
 		<set name="default_action" val="SKILL_REDUCE_ON_SKILL_SUCCESS" />
 		<set name="material" val="FISH" />
@@ -320,7 +320,7 @@
 		</skills>
 	</item>
 	<item id="70027" name="Clan's Special Supplies" additionalName="Not Available" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.etc_ertheia2" />
 		<set name="default_action" val="SKILL_REDUCE_ON_SKILL_SUCCESS" />
 		<set name="material" val="FISH" />
@@ -335,7 +335,7 @@
 		</skills>
 	</item>
 	<item id="70028" name="Clan's Special Supplies" additionalName="Not Available" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.etc_ertheia2" />
 		<set name="default_action" val="SKILL_REDUCE_ON_SKILL_SUCCESS" />
 		<set name="material" val="FISH" />
@@ -661,7 +661,7 @@
 		<set name="is_stackable" val="true" />
 	</item>
 	<item id="70050" name="Scroll of Escape: Orc Barracks" additionalName="Not Available" type="EtcItem">
-		<!-- The item is not available. Can be used to teleport to the Orc Barracks. -->
+		<!-- The item is not available. A magic scroll for teleporting to the Orc Barracks. -->
 		<set name="icon" val="icon.etc_ertheia2" />
 		<set name="default_action" val="SKILL_REDUCE" />
 		<set name="material" val="PAPER" />
@@ -681,7 +681,7 @@
 		<set name="is_stackable" val="true" />
 	</item>
 	<item id="70052" name="Scroll of Escape: Ruins of Despair" additionalName="Not Available" type="EtcItem">
-		<!-- The item is not available. Can be used to teleport to the Ruins of Despair. -->
+		<!-- The item is not available. A magic scroll for teleporting to the Ruins of Despair. -->
 		<set name="icon" val="icon.etc_ertheia2" />
 		<set name="default_action" val="SKILL_REDUCE" />
 		<set name="material" val="PAPER" />
@@ -691,7 +691,7 @@
 		<set name="is_stackable" val="true" />
 	</item>
 	<item id="70053" name="Scroll of Escape: Abandoned Camp" additionalName="Not Available" type="EtcItem">
-		<!-- The item is not available. Can be used to teleport to the Abandoned Camp. -->
+		<!-- The item is not available. A magic scroll for teleporting to the Abandoned Camp. -->
 		<set name="icon" val="icon.etc_ertheia2" />
 		<set name="default_action" val="SKILL_REDUCE" />
 		<set name="material" val="PAPER" />
@@ -721,7 +721,7 @@
 		<set name="is_stackable" val="true" />
 	</item>
 	<item id="70056" name="Scroll of Escape: Death Pass" additionalName="Not Available" type="EtcItem">
-		<!-- The item is not available. Can be used to teleport to the Death Pass. -->
+		<!-- The item is not available. A magic scroll for teleporting to the Death Pass. -->
 		<set name="icon" val="icon.etc_ertheia2" />
 		<set name="default_action" val="SKILL_REDUCE" />
 		<set name="material" val="PAPER" />
@@ -751,7 +751,7 @@
 		<set name="is_stackable" val="true" />
 	</item>
 	<item id="70059" name="Scroll of Escape: Outlaw Forest" additionalName="Not Available" type="EtcItem">
-		<!-- The item is not available. Can be used to teleport to the Outlaw Forest. -->
+		<!-- The item is not available. A magic scroll for teleporting to the Outlaw Forest. -->
 		<set name="icon" val="icon.etc_ertheia2" />
 		<set name="default_action" val="SKILL_REDUCE" />
 		<set name="material" val="PAPER" />
@@ -781,7 +781,7 @@
 		<set name="is_stackable" val="true" />
 	</item>
 	<item id="70062" name="Scroll of Escape: Hunting Zone 15" additionalName="Not Available" type="EtcItem">
-		<!-- The item is not available. Can be used to teleport to a random location. -->
+		<!-- The item is not available. A magic scroll for teleporting to a random location. -->
 		<set name="icon" val="icon.etc_ertheia2" />
 		<set name="default_action" val="SKILL_REDUCE" />
 		<set name="material" val="PAPER" />
@@ -791,7 +791,7 @@
 		<set name="is_stackable" val="true" />
 	</item>
 	<item id="70063" name="Scroll of Escape: Hunting Zone 16" additionalName="Not Available" type="EtcItem">
-		<!-- The item is not available. Can be used to teleport to a random location. -->
+		<!-- The item is not available. A magic scroll for teleporting to a random location. -->
 		<set name="icon" val="icon.etc_ertheia2" />
 		<set name="default_action" val="SKILL_REDUCE" />
 		<set name="material" val="PAPER" />
@@ -801,7 +801,7 @@
 		<set name="is_stackable" val="true" />
 	</item>
 	<item id="70064" name="Scroll of Escape: Hunting Zone 17" additionalName="Not Available" type="EtcItem">
-		<!-- The item is not available. Can be used to teleport to a random location. -->
+		<!-- The item is not available. A magic scroll for teleporting to a random location. -->
 		<set name="icon" val="icon.etc_ertheia2" />
 		<set name="default_action" val="SKILL_REDUCE" />
 		<set name="material" val="PAPER" />
@@ -811,7 +811,7 @@
 		<set name="is_stackable" val="true" />
 	</item>
 	<item id="70065" name="Scroll of Escape: Hunting Zone 18" additionalName="Not Available" type="EtcItem">
-		<!-- The item is not available. Can be used to teleport to a random location. -->
+		<!-- The item is not available. A magic scroll for teleporting to a random location. -->
 		<set name="icon" val="icon.etc_ertheia2" />
 		<set name="default_action" val="SKILL_REDUCE" />
 		<set name="material" val="PAPER" />
@@ -821,7 +821,7 @@
 		<set name="is_stackable" val="true" />
 	</item>
 	<item id="70066" name="Scroll of Escape: Hunting Zone 19" additionalName="Not Available" type="EtcItem">
-		<!-- The item is not available. Can be used to teleport to a random location. -->
+		<!-- The item is not available. A magic scroll for teleporting to a random location. -->
 		<set name="icon" val="icon.etc_ertheia2" />
 		<set name="default_action" val="SKILL_REDUCE" />
 		<set name="material" val="PAPER" />
@@ -831,7 +831,7 @@
 		<set name="is_stackable" val="true" />
 	</item>
 	<item id="70067" name="Scroll of Escape: Hunting Zone 20" additionalName="Not Available" type="EtcItem">
-		<!-- The item is not available. Can be used to teleport to a random location. -->
+		<!-- The item is not available. A magic scroll for teleporting to a random location. -->
 		<set name="icon" val="icon.etc_ertheia2" />
 		<set name="default_action" val="SKILL_REDUCE" />
 		<set name="material" val="PAPER" />

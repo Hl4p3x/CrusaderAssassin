@@ -251,7 +251,7 @@
 			<height normal="21.2" />
 		</collision>
 	</npc>
-	<npc id="31776" level="75" type="Folk" name="Iris" title="Soul Tracker">
+	<npc id="31776" level="75" type="Folk" name="Ailith" title="Soul Tracker">
 		<!-- AUTO GENERATED NPC TODO:FIX IT -->
 		<parameters>
 			<param name="MoveAroundSocial" value="110" />

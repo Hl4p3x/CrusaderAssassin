@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/items.xsd">
 	<item id="95800" name="Aden's Soul Crystal Lv. 18" type="EtcItem">
-		<!-- Double-click to imbue a <font color=eeaa22>weapon</font> with a soul crystal property at your choice. Can be upgraded through compounding with Aden's Soul Crystal Lv. 1 - Weapon. <font color=ff6666>Note!</font>. In case of failure you get Aden's Soul Crystal Lv. 16 - Weapon. -->
+		<!-- Double-click to imbue a <font color=eeaa22>weapon</font> with a soul crystal property at your choice. <font color=bbaa88><Compound></font>. Materials: Aden's Soul Crystal Lv. 1 - Weapon. In case of failure you get <font color=eeaa22>Aden's Soul Crystal Lv. 16 - Weapon</font>. -->
 		<set name="icon" val="icon.aden_rune_i04" />
 		<set name="etcitem_type" val="ENSOUL_STONE" />
 		<set name="immediate_effect" val="true" />
@@ -11,7 +11,7 @@
 		<set name="is_stackable" val="true" />
 	</item>
 	<item id="95801" name="Aden's Soul Crystal Lv. 19" type="EtcItem">
-		<!-- Double-click to imbue a <font color=eeaa22>weapon</font> with a soul crystal property at your choice. Can be upgraded through compounding with Aden's Soul Crystal Lv. 1 - Weapon. <font color=ff6666>Note!</font>. In case of failure you get Aden's Soul Crystal Lv. 16 - Weapon. -->
+		<!-- Double-click to imbue a <font color=eeaa22>weapon</font> with a soul crystal property at your choice. <font color=bbaa88><Compound></font>. Materials: Aden's Soul Crystal Lv. 1 - Weapon. In case of failure you get <font color=eeaa22>Aden's Soul Crystal Lv. 16 - Weapon</font>. -->
 		<set name="icon" val="icon.aden_rune_i04" />
 		<set name="etcitem_type" val="ENSOUL_STONE" />
 		<set name="immediate_effect" val="true" />
@@ -31,7 +31,7 @@
 		<set name="is_stackable" val="true" />
 	</item>
 	<item id="95803" name="Hardin's Soul Crystal Lv. 1" additionalName="Rare" type="EtcItem">
-		<!-- Double-click to imbue a <font color=eeaa22>weapon</font> with a rare soul crystal property at your choice. Can be upgraded through compounding with Hardin's Soul Crystal Lv. 1. -->
+		<!-- Double-click to imbue a <font color=eeaa22>weapon</font> with a rare soul crystal property at your choice. <font color=bbaa88><Compound></font>. Materials: Hardin's Soul Crystal Lv. 1. In case of failure you get <font color=eeaa22>Hardin's Soul Crystal Lv. 1</font>. -->
 		<set name="icon" val="icon.aden_rune_high_i01" />
 		<set name="etcitem_type" val="ENSOUL_STONE" />
 		<set name="immediate_effect" val="true" />
@@ -41,7 +41,7 @@
 		<set name="is_stackable" val="true" />
 	</item>
 	<item id="95804" name="Hardin's Soul Crystal Lv. 2" additionalName="Rare" type="EtcItem">
-		<!-- Double-click to imbue a <font color=eeaa22>weapon</font> with a rare soul crystal property at your choice. Can be upgraded through compounding with Hardin's Soul Crystal Lv. 1. <font color=ff6666>Note!</font>. In case of failure you get Hardin's Soul Crystal Lv. 1. -->
+		<!-- Double-click to imbue a <font color=eeaa22>weapon</font> with a rare soul crystal property at your choice. <font color=bbaa88><Compound></font>. Materials: Hardin's Soul Crystal Lv. 1. In case of failure you get <font color=eeaa22>Hardin's Soul Crystal Lv. 1</font>. -->
 		<set name="icon" val="icon.aden_rune_high_i01" />
 		<set name="etcitem_type" val="ENSOUL_STONE" />
 		<set name="immediate_effect" val="true" />
@@ -51,7 +51,7 @@
 		<set name="is_stackable" val="true" />
 	</item>
 	<item id="95805" name="Hardin's Soul Crystal Lv. 3" additionalName="Rare" type="EtcItem">
-		<!-- Double-click to imbue a <font color=eeaa22>weapon</font> with a rare soul crystal property at your choice. Can be upgraded through compounding with Hardin's Soul Crystal Lv. 1. <font color=ff6666>Note!</font>. In case of failure you get Hardin's Soul Crystal Lv. 1. -->
+		<!-- Double-click to imbue a <font color=eeaa22>weapon</font> with a rare soul crystal property at your choice. <font color=bbaa88><Compound></font>. Materials: Hardin's Soul Crystal Lv. 1. In case of failure you get <font color=eeaa22>Hardin's Soul Crystal Lv. 1</font>. -->
 		<set name="icon" val="icon.aden_rune_high_i01" />
 		<set name="etcitem_type" val="ENSOUL_STONE" />
 		<set name="immediate_effect" val="true" />
@@ -61,7 +61,7 @@
 		<set name="is_stackable" val="true" />
 	</item>
 	<item id="95806" name="Hardin's Soul Crystal Lv. 4" additionalName="Rare" type="EtcItem">
-		<!-- Double-click to imbue a <font color=eeaa22>weapon</font> with a rare soul crystal property at your choice. Can be upgraded through compounding with Hardin's Soul Crystal Lv. 1. <font color=ff6666>Note!</font>. In case of failure you get Hardin's Soul Crystal Lv. 1. -->
+		<!-- Double-click to imbue a <font color=eeaa22>weapon</font> with a rare soul crystal property at your choice. <font color=bbaa88><Compound></font>. Materials: Hardin's Soul Crystal Lv. 1. In case of failure you get <font color=eeaa22>Hardin's Soul Crystal Lv. 1</font>. -->
 		<set name="icon" val="icon.aden_rune_high_i01" />
 		<set name="etcitem_type" val="ENSOUL_STONE" />
 		<set name="immediate_effect" val="true" />
@@ -71,7 +71,7 @@
 		<set name="is_stackable" val="true" />
 	</item>
 	<item id="95807" name="Hardin's Soul Crystal Lv. 5" additionalName="Rare" type="EtcItem">
-		<!-- Double-click to imbue a <font color=eeaa22>weapon</font> with a rare soul crystal property at your choice. Can be upgraded through compounding with Hardin's Soul Crystal Lv. 1. <font color=ff6666>Note!</font>. In case of failure you get Hardin's Soul Crystal Lv. 1. -->
+		<!-- Double-click to imbue a <font color=eeaa22>weapon</font> with a rare soul crystal property at your choice. <font color=bbaa88><Compound></font>. Materials: Hardin's Soul Crystal Lv. 1. In case of failure you get <font color=eeaa22>Hardin's Soul Crystal Lv. 1</font>. -->
 		<set name="icon" val="icon.aden_rune_high_i01" />
 		<set name="etcitem_type" val="ENSOUL_STONE" />
 		<set name="immediate_effect" val="true" />
@@ -81,7 +81,7 @@
 		<set name="is_stackable" val="true" />
 	</item>
 	<item id="95808" name="Hardin's Soul Crystal Lv. 6" additionalName="Rare" type="EtcItem">
-		<!-- Double-click to imbue a <font color=eeaa22>weapon</font> with a rare soul crystal property at your choice. Can be upgraded through compounding with Hardin's Soul Crystal Lv. 1. <font color=ff6666>Note!</font>. In case of failure you get Hardin's Soul Crystal Lv. 6. -->
+		<!-- Double-click to imbue a <font color=eeaa22>weapon</font> with a rare soul crystal property at your choice. <font color=bbaa88><Compound></font>. Materials: Hardin's Soul Crystal Lv. 1. In case of failure you get <font color=eeaa22>Hardin's Soul Crystal Lv. 6</font>. -->
 		<set name="icon" val="icon.aden_rune_high_i02" />
 		<set name="etcitem_type" val="ENSOUL_STONE" />
 		<set name="immediate_effect" val="true" />
@@ -91,7 +91,7 @@
 		<set name="is_stackable" val="true" />
 	</item>
 	<item id="95809" name="Hardin's Soul Crystal Lv. 7" additionalName="Rare" type="EtcItem">
-		<!-- Double-click to imbue a <font color=eeaa22>weapon</font> with a rare soul crystal property at your choice. Can be upgraded through compounding with Hardin's Soul Crystal Lv. 1. <font color=ff6666>Note!</font>. In case of failure you get Hardin's Soul Crystal Lv. 6. -->
+		<!-- Double-click to imbue a <font color=eeaa22>weapon</font> with a rare soul crystal property at your choice. <font color=bbaa88><Compound></font>. Materials: Hardin's Soul Crystal Lv. 1. In case of failure you get <font color=eeaa22>Hardin's Soul Crystal Lv. 6</font>. -->
 		<set name="icon" val="icon.aden_rune_high_i02" />
 		<set name="etcitem_type" val="ENSOUL_STONE" />
 		<set name="immediate_effect" val="true" />
@@ -101,7 +101,7 @@
 		<set name="is_stackable" val="true" />
 	</item>
 	<item id="95810" name="Hardin's Soul Crystal Lv. 8" additionalName="Rare" type="EtcItem">
-		<!-- Double-click to imbue a <font color=eeaa22>weapon</font> with a rare soul crystal property at your choice. Can be upgraded through compounding with Hardin's Soul Crystal Lv. 1. <font color=ff6666>Note!</font>. In case of failure you get Hardin's Soul Crystal Lv. 6. -->
+		<!-- Double-click to imbue a <font color=eeaa22>weapon</font> with a rare soul crystal property at your choice. <font color=bbaa88><Compound></font>. Materials: Hardin's Soul Crystal Lv. 1. In case of failure you get <font color=eeaa22>Hardin's Soul Crystal Lv. 6</font>. -->
 		<set name="icon" val="icon.aden_rune_high_i02" />
 		<set name="etcitem_type" val="ENSOUL_STONE" />
 		<set name="immediate_effect" val="true" />
@@ -111,7 +111,7 @@
 		<set name="is_stackable" val="true" />
 	</item>
 	<item id="95811" name="Hardin's Soul Crystal Lv. 9" additionalName="Rare" type="EtcItem">
-		<!-- Double-click to imbue a <font color=eeaa22>weapon</font> with a rare soul crystal property at your choice. Can be upgraded through compounding with Hardin's Soul Crystal Lv. 1. <font color=ff6666>Note!</font>. In case of failure you get Hardin's Soul Crystal Lv. 6. -->
+		<!-- Double-click to imbue a <font color=eeaa22>weapon</font> with a rare soul crystal property at your choice. <font color=bbaa88><Compound></font>. Materials: Hardin's Soul Crystal Lv. 1. In case of failure you get <font color=eeaa22>Hardin's Soul Crystal Lv. 6</font>. -->
 		<set name="icon" val="icon.aden_rune_high_i02" />
 		<set name="etcitem_type" val="ENSOUL_STONE" />
 		<set name="immediate_effect" val="true" />
@@ -121,7 +121,7 @@
 		<set name="is_stackable" val="true" />
 	</item>
 	<item id="95812" name="Hardin's Soul Crystal Lv. 10" additionalName="Rare" type="EtcItem">
-		<!-- Double-click to imbue a <font color=eeaa22>weapon</font> with a rare soul crystal property at your choice. Can be upgraded through compounding with Hardin's Soul Crystal Lv. 1. <font color=ff6666>Note!</font>. In case of failure you get Hardin's Soul Crystal Lv. 6. -->
+		<!-- Double-click to imbue a <font color=eeaa22>weapon</font> with a rare soul crystal property at your choice. <font color=bbaa88><Compound></font>. Materials: Hardin's Soul Crystal Lv. 1. In case of failure you get <font color=eeaa22>Hardin's Soul Crystal Lv. 6</font>. -->
 		<set name="icon" val="icon.aden_rune_high_i02" />
 		<set name="etcitem_type" val="ENSOUL_STONE" />
 		<set name="immediate_effect" val="true" />
@@ -131,7 +131,7 @@
 		<set name="is_stackable" val="true" />
 	</item>
 	<item id="95813" name="Hardin's Soul Crystal Lv. 11" additionalName="Rare" type="EtcItem">
-		<!-- Double-click to imbue a <font color=eeaa22>weapon</font> with a rare soul crystal property at your choice. Can be upgraded through compounding with Hardin's Soul Crystal Lv. 1. <font color=ff6666>Note!</font>. In case of failure you get Hardin's Soul Crystal Lv. 11. -->
+		<!-- Double-click to imbue a <font color=eeaa22>weapon</font> with a rare soul crystal property at your choice. <font color=bbaa88><Compound></font>. Materials: Hardin's Soul Crystal Lv. 1. In case of failure you get <font color=eeaa22>Hardin's Soul Crystal Lv. 11</font>. -->
 		<set name="icon" val="icon.aden_rune_high_i03" />
 		<set name="etcitem_type" val="ENSOUL_STONE" />
 		<set name="immediate_effect" val="true" />
@@ -141,7 +141,7 @@
 		<set name="is_stackable" val="true" />
 	</item>
 	<item id="95814" name="Hardin's Soul Crystal Lv. 12" additionalName="Rare" type="EtcItem">
-		<!-- Double-click to imbue a <font color=eeaa22>weapon</font> with a rare soul crystal property at your choice. Can be upgraded through compounding with Hardin's Soul Crystal Lv. 1. <font color=ff6666>Note!</font>. In case of failure you get Hardin's Soul Crystal Lv. 11. -->
+		<!-- Double-click to imbue a <font color=eeaa22>weapon</font> with a rare soul crystal property at your choice. <font color=bbaa88><Compound></font>. Materials: Hardin's Soul Crystal Lv. 1. In case of failure you get <font color=eeaa22>Hardin's Soul Crystal Lv. 11</font>. -->
 		<set name="icon" val="icon.aden_rune_high_i03" />
 		<set name="etcitem_type" val="ENSOUL_STONE" />
 		<set name="immediate_effect" val="true" />
@@ -151,7 +151,7 @@
 		<set name="is_stackable" val="true" />
 	</item>
 	<item id="95815" name="Hardin's Soul Crystal Lv. 13" additionalName="Rare" type="EtcItem">
-		<!-- Double-click to imbue a <font color=eeaa22>weapon</font> with a rare soul crystal property at your choice. Can be upgraded through compounding with Hardin's Soul Crystal Lv. 1. <font color=ff6666>Note!</font>. In case of failure you get Hardin's Soul Crystal Lv. 11. -->
+		<!-- Double-click to imbue a <font color=eeaa22>weapon</font> with a rare soul crystal property at your choice. <font color=bbaa88><Compound></font>. Materials: Hardin's Soul Crystal Lv. 1. In case of failure you get <font color=eeaa22>Hardin's Soul Crystal Lv. 11</font>. -->
 		<set name="icon" val="icon.aden_rune_high_i03" />
 		<set name="etcitem_type" val="ENSOUL_STONE" />
 		<set name="immediate_effect" val="true" />
@@ -161,7 +161,7 @@
 		<set name="is_stackable" val="true" />
 	</item>
 	<item id="95816" name="Hardin's Soul Crystal Lv. 14" additionalName="Rare" type="EtcItem">
-		<!-- Double-click to imbue a <font color=eeaa22>weapon</font> with a rare soul crystal property at your choice. Can be upgraded through compounding with Hardin's Soul Crystal Lv. 1. <font color=ff6666>Note!</font>. In case of failure you get Hardin's Soul Crystal Lv. 11. -->
+		<!-- Double-click to imbue a <font color=eeaa22>weapon</font> with a rare soul crystal property at your choice. <font color=bbaa88><Compound></font>. Materials: Hardin's Soul Crystal Lv. 1. In case of failure you get <font color=eeaa22>Hardin's Soul Crystal Lv. 11</font>. -->
 		<set name="icon" val="icon.aden_rune_high_i03" />
 		<set name="etcitem_type" val="ENSOUL_STONE" />
 		<set name="immediate_effect" val="true" />
@@ -171,7 +171,7 @@
 		<set name="is_stackable" val="true" />
 	</item>
 	<item id="95817" name="Hardin's Soul Crystal Lv. 15" additionalName="Rare" type="EtcItem">
-		<!-- Double-click to imbue a <font color=eeaa22>weapon</font> with a rare soul crystal property at your choice. Can be upgraded through compounding with Hardin's Soul Crystal Lv. 1. <font color=ff6666>Note!</font>. In case of failure you get Hardin's Soul Crystal Lv. 11. -->
+		<!-- Double-click to imbue a <font color=eeaa22>weapon</font> with a rare soul crystal property at your choice. <font color=bbaa88><Compound></font>. Materials: Hardin's Soul Crystal Lv. 1. In case of failure you get <font color=eeaa22>Hardin's Soul Crystal Lv. 11</font>. -->
 		<set name="icon" val="icon.aden_rune_high_i03" />
 		<set name="etcitem_type" val="ENSOUL_STONE" />
 		<set name="immediate_effect" val="true" />
@@ -181,7 +181,7 @@
 		<set name="is_stackable" val="true" />
 	</item>
 	<item id="95818" name="Hardin's Soul Crystal Lv. 16" additionalName="Rare" type="EtcItem">
-		<!-- Double-click to imbue a <font color=eeaa22>weapon</font> with a rare soul crystal property at your choice. Can be upgraded through compounding with Hardin's Soul Crystal Lv. 1. <font color=ff6666>Note!</font>. In case of failure you get Hardin's Soul Crystal Lv. 16. -->
+		<!-- Double-click to imbue <font color=eeaa22>a weapon</font> with a rare soul crystal property at your choice. <font color=bbaa88><Compound></font>. Materials: Hardin's Soul Crystal Lv. 1. In case of failure, you get <font color=eeaa22>Hardin's Soul Crystal Lv. 16</font>. -->
 		<set name="icon" val="icon.aden_rune_high_i04" />
 		<set name="etcitem_type" val="ENSOUL_STONE" />
 		<set name="immediate_effect" val="true" />
@@ -191,7 +191,7 @@
 		<set name="is_stackable" val="true" />
 	</item>
 	<item id="95819" name="Hardin's Soul Crystal Lv. 17" additionalName="Rare" type="EtcItem">
-		<!-- Double-click to imbue a <font color=eeaa22>weapon</font> with a rare soul crystal property at your choice. Can be upgraded through compounding with Hardin's Soul Crystal Lv. 1. <font color=ff6666>Note!</font>. In case of failure you get Hardin's Soul Crystal Lv. 16. -->
+		<!-- Double-click to imbue <font color=eeaa22>a weapon</font> with a rare soul crystal property at your choice. <font color=bbaa88><Compound></font>. Materials: Hardin's Soul Crystal Lv. 1. In case of failure, you get <font color=eeaa22>Hardin's Soul Crystal Lv. 16</font>. -->
 		<set name="icon" val="icon.aden_rune_high_i04" />
 		<set name="etcitem_type" val="ENSOUL_STONE" />
 		<set name="immediate_effect" val="true" />
@@ -201,7 +201,7 @@
 		<set name="is_stackable" val="true" />
 	</item>
 	<item id="95820" name="Hardin's Soul Crystal Lv. 18" additionalName="Rare" type="EtcItem">
-		<!-- Double-click to imbue a <font color=eeaa22>weapon</font> with a rare soul crystal property at your choice. Can be upgraded through compounding with Hardin's Soul Crystal Lv. 1. <font color=ff6666>Note!</font>. In case of failure you get Hardin's Soul Crystal Lv. 16. -->
+		<!-- Double-click to imbue <font color=eeaa22>a weapon</font> with a rare soul crystal property at your choice. <font color=bbaa88><Compound></font>. Materials: Hardin's Soul Crystal Lv. 1. In case of failure, you get <font color=eeaa22>Hardin's Soul Crystal Lv. 16</font>. -->
 		<set name="icon" val="icon.aden_rune_high_i04" />
 		<set name="etcitem_type" val="ENSOUL_STONE" />
 		<set name="immediate_effect" val="true" />
@@ -211,7 +211,7 @@
 		<set name="is_stackable" val="true" />
 	</item>
 	<item id="95821" name="Hardin's Soul Crystal Lv. 19" additionalName="Rare" type="EtcItem">
-		<!-- Double-click to imbue a <font color=eeaa22>weapon</font> with a rare soul crystal property at your choice. Can be upgraded through compounding with Hardin's Soul Crystal Lv. 1. <font color=ff6666>Note!</font>. In case of failure you get Hardin's Soul Crystal Lv. 16. -->
+		<!-- Double-click to imbue <font color=eeaa22>a weapon</font> with a rare soul crystal property at your choice. <font color=bbaa88><Compound></font>. Materials: Hardin's Soul Crystal Lv. 1. In case of failure, you get <font color=eeaa22>Hardin's Soul Crystal Lv. 16</font>. -->
 		<set name="icon" val="icon.aden_rune_high_i04" />
 		<set name="etcitem_type" val="ENSOUL_STONE" />
 		<set name="immediate_effect" val="true" />
@@ -231,7 +231,7 @@
 		<set name="is_stackable" val="true" />
 	</item>
 	<item id="95823" name="Package: Frost Lord's Sword" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.frozen_weapon_sword" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -246,7 +246,7 @@
 		</capsuled_items>
 	</item>
 	<item id="95824" name="Package: Frost Lord's Two-handed Sword" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.frozen_weapon_two_hand_sword" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -261,7 +261,7 @@
 		</capsuled_items>
 	</item>
 	<item id="95825" name="Package: Frost Lord's Axe" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.frozen_weapon_blunt" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -276,7 +276,7 @@
 		</capsuled_items>
 	</item>
 	<item id="95826" name="Package: Frost Lord's Dagger" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.frozen_weapon_dagger" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -291,7 +291,7 @@
 		</capsuled_items>
 	</item>
 	<item id="95827" name="Package: Frost Lord's Spear" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.frozen_weapon_pole" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -306,7 +306,7 @@
 		</capsuled_items>
 	</item>
 	<item id="95828" name="Package: Frost Lord's Bow" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.frozen_weapon_bow" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -321,7 +321,7 @@
 		</capsuled_items>
 	</item>
 	<item id="95829" name="Package: Frost Lord's Blade Fists" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.frozen_weapon_dualfist" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -336,7 +336,7 @@
 		</capsuled_items>
 	</item>
 	<item id="95830" name="Package: Frost Lord's Magic Blunt Weapon" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.frozen_weapon_staff" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -351,7 +351,7 @@
 		</capsuled_items>
 	</item>
 	<item id="95831" name="Package: Frost Lord's Staff" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.frozen_weapon_two_hand_staff" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -366,7 +366,7 @@
 		</capsuled_items>
 	</item>
 	<item id="95832" name="Package: Frost Lord's Ancient Sword" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.frozen_weapon_ancientsword" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -381,7 +381,7 @@
 		</capsuled_items>
 	</item>
 	<item id="95833" name="Package: Frost Lord's Rapier" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.frozen_weapon_rapier" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -396,7 +396,7 @@
 		</capsuled_items>
 	</item>
 	<item id="95834" name="Package: Frost Lord's Pistols" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.frozen_weapon_shooter" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -411,7 +411,7 @@
 		</capsuled_items>
 	</item>
 	<item id="95835" name="Package: Frost Lord's Dual Swords" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.frozen_weapon_dual_sword" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -464,7 +464,7 @@
 			<item id="93406" min="1" max="1" chance="5" /> <!-- Scroll: Enchant B-grade Weapon - Sealed -->
 			<item id="93407" min="1" max="1" chance="5" /> <!-- Scroll: Enchant B-grade Armor - Sealed -->
 			<item id="93701" min="1" max="1" chance="5" /> <!-- Charging Stone of Regular Craft - 1 Charge (Time-limited) - Sealed -->
-			<item id="93073" min="3" max="3" chance="6" /> <!-- Sayha's Storm Lv. 3 (Time-limited) - Sealed -->
+			<item id="93073" min="3" max="3" chance="6" /> <!-- Sayha's Storm (Time-limited) - Sealed -->
 			<item id="94380" min="3" max="3" chance="7" /> <!-- Scroll: Boost Attack (Time-limited) - Sealed -->
 			<item id="94381" min="3" max="3" chance="7" /> <!-- Scroll: Boost Defense (Time-limited) - Sealed -->
 			<item id="93848" min="3" max="3" chance="8" /> <!-- Sayha's Cookie (Time-limited) - Sealed -->
@@ -516,7 +516,7 @@
 			<item id="94171" min="1" max="1" chance="1.5" /> <!-- Agathion Bracelet Pack Lv. 1 - Sealed -->
 			<item id="94269" min="5" max="5" chance="2" /> <!-- Scroll: Boost Attack - Sealed -->
 			<item id="49674" min="5" max="5" chance="2" /> <!-- XP Growth Scroll - Sealed -->
-			<item id="91712" min="5" max="5" chance="2" /> <!-- Sayha's Storm Lv. 3 - Sealed -->
+			<item id="91712" min="5" max="5" chance="2" /> <!-- Sayha's Storm - Sealed -->
 			<item id="91641" min="5" max="5" chance="3" /> <!-- Sayha's Blessing - Sealed -->
 			<item id="92314" min="10" max="10" chance="4" /> <!-- Giran Seal -->
 			<item id="92314" min="2" max="2" chance="8" /> <!-- Giran Seal -->
@@ -697,7 +697,7 @@
 		</skills>
 	</item>
 	<item id="95846" name="Armor of Protection Pack" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.event_hero_treasure_box_silver" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -729,7 +729,7 @@
 		<set name="is_sellable" val="false" />
 	</item>
 	<item id="95848" name="Freya's Random Transformation Scroll (Time-limited)" additionalName="Sealed" type="EtcItem">
-		<!-- When used, activates one of the following transformations. <Available transformations>. - Dragon Berserker. - Wild Wolf. - White Day. - Santa Claus. - Eskimo. Duration: 60 min. Cooldown: 10 sec. The effect remains after death. -->
+		<!-- When used, activates one of the following transformations. <Available transformations>. - Dragon Berserker. - Wild Wolf. - White Day. - Santa Claus. - Inuit. Duration: 20 min. Cooldown: 10 sec. The effect remains after death. -->
 		<set name="icon" val="icon.random_transform_00" />
 		<set name="default_action" val="SKILL_REDUCE" />
 		<set name="immediate_effect" val="true" />
@@ -851,7 +851,7 @@
 			<item id="94269" min="5" max="5" chance="1.587302" /> <!-- Scroll: Boost Attack - Sealed -->
 			<item id="94271" min="5" max="5" chance="1.587302" /> <!-- Scroll: Boost Defense - Sealed -->
 			<item id="49674" min="5" max="5" chance="1.587302" /> <!-- XP Growth Scroll - Sealed -->
-			<item id="91712" min="5" max="5" chance="1.587302" /> <!-- Sayha's Storm Lv. 3 - Sealed -->
+			<item id="91712" min="5" max="5" chance="1.587302" /> <!-- Sayha's Storm - Sealed -->
 			<item id="91641" min="5" max="5" chance="1.587302" /> <!-- Sayha's Blessing - Sealed -->
 			<item id="92314" min="10" max="10" chance="1.587302" /> <!-- Giran Seal -->
 			<item id="92314" min="5" max="5" chance="1.587302" /> <!-- Giran Seal -->
@@ -922,7 +922,7 @@
 			<item id="93330" min="1" max="1" chance="1.785714" /> <!-- Enchant Kit: Talisman of Authority - Sealed -->
 			<item id="94269" min="5" max="5" chance="1.785714" /> <!-- Scroll: Boost Attack - Sealed -->
 			<item id="94271" min="5" max="5" chance="1.785714" /> <!-- Scroll: Boost Defense - Sealed -->
-			<item id="91712" min="5" max="5" chance="1.785714" /> <!-- Sayha's Storm Lv. 3 - Sealed -->
+			<item id="91712" min="5" max="5" chance="1.785714" /> <!-- Sayha's Storm - Sealed -->
 			<item id="91690" min="50" max="50" chance="1.785714" /> <!-- Special HP Recovery Potion - Sealed -->
 			<item id="91641" min="5" max="5" chance="1.785714" /> <!-- Sayha's Blessing - Sealed -->
 			<item id="92314" min="10" max="10" chance="1.785714" /> <!-- Giran Seal -->
@@ -1033,7 +1033,7 @@
 		<set name="is_stackable" val="true" />
 	</item>
 	<item id="95861" name="Spellbook: Mechanical Hero" type="EtcItem">
-		<!-- A spellbook for learning the Mechanical Hero skill. <Class>. Maestro. <Skill effect>. Summons a battle machine imbued with a piece of Maestro's soul. You mount the machine and attack. -->
+		<!-- A spellbook for learning the Prime Master Transformation skill. <Class>. Maestro. <Transformation effect>. It is time to discover the power of Prime Master. Increases Max HP, P. Atk., P. Skill Critical Rate, P. Skill Critical Damage, Shock Atk. Rate, Debuff/ Anomaly Resistance, object damage in the World Siege. Armor Crush skill upgrade. -->
 		<set name="icon" val="icon.etc_magic_book_red_i00" />
 		<set name="default_action" val="NONE" />
 		<set name="immediate_effect" val="true" />
@@ -1051,7 +1051,7 @@
 		<set name="is_stackable" val="true" />
 	</item>
 	<item id="95863" name="Spellbook: Blacksmith's Attack" type="EtcItem">
-		<!-- A spellbook for learning the Blacksmith's Attack skill. <Class>. Maestro. <Skill effect>. Rushes to an enemy at the front and attacks them. Stuns them with a certain chance. -->
+		<!-- A spellbook for learning the Blacksmith' Attack skill. <Class>. Maestro. <Skill effect>. Rushes to an enemy at the front and attacks them. Stuns them with a certain chance. -->
 		<set name="icon" val="icon.etc_magic_book_red_i00" />
 		<set name="default_action" val="NONE" />
 		<set name="immediate_effect" val="true" />
@@ -1115,7 +1115,7 @@
 		<set name="is_stackable" val="true" />
 	</item>
 	<item id="95869" name="Spellbook: Mechanical Hero" additionalName="Sealed" type="EtcItem">
-		<!-- A spellbook for learning the Mechanical Hero skill. <Class>. Maestro. <Skill effect>. Summons a battle machine imbued with a piece of Maestro's soul. You mount the machine and attack. -->
+		<!-- A spellbook for learning the Prime Master Transformation skill. <Class>. Maestro. <Transformation effect>. It is time to discover the power of Prime Master. Increases Max HP, P. Atk., P. Skill Critical Rate, P. Skill Critical Damage, Shock Atk. Rate, Debuff/ Anomaly Resistance, object damage in the World Siege. Armor Crush skill upgrade. -->
 		<set name="icon" val="icon.etc_magic_book_red_i00" />
 		<set name="default_action" val="NONE" />
 		<set name="immediate_effect" val="true" />
@@ -1137,7 +1137,7 @@
 		<set name="is_stackable" val="true" />
 	</item>
 	<item id="95871" name="Spellbook: Blacksmith's Attack" additionalName="Sealed" type="EtcItem">
-		<!-- A spellbook for learning the Blacksmith's Attack skill. <Class>. Maestro. <Skill effect>. Rushes to an enemy at the front and attacks them. Stuns them with a certain chance. -->
+		<!-- A spellbook for learning the Blacksmith' Attack skill. <Class>. Maestro. <Skill effect>. Rushes to an enemy at the front and attacks them. Stuns them with a certain chance. -->
 		<set name="icon" val="icon.etc_magic_book_red_i00" />
 		<set name="default_action" val="NONE" />
 		<set name="immediate_effect" val="true" />
@@ -1291,7 +1291,7 @@
 			<item id="95346" min="1" max="1" chance="5" /> <!-- Spellbook: Meteor -->
 			<item id="95347" min="1" max="1" chance="5" /> <!-- Spellbook: Rolling Dice -->
 			<item id="95354" min="1" max="1" chance="5" /> <!-- Spellbook: Dragon Strike -->
-			<item id="95861" min="1" max="1" chance="5" /> <!-- Spellbook: Mechanical Hero -->
+			<item id="95861" min="1" max="1" chance="5" /> <!-- Spellbook: Prime Master Transformation -->
 			<item id="92401" min="1" max="1" chance="5" /> <!-- Spellbook: White Guardian -->
 			<item id="93103" min="1" max="1" chance="5" /> <!-- Spellbook: Divine Beam -->
 			<item id="93384" min="1" max="1" chance="5" /> <!-- Spellbook: Burning Field -->
@@ -1386,7 +1386,7 @@
 		<capsuled_items>
 			<item id="95749" min="1" max="1" chance="14.2857142857" /> <!-- Daily Enchant Scroll Pack - Sealed -->
 			<item id="91838" min="1" max="1" chance="14.2857142857" /> <!-- My Teleport Scroll (Time-limited) - Sealed -->
-			<item id="93073" min="1" max="1" chance="14.2857142857" /> <!-- Sayha's Storm Lv. 3 (Time-limited) - Sealed -->
+			<item id="93073" min="1" max="1" chance="14.2857142857" /> <!-- Sayha's Storm (Time-limited) - Sealed -->
 			<item id="93701" min="1" max="1" chance="14.2857142857" /> <!-- Charging Stone of Regular Craft - 1 Charge (Time-limited) - Sealed -->
 			<item id="93448" min="1" max="1" chance="14.2857142857" /> <!-- A-grade Weapon Coupon - Sealed -->
 			<item id="93449" min="1" max="1" chance="14.2857142857" /> <!-- A-grade Armor Coupon - Sealed -->
@@ -1394,7 +1394,7 @@
 		</capsuled_items>
 	</item>
 	<item id="95880" name="King's Mark Lv. 1" type="EtcItem">
-		<!-- A reward for the victory in the siege. Can be compounded with two other marks of the same level. -->
+		<!-- A mark given as a reward for a successful siege. <font color=bbaa88><Compound></font>. Materials: King's Mark Lv. 1. In case of failure, the current level remains the same, but materials disappear. -->
 		<set name="icon" val="icon.etc_royalgurad_talisman" />
 		<set name="default_action" val="NONE" />
 		<set name="immediate_effect" val="true" />
@@ -1457,7 +1457,7 @@
 		</capsuled_items>
 	</item>
 	<item id="95883" name="Venir's Talisman Lv. 26" additionalName="Sealed" type="Armor">
-		<!-- <When equipped>. CON +7. MEN +6. DEX +6. WIT +6. STR +6. INT +6. Max HP +1200. Max MP +1200. Max CP +1200. All received Critical Rate -18%. P./ M. Skill Cooldown -17%. Skill Power +1%. <font color=bbaa88><Upgrading></font>. Compound with Venir's Talisman Fragment. <font color=ff6666>Note!</font>. In case of failure the talisman level value drops to 24. Effects of two identical talismans do not stack. -->
+		<!-- <font color=bbaa88><Properties></font>. CON +7. MEN +6. DEX +6. WIT +6. STR +6. INT +6. Max HP +1200. Max MP +1200. Max CP +1200. All received Critical Rate -18%. P./ M. Skill Cooldown -17%. Skill Power +1%. <font color=bbaa88><Compound></font>. Materials: Venir's Talisman Fragment. In case of failure, you will get a <font color=eeaa22>Venir's Talisman Lv. 24</font>. Effects of two identical talismans do not stack. -->
 		<set name="icon" val="icon.benir_talisman_i01" />
 		<set name="default_action" val="EQUIP" />
 		<set name="bodypart" val="deco1" />
@@ -1471,7 +1471,7 @@
 		</skills>
 	</item>
 	<item id="95884" name="Venir's Talisman Lv. 27" additionalName="Sealed" type="Armor">
-		<!-- <When equipped>. CON +7. MEN +7. DEX +6. WIT +6. STR +6. INT +6. Max HP +1400. Max MP +1400. Max CP +1400. All received Critical Rate -18%. P./ M. Skill Cooldown -17%. Skill Power +2%. <font color=bbaa88><Upgrading></font>. Compound with Venir's Talisman Fragment. <font color=ff6666>Note!</font>. In case of failure the talisman level value drops to 24. Effects of two identical talismans do not stack. -->
+		<!-- <font color=bbaa88><Properties></font>. CON +7. MEN +7. DEX +6. WIT +6. STR +6. INT +6. Max HP +1400. Max MP +1400. Max CP +1400. All received Critical Rate -18%. P./ M. Skill Cooldown -17%. Skill Power +2%. <font color=bbaa88><Compound></font>. Materials: Venir's Talisman Fragment. In case of failure, you will get <font color=eeaa22>Venir's Talisman Lv. 24</font>. Effects of two identical talismans do not stack. -->
 		<set name="icon" val="icon.benir_talisman_i01" />
 		<set name="default_action" val="EQUIP" />
 		<set name="bodypart" val="deco1" />
@@ -1485,7 +1485,7 @@
 		</skills>
 	</item>
 	<item id="95885" name="Venir's Talisman Lv. 28" additionalName="Sealed" type="Armor">
-		<!-- <When equipped>. CON +7. MEN +7. DEX +7. WIT +6. STR +6. INT +6. Max HP +1600. Max MP +1600. Max CP +1600. All received Critical Rate -18%. P./ M. Skill Cooldown -18%. Skill Power +3%. <font color=bbaa88><Upgrading></font>. Compound with Venir's Talisman Fragment. <font color=ff6666>Note!</font>. In case of failure the talisman level value drops to 24. Effects of two identical talismans do not stack. -->
+		<!-- <font color=bbaa88><Properties></font>. CON +7. MEN +7. DEX +7. WIT +6. STR +6. INT +6. Max HP +1600. Max MP +1600. Max CP +1600. All received Critical Rate -18%. P./ M. Skill Cooldown -18%. Skill Power +3%. <font color=bbaa88><Compound></font>. Materials: Venir's Talisman Fragment. In case of failure, you will get <font color=eeaa22>Venir's Talisman Lv. 24</font>. Effects of two identical talismans do not stack. -->
 		<set name="icon" val="icon.benir_talisman_i01" />
 		<set name="default_action" val="EQUIP" />
 		<set name="bodypart" val="deco1" />
@@ -1499,7 +1499,7 @@
 		</skills>
 	</item>
 	<item id="95886" name="Venir's Talisman Lv. 29" additionalName="Sealed" type="Armor">
-		<!-- <When equipped>. CON +7. MEN +7. DEX +7. WIT +7. STR +6. INT +6. Max HP +1800. Max MP +1800. Max CP +1800. All received Critical Rate -18%. P./ M. Skill Cooldown -18%. Skill Power +4%. <font color=bbaa88><Upgrading></font>. Compound with Venir's Talisman Fragment. <font color=ff6666>Note!</font>. In case of failure the talisman level value drops to 24. Effects of two identical talismans do not stack. -->
+		<!-- <font color=bbaa88><Properties></font>. CON +7. MEN +7. DEX +7. WIT +7. STR +6. INT +6. Max HP +1800. Max MP +1800. Max CP +1800. All received Critical Rate -18%. P./ M. Skill Cooldown -18%. Skill Power + 4%. <font color=bbaa88><Compound></font>. Materials: Venir's Talisman Fragment. In case of failure, you will get a <font color=eeaa22>Venir's Talisman Lv. 24</font>. Effects of two identical talismans do not stack. -->
 		<set name="icon" val="icon.benir_talisman_i01" />
 		<set name="default_action" val="EQUIP" />
 		<set name="bodypart" val="deco1" />
@@ -1527,7 +1527,7 @@
 		</skills>
 	</item>
 	<item id="95888" name="Lv. 91 Achievement Reward Box" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.etc_pi_gift_box_i03" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -1544,7 +1544,7 @@
 		</capsuled_items>
 	</item>
 	<item id="95889" name="Lv. 92 Achievement Reward Box" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.etc_pi_gift_box_i02" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -1560,7 +1560,7 @@
 		</capsuled_items>
 	</item>
 	<item id="95890" name="Spellbook: Glorious Warrior's Ability Lv. 2" additionalName="Sealed" type="EtcItem">
-		<!-- A commemorative spellbook for reaching Lv. 91. Double-click to learn Glorious Warrior's Ability Lv. 2. <Classes>. All classes. <Skill effect>. Increases WIT, DEX, CON, MEN. -->
+		<!-- A commemorative spellbook for reaching Lv. 91. Double-click to learn Glorious Warrior's Ability Lv. 2. <Classes>. All. <Skill effect>. Increases WIT, DEX, CON, MEN. -->
 		<set name="icon" val="icon.etc_spell_books_black_i00" />
 		<set name="default_action" val="SKILL_REDUCE" />
 		<set name="immediate_effect" val="true" />
@@ -1572,7 +1572,7 @@
 		<set name="is_stackable" val="true" />
 	</item>
 	<item id="95891" name="Spellbook: Glorious Warrior's Ability Lv. 3" additionalName="Sealed" type="EtcItem">
-		<!-- A commemorative spellbook for reaching Lv. 92. Double-click to learn Glorious Warrior's Ability Lv. 3. <Classes>. All classes. <Skill effect>. Increases STR, INT, WIT, DEX, CON, MEN. -->
+		<!-- A commemorative spellbook for reaching Lv. 92. Double-click to learn Glorious Warrior's Ability Lv. 3. <Classes>. All. <Skill effect>. Increases STR, INT, WIT, DEX, CON, MEN. -->
 		<set name="icon" val="icon.etc_spell_books_black_i00" />
 		<set name="default_action" val="SKILL_REDUCE" />
 		<set name="immediate_effect" val="true" />
@@ -1621,7 +1621,7 @@
 		</stats>
 	</item>
 	<item id="95894" name="Monsters Only_Shield" additionalName="Not Available" type="Weapon">
-		<!-- The item is not available. Monster weapon. Shield -->
+		<!-- The item is not available. A monster weapon. Type: shield. -->
 		<set name="icon" val="icon.weapon_akra_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="FIST" />

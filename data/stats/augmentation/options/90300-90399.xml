@@ -58,6 +58,7 @@
 		<!-- MP Consumption -5% -->
 	</option>
 	<option id="90319" name="Skill Power +2%">
+		<!-- Skill Power +2% -->
 		<effects>
 			<effect name="PhysicalSkillPower">
 				<amount>2.0</amount>
@@ -70,6 +71,7 @@
 		</effects>
 	</option>
 	<option id="90320" name="Skill Power +2.1%">
+		<!-- Skill Power +2.1% -->
 		<effects>
 			<effect name="PhysicalSkillPower">
 				<amount>2.1</amount>
@@ -82,6 +84,7 @@
 		</effects>
 	</option>
 	<option id="90321" name="Skill Power +2.2%">
+		<!-- Skill Power +2.2% -->
 		<effects>
 			<effect name="PhysicalSkillPower">
 				<amount>2.2</amount>
@@ -94,6 +97,7 @@
 		</effects>
 	</option>
 	<option id="90322" name="Skill Power +2.3%">
+		<!-- Skill Power +2.3% -->
 		<effects>
 			<effect name="PhysicalSkillPower">
 				<amount>2.3</amount>
@@ -106,6 +110,7 @@
 		</effects>
 	</option>
 	<option id="90323" name="Skill Power +2.4%">
+		<!-- Skill Power +2.4% -->
 		<effects>
 			<effect name="PhysicalSkillPower">
 				<amount>2.4</amount>
@@ -118,6 +123,7 @@
 		</effects>
 	</option>
 	<option id="90324" name="Skill Power +2.5%">
+		<!-- Skill Power +2.5% -->
 		<effects>
 			<effect name="PhysicalSkillPower">
 				<amount>2.5</amount>
@@ -130,6 +136,7 @@
 		</effects>
 	</option>
 	<option id="90325" name="Skill Power +2.6%">
+		<!-- Skill Power +2.6% -->
 		<effects>
 			<effect name="PhysicalSkillPower">
 				<amount>2.6</amount>
@@ -142,6 +149,7 @@
 		</effects>
 	</option>
 	<option id="90326" name="Skill Power +2.7%">
+		<!-- Skill Power +2.7% -->
 		<effects>
 			<effect name="PhysicalSkillPower">
 				<amount>2.7</amount>
@@ -154,6 +162,7 @@
 		</effects>
 	</option>
 	<option id="90327" name="Skill Power +2.8%">
+		<!-- Skill Power +2.8% -->
 		<effects>
 			<effect name="PhysicalSkillPower">
 				<amount>2.8</amount>
@@ -166,6 +175,7 @@
 		</effects>
 	</option>
 	<option id="90328" name="Skill Power +2.9%">
+		<!-- Skill Power +2.9% -->
 		<effects>
 			<effect name="PhysicalSkillPower">
 				<amount>2.9</amount>
@@ -178,6 +188,7 @@
 		</effects>
 	</option>
 	<option id="90329" name="Skill Power +3%">
+		<!-- Skill Power +3% -->
 		<effects>
 			<effect name="PhysicalSkillPower">
 				<amount>3.0</amount>
@@ -190,6 +201,7 @@
 		</effects>
 	</option>
 	<option id="90330" name="Skill Power +3.2%">
+		<!-- Skill Power +3.2% -->
 		<effects>
 			<effect name="PhysicalSkillPower">
 				<amount>3.2</amount>
@@ -202,6 +214,7 @@
 		</effects>
 	</option>
 	<option id="90331" name="Skill Power +3.5%">
+		<!-- Skill Power +3.5% -->
 		<effects>
 			<effect name="PhysicalSkillPower">
 				<amount>3.5</amount>
@@ -214,6 +227,7 @@
 		</effects>
 	</option>
 	<option id="90332" name="Skill Power +4%">
+		<!-- Skill Power +4% -->
 		<effects>
 			<effect name="PhysicalSkillPower">
 				<amount>4.0</amount>
@@ -226,6 +240,7 @@
 		</effects>
 	</option>
 	<option id="90333" name="Skill Power +4.1%">
+		<!-- Skill Power +4.1% -->
 		<effects>
 			<effect name="PhysicalSkillPower">
 				<amount>4.1</amount>
@@ -238,6 +253,7 @@
 		</effects>
 	</option>
 	<option id="90334" name="Skill Power +4.2%">
+		<!-- Skill Power +4.2% -->
 		<effects>
 			<effect name="PhysicalSkillPower">
 				<amount>4.2</amount>
@@ -250,6 +266,7 @@
 		</effects>
 	</option>
 	<option id="90335" name="Skill Power +4.3%">
+		<!-- Skill Power +4.3% -->
 		<effects>
 			<effect name="PhysicalSkillPower">
 				<amount>4.3</amount>
@@ -262,6 +279,7 @@
 		</effects>
 	</option>
 	<option id="90336" name="Skill Power +4.5%">
+		<!-- Skill Power +4.5% -->
 		<effects>
 			<effect name="PhysicalSkillPower">
 				<amount>4.5</amount>
@@ -274,6 +292,7 @@
 		</effects>
 	</option>
 	<option id="90337" name="Skill Power +4.7%">
+		<!-- Skill Power +4.7% -->
 		<effects>
 			<effect name="PhysicalSkillPower">
 				<amount>4.7</amount>
@@ -286,6 +305,7 @@
 		</effects>
 	</option>
 	<option id="90338" name="Skill Power +5%">
+		<!-- Skill Power +5% -->
 		<effects>
 			<effect name="PhysicalSkillPower">
 				<amount>5.0</amount>
@@ -298,6 +318,7 @@
 		</effects>
 	</option>
 	<option id="90339" name="P. Atk. +120">
+		<!-- P. Atk. +120 -->
 		<effects>
 			<effect name="PAtk">
 				<amount>120</amount>
@@ -306,6 +327,7 @@
 		</effects>
 	</option>
 	<option id="90340" name="P. Atk. +129">
+		<!-- P. Atk. +129 -->
 		<effects>
 			<effect name="PAtk">
 				<amount>129</amount>
@@ -314,6 +336,7 @@
 		</effects>
 	</option>
 	<option id="90341" name="P. Atk. +139">
+		<!-- P. Atk. +139 -->
 		<effects>
 			<effect name="PAtk">
 				<amount>139</amount>
@@ -322,6 +345,7 @@
 		</effects>
 	</option>
 	<option id="90342" name="P. Atk. +149">
+		<!-- P. Atk. +149 -->
 		<effects>
 			<effect name="PAtk">
 				<amount>149</amount>
@@ -330,6 +354,7 @@
 		</effects>
 	</option>
 	<option id="90343" name="P. Atk. +160">
+		<!-- P. Atk. +160 -->
 		<effects>
 			<effect name="PAtk">
 				<amount>160</amount>
@@ -338,6 +363,7 @@
 		</effects>
 	</option>
 	<option id="90344" name="P. Atk. +172">
+		<!-- P. Atk. +172 -->
 		<effects>
 			<effect name="PAtk">
 				<amount>172</amount>
@@ -346,6 +372,7 @@
 		</effects>
 	</option>
 	<option id="90345" name="P. Atk. +185">
+		<!-- P. Atk. +185 -->
 		<effects>
 			<effect name="PAtk">
 				<amount>185</amount>
@@ -354,6 +381,7 @@
 		</effects>
 	</option>
 	<option id="90346" name="P. Atk. +198">
+		<!-- P. Atk. +198 -->
 		<effects>
 			<effect name="PAtk">
 				<amount>198</amount>
@@ -362,6 +390,7 @@
 		</effects>
 	</option>
 	<option id="90347" name="P. Atk. +212.">
+		<!-- P. Atk. +212. -->
 		<effects>
 			<effect name="PAtk">
 				<amount>212.</amount>
@@ -370,6 +399,7 @@
 		</effects>
 	</option>
 	<option id="90348" name="P. Atk. +227">
+		<!-- P. Atk. +227 -->
 		<effects>
 			<effect name="PAtk">
 				<amount>227</amount>
@@ -378,6 +408,7 @@
 		</effects>
 	</option>
 	<option id="90349" name="P. Atk. +243">
+		<!-- P. Atk. +243 -->
 		<effects>
 			<effect name="PAtk">
 				<amount>243</amount>
@@ -386,6 +417,7 @@
 		</effects>
 	</option>
 	<option id="90350" name="P. Atk. +261">
+		<!-- P. Atk. +261 -->
 		<effects>
 			<effect name="PAtk">
 				<amount>261</amount>
@@ -394,6 +426,7 @@
 		</effects>
 	</option>
 	<option id="90351" name="P. Atk. +280">
+		<!-- P. Atk. +280 -->
 		<effects>
 			<effect name="PAtk">
 				<amount>280</amount>
@@ -402,6 +435,7 @@
 		</effects>
 	</option>
 	<option id="90352" name="P. Atk. +300">
+		<!-- P. Atk. +300 -->
 		<effects>
 			<effect name="PAtk">
 				<amount>300</amount>
@@ -410,6 +444,7 @@
 		</effects>
 	</option>
 	<option id="90353" name="P. Atk. +317">
+		<!-- P. Atk. +317 -->
 		<effects>
 			<effect name="PAtk">
 				<amount>317</amount>
@@ -418,6 +453,7 @@
 		</effects>
 	</option>
 	<option id="90354" name="P. Atk. +335">
+		<!-- P. Atk. +335 -->
 		<effects>
 			<effect name="PAtk">
 				<amount>335</amount>
@@ -426,6 +462,7 @@
 		</effects>
 	</option>
 	<option id="90355" name="P. Atk. +354">
+		<!-- P. Atk. +354 -->
 		<effects>
 			<effect name="PAtk">
 				<amount>354</amount>
@@ -434,6 +471,7 @@
 		</effects>
 	</option>
 	<option id="90356" name="P. Atk. +374">
+		<!-- P. Atk. +374 -->
 		<effects>
 			<effect name="PAtk">
 				<amount>374</amount>
@@ -442,6 +480,7 @@
 		</effects>
 	</option>
 	<option id="90357" name="P. Atk. +395">
+		<!-- P. Atk. +395 -->
 		<effects>
 			<effect name="PAtk">
 				<amount>395</amount>
@@ -450,6 +489,7 @@
 		</effects>
 	</option>
 	<option id="90358" name="P. Atk. +425">
+		<!-- P. Atk. +425 -->
 		<effects>
 			<effect name="PAtk">
 				<amount>425</amount>
@@ -458,6 +498,7 @@
 		</effects>
 	</option>
 	<option id="90359" name="M. Atk. +150">
+		<!-- M. Atk. +150 -->
 		<effects>
 			<effect name="MAtk">
 				<amount>150</amount>
@@ -466,6 +507,7 @@
 		</effects>
 	</option>
 	<option id="90360" name="M. Atk. +160">
+		<!-- M. Atk. +160 -->
 		<effects>
 			<effect name="MAtk">
 				<amount>160</amount>
@@ -474,6 +516,7 @@
 		</effects>
 	</option>
 	<option id="90361" name="M. Atk. +171">
+		<!-- M. Atk. +171 -->
 		<effects>
 			<effect name="MAtk">
 				<amount>171</amount>
@@ -482,6 +525,7 @@
 		</effects>
 	</option>
 	<option id="90362" name="M. Atk. +183">
+		<!-- M. Atk. +183 -->
 		<effects>
 			<effect name="MAtk">
 				<amount>183</amount>
@@ -490,6 +534,7 @@
 		</effects>
 	</option>
 	<option id="90363" name="M. Atk. +195">
+		<!-- M. Atk. +195 -->
 		<effects>
 			<effect name="MAtk">
 				<amount>195</amount>
@@ -498,6 +543,7 @@
 		</effects>
 	</option>
 	<option id="90364" name="M. Atk. +208">
+		<!-- M. Atk. +208 -->
 		<effects>
 			<effect name="MAtk">
 				<amount>208</amount>
@@ -506,6 +552,7 @@
 		</effects>
 	</option>
 	<option id="90365" name="M. Atk. +222">
+		<!-- M. Atk. +222 -->
 		<effects>
 			<effect name="MAtk">
 				<amount>222</amount>
@@ -514,6 +561,7 @@
 		</effects>
 	</option>
 	<option id="90366" name="M. Atk. +237">
+		<!-- M. Atk. +237 -->
 		<effects>
 			<effect name="MAtk">
 				<amount>237</amount>
@@ -522,6 +570,7 @@
 		</effects>
 	</option>
 	<option id="90367" name="M. Atk. +253">
+		<!-- M. Atk. +253 -->
 		<effects>
 			<effect name="MAtk">
 				<amount>253</amount>
@@ -530,6 +579,7 @@
 		</effects>
 	</option>
 	<option id="90368" name="M. Atk. +270">
+		<!-- M. Atk. +270 -->
 		<effects>
 			<effect name="MAtk">
 				<amount>270</amount>
@@ -538,6 +588,7 @@
 		</effects>
 	</option>
 	<option id="90369" name="M. Atk. +288">
+		<!-- M. Atk. +288 -->
 		<effects>
 			<effect name="MAtk">
 				<amount>288</amount>
@@ -546,6 +597,7 @@
 		</effects>
 	</option>
 	<option id="90370" name="M. Atk. +307">
+		<!-- M. Atk. +307 -->
 		<effects>
 			<effect name="MAtk">
 				<amount>307</amount>
@@ -554,6 +606,7 @@
 		</effects>
 	</option>
 	<option id="90371" name="M. Atk. +327">
+		<!-- M. Atk. +327 -->
 		<effects>
 			<effect name="MAtk">
 				<amount>327</amount>
@@ -562,6 +615,7 @@
 		</effects>
 	</option>
 	<option id="90372" name="M. Atk. +340">
+		<!-- M. Atk. +340 -->
 		<effects>
 			<effect name="MAtk">
 				<amount>340</amount>
@@ -570,6 +624,7 @@
 		</effects>
 	</option>
 	<option id="90373" name="M. Atk. +369">
+		<!-- M. Atk. +369 -->
 		<effects>
 			<effect name="MAtk">
 				<amount>369</amount>
@@ -578,6 +633,7 @@
 		</effects>
 	</option>
 	<option id="90374" name="M. Atk. +401">
+		<!-- M. Atk. +401 -->
 		<effects>
 			<effect name="MAtk">
 				<amount>401</amount>
@@ -586,6 +642,7 @@
 		</effects>
 	</option>
 	<option id="90375" name="M. Atk. +436">
+		<!-- M. Atk. +436 -->
 		<effects>
 			<effect name="MAtk">
 				<amount>436</amount>
@@ -594,6 +651,7 @@
 		</effects>
 	</option>
 	<option id="90376" name="M. Atk. +474">
+		<!-- M. Atk. +474 -->
 		<effects>
 			<effect name="MAtk">
 				<amount>474</amount>
@@ -602,6 +660,7 @@
 		</effects>
 	</option>
 	<option id="90377" name="M. Atk. +515">
+		<!-- M. Atk. +515 -->
 		<effects>
 			<effect name="MAtk">
 				<amount>515</amount>
@@ -610,6 +669,7 @@
 		</effects>
 	</option>
 	<option id="90378" name="M. Atk. +535">
+		<!-- M. Atk. +535 -->
 		<effects>
 			<effect name="MAtk">
 				<amount>535</amount>
@@ -618,6 +678,7 @@
 		</effects>
 	</option>
 	<option id="90379" name="Skill Critical Damage +70">
+		<!-- Skill Critical Damage +70 -->
 		<effects>
 			<effect name="PhysicalSkillCriticalDamage">
 				<amount>70</amount>
@@ -630,6 +691,7 @@
 		</effects>
 	</option>
 	<option id="90380" name="Skill Critical Damage +74">
+		<!-- Skill Critical Damage +74 -->
 		<effects>
 			<effect name="PhysicalSkillCriticalDamage">
 				<amount>74</amount>
@@ -642,6 +704,7 @@
 		</effects>
 	</option>
 	<option id="90381" name="Skill Critical Damage +79">
+		<!-- Skill Critical Damage +79 -->
 		<effects>
 			<effect name="PhysicalSkillCriticalDamage">
 				<amount>79</amount>
@@ -654,6 +717,7 @@
 		</effects>
 	</option>
 	<option id="90382" name="Skill Critical Damage +84">
+		<!-- Skill Critical Damage +84 -->
 		<effects>
 			<effect name="PhysicalSkillCriticalDamage">
 				<amount>84</amount>
@@ -666,6 +730,7 @@
 		</effects>
 	</option>
 	<option id="90383" name="Skill Critical Damage +89">
+		<!-- Skill Critical Damage +89 -->
 		<effects>
 			<effect name="PhysicalSkillCriticalDamage">
 				<amount>89</amount>
@@ -678,6 +743,7 @@
 		</effects>
 	</option>
 	<option id="90384" name="Skill Critical Damage +94">
+		<!-- Skill Critical Damage +94 -->
 		<effects>
 			<effect name="PhysicalSkillCriticalDamage">
 				<amount>94</amount>
@@ -690,6 +756,7 @@
 		</effects>
 	</option>
 	<option id="90385" name="Skill Critical Damage +100">
+		<!-- Skill Critical Damage +100 -->
 		<effects>
 			<effect name="PhysicalSkillCriticalDamage">
 				<amount>100</amount>
@@ -702,6 +769,7 @@
 		</effects>
 	</option>
 	<option id="90386" name="Skill Critical Damage +106">
+		<!-- Skill Critical Damage +106 -->
 		<effects>
 			<effect name="PhysicalSkillCriticalDamage">
 				<amount>106</amount>
@@ -714,6 +782,7 @@
 		</effects>
 	</option>
 	<option id="90387" name="Skill Critical Damage +112">
+		<!-- Skill Critical Damage +112 -->
 		<effects>
 			<effect name="PhysicalSkillCriticalDamage">
 				<amount>112</amount>
@@ -726,6 +795,7 @@
 		</effects>
 	</option>
 	<option id="90388" name="Skill Critical Damage +119">
+		<!-- Skill Critical Damage +119 -->
 		<effects>
 			<effect name="PhysicalSkillCriticalDamage">
 				<amount>119</amount>
@@ -738,6 +808,7 @@
 		</effects>
 	</option>
 	<option id="90389" name="Skill Critical Damage +126">
+		<!-- Skill Critical Damage +126 -->
 		<effects>
 			<effect name="PhysicalSkillCriticalDamage">
 				<amount>126</amount>
@@ -750,6 +821,7 @@
 		</effects>
 	</option>
 	<option id="90390" name="Skill Critical Damage +133">
+		<!-- Skill Critical Damage +133 -->
 		<effects>
 			<effect name="PhysicalSkillCriticalDamage">
 				<amount>133</amount>
@@ -762,6 +834,7 @@
 		</effects>
 	</option>
 	<option id="90391" name="Skill Critical Damage +141">
+		<!-- Skill Critical Damage +141 -->
 		<effects>
 			<effect name="PhysicalSkillCriticalDamage">
 				<amount>141</amount>
@@ -774,6 +847,7 @@
 		</effects>
 	</option>
 	<option id="90392" name="Skill Critical Damage +150">
+		<!-- Skill Critical Damage +150 -->
 		<effects>
 			<effect name="PhysicalSkillCriticalDamage">
 				<amount>150</amount>
@@ -786,6 +860,7 @@
 		</effects>
 	</option>
 	<option id="90393" name="Skill Critical Damage +168">
+		<!-- Skill Critical Damage +168 -->
 		<effects>
 			<effect name="PhysicalSkillCriticalDamage">
 				<amount>168</amount>
@@ -798,6 +873,7 @@
 		</effects>
 	</option>
 	<option id="90394" name="Skill Critical Damage +189">
+		<!-- Skill Critical Damage +189 -->
 		<effects>
 			<effect name="PhysicalSkillCriticalDamage">
 				<amount>189</amount>
@@ -810,6 +886,7 @@
 		</effects>
 	</option>
 	<option id="90395" name="Skill Critical Damage +212">
+		<!-- Skill Critical Damage +212 -->
 		<effects>
 			<effect name="PhysicalSkillCriticalDamage">
 				<amount>212</amount>
@@ -822,6 +899,7 @@
 		</effects>
 	</option>
 	<option id="90396" name="Skill Critical Damage +238">
+		<!-- Skill Critical Damage +238 -->
 		<effects>
 			<effect name="PhysicalSkillCriticalDamage">
 				<amount>238</amount>
@@ -834,6 +912,7 @@
 		</effects>
 	</option>
 	<option id="90397" name="Skill Critical Damage +267">
+		<!-- Skill Critical Damage +267 -->
 		<effects>
 			<effect name="PhysicalSkillCriticalDamage">
 				<amount>267</amount>
@@ -846,6 +925,7 @@
 		</effects>
 	</option>
 	<option id="90398" name="Skill Critical Damage +300">
+		<!-- Skill Critical Damage +300 -->
 		<effects>
 			<effect name="PhysicalSkillCriticalDamage">
 				<amount>300</amount>
@@ -858,6 +938,7 @@
 		</effects>
 	</option>
 	<option id="90399" name="Soulshot/ Spiritshot damage +2%">
+		<!-- Soulshot/ Spiritshot damage +2% -->
 		<effects>
 			<effect name="ShotsBonus">
 				<amount>2.0</amount>

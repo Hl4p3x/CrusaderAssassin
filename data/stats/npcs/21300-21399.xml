@@ -3,9 +3,9 @@
 	<npc id="21396" level="84" type="Monster" name="Carrion Scarab">
 		<race>BUG</race>
 		<sex>MALE</sex>
-		<acquire exp="5532" sp="10208" />
+		<acquire exp="5532" sp="49" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="43915.74" hpRegen="17" mp="2718" mpRegen="6" />
+			<vitals hp="48307.314" hpRegen="17" mp="2718" mpRegen="6" />
 			<attack physical="45789.25" magical="23451.1" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
 			<defence physical="1545.9864336" magical="707.053617" />
 			<speed>
@@ -43,9 +43,9 @@
 	<npc id="21397" level="84" type="Monster" name="Carrion Scarab">
 		<race>BUG</race>
 		<sex>MALE</sex>
-		<acquire exp="5532" sp="20334" />
+		<acquire exp="5532" sp="49" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="43915.74" hpRegen="17" mp="2718" mpRegen="6" />
+			<vitals hp="48307.314" hpRegen="17" mp="2718" mpRegen="6" />
 			<attack physical="45789.25" magical="23451.1" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
 			<defence physical="1545.9864336" magical="707.053617" />
 			<speed>
@@ -78,9 +78,9 @@
 	<npc id="21398" level="84" type="Monster" name="Soldier Scarab">
 		<race>BUG</race>
 		<sex>MALE</sex>
-		<acquire exp="5532" sp="10208" />
+		<acquire exp="5532" sp="49" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="43915.74" hpRegen="17" mp="2718" mpRegen="6" />
+			<vitals hp="48307.314" hpRegen="17" mp="2718" mpRegen="6" />
 			<attack physical="45789.25" magical="23451.1" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
 			<defence physical="1545.9864336" magical="707.053617" />
 			<speed>
@@ -112,9 +112,9 @@
 	<npc id="21399" level="84" type="Monster" name="Soldier Scarab">
 		<race>BUG</race>
 		<sex>MALE</sex>
-		<acquire exp="5532" sp="20334" />
+		<acquire exp="5532" sp="49" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="43915.74" hpRegen="17" mp="2718" mpRegen="6" />
+			<vitals hp="48307.314" hpRegen="17" mp="2718" mpRegen="6" />
 			<attack physical="45789.25" magical="23451.1" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
 			<defence physical="1545.9864336" magical="707.053617" />
 			<speed>

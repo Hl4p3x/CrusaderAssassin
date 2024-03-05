@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/items.xsd">
 	<item id="94800" name="Kit: Dragon" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.strider_necklace_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -20,7 +20,7 @@
 		</capsuled_items>
 	</item>
 	<item id="94801" name="Kit: Hawk" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.thunder_bird_necklace_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -130,10 +130,10 @@
 			<item id="94668" min="1" max="1" chance="1.666667" /> <!-- Spellbook: Pa'agrio's Touch -->
 			<item id="94673" min="1" max="1" chance="1.666667" /> <!-- Spellbook: Team Building -->
 			<item id="93103" min="1" max="1" chance="1.666667" /> <!-- Spellbook: Divine Beam -->
-			<item id="94326" min="1" max="1" chance="1.666667" /> <!-- Spellbook: Dance of Warrior -->
-			<item id="94327" min="1" max="1" chance="1.666667" /> <!-- Spellbook: Dance of Fire -->
-			<item id="94324" min="1" max="1" chance="1.666667" /> <!-- Spellbook: Song of Earth -->
-			<item id="94325" min="1" max="1" chance="1.666667" /> <!-- Spellbook: Song of Hunter -->
+			<item id="94326" min="1" max="1" chance="1.666667" /> <!-- Spellbook: Dance of Warrior Lv. 2 -->
+			<item id="94327" min="1" max="1" chance="1.666667" /> <!-- Spellbook: Dance of Fire Lv. 2 -->
+			<item id="94324" min="1" max="1" chance="1.666667" /> <!-- Spellbook: Song of Earth Lv. 2 -->
+			<item id="94325" min="1" max="1" chance="1.666667" /> <!-- Spellbook: Song of Hunter Lv. 2 -->
 			<item id="49683" min="1" max="1" chance="1.666667" /> <!-- Talisman of Baium -->
 			<item id="95660" min="1" max="1" chance="1.666667" /> <!-- Boss' Weapon Pack - Sealed -->
 			<item id="94385" min="1" max="1" chance="1.666667" /> <!-- Improved Scroll: Enchant Rare Accessories -->
@@ -173,7 +173,7 @@
 			<item id="94423" min="1" max="1" chance="1.666667" /> <!-- Augmenting Stone: Accessory -->
 			<item id="93100" min="1" max="1" chance="1.666667" /> <!-- Augmenting Stone: Shield/ Sigil -->
 			<item id="94303" min="1" max="1" chance="1.666667" /> <!-- Augmenting Stone: Circlet -->
-			<item id="91712" min="5" max="5" chance="1.666667" /> <!-- Sayha's Storm Lv. 3 - Sealed -->
+			<item id="91712" min="5" max="5" chance="1.666667" /> <!-- Sayha's Storm - Sealed -->
 			<item id="94269" min="5" max="5" chance="1.666667" /> <!-- Scroll: Boost Attack - Sealed -->
 			<item id="94271" min="5" max="5" chance="1.666667" /> <!-- Scroll: Boost Defense - Sealed -->
 			<item id="91641" min="10" max="10" chance="1.666667" /> <!-- Sayha's Blessing - Sealed -->
@@ -257,7 +257,7 @@
 		<set name="price" val="5000000" />
 	</item>
 	<item id="94814" name="Aden Random Transformation Scroll (Time-limited)" additionalName="Sealed" type="EtcItem">
-		<!-- When used, activates one of the following transformations. <Available transformations>. - Dragon Berserker. - High Priest. - Hanbok. - Bear. - Duration: 60 min. - Cooldown: 10 sec. - The effect remains after death. -->
+		<!-- When used, activates one of the following transformations. <Available transformations>. - Dragon Berserker. - High Priest. - Hanbok. - Bear. Duration: 20 min. Cooldown: 10 sec. The effect remains after death. -->
 		<set name="icon" val="icon.random_transform_00" />
 		<set name="default_action" val="SKILL_REDUCE" />
 		<set name="etcitem_type" val="POTION" />
@@ -285,7 +285,7 @@
 		<capsuled_items>
 			<item id="49674" min="300" max="300" chance="100" /> <!-- XP Growth Scroll - Sealed -->
 			<item id="91641" min="500" max="500" chance="100" /> <!-- Sayha's Blessing - Sealed -->
-			<item id="91712" min="300" max="300" chance="100" /> <!-- Sayha's Storm Lv. 3 - Sealed -->
+			<item id="91712" min="300" max="300" chance="100" /> <!-- Sayha's Storm - Sealed -->
 		</capsuled_items>
 	</item>
 	<item id="94816" name="Kit: Buff Scrolls (Time-limited)" additionalName="Sealed" type="EtcItem">
@@ -350,7 +350,7 @@
 			<item id="91550" min="1" max="1" chance="1.694" /> <!-- Frintezza's Necklace -->
 			<item id="91641" min="5" max="5" chance="1.748" /> <!-- Sayha's Blessing - Sealed -->
 			<item id="91690" min="30" max="30" chance="1.694" /> <!-- Special HP Recovery Potion - Sealed -->
-			<item id="91712" min="2" max="2" chance="1.694" /> <!-- Sayha's Storm Lv. 3 - Sealed -->
+			<item id="91712" min="2" max="2" chance="1.694" /> <!-- Sayha's Storm - Sealed -->
 			<item id="92314" min="20" max="20" chance="1.694" /> <!-- Giran Seal -->
 			<item id="92314" min="5" max="5" chance="1.694" /> <!-- Giran Seal -->
 			<item id="92314" min="1" max="1" chance="1.694" /> <!-- Giran Seal -->
@@ -532,7 +532,7 @@
 		</capsuled_items>
 	</item>
 	<item id="94822" name="Package: +7 Cloak of Protection" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.bm_2018_sayha_cloak_back_i01" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -546,7 +546,7 @@
 		</capsuled_items>
 	</item>
 	<item id="94823" name="Boss' Weapon Pack" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.zariche_box" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -615,7 +615,7 @@
 		</capsuled_items>
 	</item>
 	<item id="94826" name="Olympiad Treasure Chest" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.etc_treasure_box_i11" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -709,7 +709,7 @@
 		<set name="is_sellable" val="false" />
 	</item>
 	<item id="94832" name="Special Spellbook Chest" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.sayha2017_box_i01" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -850,7 +850,7 @@
 		</capsuled_items>
 	</item>
 	<item id="94838" name="Random Transformation Scroll (Time-limited)" additionalName="Sealed" type="EtcItem">
-		<!-- When used, activates one of the following transformations. <Available transformations>. - Dragon Berserker. - Wild Wolf. - Holiday Attire. - Cat. Duration: 60 min. Cooldown: 10 sec. The effect remains after death. -->
+		<!-- When used, activates one of the following transformations. <Available transformations>. - Dragon Berserker. - Wild Wolf. - White Day Outfit. - Cat. Duration: 20 min. Cooldown: 10 sec. The effect remains after death. -->
 		<set name="icon" val="icon.random_transform_00" />
 		<set name="default_action" val="SKILL_REDUCE" />
 		<set name="etcitem_type" val="POTION" />
@@ -1336,8 +1336,8 @@
 		</skills>
 	</item>
 	<item id="94852" name="TJ Coupon (Time-limited)" additionalName="Sealed" type="EtcItem">
-		<!-- Can be used for recovering items destroyed after a failed enchant attempt (they will be recovered as <font color=EEAA22>sealed</font> items) or for exchanging for <font color=EEAA22>Prestigious Doll Box Lv. 1</font> or <font color=EEAA22>Dye Powder (Sealed)</font>. <font color=bbaa88><Items to recover></font>. Blessed/ common Dragon Belt. Circlet of Hero. Agathion Spirit. Talisman of Aden/ Speed/ Eva/ Authority. Blessed Talisman of Eva/ Speed. Cloak of Protection. <font color=bbaa88><Items to buy></font>. Doll Pack Lv. 1: 3 Coupons. Dye Powder (Sealed) 10 pcs.: 1 Coupon -->
-		<set name="icon" val="icon.ev_prestige_ticket" />
+		<!-- Double-click to <font color=EEAA22>exchange for various items</font>. <font color=bbaa88><Items for exchange></font>. 1 Black Coupon: Elixir Powder (10 pcs.). 5 Black Coupons: Spellbook Coupon - 3 Stars -->
+		<set name="icon" val="icon.ev_black_ticket" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="LIQUID" />
 		<set name="is_tradable" val="false" />
@@ -1433,7 +1433,7 @@
 			<item id="71270" min="2" max="2" chance="2.040" /> <!-- Venir's Talisman Fragment -->
 			<item id="91550" min="1" max="1" chance="2.040" /> <!-- Frintezza's Necklace -->
 			<item id="49845" min="3" max="3" chance="2.040" /> <!-- Sayha's Blessing -->
-			<item id="91712" min="2" max="2" chance="2.040" /> <!-- Sayha's Storm Lv. 3 - Sealed -->
+			<item id="91712" min="2" max="2" chance="2.040" /> <!-- Sayha's Storm - Sealed -->
 			<item id="92314" min="10" max="10" chance="2.040" /> <!-- Giran Seal -->
 			<item id="92314" min="5" max="5" chance="2.040" /> <!-- Giran Seal -->
 			<item id="92314" min="2" max="2" chance="2.040" /> <!-- Giran Seal -->
@@ -1506,7 +1506,7 @@
 		<set name="is_stackable" val="true" />
 	</item>
 	<item id="94862" name="Spellbook: Exclusion" type="EtcItem">
-		<!-- A spellbook for learning the Exclusion skill. <Class>. Eva's Saint. <Skill effect>. Knocks the target and nearby enemies back. Greatly decreases Atk. Spd./ Casting Spd./ Speed. - Prevents enemies from using Speed buffs and Rush skills. - Increases P./ M. Skill Cooldown. -->
+		<!-- A spellbook for learning the Exclusion skill. <Class>. Eva's Saint. <Skill effect>. Cancels a Suppression debuff applied to allies. Knocks the target and nearby enemies back. Greatly decreases Atk. Spd./ Casting Spd./ Speed. Increases P./ M. Skill Cooldown. Prevents enemies from using Speed buffs and Rush skills. -->
 		<set name="icon" val="icon.etc_magic_book_white_i00" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="PAPER" />
@@ -1615,10 +1615,10 @@
 			<item id="93869" min="1" max="1" chance="3.57" /> <!-- Spellbook: Elemental Burst -->
 			<item id="93870" min="1" max="1" chance="3.57" /> <!-- Spellbook: Ethereal Strike -->
 			<item id="94137" min="1" max="1" chance="3.57" /> <!-- Spellbook: Devour -->
-			<item id="94324" min="1" max="1" chance="3.57" /> <!-- Spellbook: Song of Earth -->
-			<item id="94325" min="1" max="1" chance="3.57" /> <!-- Spellbook: Song of Hunter -->
-			<item id="94326" min="1" max="1" chance="3.57" /> <!-- Spellbook: Dance of Warrior -->
-			<item id="94327" min="1" max="1" chance="3.57" /> <!-- Spellbook: Dance of Fire -->
+			<item id="94324" min="1" max="1" chance="3.57" /> <!-- Spellbook: Song of Earth Lv. 2 -->
+			<item id="94325" min="1" max="1" chance="3.57" /> <!-- Spellbook: Song of Hunter Lv. 2 -->
+			<item id="94326" min="1" max="1" chance="3.57" /> <!-- Spellbook: Dance of Warrior Lv. 2 -->
+			<item id="94327" min="1" max="1" chance="3.57" /> <!-- Spellbook: Dance of Fire Lv. 2 -->
 			<item id="94498" min="1" max="1" chance="3.57" /> <!-- Spellbook: Titan Champion -->
 			<item id="94500" min="1" max="1" chance="3.57" /> <!-- Spellbook: Titanic Sweep -->
 			<item id="94501" min="1" max="1" chance="3.57" /> <!-- Spellbook: Titanic Break -->
@@ -1726,7 +1726,7 @@
 		</capsuled_items>
 	</item>
 	<item id="94871" name="Golden Wheel's Coupon (Time-limited)" additionalName="Sealed" type="EtcItem">
-		<!-- Can be exchanged in the Secret Shop. Applies a buff when used. <Secret Shop Ticket>. P. Atk. +50. M. Atk. +50. P. Def. +100. M. Def. +100. XP recovery fee -10%. - Duration: 60 min. - Cooldown: 1 min. - The effect remains after death. -->
+		<!-- Can be exchanged in the Secret Shop. When used, Sayha's Grace points +4000. -->
 		<set name="icon" val="icon.bm_masterpiece_silver_ticket" />
 		<set name="default_action" val="SKILL_REDUCE" />
 		<set name="material" val="LIQUID" />

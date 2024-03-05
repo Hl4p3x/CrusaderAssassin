@@ -157,7 +157,7 @@
 		<set name="is_questitem" val="true" />
 	</item>
 	<item id="1213" name="Guard's Bow" additionalName="Sealed" type="Weapon">
-		<!-- Bow given to you by Guard Moretti. Perhaps it can be used for something important. <font color=ff6666><Unavailable to Sylphs/ Vanguard Riders.></font> -->
+		<!-- Bow given to you by Guard Moretti. Perhaps it can be used for something important. <font color=ff6666><Unavailable to Sylphs/ Vanguard Riders/ Assassins.></font> -->
 		<set name="icon" val="icon.weapon_bow_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="BOW" />
@@ -546,7 +546,7 @@
 		<set name="is_questitem" val="true" />
 	</item>
 	<item id="1244" name="Gaze of Abyss" additionalName="Not Available" type="EtcItem">
-		<!-- The item is not available. Take this token to the Grand Master of the Dark Elf guild to change your class to Palus Knight. -->
+		<!-- The item is not available. Take it to the Grand Master of the Dark Elf Guild to change your class to Dark Knight. -->
 		<set name="icon" val="icon.etc_ertheia2" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="STEEL" />
@@ -642,7 +642,7 @@
 		<set name="is_questitem" val="true" />
 	</item>
 	<item id="1252" name="Iron Heart" additionalName="Not Available" type="EtcItem">
-		<!-- The item is not available. Take it to the Grand Master of the Dark Elf Guild to change your class to Assassin. -->
+		<!-- The item is not available. Take it to the Grand Master of the Dark Elf Guild to change your class to Dark Slayer. -->
 		<set name="icon" val="icon.etc_ertheia2" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="STEEL" />

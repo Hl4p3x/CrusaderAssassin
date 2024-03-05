@@ -147,7 +147,7 @@
 	</option>
 	<option id="8115" name="o_f_75_2g_16">
 		<!-- P. Def. +7.65. -->
-		<!-- Max MP +8.71. -->
+		<!-- Max MP +8.71 -->
 		<effects>
 			<effect name="PhysicalDefence">
 				<amount>7.651</amount>
@@ -301,7 +301,7 @@
 	</option>
 	<option id="8126" name="o_f_75_2g_27">
 		<!-- M. Def. +6.16. -->
-		<!-- Max MP +8.71. -->
+		<!-- Max MP +8.71 -->
 		<effects>
 			<effect name="MagicalDefence">
 				<amount>6.16</amount>
@@ -441,7 +441,7 @@
 	</option>
 	<option id="8136" name="o_f_75_2g_37">
 		<!-- Max HP +31.14 -->
-		<!-- Max MP +8.71. -->
+		<!-- Max MP +8.71 -->
 		<effects>
 			<effect name="MaxHp">
 				<amount>31.136</amount>

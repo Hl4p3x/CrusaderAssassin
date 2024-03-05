@@ -812,7 +812,7 @@
 			</effect>
 		</effects>
 	</skill>
-	<skill id="4337" toLevel="5" name="Holy Attack Resistance">
+	<skill id="4337" toLevel="5" name="Holy Resistance">
 		<!-- Resistance to Holy. -->
 		<icon>icon.skill4337</icon>
 		<magicLevel>1</magicLevel>
@@ -912,7 +912,7 @@
 		</effects>
 	</skill>
 	<skill id="4342" toLevel="2" name="Wind Walk">
-		<!-- Temporarily increases Speed. -->
+		<!-- Increases Speed for a certain amount of time. -->
 		<icon>icon.skill1204</icon>
 		<abnormalLevel>
 			<value level="1">1</value>
@@ -2255,7 +2255,7 @@
 			</effect>
 		</effects>
 	</skill>
-	<skill id="4380" toLevel="1" name="Arena CP Recovery">
+	<skill id="4380" toLevel="1" name="Arena: CP Recovery">
 		<icon>icon.skill0000</icon>
 		<castRange>600</castRange>
 		<effectRange>1100</effectRange>
@@ -2493,7 +2493,7 @@
 		</effects>
 	</skill>
 	<skill id="4391" toLevel="2" name="Wind Walk">
-		<!-- Temporarily increases Speed. -->
+		<!-- Increases Speed for a certain amount of time. -->
 		<icon>icon.skill1204</icon>
 		<abnormalLevel>
 			<value level="1">2</value>

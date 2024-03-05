@@ -219,7 +219,7 @@
 			</effect>
 		</effects>
 	</skill>
-	<skill id="13866" toLevel="15" name="Mystic">
+	<skill id="13866" toLevel="15" name="Wizard">
 		<!-- M. Skill Critical Damage +3% -->
 		<icon>icon.ensoul_big_m</icon>
 		<operateType>P</operateType>

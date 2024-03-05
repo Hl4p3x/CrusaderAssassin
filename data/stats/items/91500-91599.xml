@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/items.xsd">
 	<item id="91500" name="Basalt Battlehammer Crafting Pack" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.event_hero_treasure_box_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -17,7 +17,7 @@
 		</capsuled_items>
 	</item>
 	<item id="91501" name="Imperial Staff Crafting Pack" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.event_hero_treasure_box_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -33,7 +33,7 @@
 		</capsuled_items>
 	</item>
 	<item id="91502" name="Angel Slayer Crafting Pack" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.event_hero_treasure_box_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -49,7 +49,7 @@
 		</capsuled_items>
 	</item>
 	<item id="91503" name="Dragon Hunter Axe Crafting Pack" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.event_hero_treasure_box_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -65,7 +65,7 @@
 		</capsuled_items>
 	</item>
 	<item id="91504" name="Saint Spear Crafting Pack" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.event_hero_treasure_box_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -77,11 +77,11 @@
 		<set name="handler" val="ExtractableItems" />
 		<capsuled_items>
 			<item id="6893" min="1" max="1" chance="100" /> <!-- Recipe: Saint Spear (30%) -->
-			<item id="92868" min="25" max="25" chance="100" /> <!-- Divine Spear Blade -->
+			<item id="92868" min="25" max="25" chance="100" /> <!-- Saint Spear Blade -->
 		</capsuled_items>
 	</item>
 	<item id="91505" name="Demon Splinter Crafting Pack" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.event_hero_treasure_box_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -97,7 +97,7 @@
 		</capsuled_items>
 	</item>
 	<item id="91506" name="Heaven's Divider Crafting Pack" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.event_hero_treasure_box_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -113,7 +113,7 @@
 		</capsuled_items>
 	</item>
 	<item id="91507" name="Arcana Mace Crafting Pack" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.event_hero_treasure_box_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -129,7 +129,7 @@
 		</capsuled_items>
 	</item>
 	<item id="91508" name="Draconic Bow Crafting Pack" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.event_hero_treasure_box_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -145,7 +145,7 @@
 		</capsuled_items>
 	</item>
 	<item id="91509" name="Sealed Imperial Crusader Breastplate Crafting Pack" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.event_hero_treasure_box_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -161,7 +161,7 @@
 		</capsuled_items>
 	</item>
 	<item id="91510" name="Sealed Imperial Crusader Gaiters Crafting Pack" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.event_hero_treasure_box_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -177,7 +177,7 @@
 		</capsuled_items>
 	</item>
 	<item id="91511" name="Sealed Imperial Crusader Gauntlets Crafting Pack" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.event_hero_treasure_box_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -193,7 +193,7 @@
 		</capsuled_items>
 	</item>
 	<item id="91512" name="Sealed Imperial Crusader Boots Crafting Pack" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.event_hero_treasure_box_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -209,7 +209,7 @@
 		</capsuled_items>
 	</item>
 	<item id="91513" name="Sealed Imperial Crusader Shield Crafting Pack" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.event_hero_treasure_box_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -225,7 +225,7 @@
 		</capsuled_items>
 	</item>
 	<item id="91514" name="Sealed Imperial Crusader Helmet Crafting Pack" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.event_hero_treasure_box_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -241,7 +241,7 @@
 		</capsuled_items>
 	</item>
 	<item id="91515" name="Sealed Draconic Leather Armor Crafting Pack" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.event_hero_treasure_box_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -257,7 +257,7 @@
 		</capsuled_items>
 	</item>
 	<item id="91516" name="Sealed Draconic Leather Gloves Crafting Pack" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.event_hero_treasure_box_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -273,7 +273,7 @@
 		</capsuled_items>
 	</item>
 	<item id="91517" name="Sealed Draconic Leather Boots Crafting Pack" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.event_hero_treasure_box_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -289,7 +289,7 @@
 		</capsuled_items>
 	</item>
 	<item id="91518" name="Sealed Draconic Leather Helmet Crafting Pack" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.event_hero_treasure_box_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -305,7 +305,7 @@
 		</capsuled_items>
 	</item>
 	<item id="91519" name="Sealed Major Arcana Robe Crafting Pack" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.event_hero_treasure_box_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -321,7 +321,7 @@
 		</capsuled_items>
 	</item>
 	<item id="91520" name="Sealed Major Arcana Gloves Crafting Pack" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.event_hero_treasure_box_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -337,7 +337,7 @@
 		</capsuled_items>
 	</item>
 	<item id="91521" name="Sealed Major Arcana Boots Crafting Pack" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.event_hero_treasure_box_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -353,7 +353,7 @@
 		</capsuled_items>
 	</item>
 	<item id="91522" name="Sealed Major Arcana Circlet Crafting Pack" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.event_hero_treasure_box_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -369,7 +369,7 @@
 		</capsuled_items>
 	</item>
 	<item id="91523" name="Sealed Tateossian Earring Crafting Pack" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.event_hero_treasure_box_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -385,7 +385,7 @@
 		</capsuled_items>
 	</item>
 	<item id="91524" name="Sealed Tateossian Ring Crafting Pack" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.event_hero_treasure_box_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -401,7 +401,7 @@
 		</capsuled_items>
 	</item>
 	<item id="91525" name="Sealed Tateossian Necklace Crafting Pack" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.event_hero_treasure_box_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -677,7 +677,7 @@
 		<set name="is_stackable" val="true" />
 	</item>
 	<item id="91555" name="Special Summer Box" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.etc_pi_gift_box_i00" />
 		<set name="default_action" val="SKILL_REDUCE" />
 		<set name="material" val="FISH" />
@@ -1089,7 +1089,7 @@
 		</skills>
 	</item>
 	<item id="91576" name="Jewel Chest" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.etc_treasure_box_i00" />
 		<set name="default_action" val="SKILL_REDUCE_ON_SKILL_SUCCESS" />
 		<set name="material" val="FISH" />
@@ -1107,7 +1107,7 @@
 		</capsuled_items>
 	</item>
 	<item id="91577" name="Life Stone Chest" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.etc_treasure_box_i01" />
 		<set name="default_action" val="SKILL_REDUCE_ON_SKILL_SUCCESS" />
 		<set name="material" val="FISH" />
@@ -1125,7 +1125,7 @@
 		</capsuled_items>
 	</item>
 	<item id="91578" name="Stable Scroll: Enchant Box" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.etc_treasure_box_i02" />
 		<set name="default_action" val="SKILL_REDUCE_ON_SKILL_SUCCESS" />
 		<set name="material" val="FISH" />
@@ -1137,7 +1137,7 @@
 		</skills>
 	</item>
 	<item id="91579" name="Greater Enchant Scroll Pack" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.etc_treasure_box_i03" />
 		<set name="default_action" val="SKILL_REDUCE_ON_SKILL_SUCCESS" />
 		<set name="material" val="FISH" />
@@ -1149,7 +1149,7 @@
 		</skills>
 	</item>
 	<item id="91580" name="Armor/ Accessory Varnish Box" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.etc_treasure_box_i04" />
 		<set name="default_action" val="SKILL_REDUCE_ON_SKILL_SUCCESS" />
 		<set name="material" val="FISH" />
@@ -1161,7 +1161,7 @@
 		</skills>
 	</item>
 	<item id="91581" name="Weapon Varnish Box" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.etc_treasure_box_i05" />
 		<set name="default_action" val="SKILL_REDUCE_ON_SKILL_SUCCESS" />
 		<set name="material" val="FISH" />
@@ -1173,7 +1173,7 @@
 		</skills>
 	</item>
 	<item id="91582" name="Elite Armor/ Accessory Varnish Box" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.etc_treasure_box_i06" />
 		<set name="default_action" val="SKILL_REDUCE_ON_SKILL_SUCCESS" />
 		<set name="material" val="FISH" />
@@ -1185,7 +1185,7 @@
 		</skills>
 	</item>
 	<item id="91583" name="Elite Weapon Varnish Box" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.etc_treasure_box_i07" />
 		<set name="default_action" val="SKILL_REDUCE_ON_SKILL_SUCCESS" />
 		<set name="material" val="FISH" />
@@ -1197,7 +1197,7 @@
 		</skills>
 	</item>
 	<item id="91584" name="Special Varnish Box" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.etc_treasure_box_i08" />
 		<set name="default_action" val="SKILL_REDUCE_ON_SKILL_SUCCESS" />
 		<set name="material" val="FISH" />
@@ -1230,7 +1230,7 @@
 		</stats>
 	</item>
 	<item id="91586" name="Gran Kain Treasure Chest" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.bm_gold_lure_special_box" />
 		<set name="default_action" val="SKILL_REDUCE_ON_SKILL_SUCCESS" />
 		<set name="material" val="FISH" />
@@ -1243,7 +1243,7 @@
 		</skills>
 	</item>
 	<item id="91587" name="Gran Kain's Silver Pack" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.bm_silver_lure_box" />
 		<set name="default_action" val="SKILL_REDUCE_ON_SKILL_SUCCESS" />
 		<set name="material" val="FISH" />
@@ -1288,7 +1288,7 @@
 		</capsuled_items>
 	</item>
 	<item id="91588" name="Gran Kain's Golden Pack" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.bm_gold_lure_box" />
 		<set name="default_action" val="SKILL_REDUCE_ON_SKILL_SUCCESS" />
 		<set name="material" val="FISH" />
@@ -1336,7 +1336,7 @@
 		</capsuled_items>
 	</item>
 	<item id="91589" name="Gran Kain's Special Chest" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.bm_gold_lure_box" />
 		<set name="default_action" val="SKILL_REDUCE_ON_SKILL_SUCCESS" />
 		<set name="material" val="FISH" />
@@ -1374,7 +1374,7 @@
 		</capsuled_items>
 	</item>
 	<item id="91590" name="Manuscript Chest" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.etc_bm_lure_box_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />

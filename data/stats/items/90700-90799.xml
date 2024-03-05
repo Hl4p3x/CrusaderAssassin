@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/items.xsd">
 	<item id="90700" name="Sealed Soul Crystal Lv. 7" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="BranchIcon.Icon.g_blue_sealed_rune" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -23,7 +23,7 @@
 		</capsuled_items>
 	</item>
 	<item id="90701" name="Sealed Soul Crystal Lv. 8" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="BranchIcon.Icon.g_blue_sealed_rune" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -45,7 +45,7 @@
 		</capsuled_items>
 	</item>
 	<item id="90702" name="Sealed Soul Crystal Lv. 9" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="BranchIcon.Icon.g_blue_sealed_rune" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -67,7 +67,7 @@
 		</capsuled_items>
 	</item>
 	<item id="90703" name="Sealed Soul Crystal Lv. 10" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="BranchIcon.Icon.g_blue_sealed_rune" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -89,7 +89,7 @@
 		</capsuled_items>
 	</item>
 	<item id="90704" name="Sealed Soul Crystal Lv. 11" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="BranchIcon.Icon.g_red_sealed_rune_01" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -111,7 +111,7 @@
 		</capsuled_items>
 	</item>
 	<item id="90705" name="Sealed Soul Crystal Lv. 12" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="BranchIcon.Icon.g_red_sealed_rune_01" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -133,7 +133,7 @@
 		</capsuled_items>
 	</item>
 	<item id="90706" name="Sealed Soul Crystal Lv. 13" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="BranchIcon.Icon.g_red_sealed_rune_01" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -155,7 +155,7 @@
 		</capsuled_items>
 	</item>
 	<item id="90707" name="Sealed Soul Crystal Lv. 14" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="BranchIcon.Icon.g_red_sealed_rune_01" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -177,7 +177,7 @@
 		</capsuled_items>
 	</item>
 	<item id="90708" name="Sealed Soul Crystal Lv. 15" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="BranchIcon.Icon.g_red_sealed_rune_01" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -426,7 +426,7 @@
 		<set name="material" val="PAPER" />
 	</item>
 	<item id="90727" name="Banana Sweets" additionalName="Sealed" type="EtcItem">
-		<!-- For 5 min., Acquired XP/ SP +50%, P. Atk. +15%, M. Atk. +23%, P./ M. Def. +15%, Atk. Spd./ Casting Spd. +10%, Speed +10, HP/ MP Recovery Rate +30%. The effect remains after death, but disappears after logout. -->
+		<!-- For 5 min., acquired XP/ SP while hunting +50%, P. Atk. +15%, M. Atk. +23%, P./ M. Def. +15%, Atk. Spd./ Casting Spd. +10%, Speed +10, HP/ MP Recovery Rate +30%. The effect remains after death, but disappears after logout. -->
 		<set name="icon" val="icon.songpyeon_herb" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
@@ -805,7 +805,7 @@
 		<set name="material" val="PAPER" />
 	</item>
 	<item id="90762" name="Pirate's Treasure Chest" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.etc_treasure_box_i02" />
 		<set name="default_action" val="SKILL_REDUCE_ON_SKILL_SUCCESS" />
 		<set name="is_tradable" val="false" />
@@ -967,7 +967,7 @@
 		<set name="is_sellable" val="false" />
 	</item>
 	<item id="90774" name="+3 Fire Dragon Pendant" additionalName="7-day" type="Armor">
-		<!-- M. Def. +13, when equipped. -->
+		<!-- When equipped, M. Def. +13. -->
 		<set name="icon" val="icon.bm_pendant_pve" />
 		<set name="default_action" val="EQUIP" />
 		<set name="bodypart" val="underwear" />
@@ -1134,7 +1134,7 @@
 		</skills>
 	</item>
 	<item id="90786" name="Pearl Lv. 4" additionalName="15-day" type="Armor">
-		<!-- Available for 15 days. M. Def. +46, Received M. Skill Critical Damage -4%. The effect doesn't stack if two identical jewels are equipped, the higher-level jewel takes precedence. -->
+		<!-- Available for 15 d. When equipped, M. Def. +46, received M. Skill Critical Damage -4%. Effects of two identical jewels do not stack, the higher-level jewel takes precedence. -->
 		<set name="icon" val="icon.etc_bm_jewel_pearl_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="bodypart" val="brooch_jewel" />
@@ -1150,7 +1150,7 @@
 		</skills>
 	</item>
 	<item id="90787" name="Jade Lv. 4" additionalName="15-day" type="Armor">
-		<!-- Available for 15 days. Atk. Spd./ Casting Spd. +7%. The effect doesn't stack if two identical jewels are equipped, the higher-level jewel takes precedence. -->
+		<!-- Available for 15 d. Atk. Spd./ Casting Spd. +7%. Effects of two identical jewels do not stack, the higher-level jewel takes precedence. -->
 		<set name="icon" val="icon.etc_bm_jewel_jade_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="bodypart" val="brooch_jewel" />
@@ -1244,7 +1244,7 @@
 		</skills>
 	</item>
 	<item id="90793" name="Chef's Fish Stew Box" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. <font color=eeaa22>Can be exchanged for Aden Coins through the Game Assistant.</font>. -->
+		<!-- Double-click to obtain various items. <font color=eeaa22>Can be exchanged for Aden Coins through the Game Assistant.</font>. -->
 		<set name="icon" val="icon.bm_freya_gift_box" />
 		<set name="default_action" val="SKILL_REDUCE_ON_SKILL_SUCCESS" />
 		<set name="material" val="FISH" />
@@ -1268,7 +1268,7 @@
 		<set name="material" val="PAPER" />
 	</item>
 	<item id="90795" name="Zaken's Earring Box Lv. 1" additionalName="7-day" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.bm_freya_gift_box" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -1284,7 +1284,7 @@
 		</capsuled_items>
 	</item>
 	<item id="90796" name="+3 Fire Dragon Pendant Pack" additionalName="7-day" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.bm_freya_gift_box" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -1302,7 +1302,7 @@
 		</capsuled_items>
 	</item>
 	<item id="90797" name="Talisman of Border Pack Lv. 3" additionalName="7-day" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.bm_freya_gift_box" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -1320,7 +1320,7 @@
 		</capsuled_items>
 	</item>
 	<item id="90798" name="+4 Fire Dragon Pendant Pack" additionalName="7-day" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.bm_freya_gift_box" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -1338,7 +1338,7 @@
 		</capsuled_items>
 	</item>
 	<item id="90799" name="Talisman of Border Pack Lv. 4" additionalName="7-day" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.bm_freya_gift_box" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />

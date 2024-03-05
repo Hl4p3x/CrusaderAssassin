@@ -11,7 +11,7 @@
 		<set name="is_stackable" val="true" />
 	</item>
 	<item id="13015" name="My Teleport Book" type="EtcItem">
-		<!-- Increases My Teleport locations by 3 slots, which can be used to save specific locations. My Teleport locations can be expanded up to 48 slots. -->
+		<!-- My Teleport Slots +3 (max - 48). -->
 		<set name="icon" val="icon.bookmark_book_i00" />
 		<set name="default_action" val="CALL_SKILL" />
 		<set name="material" val="PAPER" />

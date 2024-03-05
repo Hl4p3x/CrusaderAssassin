@@ -236,7 +236,7 @@
 		<capsuled_items>
 			<item id="90405" min="50" max="50" chance="100" /> <!-- My Teleport Scroll - Sealed -->
 			<item id="91641" min="100" max="100" chance="100" /> <!-- Sayha's Blessing - Sealed -->
-			<item id="91712" min="100" max="100" chance="100" /> <!-- Sayha's Storm Lv. 3 - Sealed -->
+			<item id="91712" min="100" max="100" chance="100" /> <!-- Sayha's Storm - Sealed -->
 			<item id="93080" min="20" max="20" chance="100" /> <!-- Charging Stone of Regular Craft - 1 Charge - Sealed -->
 			<item id="93948" min="1" max="1" chance="100" /> <!-- Extra Pass: Transcendent Instance Zone - Sealed -->
 		</capsuled_items>
@@ -257,7 +257,7 @@
 		</capsuled_items>
 	</item>
 	<item id="94218" name="Sparkling Accessory Pack (Time-limited)" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="BranchSys3.icon.g_cash_fortuna_box_r" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -284,7 +284,7 @@
 		</capsuled_items>
 	</item>
 	<item id="94219" name="Boss' Accessory Fragment (Time-limited)" additionalName="Sealed" type="EtcItem">
-		<!-- Can be exchanged for various items through the Game Assistant. <Items for exchange>. - Ring of Core (10 fragments). - Queen Ant's Ring (20 fragments). - Orfen's Earring (20 fragments). - Zaken's Earring (30 fragments). - Baium's Ring (50 fragments). - Frintezza's Necklace (70 fragments). - Scroll: Enchant Rare Accessories (20 fragments). - Improved Scroll: Enchant Rare Accessories (40 fragments). - Sparkling Accessory Pack (1 fragment) -->
+		<!-- Can be exchanged for various items through the Game Assistant. <Items for exchange>. - Ring of Core (5 fragments). - Queen Ant's Ring (10 fragments). - Orfen's Earring (10 fragments). - Zaken's Earring (15 fragments). - Baium's Ring (30 fragments). - Frintezza's Necklace (40 fragments). - Beleth' Ring (50 fragments). - Antharas' Earring (70 fragments). - Scroll: Enchant Rare Accessories (15 fragments). - Improved Scroll: Enchant Rare Accessories (30 fragments). - Sparkling Accessory Pack (1 fragment) -->
 		<set name="icon" val="icon.icon_material_renewal_mineral" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
@@ -313,7 +313,7 @@
 		</capsuled_items>
 	</item>
 	<item id="94221" name="Growth Potion (Time-limited)" additionalName="Sealed" type="EtcItem">
-		<!-- When used, XP +7,490,000, SP +200,000. Note!. Required level: 60+. Cannot be used by chaotic characters. -->
+		<!-- When used, XP +7,490,000, SP +20,000. Note!. Required level: 60+. Cannot be used by chaotic characters. -->
 		<set name="icon" val="icon.bm_freya_potion" />
 		<set name="default_action" val="SKILL_REDUCE" />
 		<set name="is_tradable" val="false" />
@@ -884,7 +884,7 @@
 		<set name="material" val="LIQUID" />
 	</item>
 	<item id="94258" name="Package: Einhasad's Pendant Lv. 1" additionalName="Sealed" type="EtcItem">
-		<!-- Can be compounded with a package of the same level and a pendant. Double-click to get more information about the contents. -->
+		<!-- <font color=bbaa88><Compound></font>. Materials: pendants and packages of the same level. In case of failure, the current level remains the same, but materials disappear. Double-click to obtain various items. -->
 		<set name="icon" val="Icon.bm_pendant_pve_white_pack" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -899,7 +899,7 @@
 		</capsuled_items>
 	</item>
 	<item id="94259" name="Package: Einhasad's Pendant Lv. 2" additionalName="Sealed" type="EtcItem">
-		<!-- Can be compounded with a package of the same level and a pendant. Double-click to get more information about the contents. -->
+		<!-- <font color=bbaa88><Compound></font>. Materials: pendants and packages of the same level. In case of failure, the current level remains the same, but materials disappear. Double-click to obtain various items. -->
 		<set name="icon" val="Icon.bm_pendant_pve_white_pack" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -914,7 +914,7 @@
 		</capsuled_items>
 	</item>
 	<item id="94260" name="Package: Einhasad's Pendant Lv. 3" additionalName="Sealed" type="EtcItem">
-		<!-- Can be compounded with a package of the same level and a pendant. Double-click to get more information about the contents. -->
+		<!-- <font color=bbaa88><Compound></font>. Materials: pendants and packages of the same level. In case of failure, the current level remains the same, but materials disappear. Double-click to obtain various items. -->
 		<set name="icon" val="Icon.bm_pendant_pve_white_pack" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -929,7 +929,7 @@
 		</capsuled_items>
 	</item>
 	<item id="94261" name="Package: Einhasad's Pendant Lv. 4" additionalName="Sealed" type="EtcItem">
-		<!-- Can be compounded with a package of the same level and a pendant. Double-click to get more information about the contents. -->
+		<!-- <font color=bbaa88><Compound></font>. Materials: pendants and packages of the same level. In case of failure, the current level remains the same, but materials disappear. Double-click to obtain various items. -->
 		<set name="icon" val="Icon.bm_pendant_pve_white_pack" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -944,7 +944,7 @@
 		</capsuled_items>
 	</item>
 	<item id="94262" name="Package: Einhasad's Pendant Lv. 5" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="Icon.bm_pendant_pve_white_pack" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -1048,7 +1048,7 @@
 			<item id="3031" min="5000" max="5000" chance="100" /> <!-- Spirit Ore - Sealed -->
 			<item id="90907" min="1000" max="1000" chance="100" /> <!-- Soulshot Ticket - Sealed -->
 			<item id="91641" min="200" max="200" chance="100" /> <!-- Sayha's Blessing - Sealed -->
-			<item id="91712" min="100" max="100" chance="100" /> <!-- Sayha's Storm Lv. 3 - Sealed -->
+			<item id="91712" min="100" max="100" chance="100" /> <!-- Sayha's Storm - Sealed -->
 			<item id="91757" min="20" max="20" chance="100" /> <!-- Magic Lamp Charging Potion - Sealed -->
 			<item id="92991" min="100" max="100" chance="100" /> <!-- Einhasad's Blessing Scroll - Sealed -->
 		</capsuled_items>

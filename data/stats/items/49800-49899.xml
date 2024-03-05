@@ -498,7 +498,7 @@
 		<set name="is_stackable" val="true" />
 	</item>
 	<item id="49844" name="Sayha's Blessing Chest" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.bm_sayha_blessed_box" />
 		<set name="default_action" val="SKILL_REDUCE_ON_SKILL_SUCCESS" />
 		<set name="material" val="PAPER" />
@@ -561,7 +561,7 @@
 		</skills>
 	</item>
 	<item id="49848" name="+10 Fire Dragon Pendant Pack" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.bm_pendant_pve_box" />
 		<set name="default_action" val="SKILL_REDUCE" />
 		<set name="material" val="FISH" />
@@ -575,7 +575,7 @@
 		</capsuled_items>
 	</item>
 	<item id="49849" name="+10 Earth Dragon Pendant" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.bm_pendant_pvp_box" />
 		<set name="default_action" val="SKILL_REDUCE" />
 		<set name="material" val="FISH" />
@@ -589,7 +589,7 @@
 		</capsuled_items>
 	</item>
 	<item id="49850" name="A-grade Accessory Pack" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.etc_treasure_box_i00" />
 		<set name="default_action" val="SKILL_REDUCE_ON_SKILL_SUCCESS" />
 		<set name="material" val="PAPER" />
@@ -603,7 +603,7 @@
 		</skills>
 	</item>
 	<item id="49851" name="Sayha's Storm Lv. 1" type="EtcItem">
-		<!-- Applies a buff when used. <Buff effect>. Sayha's Grace Consumption +100%. Acquired XP +100%. Acquired SP +100%. Duration: 20 min. Cooldown: 1 min. The effect remains after death. <font color=eeaa22>(Requires 35,000+ Sayha's Grace points.)</font> -->
+		<!-- Applies a buff when used. <Buff effect>. Sayha's Grace Consumption +100%. Acquired XP +100%. Acquired SP +100%. Duration: 20 min. Cooldown: 1 min. The effect remains after death. <font color=eeaa22>(Requires 35,000+ Sayha's Grace.)</font> -->
 		<set name="icon" val="icon.bm_sayha_storm" />
 		<set name="default_action" val="SKILL_REDUCE" />
 		<set name="immediate_effect" val="true" />
@@ -654,7 +654,7 @@
 		</skills>
 	</item>
 	<item id="49855" name="Sayha's Golden Gift" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.bm_sayha_gold_present" />
 		<set name="default_action" val="SKILL_REDUCE_ON_SKILL_SUCCESS" />
 		<set name="material" val="FISH" />
@@ -667,7 +667,7 @@
 		<set name="extractableCountMax" val="1" />
 		<capsuled_items>
 			<item id="49862" min="1" max="1" chance="7.692307" /> <!-- Bracelet of Border Chest -->
-			<item id="49521" min="1" max="1" chance="7.692307" /> <!-- Refined Romantic Chapeau <STR+1 INT+1> -->
+			<item id="49521" min="1" max="1" chance="7.692307" /> <!-- Refined Romantic Chapeau <STR +1 INT +1> -->
 			<item id="49788" min="1" max="1" chance="7.692307" /> <!-- Greater A-grade Enchant Scroll Pack -->
 			<item id="49787" min="1" max="1" chance="7.692307" /> <!-- Stable Scroll: A-grade Enchant Box -->
 			<item id="6662" min="1" max="1" chance="7.692307" /> <!-- Ring of Core -->
@@ -682,7 +682,7 @@
 		</capsuled_items>
 	</item>
 	<item id="49856" name="Sayha's Silver Gift" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.bm_sayha_silver_present" />
 		<set name="default_action" val="SKILL_REDUCE_ON_SKILL_SUCCESS" />
 		<set name="material" val="FISH" />
@@ -724,7 +724,7 @@
 		</capsuled_items>
 	</item>
 	<item id="49857" name="Sayha's Gift" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.bm_sayha_present" />
 		<set name="default_action" val="SKILL_REDUCE_ON_SKILL_SUCCESS" />
 		<set name="material" val="FISH" />
@@ -752,7 +752,7 @@
 		</capsuled_items>
 	</item>
 	<item id="49858" name="Wind Token" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.bm_sayha_token" />
 		<set name="default_action" val="SKILL_REDUCE" />
 		<set name="material" val="FISH" />
@@ -802,7 +802,7 @@
 		<set name="is_stackable" val="true" />
 	</item>
 	<item id="49862" name="Bracelet of Border Chest" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.etc_readybox_bronze" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/skills.xsd">
 	<skill id="5200" toLevel="8" name="Pet's Recharge">
-		<!-- Recovers MP. -->
+		<!-- Recovers your MP. -->
 		<icon>icon.skill1013</icon>
 		<castRange>400</castRange>
 		<effectPoint>
@@ -381,7 +381,7 @@
 		</effects>
 	</skill>
 	<skill id="5210" toLevel="1" name="Blessed Body (Event)">
-		<!-- Max HP +35% for a certain amount of time. -->
+		<!-- Temporarily Max HP +35%. -->
 		<icon>icon.skill1045</icon>
 		<abnormalLevel>7</abnormalLevel>
 		<abnormalTime>3600</abnormalTime>
@@ -747,7 +747,7 @@
 			</effect>
 		</effects>
 	</skill>
-	<skill id="5226" toLevel="1" name="Imprison">
+	<skill id="5226" toLevel="1" name="Imprisonment">
 		<!-- Transfers to prison. -->
 		<icon>icon.skill0000</icon>
 		<castRange>600</castRange>
@@ -1078,7 +1078,7 @@
 		</effects>
 	</skill>
 	<skill id="5242" toLevel="1" name="Sickness">
-		<!-- Temporary illness that makes you queasy and blurs your vision. -->
+		<!-- Blurs vision. -->
 		<icon>icon.skill5242</icon>
 		<abnormalLevel>1</abnormalLevel>
 		<abnormalTime>10</abnormalTime>

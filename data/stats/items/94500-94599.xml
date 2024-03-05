@@ -64,7 +64,7 @@
 		<set name="material" val="PAPER" />
 	</item>
 	<item id="94509" name="Frintezza Doll Lv. 1" additionalName="Sealed" type="EtcItem">
-		<!-- <Frintezza Doll's Sorcery Lv. 1>. STR/ INT +1. Skill Power +1%. Atk. Spd. +20. Casting Spd. +20. Speed +1. Boosts stats when in inventory. Can be upgraded through compounding. -->
+		<!-- <Frintezza Doll's Sorcery Lv. 1>. STR/ INT +1. Skill Power +1%. Atk. Spd. +20. Casting Spd. +20. Speed +1. Boosts stats when in inventory. <font color=bbaa88>Cannot be upgraded. <font color=bbaa88><Compound></font>. Materials: Frintezza Doll Lv. 1 and packages. In case of failure, the doll's level remains the same, but materials disappear. -->
 		<set name="icon" val="icon.bm_doll_frintessa_30d" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
@@ -91,7 +91,7 @@
 		<capsuled_items>
 			<item id="90907" min="100" max="100" chance="100" /> <!-- Soulshot Ticket - Sealed -->
 			<item id="91641" min="100" max="100" chance="100" /> <!-- Sayha's Blessing - Sealed -->
-			<item id="91712" min="20" max="20" chance="100" /> <!-- Sayha's Storm Lv. 3 - Sealed -->
+			<item id="91712" min="20" max="20" chance="100" /> <!-- Sayha's Storm - Sealed -->
 			<item id="91983" min="2" max="2" chance="100" /> <!-- Primeval Isle's Time Stone - Sealed -->
 			<item id="92400" min="2" max="2" chance="100" /> <!-- Forgotten Garden's Time Stone - Sealed -->
 			<item id="94269" min="30" max="30" chance="100" /> <!-- Scroll: Boost Attack - Sealed -->
@@ -129,7 +129,7 @@
 		</skills>
 	</item>
 	<item id="94513" name="Package: Frintezza Doll Lv. 1" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- <font color=bbaa88><Compound></font>. Materials: dolls and packages of the same level. In case of failure, the doll's package level remains the same, but materials disappear. Double-click to obtain various items. -->
 		<set name="icon" val="icon.bm_doll_frintessa_30d" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -144,7 +144,7 @@
 		</capsuled_items>
 	</item>
 	<item id="94514" name="Package: Frintezza Doll Lv. 2" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.bm_doll_frintessa_30d" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -159,7 +159,7 @@
 		</capsuled_items>
 	</item>
 	<item id="94515" name="Package: Frintezza Doll Lv. 3" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.bm_doll_frintessa_30d" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -183,7 +183,7 @@
 		<set name="material" val="FISH" />
 	</item>
 	<item id="94517" name="Improved Pet XP Crystal" additionalName="Sealed" type="EtcItem">
-		<!-- Applies the following effect. <When used>. XP +2,000,000,000 for a summoned pet. Note!. Can be used only when a pet is summoned. -->
+		<!-- Applies the following effect. <When used>. XP +2,000,000,000 for a summoned pet. Note!. Can only be used when a pet is summoned. -->
 		<set name="icon" val="icon.r99_soul_stone_piece_i05" />
 		<set name="default_action" val="SKILL_REDUCE" />
 		<set name="is_tradable" val="false" />
@@ -196,7 +196,7 @@
 		</skills>
 	</item>
 	<item id="94518" name="Amber Lv. 5" additionalName="Sealed" type="Armor">
-		<!-- <Active skill>. Interrupts the target's skill casting. <PvP effect>. Ignores CP and deals 2000 fixed damage. Effects of two identical jewels do not stack, the higher-level jewel takes precedence. -->
+		<!-- <Active skill>. Interrupts the target's skill casting. <PvP effect>. Ignores CP and deals 2000 fixed damage. <font color=bbaa88><Compound></font>. Materials: identical Jewels and Jewelry Boxes. In case of failure, the current level remains the same, but materials disappear. Effects of two identical jewels do not stack, the higher-level jewel takes precedence. -->
 		<set name="icon" val="icon.etc_bm_jewel_amber_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="bodypart" val="brooch_jewel" />
@@ -212,7 +212,7 @@
 		</skills>
 	</item>
 	<item id="94519" name="Opal Lv. 5" additionalName="Sealed" type="Armor">
-		<!-- <Properties>. Pull/ Shock Resistance +15%. Paralysis/ Fear/ Silence Resistance +15%. HP/ MP +100. <Active skill>. Grants immunity to debuffs and anomalies for 10 sec. Cooldown: 5 min. Effects of two identical jewels do not stack, the higher-level jewel takes precedence. -->
+		<!-- <font color=bbaa88><Properties></font>. Shock/ Pull Resistance +15%. Silence/ Paralysis/ Fear Resistance +15%. HP/ MP +100. <Active skill>. Grants immunity to debuffs and anomalies for 10 sec. - Cooldown: 5 min. <font color=bbaa88><Compound></font>. Materials: identical Jewels and Jewelry Boxes. In case of failure, the current level remains the same, but materials disappear. Effects of two identical jewels do not stack, the higher-level jewel takes precedence. -->
 		<set name="icon" val="icon.etc_bm_jewel_opal_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="bodypart" val="brooch_jewel" />
@@ -228,7 +228,7 @@
 		</skills>
 	</item>
 	<item id="94520" name="Coral Lv. 5" additionalName="Sealed" type="Armor">
-		<!-- <Properties>. Atk. Spd. +10%. Casting Spd. +10%. Effects of two identical jewels do not stack, the higher-level jewel takes precedence. -->
+		<!-- <font color=bbaa88><Properties></font>. Atk. Spd. +10%. Casting Spd. +10%. <font color=bbaa88><Compound></font>. Materials: identical Jewels and Jewelry Boxes. In case of failure, the current level remains the same, but materials disappear. Effects of two identical jewels do not stack, the higher-level jewel takes precedence. -->
 		<set name="icon" val="icon.etc_bm_jewel_coral_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="bodypart" val="brooch_jewel" />
@@ -244,7 +244,7 @@
 		</skills>
 	</item>
 	<item id="94521" name="Onyx Lv. 5" additionalName="Sealed" type="Armor">
-		<!-- <Properties>. Soulshot/ Spiritshot damage +12%. Effects of two identical jewels do not stack, the higher-level jewel takes precedence. -->
+		<!-- <font color=bbaa88><Properties></font>. Soulshot/ Spiritshot damage +12%. <font color=bbaa88><Compound></font>. Materials: identical Jewels and Jewelry Boxes. In case of failure, the current level remains the same, but materials disappear. Effects of two identical jewels do not stack, the higher-level jewel takes precedence. -->
 		<set name="icon" val="icon.etc_bm_jewel_onyx_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="bodypart" val="brooch_jewel" />
@@ -260,7 +260,7 @@
 		</skills>
 	</item>
 	<item id="94522" name="Spinel Lv. 5" additionalName="Sealed" type="Armor">
-		<!-- <Properties>. STR/ INT +1. DEX/ WIT +1. CON/ MEN +1. Received P. Critical Damage -7%. Received M. Skill Critical Damage -7%. P. Def. +150. M. Def. +100. With a certain chance, recovers 40 MP when using skills (cooldown: 3 sec.). Effects of two identical jewels do not stack, the higher-level jewel takes precedence. -->
+		<!-- <font color=bbaa88><Properties></font>. STR/ INT +1. DEX/ WIT +1. CON/ MEN +1. Received P. Critical Damage -7%. Received M. Skill Critical Damage -7%. P. Def. +150. M. Def. +100. With a certain chance, recovers 40 MP when using skills (cooldown: 3 sec.). <font color=bbaa88><Compound></font>. Materials: identical Jewels and Jewelry Boxes. In case of failure, the current level remains the same, but materials disappear. Effects of two identical jewels do not stack, the higher-level jewel takes precedence. -->
 		<set name="icon" val="icon.etc_bm_jewel_garnet_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="bodypart" val="brooch_jewel" />
@@ -276,7 +276,7 @@
 		</skills>
 	</item>
 	<item id="94523" name="Zircon Lv. 5" additionalName="Sealed" type="Armor">
-		<!-- <Properties>. P. Critical Damage +11%. M. Skill Critical Damage +11%. Effects of two identical jewels do not stack, the higher-level jewel takes precedence. -->
+		<!-- <font color=bbaa88><Properties></font>. P. Critical Damage +11%. M. Skill Critical Damage +11%. <font color=bbaa88><Compound></font>. Materials: identical Jewels and Jewelry Boxes. In case of failure, the current level remains the same, but materials disappear. Effects of two identical jewels do not stack, the higher-level jewel takes precedence. -->
 		<set name="icon" val="icon.etc_bm_jewel_bloodstone_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="bodypart" val="brooch_jewel" />
@@ -292,7 +292,7 @@
 		</skills>
 	</item>
 	<item id="94524" name="Moonstone Lv. 5" additionalName="Sealed" type="Armor">
-		<!-- <Properties>. While Sayha's Grace is active, acquired XP/ SP +11%. Sayha's Grace Consumption -20%. Effects of two identical jewels do not stack, the higher-level jewel takes precedence. -->
+		<!-- <font color=bbaa88><Properties></font>. Acquired XP/ SP +3%. With Sayha's Grace, acquired XP/ SP +8%. Sayha's Grace Consumption -20%. <font color=bbaa88><Compound></font>. Materials: identical Jewels and Jewelry Boxes. In case of failure, the current level remains the same, but materials disappear. Effects of two identical jewels do not stack, the higher-level jewel takes precedence. -->
 		<set name="icon" val="icon.etc_bm_jewel_moonstone_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="bodypart" val="brooch_jewel" />
@@ -950,7 +950,7 @@
 			<item id="91550" min="1" max="1" chance="1.5625" /> <!-- Frintezza's Necklace -->
 			<item id="91641" min="2" max="2" chance="1.5625" /> <!-- Sayha's Blessing - Sealed -->
 			<item id="91690" min="20" max="20" chance="1.5625" /> <!-- Special HP Recovery Potion - Sealed -->
-			<item id="91712" min="1" max="1" chance="1.5625" /> <!-- Sayha's Storm Lv. 3 - Sealed -->
+			<item id="91712" min="1" max="1" chance="1.5625" /> <!-- Sayha's Storm - Sealed -->
 			<item id="92314" min="5" max="5" chance="1.5625" /> <!-- Giran Seal -->
 			<item id="92314" min="2" max="2" chance="1.5625" /> <!-- Giran Seal -->
 			<item id="92314" min="1" max="1" chance="1.5625" /> <!-- Giran Seal -->
@@ -973,16 +973,16 @@
 			<item id="94258" min="1" max="1" chance="1.5625" /> <!-- Package: Einhasad's Pendant Lv. 1 - Sealed -->
 			<item id="94269" min="2" max="2" chance="1.5625" /> <!-- Scroll: Boost Attack - Sealed -->
 			<item id="94271" min="2" max="2" chance="1.5625" /> <!-- Scroll: Boost Defense - Sealed -->
-			<item id="94324" min="1" max="1" chance="1.5625" /> <!-- Spellbook: Song of Earth -->
-			<item id="94325" min="1" max="1" chance="1.5625" /> <!-- Spellbook: Song of Hunter -->
-			<item id="94326" min="1" max="1" chance="1.5625" /> <!-- Spellbook: Dance of Warrior -->
-			<item id="94327" min="1" max="1" chance="1.5625" /> <!-- Spellbook: Dance of Fire -->
+			<item id="94324" min="1" max="1" chance="1.5625" /> <!-- Spellbook: Song of Earth Lv. 2 -->
+			<item id="94325" min="1" max="1" chance="1.5625" /> <!-- Spellbook: Song of Hunter Lv. 2 -->
+			<item id="94326" min="1" max="1" chance="1.5625" /> <!-- Spellbook: Dance of Warrior Lv. 2 -->
+			<item id="94327" min="1" max="1" chance="1.5625" /> <!-- Spellbook: Dance of Fire Lv. 2 -->
 			<item id="94498" min="1" max="1" chance="1.5625" /> <!-- Spellbook: Titan Champion -->
 			<item id="94499" min="1" max="1" chance="1.5625" /> <!-- Spellbook: Titanic Weapon -->
 			<item id="94501" min="1" max="1" chance="1.5625" /> <!-- Spellbook: Titanic Break -->
-			<item id="94502" min="1" max="1" chance="1.5625" /> <!-- Spellbook: Ogre Spirit Totem -->
-			<item id="94503" min="1" max="1" chance="1.5625" /> <!-- Spellbook: Rabbit Spirit Totem -->
-			<item id="94504" min="1" max="1" chance="1.5625" /> <!-- Spellbook: Puma Spirit Totem -->
+			<item id="94502" min="1" max="1" chance="1.5625" /> <!-- Spellbook: Ogre Spirit Totem Lv. 2 -->
+			<item id="94503" min="1" max="1" chance="1.5625" /> <!-- Spellbook: Rabbit Spirit Totem Lv. 2 -->
+			<item id="94504" min="1" max="1" chance="1.5625" /> <!-- Spellbook: Puma Spirit Totem Lv. 2 -->
 			<item id="94506" min="1" max="1" chance="1.5625" /> <!-- Spellbook: Burning Assault -->
 			<item id="94508" min="1" max="1" chance="1.5625" /> <!-- Spellbook: Cacophony of War -->
 			<item id="94513" min="1" max="1" chance="1.5625" /> <!-- Package: Frintezza Doll Lv. 1 - Sealed -->
@@ -1000,7 +1000,7 @@
 		</capsuled_items>
 	</item>
 	<item id="94564" name="+9 Talisman of Aden Pack" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.bm_sheep_agathion_30d_box" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -1015,7 +1015,7 @@
 		</capsuled_items>
 	</item>
 	<item id="94565" name="+10 Talisman of Aden Pack" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.bm_sheep_agathion_30d_box" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -1109,7 +1109,7 @@
 			<item id="90907" min="100" max="100" chance="100" /> <!-- Soulshot Ticket - Sealed -->
 			<item id="91641" min="200" max="200" chance="100" /> <!-- Sayha's Blessing - Sealed -->
 			<item id="91690" min="200" max="200" chance="100" /> <!-- Special HP Recovery Potion - Sealed -->
-			<item id="91712" min="30" max="30" chance="100" /> <!-- Sayha's Storm Lv. 3 - Sealed -->
+			<item id="91712" min="30" max="30" chance="100" /> <!-- Sayha's Storm - Sealed -->
 			<item id="92400" min="1" max="1" chance="100" /> <!-- Forgotten Garden's Time Stone - Sealed -->
 			<item id="94269" min="30" max="30" chance="100" /> <!-- Scroll: Boost Attack - Sealed -->
 			<item id="94271" min="30" max="30" chance="100" /> <!-- Scroll: Boost Defense - Sealed -->
@@ -1150,7 +1150,7 @@
 		</capsuled_items>
 	</item>
 	<item id="94573" name="Package: +5 Sirra's Blade" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- <font color=eeaa22><One-handed sword></font>. Double-click to obtain +5 A-grade Sirra's Blade. -->
 		<set name="icon" val="icon.weapon_sirr_blade_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -1165,7 +1165,7 @@
 		</capsuled_items>
 	</item>
 	<item id="94574" name="Package: +5 Sword of Ipos" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- <font color=eeaa22><Two-handed sword></font>. Double-click to obtain +5 A-grade Sword of Ipos. -->
 		<set name="icon" val="icon.weapon_sword_of_ipos_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -1180,7 +1180,7 @@
 		</capsuled_items>
 	</item>
 	<item id="94575" name="Package: +5 Barakiel's Axe" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- <font color=eeaa22><One-handed blunt weapon></font>. Double-click to obtain +5 A-grade Barakiel's Axe. -->
 		<set name="icon" val="icon.weapon_barakiel_axe_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -1195,7 +1195,7 @@
 		</capsuled_items>
 	</item>
 	<item id="94576" name="Package: +5 Behemoth' Tuning Fork" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- <font color=eeaa22><Two-handed blunt weapon></font>. Double-click to obtain +5 A-grade Behemoth' Tuning Fork. -->
 		<set name="icon" val="icon.weapon_tuning_fork_of_behemoth_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -1210,7 +1210,7 @@
 		</capsuled_items>
 	</item>
 	<item id="94577" name="Package: +5 Naga's Storm" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- <font color=eeaa22><Dagger></font>. Double-click to obtain +5 A-grade Naga's Storm. -->
 		<set name="icon" val="icon.weapon_naga_storm_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -1225,7 +1225,7 @@
 		</capsuled_items>
 	</item>
 	<item id="94578" name="Package: +5 Tiphon's Spear" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- <font color=eeaa22><Spear></font>. Double-click to obtain +5 A-grade Tiphon's Spear. -->
 		<set name="icon" val="icon.weapon_tiphon_spear_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -1240,7 +1240,7 @@
 		</capsuled_items>
 	</item>
 	<item id="94579" name="Package: +5 Shyeed's Bow" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- <font color=eeaa22><Bow></font>. Double-click to obtain +5 A-grade Shyeed's Bow. -->
 		<set name="icon" val="icon.weapon_shyid_bow_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -1255,7 +1255,7 @@
 		</capsuled_items>
 	</item>
 	<item id="94580" name="Package: +5 Sobekk's Hurricane" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- <font color=eeaa22><Fist weapon></font>. Double-click to obtain +5 A-grade Sobekk's Hurricane. -->
 		<set name="icon" val="icon.weapon_sobekk_hurricane_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -1270,7 +1270,7 @@
 		</capsuled_items>
 	</item>
 	<item id="94581" name="Package: +5 Themis' Tongue" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- <font color=eeaa22><One-handed magic sword></font>. Double-click to obtain +5 A-grade Themis' Tongue. -->
 		<set name="icon" val="icon.weapon_tongue_of_themis_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -1285,7 +1285,7 @@
 		</capsuled_items>
 	</item>
 	<item id="94582" name="Package: +5 Cabrio's Hand" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- <font color=eeaa22><One-handed blunt weapon></font>. Double-click to obtain +5 A-grade Cabrio's Hand. -->
 		<set name="icon" val="icon.weapon_hand_of_cabrio_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -1301,7 +1301,7 @@
 		</capsuled_items>
 	</item>
 	<item id="94583" name="Package: +5 Daimon Crystal" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- <font color=eeaa22><Two-handed blunt weapon></font>. Double-click to obtain +5 A-grade Daimon Crystal. -->
 		<set name="icon" val="icon.weapon_crystal_of_deamon_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -1316,7 +1316,7 @@
 		</capsuled_items>
 	</item>
 	<item id="94584" name="Package: +5 Tallum Blade*Damascus Sword" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- <font color=eeaa22><Dual swords></font>. Double-click to obtain +5 A-grade Tallum Blade*Damascus Sword. -->
 		<set name="icon" val="icon.weapon_dual_sword_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -1331,7 +1331,7 @@
 		</capsuled_items>
 	</item>
 	<item id="94585" name="Package: +5 Éclair Bijou" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- <font color=eeaa22><Rapier></font>. Double-click to obtain +5 A-grade Éclair Bijou. -->
 		<set name="icon" val="icon.weapon_greed_stinger_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -1346,7 +1346,7 @@
 		</capsuled_items>
 	</item>
 	<item id="94586" name="Package: +5 Durendal" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- <font color=eeaa22><Ancient sword></font>. Double-click to obtain +5 A-grade Durendal. -->
 		<set name="icon" val="icon.weapon_death_bringer_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -1361,7 +1361,7 @@
 		</capsuled_items>
 	</item>
 	<item id="94587" name="Package: +5 Armor of Nightmare" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- <font color=eeaa22><Heavy armor></font>. Double-click to obtain +5 A-grade Armor of Nightmare. -->
 		<set name="icon" val="icon.armor_t80_ul_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -1376,7 +1376,7 @@
 		</capsuled_items>
 	</item>
 	<item id="94588" name="Package: +5 Helm of Nightmare (Heavy)" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- <font color=eeaa22><Heavy armor></font>. Double-click to obtain +5 A-grade Helm of Nightmare (Heavy). -->
 		<set name="icon" val="icon.armor_leather_helmet_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -1391,7 +1391,7 @@
 		</capsuled_items>
 	</item>
 	<item id="94589" name="Package: +5 Gauntlets of Nightmare (Heavy)" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- <font color=eeaa22><Heavy armor></font>. Double-click to obtain +5 A-grade Gauntlets of Nightmare (Heavy). -->
 		<set name="icon" val="icon.armor_t80_g_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -1406,7 +1406,7 @@
 		</capsuled_items>
 	</item>
 	<item id="94590" name="Package: +5 Boots of Nightmare (Heavy)" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- <font color=eeaa22><Heavy armor></font>. Double-click to obtain +5 A-grade Boots of Nightmare (Heavy). -->
 		<set name="icon" val="icon.armor_t80_b_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -1421,7 +1421,7 @@
 		</capsuled_items>
 	</item>
 	<item id="94591" name="Package: +5 Majestic Plate Armor" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- <font color=eeaa22><Heavy armor></font>. Double-click to obtain +5 A-grade Majestic Plate Armor. -->
 		<set name="icon" val="icon.armor_t83_ul_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -1436,7 +1436,7 @@
 		</capsuled_items>
 	</item>
 	<item id="94592" name="Package: +5 Majestic Circlet (Heavy)" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- <font color=eeaa22><Heavy armor></font>. Double-click to obtain +5 A-grade Majestic Circlet (Heavy). -->
 		<set name="icon" val="icon.armor_leather_helmet_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -1451,7 +1451,7 @@
 		</capsuled_items>
 	</item>
 	<item id="94593" name="Package: +5 Majestic Gauntlets (Heavy)" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- <font color=eeaa22><Heavy armor></font>. Double-click to obtain +5 A-grade Majestic Gauntlets (Heavy). -->
 		<set name="icon" val="icon.armor_t83_g_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -1466,7 +1466,7 @@
 		</capsuled_items>
 	</item>
 	<item id="94594" name="Package: +5 Majestic Boots (Heavy)" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- <font color=eeaa22><Heavy armor></font>. Double-click to obtain +5 A-grade Majestic Boots (Heavy). -->
 		<set name="icon" val="icon.armor_t83_b_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -1481,7 +1481,7 @@
 		</capsuled_items>
 	</item>
 	<item id="94595" name="Package: +5 Leather Armor of Nightmare" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- <font color=eeaa22><Light armor></font>. Double-click to obtain +5 A-grade Leather Armor of Nightmare. -->
 		<set name="icon" val="icon.armor_t81_ul_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -1496,7 +1496,7 @@
 		</capsuled_items>
 	</item>
 	<item id="94596" name="Package: +5 Helm of Nightmare (Light)" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- <font color=eeaa22><Light armor></font>. Double-click to obtain +5 A-grade Helm of Nightmare (Light). -->
 		<set name="icon" val="icon.armor_leather_helmet_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -1511,7 +1511,7 @@
 		</capsuled_items>
 	</item>
 	<item id="94597" name="Package: +5 Gauntlets of Nightmare (Light)" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- <font color=eeaa22><Light armor></font>. Double-click to obtain +5 A-grade Gauntlets of Nightmare (Light). -->
 		<set name="icon" val="icon.armor_t81_g_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -1526,7 +1526,7 @@
 		</capsuled_items>
 	</item>
 	<item id="94598" name="Package: +5 Boots of Nightmare (Light)" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- <font color=eeaa22><Light armor></font>. Double-click to obtain +5 A-grade Boots of Nightmare (Light). -->
 		<set name="icon" val="icon.armor_t81_b_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -1541,7 +1541,7 @@
 		</capsuled_items>
 	</item>
 	<item id="94599" name="Package: +5 Majestic Leather Armor" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- <font color=eeaa22><Light armor></font>. Double-click to obtain +5 A-grade Majestic Leather Armor. -->
 		<set name="icon" val="icon.armor_t84_ul_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />

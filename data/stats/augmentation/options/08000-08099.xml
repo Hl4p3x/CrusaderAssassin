@@ -315,7 +315,7 @@
 	</option>
 	<option id="8027" name="o_f_70_2g_19">
 		<!-- P. Def. +6.9. -->
-		<!-- M. Atk. +4.2. -->
+		<!-- M. Atk. +4.2 -->
 		<effects>
 			<effect name="PhysicalDefence">
 				<amount>6.895</amount>
@@ -469,7 +469,7 @@
 	</option>
 	<option id="8038" name="o_f_70_2g_30">
 		<!-- M. Def. +5.54. -->
-		<!-- M. Atk. +4.2. -->
+		<!-- M. Atk. +4.2 -->
 		<effects>
 			<effect name="MagicalDefence">
 				<amount>5.544</amount>
@@ -609,7 +609,7 @@
 	</option>
 	<option id="8048" name="o_f_70_2g_40">
 		<!-- Max HP +27.92 -->
-		<!-- M. Atk. +4.2. -->
+		<!-- M. Atk. +4.2 -->
 		<effects>
 			<effect name="MaxHp">
 				<amount>27.923</amount>
@@ -735,7 +735,7 @@
 	</option>
 	<option id="8057" name="o_f_70_2g_49">
 		<!-- Max MP +9.07. -->
-		<!-- M. Atk. +4.2. -->
+		<!-- M. Atk. +4.2 -->
 		<effects>
 			<effect name="MaxMp">
 				<amount>9.065</amount>
@@ -847,7 +847,7 @@
 	</option>
 	<option id="8065" name="o_f_70_2g_57">
 		<!-- Max CP +38.56. -->
-		<!-- M. Atk. +4.2. -->
+		<!-- M. Atk. +4.2 -->
 		<effects>
 			<effect name="MaxCp">
 				<amount>38.5609</amount>
@@ -945,7 +945,7 @@
 	</option>
 	<option id="8072" name="o_f_70_2g_64">
 		<!-- P. Atk. +4.23. -->
-		<!-- M. Atk. +4.2. -->
+		<!-- M. Atk. +4.2 -->
 		<effects>
 			<effect name="PAtk">
 				<amount>4.228</amount>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/items.xsd">
 	<item id="97000" name="Artisan Black's Weapon Pack - B-grade" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.etc_treasure_box_i09" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -24,7 +24,7 @@
 		</capsuled_items>
 	</item>
 	<item id="97001" name="Artisan Black's Armor Pack - B-grade" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.etc_treasure_box_i09" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -49,7 +49,7 @@
 		</capsuled_items>
 	</item>
 	<item id="97002" name="Artisan Black's Weapon Pack - A-grade" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.etc_treasure_box_i11" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -102,7 +102,7 @@
 		</capsuled_items>
 	</item>
 	<item id="97003" name="Artisan Black's Armor Pack - A-grade" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.etc_treasure_box_i11" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -171,7 +171,7 @@
 		</capsuled_items>
 	</item>
 	<item id="97004" name="Artisan Black's Weapon Pack - B-grade" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.etc_treasure_box_i09" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -194,7 +194,7 @@
 		</capsuled_items>
 	</item>
 	<item id="97005" name="Artisan Black's Armor Pack - B-grade" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.etc_treasure_box_i09" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -219,7 +219,7 @@
 		</capsuled_items>
 	</item>
 	<item id="97006" name="Artisan Black's Weapon Pack - A-grade" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.etc_treasure_box_i11" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -272,7 +272,7 @@
 		</capsuled_items>
 	</item>
 	<item id="97007" name="Artisan Black's Armor Pack - A-grade" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.etc_treasure_box_i11" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -341,7 +341,7 @@
 		</capsuled_items>
 	</item>
 	<item id="97008" name="Artisan Black's Weapon Pack - B-grade" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.etc_treasure_box_i09" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -364,7 +364,7 @@
 		</capsuled_items>
 	</item>
 	<item id="97009" name="Artisan Black's Armor Pack - B-grade" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.etc_treasure_box_i09" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -457,7 +457,7 @@
 		</capsuled_items>
 	</item>
 	<item id="97011" name="Kit: Mysterious Pack (Time-limited)" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.freya_box_i03" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -638,7 +638,7 @@
 		<set name="is_sellable" val="false" />
 	</item>
 	<item id="97027" name="Harvest Festival's Special Cube (Time-limited)" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.star_agathion_cube" />
 		<set name="default_action" val="NONE" />
 		<set name="immediate_effect" val="true" />
@@ -654,7 +654,7 @@
 		</capsuled_items>
 	</item>
 	<item id="97028" name="Bright Firecracker Pack (Time-limited)" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.ev_firewood_box" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -681,7 +681,7 @@
 		</capsuled_items>
 	</item>
 	<item id="97029" name="Enchant Package: Necklace of Spirits" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.necklace_of_elemental" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -697,7 +697,7 @@
 		</capsuled_items>
 	</item>
 	<item id="97030" name="Spirits' Treasure Chest (Time-limited)" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.event_july_seven_park_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -758,7 +758,7 @@
 		</capsuled_items>
 	</item>
 	<item id="97031" name="Kit: Spirits' Treasure Chest (Time-limited)" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.event_hero_treasure_box_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -774,7 +774,7 @@
 		</capsuled_items>
 	</item>
 	<item id="97032" name="Harvest Festival's Special Pack (Time-limited)" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.event_high_oriental_park_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -793,7 +793,7 @@
 		</capsuled_items>
 	</item>
 	<item id="97033" name="Rare Collection Armor Pack" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.etc_treasure_box_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -816,7 +816,7 @@
 		</capsuled_items>
 	</item>
 	<item id="97034" name="Agathion Pack/ Diamond Box of Blue Lantern (Time-limited)" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.card_event_blue_box" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -834,7 +834,7 @@
 		</capsuled_items>
 	</item>
 	<item id="97035" name="Talisman Pack of Red Lantern (Time-limited)" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.card_event_red_box" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -882,7 +882,7 @@
 		<set name="is_stackable" val="true" />
 	</item>
 	<item id="97039" name="Spellbook: Spiral" type="EtcItem">
-		<!-- A spellbook for learning the Spiral skill. <Classes>. Fire Spiral - Archmage. Dark Spiral - Soultaker. Ice Spiral - Mystic Muse. Wind Spiral - Storm Screamer. <Skill effect>. Attacks enemies at the front. Decreases enemies' stats, the effect depends on the class. -->
+		<!-- A spellbook for learning the Fire/ Dark/ Ice/ Wind Spiral. <Classes>. Archmage. Soultaker. Mystic Muse. Storm Screamer. <Skill effect>. Attacks enemies at the front. Decreases enemies' stats, the effect depends on the class. -->
 		<set name="icon" val="icon.etc_magic_book_white_i00" />
 		<set name="default_action" val="NONE" />
 		<set name="immediate_effect" val="true" />
@@ -891,7 +891,7 @@
 		<set name="is_stackable" val="true" />
 	</item>
 	<item id="97040" name="Spellbook: Magic Circle" type="EtcItem">
-		<!-- A spellbook for learning Magic Circle skill. <Classes>. Archmage. Soultaker. Mystic Muse. Storm Screamer. <Skill effect>. Increases M. Atk. When magic skills are used, a magic circle is created step by step. Magic Circle Lv. 4 provides an additional attack. -->
+		<!-- A spellbook for learning Magic Circle Lv. 2 skill. <Classes>. Archmage. Soultaker. Mystic Muse. Storm Screamer. <Skill effect>. Increases M. Atk. When magic skills are used, a magic circle is created step by step Lv. 2. Magic Circle Lv. 4 provides an additional attack. -->
 		<set name="icon" val="icon.etc_magic_book_white_i00" />
 		<set name="default_action" val="NONE" />
 		<set name="immediate_effect" val="true" />
@@ -931,7 +931,7 @@
 		<set name="is_stackable" val="true" />
 	</item>
 	<item id="97044" name="Spellbook: Spiral" additionalName="Sealed" type="EtcItem">
-		<!-- A spellbook for learning the Spiral skill. <Classes>. Fire Spiral - Archmage. Dark Spiral - Soultaker. Ice Spiral - Mystic Muse. Wind Spiral - Storm Screamer. <Skill effect>. Attacks enemies at the front. Decreases enemies' stats, the effect depends on the class. -->
+		<!-- A spellbook for learning the Fire/ Dark/ Ice/ Wind Spiral. <Classes>. Archmage. Soultaker. Mystic Muse. Storm Screamer. <Skill effect>. Attacks enemies at the front. Decreases enemies' stats, the effect depends on the class. -->
 		<set name="icon" val="icon.etc_magic_book_white_i00" />
 		<set name="default_action" val="NONE" />
 		<set name="immediate_effect" val="true" />
@@ -942,7 +942,7 @@
 		<set name="is_stackable" val="true" />
 	</item>
 	<item id="97045" name="Spellbook: Magic Circle" additionalName="Sealed" type="EtcItem">
-		<!-- A spellbook for learning Magic Circle skill. <Classes>. Archmage. Soultaker. Mystic Muse. Storm Screamer. <Skill effect>. Increases M. Atk. When magic skills are used, a magic circle is created step by step. Magic Circle Lv. 4 provides an additional attack. -->
+		<!-- A spellbook for learning Magic Circle Lv. 2 skill. <Classes>. Archmage. Soultaker. Mystic Muse. Storm Screamer. <Skill effect>. Increases M. Atk. When magic skills are used, a magic circle is created step by step Lv. 2. Magic Circle Lv. 4 provides an additional attack. -->
 		<set name="icon" val="icon.etc_magic_book_white_i00" />
 		<set name="default_action" val="NONE" />
 		<set name="immediate_effect" val="true" />
@@ -964,7 +964,7 @@
 		<set name="is_stackable" val="true" />
 	</item>
 	<item id="97047" name="Harvest Festival's Gift Pack I (Time-limited)" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.event_high_oriental_park_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -981,7 +981,7 @@
 		</capsuled_items>
 	</item>
 	<item id="97048" name="Harvest Festival's Gift Pack II (Time-limited)" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.event_high_oriental_park_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -995,14 +995,14 @@
 			<item id="91663" min="19000" max="19000" chance="100" /> <!-- L-Coin -->
 			<item id="94269" min="200" max="200" chance="100" /> <!-- Scroll: Boost Attack - Sealed -->
 			<item id="94271" min="200" max="200" chance="100" /> <!-- Scroll: Boost Defense - Sealed -->
-			<item id="91712" min="200" max="200" chance="100" /> <!-- Sayha's Storm Lv. 3 - Sealed -->
+			<item id="91712" min="200" max="200" chance="100" /> <!-- Sayha's Storm - Sealed -->
 			<item id="94732" min="20" max="20" chance="100" /> <!-- Agathion Spirit Exchange Coupon - Sealed -->
 			<item id="93977" min="10" max="10" chance="100" /> <!-- Scroll: Enchant A-grade Armor - Sealed -->
 			<item id="93976" min="10" max="10" chance="100" /> <!-- Scroll: Enchant A-grade Weapon - Sealed -->
 		</capsuled_items>
 	</item>
 	<item id="97049" name="Harvest Festival's Gift Pack III (Time-limited)" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.event_high_oriental_park_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -1226,7 +1226,7 @@
 		</stats>
 	</item>
 	<item id="97062" name="Pack of Seals (Time-limited)" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.etc_bm_jewelbox_main_i01" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -1278,7 +1278,7 @@
 			<item id="729" min="1" max="1" chance="2.173913" /> <!-- Scroll: Enchant A-grade Weapon -->
 			<item id="730" min="1" max="1" chance="2.173913" /> <!-- Scroll: Enchant A-grade Armor -->
 			<item id="96623" min="1" max="1" chance="2.173913" /> <!-- Dye Powder -->
-			<item id="91713" min="1" max="1" chance="2.173913" /> <!-- Sayha's Storm Lv. 3 -->
+			<item id="91713" min="1" max="1" chance="2.173913" /> <!-- Sayha's Storm -->
 			<item id="91641" min="5" max="5" chance="2.173913" /> <!-- Sayha's Blessing - Sealed -->
 			<item id="91690" min="30" max="30" chance="2.173913" /> <!-- Special HP Recovery Potion - Sealed -->
 			<item id="92314" min="20" max="20" chance="2.173913" /> <!-- Giran Seal -->
@@ -1289,7 +1289,7 @@
 		</capsuled_items>
 	</item>
 	<item id="97063" name="Kit: Pack of Seals (Time-limited)" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.present_of_destination_event" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -1325,7 +1325,7 @@
 		<set name="is_sellable" val="false" />
 	</item>
 	<item id="97066" name="Supply Box (Time-limited)" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.etc_golden_spice_comp_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -1341,13 +1341,13 @@
 			<item id="91840" min="3" max="3" chance="16.66667" /> <!-- XP Growth Scroll (Time-limited) - Sealed -->
 			<item id="94380" min="3" max="3" chance="16.66667" /> <!-- Scroll: Boost Attack (Time-limited) - Sealed -->
 			<item id="94381" min="3" max="3" chance="16.66667" /> <!-- Scroll: Boost Defense (Time-limited) - Sealed -->
-			<item id="93073" min="3" max="3" chance="16.66667" /> <!-- Sayha's Storm Lv. 3 (Time-limited) - Sealed -->
+			<item id="93073" min="3" max="3" chance="16.66667" /> <!-- Sayha's Storm (Time-limited) - Sealed -->
 			<item id="93848" min="6" max="6" chance="16.66667" /> <!-- Sayha's Cookie (Time-limited) - Sealed -->
 			<item id="90907" min="30" max="30" chance="16.66667" /> <!-- Soulshot Ticket - Sealed -->
 		</capsuled_items>
 	</item>
 	<item id="97067" name="Top-grade Black Box (Time-limited)" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.etc_exchange_box_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -1369,24 +1369,24 @@
 			<item id="93870" min="1" max="1" chance="100" /> <!-- Spellbook: Ethereal Strike -->
 			<item id="92401" min="1" max="1" chance="100" /> <!-- Spellbook: White Guardian -->
 			<item id="93631" min="1" max="1" chance="100" /> <!-- Spellbook: Hellfire -->
-			<item id="94324" min="1" max="1" chance="100" /> <!-- Spellbook: Song of Earth -->
-			<item id="94325" min="1" max="1" chance="100" /> <!-- Spellbook: Song of Hunter -->
-			<item id="94326" min="1" max="1" chance="100" /> <!-- Spellbook: Dance of Warrior -->
-			<item id="94327" min="1" max="1" chance="100" /> <!-- Spellbook: Dance of Fire -->
+			<item id="94324" min="1" max="1" chance="100" /> <!-- Spellbook: Song of Earth Lv. 2 -->
+			<item id="94325" min="1" max="1" chance="100" /> <!-- Spellbook: Song of Hunter Lv. 2 -->
+			<item id="94326" min="1" max="1" chance="100" /> <!-- Spellbook: Dance of Warrior Lv. 2 -->
+			<item id="94327" min="1" max="1" chance="100" /> <!-- Spellbook: Dance of Fire Lv. 2 -->
 			<item id="94500" min="1" max="1" chance="100" /> <!-- Spellbook: Titanic Sweep -->
 			<item id="94501" min="1" max="1" chance="100" /> <!-- Spellbook: Titanic Break -->
 			<item id="94505" min="1" max="1" chance="100" /> <!-- Spellbook: Burning Strike -->
 			<item id="94507" min="1" max="1" chance="100" /> <!-- Spellbook: Armor Break -->
 			<item id="94674" min="1" max="1" chance="100" /> <!-- Spellbook: Blood Bond -->
 			<item id="94670" min="1" max="1" chance="100" /> <!-- Spellbook: Debuff Master -->
-			<item id="95348" min="1" max="1" chance="100" /> <!-- Spellbook: Song of Wind -->
-			<item id="95349" min="1" max="1" chance="100" /> <!-- Spellbook: Dance of Fury -->
+			<item id="95348" min="1" max="1" chance="100" /> <!-- Spellbook: Song of Wind Lv. 2 -->
+			<item id="95349" min="1" max="1" chance="100" /> <!-- Spellbook: Dance of Fury Lv. 2 -->
 			<item id="95350" min="1" max="1" chance="100" /> <!-- Spellbook: Goring Charge -->
 			<item id="95352" min="1" max="1" chance="100" /> <!-- Spellbook: Elemental Changing -->
 			<item id="95365" min="1" max="1" chance="100" /> <!-- Spellbook: Elemental Spirit Lv. 4 -->
 			<item id="95856" min="1" max="1" chance="100" /> <!-- Spellbook: Fortune Time -->
 			<item id="95862" min="1" max="1" chance="100" /> <!-- Spellbook: Mechanical Masterpiece -->
-			<item id="95863" min="1" max="1" chance="100" /> <!-- Spellbook: Blacksmith's Attack -->
+			<item id="95863" min="1" max="1" chance="100" /> <!-- Spellbook: Blacksmith' Attack -->
 			<item id="96037" min="1" max="1" chance="100" /> <!-- Spellbook: Sensation -->
 			<item id="96040" min="1" max="1" chance="100" /> <!-- Spellbook: Treatment -->
 			<item id="96043" min="1" max="1" chance="100" /> <!-- Spellbook: Duress -->
@@ -1410,7 +1410,7 @@
 		</capsuled_items>
 	</item>
 	<item id="97068" name="High-grade Black Box (Time-limited)" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.etc_exchange_box_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -1433,7 +1433,7 @@
 		</capsuled_items>
 	</item>
 	<item id="97069" name="Common Black Box (Time-limited)" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.etc_exchange_box_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -1455,7 +1455,7 @@
 		</capsuled_items>
 	</item>
 	<item id="97070" name="Mysterious Black Box (Time-limited)" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.etc_exchange_box_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -1484,7 +1484,7 @@
 		<set name="is_stackable" val="true" />
 	</item>
 	<item id="97072" name="Spellbook Coupon - 1 Star (Time-limited)" type="EtcItem">
-		<!-- Can be exchanged for Spellbook - 1 Star. <How to use>. Game Assistant - Event. -->
+		<!-- Can be exchanged for Spellbook - 1 Star. <How to use>. Game Assistant - Event -->
 		<set name="icon" val="icon.ev_sb_1_trade_ticket" />
 		<set name="default_action" val="NONE" />
 		<set name="immediate_effect" val="true" />
@@ -1518,7 +1518,7 @@
 		</skills>
 	</item>
 	<item id="97075" name="Balok's Treasure Chest" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.balrog_box_01" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -1535,7 +1535,7 @@
 		</capsuled_items>
 	</item>
 	<item id="97076" name="Balok's Treasure Chest" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.balrog_box_01" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -1552,7 +1552,7 @@
 		</capsuled_items>
 	</item>
 	<item id="97077" name="Balok's Treasure Chest" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.balrog_box_01" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -1569,7 +1569,7 @@
 		</capsuled_items>
 	</item>
 	<item id="97078" name="Balok's Treasure Chest" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.balrog_box_01" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -1586,7 +1586,7 @@
 		</capsuled_items>
 	</item>
 	<item id="97079" name="Balok's Treasure Chest" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.balrog_box_01" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -1603,7 +1603,7 @@
 		</capsuled_items>
 	</item>
 	<item id="97080" name="Balok's Treasure Chest" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.balrog_box_01" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -1620,7 +1620,7 @@
 		</capsuled_items>
 	</item>
 	<item id="97081" name="Balok's Treasure Chest" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.balrog_box_01" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -1637,7 +1637,7 @@
 		</capsuled_items>
 	</item>
 	<item id="97082" name="Balok's Treasure Chest" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.balrog_box_01" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -1654,7 +1654,7 @@
 		</capsuled_items>
 	</item>
 	<item id="97083" name="Balok's Treasure Chest" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.balrog_box_01" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -1671,7 +1671,7 @@
 		</capsuled_items>
 	</item>
 	<item id="97084" name="Balok's Treasure Chest" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.balrog_box_01" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -1688,7 +1688,7 @@
 		</capsuled_items>
 	</item>
 	<item id="97085" name="Balok's Treasure Chest" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.balrog_box_01" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -1705,7 +1705,7 @@
 		</capsuled_items>
 	</item>
 	<item id="97086" name="Balok's Treasure Chest" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.balrog_box_01" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -1722,7 +1722,7 @@
 		</capsuled_items>
 	</item>
 	<item id="97087" name="Lord Balok's Treasure Chest" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.balrog_box_02" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -1741,51 +1741,105 @@
 		</capsuled_items>
 	</item>
 	<item id="97088" name="Demon King's Sword" additionalName="In development" type="Weapon">
-		<set name="icon" val="icon.frozen_weapon_sword" />
+		<!-- <font color=ff6666><Unavailable to Sylphs/ Vanguard Riders/ Assassins.></font> -->
+		<set name="icon" val="icon.immortal_weapon_bg0000" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="SWORD" />
-		<set name="bodypart" val="lhand" />
+		<set name="bodypart" val="rhand" />
+		<set name="damage_range" val="0;0;40;120" />
 		<set name="immediate_effect" val="true" />
 		<set name="crystal_type" val="A" />
 		<set name="material" val="FINE_STEEL" />
 		<set name="weight" val="1300" />
 		<set name="soulshots" val="2" />
 		<set name="spiritshots" val="2" />
-		<set name="enchant_enabled" val="true" />
+		<set name="is_sellable" val="false" />
 		<set name="is_freightable" val="true" />
+		<set name="is_immortality_weapon" val="true" />
+		<set name="enchant_enabled" val="true" />
 		<set name="ensoulNormalSlots" val="2" />
 		<set name="ensoulSpecialSlots" val="1" />
+		<set name="commissionItemType" val="ONE_HAND_SWORD" />
 		<stats>
-			<stat type="pAtk">279</stat>
-			<stat type="mAtk">151</stat>
+			<stat type="pAtk">543</stat>
+			<stat type="mAtk">304</stat>
 			<stat type="pAtkSpd">379</stat>
+			<stat type="rCrit">8</stat>
 			<stat type="randomDamage">10</stat>
 			<stat type="pAtkRange">40</stat>
 		</stats>
+		<skills>
+			<!-- Weapon Blessing Effect -->
+			<skill id="50392" level="1" type="ON_BLESSING" />
+			<skill id="50418" level="1" type="ON_BLESSING" type_value="0" />
+			<skill id="50419" level="1" type="ON_BLESSING" type_value="1" />
+			<skill id="50420" level="1" type="ON_BLESSING" type_value="2" />
+			<skill id="50421" level="1" type="ON_BLESSING" type_value="3" />
+			<skill id="50422" level="1" type="ON_BLESSING" type_value="4" />
+			<skill id="50423" level="1" type="ON_BLESSING" type_value="5" />
+			<!-- Weapon Enchant Effect -->
+			<skill id="50624" level="1" type="ON_ENCHANT" type_value="0" />
+			<skill id="50624" level="2" type="ON_ENCHANT" type_value="1" />
+			<skill id="50624" level="3" type="ON_ENCHANT" type_value="2" />
+			<skill id="50624" level="4" type="ON_ENCHANT" type_value="3" />
+			<skill id="50624" level="5" type="ON_ENCHANT" type_value="4" />
+			<skill id="50624" level="6" type="ON_ENCHANT" type_value="5" />
+			<skill id="50624" level="6" type="ON_ENCHANT" type_value="6" />
+			<skill id="50624" level="6" type="ON_ENCHANT" type_value="7" />
+			<skill id="50624" level="6" type="ON_ENCHANT" type_value="8" />
+			<skill id="50624" level="6" type="ON_ENCHANT" type_value="9" />
+			<skill id="50624" level="6" type="ON_ENCHANT" type_value="10" />
+		</skills>
 	</item>
 	<item id="97089" name="Demon King's Dual Swords" additionalName="In development" type="Weapon">
-		<!-- When enchanting dual swords, two-handed swords/ blunts and fists, the P. Atk. bonus is higher than that of one-handed weapons. -->
-		<set name="icon" val="icon.frozen_weapon_dual_sword" />
+		<!-- When enchanting dual swords, two-handed swords/ blunts and fists, the P. Atk. bonus is higher than that of one-handed weapons. <font color=ff6666><Unavailable to Sylphs/ Vanguard Riders/ Assassins.></font> -->
+		<set name="icon" val="icon.immortal_weapon_bg0000" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="DUAL" />
 		<set name="bodypart" val="lrhand" />
+		<set name="damage_range" val="0;0;44;120" />
 		<set name="immediate_effect" val="true" />
 		<set name="crystal_type" val="A" />
 		<set name="material" val="FINE_STEEL" />
 		<set name="weight" val="1890" />
 		<set name="soulshots" val="2" />
 		<set name="spiritshots" val="2" />
-		<set name="enchant_enabled" val="true" />
+		<set name="is_sellable" val="false" />
 		<set name="is_freightable" val="true" />
+		<set name="is_immortality_weapon" val="true" />
+		<set name="enchant_enabled" val="true" />
 		<set name="ensoulNormalSlots" val="2" />
 		<set name="ensoulSpecialSlots" val="1" />
+		<set name="commissionItemType" val="DUALSWORD" />
 		<stats>
-			<stat type="pAtk">340</stat>
-			<stat type="mAtk">151</stat>
+			<stat type="pAtk">628</stat>
+			<stat type="mAtk">304</stat>
 			<stat type="pAtkSpd">325</stat>
+			<stat type="rCrit">8</stat>
 			<stat type="randomDamage">10</stat>
 			<stat type="pAtkRange">40</stat>
 		</stats>
+		<skills>
+			<!-- Weapon Blessing Effect -->
+			<skill id="50418" level="1" type="ON_BLESSING" />
+			<skill id="50419" level="1" type="ON_BLESSING" type_value="1" />
+			<skill id="50420" level="1" type="ON_BLESSING" type_value="2" />
+			<skill id="50421" level="1" type="ON_BLESSING" type_value="3" />
+			<skill id="50422" level="1" type="ON_BLESSING" type_value="4" />
+			<skill id="50423" level="1" type="ON_BLESSING" type_value="5" />
+			<!-- Weapon Enchant Effect -->
+			<skill id="50629" level="1" type="ON_ENCHANT" type_value="0" />
+			<skill id="50629" level="2" type="ON_ENCHANT" type_value="1" />
+			<skill id="50629" level="3" type="ON_ENCHANT" type_value="2" />
+			<skill id="50629" level="4" type="ON_ENCHANT" type_value="3" />
+			<skill id="50629" level="5" type="ON_ENCHANT" type_value="4" />
+			<skill id="50629" level="6" type="ON_ENCHANT" type_value="5" />
+			<skill id="50629" level="6" type="ON_ENCHANT" type_value="6" />
+			<skill id="50629" level="6" type="ON_ENCHANT" type_value="7" />
+			<skill id="50629" level="6" type="ON_ENCHANT" type_value="8" />
+			<skill id="50629" level="6" type="ON_ENCHANT" type_value="9" />
+			<skill id="50629" level="6" type="ON_ENCHANT" type_value="10" />
+		</skills>
 	</item>
 	<item id="97090" name="Wolf Master's Common Armor" additionalName="In development" type="Armor">
 		<set name="icon" val="icon.armor_t2000_ul_i00" />

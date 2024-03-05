@@ -575,7 +575,7 @@
 		</effects>
 	</skill>
 	<skill id="39204" toLevel="1" name="Dimensional Blessing">
-		<!-- XP +37,000,000, SP +1,110,000. -->
+		<!-- XP +37,000,000, SP +114,000 SP. -->
 		<icon>icon.BranchSys.icon.br_lucky_bag_i00</icon>
 		<isMagic>2</isMagic> <!-- Static Skill -->
 		<itemConsumeCount>1</itemConsumeCount>
@@ -862,7 +862,7 @@
 			</effect>
 		</effects>
 	</skill>
-	<skill id="39211" toLevel="1" name="Savior' Growth Scroll">
+	<skill id="39211" toLevel="1" name="Savior's Growth Scroll">
 		<!-- For 2 h., Acquired XP/ SP +50%. Cooldown: 2 h. The effect remains after death. -->
 		<icon>icon.etc_kalie_hero_scroll</icon>
 		<operateType>A1</operateType>
@@ -943,7 +943,7 @@
 		<hitTime>1000</hitTime>
 	</skill>
 	<skill id="39219" toLevel="3" name="Dark Knight Transformation">
-		<!-- You are transformed into Dark Knight. For 20 min., Max HP/ MP +10%, Paralysis/ Silence/ Fear/ Stun Resistance +5%, PvP damage +5%, received damage -5%. -->
+		<!-- You are transformed into Dark Knight. For 20 min., Max HP/ MP +10%, Stun/ Paralysis/ Silence/ Fear Resistance +5%, PvP damage +5%, received damage -5%. -->
 		<icon>icon.dark_kninght</icon>
 		<operateType>A1</operateType>
 		<isMagic>4</isMagic>
@@ -1951,7 +1951,7 @@
 		</effects>
 	</skill>
 	<skill id="39260" toLevel="1" name="Magic Potion of Leaping Lv. 4">
-		<!-- Allows to receive 37,000,000 XP/ 1,110,000 SP. Available for characters from Lv. 45 or higher. -->
+		<!-- XP +37,000,000, SP +114,000 SP. Required level: 45+. -->
 		<icon>icon.etc_water_potion_i00</icon>
 		<operateType>A1</operateType>
 		<reuseDelay>1000</reuseDelay>
@@ -2056,7 +2056,7 @@
 			</effect>
 		</effects>
 	</skill>
-	<skill id="39269" toLevel="2" name="Special Dragons Fruit">
+	<skill id="39269" toLevel="2" name="Special Dragon Fruit">
 		<!-- For 20 min., Acquired XP/ SP +10%, P./ M. Atk. +12%, P. Critical Rate/ M. Skill Critical Rate +10, P. Critical Damage/ M. Skill Critical Damage +5%, P./ M. Def. +15%, Max HP/ MP/ CP +25%, HP/ MP Recovery Rate +30%. With a certain chance, absorbs 5% of the inflicted damage as HP. The effect remains after death. -->
 		<icon>icon.bm_dragon_fruit</icon>
 		<operateType>A2</operateType>
@@ -2243,7 +2243,7 @@
 						<item id="91641" count="2" /> <!-- Sayha's Blessing - Sealed -->
 					</item>
 					<item chance="10.0">
-						<item id="91712" count="2" /> <!-- Sayha's Storm Lv. 3 - Sealed -->
+						<item id="91712" count="2" /> <!-- Sayha's Storm - Sealed -->
 					</item>
 					<item chance="10.0">
 						<item id="91780" count="2" /> <!-- Old Battle Scroll - Sealed -->
@@ -2270,7 +2270,7 @@
 						<item id="93449" count="1" /> <!-- A-grade Armor Coupon - Sealed -->
 					</item>
 					<item chance="0.5">
-						<item id="93930" count="1" /> <!-- Special Armor Coupon - Sealed -->
+						<item id="93930" count="1" /> <!-- Special Armor Coupon (Time-limited) - Sealed -->
 					</item>
 					<item chance="0.1">
 						<item id="93268" count="1" /> <!-- Improved Scroll: Enchant A-grade Weapon - Sealed -->
@@ -2473,7 +2473,7 @@
 			</effect>
 		</effects>
 	</skill>
-	<skill id="39273" toLevel="1" name="Special Dragons Fruit">
+	<skill id="39273" toLevel="1" name="Special Dragon Fruit">
 		<!-- For 20 min., Acquired XP/ SP +10%, P./ M. Atk. +12%, P. Critical Rate/ M. Skill Critical Rate +10, P. Critical Damage/ M. Skill Critical Damage +5%, P./ M. Def. +15%, Max HP/ MP/ CP +25%, HP/ MP Recovery Rate +30%. With a certain chance, absorbs 5% of the inflicted damage as HP. The effect remains after death. -->
 		<icon>icon.bm_dragon_fruit</icon>
 		<operateType>A2</operateType>
@@ -2704,7 +2704,7 @@
 		<effectPoint>1</effectPoint>
 	</skill>
 	<skill id="39280" toLevel="1" name="Banana Sweets">
-		<!-- For 5 min., Acquired XP/ SP +50%, P. Atk. +15%, M. Atk. +23%, P./ M. Def. +15%, Atk. Spd./ Casting Spd. +10%, Speed +10, HP/ MP Recovery Rate +30%. Changes the appearance to that of Hanbok. The effect remains after death, but disappears after logout. -->
+		<!-- For 5 min., acquired XP/ SP +50%, P. Atk. +15%, M. Atk. +23%, P./ M. Def. +15%, Atk. Spd./ Casting Spd. +10%, Speed +10, HP/ MP Recovery Rate +30%. Changes the armor appearance to that of Hanbok. The effect remains after death, but disappears after logout. -->
 		<icon>icon.songpyeon_herb</icon>
 		<operateType>A1</operateType>
 		<isMagic>4</isMagic>
@@ -2801,7 +2801,7 @@
 		<coolTime>500</coolTime>
 		<reuseDelay>1000</reuseDelay>
 	</skill>
-	<skill id="39294" toLevel="1" name="Pirate's Treasure Chest">
+	<skill id="39294" toLevel="1" name="Pirate's Chest">
 		<icon>etc_treasure_box_i02</icon>
 		<isMagic>2</isMagic> <!-- Static Skill -->
 		<itemConsumeCount>1</itemConsumeCount>

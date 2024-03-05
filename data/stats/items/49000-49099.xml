@@ -22,7 +22,7 @@
 		</skills>
 	</item>
 	<item id="49001" name="Package: Agathion Singer and Dancer" additionalName="30-day" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.etc_pi_gift_box_i04" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -58,7 +58,7 @@
 		</skills>
 	</item>
 	<item id="49003" name="Package: Agathion Singer and Dancer" additionalName="90-day" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.etc_pi_gift_box_i04" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -149,7 +149,7 @@
 		<set name="is_stackable" val="true" />
 	</item>
 	<item id="49012" name="HP Replenishing Potion" type="EtcItem">
-		<!-- Magical potion that slowly restores HP. Lasts 15 sec. -->
+		<!-- A magic potion that slowly recovers HP. Duration: 15 sec. -->
 		<set name="icon" val="icon.etc_reagent_white_i00" />
 		<set name="default_action" val="SKILL_REDUCE" />
 		<set name="material" val="LIQUID" />
@@ -158,7 +158,7 @@
 		<set name="is_sellable" val="false" />
 	</item>
 	<item id="49013" name="High-grade HP Replenishing Potion" type="EtcItem">
-		<!-- Magical potion that slowly restores HP. Lasts 15 sec. -->
+		<!-- A magic potion that slowly recovers HP. Duration: 15 sec. -->
 		<set name="icon" val="icon.etc_reagent_white_i00" />
 		<set name="default_action" val="SKILL_REDUCE" />
 		<set name="material" val="LIQUID" />
@@ -416,7 +416,7 @@
 		</skills>
 	</item>
 	<item id="49033" name="Classic Gift Box" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.etc_pi_box_love_pack" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -431,7 +431,7 @@
 		</capsuled_items>
 	</item>
 	<item id="49034" name="Ol Mahum Adena Bank" additionalName="Not Available" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.etc_ertheia2" />
 		<set name="default_action" val="SKILL_REDUCE" />
 		<set name="material" val="FISH" />
@@ -440,7 +440,7 @@
 		<set name="is_sellable" val="false" />
 	</item>
 	<item id="49035" name="Turek Orc Adena Bank" additionalName="Not Available" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.etc_ertheia2" />
 		<set name="default_action" val="SKILL_REDUCE" />
 		<set name="material" val="FISH" />
@@ -552,7 +552,7 @@
 		</stats>
 	</item>
 	<item id="49043" name="Sword of Solidarity (Novice)" type="Weapon">
-		<!-- A mithril sword forged long ago to commemorate the alliance between Elves and Humans. <font color=ff6666><Unavailable to Sylphs/ Vanguard Riders.></font> -->
+		<!-- A mithril sword forged long ago to commemorate the alliance between Elves and Humans. <font color=ff6666><Unavailable to Sylphs/ Vanguard Riders/ Assassins.></font> -->
 		<set name="icon" val="icon.weapon_long_sword_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="SWORD" />
@@ -573,7 +573,7 @@
 		</stats>
 	</item>
 	<item id="49044" name="Wand of Adept (Novice)" type="Weapon">
-		<!-- The wand presented to those who have finished their studies at the school of magic. <font color=ff6666><Unavailable to Sylphs/ Vanguard Riders.></font> -->
+		<!-- The wand presented to those who have finished their studies at the school of magic. <font color=ff6666><Unavailable to Sylphs/ Vanguard Riders/ Assassins.></font> -->
 		<set name="icon" val="icon.weapon_apprentices_wand_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="BLUNT" />
@@ -596,7 +596,7 @@
 		</stats>
 	</item>
 	<item id="49045" name="Red Sunset Staff (Novice)" type="Weapon">
-		<!-- A staff used by warriors belonging to the Red Sunset clan. Novice only. <font color=ff6666><Unavailable to Sylphs/ Vanguard Riders.></font> -->
+		<!-- A staff used by warriors belonging to the Red Sunset clan. Novice only. <font color=ff6666><Unavailable to Sylphs/ Vanguard Riders/ Assassins.></font> -->
 		<set name="icon" val="icon.weapon_cedar_staff_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="BLUNT" />
@@ -619,7 +619,7 @@
 		</stats>
 	</item>
 	<item id="49046" name="Red Sunset Sword (Novice)" type="Weapon">
-		<!-- A sword used by warriors belonging to the Red Sunset clan. Novice only. <font color=ff6666><Unavailable to Sylphs/ Vanguard Riders.></font> -->
+		<!-- A sword used by warriors belonging to the Red Sunset clan. Novice only. <font color=ff6666><Unavailable to Sylphs/ Vanguard Riders/ Assassins.></font> -->
 		<set name="icon" val="icon.weapon_brandish_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="SWORD" />
@@ -640,7 +640,7 @@
 		</stats>
 	</item>
 	<item id="49047" name="Sword of Sentinel (Novice)" type="Weapon">
-		<!-- Staff issued to those magicians that have been acknowledged as protectors of the woods. Novice only. <font color=ff6666><Unavailable to Sylphs/ Vanguard Riders.></font> -->
+		<!-- Staff issued to those magicians that have been acknowledged as protectors of the woods. Novice only. <font color=ff6666><Unavailable to Sylphs/ Vanguard Riders/ Assassins.></font> -->
 		<set name="icon" val="icon.weapon_broad_sword_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="SWORD" />
@@ -660,7 +660,7 @@
 		</stats>
 	</item>
 	<item id="49048" name="Staff of Sentinel (Novice)" type="Weapon">
-		<!-- Staff issued to those magicians that have been acknowledged as protectors of the woods. Novice only. <font color=ff6666><Unavailable to Sylphs/ Vanguard Riders.></font> -->
+		<!-- Staff issued to those magicians that have been acknowledged as protectors of the woods. Novice only. <font color=ff6666><Unavailable to Sylphs/ Vanguard Riders/ Assassins.></font> -->
 		<set name="icon" val="icon.weapon_cedar_staff_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="BLUNT" />
@@ -704,7 +704,7 @@
 		</stats>
 	</item>
 	<item id="49050" name="Blood Saber (Novice)" type="Weapon">
-		<!-- An Oriharukon sword crafted in the Abella style of the east. Novice only. <font color=ff6666><Unavailable to Sylphs/ Vanguard Riders.></font> -->
+		<!-- An Oriharukon sword crafted in the Abella style of the east. Novice only. <font color=ff6666><Unavailable to Sylphs/ Vanguard Riders/ Assassins.></font> -->
 		<set name="icon" val="icon.weapon_broad_sword_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="SWORD" />
@@ -725,7 +725,7 @@
 		</stats>
 	</item>
 	<item id="49051" name="Club (Novice)" type="Weapon">
-		<!-- Club for Novices. <font color=ff6666><Unavailable to Sylphs/ Vanguard Riders.></font> -->
+		<!-- Club for Novices. <font color=ff6666><Unavailable to Sylphs/ Vanguard Riders/ Assassins.></font> -->
 		<set name="icon" val="icon.weapon_club_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="BLUNT" />
@@ -746,7 +746,7 @@
 		</stats>
 	</item>
 	<item id="49052" name="Butcher's Sword (Novice)" type="Weapon">
-		<!-- Sword granted to young Orc Fighters who distinguished themselves at war. <font color=ff6666><Unavailable to Sylphs/ Vanguard Riders.></font> -->
+		<!-- Sword granted to young Orc Fighters who distinguished themselves at war. <font color=ff6666><Unavailable to Sylphs/ Vanguard Riders/ Assassins.></font> -->
 		<set name="icon" val="icon.weapon_orcish_sword_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="SWORD" />
@@ -767,7 +767,7 @@
 		</stats>
 	</item>
 	<item id="49053" name="Silversmith Hammer (Novice)" type="Weapon">
-		<!-- A hammer once used by Elmoreden's blacksmiths. <font color=ff6666><Unavailable to Sylphs/ Vanguard Riders.></font> -->
+		<!-- A hammer once used by Elmoreden's blacksmiths. <font color=ff6666><Unavailable to Sylphs/ Vanguard Riders/ Assassins.></font> -->
 		<set name="icon" val="icon.weapon_iron_hammer_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="BLUNT" />
@@ -973,7 +973,7 @@
 		<set name="is_stackable" val="true" />
 	</item>
 	<item id="49069" name="Spirit Thunder Chest: No-grade Soulshots" additionalName="Not Available" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.etc_ertheia2" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -984,7 +984,7 @@
 		<set name="is_stackable" val="true" />
 	</item>
 	<item id="49070" name="Spirit Thunder Chest: D-grade Soulshots" additionalName="Not Available" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.etc_ertheia2" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -995,7 +995,7 @@
 		<set name="is_stackable" val="true" />
 	</item>
 	<item id="49071" name="Spirit Thunder Chest: C-grade Soulshots" additionalName="Not Available" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.etc_ertheia2" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -1006,7 +1006,7 @@
 		<set name="is_stackable" val="true" />
 	</item>
 	<item id="49072" name="Spirit Thunder Chest: No-grade Spiritshots" additionalName="Not Available" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.etc_ertheia2" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -1017,7 +1017,7 @@
 		<set name="is_stackable" val="true" />
 	</item>
 	<item id="49073" name="Spirit Thunder Chest: D-grade Spiritshots" additionalName="Not Available" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.etc_ertheia2" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -1028,7 +1028,7 @@
 		<set name="is_stackable" val="true" />
 	</item>
 	<item id="49074" name="Spirit Thunder Chest: C-grade Spiritshots" additionalName="Not Available" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.etc_ertheia2" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -1039,7 +1039,7 @@
 		<set name="is_stackable" val="true" />
 	</item>
 	<item id="49075" name="Spirit Thunder Chest: Blessed No-grade Spiritshots" additionalName="Not Available" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.etc_ertheia2" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -1050,7 +1050,7 @@
 		<set name="is_stackable" val="true" />
 	</item>
 	<item id="49076" name="Spirit Thunder Chest: Blessed D-grade Spiritshots" additionalName="Not Available" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.etc_ertheia2" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -1061,7 +1061,7 @@
 		<set name="is_stackable" val="true" />
 	</item>
 	<item id="49077" name="Spirit Thunder Chest: Blessed C-grade Spiritshots" additionalName="Not Available" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.etc_ertheia2" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -1072,7 +1072,7 @@
 		<set name="is_stackable" val="true" />
 	</item>
 	<item id="49078" name="Package: Romantic Chapeau (100-day)" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.etc_pi_gift_box_i02" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -1083,11 +1083,11 @@
 		<set name="is_stackable" val="true" />
 		<set name="handler" val="ExtractableItems" />
 		<capsuled_items>
-			<item id="37662" min="1" max="1" chance="100" /> <!-- Refined Romantic Chapeau: Gold - 100 days -->
+			<item id="37662" min="1" max="1" chance="100" /> <!-- Refined Romantic Chapeau: Gold - 100-day -->
 		</capsuled_items>
 	</item>
 	<item id="49079" name="Package: Romantic Chapeau (33-day)" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.etc_pi_gift_box_i03" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -1128,7 +1128,7 @@
 		</skills>
 	</item>
 	<item id="49082" name="Get-Rich-Quick Supply Chest" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.event_high_oriental_park_i00" />
 		<set name="default_action" val="SKILL_REDUCE" />
 		<set name="material" val="FISH" />
@@ -1176,7 +1176,7 @@
 		</skills>
 	</item>
 	<item id="49085" name="Battle Support Chest" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.etc_marguene_collection_box_i00" />
 		<set name="default_action" val="SKILL_REDUCE" />
 		<set name="material" val="PAPER" />

@@ -952,7 +952,7 @@
 		</effects>
 	</skill>
 	<skill id="1217" toLevel="41" name="Greater Heal">
-		<!-- Restores the target's HP with 440 Power. -->
+		<!-- Recovers the target's HP with 440 power. -->
 		<icon>icon.skill1217</icon>
 		<castRange>600</castRange>
 		<effectPoint>
@@ -6174,7 +6174,7 @@
 		</effects>
 	</skill>
 	<skill id="1258" toLevel="4" name="Restore Life">
-		<!-- Restores 15% of the target's HP. -->
+		<!-- Recovers 15% of the target's HP. -->
 		<icon>icon.skill1258</icon>
 		<castRange>600</castRange>
 		<effectPoint>
@@ -6996,7 +6996,7 @@
 			</effect>
 		</effects>
 	</skill>
-	<skill id="1271" toLevel="2" name="Benediction">
+	<skill id="1271" toLevel="2" name="Blessing">
 		<!-- Recovers 100% of HP to a party member. Can be used only if HP is 25% or lower. -->
 		<icon>icon.skill1271</icon>
 		<affectRange>2000</affectRange>
@@ -8494,7 +8494,7 @@
 			<value level="9">152</value>
 		</mpConsume>
 		<operateType>A2</operateType>
-		<reuseDelay>300000</reuseDelay>
+		<reuseDelay>30000</reuseDelay>
 		<basicProperty>NONE</basicProperty>
 		<magicCriticalRate>5</magicCriticalRate>
 		<targetType>ENEMY</targetType>
@@ -8530,7 +8530,7 @@
 		</effects>
 	</skill>
 	<skill id="1292" toLevel="1" name="Elemental Symphony">
-		<!-- Deals magic damage to the target. Power 200. -->
+		<!-- Deals magic damage to the enemy. Power 200. -->
 		<icon>icon.skill1292</icon>
 		<castRange>700</castRange>
 		<effectPoint>-3000</effectPoint>
@@ -8553,7 +8553,7 @@
 		</effects>
 	</skill>
 	<skill id="1293" toLevel="1" name="Elemental Symphony">
-		<!-- Deals magic damage to the target. Power 200. -->
+		<!-- Deals magic damage to the enemy. Power 200. -->
 		<icon>icon.skill1292</icon>
 		<castRange>700</castRange>
 		<effectPoint>-3000</effectPoint>
@@ -8576,7 +8576,7 @@
 		</effects>
 	</skill>
 	<skill id="1294" toLevel="1" name="Elemental Symphony">
-		<!-- Deals magic damage to the target. Power 200. -->
+		<!-- Deals magic damage to the enemy. Power 200. -->
 		<icon>icon.skill1292</icon>
 		<castRange>900</castRange>
 		<effectPoint>-3000</effectPoint>
@@ -8963,7 +8963,7 @@
 		</effects>
 	</skill>
 	<skill id="1299" toLevel="3" name="Servitor Ultimate Defense">
-		<!-- Duration: 30 sec. Servitor's P. Def. +1800. Servitor's M. Def. +1350. Servitor's Buff Cancel Resistance +80%. -->
+		<!-- For 30 sec., for a servitor:. P. Def. +1800. M. Def. +1350. Buff Cancel Resistance +80%. -->
 		<icon>icon.skill1299</icon>
 		<abnormalLevel>
 			<value level="1">1</value>

@@ -425,7 +425,7 @@
 		<set name="is_depositable" val="false" />
 	</item>
 	<item id="3836" name="Ritasha's Coin" additionalName="Not Available" type="EtcItem">
-		<!-- The item is not available. Collect 3 coins and bring them to Ritasha's Witch to obtain the Blood of Eva. -->
+		<!-- The item is not available. Collect three of these coins and bring them to Witch Ritasha to obtain Blood of Eva. -->
 		<set name="icon" val="icon.etc_ertheia2" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="STEEL" />
@@ -461,7 +461,7 @@
 		<set name="is_depositable" val="false" />
 	</item>
 	<item id="3839" name="Mist Drake's Egg" additionalName="Not Available" type="EtcItem">
-		<!-- The item is not available. A Mist Drake's egg. If you are a clan leader, collect 10 eggs of each of the 4 types and bring them to Martien. -->
+		<!-- The item is not available. A Mist Drake's egg. If you are a clan leader, collect 10 eggs of each of the 4 types and take them to Martien. -->
 		<set name="icon" val="icon.etc_ertheia2" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="STEEL" />
@@ -472,7 +472,7 @@
 		<set name="is_depositable" val="false" />
 	</item>
 	<item id="3840" name="Blitz Wyrm's Egg" additionalName="Not Available" type="EtcItem">
-		<!-- The item is not available. A Blitz Wyrm's egg. If you are a clan leader, collect 10 eggs of each of the 4 types and bring them to Martien. -->
+		<!-- The item is not available. A Blitz Wyrm's egg. If you are a clan leader, collect 10 eggs of each of the 4 types and take them to Martien. -->
 		<set name="icon" val="icon.etc_ertheia2" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="STEEL" />
@@ -483,7 +483,7 @@
 		<set name="is_depositable" val="false" />
 	</item>
 	<item id="3841" name="Drake's Egg" additionalName="Not Available" type="EtcItem">
-		<!-- The item is not available. A Drake's egg. If you are a clan leader, collect 10 eggs of each of the 4 types and bring them to Martien. -->
+		<!-- The item is not available. A Drake's egg. If you are a clan leader, collect 10 eggs of each of the 4 types and take them to Martien. -->
 		<set name="icon" val="icon.etc_ertheia2" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="STEEL" />
@@ -494,7 +494,7 @@
 		<set name="is_depositable" val="false" />
 	</item>
 	<item id="3842" name="Thunder Wyrm's Egg" additionalName="Not Available" type="EtcItem">
-		<!-- The item is not available. A Thunder Wyrm's egg. If you are a clan leader, collect 10 eggs of each of the 4 types and bring them to Martien. -->
+		<!-- The item is not available. A Thunder Wyrm's egg. If you are a clan leader, collect 10 eggs of each of the 4 types and take them to Martien. -->
 		<set name="icon" val="icon.etc_ertheia2" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="STEEL" />
@@ -505,7 +505,7 @@
 		<set name="is_depositable" val="false" />
 	</item>
 	<item id="3843" name="Brooch of the Magpie" additionalName="Not Available" type="EtcItem">
-		<!-- The item is not available. A feather left by a dying Dwarf. Must be delivered to Head Blacksmith Kusto in Giran. -->
+		<!-- The item is not available. A feather left by a dying Dwarf. Take it to Head Blacksmith Kusto in Giran. -->
 		<set name="icon" val="icon.etc_ertheia2" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="STEEL" />
@@ -516,7 +516,7 @@
 		<set name="is_depositable" val="false" />
 	</item>
 	<item id="3844" name="Nebulite Crystals" additionalName="Not Available" type="EtcItem">
-		<!-- The item is not available. Mysterious crystal. If you are a clan leader, collect 10 crystals and 10 Giant's Powerstones, and bring them to Balthazar. -->
+		<!-- The item is not available. A mysterious crystal. If you are a clan leader, collect 10 of these and 10 Giant's Powerstones, and take them to Balthazar. -->
 		<set name="icon" val="icon.etc_ertheia2" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="STEEL" />
@@ -527,7 +527,7 @@
 		<set name="is_depositable" val="false" />
 	</item>
 	<item id="3845" name="Giant's Broken Powerstone" additionalName="Not Available" type="EtcItem">
-		<!-- The item is not available. An old mechanism invented by Giants. Broken and useless. -->
+		<!-- The item is not available. An old mechanism invented by the ancient Giants. Broken and useless. -->
 		<set name="icon" val="icon.etc_ertheia2" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="STEEL" />
@@ -537,7 +537,7 @@
 		<set name="is_stackable" val="true" />
 	</item>
 	<item id="3846" name="Giant's Powerstone" additionalName="Not Available" type="EtcItem">
-		<!-- The item is not available. An old mechanism invented by Giants. If you are a clan leader, collect 10 Powerstones and 10 Nebulite Crystals, and bring them to Balthazar. -->
+		<!-- The item is not available. An old mechanism invented by the ancient Giants. If you are a clan leader, collect 10 Powerstones and 10 Nebulite Crystals, and bring them to Balthazar. -->
 		<set name="icon" val="icon.etc_ertheia2" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="STEEL" />
@@ -548,7 +548,7 @@
 		<set name="is_depositable" val="false" />
 	</item>
 	<item id="3847" name="Imperial Key" additionalName="Not Available" type="EtcItem">
-		<!-- The item is not available. One of 6 keys that must be collected to open the Imperial Coffer. -->
+		<!-- The item is not available. A key from the Imperial Coffer. Collect 6 of these to open the coffer. -->
 		<set name="icon" val="icon.etc_ertheia2" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="STEEL" />

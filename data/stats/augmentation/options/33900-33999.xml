@@ -1,26 +1,48 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../xsd/optionsData.xsd">
-	<option id="33900" name="option_id_33900">
+	<option id="33900" name="Circlet of Hero">
+		<!-- Max HP +100\nMax MP +100\nMax CP +100\nP. Def. +1%\nM. Def. +1%\nReceived damage -1% -->
+		<passive_skill id="50389" level="1" /> <!-- Circlet of Hero -->
 	</option>
-	<option id="33901" name="option_id_33901">
+	<option id="33901" name="Circlet of Hero">
+		<!-- Max HP +200\nMax MP +200\nMax CP +200\nP. Def. +2%\nM. Def. +2%\nReceived damage -2% -->
+		<passive_skill id="50389" level="2" /> <!-- +1 Circlet of Hero -->
 	</option>
-	<option id="33902" name="option_id_33902">
+	<option id="33902" name="Circlet of Hero">
+		<!-- Max HP +300\nMax MP +300\nMax CP +300\nP. Def. +3%\nM. Def. +3%\nReceived damage -3% -->
+		<passive_skill id="50389" level="3" /> <!-- +2 Circlet of Hero -->
 	</option>
-	<option id="33903" name="option_id_33903">
+	<option id="33903" name="Circlet of Hero">
+		<!-- Max HP +400\nMax MP +400\nMax CP +400\nP. Def. +4%\nM. Def. +4%\nReceived damage -4% -->
+		<passive_skill id="50389" level="4" /> <!-- +3 Circlet of Hero -->
 	</option>
-	<option id="33904" name="option_id_33904">
+	<option id="33904" name="Circlet of Hero">
+		<!-- Max HP +500\nMax MP +500\nMax CP +500\nP. Def. +5%\nM. Def. +5%\nReceived damage -5%\n\n<Fatal Critical Strike>\nWith a 5% chance, after a basic attack or an attack skill, P./ M. Skill Critical Damage +5% for 8 sec.\n(Cooldown: 8 sec.) -->
+		<passive_skill id="50389" level="5" /> <!-- +4 Circlet of Hero -->
 	</option>
-	<option id="33905" name="option_id_33905">
+	<option id="33905" name="Circlet of Hero">
+		<!-- Max HP +600\nMax MP +600\nMax CP +600\nP. Def. +6%\nM. Def. +6%\nReceived damage -6%\n\n<Fatal Critical Strike>\nWith a 10% chance, after a basic attack or an attack skill, P./ M. Skill Critical Damage +15% for 8 sec.\n(Cooldown: 8 sec.) -->
+		<passive_skill id="50389" level="6" /> <!-- +5 Circlet of Hero -->
 	</option>
-	<option id="33906" name="option_id_33906">
+	<option id="33906" name="Circlet of Hero">
+		<!-- Max HP +700\nMax MP +700\nMax CP +700\nP. Def. +7%\nM. Def. +7%\nReceived damage -7%\n\n<Fatal Critical Strike>\nWith a 10% chance, after a basic attack or an attack skill, P./ M. Skill Critical Damage +25% for 8 sec.\n(Cooldown: 8 sec.) -->
+		<passive_skill id="50389" level="7" /> <!-- +6 Circlet of Hero -->
 	</option>
-	<option id="33907" name="option_id_33907">
+	<option id="33907" name="Circlet of Hero">
+		<!-- Max HP +800\nMax MP +800\nMax CP +800\nP. Def. +8%\nM. Def. +8%\nReceived damage -8%\n\n<Fatal Critical Strike>\nWith a 10% chance, after a basic attack or an attack skill, P./ M. Skill Critical Damage +40% for 8 sec.\n(Cooldown: 8 sec.) -->
+		<passive_skill id="50389" level="8" /> <!-- +7 Circlet of Hero -->
 	</option>
-	<option id="33908" name="option_id_33908">
+	<option id="33908" name="Circlet of Hero">
+		<!-- Max HP +1000\nMax MP +1000\nMax CP +1000\nP. Def. +10%\nM. Def. +10%\nReceived damage -10%\n\n<Fatal Critical Strike>\nWith a 15% chance, after a basic attack or an attack skill, P./ M. Skill Critical Damage +60% for 8 sec.\n(Cooldown: 8 sec.) -->
+		<passive_skill id="50389" level="9" /> <!-- +8 Circlet of Hero -->
 	</option>
-	<option id="33909" name="option_id_33909">
+	<option id="33909" name="Circlet of Hero">
+		<!-- Max HP +2000\nMax MP +2000\nMax CP +2000\nP. Def. +12%\nM. Def. +12%\nReceived damage -12%\n\n<Fatal Critical Strike>\nWith a 15% chance, after a basic attack or an attack skill, P./ M. Skill Critical Damage +80% for 8 sec.\n(Cooldown: 8 sec.) -->
+		<passive_skill id="50389" level="10" /> <!-- +9 Circlet of Hero -->
 	</option>
-	<option id="33910" name="option_id_33910">
+	<option id="33910" name="Circlet of Hero">
+		<!-- Max HP +3000\nMax MP +3000\nMax CP +3000\nP. Def. +15%\nM. Def. +15%\nReceived damage -15%\n\n<Fatal Critical Strike>\nWith a 15% chance, after a basic attack or an attack skill, P./ M. Skill Critical Damage +100% for 8 sec.\n(Cooldown: 8 sec.) -->
+		<passive_skill id="50389" level="11" /> <!-- +10 Circlet of Hero -->
 	</option>
 	<option id="33911" name="option_id_33911">
 	</option>
@@ -36,49 +58,49 @@
 	</option>
 	<option id="33917" name="option_id_33917">
 	</option>
-	<option id="33918" name="Circlet of Hero">
-		<!-- Max HP +100\nMax MP +100\nMax CP +100\nP. Def. +1%\nM. Def. +1%\nReceived damage -1% -->
-		<passive_skill id="50389" level="1" /> <!-- Circlet of Hero -->
-	</option>
-	<option id="33919" name="Circlet of Hero">
+	<option id="33918" name="Blessed Circlet of Hero">
 		<!-- Max HP +200\nMax MP +200\nMax CP +200\nP. Def. +2%\nM. Def. +2%\nReceived damage -2% -->
-		<passive_skill id="50390" level="1" /> <!-- +1 Circlet of Hero -->
+		<passive_skill id="50390" level="1" /> <!-- Blessed Circlet of Hero -->
 	</option>
-	<option id="33920" name="Circlet of Hero">
+	<option id="33919" name="Blessed Circlet of Hero">
 		<!-- Max HP +300\nMax MP +300\nMax CP +300\nP. Def. +3%\nM. Def. +3%\nReceived damage -3% -->
-		<passive_skill id="50390" level="2" /> <!-- +2 Circlet of Hero -->
+		<passive_skill id="50390" level="2" /> <!-- +1 Blessed Circlet of Hero -->
 	</option>
-	<option id="33921" name="Circlet of Hero">
+	<option id="33920" name="Blessed Circlet of Hero">
 		<!-- Max HP +400\nMax MP +400\nMax CP +400\nP. Def. +4%\nM. Def. +4%\nReceived damage -4% -->
-		<passive_skill id="50390" level="3" /> <!-- +3 Circlet of Hero -->
+		<passive_skill id="50390" level="3" /> <!-- +2 Blessed Circlet of Hero -->
 	</option>
-	<option id="33922" name="Circlet of Hero">
+	<option id="33921" name="Blessed Circlet of Hero">
 		<!-- Max HP +500\nMax MP +500\nMax CP +500\nP. Def. +5%\nM. Def. +5%\nReceived damage -5%\n\n<Fatal Critical Strike>\nWith a 5% chance, after a basic attack or an attack skill, P./ M. Skill Critical Damage +5% for 8 sec.\n(Cooldown: 8 sec.) -->
-		<passive_skill id="50390" level="4" /> <!-- +4 Circlet of Hero -->
+		<passive_skill id="50390" level="4" /> <!-- +3 Blessed Circlet of Hero -->
 	</option>
-	<option id="33923" name="Circlet of Hero">
-		<!-- Max HP +600\nMax MP +600\nMax CP +600\nP. Def. +6%\nM. Def. +6%\nReceived damage -6%\n\n<Fatal Critical Strike>\nWith a 10% chance, after a basic attack or an attack skill, P./ M. Skill Critical Damage +15% for 8 sec.\n(Cooldown: 8 sec.) -->
-		<passive_skill id="50390" level="5" /> <!-- +5 Circlet of Hero -->
+	<option id="33922" name="Blessed Circlet of Hero">
+		<!-- Max HP +550\nMax MP +550\nMax CP +550\nP. Def. +6%\nM. Def. +6%\nReceived damage -5%\n\n<Fatal Critical Strike>\nWith a 10% chance, after a basic attack or an attack skill, P./ M. Skill Critical Damage +10% for 8 sec.\n(Cooldown: 8 sec.) -->
+		<passive_skill id="50390" level="5" /> <!-- Blessed Circlet of Hero +4 -->
 	</option>
-	<option id="33924" name="Circlet of Hero">
-		<!-- Max HP +700\nMax MP +700\nMax CP +700\nP. Def. +7%\nM. Def. +7%\nReceived damage -7%\n\n<Fatal Critical Strike>\nWith a 10% chance, after a basic attack or an attack skill, P./ M. Skill Critical Damage +25% for 8 sec.\n(Cooldown: 8 sec.) -->
-		<passive_skill id="50390" level="6" /> <!-- +6 Circlet of Hero -->
+	<option id="33923" name="Blessed Circlet of Hero">
+		<!-- Max HP +650\nMax MP +650\nMax CP +650\nP. Def. +7%\nM. Def. +7%\nReceived damage -6%\n\n<Fatal Critical Strike>\nWith a 10% chance, after a basic attack or an attack skill, P./ M. Skill Critical Damage +20% for 8 sec.\n(Cooldown: 8 sec.) -->
+		<passive_skill id="50390" level="6" /> <!-- Blessed Circlet of Hero +5 -->
 	</option>
-	<option id="33925" name="Circlet of Hero">
-		<!-- Max HP +800\nMax MP +800\nMax CP +800\nP. Def. +8%\nM. Def. +8%\nReceived damage -8%\n\n<Fatal Critical Strike>\nWith a 10% chance, after a basic attack or an attack skill, P./ M. Skill Critical Damage +40% for 8 sec.\n(Cooldown: 8 sec.) -->
-		<passive_skill id="50390" level="7" /> <!-- +7 Circlet of Hero -->
+	<option id="33924" name="Blessed Circlet of Hero">
+		<!-- Max HP +800\nMax MP +750\nMax CP +750\nP. Def. +8%\nM. Def. +8%\nReceived damage -7%\n\n<Fatal Critical Strike>\nWith a 10% chance, after a basic attack or an attack skill, P./ M. Skill Critical Damage +30% for 8 sec.\n(Cooldown: 8 sec.) -->
+		<passive_skill id="50390" level="7" /> <!-- Blessed Circlet of Hero +6 -->
 	</option>
-	<option id="33926" name="Circlet of Hero">
-		<!-- Max HP +1000\nMax MP +1000\nMax CP +1000\nP. Def. +10%\nM. Def. +10%\nReceived damage -10%\n\n<Fatal Critical Strike>\nWith a 15% chance, after a basic attack or an attack skill, P./ M. Skill Critical Damage +60% for 8 sec.\n(Cooldown: 8 sec.) -->
-		<passive_skill id="50390" level="8" /> <!-- +8 Circlet of Hero -->
+	<option id="33925" name="Blessed Circlet of Hero">
+		<!-- Max HP +900\nMax MP +900\nMax CP +900\nP. Def. +9%\nM. Def. +9%\nReceived damage -9%\n\n<Fatal Critical Strike>\nWith a 15% chance, after a basic attack or an attack skill, P./ M. Skill Critical Damage +50% for 8 sec.\n(Cooldown: 8 sec.) -->
+		<passive_skill id="50390" level="8" /> <!-- Blessed Circlet of Hero +7 -->
 	</option>
-	<option id="33927" name="Circlet of Hero">
-		<!-- Max HP +2000\nMax MP +2000\nMax CP +2000\nP. Def. +12%\nM. Def. +12%\nReceived damage -12%\n\n<Fatal Critical Strike>\nWith a 15% chance, after a basic attack or an attack skill, P./ M. Skill Critical Damage +80% for 8 sec.\n(Cooldown: 8 sec.) -->
-		<passive_skill id="50390" level="9" /> <!-- +9 Circlet of Hero -->
+	<option id="33926" name="Blessed Circlet of Hero">
+		<!-- Max HP +1500\nMax MP +1500\nMax CP +1500\nP. Def. +11%\nM. Def. +11%\nReceived damage -11%\n\n<Fatal Critical Strike>\nWith a 15% chance, after a basic attack or an attack skill, P./ M. Skill Critical Damage +70% for 8 sec.\n(Cooldown: 8 sec.) -->
+		<passive_skill id="50390" level="9" /> <!-- Blessed Circlet of Hero +8 -->
 	</option>
-	<option id="33928" name="Circlet of Hero">
-		<!-- Max HP +3000\nMax MP +3000\nMax CP +3000\nP. Def. +15%\nM. Def. +15%\nReceived damage -15%\n\n<Fatal Critical Strike>\nWith a 15% chance, after a basic attack or an attack skill, P./ M. Skill Critical Damage +100% for 8 sec.\n(Cooldown: 8 sec.) -->
-		<passive_skill id="50390" level="10" /> <!-- +10 Circlet of Hero -->
+	<option id="33927" name="Blessed Circlet of Hero">
+		<!-- Max HP +2500\nMax MP +2500\nMax CP +2500\nP. Def. +14%\nM. Def. +14%\nReceived damage -14%\n\n<Fatal Critical Strike>\nWith a 15% chance, after a basic attack or an attack skill, P./ M. Skill Critical Damage +90% for 8 sec.\n(Cooldown: 8 sec.) -->
+		<passive_skill id="50390" level="10" /> <!-- Blessed Circlet of Hero +9 -->
+	</option>
+	<option id="33928" name="Blessed Circlet of Hero">
+		<!-- Max HP +5000\nMax MP +5000\nMax CP +5000\nP. Def. +20%\nM. Def. +20%\nReceived damage -15%\n\n<Fatal Critical Strike>\nWith a 15% chance, after a basic attack or an attack skill, P./ M. Skill Critical Damage +100% for 8 sec.\n(Cooldown: 8 sec.) -->
+		<passive_skill id="50390" level="11" /> <!-- Blessed Circlet of Hero +10 -->
 	</option>
 	<option id="33929" name="atk_speed">
 		<!-- Atk. Spd. +5 -->

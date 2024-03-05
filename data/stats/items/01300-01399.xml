@@ -641,7 +641,7 @@
 		</stats>
 	</item>
 	<item id="1333" name="Brandish" type="Weapon">
-		<!-- Two-handed sword for beginners. <font color=ff6666><Unavailable to Sylphs/ Vanguard Riders.></font> -->
+		<!-- Two-handed sword for beginners. <font color=ff6666><Unavailable to Sylphs/ Vanguard Riders/ Assassins.></font> -->
 		<set name="icon" val="icon.weapon_brandish_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="SWORD" />
@@ -799,7 +799,7 @@
 		<set name="is_stackable" val="true" />
 	</item>
 	<item id="1345" name="Arrow of Light" type="EtcItem">
-		<!-- Very hard arrow made of unknown material. For S-grade bows. -->
+		<!-- A very sturdy arrow made of unknown material. For S-grade bows. -->
 		<set name="icon" val="icon.etc_shining_quiver_i00" />
 		<set name="default_action" val="NONE" />
 		<set name="etcitem_type" val="ARROW" />
@@ -1249,7 +1249,7 @@
 		<set name="is_sellable" val="false" />
 	</item>
 	<item id="1381" name="Spellbook: Freezing Weapon" additionalName="Not Available" type="EtcItem">
-		<!-- The item is not available. A spellbook for learning the Freezing Weapon skill. <Classes>. Palus Knight, Assassin. <Skill effect>. With a certain chance, decreases the enemy's Speed after an attack. -->
+		<!-- The item is not available. A spellbook for learning the Freezing Weapon skill. <Classes>. Dark Knight, Dark Slayer. <Skill effect>. With a certain chance, decreases the enemy's Speed after an attack. -->
 		<set name="icon" val="icon.etc_ertheia2" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="PAPER" />
@@ -1259,7 +1259,7 @@
 		<set name="is_sellable" val="false" />
 	</item>
 	<item id="1382" name="Spellbook: Power Break" additionalName="Not Available" type="EtcItem">
-		<!-- The item is not available. A spellbook for learning the Power Break skill. <Classes>. Palus Knight, Assassin, Death Blade (Dark Elf). <Skill effect>. Decreases the enemy's P. Atk. -->
+		<!-- The item is not available. A spellbook for learning the Power Break skill. <Classes>. Dark Knight, Dark Slayer, Death Blade (Dark Elf). <Skill effect>. Decreases the enemy's P. Atk. -->
 		<set name="icon" val="icon.etc_ertheia2" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="PAPER" />
@@ -1269,7 +1269,7 @@
 		<set name="is_sellable" val="false" />
 	</item>
 	<item id="1383" name="Spellbook: Poison" additionalName="Not Available" type="EtcItem">
-		<!-- The item is not available. A spellbook for learning the Poison skill. Used by Palus Knights and Assassins. Required level: 20. -->
+		<!-- The item is not available. A spellbook for learning the Poison skill. Used by Dark Knights and Dark Slayers. Required level: 20. -->
 		<set name="icon" val="icon.etc_ertheia2" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="PAPER" />

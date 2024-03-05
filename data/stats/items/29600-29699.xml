@@ -37,7 +37,7 @@
 			<item id="49000" min="1" max="1" chance="100" /> <!-- Agathion Singer and Dancer - Not Available -->
 			<item id="29651" min="50" max="50" chance="100" /> <!-- Healing Potion - Not Available -->
 			<item id="10650" min="30" max="30" chance="100" /> <!-- Newbie's Scroll of Escape - Sealed -->
-			<item id="49036" min="30" max="30" chance="100" /> <!-- Wind Walk Potion (Novice) - Sealed -->
+			<item id="49036" min="30" max="30" chance="100" /> <!-- Newbie Wind Walk Potion - Sealed -->
 			<item id="29653" min="30" max="30" chance="100" /> <!-- Haste Potion - Not Available -->
 			<item id="29602" min="1" max="1" chance="100" /> <!-- Newbie Kit Lv. 2 - Not Available -->
 		</capsuled_items>
@@ -157,7 +157,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="handler" val="ExtractableItems" />
 		<capsuled_items>
-			<item id="29609" min="1" max="1" chance="100" /> <!-- Ticket: Temporary C-grade Weapon - Not Available -->
+			<item id="29609" min="1" max="1" chance="100" /> <!-- Time-limited C-grade Weapon Coupon - Not Available -->
 		</capsuled_items>
 		<cond msgId="113" addName="1">
 			<player level="40" />
@@ -182,7 +182,7 @@
 		<set name="is_stackable" val="true" />
 	</item>
 	<item id="29610" name="Katana" additionalName="Not Available" type="Weapon">
-		<!-- The item is not available. Available for 30 days. -->
+		<!-- The item is not available. Available for 30 d. -->
 		<set name="icon" val="icon.etc_ertheia2" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="SWORD" />
@@ -208,7 +208,7 @@
 		</stats>
 	</item>
 	<item id="29611" name="Stiletto" additionalName="Not Available" type="Weapon">
-		<!-- The item is not available. Available for 30 days. -->
+		<!-- The item is not available. Available for 30 d. -->
 		<set name="icon" val="icon.etc_ertheia2" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="DAGGER" />
@@ -235,7 +235,7 @@
 		</stats>
 	</item>
 	<item id="29612" name="Dwarven War Hammer" additionalName="Not Available" type="Weapon">
-		<!-- The item is not available. Available for 30 days. -->
+		<!-- The item is not available. Available for 30 d. -->
 		<set name="icon" val="icon.etc_ertheia2" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="BLUNT" />
@@ -262,7 +262,7 @@
 		</stats>
 	</item>
 	<item id="29613" name="Bec de Corbin" additionalName="Not Available" type="Weapon">
-		<!-- The item is not available. Available for 30 days. -->
+		<!-- The item is not available. Available for 30 d. -->
 		<set name="icon" val="icon.etc_ertheia2" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="POLE" />
@@ -292,7 +292,7 @@
 		</stats>
 	</item>
 	<item id="29614" name="Elemental Bow" additionalName="Not Available" type="Weapon">
-		<!-- The item is not available. Available for 30 days. -->
+		<!-- The item is not available. Available for 30 d. -->
 		<set name="icon" val="icon.etc_ertheia2" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="BOW" />
@@ -320,7 +320,7 @@
 		</stats>
 	</item>
 	<item id="29615" name="Fist" additionalName="Not Available" type="Weapon">
-		<!-- The item is not available. Available for 30 days. -->
+		<!-- The item is not available. Available for 30 d. -->
 		<set name="icon" val="icon.etc_ertheia2" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="DUALFIST" />
@@ -347,7 +347,7 @@
 		</stats>
 	</item>
 	<item id="29616" name="Soulfire Dirk" additionalName="Not Available" type="Weapon">
-		<!-- The item is not available. Available for 30 days. -->
+		<!-- The item is not available. Available for 30 d. -->
 		<set name="icon" val="icon.etc_ertheia2" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="DAGGER" />
@@ -375,7 +375,7 @@
 		</stats>
 	</item>
 	<item id="29617" name="Horn of Glory" additionalName="Not Available" type="Weapon">
-		<!-- The item is not available. Available for 30 days. -->
+		<!-- The item is not available. Available for 30 d. -->
 		<set name="icon" val="icon.etc_ertheia2" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="SWORD" />
@@ -402,7 +402,7 @@
 		</stats>
 	</item>
 	<item id="29618" name="Cursed Staff" additionalName="Not Available" type="Weapon">
-		<!-- The item is not available. Available for 30 days. -->
+		<!-- The item is not available. Available for 30 d. -->
 		<set name="icon" val="icon.etc_ertheia2" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="BLUNT" />
@@ -430,7 +430,7 @@
 		</stats>
 	</item>
 	<item id="29619" name="Elven Sword*Elven Long Sword" additionalName="Not Available" type="Weapon">
-		<!-- The item is not available. Available for 30 days. -->
+		<!-- The item is not available. Available for 30 d. -->
 		<set name="icon" val="icon.etc_ertheia2" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="DUAL" />
@@ -456,7 +456,7 @@
 		</stats>
 	</item>
 	<item id="29620" name="Saber*Elven Sword" additionalName="Not Available" type="Weapon">
-		<!-- The item is not available. Available for 30 days. -->
+		<!-- The item is not available. Available for 30 d. -->
 		<set name="icon" val="icon.etc_ertheia2" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="DUAL" />
@@ -482,7 +482,7 @@
 		</stats>
 	</item>
 	<item id="29621" name="Sword of Revolution" additionalName="Not Available" type="Weapon">
-		<!-- The item is not available. Available for 30 days. -->
+		<!-- The item is not available. Available for 30 d. -->
 		<set name="icon" val="icon.etc_ertheia2" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="SWORD" />
@@ -508,7 +508,7 @@
 		</stats>
 	</item>
 	<item id="29622" name="Maingauche" additionalName="Not Available" type="Weapon">
-		<!-- The item is not available. Available for 30 days. -->
+		<!-- The item is not available. Available for 30 d. -->
 		<set name="icon" val="icon.etc_ertheia2" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="DAGGER" />
@@ -535,7 +535,7 @@
 		</stats>
 	</item>
 	<item id="29623" name="Reinforced Longbow" additionalName="Not Available" type="Weapon">
-		<!-- The item is not available. Available for 30 days. -->
+		<!-- The item is not available. Available for 30 d. -->
 		<set name="icon" val="icon.etc_ertheia2" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="BOW" />
@@ -563,7 +563,7 @@
 		</stats>
 	</item>
 	<item id="29624" name="Tarbar" additionalName="Not Available" type="Weapon">
-		<!-- The item is not available. Available for 30 days. -->
+		<!-- The item is not available. Available for 30 d. -->
 		<set name="icon" val="icon.etc_ertheia2" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="BLUNT" />
@@ -590,7 +590,7 @@
 		</stats>
 	</item>
 	<item id="29625" name="Lesser Giant's Sword" additionalName="Not Available" type="Weapon">
-		<!-- The item is not available. Available for 30 days. -->
+		<!-- The item is not available. Available for 30 d. -->
 		<set name="icon" val="icon.etc_ertheia2" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="SWORD" />
@@ -616,7 +616,7 @@
 		</stats>
 	</item>
 	<item id="29626" name="Lesser Giant's Hammer" additionalName="Not Available" type="Weapon">
-		<!-- The item is not available. Available for 30 days. -->
+		<!-- The item is not available. Available for 30 d. -->
 		<set name="icon" val="icon.etc_ertheia2" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="BLUNT" />
@@ -643,7 +643,7 @@
 		</stats>
 	</item>
 	<item id="29627" name="Winged Spear" additionalName="Not Available" type="Weapon">
-		<!-- The item is not available. Available for 30 days. -->
+		<!-- The item is not available. Available for 30 d. -->
 		<set name="icon" val="icon.etc_ertheia2" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="POLE" />
@@ -673,7 +673,7 @@
 		</stats>
 	</item>
 	<item id="29628" name="Bich'Hwa" additionalName="Not Available" type="Weapon">
-		<!-- The item is not available. Available for 30 days. -->
+		<!-- The item is not available. Available for 30 d. -->
 		<set name="icon" val="icon.etc_ertheia2" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="DUALFIST" />
@@ -700,7 +700,7 @@
 		</stats>
 	</item>
 	<item id="29629" name="Sword of Magic Fog" additionalName="Not Available" type="Weapon">
-		<!-- The item is not available. Available for 30 days. -->
+		<!-- The item is not available. Available for 30 d. -->
 		<set name="icon" val="icon.etc_ertheia2" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="SWORD" />
@@ -727,7 +727,7 @@
 		</stats>
 	</item>
 	<item id="29630" name="Priest Mace" additionalName="Not Available" type="Weapon">
-		<!-- The item is not available. Available for 30 days. -->
+		<!-- The item is not available. Available for 30 d. -->
 		<set name="icon" val="icon.etc_ertheia2" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="BLUNT" />
@@ -755,7 +755,7 @@
 		</stats>
 	</item>
 	<item id="29631" name="Goat Head Staff" additionalName="Not Available" type="Weapon">
-		<!-- The item is not available. Available for 30 days. -->
+		<!-- The item is not available. Available for 30 d. -->
 		<set name="icon" val="icon.etc_ertheia2" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="BLUNT" />
@@ -801,7 +801,7 @@
 		</capsuled_items>
 	</item>
 	<item id="29633" name="Daily Present - VIP 1" additionalName="Not Available" type="EtcItem">
-		<!-- The item is not available. Double-click to obtain 1 Blessed Scroll of Escape, 1 Feather of Blessing, 3 Major Healing Potions, 150 VIP Coins. -->
+		<!-- The item is not available. Double-click to obtain 1 Blessed Scroll of Escape, 1 Feather of Blessing, 3 Greater Healing Potions, 150 VIP Coins. -->
 		<set name="icon" val="icon.etc_ertheia2" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -837,7 +837,7 @@
 			<item id="34603" min="5000" max="5000" chance="100" /> <!-- Mysterious No-grade Soulshot - Not Available -->
 			<item id="29635" min="1" max="1" chance="100" /> <!-- Newbie Kit Lv. 2 - Not Available -->
 			<item id="10650" min="30" max="30" chance="100" /> <!-- Newbie's Scroll of Escape - Sealed -->
-			<item id="49036" min="30" max="30" chance="100" /> <!-- Wind Walk Potion (Novice) - Sealed -->
+			<item id="49036" min="30" max="30" chance="100" /> <!-- Newbie Wind Walk Potion - Sealed -->
 			<item id="29648" min="30" max="30" chance="100" /> <!-- XP/SP Scroll - Normal - Not Available -->
 		</capsuled_items>
 	</item>
@@ -1371,7 +1371,7 @@
 		<capsuled_items>
 			<item id="29027" min="9000" max="9000" chance="100" /> <!-- Mysterious C-grade Soulshot - Not Available -->
 			<item id="29028" min="2000" max="2000" chance="100" /> <!-- Mysterious Blessed C-grade Spiritshot - Not Available -->
-			<item id="29609" min="1" max="1" chance="100" /> <!-- Ticket: Temporary C-grade Weapon - Not Available -->
+			<item id="29609" min="1" max="1" chance="100" /> <!-- Time-limited C-grade Weapon Coupon - Not Available -->
 			<item id="29664" min="1" max="1" chance="100" /> <!-- Adventurer's Kit Lv. 9 - Not Available -->
 		</capsuled_items>
 		<cond msgId="113" addName="1">
@@ -1592,7 +1592,7 @@
 		</skills>
 	</item>
 	<item id="29677" name="Castle Ring (10-day)" additionalName="Not Available" type="Armor">
-		<!-- The item is not available. Available for 10 d. HP +20, M. Atk. +3, P. Atk. +5. Effects of two identical rings do not stack. -->
+		<!-- The item is not available. Available for 10 d. Applies the following effects: HP +20, M. Atk. +3, P. Atk. +5. Effects of two identical rings do not stack. -->
 		<set name="icon" val="icon.etc_ertheia2" />
 		<set name="default_action" val="EQUIP" />
 		<set name="bodypart" val="rfinger;lfinger" />
@@ -1668,7 +1668,7 @@
 		</stats>
 	</item>
 	<item id="29681" name="Castle Necklace (10-day)" additionalName="Not Available" type="Armor">
-		<!-- The item is not available. Available for 10 days. Max MP +20, M. Def. +3, P. Def. +5. -->
+		<!-- The item is not available. Available for 10 d. Applies the following effects: MP +20, M. Def. +3, P. Def. +5. -->
 		<set name="icon" val="icon.etc_ertheia2" />
 		<set name="default_action" val="EQUIP" />
 		<set name="bodypart" val="neck" />
@@ -1689,7 +1689,7 @@
 		</stats>
 	</item>
 	<item id="29682" name="Castle Necklace" additionalName="Not Available" type="Armor">
-		<!-- The item is not available. When equipped, increases MP by +20, M. Def. by +3, P. Def. by +5. -->
+		<!-- The item is not available. Applies the following effects: MP +20, M. Def. +3, P. Def. +5. -->
 		<set name="icon" val="icon.etc_ertheia2" />
 		<set name="default_action" val="EQUIP" />
 		<set name="bodypart" val="neck" />
@@ -1794,7 +1794,7 @@
 		<set name="etcitem_type" val="SCROLL" />
 	</item>
 	<item id="29690" name="Scroll: Blessed Body" additionalName="Not Available" type="EtcItem">
-		<!-- The item is not available. Increases Max HP by +10% for 20 minutes when used. -->
+		<!-- The item is not available. For 20 min., Max HP +10%. -->
 		<set name="icon" val="icon.etc_ertheia2" />
 		<set name="default_action" val="SKILL_REDUCE" />
 		<set name="material" val="PAPER" />
@@ -1804,7 +1804,7 @@
 		<set name="etcitem_type" val="SCROLL" />
 	</item>
 	<item id="29691" name="Scroll: Blessed Soul" additionalName="Not Available" type="EtcItem">
-		<!-- The item is not available. Increases Max MP by +10% for 20 minutes when used. -->
+		<!-- The item is not available. For 20 min., Max MP +10%. -->
 		<set name="icon" val="icon.etc_ertheia2" />
 		<set name="default_action" val="SKILL_REDUCE" />
 		<set name="material" val="PAPER" />

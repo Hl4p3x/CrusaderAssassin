@@ -205,6 +205,8 @@
 		<classId>210</classId> <!-- WindSniper -->
 		<classId>211</classId> <!-- StormBlaster -->
 		<classId>220</classId> <!-- Vanguard Rider -->
+		<classId>224</classId> <!-- Assassin (male) -->
+		<classId>228</classId> <!-- Assassin (female) -->
 		<classId>88</classId> <!-- Duelist -->
 		<classId>89</classId> <!-- Dreadnought -->
 		<classId>90</classId> <!-- Phoenix Knight -->
@@ -242,6 +244,8 @@
 		<classId>210</classId> <!-- WindSniper -->
 		<classId>211</classId> <!-- StormBlaster -->
 		<classId>220</classId> <!-- Vanguard Rider -->
+		<classId>224</classId> <!-- Assassin (male) -->
+		<classId>228</classId> <!-- Assassin (female) -->
 	</henna>
 	<henna dyeId="339" dyeName="" patternLevel="2" dyeItemId="96356"> <!-- Potential of STR <STR+2> () -->
 		<stats str="2" con="0" dex="0" int="0" men="0" wit="0" luc="0" cha="0" />
@@ -327,6 +331,8 @@
 		<classId>210</classId> <!-- WindSniper -->
 		<classId>211</classId> <!-- StormBlaster -->
 		<classId>220</classId> <!-- Vanguard Rider -->
+		<classId>224</classId> <!-- Assassin (male) -->
+		<classId>228</classId> <!-- Assassin (female) -->
 		<classId>88</classId> <!-- Duelist -->
 		<classId>89</classId> <!-- Dreadnought -->
 		<classId>90</classId> <!-- Phoenix Knight -->
@@ -364,6 +370,8 @@
 		<classId>210</classId> <!-- WindSniper -->
 		<classId>211</classId> <!-- StormBlaster -->
 		<classId>220</classId> <!-- Vanguard Rider -->
+		<classId>224</classId> <!-- Assassin (male) -->
+		<classId>228</classId> <!-- Assassin (female) -->
 	</henna>
 	<henna dyeId="340" dyeItemId="96357" dyeName="" patternLevel="3"> <!-- Tattoo of STR <STR+4> (P. Atk. +25) -->
 		<stats str="4" con="0" dex="0" int="0" men="0" wit="0" luc="0" cha="0" />
@@ -449,6 +457,8 @@
 		<classId>210</classId> <!-- WindSniper -->
 		<classId>211</classId> <!-- StormBlaster -->
 		<classId>220</classId> <!-- Vanguard Rider -->
+		<classId>224</classId> <!-- Assassin (male) -->
+		<classId>228</classId> <!-- Assassin (female) -->
 		<classId>88</classId> <!-- Duelist -->
 		<classId>89</classId> <!-- Dreadnought -->
 		<classId>90</classId> <!-- Phoenix Knight -->
@@ -486,6 +496,8 @@
 		<classId>210</classId> <!-- WindSniper -->
 		<classId>211</classId> <!-- StormBlaster -->
 		<classId>220</classId> <!-- Vanguard Rider -->
+		<classId>224</classId> <!-- Assassin (male) -->
+		<classId>228</classId> <!-- Assassin (female) -->
 	</henna>
 	<henna dyeId="341" dyeItemId="96358" dyeName="" patternLevel="4"> <!-- Tattoo of STR <STR+4> (P. Atk. +50) -->
 		<stats str="4" con="0" dex="0" int="0" men="0" wit="0" luc="0" cha="0" />
@@ -571,6 +583,8 @@
 		<classId>210</classId> <!-- WindSniper -->
 		<classId>211</classId> <!-- StormBlaster -->
 		<classId>220</classId> <!-- Vanguard Rider -->
+		<classId>224</classId> <!-- Assassin (male) -->
+		<classId>228</classId> <!-- Assassin (female) -->
 		<classId>88</classId> <!-- Duelist -->
 		<classId>89</classId> <!-- Dreadnought -->
 		<classId>90</classId> <!-- Phoenix Knight -->
@@ -608,6 +622,8 @@
 		<classId>210</classId> <!-- WindSniper -->
 		<classId>211</classId> <!-- StormBlaster -->
 		<classId>220</classId> <!-- Vanguard Rider -->
+		<classId>224</classId> <!-- Assassin (male) -->
+		<classId>228</classId> <!-- Assassin (female) -->
 	</henna>
 	<henna dyeId="342" dyeItemId="96359" dyeName="" patternLevel="5"> <!-- Tattoo of STR <STR+4> (P. Atk. +75) -->
 		<stats str="4" con="0" dex="0" int="0" men="0" wit="0" luc="0" cha="0" />
@@ -693,6 +709,8 @@
 		<classId>210</classId> <!-- WindSniper -->
 		<classId>211</classId> <!-- StormBlaster -->
 		<classId>220</classId> <!-- Vanguard Rider -->
+		<classId>224</classId> <!-- Assassin (male) -->
+		<classId>228</classId> <!-- Assassin (female) -->
 		<classId>88</classId> <!-- Duelist -->
 		<classId>89</classId> <!-- Dreadnought -->
 		<classId>90</classId> <!-- Phoenix Knight -->
@@ -730,6 +748,8 @@
 		<classId>210</classId> <!-- WindSniper -->
 		<classId>211</classId> <!-- StormBlaster -->
 		<classId>220</classId> <!-- Vanguard Rider -->
+		<classId>224</classId> <!-- Assassin (male) -->
+		<classId>228</classId> <!-- Assassin (female) -->
 	</henna>
 	<henna dyeId="343" dyeItemId="96360" dyeName="" patternLevel="6"> <!-- Tattoo of STR <STR+4> (P. Atk. +100) -->
 		<stats str="4" con="0" dex="0" int="0" men="0" wit="0" luc="0" cha="0" />
@@ -815,6 +835,8 @@
 		<classId>210</classId> <!-- WindSniper -->
 		<classId>211</classId> <!-- StormBlaster -->
 		<classId>220</classId> <!-- Vanguard Rider -->
+		<classId>224</classId> <!-- Assassin (male) -->
+		<classId>228</classId> <!-- Assassin (female) -->
 		<classId>88</classId> <!-- Duelist -->
 		<classId>89</classId> <!-- Dreadnought -->
 		<classId>90</classId> <!-- Phoenix Knight -->
@@ -852,6 +874,8 @@
 		<classId>210</classId> <!-- WindSniper -->
 		<classId>211</classId> <!-- StormBlaster -->
 		<classId>220</classId> <!-- Vanguard Rider -->
+		<classId>224</classId> <!-- Assassin (male) -->
+		<classId>228</classId> <!-- Assassin (female) -->
 	</henna>
 	<henna dyeId="344" dyeItemId="96361" dyeName="" patternLevel="7"> <!-- Tattoo of STR <STR+4> (P. Atk. +125) -->
 		<stats str="4" con="0" dex="0" int="0" men="0" wit="0" luc="0" cha="0" />
@@ -937,6 +961,8 @@
 		<classId>210</classId> <!-- WindSniper -->
 		<classId>211</classId> <!-- StormBlaster -->
 		<classId>220</classId> <!-- Vanguard Rider -->
+		<classId>224</classId> <!-- Assassin (male) -->
+		<classId>228</classId> <!-- Assassin (female) -->
 		<classId>88</classId> <!-- Duelist -->
 		<classId>89</classId> <!-- Dreadnought -->
 		<classId>90</classId> <!-- Phoenix Knight -->
@@ -974,6 +1000,8 @@
 		<classId>210</classId> <!-- WindSniper -->
 		<classId>211</classId> <!-- StormBlaster -->
 		<classId>220</classId> <!-- Vanguard Rider -->
+		<classId>224</classId> <!-- Assassin (male) -->
+		<classId>228</classId> <!-- Assassin (female) -->
 	</henna>
 	<henna dyeId="345" dyeItemId="96362" dyeName="" patternLevel="8"> <!-- Tattoo of STR <STR+4> (P. Atk. +150) -->
 		<stats str="4" con="0" dex="0" int="0" men="0" wit="0" luc="0" cha="0" />
@@ -1059,6 +1087,8 @@
 		<classId>210</classId> <!-- WindSniper -->
 		<classId>211</classId> <!-- StormBlaster -->
 		<classId>220</classId> <!-- Vanguard Rider -->
+		<classId>224</classId> <!-- Assassin (male) -->
+		<classId>228</classId> <!-- Assassin (female) -->
 		<classId>88</classId> <!-- Duelist -->
 		<classId>89</classId> <!-- Dreadnought -->
 		<classId>90</classId> <!-- Phoenix Knight -->
@@ -1096,6 +1126,8 @@
 		<classId>210</classId> <!-- WindSniper -->
 		<classId>211</classId> <!-- StormBlaster -->
 		<classId>220</classId> <!-- Vanguard Rider -->
+		<classId>224</classId> <!-- Assassin (male) -->
+		<classId>228</classId> <!-- Assassin (female) -->
 	</henna>
 	<henna dyeId="346" dyeItemId="96363" dyeName="" patternLevel="9"> <!-- Tattoo of STR <STR+4> (P. Atk. +175) -->
 		<stats str="4" con="0" dex="0" int="0" men="0" wit="0" luc="0" cha="0" />
@@ -1181,6 +1213,8 @@
 		<classId>210</classId> <!-- WindSniper -->
 		<classId>211</classId> <!-- StormBlaster -->
 		<classId>220</classId> <!-- Vanguard Rider -->
+		<classId>224</classId> <!-- Assassin (male) -->
+		<classId>228</classId> <!-- Assassin (female) -->
 		<classId>88</classId> <!-- Duelist -->
 		<classId>89</classId> <!-- Dreadnought -->
 		<classId>90</classId> <!-- Phoenix Knight -->
@@ -1218,6 +1252,8 @@
 		<classId>210</classId> <!-- WindSniper -->
 		<classId>211</classId> <!-- StormBlaster -->
 		<classId>220</classId> <!-- Vanguard Rider -->
+		<classId>224</classId> <!-- Assassin (male) -->
+		<classId>228</classId> <!-- Assassin (female) -->
 	</henna>
 	<henna dyeId="347" dyeItemId="96364" dyeName="" patternLevel="10"> <!-- Tattoo of STR <STR+4> (P. Atk. +200) -->
 		<stats str="4" con="0" dex="0" int="0" men="0" wit="0" luc="0" cha="0" />
@@ -1303,6 +1339,8 @@
 		<classId>210</classId> <!-- WindSniper -->
 		<classId>211</classId> <!-- StormBlaster -->
 		<classId>220</classId> <!-- Vanguard Rider -->
+		<classId>224</classId> <!-- Assassin (male) -->
+		<classId>228</classId> <!-- Assassin (female) -->
 		<classId>88</classId> <!-- Duelist -->
 		<classId>89</classId> <!-- Dreadnought -->
 		<classId>90</classId> <!-- Phoenix Knight -->
@@ -1340,6 +1378,8 @@
 		<classId>210</classId> <!-- WindSniper -->
 		<classId>211</classId> <!-- StormBlaster -->
 		<classId>220</classId> <!-- Vanguard Rider -->
+		<classId>224</classId> <!-- Assassin (male) -->
+		<classId>228</classId> <!-- Assassin (female) -->
 	</henna>
 	<henna dyeId="348" dyeItemId="96365" dyeName="" patternLevel="11"> <!-- Tattoo of STR <STR+5> (P. Atk. +225) -->
 		<stats str="5" con="0" dex="0" int="0" men="0" wit="0" luc="0" cha="0" />
@@ -1425,6 +1465,8 @@
 		<classId>210</classId> <!-- WindSniper -->
 		<classId>211</classId> <!-- StormBlaster -->
 		<classId>220</classId> <!-- Vanguard Rider -->
+		<classId>224</classId> <!-- Assassin (male) -->
+		<classId>228</classId> <!-- Assassin (female) -->
 		<classId>88</classId> <!-- Duelist -->
 		<classId>89</classId> <!-- Dreadnought -->
 		<classId>90</classId> <!-- Phoenix Knight -->
@@ -1462,6 +1504,8 @@
 		<classId>210</classId> <!-- WindSniper -->
 		<classId>211</classId> <!-- StormBlaster -->
 		<classId>220</classId> <!-- Vanguard Rider -->
+		<classId>224</classId> <!-- Assassin (male) -->
+		<classId>228</classId> <!-- Assassin (female) -->
 	</henna>
 	<henna dyeId="349" dyeItemId="96366" dyeName="" patternLevel="12"> <!-- Tattoo of STR <STR+5> (P. Atk. +250) -->
 		<stats str="5" con="0" dex="0" int="0" men="0" wit="0" luc="0" cha="0" />
@@ -1547,6 +1591,8 @@
 		<classId>210</classId> <!-- WindSniper -->
 		<classId>211</classId> <!-- StormBlaster -->
 		<classId>220</classId> <!-- Vanguard Rider -->
+		<classId>224</classId> <!-- Assassin (male) -->
+		<classId>228</classId> <!-- Assassin (female) -->
 		<classId>88</classId> <!-- Duelist -->
 		<classId>89</classId> <!-- Dreadnought -->
 		<classId>90</classId> <!-- Phoenix Knight -->
@@ -1584,6 +1630,8 @@
 		<classId>210</classId> <!-- WindSniper -->
 		<classId>211</classId> <!-- StormBlaster -->
 		<classId>220</classId> <!-- Vanguard Rider -->
+		<classId>224</classId> <!-- Assassin (male) -->
+		<classId>228</classId> <!-- Assassin (female) -->
 	</henna>
 	<henna dyeId="350" dyeItemId="96367" dyeName="" patternLevel="13"> <!-- Tattoo of STR <STR+5> (P. Atk. +275) -->
 		<stats str="5" con="0" dex="0" int="0" men="0" wit="0" luc="0" cha="0" />
@@ -1669,6 +1717,8 @@
 		<classId>210</classId> <!-- WindSniper -->
 		<classId>211</classId> <!-- StormBlaster -->
 		<classId>220</classId> <!-- Vanguard Rider -->
+		<classId>224</classId> <!-- Assassin (male) -->
+		<classId>228</classId> <!-- Assassin (female) -->
 		<classId>88</classId> <!-- Duelist -->
 		<classId>89</classId> <!-- Dreadnought -->
 		<classId>90</classId> <!-- Phoenix Knight -->
@@ -1706,6 +1756,8 @@
 		<classId>210</classId> <!-- WindSniper -->
 		<classId>211</classId> <!-- StormBlaster -->
 		<classId>220</classId> <!-- Vanguard Rider -->
+		<classId>224</classId> <!-- Assassin (male) -->
+		<classId>228</classId> <!-- Assassin (female) -->
 	</henna>
 	<henna dyeId="351" dyeItemId="96368" dyeName="" patternLevel="14"> <!-- Tattoo of STR <STR+5> (P. Atk. +300) -->
 		<stats str="5" con="0" dex="0" int="0" men="0" wit="0" luc="0" cha="0" />
@@ -1791,6 +1843,8 @@
 		<classId>210</classId> <!-- WindSniper -->
 		<classId>211</classId> <!-- StormBlaster -->
 		<classId>220</classId> <!-- Vanguard Rider -->
+		<classId>224</classId> <!-- Assassin (male) -->
+		<classId>228</classId> <!-- Assassin (female) -->
 		<classId>88</classId> <!-- Duelist -->
 		<classId>89</classId> <!-- Dreadnought -->
 		<classId>90</classId> <!-- Phoenix Knight -->
@@ -1828,6 +1882,8 @@
 		<classId>210</classId> <!-- WindSniper -->
 		<classId>211</classId> <!-- StormBlaster -->
 		<classId>220</classId> <!-- Vanguard Rider -->
+		<classId>224</classId> <!-- Assassin (male) -->
+		<classId>228</classId> <!-- Assassin (female) -->
 	</henna>
 	<henna dyeId="352" dyeItemId="96369" dyeName="" patternLevel="15"> <!-- Tattoo of STR <STR+5> (P. Atk. +325) -->
 		<stats str="5" con="0" dex="0" int="0" men="0" wit="0" luc="0" cha="0" />
@@ -1913,6 +1969,8 @@
 		<classId>210</classId> <!-- WindSniper -->
 		<classId>211</classId> <!-- StormBlaster -->
 		<classId>220</classId> <!-- Vanguard Rider -->
+		<classId>224</classId> <!-- Assassin (male) -->
+		<classId>228</classId> <!-- Assassin (female) -->
 		<classId>88</classId> <!-- Duelist -->
 		<classId>89</classId> <!-- Dreadnought -->
 		<classId>90</classId> <!-- Phoenix Knight -->
@@ -1950,6 +2008,8 @@
 		<classId>210</classId> <!-- WindSniper -->
 		<classId>211</classId> <!-- StormBlaster -->
 		<classId>220</classId> <!-- Vanguard Rider -->
+		<classId>224</classId> <!-- Assassin (male) -->
+		<classId>228</classId> <!-- Assassin (female) -->
 	</henna>
 	<henna dyeId="353" dyeItemId="96370" dyeName="" patternLevel="16"> <!-- Tattoo of STR <STR+5> (P. Atk. +350 P. Skill Critical Rate +0.5%) -->
 		<stats str="5" con="0" dex="0" int="0" men="0" wit="0" luc="0" cha="0" />
@@ -2035,6 +2095,8 @@
 		<classId>210</classId> <!-- WindSniper -->
 		<classId>211</classId> <!-- StormBlaster -->
 		<classId>220</classId> <!-- Vanguard Rider -->
+		<classId>224</classId> <!-- Assassin (male) -->
+		<classId>228</classId> <!-- Assassin (female) -->
 		<classId>88</classId> <!-- Duelist -->
 		<classId>89</classId> <!-- Dreadnought -->
 		<classId>90</classId> <!-- Phoenix Knight -->
@@ -2072,6 +2134,8 @@
 		<classId>210</classId> <!-- WindSniper -->
 		<classId>211</classId> <!-- StormBlaster -->
 		<classId>220</classId> <!-- Vanguard Rider -->
+		<classId>224</classId> <!-- Assassin (male) -->
+		<classId>228</classId> <!-- Assassin (female) -->
 	</henna>
 	<henna dyeId="354" dyeItemId="96371" dyeName="" patternLevel="17"> <!-- Tattoo of STR <STR+5> (P. Atk. +375 P. Skill Critical Rate +1%) -->
 		<stats str="5" con="0" dex="0" int="0" men="0" wit="0" luc="0" cha="0" />
@@ -2157,6 +2221,8 @@
 		<classId>210</classId> <!-- WindSniper -->
 		<classId>211</classId> <!-- StormBlaster -->
 		<classId>220</classId> <!-- Vanguard Rider -->
+		<classId>224</classId> <!-- Assassin (male) -->
+		<classId>228</classId> <!-- Assassin (female) -->
 		<classId>88</classId> <!-- Duelist -->
 		<classId>89</classId> <!-- Dreadnought -->
 		<classId>90</classId> <!-- Phoenix Knight -->
@@ -2194,6 +2260,8 @@
 		<classId>210</classId> <!-- WindSniper -->
 		<classId>211</classId> <!-- StormBlaster -->
 		<classId>220</classId> <!-- Vanguard Rider -->
+		<classId>224</classId> <!-- Assassin (male) -->
+		<classId>228</classId> <!-- Assassin (female) -->
 	</henna>
 	<henna dyeId="355" dyeItemId="96372" dyeName="" patternLevel="18"> <!-- Tattoo of STR <STR+5> (P. Atk. +400 P. Skill Critical Rate +1.5%) -->
 		<stats str="5" con="0" dex="0" int="0" men="0" wit="0" luc="0" cha="0" />
@@ -2279,6 +2347,8 @@
 		<classId>210</classId> <!-- WindSniper -->
 		<classId>211</classId> <!-- StormBlaster -->
 		<classId>220</classId> <!-- Vanguard Rider -->
+		<classId>224</classId> <!-- Assassin (male) -->
+		<classId>228</classId> <!-- Assassin (female) -->
 		<classId>88</classId> <!-- Duelist -->
 		<classId>89</classId> <!-- Dreadnought -->
 		<classId>90</classId> <!-- Phoenix Knight -->
@@ -2316,6 +2386,8 @@
 		<classId>210</classId> <!-- WindSniper -->
 		<classId>211</classId> <!-- StormBlaster -->
 		<classId>220</classId> <!-- Vanguard Rider -->
+		<classId>224</classId> <!-- Assassin (male) -->
+		<classId>228</classId> <!-- Assassin (female) -->
 	</henna>
 	<henna dyeId="356" dyeItemId="96373" dyeName="" patternLevel="19"> <!-- Tattoo of STR <STR+5> (P. Atk. +425 P. Skill Critical Rate +2%) -->
 		<stats str="5" con="0" dex="0" int="0" men="0" wit="0" luc="0" cha="0" />
@@ -2408,6 +2480,8 @@
 		<classId>210</classId> <!-- WindSniper -->
 		<classId>211</classId> <!-- StormBlaster -->
 		<classId>220</classId> <!-- Vanguard Rider -->
+		<classId>224</classId> <!-- Assassin (male) -->
+		<classId>228</classId> <!-- Assassin (female) -->
 		<classId>88</classId> <!-- Duelist -->
 		<classId>89</classId> <!-- Dreadnought -->
 		<classId>90</classId> <!-- Phoenix Knight -->
@@ -2445,6 +2519,8 @@
 		<classId>210</classId> <!-- WindSniper -->
 		<classId>211</classId> <!-- StormBlaster -->
 		<classId>220</classId> <!-- Vanguard Rider -->
+		<classId>224</classId> <!-- Assassin (male) -->
+		<classId>228</classId> <!-- Assassin (female) -->
 	</henna>
 	<henna dyeId="358" dyeItemId="96618" dyeName="" patternLevel="0"> <!-- Tattoo of CON <CON+1> () -->
 		<stats str="0" con="1" dex="0" int="0" men="0" wit="0" luc="0" cha="0" />
@@ -2530,6 +2606,8 @@
 		<classId>210</classId> <!-- WindSniper -->
 		<classId>211</classId> <!-- StormBlaster -->
 		<classId>220</classId> <!-- Vanguard Rider -->
+		<classId>224</classId> <!-- Assassin (male) -->
+		<classId>228</classId> <!-- Assassin (female) -->
 		<classId>88</classId> <!-- Duelist -->
 		<classId>89</classId> <!-- Dreadnought -->
 		<classId>90</classId> <!-- Phoenix Knight -->
@@ -2567,6 +2645,8 @@
 		<classId>210</classId> <!-- WindSniper -->
 		<classId>211</classId> <!-- StormBlaster -->
 		<classId>220</classId> <!-- Vanguard Rider -->
+		<classId>224</classId> <!-- Assassin (male) -->
+		<classId>228</classId> <!-- Assassin (female) -->
 	</henna>
 	<henna dyeId="359" dyeItemId="96375" dyeName="" patternLevel="1"> <!-- Tattoo of CON <CON+2> () -->
 		<stats str="0" con="2" dex="0" int="0" men="0" wit="0" luc="0" cha="0" />
@@ -2652,6 +2732,8 @@
 		<classId>210</classId> <!-- WindSniper -->
 		<classId>211</classId> <!-- StormBlaster -->
 		<classId>220</classId> <!-- Vanguard Rider -->
+		<classId>224</classId> <!-- Assassin (male) -->
+		<classId>228</classId> <!-- Assassin (female) -->
 		<classId>88</classId> <!-- Duelist -->
 		<classId>89</classId> <!-- Dreadnought -->
 		<classId>90</classId> <!-- Phoenix Knight -->
@@ -2689,6 +2771,8 @@
 		<classId>210</classId> <!-- WindSniper -->
 		<classId>211</classId> <!-- StormBlaster -->
 		<classId>220</classId> <!-- Vanguard Rider -->
+		<classId>224</classId> <!-- Assassin (male) -->
+		<classId>228</classId> <!-- Assassin (female) -->
 	</henna>
 	<henna dyeId="360" dyeItemId="96376" dyeName="" patternLevel="2"> <!-- Tattoo of CON <CON+3> () -->
 		<stats str="0" con="3" dex="0" int="0" men="0" wit="0" luc="0" cha="0" />
@@ -2774,6 +2858,8 @@
 		<classId>210</classId> <!-- WindSniper -->
 		<classId>211</classId> <!-- StormBlaster -->
 		<classId>220</classId> <!-- Vanguard Rider -->
+		<classId>224</classId> <!-- Assassin (male) -->
+		<classId>228</classId> <!-- Assassin (female) -->
 		<classId>88</classId> <!-- Duelist -->
 		<classId>89</classId> <!-- Dreadnought -->
 		<classId>90</classId> <!-- Phoenix Knight -->
@@ -2811,6 +2897,8 @@
 		<classId>210</classId> <!-- WindSniper -->
 		<classId>211</classId> <!-- StormBlaster -->
 		<classId>220</classId> <!-- Vanguard Rider -->
+		<classId>224</classId> <!-- Assassin (male) -->
+		<classId>228</classId> <!-- Assassin (female) -->
 	</henna>
 	<henna dyeId="361" dyeItemId="96377" dyeName="" patternLevel="3"> <!-- Tattoo of CON <CON+4> (P. Def. +32) -->
 		<stats str="0" con="4" dex="0" int="0" men="0" wit="0" luc="0" cha="0" />
@@ -2896,6 +2984,8 @@
 		<classId>210</classId> <!-- WindSniper -->
 		<classId>211</classId> <!-- StormBlaster -->
 		<classId>220</classId> <!-- Vanguard Rider -->
+		<classId>224</classId> <!-- Assassin (male) -->
+		<classId>228</classId> <!-- Assassin (female) -->
 		<classId>88</classId> <!-- Duelist -->
 		<classId>89</classId> <!-- Dreadnought -->
 		<classId>90</classId> <!-- Phoenix Knight -->
@@ -2933,6 +3023,8 @@
 		<classId>210</classId> <!-- WindSniper -->
 		<classId>211</classId> <!-- StormBlaster -->
 		<classId>220</classId> <!-- Vanguard Rider -->
+		<classId>224</classId> <!-- Assassin (male) -->
+		<classId>228</classId> <!-- Assassin (female) -->
 	</henna>
 	<henna dyeId="362" dyeItemId="96378" dyeName="" patternLevel="4"> <!-- Tattoo of CON <CON+4> (P. Def. +65) -->
 		<stats str="0" con="4" dex="0" int="0" men="0" wit="0" luc="0" cha="0" />
@@ -3018,6 +3110,8 @@
 		<classId>210</classId> <!-- WindSniper -->
 		<classId>211</classId> <!-- StormBlaster -->
 		<classId>220</classId> <!-- Vanguard Rider -->
+		<classId>224</classId> <!-- Assassin (male) -->
+		<classId>228</classId> <!-- Assassin (female) -->
 		<classId>88</classId> <!-- Duelist -->
 		<classId>89</classId> <!-- Dreadnought -->
 		<classId>90</classId> <!-- Phoenix Knight -->
@@ -3055,6 +3149,8 @@
 		<classId>210</classId> <!-- WindSniper -->
 		<classId>211</classId> <!-- StormBlaster -->
 		<classId>220</classId> <!-- Vanguard Rider -->
+		<classId>224</classId> <!-- Assassin (male) -->
+		<classId>228</classId> <!-- Assassin (female) -->
 	</henna>
 	<henna dyeId="363" dyeItemId="96379" dyeName="" patternLevel="5"> <!-- Tattoo of CON <CON+4> (P. Def. +97) -->
 		<stats str="0" con="4" dex="0" int="0" men="0" wit="0" luc="0" cha="0" />
@@ -3140,6 +3236,8 @@
 		<classId>210</classId> <!-- WindSniper -->
 		<classId>211</classId> <!-- StormBlaster -->
 		<classId>220</classId> <!-- Vanguard Rider -->
+		<classId>224</classId> <!-- Assassin (male) -->
+		<classId>228</classId> <!-- Assassin (female) -->
 		<classId>88</classId> <!-- Duelist -->
 		<classId>89</classId> <!-- Dreadnought -->
 		<classId>90</classId> <!-- Phoenix Knight -->
@@ -3177,6 +3275,8 @@
 		<classId>210</classId> <!-- WindSniper -->
 		<classId>211</classId> <!-- StormBlaster -->
 		<classId>220</classId> <!-- Vanguard Rider -->
+		<classId>224</classId> <!-- Assassin (male) -->
+		<classId>228</classId> <!-- Assassin (female) -->
 	</henna>
 	<henna dyeId="364" dyeItemId="96380" dyeName="" patternLevel="6"> <!-- Tattoo of CON <CON+4> (P. Def. +130) -->
 		<stats str="0" con="4" dex="0" int="0" men="0" wit="0" luc="0" cha="0" />
@@ -3262,6 +3362,8 @@
 		<classId>210</classId> <!-- WindSniper -->
 		<classId>211</classId> <!-- StormBlaster -->
 		<classId>220</classId> <!-- Vanguard Rider -->
+		<classId>224</classId> <!-- Assassin (male) -->
+		<classId>228</classId> <!-- Assassin (female) -->
 		<classId>88</classId> <!-- Duelist -->
 		<classId>89</classId> <!-- Dreadnought -->
 		<classId>90</classId> <!-- Phoenix Knight -->
@@ -3299,6 +3401,8 @@
 		<classId>210</classId> <!-- WindSniper -->
 		<classId>211</classId> <!-- StormBlaster -->
 		<classId>220</classId> <!-- Vanguard Rider -->
+		<classId>224</classId> <!-- Assassin (male) -->
+		<classId>228</classId> <!-- Assassin (female) -->
 	</henna>
 	<henna dyeId="365" dyeItemId="96381" dyeName="" patternLevel="7"> <!-- Tattoo of CON <CON+4> (P. Def. +162) -->
 		<stats str="0" con="4" dex="0" int="0" men="0" wit="0" luc="0" cha="0" />
@@ -3384,6 +3488,8 @@
 		<classId>210</classId> <!-- WindSniper -->
 		<classId>211</classId> <!-- StormBlaster -->
 		<classId>220</classId> <!-- Vanguard Rider -->
+		<classId>224</classId> <!-- Assassin (male) -->
+		<classId>228</classId> <!-- Assassin (female) -->
 		<classId>88</classId> <!-- Duelist -->
 		<classId>89</classId> <!-- Dreadnought -->
 		<classId>90</classId> <!-- Phoenix Knight -->
@@ -3421,6 +3527,8 @@
 		<classId>210</classId> <!-- WindSniper -->
 		<classId>211</classId> <!-- StormBlaster -->
 		<classId>220</classId> <!-- Vanguard Rider -->
+		<classId>224</classId> <!-- Assassin (male) -->
+		<classId>228</classId> <!-- Assassin (female) -->
 	</henna>
 	<henna dyeId="366" dyeItemId="96382" dyeName="" patternLevel="8"> <!-- Tattoo of CON <CON+4> (P. Def. +195) -->
 		<stats str="0" con="4" dex="0" int="0" men="0" wit="0" luc="0" cha="0" />
@@ -3506,6 +3614,8 @@
 		<classId>210</classId> <!-- WindSniper -->
 		<classId>211</classId> <!-- StormBlaster -->
 		<classId>220</classId> <!-- Vanguard Rider -->
+		<classId>224</classId> <!-- Assassin (male) -->
+		<classId>228</classId> <!-- Assassin (female) -->
 		<classId>88</classId> <!-- Duelist -->
 		<classId>89</classId> <!-- Dreadnought -->
 		<classId>90</classId> <!-- Phoenix Knight -->
@@ -3543,6 +3653,8 @@
 		<classId>210</classId> <!-- WindSniper -->
 		<classId>211</classId> <!-- StormBlaster -->
 		<classId>220</classId> <!-- Vanguard Rider -->
+		<classId>224</classId> <!-- Assassin (male) -->
+		<classId>228</classId> <!-- Assassin (female) -->
 	</henna>
 	<henna dyeId="367" dyeItemId="96383" dyeName="" patternLevel="9"> <!-- Tattoo of CON <CON+4> (P. Def. +227) -->
 		<stats str="0" con="4" dex="0" int="0" men="0" wit="0" luc="0" cha="0" />
@@ -3628,6 +3740,8 @@
 		<classId>210</classId> <!-- WindSniper -->
 		<classId>211</classId> <!-- StormBlaster -->
 		<classId>220</classId> <!-- Vanguard Rider -->
+		<classId>224</classId> <!-- Assassin (male) -->
+		<classId>228</classId> <!-- Assassin (female) -->
 		<classId>88</classId> <!-- Duelist -->
 		<classId>89</classId> <!-- Dreadnought -->
 		<classId>90</classId> <!-- Phoenix Knight -->
@@ -3665,6 +3779,8 @@
 		<classId>210</classId> <!-- WindSniper -->
 		<classId>211</classId> <!-- StormBlaster -->
 		<classId>220</classId> <!-- Vanguard Rider -->
+		<classId>224</classId> <!-- Assassin (male) -->
+		<classId>228</classId> <!-- Assassin (female) -->
 	</henna>
 	<henna dyeId="368" dyeItemId="96384" dyeName="" patternLevel="10"> <!-- Tattoo of CON <CON+4> (P. Def. +260) -->
 		<stats str="0" con="4" dex="0" int="0" men="0" wit="0" luc="0" cha="0" />
@@ -3750,6 +3866,8 @@
 		<classId>210</classId> <!-- WindSniper -->
 		<classId>211</classId> <!-- StormBlaster -->
 		<classId>220</classId> <!-- Vanguard Rider -->
+		<classId>224</classId> <!-- Assassin (male) -->
+		<classId>228</classId> <!-- Assassin (female) -->
 		<classId>88</classId> <!-- Duelist -->
 		<classId>89</classId> <!-- Dreadnought -->
 		<classId>90</classId> <!-- Phoenix Knight -->
@@ -3787,6 +3905,8 @@
 		<classId>210</classId> <!-- WindSniper -->
 		<classId>211</classId> <!-- StormBlaster -->
 		<classId>220</classId> <!-- Vanguard Rider -->
+		<classId>224</classId> <!-- Assassin (male) -->
+		<classId>228</classId> <!-- Assassin (female) -->
 	</henna>
 	<henna dyeId="369" dyeItemId="96385" dyeName="" patternLevel="11"> <!-- Tattoo of CON <CON+5> (P. Def. +292) -->
 		<stats str="0" con="5" dex="0" int="0" men="0" wit="0" luc="0" cha="0" />
@@ -3872,6 +3992,8 @@
 		<classId>210</classId> <!-- WindSniper -->
 		<classId>211</classId> <!-- StormBlaster -->
 		<classId>220</classId> <!-- Vanguard Rider -->
+		<classId>224</classId> <!-- Assassin (male) -->
+		<classId>228</classId> <!-- Assassin (female) -->
 		<classId>88</classId> <!-- Duelist -->
 		<classId>89</classId> <!-- Dreadnought -->
 		<classId>90</classId> <!-- Phoenix Knight -->
@@ -3909,6 +4031,8 @@
 		<classId>210</classId> <!-- WindSniper -->
 		<classId>211</classId> <!-- StormBlaster -->
 		<classId>220</classId> <!-- Vanguard Rider -->
+		<classId>224</classId> <!-- Assassin (male) -->
+		<classId>228</classId> <!-- Assassin (female) -->
 	</henna>
 	<henna dyeId="370" dyeItemId="96386" dyeName="" patternLevel="12"> <!-- Tattoo of CON <CON+5> (P. Def. +325) -->
 		<stats str="0" con="5" dex="0" int="0" men="0" wit="0" luc="0" cha="0" />
@@ -3994,6 +4118,8 @@
 		<classId>210</classId> <!-- WindSniper -->
 		<classId>211</classId> <!-- StormBlaster -->
 		<classId>220</classId> <!-- Vanguard Rider -->
+		<classId>224</classId> <!-- Assassin (male) -->
+		<classId>228</classId> <!-- Assassin (female) -->
 		<classId>88</classId> <!-- Duelist -->
 		<classId>89</classId> <!-- Dreadnought -->
 		<classId>90</classId> <!-- Phoenix Knight -->
@@ -4031,6 +4157,8 @@
 		<classId>210</classId> <!-- WindSniper -->
 		<classId>211</classId> <!-- StormBlaster -->
 		<classId>220</classId> <!-- Vanguard Rider -->
+		<classId>224</classId> <!-- Assassin (male) -->
+		<classId>228</classId> <!-- Assassin (female) -->
 	</henna>
 	<henna dyeId="371" dyeItemId="96387" dyeName="" patternLevel="13"> <!-- Tattoo of CON <CON+5> (P. Def. +357) -->
 		<stats str="0" con="5" dex="0" int="0" men="0" wit="0" luc="0" cha="0" />
@@ -4116,6 +4244,8 @@
 		<classId>210</classId> <!-- WindSniper -->
 		<classId>211</classId> <!-- StormBlaster -->
 		<classId>220</classId> <!-- Vanguard Rider -->
+		<classId>224</classId> <!-- Assassin (male) -->
+		<classId>228</classId> <!-- Assassin (female) -->
 		<classId>88</classId> <!-- Duelist -->
 		<classId>89</classId> <!-- Dreadnought -->
 		<classId>90</classId> <!-- Phoenix Knight -->
@@ -4153,6 +4283,8 @@
 		<classId>210</classId> <!-- WindSniper -->
 		<classId>211</classId> <!-- StormBlaster -->
 		<classId>220</classId> <!-- Vanguard Rider -->
+		<classId>224</classId> <!-- Assassin (male) -->
+		<classId>228</classId> <!-- Assassin (female) -->
 	</henna>
 	<henna dyeId="372" dyeItemId="96388" dyeName="" patternLevel="14"> <!-- Tattoo of CON <CON+5> (P. Def. +390) -->
 		<stats str="0" con="5" dex="0" int="0" men="0" wit="0" luc="0" cha="0" />
@@ -4238,6 +4370,8 @@
 		<classId>210</classId> <!-- WindSniper -->
 		<classId>211</classId> <!-- StormBlaster -->
 		<classId>220</classId> <!-- Vanguard Rider -->
+		<classId>224</classId> <!-- Assassin (male) -->
+		<classId>228</classId> <!-- Assassin (female) -->
 		<classId>88</classId> <!-- Duelist -->
 		<classId>89</classId> <!-- Dreadnought -->
 		<classId>90</classId> <!-- Phoenix Knight -->
@@ -4275,6 +4409,8 @@
 		<classId>210</classId> <!-- WindSniper -->
 		<classId>211</classId> <!-- StormBlaster -->
 		<classId>220</classId> <!-- Vanguard Rider -->
+		<classId>224</classId> <!-- Assassin (male) -->
+		<classId>228</classId> <!-- Assassin (female) -->
 	</henna>
 	<henna dyeId="373" dyeItemId="96389" dyeName="" patternLevel="15"> <!-- Tattoo of CON <CON+5> (P. Def. +422) -->
 		<stats str="0" con="5" dex="0" int="0" men="0" wit="0" luc="0" cha="0" />
@@ -4360,6 +4496,8 @@
 		<classId>210</classId> <!-- WindSniper -->
 		<classId>211</classId> <!-- StormBlaster -->
 		<classId>220</classId> <!-- Vanguard Rider -->
+		<classId>224</classId> <!-- Assassin (male) -->
+		<classId>228</classId> <!-- Assassin (female) -->
 		<classId>88</classId> <!-- Duelist -->
 		<classId>89</classId> <!-- Dreadnought -->
 		<classId>90</classId> <!-- Phoenix Knight -->
@@ -4397,6 +4535,8 @@
 		<classId>210</classId> <!-- WindSniper -->
 		<classId>211</classId> <!-- StormBlaster -->
 		<classId>220</classId> <!-- Vanguard Rider -->
+		<classId>224</classId> <!-- Assassin (male) -->
+		<classId>228</classId> <!-- Assassin (female) -->
 	</henna>
 	<henna dyeId="374" dyeItemId="96390" dyeName="" patternLevel="16"> <!-- Tattoo of CON <CON+5> (P. Def. +455 P. Skill Damage Received -1%) -->
 		<stats str="0" con="5" dex="0" int="0" men="0" wit="0" luc="0" cha="0" />
@@ -4482,6 +4622,8 @@
 		<classId>210</classId> <!-- WindSniper -->
 		<classId>211</classId> <!-- StormBlaster -->
 		<classId>220</classId> <!-- Vanguard Rider -->
+		<classId>224</classId> <!-- Assassin (male) -->
+		<classId>228</classId> <!-- Assassin (female) -->
 		<classId>88</classId> <!-- Duelist -->
 		<classId>89</classId> <!-- Dreadnought -->
 		<classId>90</classId> <!-- Phoenix Knight -->
@@ -4519,6 +4661,8 @@
 		<classId>210</classId> <!-- WindSniper -->
 		<classId>211</classId> <!-- StormBlaster -->
 		<classId>220</classId> <!-- Vanguard Rider -->
+		<classId>224</classId> <!-- Assassin (male) -->
+		<classId>228</classId> <!-- Assassin (female) -->
 	</henna>
 	<henna dyeId="375" dyeItemId="96391" dyeName="" patternLevel="17"> <!-- Tattoo of CON <CON+5> (P. Def. +487 P. Skill Damage Received -1.5%) -->
 		<stats str="0" con="5" dex="0" int="0" men="0" wit="0" luc="0" cha="0" />
@@ -4604,6 +4748,8 @@
 		<classId>210</classId> <!-- WindSniper -->
 		<classId>211</classId> <!-- StormBlaster -->
 		<classId>220</classId> <!-- Vanguard Rider -->
+		<classId>224</classId> <!-- Assassin (male) -->
+		<classId>228</classId> <!-- Assassin (female) -->
 		<classId>88</classId> <!-- Duelist -->
 		<classId>89</classId> <!-- Dreadnought -->
 		<classId>90</classId> <!-- Phoenix Knight -->
@@ -4641,6 +4787,8 @@
 		<classId>210</classId> <!-- WindSniper -->
 		<classId>211</classId> <!-- StormBlaster -->
 		<classId>220</classId> <!-- Vanguard Rider -->
+		<classId>224</classId> <!-- Assassin (male) -->
+		<classId>228</classId> <!-- Assassin (female) -->
 	</henna>
 	<henna dyeId="376" dyeItemId="96392" dyeName="" patternLevel="18"> <!-- Tattoo of CON <CON+5> (P. Def. +520 P. Skill Damage Received -2%) -->
 		<stats str="0" con="5" dex="0" int="0" men="0" wit="0" luc="0" cha="0" />
@@ -4726,6 +4874,8 @@
 		<classId>210</classId> <!-- WindSniper -->
 		<classId>211</classId> <!-- StormBlaster -->
 		<classId>220</classId> <!-- Vanguard Rider -->
+		<classId>224</classId> <!-- Assassin (male) -->
+		<classId>228</classId> <!-- Assassin (female) -->
 		<classId>88</classId> <!-- Duelist -->
 		<classId>89</classId> <!-- Dreadnought -->
 		<classId>90</classId> <!-- Phoenix Knight -->
@@ -4763,6 +4913,8 @@
 		<classId>210</classId> <!-- WindSniper -->
 		<classId>211</classId> <!-- StormBlaster -->
 		<classId>220</classId> <!-- Vanguard Rider -->
+		<classId>224</classId> <!-- Assassin (male) -->
+		<classId>228</classId> <!-- Assassin (female) -->
 	</henna>
 	<henna dyeId="377" dyeItemId="96393" dyeName="" patternLevel="19"> <!-- Tattoo of CON <CON+5> (P. Def. +552 P. Skill Damage Received -3%) -->
 		<stats str="0" con="5" dex="0" int="0" men="0" wit="0" luc="0" cha="0" />
@@ -4848,6 +5000,8 @@
 		<classId>210</classId> <!-- WindSniper -->
 		<classId>211</classId> <!-- StormBlaster -->
 		<classId>220</classId> <!-- Vanguard Rider -->
+		<classId>224</classId> <!-- Assassin (male) -->
+		<classId>228</classId> <!-- Assassin (female) -->
 		<classId>88</classId> <!-- Duelist -->
 		<classId>89</classId> <!-- Dreadnought -->
 		<classId>90</classId> <!-- Phoenix Knight -->
@@ -4885,6 +5039,8 @@
 		<classId>210</classId> <!-- WindSniper -->
 		<classId>211</classId> <!-- StormBlaster -->
 		<classId>220</classId> <!-- Vanguard Rider -->
+		<classId>224</classId> <!-- Assassin (male) -->
+		<classId>228</classId> <!-- Assassin (female) -->
 	</henna>
 	<henna dyeId="378" dyeItemId="96394" dyeName="" patternLevel="20"> <!-- Tattoo of CON <CON+5> (P. Def. +585 P. Skill Damage Received -5%) -->
 		<stats str="0" con="5" dex="0" int="0" men="0" wit="0" luc="0" cha="0" />
@@ -4970,6 +5126,8 @@
 		<classId>210</classId> <!-- WindSniper -->
 		<classId>211</classId> <!-- StormBlaster -->
 		<classId>220</classId> <!-- Vanguard Rider -->
+		<classId>224</classId> <!-- Assassin (male) -->
+		<classId>228</classId> <!-- Assassin (female) -->
 		<classId>88</classId> <!-- Duelist -->
 		<classId>89</classId> <!-- Dreadnought -->
 		<classId>90</classId> <!-- Phoenix Knight -->
@@ -5007,6 +5165,8 @@
 		<classId>210</classId> <!-- WindSniper -->
 		<classId>211</classId> <!-- StormBlaster -->
 		<classId>220</classId> <!-- Vanguard Rider -->
+		<classId>224</classId> <!-- Assassin (male) -->
+		<classId>228</classId> <!-- Assassin (female) -->
 	</henna>
 	<henna dyeId="379" dyeItemId="96619" dyeName="" patternLevel="0"> <!-- Tattoo of DEX <DEX+1> () -->
 		<stats str="0" con="0" dex="1" int="0" men="0" wit="0" luc="0" cha="0" />
@@ -5092,6 +5252,8 @@
 		<classId>210</classId> <!-- WindSniper -->
 		<classId>211</classId> <!-- StormBlaster -->
 		<classId>220</classId> <!-- Vanguard Rider -->
+		<classId>224</classId> <!-- Assassin (male) -->
+		<classId>228</classId> <!-- Assassin (female) -->
 		<classId>88</classId> <!-- Duelist -->
 		<classId>89</classId> <!-- Dreadnought -->
 		<classId>90</classId> <!-- Phoenix Knight -->
@@ -5129,6 +5291,8 @@
 		<classId>210</classId> <!-- WindSniper -->
 		<classId>211</classId> <!-- StormBlaster -->
 		<classId>220</classId> <!-- Vanguard Rider -->
+		<classId>224</classId> <!-- Assassin (male) -->
+		<classId>228</classId> <!-- Assassin (female) -->
 	</henna>
 	<henna dyeId="380" dyeItemId="96395" dyeName="" patternLevel="1"> <!-- Tattoo of DEX <DEX+2> () -->
 		<stats str="0" con="0" dex="2" int="0" men="0" wit="0" luc="0" cha="0" />
@@ -5214,6 +5378,8 @@
 		<classId>210</classId> <!-- WindSniper -->
 		<classId>211</classId> <!-- StormBlaster -->
 		<classId>220</classId> <!-- Vanguard Rider -->
+		<classId>224</classId> <!-- Assassin (male) -->
+		<classId>228</classId> <!-- Assassin (female) -->
 		<classId>88</classId> <!-- Duelist -->
 		<classId>89</classId> <!-- Dreadnought -->
 		<classId>90</classId> <!-- Phoenix Knight -->
@@ -5251,6 +5417,8 @@
 		<classId>210</classId> <!-- WindSniper -->
 		<classId>211</classId> <!-- StormBlaster -->
 		<classId>220</classId> <!-- Vanguard Rider -->
+		<classId>224</classId> <!-- Assassin (male) -->
+		<classId>228</classId> <!-- Assassin (female) -->
 	</henna>
 	<henna dyeId="381" dyeItemId="96396" dyeName="" patternLevel="2"> <!-- Tattoo of DEX <DEX+3> () -->
 		<stats str="0" con="0" dex="3" int="0" men="0" wit="0" luc="0" cha="0" />
@@ -5336,6 +5504,8 @@
 		<classId>210</classId> <!-- WindSniper -->
 		<classId>211</classId> <!-- StormBlaster -->
 		<classId>220</classId> <!-- Vanguard Rider -->
+		<classId>224</classId> <!-- Assassin (male) -->
+		<classId>228</classId> <!-- Assassin (female) -->
 		<classId>88</classId> <!-- Duelist -->
 		<classId>89</classId> <!-- Dreadnought -->
 		<classId>90</classId> <!-- Phoenix Knight -->
@@ -5373,6 +5543,8 @@
 		<classId>210</classId> <!-- WindSniper -->
 		<classId>211</classId> <!-- StormBlaster -->
 		<classId>220</classId> <!-- Vanguard Rider -->
+		<classId>224</classId> <!-- Assassin (male) -->
+		<classId>228</classId> <!-- Assassin (female) -->
 	</henna>
 	<henna dyeId="382" dyeItemId="96397" dyeName="" patternLevel="3"> <!-- Tattoo of DEX <DEX+4> (P. Skill Critical Rate Received -0.4%) -->
 		<stats str="0" con="0" dex="4" int="0" men="0" wit="0" luc="0" cha="0" />
@@ -5458,6 +5630,8 @@
 		<classId>210</classId> <!-- WindSniper -->
 		<classId>211</classId> <!-- StormBlaster -->
 		<classId>220</classId> <!-- Vanguard Rider -->
+		<classId>224</classId> <!-- Assassin (male) -->
+		<classId>228</classId> <!-- Assassin (female) -->
 		<classId>88</classId> <!-- Duelist -->
 		<classId>89</classId> <!-- Dreadnought -->
 		<classId>90</classId> <!-- Phoenix Knight -->
@@ -5495,6 +5669,8 @@
 		<classId>210</classId> <!-- WindSniper -->
 		<classId>211</classId> <!-- StormBlaster -->
 		<classId>220</classId> <!-- Vanguard Rider -->
+		<classId>224</classId> <!-- Assassin (male) -->
+		<classId>228</classId> <!-- Assassin (female) -->
 	</henna>
 	<henna dyeId="383" dyeItemId="96398" dyeName="" patternLevel="4"> <!-- Tattoo of DEX <DEX+4> (P. Skill Critical Rate Received -0.8%) -->
 		<stats str="0" con="0" dex="4" int="0" men="0" wit="0" luc="0" cha="0" />
@@ -5580,6 +5756,8 @@
 		<classId>210</classId> <!-- WindSniper -->
 		<classId>211</classId> <!-- StormBlaster -->
 		<classId>220</classId> <!-- Vanguard Rider -->
+		<classId>224</classId> <!-- Assassin (male) -->
+		<classId>228</classId> <!-- Assassin (female) -->
 		<classId>88</classId> <!-- Duelist -->
 		<classId>89</classId> <!-- Dreadnought -->
 		<classId>90</classId> <!-- Phoenix Knight -->
@@ -5617,6 +5795,8 @@
 		<classId>210</classId> <!-- WindSniper -->
 		<classId>211</classId> <!-- StormBlaster -->
 		<classId>220</classId> <!-- Vanguard Rider -->
+		<classId>224</classId> <!-- Assassin (male) -->
+		<classId>228</classId> <!-- Assassin (female) -->
 	</henna>
 	<henna dyeId="384" dyeItemId="96399" dyeName="" patternLevel="5"> <!-- Tattoo of DEX <DEX+4> (P. Skill Critical Rate Received -1.2%) -->
 		<stats str="0" con="0" dex="4" int="0" men="0" wit="0" luc="0" cha="0" />
@@ -5702,6 +5882,8 @@
 		<classId>210</classId> <!-- WindSniper -->
 		<classId>211</classId> <!-- StormBlaster -->
 		<classId>220</classId> <!-- Vanguard Rider -->
+		<classId>224</classId> <!-- Assassin (male) -->
+		<classId>228</classId> <!-- Assassin (female) -->
 		<classId>88</classId> <!-- Duelist -->
 		<classId>89</classId> <!-- Dreadnought -->
 		<classId>90</classId> <!-- Phoenix Knight -->
@@ -5739,6 +5921,8 @@
 		<classId>210</classId> <!-- WindSniper -->
 		<classId>211</classId> <!-- StormBlaster -->
 		<classId>220</classId> <!-- Vanguard Rider -->
+		<classId>224</classId> <!-- Assassin (male) -->
+		<classId>228</classId> <!-- Assassin (female) -->
 	</henna>
 	<henna dyeId="385" dyeItemId="96400" dyeName="" patternLevel="6"> <!-- Tattoo of DEX <DEX+4> (P. Skill Critical Rate Received -1.6%) -->
 		<stats str="0" con="0" dex="4" int="0" men="0" wit="0" luc="0" cha="0" />
@@ -5824,6 +6008,8 @@
 		<classId>210</classId> <!-- WindSniper -->
 		<classId>211</classId> <!-- StormBlaster -->
 		<classId>220</classId> <!-- Vanguard Rider -->
+		<classId>224</classId> <!-- Assassin (male) -->
+		<classId>228</classId> <!-- Assassin (female) -->
 		<classId>88</classId> <!-- Duelist -->
 		<classId>89</classId> <!-- Dreadnought -->
 		<classId>90</classId> <!-- Phoenix Knight -->
@@ -5861,6 +6047,8 @@
 		<classId>210</classId> <!-- WindSniper -->
 		<classId>211</classId> <!-- StormBlaster -->
 		<classId>220</classId> <!-- Vanguard Rider -->
+		<classId>224</classId> <!-- Assassin (male) -->
+		<classId>228</classId> <!-- Assassin (female) -->
 	</henna>
 	<henna dyeId="386" dyeItemId="96401" dyeName="" patternLevel="7"> <!-- Tattoo of DEX <DEX+4> (P. Skill Critical Rate Received -2.0%) -->
 		<stats str="0" con="0" dex="4" int="0" men="0" wit="0" luc="0" cha="0" />
@@ -5946,6 +6134,8 @@
 		<classId>210</classId> <!-- WindSniper -->
 		<classId>211</classId> <!-- StormBlaster -->
 		<classId>220</classId> <!-- Vanguard Rider -->
+		<classId>224</classId> <!-- Assassin (male) -->
+		<classId>228</classId> <!-- Assassin (female) -->
 		<classId>88</classId> <!-- Duelist -->
 		<classId>89</classId> <!-- Dreadnought -->
 		<classId>90</classId> <!-- Phoenix Knight -->
@@ -5983,6 +6173,8 @@
 		<classId>210</classId> <!-- WindSniper -->
 		<classId>211</classId> <!-- StormBlaster -->
 		<classId>220</classId> <!-- Vanguard Rider -->
+		<classId>224</classId> <!-- Assassin (male) -->
+		<classId>228</classId> <!-- Assassin (female) -->
 	</henna>
 	<henna dyeId="387" dyeItemId="96402" dyeName="" patternLevel="8"> <!-- Tattoo of DEX <DEX+4> (P. Skill Critical Rate Received -2.4%) -->
 		<stats str="0" con="0" dex="4" int="0" men="0" wit="0" luc="0" cha="0" />
@@ -6068,6 +6260,8 @@
 		<classId>210</classId> <!-- WindSniper -->
 		<classId>211</classId> <!-- StormBlaster -->
 		<classId>220</classId> <!-- Vanguard Rider -->
+		<classId>224</classId> <!-- Assassin (male) -->
+		<classId>228</classId> <!-- Assassin (female) -->
 		<classId>88</classId> <!-- Duelist -->
 		<classId>89</classId> <!-- Dreadnought -->
 		<classId>90</classId> <!-- Phoenix Knight -->
@@ -6105,6 +6299,8 @@
 		<classId>210</classId> <!-- WindSniper -->
 		<classId>211</classId> <!-- StormBlaster -->
 		<classId>220</classId> <!-- Vanguard Rider -->
+		<classId>224</classId> <!-- Assassin (male) -->
+		<classId>228</classId> <!-- Assassin (female) -->
 	</henna>
 	<henna dyeId="388" dyeItemId="96403" dyeName="" patternLevel="9"> <!-- Tattoo of DEX <DEX+4> (P. Skill Critical Rate Received -2.8%) -->
 		<stats str="0" con="0" dex="4" int="0" men="0" wit="0" luc="0" cha="0" />
@@ -6190,6 +6386,8 @@
 		<classId>210</classId> <!-- WindSniper -->
 		<classId>211</classId> <!-- StormBlaster -->
 		<classId>220</classId> <!-- Vanguard Rider -->
+		<classId>224</classId> <!-- Assassin (male) -->
+		<classId>228</classId> <!-- Assassin (female) -->
 		<classId>88</classId> <!-- Duelist -->
 		<classId>89</classId> <!-- Dreadnought -->
 		<classId>90</classId> <!-- Phoenix Knight -->
@@ -6227,6 +6425,8 @@
 		<classId>210</classId> <!-- WindSniper -->
 		<classId>211</classId> <!-- StormBlaster -->
 		<classId>220</classId> <!-- Vanguard Rider -->
+		<classId>224</classId> <!-- Assassin (male) -->
+		<classId>228</classId> <!-- Assassin (female) -->
 	</henna>
 	<henna dyeId="389" dyeItemId="96404" dyeName="" patternLevel="10"> <!-- Tattoo of DEX <DEX+4> (P. Skill Critical Rate Received -3.2%) -->
 		<stats str="0" con="0" dex="4" int="0" men="0" wit="0" luc="0" cha="0" />
@@ -6312,6 +6512,8 @@
 		<classId>210</classId> <!-- WindSniper -->
 		<classId>211</classId> <!-- StormBlaster -->
 		<classId>220</classId> <!-- Vanguard Rider -->
+		<classId>224</classId> <!-- Assassin (male) -->
+		<classId>228</classId> <!-- Assassin (female) -->
 		<classId>88</classId> <!-- Duelist -->
 		<classId>89</classId> <!-- Dreadnought -->
 		<classId>90</classId> <!-- Phoenix Knight -->
@@ -6349,6 +6551,8 @@
 		<classId>210</classId> <!-- WindSniper -->
 		<classId>211</classId> <!-- StormBlaster -->
 		<classId>220</classId> <!-- Vanguard Rider -->
+		<classId>224</classId> <!-- Assassin (male) -->
+		<classId>228</classId> <!-- Assassin (female) -->
 	</henna>
 	<henna dyeId="390" dyeItemId="96405" dyeName="" patternLevel="11"> <!-- Tattoo of DEX <DEX+5> (P. Skill Critical Rate Received -3.6%) -->
 		<stats str="0" con="0" dex="5" int="0" men="0" wit="0" luc="0" cha="0" />
@@ -6434,6 +6638,8 @@
 		<classId>210</classId> <!-- WindSniper -->
 		<classId>211</classId> <!-- StormBlaster -->
 		<classId>220</classId> <!-- Vanguard Rider -->
+		<classId>224</classId> <!-- Assassin (male) -->
+		<classId>228</classId> <!-- Assassin (female) -->
 		<classId>88</classId> <!-- Duelist -->
 		<classId>89</classId> <!-- Dreadnought -->
 		<classId>90</classId> <!-- Phoenix Knight -->
@@ -6471,6 +6677,8 @@
 		<classId>210</classId> <!-- WindSniper -->
 		<classId>211</classId> <!-- StormBlaster -->
 		<classId>220</classId> <!-- Vanguard Rider -->
+		<classId>224</classId> <!-- Assassin (male) -->
+		<classId>228</classId> <!-- Assassin (female) -->
 	</henna>
 	<henna dyeId="391" dyeItemId="96406" dyeName="" patternLevel="12"> <!-- Tattoo of DEX <DEX+5> (P. Skill Critical Rate Received -4.0%) -->
 		<stats str="0" con="0" dex="5" int="0" men="0" wit="0" luc="0" cha="0" />
@@ -6556,6 +6764,8 @@
 		<classId>210</classId> <!-- WindSniper -->
 		<classId>211</classId> <!-- StormBlaster -->
 		<classId>220</classId> <!-- Vanguard Rider -->
+		<classId>224</classId> <!-- Assassin (male) -->
+		<classId>228</classId> <!-- Assassin (female) -->
 		<classId>88</classId> <!-- Duelist -->
 		<classId>89</classId> <!-- Dreadnought -->
 		<classId>90</classId> <!-- Phoenix Knight -->
@@ -6593,6 +6803,8 @@
 		<classId>210</classId> <!-- WindSniper -->
 		<classId>211</classId> <!-- StormBlaster -->
 		<classId>220</classId> <!-- Vanguard Rider -->
+		<classId>224</classId> <!-- Assassin (male) -->
+		<classId>228</classId> <!-- Assassin (female) -->
 	</henna>
 	<henna dyeId="392" dyeItemId="96407" dyeName="" patternLevel="13"> <!-- Tattoo of DEX <DEX+5> (P. Skill Critical Rate Received -4.4%) -->
 		<stats str="0" con="0" dex="5" int="0" men="0" wit="0" luc="0" cha="0" />
@@ -6678,6 +6890,8 @@
 		<classId>210</classId> <!-- WindSniper -->
 		<classId>211</classId> <!-- StormBlaster -->
 		<classId>220</classId> <!-- Vanguard Rider -->
+		<classId>224</classId> <!-- Assassin (male) -->
+		<classId>228</classId> <!-- Assassin (female) -->
 		<classId>88</classId> <!-- Duelist -->
 		<classId>89</classId> <!-- Dreadnought -->
 		<classId>90</classId> <!-- Phoenix Knight -->
@@ -6715,6 +6929,8 @@
 		<classId>210</classId> <!-- WindSniper -->
 		<classId>211</classId> <!-- StormBlaster -->
 		<classId>220</classId> <!-- Vanguard Rider -->
+		<classId>224</classId> <!-- Assassin (male) -->
+		<classId>228</classId> <!-- Assassin (female) -->
 	</henna>
 	<henna dyeId="393" dyeItemId="96408" dyeName="" patternLevel="14"> <!-- Tattoo of DEX <DEX+5> (P. Skill Critical Rate Received -4.8%) -->
 		<stats str="0" con="0" dex="5" int="0" men="0" wit="0" luc="0" cha="0" />
@@ -6800,6 +7016,8 @@
 		<classId>210</classId> <!-- WindSniper -->
 		<classId>211</classId> <!-- StormBlaster -->
 		<classId>220</classId> <!-- Vanguard Rider -->
+		<classId>224</classId> <!-- Assassin (male) -->
+		<classId>228</classId> <!-- Assassin (female) -->
 		<classId>88</classId> <!-- Duelist -->
 		<classId>89</classId> <!-- Dreadnought -->
 		<classId>90</classId> <!-- Phoenix Knight -->
@@ -6837,6 +7055,8 @@
 		<classId>210</classId> <!-- WindSniper -->
 		<classId>211</classId> <!-- StormBlaster -->
 		<classId>220</classId> <!-- Vanguard Rider -->
+		<classId>224</classId> <!-- Assassin (male) -->
+		<classId>228</classId> <!-- Assassin (female) -->
 	</henna>
 	<henna dyeId="394" dyeItemId="96409" dyeName="" patternLevel="15"> <!-- Tattoo of DEX <DEX+5> (P. Skill Critical Rate Received -5.2%) -->
 		<stats str="0" con="0" dex="5" int="0" men="0" wit="0" luc="0" cha="0" />
@@ -6922,6 +7142,8 @@
 		<classId>210</classId> <!-- WindSniper -->
 		<classId>211</classId> <!-- StormBlaster -->
 		<classId>220</classId> <!-- Vanguard Rider -->
+		<classId>224</classId> <!-- Assassin (male) -->
+		<classId>228</classId> <!-- Assassin (female) -->
 		<classId>88</classId> <!-- Duelist -->
 		<classId>89</classId> <!-- Dreadnought -->
 		<classId>90</classId> <!-- Phoenix Knight -->
@@ -6959,6 +7181,8 @@
 		<classId>210</classId> <!-- WindSniper -->
 		<classId>211</classId> <!-- StormBlaster -->
 		<classId>220</classId> <!-- Vanguard Rider -->
+		<classId>224</classId> <!-- Assassin (male) -->
+		<classId>228</classId> <!-- Assassin (female) -->
 	</henna>
 	<henna dyeId="395" dyeItemId="96410" dyeName="" patternLevel="16"> <!-- Tattoo of DEX <DEX+5> (P. Skill Critical Rate Received -5.6% Soulshot Damage +1%) -->
 		<stats str="0" con="0" dex="5" int="0" men="0" wit="0" luc="0" cha="0" />
@@ -7044,6 +7268,8 @@
 		<classId>210</classId> <!-- WindSniper -->
 		<classId>211</classId> <!-- StormBlaster -->
 		<classId>220</classId> <!-- Vanguard Rider -->
+		<classId>224</classId> <!-- Assassin (male) -->
+		<classId>228</classId> <!-- Assassin (female) -->
 		<classId>88</classId> <!-- Duelist -->
 		<classId>89</classId> <!-- Dreadnought -->
 		<classId>90</classId> <!-- Phoenix Knight -->
@@ -7081,6 +7307,8 @@
 		<classId>210</classId> <!-- WindSniper -->
 		<classId>211</classId> <!-- StormBlaster -->
 		<classId>220</classId> <!-- Vanguard Rider -->
+		<classId>224</classId> <!-- Assassin (male) -->
+		<classId>228</classId> <!-- Assassin (female) -->
 	</henna>
 	<henna dyeId="396" dyeItemId="96411" dyeName="" patternLevel="17"> <!-- Tattoo of DEX <DEX+5> (P. Skill Critical Rate Received -6.0% Soulshot Damage +1.5%) -->
 		<stats str="0" con="0" dex="5" int="0" men="0" wit="0" luc="0" cha="0" />
@@ -7166,6 +7394,8 @@
 		<classId>210</classId> <!-- WindSniper -->
 		<classId>211</classId> <!-- StormBlaster -->
 		<classId>220</classId> <!-- Vanguard Rider -->
+		<classId>224</classId> <!-- Assassin (male) -->
+		<classId>228</classId> <!-- Assassin (female) -->
 		<classId>88</classId> <!-- Duelist -->
 		<classId>89</classId> <!-- Dreadnought -->
 		<classId>90</classId> <!-- Phoenix Knight -->
@@ -7203,6 +7433,8 @@
 		<classId>210</classId> <!-- WindSniper -->
 		<classId>211</classId> <!-- StormBlaster -->
 		<classId>220</classId> <!-- Vanguard Rider -->
+		<classId>224</classId> <!-- Assassin (male) -->
+		<classId>228</classId> <!-- Assassin (female) -->
 	</henna>
 	<henna dyeId="397" dyeItemId="96412" dyeName="" patternLevel="18"> <!-- Tattoo of DEX <DEX+5> (P. Skill Critical Rate Received -6.4% Soulshot Damage +2%) -->
 		<stats str="0" con="0" dex="5" int="0" men="0" wit="0" luc="0" cha="0" />
@@ -7288,6 +7520,8 @@
 		<classId>210</classId> <!-- WindSniper -->
 		<classId>211</classId> <!-- StormBlaster -->
 		<classId>220</classId> <!-- Vanguard Rider -->
+		<classId>224</classId> <!-- Assassin (male) -->
+		<classId>228</classId> <!-- Assassin (female) -->
 		<classId>88</classId> <!-- Duelist -->
 		<classId>89</classId> <!-- Dreadnought -->
 		<classId>90</classId> <!-- Phoenix Knight -->
@@ -7325,6 +7559,8 @@
 		<classId>210</classId> <!-- WindSniper -->
 		<classId>211</classId> <!-- StormBlaster -->
 		<classId>220</classId> <!-- Vanguard Rider -->
+		<classId>224</classId> <!-- Assassin (male) -->
+		<classId>228</classId> <!-- Assassin (female) -->
 	</henna>
 	<henna dyeId="398" dyeItemId="96413" dyeName="" patternLevel="19"> <!-- Tattoo of DEX <DEX+5> (P. Skill Critical Rate Received -6.8% Soulshot Damage +3%) -->
 		<stats str="0" con="0" dex="5" int="0" men="0" wit="0" luc="0" cha="0" />
@@ -7410,6 +7646,8 @@
 		<classId>210</classId> <!-- WindSniper -->
 		<classId>211</classId> <!-- StormBlaster -->
 		<classId>220</classId> <!-- Vanguard Rider -->
+		<classId>224</classId> <!-- Assassin (male) -->
+		<classId>228</classId> <!-- Assassin (female) -->
 		<classId>88</classId> <!-- Duelist -->
 		<classId>89</classId> <!-- Dreadnought -->
 		<classId>90</classId> <!-- Phoenix Knight -->
@@ -7447,6 +7685,8 @@
 		<classId>210</classId> <!-- WindSniper -->
 		<classId>211</classId> <!-- StormBlaster -->
 		<classId>220</classId> <!-- Vanguard Rider -->
+		<classId>224</classId> <!-- Assassin (male) -->
+		<classId>228</classId> <!-- Assassin (female) -->
 	</henna>
 	<henna dyeId="399" dyeItemId="96414" dyeName="" patternLevel="20"> <!-- Tattoo of DEX <DEX+5> (P. Skill Critical Rate Received -7.2% Soulshot Damage +4%) -->
 		<stats str="0" con="0" dex="5" int="0" men="0" wit="0" luc="0" cha="0" />
@@ -7532,6 +7772,8 @@
 		<classId>210</classId> <!-- WindSniper -->
 		<classId>211</classId> <!-- StormBlaster -->
 		<classId>220</classId> <!-- Vanguard Rider -->
+		<classId>224</classId> <!-- Assassin (male) -->
+		<classId>228</classId> <!-- Assassin (female) -->
 		<classId>88</classId> <!-- Duelist -->
 		<classId>89</classId> <!-- Dreadnought -->
 		<classId>90</classId> <!-- Phoenix Knight -->
@@ -7569,6 +7811,8 @@
 		<classId>210</classId> <!-- WindSniper -->
 		<classId>211</classId> <!-- StormBlaster -->
 		<classId>220</classId> <!-- Vanguard Rider -->
+		<classId>224</classId> <!-- Assassin (male) -->
+		<classId>228</classId> <!-- Assassin (female) -->
 	</henna>
 	<henna dyeId="400" dyeItemId="96620" dyeName="" patternLevel="0"> <!-- Tattoo of INT <INT+1> () -->
 		<stats str="0" con="0" dex="0" int="1" men="0" wit="0" luc="0" cha="0" />
@@ -7654,6 +7898,8 @@
 		<classId>210</classId> <!-- WindSniper -->
 		<classId>211</classId> <!-- StormBlaster -->
 		<classId>220</classId> <!-- Vanguard Rider -->
+		<classId>224</classId> <!-- Assassin (male) -->
+		<classId>228</classId> <!-- Assassin (female) -->
 		<classId>88</classId> <!-- Duelist -->
 		<classId>89</classId> <!-- Dreadnought -->
 		<classId>90</classId> <!-- Phoenix Knight -->
@@ -7691,6 +7937,8 @@
 		<classId>210</classId> <!-- WindSniper -->
 		<classId>211</classId> <!-- StormBlaster -->
 		<classId>220</classId> <!-- Vanguard Rider -->
+		<classId>224</classId> <!-- Assassin (male) -->
+		<classId>228</classId> <!-- Assassin (female) -->
 	</henna>
 	<henna dyeId="401" dyeItemId="96415" dyeName="" patternLevel="1"> <!-- Tattoo of INT <INT+2> () -->
 		<stats str="0" con="0" dex="0" int="2" men="0" wit="0" luc="0" cha="0" />
@@ -7776,6 +8024,8 @@
 		<classId>210</classId> <!-- WindSniper -->
 		<classId>211</classId> <!-- StormBlaster -->
 		<classId>220</classId> <!-- Vanguard Rider -->
+		<classId>224</classId> <!-- Assassin (male) -->
+		<classId>228</classId> <!-- Assassin (female) -->
 		<classId>88</classId> <!-- Duelist -->
 		<classId>89</classId> <!-- Dreadnought -->
 		<classId>90</classId> <!-- Phoenix Knight -->
@@ -7813,6 +8063,8 @@
 		<classId>210</classId> <!-- WindSniper -->
 		<classId>211</classId> <!-- StormBlaster -->
 		<classId>220</classId> <!-- Vanguard Rider -->
+		<classId>224</classId> <!-- Assassin (male) -->
+		<classId>228</classId> <!-- Assassin (female) -->
 	</henna>
 	<henna dyeId="402" dyeItemId="96416" dyeName="" patternLevel="2"> <!-- Tattoo of INT <INT+3> () -->
 		<stats str="0" con="0" dex="0" int="3" men="0" wit="0" luc="0" cha="0" />
@@ -7898,6 +8150,8 @@
 		<classId>210</classId> <!-- WindSniper -->
 		<classId>211</classId> <!-- StormBlaster -->
 		<classId>220</classId> <!-- Vanguard Rider -->
+		<classId>224</classId> <!-- Assassin (male) -->
+		<classId>228</classId> <!-- Assassin (female) -->
 		<classId>88</classId> <!-- Duelist -->
 		<classId>89</classId> <!-- Dreadnought -->
 		<classId>90</classId> <!-- Phoenix Knight -->
@@ -7935,6 +8189,8 @@
 		<classId>210</classId> <!-- WindSniper -->
 		<classId>211</classId> <!-- StormBlaster -->
 		<classId>220</classId> <!-- Vanguard Rider -->
+		<classId>224</classId> <!-- Assassin (male) -->
+		<classId>228</classId> <!-- Assassin (female) -->
 	</henna>
 	<henna dyeId="403" dyeItemId="96417" dyeName="" patternLevel="3"> <!-- Tattoo of INT <INT+4> (M. Atk. +25) -->
 		<stats str="0" con="0" dex="0" int="4" men="0" wit="0" luc="0" cha="0" />
@@ -8020,6 +8276,8 @@
 		<classId>210</classId> <!-- WindSniper -->
 		<classId>211</classId> <!-- StormBlaster -->
 		<classId>220</classId> <!-- Vanguard Rider -->
+		<classId>224</classId> <!-- Assassin (male) -->
+		<classId>228</classId> <!-- Assassin (female) -->
 		<classId>88</classId> <!-- Duelist -->
 		<classId>89</classId> <!-- Dreadnought -->
 		<classId>90</classId> <!-- Phoenix Knight -->
@@ -8057,6 +8315,8 @@
 		<classId>210</classId> <!-- WindSniper -->
 		<classId>211</classId> <!-- StormBlaster -->
 		<classId>220</classId> <!-- Vanguard Rider -->
+		<classId>224</classId> <!-- Assassin (male) -->
+		<classId>228</classId> <!-- Assassin (female) -->
 	</henna>
 	<henna dyeId="404" dyeItemId="96418" dyeName="" patternLevel="4"> <!-- Tattoo of INT <INT+4> (M. Atk. +50) -->
 		<stats str="0" con="0" dex="0" int="4" men="0" wit="0" luc="0" cha="0" />
@@ -8142,6 +8402,8 @@
 		<classId>210</classId> <!-- WindSniper -->
 		<classId>211</classId> <!-- StormBlaster -->
 		<classId>220</classId> <!-- Vanguard Rider -->
+		<classId>224</classId> <!-- Assassin (male) -->
+		<classId>228</classId> <!-- Assassin (female) -->
 		<classId>88</classId> <!-- Duelist -->
 		<classId>89</classId> <!-- Dreadnought -->
 		<classId>90</classId> <!-- Phoenix Knight -->
@@ -8179,6 +8441,8 @@
 		<classId>210</classId> <!-- WindSniper -->
 		<classId>211</classId> <!-- StormBlaster -->
 		<classId>220</classId> <!-- Vanguard Rider -->
+		<classId>224</classId> <!-- Assassin (male) -->
+		<classId>228</classId> <!-- Assassin (female) -->
 	</henna>
 	<henna dyeId="405" dyeItemId="96419" dyeName="" patternLevel="5"> <!-- Tattoo of INT <INT+4> (M. Atk. +75) -->
 		<stats str="0" con="0" dex="0" int="4" men="0" wit="0" luc="0" cha="0" />
@@ -8264,6 +8528,8 @@
 		<classId>210</classId> <!-- WindSniper -->
 		<classId>211</classId> <!-- StormBlaster -->
 		<classId>220</classId> <!-- Vanguard Rider -->
+		<classId>224</classId> <!-- Assassin (male) -->
+		<classId>228</classId> <!-- Assassin (female) -->
 		<classId>88</classId> <!-- Duelist -->
 		<classId>89</classId> <!-- Dreadnought -->
 		<classId>90</classId> <!-- Phoenix Knight -->
@@ -8301,6 +8567,8 @@
 		<classId>210</classId> <!-- WindSniper -->
 		<classId>211</classId> <!-- StormBlaster -->
 		<classId>220</classId> <!-- Vanguard Rider -->
+		<classId>224</classId> <!-- Assassin (male) -->
+		<classId>228</classId> <!-- Assassin (female) -->
 	</henna>
 	<henna dyeId="406" dyeItemId="96420" dyeName="" patternLevel="6"> <!-- Tattoo of INT <INT+4> (M. Atk. +100) -->
 		<stats str="0" con="0" dex="0" int="4" men="0" wit="0" luc="0" cha="0" />
@@ -8386,6 +8654,8 @@
 		<classId>210</classId> <!-- WindSniper -->
 		<classId>211</classId> <!-- StormBlaster -->
 		<classId>220</classId> <!-- Vanguard Rider -->
+		<classId>224</classId> <!-- Assassin (male) -->
+		<classId>228</classId> <!-- Assassin (female) -->
 		<classId>88</classId> <!-- Duelist -->
 		<classId>89</classId> <!-- Dreadnought -->
 		<classId>90</classId> <!-- Phoenix Knight -->
@@ -8423,6 +8693,8 @@
 		<classId>210</classId> <!-- WindSniper -->
 		<classId>211</classId> <!-- StormBlaster -->
 		<classId>220</classId> <!-- Vanguard Rider -->
+		<classId>224</classId> <!-- Assassin (male) -->
+		<classId>228</classId> <!-- Assassin (female) -->
 	</henna>
 	<henna dyeId="407" dyeItemId="96421" dyeName="" patternLevel="7"> <!-- Tattoo of INT <INT+4> (M. Atk. +125) -->
 		<stats str="0" con="0" dex="0" int="4" men="0" wit="0" luc="0" cha="0" />
@@ -8508,6 +8780,8 @@
 		<classId>210</classId> <!-- WindSniper -->
 		<classId>211</classId> <!-- StormBlaster -->
 		<classId>220</classId> <!-- Vanguard Rider -->
+		<classId>224</classId> <!-- Assassin (male) -->
+		<classId>228</classId> <!-- Assassin (female) -->
 		<classId>88</classId> <!-- Duelist -->
 		<classId>89</classId> <!-- Dreadnought -->
 		<classId>90</classId> <!-- Phoenix Knight -->
@@ -8545,6 +8819,8 @@
 		<classId>210</classId> <!-- WindSniper -->
 		<classId>211</classId> <!-- StormBlaster -->
 		<classId>220</classId> <!-- Vanguard Rider -->
+		<classId>224</classId> <!-- Assassin (male) -->
+		<classId>228</classId> <!-- Assassin (female) -->
 	</henna>
 	<henna dyeId="408" dyeItemId="96422" dyeName="" patternLevel="8"> <!-- Tattoo of INT <INT+4> (M. Atk. +150) -->
 		<stats str="0" con="0" dex="0" int="4" men="0" wit="0" luc="0" cha="0" />
@@ -8630,6 +8906,8 @@
 		<classId>210</classId> <!-- WindSniper -->
 		<classId>211</classId> <!-- StormBlaster -->
 		<classId>220</classId> <!-- Vanguard Rider -->
+		<classId>224</classId> <!-- Assassin (male) -->
+		<classId>228</classId> <!-- Assassin (female) -->
 		<classId>88</classId> <!-- Duelist -->
 		<classId>89</classId> <!-- Dreadnought -->
 		<classId>90</classId> <!-- Phoenix Knight -->
@@ -8667,6 +8945,8 @@
 		<classId>210</classId> <!-- WindSniper -->
 		<classId>211</classId> <!-- StormBlaster -->
 		<classId>220</classId> <!-- Vanguard Rider -->
+		<classId>224</classId> <!-- Assassin (male) -->
+		<classId>228</classId> <!-- Assassin (female) -->
 	</henna>
 	<henna dyeId="409" dyeItemId="96423" dyeName="" patternLevel="9"> <!-- Tattoo of INT <INT+4> (M. Atk. +175) -->
 		<stats str="0" con="0" dex="0" int="4" men="0" wit="0" luc="0" cha="0" />
@@ -8752,6 +9032,8 @@
 		<classId>210</classId> <!-- WindSniper -->
 		<classId>211</classId> <!-- StormBlaster -->
 		<classId>220</classId> <!-- Vanguard Rider -->
+		<classId>224</classId> <!-- Assassin (male) -->
+		<classId>228</classId> <!-- Assassin (female) -->
 		<classId>88</classId> <!-- Duelist -->
 		<classId>89</classId> <!-- Dreadnought -->
 		<classId>90</classId> <!-- Phoenix Knight -->
@@ -8789,6 +9071,8 @@
 		<classId>210</classId> <!-- WindSniper -->
 		<classId>211</classId> <!-- StormBlaster -->
 		<classId>220</classId> <!-- Vanguard Rider -->
+		<classId>224</classId> <!-- Assassin (male) -->
+		<classId>228</classId> <!-- Assassin (female) -->
 	</henna>
 	<henna dyeId="410" dyeItemId="96424" dyeName="" patternLevel="10"> <!-- Tattoo of INT <INT+4> (M. Atk. +200) -->
 		<stats str="0" con="0" dex="0" int="4" men="0" wit="0" luc="0" cha="0" />
@@ -8874,6 +9158,8 @@
 		<classId>210</classId> <!-- WindSniper -->
 		<classId>211</classId> <!-- StormBlaster -->
 		<classId>220</classId> <!-- Vanguard Rider -->
+		<classId>224</classId> <!-- Assassin (male) -->
+		<classId>228</classId> <!-- Assassin (female) -->
 		<classId>88</classId> <!-- Duelist -->
 		<classId>89</classId> <!-- Dreadnought -->
 		<classId>90</classId> <!-- Phoenix Knight -->
@@ -8911,6 +9197,8 @@
 		<classId>210</classId> <!-- WindSniper -->
 		<classId>211</classId> <!-- StormBlaster -->
 		<classId>220</classId> <!-- Vanguard Rider -->
+		<classId>224</classId> <!-- Assassin (male) -->
+		<classId>228</classId> <!-- Assassin (female) -->
 	</henna>
 	<henna dyeId="411" dyeItemId="96425" dyeName="" patternLevel="11"> <!-- Tattoo of INT <INT+5> (M. Atk. +225) -->
 		<stats str="0" con="0" dex="0" int="5" men="0" wit="0" luc="0" cha="0" />
@@ -8996,6 +9284,8 @@
 		<classId>210</classId> <!-- WindSniper -->
 		<classId>211</classId> <!-- StormBlaster -->
 		<classId>220</classId> <!-- Vanguard Rider -->
+		<classId>224</classId> <!-- Assassin (male) -->
+		<classId>228</classId> <!-- Assassin (female) -->
 		<classId>88</classId> <!-- Duelist -->
 		<classId>89</classId> <!-- Dreadnought -->
 		<classId>90</classId> <!-- Phoenix Knight -->
@@ -9033,6 +9323,8 @@
 		<classId>210</classId> <!-- WindSniper -->
 		<classId>211</classId> <!-- StormBlaster -->
 		<classId>220</classId> <!-- Vanguard Rider -->
+		<classId>224</classId> <!-- Assassin (male) -->
+		<classId>228</classId> <!-- Assassin (female) -->
 	</henna>
 	<henna dyeId="412" dyeItemId="96426" dyeName="" patternLevel="12"> <!-- Tattoo of INT <INT+5> (M. Atk. +250) -->
 		<stats str="0" con="0" dex="0" int="5" men="0" wit="0" luc="0" cha="0" />
@@ -9118,6 +9410,8 @@
 		<classId>210</classId> <!-- WindSniper -->
 		<classId>211</classId> <!-- StormBlaster -->
 		<classId>220</classId> <!-- Vanguard Rider -->
+		<classId>224</classId> <!-- Assassin (male) -->
+		<classId>228</classId> <!-- Assassin (female) -->
 		<classId>88</classId> <!-- Duelist -->
 		<classId>89</classId> <!-- Dreadnought -->
 		<classId>90</classId> <!-- Phoenix Knight -->
@@ -9155,6 +9449,8 @@
 		<classId>210</classId> <!-- WindSniper -->
 		<classId>211</classId> <!-- StormBlaster -->
 		<classId>220</classId> <!-- Vanguard Rider -->
+		<classId>224</classId> <!-- Assassin (male) -->
+		<classId>228</classId> <!-- Assassin (female) -->
 	</henna>
 	<henna dyeId="413" dyeItemId="96427" dyeName="" patternLevel="13"> <!-- Tattoo of INT <INT+5> (M. Atk. +275) -->
 		<stats str="0" con="0" dex="0" int="5" men="0" wit="0" luc="0" cha="0" />
@@ -9240,6 +9536,8 @@
 		<classId>210</classId> <!-- WindSniper -->
 		<classId>211</classId> <!-- StormBlaster -->
 		<classId>220</classId> <!-- Vanguard Rider -->
+		<classId>224</classId> <!-- Assassin (male) -->
+		<classId>228</classId> <!-- Assassin (female) -->
 		<classId>88</classId> <!-- Duelist -->
 		<classId>89</classId> <!-- Dreadnought -->
 		<classId>90</classId> <!-- Phoenix Knight -->
@@ -9277,6 +9575,8 @@
 		<classId>210</classId> <!-- WindSniper -->
 		<classId>211</classId> <!-- StormBlaster -->
 		<classId>220</classId> <!-- Vanguard Rider -->
+		<classId>224</classId> <!-- Assassin (male) -->
+		<classId>228</classId> <!-- Assassin (female) -->
 	</henna>
 	<henna dyeId="414" dyeItemId="96428" dyeName="" patternLevel="14"> <!-- Tattoo of INT <INT+5> (M. Atk. +300) -->
 		<stats str="0" con="0" dex="0" int="5" men="0" wit="0" luc="0" cha="0" />
@@ -9362,6 +9662,8 @@
 		<classId>210</classId> <!-- WindSniper -->
 		<classId>211</classId> <!-- StormBlaster -->
 		<classId>220</classId> <!-- Vanguard Rider -->
+		<classId>224</classId> <!-- Assassin (male) -->
+		<classId>228</classId> <!-- Assassin (female) -->
 		<classId>88</classId> <!-- Duelist -->
 		<classId>89</classId> <!-- Dreadnought -->
 		<classId>90</classId> <!-- Phoenix Knight -->
@@ -9399,6 +9701,8 @@
 		<classId>210</classId> <!-- WindSniper -->
 		<classId>211</classId> <!-- StormBlaster -->
 		<classId>220</classId> <!-- Vanguard Rider -->
+		<classId>224</classId> <!-- Assassin (male) -->
+		<classId>228</classId> <!-- Assassin (female) -->
 	</henna>
 	<henna dyeId="415" dyeItemId="96429" dyeName="" patternLevel="15"> <!-- Tattoo of INT <INT+5> (M. Atk. +325) -->
 		<stats str="0" con="0" dex="0" int="5" men="0" wit="0" luc="0" cha="0" />
@@ -9484,6 +9788,8 @@
 		<classId>210</classId> <!-- WindSniper -->
 		<classId>211</classId> <!-- StormBlaster -->
 		<classId>220</classId> <!-- Vanguard Rider -->
+		<classId>224</classId> <!-- Assassin (male) -->
+		<classId>228</classId> <!-- Assassin (female) -->
 		<classId>88</classId> <!-- Duelist -->
 		<classId>89</classId> <!-- Dreadnought -->
 		<classId>90</classId> <!-- Phoenix Knight -->
@@ -9521,6 +9827,8 @@
 		<classId>210</classId> <!-- WindSniper -->
 		<classId>211</classId> <!-- StormBlaster -->
 		<classId>220</classId> <!-- Vanguard Rider -->
+		<classId>224</classId> <!-- Assassin (male) -->
+		<classId>228</classId> <!-- Assassin (female) -->
 	</henna>
 	<henna dyeId="416" dyeItemId="96430" dyeName="" patternLevel="16"> <!-- Tattoo of INT <INT+5> (M. Atk. +350 M. Skill Critical Rate +0.5%) -->
 		<stats str="0" con="0" dex="0" int="5" men="0" wit="0" luc="0" cha="0" />
@@ -9606,6 +9914,8 @@
 		<classId>210</classId> <!-- WindSniper -->
 		<classId>211</classId> <!-- StormBlaster -->
 		<classId>220</classId> <!-- Vanguard Rider -->
+		<classId>224</classId> <!-- Assassin (male) -->
+		<classId>228</classId> <!-- Assassin (female) -->
 		<classId>88</classId> <!-- Duelist -->
 		<classId>89</classId> <!-- Dreadnought -->
 		<classId>90</classId> <!-- Phoenix Knight -->
@@ -9643,6 +9953,8 @@
 		<classId>210</classId> <!-- WindSniper -->
 		<classId>211</classId> <!-- StormBlaster -->
 		<classId>220</classId> <!-- Vanguard Rider -->
+		<classId>224</classId> <!-- Assassin (male) -->
+		<classId>228</classId> <!-- Assassin (female) -->
 	</henna>
 	<henna dyeId="417" dyeItemId="96431" dyeName="" patternLevel="17"> <!-- Tattoo of INT <INT+5> (M. Atk. +375 M. Skill Critical Rate +1%) -->
 		<stats str="0" con="0" dex="0" int="5" men="0" wit="0" luc="0" cha="0" />
@@ -9728,6 +10040,8 @@
 		<classId>210</classId> <!-- WindSniper -->
 		<classId>211</classId> <!-- StormBlaster -->
 		<classId>220</classId> <!-- Vanguard Rider -->
+		<classId>224</classId> <!-- Assassin (male) -->
+		<classId>228</classId> <!-- Assassin (female) -->
 		<classId>88</classId> <!-- Duelist -->
 		<classId>89</classId> <!-- Dreadnought -->
 		<classId>90</classId> <!-- Phoenix Knight -->
@@ -9765,6 +10079,8 @@
 		<classId>210</classId> <!-- WindSniper -->
 		<classId>211</classId> <!-- StormBlaster -->
 		<classId>220</classId> <!-- Vanguard Rider -->
+		<classId>224</classId> <!-- Assassin (male) -->
+		<classId>228</classId> <!-- Assassin (female) -->
 	</henna>
 	<henna dyeId="418" dyeItemId="96432" dyeName="" patternLevel="18"> <!-- Tattoo of INT <INT+5> (M. Atk. +400 M. Skill Critical Rate +1.5%) -->
 		<stats str="0" con="0" dex="0" int="5" men="0" wit="0" luc="0" cha="0" />
@@ -9850,6 +10166,8 @@
 		<classId>210</classId> <!-- WindSniper -->
 		<classId>211</classId> <!-- StormBlaster -->
 		<classId>220</classId> <!-- Vanguard Rider -->
+		<classId>224</classId> <!-- Assassin (male) -->
+		<classId>228</classId> <!-- Assassin (female) -->
 		<classId>88</classId> <!-- Duelist -->
 		<classId>89</classId> <!-- Dreadnought -->
 		<classId>90</classId> <!-- Phoenix Knight -->
@@ -9887,6 +10205,8 @@
 		<classId>210</classId> <!-- WindSniper -->
 		<classId>211</classId> <!-- StormBlaster -->
 		<classId>220</classId> <!-- Vanguard Rider -->
+		<classId>224</classId> <!-- Assassin (male) -->
+		<classId>228</classId> <!-- Assassin (female) -->
 	</henna>
 	<henna dyeId="419" dyeItemId="96433" dyeName="" patternLevel="19"> <!-- Tattoo of INT <INT+5> (M. Atk. +425 M. Skill Critical Rate +2%) -->
 		<stats str="0" con="0" dex="0" int="5" men="0" wit="0" luc="0" cha="0" />
@@ -9972,6 +10292,8 @@
 		<classId>210</classId> <!-- WindSniper -->
 		<classId>211</classId> <!-- StormBlaster -->
 		<classId>220</classId> <!-- Vanguard Rider -->
+		<classId>224</classId> <!-- Assassin (male) -->
+		<classId>228</classId> <!-- Assassin (female) -->
 		<classId>88</classId> <!-- Duelist -->
 		<classId>89</classId> <!-- Dreadnought -->
 		<classId>90</classId> <!-- Phoenix Knight -->
@@ -10009,6 +10331,8 @@
 		<classId>210</classId> <!-- WindSniper -->
 		<classId>211</classId> <!-- StormBlaster -->
 		<classId>220</classId> <!-- Vanguard Rider -->
+		<classId>224</classId> <!-- Assassin (male) -->
+		<classId>228</classId> <!-- Assassin (female) -->
 	</henna>
 	<henna dyeId="420" dyeItemId="96434" dyeName="" patternLevel="20"> <!-- Tattoo of INT <INT+5> (M. Atk. +450 M. Skill Critical Rate +3%) -->
 		<stats str="0" con="0" dex="0" int="5" men="0" wit="0" luc="0" cha="0" />
@@ -10094,6 +10418,8 @@
 		<classId>210</classId> <!-- WindSniper -->
 		<classId>211</classId> <!-- StormBlaster -->
 		<classId>220</classId> <!-- Vanguard Rider -->
+		<classId>224</classId> <!-- Assassin (male) -->
+		<classId>228</classId> <!-- Assassin (female) -->
 		<classId>88</classId> <!-- Duelist -->
 		<classId>89</classId> <!-- Dreadnought -->
 		<classId>90</classId> <!-- Phoenix Knight -->
@@ -10131,6 +10457,8 @@
 		<classId>210</classId> <!-- WindSniper -->
 		<classId>211</classId> <!-- StormBlaster -->
 		<classId>220</classId> <!-- Vanguard Rider -->
+		<classId>224</classId> <!-- Assassin (male) -->
+		<classId>228</classId> <!-- Assassin (female) -->
 	</henna>
 	<henna dyeId="421" dyeItemId="96621" dyeName="" patternLevel="0"> <!-- Tattoo of MEN <MEN+1> () -->
 		<stats str="0" con="0" dex="0" int="0" men="1" wit="0" luc="0" cha="0" />
@@ -10216,6 +10544,8 @@
 		<classId>210</classId> <!-- WindSniper -->
 		<classId>211</classId> <!-- StormBlaster -->
 		<classId>220</classId> <!-- Vanguard Rider -->
+		<classId>224</classId> <!-- Assassin (male) -->
+		<classId>228</classId> <!-- Assassin (female) -->
 		<classId>88</classId> <!-- Duelist -->
 		<classId>89</classId> <!-- Dreadnought -->
 		<classId>90</classId> <!-- Phoenix Knight -->
@@ -10253,6 +10583,8 @@
 		<classId>210</classId> <!-- WindSniper -->
 		<classId>211</classId> <!-- StormBlaster -->
 		<classId>220</classId> <!-- Vanguard Rider -->
+		<classId>224</classId> <!-- Assassin (male) -->
+		<classId>228</classId> <!-- Assassin (female) -->
 	</henna>
 	<henna dyeId="422" dyeItemId="96435" dyeName="" patternLevel="1"> <!-- Tattoo of MEN <MEN+2> () -->
 		<stats str="0" con="0" dex="0" int="0" men="2" wit="0" luc="0" cha="0" />
@@ -10338,6 +10670,8 @@
 		<classId>210</classId> <!-- WindSniper -->
 		<classId>211</classId> <!-- StormBlaster -->
 		<classId>220</classId> <!-- Vanguard Rider -->
+		<classId>224</classId> <!-- Assassin (male) -->
+		<classId>228</classId> <!-- Assassin (female) -->
 		<classId>88</classId> <!-- Duelist -->
 		<classId>89</classId> <!-- Dreadnought -->
 		<classId>90</classId> <!-- Phoenix Knight -->
@@ -10375,6 +10709,8 @@
 		<classId>210</classId> <!-- WindSniper -->
 		<classId>211</classId> <!-- StormBlaster -->
 		<classId>220</classId> <!-- Vanguard Rider -->
+		<classId>224</classId> <!-- Assassin (male) -->
+		<classId>228</classId> <!-- Assassin (female) -->
 	</henna>
 	<henna dyeId="423" dyeItemId="96436" dyeName="" patternLevel="2"> <!-- Tattoo of MEN <MEN+3> () -->
 		<stats str="0" con="0" dex="0" int="0" men="3" wit="0" luc="0" cha="0" />
@@ -10460,6 +10796,8 @@
 		<classId>210</classId> <!-- WindSniper -->
 		<classId>211</classId> <!-- StormBlaster -->
 		<classId>220</classId> <!-- Vanguard Rider -->
+		<classId>224</classId> <!-- Assassin (male) -->
+		<classId>228</classId> <!-- Assassin (female) -->
 		<classId>88</classId> <!-- Duelist -->
 		<classId>89</classId> <!-- Dreadnought -->
 		<classId>90</classId> <!-- Phoenix Knight -->
@@ -10497,6 +10835,8 @@
 		<classId>210</classId> <!-- WindSniper -->
 		<classId>211</classId> <!-- StormBlaster -->
 		<classId>220</classId> <!-- Vanguard Rider -->
+		<classId>224</classId> <!-- Assassin (male) -->
+		<classId>228</classId> <!-- Assassin (female) -->
 	</henna>
 	<henna dyeId="424" dyeItemId="96437" dyeName="" patternLevel="3"> <!-- Tattoo of MEN <MEN+4> (M. Def. +37) -->
 		<stats str="0" con="0" dex="0" int="0" men="4" wit="0" luc="0" cha="0" />
@@ -10582,6 +10922,8 @@
 		<classId>210</classId> <!-- WindSniper -->
 		<classId>211</classId> <!-- StormBlaster -->
 		<classId>220</classId> <!-- Vanguard Rider -->
+		<classId>224</classId> <!-- Assassin (male) -->
+		<classId>228</classId> <!-- Assassin (female) -->
 		<classId>88</classId> <!-- Duelist -->
 		<classId>89</classId> <!-- Dreadnought -->
 		<classId>90</classId> <!-- Phoenix Knight -->
@@ -10619,6 +10961,8 @@
 		<classId>210</classId> <!-- WindSniper -->
 		<classId>211</classId> <!-- StormBlaster -->
 		<classId>220</classId> <!-- Vanguard Rider -->
+		<classId>224</classId> <!-- Assassin (male) -->
+		<classId>228</classId> <!-- Assassin (female) -->
 	</henna>
 	<henna dyeId="425" dyeItemId="96438" dyeName="" patternLevel="4"> <!-- Tattoo of MEN <MEN+4> (M. Def. +75) -->
 		<stats str="0" con="0" dex="0" int="0" men="4" wit="0" luc="0" cha="0" />
@@ -10704,6 +11048,8 @@
 		<classId>210</classId> <!-- WindSniper -->
 		<classId>211</classId> <!-- StormBlaster -->
 		<classId>220</classId> <!-- Vanguard Rider -->
+		<classId>224</classId> <!-- Assassin (male) -->
+		<classId>228</classId> <!-- Assassin (female) -->
 		<classId>88</classId> <!-- Duelist -->
 		<classId>89</classId> <!-- Dreadnought -->
 		<classId>90</classId> <!-- Phoenix Knight -->
@@ -10741,6 +11087,8 @@
 		<classId>210</classId> <!-- WindSniper -->
 		<classId>211</classId> <!-- StormBlaster -->
 		<classId>220</classId> <!-- Vanguard Rider -->
+		<classId>224</classId> <!-- Assassin (male) -->
+		<classId>228</classId> <!-- Assassin (female) -->
 	</henna>
 	<henna dyeId="426" dyeItemId="96439" dyeName="" patternLevel="5"> <!-- Tattoo of MEN <MEN+4> (M. Def. +112) -->
 		<stats str="0" con="0" dex="0" int="0" men="4" wit="0" luc="0" cha="0" />
@@ -10826,6 +11174,8 @@
 		<classId>210</classId> <!-- WindSniper -->
 		<classId>211</classId> <!-- StormBlaster -->
 		<classId>220</classId> <!-- Vanguard Rider -->
+		<classId>224</classId> <!-- Assassin (male) -->
+		<classId>228</classId> <!-- Assassin (female) -->
 		<classId>88</classId> <!-- Duelist -->
 		<classId>89</classId> <!-- Dreadnought -->
 		<classId>90</classId> <!-- Phoenix Knight -->
@@ -10863,6 +11213,8 @@
 		<classId>210</classId> <!-- WindSniper -->
 		<classId>211</classId> <!-- StormBlaster -->
 		<classId>220</classId> <!-- Vanguard Rider -->
+		<classId>224</classId> <!-- Assassin (male) -->
+		<classId>228</classId> <!-- Assassin (female) -->
 	</henna>
 	<henna dyeId="427" dyeItemId="96440" dyeName="" patternLevel="6"> <!-- Tattoo of MEN <MEN+4> (M. Def. +150) -->
 		<stats str="0" con="0" dex="0" int="0" men="4" wit="0" luc="0" cha="0" />
@@ -10948,6 +11300,8 @@
 		<classId>210</classId> <!-- WindSniper -->
 		<classId>211</classId> <!-- StormBlaster -->
 		<classId>220</classId> <!-- Vanguard Rider -->
+		<classId>224</classId> <!-- Assassin (male) -->
+		<classId>228</classId> <!-- Assassin (female) -->
 		<classId>88</classId> <!-- Duelist -->
 		<classId>89</classId> <!-- Dreadnought -->
 		<classId>90</classId> <!-- Phoenix Knight -->
@@ -10985,6 +11339,8 @@
 		<classId>210</classId> <!-- WindSniper -->
 		<classId>211</classId> <!-- StormBlaster -->
 		<classId>220</classId> <!-- Vanguard Rider -->
+		<classId>224</classId> <!-- Assassin (male) -->
+		<classId>228</classId> <!-- Assassin (female) -->
 	</henna>
 	<henna dyeId="428" dyeItemId="96441" dyeName="" patternLevel="7"> <!-- Tattoo of MEN <MEN+4> (M. Def. +187) -->
 		<stats str="0" con="0" dex="0" int="0" men="4" wit="0" luc="0" cha="0" />
@@ -11070,6 +11426,8 @@
 		<classId>210</classId> <!-- WindSniper -->
 		<classId>211</classId> <!-- StormBlaster -->
 		<classId>220</classId> <!-- Vanguard Rider -->
+		<classId>224</classId> <!-- Assassin (male) -->
+		<classId>228</classId> <!-- Assassin (female) -->
 		<classId>88</classId> <!-- Duelist -->
 		<classId>89</classId> <!-- Dreadnought -->
 		<classId>90</classId> <!-- Phoenix Knight -->
@@ -11107,6 +11465,8 @@
 		<classId>210</classId> <!-- WindSniper -->
 		<classId>211</classId> <!-- StormBlaster -->
 		<classId>220</classId> <!-- Vanguard Rider -->
+		<classId>224</classId> <!-- Assassin (male) -->
+		<classId>228</classId> <!-- Assassin (female) -->
 	</henna>
 	<henna dyeId="429" dyeItemId="96442" dyeName="" patternLevel="8"> <!-- Tattoo of MEN <MEN+4> (M. Def. +225) -->
 		<stats str="0" con="0" dex="0" int="0" men="4" wit="0" luc="0" cha="0" />
@@ -11192,6 +11552,8 @@
 		<classId>210</classId> <!-- WindSniper -->
 		<classId>211</classId> <!-- StormBlaster -->
 		<classId>220</classId> <!-- Vanguard Rider -->
+		<classId>224</classId> <!-- Assassin (male) -->
+		<classId>228</classId> <!-- Assassin (female) -->
 		<classId>88</classId> <!-- Duelist -->
 		<classId>89</classId> <!-- Dreadnought -->
 		<classId>90</classId> <!-- Phoenix Knight -->
@@ -11229,6 +11591,8 @@
 		<classId>210</classId> <!-- WindSniper -->
 		<classId>211</classId> <!-- StormBlaster -->
 		<classId>220</classId> <!-- Vanguard Rider -->
+		<classId>224</classId> <!-- Assassin (male) -->
+		<classId>228</classId> <!-- Assassin (female) -->
 	</henna>
 	<henna dyeId="430" dyeItemId="96443" dyeName="" patternLevel="9"> <!-- Tattoo of MEN <MEN+4> (M. Def. +262) -->
 		<stats str="0" con="0" dex="0" int="0" men="4" wit="0" luc="0" cha="0" />
@@ -11314,6 +11678,8 @@
 		<classId>210</classId> <!-- WindSniper -->
 		<classId>211</classId> <!-- StormBlaster -->
 		<classId>220</classId> <!-- Vanguard Rider -->
+		<classId>224</classId> <!-- Assassin (male) -->
+		<classId>228</classId> <!-- Assassin (female) -->
 		<classId>88</classId> <!-- Duelist -->
 		<classId>89</classId> <!-- Dreadnought -->
 		<classId>90</classId> <!-- Phoenix Knight -->
@@ -11351,6 +11717,8 @@
 		<classId>210</classId> <!-- WindSniper -->
 		<classId>211</classId> <!-- StormBlaster -->
 		<classId>220</classId> <!-- Vanguard Rider -->
+		<classId>224</classId> <!-- Assassin (male) -->
+		<classId>228</classId> <!-- Assassin (female) -->
 	</henna>
 	<henna dyeId="431" dyeItemId="96444" dyeName="" patternLevel="10"> <!-- Tattoo of MEN <MEN+4> (M. Def. +300) -->
 		<stats str="0" con="0" dex="0" int="0" men="4" wit="0" luc="0" cha="0" />
@@ -11436,6 +11804,8 @@
 		<classId>210</classId> <!-- WindSniper -->
 		<classId>211</classId> <!-- StormBlaster -->
 		<classId>220</classId> <!-- Vanguard Rider -->
+		<classId>224</classId> <!-- Assassin (male) -->
+		<classId>228</classId> <!-- Assassin (female) -->
 		<classId>88</classId> <!-- Duelist -->
 		<classId>89</classId> <!-- Dreadnought -->
 		<classId>90</classId> <!-- Phoenix Knight -->
@@ -11473,6 +11843,8 @@
 		<classId>210</classId> <!-- WindSniper -->
 		<classId>211</classId> <!-- StormBlaster -->
 		<classId>220</classId> <!-- Vanguard Rider -->
+		<classId>224</classId> <!-- Assassin (male) -->
+		<classId>228</classId> <!-- Assassin (female) -->
 	</henna>
 	<henna dyeId="432" dyeItemId="96445" dyeName="" patternLevel="11"> <!-- Tattoo of MEN <MEN+5> (M. Def. +337) -->
 		<stats str="0" con="0" dex="0" int="0" men="5" wit="0" luc="0" cha="0" />
@@ -11558,6 +11930,8 @@
 		<classId>210</classId> <!-- WindSniper -->
 		<classId>211</classId> <!-- StormBlaster -->
 		<classId>220</classId> <!-- Vanguard Rider -->
+		<classId>224</classId> <!-- Assassin (male) -->
+		<classId>228</classId> <!-- Assassin (female) -->
 		<classId>88</classId> <!-- Duelist -->
 		<classId>89</classId> <!-- Dreadnought -->
 		<classId>90</classId> <!-- Phoenix Knight -->
@@ -11595,6 +11969,8 @@
 		<classId>210</classId> <!-- WindSniper -->
 		<classId>211</classId> <!-- StormBlaster -->
 		<classId>220</classId> <!-- Vanguard Rider -->
+		<classId>224</classId> <!-- Assassin (male) -->
+		<classId>228</classId> <!-- Assassin (female) -->
 	</henna>
 	<henna dyeId="433" dyeItemId="96446" dyeName="" patternLevel="12"> <!-- Tattoo of MEN <MEN+5> (M. Def. +375) -->
 		<stats str="0" con="0" dex="0" int="0" men="5" wit="0" luc="0" cha="0" />
@@ -11680,6 +12056,8 @@
 		<classId>210</classId> <!-- WindSniper -->
 		<classId>211</classId> <!-- StormBlaster -->
 		<classId>220</classId> <!-- Vanguard Rider -->
+		<classId>224</classId> <!-- Assassin (male) -->
+		<classId>228</classId> <!-- Assassin (female) -->
 		<classId>88</classId> <!-- Duelist -->
 		<classId>89</classId> <!-- Dreadnought -->
 		<classId>90</classId> <!-- Phoenix Knight -->
@@ -11717,6 +12095,8 @@
 		<classId>210</classId> <!-- WindSniper -->
 		<classId>211</classId> <!-- StormBlaster -->
 		<classId>220</classId> <!-- Vanguard Rider -->
+		<classId>224</classId> <!-- Assassin (male) -->
+		<classId>228</classId> <!-- Assassin (female) -->
 	</henna>
 	<henna dyeId="434" dyeItemId="96447" dyeName="" patternLevel="13"> <!-- Tattoo of MEN <MEN+5> (M. Def. +412) -->
 		<stats str="0" con="0" dex="0" int="0" men="5" wit="0" luc="0" cha="0" />
@@ -11804,6 +12184,8 @@
 		<classId>210</classId> <!-- WindSniper -->
 		<classId>211</classId> <!-- StormBlaster -->
 		<classId>220</classId> <!-- Vanguard Rider -->
+		<classId>224</classId> <!-- Assassin (male) -->
+		<classId>228</classId> <!-- Assassin (female) -->
 		<classId>88</classId> <!-- Duelist -->
 		<classId>89</classId> <!-- Dreadnought -->
 		<classId>90</classId> <!-- Phoenix Knight -->
@@ -11841,6 +12223,8 @@
 		<classId>210</classId> <!-- WindSniper -->
 		<classId>211</classId> <!-- StormBlaster -->
 		<classId>220</classId> <!-- Vanguard Rider -->
+		<classId>224</classId> <!-- Assassin (male) -->
+		<classId>228</classId> <!-- Assassin (female) -->
 	</henna>
 	<henna dyeId="435" dyeItemId="96448" dyeName="" patternLevel="14"> <!-- Tattoo of MEN <MEN+5> (M. Def. +450) -->
 		<stats str="0" con="0" dex="0" int="0" men="5" wit="0" luc="0" cha="0" />
@@ -11928,6 +12312,8 @@
 		<classId>210</classId> <!-- WindSniper -->
 		<classId>211</classId> <!-- StormBlaster -->
 		<classId>220</classId> <!-- Vanguard Rider -->
+		<classId>224</classId> <!-- Assassin (male) -->
+		<classId>228</classId> <!-- Assassin (female) -->
 		<classId>88</classId> <!-- Duelist -->
 		<classId>89</classId> <!-- Dreadnought -->
 		<classId>90</classId> <!-- Phoenix Knight -->
@@ -11965,6 +12351,8 @@
 		<classId>210</classId> <!-- WindSniper -->
 		<classId>211</classId> <!-- StormBlaster -->
 		<classId>220</classId> <!-- Vanguard Rider -->
+		<classId>224</classId> <!-- Assassin (male) -->
+		<classId>228</classId> <!-- Assassin (female) -->
 	</henna>
 	<henna dyeId="436" dyeItemId="96449" dyeName="" patternLevel="15"> <!-- Tattoo of MEN <MEN+5> (M. Def. +487) -->
 		<stats str="0" con="0" dex="0" int="0" men="5" wit="0" luc="0" cha="0" />
@@ -12052,6 +12440,8 @@
 		<classId>210</classId> <!-- WindSniper -->
 		<classId>211</classId> <!-- StormBlaster -->
 		<classId>220</classId> <!-- Vanguard Rider -->
+		<classId>224</classId> <!-- Assassin (male) -->
+		<classId>228</classId> <!-- Assassin (female) -->
 		<classId>88</classId> <!-- Duelist -->
 		<classId>89</classId> <!-- Dreadnought -->
 		<classId>90</classId> <!-- Phoenix Knight -->
@@ -12089,6 +12479,8 @@
 		<classId>210</classId> <!-- WindSniper -->
 		<classId>211</classId> <!-- StormBlaster -->
 		<classId>220</classId> <!-- Vanguard Rider -->
+		<classId>224</classId> <!-- Assassin (male) -->
+		<classId>228</classId> <!-- Assassin (female) -->
 	</henna>
 	<henna dyeId="437" dyeItemId="96450" dyeName="" patternLevel="16"> <!-- Tattoo of MEN <MEN+5> (M. Def. +525 M. Skill Damage Received -1%) -->
 		<stats str="0" con="0" dex="0" int="0" men="5" wit="0" luc="0" cha="0" />
@@ -12176,6 +12568,8 @@
 		<classId>210</classId> <!-- WindSniper -->
 		<classId>211</classId> <!-- StormBlaster -->
 		<classId>220</classId> <!-- Vanguard Rider -->
+		<classId>224</classId> <!-- Assassin (male) -->
+		<classId>228</classId> <!-- Assassin (female) -->
 		<classId>88</classId> <!-- Duelist -->
 		<classId>89</classId> <!-- Dreadnought -->
 		<classId>90</classId> <!-- Phoenix Knight -->
@@ -12213,6 +12607,8 @@
 		<classId>210</classId> <!-- WindSniper -->
 		<classId>211</classId> <!-- StormBlaster -->
 		<classId>220</classId> <!-- Vanguard Rider -->
+		<classId>224</classId> <!-- Assassin (male) -->
+		<classId>228</classId> <!-- Assassin (female) -->
 	</henna>
 	<henna dyeId="438" dyeItemId="96451" dyeName="" patternLevel="17"> <!-- Tattoo of MEN <MEN+5> (M. Def. +562 M. Skill Damage Received -1.5%) -->
 		<stats str="0" con="0" dex="0" int="0" men="5" wit="0" luc="0" cha="0" />
@@ -12300,6 +12696,8 @@
 		<classId>210</classId> <!-- WindSniper -->
 		<classId>211</classId> <!-- StormBlaster -->
 		<classId>220</classId> <!-- Vanguard Rider -->
+		<classId>224</classId> <!-- Assassin (male) -->
+		<classId>228</classId> <!-- Assassin (female) -->
 		<classId>88</classId> <!-- Duelist -->
 		<classId>89</classId> <!-- Dreadnought -->
 		<classId>90</classId> <!-- Phoenix Knight -->
@@ -12337,6 +12735,8 @@
 		<classId>210</classId> <!-- WindSniper -->
 		<classId>211</classId> <!-- StormBlaster -->
 		<classId>220</classId> <!-- Vanguard Rider -->
+		<classId>224</classId> <!-- Assassin (male) -->
+		<classId>228</classId> <!-- Assassin (female) -->
 	</henna>
 	<henna dyeId="439" dyeItemId="96452" dyeName="" patternLevel="18"> <!-- Tattoo of MEN <MEN+5> (M. Def. +600 M. Skill Damage Received -2%) -->
 		<stats str="0" con="0" dex="0" int="0" men="5" wit="0" luc="0" cha="0" />
@@ -12424,6 +12824,8 @@
 		<classId>210</classId> <!-- WindSniper -->
 		<classId>211</classId> <!-- StormBlaster -->
 		<classId>220</classId> <!-- Vanguard Rider -->
+		<classId>224</classId> <!-- Assassin (male) -->
+		<classId>228</classId> <!-- Assassin (female) -->
 		<classId>88</classId> <!-- Duelist -->
 		<classId>89</classId> <!-- Dreadnought -->
 		<classId>90</classId> <!-- Phoenix Knight -->
@@ -12461,6 +12863,8 @@
 		<classId>210</classId> <!-- WindSniper -->
 		<classId>211</classId> <!-- StormBlaster -->
 		<classId>220</classId> <!-- Vanguard Rider -->
+		<classId>224</classId> <!-- Assassin (male) -->
+		<classId>228</classId> <!-- Assassin (female) -->
 	</henna>
 	<henna dyeId="440" dyeItemId="96453" dyeName="" patternLevel="19"> <!-- Tattoo of MEN <MEN+5> (M. Def. +637 M. Skill Damage Received -3%) -->
 		<stats str="0" con="0" dex="0" int="0" men="5" wit="0" luc="0" cha="0" />
@@ -12548,6 +12952,8 @@
 		<classId>210</classId> <!-- WindSniper -->
 		<classId>211</classId> <!-- StormBlaster -->
 		<classId>220</classId> <!-- Vanguard Rider -->
+		<classId>224</classId> <!-- Assassin (male) -->
+		<classId>228</classId> <!-- Assassin (female) -->
 		<classId>88</classId> <!-- Duelist -->
 		<classId>89</classId> <!-- Dreadnought -->
 		<classId>90</classId> <!-- Phoenix Knight -->
@@ -12585,6 +12991,8 @@
 		<classId>210</classId> <!-- WindSniper -->
 		<classId>211</classId> <!-- StormBlaster -->
 		<classId>220</classId> <!-- Vanguard Rider -->
+		<classId>224</classId> <!-- Assassin (male) -->
+		<classId>228</classId> <!-- Assassin (female) -->
 	</henna>
 	<henna dyeId="441" dyeItemId="96454" dyeName="" patternLevel="20"> <!-- Tattoo of MEN <MEN+5> (M. Def. +675 M. Skill Damage Received -5%) -->
 		<stats str="0" con="0" dex="0" int="0" men="5" wit="0" luc="0" cha="0" />
@@ -12672,6 +13080,8 @@
 		<classId>210</classId> <!-- WindSniper -->
 		<classId>211</classId> <!-- StormBlaster -->
 		<classId>220</classId> <!-- Vanguard Rider -->
+		<classId>224</classId> <!-- Assassin (male) -->
+		<classId>228</classId> <!-- Assassin (female) -->
 		<classId>88</classId> <!-- Duelist -->
 		<classId>89</classId> <!-- Dreadnought -->
 		<classId>90</classId> <!-- Phoenix Knight -->
@@ -12709,6 +13119,8 @@
 		<classId>210</classId> <!-- WindSniper -->
 		<classId>211</classId> <!-- StormBlaster -->
 		<classId>220</classId> <!-- Vanguard Rider -->
+		<classId>224</classId> <!-- Assassin (male) -->
+		<classId>228</classId> <!-- Assassin (female) -->
 	</henna>
 	<henna dyeId="442" dyeItemId="96622" dyeName="" patternLevel="0"> <!-- Tattoo of WIT <WIT+1> () -->
 		<stats str="0" con="0" dex="0" int="0" men="0" wit="1" luc="0" cha="0" />
@@ -12796,6 +13208,8 @@
 		<classId>210</classId> <!-- WindSniper -->
 		<classId>211</classId> <!-- StormBlaster -->
 		<classId>220</classId> <!-- Vanguard Rider -->
+		<classId>224</classId> <!-- Assassin (male) -->
+		<classId>228</classId> <!-- Assassin (female) -->
 		<classId>88</classId> <!-- Duelist -->
 		<classId>89</classId> <!-- Dreadnought -->
 		<classId>90</classId> <!-- Phoenix Knight -->
@@ -12833,6 +13247,8 @@
 		<classId>210</classId> <!-- WindSniper -->
 		<classId>211</classId> <!-- StormBlaster -->
 		<classId>220</classId> <!-- Vanguard Rider -->
+		<classId>224</classId> <!-- Assassin (male) -->
+		<classId>228</classId> <!-- Assassin (female) -->
 	</henna>
 	<henna dyeId="443" dyeItemId="96455" dyeName="" patternLevel="1"> <!-- Tattoo of WIT <WIT+2> () -->
 		<stats str="0" con="0" dex="0" int="0" men="0" wit="2" luc="0" cha="0" />
@@ -12920,6 +13336,8 @@
 		<classId>210</classId> <!-- WindSniper -->
 		<classId>211</classId> <!-- StormBlaster -->
 		<classId>220</classId> <!-- Vanguard Rider -->
+		<classId>224</classId> <!-- Assassin (male) -->
+		<classId>228</classId> <!-- Assassin (female) -->
 		<classId>88</classId> <!-- Duelist -->
 		<classId>89</classId> <!-- Dreadnought -->
 		<classId>90</classId> <!-- Phoenix Knight -->
@@ -12957,6 +13375,8 @@
 		<classId>210</classId> <!-- WindSniper -->
 		<classId>211</classId> <!-- StormBlaster -->
 		<classId>220</classId> <!-- Vanguard Rider -->
+		<classId>224</classId> <!-- Assassin (male) -->
+		<classId>228</classId> <!-- Assassin (female) -->
 	</henna>
 	<henna dyeId="444" dyeItemId="96456" dyeName="" patternLevel="2"> <!-- Tattoo of WIT <WIT+3> () -->
 		<stats str="0" con="0" dex="0" int="0" men="0" wit="3" luc="0" cha="0" />
@@ -13045,6 +13465,8 @@
 		<classId>210</classId> <!-- WindSniper -->
 		<classId>211</classId> <!-- StormBlaster -->
 		<classId>220</classId> <!-- Vanguard Rider -->
+		<classId>224</classId> <!-- Assassin (male) -->
+		<classId>228</classId> <!-- Assassin (female) -->
 		<classId>88</classId> <!-- Duelist -->
 		<classId>89</classId> <!-- Dreadnought -->
 		<classId>90</classId> <!-- Phoenix Knight -->
@@ -13082,6 +13504,8 @@
 		<classId>210</classId> <!-- WindSniper -->
 		<classId>211</classId> <!-- StormBlaster -->
 		<classId>220</classId> <!-- Vanguard Rider -->
+		<classId>224</classId> <!-- Assassin (male) -->
+		<classId>228</classId> <!-- Assassin (female) -->
 	</henna>
 	<henna dyeId="445" dyeItemId="96457" dyeName="" patternLevel="3"> <!-- Tattoo of WIT <WIT+4> (M. Critical Rate Received -0.4%) -->
 		<stats str="0" con="0" dex="0" int="0" men="0" wit="4" luc="0" cha="0" />
@@ -13169,6 +13593,8 @@
 		<classId>210</classId> <!-- WindSniper -->
 		<classId>211</classId> <!-- StormBlaster -->
 		<classId>220</classId> <!-- Vanguard Rider -->
+		<classId>224</classId> <!-- Assassin (male) -->
+		<classId>228</classId> <!-- Assassin (female) -->
 		<classId>88</classId> <!-- Duelist -->
 		<classId>89</classId> <!-- Dreadnought -->
 		<classId>90</classId> <!-- Phoenix Knight -->
@@ -13206,6 +13632,8 @@
 		<classId>210</classId> <!-- WindSniper -->
 		<classId>211</classId> <!-- StormBlaster -->
 		<classId>220</classId> <!-- Vanguard Rider -->
+		<classId>224</classId> <!-- Assassin (male) -->
+		<classId>228</classId> <!-- Assassin (female) -->
 	</henna>
 	<henna dyeId="446" dyeItemId="96458" dyeName="" patternLevel="4"> <!-- Tattoo of WIT <WIT+4> (M. Critical Rate Received -0.8%) -->
 		<stats str="0" con="0" dex="0" int="0" men="0" wit="4" luc="0" cha="0" />
@@ -13293,6 +13721,8 @@
 		<classId>210</classId> <!-- WindSniper -->
 		<classId>211</classId> <!-- StormBlaster -->
 		<classId>220</classId> <!-- Vanguard Rider -->
+		<classId>224</classId> <!-- Assassin (male) -->
+		<classId>228</classId> <!-- Assassin (female) -->
 		<classId>88</classId> <!-- Duelist -->
 		<classId>89</classId> <!-- Dreadnought -->
 		<classId>90</classId> <!-- Phoenix Knight -->
@@ -13330,6 +13760,8 @@
 		<classId>210</classId> <!-- WindSniper -->
 		<classId>211</classId> <!-- StormBlaster -->
 		<classId>220</classId> <!-- Vanguard Rider -->
+		<classId>224</classId> <!-- Assassin (male) -->
+		<classId>228</classId> <!-- Assassin (female) -->
 	</henna>
 	<henna dyeId="447" dyeItemId="96459" dyeName="" patternLevel="5"> <!-- Tattoo of WIT <WIT+4> (M. Critical Rate Received -1.2%) -->
 		<stats str="0" con="0" dex="0" int="0" men="0" wit="4" luc="0" cha="0" />
@@ -13417,6 +13849,8 @@
 		<classId>210</classId> <!-- WindSniper -->
 		<classId>211</classId> <!-- StormBlaster -->
 		<classId>220</classId> <!-- Vanguard Rider -->
+		<classId>224</classId> <!-- Assassin (male) -->
+		<classId>228</classId> <!-- Assassin (female) -->
 		<classId>88</classId> <!-- Duelist -->
 		<classId>89</classId> <!-- Dreadnought -->
 		<classId>90</classId> <!-- Phoenix Knight -->
@@ -13454,6 +13888,8 @@
 		<classId>210</classId> <!-- WindSniper -->
 		<classId>211</classId> <!-- StormBlaster -->
 		<classId>220</classId> <!-- Vanguard Rider -->
+		<classId>224</classId> <!-- Assassin (male) -->
+		<classId>228</classId> <!-- Assassin (female) -->
 	</henna>
 	<henna dyeId="448" dyeItemId="96460" dyeName="" patternLevel="6"> <!-- Tattoo of WIT <WIT+4> (M. Critical Rate Received -1.6%) -->
 		<stats str="0" con="0" dex="0" int="0" men="0" wit="4" luc="0" cha="0" />
@@ -13541,6 +13977,8 @@
 		<classId>210</classId> <!-- WindSniper -->
 		<classId>211</classId> <!-- StormBlaster -->
 		<classId>220</classId> <!-- Vanguard Rider -->
+		<classId>224</classId> <!-- Assassin (male) -->
+		<classId>228</classId> <!-- Assassin (female) -->
 		<classId>88</classId> <!-- Duelist -->
 		<classId>89</classId> <!-- Dreadnought -->
 		<classId>90</classId> <!-- Phoenix Knight -->
@@ -13578,6 +14016,8 @@
 		<classId>210</classId> <!-- WindSniper -->
 		<classId>211</classId> <!-- StormBlaster -->
 		<classId>220</classId> <!-- Vanguard Rider -->
+		<classId>224</classId> <!-- Assassin (male) -->
+		<classId>228</classId> <!-- Assassin (female) -->
 	</henna>
 	<henna dyeId="449" dyeItemId="96461" dyeName="" patternLevel="7"> <!-- Tattoo of WIT <WIT+4> (M. Critical Rate Received -2.0%) -->
 		<stats str="0" con="0" dex="0" int="0" men="0" wit="4" luc="0" cha="0" />
@@ -13665,6 +14105,8 @@
 		<classId>210</classId> <!-- WindSniper -->
 		<classId>211</classId> <!-- StormBlaster -->
 		<classId>220</classId> <!-- Vanguard Rider -->
+		<classId>224</classId> <!-- Assassin (male) -->
+		<classId>228</classId> <!-- Assassin (female) -->
 		<classId>88</classId> <!-- Duelist -->
 		<classId>89</classId> <!-- Dreadnought -->
 		<classId>90</classId> <!-- Phoenix Knight -->
@@ -13702,6 +14144,8 @@
 		<classId>210</classId> <!-- WindSniper -->
 		<classId>211</classId> <!-- StormBlaster -->
 		<classId>220</classId> <!-- Vanguard Rider -->
+		<classId>224</classId> <!-- Assassin (male) -->
+		<classId>228</classId> <!-- Assassin (female) -->
 	</henna>
 	<henna dyeId="450" dyeItemId="96462" dyeName="" patternLevel="8"> <!-- Tattoo of WIT <WIT+4> (M. Critical Rate Received -2.4%) -->
 		<stats str="0" con="0" dex="0" int="0" men="0" wit="4" luc="0" cha="0" />
@@ -13789,6 +14233,8 @@
 		<classId>210</classId> <!-- WindSniper -->
 		<classId>211</classId> <!-- StormBlaster -->
 		<classId>220</classId> <!-- Vanguard Rider -->
+		<classId>224</classId> <!-- Assassin (male) -->
+		<classId>228</classId> <!-- Assassin (female) -->
 		<classId>88</classId> <!-- Duelist -->
 		<classId>89</classId> <!-- Dreadnought -->
 		<classId>90</classId> <!-- Phoenix Knight -->
@@ -13826,6 +14272,8 @@
 		<classId>210</classId> <!-- WindSniper -->
 		<classId>211</classId> <!-- StormBlaster -->
 		<classId>220</classId> <!-- Vanguard Rider -->
+		<classId>224</classId> <!-- Assassin (male) -->
+		<classId>228</classId> <!-- Assassin (female) -->
 	</henna>
 	<henna dyeId="451" dyeItemId="96463" dyeName="" patternLevel="9"> <!-- Tattoo of WIT <WIT+4> (M. Critical Rate Received -2.8%) -->
 		<stats str="0" con="0" dex="0" int="0" men="0" wit="4" luc="0" cha="0" />
@@ -13913,6 +14361,8 @@
 		<classId>210</classId> <!-- WindSniper -->
 		<classId>211</classId> <!-- StormBlaster -->
 		<classId>220</classId> <!-- Vanguard Rider -->
+		<classId>224</classId> <!-- Assassin (male) -->
+		<classId>228</classId> <!-- Assassin (female) -->
 		<classId>88</classId> <!-- Duelist -->
 		<classId>89</classId> <!-- Dreadnought -->
 		<classId>90</classId> <!-- Phoenix Knight -->
@@ -13950,6 +14400,8 @@
 		<classId>210</classId> <!-- WindSniper -->
 		<classId>211</classId> <!-- StormBlaster -->
 		<classId>220</classId> <!-- Vanguard Rider -->
+		<classId>224</classId> <!-- Assassin (male) -->
+		<classId>228</classId> <!-- Assassin (female) -->
 	</henna>
 	<henna dyeId="452" dyeItemId="96464" dyeName="" patternLevel="10"> <!-- Tattoo of WIT <WIT+4> (M. Critical Rate Received -3.2%) -->
 		<stats str="0" con="0" dex="0" int="0" men="0" wit="4" luc="0" cha="0" />
@@ -14037,6 +14489,8 @@
 		<classId>210</classId> <!-- WindSniper -->
 		<classId>211</classId> <!-- StormBlaster -->
 		<classId>220</classId> <!-- Vanguard Rider -->
+		<classId>224</classId> <!-- Assassin (male) -->
+		<classId>228</classId> <!-- Assassin (female) -->
 		<classId>88</classId> <!-- Duelist -->
 		<classId>89</classId> <!-- Dreadnought -->
 		<classId>90</classId> <!-- Phoenix Knight -->
@@ -14074,6 +14528,8 @@
 		<classId>210</classId> <!-- WindSniper -->
 		<classId>211</classId> <!-- StormBlaster -->
 		<classId>220</classId> <!-- Vanguard Rider -->
+		<classId>224</classId> <!-- Assassin (male) -->
+		<classId>228</classId> <!-- Assassin (female) -->
 	</henna>
 	<henna dyeId="453" dyeItemId="96465" dyeName="" patternLevel="11"> <!-- Tattoo of WIT <WIT+5> (M. Critical Rate Received -3.6%) -->
 		<stats str="0" con="0" dex="0" int="0" men="0" wit="5" luc="0" cha="0" />
@@ -14161,6 +14617,8 @@
 		<classId>210</classId> <!-- WindSniper -->
 		<classId>211</classId> <!-- StormBlaster -->
 		<classId>220</classId> <!-- Vanguard Rider -->
+		<classId>224</classId> <!-- Assassin (male) -->
+		<classId>228</classId> <!-- Assassin (female) -->
 		<classId>88</classId> <!-- Duelist -->
 		<classId>89</classId> <!-- Dreadnought -->
 		<classId>90</classId> <!-- Phoenix Knight -->
@@ -14198,6 +14656,8 @@
 		<classId>210</classId> <!-- WindSniper -->
 		<classId>211</classId> <!-- StormBlaster -->
 		<classId>220</classId> <!-- Vanguard Rider -->
+		<classId>224</classId> <!-- Assassin (male) -->
+		<classId>228</classId> <!-- Assassin (female) -->
 	</henna>
 	<henna dyeId="454" dyeItemId="96466" dyeName="" patternLevel="12"> <!-- Tattoo of WIT <WIT+5> (M. Critical Rate Received -4.0%) -->
 		<stats str="0" con="0" dex="0" int="0" men="0" wit="5" luc="0" cha="0" />
@@ -14285,6 +14745,8 @@
 		<classId>210</classId> <!-- WindSniper -->
 		<classId>211</classId> <!-- StormBlaster -->
 		<classId>220</classId> <!-- Vanguard Rider -->
+		<classId>224</classId> <!-- Assassin (male) -->
+		<classId>228</classId> <!-- Assassin (female) -->
 		<classId>88</classId> <!-- Duelist -->
 		<classId>89</classId> <!-- Dreadnought -->
 		<classId>90</classId> <!-- Phoenix Knight -->
@@ -14322,6 +14784,8 @@
 		<classId>210</classId> <!-- WindSniper -->
 		<classId>211</classId> <!-- StormBlaster -->
 		<classId>220</classId> <!-- Vanguard Rider -->
+		<classId>224</classId> <!-- Assassin (male) -->
+		<classId>228</classId> <!-- Assassin (female) -->
 	</henna>
 	<henna dyeId="455" dyeItemId="96467" dyeName="" patternLevel="13"> <!-- Tattoo of WIT <WIT+5> (M. Critical Rate Received -4.4%) -->
 		<stats str="0" con="0" dex="0" int="0" men="0" wit="5" luc="0" cha="0" />
@@ -14409,6 +14873,8 @@
 		<classId>210</classId> <!-- WindSniper -->
 		<classId>211</classId> <!-- StormBlaster -->
 		<classId>220</classId> <!-- Vanguard Rider -->
+		<classId>224</classId> <!-- Assassin (male) -->
+		<classId>228</classId> <!-- Assassin (female) -->
 		<classId>88</classId> <!-- Duelist -->
 		<classId>89</classId> <!-- Dreadnought -->
 		<classId>90</classId> <!-- Phoenix Knight -->
@@ -14446,6 +14912,8 @@
 		<classId>210</classId> <!-- WindSniper -->
 		<classId>211</classId> <!-- StormBlaster -->
 		<classId>220</classId> <!-- Vanguard Rider -->
+		<classId>224</classId> <!-- Assassin (male) -->
+		<classId>228</classId> <!-- Assassin (female) -->
 	</henna>
 	<henna dyeId="456" dyeItemId="96468" dyeName="" patternLevel="14"> <!-- Tattoo of WIT <WIT+5> (M. Critical Rate Received -4.8%) -->
 		<stats str="0" con="0" dex="0" int="0" men="0" wit="5" luc="0" cha="0" />
@@ -14533,6 +15001,8 @@
 		<classId>210</classId> <!-- WindSniper -->
 		<classId>211</classId> <!-- StormBlaster -->
 		<classId>220</classId> <!-- Vanguard Rider -->
+		<classId>224</classId> <!-- Assassin (male) -->
+		<classId>228</classId> <!-- Assassin (female) -->
 		<classId>88</classId> <!-- Duelist -->
 		<classId>89</classId> <!-- Dreadnought -->
 		<classId>90</classId> <!-- Phoenix Knight -->
@@ -14570,6 +15040,8 @@
 		<classId>210</classId> <!-- WindSniper -->
 		<classId>211</classId> <!-- StormBlaster -->
 		<classId>220</classId> <!-- Vanguard Rider -->
+		<classId>224</classId> <!-- Assassin (male) -->
+		<classId>228</classId> <!-- Assassin (female) -->
 	</henna>
 	<henna dyeId="457" dyeItemId="96469" dyeName="" patternLevel="15"> <!-- Tattoo of WIT <WIT+5> (M. Critical Rate Received -5.2%) -->
 		<stats str="0" con="0" dex="0" int="0" men="0" wit="5" luc="0" cha="0" />
@@ -14657,6 +15129,8 @@
 		<classId>210</classId> <!-- WindSniper -->
 		<classId>211</classId> <!-- StormBlaster -->
 		<classId>220</classId> <!-- Vanguard Rider -->
+		<classId>224</classId> <!-- Assassin (male) -->
+		<classId>228</classId> <!-- Assassin (female) -->
 		<classId>88</classId> <!-- Duelist -->
 		<classId>89</classId> <!-- Dreadnought -->
 		<classId>90</classId> <!-- Phoenix Knight -->
@@ -14694,6 +15168,8 @@
 		<classId>210</classId> <!-- WindSniper -->
 		<classId>211</classId> <!-- StormBlaster -->
 		<classId>220</classId> <!-- Vanguard Rider -->
+		<classId>224</classId> <!-- Assassin (male) -->
+		<classId>228</classId> <!-- Assassin (female) -->
 	</henna>
 	<henna dyeId="458" dyeItemId="96470" dyeName="" patternLevel="16"> <!-- Tattoo of WIT <WIT+5> (M. Critical Rate Received -5.6% Spiritshot Damage +1%) -->
 		<stats str="0" con="0" dex="0" int="0" men="0" wit="5" luc="0" cha="0" />
@@ -14781,6 +15257,8 @@
 		<classId>210</classId> <!-- WindSniper -->
 		<classId>211</classId> <!-- StormBlaster -->
 		<classId>220</classId> <!-- Vanguard Rider -->
+		<classId>224</classId> <!-- Assassin (male) -->
+		<classId>228</classId> <!-- Assassin (female) -->
 		<classId>88</classId> <!-- Duelist -->
 		<classId>89</classId> <!-- Dreadnought -->
 		<classId>90</classId> <!-- Phoenix Knight -->
@@ -14818,6 +15296,8 @@
 		<classId>210</classId> <!-- WindSniper -->
 		<classId>211</classId> <!-- StormBlaster -->
 		<classId>220</classId> <!-- Vanguard Rider -->
+		<classId>224</classId> <!-- Assassin (male) -->
+		<classId>228</classId> <!-- Assassin (female) -->
 	</henna>
 	<henna dyeId="459" dyeItemId="96471" dyeName="" patternLevel="17"> <!-- Tattoo of WIT <WIT+5> (M. Critical Rate Received -6.0% Spiritshot Damage +1.5%) -->
 		<stats str="0" con="0" dex="0" int="0" men="0" wit="5" luc="0" cha="0" />
@@ -14905,6 +15385,8 @@
 		<classId>210</classId> <!-- WindSniper -->
 		<classId>211</classId> <!-- StormBlaster -->
 		<classId>220</classId> <!-- Vanguard Rider -->
+		<classId>224</classId> <!-- Assassin (male) -->
+		<classId>228</classId> <!-- Assassin (female) -->
 		<classId>88</classId> <!-- Duelist -->
 		<classId>89</classId> <!-- Dreadnought -->
 		<classId>90</classId> <!-- Phoenix Knight -->
@@ -14942,6 +15424,8 @@
 		<classId>210</classId> <!-- WindSniper -->
 		<classId>211</classId> <!-- StormBlaster -->
 		<classId>220</classId> <!-- Vanguard Rider -->
+		<classId>224</classId> <!-- Assassin (male) -->
+		<classId>228</classId> <!-- Assassin (female) -->
 	</henna>
 	<henna dyeId="460" dyeItemId="96472" dyeName="" patternLevel="18"> <!-- Tattoo of WIT <WIT+5> (M. Critical Rate Received -6.4% Spiritshot Damage +2%) -->
 		<stats str="0" con="0" dex="0" int="0" men="0" wit="5" luc="0" cha="0" />
@@ -15029,6 +15513,8 @@
 		<classId>210</classId> <!-- WindSniper -->
 		<classId>211</classId> <!-- StormBlaster -->
 		<classId>220</classId> <!-- Vanguard Rider -->
+		<classId>224</classId> <!-- Assassin (male) -->
+		<classId>228</classId> <!-- Assassin (female) -->
 		<classId>88</classId> <!-- Duelist -->
 		<classId>89</classId> <!-- Dreadnought -->
 		<classId>90</classId> <!-- Phoenix Knight -->
@@ -15066,6 +15552,8 @@
 		<classId>210</classId> <!-- WindSniper -->
 		<classId>211</classId> <!-- StormBlaster -->
 		<classId>220</classId> <!-- Vanguard Rider -->
+		<classId>224</classId> <!-- Assassin (male) -->
+		<classId>228</classId> <!-- Assassin (female) -->
 	</henna>
 	<henna dyeId="461" dyeItemId="96473" dyeName="" patternLevel="19"> <!-- Tattoo of WIT <WIT+5> (M. Critical Rate Received -6.8% Spiritshot Damage +3%) -->
 		<stats str="0" con="0" dex="0" int="0" men="0" wit="5" luc="0" cha="0" />
@@ -15153,6 +15641,8 @@
 		<classId>210</classId> <!-- WindSniper -->
 		<classId>211</classId> <!-- StormBlaster -->
 		<classId>220</classId> <!-- Vanguard Rider -->
+		<classId>224</classId> <!-- Assassin (male) -->
+		<classId>228</classId> <!-- Assassin (female) -->
 		<classId>88</classId> <!-- Duelist -->
 		<classId>89</classId> <!-- Dreadnought -->
 		<classId>90</classId> <!-- Phoenix Knight -->
@@ -15190,6 +15680,8 @@
 		<classId>210</classId> <!-- WindSniper -->
 		<classId>211</classId> <!-- StormBlaster -->
 		<classId>220</classId> <!-- Vanguard Rider -->
+		<classId>224</classId> <!-- Assassin (male) -->
+		<classId>228</classId> <!-- Assassin (female) -->
 	</henna>
 	<henna dyeId="462" dyeItemId="96474" dyeName="" patternLevel="20"> <!-- Tattoo of WIT <WIT+5> (M. Critical Rate Received -7.2% Spiritshot Damage +4%) -->
 		<stats str="0" con="0" dex="0" int="0" men="0" wit="5" luc="0" cha="0" />
@@ -15277,6 +15769,8 @@
 		<classId>210</classId> <!-- WindSniper -->
 		<classId>211</classId> <!-- StormBlaster -->
 		<classId>220</classId> <!-- Vanguard Rider -->
+		<classId>224</classId> <!-- Assassin (male) -->
+		<classId>228</classId> <!-- Assassin (female) -->
 		<classId>88</classId> <!-- Duelist -->
 		<classId>89</classId> <!-- Dreadnought -->
 		<classId>90</classId> <!-- Phoenix Knight -->
@@ -15314,5 +15808,7 @@
 		<classId>210</classId> <!-- WindSniper -->
 		<classId>211</classId> <!-- StormBlaster -->
 		<classId>220</classId> <!-- Vanguard Rider -->
+		<classId>224</classId> <!-- Assassin (male) -->
+		<classId>228</classId> <!-- Assassin (female) -->
 	</henna>
 </list>

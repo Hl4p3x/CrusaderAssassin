@@ -320,7 +320,7 @@
 		<effectPoint>66</effectPoint>
 		<isMagic>1</isMagic>
 	</skill>
-	<skill id="16227" toLevel="1" name="Greater Recovery">
+	<skill id="16227" toLevel="1" name="Superior Recovery">
 		<icon>icon.skill0000</icon>
 		<operateType>A1</operateType>
 		<mpConsume>1</mpConsume>
@@ -428,32 +428,32 @@
 		<operateType>P</operateType>
 	</skill>
 	<skill id="16242" toLevel="1" name="Raid Boss (Lv. 88)">
-		<!-- The release of Punishment, the 6th Seal, renewed activity at the Altar of Shillien, from which rose Gagia the Bloody Earth Dragon. Borne of the essence of Shillien's blood, Gagia has the greatest resemblance to a true Earth Dragon among all of Shillien's offspring, and has an insatiable thirst for blood that spurs an instinctive attack on all living things in sight. -->
+		<!-- The Altar of Blood began to boil again after the destruction of the 6th Seal that symbolizes revenge. Bloody Dragon Gagia rose from its depths. Due to the blood's influence all Shillien's offspring look like dragons. They crave blood relentlessly attacking everyone who has it flowing in their veins. -->
 		<icon>icon.skillraid</icon>
 		<operateType>P</operateType>
 	</skill>
 	<skill id="16243" toLevel="1" name="Raid Boss (Lv. 88)">
-		<!-- The release of Punishment, the 6th Seal, renewed activity at the Altar of Shillien, from which rose Fardune the demon. Borne of the essence of Shillien's blood, Fardune has a close resemblance to Shillien's children, and has an insatiable thirst for blood. His first action upon waking was to gather up monsters in the Bloody Swampland and Altar of Evil areas and rule over the strong ones while slaughtering the rest to drink their blood. -->
+		<!-- The Altar of Blood began to boil again after the destruction of the 6th Seal that symbolizes revenge. Demon Fardune rose from its depths. Due to the blood's influence all Shillien's offspring look like dragons. They crave blood relentlessly attacking everyone who has it flowing in their veins. Fardune summoned monsters from Bloody Swampland and the Altar of Evil making some of them his minions while others fell victim to his thirst. -->
 		<icon>icon.skillraid</icon>
 		<operateType>P</operateType>
 	</skill>
 	<skill id="16244" toLevel="1" name="Raid Boss (Lv. 88)">
-		<!-- The release of Punishment, the 6th Seal, renewed activity at the Altar of Shillien, from which rose Harsia the demon. Borne of the essence of Shillien's blood, Harsia has a close resemblance to Shillien's children, and has an insatiable thirst for blood. Her first action upon waking was to gather up monsters in the Bloody Swampland and Altar of Evil areas and rule over the strong ones while slaughtering the rest to drink their blood. -->
+		<!-- The Altar of Blood began to boil again after the destruction of the 6th Seal that symbolizes revenge. Demon Harsia rose from its depths. Due to the blood's influence all Shillien's offspring look like dragons. They crave blood relentlessly attacking everyone who has it flowing in their veins. Harsia summoned monsters from Bloody Swampland and the Altar of Evil making some of them her minions while others fell victim to her thirst. -->
 		<icon>icon.skillraid</icon>
 		<operateType>P</operateType>
 	</skill>
 	<skill id="16245" toLevel="1" name="Raid Boss (Lv. 88)">
-		<!-- The release of Punishment, the 6th Seal, renewed activity at the Altar of Shillien, from which rose Bedukel the demon. Borne of the essence of Shillien's blood, Bedukel has a close resemblance to Shillien's children, and has an insatiable thirst for blood. His first action upon waking was to gather up monsters in the Bloody Swampland and Altar of Evil areas and rule over the strong ones while slaughtering the rest to drink their blood. -->
+		<!-- The Altar of Blood began to boil again after the destruction of the 6th Seal that symbolizes revenge. Demon Bedukel rose from its depths. Due to the blood's influence all Shillien's offspring look like dragons. They crave blood relentlessly attacking everyone who has it flowing in their veins. Bedukel summoned monsters from Bloody Swampland and the Altar of Evil making some of them his minions while others fell victim to his thirst. -->
 		<icon>icon.skillraid</icon>
 		<operateType>P</operateType>
 	</skill>
 	<skill id="16246" toLevel="1" name="Raid Boss (Lv. 88)">
-		<!-- The release of Punishment, the 6th Seal, renewed activity at the Altar of Shillien, from which rose Bloody Witch Rumilla. Borne of the essence of Shillien's blood, Rudmilla has a close resemblance to Shillien's children, and has an insatiable thirst for blood. Her first action upon waking was to gather up monsters in the Bloody Swampland and Altar of Evil areas and rule over the strong ones while slaughtering the rest to drink their blood. -->
+		<!-- The Altar of Blood began to boil again after the destruction of the 6th Seal that symbolizes revenge. Bloody Witch Rumilla rose from its depths. Due to the blood's influence all Shillien's offspring look like dragons. They crave blood relentlessly attacking everyone who has it flowing in their veins. Rumilla summoned monsters from Bloody Swampland and the Altar of Evil making some of them her minions while others fell victim to her thirst. -->
 		<icon>icon.skillraid</icon>
 		<operateType>P</operateType>
 	</skill>
 	<skill id="16247" toLevel="1" name="Raid Boss (Lv. 88)">
-		<!-- The release of Punishment, the 6th Seal, renewed activity at the Altar of Shillien. Having come into the material world through the blood flowing in the Altar of Blood, Shillien's Priest Sasia carries out the goddess' orders to watch the newly-created demons and guard a point in the great magic circle of living monsters. Sasia commands a circle of small dragons, given as gifts from Shillien's dragons. -->
+		<!-- The Altar of Blood began to boil again after the destruction of the 6th Seal that symbolizes revenge. Shillien's Priestess Sasia came to this world through the blood flowing from the Altar. She watches demons on the Altar of Blood, and her hordes of monsters guard large territory. Sasia made lesser dragons her servants. -->
 		<icon>icon.skillraid</icon>
 		<operateType>P</operateType>
 	</skill>
@@ -493,12 +493,12 @@
 		<operateType>P</operateType>
 	</skill>
 	<skill id="16255" toLevel="1" name="Raid Boss (Lv. 93)">
-		<!-- Tarstan was a sculpture in Orbis Temple, among the many that stylized male beauty. Ekidna, the disciple who symbolizes Shillien's masculine beauty, enslaved Tarstan and set him loose in Fairy Settlement, where he had snuck in under the guise of a beautiful Elf. Now a cursed puppet with glowing red eyes shedding tears of blood, Tarstan is a part of the magic circle of monsters, creating havoc in Magmeld. -->
+		<!-- Shillien's disciple Ekidna made some statues from the Orbis Temple into her slaves. Tarstan is a blood-eyed statue that symbolizes masculine beauty and power. Disguised as a handsome Elf, Ekidna made her way into Magmeld and gave the statue to Fairies. Tarstan's goal is to bring chaos to Magmeld and become one of the megaliths in the magic circle. -->
 		<icon>icon.skillraid</icon>
 		<operateType>P</operateType>
 	</skill>
 	<skill id="16256" toLevel="1" name="Raid Boss (Lv. 93)">
-		<!-- Abelsnif was a sculpture in Orbis Temple, among the many that stylized male beauty. Ekidna, the disciple who symbolizes Shillien's masculine beauty, enslaved Abelsnif and set him loose in Fairy Settlement, where he had snuck in under the guise of a beautiful Elf. Now a cursed puppet with glowing red eyes shedding tears of blood, Abelsnif is a part of the magic circle of monsters, creating havoc in Magmeld. -->
+		<!-- Shillien's disciple Ekidna made some statues from the Orbis Temple into her slaves. Abelsnif is a blood-eyed statue that symbolizes masculine beauty and power. Disguised as a handsome Elf, Ekidna made her way into Magmeld and gave the statue to Fairies. Abelsnif's goal is to bring chaos to Magmeld and become one of the megaliths in the magic circle. -->
 		<icon>icon.skillraid</icon>
 		<operateType>P</operateType>
 	</skill>
@@ -508,17 +508,17 @@
 		<operateType>P</operateType>
 	</skill>
 	<skill id="16258" toLevel="1" name="Raid Boss (Lv. 93)">
-		<!-- Kathargon was a sculpture in Orbis Temple, among the many that stylized male beauty. Ekidna, the disciple who symbolizes Shillien's masculine beauty, enslaved Kathargon and set him loose in Fairy Settlement, where he had snuck in under the guise of a beautiful Elf. Now a cursed puppet with glowing red eyes shedding tears of blood, Kathargon is a part of the magic circle of monsters, creating havoc in Magmeld. -->
+		<!-- Shillien's disciple Ekidna made some statues from the Orbis Temple into her slaves. Kathargon is a blood-eyed statue that symbolizes masculine beauty and power. Disguised as a handsome Elf, Ekidna made her way into Magmeld and gave the statue to Fairies. Kathargon's goal is to bring chaos to Magmeld and become one of the megaliths in the magic circle. -->
 		<icon>icon.skillraid</icon>
 		<operateType>P</operateType>
 	</skill>
 	<skill id="16259" toLevel="1" name="Raid Boss (Lv. 93)">
-		<!-- Pantasaus was a sculpture in Orbis Temple when Ekidna, the disciple who symbolizes Shillien's masculine beauty, mistook her for a sculpture of male beauty and set her loose in Fairy Settlement, where he had snuck in under the guise of a beautiful Elf. Now a cursed puppet with glowing red eyes shedding tears of blood, Pantasaus is a part of the magic circle of monsters, creating havoc in Magmeld. -->
+		<!-- Shillien's disciple Ekidna made some statues from the Orbis Temple into her slaves. Pantasaus is a blood-eyed statue that symbolizes feminine beauty. Disguised as a handsome Elf, Ekidna made her way into Magmeld and gave the statue to Fairies. Pantasaus' goal is to bring chaos to Magmeld and become one of the megaliths in the magic circle. -->
 		<icon>icon.skillraid</icon>
 		<operateType>P</operateType>
 	</skill>
 	<skill id="16260" toLevel="1" name="Raid Boss (Lv. 93)">
-		<!-- Ixignon was a sculpture in Orbis Temple, among the many that stylized male beauty. Ekidna, the disciple who symbolizes Shillien's masculine beauty, enslaved Ixignon and set him loose in Fairy Settlement, where he had snuck in under the guise of a beautiful Elf. Now a cursed puppet with glowing red eyes shedding tears of blood, Ixignon is a part of the magic circle of monsters, creating havoc in Magmeld. -->
+		<!-- Shillien's disciple Ekidna made some statues from the Orbis Temple into her slaves. Ixignon is a blood-eyed statue that symbolizes masculine beauty and power. Disguised as a handsome Elf, Ekidna made her way into Magmeld and gave the statue to Fairies. Ixignon's goal is to bring chaos to Magmeld and become one of the megaliths in the magic circle. -->
 		<icon>icon.skillraid</icon>
 		<operateType>P</operateType>
 	</skill>
@@ -593,7 +593,7 @@
 		<operateType>P</operateType>
 	</skill>
 	<skill id="16275" toLevel="1" name="Raid Boss (Lv. 97)">
-		<!-- A mechanical minion for Shillien's Disciple Garamor, Varvacion has landed in the material world by devouring the resentful soul and stealing the body of a peasant revolutionary in Dion. -->
+		<!-- Shillien's apostle who resurrected Garamor. Varbasion stole bodies and souls of peasants who started Dion's rebellion and used them to rise from his grave and take his current appearance. -->
 		<icon>icon.skillraid</icon>
 		<operateType>P</operateType>
 	</skill>
@@ -603,12 +603,12 @@
 		<operateType>P</operateType>
 	</skill>
 	<skill id="16277" toLevel="1" name="Raid Boss (Lv. 97)">
-		<!-- A mechanical minion for Shillien's Disciple Garamor, Varvinos has landed in the material world by devouring the resentful soul and stealing the body of a peasant revolutionary in Dion. Varvinos can command a large number of minions. -->
+		<!-- Shillien's apostle who resurrected Garamor. Varvinos stole bodies and souls of peasants who started Dion's rebellion and used them to rise from his grave and take his current appearance. Being higher-ranked than Varmoni, Varvinos has more servants. -->
 		<icon>icon.skillraid</icon>
 		<operateType>P</operateType>
 	</skill>
 	<skill id="16278" toLevel="1" name="Raid Boss (Lv. 97)">
-		<!-- A mechanical minion for Shillien's Disciple Garamor, Varmonia has landed in the material world by devouring the resentful soul and stealing the body of a peasant revolutionary in Dion. Varmonia can command a large number of minions. -->
+		<!-- Shillien's apostle who resurrected Garamor. Varmonia stole bodies and souls of peasants who started Dion's rebellion and used them to rise from his grave and take his current appearance. Being higher-ranked than Varvinos, Varmonia has more servants. -->
 		<icon>icon.skillraid</icon>
 		<operateType>P</operateType>
 	</skill>

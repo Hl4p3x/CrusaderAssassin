@@ -290,7 +290,7 @@
 		<set name="is_stackable" val="true" />
 	</item>
 	<item id="8765" name="Red Gem" type="EtcItem">
-		<!-- Red gems which Warehouse Chief Klump collects in Aden. Bring 100 or more gems to him, and he will play a card game with you. -->
+		<!-- Shiny red gems, which are no more collected by Warehouse Chief Klump of Town of Aden. You can sell them to NPC in any store. -->
 		<set name="icon" val="icon.ets_red_abead_i00" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="CRYSTAL" />

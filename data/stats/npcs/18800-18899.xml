@@ -4,7 +4,7 @@
 		<!-- AUTO GENERATED NPC TODO: FIX IT -->
 		<race>DIVINE</race>
 		<sex>MALE</sex>
-		<acquire exp="50430" sp="7565" />
+		<acquire exp="50430" sp="504" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="143036.70886" hpRegen="10.2" mp="11290.8" mpRegen="3.6" />
 			<attack physical="1688.456" magical="864.744" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
@@ -67,7 +67,7 @@
 		<race>DIVINE</race>
 		<sex>MALE</sex>
 		<equipment rhand="284" /> <!-- Dark Elven Longbow -->
-		<acquire exp="72250" sp="10838" />
+		<acquire exp="72250" sp="723" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="7000" hpRegen="10.2" mp="2365" mpRegen="3.6" />
 			<attack physical="2226.2521499701" magical="1520.24164482038" random="5" critical="8" accuracy="0" attackSpeed="253" type="BOW" range="1100" distance="10" width="0" />
@@ -93,7 +93,7 @@
 		<race>DIVINE</race>
 		<sex>MALE</sex>
 		<equipment rhand="66" /> <!-- Gladius -->
-		<acquire exp="72250" sp="10838" />
+		<acquire exp="72250" sp="723" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="7000" hpRegen="10.2" mp="2365" mpRegen="3.6" />
 			<attack physical="2226.2521499701" magical="1520.24164482038" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
@@ -119,7 +119,7 @@
 		<race>HUMANOID</race>
 		<sex>MALE</sex>
 		<equipment rhand="95430" /> <!-- Monster Only: Dragon Infantryman Sword - Not Available -->
-		<acquire exp="72250" sp="10838" />
+		<acquire exp="72250" sp="723" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="7000" hpRegen="10.2" mp="2365" mpRegen="3.6" />
 			<attack physical="2226.2521499701" magical="1520.24164482038" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
@@ -145,7 +145,7 @@
 		<race>HUMANOID</race>
 		<sex>MALE</sex>
 		<equipment rhand="5798" /> <!-- Tomb Savant B - Not Available -->
-		<acquire exp="72250" sp="10838" />
+		<acquire exp="72250" sp="723" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="7000" hpRegen="10.2" mp="2365" mpRegen="3.6" />
 			<attack physical="2226.2521499701" magical="1520.24164482038" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
@@ -194,7 +194,7 @@
 		<!-- AUTO GENERATED NPC TODO: FIX IT -->
 		<race>BEAST</race>
 		<sex>MALE</sex>
-		<acquire exp="18062500" sp="108375" />
+		<acquire exp="18062500" sp="180625" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="2764253.16456" hpRegen="10.2" mp="3349.6" mpRegen="3.6" />
 			<attack physical="2226.2521499701" magical="1520.24164482038" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
@@ -218,7 +218,7 @@
 		<!-- AUTO GENERATED NPC TODO: FIX IT -->
 		<race>BEAST</race>
 		<sex>MALE</sex>
-		<acquire exp="36125000" sp="216750" />
+		<acquire exp="36125000" sp="361250" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="2764253.16456" hpRegen="10.2" mp="3349.6" mpRegen="3.6" />
 			<attack physical="2226.2521499701" magical="1520.24164482038" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
@@ -242,7 +242,7 @@
 		<!-- AUTO GENERATED NPC TODO: FIX IT -->
 		<race>BEAST</race>
 		<sex>MALE</sex>
-		<acquire exp="72250000" sp="433500" />
+		<acquire exp="72250000" sp="722500" />
 		<stats str="60" int="76" dex="73" wit="70" con="57" men="80">
 			<vitals hp="2426400" hpRegen="10.2" mp="3349.6" mpRegen="3.6" />
 			<attack physical="8905.0086" magical="6080.96658" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
@@ -370,7 +370,7 @@
 		<!-- AUTO GENERATED NPC TODO: FIX IT -->
 		<race>ETC</race>
 		<sex>MALE</sex>
-		<acquire exp="722500" sp="82785" />
+		<acquire exp="722500" sp="7225" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="143036.70886" hpRegen="10.2" mp="11290.8" mpRegen="3.6" />
 			<attack physical="2226.2521499701" magical="1520.24164482038" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
@@ -453,7 +453,7 @@
 		<race>HUMANOID</race>
 		<sex>MALE</sex>
 		<equipment rhand="38425" /> <!-- Monster Only: Amden Blunt Weapon - Not Available -->
-		<acquire exp="640000" sp="73332" />
+		<acquire exp="640000" sp="6400" />
 		<stats str="60" int="76" dex="73" wit="70" con="57" men="80">
 			<vitals hp="12640000" hpRegen="10.2" mp="11290.8" mpRegen="3.6" />
 			<attack physical="6211.456" magical="3181.216" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
@@ -479,7 +479,7 @@
 		<race>HUMANOID</race>
 		<sex>MALE</sex>
 		<equipment rhand="6719" /> <!-- Monster Only (Ketra Orc Chieftain) -->
-		<acquire exp="128000" sp="323" />
+		<acquire exp="128000" sp="1280" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="35000" hpRegen="10.2" mp="1507.8" mpRegen="3.6" />
 			<attack physical="1552.864" magical="795.304" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
@@ -505,7 +505,7 @@
 		<race>HUMANOID</race>
 		<sex>MALE</sex>
 		<equipment rhand="6719" /> <!-- Monster Only (Ketra Orc Chieftain) -->
-		<acquire exp="128000" sp="323" />
+		<acquire exp="128000" sp="1280" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="35000" hpRegen="10.2" mp="1507.8" mpRegen="3.6" />
 			<attack physical="1552.864" magical="795.304" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
@@ -531,7 +531,7 @@
 		<race>HUMANOID</race>
 		<sex>MALE</sex>
 		<equipment rhand="6719" /> <!-- Monster Only (Ketra Orc Chieftain) -->
-		<acquire exp="128000" sp="323" />
+		<acquire exp="128000" sp="1280" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="35000" hpRegen="10.2" mp="1507.8" mpRegen="3.6" />
 			<attack physical="1552.864" magical="795.304" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
@@ -556,7 +556,7 @@
 		<!-- AUTO GENERATED NPC TODO: FIX IT -->
 		<race>HUMANOID</race>
 		<sex>MALE</sex>
-		<acquire exp="57800" sp="3043" />
+		<acquire exp="57800" sp="578" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="35000" hpRegen="10.2" mp="1674.8" mpRegen="3.6" />
 			<attack physical="2226.2521499701" magical="1520.24164482038" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
@@ -581,7 +581,7 @@
 		<!-- AUTO GENERATED NPC TODO: FIX IT -->
 		<race>HUMANOID</race>
 		<sex>MALE</sex>
-		<acquire exp="57800" sp="3043" />
+		<acquire exp="57800" sp="578" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="35000" hpRegen="10.2" mp="1674.8" mpRegen="3.6" />
 			<attack physical="2226.2521499701" magical="1520.24164482038" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
@@ -606,7 +606,7 @@
 		<!-- AUTO GENERATED NPC TODO: FIX IT -->
 		<race>HUMANOID</race>
 		<sex>MALE</sex>
-		<acquire exp="57800" sp="3043" />
+		<acquire exp="57800" sp="578" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="35000" hpRegen="10.2" mp="1674.8" mpRegen="3.6" />
 			<attack physical="2226.2521499701" magical="1520.24164482038" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
@@ -761,7 +761,7 @@
 				<item id="95346" min="1" max="1" chance="0.138" /> <!-- Spellbook: Meteor -->
 				<item id="95347" min="1" max="1" chance="0.138" /> <!-- Spellbook: Rolling Dice -->
 				<item id="95354" min="1" max="1" chance="0.138" /> <!-- Spellbook: Dragon Strike -->
-				<item id="95861" min="1" max="1" chance="0.138" /> <!-- Spellbook: Mechanical Hero -->
+				<item id="95861" min="1" max="1" chance="0.138" /> <!-- Spellbook: Prime Master Transformation -->
 				<item id="96007" min="1" max="1" chance="8.33" /> <!-- Package: +5 Armor of Nightmare - Sealed -->
 				<item id="96008" min="1" max="1" chance="8.33" /> <!-- Package: +5 Helm of Nightmare (Heavy) - Sealed -->
 				<item id="96009" min="1" max="1" chance="8.33" /> <!-- Package: +5 Gauntlets of Nightmare (Heavy) - Sealed -->
@@ -844,7 +844,7 @@
 	<npc id="18828" level="88" type="Folk" name="Castle Teleport Device">
 		<!-- AUTO GENERATED NPC TODO: FIX IT -->
 		<race>ETC</race>
-		<sex>FEMALE</sex>
+		<sex>MALE</sex>
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="6593.67089" hpRegen="10.2" mp="1952.4" mpRegen="3.6" />
 			<attack physical="3057" magical="2087" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
@@ -864,7 +864,7 @@
 	<npc id="18829" level="88" type="Folk" name="Castle Teleport Device">
 		<!-- AUTO GENERATED NPC TODO: FIX IT -->
 		<race>ETC</race>
-		<sex>FEMALE</sex>
+		<sex>MALE</sex>
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="6593.67089" hpRegen="10.2" mp="1952.4" mpRegen="3.6" />
 			<attack physical="3057" magical="2087" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
@@ -881,10 +881,10 @@
 			<height normal="140" />
 		</collision>
 	</npc>
-	<npc id="18830" level="88" type="Folk" name="Invisible">
+	<npc id="18830" level="88" type="Folk" name="">
 		<!-- AUTO GENERATED NPC TODO: FIX IT -->
 		<race>ETC</race>
-		<sex>FEMALE</sex>
+		<sex>MALE</sex>
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="6593.67089" hpRegen="10.2" mp="1952.4" mpRegen="3.6" />
 			<attack physical="3057" magical="2087" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
@@ -901,7 +901,7 @@
 			<height normal="0.1" />
 		</collision>
 	</npc>
-	<npc id="18831" level="88" type="Folk" name="Fake Kelbim">
+	<npc id="18831" level="88" type="Folk" name="">
 		<!-- AUTO GENERATED NPC TODO: FIX IT -->
 		<race>ETC</race>
 		<sex>MALE</sex>
@@ -921,10 +921,10 @@
 			<height normal="34.5" />
 		</collision>
 	</npc>
-	<npc id="18832" level="88" type="Folk" name="For Presentation">
+	<npc id="18832" level="88" type="Folk" name="">
 		<!-- AUTO GENERATED NPC TODO: FIX IT -->
 		<race>ETC</race>
-		<sex>FEMALE</sex>
+		<sex>MALE</sex>
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="6593.67089" hpRegen="10.2" mp="1952.4" mpRegen="3.6" />
 			<attack physical="3057" magical="2087" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
@@ -988,21 +988,21 @@
 				<item id="94321" min="1" max="1" chance="0.4" /> <!-- Spellbook: Wild Beat -->
 				<item id="94322" min="1" max="1" chance="0.4" /> <!-- Spellbook: Crazy Waltz -->
 				<item id="94323" min="1" max="1" chance="0.4" /> <!-- Spellbook: Frantic Pace -->
-				<item id="94324" min="1" max="1" chance="0.01" /> <!-- Spellbook: Song of Earth -->
-				<item id="94325" min="1" max="1" chance="0.01" /> <!-- Spellbook: Song of Hunter -->
-				<item id="94326" min="1" max="1" chance="0.005" /> <!-- Spellbook: Dance of Warrior -->
-				<item id="94327" min="1" max="1" chance="0.005" /> <!-- Spellbook: Dance of Fire -->
+				<item id="94324" min="1" max="1" chance="0.01" /> <!-- Spellbook: Song of Earth Lv. 2 -->
+				<item id="94325" min="1" max="1" chance="0.01" /> <!-- Spellbook: Song of Hunter Lv. 2 -->
+				<item id="94326" min="1" max="1" chance="0.005" /> <!-- Spellbook: Dance of Warrior Lv. 2 -->
+				<item id="94327" min="1" max="1" chance="0.005" /> <!-- Spellbook: Dance of Fire Lv. 2 -->
 				<item id="94497" min="1" max="1" chance="0.4" /> <!-- Spellbook: Life Force Harmony -->
 				<item id="94499" min="1" max="1" chance="0.025" /> <!-- Spellbook: Titanic Weapon -->
 				<item id="94500" min="1" max="1" chance="0.005" /> <!-- Spellbook: Titanic Sweep -->
 				<item id="94501" min="1" max="1" chance="0.005" /> <!-- Spellbook: Titanic Break -->
-				<item id="94502" min="1" max="1" chance="0.025" /> <!-- Spellbook: Ogre Spirit Totem -->
-				<item id="94503" min="1" max="1" chance="0.025" /> <!-- Spellbook: Rabbit Spirit Totem -->
-				<item id="94504" min="1" max="1" chance="0.025" /> <!-- Spellbook: Puma Spirit Totem -->
+				<item id="94502" min="1" max="1" chance="0.025" /> <!-- Spellbook: Ogre Spirit Totem Lv. 2 -->
+				<item id="94503" min="1" max="1" chance="0.025" /> <!-- Spellbook: Rabbit Spirit Totem Lv. 2 -->
+				<item id="94504" min="1" max="1" chance="0.025" /> <!-- Spellbook: Puma Spirit Totem Lv. 2 -->
 				<item id="94505" min="1" max="1" chance="0.005" /> <!-- Spellbook: Burning Strike -->
 				<item id="94506" min="1" max="1" chance="0.025" /> <!-- Spellbook: Burning Assault -->
 				<item id="94507" min="1" max="1" chance="0.005" /> <!-- Spellbook: Armor Break -->
-				<item id="94669" min="1" max="1" chance="0.4" /> <!-- Spellbook: Pa'agrio's Medicine -->
+				<item id="94669" min="1" max="1" chance="0.4" /> <!-- Spellbook: Pa'agrio's Cure -->
 				<item id="94670" min="1" max="1" chance="0.005" /> <!-- Spellbook: Debuff Master -->
 				<item id="94671" min="1" max="1" chance="0.025" /> <!-- Spellbook: Flame Burst -->
 				<item id="94672" min="1" max="1" chance="0.025" /> <!-- Spellbook: Seal of Infection -->
@@ -1010,8 +1010,8 @@
 				<item id="94675" min="1" max="1" chance="0.025" /> <!-- Spellbook: Cold Flames -->
 				<item id="94676" min="1" max="1" chance="0.4" /> <!-- Spellbook: Chant of Healing -->
 				<item id="94806" min="1" max="1" chance="0.025" /> <!-- Spellbook: Flying Dagger -->
-				<item id="95348" min="1" max="1" chance="0.005" /> <!-- Spellbook: Song of Wind -->
-				<item id="95349" min="1" max="1" chance="0.005" /> <!-- Spellbook: Dance of Fury -->
+				<item id="95348" min="1" max="1" chance="0.005" /> <!-- Spellbook: Song of Wind Lv. 2 -->
+				<item id="95349" min="1" max="1" chance="0.005" /> <!-- Spellbook: Dance of Fury Lv. 2 -->
 				<item id="95350" min="1" max="1" chance="0.005" /> <!-- Spellbook: Goring Charge -->
 				<item id="95352" min="1" max="1" chance="0.005" /> <!-- Spellbook: Elemental Changing -->
 				<item id="95356" min="1" max="1" chance="0.025" /> <!-- Spellbook: Extra Hit -->
@@ -1026,7 +1026,7 @@
 				<item id="95859" min="1" max="1" chance="0.025" /> <!-- Spellbook: Adena Stun -->
 				<item id="95860" min="1" max="1" chance="0.025" /> <!-- Spellbook: Life Gain -->
 				<item id="95862" min="1" max="1" chance="0.005" /> <!-- Spellbook: Mechanical Masterpiece -->
-				<item id="95863" min="1" max="1" chance="0.005" /> <!-- Spellbook: Blacksmith's Attack -->
+				<item id="95863" min="1" max="1" chance="0.005" /> <!-- Spellbook: Blacksmith' Attack -->
 				<item id="96037" min="1" max="1" chance="0.005" /> <!-- Spellbook: Sensation -->
 				<item id="96038" min="1" max="1" chance="0.025" /> <!-- Spellbook: Balanced Body -->
 				<item id="96039" min="1" max="1" chance="0.025" /> <!-- Spellbook: Advanced Cleanse -->
@@ -1228,21 +1228,21 @@
 				<item id="94321" min="1" max="1" chance="0.4" /> <!-- Spellbook: Wild Beat -->
 				<item id="94322" min="1" max="1" chance="0.4" /> <!-- Spellbook: Crazy Waltz -->
 				<item id="94323" min="1" max="1" chance="0.4" /> <!-- Spellbook: Frantic Pace -->
-				<item id="94324" min="1" max="1" chance="0.01" /> <!-- Spellbook: Song of Earth -->
-				<item id="94325" min="1" max="1" chance="0.01" /> <!-- Spellbook: Song of Hunter -->
-				<item id="94326" min="1" max="1" chance="0.005" /> <!-- Spellbook: Dance of Warrior -->
-				<item id="94327" min="1" max="1" chance="0.005" /> <!-- Spellbook: Dance of Fire -->
+				<item id="94324" min="1" max="1" chance="0.01" /> <!-- Spellbook: Song of Earth Lv. 2 -->
+				<item id="94325" min="1" max="1" chance="0.01" /> <!-- Spellbook: Song of Hunter Lv. 2 -->
+				<item id="94326" min="1" max="1" chance="0.005" /> <!-- Spellbook: Dance of Warrior Lv. 2 -->
+				<item id="94327" min="1" max="1" chance="0.005" /> <!-- Spellbook: Dance of Fire Lv. 2 -->
 				<item id="94497" min="1" max="1" chance="0.4" /> <!-- Spellbook: Life Force Harmony -->
 				<item id="94499" min="1" max="1" chance="0.025" /> <!-- Spellbook: Titanic Weapon -->
 				<item id="94500" min="1" max="1" chance="0.005" /> <!-- Spellbook: Titanic Sweep -->
 				<item id="94501" min="1" max="1" chance="0.005" /> <!-- Spellbook: Titanic Break -->
-				<item id="94502" min="1" max="1" chance="0.025" /> <!-- Spellbook: Ogre Spirit Totem -->
-				<item id="94503" min="1" max="1" chance="0.025" /> <!-- Spellbook: Rabbit Spirit Totem -->
-				<item id="94504" min="1" max="1" chance="0.025" /> <!-- Spellbook: Puma Spirit Totem -->
+				<item id="94502" min="1" max="1" chance="0.025" /> <!-- Spellbook: Ogre Spirit Totem Lv. 2 -->
+				<item id="94503" min="1" max="1" chance="0.025" /> <!-- Spellbook: Rabbit Spirit Totem Lv. 2 -->
+				<item id="94504" min="1" max="1" chance="0.025" /> <!-- Spellbook: Puma Spirit Totem Lv. 2 -->
 				<item id="94505" min="1" max="1" chance="0.005" /> <!-- Spellbook: Burning Strike -->
 				<item id="94506" min="1" max="1" chance="0.025" /> <!-- Spellbook: Burning Assault -->
 				<item id="94507" min="1" max="1" chance="0.005" /> <!-- Spellbook: Armor Break -->
-				<item id="94669" min="1" max="1" chance="0.4" /> <!-- Spellbook: Pa'agrio's Medicine -->
+				<item id="94669" min="1" max="1" chance="0.4" /> <!-- Spellbook: Pa'agrio's Cure -->
 				<item id="94670" min="1" max="1" chance="0.005" /> <!-- Spellbook: Debuff Master -->
 				<item id="94671" min="1" max="1" chance="0.025" /> <!-- Spellbook: Flame Burst -->
 				<item id="94672" min="1" max="1" chance="0.025" /> <!-- Spellbook: Seal of Infection -->
@@ -1250,8 +1250,8 @@
 				<item id="94675" min="1" max="1" chance="0.025" /> <!-- Spellbook: Cold Flames -->
 				<item id="94676" min="1" max="1" chance="0.4" /> <!-- Spellbook: Chant of Healing -->
 				<item id="94806" min="1" max="1" chance="0.025" /> <!-- Spellbook: Flying Dagger -->
-				<item id="95348" min="1" max="1" chance="0.005" /> <!-- Spellbook: Song of Wind -->
-				<item id="95349" min="1" max="1" chance="0.005" /> <!-- Spellbook: Dance of Fury -->
+				<item id="95348" min="1" max="1" chance="0.005" /> <!-- Spellbook: Song of Wind Lv. 2 -->
+				<item id="95349" min="1" max="1" chance="0.005" /> <!-- Spellbook: Dance of Fury Lv. 2 -->
 				<item id="95350" min="1" max="1" chance="0.005" /> <!-- Spellbook: Goring Charge -->
 				<item id="95352" min="1" max="1" chance="0.005" /> <!-- Spellbook: Elemental Changing -->
 				<item id="95356" min="1" max="1" chance="0.025" /> <!-- Spellbook: Extra Hit -->
@@ -1266,7 +1266,7 @@
 				<item id="95859" min="1" max="1" chance="0.025" /> <!-- Spellbook: Adena Stun -->
 				<item id="95860" min="1" max="1" chance="0.025" /> <!-- Spellbook: Life Gain -->
 				<item id="95862" min="1" max="1" chance="0.005" /> <!-- Spellbook: Mechanical Masterpiece -->
-				<item id="95863" min="1" max="1" chance="0.005" /> <!-- Spellbook: Blacksmith's Attack -->
+				<item id="95863" min="1" max="1" chance="0.005" /> <!-- Spellbook: Blacksmith' Attack -->
 				<item id="96007" min="1" max="1" chance="4.17" /> <!-- Package: +5 Armor of Nightmare - Sealed -->
 				<item id="96008" min="1" max="1" chance="4.17" /> <!-- Package: +5 Helm of Nightmare (Heavy) - Sealed -->
 				<item id="96009" min="1" max="1" chance="4.17" /> <!-- Package: +5 Gauntlets of Nightmare (Heavy) - Sealed -->
@@ -1445,7 +1445,7 @@
 			<drop>
 				<item id="93933" min="1" max="1" chance="30" /> <!-- Rare Accessory Pack - Sealed -->
 				<item id="95354" min="1" max="1" chance="0.062" /> <!-- Spellbook: Dragon Strike -->
-				<item id="95861" min="1" max="1" chance="0.058" /> <!-- Spellbook: Mechanical Hero -->
+				<item id="95861" min="1" max="1" chance="0.058" /> <!-- Spellbook: Prime Master Transformation -->
 				<item id="96289" min="1" max="1" chance="0.054" /> <!-- Spellbook: Phoenix Shield -->
 				<item id="96291" min="1" max="1" chance="0.054" /> <!-- Spellbook: Hell -->
 				<item id="96293" min="1" max="1" chance="0.054" /> <!-- Spellbook: Shelter -->
@@ -1545,7 +1545,7 @@
 				<item id="95346" min="1" max="1" chance="0.138" /> <!-- Spellbook: Meteor -->
 				<item id="95347" min="1" max="1" chance="0.138" /> <!-- Spellbook: Rolling Dice -->
 				<item id="95354" min="1" max="1" chance="0.138" /> <!-- Spellbook: Dragon Strike -->
-				<item id="95861" min="1" max="1" chance="0.138" /> <!-- Spellbook: Mechanical Hero -->
+				<item id="95861" min="1" max="1" chance="0.138" /> <!-- Spellbook: Prime Master Transformation -->
 				<item id="96006" min="1" max="1" chance="100" /> <!-- +5 Top-grade A-grade Weapon Pack - Sealed -->
 				<item id="96031" min="1" max="1" chance="16.7" /> <!-- Package: +5 Leather Armor of Lightning - Sealed -->
 				<item id="96032" min="1" max="1" chance="16.7" /> <!-- Package: +5 Leather Leggings of Lightning - Sealed -->
@@ -1729,10 +1729,10 @@
 				<item id="93869" min="1" max="1" chance="0.01" /> <!-- Spellbook: Elemental Burst -->
 				<item id="93870" min="1" max="1" chance="0.01" /> <!-- Spellbook: Ethereal Strike -->
 				<item id="94137" min="1" max="1" chance="0.01" /> <!-- Spellbook: Devour -->
-				<item id="94324" min="1" max="1" chance="0.01" /> <!-- Spellbook: Song of Earth -->
-				<item id="94325" min="1" max="1" chance="0.01" /> <!-- Spellbook: Song of Hunter -->
-				<item id="94326" min="1" max="1" chance="0.01" /> <!-- Spellbook: Dance of Warrior -->
-				<item id="94327" min="1" max="1" chance="0.01" /> <!-- Spellbook: Dance of Fire -->
+				<item id="94324" min="1" max="1" chance="0.01" /> <!-- Spellbook: Song of Earth Lv. 2 -->
+				<item id="94325" min="1" max="1" chance="0.01" /> <!-- Spellbook: Song of Hunter Lv. 2 -->
+				<item id="94326" min="1" max="1" chance="0.01" /> <!-- Spellbook: Dance of Warrior Lv. 2 -->
+				<item id="94327" min="1" max="1" chance="0.01" /> <!-- Spellbook: Dance of Fire Lv. 2 -->
 				<item id="94498" min="1" max="1" chance="0.004" /> <!-- Spellbook: Titan Champion -->
 				<item id="94500" min="1" max="1" chance="0.01" /> <!-- Spellbook: Titanic Sweep -->
 				<item id="94501" min="1" max="1" chance="0.01" /> <!-- Spellbook: Titanic Break -->
@@ -1748,14 +1748,14 @@
 				<item id="94863" min="1" max="1" chance="0.004" /> <!-- Spellbook: Dark Disruption -->
 				<item id="95346" min="1" max="1" chance="0.004" /> <!-- Spellbook: Meteor -->
 				<item id="95347" min="1" max="1" chance="0.004" /> <!-- Spellbook: Rolling Dice -->
-				<item id="95348" min="1" max="1" chance="0.01" /> <!-- Spellbook: Song of Wind -->
-				<item id="95349" min="1" max="1" chance="0.01" /> <!-- Spellbook: Dance of Fury -->
+				<item id="95348" min="1" max="1" chance="0.01" /> <!-- Spellbook: Song of Wind Lv. 2 -->
+				<item id="95349" min="1" max="1" chance="0.01" /> <!-- Spellbook: Dance of Fury Lv. 2 -->
 				<item id="95350" min="1" max="1" chance="0.01" /> <!-- Spellbook: Goring Charge -->
 				<item id="95352" min="1" max="1" chance="0.01" /> <!-- Spellbook: Elemental Changing -->
 				<item id="95365" min="1" max="1" chance="0.01" /> <!-- Spellbook: Elemental Spirit Lv. 4 -->
 				<item id="95856" min="1" max="1" chance="0.01" /> <!-- Spellbook: Fortune Time -->
 				<item id="95862" min="1" max="1" chance="0.01" /> <!-- Spellbook: Mechanical Masterpiece -->
-				<item id="95863" min="1" max="1" chance="0.01" /> <!-- Spellbook: Blacksmith's Attack -->
+				<item id="95863" min="1" max="1" chance="0.01" /> <!-- Spellbook: Blacksmith' Attack -->
 				<item id="96037" min="1" max="1" chance="0.01" /> <!-- Spellbook: Sensation -->
 				<item id="96040" min="1" max="1" chance="0.009" /> <!-- Spellbook: Treatment -->
 				<item id="96043" min="1" max="1" chance="0.009" /> <!-- Spellbook: Duress -->
@@ -1918,7 +1918,7 @@
 		<!-- AUTO GENERATED NPC TODO: FIX IT -->
 		<race>ETC</race>
 		<sex>MALE</sex>
-		<acquire exp="72250" sp="4234" />
+		<acquire exp="72250" sp="723" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="11087.7135" hpRegen="10.2" mp="2770.2" mpRegen="3.6" />
 			<attack physical="2226.2521499701" magical="1520.24164482038" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
@@ -1971,6 +1971,1299 @@
 		<collision>
 			<radius normal="0.1" />
 			<height normal="1" />
+		</collision>
+	</npc>
+	<npc id="18848" level="85" type="Folk" name="">
+		<!-- AUTO GENERATED NPC TODO: FIX IT -->
+		<race>ETC</race>
+		<sex>FEMALE</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="3038" hpRegen="10.5" mp="1674" mpRegen="3.6" />
+			<speed>
+				<walk ground="1" />
+				<run ground="120" />
+			</speed>
+			<attack physical="1950.2231755595" magical="1331.5869440987" critical="4" attackSpeed="253" range="40" />
+			<defence physical="405.85106382979" magical="297.0297029703" />
+		</stats>
+		<status attackable="false" />
+		<collision>
+			<radius normal="0.1" />
+			<height normal="0.1" />
+		</collision>
+	</npc>
+	<npc id="18849" level="84" type="Monster" name="Triol's Drone">
+		<!-- AUTO GENERATED NPC TODO: FIX IT -->
+		<race>ETC</race>
+		<sex>MALE</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="6036.77776769214" hpRegen="10.2" mp="1812" mpRegen="3.6" />
+			<attack physical="1949.95411856464" magical="1331.56588332443" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="405.66735" magical="296.84976" />
+			<speed>
+				<walk ground="80" />
+				<run ground="120" />
+			</speed>
+			<hitTime>600</hitTime>
+		</stats>
+		<status attackable="true" />
+		<collision>
+			<radius normal="8" />
+			<height normal="11.5" />
+		</collision>
+	</npc>
+	<npc id="18850" level="85" type="Folk" name="">
+		<!-- AUTO GENERATED NPC TODO: FIX IT -->
+		<race>ETC</race>
+		<sex>FEMALE</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="3296" hpRegen="10.5" mp="1952" mpRegen="3.6" />
+			<speed>
+				<walk ground="60" />
+				<run ground="120" />
+			</speed>
+			<attack physical="1950.2231755595" magical="1331.5869440987" critical="4" attackSpeed="253" range="40" />
+			<defence physical="405.85106382979" magical="297.0297029703" />
+		</stats>
+		<status attackable="false" />
+		<collision>
+			<radius normal="50" />
+			<height normal="350" />
+		</collision>
+	</npc>
+	<npc id="18851" level="88" type="Monster" name="Atelia">
+		<!-- AUTO GENERATED NPC TODO: FIX IT -->
+		<race>ETC</race>
+		<sex>MALE</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="6593.67089" hpRegen="10.2" mp="1952.4" mpRegen="3.6" />
+			<attack physical="3057" magical="2087" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="1829" magical="919" />
+			<speed>
+				<walk ground="60" />
+				<run ground="120" />
+			</speed>
+			<hitTime>600</hitTime>
+		</stats>
+		<status attackable="true" />
+		<collision>
+			<radius normal="25" />
+			<height normal="173.5" />
+		</collision>
+	</npc>
+	<npc id="18852" level="94" type="Monster" name="Kelbim" title="Castle Master">
+		<!-- AUTO GENERATED NPC TODO: FIX IT -->
+		<race>HUMANOID</race>
+		<sex>MALE</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="142405100" hpRegen="10.2" mp="18000" mpRegen="3.6" />
+			<attack physical="4719" magical="3221" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="3491" magical="1297" />
+			<speed>
+				<walk ground="60" />
+				<run ground="270" />
+			</speed>
+			<hitTime>600</hitTime>
+		</stats>
+		<status attackable="true" />
+		<collision>
+			<radius normal="30" />
+			<height normal="72" />
+		</collision>
+		<skillList>
+			<skill id="4416" level="6" /> <!-- Humanoids -->
+		</skillList>
+	</npc>
+	<npc id="18853" level="86" type="RaidBoss" name="Vanguard Commander" title="Kelbim's Legion">
+		<!-- AUTO GENERATED NPC TODO: FIX IT -->
+		<race>HUMANOID</race>
+		<sex>MALE</sex>
+		<stats str="60" int="76" dex="73" wit="70" con="57" men="80">
+			<vitals hp="37372.88889" hpRegen="10.2" mp="2770.2" mpRegen="3.6" />
+			<attack physical="10012" magical="6836" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="51" magical="3172" />
+			<speed>
+				<walk ground="60" />
+				<run ground="150" />
+			</speed>
+			<hitTime>600</hitTime>
+		</stats>
+		<status attackable="true" />
+		<collision>
+			<radius normal="36" />
+			<height normal="62" />
+		</collision>
+		<skillList>
+			<skill id="4494" level="1" /> <!-- Raid Boss -->
+			<skill id="4416" level="6" /> <!-- Humanoids -->
+		</skillList>
+		<dropLists>
+			<drop>
+				<item id="729" min="2" max="4" chance="20" /> <!-- Scroll: Enchant A-grade Weapon -->
+				<item id="730" min="2" max="4" chance="80" /> <!-- Scroll: Enchant A-grade Armor -->
+				<item id="93255" min="1" max="1" chance="3" /> <!-- Improved Scroll: Enchant A-grade Weapon -->
+				<item id="93256" min="1" max="1" chance="12" /> <!-- Improved Scroll: Enchant A-grade Armor -->
+				<item id="94186" min="1" max="1" chance="6" /> <!-- Augmenting Stone: Weapon -->
+				<item id="94188" min="1" max="1" chance="15" /> <!-- Augmenting Stone: Armor -->
+				<item id="94423" min="1" max="1" chance="9" /> <!-- Augmenting Stone: Accessory -->
+				<item id="95783" min="1" max="1" chance="20" /> <!-- Aden's Soul Crystal Lv. 1 - Weapon -->
+				<item id="96901" min="1" max="1" chance="80" /> <!-- Aden's Soul Crystal Lv. 1 - Armor -->
+				<item id="96623" min="1" max="1" chance="50" /> <!-- Dye Powder -->
+			</drop>
+		</dropLists>
+	</npc>
+	<npc id="18854" level="86" type="RaidBoss" name="Summoner Commander" title="Kelbim's Legion">
+		<!-- AUTO GENERATED NPC TODO: FIX IT -->
+		<race>HUMANOID</race>
+		<sex>MALE</sex>
+		<stats str="60" int="76" dex="73" wit="70" con="57" men="80">
+			<vitals hp="37372.88889" hpRegen="10.2" mp="2770.2" mpRegen="3.6" />
+			<attack physical="10012" magical="6836" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="51" magical="3172" />
+			<speed>
+				<walk ground="60" />
+				<run ground="150" />
+			</speed>
+			<hitTime>600</hitTime>
+		</stats>
+		<status attackable="true" />
+		<collision>
+			<radius normal="28" />
+			<height normal="59.5" />
+		</collision>
+		<skillList>
+			<skill id="4494" level="1" /> <!-- Raid Boss -->
+			<skill id="4416" level="6" /> <!-- Humanoids -->
+		</skillList>
+		<dropLists>
+			<drop>
+				<item id="729" min="2" max="4" chance="20" /> <!-- Scroll: Enchant A-grade Weapon -->
+				<item id="730" min="2" max="4" chance="80" /> <!-- Scroll: Enchant A-grade Armor -->
+				<item id="93255" min="1" max="1" chance="3" /> <!-- Improved Scroll: Enchant A-grade Weapon -->
+				<item id="93256" min="1" max="1" chance="12" /> <!-- Improved Scroll: Enchant A-grade Armor -->
+				<item id="94186" min="1" max="1" chance="6" /> <!-- Augmenting Stone: Weapon -->
+				<item id="94188" min="1" max="1" chance="15" /> <!-- Augmenting Stone: Armor -->
+				<item id="94423" min="1" max="1" chance="9" /> <!-- Augmenting Stone: Accessory -->
+				<item id="95783" min="1" max="1" chance="20" /> <!-- Aden's Soul Crystal Lv. 1 - Weapon -->
+				<item id="96901" min="1" max="1" chance="80" /> <!-- Aden's Soul Crystal Lv. 1 - Armor -->
+				<item id="96623" min="1" max="1" chance="50" /> <!-- Dye Powder -->
+			</drop>
+		</dropLists>
+	</npc>
+	<npc id="18855" level="86" type="RaidBoss" name="Wizard Commander" title="Kelbim's Legion">
+		<!-- AUTO GENERATED NPC TODO: FIX IT -->
+		<race>UNDEAD</race>
+		<sex>MALE</sex>
+		<stats str="60" int="76" dex="73" wit="70" con="57" men="80">
+			<vitals hp="37372.88889" hpRegen="10.2" mp="2770.2" mpRegen="3.6" />
+			<attack physical="10012" magical="6836" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="51" magical="3172" />
+			<speed>
+				<walk ground="50" />
+				<run ground="150" />
+			</speed>
+			<hitTime>600</hitTime>
+		</stats>
+		<status attackable="true" />
+		<collision>
+			<radius normal="42" />
+			<height normal="108" />
+		</collision>
+		<skillList>
+			<skill id="4494" level="1" /> <!-- Raid Boss -->
+			<skill id="4416" level="1" /> <!-- Undead -->
+		</skillList>
+		<dropLists>
+			<drop>
+				<item id="729" min="2" max="4" chance="20" /> <!-- Scroll: Enchant A-grade Weapon -->
+				<item id="730" min="2" max="4" chance="80" /> <!-- Scroll: Enchant A-grade Armor -->
+				<item id="93255" min="1" max="1" chance="3" /> <!-- Improved Scroll: Enchant A-grade Weapon -->
+				<item id="93256" min="1" max="1" chance="12" /> <!-- Improved Scroll: Enchant A-grade Armor -->
+				<item id="94186" min="1" max="1" chance="6" /> <!-- Augmenting Stone: Weapon -->
+				<item id="94188" min="1" max="1" chance="15" /> <!-- Augmenting Stone: Armor -->
+				<item id="94423" min="1" max="1" chance="9" /> <!-- Augmenting Stone: Accessory -->
+				<item id="95783" min="1" max="1" chance="20" /> <!-- Aden's Soul Crystal Lv. 1 - Weapon -->
+				<item id="96901" min="1" max="1" chance="80" /> <!-- Aden's Soul Crystal Lv. 1 - Armor -->
+				<item id="96623" min="1" max="1" chance="50" /> <!-- Dye Powder -->
+			</drop>
+		</dropLists>
+	</npc>
+	<npc id="18856" level="86" type="RaidBoss" name="Assaulter Commander" title="Kelbim's Legion">
+		<!-- AUTO GENERATED NPC TODO: FIX IT -->
+		<race>HUMANOID</race>
+		<sex>MALE</sex>
+		<stats str="60" int="76" dex="73" wit="70" con="57" men="80">
+			<vitals hp="37372.88889" hpRegen="10.2" mp="2770.2" mpRegen="3.6" />
+			<attack physical="10012" magical="6836" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="51" magical="3172" />
+			<speed>
+				<walk ground="60" />
+				<run ground="150" />
+			</speed>
+			<hitTime>600</hitTime>
+		</stats>
+		<status attackable="true" />
+		<collision>
+			<radius normal="43.2" />
+			<height normal="87" />
+		</collision>
+		<skillList>
+			<skill id="4494" level="1" /> <!-- Raid Boss -->
+			<skill id="4416" level="6" /> <!-- Humanoids -->
+		</skillList>
+		<dropLists>
+			<drop>
+				<item id="729" min="2" max="4" chance="20" /> <!-- Scroll: Enchant A-grade Weapon -->
+				<item id="730" min="2" max="4" chance="80" /> <!-- Scroll: Enchant A-grade Armor -->
+				<item id="93255" min="1" max="1" chance="3" /> <!-- Improved Scroll: Enchant A-grade Weapon -->
+				<item id="93256" min="1" max="1" chance="12" /> <!-- Improved Scroll: Enchant A-grade Armor -->
+				<item id="94186" min="1" max="1" chance="6" /> <!-- Augmenting Stone: Weapon -->
+				<item id="94188" min="1" max="1" chance="15" /> <!-- Augmenting Stone: Armor -->
+				<item id="94423" min="1" max="1" chance="9" /> <!-- Augmenting Stone: Accessory -->
+				<item id="95783" min="1" max="1" chance="20" /> <!-- Aden's Soul Crystal Lv. 1 - Weapon -->
+				<item id="96901" min="1" max="1" chance="80" /> <!-- Aden's Soul Crystal Lv. 1 - Armor -->
+				<item id="96623" min="1" max="1" chance="50" /> <!-- Dye Powder -->
+			</drop>
+		</dropLists>
+	</npc>
+	<npc id="18857" level="86" type="RaidBoss" name="Archer Commander" title="Kelbim's Legion">
+		<!-- AUTO GENERATED NPC TODO: FIX IT -->
+		<race>HUMANOID</race>
+		<sex>MALE</sex>
+		<stats str="60" int="76" dex="73" wit="70" con="57" men="80">
+			<vitals hp="37372.88889" hpRegen="10.2" mp="2770.2" mpRegen="3.6" />
+			<attack physical="10012" magical="6836" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="51" magical="3172" />
+			<speed>
+				<walk ground="40" />
+				<run ground="150" />
+			</speed>
+			<hitTime>600</hitTime>
+		</stats>
+		<status attackable="true" />
+		<collision>
+			<radius normal="12" />
+			<height normal="48" />
+		</collision>
+		<skillList>
+			<skill id="4494" level="1" /> <!-- Raid Boss -->
+			<skill id="4416" level="6" /> <!-- Humanoids -->
+		</skillList>
+		<dropLists>
+			<drop>
+				<item id="729" min="2" max="4" chance="20" /> <!-- Scroll: Enchant A-grade Weapon -->
+				<item id="730" min="2" max="4" chance="80" /> <!-- Scroll: Enchant A-grade Armor -->
+				<item id="93255" min="1" max="1" chance="3" /> <!-- Improved Scroll: Enchant A-grade Weapon -->
+				<item id="93256" min="1" max="1" chance="12" /> <!-- Improved Scroll: Enchant A-grade Armor -->
+				<item id="94186" min="1" max="1" chance="6" /> <!-- Augmenting Stone: Weapon -->
+				<item id="94188" min="1" max="1" chance="15" /> <!-- Augmenting Stone: Armor -->
+				<item id="94423" min="1" max="1" chance="9" /> <!-- Augmenting Stone: Accessory -->
+				<item id="95783" min="1" max="1" chance="20" /> <!-- Aden's Soul Crystal Lv. 1 - Weapon -->
+				<item id="96901" min="1" max="1" chance="80" /> <!-- Aden's Soul Crystal Lv. 1 - Armor -->
+				<item id="96623" min="1" max="1" chance="50" /> <!-- Dye Powder -->
+			</drop>
+		</dropLists>
+	</npc>
+	<npc id="18858" level="86" type="RaidBoss" name="Warrior Commmander" title="Kelbim's Legion">
+		<!-- AUTO GENERATED NPC TODO: FIX IT -->
+		<race>HUMANOID</race>
+		<sex>MALE</sex>
+		<stats str="60" int="76" dex="73" wit="70" con="57" men="80">
+			<vitals hp="37372.88889" hpRegen="10.2" mp="2770.2" mpRegen="3.6" />
+			<attack physical="10012" magical="6836" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="51" magical="3172" />
+			<speed>
+				<walk ground="40" />
+				<run ground="150" />
+			</speed>
+			<hitTime>600</hitTime>
+		</stats>
+		<status attackable="true" />
+		<collision>
+			<radius normal="12" />
+			<height normal="48" />
+		</collision>
+		<skillList>
+			<skill id="4494" level="1" /> <!-- Raid Boss -->
+			<skill id="4416" level="6" /> <!-- Humanoids -->
+		</skillList>
+		<dropLists>
+			<drop>
+				<item id="729" min="2" max="4" chance="20" /> <!-- Scroll: Enchant A-grade Weapon -->
+				<item id="730" min="2" max="4" chance="80" /> <!-- Scroll: Enchant A-grade Armor -->
+				<item id="93255" min="1" max="1" chance="3" /> <!-- Improved Scroll: Enchant A-grade Weapon -->
+				<item id="93256" min="1" max="1" chance="12" /> <!-- Improved Scroll: Enchant A-grade Armor -->
+				<item id="94186" min="1" max="1" chance="6" /> <!-- Augmenting Stone: Weapon -->
+				<item id="94188" min="1" max="1" chance="15" /> <!-- Augmenting Stone: Armor -->
+				<item id="94423" min="1" max="1" chance="9" /> <!-- Augmenting Stone: Accessory -->
+				<item id="95783" min="1" max="1" chance="20" /> <!-- Aden's Soul Crystal Lv. 1 - Weapon -->
+				<item id="96901" min="1" max="1" chance="80" /> <!-- Aden's Soul Crystal Lv. 1 - Armor -->
+				<item id="96623" min="1" max="1" chance="50" /> <!-- Dye Powder -->
+			</drop>
+		</dropLists>
+	</npc>
+	<npc id="18859" level="86" type="RaidBoss" name="Healer Commander" title="Kelbim's Legion">
+		<!-- AUTO GENERATED NPC TODO: FIX IT -->
+		<race>HUMAN</race>
+		<sex>MALE</sex>
+		<stats str="60" int="76" dex="73" wit="70" con="57" men="80">
+			<vitals hp="37372.88889" hpRegen="10.2" mp="2770.2" mpRegen="3.6" />
+			<attack physical="10012" magical="6836" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="51" magical="3172" />
+			<speed>
+				<walk ground="40" />
+				<run ground="150" />
+			</speed>
+			<hitTime>600</hitTime>
+		</stats>
+		<status attackable="true" />
+		<collision>
+			<radius normal="18" />
+			<height normal="47" />
+		</collision>
+		<skillList>
+			<skill id="4494" level="1" /> <!-- Raid Boss -->
+			<skill id="4416" level="14" /> <!-- Humans -->
+		</skillList>
+		<dropLists>
+			<drop>
+				<item id="729" min="2" max="4" chance="20" /> <!-- Scroll: Enchant A-grade Weapon -->
+				<item id="730" min="2" max="4" chance="80" /> <!-- Scroll: Enchant A-grade Armor -->
+				<item id="93255" min="1" max="1" chance="3" /> <!-- Improved Scroll: Enchant A-grade Weapon -->
+				<item id="93256" min="1" max="1" chance="12" /> <!-- Improved Scroll: Enchant A-grade Armor -->
+				<item id="94186" min="1" max="1" chance="6" /> <!-- Augmenting Stone: Weapon -->
+				<item id="94188" min="1" max="1" chance="15" /> <!-- Augmenting Stone: Armor -->
+				<item id="94423" min="1" max="1" chance="9" /> <!-- Augmenting Stone: Accessory -->
+				<item id="95783" min="1" max="1" chance="20" /> <!-- Aden's Soul Crystal Lv. 1 - Weapon -->
+				<item id="96901" min="1" max="1" chance="80" /> <!-- Aden's Soul Crystal Lv. 1 - Armor -->
+				<item id="96623" min="1" max="1" chance="50" /> <!-- Dye Powder -->
+			</drop>
+		</dropLists>
+	</npc>
+	<npc id="18860" level="92" type="RaidBoss" name="Vanguard Commander" title="Kelbim's Legion">
+		<!-- AUTO GENERATED NPC TODO: FIX IT -->
+		<race>HUMANOID</race>
+		<sex>MALE</sex>
+		<stats str="60" int="76" dex="73" wit="70" con="57" men="80">
+			<vitals hp="167392.88889" hpRegen="10.2" mp="2770.2" mpRegen="3.6" />
+			<attack physical="1666" magical="11372" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="11748" magical="4684" />
+			<speed>
+				<walk ground="60" />
+				<run ground="150" />
+			</speed>
+			<hitTime>600</hitTime>
+		</stats>
+		<status attackable="true" />
+		<collision>
+			<radius normal="36" />
+			<height normal="62" />
+		</collision>
+		<skillList>
+			<skill id="4494" level="1" /> <!-- Raid Boss -->
+			<skill id="4416" level="6" /> <!-- Humanoids -->
+		</skillList>
+		<dropLists>
+			<drop>
+				<item id="96623" min="1" max="1" chance="100" /> <!-- Dye Powder -->
+				<item id="98155" min="1" max="1" chance="5" /> <!-- Fortress Exploration Log - 3 (Time-limited) -->
+			</drop>
+		</dropLists>
+	</npc>
+	<npc id="18861" level="92" type="RaidBoss" name="Summoner Commander" title="Kelbim's Legion">
+		<!-- AUTO GENERATED NPC TODO: FIX IT -->
+		<race>HUMANOID</race>
+		<sex>MALE</sex>
+		<stats str="60" int="76" dex="73" wit="70" con="57" men="80">
+			<vitals hp="167392.88889" hpRegen="10.2" mp="2770.2" mpRegen="3.6" />
+			<attack physical="1666" magical="11372" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="11748" magical="4684" />
+			<speed>
+				<walk ground="60" />
+				<run ground="150" />
+			</speed>
+			<hitTime>600</hitTime>
+		</stats>
+		<status attackable="true" />
+		<collision>
+			<radius normal="28" />
+			<height normal="59.5" />
+		</collision>
+		<skillList>
+			<skill id="4494" level="1" /> <!-- Raid Boss -->
+			<skill id="4416" level="6" /> <!-- Humanoids -->
+		</skillList>
+		<dropLists>
+			<drop>
+				<item id="96623" min="1" max="1" chance="100" /> <!-- Dye Powder -->
+				<item id="98155" min="1" max="1" chance="5" /> <!-- Fortress Exploration Log - 3 (Time-limited) -->
+			</drop>
+		</dropLists>
+	</npc>
+	<npc id="18862" level="92" type="RaidBoss" name="Wizard Commander" title="Kelbim's Legion">
+		<!-- AUTO GENERATED NPC TODO: FIX IT -->
+		<race>UNDEAD</race>
+		<sex>MALE</sex>
+		<stats str="60" int="76" dex="73" wit="70" con="57" men="80">
+			<vitals hp="167392.88889" hpRegen="10.2" mp="2770.2" mpRegen="3.6" />
+			<attack physical="1666" magical="11372" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="11748" magical="4684" />
+			<speed>
+				<walk ground="50" />
+				<run ground="150" />
+			</speed>
+			<hitTime>600</hitTime>
+		</stats>
+		<status attackable="true" />
+		<collision>
+			<radius normal="42" />
+			<height normal="108" />
+		</collision>
+		<skillList>
+			<skill id="4494" level="1" /> <!-- Raid Boss -->
+			<skill id="4416" level="1" /> <!-- Undead -->
+		</skillList>
+		<dropLists>
+			<drop>
+				<item id="96623" min="1" max="1" chance="100" /> <!-- Dye Powder -->
+				<item id="98155" min="1" max="1" chance="5" /> <!-- Fortress Exploration Log - 3 (Time-limited) -->
+			</drop>
+		</dropLists>
+	</npc>
+	<npc id="18863" level="92" type="RaidBoss" name="Assaulter Commander" title="Kelbim's Legion">
+		<!-- AUTO GENERATED NPC TODO: FIX IT -->
+		<race>HUMANOID</race>
+		<sex>MALE</sex>
+		<stats str="60" int="76" dex="73" wit="70" con="57" men="80">
+			<vitals hp="167392.88889" hpRegen="10.2" mp="2770.2" mpRegen="3.6" />
+			<attack physical="1666" magical="11372" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="11748" magical="4684" />
+			<speed>
+				<walk ground="60" />
+				<run ground="150" />
+			</speed>
+			<hitTime>600</hitTime>
+		</stats>
+		<status attackable="true" />
+		<collision>
+			<radius normal="43.2" />
+			<height normal="87" />
+		</collision>
+		<skillList>
+			<skill id="4494" level="1" /> <!-- Raid Boss -->
+			<skill id="4416" level="6" /> <!-- Humanoids -->
+		</skillList>
+		<dropLists>
+			<drop>
+				<item id="96623" min="1" max="1" chance="100" /> <!-- Dye Powder -->
+				<item id="98155" min="1" max="1" chance="5" /> <!-- Fortress Exploration Log - 3 (Time-limited) -->
+			</drop>
+		</dropLists>
+	</npc>
+	<npc id="18864" level="92" type="RaidBoss" name="Archer Commander" title="Kelbim's Legion">
+		<!-- AUTO GENERATED NPC TODO: FIX IT -->
+		<race>HUMANOID</race>
+		<sex>MALE</sex>
+		<stats str="60" int="76" dex="73" wit="70" con="57" men="80">
+			<vitals hp="167392.88889" hpRegen="10.2" mp="2770.2" mpRegen="3.6" />
+			<attack physical="1666" magical="11372" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="11748" magical="4684" />
+			<speed>
+				<walk ground="40" />
+				<run ground="150" />
+			</speed>
+			<hitTime>600</hitTime>
+		</stats>
+		<status attackable="true" />
+		<collision>
+			<radius normal="12" />
+			<height normal="48" />
+		</collision>
+		<skillList>
+			<skill id="4494" level="1" /> <!-- Raid Boss -->
+			<skill id="4416" level="6" /> <!-- Humanoids -->
+		</skillList>
+		<dropLists>
+			<drop>
+				<item id="96623" min="1" max="1" chance="100" /> <!-- Dye Powder -->
+				<item id="98155" min="1" max="1" chance="5" /> <!-- Fortress Exploration Log - 3 (Time-limited) -->
+			</drop>
+		</dropLists>
+	</npc>
+	<npc id="18865" level="92" type="RaidBoss" name="Warrior Commmander" title="Kelbim's Legion">
+		<!-- AUTO GENERATED NPC TODO: FIX IT -->
+		<race>HUMANOID</race>
+		<sex>MALE</sex>
+		<stats str="60" int="76" dex="73" wit="70" con="57" men="80">
+			<vitals hp="167392.88889" hpRegen="10.2" mp="2770.2" mpRegen="3.6" />
+			<attack physical="1666" magical="11372" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="11748" magical="4684" />
+			<speed>
+				<walk ground="40" />
+				<run ground="150" />
+			</speed>
+			<hitTime>600</hitTime>
+		</stats>
+		<status attackable="true" />
+		<collision>
+			<radius normal="12" />
+			<height normal="48" />
+		</collision>
+		<skillList>
+			<skill id="4494" level="1" /> <!-- Raid Boss -->
+			<skill id="4416" level="6" /> <!-- Humanoids -->
+		</skillList>
+		<dropLists>
+			<drop>
+				<item id="96623" min="1" max="1" chance="100" /> <!-- Dye Powder -->
+				<item id="98155" min="1" max="1" chance="5" /> <!-- Fortress Exploration Log - 3 (Time-limited) -->
+			</drop>
+		</dropLists>
+	</npc>
+	<npc id="18866" level="92" type="RaidBoss" name="Healer Commander" title="Kelbim's Legion">
+		<!-- AUTO GENERATED NPC TODO: FIX IT -->
+		<race>HUMAN</race>
+		<sex>MALE</sex>
+		<stats str="60" int="76" dex="73" wit="70" con="57" men="80">
+			<vitals hp="167392.88889" hpRegen="10.2" mp="2770.2" mpRegen="3.6" />
+			<attack physical="1666" magical="11372" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="11748" magical="4684" />
+			<speed>
+				<walk ground="40" />
+				<run ground="150" />
+			</speed>
+			<hitTime>600</hitTime>
+		</stats>
+		<status attackable="true" />
+		<collision>
+			<radius normal="18" />
+			<height normal="47" />
+		</collision>
+		<skillList>
+			<skill id="4494" level="1" /> <!-- Raid Boss -->
+			<skill id="4416" level="14" /> <!-- Humans -->
+		</skillList>
+		<dropLists>
+			<drop>
+				<item id="96623" min="1" max="1" chance="100" /> <!-- Dye Powder -->
+				<item id="98155" min="1" max="1" chance="5" /> <!-- Fortress Exploration Log - 3 (Time-limited) -->
+			</drop>
+		</dropLists>
+	</npc>
+	<npc id="18867" level="86" type="Monster" name="Servitors" title="Summoner Commander">
+		<!-- AUTO GENERATED NPC TODO: FIX IT -->
+		<race>DEMONIC</race>
+		<sex>MALE</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="79831.64557" hpRegen="10.2" mp="2770.2" mpRegen="3.6" />
+			<attack physical="2503" magical="1709" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="1275" magical="793" />
+			<speed>
+				<walk ground="80" />
+				<run ground="150" />
+			</speed>
+			<hitTime>600</hitTime>
+		</stats>
+		<status attackable="true" />
+		<collision>
+			<radius normal="20" />
+			<height normal="63" />
+		</collision>
+		<skillList>
+			<skill id="4416" level="9" /> <!-- Demons -->
+		</skillList>
+	</npc>
+	<npc id="18868" level="92" type="Monster" name="Servitors" title="Summoner Commander">
+		<!-- AUTO GENERATED NPC TODO: FIX IT -->
+		<race>DEMONIC</race>
+		<sex>MALE</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="238375.94937" hpRegen="10.2" mp="2770.2" mpRegen="3.6" />
+			<attack physical="4165" magical="2843" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="2937" magical="1171" />
+			<speed>
+				<walk ground="80" />
+				<run ground="150" />
+			</speed>
+			<hitTime>600</hitTime>
+		</stats>
+		<status attackable="true" />
+		<collision>
+			<radius normal="20" />
+			<height normal="63" />
+		</collision>
+		<skillList>
+			<skill id="4416" level="9" /> <!-- Demons -->
+		</skillList>
+	</npc>
+	<npc id="18869" level="85" type="Folk" name="">
+		<!-- AUTO GENERATED NPC TODO: FIX IT -->
+		<race>ETC</race>
+		<sex>FEMALE</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="3296" hpRegen="10.5" mp="1952" mpRegen="3.6" />
+			<speed>
+				<walk ground="1" />
+				<run ground="120" />
+			</speed>
+			<attack physical="1950.2231755595" magical="1331.5869440987" critical="4" attackSpeed="253" range="40" />
+			<defence physical="405.85106382979" magical="297.0297029703" />
+		</stats>
+		<status attackable="false" />
+		<collision>
+			<radius normal="60" />
+			<height normal="39.2" />
+		</collision>
+	</npc>
+	<npc id="18870" level="85" type="Folk" name="Orc Seer" title="Wishing for Abundance">
+		<!-- AUTO GENERATED NPC TODO: FIX IT -->
+		<race>ETC</race>
+		<sex>FEMALE</sex>
+		<equipment rhand="7" /> <!-- Apprentice's Rod -->
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="35738" hpRegen="10.5" mp="11928" mpRegen="3.6" />
+			<speed>
+				<walk ground="45" />
+				<run ground="150" />
+			</speed>
+			<attack physical="1950.2231755595" magical="1331.5869440987" critical="4" attackSpeed="253" range="40" />
+			<defence physical="405.85106382979" magical="297.0297029703" />
+		</stats>
+		<status attackable="false" />
+		<collision>
+			<radius normal="27" />
+			<height normal="72" />
+		</collision>
+	</npc>
+	<npc id="18871" level="85" type="Folk" name="">
+		<!-- AUTO GENERATED NPC TODO: FIX IT -->
+		<race>ETC</race>
+		<sex>FEMALE</sex>
+		<equipment rhand="9" /> <!-- Cedar Staff -->
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="35738" hpRegen="10.5" mp="11928" mpRegen="3.6" />
+			<speed>
+				<walk ground="10" />
+				<run ground="150" />
+			</speed>
+			<attack physical="1950.2231755595" magical="1331.5869440987" critical="4" attackSpeed="253" range="40" />
+			<defence physical="405.85106382979" magical="297.0297029703" />
+		</stats>
+		<status attackable="false" />
+		<collision>
+			<radius normal="15" />
+			<height normal="36" />
+		</collision>
+	</npc>
+	<npc id="18872" level="83" type="RaidBoss" name="Kron" title="Revolutionary of Darkness">
+		<!-- AUTO GENERATED NPC TODO: FIX IT -->
+		<race>BEAST</race>
+		<sex>MALE</sex>
+		<stats str="60" int="76" dex="73" wit="70" con="57" men="80">
+			<vitals hp="67200000" hpRegen="10.2" mp="18000" mpRegen="3.6" />
+			<attack physical="7036.32" magical="3603.68" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="1698.52" magical="932.184" />
+			<speed>
+				<walk ground="63" />
+				<run ground="220" />
+			</speed>
+			<hitTime>600</hitTime>
+		</stats>
+		<status attackable="true" />
+		<collision>
+			<radius normal="50" />
+			<height normal="97" />
+		</collision>
+		<skillList>
+			<skill id="4494" level="1" /> <!-- Raid Boss -->
+			<skill id="4416" level="3" /> <!-- Beasts -->
+		</skillList>
+	</npc>
+	<npc id="18873" level="80" type="Monster" name="Warrior of Darkness">
+		<!-- AUTO GENERATED NPC TODO: FIX IT -->
+		<race>DEMONIC</race>
+		<sex>MALE</sex>
+		<acquire exp="667767" sp="6675" attributeExp="1040" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="12931.01266" hpRegen="10.2" mp="2227.484" mpRegen="3.6" />
+			<attack physical="1552.864" magical="795.304" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="409.65" magical="258.5499" />
+			<speed>
+				<walk ground="30" />
+				<run ground="130" />
+			</speed>
+			<hitTime>600</hitTime>
+		</stats>
+		<status attackable="true" />
+		<collision>
+			<radius normal="16.8" />
+			<height normal="33.6" />
+		</collision>
+		<skillList>
+			<skill id="4416" level="9" /> <!-- Demons -->
+		</skillList>
+	</npc>
+	<npc id="18874" level="80" type="Monster" name="Archer of Darkness">
+		<!-- AUTO GENERATED NPC TODO: FIX IT -->
+		<race>UNDEAD</race>
+		<sex>MALE</sex>
+		<acquire exp="667767" sp="6675" attributeExp="1040" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="12931.01266" hpRegen="10.2" mp="2227.484" mpRegen="3.6" />
+			<attack physical="1552.864" magical="795.304" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="409.65" magical="258.5499" />
+			<speed>
+				<walk ground="60" />
+				<run ground="180" />
+			</speed>
+			<hitTime>600</hitTime>
+		</stats>
+		<status attackable="true" />
+		<collision>
+			<radius normal="16.8" />
+			<height normal="32.4" />
+		</collision>
+		<skillList>
+			<skill id="4416" level="1" /> <!-- Undead -->
+		</skillList>
+	</npc>
+	<npc id="18875" level="80" type="Monster" name="Beast of Darkness">
+		<!-- AUTO GENERATED NPC TODO: FIX IT -->
+		<race>HUMANOID</race>
+		<sex>MALE</sex>
+		<acquire exp="667767" sp="6675" attributeExp="1040" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="12931.01266" hpRegen="10.2" mp="2227.484" mpRegen="3.6" />
+			<attack physical="1552.864" magical="795.304" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="409.65" magical="258.5499" />
+			<speed>
+				<walk ground="50" />
+				<run ground="145" />
+			</speed>
+			<hitTime>600</hitTime>
+		</stats>
+		<status attackable="true" />
+		<collision>
+			<radius normal="19.5" />
+			<height normal="43.15" />
+		</collision>
+		<skillList>
+			<skill id="4416" level="6" /> <!-- Humanoids -->
+		</skillList>
+	</npc>
+	<npc id="18876" level="85" type="Folk" name="">
+		<!-- AUTO GENERATED NPC TODO: FIX IT -->
+		<race>ETC</race>
+		<sex>FEMALE</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="3296" hpRegen="10.5" mp="1952" mpRegen="3.6" />
+			<speed>
+				<walk ground="1" />
+				<run ground="120" />
+			</speed>
+			<attack physical="1950.2231755595" magical="1331.5869440987" critical="4" attackSpeed="253" range="40" />
+			<defence physical="405.85106382979" magical="297.0297029703" />
+		</stats>
+		<status attackable="false" />
+		<collision>
+			<radius normal="0.1" />
+			<height normal="0.1" />
+		</collision>
+	</npc>
+	<npc id="18877" level="85" type="Folk" name="">
+		<!-- AUTO GENERATED NPC TODO: FIX IT -->
+		<race>ETC</race>
+		<sex>FEMALE</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="2916" hpRegen="10.5" mp="2512" mpRegen="3.6" />
+			<speed>
+				<walk ground="35" />
+				<run ground="120" />
+			</speed>
+			<attack physical="1950.2231755595" magical="1331.5869440987" critical="4" attackSpeed="253" range="40" />
+			<defence physical="405.85106382979" magical="297.0297029703" />
+		</stats>
+		<status attackable="false" />
+		<collision>
+			<radius normal="7" />
+			<height normal="60" />
+		</collision>
+	</npc>
+	<npc id="18878" level="85" type="Folk" name="">
+		<!-- AUTO GENERATED NPC TODO: FIX IT -->
+		<race>ETC</race>
+		<sex>FEMALE</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="2916" hpRegen="10.5" mp="2512" mpRegen="3.6" />
+			<speed>
+				<walk ground="35" />
+				<run ground="120" />
+			</speed>
+			<attack physical="1950.2231755595" magical="1331.5869440987" critical="4" attackSpeed="253" range="40" />
+			<defence physical="405.85106382979" magical="297.0297029703" />
+		</stats>
+		<status attackable="false" />
+		<collision>
+			<radius normal="7" />
+			<height normal="60" />
+		</collision>
+	</npc>
+	<npc id="18879" level="85" type="Folk" name="">
+		<!-- AUTO GENERATED NPC TODO: FIX IT -->
+		<race>ETC</race>
+		<sex>FEMALE</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="2916" hpRegen="10.5" mp="2512" mpRegen="3.6" />
+			<speed>
+				<walk ground="35" />
+				<run ground="120" />
+			</speed>
+			<attack physical="1950.2231755595" magical="1331.5869440987" critical="4" attackSpeed="253" range="40" />
+			<defence physical="405.85106382979" magical="297.0297029703" />
+		</stats>
+		<status attackable="false" />
+		<collision>
+			<radius normal="7" />
+			<height normal="60" />
+		</collision>
+	</npc>
+	<npc id="18880" level="80" type="Monster" name="Large Yellow Sky Lantern">
+		<!-- AUTO GENERATED NPC TODO: FIX IT -->
+		<race>ETC</race>
+		<sex>MALE</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="5833.5443" hpRegen="10.2" mp="2512.2" mpRegen="3.6" />
+			<attack physical="1552.864" magical="795.304" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="409.65" magical="258.5499" />
+			<speed>
+				<walk ground="35" />
+				<run ground="120" />
+			</speed>
+			<hitTime>600</hitTime>
+		</stats>
+		<status attackable="true" />
+		<collision>
+			<radius normal="14" />
+			<height normal="60" />
+		</collision>
+	</npc>
+	<npc id="18881" level="80" type="Monster" name="Red Sky Lantern">
+		<!-- AUTO GENERATED NPC TODO: FIX IT -->
+		<race>ETC</race>
+		<sex>MALE</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="5833.5443" hpRegen="10.2" mp="2512.2" mpRegen="3.6" />
+			<attack physical="1552.864" magical="795.304" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="409.65" magical="258.5499" />
+			<speed>
+				<walk ground="35" />
+				<run ground="120" />
+			</speed>
+			<hitTime>600</hitTime>
+		</stats>
+		<status attackable="true" />
+		<collision>
+			<radius normal="7" />
+			<height normal="60" />
+		</collision>
+	</npc>
+	<npc id="18882" level="80" type="Monster" name="Blue Sky Lantern">
+		<!-- AUTO GENERATED NPC TODO: FIX IT -->
+		<race>ETC</race>
+		<sex>MALE</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="5833.5443" hpRegen="10.2" mp="2512.2" mpRegen="3.6" />
+			<attack physical="1552.864" magical="795.304" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="409.65" magical="258.5499" />
+			<speed>
+				<walk ground="35" />
+				<run ground="120" />
+			</speed>
+			<hitTime>600</hitTime>
+		</stats>
+		<status attackable="true" />
+		<collision>
+			<radius normal="7" />
+			<height normal="60" />
+		</collision>
+	</npc>
+	<npc id="18883" level="85" type="Monster" name="Stupefied Count">
+		<!-- AUTO GENERATED NPC TODO: FIX IT -->
+		<race>DEMONIC</race>
+		<sex>MALE</sex>
+		<equipment rhand="98252" /> <!-- Monster Weapon_Monsters Only_Blood Sword Akamanah - Not Available -->
+		<acquire exp="136204" sp="1362" attributeExp="1105" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="5543.85675" hpRegen="10.2" mp="2770.2" mpRegen="3.6" />
+			<attack physical="2226.2521499701" magical="1520.24164482038" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="998.10183" magical="730.36761" />
+			<speed>
+				<walk ground="80" />
+				<run ground="120" />
+			</speed>
+			<hitTime>600</hitTime>
+		</stats>
+		<status attackable="true" />
+		<collision>
+			<radius normal="11" />
+			<height normal="36.30245" />
+		</collision>
+		<skillList>
+			<skill id="4416" level="9" /> <!-- Demons -->
+		</skillList>
+		<dropLists>
+			<drop>
+				<item id="57" min="372" max="411" chance="70" /> <!-- Adena -->
+			</drop>
+		</dropLists>
+	</npc>
+	<npc id="18884" level="85" type="Monster" name="Brainwashed Baron">
+		<!-- AUTO GENERATED NPC TODO: FIX IT -->
+		<race>DEMONIC</race>
+		<sex>MALE</sex>
+		<equipment rhand="98251" /> <!-- Monster Weapon_Monsters Only_Demonic Sword Zariche - Not Available -->
+		<acquire exp="136204" sp="1362" attributeExp="1105" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="5543.85675" hpRegen="10.2" mp="2770.2" mpRegen="3.6" />
+			<attack physical="2226.2521499701" magical="1520.24164482038" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="998.10183" magical="730.36761" />
+			<speed>
+				<walk ground="80" />
+				<run ground="120" />
+			</speed>
+			<hitTime>600</hitTime>
+		</stats>
+		<status attackable="true" />
+		<collision>
+			<radius normal="13.2" />
+			<height normal="35.02975" />
+		</collision>
+		<skillList>
+			<skill id="4416" level="9" /> <!-- Demons -->
+		</skillList>
+		<dropLists>
+			<drop>
+				<item id="57" min="372" max="411" chance="70" /> <!-- Adena -->
+			</drop>
+		</dropLists>
+	</npc>
+	<npc id="18885" level="85" type="Folk" name="">
+		<!-- AUTO GENERATED NPC TODO: FIX IT -->
+		<race>ETC</race>
+		<sex>FEMALE</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="3038" hpRegen="10.5" mp="1674" mpRegen="3.6" />
+			<speed>
+				<walk ground="1" />
+				<run ground="120" />
+			</speed>
+			<attack physical="1950.2231755595" magical="1331.5869440987" critical="4" attackSpeed="253" range="40" />
+			<defence physical="405.85106382979" magical="297.0297029703" />
+		</stats>
+		<status attackable="false" />
+		<collision>
+			<radius normal="0.1" />
+			<height normal="0.1" />
+		</collision>
+	</npc>
+	<npc id="18886" level="85" type="Folk" name="Happy Bora" title="GM Helper">
+		<!-- AUTO GENERATED NPC TODO: FIX IT -->
+		<race>ETC</race>
+		<sex>FEMALE</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="5063" hpRegen="10.5" mp="2227" mpRegen="3.6" />
+			<speed>
+				<walk ground="50" />
+				<run ground="130" />
+			</speed>
+			<attack physical="1950.2231755595" magical="1331.5869440987" critical="4" attackSpeed="253" range="40" />
+			<defence physical="405.85106382979" magical="297.0297029703" />
+		</stats>
+		<status attackable="false" />
+		<collision>
+			<radius normal="35.07" />
+			<height normal="110.226" />
+		</collision>
+	</npc>
+	<npc id="18887" level="85" type="Folk" name="">
+		<!-- AUTO GENERATED NPC TODO: FIX IT -->
+		<race>ETC</race>
+		<sex>FEMALE</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="3296" hpRegen="10.5" mp="1952" mpRegen="3.6" />
+			<speed>
+				<walk ground="1" />
+				<run ground="120" />
+			</speed>
+			<attack physical="1950.2231755595" magical="1331.5869440987" critical="4" attackSpeed="253" range="40" />
+			<defence physical="405.85106382979" magical="297.0297029703" />
+		</stats>
+		<status attackable="false" />
+		<collision>
+			<radius normal="0.1" />
+			<height normal="0.1" />
+		</collision>
+	</npc>
+	<npc id="18888" level="85" type="Folk" name="Kukuru">
+		<!-- AUTO GENERATED NPC TODO: FIX IT -->
+		<race>ETC</race>
+		<sex>FEMALE</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="3296" hpRegen="10.5" mp="1952" mpRegen="3.6" />
+			<speed>
+				<walk ground="41" />
+				<run ground="120" />
+			</speed>
+			<attack physical="1950.2231755595" magical="1331.5869440987" critical="4" attackSpeed="253" range="40" />
+			<defence physical="405.85106382979" magical="297.0297029703" />
+		</stats>
+		<status attackable="false" />
+		<collision>
+			<radius normal="20" />
+			<height normal="40" />
+		</collision>
+	</npc>
+	<npc id="18889" level="85" type="Folk" name="Giants' Stone">
+		<!-- AUTO GENERATED NPC TODO: FIX IT -->
+		<race>ETC</race>
+		<sex>FEMALE</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="3296" hpRegen="10.5" mp="1952" mpRegen="3.6" />
+			<speed>
+				<walk ground="41" />
+				<run ground="120" />
+			</speed>
+			<attack physical="1950.2231755595" magical="1331.5869440987" critical="4" attackSpeed="253" range="40" />
+			<defence physical="405.85106382979" magical="297.0297029703" />
+		</stats>
+		<status attackable="false" />
+		<collision>
+			<radius normal="20" />
+			<height normal="40" />
+		</collision>
+	</npc>
+	<npc id="18890" level="85" type="Folk" name="Hoot">
+		<!-- AUTO GENERATED NPC TODO: FIX IT -->
+		<race>ETC</race>
+		<sex>FEMALE</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="3038" hpRegen="10.5" mp="1674" mpRegen="3.6" />
+			<speed>
+				<walk ground="30" />
+				<run ground="120" />
+			</speed>
+			<attack physical="1950.2231755595" magical="1331.5869440987" critical="4" attackSpeed="253" range="40" />
+			<defence physical="405.85106382979" magical="297.0297029703" />
+		</stats>
+		<status attackable="false" />
+		<collision>
+			<radius normal="13" />
+			<height normal="19.5" />
+		</collision>
+	</npc>
+	<npc id="18891" level="86" type="Monster" name="Support Commander" title="Relic Keeper" element="WIND">
+		<race>CASTLE_GUARD</race>
+		<sex>MALE</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="19480.2256" hpRegen="10.2" mp="2770.2" mpRegen="3.6" />
+			<attack physical="2503" magical="1709" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="1275" magical="793" />
+			<speed>
+				<walk ground="36" />
+				<run ground="130" />
+			</speed>
+			<hitTime>600</hitTime>
+		</stats>
+		<status attackable="true" />
+		<ai clanHelpRange="10">
+			<clanList>
+				<clan>DOOR</clan>
+				<clan>GIRAN_SIEGE</clan>
+			</clanList>
+		</ai>
+		<collision>
+			<radius normal="14.4" />
+			<height normal="30.6" />
+		</collision>
+	</npc>
+	<npc id="18892" level="86" type="Monster" name="Giran Volunteer" title="Relic Keeper" element="WIND">
+		<race>CASTLE_GUARD</race>
+		<sex>MALE</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="19480.2256" hpRegen="10.2" mp="2770.2" mpRegen="3.6" />
+			<attack physical="2503" magical="1709" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="1275" magical="793" />
+			<speed>
+				<walk ground="36" />
+				<run ground="130" />
+			</speed>
+			<hitTime>600</hitTime>
+		</stats>
+		<status attackable="true" />
+		<ai clanHelpRange="10">
+			<clanList>
+				<clan>DOOR</clan>
+				<clan>GIRAN_SIEGE</clan>
+			</clanList>
+		</ai>
+		<collision>
+			<radius normal="14.4" />
+			<height normal="30.6" />
+		</collision>
+	</npc>
+	<npc id="18893" level="86" type="Monster" name="Giran Volunteer" title="Relic Keeper" element="WIND">
+		<race>CASTLE_GUARD</race>
+		<sex>MALE</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="19480.2256" hpRegen="10.2" mp="2770.2" mpRegen="3.6" />
+			<attack physical="2503" magical="1709" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="1275" magical="793" />
+			<speed>
+				<walk ground="36" />
+				<run ground="130" />
+			</speed>
+			<hitTime>600</hitTime>
+		</stats>
+		<status attackable="true" />
+		<ai clanHelpRange="10">
+			<clanList>
+				<clan>DOOR</clan>
+				<clan>GIRAN_SIEGE</clan>
+			</clanList>
+		</ai>
+		<collision>
+			<radius normal="12" />
+			<height normal="28.8" />
+		</collision>
+	</npc>
+	<npc id="18894" level="86" type="Monster" name="Giran Volunteer" title="Relic Keeper" element="WIND">
+		<race>CASTLE_GUARD</race>
+		<sex>MALE</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="19480.2256" hpRegen="10.2" mp="2770.2" mpRegen="3.6" />
+			<attack physical="2503" magical="1709" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="1275" magical="793" />
+			<speed>
+				<walk ground="36" />
+				<run ground="130" />
+			</speed>
+			<hitTime>600</hitTime>
+		</stats>
+		<status attackable="true" />
+		<ai clanHelpRange="10">
+			<clanList>
+				<clan>DOOR</clan>
+				<clan>GIRAN_SIEGE</clan>
+			</clanList>
+		</ai>
+		<collision>
+			<radius normal="10.8" />
+			<height normal="28.8" />
+		</collision>
+	</npc>
+	<npc id="18895" level="86" type="Monster" name="Giran Volunteer" title="Relic Keeper" element="WIND">
+		<race>CASTLE_GUARD</race>
+		<sex>MALE</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="19480.2256" hpRegen="10.2" mp="2770.2" mpRegen="3.6" />
+			<attack physical="2503" magical="1709" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="1275" magical="793" />
+			<speed>
+				<walk ground="50" />
+				<run ground="130" />
+			</speed>
+			<hitTime>600</hitTime>
+		</stats>
+		<status attackable="true" />
+		<ai clanHelpRange="10">
+			<clanList>
+				<clan>DOOR</clan>
+				<clan>GIRAN_SIEGE</clan>
+			</clanList>
+		</ai>
+		<collision>
+			<radius normal="12" />
+			<height normal="28.2" />
+		</collision>
+	</npc>
+	<npc id="18896" level="86" type="Monster" name="Giran Relic of Protection" element="WIND">
+		<!-- AUTO GENERATED NPC TODO: FIX IT -->
+		<race>ETC</race>
+		<sex>MALE</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="43037.97468" hpRegen="10.2" mp="1881.8" mpRegen="3.6" />
+			<attack physical="2503" magical="1709" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="1275" magical="793" />
+			<speed>
+				<walk ground="1" />
+				<run ground="1" />
+			</speed>
+			<hitTime>600</hitTime>
+		</stats>
+		<status attackable="true" />
+		<collision>
+			<radius normal="290" />
+			<height normal="162" />
+		</collision>
+	</npc>
+	<npc id="18897" level="86" type="Monster" name="Support Commander" title="Relic Keeper" element="WIND">
+		<!-- AUTO GENERATED NPC TODO: FIX IT -->
+		<race>ETC</race>
+		<sex>MALE</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="19480.2256" hpRegen="10.2" mp="2770.2" mpRegen="3.6" />
+			<attack physical="2503" magical="1709" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="1275" magical="793" />
+			<speed>
+				<walk ground="36" />
+				<run ground="130" />
+			</speed>
+			<hitTime>600</hitTime>
+		</stats>
+		<status attackable="true" />
+		<collision>
+			<radius normal="14.4" />
+			<height normal="30.6" />
+		</collision>
+	</npc>
+	<npc id="18898" level="86" type="Monster" name="Giran Volunteer" title="Relic Keeper" element="WIND">
+		<!-- AUTO GENERATED NPC TODO: FIX IT -->
+		<race>ETC</race>
+		<sex>MALE</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="19480.2256" hpRegen="10.2" mp="2770.2" mpRegen="3.6" />
+			<attack physical="2503" magical="1709" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="1275" magical="793" />
+			<speed>
+				<walk ground="36" />
+				<run ground="130" />
+			</speed>
+			<hitTime>600</hitTime>
+		</stats>
+		<status attackable="true" />
+		<collision>
+			<radius normal="14.4" />
+			<height normal="30.6" />
+		</collision>
+	</npc>
+	<npc id="18899" level="86" type="Monster" name="Giran Volunteer" title="Relic Keeper" element="WIND">
+		<!-- AUTO GENERATED NPC TODO: FIX IT -->
+		<race>ETC</race>
+		<sex>MALE</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="19480.2256" hpRegen="10.2" mp="2770.2" mpRegen="3.6" />
+			<attack physical="2503" magical="1709" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="1275" magical="793" />
+			<speed>
+				<walk ground="36" />
+				<run ground="130" />
+			</speed>
+			<hitTime>600</hitTime>
+		</stats>
+		<status attackable="true" />
+		<collision>
+			<radius normal="12" />
+			<height normal="28.8" />
 		</collision>
 	</npc>
 </list>

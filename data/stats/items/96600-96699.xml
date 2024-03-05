@@ -22,7 +22,7 @@
 		</stats>
 	</item>
 	<item id="96601" name="Antharas Doll Lv. 1" additionalName="Sealed" type="EtcItem">
-		<!-- <Antharas Doll's Sorcery Lv. 1>. CON +1. MEN +1. Received damage -2%. Knockback Resistance +5%. Shock Resistance +5%. Pull Resistance +5%. Soulshot Damage Resistance +2%. Spiritshot Damage Resistance +2%. Boosts stats when in inventory. Can be upgraded through compounding. -->
+		<!-- <Antharas Doll's Sorcery Lv. 1>. CON +1. MEN +1. Received damage -2%. Knockback Resistance +5%. Shock Resistance +5%. Pull Resistance +5%. Soulshot Damage Resistance +2%. Spiritshot Damage Resistance +2%. Boosts stats when in inventory. <font color=bbaa88><Compound></font>. Materials: Antharas Doll Lv. 1 and package. In case of failure, the doll's level remains the same, but materials disappear. -->
 		<set name="icon" val="icon.bm_antaras_doll_30d" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="PAPER" />
@@ -36,7 +36,7 @@
 		</skills>
 	</item>
 	<item id="96602" name="Antharas Doll Lv. 2" type="EtcItem">
-		<!-- <Antharas Doll's Sorcery Lv. 2>. CON +2. MEN +2. Received damage -5%. Knockback Resistance +10%. Shock Resistance +10%. Pull Resistance +10%. Soulshot Damage Resistance +3%. Spiritshot Damage Resistance +3%. Boosts stats when in inventory. Can be upgraded through compounding. -->
+		<!-- <Antharas Doll's Sorcery Lv. 2>. CON +2. MEN +2. Received damage -5%. Knockback Resistance +10%. Shock Resistance +10%. Pull Resistance +10%. Soulshot Damage Resistance +3%. Spiritshot Damage Resistance +3%. Boosts stats when in inventory. <font color=bbaa88><Compound></font>. Materials: Antharas Doll Lv. 2. In case of failure, the doll's level remains the same, but materials disappear. -->
 		<set name="icon" val="icon.bm_antaras_doll_30d" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="PAPER" />
@@ -48,7 +48,7 @@
 		</skills>
 	</item>
 	<item id="96603" name="Antharas Doll Lv. 3" type="EtcItem">
-		<!-- <Antharas Doll's Sorcery Lv. 3>. CON +3. MEN +3. Received damage -10%. Knockback Resistance +20%. Shock Resistance +20%. Pull Resistance +20%. Soulshot Damage Resistance +10%. Spiritshot Damage Resistance +10%. Boosts stats when in inventory. Can be upgraded through compounding. -->
+		<!-- <Antharas Doll's Sorcery Lv. 3>. CON +3. MEN +3. Received damage -10%. Knockback Resistance +20%. Shock Resistance +20%. Pull Resistance +20%. Soulshot Damage Resistance +10%. Spiritshot Damage Resistance +10%. Boosts stats when in inventory. <font color=bbaa88><Compound></font>. Materials: Antharas Doll Lv. 3. In case of failure, the doll's level remains the same, but materials disappear. -->
 		<set name="icon" val="icon.bm_antaras_doll_30d" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="PAPER" />
@@ -150,7 +150,7 @@
 		<set name="is_stackable" val="true" />
 	</item>
 	<item id="96613" name="Pattern Slot Expansion Ticket" type="EtcItem">
-		<!-- Required for learning the Expanded Potential of Dyes skill. <Classes>. All classes after the 3rd class change. <Skill effect>. Unlocks the 4th pattern slot. -->
+		<!-- A spellbook for learning the Expanded Potential of Dyes skill. <Classes>. All classes after the 3rd class change. <Skill effect>. Unlocks the 4th pattern slot. -->
 		<set name="icon" val="icon.sb_expand_dye_potential_i00" />
 		<set name="default_action" val="NONE" />
 		<set name="immediate_effect" val="true" />
@@ -159,7 +159,7 @@
 		<set name="is_sellable" val="false" />
 	</item>
 	<item id="96614" name="Pattern Slot Expansion Ticket" additionalName="Sealed" type="EtcItem">
-		<!-- Required for learning the Expanded Potential of Dyes skill. <Classes>. All classes after the 3rd class change. <Skill effect>. Unlocks the 4th pattern slot. -->
+		<!-- A spellbook for learning the Expanded Potential of Dyes skill. <Classes>. All classes after the 3rd class change. <Skill effect>. Unlocks the 4th pattern slot. -->
 		<set name="icon" val="icon.sb_expand_dye_potential_i00" />
 		<set name="default_action" val="NONE" />
 		<set name="immediate_effect" val="true" />
@@ -180,7 +180,7 @@
 		<set name="is_sellable" val="false" />
 	</item>
 	<item id="96616" name="Boss' Weapon Pack" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.aka_manaf_box" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -202,7 +202,7 @@
 		</capsuled_items>
 	</item>
 	<item id="96617" name="STR Dye" additionalName="Lv. 0" type="EtcItem">
-		<!-- Required for applying STR Pattern. Applying the pattern requires 1 dye. <Effect>. STR +1. <font color=ff6666>Note!</font>. Requirements: all classes after the 1st class change. Hidden power is not available. Patterns and dyes can be upgraded through compounding. Costs for upgrading patterns and dyes differ. -->
+		<!-- Required for applying STR Pattern. <font color=bbaa88><Effect></font>. STR +1. <font color=ff6666><Pattern enhancement and compounding></font>. Enhancement materials: Dye Powder. In case of failure, the current level remains the same, but materials disappear. Costs for upgrading patterns and dyes differ. <font color=bbaa88>Note!</font>. Applying the pattern requires 1 dye. Requirements: all classes after the 1st class change. Hidden power is not available. -->
 		<set name="icon" val="BranchSys3.icon1.g_premium_dye_attribute_unholy" />
 		<set name="default_action" val="NONE" />
 		<set name="immediate_effect" val="true" />
@@ -214,7 +214,7 @@
 		<set name="is_stackable" val="true" />
 	</item>
 	<item id="96618" name="CON Dye" additionalName="Lv. 0" type="EtcItem">
-		<!-- Required for applying CON Pattern. Applying the pattern requires 1 dye. <Effect>. CON +1. <font color=ff6666>Note!</font>. Requirements: all classes after the 1st class change. Hidden power is not available. Patterns and dyes can be upgraded through compounding. Costs for upgrading patterns and dyes differ. -->
+		<!-- Required for applying CON Pattern. <font color=bbaa88><Effect></font>. CON +1. <font color=ff6666><Pattern enhancement and compounding></font>. Enhancement materials: Dye Powder. In case of failure, the current level remains the same, but materials disappear. Costs for upgrading patterns and dyes differ. <font color=bbaa88>Note!</font>. Applying the pattern requires 1 dye. Requirements: all classes after the 1st class change. Hidden power is not available. -->
 		<set name="icon" val="BranchSys3.icon5.g_premium_dye_attribute_fire" />
 		<set name="default_action" val="NONE" />
 		<set name="immediate_effect" val="true" />
@@ -226,7 +226,7 @@
 		<set name="is_stackable" val="true" />
 	</item>
 	<item id="96619" name="DEX Dye" additionalName="Lv. 0" type="EtcItem">
-		<!-- Required for applying DEX Pattern. Applying the pattern requires 1 dye. <Effect>. DEX +1. <font color=ff6666>Note!</font>. Requirements: all classes after the 1st class change. Hidden power is not available. Patterns and dyes can be upgraded through compounding. Costs for upgrading patterns and dyes differ. -->
+		<!-- Required for applying DEX Pattern. <font color=bbaa88><Effect></font>. DEX +1. <font color=ff6666><Pattern enhancement and compounding></font>. Enhancement materials: Dye Powder. In case of failure, the current level remains the same, but materials disappear. Costs for upgrading patterns and dyes differ. <font color=bbaa88>Note!</font>. Applying the pattern requires 1 dye. Requirements: all classes after the 1st class change. Hidden power is not available. -->
 		<set name="icon" val="BranchSys3.icon3.g_premium_dye_attribute_holy" />
 		<set name="default_action" val="NONE" />
 		<set name="immediate_effect" val="true" />
@@ -238,7 +238,7 @@
 		<set name="is_stackable" val="true" />
 	</item>
 	<item id="96620" name="INT Dye" additionalName="Lv. 0" type="EtcItem">
-		<!-- Required for applying INT Pattern. Applying the pattern requires 1 dye. <Effect>. INT +1. <font color=ff6666>Note!</font>. Requirements: all classes after the 1st class change. Hidden power is not available. Patterns and dyes can be upgraded through compounding. Costs for upgrading patterns and dyes differ. -->
+		<!-- Required for applying INT Pattern. <font color=bbaa88><Effect></font>. INT +1. <font color=ff6666><Pattern enhancement and compounding></font>. Enhancement materials: Dye Powder. In case of failure, the current level remains the same, but materials disappear. Costs for upgrading patterns and dyes differ. <font color=bbaa88>Note!</font>. Applying the pattern requires 1 dye. Requirements: all classes after the 1st class change. Hidden power is not available. -->
 		<set name="icon" val="BranchSys3.icon2.g_premium_dye_attribute_water" />
 		<set name="default_action" val="NONE" />
 		<set name="immediate_effect" val="true" />
@@ -250,7 +250,7 @@
 		<set name="is_stackable" val="true" />
 	</item>
 	<item id="96621" name="MEN Dye" additionalName="Lv. 0" type="EtcItem">
-		<!-- Required for applying MEN Pattern. Applying the pattern requires 1 dye. <Effect>. MEN +1. <font color=ff6666>Note!</font>. Requirements: all classes after the 1st class change. Hidden power is not available. Patterns and dyes can be upgraded through compounding. Costs for upgrading patterns and dyes differ. -->
+		<!-- Required for applying MEN Pattern. <font color=bbaa88><Effect></font>. MEN +1. <font color=ff6666><Pattern enhancement and compounding></font>. Enhancement materials: Dye Powder. In case of failure, the current level remains the same, but materials disappear. Costs for upgrading patterns and dyes differ. <font color=bbaa88>Note!</font>. Applying the pattern requires 1 dye. Requirements: all classes after the 1st class change. Hidden power is not available. -->
 		<set name="icon" val="BranchSys3.icon6.g_premium_dye_attribute_wind" />
 		<set name="default_action" val="NONE" />
 		<set name="immediate_effect" val="true" />
@@ -262,7 +262,7 @@
 		<set name="is_stackable" val="true" />
 	</item>
 	<item id="96622" name="WIT Dye" additionalName="Lv. 0" type="EtcItem">
-		<!-- Required for applying WIT Pattern. Applying the pattern requires 1 dye. <Effect>. WIT +1. <font color=ff6666>Note!</font>. Requirements: all classes after the 1st class change. Hidden power is not available. Patterns and dyes can be upgraded through compounding. Costs for upgrading patterns and dyes differ. -->
+		<!-- Required for applying WIT Pattern. <font color=bbaa88><Effect></font>. WIT +1. <font color=ff6666><Pattern enhancement and compounding></font>. Enhancement materials: Dye Powder. In case of failure, the current level remains the same, but materials disappear. Costs for upgrading patterns and dyes differ. <font color=bbaa88>Note!</font>. Applying the pattern requires 1 dye. Requirements: all classes after the 1st class change. Hidden power is not available. -->
 		<set name="icon" val="BranchSys3.icon4.g_premium_dye_attribute_earth" />
 		<set name="default_action" val="NONE" />
 		<set name="immediate_effect" val="true" />
@@ -284,7 +284,7 @@
 		<set name="is_stackable" val="true" />
 	</item>
 	<item id="96624" name="Package: +5 Cloak of Protection" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.bm_2018_sayha_cloak_back_i01" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -299,7 +299,7 @@
 		</capsuled_items>
 	</item>
 	<item id="96625" name="Package: +5 Agathion Ignis" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.agathion_fire_1" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -314,7 +314,7 @@
 		</capsuled_items>
 	</item>
 	<item id="96626" name="Package: +5 Agathion Nebula" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.agathion_water_1" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -329,7 +329,7 @@
 		</capsuled_items>
 	</item>
 	<item id="96627" name="Package: +5 Agathion Procella" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.agathion_wind_1" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -344,7 +344,7 @@
 		</capsuled_items>
 	</item>
 	<item id="96628" name="Package: +5 Agathion Petram" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.agathion_earth_1" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -359,7 +359,7 @@
 		</capsuled_items>
 	</item>
 	<item id="96629" name="Package: +5 Agathion Joy" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.pleasure_agathion_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -381,9 +381,10 @@
 		<set name="material" val="PAPER" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
 	</item>
 	<item id="96631" name="Queen Ant Doll Lv. 4" type="EtcItem">
-		<!-- <Queen Ant Doll's Sorcery Lv. 4>. P. Atk. +15%. P. Critical Damage +12%. P. Skill Critical Damage +12%. Max HP +17%. Boosts stats when in inventory. Can be upgraded through compounding. -->
+		<!-- <Queen Ant Doll's Sorcery Lv. 4>. P. Atk. +15%. P. Critical Damage +12%. P. Skill Critical Damage +12%. Max HP + 17%. Boosts stats when in inventory. <font color=bbaa88><Compound></font>. Materials: Queen Ant Doll Lv. 4. In case of failure, the doll's level remains the same, but materials disappear. -->
 		<set name="icon" val="icon.bm_queen_ant_doll_30d_00" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="PAPER" />
@@ -395,7 +396,7 @@
 		</skills>
 	</item>
 	<item id="96632" name="Baium Doll Lv. 4" type="EtcItem">
-		<!-- <Baium Doll's Sorcery Lv. 4>. Skill Cooldown -4%. P. Def. +18%. M. Def. +18%. Silence Resistance +45%. Fear Resistance +45%. Paralysis Resistance +25%. Knockback Resistance +25%. Pull Resistance +27%. Shock Resistance +10%. Boosts stats when in inventory. Can be upgraded through compounding. -->
+		<!-- <Baium Doll's Sorcery Lv. 4>. Skill Cooldown -4%. P. Def. +18%. M. Def. +18%. Silence Resistance +45%. Fear Resistance +45%. Paralysis Resistance +25%. Knockback Resistance +25%. Pull Resistance +27%. Shock Resistance +10%. Boosts stats when in inventory. <font color=bbaa88><Compound></font>. Materials: Baium Doll Lv. 4. In case of failure, the doll's level remains the same, but materials disappear. -->
 		<set name="icon" val="icon.bm_baium_doll_30d_00" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="PAPER" />
@@ -407,7 +408,7 @@
 		</skills>
 	</item>
 	<item id="96633" name="Orfen Doll Lv. 4" type="EtcItem">
-		<!-- <Orfen Doll's Sorcery Lv. 4>. M. Atk. +20%. M. Skill Critical Damage +12%. Max MP +17%. Melee Weapon Resistance +1%. Boosts stats when in inventory. Can be upgraded through compounding. -->
+		<!-- <Orfen Doll's Sorcery Lv. 4>. M. Atk. +20%. M. Skill Critical Damage +12%. Max MP +17%. Melee Weapon Resistance +1%. Boosts stats when in inventory.. <font color=bbaa88><Compound></font>. Materials: Orfen Doll Lv. 4. In case of failure, the doll's level remains the same, but materials disappear. -->
 		<set name="icon" val="icon.bm_orfen_doll_30d_00" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="PAPER" />
@@ -419,7 +420,7 @@
 		</skills>
 	</item>
 	<item id="96634" name="Zaken Doll Lv. 4" type="EtcItem">
-		<!-- <Zaken Doll's Sorcery Lv. 4>. Skill Critical Rate +70. HP Recovery Potions' Effect +110. Skill Critical Damage +300. Vampiric Rage +3%. (with a certain chance). Boosts stats when in inventory. Can be upgraded through compounding. -->
+		<!-- <Zaken Doll's Sorcery Lv. 4>. Skill Critical Rate +70. HP Recovery Potions' Effect +110. Skill Critical Damage +300. Vampiric Rage +3%. (with a certain chance). Boosts stats when in inventory. <font color=bbaa88><Compound></font>. Materials: Zaken Doll Lv. 4. In case of failure, the doll's level remains the same, but materials disappear. -->
 		<set name="icon" val="icon.bm_zaken_doll_30d_00" />
 		<set name="material" val="PAPER" />
 		<set name="is_dropable" val="false" />
@@ -432,7 +433,7 @@
 		</skills>
 	</item>
 	<item id="96635" name="Core Doll Lv. 4" type="EtcItem">
-		<!-- <Core Doll's Sorcery Lv. 4>. Received Skill Critical Damage -17%. Received Skill Critical Rate -10%. Shock Resistance +35%. Sleep Resistance +35%. Knockback Resistance +20%. Paralysis Resistance +10%. Boosts stats when in inventory. Can be upgraded through compounding. -->
+		<!-- <Core Doll's Sorcery Lv. 4>. Received Skill Critical Damage -17%. Received Skill Critical Rate -10%. Shock Resistance +35%. Sleep Resistance +35%. Knockback Resistance +20%. Paralysis Resistance +10%. Boosts stats when in inventory. <font color=bbaa88><Compound></font>. Materials: Core Doll Lv. 4. In case of failure, the doll's level remains the same, but materials disappear. -->
 		<set name="icon" val="icon.bm_core_doll_30d_00" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="PAPER" />
@@ -444,7 +445,7 @@
 		</skills>
 	</item>
 	<item id="96636" name="Frintezza Doll Lv. 4" type="EtcItem">
-		<!-- <Frintezza Doll's Sorcery Lv. 4>. STR/ INT +2. DEX/ WIT +3. CON/ MEN +2. Skill Power +6%. Atk. Spd. +110. Casting Spd. +110. Speed +5. Boosts stats when in inventory. Can be upgraded through compounding. -->
+		<!-- <Frintezza Doll's Sorcery Lv. 4>. STR/ INT +2. DEX/ WIT +3. CON/ MEN +2. Skill Power +6%. Atk. Spd. +110. Casting Spd. +110. Speed +5. Boosts stats when in inventory. <font color=bbaa88><Compound></font>. Materials: Frintezza Doll Lv. 4. In case of failure, the doll's level remains the same, but materials disappear. -->
 		<set name="icon" val="icon.bm_doll_frintessa_30d_00" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="PAPER" />
@@ -456,7 +457,7 @@
 		</skills>
 	</item>
 	<item id="96637" name="Antharas Doll Lv. 4" type="EtcItem">
-		<!-- <Antharas Doll's Sorcery Lv. 4>. CON +4. MEN +4. Received damage -12%. Knockback Resistance +25%. Shock Resistance +25%. Pull Resistance +25%. Soulshot Damage Resistance +12%. Spiritshot Damage Resistance +10%. Imprisonment Resistance +10%. Boosts stats when in inventory. Can be upgraded through compounding. -->
+		<!-- <Antharas Doll's Sorcery Lv. 4>. CON +4. MEN +4. Received damage -12%. Knockback Resistance +25%. Shock Resistance +25%. Pull Resistance +25%. Soulshot Damage Resistance +12%. Spiritshot Damage Resistance +12%. Imprisonment Resistance +10%. Boosts stats when in inventory. <font color=bbaa88><Compound></font>. Materials: Antharas Doll Lv. 4. In case of failure, the doll's level remains the same, but materials disappear. -->
 		<set name="icon" val="icon.bm_antaras_doll_30d_00" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="PAPER" />
@@ -554,7 +555,7 @@
 		</skills>
 	</item>
 	<item id="96645" name="Ice Crystal Heavy Armor Set" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.armor_t94_u_i01" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -570,7 +571,7 @@
 		</capsuled_items>
 	</item>
 	<item id="96646" name="Light Armor of Lightning Set" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.armor_t101_u_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -586,7 +587,7 @@
 		</capsuled_items>
 	</item>
 	<item id="96647" name="Flaming Robe Set" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.armor_t96_u_i03" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -602,7 +603,7 @@
 		</capsuled_items>
 	</item>
 	<item id="96648" name="Kit: Dyes Lv. 3" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.freya_box_i03" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -633,7 +634,7 @@
 		<set name="is_sellable" val="false" />
 	</item>
 	<item id="96650" name="Armor of Protection Pack" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.event_hero_treasure_box_silver" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -669,7 +670,7 @@
 		<set name="is_sellable" val="false" />
 	</item>
 	<item id="96652" name="Package: Antharas Doll Lv. 1" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- <font color=bbaa88><Compound></font>. Materials: dolls and packages of the same level. In case of failure, the doll's package level remains the same, but materials disappear. Double-click to obtain various items. -->
 		<set name="icon" val="icon.bm_antaras_doll_30d" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -683,7 +684,7 @@
 		</capsuled_items>
 	</item>
 	<item id="96653" name="Package: Antharas Doll Lv. 2" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.bm_antaras_doll_30d" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -697,7 +698,7 @@
 		</capsuled_items>
 	</item>
 	<item id="96654" name="Package: Antharas Doll Lv. 3" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.bm_antaras_doll_30d" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -711,7 +712,7 @@
 		</capsuled_items>
 	</item>
 	<item id="96655" name="Special Spellbook Chest" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.event_hero_treasure_box_gold" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -735,7 +736,7 @@
 			<item id="95346" min="1" max="1" chance="6.25" /> <!-- Spellbook: Meteor -->
 			<item id="95347" min="1" max="1" chance="6.25" /> <!-- Spellbook: Rolling Dice -->
 			<item id="95354" min="1" max="1" chance="6.25" /> <!-- Spellbook: Dragon Strike -->
-			<item id="95861" min="1" max="1" chance="6.25" /> <!-- Spellbook: Mechanical Hero -->
+			<item id="95861" min="1" max="1" chance="6.25" /> <!-- Spellbook: Prime Master Transformation -->
 			<item id="96289" min="1" max="1" chance="6.25" /> <!-- Spellbook: Phoenix Shield -->
 			<item id="96291" min="1" max="1" chance="6.25" /> <!-- Spellbook: Hell -->
 			<item id="96293" min="1" max="1" chance="6.25" /> <!-- Spellbook: Shelter -->
@@ -1057,7 +1058,7 @@
 		<set name="is_stackable" val="true" />
 	</item>
 	<item id="96685" name="Mysterious Crystal (Time-limited)" additionalName="Sealed" type="EtcItem">
-		<!-- Can be used for creating many valuable items. -->
+		<!-- It looks like a very valuable crystal. You can use it either in compound to increase Mysterious Pack level, or in special craft to get the following items. <Received items>. Giran Seal (1 pc.). Talisman of Hellbound Fragment (1 pc.) -->
 		<set name="icon" val="icon.etc_black_freezing_core_i00" />
 		<set name="default_action" val="NONE" />
 		<set name="immediate_effect" val="true" />
@@ -1123,7 +1124,7 @@
 		<set name="is_freightable" val="true" />
 	</item>
 	<item id="96692" name="Mysterious Pack Lv. 7 (Time-limited)" type="EtcItem">
-		<!-- Can be used to create Mysterious Chest Lv. 8 with a certain chance through the Special Craft, or exchanged for the following items through the Game Assistant. <font color=eeaa22><Items for exchange>. Package: Antharas' Earring x1 (20 pcs.). Package: Beleth' Ring x1 (15 pcs.). Package: Talisman of Baium x1 (10 pcs.). Package: Frintezza's Necklace x1 (10 pcs.). Package: Baium's Ring x1 (6 pcs.). Package: Zaken's Earring x1 (2 pcs.). Package: Queen Ant's Ring x1 (1 pc.). Package: Orfen's Earring x1 (1 pc.) -->
+		<!-- Can be used for creating Mysterious Pack Lv. 8 with a certain chance through the Special Craft, or exchanged for the following items through the Game Assistant. <font color=eeaa22><Items for exchange>. Package: Antharas' Earring x1 (20 pcs.). Package: Beleth' Ring x1 (15 pcs.). Package: Talisman of Baium x1 (10 pcs.). Package: Frintezza's Necklace x1 (10 pcs.). Package: Baium's Ring x1 (6 pcs.). Package: Zaken's Earring x1 (2 pcs.). Package: Queen Ant's Ring x1 (1 pc.). Package: Orfen's Earring x1 (1 pc.) -->
 		<set name="icon" val="icon.etc_pi_box_love_pack" />
 		<set name="default_action" val="NONE" />
 		<set name="immediate_effect" val="true" />
@@ -1141,7 +1142,7 @@
 		<set name="is_freightable" val="true" />
 	</item>
 	<item id="96694" name="Package: Antharas' Earring" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.accessory_earring_of_antaras_i02" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -1156,7 +1157,7 @@
 		</capsuled_items>
 	</item>
 	<item id="96695" name="Package: Beleth' Ring" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.accessary_dynasty_ring_i03" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />

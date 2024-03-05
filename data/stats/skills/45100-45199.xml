@@ -1,9 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/skills.xsd">
+	<skill id="45100" toLevel="2" name="Anger">
+		<!-- A single attack from the Anger Lv. 1 skill. -->
+		<icon>icon.s_anger5</icon>
+		<operateType>A1</operateType>
+		<isMagic>0</isMagic>
+		<mpConsume>0</mpConsume>
+		<castRange>900</castRange>
+		<hitTime>0</hitTime>
+		<coolTime>0</coolTime>
+		<reuseDelay>0</reuseDelay>
+		<effectPoint>-210</effectPoint>
+		<hpConsume>0</hpConsume>
+		<abnormalTime>0</abnormalTime>
+	</skill>
 	<skill id="45101" toLevel="1" name="Final Frenzy">
 		<!-- Increases P. Atk. The effect is cancelled upon recovering 60% HP. -->
 		<icon>icon.skill0290</icon>
-		<operateType>A1</operateType>
+		<operateType>A2</operateType>
+		<abnormalLevel>1</abnormalLevel>
+		<abnormalTime>-1</abnormalTime>
+		<magicCriticalRate>5</magicCriticalRate>
+		<isTriggeredSkill>true</isTriggeredSkill>
+		<irreplacableBuff>true</irreplacableBuff>
+		<canBeDispelled>false</canBeDispelled>
+		<stayAfterDeath>true</stayAfterDeath>
+		<isMagic>4</isMagic>
+		<targetType>SELF</targetType>
+		<affectScope>SINGLE</affectScope>
 	</skill>
 	<skill id="45102" toLevel="1" name="Passive Finality Cancellation">
 		<!-- Final Frenzy/ Final Fortress Cancellation -->
@@ -2409,7 +2433,7 @@
 			</effect>
 		</effects>
 	</skill>
-	<skill id="45156" toLevel="8" name="Ultimate Soul Impulse">
+	<skill id="45156" toLevel="12" name="Ultimate Soul Impulse">
 		<!-- <Ultimate skill>. Hits the ground and attacks enemies at the distance. Attacks the enemy with 1545 power. Critical. Ignores Shield Defense. Ignores 25% of the target's defense. -->
 		<icon>icon.wizard_danger_warppow</icon>
 		<operateType>A1</operateType>
@@ -2426,6 +2450,10 @@
 			<value level="6">-420</value>
 			<value level="7">-445</value>
 			<value level="8">-470</value>
+			<value level="9">-505</value>
+			<value level="10">-540</value>
+			<value level="11">-575</value>
+			<value level="12">-610</value>
 		</effectPoint>
 		<mpConsume>
 			<value level="1">29</value>
@@ -2436,6 +2464,10 @@
 			<value level="6">56</value>
 			<value level="7">59</value>
 			<value level="8">63</value>
+			<value level="9">66</value>
+			<value level="10">68</value>
+			<value level="11">70</value>
+			<value level="12">72</value>
 		</mpConsume>
 		<nextAction>ATTACK</nextAction>
 		<magicCriticalRate>5</magicCriticalRate>
@@ -2452,14 +2484,18 @@
 		<effects>
 			<effect name="PhysicalAttack">
 				<power>
-					<value level="1">1288</value>
-					<value level="2">2257</value>
-					<value level="3">3260</value>
-					<value level="4">4293</value>
-					<value level="5">4818</value>
-					<value level="6">6188</value>
-					<value level="7">6608</value>
-					<value level="8">7029</value>
+					<value level="1">1545</value>
+					<value level="2">2708</value>
+					<value level="3">3912</value>
+					<value level="4">5151</value>
+					<value level="5">5781</value>
+					<value level="6">7425</value>
+					<value level="7">7929</value>
+					<value level="8">8434</value>
+					<value level="9">8947</value>
+					<value level="10">9215</value>
+					<value level="11">9491</value>
+					<value level="12">9775</value>
 				</power>
 				<ignoreShieldDefence>true</ignoreShieldDefence>
 				<pDefMod>0.9</pDefMod>
@@ -2535,11 +2571,9 @@
 	<skill id="45158" toLevel="6" name="Ultimate Enuma Elish">
 		<!-- <Ultimate skill>. The sword of justice, Enuma Elish, attacks the target and nearby enemies with 2250 power. Critical. Ignores Shield Defense. Ignores 25% of the their defense. -->
 		<icon>icon.skill5076_b</icon>
-		<operateType>A1</operateType>
+		<affectLimit>5-12</affectLimit>
+		<affectRange>700</affectRange>
 		<castRange>300</castRange>
-		<hitTime>1500</hitTime>
-		<coolTime>720</coolTime>
-		<reuseDelay>15000</reuseDelay>
 		<effectPoint>
 			<value level="1">-920</value>
 			<value level="2">-1070</value>
@@ -2548,6 +2582,18 @@
 			<value level="5">-1295</value>
 			<value level="6">-1370</value>
 		</effectPoint>
+		<effectRange>400</effectRange>
+		<fanRange>0;0;400;90</fanRange>
+		<hitTime>1500</hitTime>
+		<coolTime>720</coolTime>
+		<magicLevel>
+			<value level="1">60</value>
+			<value level="2">70</value>
+			<value level="3">75</value>
+			<value level="4">80</value>
+			<value level="5">85</value>
+			<value level="6">90</value>
+		</magicLevel>
 		<mpConsume>
 			<value level="1">64</value>
 			<value level="2">73</value>
@@ -2556,9 +2602,41 @@
 			<value level="5">89</value>
 			<value level="6">94</value>
 		</mpConsume>
+		<nextAction>ATTACK</nextAction>
+		<operateType>A1</operateType>
+		<reuseDelay>3000</reuseDelay>
+		<reuseDelayGroup>45157</reuseDelayGroup>
+		<magicCriticalRate>5</magicCriticalRate>
+		<targetType>ENEMY</targetType>
+		<affectScope>FAN</affectScope>
+		<affectObject>NOT_FRIEND</affectObject>
+		<conditions>
+			<condition name="Op2hWeapon">
+				<weaponType>
+					<item>SWORD</item>
+					<item>ANCIENTSWORD</item>
+				</weaponType>
+			</condition>
+		</conditions>
+		<effects>
+			<effect name="PhysicalAttack">
+				<power>
+					<value level="1">2250</value>
+					<value level="2">3150</value>
+					<value level="3">3780</value>
+					<value level="4">4347</value>
+					<value level="5">4781</value>
+					<value level="6">5020</value>
+				</power>
+				<ignoreShieldDefence>true</ignoreShieldDefence>
+				<pDefMod>0.75</pDefMod>
+				<overHit>true</overHit>
+				<criticalChance>15</criticalChance>
+			</effect>
+		</effects>
 	</skill>
 	<skill id="45159" toLevel="6" name="Rush Impact">
-		<!-- <<font color="FF8000">Rush/ shock skill</font>>. Rushes forward to attack enemies at the front with 1700 power. Stuns for 2 sec. with a certain chance. Can be used if the distance to the target is more than 150. Note!. When used uninterrupted for 3 sec., inflicts the disability effect. When Rush Impact while the disability is active, the character's HP is decreased. Attack's HP Drain is unavailable. -->
+		<!-- <<font color="FF8000">Rush/ Shock skill</font>>. Rushes forward to attack enemies at the front with 1700 power. Stuns for 2 sec. with a certain chance. Can be used if the distance to the target is more than 150. Note!. When used uninterrupted for 3 sec., inflicts the disability effect. If you use Rush Impact while the disability is active, your HP is decreased. HP Drain from this attack is unavailable. -->
 		<icon>icon.skill0793</icon>
 		<castRange>
 			<value level="1">500</value>
@@ -2830,10 +2908,22 @@
 	<skill id="45162" toLevel="8" name="Ultimate Soul Piercing">
 		<!-- <Ultimate skill>. Attacks the enemy trice with 510 power. An additional attack is triggered with a certain chance. For 10 sec. M. Def. -10%. Additionally, if the target is a monster, the attacks inflicts Knockback. (Cooldown: 8 sec.). Ignores Shield Defense. Ignores 25% of the target's defense. Critical -->
 		<icon>icon.skill0504</icon>
-		<operateType>A1</operateType>
 		<castRange>120</castRange>
-		<hitTime>3500</hitTime>
-		<reuseDelay>3000</reuseDelay>
+		<effectRange>400</effectRange>
+		<hitTime>2000</hitTime>
+		<coolTime>500</coolTime>
+		<reuseDelay>1000</reuseDelay>
+		<reuseDelayGroup>45161</reuseDelayGroup>
+		<magicLevel>
+			<value level="1">40</value>
+			<value level="2">50</value>
+			<value level="3">60</value>
+			<value level="4">70</value>
+			<value level="5">75</value>
+			<value level="6">80</value>
+			<value level="7">85</value>
+			<value level="8">90</value>
+		</magicLevel>
 		<effectPoint>
 			<value level="1">-220</value>
 			<value level="2">-270</value>
@@ -2854,6 +2944,83 @@
 			<value level="7">59</value>
 			<value level="8">63</value>
 		</mpConsume>
+		<lvlBonusRate>20</lvlBonusRate>
+		<activateRate>100</activateRate>
+		<nextAction>ATTACK</nextAction>
+		<operateType>A1</operateType>
+		<targetType>ENEMY</targetType>
+		<affectScope>SINGLE</affectScope>
+		<conditions>
+			<condition name="EquipWeapon">
+				<weaponType>
+					<item>RAPIER</item>
+				</weaponType>
+			</condition>
+		</conditions>
+		<effects>
+			<effect name="PhysicalAttack">
+				<power>
+					<value level="1">510</value>
+					<value level="2">886</value>
+					<value level="3">1273</value>
+					<value level="4">1672</value>
+					<value level="5">1876</value>
+					<value level="6">2475</value>
+					<value level="7">2643</value>
+					<value level="8">2812</value>
+				</power>
+				<ignoreShieldDefence>true</ignoreShieldDefence>
+				<pDefMod>0.75</pDefMod>
+				<criticalChance>15</criticalChance>
+				<overHit>true</overHit>
+			</effect>
+			<effect name="PhysicalAttack">
+				<power>
+					<value level="1">510</value>
+					<value level="2">886</value>
+					<value level="3">1273</value>
+					<value level="4">1672</value>
+					<value level="5">1876</value>
+					<value level="6">2475</value>
+					<value level="7">2643</value>
+					<value level="8">2812</value>
+				</power>
+				<ignoreShieldDefence>true</ignoreShieldDefence>
+				<pDefMod>0.75</pDefMod>
+				<criticalChance>15</criticalChance>
+				<overHit>true</overHit>
+			</effect>
+			<effect name="PhysicalAttack">
+				<power>
+					<value level="1">510</value>
+					<value level="2">886</value>
+					<value level="3">1273</value>
+					<value level="4">1672</value>
+					<value level="5">1876</value>
+					<value level="6">2475</value>
+					<value level="7">2643</value>
+					<value level="8">2812</value>
+				</power>
+				<ignoreShieldDefence>true</ignoreShieldDefence>
+				<pDefMod>0.75</pDefMod>
+				<criticalChance>15</criticalChance>
+				<overHit>true</overHit>
+			</effect>
+			<effect name="CallSkill">
+				<chance>50</chance>
+				<skillId>45182</skillId> <!-- Soul Piercing -->
+				<skillLevel>
+					<value level="1">1</value>
+					<value level="2">2</value>
+					<value level="3">3</value>
+					<value level="4">4</value>
+					<value level="5">5</value>
+					<value level="6">6</value>
+					<value level="7">7</value>
+					<value level="8">8</value>
+				</skillLevel>
+			</effect>
+		</effects>
 	</skill>
 	<skill id="45163" toLevel="12" name="Soul Spark">
 		<!-- Inflicts magic damage on the enemy with 88 power. -->
@@ -2936,14 +3103,30 @@
 			</effect>
 		</effects>
 	</skill>
-	<skill id="45164" toLevel="8" name="Ultimate Soul Spark">
+	<skill id="45164" toLevel="12" name="Ultimate Soul Spark">
 		<!-- <Ultimate skill>. Deals 2 magic strikes to the target with 88 power. -->
 		<icon>icon.skill14216</icon>
 		<operateType>A1</operateType>
 		<isMagic>1</isMagic> <!-- Magic Skill -->
-		<castRange>600</castRange>
+		<castRange>700</castRange>
+		<effectRange>1400</effectRange>
 		<hitTime>2500</hitTime>
-		<reuseDelay>2000</reuseDelay>
+		<reuseDelay>1000</reuseDelay>
+		<reuseDelayGroup>45163</reuseDelayGroup>
+		<magicLevel>
+			<value level="1">40</value>
+			<value level="2">50</value>
+			<value level="3">60</value>
+			<value level="4">70</value>
+			<value level="5">75</value>
+			<value level="6">80</value>
+			<value level="7">85</value>
+			<value level="8">90</value>
+			<value level="9">91</value>
+			<value level="10">92</value>
+			<value level="11">93</value>
+			<value level="12">94</value>
+		</magicLevel>
 		<effectPoint>
 			<value level="1">-500</value>
 			<value level="2">-600</value>
@@ -2953,6 +3136,10 @@
 			<value level="6">-900</value>
 			<value level="7">-950</value>
 			<value level="8">-1000</value>
+			<value level="9">-1100</value>
+			<value level="10">-1200</value>
+			<value level="11">-1300</value>
+			<value level="12">-1400</value>
 		</effectPoint>
 		<mpConsume>
 			<value level="1">20</value>
@@ -2963,7 +3150,55 @@
 			<value level="6">40</value>
 			<value level="7">44</value>
 			<value level="8">48</value>
+			<value level="9">54</value>
+			<value level="10">56</value>
+			<value level="11">58</value>
+			<value level="12">60</value>
 		</mpConsume>
+		<magicCriticalRate>5</magicCriticalRate>
+		<targetType>ENEMY</targetType>
+		<affectScope>SINGLE</affectScope>
+		<conditions>
+			<condition name="EquipWeapon">
+				<weaponType>
+					<item>RAPIER</item>
+				</weaponType>
+			</condition>
+		</conditions>
+		<effects>
+			<effect name="MagicalAttack">
+				<power>
+					<value level="1">60</value>
+					<value level="2">67</value>
+					<value level="3">78</value>
+					<value level="4">90</value>
+					<value level="5">97</value>
+					<value level="6">105</value>
+					<value level="7">112</value>
+					<value level="8">181</value>
+					<value level="9">195</value>
+					<value level="10">203</value>
+					<value level="11">203</value>
+					<value level="12">203</value>
+				</power>
+			</effect>
+			<effect name="MagicalAttack">
+				<power>
+					<value level="1">60</value>
+					<value level="2">67</value>
+					<value level="3">78</value>
+					<value level="4">90</value>
+					<value level="5">97</value>
+					<value level="6">105</value>
+					<value level="7">112</value>
+					<value level="8">181</value>
+					<value level="9">195</value>
+					<value level="10">203</value>
+					<value level="11">203</value>
+					<value level="12">203</value>
+				</power>
+			</effect>
+		</effects>
 	</skill>
 	<skill id="45165" toLevel="10" name="Soul Strike">
 		<icon>icon.skill1528</icon>
@@ -3237,10 +3472,24 @@
 		<!-- <Ultimate skill>. Shoots 2 arrows. Attacks the enemy twice with 416 power. Critical. Ignores Shield Defense. Ignores 5% of the target's defense. -->
 		<icon>icon.skill0507</icon>
 		<operateType>A1</operateType>
-		<castRange>900</castRange>
+		<castRange>700</castRange>
+		<effectRange>1400</effectRange>
 		<hitTime>2700</hitTime>
-		<coolTime>1000</coolTime>
-		<reuseDelay>3000</reuseDelay>
+		<coolTime>500</coolTime>
+		<reuseDelay>2000</reuseDelay>
+		<reuseDelayGroup>45168</reuseDelayGroup>
+		<magicLevel>
+			<value level="1">20</value>
+			<value level="2">30</value>
+			<value level="3">40</value>
+			<value level="4">50</value>
+			<value level="5">60</value>
+			<value level="6">70</value>
+			<value level="7">75</value>
+			<value level="8">80</value>
+			<value level="9">85</value>
+			<value level="10">90</value>
+		</magicLevel>
 		<effectPoint>
 			<value level="1">-120</value>
 			<value level="2">-170</value>
@@ -3254,17 +3503,20 @@
 			<value level="10">-470</value>
 		</effectPoint>
 		<mpConsume>
-			<value level="1">23</value>
-			<value level="2">34</value>
-			<value level="3">45</value>
-			<value level="4">55</value>
-			<value level="5">66</value>
-			<value level="6">77</value>
-			<value level="7">82</value>
-			<value level="8">88</value>
-			<value level="9">93</value>
-			<value level="10">99</value>
+			<value level="1">19</value>
+			<value level="2">27</value>
+			<value level="3">34</value>
+			<value level="4">42</value>
+			<value level="5">50</value>
+			<value level="6">57</value>
+			<value level="7">61</value>
+			<value level="8">65</value>
+			<value level="9">69</value>
+			<value level="10">73</value>
 		</mpConsume>
+		<magicCriticalRate>5</magicCriticalRate>
+		<targetType>ENEMY</targetType>
+		<affectScope>SINGLE</affectScope>
 		<conditions>
 			<condition name="EquipWeapon">
 				<weaponType>
@@ -3272,6 +3524,44 @@
 				</weaponType>
 			</condition>
 		</conditions>
+		<effects>
+			<effect name="PhysicalAttack">
+				<power>
+					<value level="1">416</value>
+					<value level="2">601</value>
+					<value level="3">1321</value>
+					<value level="4">2133</value>
+					<value level="5">2978</value>
+					<value level="6">3851</value>
+					<value level="7">4297</value>
+					<value level="8">4664</value>
+					<value level="9">5033</value>
+					<value level="10">5407</value>
+				</power>
+				<ignoreShieldDefence>true</ignoreShieldDefence>
+				<pDefMod>0.95</pDefMod>
+				<overHit>true</overHit>
+				<criticalChance>10</criticalChance>
+			</effect>
+			<effect name="PhysicalAttack">
+				<power>
+					<value level="1">416</value>
+					<value level="2">601</value>
+					<value level="3">1321</value>
+					<value level="4">2133</value>
+					<value level="5">2978</value>
+					<value level="6">3851</value>
+					<value level="7">4297</value>
+					<value level="8">4664</value>
+					<value level="9">5033</value>
+					<value level="10">5407</value>
+				</power>
+				<ignoreShieldDefence>true</ignoreShieldDefence>
+				<pDefMod>0.95</pDefMod>
+				<overHit>true</overHit>
+				<criticalChance>8</criticalChance>
+			</effect>
+		</effects>
 	</skill>
 	<skill id="45170" toLevel="8" name="Multishot">
 		<!-- Attacks enemies at the front with 340 power. -->
@@ -3825,7 +4115,7 @@
 		<magicCriticalRate>-5</magicCriticalRate>
 	</skill>
 	<skill id="45176" toLevel="2" name="HP Recovery">
-		<!-- Constantly recovers a certain amount of HP. The amount of HP recovered and its recovery rate are increased with the skill level. -->
+		<!-- Constantly recovers a certain amount of HP. The amount of HP recovered is increased with the skill level. -->
 		<icon>icon.skill0211</icon>
 		<magicLevel>
 			<value level="1">20</value>
@@ -3858,12 +4148,13 @@
 			</effect>
 		</effects>
 	</skill>
-	<skill id="45177" toLevel="2" name="MP Recovery">
-		<!-- Constantly recovers a certain amount of MP. The amount of MP recovered and its recovery rate are increased with the skill level. -->
+	<skill id="45177" toLevel="3" name="MP Recovery">
+		<!-- Constantly recovers a certain amount of MP. The amount of MP recovered is increased with the skill level. -->
 		<icon>icon.skill0213</icon>
 		<magicLevel>
 			<value level="1">20</value>
 			<value level="2">50</value>
+			<value level="3">60</value>
 		</magicLevel>
 		<operateType>A2</operateType>
 		<isMagic>4</isMagic>
@@ -3872,6 +4163,7 @@
 		<abnormalLevel>
 			<value level="1">1</value>
 			<value level="2">2</value>
+			<value level="3">3</value>
 		</abnormalLevel>
 		<abnormalTime>1200</abnormalTime>
 		<abnormalType>MP_REGEN_UP</abnormalType>
@@ -3880,6 +4172,7 @@
 		<itemConsumeCount>
 			<value level="1">3</value>
 			<value level="2">10</value>
+			<value level="3">20</value>
 		</itemConsumeCount>
 		<itemConsumeId>3031</itemConsumeId> <!-- Spirit Ore -->
 		<effects>
@@ -3887,6 +4180,7 @@
 				<power>
 					<value level="1">15</value>
 					<value level="2">30</value>
+					<value level="3">60</value>
 				</power>
 				<ticks>3</ticks>
 			</effect>
@@ -4023,13 +4317,61 @@
 	<skill id="45182" toLevel="8" name="Soul Piercing">
 		<!-- M. Def. -10% -->
 		<icon>icon.skill_crofin_stun</icon>
-		<operateType>A1</operateType>
-		<isMagic>1</isMagic> <!-- Magic Skill -->
+		<operateType>A2</operateType>
+		<isMagic>1</isMagic>
 		<isDebuff>true</isDebuff>
-		<castRange>900</castRange>
+		<castRange>700</castRange>
 		<hitTime>1500</hitTime>
 		<reuseDelay>8000</reuseDelay>
-		<effectPoint>-200</effectPoint>
+		<effectPoint>
+			<value level="1">-220</value>
+			<value level="2">-270</value>
+			<value level="3">-320</value>
+			<value level="4">-370</value>
+			<value level="5">-395</value>
+			<value level="6">-420</value>
+			<value level="7">-445</value>
+			<value level="8">-470</value>
+		</effectPoint>
+		<abnormalLevel>1</abnormalLevel>
+		<abnormalTime>10</abnormalTime>
+		<abnormalType>KNOCKDOWN</abnormalType>
+		<trait>KNOCKDOWN</trait>
+		<activateRate>100</activateRate>
+		<magicLevel>
+			<value level="1">40</value>
+			<value level="2">50</value>
+			<value level="3">60</value>
+			<value level="4">70</value>
+			<value level="5">75</value>
+			<value level="6">80</value>
+			<value level="7">85</value>
+			<value level="8">90</value>
+		</magicLevel>
+		<effects>
+			<effect name="MagicalAttack">
+				<power>
+					<value level="1">70</value>
+					<value level="2">75</value>
+					<value level="3">80</value>
+					<value level="4">85</value>
+					<value level="5">90</value>
+					<value level="6">95</value>
+					<value level="7">100</value>
+					<value level="8">105</value>
+				</power>
+			</effect>
+			<effect name="MagicalDefence">
+				<amount>-10</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="KnockBack">
+				<distance>50</distance>
+				<speed>400</speed>
+				<knockDown>false</knockDown>
+				<pveOnly>true</pveOnly>
+			</effect>
+		</effects>
 	</skill>
 	<skill id="45183" toLevel="1" name="Soul Chase">
 		<!-- <<font color="FF8000">Rush skill</font>>. Charges to the target. If the distance between the target and the character is more than 100. -->
@@ -4443,7 +4785,7 @@
 			</effect>
 		</effects>
 	</skill>
-	<skill id="45197" toLevel="1" name="Grand Master's Transcendent Blessing">
+	<skill id="45197" toLevel="2" name="Grand Master's Transcendent Blessing">
 		<!-- Grand Master's power has pushed you beyond the limits of your class. HP Recovery Potions' Effect +50. With a certain chance, absorbs 3% of the inflicted damage as MP. -->
 		<icon>icon.skill19428</icon>
 		<abnormalLevel>1</abnormalLevel>
@@ -4460,7 +4802,7 @@
 		<targetType>TARGET</targetType>
 		<affectScope>SINGLE</affectScope>
 	</skill>
-	<skill id="45198" toLevel="1" name="Grand Master's Transcendent Blessing">
+	<skill id="45198" toLevel="2" name="Grand Master's Transcendent Blessing">
 		<!-- Grand Master's power has pushed you beyond the limits of your class. HP Recovery Potions' Effect +50. With a certain chance, absorbs 3% of the inflicted damage as MP. Note!. You can't consume Light Souls and Shadow Souls. -->
 		<icon>icon.skill_kamael_shadowside</icon>
 		<operateType>A2</operateType>

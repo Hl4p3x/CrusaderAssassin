@@ -2840,8 +2840,8 @@
 			</effect>
 		</effects>
 	</skill>
-	<skill id="5664" toLevel="5" name="Ancient Sword Resistance">
-		<!-- Vulnerable to ancient sword. -->
+	<skill id="5664" toLevel="5" name="Ancient Sword Vulnerability">
+		<!-- Vulnerable to ancient sword attacks. -->
 		<icon>icon.skill5664</icon>
 		<magicLevel>1</magicLevel>
 		<operateType>P</operateType>

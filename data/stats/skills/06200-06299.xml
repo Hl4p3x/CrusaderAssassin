@@ -1491,7 +1491,7 @@
 			</effect>
 		</effects>
 	</skill>
-	<skill id="6283" toLevel="1" name="Ice Storm">
+	<skill id="6283" toLevel="1" name="Snow Storm">
 		<icon>icon.skill0000</icon>
 		<castRange>1100</castRange>
 		<coolTime>500</coolTime>
@@ -1547,7 +1547,7 @@
 		</effects>
 	</skill>
 	<skill id="6285" toLevel="1" name="Ice Rage">
-		<!-- Casting Spd. +15% for 20 min. -->
+		<!-- For 20 min., Casting Spd. +15%. -->
 		<icon>icon.skill0000</icon>
 		<abnormalLevel>1</abnormalLevel>
 		<abnormalTime>1800</abnormalTime>
@@ -1657,7 +1657,7 @@
 		</effects>
 	</skill>
 	<skill id="6289" toLevel="1" name="Kegor's Courage">
-		<!-- Increase P. Atk. by 300%, M. Atk. by 300%, Atk. Spd. by 25% and Casting Spd. by 25%. -->
+		<!-- P. Atk. +300%, M. Atk. +300%, Atk. Spd. +25%, Casting Spd. +25%. -->
 		<icon>icon.skill6289</icon>
 		<abnormalLevel>1</abnormalLevel>
 		<abnormalTime>30</abnormalTime>

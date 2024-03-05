@@ -58,6 +58,7 @@
 		<!-- Debuff/ Anomaly Resistance +10% -->
 	</option>
 	<option id="94819" name="P./ M. Evasion +2">
+		<!-- P./ M. Evasion +2 -->
 		<effects>
 			<effect name="PhysicalEvasion">
 				<amount>2</amount>
@@ -70,6 +71,7 @@
 		</effects>
 	</option>
 	<option id="94820" name="P./ M. Evasion +2">
+		<!-- P./ M. Evasion +2 -->
 		<effects>
 			<effect name="PhysicalEvasion">
 				<amount>2</amount>
@@ -82,6 +84,7 @@
 		</effects>
 	</option>
 	<option id="94821" name="P./ M. Evasion +2">
+		<!-- P./ M. Evasion +2 -->
 		<effects>
 			<effect name="PhysicalEvasion">
 				<amount>2</amount>
@@ -94,6 +97,7 @@
 		</effects>
 	</option>
 	<option id="94822" name="P./ M. Evasion +2">
+		<!-- P./ M. Evasion +2 -->
 		<effects>
 			<effect name="PhysicalEvasion">
 				<amount>2</amount>
@@ -106,6 +110,7 @@
 		</effects>
 	</option>
 	<option id="94823" name="P./ M. Evasion +2.1">
+		<!-- P./ M. Evasion +2.1 -->
 		<effects>
 			<effect name="PhysicalEvasion">
 				<amount>2.1</amount>
@@ -118,6 +123,7 @@
 		</effects>
 	</option>
 	<option id="94824" name="P./ M. Evasion +2.2">
+		<!-- P./ M. Evasion +2.2 -->
 		<effects>
 			<effect name="PhysicalEvasion">
 				<amount>2.2</amount>
@@ -130,6 +136,7 @@
 		</effects>
 	</option>
 	<option id="94825" name="P./ M. Evasion +2.3">
+		<!-- P./ M. Evasion +2.3 -->
 		<effects>
 			<effect name="PhysicalEvasion">
 				<amount>2.3</amount>
@@ -142,6 +149,7 @@
 		</effects>
 	</option>
 	<option id="94826" name="P./ M. Evasion +2.4">
+		<!-- P./ M. Evasion +2.4 -->
 		<effects>
 			<effect name="PhysicalEvasion">
 				<amount>2.4</amount>
@@ -154,6 +162,7 @@
 		</effects>
 	</option>
 	<option id="94827" name="P./ M. Evasion +2.5">
+		<!-- P./ M. Evasion +2.5 -->
 		<effects>
 			<effect name="PhysicalEvasion">
 				<amount>2.5</amount>
@@ -166,6 +175,7 @@
 		</effects>
 	</option>
 	<option id="94828" name="P./ M. Evasion +2.6">
+		<!-- P./ M. Evasion +2.6 -->
 		<effects>
 			<effect name="PhysicalEvasion">
 				<amount>2.6</amount>
@@ -178,6 +188,7 @@
 		</effects>
 	</option>
 	<option id="94829" name="P./ M. Evasion +2.7">
+		<!-- P./ M. Evasion +2.7 -->
 		<effects>
 			<effect name="PhysicalEvasion">
 				<amount>2.7</amount>
@@ -190,6 +201,7 @@
 		</effects>
 	</option>
 	<option id="94830" name="P./ M. Evasion +2.8">
+		<!-- P./ M. Evasion +2.8 -->
 		<effects>
 			<effect name="PhysicalEvasion">
 				<amount>2.8</amount>
@@ -202,6 +214,7 @@
 		</effects>
 	</option>
 	<option id="94831" name="P./ M. Evasion +2.9">
+		<!-- P./ M. Evasion +2.9 -->
 		<effects>
 			<effect name="PhysicalEvasion">
 				<amount>2.9</amount>
@@ -214,6 +227,7 @@
 		</effects>
 	</option>
 	<option id="94832" name="P./ M. Evasion +3">
+		<!-- P./ M. Evasion +3 -->
 		<effects>
 			<effect name="PhysicalEvasion">
 				<amount>3</amount>
@@ -226,6 +240,7 @@
 		</effects>
 	</option>
 	<option id="94833" name="P./ M. Evasion +3.2">
+		<!-- P./ M. Evasion +3.2 -->
 		<effects>
 			<effect name="PhysicalEvasion">
 				<amount>3.2</amount>
@@ -238,6 +253,7 @@
 		</effects>
 	</option>
 	<option id="94834" name="P./ M. Evasion +3.4">
+		<!-- P./ M. Evasion +3.4 -->
 		<effects>
 			<effect name="PhysicalEvasion">
 				<amount>3.4</amount>
@@ -250,6 +266,7 @@
 		</effects>
 	</option>
 	<option id="94835" name="P./ M. Evasion +3.6">
+		<!-- P./ M. Evasion +3.6 -->
 		<effects>
 			<effect name="PhysicalEvasion">
 				<amount>3.6</amount>
@@ -262,6 +279,7 @@
 		</effects>
 	</option>
 	<option id="94836" name="P./ M. Evasion +3.9">
+		<!-- P./ M. Evasion +3.9 -->
 		<effects>
 			<effect name="PhysicalEvasion">
 				<amount>3.9</amount>
@@ -274,6 +292,7 @@
 		</effects>
 	</option>
 	<option id="94837" name="P./ M. Evasion +4.3">
+		<!-- P./ M. Evasion +4.3 -->
 		<effects>
 			<effect name="PhysicalEvasion">
 				<amount>4.3</amount>
@@ -286,6 +305,7 @@
 		</effects>
 	</option>
 	<option id="94838" name="P./ M. Evasion +5">
+		<!-- P./ M. Evasion +5 -->
 		<effects>
 			<effect name="PhysicalEvasion">
 				<amount>5</amount>
@@ -418,6 +438,7 @@
 		<!-- Received damage -10% -->
 	</option>
 	<option id="94879" name="P./ M. Atk. +50, P./ M. Def. +70, acquired XP/ SP +5%, Skill MP Consumption -1%">
+		<!-- P./ M. Atk. +50, P./ M. Def. +70, acquired XP/ SP +5%, Skill MP Consumption -1% -->
 		<effects>
 			<effect name="PAtk">
 				<amount>50</amount>
@@ -459,6 +480,7 @@
 		</effects>
 	</option>
 	<option id="94880" name="P./ M. Atk. +100, P./ M. Def. +130, acquired XP/ SP +10%, Skill MP Consumption -2%">
+		<!-- P./ M. Atk. +100, P./ M. Def. +130, acquired XP/ SP +10%, Skill MP Consumption -2% -->
 		<effects>
 			<effect name="PAtk">
 				<amount>100</amount>
@@ -500,6 +522,7 @@
 		</effects>
 	</option>
 	<option id="94881" name="Relevant Defense">
+		<!-- P. Def. +13 -->
 		<effects>
 			<effect name="PhysicalDefence">
 				<amount>13</amount>
@@ -508,6 +531,7 @@
 		</effects>
 	</option>
 	<option id="94882" name="A Pile of Blunt Weapons">
+		<!-- Max HP +35 -->
 		<effects>
 			<effect name="MaxHp">
 				<amount>35</amount>
@@ -516,6 +540,7 @@
 		</effects>
 	</option>
 	<option id="94883" name="Undertaker's First Collection">
+		<!-- P. Def. +14 -->
 		<effects>
 			<effect name="PhysicalDefence">
 				<amount>14</amount>
@@ -524,6 +549,7 @@
 		</effects>
 	</option>
 	<option id="94884" name="Adamant Will">
+		<!-- HP/ MP/ CP Recovery Rate +1 -->
 		<effects>
 			<effect name="HpRegen">
 				<amount>1</amount>
@@ -540,6 +566,7 @@
 		</effects>
 	</option>
 	<option id="94885" name="Robe of Seal Acquisition">
+		<!-- Max HP +10 -->
 		<effects>
 			<effect name="MaxHp">
 				<amount>10</amount>
@@ -548,6 +575,7 @@
 		</effects>
 	</option>
 	<option id="94886" name="Traditional Mage's Weapon">
+		<!-- P. Def. +16 -->
 		<effects>
 			<effect name="PhysicalDefence">
 				<amount>16</amount>
@@ -556,6 +584,7 @@
 		</effects>
 	</option>
 	<option id="94887" name="HP/MP/CP Refill">
+		<!-- HP/ MP/ CP Recovery Rate +1 -->
 		<effects>
 			<effect name="HpRegen">
 				<amount>1</amount>
@@ -572,6 +601,7 @@
 		</effects>
 	</option>
 	<option id="94888" name="Wolf and Scorpion">
+		<!-- Max HP +25 -->
 		<effects>
 			<effect name="MaxHp">
 				<amount>25</amount>
@@ -580,6 +610,7 @@
 		</effects>
 	</option>
 	<option id="94889" name="+9 Battle Axes">
+		<!-- Max HP +30 -->
 		<effects>
 			<effect name="MaxHp">
 				<amount>30</amount>
@@ -588,6 +619,7 @@
 		</effects>
 	</option>
 	<option id="94890" name="Sealed Boots I">
+		<!-- P. Def. +10. -->
 		<effects>
 			<effect name="PhysicalDefence">
 				<amount>10</amount>
@@ -596,6 +628,7 @@
 		</effects>
 	</option>
 	<option id="94891" name="Sealed Boots II">
+		<!-- P. Def. +9 -->
 		<effects>
 			<effect name="PhysicalDefence">
 				<amount>9</amount>
@@ -604,6 +637,7 @@
 		</effects>
 	</option>
 	<option id="94892" name="P. Def. +15">
+		<!-- P. Def. +15 -->
 		<effects>
 			<effect name="PhysicalDefence">
 				<amount>15</amount>
@@ -612,6 +646,7 @@
 		</effects>
 	</option>
 	<option id="94893" name="P. Def. +12">
+		<!-- P. Def. +12 -->
 		<effects>
 			<effect name="PhysicalDefence">
 				<amount>12</amount>
@@ -620,6 +655,7 @@
 		</effects>
 	</option>
 	<option id="94894" name="All Too Easy">
+		<!-- P. Def. +11 -->
 		<effects>
 			<effect name="PhysicalDefence">
 				<amount>11</amount>
@@ -637,6 +673,7 @@
 		</effects>
 	</option>
 	<option id="94896" name="Path of the Rogue">
+		<!-- Ancient Sword Resistance +0.5% -->
 		<effects>
 			<effect name="DefenceTrait">
 				<ANCIENTSWORD>0.5</ANCIENTSWORD>
@@ -644,6 +681,7 @@
 		</effects>
 	</option>
 	<option id="94897" name="Archer's Dexterity">
+		<!-- Ancient Sword Resistance +0.5% -->
 		<effects>
 			<effect name="DefenceTrait">
 				<ANCIENTSWORD>0.5</ANCIENTSWORD>
@@ -651,6 +689,7 @@
 		</effects>
 	</option>
 	<option id="94898" name="Humans' Magic Books">
+		<!-- Ancient Sword Resistance +0.5% -->
 		<effects>
 			<effect name="DefenceTrait">
 				<ANCIENTSWORD>0.5</ANCIENTSWORD>

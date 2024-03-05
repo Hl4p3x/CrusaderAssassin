@@ -1935,7 +1935,7 @@
 		</effects>
 	</skill>
 	<skill id="55282" toLevel="1" name="Buff for the Hero of Ruins of Agony">
-		<!-- Buff for those who fight in the Ruins of Agony. P./ M. Atk. +10%. A chance to obtain Box of Tears when the buff is cancelled. Note!. The box can't be obtained if your character is dead or if there is no space in your inventory. -->
+		<!-- A buff for those who fight in the Ruins of Agony. P./ M. Atk. +10%. A chance to obtain Box of Tears when the buff is canceled. Note!. The box cannot be obtained if your character is dead or if there is no space in your inventory. -->
 		<icon>BranchIcon.Icon.skill_g_field_special_buff_i00</icon>
 		<operateType>A1</operateType>
 		<isMagic>4</isMagic>
@@ -2084,7 +2084,7 @@
 		<effectPoint>532</effectPoint>
 	</skill>
 	<skill id="55297" toLevel="1" name="Buff for the Hero of Ruins of Despair">
-		<!-- Buff for those who fight in the Ruins of Despair. P./ M. Atk. +10%. A chance to obtain Decayed Box when the buff is cancelled. Note!. The box can't be obtained if your character is dead or if there is no space in your inventory. -->
+		<!-- A buff for those who fight in the Ruins of Despair. P./ M. Atk. +10%. There is a chance to obtain Decayed Box when the buff expires. Note!. The box cannot be obtained if you are dead or if there is no free space in your inventory. -->
 		<icon>BranchIcon.Icon.skill_g_field_special_buff_i01</icon>
 		<operateType>A1</operateType>
 		<isMagic>4</isMagic>

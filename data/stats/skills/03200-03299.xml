@@ -714,7 +714,7 @@
 				<chance>1</chance>
 				<targetType>SELF</targetType>
 				<minDamage>1</minDamage>
-				<skillId>5157</skillId> <!-- Duel Might -->
+				<skillId>5157</skillId> <!-- Might in Duel -->
 				<skillLevel>
 					<value level="1">1</value>
 					<value level="2">2</value>
@@ -854,7 +854,7 @@
 				<chance>1</chance>
 				<targetType>ENEMY</targetType>
 				<minDamage>1</minDamage>
-				<skillId>5160</skillId> <!-- Duel Weakness -->
+				<skillId>5160</skillId> <!-- Weakness in Duel -->
 				<skillLevel>
 					<value level="1">1</value>
 					<value level="2">2</value>
@@ -1983,7 +1983,7 @@
 		</effects>
 	</skill>
 	<skill id="3250" toLevel="10" name="Item Skill: Wild Magic">
-		<!-- Item Skill: Increases M. Skill Critical Rate -->
+		<!-- Item skill: Increases M. Skill Critical Rate -->
 		<icon>icon.skill3238</icon>
 		<magicLevel>
 			<value level="1">46</value>
@@ -2703,7 +2703,7 @@
 		</effects>
 	</skill>
 	<skill id="3283" toLevel="1" name="Grey Talisman - Benefaction">
-		<!-- When used, for 10 sec., P. Def. +1800, M. Def. +1620, Buff Cancel Resistance +80%. Effects from two identical talismans do not stack. Cooldown: 15 min. -->
+		<!-- When used, P. Def. +1800, M. Def. +1620, Buff Cancel Resistance +80% for 10 sec. Effects of two identical talismans do not stack. Cooldown: 15 min. -->
 		<icon>icon.etc_talisman_i07</icon>
 		<abnormalLevel>1</abnormalLevel>
 		<abnormalTime>10</abnormalTime>

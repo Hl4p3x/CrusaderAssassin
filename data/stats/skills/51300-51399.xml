@@ -458,7 +458,7 @@
 		<operateType>A1</operateType>
 		<hitTime>3000</hitTime>
 	</skill>
-	<skill id="51322" toLevel="1" name="Summon Earth Dragon's Agathion Taurus">
+	<skill id="51322" toLevel="1" name="Summon Agathion Taurus (Earth Dragon)">
 		<!-- Summons an agathion. -->
 		<icon>icon.etc_summon_aga_agit_i00</icon>
 		<operateType>A1</operateType>
@@ -470,7 +470,7 @@
 		<operateType>A1</operateType>
 		<hitTime>3000</hitTime>
 	</skill>
-	<skill id="51324" toLevel="1" name="Summon Earth Dragon's Agathion Leo">
+	<skill id="51324" toLevel="1" name="Summon Agathion Leo (Earth Dragon)">
 		<!-- Summons an agathion. -->
 		<icon>icon.etc_summon_aga_agit_i00</icon>
 		<operateType>A1</operateType>
@@ -482,7 +482,7 @@
 		<operateType>A1</operateType>
 		<hitTime>3000</hitTime>
 	</skill>
-	<skill id="51326" toLevel="1" name="Summon Earth Dragon's Agathion Scorpio">
+	<skill id="51326" toLevel="1" name="Summon Agathion Scorpio (Earth Dragon)">
 		<!-- Summons an agathion. -->
 		<icon>icon.etc_summon_aga_agit_i00</icon>
 		<operateType>A1</operateType>
@@ -494,7 +494,7 @@
 		<operateType>A1</operateType>
 		<hitTime>3000</hitTime>
 	</skill>
-	<skill id="51328" toLevel="1" name="Summon Earth Dragon's Agathion Sagittarius">
+	<skill id="51328" toLevel="1" name="Summon Agathion Sagittarius (Earth Dragon)">
 		<!-- Summons an agathion. -->
 		<icon>icon.etc_summon_aga_agit_i00</icon>
 		<operateType>A1</operateType>
@@ -506,7 +506,7 @@
 		<operateType>A1</operateType>
 		<hitTime>3000</hitTime>
 	</skill>
-	<skill id="51330" toLevel="1" name="Summon Earth Dragon's Agathion Virgo">
+	<skill id="51330" toLevel="1" name="Summon Agathion Virgo (Earth Dragon)">
 		<!-- Summons an agathion. -->
 		<icon>icon.etc_summon_aga_agit_i00</icon>
 		<operateType>A1</operateType>
@@ -564,7 +564,7 @@
 		<targetType>ITEM</targetType>
 		<affectScope>SINGLE</affectScope>
 	</skill>
-	<skill id="51339" toLevel="1" name="Star Agathion's Gift Box">
+	<skill id="51339" toLevel="1" name="Agathion Gift Box">
 		<icon>icon.skill0000</icon>
 		<isMagic>2</isMagic> <!-- Static Skill -->
 		<itemConsumeCount>1</itemConsumeCount>
@@ -917,7 +917,7 @@
 		<reuseDelay>2000</reuseDelay>
 	</skill>
 	<skill id="51369" toLevel="1" name="Meow Unit's Wild Magic">
-		<!-- M. Skill Critical Rate +20 for 8 h. -->
+		<!-- For 8 h., M. Skill Critical Rate +20. -->
 		<icon>icon.skill1303</icon>
 		<operateType>A2</operateType>
 		<isMagic>1</isMagic> <!-- Magic Skill -->
@@ -1320,7 +1320,7 @@
 		</effects>
 	</skill>
 	<skill id="51389" toLevel="1" name="Meow Unit's Energy">
-		<!-- For 8 h. recovers HP. -->
+		<!-- For 8 h., recovers HP. -->
 		<icon>icon.skill0211</icon>
 		<operateType>A2</operateType>
 		<isMagic>4</isMagic>
@@ -1351,7 +1351,7 @@
 		<effectPoint>-1</effectPoint>
 	</skill>
 	<skill id="51392" toLevel="1" name="Meow Unit's Gratitude">
-		<!-- For 8 h. recovers MP. -->
+		<!-- For 8 h., recovers MP. -->
 		<icon>icon.skill0213</icon>
 		<operateType>A2</operateType>
 		<isMagic>4</isMagic>
@@ -1446,7 +1446,7 @@
 		</effects>
 	</skill>
 	<skill id="51399" toLevel="1" name="Red Lantern - 1st Place">
-		<!-- A magic lantern given as a reward for the 1st place. Prize: XP +100,000,000, SP +2,700,000. Cannot be exchanged, dropped or sold in the private store. Can be stored in the private warehouse. -->
+		<!-- A Magic Lamp given as a reward for the 1st place. Prize: XP +100,000,000, SP +270,000. Cannot be exchanged, dropped or sold in the private store. Can be stored in the private warehouse. -->
 		<icon>icon.etc_holy_grail_i00</icon>
 		<operateType>A1</operateType>
 		<itemConsumeCount>1</itemConsumeCount>

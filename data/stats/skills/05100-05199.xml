@@ -190,7 +190,7 @@
 		<affectScope>SINGLE</affectScope>
 	</skill>
 	<skill id="5110" toLevel="1" name="Cannon Fodder">
-		<!-- Bombards enemies that are either above you or protected by structures such as castle walls or doors. Consumes 4 Flash Gunpowder. -->
+		<!-- Bombards enemies that are either above you or protected by structures such as castle walls or doors. Consumes 5 Flash Gunpowder. -->
 		<icon>icon.skill0000</icon>
 		<affectRange>200</affectRange>
 		<castRange>1600</castRange>
@@ -1984,7 +1984,7 @@
 			</effect>
 		</effects>
 	</skill>
-	<skill id="5157" toLevel="10" name="Duel Might">
+	<skill id="5157" toLevel="10" name="Might in Duel">
 		<!-- When triggered: Increases P. Atk. in PvP for a certain amount of time. -->
 		<icon>icon.skill3080</icon>
 		<abnormalLevel>1</abnormalLevel>
@@ -2132,7 +2132,7 @@
 			</effect>
 		</effects>
 	</skill>
-	<skill id="5160" toLevel="10" name="Duel Weakness">
+	<skill id="5160" toLevel="10" name="Weakness in Duel">
 		<!-- When triggered: Decreases the target's P. Atk. in PvP for a certain amount of time. -->
 		<icon>icon.skill3080</icon>
 		<abnormalLevel>1</abnormalLevel>

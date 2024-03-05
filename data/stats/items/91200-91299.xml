@@ -71,7 +71,7 @@
 		<set name="material" val="PAPER" />
 	</item>
 	<item id="91207" name="Wind's Blessing Chest" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.sayha2017_box_i02" />
 		<set name="default_action" val="SKILL_REDUCE_ON_SKILL_SUCCESS" />
 		<set name="is_dropable" val="false" />
@@ -84,7 +84,7 @@
 		</skills>
 	</item>
 	<item id="91208" name="Wind Golden Pack" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.sayha2017_box_i03" />
 		<set name="default_action" val="SKILL_REDUCE_ON_SKILL_SUCCESS" />
 		<set name="is_dropable" val="false" />
@@ -120,7 +120,7 @@
 		</capsuled_items>
 	</item>
 	<item id="91209" name="Wind Silver Pack" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.sayha2017_box_i04" />
 		<set name="default_action" val="SKILL_REDUCE_ON_SKILL_SUCCESS" />
 		<set name="is_dropable" val="false" />
@@ -189,7 +189,7 @@
 		</skills>
 	</item>
 	<item id="91211" name="White Sayha's Cloak" type="Armor">
-		<!-- A cloak filled with Sayha's energy. Can be enchanted with Sayha's Cloak Enchantment Scrolls. Depending on the enchant value, activates various abilities. -->
+		<!-- A cloak filled with Sayha's energy. Can be enchanted with Scroll: Enchant Sayha's Cloak. Depending on enchant value, special effects are enabled. -->
 		<set name="icon" val="icon.sayha2017_back_i03" />
 		<set name="default_action" val="EQUIP" />
 		<set name="immediate_effect" val="true" />
@@ -214,7 +214,7 @@
 		</skills>
 	</item>
 	<item id="91212" name="Red Sayha's Cloak" type="Armor">
-		<!-- A cloak filled with Sayha's energy. Can be enchanted with Sayha's Cloak Enchantment Scrolls. Depending on the enchant value, activates various abilities. -->
+		<!-- A cloak filled with Sayha's energy. Can be enchanted with Scroll: Enchant Sayha's Cloak. Depending on enchant value, special effects are enabled. -->
 		<set name="icon" val="icon.sayha2017_back_i02" />
 		<set name="default_action" val="EQUIP" />
 		<set name="immediate_effect" val="true" />
@@ -281,7 +281,7 @@
 		</skills>
 	</item>
 	<item id="91216" name="+16 B-grade Weapon Pack" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.etc_treasure_box_i04" />
 		<set name="default_action" val="SKILL_REDUCE_ON_SKILL_SUCCESS" />
 		<set name="is_dropable" val="false" />
@@ -320,7 +320,7 @@
 		</capsuled_items>
 	</item>
 	<item id="91217" name="+10 Hair Accessory Pack" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.etc_pi_box_love_pack" />
 		<set name="default_action" val="SKILL_REDUCE_ON_SKILL_SUCCESS" />
 		<set name="is_dropable" val="false" />
@@ -332,23 +332,23 @@
 		<set name="extractableCountMax" val="1" />
 		<capsuled_items>
 			<item id="90837" min="1" max="1" minEnchant="10" maxEnchant="10" chance="5.555555" /> <!-- White Uniform Hat <STR+1 INT+1> -->
-			<item id="90838" min="1" max="1" minEnchant="10" maxEnchant="10" chance="5.555555" /> <!-- White Uniform Hat <DEX+1 WIT+1> -->
+			<item id="90838" min="1" max="1" minEnchant="10" maxEnchant="10" chance="5.555555" /> <!-- White Uniform Hat <DEX +1 WIT +1> -->
 			<item id="90839" min="1" max="1" minEnchant="10" maxEnchant="10" chance="5.555555" /> <!-- White Uniform Hat <CON+1 MEN+1> -->
 			<item id="90840" min="1" max="1" minEnchant="10" maxEnchant="10" chance="5.555555" /> <!-- Napoleon Hat <STR+1 INT+1> -->
-			<item id="90841" min="1" max="1" minEnchant="10" maxEnchant="10" chance="5.555555" /> <!-- Napoleon Hat <DEX+1 WIT+1> -->
+			<item id="90841" min="1" max="1" minEnchant="10" maxEnchant="10" chance="5.555555" /> <!-- Napoleon Hat <DEX +1 WIT +1> -->
 			<item id="90842" min="1" max="1" minEnchant="10" maxEnchant="10" chance="5.555555" /> <!-- Napoleon Hat <CON+1 MEN+1> -->
 			<item id="90843" min="1" max="1" minEnchant="10" maxEnchant="10" chance="5.555555" /> <!-- Ninja Head Accessory <STR+1 INT+1> -->
 			<item id="90844" min="1" max="1" minEnchant="10" maxEnchant="10" chance="5.555555" /> <!-- Ninja Head Accessory <DEX+1 WIT+1> -->
 			<item id="90845" min="1" max="1" minEnchant="10" maxEnchant="10" chance="5.555555" /> <!-- Ninja Head Accessory <CON+1 MEN+1> -->
 			<item id="90846" min="1" max="1" minEnchant="10" maxEnchant="10" chance="5.555555" /> <!-- Warrior's Helmet <STR+1 INT+1> -->
-			<item id="90847" min="1" max="1" minEnchant="10" maxEnchant="10" chance="5.555555" /> <!-- Warrior's Helmet <DEX+1 WIT+1> -->
+			<item id="90847" min="1" max="1" minEnchant="10" maxEnchant="10" chance="5.555555" /> <!-- Warrior's Helmet <DEX +1 WIT +1> -->
 			<item id="90848" min="1" max="1" minEnchant="10" maxEnchant="10" chance="5.555555" /> <!-- Warrior's Helmet <CON+1 MEN+1> -->
 			<item id="90849" min="1" max="1" minEnchant="10" maxEnchant="10" chance="5.555555" /> <!-- First Mate Hat <STR+1 INT+1> -->
-			<item id="90850" min="1" max="1" minEnchant="10" maxEnchant="10" chance="5.555555" /> <!-- First Mate Hat <DEX+1 WIT+1> -->
+			<item id="90850" min="1" max="1" minEnchant="10" maxEnchant="10" chance="5.555555" /> <!-- First Mate Hat <DEX +1 WIT +1> -->
 			<item id="90851" min="1" max="1" minEnchant="10" maxEnchant="10" chance="5.555555" /> <!-- First Mate Hat <CON+1 MEN+1> -->
-			<item id="90852" min="1" max="1" minEnchant="10" maxEnchant="10" chance="5.555555" /> <!-- Artisan's Goggles <STR+1 INT+1> -->
-			<item id="90853" min="1" max="1" minEnchant="10" maxEnchant="10" chance="5.555555" /> <!-- Artisan's Goggles <DEX+1 WIT+1> -->
-			<item id="90854" min="1" max="1" minEnchant="10" maxEnchant="10" chance="5.555555" /> <!-- Artisan's Goggles <CON+1 MEN+1> -->
+			<item id="90852" min="1" max="1" minEnchant="10" maxEnchant="10" chance="5.555555" /> <!-- Artisan's Goggles <STR +1 INT +1> -->
+			<item id="90853" min="1" max="1" minEnchant="10" maxEnchant="10" chance="5.555555" /> <!-- Artisan's Goggles <DEX +1 WIT +1> -->
+			<item id="90854" min="1" max="1" minEnchant="10" maxEnchant="10" chance="5.555555" /> <!-- Artisan's Goggles <CON +1 MEN +1> -->
 		</capsuled_items>
 	</item>
 	<item id="91218" name="Transformation Scroll: Panda" type="EtcItem">
@@ -380,7 +380,7 @@
 		</skills>
 	</item>
 	<item id="91220" name="Shining Fishing kit Lv. 2" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.bm_freya_gift_box" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -418,7 +418,7 @@
 		</stats>
 	</item>
 	<item id="91222" name="Antharas' Earring Box Lv. 3" additionalName="30-day" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.npoint_antaras_30day_box" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -433,7 +433,7 @@
 		</capsuled_items>
 	</item>
 	<item id="91223" name="Aquamarine Lv. 5" additionalName="30-day" type="Armor">
-		<!-- Available for 30 days. With a certain chance MP +50 when using skills. The effect doesn't stack if two identical jewels are equipped, the higher-level jewel takes precedence. -->
+		<!-- Available for 30 d. With a certain chance, MP +50 when using skills. Effects of two identical jewels do not stack, the higher-level jewel takes precedence. -->
 		<set name="icon" val="icon.etc_bm_jewel_aquamarine_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="bodypart" val="brooch_jewel" />
@@ -446,7 +446,7 @@
 		<set name="time" val="43200" />
 	</item>
 	<item id="91224" name="Sayha's Jewel Box" additionalName="30-day" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.bm_sayhas_talisman_box" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -462,7 +462,7 @@
 		</capsuled_items>
 	</item>
 	<item id="91225" name="Gift from Wealthy Merchant Red" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.etc_treasure_box_i10" />
 		<set name="default_action" val="SKILL_REDUCE_ON_SKILL_SUCCESS" />
 		<set name="is_dropable" val="false" />
@@ -485,9 +485,9 @@
 			<item id="91249" min="1" max="1" chance="5.555555" /> <!-- Dragon Varnish -->
 			<item id="90138" min="1" max="1" chance="5.555555" /> <!-- Glittering Pendant Polish -->
 			<item id="90998" min="1" max="1" chance="5.555555" /> <!-- Balthus Knights' Glittering Varnish -->
-			<item id="91115" min="1" max="1" chance="5.555555" /> <!-- Old Inventory Expansion Ticket Lv. 3 -->
-			<item id="91296" min="1" max="1" chance="5.555555" /> <!-- Old Inventory Expansion Ticket Lv. 4 -->
-			<item id="91297" min="1" max="1" chance="5.555555" /> <!-- Old Inventory Expansion Ticket Lv. 5 -->
+			<item id="91115" min="1" max="1" chance="5.555555" /> <!-- Old Inventory Expansion Coupon Lv. 3 -->
+			<item id="91296" min="1" max="1" chance="5.555555" /> <!-- Old Inventory Expansion Coupon Lv. 4 -->
+			<item id="91297" min="1" max="1" chance="5.555555" /> <!-- Old Inventory Expansion Coupon Lv. 5 -->
 			<item id="91150" min="1" max="1" chance="5.555555" /> <!-- +10 Agathion Pack -->
 			<item id="91147" min="1" max="1" chance="5.555555" /> <!-- Fire Dragon Belt - Venir's Blessing Lv. 4 -->
 			<item id="91146" min="1" max="1" chance="5.555555" /> <!-- Earth Dragon Belt - Venir's Blessing Lv. 4 -->
@@ -581,7 +581,7 @@
 		<set name="material" val="LIQUID" />
 	</item>
 	<item id="91236" name="Santa Girl's Gift Pouch" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="BranchSys.Icon.Br_santa_gift_click_i00" />
 		<set name="default_action" val="SKILL_REDUCE_ON_SKILL_SUCCESS" />
 		<set name="is_tradable" val="false" />
@@ -641,7 +641,7 @@
 		</capsuled_items>
 	</item>
 	<item id="91239" name="Rudolph's Growth Cube Box" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.bm_freya_dark_rune_box" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -670,7 +670,7 @@
 		</skills>
 	</item>
 	<item id="91241" name="Christmas Amulet Box" additionalName="15-day" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="BranchSys.icon.br_fortuna_cube_s_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -685,7 +685,7 @@
 		</capsuled_items>
 	</item>
 	<item id="91242" name="Rudolph's Growth Box" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="BranchIcon.Icon.etc_vip_present_i04" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -894,7 +894,7 @@
 		<set name="material" val="PAPER" />
 	</item>
 	<item id="91255" name="Dragon's Relic" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.card_event_blue_box" />
 		<set name="default_action" val="SKILL_REDUCE_ON_SKILL_SUCCESS" />
 		<set name="is_dropable" val="false" />
@@ -951,7 +951,7 @@
 		</capsuled_items>
 	</item>
 	<item id="91256" name="Baium Doll Lv. 2" type="EtcItem">
-		<!-- <Baium Doll's Sorcery Lv. 2>. Skill Cooldown -3%. P. Def. +12%. M. Def. +12%. Silence Resistance +40%. Fear Resistance +40%. Paralysis Resistance +20%. Knockback Resistance +20%. Pull Resistance +20%. Boosts stats when in inventory. Can be upgraded through compounding. -->
+		<!-- <Baium Doll's Sorcery Lv. 2>. Skill Cooldown -3%. P. Def. +12%. M. Def. +12%. Silence Resistance +40%. Fear Resistance +40%. Paralysis Resistance +20%. Knockback Resistance +20%. Pull Resistance +20%. Boosts stats when in inventory. <font color=bbaa88><Compound></font>. Materials: Baium Doll Lv. 2. In case of failure, the doll's level remains the same, but materials disappear. -->
 		<set name="icon" val="icon.bm_baium_doll_30d" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
@@ -964,7 +964,7 @@
 		</skills>
 	</item>
 	<item id="91257" name="Queen Ant Doll Lv. 2" type="EtcItem">
-		<!-- <Queen Ant Doll's Sorcery Lv. 2>. P. Atk. +8%. P. Critical Damage +8%. P. Skill Critical Damage +8%. Max HP +12%. Boosts stats when in inventory. Can be upgraded through compounding. -->
+		<!-- <Queen Ant Doll's Sorcery Lv. 2>. P. Atk. +8%. P. Critical Damage +8%. P. Skill Critical Damage +8%. Max HP +12%. Boosts stats when in inventory. <font color=bbaa88><Compound></font>. Materials: Queen Ant Doll Lv. 2. In case of failure, the doll's level remains the same, but materials disappear. -->
 		<set name="icon" val="icon.bm_queen_ant_doll_30d" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
@@ -977,7 +977,7 @@
 		</skills>
 	</item>
 	<item id="91258" name="Orfen Doll Lv. 2" type="EtcItem">
-		<!-- <Orfen Doll's Sorcery Lv. 2>. M. Atk. +8%. M. Skill Critical Damage +8%. Max MP +12%. Boosts stats when in inventory. Can be upgraded through compounding. -->
+		<!-- <Orfen Doll's Sorcery Lv. 2>. M. Atk. +8%. M. Skill Critical Damage +8%. Max MP +12%. Boosts stats when in inventory. <font color=bbaa88><Compound></font>. Materials: Orfen Doll Lv. 2. In case of failure, the doll's level remains the same, but materials disappear. -->
 		<set name="icon" val="icon.bm_orfen_doll_30d" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
@@ -1314,7 +1314,7 @@
 		</skills>
 	</item>
 	<item id="91282" name="Mysterious Transformation Box" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.bm2018_transform_box" />
 		<set name="default_action" val="SKILL_REDUCE_ON_SKILL_SUCCESS" />
 		<set name="immediate_effect" val="true" />
@@ -1377,7 +1377,7 @@
 		<set name="material" val="PAPER" />
 	</item>
 	<item id="91289" name="Mysterious Transformation Sealbook Box" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.bm2018_transform_box" />
 		<set name="default_action" val="SKILL_REDUCE_ON_SKILL_SUCCESS" />
 		<set name="is_dropable" val="false" />
@@ -1432,7 +1432,7 @@
 		<set name="is_sellable" val="false" />
 	</item>
 	<item id="91296" name="Old Inventory Expansion Ticket Lv. 4" type="EtcItem">
-		<!-- Old coupon for the inventory expansion. Expired long time ago and completely useless right now. Can be exchanged for Inventory Expansion Ticket Lv. 4 by the Fishing Guildsmen. -->
+		<!-- Old coupon for the inventory expansion. Expired long time ago and completely useless right now. Can be exchanged for an Inventory Expansion Ticket by the Fishing Guildsmen. -->
 		<set name="icon" val="icon.etc_ticket_i00" />
 		<set name="material" val="PAPER" />
 		<set name="is_dropable" val="false" />
@@ -1440,7 +1440,7 @@
 		<set name="is_stackable" val="true" />
 	</item>
 	<item id="91297" name="Old Inventory Expansion Ticket Lv. 5" type="EtcItem">
-		<!-- Old coupon for the inventory expansion. Expired long time ago and completely useless right now. Can be exchanged for Inventory Expansion Ticket Lv. 5 by the Fishing Guildsmen. -->
+		<!-- Old coupon for the inventory expansion. Expired long time ago and completely useless right now. Can be exchanged for an Inventory Expansion Ticket by the Fishing Guildsmen. -->
 		<set name="icon" val="icon.etc_ticket_i00" />
 		<set name="material" val="PAPER" />
 		<set name="is_dropable" val="false" />
@@ -1457,7 +1457,7 @@
 		<set name="is_stackable" val="true" />
 	</item>
 	<item id="91299" name="Spring Energy Lv. 2" type="EtcItem">
-		<!-- For 20 min., Max HP/ MP +5%, P. Atk. +3%, M. Atk. +8%, Atk. Spd./ Casting Spd. +5%, P./ M. Def. +5%, Acquired XP/ SP +5%, Sayha's Grace Consumption -5%. Note!. The Spring Energy effects don't stack, the higher-level effect takes precedence. -->
+		<!-- For 20 min., Max HP/ MP +5%, P. Atk. +3%, M. Atk. +8%, Atk. Spd./ Casting Spd. +5%, P./ M. Def. +5%, acquired XP/ SP +5%, Sayha's Grace Consumption -5%. Note!. The Spring Energy effects don't stack, the higher-level effect takes precedence. -->
 		<set name="icon" val="icon.etc_leaf_green_i00" />
 		<set name="default_action" val="SKILL_REDUCE" />
 		<set name="material" val="PAPER" />

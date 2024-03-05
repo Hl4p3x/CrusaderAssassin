@@ -73,31 +73,31 @@
 		</stats>
 	</item>
 	<item id="93906" name="Zaken's Crystal" type="EtcItem">
-		<!-- Required for creating Flame Sword's Blade. -->
+		<!-- Required for creating Ruler's Crystal. -->
 		<set name="icon" val="icon.dragon_blood" />
 		<set name="material" val="LIQUID" />
 		<set name="is_stackable" val="true" />
 	</item>
 	<item id="93907" name="Orfen's Crystal" type="EtcItem">
-		<!-- Required for creating Flame Sword's Blade. -->
+		<!-- Required for creating Ruler's Crystal. -->
 		<set name="icon" val="icon.orfen_crystal" />
 		<set name="material" val="LIQUID" />
 		<set name="is_stackable" val="true" />
 	</item>
 	<item id="93908" name="Core's Crystal" type="EtcItem">
-		<!-- Required for creating Flame Sword's Blade. -->
+		<!-- Required for creating Ruler's Crystal. -->
 		<set name="icon" val="icon.core_crystal" />
 		<set name="material" val="LIQUID" />
 		<set name="is_stackable" val="true" />
 	</item>
 	<item id="93909" name="Baium's Crystal" type="EtcItem">
-		<!-- Required for creating Flame Sword's Blade. -->
+		<!-- Required for creating Ruler's Crystal. -->
 		<set name="icon" val="icon.baium_crystal" />
 		<set name="material" val="LIQUID" />
 		<set name="is_stackable" val="true" />
 	</item>
 	<item id="93910" name="Queen Ant's Crystal" type="EtcItem">
-		<!-- Required for creating Flame Sword's Blade. -->
+		<!-- Required for creating Ruler's Crystal. -->
 		<set name="icon" val="icon.queen_ant_crystal" />
 		<set name="material" val="LIQUID" />
 		<set name="is_stackable" val="true" />
@@ -111,7 +111,7 @@
 		<set name="is_stackable" val="true" />
 	</item>
 	<item id="93912" name="Recipe: Flame Sword's Blade (10%)" type="EtcItem">
-		<!-- For Dwarves only. A recipe for Flame Sword's Blade. Requires Create Item Lv. 8. The success rate is 10%. -->
+		<!-- A recipe that is no longer used. <Usage>. Selling in a store. Special Craft → Special Weapon → Cursed Holy Grail's Diagram -->
 		<set name="icon" val="icon.etc_recipe_black_i00" />
 		<set name="default_action" val="RECIPE" />
 		<set name="etcitem_type" val="RECIPE" />
@@ -133,7 +133,7 @@
 		<set name="handler" val="Recipes" />
 	</item>
 	<item id="93914" name="Dragon Blood" additionalName="Sealed" type="EtcItem">
-		<!-- Blood imbued with dragon's powers. Required for creating Flame Sword's Blade and Death Knight's Flame Sword. -->
+		<!-- A blood that contains dragon power. Collect a certain number of these to create Evil Energy through the Special Craft. -->
 		<set name="icon" val="icon.zaken_crystal" />
 		<set name="material" val="PAPER" />
 		<set name="is_tradable" val="false" />
@@ -150,7 +150,7 @@
 		<set name="is_stackable" val="true" />
 	</item>
 	<item id="93916" name="Card Pouch (Time-limited)" additionalName="Sealed" type="EtcItem">
-		<!-- Card Collecting Event. Collect various card decks and get rewards!. Double-click to obtain one of the following cards:. - Legendary Card: Astair van Halter. - Legendary Card: Amadeo Cadmus. - Legendary Card: Lionel Hunter. - Legendary Card: Sieghardt Ein. - Legendary Card: Elcadia. - Legendary Card: Baium. - Legendary Card: Lilith. - Legendary Card: Anakim. - Legendary Card: Frintezza. - Lucky Energy Card. - Common Card - Combative Orc (10 pcs.) -->
+		<!-- Card Collecting Event. Collect various card decks and get rewards!. Double-click to obtain one of the following cards:. - Legendary Card: Astair van Halter. - Legendary Card: Amadeo Cadmus. - Legendary Card: Lionel Hunter. - Legendary Card: Sieghardt Ein. - Legendary Card: Elcadia. - Legendary Card: Baium. - Legendary Card: Lilith. - Legendary Card: Anakim. - Legendary Card: Frintezza. - Lucky Energy Card. - Common Card: Frederick the Destroyer (10 pcs.) -->
 		<set name="icon" val="icon.card_event_devil_pocket" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -161,7 +161,7 @@
 		<set name="is_stackable" val="true" />
 	</item>
 	<item id="93917" name="Drakan's Special Card Pouch (Time-limited)" additionalName="Sealed" type="EtcItem">
-		<!-- Card Collecting Event. Collect various card decks and get rewards!. Double-click to obtain one of the following cards:. - Hidden Card. - Legendary Card: Antharas. - Legendary Card: Valakas. - Legendary Card: Astair van Halter. - Legendary Card: Amadeo Cadmus. - Legendary Card: Lionel Hunter. - Legendary Card: Sieghardt Ein. - Legendary Card: Elcadia. - Legendary Card: Baium. - Legendary Card: Lilith. - Legendary Card: Anakim. - Legendary Card: Frintezza. - Lucky Energy Card. - Common Card - Combative Orc (50 pcs.) -->
+		<!-- Card Collecting Event. Collect various card decks and get rewards!. Double-click to obtain one of the following cards:. - Hidden Card. - Legendary Card: Antharas. - Legendary Card: Valakas. - Legendary Card: Astair van Halter. - Legendary Card: Amadeo Cadmus. - Legendary Card: Lionel Hunter. - Legendary Card: Sieghardt Ein. - Legendary Card: Elcadia. - Legendary Card: Baium. - Legendary Card: Lilith. - Legendary Card: Anakim. - Legendary Card: Frintezza. - Lucky Energy Card. - Common Card: Frederick the Destroyer (50 pcs.) -->
 		<set name="icon" val="icon.card_event_dragon_pocket" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -172,7 +172,7 @@
 		<set name="is_stackable" val="true" />
 	</item>
 	<item id="93918" name="Lucky Energy Card (Time-limited)" additionalName="Sealed" type="EtcItem">
-		<!-- Card Collecting Event. Double-click to get one of the following 20-min. buffs:. - STR/ INT +1. - DEX/ WIT +1. - CON/ MEN +1. - Acquired XP/ SP +20%. - STR/ INT/ DEX/ WIT/ CON/ MEN +1. - STR/ INT/ DEX/ WIT/ CON/ MEN +1, acquired XP/ SP +20%. - STR/ INT/ DEX/ WIT/ CON/ MEN +2, acquired XP/ SP +30%. The effect remains after death. You can't cancel the effect by yourself. -->
+		<!-- Card Collecting Event. Double-click to get one of the following 20-min. buffs:. - STR/ INT +1. - DEX/ WIT +1. - CON/ MEN +1. - Acquired XP/ SP +20%. - STR/ INT/ DEX/ WIT/ CON/ MEN +1. - STR/ INT/ DEX/ WIT/ CON/ MEN +1, acquired XP/ SP +20%. - STR/ INT/ DEX/ WIT/ CON/ MEN +2, acquired XP/ SP +30%. The effect remains after death. You cannot cancel the effect by yourself. -->
 		<set name="icon" val="icon.card_devil_black" />
 		<set name="default_action" val="SKILL_REDUCE" />
 		<set name="material" val="PAPER" />
@@ -251,7 +251,7 @@
 		<set name="extractableCountMax" val="1" />
 		<capsuled_items>
 			<item id="90907" min="10" max="10" chance="40.0" /> <!-- Soulshot Ticket - Sealed -->
-			<item id="91712" min="10" max="10" chance="10.0" /> <!-- Sayha's Storm Lv. 3 - Sealed -->
+			<item id="91712" min="10" max="10" chance="10.0" /> <!-- Sayha's Storm - Sealed -->
 			<item id="49674" min="1" max="1" chance="20.0" /> <!-- XP Growth Scroll - Sealed -->
 			<item id="93486" min="10" max="10" chance="10.0" /> <!-- Old Combat Scroll - Sealed -->
 			<item id="9591" min="1" max="1" chance="1.65775" /> <!-- Talisman Bracelet Lv. 3 -->
@@ -275,7 +275,7 @@
 			<item id="93387" min="1" max="1" chance="0.01" /> <!-- Spellbook: Ultimate Death Knight Transformation -->
 			<item id="93926" min="1" max="1" chance="0.01" /> <!-- Enchant Package: Ring of Insolence -->
 			<item id="93927" min="1" max="1" chance="0.01" /> <!-- Enchant Package: Dragon Valley's Earring -->
-			<item id="93930" min="1" max="1" chance="0.01" /> <!-- Special Armor Coupon - Sealed -->
+			<item id="93930" min="1" max="1" chance="0.01" /> <!-- Special Armor Coupon (Time-limited) - Sealed -->
 			<item id="6660" min="1" max="1" chance="0.001" /> <!-- Queen Ant's Ring -->
 			<item id="6661" min="1" max="1" chance="0.001" /> <!-- Orfen's Earring -->
 			<item id="6662" min="1" max="1" chance="0.001" /> <!-- Ring of Core -->
@@ -305,7 +305,7 @@
 		</capsuled_items>
 	</item>
 	<item id="93926" name="Enchant Package: Ring of Insolence" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.etc_treasure_box_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -319,7 +319,7 @@
 		</capsuled_items>
 	</item>
 	<item id="93927" name="Enchant Package: Dragon Valley's Earring" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.etc_treasure_box_i04" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -355,8 +355,8 @@
 		<set name="is_sellable" val="false" />
 	</item>
 	<item id="93930" name="Special Armor Coupon" additionalName="Sealed" type="EtcItem">
-		<!-- Can be exchanged for special armor of Lightning, Ice Crystal armor, or Flaming armor through the Game Assistant. -->
-		<set name="icon" val="icon.bm_armor_ticket_a" />
+		<!-- Double-click to obtain 1 Lightning, Ice Crystal armor, or Flaming armor <font color=ff6666>(unexchangeable)</font> at your choice. -->
+		<set name="icon" val="icon.rare_armor_ticket_i00" />
 		<set name="material" val="LIQUID" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
@@ -364,7 +364,7 @@
 		<set name="is_stackable" val="true" />
 	</item>
 	<item id="93931" name="Scroll: Enchant Death Knight's Flame Sword" type="EtcItem">
-		<!-- <Scroll for enchanting Death Knight's Flame Sword>. When enchanted, P. Atk. +10, M. Atk. +18. Note!. In case of failure, Death Knight's Flame Sword is destroyed. -->
+		<!-- <font color=bbaa88><Scroll for enchanting Death Knight's Flame Sword and weapons of Immortality></font>. One-handed sword/ blunt weapon, dagger, rapier, spear: P. Atk. +80, M. Atk. +50. One-handed magic blunt weapon: P. Atk. +80, M. Atk. +55. Two-handed sword/ blunt weapon, dual swords, fist weapon, ancient sword: P. Atk. +96, M. Atk. +50. Two-handed magic blunt weapon: P. Atk. +96, M. Atk. +55. Bow, firearms: P. Atk. +128, M. Atk. +50. <font color=EEAA22>In case of failure the item disappears.</font> -->
 		<set name="icon" val="icon.scrl_of_ench_firesword" />
 		<set name="default_action" val="SKILL_REDUCE" />
 		<set name="etcitem_type" val="ENCHT_WP" />
@@ -378,7 +378,7 @@
 		</skills>
 	</item>
 	<item id="93932" name="Scroll: Enchant Death Knight's Flame Sword" additionalName="Sealed" type="EtcItem">
-		<!-- <Scroll for enchanting Death Knight's Flame Sword>. When enchanted, P. Atk. +10, M. Atk. +18. Note!. In case of failure, Death Knight's Flame Sword is destroyed. -->
+		<!-- <font color=bbaa88><Scroll for enchanting Death Knight's Flame Sword and weapons of Immortality></font>. One-handed sword/ blunt weapon, dagger, rapier, spear: P. Atk. +80, M. Atk. +50. One-handed magic blunt weapon: P. Atk. +80, M. Atk. +55. Two-handed sword/ blunt weapon, dual swords, fist weapon, ancient sword: P. Atk. +96, M. Atk. +50. Two-handed magic blunt weapon: P. Atk. +96, M. Atk. +55. Bow, firearms: P. Atk. +128, M. Atk. +50. <font color=EEAA22>In case of failure the item disappears.</font> -->
 		<set name="icon" val="icon.scrl_of_ench_firesword" />
 		<set name="default_action" val="SKILL_REDUCE" />
 		<set name="material" val="PAPER" />
@@ -395,7 +395,7 @@
 		</skills>
 	</item>
 	<item id="93933" name="Rare Accessory Pack" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.bm_gold_lure_special_box" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -424,7 +424,7 @@
 		<set name="is_stackable" val="true" />
 	</item>
 	<item id="93935" name="Best Dye Pack +3/-1" additionalName="3rd Class" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.etc_box_of_adventure_2_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -452,7 +452,7 @@
 		</capsuled_items>
 	</item>
 	<item id="93936" name="Best Dye Pack +4/-2" additionalName="3rd Class" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.etc_box_of_adventure_5_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -480,7 +480,7 @@
 		</capsuled_items>
 	</item>
 	<item id="93937" name="Best Dye Pack +4/-3" additionalName="3rd Class" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.etc_box_of_adventure_1_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -607,7 +607,7 @@
 		<set name="is_stackable" val="true" />
 	</item>
 	<item id="93946" name="Package: Majestic Sigil" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.weapon_karyen_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -622,7 +622,7 @@
 		</capsuled_items>
 	</item>
 	<item id="93947" name="Package: Majestic Sigil" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.weapon_karyen_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -665,7 +665,7 @@
 		</skills>
 	</item>
 	<item id="93950" name="Scroll of Escape: Antharas' Lair" additionalName="Sealed" type="EtcItem">
-		<!-- Can be used to teleport to the Antharas' Lair. -->
+		<!-- A magic scroll for teleporting to the entrance to Antharas' Lair. -->
 		<set name="icon" val="icon.etc_scroll_of_return_i05" />
 		<set name="default_action" val="SKILL_REDUCE" />
 		<set name="material" val="PAPER" />
@@ -1074,7 +1074,7 @@
 		<set name="is_stackable" val="true" />
 	</item>
 	<item id="93974" name="Best Dye Coupon" additionalName="Sealed" type="EtcItem">
-		<!-- Can be exchanged for STR/ CON/ DEX/ INT/ MEN/ WIT Dye Lv. 2 through the Game Assistant. -->
+		<!-- Can be exchanged for STR/ CON/ DEX/ INT/ MEN/ WIT Dye Lv. 2 through the Game Assistant. <How to use>. Game Assistant - Items -->
 		<set name="icon" val="icon.etc_exchange_ticket_i01" />
 		<set name="material" val="LIQUID" />
 		<set name="is_tradable" val="false" />
@@ -1097,7 +1097,7 @@
 		<set name="extractableCountMax" val="1" />
 		<capsuled_items>
 			<item id="91136" min="3" max="3" chance="25" /> <!-- Dandy's Golden Ball - Sealed -->
-			<item id="93073" min="5" max="5" chance="25" /> <!-- Sayha's Storm Lv. 3 (Time-limited) - Sealed -->
+			<item id="93073" min="5" max="5" chance="25" /> <!-- Sayha's Storm (Time-limited) - Sealed -->
 			<item id="91840" min="5" max="5" chance="25" /> <!-- XP Growth Scroll (Time-limited) - Sealed -->
 			<item id="94380" min="5" max="5" chance="25" /> <!-- Scroll: Boost Attack (Time-limited) - Sealed -->
 		</capsuled_items>
@@ -1198,7 +1198,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="handler" val="ExtractableItems" />
 		<capsuled_items>
-			<item id="93073" min="1" max="1" chance="100" /> <!-- Sayha's Storm Lv. 3 (Time-limited) - Sealed -->
+			<item id="93073" min="1" max="1" chance="100" /> <!-- Sayha's Storm (Time-limited) - Sealed -->
 			<item id="93886" min="1" max="1" chance="100" /> <!-- Enhanced Dice (Time-limited) - Sealed -->
 		</capsuled_items>
 	</item>
@@ -1357,7 +1357,7 @@
 		<set name="extractableCountMax" val="1" />
 		<capsuled_items>
 			<item id="90907" min="50" max="50" chance="24.365" /> <!-- Soulshot Ticket - Sealed -->
-			<item id="93073" min="3" max="3" chance="24.365" /> <!-- Sayha's Storm Lv. 3 (Time-limited) - Sealed -->
+			<item id="93073" min="3" max="3" chance="24.365" /> <!-- Sayha's Storm (Time-limited) - Sealed -->
 			<item id="93370" min="4" max="4" chance="24.365" /> <!-- Einhasad's Blessing Scroll (Time-limited) - Sealed -->
 			<item id="93701" min="2" max="2" chance="24.365" /> <!-- Charging Stone of Regular Craft - 1 Charge (Time-limited) - Sealed -->
 			<item id="49703" min="1" max="1" chance="1.0" /> <!-- Talisman Bracelet Lv. 4 -->
@@ -1370,7 +1370,7 @@
 			<item id="90992" min="1" max="1" chance="0.01" /> <!-- Antharas' Earring -->
 			<item id="93448" min="1" max="1" chance="0.01" /> <!-- A-grade Weapon Coupon - Sealed -->
 			<item id="93449" min="1" max="1" chance="0.01" /> <!-- A-grade Armor Coupon - Sealed -->
-			<item id="93930" min="1" max="1" chance="0.01" /> <!-- Special Armor Coupon - Sealed -->
+			<item id="93930" min="1" max="1" chance="0.01" /> <!-- Special Armor Coupon (Time-limited) - Sealed -->
 		</capsuled_items>
 	</item>
 	<item id="93987" name="Primeval Isle's Treasure Chest (Time-limited)" additionalName="Sealed" type="EtcItem">

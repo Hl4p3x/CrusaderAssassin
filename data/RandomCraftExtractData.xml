@@ -298,7 +298,7 @@
 		<item id="92696" points="623" fee="30" /> <!-- Mithril Scale Gaiter Material -->
 		<item id="92697" points="623" fee="30" /> <!-- Brigandine Gaiter Material -->
 		<item id="92698" points="747" fee="40" /> <!-- Elven Mithril Tunic Pattern -->
-		<item id="92699" points="467" fee="20" /> <!-- Elven Mithril Stocking Pattern -->
+		<item id="92699" points="467" fee="20" /> <!-- Elven Mithril Stockings Pattern -->
 		<item id="92700" points="373" fee="20" /> <!-- Brigandine Helmet Design -->
 		<item id="92701" points="249" fee="10" /> <!-- Manticore Skin Boot Lining -->
 		<item id="92702" points="249" fee="10" /> <!-- Brigandine Boot Design -->
@@ -382,7 +382,7 @@
 		<item id="92780" points="1149" fee="60" /> <!-- Sealed Doom Glove Fragment -->
 		<item id="92781" points="1149" fee="60" /> <!-- Sealed Blue Wolf Glove Fabric -->
 		<item id="92782" points="741" fee="40" /> <!-- Sealed Zubei's Boot Design -->
-		<item id="92783" points="741" fee="40" /> <!-- Sealed Avadon Boot Design -->
+		<item id="92783" points="741" fee="40" /> <!-- Sealed Avadon Boots Design -->
 		<item id="92784" points="1149" fee="60" /> <!-- Sealed Doom Boot Fragment -->
 		<item id="92785" points="741" fee="40" /> <!-- Sealed Zubei's Gauntlet Fragment -->
 		<item id="92786" points="779" fee="40" /> <!-- Zubei's Shield Fragment -->
@@ -467,7 +467,7 @@
 		<item id="92865" points="42759" fee="2140" /> <!-- Imperial Staff Head -->
 		<item id="92866" points="42759" fee="2140" /> <!-- Angel Slayer Blade -->
 		<item id="92867" points="42759" fee="2140" /> <!-- Dragon Hunter Axe Blade -->
-		<item id="92868" points="42759" fee="2140" /> <!-- Divine Spear Blade -->
+		<item id="92868" points="42759" fee="2140" /> <!-- Saint Spear Blade -->
 		<item id="92869" points="42759" fee="2140" /> <!-- Demon Splinter Blade -->
 		<item id="92870" points="42759" fee="2140" /> <!-- Heaven's Divider Edge -->
 		<item id="92871" points="42759" fee="2140" /> <!-- Arcana Mace Head -->
@@ -547,7 +547,7 @@
 		<item id="92967" points="1348420" fee="67420" /> <!-- Durendal - Sealed -->
 		<item id="92968" points="1037050" fee="51850" /> <!-- Undertaker - Sealed -->
 		<item id="92969" points="704900" fee="35250" /> <!-- Divine Pain - Sealed -->
-		<item id="92970" points="1348420" fee="67420" /> <!-- ?clair Bijou - Sealed -->
+		<item id="92970" points="1348420" fee="67420" /> <!-- Éclair Bijou - Sealed -->
 		<item id="92971" points="1037050" fee="51850" /> <!-- Lacerator - Sealed -->
 		<item id="92972" points="704900" fee="35250" /> <!-- White Lightning - Sealed -->
 		<item id="92974" points="100000" fee="2000" /> <!-- Drained Stone of Purity - Sealed -->
@@ -1094,8 +1094,8 @@
 		<item id="95316" points="215000" fee="10750" /> <!-- Immortal Edge - Sealed -->
 		<item id="95317" points="114500" fee="5730" /> <!-- Schlager - Sealed -->
 		<item id="95318" points="434000" fee="21700" /> <!-- Innominate Victory - Sealed -->
-		<item id="95319" points="90000" fee="4500" /> <!-- Grand ?p?e - Sealed -->
-		<item id="95320" points="70000" fee="3500" /> <!-- ?p?e - Sealed -->
+		<item id="95319" points="90000" fee="4500" /> <!-- Grand Épée - Sealed -->
+		<item id="95320" points="70000" fee="3500" /> <!-- Épée - Sealed -->
 		<item id="95321" points="48350" fee="2420" /> <!-- Estoc - Sealed -->
 		<item id="95322" points="32200" fee="1610" /> <!-- Fleuret - Sealed -->
 		<item id="95323" points="215000" fee="10750" /> <!-- Blinzlasher - Sealed -->
@@ -1180,7 +1180,14 @@
 		<item id="97250" points="500" fee="10" /> <!-- Unknown Resources - Sealed -->
 		<item id="97251" points="1000" fee="20" /> <!-- Shining Resources - Sealed -->
 		<item id="97252" points="5000" fee="100" /> <!-- High-grade Resources - Sealed -->
-		<item id="97653" points="306500" fee="15330" /> <!-- Collector's Weapon I - Sealed -->
-		<item id="97654" points="104500" fee="5230" /> <!-- Collector's Armor I - Sealed -->
+		<item id="97653" points="306500" fee="15330" /> <!-- Collector's Weapon C - Sealed -->
+		<item id="97654" points="104500" fee="5230" /> <!-- Collector's Armor C - Sealed -->
+		<item id="98089" points="655000" fee="32750" /> <!-- Collector's Weapon B - Sealed -->
+		<item id="98090" points="235500" fee="11780" /> <!-- Collector's Armor B - Sealed -->
+		<item id="98474" points="176" fee="9" /> <!-- Earring of Strength - Sealed -->
+		<item id="98475" points="176" fee="9" /> <!-- Earring of Wisdom - Sealed -->
+		<item id="98476" points="296" fee="15" /> <!-- Ring of Wisdom - Sealed -->
+		<item id="98477" points="535" fee="27" /> <!-- Blue Coral Ring - Sealed -->
+		<item id="98478" points="1065" fee="53" /> <!-- Blue Diamond Necklace - Sealed -->
 	</extract>
 </list>

@@ -497,7 +497,7 @@
 		</effects>
 	</skill>
 	<skill id="54216" toLevel="1" name="Baby Shark Transformation">
-		<!-- P. Atk. +200. M. Atk. +200. Atk. Spd. +20. Casting Spd. +20. P. Critical Rate +5. Skill Critical Rate +5%. Acquired XP/ SP +20%. Sayha's Grace Consumption -3%. XP recovery fee -20% -->
+		<!-- P. Atk. +200. M. Atk. +200. Atk. Spd. +20. Casting Spd. +20. P. Critical Rate +5. Skill Critical Rate +5%. Acquired XP/ SP +20%. Sayha's Grace Consumption -3%. XP recovery fee -10% -->
 		<icon>icon.shark_suit</icon>
 		<abnormalLevel>4</abnormalLevel>
 		<abnormalType>RANDOM_TRANSFORMATION_SCROLL</abnormalType>
@@ -554,7 +554,7 @@
 		</effects>
 	</skill>
 	<skill id="54217" toLevel="1" name="Panda Transformation">
-		<!-- P. Atk. +100. M. Atk. +100. Atk. Spd. +10. Casting Spd. +10. P. Critical Rate +5. Skill Critical Rate +5%. Acquired XP/ SP +20%. Sayha's Grace Consumption -3%. XP recovery fee -20% -->
+		<!-- P. Atk. +100. M. Atk. +100. Atk. Spd. +10. Casting Spd. +10. P. Critical Rate +5. Skill Critical Rate +5%. Acquired XP/ SP +20%. Sayha's Grace Consumption -3%. XP recovery fee -10% -->
 		<icon>icon.sayha2017_panda</icon>
 		<abnormalLevel>4</abnormalLevel>
 		<abnormalType>RANDOM_TRANSFORMATION_SCROLL</abnormalType>
@@ -713,22 +713,22 @@
 		</effects>
 	</skill>
 	<skill id="54220" toLevel="1" name="Dragon Berserker Evolver">
-		<!-- P. Atk. +500. M. Atk. +500. Atk. Spd. +100. Casting Spd. +100. P. Critical Rate +30. Skill Critical Rate +30%. Acquired XP/ SP +30%. Sayha's Grace Consumption -15% -->
+		<!-- P. Atk. +500. M. Atk. +500. Atk. Spd. +100. Casting Spd. +100. P. Critical Rate +30. Skill Critical Rate +30%. Acquired XP/ SP +30%. Sayha's Grace Consumption -15%. XP recovery fee -10% -->
 		<icon>icon.bm2018_dragon_i01</icon>
 		<operateType>A1</operateType>
 	</skill>
 	<skill id="54221" toLevel="1" name="Wild Wolf Transformation">
-		<!-- P. Atk. +300. M. Atk. +300. Atk. Spd. +50. Casting Spd. +50. P. Critical Rate +15. Skill Critical Rate +15%. Acquired XP/ SP +30%. Sayha's Grace Consumption -10%. XP recovery fee -20% -->
+		<!-- P. Atk. +300. M. Atk. +300. Atk. Spd. +50. Casting Spd. +50. P. Critical Rate +15. Skill Critical Rate +15%. Acquired XP/ SP +30%. Sayha's Grace Consumption -10%. XP recovery fee -10% -->
 		<icon>icon.bm2018_barbarian_i01</icon>
 		<operateType>A1</operateType>
 	</skill>
 	<skill id="54222" toLevel="1" name="Holiday Attire">
-		<!-- P. Atk. +200. M. Atk. +200. Atk. Spd. +20. Casting Spd. +20. P. Critical Rate +5. Skill Critical Rate +5%. Acquired XP/ SP +20%. Sayha's Grace Consumption -3% -->
+		<!-- P. Atk. +200. M. Atk. +200. Atk. Spd. +20. Casting Spd. +20. P. Critical Rate +5. Skill Critical Rate +5%. Acquired XP/ SP +20%. Sayha's Grace Consumption -3%. XP recovery fee -10% -->
 		<icon>icon.whiteday_suit</icon>
 		<operateType>A1</operateType>
 	</skill>
 	<skill id="54223" toLevel="1" name="Transform: Kat the Cat">
-		<!-- P. Atk. +100. M. Atk. +100. Atk. Spd. +10. Casting Spd. +10. P. Critical Rate +5. Skill Critical Rate +5%. Acquired XP/ SP +20%. Sayha's Grace Consumption -3%. XP recovery fee -20% -->
+		<!-- P. Atk. +100. M. Atk. +100. Atk. Spd. +10. Casting Spd. +10. P. Critical Rate +5. Skill Critical Rate +5%. Acquired XP/ SP +20%. Sayha's Grace Consumption -3%. XP recovery fee -10% -->
 		<icon>icon.cat_the_cat_change_0</icon>
 		<operateType>A1</operateType>
 	</skill>
@@ -808,7 +808,7 @@
 		<targetType>SELF</targetType>
 		<affectScope>SINGLE</affectScope>
 	</skill>
-	<skill id="54228" toLevel="1" name="Eskimo Transformation">
+	<skill id="54228" toLevel="1" name="Inuit Transformation">
 		<!-- P. Atk. +100. M. Atk. +100. Atk. Spd. +10. Casting Spd. +10. P. Critical Rate +5. Skill Critical Rate +5%. Acquired XP/ SP +20%. Sayha's Grace Consumption -3% -->
 		<icon>icon.eskimo_suit</icon>
 		<operateType>A1</operateType>
@@ -887,7 +887,7 @@
 		</effects>
 	</skill>
 	<skill id="54232" toLevel="1" name="Dizzy Lv. 1">
-		<!-- You feel dizzy from cold. PvE damage +7%. Sustains Sayha's Grace. The effect remains after death. You can cancel the effect by yourself. -->
+		<!-- You feel dizzy from cold. PvE damage +2%. Received PvE damage -2%. Atk. Spd./ Casting Spd. +5%. All received Critical Rate -2%. All received Critical Damage -2%. Sayha's Grace Sustain. The effect remains after death. You can cancel the effect by yourself. -->
 		<icon>Icon.ev_2020_summer1</icon>
 		<operateType>A1</operateType>
 	</skill>
@@ -902,7 +902,7 @@
 		<operateType>A1</operateType>
 	</skill>
 	<skill id="54235" toLevel="1" name="Dizzy Lv. 2">
-		<!-- You feel dizzy from cold. PvE damage +15%. Sustains Sayha's Grace. The effect remains after death. You can cancel the effect by yourself. -->
+		<!-- You feel dizzy from cold. PvE damage +5%. Received PvE damage -5%. Atk. Spd./ Casting Spd. +10%. All received Critical Rate -5%. All received Critical Damage -5%. Sayha's Grace Sustain. The effect remains after death. You can cancel the effect by yourself. -->
 		<icon>Icon.ev_2020_summer1</icon>
 		<operateType>A1</operateType>
 	</skill>
@@ -932,8 +932,268 @@
 		<operateType>A1</operateType>
 	</skill>
 	<skill id="54241" toLevel="1" name="Labyrinth Uniform">
-		<!-- Clothes worn by Underground Labyrinth's prisoners. -->
+		<!-- Clothes worn by Underground Labyrinth' prisoners. -->
 		<icon>icon.prison_uniform</icon>
 		<operateType>A1</operateType>
+	</skill>
+	<skill id="54242" toLevel="1" name="Worthy Warrior Transformation">
+		<!-- For adventurers who have taken the 1st-3rd places in rankings among their race. The Assassin power grants you a unique appearance. Max HP +300 -->
+		<icon>icon.skill5661</icon>
+		<operateType>A1</operateType>
+		<isMagic>4</isMagic>
+		<mpConsume>0</mpConsume>
+		<castRange>-1</castRange>
+		<hitTime>500</hitTime>
+		<coolTime>500</coolTime>
+		<reuseDelay>10000</reuseDelay>
+		<effectPoint>1</effectPoint>
+		<hpConsume>0</hpConsume>
+		<abnormalTime>3600</abnormalTime>
+	</skill>
+	<skill id="54243" toLevel="1" name="Assassin's Secret Notes - 1st Page">
+		<!-- <<font color="00FF00">Secret Notes</font>>. Reading secret notes addressed to Assassins temporarily grants some abilities. Max HP +3%. Max MP +3%. P. Atk. +2%. M. Atk. +2%. P. Def. +2%. M. Def. +2%. Atk. Spd. +2%. P. Accuracy +1. M. Accuracy +1. M. Skill Critical Rate +10. Speed +3. <font color="FF8000">Note!</font>. The same Assassins' notes cannot be read twice. Cannot be used with White Guardian. -->
+		<icon>icon.etc_piece_of_paper_gray_i00</icon>
+		<operateType>A2</operateType>
+		<abnormalVisualEffect>H_ASN_SECRET_BOOKA_AVE</abnormalVisualEffect>
+		<isMagic>4</isMagic>
+		<mpConsume>0</mpConsume>
+		<castRange>-1</castRange>
+		<hitTime>500</hitTime>
+		<coolTime>500</coolTime>
+		<reuseDelay>7200000</reuseDelay>
+		<effectPoint>1</effectPoint>
+		<hpConsume>0</hpConsume>
+		<abnormalTime>1200</abnormalTime>
+		<targetType>SELF</targetType>
+		<affectScope>SINGLE</affectScope>
+		<conditions>
+			<condition name="OpNotAffectedBySkill">
+				<skillId>54244</skillId> <!-- Assassin's Secret Notes - 2nd Page -->
+			</condition>
+			<condition name="OpNotAffectedBySkill">
+				<skillId>54245</skillId> <!-- Assassin's Secret Notes - 3rd Page -->
+			</condition>
+		</conditions>
+		<effects>
+			<effect name="MaxHp">
+				<amount>3</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="MaxMp">
+				<amount>3</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="PAtk">
+				<amount>2</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="MAtk">
+				<amount>2</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="PhysicalDefence">
+				<amount>2</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="MagicalDefence">
+				<amount>2</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="PhysicalAttackSpeed">
+				<amount>2</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="Accuracy">
+				<amount>1</amount>
+				<mode>DIFF</mode>
+			</effect>
+			<effect name="MagicAccuracy">
+				<amount>1</amount>
+				<mode>DIFF</mode>
+			</effect>
+			<effect name="MagicCriticalRate">
+				<amount>10</amount>
+				<mode>DIFF</mode>
+			</effect>
+			<effect name="Speed">
+				<amount>3</amount>
+				<mode>DIFF</mode>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="54244" toLevel="1" name="Assassin's Secret Notes - 2nd Page">
+		<!-- <<font color="00FF00">Secret Notes</font>>. Reading secret notes addressed to Assassins temporarily grants some abilities. Max HP +5%. Max MP +5%. P. Atk. +2%. M. Atk. +2%. P. Def. +2%. M. Def. +2%. Atk. Spd. +3%. P. Accuracy +1. M. Accuracy +1. M. Skill Critical Rate +10. Speed +4. <font color="FF8000">Note!</font>. The same Assassins' notes cannot be read twice. Cannot be used with White Guardian. -->
+		<icon>icon.etc_piece_of_paper_black_i00</icon>
+		<operateType>A2</operateType>
+		<abnormalVisualEffect>H_ASN_SECRET_BOOKB_AVE</abnormalVisualEffect>
+		<isMagic>4</isMagic>
+		<mpConsume>0</mpConsume>
+		<castRange>-1</castRange>
+		<hitTime>500</hitTime>
+		<coolTime>500</coolTime>
+		<reuseDelay>7200000</reuseDelay>
+		<effectPoint>1</effectPoint>
+		<hpConsume>0</hpConsume>
+		<abnormalTime>1200</abnormalTime>
+		<targetType>SELF</targetType>
+		<affectScope>SINGLE</affectScope>
+		<conditions>
+			<condition name="OpNotAffectedBySkill">
+				<skillId>54243</skillId> <!-- Assassin's Secret Notes - 1st Page -->
+			</condition>
+			<condition name="OpNotAffectedBySkill">
+				<skillId>54245</skillId> <!-- Assassin's Secret Notes - 3rd Page -->
+			</condition>
+		</conditions>
+		<effects>
+			<effect name="MaxHp">
+				<amount>5</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="MaxMp">
+				<amount>5</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="PAtk">
+				<amount>2</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="MAtk">
+				<amount>2</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="PhysicalDefence">
+				<amount>2</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="MagicalDefence">
+				<amount>2</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="PhysicalAttackSpeed">
+				<amount>3</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="Accuracy">
+				<amount>1</amount>
+				<mode>DIFF</mode>
+			</effect>
+			<effect name="MagicAccuracy">
+				<amount>1</amount>
+				<mode>DIFF</mode>
+			</effect>
+			<effect name="MagicCriticalRate">
+				<amount>10</amount>
+				<mode>DIFF</mode>
+			</effect>
+			<effect name="Speed">
+				<amount>4</amount>
+				<mode>DIFF</mode>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="54245" toLevel="1" name="Assassin's Secret Notes - 3rd Page">
+		<!-- <<font color="00FF00">Secret Notes</font>>. Reading secret notes addressed to Assassins temporarily grants some abilities. Max HP +7%. Max MP +7%. P. Atk. +3%. M. Atk. +3%. P. Def. +3%. M. Def. +3%. Atk. Spd. +5%. P. Accuracy +2. M. Accuracy +2. M. Skill Critical Rate +20. Speed +5. <font color="FF8000">Note!</font>. The same Assassins' notes cannot be read twice. Cannot be used with White Guardian. -->
+		<icon>icon.etc_piece_of_paper_white_i00</icon>
+		<operateType>A2</operateType>
+		<abnormalVisualEffect>H_ASN_SECRET_BOOKC_AVE</abnormalVisualEffect>
+		<isMagic>4</isMagic>
+		<mpConsume>0</mpConsume>
+		<castRange>-1</castRange>
+		<hitTime>500</hitTime>
+		<coolTime>500</coolTime>
+		<reuseDelay>3600000</reuseDelay>
+		<effectPoint>1</effectPoint>
+		<hpConsume>0</hpConsume>
+		<abnormalTime>1200</abnormalTime>
+		<conditions>
+			<condition name="OpNotAffectedBySkill">
+				<skillId>54243</skillId> <!-- Assassin's Secret Notes - 1st Page -->
+			</condition>
+			<condition name="OpNotAffectedBySkill">
+				<skillId>54244</skillId> <!-- Assassin's Secret Notes - 2nd Page -->
+			</condition>
+		</conditions>
+		<effects>
+			<effect name="MaxHp">
+				<amount>7</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="MaxMp">
+				<amount>7</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="PAtk">
+				<amount>3</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="MAtk">
+				<amount>3</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="PhysicalDefence">
+				<amount>3</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="MagicalDefence">
+				<amount>3</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="PhysicalAttackSpeed">
+				<amount>5</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="Accuracy">
+				<amount>2</amount>
+				<mode>DIFF</mode>
+			</effect>
+			<effect name="MagicAccuracy">
+				<amount>2</amount>
+				<mode>DIFF</mode>
+			</effect>
+			<effect name="MagicCriticalRate">
+				<amount>20</amount>
+				<mode>DIFF</mode>
+			</effect>
+			<effect name="Speed">
+				<amount>5</amount>
+				<mode>DIFF</mode>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="54246" toLevel="1" name="Silver Wolf">
+		<!-- Allows to mount Silver Wolf. -->
+		<icon>icon.s_assassin_riding_wolf</icon>
+		<operateType>A2</operateType>
+		<isMagic>2</isMagic>
+		<mpConsume>0</mpConsume>
+		<castRange>-1</castRange>
+		<hitTime>1000</hitTime>
+		<coolTime>0</coolTime>
+		<reuseDelay>0</reuseDelay>
+		<effectPoint>1</effectPoint>
+		<hpConsume>0</hpConsume>
+		<abnormalTime>3600</abnormalTime>
+		<abnormalLevel>1</abnormalLevel>
+		<abnormalType>TRANSFORM</abnormalType>
+		<blockedInOlympiad>true</blockedInOlympiad>
+		<basicProperty>NONE</basicProperty>
+		<magicCriticalRate>5</magicCriticalRate>
+		<specialLevel>-1</specialLevel>
+		<hitCancelTime>0</hitCancelTime>
+		<irreplacableBuff>true</irreplacableBuff>
+		<magicLevel>76</magicLevel>
+		<targetType>SELF</targetType>
+		<affectScope>SINGLE</affectScope>
+		<conditions>
+			<condition name="CanTransform">
+				<transformId>224</transformId>
+			</condition>
+		</conditions>
+		<effects>
+			<effect name="Transformation">
+				<transformationId>224</transformationId>
+			</effect>
+		</effects>
 	</skill>
 </list>

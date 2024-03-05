@@ -3554,19 +3554,29 @@
 			</effect>
 		</effects>
 	</skill>
-	<skill id="964" toLevel="1" name="Children of Shillien">
+	<skill id="964" toLevel="2" name="Children of Shillien">
 		<!-- M. Atk. +20. MP Recovery Rate +5% -->
-		<icon>icon.skill1910</icon>
+		<icon>
+			<value level="1">icon.skill1910</value>
+			<value level="2">icon.s_children_of_shilen2</value>
+		</icon>
 		<magicLevel>14</magicLevel>
 		<operateType>P</operateType>
 		<magicCriticalRate>5</magicCriticalRate>
 		<effects>
-			<effect name="MagicalAttackSpeed">
-				<amount>13</amount>
+			<effect name="MAtk">
+				<amount>
+					<value level="1">20</value>
+					<value level="2">170</value>
+				</amount>
 				<mode>DIFF</mode>
 			</effect>
+			<effect name="MagicCriticalRate" fromLevel="2" toLevel="2">
+				<amount>10</amount>
+				<mode>PER</mode>
+			</effect>
 			<effect name="MpRegen">
-				<amount>2</amount>
+				<amount>5</amount>
 				<mode>PER</mode>
 			</effect>
 		</effects>
@@ -4928,7 +4938,7 @@
 		</effects>
 	</skill>
 	<skill id="993" toLevel="8" name="Force Mastery">
-		<!-- With a 30% chance, absorbs the target's Momentum after a basic attack. After a physical critical attack, the chance to absorb Momentum is 50%. After a physical skill, the chance is 25%. (Cooldown: 7 sec. Each of the triggers activates the cooldown.). Requires a fist weapon. Recover Momentum is available up to Lv. 1. -->
+		<!-- With a 75% chance, absorbs the target's Momentum after a basic attack. After a physical critical attack, the chance to absorb Momentum is 50%. After a physical skill, the chance is 25%. (Cooldown: 1 sec. Each of the triggers activates the cooldown.). Requires a fist weapon. Recover Momentum is available up to Lv. 1. -->
 		<icon>icon.skill10335</icon>
 		<magicLevel>
 			<value level="1">24</value>

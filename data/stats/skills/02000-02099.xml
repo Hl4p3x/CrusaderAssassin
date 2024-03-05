@@ -58,7 +58,7 @@
 		</conditions>
 		<effects>
 			<effect name="SummonNpc">
-				<npcId>12774</npcId> <!-- Little Pumpkin -->
+				<npcId>12774</npcId> <!-- Young Pumpkin -->
 				<npcCount>1</npcCount>
 				<despawnDelay>180000</despawnDelay>
 			</effect>
@@ -82,7 +82,7 @@
 		</conditions>
 		<effects>
 			<effect name="SummonNpc">
-				<npcId>12777</npcId> <!-- Large Young Squash -->
+				<npcId>12777</npcId> <!-- Young Large Pumpkin -->
 				<npcCount>1</npcCount>
 				<despawnDelay>180000</despawnDelay>
 			</effect>
@@ -875,7 +875,7 @@
 		</effects>
 	</skill>
 	<skill id="2054" toLevel="1" name="Scroll: Haste">
-		<!-- Atk. Spd. +15% for 20 min. -->
+		<!-- For 20 min., Atk. Spd. +15%. -->
 		<icon>icon.etc_scroll_white_i00</icon>
 		<abnormalLevel>4</abnormalLevel>
 		<abnormalTime>1200</abnormalTime>

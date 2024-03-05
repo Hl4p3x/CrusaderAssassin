@@ -69,7 +69,7 @@
 		</conditions>
 		<effects>
 			<effect name="SummonNpc">
-				<npcId>13399</npcId> <!-- Snowy Young Squash -->
+				<npcId>13399</npcId> <!-- Young Snowy Pumpkin -->
 				<npcCount>1</npcCount>
 				<despawnDelay>180000</despawnDelay>
 			</effect>
@@ -93,7 +93,7 @@
 		</conditions>
 		<effects>
 			<effect name="SummonNpc">
-				<npcId>13403</npcId> <!-- Snowy Large Young Squash -->
+				<npcId>13403</npcId> <!-- Young Large Snowy Pumpkin -->
 				<npcCount>1</npcCount>
 				<despawnDelay>180000</despawnDelay>
 			</effect>

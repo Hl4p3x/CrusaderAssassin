@@ -52,7 +52,7 @@
 		<set name="is_stackable" val="true" />
 	</item>
 	<item id="97405" name="Baium's Energy Pack (Time-limited)" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.event_july_seven_park_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -114,7 +114,7 @@
 		</capsuled_items>
 	</item>
 	<item id="97406" name="Kit: Baium's Energy Pack (Time-limited)" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.event_hero_treasure_box_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -130,7 +130,7 @@
 		</capsuled_items>
 	</item>
 	<item id="97407" name="Einhasad's Treasure Chest (Time-limited)" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.bm_special_jewelbox_lv4" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -194,7 +194,7 @@
 		</capsuled_items>
 	</item>
 	<item id="97408" name="Kit: Einhasad's Treasure Chest (Time-limited)" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.present_of_destination_event" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -210,7 +210,7 @@
 		</capsuled_items>
 	</item>
 	<item id="97409" name="Package: Scroll of Blessing: Armor (Sealed) 10 pcs." additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.bless_scroll_am" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -225,7 +225,7 @@
 		</capsuled_items>
 	</item>
 	<item id="97410" name="Doll Pack Lv. 2" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.bm_sayha_gold_present" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -248,7 +248,7 @@
 		</capsuled_items>
 	</item>
 	<item id="97411" name="Package: +1 Talisman of Baium (Sealed)" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.baium_talisman_new" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -263,7 +263,7 @@
 		</capsuled_items>
 	</item>
 	<item id="97412" name="Package: +2 Talisman of Baium (Sealed)" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.baium_talisman_new" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -278,7 +278,7 @@
 		</capsuled_items>
 	</item>
 	<item id="97413" name="Package: +3 Talisman of Baium (Sealed)" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.baium_talisman_new" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -293,7 +293,7 @@
 		</capsuled_items>
 	</item>
 	<item id="97414" name="+2 ~ +5 Talisman of Speed Pack" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.bm_pirate_king_box" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -313,7 +313,7 @@
 		</capsuled_items>
 	</item>
 	<item id="97415" name="Red Lantern (Time-limited)" additionalName="Sealed" type="EtcItem">
-		<!-- When used, XP +100,000,000, SP +2,700,000. Note!. The item will be deleted after the scheduled maintenance. -->
+		<!-- When used, XP +100,000,000, SP +270,000. Note!. The item will be deleted after the scheduled maintenance. -->
 		<set name="icon" val="icon.r99_soul_stone_i00" />
 		<set name="default_action" val="SKILL_REDUCE" />
 		<set name="immediate_effect" val="true" />
@@ -328,7 +328,7 @@
 		</skills>
 	</item>
 	<item id="97416" name="Purple Lantern (Time-limited)" additionalName="Sealed" type="EtcItem">
-		<!-- When used, XP +30,000,000, SP +810,000. Note!. The item will be deleted after the scheduled maintenance. -->
+		<!-- When used, XP +30,000,000, SP +81,000. Note!. The item will be deleted after the scheduled maintenance. -->
 		<set name="icon" val="icon.r99_soul_stone_i05" />
 		<set name="default_action" val="SKILL_REDUCE" />
 		<set name="immediate_effect" val="true" />
@@ -343,7 +343,7 @@
 		</skills>
 	</item>
 	<item id="97417" name="Blue Lantern (Time-limited)" additionalName="Sealed" type="EtcItem">
-		<!-- When used, XP +10,000,000, SP +270,000. Note!. The item will be deleted after the scheduled maintenance. -->
+		<!-- When used, XP +10,000,000, SP +27,000. Note!. The item will be deleted after the scheduled maintenance. -->
 		<set name="icon" val="icon.r99_soul_stone_i02" />
 		<set name="default_action" val="SKILL_REDUCE" />
 		<set name="immediate_effect" val="true" />
@@ -358,7 +358,7 @@
 		</skills>
 	</item>
 	<item id="97418" name="Green Lantern (Time-limited)" additionalName="Sealed" type="EtcItem">
-		<!-- When used, XP +5,000,000, SP +135,000. Note!. The item will be deleted after the scheduled maintenance. -->
+		<!-- When used, XP +5,000,000, SP +3500. Note!. The item will be deleted after the scheduled maintenance. -->
 		<set name="icon" val="icon.r99_soul_stone_i04" />
 		<set name="default_action" val="SKILL_REDUCE" />
 		<set name="immediate_effect" val="true" />
@@ -373,7 +373,7 @@
 		</skills>
 	</item>
 	<item id="97419" name="Rare Accessory Pack" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.bm_gold_lure_special_box" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -397,7 +397,7 @@
 		</capsuled_items>
 	</item>
 	<item id="97420" name="Golden Tiger's Treasure Chest (Time-limited)" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.sayha2017_box_i03" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -425,7 +425,7 @@
 		</capsuled_items>
 	</item>
 	<item id="97421" name="Black Tiger's Treasure Chest (Time-limited)" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.sayha2017_box_i01" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -438,12 +438,12 @@
 		<capsuled_items>
 			<item id="95693" min="5" max="5" chance="100" /> <!-- Berserker's Scroll (Time-limited) - Sealed -->
 			<item id="94814" min="5" max="5" chance="100" /> <!-- Aden Transformation Scroll (Time-limited) - Sealed -->
-			<item id="93073" min="10" max="10" chance="100" /> <!-- Sayha's Storm Lv. 3 (Time-limited) - Sealed -->
+			<item id="93073" min="10" max="10" chance="100" /> <!-- Sayha's Storm (Time-limited) - Sealed -->
 			<item id="93848" min="22" max="22" chance="100" /> <!-- Sayha's Cookie (Time-limited) - Sealed -->
 		</capsuled_items>
 	</item>
 	<item id="97422" name="Lucky Gift Pouch (Time-limited)" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.christmas_card_box1" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -499,7 +499,7 @@
 		<set name="is_stackable" val="true" />
 	</item>
 	<item id="97426" name="Hero's Trophy Pack (Time-limited)" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.event_mahum_coinbox" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -564,7 +564,7 @@
 		</capsuled_items>
 	</item>
 	<item id="97427" name="Kit: Hero's Trophy Pack (Time-limited)" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.event_orc_coinbox" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -580,7 +580,7 @@
 		</capsuled_items>
 	</item>
 	<item id="97428" name="Protection Treasure Chest (Time-limited)" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.event_hero_treasure_box_blue" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -630,7 +630,7 @@
 		</capsuled_items>
 	</item>
 	<item id="97429" name="Silver Protection Treasure Chest (Time-limited)" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.event_hero_treasure_box_silver" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -667,7 +667,7 @@
 		</capsuled_items>
 	</item>
 	<item id="97430" name="Golden Protection Treasure Chest (Time-limited)" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.event_hero_treasure_box_gold" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -701,7 +701,7 @@
 		</capsuled_items>
 	</item>
 	<item id="97431" name="Kit: Protection Treasure Chest (Time-limited)" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.present_of_destination_event" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -713,7 +713,7 @@
 		<set name="handler" val="ExtractableItems" />
 		<capsuled_items>
 			<item id="97428" min="100" max="100" chance="100" /> <!-- Protection Treasure Chest (Time-limited) - Sealed -->
-			<item id="91712" min="100" max="100" chance="100" /> <!-- Sayha's Storm Lv. 3 - Sealed -->
+			<item id="91712" min="100" max="100" chance="100" /> <!-- Sayha's Storm - Sealed -->
 		</capsuled_items>
 	</item>
 	<item id="97432" name="Scroll: Boost Pet's Attack" additionalName="Sealed" type="EtcItem">
@@ -787,7 +787,7 @@
 		</skills>
 	</item>
 	<item id="97435" name="Package: Gorde's Flame Spear" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.weapon_r110_spear_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -802,7 +802,7 @@
 		</capsuled_items>
 	</item>
 	<item id="97436" name="Package: Gorde's Flame Spear (Sealed)" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.weapon_r110_spear_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -957,7 +957,7 @@
 		<set name="is_stackable" val="true" />
 	</item>
 	<item id="97450" name="Shining Seal Pack (Time-limited)" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.freya_box_i01" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -1017,7 +1017,7 @@
 		</capsuled_items>
 	</item>
 	<item id="97451" name="Kit: Shining Seal Pack (Time-limited)" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.freya_box_i02" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -1029,7 +1029,7 @@
 		<set name="handler" val="ExtractableItems" />
 		<capsuled_items>
 			<item id="97450" min="100" max="100" chance="100" /> <!-- Shining Seal Pack (Time-limited) - Sealed -->
-			<item id="91712" min="100" max="100" chance="100" /> <!-- Sayha's Storm Lv. 3 - Sealed -->
+			<item id="91712" min="100" max="100" chance="100" /> <!-- Sayha's Storm - Sealed -->
 		</capsuled_items>
 	</item>
 	<item id="97452" name="Heavenly Cloak" additionalName="Sealed" type="Armor">
@@ -1278,7 +1278,7 @@
 		<set name="is_stackable" val="true" />
 	</item>
 	<item id="97475" name="Jewel Box Lv. 3" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.etc_bm_jewelbox_main_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -1302,7 +1302,7 @@
 		</capsuled_items>
 	</item>
 	<item id="97476" name="Battle Box Lv. 4" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.etc_treasure_box_i04" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -1323,7 +1323,7 @@
 		</capsuled_items>
 	</item>
 	<item id="97477" name="Piglet-Bank Lv. 2" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.etc_piggy_bank" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -1345,7 +1345,7 @@
 		</capsuled_items>
 	</item>
 	<item id="97478" name="Piglet-Bank Lv. 3" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.etc_piggy_bank" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -1370,7 +1370,7 @@
 		</capsuled_items>
 	</item>
 	<item id="97479" name="Behemoth Doll Lv. 1" additionalName="Sealed" type="EtcItem">
-		<!-- <Behemoth Doll's Sorcery Lv. 1>. Damage Decrease Ignore +100. Skill Critical Damage +3%. Hold Resistance +5%. Boosts stats when in inventory. Can be upgraded through compounding. -->
+		<!-- <Behemoth Doll's Sorcery Lv. 1>. Damage Decrease Ignore +100. Skill Critical Damage +3%. Hold Resistance +5%. Boosts stats when in inventory. <font color=bbaa88><Compound></font>. Materials: Behemoth Doll Lv. 1 and packages. In case of failure, the doll's level remains the same, but materials disappear. -->
 		<set name="icon" val="icon.bm_behemoth_doll" />
 		<set name="immediate_effect" val="true" />
 		<set name="etcitem_type" val="ENCHT_ATTR_RUNE" />
@@ -1385,7 +1385,7 @@
 		</skills>
 	</item>
 	<item id="97480" name="Behemoth Doll Lv. 2" type="EtcItem">
-		<!-- <Behemoth Doll's Sorcery Lv. 2>. Damage Decrease Ignore +200. Skill Critical Damage +5%. Hold Resistance +10%. Boosts stats when in inventory. Can be upgraded through compounding. -->
+		<!-- <Behemoth Doll's Sorcery Lv. 2>. Damage Decrease Ignore +200. Skill Critical Damage +5%. Hold Resistance +10%. Boosts stats when in inventory. <font color=bbaa88><Compound></font>. Materials: Behemoth Doll Lv. 2 and packages. In case of failure, the doll's level remains the same, but materials disappear. -->
 		<set name="icon" val="icon.bm_behemoth_doll" />
 		<set name="immediate_effect" val="true" />
 		<set name="etcitem_type" val="ENCHT_ATTR_RUNE" />
@@ -1399,7 +1399,7 @@
 		</skills>
 	</item>
 	<item id="97481" name="Behemoth Doll Lv. 3" type="EtcItem">
-		<!-- <Behemoth Doll's Sorcery Lv. 3>. Damage Decrease Ignore +300. Skill Critical Damage +10%. Hold Resistance +20%. Boosts stats when in inventory. Can be upgraded through compounding. -->
+		<!-- <Behemoth Doll's Sorcery Lv. 3>. Damage Decrease Ignore +300. Skill Critical Damage +10%. Hold Resistance +20%. Boosts stats when in inventory. <font color=bbaa88><Compound></font>. Materials: Behemoth Doll Lv. 2 and packages. In case of failure, the doll's level remains the same, but materials disappear. -->
 		<set name="icon" val="icon.bm_behemoth_doll" />
 		<set name="immediate_effect" val="true" />
 		<set name="etcitem_type" val="ENCHT_ATTR_RUNE" />
@@ -1413,7 +1413,7 @@
 		</skills>
 	</item>
 	<item id="97482" name="Behemoth Doll Lv. 4" type="EtcItem">
-		<!-- <Behemoth Doll's Sorcery Lv. 4>. Damage Decrease Ignore +400. Skill Critical Damage +15%. Hold Resistance +20%. Boosts stats when in inventory. Can be upgraded through compounding. -->
+		<!-- <Behemoth Doll's Sorcery Lv. 4>. Damage Decrease Ignore +400. Skill Critical Damage +15%. Hold Resistance +20%. Boosts stats when in inventory. <font color=bbaa88><Compound></font>. Materials: Behemoth Doll Lv. 4 and packages. In case of failure, the doll's level remains the same, but materials disappear. -->
 		<set name="icon" val="icon.bm_behemoth_doll_00" />
 		<set name="immediate_effect" val="true" />
 		<set name="etcitem_type" val="ENCHT_ATTR_RUNE" />
@@ -1441,7 +1441,7 @@
 		</skills>
 	</item>
 	<item id="97484" name="Glakias Doll Lv. 1" additionalName="Sealed" type="EtcItem">
-		<!-- <Glakias Doll's Sorcery Lv. 1>. All weapon P. Atk. +5. All weapon M. Atk. +5. Soulshot damage +2%. Spiritshot damage +2%. Recovers 50 MP after basic attacks and attack skills. (Probability: 30%/ Trigger cooldown: 30 sec.). Boosts stats when in inventory. Can be upgraded through compounding. -->
+		<!-- <Glakias Doll's Sorcery Lv. 1>. All weapon P. Atk. +5. All weapon M. Atk. +5. Soulshot damage +2%. Spiritshot damage +2%. Recovers 50 MP after basic attacks and attack skills. (Probability: 30%/ Trigger cooldown: 30 sec.). Boosts stats when in inventory. <font color=bbaa88><Compound></font>. Materials: Glakias Doll Lv. 1 and packages. In case of failure, the doll's level remains the same, but materials disappear. -->
 		<set name="icon" val="icon.bm_glacies_doll" />
 		<set name="immediate_effect" val="true" />
 		<set name="etcitem_type" val="ENCHT_ATTR_RUNE" />
@@ -1456,7 +1456,7 @@
 		</skills>
 	</item>
 	<item id="97485" name="Glakias Doll Lv. 2" type="EtcItem">
-		<!-- <Glakias Doll's Sorcery Lv. 2>. All weapon P. Atk. +10. All weapon M. Atk. +10. Soulshot damage +5%. Spiritshot damage +5%. Recovers 100 MP after basic attacks and attack skills. (Probability: 30%/ Trigger cooldown: 30 sec.). Boosts stats when in inventory. Can be upgraded through compounding. -->
+		<!-- <Glakias Doll's Sorcery Lv. 2>. All weapon P. Atk. +10. All weapon M. Atk. +10. Soulshot damage +5%. Spiritshot damage +5%. Recovers 100 MP after basic attacks and attack skills. (Probability: 30%/ Trigger cooldown: 30 sec.). Boosts stats when in inventory. <font color=bbaa88><Compound></font>. Materials: Glakias Doll Lv. 2 and packages. In case of failure, the doll's level remains the same, but materials disappear. -->
 		<set name="icon" val="icon.bm_glacies_doll" />
 		<set name="immediate_effect" val="true" />
 		<set name="etcitem_type" val="ENCHT_ATTR_RUNE" />
@@ -1470,7 +1470,7 @@
 		</skills>
 	</item>
 	<item id="97486" name="Glakias Doll Lv. 3" type="EtcItem">
-		<!-- <Glakias Doll's Sorcery Lv. 3>. All weapon P. Atk. +15. All weapon M. Atk. +15. Soulshot damage +8%. Spiritshot damage +8%. Recovers 150 MP after basic attacks and attack skills. (Probability: 30%/ Trigger cooldown: 30 sec.). Boosts stats when in inventory. Can be upgraded through compounding. -->
+		<!-- <Glakias Doll's Sorcery Lv. 3>. All weapon P. Atk. +15. All weapon M. Atk. +15. Soulshot damage +8%. Spiritshot damage +8%. Recovers 150 MP after basic attacks and attack skills. (Probability: 30%/ Trigger cooldown: 30 sec.). Boosts stats when in inventory. <font color=bbaa88><Compound></font>. Materials: Glakias Doll Lv. 3 and packages. In case of failure, the doll's level remains the same, but materials disappear. -->
 		<set name="icon" val="icon.bm_glacies_doll" />
 		<set name="immediate_effect" val="true" />
 		<set name="etcitem_type" val="ENCHT_ATTR_RUNE" />
@@ -1484,7 +1484,7 @@
 		</skills>
 	</item>
 	<item id="97487" name="Glakias Doll Lv. 4" type="EtcItem">
-		<!-- <Glakias Doll's Sorcery Lv. 4>. All weapon P. Atk. +20. All weapon M. Atk. +20. Soulshot damage +10%. Spiritshot damage +10%. Recovers 200 MP after basic attacks and attack skills. (Probability: 30%/ Trigger cooldown: 30 sec.). Boosts stats when in inventory. Can be upgraded through compounding. -->
+		<!-- <Glakias Doll's Sorcery Lv. 4>. All weapon P. Atk. +20. All weapon M. Atk. +20. Soulshot damage +10%. Spiritshot damage +10%. Recovers 200 MP after basic attacks and attack skills. (Probability: 30%/ Trigger cooldown: 30 sec.). Boosts stats when in inventory. <font color=bbaa88><Compound></font>. Materials: Glakias Doll Lv. 4 and packages. In case of failure, the doll's level remains the same, but materials disappear. -->
 		<set name="icon" val="icon.bm_glacies_doll_00" />
 		<set name="immediate_effect" val="true" />
 		<set name="etcitem_type" val="ENCHT_ATTR_RUNE" />
@@ -1512,7 +1512,7 @@
 		</skills>
 	</item>
 	<item id="97489" name="Package: Behemoth Doll Lv. 1" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- <font color=bbaa88><Compound></font>. Materials: dolls and packages of the same level. In case of failure, the doll's package level remains the same, but materials disappear. Double-click to obtain various items. -->
 		<set name="icon" val="icon.bm_behemoth_doll" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -1527,7 +1527,7 @@
 		</capsuled_items>
 	</item>
 	<item id="97490" name="Package: Behemoth Doll Lv. 2" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.bm_behemoth_doll" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -1542,7 +1542,7 @@
 		</capsuled_items>
 	</item>
 	<item id="97491" name="Package: Behemoth Doll Lv. 3" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.bm_behemoth_doll" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -1557,7 +1557,7 @@
 		</capsuled_items>
 	</item>
 	<item id="97492" name="Package: Behemoth Doll Lv. 4" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.bm_behemoth_doll_00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -1572,7 +1572,7 @@
 		</capsuled_items>
 	</item>
 	<item id="97493" name="Package: Behemoth Doll Lv. 5" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.bm_behemoth_doll_01" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -1587,7 +1587,7 @@
 		</capsuled_items>
 	</item>
 	<item id="97494" name="Package: Glakias Doll Lv. 1" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- <font color=bbaa88><Compound></font>. Materials: dolls and packages of the same level. In case of failure, the doll's package level remains the same, but materials disappear. Double-click to obtain various items. -->
 		<set name="icon" val="icon.bm_glacies_doll" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -1602,7 +1602,7 @@
 		</capsuled_items>
 	</item>
 	<item id="97495" name="Package: Glakias Doll Lv. 2" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.bm_glacies_doll" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -1617,7 +1617,7 @@
 		</capsuled_items>
 	</item>
 	<item id="97496" name="Package: Glakias Doll Lv. 3" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.bm_glacies_doll" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -1632,7 +1632,7 @@
 		</capsuled_items>
 	</item>
 	<item id="97497" name="Package: Glakias Doll Lv. 4" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.bm_glacies_doll_00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -1647,7 +1647,7 @@
 		</capsuled_items>
 	</item>
 	<item id="97498" name="Package: Glakias Doll Lv. 5" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.bm_glacies_doll_01" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -1662,7 +1662,7 @@
 		</capsuled_items>
 	</item>
 	<item id="97499" name="Hero's Relic (Time-limited)" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.bm_pirate_battle_box" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />

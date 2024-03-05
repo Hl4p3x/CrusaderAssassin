@@ -1586,7 +1586,7 @@
 		</stats>
 	</item>
 	<item id="95185" name="Elven Long Sword" additionalName="Sealed" type="Weapon">
-		<!-- <font color=ff6666><Unavailable to Sylphs/ Vanguard Riders.></font> -->
+		<!-- <font color=ff6666><Unavailable to Sylphs/ Vanguard Riders/ Assassins.></font> -->
 		<set name="icon" val="icon.weapon_elven_long_sword_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="SWORD" />
@@ -1613,7 +1613,7 @@
 		</stats>
 	</item>
 	<item id="95186" name="Dwarven War Hammer" additionalName="Sealed" type="Weapon">
-		<!-- <font color=ff6666><Unavailable to Sylphs/ Vanguard Riders.></font> -->
+		<!-- <font color=ff6666><Unavailable to Sylphs/ Vanguard Riders/ Assassins.></font> -->
 		<set name="icon" val="icon.weapon_dwarven_warhammer_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="BLUNT" />
@@ -1640,7 +1640,7 @@
 		</stats>
 	</item>
 	<item id="95187" name="Saber*Saber" additionalName="Sealed" type="Weapon">
-		<!-- When enchanting dual swords, two-handed swords/ blunts and fists, the P. Atk. bonus is higher than that of one-handed weapons. <font color=ff6666><Unavailable to Sylphs/ Vanguard Riders.></font> -->
+		<!-- When enchanting dual swords, two-handed swords/ blunts and fists, the P. Atk. bonus is higher than that of one-handed weapons. <font color=ff6666><Unavailable to Sylphs/ Vanguard Riders/ Assassins.></font> -->
 		<set name="icon" val="icon.weapon_dual_sword_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="DUAL" />
@@ -1667,7 +1667,7 @@
 		</stats>
 	</item>
 	<item id="95188" name="Saber*Bastard Sword" additionalName="Sealed" type="Weapon">
-		<!-- When enchanting dual swords, two-handed swords/ blunts and fists, the P. Atk. bonus is higher than that of one-handed weapons. <font color=ff6666><Unavailable to Sylphs/ Vanguard Riders.></font> -->
+		<!-- When enchanting dual swords, two-handed swords/ blunts and fists, the P. Atk. bonus is higher than that of one-handed weapons. <font color=ff6666><Unavailable to Sylphs/ Vanguard Riders/ Assassins.></font> -->
 		<set name="icon" val="icon.weapon_dual_sword_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="DUAL" />
@@ -1694,7 +1694,7 @@
 		</stats>
 	</item>
 	<item id="95189" name="Saber*Spinebone Sword" additionalName="Sealed" type="Weapon">
-		<!-- When enchanting dual swords, two-handed swords/ blunts and fists, the P. Atk. bonus is higher than that of one-handed weapons. <font color=ff6666><Unavailable to Sylphs/ Vanguard Riders.></font> -->
+		<!-- When enchanting dual swords, two-handed swords/ blunts and fists, the P. Atk. bonus is higher than that of one-handed weapons. <font color=ff6666><Unavailable to Sylphs/ Vanguard Riders/ Assassins.></font> -->
 		<set name="icon" val="icon.weapon_dual_sword_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="DUAL" />
@@ -1721,7 +1721,7 @@
 		</stats>
 	</item>
 	<item id="95190" name="Saber*Artisan's Sword" additionalName="Sealed" type="Weapon">
-		<!-- When enchanting dual swords, two-handed swords/ blunts and fists, the P. Atk. bonus is higher than that of one-handed weapons. <font color=ff6666><Unavailable to Sylphs/ Vanguard Riders.></font> -->
+		<!-- When enchanting dual swords, two-handed swords/ blunts and fists, the P. Atk. bonus is higher than that of one-handed weapons. <font color=ff6666><Unavailable to Sylphs/ Vanguard Riders/ Assassins.></font> -->
 		<set name="icon" val="icon.weapon_dual_sword_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="DUAL" />
@@ -1748,7 +1748,7 @@
 		</stats>
 	</item>
 	<item id="95191" name="Saber*Knight's Sword" additionalName="Sealed" type="Weapon">
-		<!-- When enchanting dual swords, two-handed swords/ blunts and fists, the P. Atk. bonus is higher than that of one-handed weapons. <font color=ff6666><Unavailable to Sylphs/ Vanguard Riders.></font> -->
+		<!-- When enchanting dual swords, two-handed swords/ blunts and fists, the P. Atk. bonus is higher than that of one-handed weapons. <font color=ff6666><Unavailable to Sylphs/ Vanguard Riders/ Assassins.></font> -->
 		<set name="icon" val="icon.weapon_dual_sword_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="DUAL" />
@@ -1775,7 +1775,7 @@
 		</stats>
 	</item>
 	<item id="95192" name="Saber*Crimson Sword" additionalName="Sealed" type="Weapon">
-		<!-- When enchanting dual swords, two-handed swords/ blunts and fists, the P. Atk. bonus is higher than that of one-handed weapons. <font color=ff6666><Unavailable to Sylphs/ Vanguard Riders.></font> -->
+		<!-- When enchanting dual swords, two-handed swords/ blunts and fists, the P. Atk. bonus is higher than that of one-handed weapons. <font color=ff6666><Unavailable to Sylphs/ Vanguard Riders/ Assassins.></font> -->
 		<set name="icon" val="icon.weapon_dual_sword_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="DUAL" />
@@ -1802,7 +1802,7 @@
 		</stats>
 	</item>
 	<item id="95193" name="Saber*Elven Sword" additionalName="Sealed" type="Weapon">
-		<!-- When enchanting dual swords, two-handed swords/ blunts and fists, the P. Atk. bonus is higher than that of one-handed weapons. <font color=ff6666><Unavailable to Sylphs/ Vanguard Riders.></font> -->
+		<!-- When enchanting dual swords, two-handed swords/ blunts and fists, the P. Atk. bonus is higher than that of one-handed weapons. <font color=ff6666><Unavailable to Sylphs/ Vanguard Riders/ Assassins.></font> -->
 		<set name="icon" val="icon.weapon_dual_sword_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="DUAL" />
@@ -1829,7 +1829,7 @@
 		</stats>
 	</item>
 	<item id="95194" name="Saber*Sword of Revolution" additionalName="Sealed" type="Weapon">
-		<!-- When enchanting dual swords, two-handed swords/ blunts and fists, the P. Atk. bonus is higher than that of one-handed weapons. <font color=ff6666><Unavailable to Sylphs/ Vanguard Riders.></font> -->
+		<!-- When enchanting dual swords, two-handed swords/ blunts and fists, the P. Atk. bonus is higher than that of one-handed weapons. <font color=ff6666><Unavailable to Sylphs/ Vanguard Riders/ Assassins.></font> -->
 		<set name="icon" val="icon.weapon_dual_sword_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="DUAL" />
@@ -1856,7 +1856,7 @@
 		</stats>
 	</item>
 	<item id="95195" name="Saber*Elven Long Sword" additionalName="Sealed" type="Weapon">
-		<!-- When enchanting dual swords, two-handed swords/ blunts and fists, the P. Atk. bonus is higher than that of one-handed weapons. <font color=ff6666><Unavailable to Sylphs/ Vanguard Riders.></font> -->
+		<!-- When enchanting dual swords, two-handed swords/ blunts and fists, the P. Atk. bonus is higher than that of one-handed weapons. <font color=ff6666><Unavailable to Sylphs/ Vanguard Riders/ Assassins.></font> -->
 		<set name="icon" val="icon.weapon_dual_sword_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="DUAL" />
@@ -1883,7 +1883,7 @@
 		</stats>
 	</item>
 	<item id="95196" name="Bastard Sword*Bastard Sword" additionalName="Sealed" type="Weapon">
-		<!-- When enchanting dual swords, two-handed swords/ blunts and fists, the P. Atk. bonus is higher than that of one-handed weapons. <font color=ff6666><Unavailable to Sylphs/ Vanguard Riders.></font> -->
+		<!-- When enchanting dual swords, two-handed swords/ blunts and fists, the P. Atk. bonus is higher than that of one-handed weapons. <font color=ff6666><Unavailable to Sylphs/ Vanguard Riders/ Assassins.></font> -->
 		<set name="icon" val="icon.weapon_dual_sword_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="DUAL" />
@@ -1910,7 +1910,7 @@
 		</stats>
 	</item>
 	<item id="95197" name="Bastard Sword*Spinebone Sword" additionalName="Sealed" type="Weapon">
-		<!-- When enchanting dual swords, two-handed swords/ blunts and fists, the P. Atk. bonus is higher than that of one-handed weapons. <font color=ff6666><Unavailable to Sylphs/ Vanguard Riders.></font> -->
+		<!-- When enchanting dual swords, two-handed swords/ blunts and fists, the P. Atk. bonus is higher than that of one-handed weapons. <font color=ff6666><Unavailable to Sylphs/ Vanguard Riders/ Assassins.></font> -->
 		<set name="icon" val="icon.weapon_dual_sword_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="DUAL" />
@@ -1937,7 +1937,7 @@
 		</stats>
 	</item>
 	<item id="95198" name="Bastard Sword*Artisan's Sword" additionalName="Sealed" type="Weapon">
-		<!-- When enchanting dual swords, two-handed swords/ blunts and fists, the P. Atk. bonus is higher than that of one-handed weapons. <font color=ff6666><Unavailable to Sylphs/ Vanguard Riders.></font> -->
+		<!-- When enchanting dual swords, two-handed swords/ blunts and fists, the P. Atk. bonus is higher than that of one-handed weapons. <font color=ff6666><Unavailable to Sylphs/ Vanguard Riders/ Assassins.></font> -->
 		<set name="icon" val="icon.weapon_dual_sword_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="DUAL" />
@@ -1964,7 +1964,7 @@
 		</stats>
 	</item>
 	<item id="95199" name="Bastard Sword*Knight's Sword" additionalName="Sealed" type="Weapon">
-		<!-- When enchanting dual swords, two-handed swords/ blunts and fists, the P. Atk. bonus is higher than that of one-handed weapons. <font color=ff6666><Unavailable to Sylphs/ Vanguard Riders.></font> -->
+		<!-- When enchanting dual swords, two-handed swords/ blunts and fists, the P. Atk. bonus is higher than that of one-handed weapons. <font color=ff6666><Unavailable to Sylphs/ Vanguard Riders/ Assassins.></font> -->
 		<set name="icon" val="icon.weapon_dual_sword_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="DUAL" />

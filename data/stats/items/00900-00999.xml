@@ -796,7 +796,7 @@
 		<set name="is_questitem" val="true" />
 	</item>
 	<item id="975" name="Blood Saber" type="Weapon">
-		<!-- An Oriharukon sword crafted in the Abella style of the east. <font color=ff6666><Unavailable to Sylphs/ Vanguard Riders.></font> -->
+		<!-- An Oriharukon sword crafted in the Abella style of the east. <font color=ff6666><Unavailable to Sylphs/ Vanguard Riders/ Assassins.></font> -->
 		<set name="icon" val="icon.weapon_broad_sword_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="SWORD" />
@@ -868,7 +868,7 @@
 		<set name="is_questitem" val="true" />
 	</item>
 	<item id="981" name="Red Sunset Sword" type="Weapon">
-		<!-- Sword used by warriors belonging to the Red Sunset clan. <font color=ff6666><Unavailable to Sylphs/ Vanguard Riders.></font> -->
+		<!-- Sword used by warriors belonging to the Red Sunset clan. <font color=ff6666><Unavailable to Sylphs/ Vanguard Riders/ Assassins.></font> -->
 		<set name="icon" val="icon.weapon_brandish_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="SWORD" />

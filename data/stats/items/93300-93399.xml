@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/items.xsd">
 	<item id="93300" name="Einhasad's Pendant Lv. 5" additionalName="Sealed" type="Armor">
-		<!-- <Invocation>. Increases Speed and recovers HP/ MP for 15 sec. <Einhasad's Pendant>. M. Def. +45. Acquired XP/ SP +35%. Received damage -25%. Atk. Spd. +10%. Casting Spd. +10%. P. Critical Damage +10%. M. Skill Critical Damage +10%. P. Atk. +15%</font>. M. Atk. -15%. <font color=ff6666>When equipped on a pet:</font>. P. Atk. +500. M. Atk. +500. P. Def. +800. M. Def. +800. Pet's received damage -5% -->
+		<!-- <Invocation>. Increases Speed and recovers HP/ MP for 15 sec. <Einhasad's Pendant>. M. Def. +45. Acquired XP/ SP +35%. Received damage -25%. Atk. Spd. +10%. Casting Spd. +10%. P. Critical Damage +10%. M. Skill Critical Damage +10%. P. Atk. +15%. M. Atk. +15%. <font color=ff6666>When equipped on a pet:</font>. P. Atk. +500. M. Atk. +500. P. Def. +800. M. Def. +800. Pet's received damage -5% -->
 		<set name="icon" val="BranchIcon.Icon.bm_pendant_pve_white" />
 		<set name="default_action" val="EQUIP" />
 		<set name="bodypart" val="underwear" />
@@ -19,7 +19,7 @@
 		</skills>
 	</item>
 	<item id="93301" name="Cloak of Protection" additionalName="Sealed" type="Armor">
-		<!-- Can be enchanted with Scroll: Enchant Cloak. Depending on enchant value, special effects are enabled. Two Cloaks of Protection enchanted to +10 or higher can be compounded with Incredible Enhancement Stone to craft Heavenly Cloak. -->
+		<!-- Can be enchanted with Scroll: Enchant Cloak. Depending on enchant value, special effects are enabled. Two Cloaks of Protection enchanted to +10 or higher can be compounded with Incredible Upgrade Stone to craft Heavenly Cloak. -->
 		<set name="icon" val="icon.bm_2018_sayha_cloak_back_i01" />
 		<set name="default_action" val="EQUIP" />
 		<set name="bodypart" val="back" />
@@ -64,7 +64,7 @@
 		</skills>
 	</item>
 	<item id="93303" name="Package: Cloak of Protection" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.bm_2018_sayha_cloak_back_i01" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -81,7 +81,7 @@
 		</capsuled_items>
 	</item>
 	<item id="93304" name="Package: Einhasad's Pendant Lv. 1" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="Icon.bm_pendant_pve_white_pack" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -96,7 +96,7 @@
 		</capsuled_items>
 	</item>
 	<item id="93305" name="Package: Einhasad's Pendant Lv. 2" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="Icon.bm_pendant_pve_white_pack" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -111,7 +111,7 @@
 		</capsuled_items>
 	</item>
 	<item id="93306" name="Package: Einhasad's Pendant Lv. 3" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="Icon.bm_pendant_pve_white_pack" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -126,7 +126,7 @@
 		</capsuled_items>
 	</item>
 	<item id="93307" name="Package: Einhasad's Pendant Lv. 4" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="Icon.bm_pendant_pve_white_pack" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -141,7 +141,7 @@
 		</capsuled_items>
 	</item>
 	<item id="93308" name="Package: Einhasad's Pendant Lv. 5" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="Icon.bm_pendant_pve_white_pack" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -156,7 +156,7 @@
 		</capsuled_items>
 	</item>
 	<item id="93309" name="Piglet-Bank Lv.1" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.etc_piggy_bank" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -174,7 +174,7 @@
 		</capsuled_items>
 	</item>
 	<item id="93310" name="Piglet-Bank Lv.2" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.etc_piggy_bank" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -192,7 +192,7 @@
 		</capsuled_items>
 	</item>
 	<item id="93311" name="Piglet-Bank Lv.3" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.etc_piggy_bank" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -211,7 +211,7 @@
 		</capsuled_items>
 	</item>
 	<item id="93312" name="Piglet-Bank Lv.4" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.etc_piggy_bank" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -231,7 +231,7 @@
 		</capsuled_items>
 	</item>
 	<item id="93313" name="Piglet-Bank Lv.5" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.etc_piggy_bank" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -439,7 +439,7 @@
 		<set name="is_sellable" val="false" />
 	</item>
 	<item id="93322" name="Pa'agrio's Treasure Chest" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.event_mahum_coinbox" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -495,7 +495,7 @@
 			<item id="90143" min="2" max="2" chance="2.083333" /> <!-- Einhasad's Protection -->
 			<item id="90499" min="3" max="3" chance="2.083333" /> <!-- Special Dragon Fruit Lv. 1 -->
 			<item id="91856" min="3" max="3" chance="2.083333" /> <!-- Special Dragon's Miracle Potion Lv. 1 -->
-			<item id="91713" min="3" max="3" chance="2.083333" /> <!-- Sayha's Storm Lv. 3 -->
+			<item id="91713" min="3" max="3" chance="2.083333" /> <!-- Sayha's Storm -->
 			<item id="91028" min="3" max="3" chance="2.083333" /> <!-- High-grade Maliss' HP Recovery Potion -->
 			<item id="49765" min="2" max="2" chance="2.083333" /> <!-- Life Control Tower's Scroll of Blessing -->
 			<item id="49081" min="3" max="3" chance="2.083333" /> <!-- XP Growth Scroll -->
@@ -519,7 +519,7 @@
 		<set name="is_stackable" val="true" />
 	</item>
 	<item id="93325" name="Giran Seal Pack" additionalName="Not Available" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.etc_ertheia2" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -530,7 +530,7 @@
 		<set name="is_stackable" val="true" />
 	</item>
 	<item id="93326" name="Improved Scroll Pack" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.event_hero_treasure_box_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -546,7 +546,7 @@
 		</capsuled_items>
 	</item>
 	<item id="93327" name="Ice Crystal Armor Pack" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.etc_box_of_adventure_3_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -564,7 +564,7 @@
 		</capsuled_items>
 	</item>
 	<item id="93328" name="Goddard Trophy Pack" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.bm_circlet_upgrade_box" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -625,7 +625,7 @@
 		</skills>
 	</item>
 	<item id="93330" name="Enchant Kit: Talisman of Authority" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.bm_silver_lure_box" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -642,7 +642,7 @@
 		</capsuled_items>
 	</item>
 	<item id="93331" name="Combat Flag" additionalName="Sealed" type="Weapon">
-		<!-- Put this into a the flagpole to win Fortress War. You are forced to wear it once you acquire it, during which time use of Attack and Attack Skills is impossible, but Flag Display Skills can be used. -->
+		<!-- Put it on a flagpole during the Fortress Battle. While carrying the flag, you cannot attack and use attack skills. However, the flag skills are available. -->
 		<set name="icon" val="icon.weapon_fort_flag_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="FIST" />
@@ -663,7 +663,7 @@
 		</stats>
 	</item>
 	<item id="93332" name="Combat Flag - Monsters" additionalName="Sealed" type="Weapon">
-		<!-- Put this into a the flagpole to win Fortress War. You are forced to wear it once you acquire it, during which time use of Attack and Attack Skills is impossible, but Flag Display Skills can be used. -->
+		<!-- Put it on a flagpole during the Fortress Battle. While carrying the flag, you cannot attack and use attack skills. However, the flag skills are available. -->
 		<set name="icon" val="icon.weapon_fort_flag_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="FIST" />
@@ -684,7 +684,7 @@
 		</stats>
 	</item>
 	<item id="93333" name="+3 Talisman of Authority Pack" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.bm_silver_lure_box" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -699,7 +699,7 @@
 		</capsuled_items>
 	</item>
 	<item id="93334" name="+4 Talisman of Authority" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.bm_silver_lure_box" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -745,7 +745,7 @@
 		<set name="is_stackable" val="true" />
 	</item>
 	<item id="93337" name="Package: Giran Seal (100 pcs.)" additionalName="Not Available" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.etc_ertheia2" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -756,7 +756,7 @@
 		<set name="is_stackable" val="true" />
 	</item>
 	<item id="93338" name="High-grade Red Lantern - 1st Place (Time-limited)" additionalName="Sealed" type="EtcItem">
-		<!-- When used, XP +1,200,000,000, SP +32,400,000. -->
+		<!-- When used, XP +1,200,000,000, SP +3,240,000. -->
 		<set name="icon" val="icon.ensoul_big_pp" />
 		<set name="default_action" val="SKILL_REDUCE" />
 		<set name="material" val="PAPER" />
@@ -770,7 +770,7 @@
 		</skills>
 	</item>
 	<item id="93339" name="High-grade Purple Lantern - 2nd Place (Time-limited)" additionalName="Sealed" type="EtcItem">
-		<!-- When used, XP +360,000,000, SP +9,720,000. -->
+		<!-- When used, XP +360,000,000, SP +972,000. -->
 		<set name="icon" val="icon.ensoul_big_pm" />
 		<set name="default_action" val="SKILL_REDUCE" />
 		<set name="material" val="PAPER" />
@@ -784,7 +784,7 @@
 		</skills>
 	</item>
 	<item id="93340" name="High-grade Blue Lantern - 3rd Place (Time-limited)" additionalName="Sealed" type="EtcItem">
-		<!-- When used, XP +120,000,000, SP +3,240,000. -->
+		<!-- When used, XP +120,000,000, SP +324,000. -->
 		<set name="icon" val="icon.ensoul_big_m" />
 		<set name="default_action" val="SKILL_REDUCE" />
 		<set name="material" val="PAPER" />
@@ -798,7 +798,7 @@
 		</skills>
 	</item>
 	<item id="93341" name="High-grade Green Lantern - 4th Place (Time-limited)" additionalName="Sealed" type="EtcItem">
-		<!-- When used, XP +60,000,000, SP +1,620,000. -->
+		<!-- When used, XP +60,000,000, SP +162,000. -->
 		<set name="icon" val="icon.ensoul_big_ep" />
 		<set name="default_action" val="SKILL_REDUCE" />
 		<set name="material" val="PAPER" />
@@ -812,7 +812,7 @@
 		</skills>
 	</item>
 	<item id="93342" name="High-grade Lit Red Lantern - 1st Place (Time-limited)" additionalName="Sealed" type="EtcItem">
-		<!-- <Reward for the 1st place in the Big Magic Lamp event>. XP +1,200,000,000, SP +32,400,000. Cannot be transferred to higher-level characters. -->
+		<!-- <Reward for the 1st place in the Big Magic Lamp event>. XP +1,200,000,000, SP +3,240,000. Cannot be transferred to higher-level characters. -->
 		<set name="icon" val="icon.ensoul_big_pp" />
 		<set name="default_action" val="SKILL_REDUCE" />
 		<set name="material" val="PAPER" />
@@ -827,7 +827,7 @@
 		</skills>
 	</item>
 	<item id="93343" name="High-grade Lit Purple Lantern - 2nd Place (Time-limited)" additionalName="Sealed" type="EtcItem">
-		<!-- <Reward for the 2nd place in the Big Magic Lamp event>. XP +360,000,000, SP +9,720,000. Cannot be transferred to higher-level characters. -->
+		<!-- <Reward for the 2nd place in the Big Magic Lamp event>. XP +360,000,000, SP +972,000. Cannot be transferred to higher-level characters. -->
 		<set name="icon" val="icon.ensoul_big_pm" />
 		<set name="default_action" val="SKILL_REDUCE" />
 		<set name="material" val="PAPER" />
@@ -842,7 +842,7 @@
 		</skills>
 	</item>
 	<item id="93344" name="High-grade Lit Blue Lantern - 3rd Place (Time-limited)" additionalName="Sealed" type="EtcItem">
-		<!-- <Reward for the 3rd place in the Big Magic Lamp event>. XP +120,000,000, SP +3,240,000. Cannot be transferred to higher-level characters. -->
+		<!-- <Reward for the 3rd place in the Big Magic Lamp event>. XP +120,000,000, SP +324,000. Cannot be transferred to higher-level characters. -->
 		<set name="icon" val="icon.ensoul_big_m" />
 		<set name="default_action" val="SKILL_REDUCE" />
 		<set name="material" val="PAPER" />
@@ -857,7 +857,7 @@
 		</skills>
 	</item>
 	<item id="93345" name="High-grade Lit Green Lantern - 4th Place (Time-limited)" additionalName="Sealed" type="EtcItem">
-		<!-- <Reward for the 4th place in the Big Magic Lamp event>. XP +60,000,000, SP +1,620,000. Cannot be transferred to higher-level characters. -->
+		<!-- <Reward for the 4th place in the Big Magic Lamp event>. XP +60,000,000, SP +162,000. Cannot be transferred to higher-level characters. -->
 		<set name="icon" val="icon.ensoul_big_ep" />
 		<set name="default_action" val="SKILL_REDUCE" />
 		<set name="material" val="PAPER" />
@@ -872,7 +872,7 @@
 		</skills>
 	</item>
 	<item id="93346" name="Deton's Request Lv. 1" additionalName="Sealed" type="EtcItem">
-		<!-- A request issued by Deton to eliminate monsters in the Plains of the Lizardmen, Dragon Valley, Giant's Cave, Sel Mahum Base, Turek Orc Barracks, Hot Springs, Gorde Canyon, Morgos' Military Base, and Xilenos Fortress. Characters of Lv. 70+ can receive the request by double-clicking the item. -->
+		<!-- Allows you to get the <font color=eeaa22>Deton's First Request</font> mission from the <font color=eeaa22>list of available quests</font>. A request to eliminate monsters in the Plains of the Lizardmen, Dragon Valley, Giant's Cave, Sel Mahum Base, Turek Orc Barracks, Hot Springs, Gorde Canyon, Morgos' Military Base, and Xilenos Fortress. -->
 		<set name="icon" val="icon.alchemy_master_scroll" />
 		<set name="default_action" val="START_QUEST" />
 		<set name="immediate_effect" val="true" />
@@ -883,7 +883,7 @@
 		<set name="is_sellable" val="false" />
 	</item>
 	<item id="93347" name="Deton's Request Lv. 2" additionalName="Sealed" type="EtcItem">
-		<!-- A request issued by Deton to eliminate monsters in the Plains of the Lizardmen, Dragon Valley, Giant's Cave, Sel Mahum Base, Turek Orc Barracks, Hot Springs, Gorde Canyon, Morgos' Military Base, and Xilenos Fortress. Characters of Lv. 70+ can receive the request by double-clicking the item. -->
+		<!-- Allows you to get the <font color=eeaa22>Deton's Second Request</font> mission from the <font color=eeaa22>list of available quests</font>. A request to eliminate monsters in the Plains of the Lizardmen, Dragon Valley, Giant's Cave, Sel Mahum Base, Turek Orc Barracks, Hot Springs, Gorde Canyon, Morgos' Military Base, and Xilenos Fortress. -->
 		<set name="icon" val="icon.alchemy_master_scroll" />
 		<set name="default_action" val="START_QUEST" />
 		<set name="immediate_effect" val="true" />
@@ -894,7 +894,7 @@
 		<set name="is_sellable" val="false" />
 	</item>
 	<item id="93348" name="Deton's Request Lv. 3" additionalName="Sealed" type="EtcItem">
-		<!-- A request issued by Deton to eliminate monsters in the Dragon Valley, Giant's Cave, Sel Mahum Base, Turek Orc Barracks, Hot Springs, Gorde Canyon, Morgos' Military Base, and Xilenos Fortress. Characters of Lv. 70+ can receive the request by double-clicking the item. -->
+		<!-- Allows you to get the <font color=eeaa22>Deton's Third Request</font> mission from the <font color=eeaa22>list of available quests</font>. A request to eliminate monsters in the Dragon Valley, Giant's Cave, Sel Mahum Base, Turek Orc Barracks, Hot Springs, Gorde Canyon, Morgos' Military Base, and Xilenos Fortress. -->
 		<set name="icon" val="icon.alchemy_master_scroll" />
 		<set name="default_action" val="START_QUEST" />
 		<set name="immediate_effect" val="true" />
@@ -905,7 +905,7 @@
 		<set name="is_sellable" val="false" />
 	</item>
 	<item id="93349" name="Deton's Request Lv. 4" additionalName="Sealed" type="EtcItem">
-		<!-- A request issued by Deton to eliminate monsters in the Dragon Valley, Giant's Cave, Sel Mahum Base, Turek Orc Barracks, Hot Springs, Gorde Canyon, Morgos' Military Base, and Xilenos Fortress. Characters of Lv. 70+ can receive the request by double-clicking the item. -->
+		<!-- Allows you to get the <font color=eeaa22>Deton's Fourth Request</font> mission from the <font color=eeaa22>list of available quests</font>. A request to eliminate monsters in the Dragon Valley, Giant's Cave, Sel Mahum Base, Turek Orc Barracks, Hot Springs, Gorde Canyon, Morgos' Military Base, and Xilenos Fortress. -->
 		<set name="icon" val="icon.alchemy_master_scroll" />
 		<set name="default_action" val="START_QUEST" />
 		<set name="immediate_effect" val="true" />
@@ -916,7 +916,7 @@
 		<set name="is_sellable" val="false" />
 	</item>
 	<item id="93350" name="Deton's Request Lv. 5" additionalName="Sealed" type="EtcItem">
-		<!-- A request issued by Deton to eliminate monsters in the Dragon Valley, Giant's Cave, Sel Mahum Base, Turek Orc Barracks, Hot Springs, Gorde Canyon, Morgos' Military Base, and Xilenos Fortress. Characters of Lv. 70+ can receive the request by double-clicking the item. -->
+		<!-- Allows you to get the <font color=eeaa22>Deton's Fifth Request</font> mission from the <font color=eeaa22>list of available quests</font>. A request to eliminate monsters in the Dragon Valley, Giant's Cave, Sel Mahum Base, Turek Orc Barracks, Hot Springs, Gorde Canyon, Morgos' Military Base, and Xilenos Fortress. -->
 		<set name="icon" val="icon.alchemy_master_scroll" />
 		<set name="default_action" val="START_QUEST" />
 		<set name="immediate_effect" val="true" />
@@ -927,7 +927,7 @@
 		<set name="is_sellable" val="false" />
 	</item>
 	<item id="93351" name="Deton's Request Lv. 6" additionalName="Sealed" type="EtcItem">
-		<!-- A request issued by Deton to eliminate monsters in the Dragon Valley, Giant's Cave, Sel Mahum Base, Turek Orc Barracks, Hot Springs, Gorde Canyon, Morgos' Military Base, and Xilenos Fortress. Characters of Lv. 70+ can receive the request by double-clicking the item. -->
+		<!-- Allows you to get the <font color=eeaa22>Deton's Sixth Request</font> mission from the <font color=eeaa22>list of available quests</font>. A request to eliminate monsters in the Dragon Valley, Giant's Cave, Sel Mahum Base, Turek Orc Barracks, Hot Springs, Gorde Canyon, Morgos' Military Base, and Xilenos Fortress. -->
 		<set name="icon" val="icon.alchemy_master_scroll" />
 		<set name="default_action" val="START_QUEST" />
 		<set name="immediate_effect" val="true" />
@@ -938,7 +938,7 @@
 		<set name="is_sellable" val="false" />
 	</item>
 	<item id="93352" name="Deton's Request Lv. 7" additionalName="Sealed" type="EtcItem">
-		<!-- A request issued by Deton to eliminate monsters in the Dragon Valley, Giant's Cave, Sel Mahum Base, Turek Orc Barracks, Gorde Canyon, Morgos' Military Base, and Xilenos Fortress. Characters of Lv. 70+ can receive the request by double-clicking the item. -->
+		<!-- Allows you to get the <font color=eeaa22>Deton's Seventh Request</font> mission from the <font color=eeaa22>list of available quests</font>. A request to eliminate monsters in the Dragon Valley, Giant's Cave, Sel Mahum Base, Turek Orc Barracks, Gorde Canyon, Morgos' Military Base, and Xilenos Fortress. -->
 		<set name="icon" val="icon.alchemy_master_scroll" />
 		<set name="default_action" val="START_QUEST" />
 		<set name="immediate_effect" val="true" />
@@ -949,7 +949,7 @@
 		<set name="is_sellable" val="false" />
 	</item>
 	<item id="93353" name="Deton's Request Lv. 8" additionalName="Sealed" type="EtcItem">
-		<!-- A request issued by Deton to eliminate monsters in the Dragon Valley, Giant's Cave, Turek Orc Barracks, Gorde Canyon, Morgos' Military Base, and Xilenos Fortress. Characters of Lv. 70+ can receive the request by double-clicking the item. -->
+		<!-- Allows you to get the <font color=eeaa22>Deton's Eighth Request</font> mission from the <font color=eeaa22>list of available quests</font>. A request to eliminate monsters in the Dragon Valley, Giant's Cave, Turek Orc Barracks, Gorde Canyon, Morgos' Military Base, and Xilenos Fortress. -->
 		<set name="icon" val="icon.alchemy_master_scroll" />
 		<set name="default_action" val="START_QUEST" />
 		<set name="immediate_effect" val="true" />
@@ -960,7 +960,7 @@
 		<set name="is_sellable" val="false" />
 	</item>
 	<item id="93354" name="Deton's Request Lv. 9" additionalName="Sealed" type="EtcItem">
-		<!-- A request issued by Deton to eliminate monsters in the Dragon Valley, Turek Orc Barracks, Morgos' Military Base, and Xilenos Fortress. Characters of Lv. 70+ can receive the request by double-clicking the item. -->
+		<!-- Allows you to get the <font color=eeaa22>Deton's Ninth Request</font> mission from the <font color=eeaa22>list of available quests</font>..A request to eliminate monsters in the Dragon Valley, Turek Orc Barracks, Morgos' Military Base, and Xilenos Fortress. -->
 		<set name="icon" val="icon.alchemy_master_scroll" />
 		<set name="default_action" val="START_QUEST" />
 		<set name="immediate_effect" val="true" />
@@ -971,7 +971,7 @@
 		<set name="is_sellable" val="false" />
 	</item>
 	<item id="93355" name="Deton's Request Lv. 10" additionalName="Sealed" type="EtcItem">
-		<!-- A request issued by Deton to eliminate monsters in the Dragon Valley, Turek Orc Barracks, Morgos' Military Base, and Xilenos Fortress. Characters of Lv. 70+ can receive the request by double-clicking the item. -->
+		<!-- Allows you to get the <font color=eeaa22>Deton's Tenth Request</font> mission from the <font color=eeaa22>list of available quests</font>. A request to eliminate monsters in the Dragon Valley, Turek Orc Barracks, Morgos' Military Base, and Xilenos Fortress. -->
 		<set name="icon" val="icon.alchemy_master_scroll" />
 		<set name="default_action" val="START_QUEST" />
 		<set name="immediate_effect" val="true" />
@@ -982,7 +982,7 @@
 		<set name="is_sellable" val="false" />
 	</item>
 	<item id="93356" name="Deton's Pack Lv. 1" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.bm2018_transform_box" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -1000,7 +1000,7 @@
 		</capsuled_items>
 	</item>
 	<item id="93357" name="Deton's Pack Lv. 2" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.bm2018_transform_box" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -1018,7 +1018,7 @@
 		</capsuled_items>
 	</item>
 	<item id="93358" name="Deton's Pack Lv. 3" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.bm2018_transform_box" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -1036,7 +1036,7 @@
 		</capsuled_items>
 	</item>
 	<item id="93359" name="Deton's Pack Lv. 4" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.bm2018_transform_box" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -1055,7 +1055,7 @@
 		</capsuled_items>
 	</item>
 	<item id="93360" name="Deton's Pack Lv. 5" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.bm2018_transform_box" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -1076,7 +1076,7 @@
 		</capsuled_items>
 	</item>
 	<item id="93361" name="Deton's Pack Lv. 6" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.bm2018_transform_box" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -1099,7 +1099,7 @@
 		</capsuled_items>
 	</item>
 	<item id="93362" name="Deton's Pack Lv. 7" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.bm2018_transform_box" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -1123,7 +1123,7 @@
 		</capsuled_items>
 	</item>
 	<item id="93363" name="Deton's Pack Lv. 8" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.bm2018_transform_box" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -1147,7 +1147,7 @@
 		</capsuled_items>
 	</item>
 	<item id="93364" name="Deton's Pack Lv. 9" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.bm2018_transform_box" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -1171,7 +1171,7 @@
 		</capsuled_items>
 	</item>
 	<item id="93365" name="Deton's Pack Lv. 10" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.bm2018_transform_box" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -1202,7 +1202,7 @@
 		<set name="is_stackable" val="true" />
 	</item>
 	<item id="93367" name="Test - 1000 Paid L-Coin Pack" additionalName="Test" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.etc_ertheia2" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="FISH" />
@@ -1249,7 +1249,7 @@
 		</skills>
 	</item>
 	<item id="93371" name="Lucky Buff Lv. 1 Pack" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.bm_sayha_gold_present" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -1269,7 +1269,7 @@
 		</capsuled_items>
 	</item>
 	<item id="93372" name="Lucky Buff Lv. 2 Pack" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.bm_sayha_gold_present" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -1289,7 +1289,7 @@
 		</capsuled_items>
 	</item>
 	<item id="93373" name="Lucky Buff Lv. 3 Pack" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.bm_sayha_gold_present" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -1314,7 +1314,7 @@
 		</capsuled_items>
 	</item>
 	<item id="93374" name="Kit: Cloak of Protection" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.bm_2018_sayha_cloak_back_i01" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -1329,7 +1329,7 @@
 		</capsuled_items>
 	</item>
 	<item id="93375" name="Kit: Agathion Ignis" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.agathion_fire_1" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -1344,7 +1344,7 @@
 		</capsuled_items>
 	</item>
 	<item id="93376" name="Kit: Agathion Nebula" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.agathion_water_1" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -1359,7 +1359,7 @@
 		</capsuled_items>
 	</item>
 	<item id="93377" name="Kit: Agathion Procella" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.agathion_wind_1" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -1374,7 +1374,7 @@
 		</capsuled_items>
 	</item>
 	<item id="93378" name="Kit: Agathion Petram" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.agathion_earth_1" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -1389,7 +1389,7 @@
 		</capsuled_items>
 	</item>
 	<item id="93379" name="Kit: Agathion Joy" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.pleasure_agathion_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -1404,7 +1404,7 @@
 		</capsuled_items>
 	</item>
 	<item id="93380" name="Kit: 10 Dragon Belt Packs" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.etc_readybox_bronze" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -1419,7 +1419,7 @@
 		</capsuled_items>
 	</item>
 	<item id="93381" name="Enchant Kit: Talisman of Aden (10 pcs.)" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.bm_sheep_agathion_30d_box" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -1434,7 +1434,7 @@
 		</capsuled_items>
 	</item>
 	<item id="93382" name="Enchant Kit: Talisman of Eva (10 pcs.)" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.bm_pirate_treasure_box" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -1482,14 +1482,14 @@
 		<set name="is_stackable" val="true" />
 	</item>
 	<item id="93387" name="Spellbook: Ultimate Death Knight Transformation" type="EtcItem">
-		<!-- A spellbook for learning the Ultimate Death Knight Transformation skill. <Class>. Death Knight. <Skill effect>. Transforms into a Death Knight who is cursed by the Fire Dragon Valakas, but possesses great powers. Increases P. Atk., P. Critical Damage, P. Skill Critical Damage, Atk. Spd., Speed, P. Def., Resistance to All Weapons, Holy Resistance. Decreases penalty of Received Healing. -->
+		<!-- A spellbook for learning the Ultimate Death Knight Transformation skill. <Class>. Death Knight (all races). <Skill effect>. Transforms into a Death Knight who is cursed by the Fire Dragon Valakas, but possesses great powers. Increases P. Atk., P. Critical Damage, P. Skill Critical Damage, Atk. Spd., Speed, P. Def., Resistance to All Weapons, Holy Resistance. Decreases penalty of Received Healing. -->
 		<set name="icon" val="icon.unique_skill_book01" />
 		<set name="material" val="PAPER" />
 		<set name="is_sellable" val="false" />
 		<set name="is_stackable" val="true" />
 	</item>
 	<item id="93388" name="Spellbook: Death Guard" type="EtcItem">
-		<!-- A spellbook for learning the Death Guard skill. <Class>. Death Knight (all races). <Skill effect>. Blocks all frontal ranged attacks. -->
+		<!-- A spellbook for learning the Death Guard skill. <Class>. Death Messenger (all races). <Skill effect>. Blocks all frontal ranged attacks. -->
 		<set name="icon" val="icon.etc_spell_books_black_i00" />
 		<set name="material" val="PAPER" />
 		<set name="is_sellable" val="false" />
@@ -1524,7 +1524,7 @@
 		<set name="is_stackable" val="true" />
 	</item>
 	<item id="93393" name="Kit: 10 Reinforced Jewel Boxes" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.bm_2018_jewelbox_random" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -1557,7 +1557,7 @@
 		<set name="is_stackable" val="true" />
 	</item>
 	<item id="93396" name="Package: Deton's Request Lv. 1" type="EtcItem">
-		<!-- Double-click to get more information about the contents. Compound it with an identical item to obtain Package: Deton's Request Lv. 2. -->
+		<!-- <font color=bbaa88><Compound></font>. Materials: Package: Deton's Request Lv. 1. In case of failure, the current level remains the same, but materials disappear. Double-click to obtain various items. -->
 		<set name="icon" val="icon.stage_scroll_pack" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -1570,7 +1570,7 @@
 		</capsuled_items>
 	</item>
 	<item id="93397" name="Package: Deton's Request Lv. 2" type="EtcItem">
-		<!-- Double-click to get more information about the contents. Compound it with an identical item to obtain Package: Deton's Request Lv. 3. -->
+		<!-- <font color=bbaa88><Compound></font>. Materials: Package: Deton's Request Lv. 2. In case of failure, the current level remains the same, but materials disappear. Double-click to obtain various items. -->
 		<set name="icon" val="icon.stage_scroll_pack" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -1583,7 +1583,7 @@
 		</capsuled_items>
 	</item>
 	<item id="93398" name="Package: Deton's Request Lv. 3" type="EtcItem">
-		<!-- Double-click to get more information about the contents. Compound it with an identical item to obtain Package: Deton's Request Lv. 4. -->
+		<!-- <font color=bbaa88><Compound></font>. Materials: Package: Deton's Request Lv. 3. In case of failure, the current level remains the same, but materials disappear. Double-click to obtain various items. -->
 		<set name="icon" val="icon.stage_scroll_pack" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -1596,7 +1596,7 @@
 		</capsuled_items>
 	</item>
 	<item id="93399" name="Package: Deton's Request Lv. 4" type="EtcItem">
-		<!-- Double-click to get more information about the contents. Compound it with an identical item to obtain Package: Deton's Request Lv. 5. -->
+		<!-- <font color=bbaa88><Compound></font>. Materials: Package: Deton's Request Lv. 4. In case of failure, the current level remains the same, but materials disappear. Double-click to obtain various items. -->
 		<set name="icon" val="icon.stage_scroll_pack" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />

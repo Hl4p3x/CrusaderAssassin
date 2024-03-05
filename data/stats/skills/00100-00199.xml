@@ -673,7 +673,7 @@
 		</effects>
 	</skill>
 	<skill id="107" toLevel="15" name="Holy Aura">
-		<!-- Enhances the character with holy power. The effect lasts for 20 min. Additional damage to demons and undead +1% -->
+		<!-- P. Def. +20 -->
 		<icon>icon.skill1043</icon>
 		<abnormalLevel>1</abnormalLevel>
 		<abnormalTime>1200</abnormalTime>
@@ -1853,8 +1853,8 @@
 			</effect>
 		</effects>
 	</skill>
-	<skill id="139" toLevel="7" name="Guts">
-		<!-- <Skill with fixed cooldown>. For 1 min. P. Def. +90%. Speed +9. Debuff Resistance +5%. Anomaly Resistance +5%. Recovers 80 MP, when using the skill. Cannot be used with Frenzy. -->
+	<skill id="139" toLevel="8" name="Guts">
+		<!-- <Skill with fixed cooldown>. Duration: 1 min. P. Def. +90%. Speed +9. Debuff Resistance +5%. Anomaly Resistance +5%. Recovers 80 MP, when using the skill. Cannot be used with Frenzy. -->
 		<icon>icon.skill0139</icon>
 		<abnormalLevel>
 			<value level="1">1</value>
@@ -1864,6 +1864,7 @@
 			<value level="5">5</value>
 			<value level="6">6</value>
 			<value level="7">7</value>
+			<value level="8">8</value>
 		</abnormalLevel>
 		<abnormalTime>60</abnormalTime>
 		<abnormalType>PINCH</abnormalType>
@@ -1873,6 +1874,7 @@
 		<itemConsumeCount>
 			<value fromLevel="1" toLevel="6">2</value>
 			<value level="7">3</value>
+			<value level="8">3</value>
 		</itemConsumeCount>
 		<magicLevel>
 			<value level="1">36</value>
@@ -1881,7 +1883,8 @@
 			<value level="4">64</value>
 			<value level="5">74</value>
 			<value level="6">79</value>
-			<value level="7">95</value>
+			<value level="7">85</value>
+			<value level="8">90</value>
 		</magicLevel>
 		<hpConsume>
 			<value level="1">100</value>
@@ -1891,11 +1894,12 @@
 			<value level="5">300</value>
 			<value level="6">400</value>
 			<value level="7">500</value>
+			<value level="8">600</value>
 		</hpConsume>
 		<operateType>A2</operateType>
 		<reuseDelay>
 			<value fromLevel="1" toLevel="6">300000</value>
-			<value level="7">180000</value>
+			<value fromLevel="7" toLevel="8">180000</value>
 		</reuseDelay>
 		<staticReuse>true</staticReuse>
 		<basicProperty>NONE</basicProperty>
@@ -1917,8 +1921,17 @@
 					<value level="5">130</value>
 					<value level="6">140</value>
 					<value level="7">150</value>
+					<value level="8">150</value>
 				</amount>
 				<mode>PER</mode>
+			</effect>
+			<effect name="MagicalDefence" fromLevel="8" toLevel="8">
+				<amount>2000</amount>
+				<mode>DIFF</mode>
+			</effect>
+			<effect name="MaxHp" fromLevel="8" toLevel="8">
+				<amount>1000</amount>
+				<mode>DIFF</mode>
 			</effect>
 			<effect name="Speed">
 				<amount>
@@ -1929,6 +1942,7 @@
 					<value level="5">13</value>
 					<value level="6">14</value>
 					<value level="7">15</value>
+					<value level="8">15</value>
 				</amount>
 				<mode>DIFF</mode>
 			</effect>
@@ -1941,6 +1955,7 @@
 					<value level="5">-40</value>
 					<value level="6">-45</value>
 					<value level="7">-50</value>
+					<value level="8">-50</value>
 				</amount>
 				<slot>DEBUFF</slot>
 			</effect>
@@ -1953,6 +1968,7 @@
 					<value level="5">40</value>
 					<value level="6">45</value>
 					<value level="7">50</value>
+					<value level="8">50</value>
 				</ANOMALY>
 			</effect>
 			<effect name="ManaHeal">
@@ -1964,6 +1980,7 @@
 					<value level="5">130</value>
 					<value level="6">140</value>
 					<value level="7">150</value>
+					<value level="8">150</value>
 				</power>
 			</effect>
 		</effects>
@@ -2611,7 +2628,7 @@
 		</effects>
 	</skill>
 	<skill id="164" toLevel="3" name="Quick Recovery">
-		<!-- Skill Cooldown -10% -->
+		<!-- M. Skill Cooldown -10% -->
 		<icon>icon.skill0164</icon>
 		<magicLevel>
 			<value level="1">20</value>
@@ -2766,8 +2783,8 @@
 			</effect>
 		</effects>
 	</skill>
-	<skill id="176" toLevel="7" name="Frenzy">
-		<!-- <Skill with fixed cooldown>. Duration: 1 min. P. Atk. +9%. Atk. Spd. +8%. P. Critical Rate +5. P. Critical Damage +5%. P. Skill Critical Rate +4%. P. Skill Critical Damage +4%. Speed +9. When using a two-handed sword/ blunt weapon or a spear:. P. Atk. +10%. P. Accuracy +8. Recovers +9%0 MP after a skill. Cannot be used with Guts. -->
+	<skill id="176" toLevel="8" name="Frenzy">
+		<!-- <Skill with fixed cooldown>. Duration: 1 min. P. Atk. +9%. Atk. Spd. +8%. P. Critical Rate +5. P. Critical Damage +5%. P. Skill Critical Rate +4%. P. Skill Critical Damage +4%. Speed +9. When using a two-handed sword/ blunt weapon or a spear:. P. Atk. +10%. P. Accuracy +8. Recovers +9%0 MP after using a skill. Cannot be used with Guts. -->
 		<icon>icon.skill0176</icon>
 		<abnormalLevel>
 			<value level="1">1</value>
@@ -2777,6 +2794,7 @@
 			<value level="5">5</value>
 			<value level="6">6</value>
 			<value level="7">7</value>
+			<value level="8">8</value>
 		</abnormalLevel>
 		<abnormalTime>60</abnormalTime>
 		<abnormalType>PINCH</abnormalType>
@@ -2785,7 +2803,7 @@
 		<itemConsumeId>3031</itemConsumeId>
 		<itemConsumeCount>
 			<value fromLevel="1" toLevel="6">2</value>
-			<value level="7">3</value>
+			<value fromLevel="7" toLevel="8">3</value>
 		</itemConsumeCount>
 		<magicLevel>
 			<value level="1">32</value>
@@ -2794,9 +2812,8 @@
 			<value level="4">64</value>
 			<value level="5">74</value>
 			<value level="6">79</value>
-			<value level="7">95</value>
-			<value level="8">95</value>
-			<value level="9">99</value>
+			<value level="7">85</value>
+			<value level="8">90</value>
 		</magicLevel>
 		<hpConsume>
 			<value level="1">100</value>
@@ -2806,11 +2823,12 @@
 			<value level="5">300</value>
 			<value level="6">400</value>
 			<value level="7">500</value>
+			<value level="8">600</value>
 		</hpConsume>
 		<operateType>A2</operateType>
 		<reuseDelay>
 			<value fromLevel="1" toLevel="6">300000</value>
-			<value level="7">180000</value>
+			<value fromLevel="7" toLevel="8">180000</value>
 		</reuseDelay>
 		<basicProperty>NONE</basicProperty>
 		<magicCriticalRate>5</magicCriticalRate>
@@ -2831,6 +2849,7 @@
 					<value level="5">13</value>
 					<value level="6">14</value>
 					<value level="7">15</value>
+					<value level="8">15</value>
 				</amount>
 				<mode>PER</mode>
 			</effect>
@@ -2843,6 +2862,7 @@
 					<value level="5">17</value>
 					<value level="6">20</value>
 					<value level="7">22</value>
+					<value level="8">22</value>
 				</amount>
 				<mode>PER</mode>
 			</effect>
@@ -2851,7 +2871,7 @@
 					<value fromLevel="1" toLevel="2">5</value>
 					<value fromLevel="3" toLevel="4">6</value>
 					<value fromLevel="5" toLevel="6">7</value>
-					<value level="7">8</value>
+					<value fromLevel="7" toLevel="8">8</value>
 				</amount>
 				<mode>DIFF</mode>
 			</effect>
@@ -2860,7 +2880,7 @@
 					<value fromLevel="1" toLevel="2">5</value>
 					<value fromLevel="3" toLevel="4">6</value>
 					<value fromLevel="5" toLevel="6">7</value>
-					<value level="7">8</value>
+					<value fromLevel="7" toLevel="8">8</value>
 				</amount>
 				<mode>PER</mode>
 			</effect>
@@ -2869,7 +2889,7 @@
 					<value level="1">4</value>
 					<value fromLevel="2" toLevel="3">5</value>
 					<value fromLevel="4" toLevel="5">6</value>
-					<value fromLevel="6" toLevel="7">7</value>
+					<value fromLevel="6" toLevel="8">7</value>
 				</amount>
 				<mode>PER</mode>
 			</effect>
@@ -2878,8 +2898,16 @@
 					<value level="1">4</value>
 					<value fromLevel="2" toLevel="3">5</value>
 					<value fromLevel="4" toLevel="5">6</value>
-					<value fromLevel="6" toLevel="7">7</value>
+					<value fromLevel="6" toLevel="8">7</value>
 				</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="PhysicalSkillPower" fromLevel="8" toLevel="8">
+				<amount>3</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="MagicalSkillPower" fromLevel="8" toLevel="8">
+				<amount>3</amount>
 				<mode>PER</mode>
 			</effect>
 			<effect name="Speed">
@@ -2891,6 +2919,7 @@
 					<value level="5">13</value>
 					<value level="6">14</value>
 					<value level="7">15</value>
+					<value level="8">15</value>
 				</amount>
 				<mode>DIFF</mode>
 			</effect>
@@ -2915,6 +2944,7 @@
 					<value level="5">130</value>
 					<value level="6">140</value>
 					<value level="7">150</value>
+					<value level="8">150</value>
 				</power>
 			</effect>
 		</effects>

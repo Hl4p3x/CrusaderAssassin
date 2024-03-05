@@ -13,7 +13,7 @@
 		<set name="is_depositable" val="false" />
 	</item>
 	<item id="4404" name="Green Dimensional Stone - Shard" additionalName="Not Available" type="EtcItem">
-		<!-- The item is not available. A shard of the broken Green Dimensional Stone. Collect all shards and take them to Researcher Kaplan. -->
+		<!-- The item is not available. A shard of the broken Green Dimensional Stone. Collect all the shards and take them to Researcher Kaplan. -->
 		<set name="icon" val="icon.etc_ertheia2" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="CRYSTAL" />

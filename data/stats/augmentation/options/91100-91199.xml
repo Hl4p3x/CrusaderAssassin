@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../xsd/optionsData.xsd">
 	<option id="91100" name="P. Accuracy +1.2">
+		<!-- P. Accuracy +1.2 -->
 		<effects>
 			<effect name="Accuracy">
 				<amount>1.2</amount>
@@ -9,6 +10,7 @@
 		</effects>
 	</option>
 	<option id="91101" name="P. Accuracy +1.3">
+		<!-- P. Accuracy +1.3 -->
 		<effects>
 			<effect name="Accuracy">
 				<amount>1.3</amount>
@@ -17,6 +19,7 @@
 		</effects>
 	</option>
 	<option id="91102" name="P. Accuracy +1.3">
+		<!-- P. Accuracy +1.3 -->
 		<effects>
 			<effect name="Accuracy">
 				<amount>1.3</amount>
@@ -25,6 +28,7 @@
 		</effects>
 	</option>
 	<option id="91103" name="P. Accuracy +1.3">
+		<!-- P. Accuracy +1.3 -->
 		<effects>
 			<effect name="Accuracy">
 				<amount>1.3</amount>
@@ -33,6 +37,7 @@
 		</effects>
 	</option>
 	<option id="91104" name="P. Accuracy +1.4">
+		<!-- P. Accuracy +1.4 -->
 		<effects>
 			<effect name="Accuracy">
 				<amount>1.4</amount>
@@ -41,6 +46,7 @@
 		</effects>
 	</option>
 	<option id="91105" name="P. Accuracy +1.4">
+		<!-- P. Accuracy +1.4 -->
 		<effects>
 			<effect name="Accuracy">
 				<amount>1.4</amount>
@@ -49,6 +55,7 @@
 		</effects>
 	</option>
 	<option id="91106" name="P. Accuracy +1.4">
+		<!-- P. Accuracy +1.4 -->
 		<effects>
 			<effect name="Accuracy">
 				<amount>1.4</amount>
@@ -57,6 +64,7 @@
 		</effects>
 	</option>
 	<option id="91107" name="P. Accuracy +1.4">
+		<!-- P. Accuracy +1.4 -->
 		<effects>
 			<effect name="Accuracy">
 				<amount>1.4</amount>
@@ -65,6 +73,7 @@
 		</effects>
 	</option>
 	<option id="91108" name="P. Accuracy +1.4">
+		<!-- P. Accuracy +1.4 -->
 		<effects>
 			<effect name="Accuracy">
 				<amount>1.4</amount>
@@ -73,6 +82,7 @@
 		</effects>
 	</option>
 	<option id="91109" name="P. Accuracy +1.5">
+		<!-- P. Accuracy +1.5 -->
 		<effects>
 			<effect name="Accuracy">
 				<amount>1.5</amount>
@@ -81,6 +91,7 @@
 		</effects>
 	</option>
 	<option id="91110" name="P. Accuracy +1.5">
+		<!-- P. Accuracy +1.5 -->
 		<effects>
 			<effect name="Accuracy">
 				<amount>1.5</amount>
@@ -89,6 +100,7 @@
 		</effects>
 	</option>
 	<option id="91111" name="P. Accuracy +1.5">
+		<!-- P. Accuracy +1.5 -->
 		<effects>
 			<effect name="Accuracy">
 				<amount>1.5</amount>
@@ -97,6 +109,7 @@
 		</effects>
 	</option>
 	<option id="91112" name="P. Accuracy +1.8">
+		<!-- P. Accuracy +1.8 -->
 		<effects>
 			<effect name="Accuracy">
 				<amount>1.8</amount>
@@ -105,6 +118,7 @@
 		</effects>
 	</option>
 	<option id="91113" name="P. Accuracy +2">
+		<!-- P. Accuracy +2 -->
 		<effects>
 			<effect name="Accuracy">
 				<amount>2.0</amount>
@@ -113,6 +127,7 @@
 		</effects>
 	</option>
 	<option id="91114" name="P. Accuracy +2.1">
+		<!-- P. Accuracy +2.1 -->
 		<effects>
 			<effect name="Accuracy">
 				<amount>2.1</amount>
@@ -121,6 +136,7 @@
 		</effects>
 	</option>
 	<option id="91115" name="P. Accuracy +2.2">
+		<!-- P. Accuracy +2.2 -->
 		<effects>
 			<effect name="Accuracy">
 				<amount>2.2</amount>
@@ -129,6 +145,7 @@
 		</effects>
 	</option>
 	<option id="91116" name="P. Accuracy +2.3">
+		<!-- P. Accuracy +2.3 -->
 		<effects>
 			<effect name="Accuracy">
 				<amount>2.3</amount>
@@ -137,6 +154,7 @@
 		</effects>
 	</option>
 	<option id="91117" name="P. Accuracy +2.4">
+		<!-- P. Accuracy +2.4 -->
 		<effects>
 			<effect name="Accuracy">
 				<amount>2.4</amount>
@@ -145,6 +163,7 @@
 		</effects>
 	</option>
 	<option id="91118" name="P. Accuracy +3">
+		<!-- P. Accuracy +3 -->
 		<effects>
 			<effect name="Accuracy">
 				<amount>3.0</amount>
@@ -153,6 +172,7 @@
 		</effects>
 	</option>
 	<option id="91119" name="P. Accuracy +1.2">
+		<!-- P. Accuracy +1.2 -->
 		<effects>
 			<effect name="Accuracy">
 				<amount>1.2</amount>
@@ -161,6 +181,7 @@
 		</effects>
 	</option>
 	<option id="91120" name="P. Accuracy +1.2">
+		<!-- P. Accuracy +1.2 -->
 		<effects>
 			<effect name="Accuracy">
 				<amount>1.2</amount>
@@ -169,6 +190,7 @@
 		</effects>
 	</option>
 	<option id="91121" name="P. Accuracy +1.3">
+		<!-- P. Accuracy +1.3 -->
 		<effects>
 			<effect name="Accuracy">
 				<amount>1.3</amount>
@@ -177,6 +199,7 @@
 		</effects>
 	</option>
 	<option id="91122" name="P. Accuracy +1.3">
+		<!-- P. Accuracy +1.3 -->
 		<effects>
 			<effect name="Accuracy">
 				<amount>1.3</amount>
@@ -185,6 +208,7 @@
 		</effects>
 	</option>
 	<option id="91123" name="P. Accuracy +1.3">
+		<!-- P. Accuracy +1.3 -->
 		<effects>
 			<effect name="Accuracy">
 				<amount>1.3</amount>
@@ -193,6 +217,7 @@
 		</effects>
 	</option>
 	<option id="91124" name="P. Accuracy +1.4">
+		<!-- P. Accuracy +1.4 -->
 		<effects>
 			<effect name="Accuracy">
 				<amount>1.4</amount>
@@ -201,6 +226,7 @@
 		</effects>
 	</option>
 	<option id="91125" name="P. Accuracy +1.4">
+		<!-- P. Accuracy +1.4 -->
 		<effects>
 			<effect name="Accuracy">
 				<amount>1.4</amount>
@@ -209,6 +235,7 @@
 		</effects>
 	</option>
 	<option id="91126" name="P. Accuracy +1.4">
+		<!-- P. Accuracy +1.4 -->
 		<effects>
 			<effect name="Accuracy">
 				<amount>1.4</amount>
@@ -217,6 +244,7 @@
 		</effects>
 	</option>
 	<option id="91127" name="P. Accuracy +1.4">
+		<!-- P. Accuracy +1.4 -->
 		<effects>
 			<effect name="Accuracy">
 				<amount>1.4</amount>
@@ -225,6 +253,7 @@
 		</effects>
 	</option>
 	<option id="91128" name="P. Accuracy +1.4">
+		<!-- P. Accuracy +1.4 -->
 		<effects>
 			<effect name="Accuracy">
 				<amount>1.4</amount>
@@ -233,6 +262,7 @@
 		</effects>
 	</option>
 	<option id="91129" name="P. Accuracy +1.5">
+		<!-- P. Accuracy +1.5 -->
 		<effects>
 			<effect name="Accuracy">
 				<amount>1.5</amount>
@@ -241,6 +271,7 @@
 		</effects>
 	</option>
 	<option id="91130" name="P. Accuracy +1.5">
+		<!-- P. Accuracy +1.5 -->
 		<effects>
 			<effect name="Accuracy">
 				<amount>1.5</amount>
@@ -249,6 +280,7 @@
 		</effects>
 	</option>
 	<option id="91131" name="P. Accuracy +1.5">
+		<!-- P. Accuracy +1.5 -->
 		<effects>
 			<effect name="Accuracy">
 				<amount>1.5</amount>
@@ -257,6 +289,7 @@
 		</effects>
 	</option>
 	<option id="91132" name="P. Accuracy +1.8">
+		<!-- P. Accuracy +1.8 -->
 		<effects>
 			<effect name="Accuracy">
 				<amount>1.8</amount>
@@ -265,6 +298,7 @@
 		</effects>
 	</option>
 	<option id="91133" name="P. Accuracy +2">
+		<!-- P. Accuracy +2 -->
 		<effects>
 			<effect name="Accuracy">
 				<amount>2.0</amount>
@@ -273,6 +307,7 @@
 		</effects>
 	</option>
 	<option id="91134" name="P. Accuracy +2.1">
+		<!-- P. Accuracy +2.1 -->
 		<effects>
 			<effect name="Accuracy">
 				<amount>2.1</amount>
@@ -281,6 +316,7 @@
 		</effects>
 	</option>
 	<option id="91135" name="P. Accuracy +2.2">
+		<!-- P. Accuracy +2.2 -->
 		<effects>
 			<effect name="Accuracy">
 				<amount>2.2</amount>
@@ -289,6 +325,7 @@
 		</effects>
 	</option>
 	<option id="91136" name="P. Accuracy +2.3">
+		<!-- P. Accuracy +2.3 -->
 		<effects>
 			<effect name="Accuracy">
 				<amount>2.3</amount>
@@ -297,6 +334,7 @@
 		</effects>
 	</option>
 	<option id="91137" name="P. Accuracy +2.4">
+		<!-- P. Accuracy +2.4 -->
 		<effects>
 			<effect name="Accuracy">
 				<amount>2.4</amount>
@@ -305,6 +343,7 @@
 		</effects>
 	</option>
 	<option id="91138" name="P. Accuracy +3">
+		<!-- P. Accuracy +3 -->
 		<effects>
 			<effect name="Accuracy">
 				<amount>3.0</amount>
@@ -313,6 +352,7 @@
 		</effects>
 	</option>
 	<option id="91139" name="P. Accuracy +1.2">
+		<!-- P. Accuracy +1.2 -->
 		<effects>
 			<effect name="Accuracy">
 				<amount>1.2</amount>
@@ -321,6 +361,7 @@
 		</effects>
 	</option>
 	<option id="91140" name="P. Accuracy +1.2">
+		<!-- P. Accuracy +1.2 -->
 		<effects>
 			<effect name="Accuracy">
 				<amount>1.2</amount>
@@ -329,6 +370,7 @@
 		</effects>
 	</option>
 	<option id="91141" name="P. Accuracy +1.3">
+		<!-- P. Accuracy +1.3 -->
 		<effects>
 			<effect name="Accuracy">
 				<amount>1.3</amount>
@@ -337,6 +379,7 @@
 		</effects>
 	</option>
 	<option id="91142" name="P. Accuracy +1.3">
+		<!-- P. Accuracy +1.3 -->
 		<effects>
 			<effect name="Accuracy">
 				<amount>1.3</amount>
@@ -345,6 +388,7 @@
 		</effects>
 	</option>
 	<option id="91143" name="P. Accuracy +1.3">
+		<!-- P. Accuracy +1.3 -->
 		<effects>
 			<effect name="Accuracy">
 				<amount>1.3</amount>
@@ -353,6 +397,7 @@
 		</effects>
 	</option>
 	<option id="91144" name="P. Accuracy +1.4">
+		<!-- P. Accuracy +1.4 -->
 		<effects>
 			<effect name="Accuracy">
 				<amount>1.4</amount>
@@ -361,6 +406,7 @@
 		</effects>
 	</option>
 	<option id="91145" name="P. Accuracy +1.4">
+		<!-- P. Accuracy +1.4 -->
 		<effects>
 			<effect name="Accuracy">
 				<amount>1.4</amount>
@@ -369,6 +415,7 @@
 		</effects>
 	</option>
 	<option id="91146" name="P. Accuracy +1.4">
+		<!-- P. Accuracy +1.4 -->
 		<effects>
 			<effect name="Accuracy">
 				<amount>1.4</amount>
@@ -377,6 +424,7 @@
 		</effects>
 	</option>
 	<option id="91147" name="P. Accuracy +1.4">
+		<!-- P. Accuracy +1.4 -->
 		<effects>
 			<effect name="Accuracy">
 				<amount>1.4</amount>
@@ -385,6 +433,7 @@
 		</effects>
 	</option>
 	<option id="91148" name="P. Accuracy +1.4">
+		<!-- P. Accuracy +1.4 -->
 		<effects>
 			<effect name="Accuracy">
 				<amount>1.4</amount>
@@ -393,6 +442,7 @@
 		</effects>
 	</option>
 	<option id="91149" name="P. Accuracy +1.5">
+		<!-- P. Accuracy +1.5 -->
 		<effects>
 			<effect name="Accuracy">
 				<amount>1.5</amount>
@@ -401,6 +451,7 @@
 		</effects>
 	</option>
 	<option id="91150" name="P. Accuracy +1.5">
+		<!-- P. Accuracy +1.5 -->
 		<effects>
 			<effect name="Accuracy">
 				<amount>1.5</amount>
@@ -409,6 +460,7 @@
 		</effects>
 	</option>
 	<option id="91151" name="P. Accuracy +1.5">
+		<!-- P. Accuracy +1.5 -->
 		<effects>
 			<effect name="Accuracy">
 				<amount>1.5</amount>
@@ -417,6 +469,7 @@
 		</effects>
 	</option>
 	<option id="91152" name="P. Accuracy +1.8">
+		<!-- P. Accuracy +1.8 -->
 		<effects>
 			<effect name="Accuracy">
 				<amount>1.8</amount>
@@ -425,6 +478,7 @@
 		</effects>
 	</option>
 	<option id="91153" name="P. Accuracy +2">
+		<!-- P. Accuracy +2 -->
 		<effects>
 			<effect name="Accuracy">
 				<amount>2.0</amount>
@@ -433,6 +487,7 @@
 		</effects>
 	</option>
 	<option id="91154" name="P. Accuracy +2.1">
+		<!-- P. Accuracy +2.1 -->
 		<effects>
 			<effect name="Accuracy">
 				<amount>2.1</amount>
@@ -441,6 +496,7 @@
 		</effects>
 	</option>
 	<option id="91155" name="P. Accuracy +2.2">
+		<!-- P. Accuracy +2.2 -->
 		<effects>
 			<effect name="Accuracy">
 				<amount>2.2</amount>
@@ -449,6 +505,7 @@
 		</effects>
 	</option>
 	<option id="91156" name="P. Accuracy +2.3">
+		<!-- P. Accuracy +2.3 -->
 		<effects>
 			<effect name="Accuracy">
 				<amount>2.3</amount>
@@ -457,6 +514,7 @@
 		</effects>
 	</option>
 	<option id="91157" name="P. Accuracy +2.4">
+		<!-- P. Accuracy +2.4 -->
 		<effects>
 			<effect name="Accuracy">
 				<amount>2.4</amount>
@@ -465,6 +523,7 @@
 		</effects>
 	</option>
 	<option id="91158" name="P. Accuracy +3">
+		<!-- P. Accuracy +3 -->
 		<effects>
 			<effect name="Accuracy">
 				<amount>3.0</amount>
@@ -473,6 +532,7 @@
 		</effects>
 	</option>
 	<option id="91159" name="M. Accuracy +1.2">
+		<!-- M. Accuracy +1.2 -->
 		<effects>
 			<effect name="MagicAccuracy">
 				<amount>1.2</amount>
@@ -481,6 +541,7 @@
 		</effects>
 	</option>
 	<option id="91160" name="M. Accuracy +1.2">
+		<!-- M. Accuracy +1.2 -->
 		<effects>
 			<effect name="MagicAccuracy">
 				<amount>1.2</amount>
@@ -489,6 +550,7 @@
 		</effects>
 	</option>
 	<option id="91161" name="M. Accuracy +1.3">
+		<!-- M. Accuracy +1.3 -->
 		<effects>
 			<effect name="MagicAccuracy">
 				<amount>1.3</amount>
@@ -497,6 +559,7 @@
 		</effects>
 	</option>
 	<option id="91162" name="M. Accuracy +1.3">
+		<!-- M. Accuracy +1.3 -->
 		<effects>
 			<effect name="MagicAccuracy">
 				<amount>1.3</amount>
@@ -505,6 +568,7 @@
 		</effects>
 	</option>
 	<option id="91163" name="M. Accuracy +1.3">
+		<!-- M. Accuracy +1.3 -->
 		<effects>
 			<effect name="MagicAccuracy">
 				<amount>1.3</amount>
@@ -513,6 +577,7 @@
 		</effects>
 	</option>
 	<option id="91164" name="M. Accuracy +1.4">
+		<!-- M. Accuracy +1.4 -->
 		<effects>
 			<effect name="MagicAccuracy">
 				<amount>1.4</amount>
@@ -521,6 +586,7 @@
 		</effects>
 	</option>
 	<option id="91165" name="M. Accuracy +1.4">
+		<!-- M. Accuracy +1.4 -->
 		<effects>
 			<effect name="MagicAccuracy">
 				<amount>1.4</amount>
@@ -529,6 +595,7 @@
 		</effects>
 	</option>
 	<option id="91166" name="M. Accuracy +1.4">
+		<!-- M. Accuracy +1.4 -->
 		<effects>
 			<effect name="MagicAccuracy">
 				<amount>1.4</amount>
@@ -537,6 +604,7 @@
 		</effects>
 	</option>
 	<option id="91167" name="M. Accuracy +1.4">
+		<!-- M. Accuracy +1.4 -->
 		<effects>
 			<effect name="MagicAccuracy">
 				<amount>1.4</amount>
@@ -545,6 +613,7 @@
 		</effects>
 	</option>
 	<option id="91168" name="M. Accuracy +1.4">
+		<!-- M. Accuracy +1.4 -->
 		<effects>
 			<effect name="MagicAccuracy">
 				<amount>1.4</amount>
@@ -553,6 +622,7 @@
 		</effects>
 	</option>
 	<option id="91169" name="M. Accuracy +1.5">
+		<!-- M. Accuracy +1.5 -->
 		<effects>
 			<effect name="MagicAccuracy">
 				<amount>1.5</amount>
@@ -561,6 +631,7 @@
 		</effects>
 	</option>
 	<option id="91170" name="M. Accuracy +1.5">
+		<!-- M. Accuracy +1.5 -->
 		<effects>
 			<effect name="MagicAccuracy">
 				<amount>1.5</amount>
@@ -569,6 +640,7 @@
 		</effects>
 	</option>
 	<option id="91171" name="M. Accuracy +1.5">
+		<!-- M. Accuracy +1.5 -->
 		<effects>
 			<effect name="MagicAccuracy">
 				<amount>1.5</amount>
@@ -577,6 +649,7 @@
 		</effects>
 	</option>
 	<option id="91172" name="M. Accuracy +1.8">
+		<!-- M. Accuracy +1.8 -->
 		<effects>
 			<effect name="MagicAccuracy">
 				<amount>1.8</amount>
@@ -585,6 +658,7 @@
 		</effects>
 	</option>
 	<option id="91173" name="M. Accuracy +2">
+		<!-- M. Accuracy +2 -->
 		<effects>
 			<effect name="MagicAccuracy">
 				<amount>2.0</amount>
@@ -593,6 +667,7 @@
 		</effects>
 	</option>
 	<option id="91174" name="M. Accuracy +2.1">
+		<!-- M. Accuracy +2.1 -->
 		<effects>
 			<effect name="MagicAccuracy">
 				<amount>2.1</amount>
@@ -601,6 +676,7 @@
 		</effects>
 	</option>
 	<option id="91175" name="M. Accuracy +2.2">
+		<!-- M. Accuracy +2.2 -->
 		<effects>
 			<effect name="MagicAccuracy">
 				<amount>2.2</amount>
@@ -609,6 +685,7 @@
 		</effects>
 	</option>
 	<option id="91176" name="M. Accuracy +2.3">
+		<!-- M. Accuracy +2.3 -->
 		<effects>
 			<effect name="MagicAccuracy">
 				<amount>2.3</amount>
@@ -617,6 +694,7 @@
 		</effects>
 	</option>
 	<option id="91177" name="M. Accuracy +2.4">
+		<!-- M. Accuracy +2.4 -->
 		<effects>
 			<effect name="MagicAccuracy">
 				<amount>2.4</amount>
@@ -625,6 +703,7 @@
 		</effects>
 	</option>
 	<option id="91178" name="M. Accuracy +3">
+		<!-- M. Accuracy +3 -->
 		<effects>
 			<effect name="MagicAccuracy">
 				<amount>3.0</amount>
@@ -633,6 +712,7 @@
 		</effects>
 	</option>
 	<option id="91179" name="M. Accuracy +1.2">
+		<!-- M. Accuracy +1.2 -->
 		<effects>
 			<effect name="MagicAccuracy">
 				<amount>1.2</amount>
@@ -641,6 +721,7 @@
 		</effects>
 	</option>
 	<option id="91180" name="M. Accuracy +1.2">
+		<!-- M. Accuracy +1.2 -->
 		<effects>
 			<effect name="MagicAccuracy">
 				<amount>1.2</amount>
@@ -649,6 +730,7 @@
 		</effects>
 	</option>
 	<option id="91181" name="M. Accuracy +1.3">
+		<!-- M. Accuracy +1.3 -->
 		<effects>
 			<effect name="MagicAccuracy">
 				<amount>1.3</amount>
@@ -657,6 +739,7 @@
 		</effects>
 	</option>
 	<option id="91182" name="M. Accuracy +1.3">
+		<!-- M. Accuracy +1.3 -->
 		<effects>
 			<effect name="MagicAccuracy">
 				<amount>1.3</amount>
@@ -665,6 +748,7 @@
 		</effects>
 	</option>
 	<option id="91183" name="M. Accuracy +1.3">
+		<!-- M. Accuracy +1.3 -->
 		<effects>
 			<effect name="MagicAccuracy">
 				<amount>1.3</amount>
@@ -673,6 +757,7 @@
 		</effects>
 	</option>
 	<option id="91184" name="M. Accuracy +1.4">
+		<!-- M. Accuracy +1.4 -->
 		<effects>
 			<effect name="MagicAccuracy">
 				<amount>1.4</amount>
@@ -681,6 +766,7 @@
 		</effects>
 	</option>
 	<option id="91185" name="M. Accuracy +1.4">
+		<!-- M. Accuracy +1.4 -->
 		<effects>
 			<effect name="MagicAccuracy">
 				<amount>1.4</amount>
@@ -689,6 +775,7 @@
 		</effects>
 	</option>
 	<option id="91186" name="M. Accuracy +1.4">
+		<!-- M. Accuracy +1.4 -->
 		<effects>
 			<effect name="MagicAccuracy">
 				<amount>1.4</amount>
@@ -697,6 +784,7 @@
 		</effects>
 	</option>
 	<option id="91187" name="M. Accuracy +1.4">
+		<!-- M. Accuracy +1.4 -->
 		<effects>
 			<effect name="MagicAccuracy">
 				<amount>1.4</amount>
@@ -705,6 +793,7 @@
 		</effects>
 	</option>
 	<option id="91188" name="M. Accuracy +1.4">
+		<!-- M. Accuracy +1.4 -->
 		<effects>
 			<effect name="MagicAccuracy">
 				<amount>1.4</amount>
@@ -713,6 +802,7 @@
 		</effects>
 	</option>
 	<option id="91189" name="M. Accuracy +1.5">
+		<!-- M. Accuracy +1.5 -->
 		<effects>
 			<effect name="MagicAccuracy">
 				<amount>1.5</amount>
@@ -721,6 +811,7 @@
 		</effects>
 	</option>
 	<option id="91190" name="M. Accuracy +1.5">
+		<!-- M. Accuracy +1.5 -->
 		<effects>
 			<effect name="MagicAccuracy">
 				<amount>1.5</amount>
@@ -729,6 +820,7 @@
 		</effects>
 	</option>
 	<option id="91191" name="M. Accuracy +1.5">
+		<!-- M. Accuracy +1.5 -->
 		<effects>
 			<effect name="MagicAccuracy">
 				<amount>1.5</amount>
@@ -737,6 +829,7 @@
 		</effects>
 	</option>
 	<option id="91192" name="M. Accuracy +1.8">
+		<!-- M. Accuracy +1.8 -->
 		<effects>
 			<effect name="MagicAccuracy">
 				<amount>1.8</amount>
@@ -745,6 +838,7 @@
 		</effects>
 	</option>
 	<option id="91193" name="M. Accuracy +2">
+		<!-- M. Accuracy +2 -->
 		<effects>
 			<effect name="MagicAccuracy">
 				<amount>2.0</amount>
@@ -753,6 +847,7 @@
 		</effects>
 	</option>
 	<option id="91194" name="M. Accuracy +2.1">
+		<!-- M. Accuracy +2.1 -->
 		<effects>
 			<effect name="MagicAccuracy">
 				<amount>2.1</amount>
@@ -761,6 +856,7 @@
 		</effects>
 	</option>
 	<option id="91195" name="M. Accuracy +2.2">
+		<!-- M. Accuracy +2.2 -->
 		<effects>
 			<effect name="MagicAccuracy">
 				<amount>2.2</amount>
@@ -769,6 +865,7 @@
 		</effects>
 	</option>
 	<option id="91196" name="M. Accuracy +2.3">
+		<!-- M. Accuracy +2.3 -->
 		<effects>
 			<effect name="MagicAccuracy">
 				<amount>2.3</amount>
@@ -777,6 +874,7 @@
 		</effects>
 	</option>
 	<option id="91197" name="M. Accuracy +2.4">
+		<!-- M. Accuracy +2.4 -->
 		<effects>
 			<effect name="MagicAccuracy">
 				<amount>2.4</amount>
@@ -785,6 +883,7 @@
 		</effects>
 	</option>
 	<option id="91198" name="M. Accuracy +3">
+		<!-- M. Accuracy +3 -->
 		<effects>
 			<effect name="MagicAccuracy">
 				<amount>3.0</amount>
@@ -793,6 +892,7 @@
 		</effects>
 	</option>
 	<option id="91199" name="M. Accuracy +1.2">
+		<!-- M. Accuracy +1.2 -->
 		<effects>
 			<effect name="MagicAccuracy">
 				<amount>1.2</amount>

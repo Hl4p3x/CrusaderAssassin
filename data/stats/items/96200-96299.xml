@@ -1096,7 +1096,7 @@
 		<set name="is_sellable" val="false" />
 	</item>
 	<item id="96268" name="Beleth's Soul Eater" type="Weapon">
-		<!-- <font color=ff6666><Unavailable to Sylphs/ Vanguard Riders.></font> -->
+		<!-- <font color=ff6666><Unavailable to Sylphs/ Vanguard Riders/ Assassins.></font> -->
 		<set name="icon" val="icon.staff_of_bereth" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="BLUNT" />
@@ -1146,7 +1146,7 @@
 		</skills>
 	</item>
 	<item id="96269" name="Beleth's Soul Eater" additionalName="Sealed" type="Weapon">
-		<!-- <font color=ff6666><Unavailable to Sylphs/ Vanguard Riders.></font> -->
+		<!-- <font color=ff6666><Unavailable to Sylphs/ Vanguard Riders/ Assassins.></font> -->
 		<set name="icon" val="icon.staff_of_bereth" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="BLUNT" />
@@ -1254,7 +1254,7 @@
 		<set name="is_stackable" val="true" />
 	</item>
 	<item id="96275" name="Spellbook: Knight's Power" type="EtcItem">
-		<!-- A scroll for learning the Knight's Power skill. <Classes>. Phoenix Knight. Hell Knight. Eva's Templar. Shillien Templar. <Skill effect>. Increases P. Atk. in accordance with your P. Def. -->
+		<!-- A spellbook for learning the Knight's Power skill. <Classes>. Phoenix Knight. Hell Knight. Eva's Templar. Shillien Templar. <Skill effect>. Increases P. Atk. in accordance with your P. Def. -->
 		<set name="icon" val="icon.etc_magic_book_black_i00" />
 		<set name="default_action" val="NONE" />
 		<set name="immediate_effect" val="true" />
@@ -1263,7 +1263,7 @@
 		<set name="is_stackable" val="true" />
 	</item>
 	<item id="96276" name="Spellbook: Knight's Power" additionalName="Sealed" type="EtcItem">
-		<!-- A scroll for learning the Knight's Power skill. <Classes>. Phoenix Knight. Hell Knight. Eva's Templar. Shillien Templar. <Skill effect>. Increases P. Atk. in accordance with your P. Def. -->
+		<!-- A spellbook for learning the Knight's Power skill. <Classes>. Phoenix Knight. Hell Knight. Eva's Templar. Shillien Templar. <Skill effect>. Increases P. Atk. in accordance with your P. Def. -->
 		<set name="icon" val="icon.etc_magic_book_black_i00" />
 		<set name="default_action" val="NONE" />
 		<set name="immediate_effect" val="true" />
@@ -1274,7 +1274,7 @@
 		<set name="is_stackable" val="true" />
 	</item>
 	<item id="96277" name="Spellbook: Knight Assault" type="EtcItem">
-		<!-- A scroll for learning the Knight's Assault skill. <Classes>. Phoenix Knight. Hell Knight. Eva's Templar. Shillien Templar. <Skill effect>. Attacks an enemy with a powerful sword swing. -->
+		<!-- A spellbook for learning the Knight's Assault skill. <Classes>. Phoenix Knight. Hell Knight. Eva's Templar. Shillien Templar. <Skill effect>. Attacks an enemy with a powerful sword swing. -->
 		<set name="icon" val="icon.etc_magic_book_black_i00" />
 		<set name="default_action" val="NONE" />
 		<set name="immediate_effect" val="true" />
@@ -1283,7 +1283,7 @@
 		<set name="is_stackable" val="true" />
 	</item>
 	<item id="96278" name="Spellbook: Knight Assault" additionalName="Sealed" type="EtcItem">
-		<!-- A scroll for learning the Knight's Assault skill. <Classes>. Phoenix Knight. Hell Knight. Eva's Templar. Shillien Templar. <Skill effect>. Attacks an enemy with a powerful sword swing. -->
+		<!-- A spellbook for learning the Knight's Assault skill. <Classes>. Phoenix Knight. Hell Knight. Eva's Templar. Shillien Templar. <Skill effect>. Attacks an enemy with a powerful sword swing. -->
 		<set name="icon" val="icon.etc_magic_book_black_i00" />
 		<set name="default_action" val="NONE" />
 		<set name="immediate_effect" val="true" />
@@ -1294,7 +1294,7 @@
 		<set name="is_stackable" val="true" />
 	</item>
 	<item id="96279" name="Spellbook: Chain Strike (Shock)" type="EtcItem">
-		<!-- A scroll for learning the Chain Strike (Shock) skill. <Classes>. Phoenix Knight. Hell Knight. Eva's Templar. Shillien Templar. <Skill effect>. Enhances the Chain Strike skill. Adds a chance to stun the target when using the Chain Strike skill. -->
+		<!-- A spellbook for learning the Chain Strike (Shock) skill. <Classes>. Phoenix Knight. Hell Knight. Eva's Templar. Shillien Templar. <Skill effect>. Enhances the Chain Strike skill. Adds a chance to stun the target when using the Chain Strike skill. -->
 		<set name="icon" val="icon.etc_magic_book_black_i00" />
 		<set name="default_action" val="NONE" />
 		<set name="immediate_effect" val="true" />
@@ -1303,7 +1303,7 @@
 		<set name="is_stackable" val="true" />
 	</item>
 	<item id="96280" name="Spellbook: Chain Strike (Shock)" additionalName="Sealed" type="EtcItem">
-		<!-- A scroll for learning the Chain Strike (Shock) skill. <Classes>. Phoenix Knight. Hell Knight. Eva's Templar. Shillien Templar. <Skill effect>. Enhances the Chain Strike skill. Adds a chance to stun the target when using the Chain Strike skill. -->
+		<!-- A spellbook for learning the Chain Strike (Shock) skill. <Classes>. Phoenix Knight. Hell Knight. Eva's Templar. Shillien Templar. <Skill effect>. Enhances the Chain Strike skill. Adds a chance to stun the target when using the Chain Strike skill. -->
 		<set name="icon" val="icon.etc_magic_book_black_i00" />
 		<set name="default_action" val="NONE" />
 		<set name="immediate_effect" val="true" />
@@ -1314,7 +1314,7 @@
 		<set name="is_stackable" val="true" />
 	</item>
 	<item id="96281" name="Spellbook: Shield Throwing" type="EtcItem">
-		<!-- A scroll for learning the Shield Throwing skill. <Classes>. Phoenix Knight. Hell Knight. Eva's Templar. Shillien Templar. <Skill effect>. Attacks an enemy with a powerful shield throw. For a certain period of time, decreases the target's P. Skill Critical Rate and P. Skill Critical Damage. -->
+		<!-- A spellbook for learning the Shield Throwing skill. <Classes>. Phoenix Knight. Hell Knight. Eva's Templar. Shillien Templar. <Skill effect>. Attacks an enemy with a powerful shield throw. For a certain period of time, decreases the target's P. Skill Critical Rate and P. Skill Critical Damage. -->
 		<set name="icon" val="icon.etc_magic_book_black_i00" />
 		<set name="default_action" val="NONE" />
 		<set name="immediate_effect" val="true" />
@@ -1323,7 +1323,7 @@
 		<set name="is_stackable" val="true" />
 	</item>
 	<item id="96282" name="Spellbook: Shield Throwing" additionalName="Sealed" type="EtcItem">
-		<!-- A scroll for learning the Shield Throwing skill. <Classes>. Phoenix Knight. Hell Knight. Eva's Templar. Shillien Templar. <Skill effect>. Attacks an enemy with a powerful shield throw. For a certain period of time, decreases the target's P. Skill Critical Rate and P. Skill Critical Damage. -->
+		<!-- A spellbook for learning the Shield Throwing skill. <Classes>. Phoenix Knight. Hell Knight. Eva's Templar. Shillien Templar. <Skill effect>. Attacks an enemy with a powerful shield throw. For a certain period of time, decreases the target's P. Skill Critical Rate and P. Skill Critical Damage. -->
 		<set name="icon" val="icon.etc_magic_book_black_i00" />
 		<set name="default_action" val="NONE" />
 		<set name="immediate_effect" val="true" />
@@ -1334,7 +1334,7 @@
 		<set name="is_stackable" val="true" />
 	</item>
 	<item id="96283" name="Spellbook: Power of Life" type="EtcItem">
-		<!-- A scroll for learning the Power of Life skill. <Classes>. Phoenix Knight. Eva's Templar. <Skill effect>. Increases your body's energy. Increases Max HP, P. Def. and Shield Defense. -->
+		<!-- A spellbook for learning the Power of Life skill. <Classes>. Phoenix Knight. Eva's Templar. <Skill effect>. Increases your body's energy. Increases Max HP, P. Def. and Shield Defense. -->
 		<set name="icon" val="icon.etc_magic_book_black_i00" />
 		<set name="default_action" val="NONE" />
 		<set name="immediate_effect" val="true" />
@@ -1343,7 +1343,7 @@
 		<set name="is_stackable" val="true" />
 	</item>
 	<item id="96284" name="Spellbook: Power of Life" additionalName="Sealed" type="EtcItem">
-		<!-- A scroll for learning the Power of Life skill. <Classes>. Phoenix Knight. Eva's Templar. <Skill effect>. Increases your body's energy. Increases Max HP, P. Def. and Shield Defense. -->
+		<!-- A spellbook for learning the Power of Life skill. <Classes>. Phoenix Knight. Eva's Templar. <Skill effect>. Increases your body's energy. Increases Max HP, P. Def. and Shield Defense. -->
 		<set name="icon" val="icon.etc_magic_book_black_i00" />
 		<set name="default_action" val="NONE" />
 		<set name="immediate_effect" val="true" />
@@ -1354,7 +1354,7 @@
 		<set name="is_stackable" val="true" />
 	</item>
 	<item id="96285" name="Spellbook: Toughness" type="EtcItem">
-		<!-- A scroll for learning the Toughness skill. <Classes>. Hell Knight. Shillien Templar. <Skill effect>. Makes your body stronger. Increases Max HP, P. Def. and Shield Defense. -->
+		<!-- A spellbook for learning the Toughness skill. <Classes>. Hell Knight. Shillien Templar. <Skill effect>. Makes your body stronger. Increases Max HP, P. Def. and Shield Defense. -->
 		<set name="icon" val="icon.etc_magic_book_black_i00" />
 		<set name="default_action" val="NONE" />
 		<set name="immediate_effect" val="true" />
@@ -1363,7 +1363,7 @@
 		<set name="is_stackable" val="true" />
 	</item>
 	<item id="96286" name="Spellbook: Toughness" additionalName="Sealed" type="EtcItem">
-		<!-- A scroll for learning the Toughness skill. <Classes>. Hell Knight. Shillien Templar. <Skill effect>. Makes your body stronger. Increases Max HP, P. Def. and Shield Defense. -->
+		<!-- A spellbook for learning the Toughness skill. <Classes>. Hell Knight. Shillien Templar. <Skill effect>. Makes your body stronger. Increases Max HP, P. Def. and Shield Defense. -->
 		<set name="icon" val="icon.etc_magic_book_black_i00" />
 		<set name="default_action" val="NONE" />
 		<set name="immediate_effect" val="true" />
@@ -1374,7 +1374,7 @@
 		<set name="is_stackable" val="true" />
 	</item>
 	<item id="96287" name="Spellbook: Ultimate Defense Lv. 3" type="EtcItem">
-		<!-- A scroll for learning the Ultimate Defense Lv. 3 skill. <Classes>. Phoenix Knight. Hell Knight. Eva's Templar. Shillien Templar. <Skill effect>. Increases Max HP, P./ M. Def., and Buff Cancel Resistance. Cancels defense ignoring and Shield Defense ignoring effects. Decreases Received Skill Critical Rate. -->
+		<!-- A spellbook for learning the Ultimate Defense Lv. 3 skill. <Classes>. Phoenix Knight. Hell Knight. Eva's Templar. Shillien Templar. <Skill effect>. Increases Max HP, P./ M. Def., and Buff Cancel Resistance. Cancels defense ignoring and Shield Defense ignoring effects. Decreases Received Skill Critical Rate. -->
 		<set name="icon" val="icon.etc_magic_book_black_i00" />
 		<set name="default_action" val="NONE" />
 		<set name="immediate_effect" val="true" />
@@ -1383,7 +1383,7 @@
 		<set name="is_stackable" val="true" />
 	</item>
 	<item id="96288" name="Spellbook: Ultimate Defense Lv. 3" additionalName="Sealed" type="EtcItem">
-		<!-- A scroll for learning the Ultimate Defense Lv. 3 skill. <Classes>. Phoenix Knight. Hell Knight. Eva's Templar. Shillien Templar. <Skill effect>. Increases Max HP, P./ M. Def., and Buff Cancel Resistance. Cancels defense ignoring and Shield Defense ignoring effects. Decreases Received Skill Critical Rate. -->
+		<!-- A spellbook for learning the Ultimate Defense Lv. 3 skill. <Classes>. Phoenix Knight. Hell Knight. Eva's Templar. Shillien Templar. <Skill effect>. Increases Max HP, P./ M. Def., and Buff Cancel Resistance. Cancels defense ignoring and Shield Defense ignoring effects. Decreases Received Skill Critical Rate. -->
 		<set name="icon" val="icon.etc_magic_book_black_i00" />
 		<set name="default_action" val="NONE" />
 		<set name="immediate_effect" val="true" />
@@ -1394,7 +1394,7 @@
 		<set name="is_stackable" val="true" />
 	</item>
 	<item id="96289" name="Spellbook: Phoenix Shield" type="EtcItem">
-		<!-- A spellbook for learning the Phoenix skill. <Class>. Phoenix Knight. <Skill effect>. Covers nearby allies by a barrier imbued with the power of Phoenix. -->
+		<!-- A spellbook for learning the Phoenix Shield skill. <Class>. Phoenix Knight. <Skill effect>. Covers nearby allies by a barrier imbued with the power of Phoenix. -->
 		<set name="icon" val="icon.etc_magic_book_black_i00" />
 		<set name="default_action" val="NONE" />
 		<set name="immediate_effect" val="true" />
@@ -1403,7 +1403,7 @@
 		<set name="is_stackable" val="true" />
 	</item>
 	<item id="96290" name="Spellbook: Phoenix Shield" additionalName="Sealed" type="EtcItem">
-		<!-- A spellbook for learning the Phoenix skill. <Class>. Phoenix Knight. <Skill effect>. Covers nearby allies by a barrier imbued with the power of Phoenix. -->
+		<!-- A spellbook for learning the Phoenix Shield skill. <Class>. Phoenix Knight. <Skill effect>. Covers nearby allies by a barrier imbued with the power of Phoenix. -->
 		<set name="icon" val="icon.etc_magic_book_black_i00" />
 		<set name="default_action" val="NONE" />
 		<set name="immediate_effect" val="true" />
@@ -1474,7 +1474,7 @@
 		<set name="is_stackable" val="true" />
 	</item>
 	<item id="96297" name="Frost Lord's Weapon Pack" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.bm_dragon_present_5" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />

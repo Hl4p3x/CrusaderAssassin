@@ -62,4 +62,61 @@
 	<option id="95411" name="option_id_95411">
 		<!-- All received Critical Damage -1% -->
 	</option>
+	<option id="95412" name="option_id_95412">
+		<!-- Overwhelming Force Damage Resistance +2% -->
+	</option>
+	<option id="95413" name="option_id_95413">
+		<!-- Overwhelming Force Damage Resistance +4% -->
+	</option>
+	<option id="95414" name="option_id_95414">
+		<!-- P. Atk. +50, M. Atk. +50, P. Def. +70, M. Def. +70, acquired XP/ SP +2%, Unequip Resistance +2% -->
+	</option>
+	<option id="95415" name="option_id_95415">
+		<!-- P. Atk. +100, M. Atk. +100, P. Def. +130, M. Def. +130, acquired XP/ SP +3%, Unequip Resistance +3% -->
+	</option>
+	<option id="95416" name="option_id_95416">
+		<!-- P. Atk. +50, M. Atk. +50, P. Def. +70, M. Def. +70, acquired XP/ SP +2% -->
+	</option>
+	<option id="95417" name="option_id_95417">
+		<!-- P. Atk. +100, M. Atk. +100, P. Def. +130, M. Def. +130, acquired XP/ SP +3% -->
+	</option>
+	<option id="95418" name="option_id_95418">
+		<!-- P./ M. Atk. +50, P./ M. Def. +50 -->
+	</option>
+	<option id="95419" name="option_id_95419">
+		<!-- Acquired XP/ SP +3%, P./ M. Def. +200 -->
+	</option>
+	<option id="95420" name="option_id_95420">
+		<!-- Acquired XP/ SP +7%, P./ M. Def. +800, received PvP damage -5% -->
+	</option>
+	<option id="95421" name="option_id_95421">
+		<!-- All stats +1, HP/ MP Recovery Rate +8 -->
+	</option>
+	<option id="95422" name="option_id_95422">
+		<!-- Acquired XP/ SP +10%, P./ M. Def. +100 -->
+	</option>
+	<option id="95423" name="option_id_95423">
+		<!-- Acquired XP/ SP +5%, P./ M. Atk. +100 -->
+	</option>
+	<option id="95424" name="option_id_95424">
+		<!-- Acquired XP/ SP +4%, Atk. Spd./ Casting Spd. +100 -->
+	</option>
+	<option id="95425" name="option_id_95425">
+		<!-- Atk. Spd./ Casting Spd. +4 -->
+	</option>
+	<option id="95426" name="option_id_95426">
+		<!-- Atk. Spd./ Casting Spd. +6 -->
+	</option>
+	<option id="95427" name="option_id_95427">
+		<!-- P./ M. Atk. +5 -->
+	</option>
+	<option id="95428" name="option_id_95428">
+		<!-- P./ M. Atk. +10 -->
+	</option>
+	<option id="95429" name="option_id_95429">
+		<!-- P./ M. Atk. +15 -->
+	</option>
+	<option id="95430" name="option_id_95430">
+		<!-- HP/ MP Recovery Rate +25% -->
+	</option>
 </list>

@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../xsd/optionsData.xsd">
 	<option id="90000" name="M. Def. +120">
+		<!-- M. Def. +120 -->
 		<effects>
 			<effect name="MagicalDefence">
 				<amount>120</amount>
@@ -9,6 +10,7 @@
 		</effects>
 	</option>
 	<option id="90001" name="M. Def. +150">
+		<!-- M. Def. +150 -->
 		<effects>
 			<effect name="MagicalDefence">
 				<amount>150</amount>
@@ -17,6 +19,7 @@
 		</effects>
 	</option>
 	<option id="90002" name="M. Def. +200">
+		<!-- M. Def. +200 -->
 		<effects>
 			<effect name="MagicalDefence">
 				<amount>200</amount>
@@ -25,6 +28,7 @@
 		</effects>
 	</option>
 	<option id="90003" name="P. Accuracy +1.0">
+		<!-- P. Accuracy +1.0 -->
 		<effects>
 			<effect name="Accuracy">
 				<amount>1</amount>
@@ -33,6 +37,7 @@
 		</effects>
 	</option>
 	<option id="90004" name="P. Accuracy +1.0">
+		<!-- P. Accuracy +1.0 -->
 		<effects>
 			<effect name="Accuracy">
 				<amount>1</amount>
@@ -41,6 +46,7 @@
 		</effects>
 	</option>
 	<option id="90005" name="P. Accuracy +1.0">
+		<!-- P. Accuracy +1.0 -->
 		<effects>
 			<effect name="Accuracy">
 				<amount>1</amount>
@@ -49,6 +55,7 @@
 		</effects>
 	</option>
 	<option id="90006" name="P. Accuracy +1.0">
+		<!-- P. Accuracy +1.0 -->
 		<effects>
 			<effect name="Accuracy">
 				<amount>1</amount>
@@ -57,6 +64,7 @@
 		</effects>
 	</option>
 	<option id="90007" name="P. Accuracy +1.0">
+		<!-- P. Accuracy +1.0 -->
 		<effects>
 			<effect name="Accuracy">
 				<amount>1.0</amount>
@@ -65,6 +73,7 @@
 		</effects>
 	</option>
 	<option id="90008" name="P. Accuracy +1.1">
+		<!-- P. Accuracy +1.1 -->
 		<effects>
 			<effect name="Accuracy">
 				<amount>1.1</amount>
@@ -73,6 +82,7 @@
 		</effects>
 	</option>
 	<option id="90009" name="P. Accuracy +1.2">
+		<!-- P. Accuracy +1.2 -->
 		<effects>
 			<effect name="Accuracy">
 				<amount>1.2</amount>
@@ -90,6 +100,7 @@
 		</effects>
 	</option>
 	<option id="90011" name="P. Accuracy +1.3">
+		<!-- P. Accuracy +1.3 -->
 		<effects>
 			<effect name="Accuracy">
 				<amount>1.3</amount>
@@ -98,6 +109,7 @@
 		</effects>
 	</option>
 	<option id="90012" name="P. Accuracy +1.3">
+		<!-- P. Accuracy +1.3 -->
 		<effects>
 			<effect name="Accuracy">
 				<amount>1.3</amount>
@@ -106,6 +118,7 @@
 		</effects>
 	</option>
 	<option id="90013" name="P. Accuracy +1.3">
+		<!-- P. Accuracy +1.3 -->
 		<effects>
 			<effect name="Accuracy">
 				<amount>1.3</amount>
@@ -114,6 +127,7 @@
 		</effects>
 	</option>
 	<option id="90014" name="P. Accuracy +1.4">
+		<!-- P. Accuracy +1.4 -->
 		<effects>
 			<effect name="Accuracy">
 				<amount>1.4</amount>
@@ -122,6 +136,7 @@
 		</effects>
 	</option>
 	<option id="90015" name="P. Accuracy +1.4">
+		<!-- P. Accuracy +1.4 -->
 		<effects>
 			<effect name="Accuracy">
 				<amount>1.4</amount>
@@ -130,6 +145,7 @@
 		</effects>
 	</option>
 	<option id="90016" name="P. Accuracy +1.6">
+		<!-- P. Accuracy +1.6 -->
 		<effects>
 			<effect name="Accuracy">
 				<amount>1.6</amount>
@@ -138,6 +154,7 @@
 		</effects>
 	</option>
 	<option id="90017" name="P. Accuracy +1.8">
+		<!-- P. Accuracy +1.8 -->
 		<effects>
 			<effect name="Accuracy">
 				<amount>1.8</amount>
@@ -146,6 +163,7 @@
 		</effects>
 	</option>
 	<option id="90018" name="P. Accuracy +2.0">
+		<!-- P. Accuracy +2.0 -->
 		<effects>
 			<effect name="Accuracy">
 				<amount>2.0</amount>
@@ -154,6 +172,7 @@
 		</effects>
 	</option>
 	<option id="90019" name="P. Accuracy +2.5">
+		<!-- P. Accuracy +2.5 -->
 		<effects>
 			<effect name="Accuracy">
 				<amount>2.5</amount>
@@ -162,6 +181,7 @@
 		</effects>
 	</option>
 	<option id="90020" name="P. Accuracy +3">
+		<!-- P. Accuracy +3.0 -->
 		<effects>
 			<effect name="Accuracy">
 				<amount>3.0</amount>
@@ -170,6 +190,7 @@
 		</effects>
 	</option>
 	<option id="90021" name="P. Accuracy +3.5">
+		<!-- P. Accuracy +3.5 -->
 		<effects>
 			<effect name="Accuracy">
 				<amount>3.5</amount>
@@ -178,6 +199,7 @@
 		</effects>
 	</option>
 	<option id="90022" name="P. Accuracy +5">
+		<!-- P. Accuracy +5.0 -->
 		<effects>
 			<effect name="Accuracy">
 				<amount>5.0</amount>
@@ -186,6 +208,7 @@
 		</effects>
 	</option>
 	<option id="90023" name="M. Accuracy +1.0">
+		<!-- M. Accuracy +1.0 -->
 		<effects>
 			<effect name="MagicAccuracy">
 				<amount>1.0</amount>
@@ -194,6 +217,7 @@
 		</effects>
 	</option>
 	<option id="90024" name="M. Accuracy +1.0">
+		<!-- M. Accuracy +1.0 -->
 		<effects>
 			<effect name="MagicAccuracy">
 				<amount>1.0</amount>
@@ -202,6 +226,7 @@
 		</effects>
 	</option>
 	<option id="90025" name="M. Accuracy +1.0">
+		<!-- M. Accuracy +1.0 -->
 		<effects>
 			<effect name="MagicAccuracy">
 				<amount>1.0</amount>
@@ -210,6 +235,7 @@
 		</effects>
 	</option>
 	<option id="90026" name="M. Accuracy +1.0">
+		<!-- M. Accuracy +1.0 -->
 		<effects>
 			<effect name="MagicAccuracy">
 				<amount>1.0</amount>
@@ -218,6 +244,7 @@
 		</effects>
 	</option>
 	<option id="90027" name="M. Accuracy +1.0">
+		<!-- M. Accuracy +1.0 -->
 		<effects>
 			<effect name="MagicAccuracy">
 				<amount>1.0</amount>
@@ -226,6 +253,7 @@
 		</effects>
 	</option>
 	<option id="90028" name="M. Accuracy +1.1">
+		<!-- M. Accuracy +1.1 -->
 		<effects>
 			<effect name="MagicAccuracy">
 				<amount>1.1</amount>
@@ -234,6 +262,7 @@
 		</effects>
 	</option>
 	<option id="90029" name="M. Accuracy +1.2">
+		<!-- M. Accuracy +1.2 -->
 		<effects>
 			<effect name="MagicAccuracy">
 				<amount>1.2</amount>
@@ -242,6 +271,7 @@
 		</effects>
 	</option>
 	<option id="90030" name="M. Accuracy +1.2">
+		<!-- M. Accuracy +1.2 -->
 		<effects>
 			<effect name="MagicAccuracy">
 				<amount>1.2</amount>
@@ -250,6 +280,7 @@
 		</effects>
 	</option>
 	<option id="90031" name="M. Accuracy +1.3">
+		<!-- M. Accuracy +1.3 -->
 		<effects>
 			<effect name="MagicAccuracy">
 				<amount>1.3</amount>
@@ -258,6 +289,7 @@
 		</effects>
 	</option>
 	<option id="90032" name="M. Accuracy +1.3">
+		<!-- M. Accuracy +1.3 -->
 		<effects>
 			<effect name="MagicAccuracy">
 				<amount>1.3</amount>
@@ -266,6 +298,7 @@
 		</effects>
 	</option>
 	<option id="90033" name="M. Accuracy +1.3">
+		<!-- M. Accuracy +1.3 -->
 		<effects>
 			<effect name="MagicAccuracy">
 				<amount>1.3</amount>
@@ -274,6 +307,7 @@
 		</effects>
 	</option>
 	<option id="90034" name="M. Accuracy +1.4">
+		<!-- M. Accuracy +1.4 -->
 		<effects>
 			<effect name="MagicAccuracy">
 				<amount>1.4</amount>
@@ -282,6 +316,7 @@
 		</effects>
 	</option>
 	<option id="90035" name="M. Accuracy +1.4">
+		<!-- M. Accuracy +1.4 -->
 		<effects>
 			<effect name="MagicAccuracy">
 				<amount>1.4</amount>
@@ -290,6 +325,7 @@
 		</effects>
 	</option>
 	<option id="90036" name="M. Accuracy +1.6">
+		<!-- M. Accuracy +1.6 -->
 		<effects>
 			<effect name="MagicAccuracy">
 				<amount>1.6</amount>
@@ -298,6 +334,7 @@
 		</effects>
 	</option>
 	<option id="90037" name="M. Accuracy +1.8">
+		<!-- M. Accuracy +1.8 -->
 		<effects>
 			<effect name="MagicAccuracy">
 				<amount>1.8</amount>
@@ -306,6 +343,7 @@
 		</effects>
 	</option>
 	<option id="90038" name="M. Accuracy +2">
+		<!-- M. Accuracy +2.0 -->
 		<effects>
 			<effect name="MagicAccuracy">
 				<amount>2</amount>
@@ -314,6 +352,7 @@
 		</effects>
 	</option>
 	<option id="90039" name="M. Accuracy +2.5">
+		<!-- M. Accuracy +2.5 -->
 		<effects>
 			<effect name="MagicAccuracy">
 				<amount>2.5</amount>
@@ -322,6 +361,7 @@
 		</effects>
 	</option>
 	<option id="90040" name="M. Accuracy +3">
+		<!-- M. Accuracy +3.0 -->
 		<effects>
 			<effect name="MagicAccuracy">
 				<amount>3.0</amount>
@@ -330,6 +370,7 @@
 		</effects>
 	</option>
 	<option id="90041" name="M. Accuracy +3.5">
+		<!-- M. Accuracy +3.5 -->
 		<effects>
 			<effect name="MagicAccuracy">
 				<amount>3.5</amount>
@@ -338,6 +379,7 @@
 		</effects>
 	</option>
 	<option id="90042" name="M. Accuracy +5">
+		<!-- M. Accuracy +5.0 -->
 		<effects>
 			<effect name="MagicAccuracy">
 				<amount>5.0</amount>
@@ -409,6 +451,7 @@
 		<!-- Max HP +5 -->
 	</option>
 	<option id="90064" name="Max HP +8">
+		<!-- Max HP +8 -->
 		<effects>
 			<effect name="MaxHp">
 				<amount>8</amount>
@@ -417,6 +460,7 @@
 		</effects>
 	</option>
 	<option id="90065" name="Max HP +11">
+		<!-- Max HP +11 -->
 		<effects>
 			<effect name="MaxHp">
 				<amount>11</amount>
@@ -425,6 +469,7 @@
 		</effects>
 	</option>
 	<option id="90066" name="Max HP +14">
+		<!-- Max HP +14 -->
 		<effects>
 			<effect name="MaxHp">
 				<amount>14</amount>
@@ -433,6 +478,7 @@
 		</effects>
 	</option>
 	<option id="90067" name="Max HP +17">
+		<!-- Max HP +17 -->
 		<effects>
 			<effect name="MaxHp">
 				<amount>17</amount>
@@ -441,6 +487,7 @@
 		</effects>
 	</option>
 	<option id="90068" name="Max HP +20">
+		<!-- Max HP +20 -->
 		<effects>
 			<effect name="MaxHp">
 				<amount>20</amount>
@@ -449,6 +496,7 @@
 		</effects>
 	</option>
 	<option id="90069" name="Max HP +23">
+		<!-- Max HP +23 -->
 		<effects>
 			<effect name="MaxHp">
 				<amount>23</amount>
@@ -457,6 +505,7 @@
 		</effects>
 	</option>
 	<option id="90070" name="Max HP +26">
+		<!-- Max HP +26 -->
 		<effects>
 			<effect name="MaxHp">
 				<amount>26</amount>
@@ -465,6 +514,7 @@
 		</effects>
 	</option>
 	<option id="90071" name="Max HP +30">
+		<!-- Max HP +30 -->
 		<effects>
 			<effect name="MaxHp">
 				<amount>30</amount>
@@ -473,6 +523,7 @@
 		</effects>
 	</option>
 	<option id="90072" name="Max HP +33">
+		<!-- Max HP +33 -->
 		<effects>
 			<effect name="MaxHp">
 				<amount>33</amount>
@@ -481,6 +532,7 @@
 		</effects>
 	</option>
 	<option id="90073" name="Max HP +36">
+		<!-- Max HP +36 -->
 		<effects>
 			<effect name="MaxHp">
 				<amount>36</amount>
@@ -489,6 +541,7 @@
 		</effects>
 	</option>
 	<option id="90074" name="Max HP +39">
+		<!-- Max HP +39 -->
 		<effects>
 			<effect name="MaxHp">
 				<amount>39</amount>
@@ -497,6 +550,7 @@
 		</effects>
 	</option>
 	<option id="90075" name="Max HP +42">
+		<!-- Max HP +42 -->
 		<effects>
 			<effect name="MaxHp">
 				<amount>42</amount>
@@ -505,6 +559,7 @@
 		</effects>
 	</option>
 	<option id="90076" name="Max HP +45">
+		<!-- Max HP +45 -->
 		<effects>
 			<effect name="MaxHp">
 				<amount>45</amount>
@@ -513,6 +568,7 @@
 		</effects>
 	</option>
 	<option id="90077" name="Max HP +48">
+		<!-- Max HP +48 -->
 		<effects>
 			<effect name="MaxHp">
 				<amount>48</amount>
@@ -521,6 +577,7 @@
 		</effects>
 	</option>
 	<option id="90078" name="Max HP +60">
+		<!-- Max HP +60 -->
 		<effects>
 			<effect name="MaxHp">
 				<amount>60</amount>
@@ -529,6 +586,7 @@
 		</effects>
 	</option>
 	<option id="90079" name="Max HP +70">
+		<!-- Max HP +70 -->
 		<effects>
 			<effect name="MaxHp">
 				<amount>70</amount>
@@ -537,6 +595,7 @@
 		</effects>
 	</option>
 	<option id="90080" name="Max HP +75">
+		<!-- Max HP +75 -->
 		<effects>
 			<effect name="MaxHp">
 				<amount>75</amount>
@@ -545,6 +604,7 @@
 		</effects>
 	</option>
 	<option id="90081" name="Max HP +80">
+		<!-- Max HP +80 -->
 		<effects>
 			<effect name="MaxHp">
 				<amount>80</amount>
@@ -553,6 +613,7 @@
 		</effects>
 	</option>
 	<option id="90082" name="Max HP +100">
+		<!-- Max HP +100 -->
 		<effects>
 			<effect name="MaxHp">
 				<amount>100</amount>
@@ -561,6 +622,7 @@
 		</effects>
 	</option>
 	<option id="90083" name="Max MP +5">
+		<!-- Max MP +5 -->
 		<effects>
 			<effect name="MaxMp">
 				<amount>5</amount>
@@ -569,6 +631,7 @@
 		</effects>
 	</option>
 	<option id="90084" name="Max MP +8">
+		<!-- Max MP +8 -->
 		<effects>
 			<effect name="MaxMp">
 				<amount>8</amount>
@@ -577,6 +640,7 @@
 		</effects>
 	</option>
 	<option id="90085" name="Max MP +11">
+		<!-- Max MP +11 -->
 		<effects>
 			<effect name="MaxMp">
 				<amount>11</amount>
@@ -585,6 +649,7 @@
 		</effects>
 	</option>
 	<option id="90086" name="Max MP +14">
+		<!-- Max MP +14 -->
 		<effects>
 			<effect name="MaxMp">
 				<amount>14</amount>
@@ -593,6 +658,7 @@
 		</effects>
 	</option>
 	<option id="90087" name="Max MP +17">
+		<!-- Max MP +17 -->
 		<effects>
 			<effect name="MaxMp">
 				<amount>17</amount>
@@ -601,6 +667,7 @@
 		</effects>
 	</option>
 	<option id="90088" name="Max MP +20">
+		<!-- Max MP +20 -->
 		<effects>
 			<effect name="MaxMp">
 				<amount>20</amount>
@@ -609,6 +676,7 @@
 		</effects>
 	</option>
 	<option id="90089" name="Max MP +23">
+		<!-- Max MP +23 -->
 		<effects>
 			<effect name="MaxMp">
 				<amount>23</amount>
@@ -617,6 +685,7 @@
 		</effects>
 	</option>
 	<option id="90090" name="Max MP +26">
+		<!-- Max MP +26 -->
 		<effects>
 			<effect name="MaxMp">
 				<amount>26</amount>
@@ -625,6 +694,7 @@
 		</effects>
 	</option>
 	<option id="90091" name="Max MP +30">
+		<!-- Max MP +30 -->
 		<effects>
 			<effect name="MaxMp">
 				<amount>30</amount>
@@ -633,6 +703,7 @@
 		</effects>
 	</option>
 	<option id="90092" name="Max MP +33">
+		<!-- Max MP +33 -->
 		<effects>
 			<effect name="MaxMp">
 				<amount>33</amount>
@@ -641,6 +712,7 @@
 		</effects>
 	</option>
 	<option id="90093" name="Max MP +36">
+		<!-- Max MP +36 -->
 		<effects>
 			<effect name="MaxMp">
 				<amount>36</amount>
@@ -649,6 +721,7 @@
 		</effects>
 	</option>
 	<option id="90094" name="Max MP +39">
+		<!-- Max MP +39 -->
 		<effects>
 			<effect name="MaxMp">
 				<amount>39</amount>
@@ -657,6 +730,7 @@
 		</effects>
 	</option>
 	<option id="90095" name="Max MP +42">
+		<!-- Max MP +42 -->
 		<effects>
 			<effect name="MaxMp">
 				<amount>42</amount>
@@ -665,6 +739,7 @@
 		</effects>
 	</option>
 	<option id="90096" name="Max MP +45">
+		<!-- Max MP +45 -->
 		<effects>
 			<effect name="MaxMp">
 				<amount>45</amount>
@@ -673,6 +748,7 @@
 		</effects>
 	</option>
 	<option id="90097" name="Max MP +48">
+		<!-- Max MP +48 -->
 		<effects>
 			<effect name="MaxMp">
 				<amount>48</amount>
@@ -681,6 +757,7 @@
 		</effects>
 	</option>
 	<option id="90098" name="Max MP +60">
+		<!-- Max MP +60 -->
 		<effects>
 			<effect name="MaxMp">
 				<amount>60</amount>
@@ -689,6 +766,7 @@
 		</effects>
 	</option>
 	<option id="90099" name="Max MP +70">
+		<!-- Max MP +70 -->
 		<effects>
 			<effect name="MaxMp">
 				<amount>70</amount>

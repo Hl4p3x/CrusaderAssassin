@@ -3,4 +3,7 @@
 	<option id="81300" name="option_id_81300">
 		<!-- Acquired XP/ SP +10%, Max HP/ MP +200, P. Atk./ M. Atk./ P. Def./ M. Def. +200 -->
 	</option>
+	<option id="81301" name="option_id_81301">
+		<!-- P./ M. Atk. +20, P./ M. Def. +40, acquired XP/ SP +10% -->
+	</option>
 </list>

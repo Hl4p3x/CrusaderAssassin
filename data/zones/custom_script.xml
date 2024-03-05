@@ -568,6 +568,19 @@
 		<node X="-58058" Y="59760" />
 		<node X="-57430" Y="62356" />
 	</zone>
+	<zone name="kelbimStage1" id="60024" type="ScriptZone" shape="NPoly" minZ="-2336" maxZ="-1936">
+		<node X="-54955" Y="52873" />
+		<node X="-55166" Y="52869" />
+		<node X="-55327" Y="53159" />
+		<node X="-55540" Y="53146" />
+		<node X="-55495" Y="55030" />
+		<node X="-57816" Y="55068" />
+		<node X="-57810" Y="56784" />
+		<node X="-53580" Y="56789" />
+		<node X="-53540" Y="55039" />
+		<node X="-54577" Y="55066" />
+		<node X="-54578" Y="53167" />
+	</zone>
 	<zone name="Apherus Zone" id="60060" type="ScriptZone" shape="NPoly" minZ="-877" maxZ="-857">
 		<node X="214323" Y="115889" />
 		<node X="214324" Y="114625" />

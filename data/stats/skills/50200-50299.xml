@@ -348,7 +348,7 @@
 		</effects>
 	</skill>
 	<skill id="50208" toLevel="10" name="Moonstone">
-		<!-- With Sayha's Grace, acquired XP +3%. With Sayha's Grace, acquired SP +3% -->
+		<!-- Acquired XP/ SP +1%. With Sayha's Grace, acquired XP/ SP +2% -->
 		<icon>icon.etc_bm_jewel_moonstone_i00</icon>
 		<operateType>P</operateType>
 		<effects>
@@ -2074,12 +2074,12 @@
 	</skill>
 	<skill id="50268" toLevel="1" name="Baium's Thunder Breaker">
 		<!-- A weapon imbued with the power of Baium's soul. Makes an <font color="FFBB00">additional strike</font> with Baium's might. Baium's Thunder Bolt: makes a lightning attack according to M. Atk. -->
-		<icon>icon.skill1469</icon>
+		<icon>icon.weapon_terakan_i00</icon>
 		<operateType>P</operateType>
 	</skill>
 	<skill id="50269" toLevel="22" name="Baium's Thunder Bolt">
 		<!-- <<font color="FFBB00">Additional attack</font>>. Inflicts magic damage on the enemy with 113 power. -->
-		<icon>icon.skill1469</icon>
+		<icon>icon.weapon_terakan_i00</icon>
 		<operateType>A1</operateType>
 		<isMagic>1</isMagic>
 		<castRange>900</castRange>
@@ -2118,7 +2118,7 @@
 	</skill>
 	<skill id="50270" toLevel="10" name="+1 Baium's Thunder Breaker">
 		<!-- A weapon imbued with the power of Baium's soul. Makes an <font color="FFBB00">additional strike</font> with Baium's might. Baium's Thunder Bolt: makes a lightning attack according to M. Atk. -->
-		<icon>icon.skill1469</icon>
+		<icon>icon.weapon_terakan_i00</icon>
 		<operateType>P</operateType>
 		<effects>
 			<effect name="TriggerSkillByAttack">
@@ -2265,7 +2265,7 @@
 	</skill>
 	<skill id="50271" toLevel="20" name="Baium's Enhanced Thunder Bolt">
 		<!-- <<font color="FFBB00">Additional attack</font>>. Inflicts magic damage on the enemy with 191 power. -->
-		<icon>icon.skill1469</icon>
+		<icon>icon.weapon_terakan_i00</icon>
 		<operateType>A1</operateType>
 		<isMagic>1</isMagic>
 		<castRange>900</castRange>
@@ -2546,7 +2546,7 @@
 	</skill>
 	<skill id="50278" toLevel="1" name="Zaken's Blood Sword">
 		<!-- A weapon imbued with the power of Zaken's soul. Makes an <font color="FFBB00">additional strike</font> with Zaken's might. Zaken's Blood Prison: makes a blood attack according to M. Atk. -->
-		<icon>icon.skill32100</icon>
+		<icon>icon.special_weapon_onehandsword</icon>
 		<operateType>P</operateType>
 	</skill>
 	<skill id="50279" toLevel="22" name="Zaken's Blood Prison">
@@ -2590,7 +2590,7 @@
 	</skill>
 	<skill id="50280" toLevel="10" name="+1 Zaken's Blood Sword">
 		<!-- A weapon imbued with the power of Zaken's soul. Makes an <font color="FFBB00">additional strike</font> with Zaken's might. Zaken's Blood Prison: makes a blood attack according to M. Atk. -->
-		<icon>icon.skill32100</icon>
+		<icon>icon.special_weapon_onehandsword</icon>
 		<operateType>P</operateType>
 		<effects>
 			<effect name="TriggerSkillByAttack">
@@ -3034,7 +3034,7 @@
 	</skill>
 	<skill id="50288" toLevel="1" name="Core's Plasmic Bow">
 		<!-- A weapon imbued with the power of Core's soul. Makes an <font color="FFBB00">additional strike</font> with Core's might. Core's Plasmic Shock: makes a shock attack according to M. Atk. -->
-		<icon>icon.skill32633</icon>
+		<icon>icon.weapon_karupis_i00</icon>
 		<operateType>P</operateType>
 	</skill>
 	<skill id="50289" toLevel="22" name="Core's Plasmic Shock">
@@ -3078,7 +3078,7 @@
 	</skill>
 	<skill id="50290" toLevel="10" name="+1 Core's Plasmic Bow">
 		<!-- A weapon imbued with the power of Core's soul. Makes an <font color="FFBB00">additional strike</font> with Core's might. Core's Plasmic Shock: makes a shock attack according to M. Atk. -->
-		<icon>icon.skill32633</icon>
+		<icon>icon.weapon_karupis_i00</icon>
 		<operateType>P</operateType>
 		<effects>
 			<effect name="TriggerSkillByAttack">
@@ -3698,7 +3698,7 @@
 		</effects>
 	</skill>
 	<skill id="50295" toLevel="1" name="Baium's Thunder Breaker">
-		<!-- A dagger containing Baium's soul. Allows to use Baium's power. <Level bonus effect>. P./ M. Atk. are increased depending on your level. <Lv. 60-69>. P. Atk. +3 ~ +5. M. Atk. +2 ~ +3. <Lv. 70-79>. P. Atk. +8. M. Atk. +5. <Lv. 80-89>. P. Atk. +13 ~ +50. M. Atk. +8 ~ +51. <Lv. 90+>. P. Atk. +56 and higher. M. Atk. +34 and higher -->
+		<!-- A dagger containing Baium's soul. Allows to use Baium's power. <Level bonus effect>. P./ M. Atk. increase according to your level. <Lv. 60-69>. P. Atk. +3 ~ +5. M. Atk. +2 ~ +3. <Lv. 70-79>. P. Atk. +8. M. Atk. +5. <Lv. 80-89>. P. Atk. +13 ~ +50. M. Atk. +8 ~ +51. <Lv. 90+>. P. Atk. +56 and higher. M. Atk. +34 and higher -->
 		<icon>icon.weapon_terakan_i00</icon>
 		<operateType>P</operateType>
 		<effects>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/items.xsd">
 	<item id="90500" name="Dragon's Treasure Chest" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.bm_dragon_present" />
 		<set name="default_action" val="SKILL_REDUCE" />
 		<set name="immediate_effect" val="true" />
@@ -15,7 +15,7 @@
 		</skills>
 	</item>
 	<item id="90501" name="Dragon's Shining Treasure Chest" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.bm_dragon_shinning_present" />
 		<set name="default_action" val="SKILL_REDUCE_ON_SKILL_SUCCESS" />
 		<set name="is_dropable" val="false" />
@@ -28,7 +28,7 @@
 		</skills>
 	</item>
 	<item id="90502" name="Stone: Enchant D-grade Armor" additionalName="Sealed" type="EtcItem">
-		<!-- Enchant success rate +10% for D-grade armor when using a basic scroll. Only for items enchanted from +3 to +8 (from +4 to +8 for one-piece armor). -->
+		<!-- Enchant success rate +10% for D-grade armor when using a basic scroll. Only for items enchanted from +3 to +8 (from +4 to +8 for full-body armor). -->
 		<set name="icon" val="icon.bless_ench_amr_stone_i00" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
@@ -46,7 +46,7 @@
 		<set name="material" val="PAPER" />
 	</item>
 	<item id="90504" name="Stone: Enchant B-grade Armor" additionalName="Sealed" type="EtcItem">
-		<!-- Enchant success rate +10% for B-grade armor when using a basic scroll. Only for items enchanted from +3 to +8 (from +4 to +8 for one-piece armor). -->
+		<!-- Enchant success rate +10% for B-grade armor when using a common scroll. Only for items enchanted from +3 to +8 (from +4 to +8 for full-body armor). -->
 		<set name="icon" val="icon.bless_ench_amr_stone_i00" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
@@ -55,7 +55,7 @@
 		<set name="material" val="PAPER" />
 	</item>
 	<item id="90505" name="Stone: Enchant A-grade Armor" additionalName="Sealed" type="EtcItem">
-		<!-- Enchant success rate +10% for A-grade armor when using a basic scroll. Only for items enchanted from +3 to +8 (from +4 to +8 for one-piece armor). -->
+		<!-- Enchant success rate +10% for A-grade armor when using a common scroll. Only for items enchanted from +3 to +8 (from +4 to +8 for full-body armor). -->
 		<set name="icon" val="icon.bless_ench_amr_stone_i00" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
@@ -77,7 +77,7 @@
 		</skills>
 	</item>
 	<item id="90507" name="Dragon Balthus Chest" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.bm_dragon_present" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -116,7 +116,7 @@
 		<set name="material" val="PAPER" />
 	</item>
 	<item id="90510" name="Talisman of Border Pack Lv. 5" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.bm_special_pendant_abradant_box" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -130,7 +130,7 @@
 		</capsuled_items>
 	</item>
 	<item id="90511" name="Talisman of Border Pack Lv. 6" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.bm_special_pendant_abradant_box" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -144,7 +144,7 @@
 		</capsuled_items>
 	</item>
 	<item id="90512" name="Talisman of Border Pack Lv. 7" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.bm_special_pendant_abradant_box" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -158,7 +158,7 @@
 		</capsuled_items>
 	</item>
 	<item id="90513" name="Talisman of Border Pack Lv. 8" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.bm_special_pendant_abradant_box" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -172,7 +172,7 @@
 		</capsuled_items>
 	</item>
 	<item id="90514" name="Talisman of Border Pack Lv. 9" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.bm_special_pendant_abradant_box" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -186,7 +186,7 @@
 		</capsuled_items>
 	</item>
 	<item id="90515" name="Talisman of Border Pack Lv. 10" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.bm_special_pendant_abradant_box" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -200,7 +200,7 @@
 		</capsuled_items>
 	</item>
 	<item id="90516" name="Lesser GM's Blessing Chest" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.event_six_party_box_i00" />
 		<set name="default_action" val="SKILL_REDUCE_ON_SKILL_SUCCESS" />
 		<set name="is_tradable" val="false" />
@@ -215,7 +215,7 @@
 		</skills>
 	</item>
 	<item id="90517" name="Greater GM's Blessing Chest" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.event_six_party_box_i00" />
 		<set name="default_action" val="SKILL_REDUCE_ON_SKILL_SUCCESS" />
 		<set name="is_tradable" val="false" />
@@ -230,7 +230,7 @@
 		</skills>
 	</item>
 	<item id="90518" name="Greatest GM's Blessing Chest" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.event_six_party_box_i00" />
 		<set name="default_action" val="SKILL_REDUCE_ON_SKILL_SUCCESS" />
 		<set name="is_tradable" val="false" />
@@ -267,7 +267,7 @@
 		</skills>
 	</item>
 	<item id="90521" name="Golden Fishing Rod Pouch" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="Icon.bm_gold_fishing_poket" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -282,7 +282,7 @@
 		</capsuled_items>
 	</item>
 	<item id="90522" name="Golden Treasure Chest" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.bm_gold_relic_box" />
 		<set name="default_action" val="SKILL_REDUCE_ON_SKILL_SUCCESS" />
 		<set name="is_dropable" val="false" />
@@ -295,7 +295,7 @@
 		</skills>
 	</item>
 	<item id="90523" name="Shining Fishing kit Lv. 1" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.bm_freya_gift_box" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -313,7 +313,7 @@
 		</capsuled_items>
 	</item>
 	<item id="90524" name="A-grade Armor Enchant Stone Pack" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.etc_pi_gift_box_i03" />
 		<set name="default_action" val="SKILL_REDUCE_ON_SKILL_SUCCESS" />
 		<set name="is_dropable" val="false" />
@@ -326,7 +326,7 @@
 		</skills>
 	</item>
 	<item id="90525" name="B-grade Armor Enchant Stone Pack" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.etc_pi_gift_box_i02" />
 		<set name="default_action" val="SKILL_REDUCE_ON_SKILL_SUCCESS" />
 		<set name="is_dropable" val="false" />
@@ -343,7 +343,7 @@
 		</capsuled_items>
 	</item>
 	<item id="90526" name="Talisman of Baium Box" additionalName="30-day" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.npoint_tauti_30day_box" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -375,7 +375,7 @@
 		</skills>
 	</item>
 	<item id="90528" name="Shining Jewel Box" additionalName="30-day" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.etc_pi_box_wish_pack" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -391,7 +391,7 @@
 		</capsuled_items>
 	</item>
 	<item id="90529" name="Jade Lv. 5" additionalName="30-day" type="Armor">
-		<!-- Available for 30 days. Atk. Spd./ Casting Spd. +14%. The effect doesn't stack if two identical jewels are equipped, the higher-level jewel takes precedence. -->
+		<!-- Available for 30 d. Atk. Spd./ Casting Spd. +14%. Effects of two identical jewels do not stack, the higher-level jewel takes precedence. -->
 		<set name="icon" val="icon.etc_bm_jewel_jade_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="bodypart" val="brooch_jewel" />
@@ -436,7 +436,7 @@
 		</skills>
 	</item>
 	<item id="90532" name="+2 Rare Accessory Pack" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.npoint_earthworm_30day_box" />
 		<set name="default_action" val="SKILL_REDUCE_ON_SKILL_SUCCESS" />
 		<set name="is_dropable" val="false" />
@@ -454,7 +454,7 @@
 		</capsuled_items>
 	</item>
 	<item id="90533" name="Rare Accessory Pack" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.npoint_valakas_30day_box" />
 		<set name="default_action" val="SKILL_REDUCE_ON_SKILL_SUCCESS" />
 		<set name="is_dropable" val="false" />
@@ -640,7 +640,7 @@
 		<set name="material" val="CRYSTAL" />
 	</item>
 	<item id="90555" name="Tyrr's Soul Crystal Lv. 2" type="EtcItem">
-		<!-- Has two properties. You can choose one of them and apply it to your weapon through a town blacksmith. Can be enhanced through compounding. <Soul crystal properties>. Tyrr's Critical Stun. - A 11% chance to inflict Shock on the enemy after a physical critical attack. (requires a spear). Tyrr's Haste. - Atk. Spd. +4% -->
+		<!-- Has two properties. You can choose one of them and apply it to your weapon through a town blacksmith. Can be enhanced through compounding. <Soul crystal properties>. Tyrr's Critical Stun. - An 11% chance to inflict Shock on the enemy after a physical critical attack. (requires a spear). Tyrr's Haste. - Atk. Spd. +4% -->
 		<set name="icon" val="BranchIcon.Icon.g_rune_tir_lv00" />
 		<set name="weight" val="20" />
 		<set name="is_stackable" val="true" />

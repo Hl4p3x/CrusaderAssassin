@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/skills.xsd">
 	<skill id="49001" toLevel="5" name="Kookaburra Chick">
-		<!-- A pet able to cast spells. Fights using various magic spells. Can evolve to Kookaburra. <Basic stats>. P. Def. +5%. M. Def. +5%. Max HP +5%. <Preferred weapons>. Rapier:. - M. Atk. +10%. Blunt weapon:. - M. Atk. +10%. Note!. If another weapon is equipped:. Atk. Spd./ Casting Spd. -10% -->
+		<!-- A pet that has magic abilities. Fights using various magic spells. Can evolve to Kookaburra. <Basic stats>. P. Def. +5%. M. Def. +5%. Max HP +5%. <Preferred weapons>. Rapier:. - M. Atk. +10%. Blunt weapon:. - M. Atk. +10%. Note!. If another weapon is equipped:. Atk. Spd./ Casting Spd. -10% -->
 		<icon>icon.pet_race_kukaburo</icon>
 		<operateType>P</operateType>
 		<effects>
@@ -268,7 +268,7 @@
 		</effects>
 	</skill>
 	<skill id="49004" toLevel="5" name="Entrenching">
-		<!-- <Buff skill>. The pet buries itself to fire the target. The pet is immobilized. <Effect>. P. Def. +30%. M. Def. +15%. <Skill upgrade>. Magic Missile → Energy Burst -->
+		<!-- <Buff skill>. The pet buries itself to fire at the target. The pet is immobilized. <Effect>. P. Def. +30%. M. Def. +15%. <Skill upgrade>. Magic Missile → Energy Burst -->
 		<icon>icon.pet_siege_mode</icon>
 		<operateType>A2</operateType>
 		<abnormalTime>30</abnormalTime>
@@ -358,7 +358,7 @@
 		</effects>
 	</skill>
 	<skill id="49007" toLevel="1" name="Magic Flare">
-		<!-- Stacks 1 effect when Magic Missile is used. Applies the Magic Flare effect once 3 effects are stacked. Basic magic power: 200. PvE effect: suppresses with a certain chance. -->
+		<!-- Adds 1 stack when Magic Missile is used. Applies the Magic Flare effect once there are 3 stacks. Basic magic power: 200. PvE effect: suppresses with a certain chance. -->
 		<icon>icon.skill0467</icon>
 		<operateType>P</operateType>
 		<effects>
@@ -663,7 +663,7 @@
 		</effects>
 	</skill>
 	<skill id="49014" toLevel="5" name="Beast Within">
-		<!-- <Buff skill>. Unleashes the power of wild beast. <Effect>. P. Atk. +20%. Atk. Spd. +20% -->
+		<!-- <Buff skill>. Unleashes the power of a wild beast. <Effect>. P. Atk. +20%. Atk. Spd. +20% -->
 		<icon>icon.pet_natural_beast</icon>
 		<operateType>A2</operateType>
 		<abnormalTime>30</abnormalTime>
@@ -696,7 +696,7 @@
 		</effects>
 	</skill>
 	<skill id="49015" toLevel="1" name="Sharp Senses">
-		<!-- Skill Evasion +20%. <Skill upgrade>. Breaking Blaster: there is a 50% chance to hit the target. Strong Bite: there is a 30% chance to hit the target. -->
+		<!-- Skill Evasion +20%. <Skill upgrade>. Breaking Blaster: a 50% chance to hit the target. Strong Bite: a 30% chance to hit the target -->
 		<icon>icon.skill8364</icon>
 		<operateType>P</operateType>
 		<effects>
@@ -712,7 +712,7 @@
 		</effects>
 	</skill>
 	<skill id="49016" toLevel="15" name="Strong Bite">
-		<!-- <Attack skill>. Bites the target. Attacks to vital points. Additionally, P. Atk.: 9300 -->
+		<!-- <Attack skill>. Bites the target. Attacks its vital points. Additionally, P. Atk.: 9300 -->
 		<icon>icon.pet_gigantic_bite</icon>
 		<operateType>A1</operateType>
 		<mpConsume>50</mpConsume>
@@ -766,7 +766,7 @@
 		</effects>
 	</skill>
 	<skill id="49017" toLevel="15" name="Strong Bite">
-		<!-- <Attack skill>. Bites the target. Attacks to vital points. Additionally, P. Atk.: 9300 -->
+		<!-- <Attack skill>. Bites the target. Attacks its vital points. Additionally, P. Atk.: 9300 -->
 		<icon>icon.pet_gigantic_bite</icon>
 		<operateType>A1</operateType>
 		<mpConsume>50</mpConsume>
@@ -903,6 +903,32 @@
 				<chanceBoost>200</chanceBoost>
 			</effect>
 		</effects>
+	</skill>
+	<skill id="49019" toLevel="1" name="Pet's HP Recovery Potion - Sealed (Time-limited)">
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+		<isMagic>0</isMagic>
+		<mpConsume>0</mpConsume>
+		<castRange>-1</castRange>
+		<hitTime>0</hitTime>
+		<coolTime>0</coolTime>
+		<reuseDelay>0</reuseDelay>
+		<effectPoint>0</effectPoint>
+		<hpConsume>0</hpConsume>
+		<abnormalTime>0</abnormalTime>
+	</skill>
+	<skill id="49020" toLevel="1" name="Pet Food - Sealed (Time-limited)">
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+		<isMagic>0</isMagic>
+		<mpConsume>0</mpConsume>
+		<castRange>-1</castRange>
+		<hitTime>0</hitTime>
+		<coolTime>0</coolTime>
+		<reuseDelay>0</reuseDelay>
+		<effectPoint>0</effectPoint>
+		<hpConsume>0</hpConsume>
+		<abnormalTime>0</abnormalTime>
 	</skill>
 	<skill id="49021" toLevel="5" name="Wolf Cub">
 		<!-- A pet with iron will. When attacking constantly, gets a unique effect. Can evolve to Wolf. <Basic stats>. P. Def. +5%. M. Def. +5%. Max HP +5%. <Preferred weapons>. Dual swords:. - P. Atk. +10%. - Atk. Spd. +10%. Fist weapon:. - P. Atk. +10%. - P. Critical Rate +10. Note!. If another weapon is equipped:. Atk. Spd./ Casting Spd. -10% -->
@@ -1153,7 +1179,7 @@
 		</effects>
 	</skill>
 	<skill id="49024" toLevel="15" name="Last Dire Claw">
-		<!-- <Attack skill>. Attacks the target and temporarily becomes large. Additionally, P. Atk.: 7760 -->
+		<!-- <Attack skill>. Attacks the target becoming larger temporarily. Additionally, P. Atk.: 7760 -->
 		<icon>icon.pet_last_savage_claw</icon>
 		<operateType>A1</operateType>
 		<basicProperty>PHYSICAL</basicProperty>
@@ -1283,7 +1309,7 @@
 		</effects>
 	</skill>
 	<skill id="49031" toLevel="5" name="Buffalo Calf">
-		<!-- A very tough pet. Takes blows perfectly and helps allies. Can evolve to Buffalo. <Basic stats>. P. Def. +10%. M. Def. +10%. Max HP +10%. <Preferred weapons>. Blunt weapon:. - P. Atk. +10%. - Atk. Spd. +10%. Spear:. - P. Atk. +10%. Note!. If another weapon is equipped:. Atk. Spd./ Casting Spd. -10% -->
+		<!-- A very tough pet. Takes blows perfectly and helps allies. Can evolve to Buffalo. <Basic stats>. P. Def. +10%. M. Def. +10%. Max HP +10%. HP Recovery Potions' Effect +20. <Preferred weapons>. Blunt weapon:. - P. Atk. +10%. - Atk. Spd. +10%. Spear:. - P. Atk. +10%. Note!. If another weapon is equipped:. Atk. Spd./ Casting Spd. -10% -->
 		<icon>icon.pet_race_buffalo</icon>
 		<operateType>P</operateType>
 		<effects>
@@ -1393,7 +1419,7 @@
 		</effects>
 	</skill>
 	<skill id="49032" toLevel="20" name="Horn Thrust">
-		<!-- <Attack skill>. Attacks enemies with their horns. Additionally, P. Atk.: 88 -->
+		<!-- <Attack skill>. Attacks enemies with horns. Additionally, P. Atk.: 88 -->
 		<icon>icon.pet_horn_pierce</icon>
 		<operateType>A1</operateType>
 		<basicProperty>PHYSICAL</basicProperty>
@@ -1477,7 +1503,7 @@
 		</effects>
 	</skill>
 	<skill id="49033" toLevel="5" name="Rump Stun">
-		<!-- <Rush/ shock skill>. Charges to the target and hit it. There is a certain chance to stun the target. Additionally, P. Atk.: 480 -->
+		<!-- <Rush/ Shock skill>. Charges at the target and hits it. With a certain chance, stuns the target. Additionally, P. Atk.: 480 -->
 		<icon>icon.pet_butt_shock</icon>
 		<operateType>DA2</operateType>
 		<abnormalLevel>1</abnormalLevel>
@@ -1526,20 +1552,10 @@
 			<effect name="BlockActions">
 				<allowedSkills>10279;10517;11264;11093;1904;1912;13314;13542;30010;30018;30516;461;35016;35045</allowedSkills>
 			</effect>
-			<!-- <effect name="CallSkill">
-				<skillId>49301</skillId> Rump Stun
-				<skillLevel>
-					<value level="1">1</value>
-					<value level="2">2</value>
-					<value level="3">3</value>
-					<value level="4">4</value>
-					<value level="5">5</value>
-				</skillLevel>
-			</effect> -->
 		</effects>
 	</skill>
 	<skill id="49034" toLevel="5" name="Pulling Body">
-		<!-- <Buff skill>. Makes nearby enemies move toward the pet. <Effect>. P. Def. ++2400. M. Def. ++2000 -->
+		<!-- <Buff skill>. Makes nearby enemies move toward the pet. <Effect>. P. Def. +2400. M. Def. +2000 -->
 		<icon>icon.pet_magnetic_body</icon>
 		<operateType>A2</operateType>
 		<abnormalTime>10</abnormalTime>
@@ -1637,7 +1653,7 @@
 		</effects>
 	</skill>
 	<skill id="49037" toLevel="5" name="Pulling Body">
-		<!-- <Buff skill>. Makes nearby enemies move toward the pet. <Effect>. P. Def. ++2400. M. Def. ++2000. Creates a barrier with 2000 HP for 10 sec. -->
+		<!-- <Buff skill>. Makes nearby enemies move toward the pet. <Effect>. P. Def. +2400. M. Def. +2000. Creates a barrier with 2000 HP for 10 sec. -->
 		<icon>icon.pet_magnetic_body</icon>
 		<operateType>A1</operateType>
 	</skill>
@@ -1671,7 +1687,7 @@
 		</effects>
 	</skill>
 	<skill id="49041" toLevel="5" name="Hawk Hatchling">
-		<!-- A pet able to attack from distance. Keeps enemies at bay. Can evolve to Hawk. <Basic stats>. P. Def. +5%. M. Def. +5%. Max HP +5%. <Preferred weapons>. Bow:. - P. Atk. +5%. - P. Accuracy +2. Firearms:. - P. Atk. +5%. Note!. If another weapon is equipped:. Atk. Spd./ Casting Spd. -10% -->
+		<!-- A pet that uses range attacks. Keeps enemies at bay. Can evolve to Hawk. <Basic stats>. P. Def. +5%. M. Def. +5%. Max HP +5%. <Preferred weapons>. Bow:. - P. Atk. +5%. - P. Accuracy +2. Firearms:. - P. Atk. +5%. Note!. If another weapon is equipped:. Atk. Spd./ Casting Spd. -10% -->
 		<icon>icon.pet_race_hawk</icon>
 		<operateType>P</operateType>
 		<effects>
@@ -1874,7 +1890,7 @@
 		</effects>
 	</skill>
 	<skill id="49043" toLevel="5" name="Quick Jump">
-		<!-- <Rush/ knockback skill>. Rushes to the target. There is a certain chance to knockback the target. Additionally, P. Atk.: 960 -->
+		<!-- <Rush/ Knockback skill>. Rushes at the target. With a certain chance, knocks the target back. Additionally, P. Atk.: 960 -->
 		<icon>icon.pet_fast_dive</icon>
 		<operateType>DA1</operateType>
 		<hitTime>1000</hitTime>
@@ -1973,7 +1989,7 @@
 		</effects>
 	</skill>
 	<skill id="49045" toLevel="15" name="Feather Storm">
-		<!-- <Suppression skill>. Attacks with several feathers. There is a certain chance to make the target's Speed -50%. Additionally, P. Atk.: 3881 -->
+		<!-- <Suppression skill>. Attacks with several feathers. With a certain chance, the target's Speed -50%. Additionally, P. Atk.: 3881 -->
 		<icon>icon.pet_feather_trap</icon>
 		<operateType>A1</operateType>
 		<mpConsume>80</mpConsume>
@@ -2082,7 +2098,7 @@
 		</effects>
 	</skill>
 	<skill id="49048" toLevel="15" name="Feather Storm - Explosion">
-		<!-- <Suppression skill>. Attacks with several feathers. There is a certain chance to make the target's Speed -50%. Additionally, P. Atk.: 3881. Explosion attack: deals damage according to 150% of P. Atk. -->
+		<!-- <Suppression skill>. Attacks with several feathers. With a certain chance, the target's Speed -50%. Additionally, P. Atk.: 3881. Explosion attack: deals damage equal to 150% of P. Atk. -->
 		<icon>icon.pet_feather_trap</icon>
 		<operateType>A1</operateType>
 		<mpConsume>80</mpConsume>
@@ -2147,7 +2163,7 @@
 		</effects>
 	</skill>
 	<skill id="49049" toLevel="1" name="Swift Feather">
-		<!-- Applied Quick Movements when the Arrow Feather skill is used. <Quick Movements>. Atk. Spd. +15%. P. Skill Cooldown -15%. (Cooldown: 60 sec.) -->
+		<!-- Applies Quick Movements when Arrow Feather is used. <Quick Movements>. Atk. Spd. +15%. P. Skill Cooldown -15%. (Cooldown: 60 sec.) -->
 		<icon>icon.skill11829</icon>
 		<operateType>P</operateType>
 		<effects>
@@ -2535,7 +2551,7 @@
 		</effects>
 	</skill>
 	<skill id="49054" toLevel="5" name="Rushing Assault">
-		<!-- <Buff skill>. Hastens. <Effect>. Speed +30. Atk. Spd. +15% -->
+		<!-- <Buff skill>. Increases the pet's speed. <Effect>. Speed +30. Atk. Spd. +15% -->
 		<icon>icon.skill1373</icon>
 		<operateType>A2</operateType>
 		<abnormalTime>40</abnormalTime>
@@ -2575,7 +2591,7 @@
 		</effects>
 	</skill>
 	<skill id="49055" toLevel="5" name="Back Explosion">
-		<!-- <Shock skill>. Roars loudly to make an explosion behind the target. There is a certain chance to pull the target to the explosion area and stun them. Additionally, P. Atk.: 4461 -->
+		<!-- <Shock skill>. Roars loudly to make an explosion behind the target. With a certain chance, pulls the target to the explosion area and stuns them. Additionally, P. Atk.: 4461 -->
 		<icon>icon.pet_behind_burster</icon>
 		<operateType>A1</operateType>
 		<mpConsume>

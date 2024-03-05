@@ -49,7 +49,7 @@
 		</stats>
 	</item>
 	<item id="91803" name="Rare Accessory Pack Lv. 4" additionalName="15-day" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.bm_gold_lure_special_box" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -98,7 +98,7 @@
 		</stats>
 	</item>
 	<item id="91806" name="Vital Stone Jewelry Box Lv. 5" additionalName="3-day" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.etc_bm_jewelbox_vital_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -113,7 +113,7 @@
 		</capsuled_items>
 	</item>
 	<item id="91807" name="Jade Jewelry Box Lv. 5" additionalName="3-day" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.etc_bm_jewelbox_jade_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -128,7 +128,7 @@
 		</capsuled_items>
 	</item>
 	<item id="91808" name="Ruby Jewelry Box Lv. 5" additionalName="3-day" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.etc_bm_jewelbox_ruby_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -143,7 +143,7 @@
 		</capsuled_items>
 	</item>
 	<item id="91809" name="Sapphire Jewelry Box Lv. 5" additionalName="3-day" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.etc_bm_jewelbox_sapphire_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -158,7 +158,7 @@
 		</capsuled_items>
 	</item>
 	<item id="91810" name="Agathion Bracelet Pack Lv. 1" additionalName="15-day" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.etc_treasure_box_i09" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -173,7 +173,7 @@
 		</capsuled_items>
 	</item>
 	<item id="91811" name="+3 Agathion Capricorn" additionalName="3-day" type="Armor">
-		<!-- Available for 3 d. Can be used to obtain the power of Agathion Capricorn. Equipping it in the main slot summons the agathion. Enables its secondary skills. <Secondary skills>. Increases M. Skill Critical Rate. When enchanted to +6 and higher, decreases M. Skill/ Song/ Dance Cooldown. -->
+		<!-- Available for 3 d. Can be used to obtain the power of Agathion Capricorn. Equipping it in the main slot summons the agathion. Enables its secondary skills. <Secondary skills>. Increases M. Skill Critical Rate.Starting from +6, decreases M. Skill/ Song/ Dance Cooldown. -->
 		<set name="icon" val="icon.agathion_capr_star_1" />
 		<set name="default_action" val="EQUIP" />
 		<set name="bodypart" val="agathion" />
@@ -245,7 +245,7 @@
 		<set name="is_sellable" val="false" />
 	</item>
 	<item id="91817" name="+3 Sealed Agathion Capricorn" additionalName="3-day" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.agathion_capr_star_1" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -260,7 +260,7 @@
 		</capsuled_items>
 	</item>
 	<item id="91818" name="+3 Sealed Agathion Libra" additionalName="3-day" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.agathion_lib_star_1" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -275,7 +275,7 @@
 		</capsuled_items>
 	</item>
 	<item id="91819" name="+3 Sealed Agathion Leo" additionalName="3-day" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.agathion_leo_star_1" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -290,7 +290,7 @@
 		</capsuled_items>
 	</item>
 	<item id="91820" name="+3 Sealed Agathion Scorpio" additionalName="3-day" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.agathion_sco_star_1" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -305,7 +305,7 @@
 		</capsuled_items>
 	</item>
 	<item id="91821" name="+3 Sealed Agathion Aquarius" additionalName="3-day" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.agathion_aqu_star_1" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -320,7 +320,7 @@
 		</capsuled_items>
 	</item>
 	<item id="91822" name="+3 Sealed Agathion Sagittarius" additionalName="3-day" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.agathion_sag_star_1" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -335,7 +335,7 @@
 		</capsuled_items>
 	</item>
 	<item id="91823" name="Rare Accessory Pack Lv. 1" additionalName="15-day" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.bm_gold_lure_special_box" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -408,7 +408,7 @@
 		</skills>
 	</item>
 	<item id="91828" name="Adventurer's Chest: High Priest Transformation" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.bm_sayha_gold_present" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -423,7 +423,7 @@
 		</skills>
 	</item>
 	<item id="91829" name="Adventurer's Chest: Valkyrie Transformation" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.bm_sayha_present" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -502,7 +502,7 @@
 		</skills>
 	</item>
 	<item id="91834" name="Sayha's Grace Box" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.bm_2018_special_box" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -517,7 +517,7 @@
 		</skills>
 	</item>
 	<item id="91835" name="Sayha's Blessing Chest" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.freya_box_i01" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -531,7 +531,7 @@
 		</capsuled_items>
 	</item>
 	<item id="91836" name="Sayha's Effect Chest" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.present_of_destination_event" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -652,7 +652,7 @@
 		<set name="is_stackable" val="true" />
 	</item>
 	<item id="91844" name="Hero's MP Recovery Potion" additionalName="Sealed" type="EtcItem">
-		<!-- Magical potion which recovers MP. -->
+		<!-- A magic potion that recovers MP. -->
 		<set name="icon" val="icon.etc_lesser_potion_blue_i00" />
 		<set name="default_action" val="SKILL_REDUCE" />
 		<set name="material" val="LIQUID" />
@@ -692,7 +692,7 @@
 		<set name="is_stackable" val="true" />
 	</item>
 	<item id="91848" name="Piggy-Bank" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.etc_piggy_bank" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -713,7 +713,7 @@
 		</capsuled_items>
 	</item>
 	<item id="91849" name="Golden Piggy-Bank" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.etc_golden_piggy_bank" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -737,7 +737,7 @@
 		</capsuled_items>
 	</item>
 	<item id="91850" name="Piggy-Bank" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.etc_piggy_bank" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -756,7 +756,7 @@
 		</capsuled_items>
 	</item>
 	<item id="91851" name="Golden Piggy-Bank" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.etc_golden_piggy_bank" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -796,7 +796,7 @@
 		</skills>
 	</item>
 	<item id="91853" name="Old Home's Treasure Chest" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.bm_elmoaden_box" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -810,7 +810,7 @@
 		</skills>
 	</item>
 	<item id="91854" name="Old Home's Golden Pack" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.bm_elmoaden_gold_box" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -824,7 +824,7 @@
 		</skills>
 	</item>
 	<item id="91855" name="Old Home's Silver Pack" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.bm_elmoaden_silver_box" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -865,7 +865,7 @@
 		</skills>
 	</item>
 	<item id="91858" name="Lit Red Lantern - 1st Place (Time-limited)" additionalName="Sealed" type="EtcItem">
-		<!-- <Reward for the 1st place in the Magic Lamp event>. XP +100,000,000, SP +2,700,000. Cannot be transferred to higher-level characters. -->
+		<!-- <Reward for the 1st place in the Magic Lamp event>. XP +100,000,000, SP +270,000. Cannot be transferred to higher-level characters. -->
 		<set name="icon" val="icon.r99_soul_stone_i00" />
 		<set name="default_action" val="SKILL_REDUCE" />
 		<set name="material" val="PAPER" />
@@ -880,7 +880,7 @@
 		</skills>
 	</item>
 	<item id="91859" name="Lit Purple Lantern - 2nd Place (Time-limited)" additionalName="Sealed" type="EtcItem">
-		<!-- <Reward for the 2nd place in the Magic Lamp event>. XP +30,000,000, SP +810,000. Cannot be transferred to higher-level characters. -->
+		<!-- <Reward for the 2nd place in the Magic Lamp event>. XP +30,000,000, SP +81,000. Cannot be transferred to higher-level characters. -->
 		<set name="icon" val="icon.r99_soul_stone_i05" />
 		<set name="default_action" val="SKILL_REDUCE" />
 		<set name="material" val="PAPER" />
@@ -894,7 +894,7 @@
 		</skills>
 	</item>
 	<item id="91860" name="Lit Blue Lantern - 3rd Place (Time-limited)" additionalName="Sealed" type="EtcItem">
-		<!-- <Reward for the 3rd place in the Magic Lamp event>. XP +10,000,000, SP +270,000. Cannot be transferred to higher-level characters. -->
+		<!-- <Reward for the 3rd place in the Magic Lamp event>. XP +10,000,000, SP +27,000. Cannot be transferred to higher-level characters. -->
 		<set name="icon" val="icon.r99_soul_stone_i02" />
 		<set name="default_action" val="SKILL_REDUCE" />
 		<set name="material" val="PAPER" />
@@ -908,7 +908,7 @@
 		</skills>
 	</item>
 	<item id="91861" name="Lit Green Lantern - 4th Place (Time-limited)" additionalName="Sealed" type="EtcItem">
-		<!-- <Reward for the 4th place in the Magic Lamp event>. XP +5,000,000, SP +135,000. Cannot be transferred to higher-level characters. -->
+		<!-- <Reward for the 4th place in the Magic Lamp event>. XP +5,000,000, SP +13,500. Cannot be transferred to higher-level characters. -->
 		<set name="icon" val="icon.r99_soul_stone_i04" />
 		<set name="default_action" val="SKILL_REDUCE" />
 		<set name="material" val="PAPER" />
@@ -960,7 +960,7 @@
 		</skills>
 	</item>
 	<item id="91864" name="Dragon Belt Pack" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.etc_readybox_bronze" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -1011,7 +1011,7 @@
 		</stats>
 	</item>
 	<item id="91867" name="Enchant Scroll (PA Event)" additionalName="Sealed" type="EtcItem">
-		<!-- Required to enchant Caliburs (PA Event). -->
+		<!-- A scroll for enchanting Caliburs for PA Event. -->
 		<set name="icon" val="icon.yogi_scroll_of_enchant_weapon_grade_i00" />
 		<set name="default_action" val="SKILL_REDUCE" />
 		<set name="material" val="PAPER" />
@@ -1045,7 +1045,7 @@
 		</skills>
 	</item>
 	<item id="91869" name="Siege Support Box - Event" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.bm_pirate_battle_box" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -1075,7 +1075,7 @@
 		</capsuled_items>
 	</item>
 	<item id="91870" name="Jewel Box (Siege Event)" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.bm_special_jewelbox_lv5" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -1099,7 +1099,7 @@
 		</capsuled_items>
 	</item>
 	<item id="91871" name="Rare Accessory Pack (Siege Event)" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.ev_charge_box" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -1118,7 +1118,7 @@
 		</capsuled_items>
 	</item>
 	<item id="91872" name="Weapon Pack (Siege Event)" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.sayha2017_box_i01" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -1146,7 +1146,7 @@
 		</capsuled_items>
 	</item>
 	<item id="91873" name="Armor Pack (Siege Event)" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.sayha2017_box_i02" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -1169,7 +1169,7 @@
 		</capsuled_items>
 	</item>
 	<item id="91874" name="Accessory Pack (Siege Event)" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.npoint_earthworm_30day_box" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -1216,7 +1216,7 @@
 		<set name="is_sellable" val="false" />
 	</item>
 	<item id="91877" name="Ancient Warrior's Sword" type="Weapon">
-		<!-- <font color=ff6666><Unavailable to Humans/ Elves/ Dark Elves/ Sylphs/ Vanguard Riders.></font> -->
+		<!-- <font color=ff6666><Unavailable to Humans/ Elves/ Dark Elves/ Sylphs/ Vanguard Riders/ Assassins.></font> -->
 		<set name="icon" val="icon.weapon_tulwar_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="ANCIENTSWORD" />
@@ -1238,7 +1238,7 @@
 		</stats>
 	</item>
 	<item id="91878" name="Katzbalger" type="Weapon">
-		<!-- <font color=ff6666><Unavailable to Humans/ Elves/ Dark Elves/ Sylphs/ Vanguard Riders.></font> -->
+		<!-- <font color=ff6666><Unavailable to Humans/ Elves/ Dark Elves/ Sylphs/ Vanguard Riders/ Assassins.></font> -->
 		<set name="icon" val="icon.weapon_tulwar_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="ANCIENTSWORD" />
@@ -1264,7 +1264,7 @@
 		</stats>
 	</item>
 	<item id="91879" name="Field Sword" type="Weapon">
-		<!-- <font color=ff6666><Unavailable to Humans/ Elves/ Dark Elves/ Sylphs/ Vanguard Riders.></font> -->
+		<!-- <font color=ff6666><Unavailable to Humans/ Elves/ Dark Elves/ Sylphs/ Vanguard Riders/ Assassins.></font> -->
 		<set name="icon" val="icon.weapon_tulwar_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="ANCIENTSWORD" />
@@ -1291,7 +1291,7 @@
 		</stats>
 	</item>
 	<item id="91880" name="Military Talwar" type="Weapon">
-		<!-- <font color=ff6666><Unavailable to Humans/ Elves/ Dark Elves/ Sylphs/ Vanguard Riders.></font> -->
+		<!-- <font color=ff6666><Unavailable to Humans/ Elves/ Dark Elves/ Sylphs/ Vanguard Riders/ Assassins.></font> -->
 		<set name="icon" val="icon.weapon_tulwar_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="ANCIENTSWORD" />
@@ -1318,7 +1318,7 @@
 		</stats>
 	</item>
 	<item id="91881" name="Talwar" type="Weapon">
-		<!-- <font color=ff6666><Unavailable to Humans/ Elves/ Dark Elves/ Sylphs/ Vanguard Riders.></font> -->
+		<!-- <font color=ff6666><Unavailable to Humans/ Elves/ Dark Elves/ Sylphs/ Vanguard Riders/ Assassins.></font> -->
 		<set name="icon" val="icon.weapon_tulwar_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="ANCIENTSWORD" />
@@ -1345,7 +1345,7 @@
 		</stats>
 	</item>
 	<item id="91882" name="Saber Tooth" type="Weapon">
-		<!-- <font color=ff6666><Unavailable to Humans/ Elves/ Dark Elves/ Sylphs/ Vanguard Riders.></font> -->
+		<!-- <font color=ff6666><Unavailable to Humans/ Elves/ Dark Elves/ Sylphs/ Vanguard Riders/ Assassins.></font> -->
 		<set name="icon" val="icon.weapon_invincible_blade_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="ANCIENTSWORD" />
@@ -1372,7 +1372,7 @@
 		</stats>
 	</item>
 	<item id="91883" name="Immortal Edge" type="Weapon">
-		<!-- <font color=ff6666><Unavailable to Humans/ Elves/ Dark Elves/ Sylphs/ Vanguard Riders.></font> -->
+		<!-- <font color=ff6666><Unavailable to Humans/ Elves/ Dark Elves/ Sylphs/ Vanguard Riders/ Assassins.></font> -->
 		<set name="icon" val="icon.weapon_invincible_blade_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="ANCIENTSWORD" />
@@ -1398,7 +1398,7 @@
 		</stats>
 	</item>
 	<item id="91884" name="Schlager" type="Weapon">
-		<!-- <font color=ff6666><Unavailable to Humans/ Elves/ Dark Elves/ Sylphs/ Vanguard Riders.></font> -->
+		<!-- <font color=ff6666><Unavailable to Humans/ Elves/ Dark Elves/ Sylphs/ Vanguard Riders/ Assassins.></font> -->
 		<set name="icon" val="icon.weapon_schlaeger_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="ANCIENTSWORD" />
@@ -1424,7 +1424,7 @@
 		</stats>
 	</item>
 	<item id="91885" name="Dismantler" type="Weapon">
-		<!-- <font color=ff6666><Unavailable to Humans/ Elves/ Dark Elves/ Sylphs/ Vanguard Riders.></font> -->
+		<!-- <font color=ff6666><Unavailable to Humans/ Elves/ Dark Elves/ Sylphs/ Vanguard Riders/ Assassins.></font> -->
 		<set name="icon" val="icon.weapon_dismantler_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="ANCIENTSWORD" />
@@ -1456,7 +1456,7 @@
 		</skills>
 	</item>
 	<item id="91886" name="Innominate Victory" type="Weapon">
-		<!-- <font color=ff6666><Unavailable to Humans/ Elves/ Dark Elves/ Sylphs/ Vanguard Riders.></font> -->
+		<!-- <font color=ff6666><Unavailable to Humans/ Elves/ Dark Elves/ Sylphs/ Vanguard Riders/ Assassins.></font> -->
 		<set name="icon" val="icon.weapon_nameless_victory_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="ANCIENTSWORD" />
@@ -1488,7 +1488,7 @@
 		</skills>
 	</item>
 	<item id="91887" name="Durendal" type="Weapon">
-		<!-- <font color=ff6666><Unavailable to Humans/ Elves/ Dark Elves/ Sylphs/ Vanguard Riders.></font> -->
+		<!-- <font color=ff6666><Unavailable to Humans/ Elves/ Dark Elves/ Sylphs/ Vanguard Riders/ Assassins.></font> -->
 		<set name="icon" val="icon.weapon_death_bringer_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="ANCIENTSWORD" />
@@ -1526,7 +1526,7 @@
 		</skills>
 	</item>
 	<item id="91888" name="Undertaker" type="Weapon">
-		<!-- <font color=ff6666><Unavailable to Humans/ Elves/ Dark Elves/ Sylphs/ Vanguard Riders.></font> -->
+		<!-- <font color=ff6666><Unavailable to Humans/ Elves/ Dark Elves/ Sylphs/ Vanguard Riders/ Assassins.></font> -->
 		<set name="icon" val="icon.weapon_death_bringer_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="ANCIENTSWORD" />
@@ -1564,7 +1564,7 @@
 		</skills>
 	</item>
 	<item id="91889" name="Divine Pain" type="Weapon">
-		<!-- <font color=ff6666><Unavailable to Humans/ Elves/ Dark Elves/ Sylphs/ Vanguard Riders.></font> -->
+		<!-- <font color=ff6666><Unavailable to Humans/ Elves/ Dark Elves/ Sylphs/ Vanguard Riders/ Assassins.></font> -->
 		<set name="icon" val="icon.weapon_pain_of_godness_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="ANCIENTSWORD" />
@@ -1602,7 +1602,7 @@
 		</skills>
 	</item>
 	<item id="91890" name="Gram" type="Weapon">
-		<!-- <font color=ff6666><Unavailable to Humans/ Elves/ Dark Elves/ Sylphs/ Vanguard Riders.></font> -->
+		<!-- <font color=ff6666><Unavailable to Humans/ Elves/ Dark Elves/ Sylphs/ Vanguard Riders/ Assassins.></font> -->
 		<set name="icon" val="icon.weapon_gram_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="ANCIENTSWORD" />
@@ -1628,7 +1628,7 @@
 		</stats>
 	</item>
 	<item id="91891" name="Warrior's Rapier" type="Weapon">
-		<!-- <font color=ff6666><Unavailable to Orcs/ Sylphs/ Dwarves.></font> -->
+		<!-- <font color=ff6666><Unavailable to Orcs/ Sylphs/ Dwarves/ Assassins.></font> -->
 		<set name="icon" val="icon.weapon_sealed_rapier_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="RAPIER" />
@@ -1649,7 +1649,7 @@
 		</stats>
 	</item>
 	<item id="91892" name="Grand Épée" type="Weapon">
-		<!-- <font color=ff6666><Unavailable to Orcs/ Sylphs/ Dwarves.></font> -->
+		<!-- <font color=ff6666><Unavailable to Orcs/ Sylphs/ Dwarves/ Assassins.></font> -->
 		<set name="icon" val="icon.weapon_rapier_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="RAPIER" />
@@ -1674,7 +1674,7 @@
 		</stats>
 	</item>
 	<item id="91893" name="Épée" type="Weapon">
-		<!-- <font color=ff6666><Unavailable to Orcs/ Sylphs/ Dwarves.></font> -->
+		<!-- <font color=ff6666><Unavailable to Orcs/ Sylphs/ Dwarves/ Assassins.></font> -->
 		<set name="icon" val="icon.weapon_rapier_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="RAPIER" />
@@ -1700,7 +1700,7 @@
 		</stats>
 	</item>
 	<item id="91894" name="Estoc" type="Weapon">
-		<!-- <font color=ff6666><Unavailable to Orcs/ Sylphs/ Dwarves.></font> -->
+		<!-- <font color=ff6666><Unavailable to Orcs/ Sylphs/ Dwarves/ Assassins.></font> -->
 		<set name="icon" val="icon.weapon_rapier_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="RAPIER" />
@@ -1726,7 +1726,7 @@
 		</stats>
 	</item>
 	<item id="91895" name="Fleuret" type="Weapon">
-		<!-- <font color=ff6666><Unavailable to Orcs/ Sylphs/ Dwarves.></font> -->
+		<!-- <font color=ff6666><Unavailable to Orcs/ Sylphs/ Dwarves/ Assassins.></font> -->
 		<set name="icon" val="icon.weapon_rapier_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="RAPIER" />
@@ -1752,7 +1752,7 @@
 		</stats>
 	</item>
 	<item id="91896" name="Admiral's Estoc" type="Weapon">
-		<!-- <font color=ff6666><Unavailable to Orcs/ Sylphs/ Dwarves.></font> -->
+		<!-- <font color=ff6666><Unavailable to Orcs/ Sylphs/ Dwarves/ Assassins.></font> -->
 		<set name="icon" val="icon.weapon_blink_slasher_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="RAPIER" />
@@ -1779,7 +1779,7 @@
 		</stats>
 	</item>
 	<item id="91897" name="Blinzlasher" type="Weapon">
-		<!-- <font color=ff6666><Unavailable to Orcs/ Sylphs/ Dwarves.></font> -->
+		<!-- <font color=ff6666><Unavailable to Orcs/ Sylphs/ Dwarves/ Assassins.></font> -->
 		<set name="icon" val="icon.weapon_blink_slasher_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="RAPIER" />
@@ -1804,7 +1804,7 @@
 		</stats>
 	</item>
 	<item id="91898" name="Chevalier Rapier" type="Weapon">
-		<!-- <font color=ff6666><Unavailable to Orcs/ Sylphs/ Dwarves.></font> -->
+		<!-- <font color=ff6666><Unavailable to Orcs/ Sylphs/ Dwarves/ Assassins.></font> -->
 		<set name="icon" val="icon.weapon_soldat_estoc_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="RAPIER" />
@@ -1829,7 +1829,7 @@
 		</stats>
 	</item>
 	<item id="91899" name="Soldat Estoc" type="Weapon">
-		<!-- <font color=ff6666><Unavailable to Orcs/ Sylphs/ Dwarves.></font> -->
+		<!-- <font color=ff6666><Unavailable to Orcs/ Sylphs/ Dwarves/ Assassins.></font> -->
 		<set name="icon" val="icon.weapon_soldat_estoc_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="RAPIER" />

@@ -315,7 +315,7 @@
 			<param name="MoveAroundSocial1" value="0" />
 			<param name="MoveAroundSocial2" value="0" />
 			<minions name="Privates">
-				<npc id="27109" count="1" respawnTime="60" weightPoint="1" />
+				<npc id="27109" count="1" respawnTime="60" weightPoint="1" /> <!-- Stheno's Handmaiden -->
 			</minions>
 		</parameters>
 		<race>BEAST</race>
@@ -395,7 +395,7 @@
 			<param name="MoveAroundSocial1" value="0" />
 			<param name="MoveAroundSocial2" value="0" />
 			<minions name="Privates">
-				<npc id="27111" count="6" respawnTime="0" weightPoint="1" />
+				<npc id="27111" count="6" respawnTime="0" weightPoint="1" /> <!-- Cave Basilisk -->
 			</minions>
 		</parameters>
 		<race>BEAST</race>
@@ -478,7 +478,7 @@
 			<param name="MoveAroundSocial1" value="0" />
 			<param name="MoveAroundSocial2" value="0" />
 			<minions name="Privates">
-				<npc id="27111" count="6" respawnTime="60" weightPoint="1" />
+				<npc id="27111" count="6" respawnTime="60" weightPoint="1" /> <!-- Cave Basilisk -->
 			</minions>
 		</parameters>
 		<race>BEAST</race>
@@ -523,7 +523,7 @@
 			<param name="MoveAroundSocial1" value="0" />
 			<param name="MoveAroundSocial2" value="0" />
 			<minions name="Privates">
-				<npc id="27111" count="6" respawnTime="60" weightPoint="1" />
+				<npc id="27111" count="6" respawnTime="60" weightPoint="1" /> <!-- Cave Basilisk -->
 			</minions>
 		</parameters>
 		<race>BEAST</race>
@@ -568,7 +568,7 @@
 			<param name="MoveAroundSocial1" value="110" />
 			<param name="MoveAroundSocial2" value="110" />
 			<minions name="Privates">
-				<npc id="27115" count="2" respawnTime="60" weightPoint="1" />
+				<npc id="27115" count="2" respawnTime="60" weightPoint="1" /> <!-- Claw Of Succubus -->
 			</minions>
 		</parameters>
 		<race>DEMONIC</race>
@@ -2953,7 +2953,7 @@
 			<height normal="35" />
 		</collision>
 	</npc>
-	<npc id="27173" level="50" type="Monster" name="Ritasha's Box 1" title="Quest Monster">
+	<npc id="27173" level="50" type="Monster" name="Athrea's Box 1" title="Quest Monster">
 		<parameters>
 			<param name="MoveAroundSocial" value="0" />
 			<param name="MoveAroundSocial1" value="0" />
@@ -2990,7 +2990,7 @@
 			<height normal="9.5" />
 		</collision>
 	</npc>
-	<npc id="27174" level="50" type="Monster" name="Ritasha's Box 2" title="Quest Monster">
+	<npc id="27174" level="50" type="Monster" name="Athrea's Box 2" title="Quest Monster">
 		<parameters>
 			<param name="MoveAroundSocial" value="0" />
 			<param name="MoveAroundSocial1" value="0" />
@@ -3027,7 +3027,7 @@
 			<height normal="9.5" />
 		</collision>
 	</npc>
-	<npc id="27175" level="50" type="Monster" name="Ritasha's Box 3" title="Quest Monster">
+	<npc id="27175" level="50" type="Monster" name="Athrea's Box 3" title="Quest Monster">
 		<parameters>
 			<param name="MoveAroundSocial" value="0" />
 			<param name="MoveAroundSocial1" value="0" />
@@ -3064,7 +3064,7 @@
 			<height normal="9.5" />
 		</collision>
 	</npc>
-	<npc id="27176" level="50" type="Monster" name="Ritasha's Box 4" title="Quest Monster">
+	<npc id="27176" level="50" type="Monster" name="Athrea's Box 4" title="Quest Monster">
 		<parameters>
 			<param name="MoveAroundSocial" value="0" />
 			<param name="MoveAroundSocial1" value="0" />
@@ -3101,7 +3101,7 @@
 			<height normal="9.5" />
 		</collision>
 	</npc>
-	<npc id="27177" level="50" type="Monster" name="Ritasha's Box 5" title="Quest Monster">
+	<npc id="27177" level="50" type="Monster" name="Athrea's Box 5" title="Quest Monster">
 		<parameters>
 			<param name="MoveAroundSocial" value="0" />
 			<param name="MoveAroundSocial1" value="0" />
@@ -3389,7 +3389,7 @@
 			<height normal="27" />
 		</collision>
 	</npc>
-	<npc id="27184" level="60" type="Monster" name="Angel Killer" title="Quest Monster">
+	<npc id="27184" level="60" type="Monster" name="Angel Slayer" title="Quest Monster">
 		<parameters>
 			<param name="MoveAroundSocial" value="0" />
 			<param name="MoveAroundSocial1" value="0" />
@@ -3444,7 +3444,7 @@
 			<param name="MoveAroundSocial1" value="0" />
 			<param name="MoveAroundSocial2" value="0" />
 			<minions name="Privates">
-				<npc id="27189" count="3" respawnTime="220" weightPoint="1" />
+				<npc id="27189" count="3" respawnTime="220" weightPoint="1" /> <!-- Soul of Tree Guardian -->
 			</minions>
 		</parameters>
 		<race>PLANT</race>
@@ -3490,7 +3490,7 @@
 			<param name="MoveAroundSocial1" value="0" />
 			<param name="MoveAroundSocial2" value="0" />
 			<minions name="Privates">
-				<npc id="27189" count="3" respawnTime="220" weightPoint="1" />
+				<npc id="27189" count="3" respawnTime="220" weightPoint="1" /> <!-- Soul of Tree Guardian -->
 			</minions>
 		</parameters>
 		<race>PLANT</race>
@@ -3536,7 +3536,7 @@
 			<param name="MoveAroundSocial1" value="0" />
 			<param name="MoveAroundSocial2" value="0" />
 			<minions name="Privates">
-				<npc id="27189" count="3" respawnTime="220" weightPoint="1" />
+				<npc id="27189" count="3" respawnTime="220" weightPoint="1" /> <!-- Soul of Tree Guardian -->
 			</minions>
 		</parameters>
 		<race>PLANT</race>
@@ -3582,7 +3582,7 @@
 			<param name="MoveAroundSocial1" value="0" />
 			<param name="MoveAroundSocial2" value="0" />
 			<minions name="Privates">
-				<npc id="27189" count="3" respawnTime="220" weightPoint="1" />
+				<npc id="27189" count="3" respawnTime="220" weightPoint="1" /> <!-- Soul of Tree Guardian -->
 			</minions>
 		</parameters>
 		<race>PLANT</race>

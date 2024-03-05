@@ -18,7 +18,7 @@
 		</skills>
 	</item>
 	<item id="5705" name="Keshanberk*Damascus" type="Weapon">
-		<!-- When enchanting dual swords, two-handed swords/ blunts and fists, the P. Atk. bonus is higher than that of one-handed weapons. <font color=ff6666><Unavailable to Sylphs/ Vanguard Riders.></font> -->
+		<!-- When enchanting dual swords, two-handed swords/ blunts and fists, the P. Atk. bonus is higher than that of one-handed weapons. <font color=ff6666><Unavailable to Sylphs/ Vanguard Riders/ Assassins.></font> -->
 		<set name="icon" val="icon.weapon_dual_sword_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="DUAL" />
@@ -56,7 +56,7 @@
 		</skills>
 	</item>
 	<item id="5706" name="Damascus*Damascus" type="Weapon">
-		<!-- When enchanting dual swords, two-handed swords/ blunts and fists, the P. Atk. bonus is higher than that of one-handed weapons. <font color=ff6666><Unavailable to Sylphs/ Vanguard Riders.></font> -->
+		<!-- When enchanting dual swords, two-handed swords/ blunts and fists, the P. Atk. bonus is higher than that of one-handed weapons. <font color=ff6666><Unavailable to Sylphs/ Vanguard Riders/ Assassins.></font> -->
 		<set name="icon" val="icon.weapon_dual_sword_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="DUAL" />

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/items.xsd">
 	<item id="94600" name="Package: +5 Majestic Circlet (Light)" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- <font color=eeaa22><Light armor></font>. Double-click to obtain +5 A-grade Majestic Circlet (Light). -->
 		<set name="icon" val="icon.armor_leather_helmet_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -16,7 +16,7 @@
 		</capsuled_items>
 	</item>
 	<item id="94601" name="Package: +5 Majestic Gauntlets (Light)" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- <font color=eeaa22><Light armor></font>. Double-click to obtain +5 A-grade Majestic Gauntlets (Light). -->
 		<set name="icon" val="icon.armor_t84_g_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -31,7 +31,7 @@
 		</capsuled_items>
 	</item>
 	<item id="94602" name="Package: +5 Majestic Boots (Light)" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- <font color=eeaa22><Light armor></font>. Double-click to obtain +5 A-grade Majestic Boots (Light). -->
 		<set name="icon" val="icon.armor_t84_b_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -46,7 +46,7 @@
 		</capsuled_items>
 	</item>
 	<item id="94603" name="Package: +5 Robe of Nightmare" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- <font color=eeaa22><Robe></font>. Double-click to obtain +5 A-grade Robe of Nightmare. -->
 		<set name="icon" val="icon.armor_t82_ul_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -61,7 +61,7 @@
 		</capsuled_items>
 	</item>
 	<item id="94604" name="Package: +5 Helm of Nightmare (Robe)" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- <font color=eeaa22><Robe></font>. Double-click to obtain +5 A-grade Helm of Nightmare (Robe). -->
 		<set name="icon" val="icon.armor_leather_helmet_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -76,7 +76,7 @@
 		</capsuled_items>
 	</item>
 	<item id="94605" name="Package: +5 Gauntlets of Nightmare (Robe)" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- <font color=eeaa22><Robe></font>. Double-click to obtain +5 A-grade Gauntlets of Nightmare (Robe). -->
 		<set name="icon" val="icon.armor_t82_g_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -91,7 +91,7 @@
 		</capsuled_items>
 	</item>
 	<item id="94606" name="Package: +5 Boots of Nightmare (Robe)" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- <font color=eeaa22><Robe></font>. Double-click to obtain +5 A-grade Boots of Nightmare (Robe). -->
 		<set name="icon" val="icon.armor_t82_b_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -106,7 +106,7 @@
 		</capsuled_items>
 	</item>
 	<item id="94607" name="Package: +5 Majestic Robe" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- <font color=eeaa22><Robe></font>. Double-click to obtain +5 A-grade Majestic Robe. -->
 		<set name="icon" val="icon.armor_t85_ul_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -121,7 +121,7 @@
 		</capsuled_items>
 	</item>
 	<item id="94608" name="Package: +5 Majestic Circlet (Robe)" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- <font color=eeaa22><Robe></font>. Double-click to obtain +5 A-grade Majestic Circlet (Robe). -->
 		<set name="icon" val="icon.armor_leather_helmet_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -136,7 +136,7 @@
 		</capsuled_items>
 	</item>
 	<item id="94609" name="Package: +5 Majestic Gauntlets (Robe)" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- <font color=eeaa22><Robe></font>. Double-click to obtain +5 A-grade Majestic Gauntlets (Robe). -->
 		<set name="icon" val="icon.armor_t85_g_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -151,7 +151,7 @@
 		</capsuled_items>
 	</item>
 	<item id="94610" name="Package: +5 Majestic Boots (Robe)" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- <font color=eeaa22><Robe></font>. Double-click to obtain +5 A-grade Majestic Boots (Robe). -->
 		<set name="icon" val="icon.armor_t85_b_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -241,7 +241,7 @@
 		</skills>
 	</item>
 	<item id="94615" name="Forgotten Primeval Garden's Time Stone (Time-limited)" additionalName="Sealed" type="EtcItem">
-		<!-- Prolongs your session zone's raid for 60 min. <Hunting zones>. Primeval Garden - World Hunting Zone. Garden of Eva - World Hunting Zone -->
+		<!-- Prolongs your session zone's raid for 60 min. <Hunting zones>. Primeval Garden - World Hunting Zone. Garden of Eva - World Hunting Zone. Garden of Authority - World Hunting Zone -->
 		<set name="icon" val="icon.timezone_refill_3" />
 		<set name="default_action" val="SKILL_REDUCE_ON_SKILL_SUCCESS" />
 		<set name="material" val="LIQUID" />
@@ -297,17 +297,17 @@
 			<item id="94304" min="1" max="1" chance="0.340" /> <!-- Augmenting Stone: Circlet - Sealed -->
 			<item id="94319" min="1" max="1" chance="0.340" /> <!-- Spellbook: Sword Symphony -->
 			<item id="94320" min="1" max="1" chance="0.340" /> <!-- Spellbook: Dance of Blood -->
-			<item id="94324" min="1" max="1" chance="0.340" /> <!-- Spellbook: Song of Earth -->
-			<item id="94325" min="1" max="1" chance="0.340" /> <!-- Spellbook: Song of Hunter -->
-			<item id="94326" min="1" max="1" chance="0.340" /> <!-- Spellbook: Dance of Warrior -->
-			<item id="94327" min="1" max="1" chance="0.340" /> <!-- Spellbook: Dance of Fire -->
+			<item id="94324" min="1" max="1" chance="0.340" /> <!-- Spellbook: Song of Earth Lv. 2 -->
+			<item id="94325" min="1" max="1" chance="0.340" /> <!-- Spellbook: Song of Hunter Lv. 2 -->
+			<item id="94326" min="1" max="1" chance="0.340" /> <!-- Spellbook: Dance of Warrior Lv. 2 -->
+			<item id="94327" min="1" max="1" chance="0.340" /> <!-- Spellbook: Dance of Fire Lv. 2 -->
 			<item id="94328" min="1" max="1" chance="0.340" /> <!-- Elixir Powder - Sealed -->
 			<item id="94498" min="1" max="1" chance="0.340" /> <!-- Spellbook: Titan Champion -->
 			<item id="94499" min="1" max="1" chance="0.340" /> <!-- Spellbook: Titanic Weapon -->
 			<item id="94501" min="1" max="1" chance="0.340" /> <!-- Spellbook: Titanic Break -->
-			<item id="94502" min="1" max="1" chance="0.340" /> <!-- Spellbook: Ogre Spirit Totem -->
-			<item id="94503" min="1" max="1" chance="0.340" /> <!-- Spellbook: Rabbit Spirit Totem -->
-			<item id="94504" min="1" max="1" chance="0.340" /> <!-- Spellbook: Puma Spirit Totem -->
+			<item id="94502" min="1" max="1" chance="0.340" /> <!-- Spellbook: Ogre Spirit Totem Lv. 2 -->
+			<item id="94503" min="1" max="1" chance="0.340" /> <!-- Spellbook: Rabbit Spirit Totem Lv. 2 -->
+			<item id="94504" min="1" max="1" chance="0.340" /> <!-- Spellbook: Puma Spirit Totem Lv. 2 -->
 			<item id="94506" min="1" max="1" chance="0.340" /> <!-- Spellbook: Burning Assault -->
 			<item id="94508" min="1" max="1" chance="0.340" /> <!-- Spellbook: Cacophony of War -->
 			<item id="94513" min="1" max="1" chance="0.340" /> <!-- Package: Frintezza Doll Lv. 1 - Sealed -->
@@ -319,7 +319,7 @@
 		</capsuled_items>
 	</item>
 	<item id="94617" name="Package: +7 Circlet of Hero" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.accessory_barka_karm_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -334,7 +334,7 @@
 		</capsuled_items>
 	</item>
 	<item id="94618" name="Package: +5 Circlet of Hero" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.accessory_barka_karm_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -349,7 +349,7 @@
 		</capsuled_items>
 	</item>
 	<item id="94619" name="Package: +3 Circlet of Hero" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.accessory_barka_karm_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -417,7 +417,7 @@
 		<set name="material" val="LIQUID" />
 	</item>
 	<item id="94624" name="+1 Blessed Dragon Belt Pack" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.etc_readybox_silver" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -432,7 +432,7 @@
 		</capsuled_items>
 	</item>
 	<item id="94625" name="+2 Blessed Dragon Belt Pack" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.etc_readybox_silver" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -447,7 +447,7 @@
 		</capsuled_items>
 	</item>
 	<item id="94626" name="+3 Blessed Dragon Belt Pack" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.etc_readybox_silver" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -462,7 +462,7 @@
 		</capsuled_items>
 	</item>
 	<item id="94627" name="+4 Blessed Dragon Belt Pack" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.etc_readybox_silver" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -477,7 +477,7 @@
 		</capsuled_items>
 	</item>
 	<item id="94628" name="+5 Blessed Dragon Belt Pack" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.etc_readybox_silver" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -492,7 +492,7 @@
 		</capsuled_items>
 	</item>
 	<item id="94629" name="+6 Blessed Dragon Belt Pack" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.etc_readybox_silver" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -507,7 +507,7 @@
 		</capsuled_items>
 	</item>
 	<item id="94630" name="+7 Blessed Dragon Belt Pack" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.etc_readybox_silver" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -522,7 +522,7 @@
 		</capsuled_items>
 	</item>
 	<item id="94631" name="+8 Blessed Dragon Belt Pack" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.etc_readybox_silver" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -537,7 +537,7 @@
 		</capsuled_items>
 	</item>
 	<item id="94632" name="+9 Blessed Dragon Belt Pack" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.etc_readybox_silver" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -552,7 +552,7 @@
 		</capsuled_items>
 	</item>
 	<item id="94633" name="+10 Blessed Dragon Belt Pack" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.etc_readybox_silver" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -567,7 +567,7 @@
 		</capsuled_items>
 	</item>
 	<item id="94634" name="Tag's Supplies" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.etc_treasure_box_i05" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -597,7 +597,7 @@
 		</capsuled_items>
 	</item>
 	<item id="94635" name="Low-grade Pet XP Crystal" additionalName="Sealed" type="EtcItem">
-		<!-- Applies the following effect. <When used>. XP +1,000,000 for a summoned pet. Note!. Can be used only when a pet is summoned. -->
+		<!-- Applies the following effect. <When used>. XP +1,000,000 for a summoned pet. Note!. Can only be used when a pet is summoned. -->
 		<set name="icon" val="icon.r99_soul_stone_piece_i03" />
 		<set name="default_action" val="SKILL_REDUCE" />
 		<set name="is_tradable" val="false" />
@@ -610,7 +610,7 @@
 		</skills>
 	</item>
 	<item id="94636" name="Pet's XP Growth Scroll" additionalName="Sealed" type="EtcItem">
-		<!-- Applies a buff when used. <Buff effect>. A pet's acquired XP +30%. Duration: 20 min. Cooldown: 1 min. The effect disappears when a pet dies or is unsummoned. -->
+		<!-- Applies a buff when used. <Buff effect>. Pet's acquired XP +30%. Duration: 20 min. Cooldown: 1 min. The effect disappears when a pet dies or is recalled. -->
 		<set name="icon" val="icon.scroll_of_kukur_event" />
 		<set name="default_action" val="SKILL_REDUCE" />
 		<set name="is_tradable" val="false" />
@@ -625,7 +625,7 @@
 		</skills>
 	</item>
 	<item id="94637" name="+9 Talisman of Speed Pack" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.bm_pirate_king_box" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -640,7 +640,7 @@
 		</capsuled_items>
 	</item>
 	<item id="94638" name="+10 Talisman of Speed Pack" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.bm_pirate_king_box" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -754,7 +754,7 @@
 		</capsuled_items>
 	</item>
 	<item id="94645" name="Zaken Doll Lv. 1" additionalName="Sealed" type="EtcItem">
-		<!-- <Zaken Doll's Sorcery Lv. 1>. Skill Critical Rate +10. HP Recovery Potions' Effect +20. Skill Critical Damage +100. Vampiric Rage +1%. (with a certain chance). Boosts stats when in inventory. Can be upgraded through compounding. -->
+		<!-- <Zaken Doll's Sorcery Lv. 1>. Skill Critical Rate +10. HP Recovery Potions' Effect +20. Skill Critical Damage +100. Vampiric Rage +1%. (with a certain chance). Boosts stats when in inventory. <font color=bbaa88><Compound></font>. Materials: Zaken Doll Lv. 1 and packages. In case of failure, the doll's level remains the same, but materials disappear. -->
 		<set name="icon" val="icon.bm_zaken_doll_30d" />
 		<set name="material" val="PAPER" />
 		<set name="is_tradable" val="false" />
@@ -768,7 +768,7 @@
 		</skills>
 	</item>
 	<item id="94646" name="Zaken Doll Lv. 2" type="EtcItem">
-		<!-- <Zaken Doll's Sorcery Lv. 2>. Skill Critical Rate +40. HP Recovery Potions' Effect +50. Skill Critical Damage +200. Vampiric Rage +2%. (with a certain chance). Boosts stats when in inventory. Can be upgraded through compounding. -->
+		<!-- <Zaken Doll's Sorcery Lv. 2>. Skill Critical Rate +40. HP Recovery Potions' Effect +50. Skill Critical Damage +200. Vampiric Rage +2%. (with a certain chance). Boosts stats when in inventory. <font color=bbaa88><Compound></font>. Materials: Zaken Doll Lv. 2. In case of failure, the doll's level remains the same, but materials disappear. -->
 		<set name="icon" val="icon.bm_zaken_doll_30d" />
 		<set name="material" val="PAPER" />
 		<set name="is_dropable" val="false" />
@@ -781,7 +781,7 @@
 		</skills>
 	</item>
 	<item id="94647" name="Zaken Doll Lv. 3" type="EtcItem">
-		<!-- <Zaken Doll's Sorcery Lv. 3>. Skill Critical Rate +60. HP Recovery Potions' Effect +80. Skill Critical Damage +300. Vampiric Rage +3%. (with a certain chance). Boosts stats when in inventory. Can be upgraded through compounding. -->
+		<!-- <Zaken Doll's Sorcery Lv. 3>. Skill Critical Rate +60. HP Recovery Potions' Effect +80. Skill Critical Damage +300. Vampiric Rage +3%. (with a certain chance). Boosts stats when in inventory. <font color=bbaa88><Compound></font>. Materials: Zaken Doll Lv. 3. In case of failure, the doll's level remains the same, but materials disappear. -->
 		<set name="icon" val="icon.bm_zaken_doll_30d" />
 		<set name="material" val="PAPER" />
 		<set name="is_dropable" val="false" />
@@ -794,7 +794,7 @@
 		</skills>
 	</item>
 	<item id="94648" name="Core Doll Lv. 1" additionalName="Sealed" type="EtcItem">
-		<!-- <Core Doll's Sorcery Lv. 1>. Received Skill Critical Damage -5%. Received Skill Critical Rate -2%. Shock Resistance +10%. Sleep Resistance +10%. Knockback Resistance +5%. Boosts stats when in inventory. Can be upgraded through compounding. -->
+		<!-- <Core Doll's Sorcery Lv. 1>. Received Skill Critical Damage -5%. Received Skill Critical Rate -2%. Shock Resistance +10%. Sleep Resistance +10%. Knockback Resistance +5%. Boosts stats when in inventory. <font color=bbaa88><Compound></font>. Materials: Core Doll Lv. 1 and packages. In case of failure, the doll's level remains the same, but materials disappear. -->
 		<set name="icon" val="icon.bm_core_doll_30d" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="PAPER" />
@@ -808,7 +808,7 @@
 		</skills>
 	</item>
 	<item id="94649" name="Core Doll Lv. 2" type="EtcItem">
-		<!-- <Core Doll's Sorcery Lv. 2>. Received Skill Critical Damage -10%. Received Skill Critical Rate -5%. Shock Resistance +20%. Sleep Resistance +20%. Knockback Resistance +10%. Boosts stats when in inventory. Can be upgraded through compounding. -->
+		<!-- <Core Doll's Sorcery Lv. 2>. Received Skill Critical Damage -10%. Received Skill Critical Rate -5%. Shock Resistance +20%. Sleep Resistance +20%. Knockback Resistance +10%. Boosts stats when in inventory. <font color=bbaa88><Compound></font>. Materials: Core Doll Lv. 2. In case of failure, the doll's level remains the same, but materials disappear. -->
 		<set name="icon" val="icon.bm_core_doll_30d" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="PAPER" />
@@ -820,7 +820,7 @@
 		</skills>
 	</item>
 	<item id="94650" name="Core Doll Lv. 3" type="EtcItem">
-		<!-- <Core Doll's Sorcery Lv. 3>. Received Skill Critical Damage -15%. Received Skill Critical Rate -8%. Shock Resistance +30%. Sleep Resistance +30%. Knockback Resistance +20%. Boosts stats when in inventory. Can be upgraded through compounding. -->
+		<!-- <Core Doll's Sorcery Lv. 3>. Received Skill Critical Damage -15%. Received Skill Critical Rate -8%. Shock Resistance +30%. Sleep Resistance +30%. Knockback Resistance +20%. Boosts stats when in inventory. <font color=bbaa88><Compound></font>. Materials: Core Doll Lv. 3. In case of failure, the doll's level remains the same, but materials disappear. -->
 		<set name="icon" val="icon.bm_core_doll_30d" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="PAPER" />
@@ -832,7 +832,7 @@
 		</skills>
 	</item>
 	<item id="94651" name="Package: Zaken Doll Lv. 1" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- <font color=bbaa88><Compound></font>. Materials: dolls and packages of the same level. In case of failure, the doll's package level remains the same, but materials disappear. Double-click to obtain various items. -->
 		<set name="icon" val="icon.bm_zaken_doll_30d" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -846,7 +846,7 @@
 		</capsuled_items>
 	</item>
 	<item id="94652" name="Package: Zaken Doll Lv. 2" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.bm_zaken_doll_30d" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -860,7 +860,7 @@
 		</capsuled_items>
 	</item>
 	<item id="94653" name="Package: Zaken Doll Lv. 3" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.bm_zaken_doll_30d" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -874,7 +874,7 @@
 		</capsuled_items>
 	</item>
 	<item id="94654" name="Package: Core Doll Lv. 1" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- <font color=bbaa88><Compound></font>. Materials: dolls and packages of the same level. In case of failure, the doll's package level remains the same, but materials disappear. Double-click to obtain various items. -->
 		<set name="icon" val="icon.bm_core_doll_30d" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -888,7 +888,7 @@
 		</capsuled_items>
 	</item>
 	<item id="94655" name="Package: Core Doll Lv. 2" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.bm_core_doll_30d" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -902,7 +902,7 @@
 		</capsuled_items>
 	</item>
 	<item id="94656" name="Package: Core Doll Lv. 3" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.bm_core_doll_30d" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -916,7 +916,7 @@
 		</capsuled_items>
 	</item>
 	<item id="94657" name="Package: Pet Food 2000 pcs." additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="BranchSys3.icon1.g_studentenfutter_germany" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -930,7 +930,7 @@
 		</capsuled_items>
 	</item>
 	<item id="94658" name="Package: Pet's Earring" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="BranchSys2.icon.g_accessory_event_earring" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -944,7 +944,7 @@
 		</capsuled_items>
 	</item>
 	<item id="94659" name="Package: Pet's Ring" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="BranchSys2.icon.g_accessory_event_ring" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -1007,7 +1007,7 @@
 		</stats>
 	</item>
 	<item id="94662" name="For monsters_Dragontroop Soldier Shield" additionalName="Not Available" type="Weapon">
-		<!-- The item is not available. Monster weapon. Shield -->
+		<!-- The item is not available. A monster weapon. Type: shield. -->
 		<set name="icon" val="icon.etc_ertheia2" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="FIST" />
@@ -1025,7 +1025,7 @@
 		</stats>
 	</item>
 	<item id="94663" name="For monsters_Dragontroop Wizard Staff" additionalName="Not Available" type="Weapon">
-		<!-- The item is not available. Monster weapon. -->
+		<!-- The item is not available. A monster weapon. -->
 		<set name="icon" val="icon.etc_ertheia2" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="BLUNT" />
@@ -1107,7 +1107,7 @@
 			<item id="91550" min="1" max="1" chance="1.6393" /> <!-- Frintezza's Necklace -->
 			<item id="91641" min="3" max="3" chance="1.642" /> <!-- Sayha's Blessing - Sealed -->
 			<item id="91690" min="20" max="20" chance="1.6393" /> <!-- Special HP Recovery Potion - Sealed -->
-			<item id="91712" min="2" max="2" chance="1.6393" /> <!-- Sayha's Storm Lv. 3 - Sealed -->
+			<item id="91712" min="2" max="2" chance="1.6393" /> <!-- Sayha's Storm - Sealed -->
 			<item id="91864" min="1" max="1" chance="1.6393" /> <!-- Dragon Belt Pack - Sealed -->
 			<item id="92034" min="1" max="1" chance="1.6393" /> <!-- Reinforced Jewelry Box -->
 			<item id="92314" min="100" max="100" chance="1.6393" /> <!-- Giran Seal -->
@@ -1129,16 +1129,16 @@
 			<item id="94269" min="2" max="2" chance="1.6393" /> <!-- Scroll: Boost Attack - Sealed -->
 			<item id="94271" min="2" max="2" chance="1.6393" /> <!-- Scroll: Boost Defense - Sealed -->
 			<item id="94304" min="2" max="2" chance="1.6393" /> <!-- Augmenting Stone: Circlet - Sealed -->
-			<item id="94324" min="1" max="1" chance="1.6393" /> <!-- Spellbook: Song of Earth -->
-			<item id="94325" min="1" max="1" chance="1.6393" /> <!-- Spellbook: Song of Hunter -->
-			<item id="94326" min="1" max="1" chance="1.6393" /> <!-- Spellbook: Dance of Warrior -->
-			<item id="94327" min="1" max="1" chance="1.6393" /> <!-- Spellbook: Dance of Fire -->
+			<item id="94324" min="1" max="1" chance="1.6393" /> <!-- Spellbook: Song of Earth Lv. 2 -->
+			<item id="94325" min="1" max="1" chance="1.6393" /> <!-- Spellbook: Song of Hunter Lv. 2 -->
+			<item id="94326" min="1" max="1" chance="1.6393" /> <!-- Spellbook: Dance of Warrior Lv. 2 -->
+			<item id="94327" min="1" max="1" chance="1.6393" /> <!-- Spellbook: Dance of Fire Lv. 2 -->
 			<item id="94328" min="1" max="1" chance="1.6393" /> <!-- Elixir Powder - Sealed -->
 			<item id="94498" min="1" max="1" chance="1.6393" /> <!-- Spellbook: Titan Champion -->
 			<item id="94499" min="1" max="1" chance="1.6393" /> <!-- Spellbook: Titanic Weapon -->
-			<item id="94502" min="1" max="1" chance="1.6393" /> <!-- Spellbook: Ogre Spirit Totem -->
-			<item id="94503" min="1" max="1" chance="1.6393" /> <!-- Spellbook: Rabbit Spirit Totem -->
-			<item id="94504" min="1" max="1" chance="1.6393" /> <!-- Spellbook: Puma Spirit Totem -->
+			<item id="94502" min="1" max="1" chance="1.6393" /> <!-- Spellbook: Ogre Spirit Totem Lv. 2 -->
+			<item id="94503" min="1" max="1" chance="1.6393" /> <!-- Spellbook: Rabbit Spirit Totem Lv. 2 -->
+			<item id="94504" min="1" max="1" chance="1.6393" /> <!-- Spellbook: Puma Spirit Totem Lv. 2 -->
 			<item id="94508" min="1" max="1" chance="1.6393" /> <!-- Spellbook: Cacophony of War -->
 			<item id="94513" min="1" max="1" chance="1.6393" /> <!-- Package: Frintezza Doll Lv. 1 - Sealed -->
 			<item id="94651" min="1" max="1" chance="1.6393" /> <!-- Package: Zaken Doll Lv. 1 - Sealed -->
@@ -1190,7 +1190,7 @@
 		<set name="is_sellable" val="false" />
 	</item>
 	<item id="94669" name="Spellbook: Pa'agrio's Medicine" type="EtcItem">
-		<!-- A spellbook for learning the Pa'agrio's Medicine skill. <Class>. Dominator. <Skill effect>. Recovers HP/ CP of surrounding clan members. -->
+		<!-- A spellbook for learning the Pa'agrio's Touch skill. <Class>. Dominator. <Skill effect>. Recovers HP/ CP of surrounding clan members. -->
 		<set name="icon" val="icon.etc_magic_book_white_i00" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="PAPER" />
@@ -1328,7 +1328,7 @@
 		<set name="is_sellable" val="false" />
 	</item>
 	<item id="94685" name="+9 Talisman of Eva Pack" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.bm_pirate_treasure_box" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -1342,7 +1342,7 @@
 		</capsuled_items>
 	</item>
 	<item id="94686" name="+10 Talisman of Eva Pack" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.bm_pirate_treasure_box" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -1408,7 +1408,7 @@
 		</capsuled_items>
 	</item>
 	<item id="94689" name="Daily Kit: Growth" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.bm_ensoulbox_soul_of_undead" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -1420,12 +1420,12 @@
 		<set name="handler" val="ExtractableItems" />
 		<capsuled_items>
 			<item id="49674" min="10" max="10" chance="100" /> <!-- XP Growth Scroll - Sealed -->
-			<item id="91712" min="10" max="10" chance="100" /> <!-- Sayha's Storm Lv. 3 - Sealed -->
+			<item id="91712" min="10" max="10" chance="100" /> <!-- Sayha's Storm - Sealed -->
 			<item id="91641" min="50" max="50" chance="100" /> <!-- Sayha's Blessing - Sealed -->
 		</capsuled_items>
 	</item>
 	<item id="94690" name="Package: Scroll: Boost Attack (10 pcs.)" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.scrl_of_ladies_silver_knife_01" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -1440,7 +1440,7 @@
 		</capsuled_items>
 	</item>
 	<item id="94691" name="Package: Scroll: Boost Defense (10 pcs.)" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.scrl_of_ench_bracelet_lucien_01" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />

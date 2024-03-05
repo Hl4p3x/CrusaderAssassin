@@ -339,7 +339,7 @@
 		</effects>
 	</skill>
 	<skill id="54113" toLevel="1" name="Sayha's Wild Magic">
-		<!-- M. Skill Critical Rate +20 for 20 min. -->
+		<!-- For 20 min., M. Skill Critical Rate +20. -->
 		<icon>icon.skill1303</icon>
 		<abnormalLevel>1</abnormalLevel>
 		<abnormalTime>1200</abnormalTime>
@@ -488,7 +488,7 @@
 			</effect>
 		</effects>
 	</skill>
-	<skill id="54118" toLevel="1" name="Sayha's Recover MP">
+	<skill id="54118" toLevel="1" name="Sayha's MP Recovery">
 		<!-- For 20 min., recovers MP. The Sayha's Buff Scroll cannot be used if the buff is active. -->
 		<icon>icon.skill0213</icon>
 		<abnormalLevel>1</abnormalLevel>
@@ -694,23 +694,23 @@
 			<effect name="RestorationRandom" fromLevel="1" toLevel="1">
 				<items>
 					<item chance="100.0">
-						<item id="91713" count="30" /> <!-- Sayha's Storm Lv. 3 -->
+						<item id="91713" count="30" /> <!-- Sayha's Storm -->
 					</item>
 				</items>
 			</effect>
 			<effect name="RestorationRandom" fromLevel="2" toLevel="2">
 				<items>
 					<item chance="3.22">
-						<item id="8618" count="1" /> <!-- Buff Expansion Book Lv. 1 -->
+						<item id="8618" count="1" /> <!-- Spellbook: Divine Inspiration Lv. 1 -->
 					</item>
 					<item chance="3.22">
-						<item id="8619" count="1" /> <!-- Buff Expansion Book Lv. 2 -->
+						<item id="8619" count="1" /> <!-- Spellbook: Divine Inspiration Lv. 2 -->
 					</item>
 					<item chance="3.22">
-						<item id="8620" count="1" /> <!-- Buff Expansion Book Lv. 3 -->
+						<item id="8620" count="1" /> <!-- Spellbook: Divine Inspiration Lv. 3 -->
 					</item>
 					<item chance="3.22">
-						<item id="8621" count="1" /> <!-- Buff Expansion Book Lv. 4 -->
+						<item id="8621" count="1" /> <!-- Spellbook: Divine Inspiration Lv. 4 -->
 					</item>
 					<item chance="3.22">
 						<item id="49664" count="1" /> <!-- B-grade Weapon Pack -->
@@ -761,13 +761,13 @@
 						<item id="91034" count="1" /> <!-- Earth Spirit Evolution Stone -->
 					</item>
 					<item chance="3.22">
-						<item id="91113" count="1" /> <!-- Old Inventory Expansion Ticket Lv. 1 -->
+						<item id="91113" count="1" /> <!-- Old Inventory Expansion Coupon Lv. 1 -->
 					</item>
 					<item chance="3.22">
-						<item id="91114" count="1" /> <!-- Old Inventory Expansion Ticket Lv. 2 -->
+						<item id="91114" count="1" /> <!-- Old Inventory Expansion Coupon Lv. 2 -->
 					</item>
 					<item chance="3.22">
-						<item id="91115" count="1" /> <!-- Old Inventory Expansion Ticket Lv. 3 -->
+						<item id="91115" count="1" /> <!-- Old Inventory Expansion Coupon Lv. 3 -->
 					</item>
 					<item chance="3.22">
 						<item id="91188" count="1" /> <!-- Blessed Scroll: Enchant Spirit Accessory -->
@@ -776,10 +776,10 @@
 						<item id="91216" count="1" /> <!-- +16 B-grade Weapon Pack -->
 					</item>
 					<item chance="3.22">
-						<item id="91296" count="1" /> <!-- Old Inventory Expansion Ticket Lv. 4 -->
+						<item id="91296" count="1" /> <!-- Old Inventory Expansion Coupon Lv. 4 -->
 					</item>
 					<item chance="3.22">
-						<item id="91297" count="1" /> <!-- Old Inventory Expansion Ticket Lv. 5 -->
+						<item id="91297" count="1" /> <!-- Old Inventory Expansion Coupon Lv. 5 -->
 					</item>
 					<item chance="3.22">
 						<item id="91741" count="10" /> <!-- Einhasad's Protection - Sealed -->
@@ -805,7 +805,7 @@
 			<effect name="RestorationRandom" fromLevel="3" toLevel="3">
 				<items>
 					<item chance="100.0">
-						<item id="91712" count="20" /> <!-- Sayha's Storm Lv. 3 - Sealed -->
+						<item id="91712" count="20" /> <!-- Sayha's Storm - Sealed -->
 					</item>
 				</items>
 			</effect>

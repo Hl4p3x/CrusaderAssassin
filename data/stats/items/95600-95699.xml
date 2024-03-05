@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/items.xsd">
 	<item id="95600" name="Random Craft: Create +6 Dwarven Chain Gloves" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.armor_t60_g_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -19,7 +19,7 @@
 		</capsuled_items>
 	</item>
 	<item id="95601" name="Random Craft: Create +6 Full Plate Armor" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.armor_t62_ul_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -37,7 +37,7 @@
 		</capsuled_items>
 	</item>
 	<item id="95602" name="Random Craft: Create +6 Drake Leather Armor" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.armor_t45_ul_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -55,7 +55,7 @@
 		</capsuled_items>
 	</item>
 	<item id="95603" name="Random Craft: Create +6 Compound Armor" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.armor_t61_ul_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -73,7 +73,7 @@
 		</capsuled_items>
 	</item>
 	<item id="95604" name="Random Craft: Create +6 Blue Wolf Leather Armor" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.armor_t69_ul_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -91,7 +91,7 @@
 		</capsuled_items>
 	</item>
 	<item id="95605" name="Random Craft: Create +6 Zubei's Breastplate" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.armor_t64_u_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -109,7 +109,7 @@
 		</capsuled_items>
 	</item>
 	<item id="95606" name="Random Craft: Create +6 Avadon Breastplate" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.armor_t66_u_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -127,7 +127,7 @@
 		</capsuled_items>
 	</item>
 	<item id="95607" name="Random Craft: Create +7 Doom Tunic" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.armor_t73_u_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -145,7 +145,7 @@
 		</capsuled_items>
 	</item>
 	<item id="95608" name="Random Craft: Create +6 Dwarven Chain Boots" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.armor_t60_b_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -163,7 +163,7 @@
 		</capsuled_items>
 	</item>
 	<item id="95609" name="Random Craft: Create +6 Chain Shield" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.shield_chain_shield_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -181,7 +181,7 @@
 		</capsuled_items>
 	</item>
 	<item id="95610" name="Random Craft: Create +6 Earring of Seal" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.accessary_earing_of_binding_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -199,7 +199,7 @@
 		</capsuled_items>
 	</item>
 	<item id="95611" name="Random Craft: Create +6 Necklace of Seal" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.accessary_necklace_of_binding_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -217,7 +217,7 @@
 		</capsuled_items>
 	</item>
 	<item id="95612" name="Random Craft: Create +6 Ring of Seal" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.accessary_ring_of_binding_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -235,7 +235,7 @@
 		</capsuled_items>
 	</item>
 	<item id="95613" name="Random Craft: Create +15 Chakram" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.weapon_chakram_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -253,7 +253,7 @@
 		</capsuled_items>
 	</item>
 	<item id="95614" name="Random Craft: Create +12 Samurai Long Sword" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.weapon_samurai_old_longsword_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -271,7 +271,7 @@
 		</capsuled_items>
 	</item>
 	<item id="95615" name="Random Craft: Create +12 Ecliptic Axe" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.weapon_eclipse_axe_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -289,7 +289,7 @@
 		</capsuled_items>
 	</item>
 	<item id="95616" name="Random Craft: Create +12 Damascus Sword" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.weapon_sword_of_damascus_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -307,7 +307,7 @@
 		</capsuled_items>
 	</item>
 	<item id="95617" name="Random Craft: Create +12 Bellion Cestus" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.weapon_bellion_cestus_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -325,7 +325,7 @@
 		</capsuled_items>
 	</item>
 	<item id="95618" name="Random Craft: Create +15 Bow of Peril" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.weapon_hazard_bow_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -343,7 +343,7 @@
 		</capsuled_items>
 	</item>
 	<item id="95619" name="Random Craft: Create +15 Volcano" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.shooter_b_high" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -361,7 +361,7 @@
 		</capsuled_items>
 	</item>
 	<item id="95620" name="Random Craft: Create +12 Nirvana Axe" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.weapon_nirvana_axe_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -379,7 +379,7 @@
 		</capsuled_items>
 	</item>
 	<item id="95621" name="Random Craft: Create +10 Crystal Dagger" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.weapon_crystal_dagger_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -397,7 +397,7 @@
 		</capsuled_items>
 	</item>
 	<item id="95622" name="Random Craft: Create +10 Great Pata" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.weapon_great_pata_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -415,7 +415,7 @@
 		</capsuled_items>
 	</item>
 	<item id="95623" name="Random Craft: Create +10 Eminence Bow" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.weapon_eminence_bow_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -433,7 +433,7 @@
 		</capsuled_items>
 	</item>
 	<item id="95624" name="Random Craft: Create +10 Orcish Poleaxe" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.weapon_orcish_poleaxe_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -451,7 +451,7 @@
 		</capsuled_items>
 	</item>
 	<item id="95625" name="Random Craft: Create +10 Admiral's Estoc" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.weapon_blink_slasher_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -469,7 +469,7 @@
 		</capsuled_items>
 	</item>
 	<item id="95626" name="Random Craft: Create +10 Demon's Staff" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.weapon_demons_staff_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -487,7 +487,7 @@
 		</capsuled_items>
 	</item>
 	<item id="95627" name="Random Craft: Create +10 Ice Storm Hammer" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.weapon_ice_storm_hammer_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -505,7 +505,7 @@
 		</capsuled_items>
 	</item>
 	<item id="95628" name="Random Craft: Create +10 Crystallized Ice Bow" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.weapon_crystallized_ice_bow_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -578,7 +578,7 @@
 			<item id="93499" min="1" max="1" chance="7.692307" /> <!-- Enchanted B-grade Weapon Coupon - Sealed -->
 			<item id="93500" min="1" max="1" chance="7.692307" /> <!-- Enchanted B-grade Armor Coupon - Sealed -->
 			<item id="94620" min="1" max="1" chance="7.692307" /> <!-- Primeval Isle's Time Stone (Time-limited) - Sealed -->
-			<item id="93073" min="1" max="1" chance="7.692307" /> <!-- Sayha's Storm Lv. 3 (Time-limited) - Sealed -->
+			<item id="93073" min="1" max="1" chance="7.692307" /> <!-- Sayha's Storm (Time-limited) - Sealed -->
 			<item id="91840" min="1" max="1" chance="7.692307" /> <!-- XP Growth Scroll (Time-limited) - Sealed -->
 			<item id="94380" min="2" max="2" chance="7.692307" /> <!-- Scroll: Boost Attack (Time-limited) - Sealed -->
 			<item id="94381" min="2" max="2" chance="7.692307" /> <!-- Scroll: Boost Defense (Time-limited) - Sealed -->
@@ -630,8 +630,8 @@
 			<item id="94845" min="1" max="1" chance="1.785714" /> <!-- Leather Leggings of Protection -->
 			<item id="94848" min="1" max="1" chance="1.785714" /> <!-- Tunic of Protection -->
 			<item id="94849" min="1" max="1" chance="1.785714" /> <!-- Stockings of Protection -->
-			<item id="95349" min="1" max="1" chance="1.785714" /> <!-- Spellbook: Dance of Fury -->
-			<item id="95348" min="1" max="1" chance="1.785714" /> <!-- Spellbook: Song of Wind -->
+			<item id="95349" min="1" max="1" chance="1.785714" /> <!-- Spellbook: Dance of Fury Lv. 2 -->
+			<item id="95348" min="1" max="1" chance="1.785714" /> <!-- Spellbook: Song of Wind Lv. 2 -->
 			<item id="95813" min="1" max="1" chance="1.785714" /> <!-- Hardin's Soul Crystal Lv. 11 - Rare -->
 			<item id="94854" min="1" max="1" chance="1.785714" /> <!-- Legendary Dye <CON +4> - 3rd Class -->
 			<item id="94857" min="1" max="1" chance="1.785714" /> <!-- Legendary Dye <MEN +4> - 3rd Class -->
@@ -673,7 +673,7 @@
 			<item id="92314" min="2" max="2" chance="1.785714" /> <!-- Giran Seal -->
 			<item id="94269" min="3" max="3" chance="1.785714" /> <!-- Scroll: Boost Attack - Sealed -->
 			<item id="94271" min="3" max="3" chance="1.785714" /> <!-- Scroll: Boost Defense - Sealed -->
-			<item id="91712" min="3" max="3" chance="1.785714" /> <!-- Sayha's Storm Lv. 3 - Sealed -->
+			<item id="91712" min="3" max="3" chance="1.785714" /> <!-- Sayha's Storm - Sealed -->
 			<item id="91690" min="20" max="20" chance="1.785714" /> <!-- Special HP Recovery Potion - Sealed -->
 			<item id="92314" min="1" max="1" chance="1.785714" /> <!-- Giran Seal -->
 		</capsuled_items>
@@ -1050,7 +1050,7 @@
 		<set name="is_stackable" val="true" />
 	</item>
 	<item id="95656" name="Improved/ Cursed Enchant Scroll Pack" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.event_hero_treasure_box_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -1070,7 +1070,7 @@
 		</capsuled_items>
 	</item>
 	<item id="95657" name="+7 Volcano" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.shooter_b_high" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -1085,7 +1085,7 @@
 		</capsuled_items>
 	</item>
 	<item id="95658" name="+4 ~ +15 Weapon Pack - Flint Pistols" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.shooter_b_low" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -1100,7 +1100,7 @@
 		</capsuled_items>
 	</item>
 	<item id="95659" name="+4 ~ +15 Weapon Pack - Volcano" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.shooter_b_high" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -1115,7 +1115,7 @@
 		</capsuled_items>
 	</item>
 	<item id="95660" name="Boss' Weapon Pack" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.aka_manaf_box" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -1137,7 +1137,7 @@
 		</capsuled_items>
 	</item>
 	<item id="95661" name="Boss' Weapon Pack" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.aka_manaf_box" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -1159,7 +1159,7 @@
 		</capsuled_items>
 	</item>
 	<item id="95662" name="Kit: Ancient Sylph Crafting" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.new_user_box" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -1252,7 +1252,7 @@
 		</stats>
 	</item>
 	<item id="95667" name="Package: Sigil of Protection" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.sigil_of_protection" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -1266,7 +1266,7 @@
 		</capsuled_items>
 	</item>
 	<item id="95668" name="Package: Sigil of Protection" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.sigil_of_protection" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -1280,7 +1280,7 @@
 		</capsuled_items>
 	</item>
 	<item id="95669" name="Package: Shield of Protection" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.shield_of_protection" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -1294,7 +1294,7 @@
 		</capsuled_items>
 	</item>
 	<item id="95670" name="Package: Shield of Protection" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.shield_of_protection" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -1342,7 +1342,7 @@
 			<item id="49845" min="5" max="5" chance="3.7" /> <!-- Sayha's Blessing -->
 			<item id="94380" min="5" max="5" chance="3.7" /> <!-- Scroll: Boost Attack (Time-limited) - Sealed -->
 			<item id="94381" min="5" max="5" chance="3.7" /> <!-- Scroll: Boost Defense (Time-limited) - Sealed -->
-			<item id="91712" min="5" max="5" chance="3.7" /> <!-- Sayha's Storm Lv. 3 - Sealed -->
+			<item id="91712" min="5" max="5" chance="3.7" /> <!-- Sayha's Storm - Sealed -->
 			<item id="94717" min="10" max="10" chance="3.7" /> <!-- Hellbound Energy - Sealed -->
 			<item id="94717" min="5" max="5" chance="3.7" /> <!-- Hellbound Energy - Sealed -->
 			<item id="94717" min="2" max="2" chance="3.7" /> <!-- Hellbound Energy - Sealed -->
@@ -1398,7 +1398,7 @@
 			<item id="91173" min="1" max="1" chance="3.44" /> <!-- Lilith' Soul Crystal Lv. 1 - Rare -->
 			<item id="94380" min="3" max="3" chance="3.44" /> <!-- Scroll: Boost Attack (Time-limited) - Sealed -->
 			<item id="94381" min="3" max="3" chance="3.44" /> <!-- Scroll: Boost Defense (Time-limited) - Sealed -->
-			<item id="91712" min="3" max="3" chance="3.44" /> <!-- Sayha's Storm Lv. 3 - Sealed -->
+			<item id="91712" min="3" max="3" chance="3.44" /> <!-- Sayha's Storm - Sealed -->
 			<item id="94382" min="20" max="20" chance="3.44" /> <!-- Special HP Recovery Potion (Time-limited) - Sealed -->
 			<item id="92314" min="20" max="20" chance="3.44" /> <!-- Giran Seal -->
 			<item id="92314" min="10" max="10" chance="3.44" /> <!-- Giran Seal -->
@@ -1420,7 +1420,7 @@
 		</capsuled_items>
 	</item>
 	<item id="95675" name="Random Craft: Create +6 Chain Sigil" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.belleface_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -1438,7 +1438,7 @@
 		</capsuled_items>
 	</item>
 	<item id="95676" name="Random Craft: Create +6 Black Ore Necklace" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.accessary_necklace_of_black_ore_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -1456,7 +1456,7 @@
 		</capsuled_items>
 	</item>
 	<item id="95677" name="Random Craft: Create +6 Doom Boots (Light)" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.armor_t72_b_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -1474,7 +1474,7 @@
 		</capsuled_items>
 	</item>
 	<item id="95678" name="Random Craft: Create +7 Doom Helmet (Heavy)" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.armor_leather_helmet_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -1492,7 +1492,7 @@
 		</capsuled_items>
 	</item>
 	<item id="95679" name="Random Craft: Create +10 Fist" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.weapon_knuckle_dust_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -1510,7 +1510,7 @@
 		</capsuled_items>
 	</item>
 	<item id="95680" name="Random Craft: Create +15 Flint Pistols" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.shooter_b_low" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -1528,7 +1528,7 @@
 		</capsuled_items>
 	</item>
 	<item id="95681" name="Premium Growth Kit" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. <font color=ff6666>Note!</font>. Required level: 60+. -->
+		<!-- Double-click to obtain various items. <font color=ff6666>Note!</font>. Required level: 60+. -->
 		<set name="icon" val="icon.ev_charge_box" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -1538,7 +1538,7 @@
 		<set name="is_sellable" val="false" />
 		<set name="handler" val="ExtractableItems" />
 		<capsuled_items>
-			<item id="91712" min="10" max="10" chance="100" /> <!-- Sayha's Storm Lv. 3 - Sealed -->
+			<item id="91712" min="10" max="10" chance="100" /> <!-- Sayha's Storm - Sealed -->
 			<item id="94380" min="10" max="10" chance="100" /> <!-- Scroll: Boost Attack (Time-limited) - Sealed -->
 			<item id="94381" min="10" max="10" chance="100" /> <!-- Scroll: Boost Defense (Time-limited) - Sealed -->
 			<item id="91757" min="2" max="2" chance="100" /> <!-- Magic Lamp Charging Potion - Sealed -->
@@ -1547,7 +1547,7 @@
 		</capsuled_items>
 	</item>
 	<item id="95682" name="Premium Growth Kit (Lv. 65)" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. <font color=ff6666>Note!</font>. Required level: 65+. -->
+		<!-- Double-click to obtain various items. <font color=ff6666>Note!</font>. Required level: 65+. -->
 		<set name="icon" val="icon.ev_charge_box" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -1557,7 +1557,7 @@
 		<set name="is_sellable" val="false" />
 		<set name="handler" val="ExtractableItems" />
 		<capsuled_items>
-			<item id="91712" min="10" max="10" chance="100" /> <!-- Sayha's Storm Lv. 3 - Sealed -->
+			<item id="91712" min="10" max="10" chance="100" /> <!-- Sayha's Storm - Sealed -->
 			<item id="94380" min="10" max="10" chance="100" /> <!-- Scroll: Boost Attack (Time-limited) - Sealed -->
 			<item id="94381" min="10" max="10" chance="100" /> <!-- Scroll: Boost Defense (Time-limited) - Sealed -->
 			<item id="91757" min="4" max="4" chance="100" /> <!-- Magic Lamp Charging Potion - Sealed -->
@@ -1567,7 +1567,7 @@
 		</capsuled_items>
 	</item>
 	<item id="95683" name="Premium Growth Kit (Lv. 70)" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. <font color=ff6666>Note!</font>. Required level: 70+. -->
+		<!-- Double-click to obtain various items. <font color=ff6666>Note!</font>. Required level: 70+. -->
 		<set name="icon" val="icon.ev_charge_box" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -1577,7 +1577,7 @@
 		<set name="is_sellable" val="false" />
 		<set name="handler" val="ExtractableItems" />
 		<capsuled_items>
-			<item id="91712" min="20" max="20" chance="100" /> <!-- Sayha's Storm Lv. 3 - Sealed -->
+			<item id="91712" min="20" max="20" chance="100" /> <!-- Sayha's Storm - Sealed -->
 			<item id="94380" min="20" max="20" chance="100" /> <!-- Scroll: Boost Attack (Time-limited) - Sealed -->
 			<item id="94381" min="20" max="20" chance="100" /> <!-- Scroll: Boost Defense (Time-limited) - Sealed -->
 			<item id="91757" min="6" max="6" chance="100" /> <!-- Magic Lamp Charging Potion - Sealed -->
@@ -1587,7 +1587,7 @@
 		</capsuled_items>
 	</item>
 	<item id="95684" name="Premium Growth Kit (Lv. 74)" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. <font color=ff6666>Note!</font>. Required level: 74+. -->
+		<!-- Double-click to obtain various items. <font color=ff6666>Note!</font>. Required level: 74+. -->
 		<set name="icon" val="icon.ev_charge_box" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -1597,7 +1597,7 @@
 		<set name="is_sellable" val="false" />
 		<set name="handler" val="ExtractableItems" />
 		<capsuled_items>
-			<item id="91712" min="20" max="20" chance="100" /> <!-- Sayha's Storm Lv. 3 - Sealed -->
+			<item id="91712" min="20" max="20" chance="100" /> <!-- Sayha's Storm - Sealed -->
 			<item id="94380" min="20" max="20" chance="100" /> <!-- Scroll: Boost Attack (Time-limited) - Sealed -->
 			<item id="94381" min="20" max="20" chance="100" /> <!-- Scroll: Boost Defense (Time-limited) - Sealed -->
 			<item id="91757" min="8" max="8" chance="100" /> <!-- Magic Lamp Charging Potion - Sealed -->
@@ -1607,7 +1607,7 @@
 		</capsuled_items>
 	</item>
 	<item id="95685" name="Premium Growth Kit (Lv. 76)" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. <font color=ff6666>Note!</font>. Required level: 76+. -->
+		<!-- Double-click to obtain various items. <font color=ff6666>Note!</font>. Required level: 76+. -->
 		<set name="icon" val="icon.ev_charge_box" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -1617,7 +1617,7 @@
 		<set name="is_sellable" val="false" />
 		<set name="handler" val="ExtractableItems" />
 		<capsuled_items>
-			<item id="91712" min="30" max="30" chance="100" /> <!-- Sayha's Storm Lv. 3 - Sealed -->
+			<item id="91712" min="30" max="30" chance="100" /> <!-- Sayha's Storm - Sealed -->
 			<item id="94380" min="30" max="30" chance="100" /> <!-- Scroll: Boost Attack (Time-limited) - Sealed -->
 			<item id="94381" min="30" max="30" chance="100" /> <!-- Scroll: Boost Defense (Time-limited) - Sealed -->
 			<item id="91757" min="10" max="10" chance="100" /> <!-- Magic Lamp Charging Potion - Sealed -->
@@ -1626,7 +1626,7 @@
 		</capsuled_items>
 	</item>
 	<item id="95686" name="A-grade+ Weapon Crafting" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.weapon_terakan_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -1737,7 +1737,7 @@
 		</capsuled_items>
 	</item>
 	<item id="95687" name="Olympiad Treasure Chest" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.etc_treasure_box_i09" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -1814,7 +1814,7 @@
 		</stats>
 	</item>
 	<item id="95691" name="Aden's Dual Swords" additionalName="Sealed" type="Weapon">
-		<!-- When enchanting dual swords, two-handed swords/ blunts and fists, the P. Atk. bonus is higher than that of one-handed weapons. <font color=ff6666><Unavailable to Sylphs/ Vanguard Riders.></font> -->
+		<!-- When enchanting dual swords, two-handed swords/ blunts and fists, the P. Atk. bonus is higher than that of one-handed weapons. <font color=ff6666><Unavailable to Sylphs/ Vanguard Riders/ Assassins.></font> -->
 		<set name="icon" val="icon.weapon_dual_sword_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="DUAL" />
@@ -1857,7 +1857,7 @@
 		<capsuled_items>
 			<item id="95693" min="2" max="2" chance="85.0" /> <!-- Berserker's Scroll (Time-limited) - Sealed -->
 			<item id="49845" min="2" max="2" chance="1.4499" /> <!-- Sayha's Blessing -->
-			<item id="91712" min="1" max="1" chance="1.4499" /> <!-- Sayha's Storm Lv. 3 - Sealed -->
+			<item id="91712" min="1" max="1" chance="1.4499" /> <!-- Sayha's Storm - Sealed -->
 			<item id="92020" min="3" max="3" chance="1.4499" /> <!-- Enchant Kit: Talisman of Eva - Sealed -->
 			<item id="92314" min="5" max="5" chance="1.4499" /> <!-- Giran Seal -->
 			<item id="92396" min="1" max="1" chance="1.4499" /> <!-- Package: Sayha's Blessing (1000 pcs.) - Sealed -->

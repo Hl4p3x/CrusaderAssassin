@@ -346,7 +346,7 @@
 		<targetType>TARGET</targetType>
 		<affectScope>SINGLE</affectScope>
 	</skill>
-	<skill id="16028" toLevel="1" name="Ball Kicking">
+	<skill id="16028" toLevel="1" name="Fierce Kick">
 		<icon>icon.skill0000</icon>
 		<operateType>A1</operateType>
 		<castRange>600</castRange>

@@ -157,7 +157,7 @@
 		<operateType>P</operateType>
 	</skill>
 	<skill id="18577" toLevel="1" name="Call to Battle">
-		<!-- Received PvP Damage -5%, Debuff Resistance +10%. -->
+		<!-- Received PvP damage -5%, Debuff Resistance +10%. -->
 		<icon>icon.skill18577</icon>
 		<operateType>P</operateType>
 	</skill>

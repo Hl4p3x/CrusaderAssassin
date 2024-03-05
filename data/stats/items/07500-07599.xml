@@ -352,7 +352,7 @@
 		<set name="is_destroyable" val="false" />
 	</item>
 	<item id="7534" name="Pure Ice" type="EtcItem">
-		<!-- An Ice Crystal wrapped in fish scale, creeping chill. Created by a true artisan, it looks like a flower. -->
+		<!-- An ice crystal wrapped in fish scales, that emanates cold. Created by a true artisan, it looks like a flower. -->
 		<set name="icon" val="icon.etc_flower_i02" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="PAPER" />
@@ -441,7 +441,7 @@
 		<set name="is_questitem" val="true" />
 	</item>
 	<item id="7575" name="Draconic Bow" type="Weapon">
-		<!-- <font color=ff6666><Unavailable to Sylphs/ Vanguard Riders.></font> -->
+		<!-- <font color=ff6666><Unavailable to Sylphs/ Vanguard Riders/ Assassins.></font> -->
 		<set name="icon" val="icon.weapon_draconic_bow_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="BOW" />

@@ -219,7 +219,7 @@
 			</effect>
 		</effects>
 	</skill>
-	<skill id="1403" toLevel="1" name="Summon Your Spouse">
+	<skill id="1403" toLevel="1" name="Summon Friend">
 		<!-- Teleports a party member to the caster's current location. Requires a Summoning Crystal on the target. -->
 		<icon>icon.skill1403</icon>
 		<effectPoint>467</effectPoint>
@@ -516,7 +516,7 @@
 		</effects>
 	</skill>
 	<skill id="1410" toLevel="1" name="Salvation">
-		<!-- <Skill with fixed cooldown>. For 60 min. Resurrects after death. Max. HP +500. Buffs/ debuffs remain after death. -->
+		<!-- <Skill with fixed cooldown>. Resurrects after death. Max. HP +500. Buffs/ debuffs remain after death. -->
 		<icon>icon.skill1410</icon>
 		<abnormalLevel>2</abnormalLevel>
 		<abnormalTime>3600</abnormalTime>
@@ -549,7 +549,7 @@
 		</effects>
 	</skill>
 	<skill id="1411" toLevel="3" name="Mystic Resilience">
-		<!-- If the character takes damage while the effect is active,. there is a certain chance to remove a debuff from them. Debuff Resistance +3%. Anomaly Resistance +3% -->
+		<!-- With a certain chance, when hit while the effect is active:. Removes a debuff. Debuff Resistance +3%. Anomaly Resistance +3% -->
 		<icon>icon.skill1411_a</icon>
 		<abnormalLevel>3</abnormalLevel>
 		<abnormalType>ABNORMAL_INVINCIBILITY</abnormalType>
@@ -3108,7 +3108,7 @@
 		</effects>
 	</skill>
 	<skill id="1460" toLevel="10" name="Mana Gain">
-		<!-- MP +240. Grants bonuses depending on Max MP:. <2500+>. M. Accuracy +1. <4000+>. M. Accuracy +2. <6500+>. M. Accuracy +3. <10,000+>. M. Accuracy +4. <15,000+>. M. Accuracy +5 -->
+		<!-- Max MP +240. Grants bonuses depending on Max MP:. <4000+>. - M. Atk. +200. - M. Accuracy +6. <8000+>. - M. Atk. +400. - M. Accuracy +7. <15,000+>. - M. Atk. +600. - M. Accuracy +8. <20,000+>. - M. Atk. +800. - M. Accuracy +10. <30,000+>. - M. Atk. +1000. - M. Accuracy +12 -->
 		<icon>icon.mana_gain</icon>
 		<magicLevel>
 			<value level="1">76</value>

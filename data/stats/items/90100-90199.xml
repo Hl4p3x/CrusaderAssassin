@@ -29,7 +29,7 @@
 		<set name="is_sellable" val="false" />
 	</item>
 	<item id="90104" name="Scroll: Mass Cure" type="EtcItem">
-		<!-- A scroll for learning the Mass Cure skill. <Classes>. Eva's Saint, Shillien Saint. <Skill effect>. Cures Infection/ Suppression of all party members. -->
+		<!-- A scroll for learning the Mass Cure skill. <Classes>. Eva's Saint, Shillien Saint. <Skill effect>. Removes Infection/ Suppression from all party members. -->
 		<set name="icon" val="icon.etc_magic_book_white_i00" />
 		<set name="material" val="PAPER" />
 		<set name="is_stackable" val="true" />
@@ -43,7 +43,7 @@
 		<set name="is_sellable" val="false" />
 	</item>
 	<item id="90106" name="Scroll: Mana Gain" type="EtcItem">
-		<!-- A scroll for learning the Mana Gain skill. <Classes>. Cardinal, Hierophant, Eva's Saint, Shillien Saint, Dominator, Doomcryer. <Skill effect>. Increases M. Accuracy in accordance with Max MP. -->
+		<!-- A scroll for learning the Mana Gain skill. <Classes>. Cardinal, Hierophant, Eva's Saint, Shillien Saint, Dominator, Doomcryer. <Skill effect>. Increases M. Atk. and M. Accuracy in accordance with Max MP. -->
 		<set name="icon" val="icon.etc_magic_book_white_i00" />
 		<set name="material" val="PAPER" />
 		<set name="is_stackable" val="true" />
@@ -218,7 +218,7 @@
 		<set name="is_sellable" val="false" />
 	</item>
 	<item id="90131" name="Scroll: Servitor Share" type="EtcItem">
-		<!-- A scroll for learning the Servitor Share skill. <Classes>. Arcana Lord, Elemental Master, Spectral Master. <Skill effect>. Transfers master's abilities to the servitor. Transfers P./ M. Atk., P./ M. Def., Atk. Spd., Casting Spd., Max HP/ MP to the servitor. -->
+		<!-- A scroll for learning the Servitor Share skill. <Classes>. Arcana Lord, Elemental Master, Spectral Master. <Skill effect>. Transfers master's abilities to the servitor. Transfers P./ M. Atk., P./ M. Def., Atk. Spd., Casting Spd., Max HP/ MP to the servitor. <font color=ff6666>Note!</font>. The skill will be removed after learning a more powerful skill:. -Powerful Servitor Share -->
 		<set name="icon" val="icon.etc_magic_book_red_i00" />
 		<set name="material" val="PAPER" />
 		<set name="is_stackable" val="true" />
@@ -267,7 +267,7 @@
 		<set name="is_sellable" val="false" />
 	</item>
 	<item id="90136" name="Dimensional Gift" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.etc_box_of_adventure_5_i00" />
 		<set name="default_action" val="SKILL_REDUCE_ON_SKILL_SUCCESS" />
 		<set name="material" val="FISH" />
@@ -584,7 +584,7 @@
 		</stats>
 	</item>
 	<item id="90155" name="Savior's Herald" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.etc_pi_gift_box_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -682,7 +682,7 @@
 		</skills>
 	</item>
 	<item id="90161" name="Chest of Glory" additionalName="7-day" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.etc_readybox_gold" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -696,7 +696,7 @@
 		</capsuled_items>
 	</item>
 	<item id="90162" name="Warrior's Talisman Pack - Attack" additionalName="7-day" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.new_user_box" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -712,7 +712,7 @@
 		</capsuled_items>
 	</item>
 	<item id="90163" name="Warrior's Talisman Pack - Defense" additionalName="7-day" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.new_user_box" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -757,7 +757,7 @@
 		<set name="is_sellable" val="false" />
 	</item>
 	<item id="90167" name="Bunch of Bananas" additionalName="Sealed" type="EtcItem">
-		<!-- For 5 min., Acquired XP/ SP +10%, P./ M. Atk. +15%, P./ M. Def. +15%, Atk. Spd./ Casting Spd. +10%, Speed +10. The effect disappears after logout. -->
+		<!-- For 5 min., acquired XP/ SP while hunting +10%, P./ M. Atk. +15%, P./ M. Def. +15%, Atk. Spd./ Casting Spd. +10%, Speed +10. The effect disappears after logout. -->
 		<set name="icon" val="Icon.ev_monkey_banana" />
 		<set name="material" val="PAPER" />
 		<set name="is_tradable" val="false" />
@@ -774,7 +774,7 @@
 		</skills>
 	</item>
 	<item id="90168" name="Strawberry Banana Cocktail" type="EtcItem">
-		<!-- Activates the effect of Scroll: Prophecy of Fire Lv. 1 for 5 min. Note!. Effects of two cocktails do not stack. -->
+		<!-- For 5 min., activates the effect of Strawberry Banana Cocktail (Scroll: Prophecy of Fire Lv. 1). Note!. Effects of two cocktails do not stack. -->
 		<set name="icon" val="icon.etc_fruit_cocktail_i01" />
 		<set name="default_action" val="SKILL_REDUCE" />
 		<set name="is_stackable" val="true" />
@@ -790,7 +790,7 @@
 		</skills>
 	</item>
 	<item id="90169" name="Mango Banana Cocktail" type="EtcItem">
-		<!-- Activates the effect of Scroll: Prophecy of Water Lv. 1 for 5 min. Note!. Effects of two cocktails do not stack. -->
+		<!-- For 5 min., activates the effect of Mango Banana Cocktail (Scroll: Prophecy of Water Lv. 1). Note!. Effects of two cocktails do not stack. -->
 		<set name="icon" val="icon.etc_fruit_cocktail_i03" />
 		<set name="default_action" val="SKILL_REDUCE" />
 		<set name="is_stackable" val="true" />
@@ -806,7 +806,7 @@
 		</skills>
 	</item>
 	<item id="90170" name="Cherry Banana Cocktail" type="EtcItem">
-		<!-- Activates the effect of Scroll: Prophecy of Wind Lv. 1 for 5 min. Note!. Effects of two cocktails do not stack. -->
+		<!-- For 5 min., activates the effect of Cherry Banana Cocktail (Scroll: Prophecy of Wind Lv. 1). Note!. Effects of two cocktails do not stack. -->
 		<set name="icon" val="icon.etc_fruit_cocktail_i02" />
 		<set name="default_action" val="SKILL_REDUCE" />
 		<set name="is_stackable" val="true" />
@@ -852,7 +852,7 @@
 		<set name="is_stackable" val="true" />
 	</item>
 	<item id="90174" name="Silver Bait Box" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.bm_silver_lure_box" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -866,7 +866,7 @@
 		</capsuled_items>
 	</item>
 	<item id="90175" name="Golden Bait Box" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.bm_gold_lure_special_box" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -880,7 +880,7 @@
 		</capsuled_items>
 	</item>
 	<item id="90176" name="Golden Fishing kit Lv. 1" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.bm_freya_sirr_box" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -894,7 +894,7 @@
 		</capsuled_items>
 	</item>
 	<item id="90177" name="Golden Fishing kit Lv. 2" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.bm_freya_sirr_box" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -909,7 +909,7 @@
 		</capsuled_items>
 	</item>
 	<item id="90178" name="Golden Fishing kit Lv. 3" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.bm_freya_sirr_box" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -924,7 +924,7 @@
 		</capsuled_items>
 	</item>
 	<item id="90179" name="Golden Fishing kit Lv. 4" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.bm_freya_sirr_box" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -933,14 +933,14 @@
 		<set name="material" val="FISH" />
 		<set name="handler" val="ExtractableItems" />
 		<capsuled_items>
-			<item id="49521" min="1" max="1" chance="100" /> <!-- Refined Romantic Chapeau <STR+1 INT+1> -->
+			<item id="49521" min="1" max="1" chance="100" /> <!-- Refined Romantic Chapeau <STR +1 INT +1> -->
 			<item id="49588" min="1" max="1" chance="100" /> <!-- Golden Mermaid's Fishing Rod Chest - 30-day -->
 			<item id="90139" min="6480" max="6480" chance="100" /> <!-- Silver Bait - Sealed -->
 			<item id="90143" min="10" max="10" chance="100" /> <!-- Einhasad's Protection -->
 		</capsuled_items>
 	</item>
 	<item id="90180" name="Golden Fishing kit Lv. 5" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.bm_freya_sirr_box" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -949,7 +949,7 @@
 		<set name="material" val="FISH" />
 		<set name="handler" val="ExtractableItems" />
 		<capsuled_items>
-			<item id="49521" min="1" max="1" chance="100" /> <!-- Refined Romantic Chapeau <STR+1 INT+1> -->
+			<item id="49521" min="1" max="1" chance="100" /> <!-- Refined Romantic Chapeau <STR +1 INT +1> -->
 			<item id="49588" min="1" max="1" chance="100" /> <!-- Golden Mermaid's Fishing Rod Chest - 30-day -->
 			<item id="49590" min="1" max="1" chance="100" /> <!-- Rare Accessory Pack Lv. 3 - 30-day -->
 			<item id="90139" min="12960" max="12960" chance="100" /> <!-- Silver Bait - Sealed -->
@@ -1008,7 +1008,7 @@
 		<set name="is_stackable" val="true" />
 	</item>
 	<item id="90187" name="Gold Urn" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.bm_gold_pot" />
 		<set name="default_action" val="SKILL_REDUCE_ON_SKILL_SUCCESS" />
 		<set name="is_dropable" val="false" />
@@ -1034,8 +1034,8 @@
 			<item id="49472" min="1" max="1" chance="3.333333" /> <!-- Earth Dragon Pendant Pack -->
 			<item id="49471" min="1" max="1" chance="3.333333" /> <!-- Fire Dragon Pendant Pack -->
 			<item id="90045" min="1" max="1" chance="3.333333" /> <!-- Magic Tablet -->
-			<item id="49687" min="1" max="1" chance="3.333333" /> <!-- Chic Silver Chapeau <Str+1 Int+1> -->
-			<item id="49521" min="1" max="1" chance="3.333333" /> <!-- Refined Romantic Chapeau <STR+1 INT+1> -->
+			<item id="49687" min="1" max="1" chance="3.333333" /> <!-- Chic Silver Chapeau <STR +1 INT +1> -->
+			<item id="49521" min="1" max="1" chance="3.333333" /> <!-- Refined Romantic Chapeau <STR +1 INT +1> -->
 			<item id="90137" min="1" max="1" chance="3.333333" /> <!-- Matte Pendant Polish -->
 			<item id="49756" min="1" max="1" chance="3.333333" /> <!-- Cloth Piece -->
 			<item id="49513" min="1" max="1" chance="3.333333" /> <!-- Shining Pendant Polish box -->
@@ -1099,7 +1099,7 @@
 		</stats>
 	</item>
 	<item id="90192" name="Giant's Enchant Scroll Pack" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.etc_bm_jewelbox_main_i00" />
 		<set name="default_action" val="SKILL_REDUCE_ON_SKILL_SUCCESS" />
 		<set name="is_sellable" val="false" />
@@ -1119,7 +1119,7 @@
 		</capsuled_items>
 	</item>
 	<item id="90193" name="Low-grade Arena Loot" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.etc_jewel_box_i00" />
 		<set name="default_action" val="SKILL_REDUCE_ON_SKILL_SUCCESS" />
 		<set name="is_tradable" val="false" />
@@ -1140,7 +1140,7 @@
 		</capsuled_items>
 	</item>
 	<item id="90194" name="Mid-grade Arena Loot" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.etc_jewel_box_i00" />
 		<set name="default_action" val="SKILL_REDUCE_ON_SKILL_SUCCESS" />
 		<set name="is_tradable" val="false" />
@@ -1161,7 +1161,7 @@
 		</capsuled_items>
 	</item>
 	<item id="90195" name="High-grade Arena Loot" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.etc_jewel_box_i00" />
 		<set name="default_action" val="SKILL_REDUCE_ON_SKILL_SUCCESS" />
 		<set name="is_tradable" val="false" />
@@ -1214,7 +1214,7 @@
 		</stats>
 	</item>
 	<item id="90198" name="MOPP Combat Ration" additionalName="Sealed" type="EtcItem">
-		<!-- For 5 min., Acquired XP/ SP +10%, P./ M. Atk. +15%, P./ M. Def. +15%, Atk. Spd./ Casting Spd. +10%, Speed +10, Sayha's Grace Consumption -30%. The effect disappears after logout. -->
+		<!-- For 5 min., acquired XP/ SP +10%, P./ M. Atk. +15%, P./ M. Def. +15%, Atk. Spd./ Casting Spd. +10%, Speed +10, Sayha's Grace Consumption -30%. The effect disappears after logout. -->
 		<set name="icon" val="icon.ev_mopp_herb" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />

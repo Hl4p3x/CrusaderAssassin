@@ -19,7 +19,7 @@
 		<set name="is_stackable" val="true" />
 	</item>
 	<item id="4202" name="Chrono Cithara" type="Weapon">
-		<!-- Chronicle I Souvenir!. <font color=ff6666><Unavailable to Sylphs/ Vanguard Riders.></font> -->
+		<!-- Chronicle I Souvenir!. <font color=ff6666><Unavailable to Sylphs/ Vanguard Riders/ Assassins.></font> -->
 		<set name="icon" val="icon.weapon_chrono_cithara_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="SWORD" />
@@ -467,7 +467,7 @@
 		<set name="is_destroyable" val="false" />
 	</item>
 	<item id="4233" name="Knuckle Duster" type="Weapon">
-		<!-- <font color=ff6666><Unavailable to Sylphs/ Vanguard Riders.></font> -->
+		<!-- <font color=ff6666><Unavailable to Sylphs/ Vanguard Riders/ Assassins.></font> -->
 		<set name="icon" val="icon.weapon_knuckle_dust_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="DUALFIST" />

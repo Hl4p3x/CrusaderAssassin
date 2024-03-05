@@ -70,7 +70,7 @@
 		<set name="is_stackable" val="true" />
 	</item>
 	<item id="70205" name="Sniper's No-grade Mysterious Package" additionalName="Not Available" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.etc_ertheia2" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -82,7 +82,7 @@
 		<set name="is_freightable" val="true" />
 	</item>
 	<item id="70206" name="Mystic's No-grade Mysterious Package" additionalName="Not Available" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.etc_ertheia2" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -94,7 +94,7 @@
 		<set name="is_freightable" val="true" />
 	</item>
 	<item id="70207" name="Sniper's D-grade Mysterious Package" additionalName="Not Available" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.etc_ertheia2" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -106,7 +106,7 @@
 		<set name="is_freightable" val="true" />
 	</item>
 	<item id="70208" name="Mystic's D-grade Mysterious Package" additionalName="Not Available" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.etc_ertheia2" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -118,7 +118,7 @@
 		<set name="is_freightable" val="true" />
 	</item>
 	<item id="70209" name="Sniper's C-grade Mysterious Package" additionalName="Not Available" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.etc_ertheia2" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -130,7 +130,7 @@
 		<set name="is_freightable" val="true" />
 	</item>
 	<item id="70210" name="Mystic's C-grade Mysterious Package" additionalName="Not Available" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.etc_ertheia2" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -142,7 +142,7 @@
 		<set name="is_freightable" val="true" />
 	</item>
 	<item id="70211" name="Wondrous Cubic" additionalName="Not Available" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.etc_ertheia2" />
 		<set name="default_action" val="SKILL_REDUCE" />
 		<set name="material" val="FISH" />
@@ -151,7 +151,7 @@
 		<set name="is_sellable" val="false" />
 	</item>
 	<item id="70212" name="Wondrous Cubic" additionalName="Not Available" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.etc_ertheia2" />
 		<set name="default_action" val="SKILL_REDUCE" />
 		<set name="material" val="FISH" />
@@ -160,7 +160,7 @@
 		<set name="is_sellable" val="false" />
 	</item>
 	<item id="70213" name="Refined Romantic Gold Chapeau Box" additionalName="Not Available" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.etc_ertheia2" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -171,7 +171,7 @@
 		<set name="is_stackable" val="true" />
 	</item>
 	<item id="70214" name="Refined Romantic Yellow Chapeau Box" additionalName="Not Available" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.etc_ertheia2" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />

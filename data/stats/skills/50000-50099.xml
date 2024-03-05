@@ -33,7 +33,7 @@
 		<hitTime>1500</hitTime>
 		<effectPoint>-100</effectPoint>
 	</skill>
-	<skill id="50004" toLevel="2" name="Phantom Archer">
+	<skill id="50004" toLevel="2" name="Ghost Shooter">
 		<!-- Releases Skeletal Ghost from the sword. The Ghost breaks free and deals damage to the target. -->
 		<icon>icon.skill0000</icon>
 		<operateType>A1</operateType>
@@ -252,7 +252,7 @@
 		<mpConsume>15</mpConsume>
 	</skill>
 	<skill id="50027" toLevel="2" name="Heal">
-		<!-- Restores 30000 HP of the target. -->
+		<!-- Recovers 30,000 of the target's HP. -->
 		<icon>icon.skill0000</icon>
 		<operateType>A1</operateType>
 		<castRange>400</castRange>
@@ -400,7 +400,7 @@
 		<hitTime>1000</hitTime>
 		<coolTime>500</coolTime>
 	</skill>
-	<skill id="50038" toLevel="2" name="Aqua Wave">
+	<skill id="50038" toLevel="2" name="Water Wave">
 		<!-- Deals magic damage to nearby enemies. Power 138. -->
 		<icon>icon.skill0000</icon>
 		<operateType>A1</operateType>
@@ -668,7 +668,7 @@
 		<effectPoint>-100</effectPoint>
 	</skill>
 	<skill id="50054" toLevel="2" name="Stone Crusher">
-		<!-- Attacks nearby enemies with 10000 Power added to P. Atk. -->
+		<!-- Deals physical damage to nearby enemies. Power 10,000. -->
 		<icon>icon.skill0000</icon>
 		<operateType>A1</operateType>
 		<castRange>40</castRange>
@@ -881,7 +881,7 @@
 		<reuseDelay>5000</reuseDelay>
 		<effectPoint>-100</effectPoint>
 	</skill>
-	<skill id="50072" toLevel="1" name="Aqua Wave">
+	<skill id="50072" toLevel="1" name="Water Wave">
 		<!-- Affects the area. Deals a lot of damage. -->
 		<icon>icon.skill0000</icon>
 		<operateType>A1</operateType>
@@ -1031,7 +1031,7 @@
 		<effectPoint>-100</effectPoint>
 	</skill>
 	<skill id="50090" toLevel="2" name="Slow">
-		<!-- Immediately target's Speed -30%. -->
+		<!-- Momentarily the target's Speed -30%. -->
 		<icon>icon.skill1160</icon>
 		<operateType>A1</operateType>
 		<isDebuff>true</isDebuff>

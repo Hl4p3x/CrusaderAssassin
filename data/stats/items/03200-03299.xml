@@ -37,7 +37,7 @@
 		<set name="is_questitem" val="true" />
 	</item>
 	<item id="3203" name="Mark of Glory" additionalName="Not Available" type="EtcItem">
-		<!-- The item is not available. Mark given to those who have passed the Testimony of Glory. Item for class transfer. -->
+		<!-- The item is not available. A mark given to those who have passed the Testimony of Glory. Required for changing class. -->
 		<set name="icon" val="icon.etc_ertheia2" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="STEEL" />
@@ -505,7 +505,7 @@
 		<set name="is_questitem" val="true" />
 	</item>
 	<item id="3242" name="Blessed Seed" additionalName="Not Available" type="EtcItem">
-		<!-- The item is not available. Seed containing the blessings of Maphr. The proof of fertile lands. Take this to Warehouse Keeper Parman of Town of Giran. -->
+		<!-- The item is not available. A blessed seed that symbolizes fertility. Take it to Warehouse Keeper Parman in Giran. -->
 		<set name="icon" val="icon.etc_ertheia2" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="STEEL" />
@@ -913,7 +913,7 @@
 		<set name="is_questitem" val="true" />
 	</item>
 	<item id="3276" name="Mark of Champion" additionalName="Not Available" type="EtcItem">
-		<!-- The item is not available. Mark given to those who have passed the Test of the Champion. Item for class transfer. -->
+		<!-- The item is not available. A mark given to those who have passed the Test of the Champion. Required for changing class. -->
 		<set name="icon" val="icon.etc_ertheia2" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="STEEL" />
@@ -961,7 +961,7 @@
 		<set name="is_questitem" val="true" />
 	</item>
 	<item id="3280" name="Ascalon's Letter" additionalName="Not Available" type="EtcItem">
-		<!-- The item is not available. Veteran Ascalon's letter. Take this to Dye Merchant Groot of Town of Giran. -->
+		<!-- The item is not available. Veteran Ascalon's letter. Take it to Merchant Groot in Giran. -->
 		<set name="icon" val="icon.etc_ertheia2" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="STEEL" />
@@ -1045,7 +1045,7 @@
 		<set name="is_questitem" val="true" />
 	</item>
 	<item id="3287" name="Harpy's Egg" additionalName="Not Available" type="EtcItem">
-		<!-- The item is not available. Egg obtained after slaying a Harpy. Collect 30 of these and take them to Dye Merchant Groot of Town of Giran. -->
+		<!-- The item is not available. An egg obtained after slaying a Harpy. Collect 30 of these and take them to Merchant Groot in Giran. -->
 		<set name="icon" val="icon.etc_ertheia2" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="STEEL" />
@@ -1057,7 +1057,7 @@
 		<set name="is_questitem" val="true" />
 	</item>
 	<item id="3288" name="Medusa's Venom" additionalName="Not Available" type="EtcItem">
-		<!-- The item is not available. The venom obtained after slaying a Medusa. Collect 30 of these and take them to Dye Merchant Groot of Town of Giran. -->
+		<!-- The item is not available. Venom obtained after slaying a Medusa. Collect 30 of these and take them to Merchant Groot in Giran. -->
 		<set name="icon" val="icon.etc_ertheia2" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="STEEL" />
@@ -1069,7 +1069,7 @@
 		<set name="is_questitem" val="true" />
 	</item>
 	<item id="3289" name="Windsus Bile" additionalName="Not Available" type="EtcItem">
-		<!-- The item is not available. The bile obtained after slaying a Windsus. Collect 30 of these and take them to Dye Merchant Groot of Town of Giran. -->
+		<!-- The item is not available. Bile obtained after slaying a Windsus. Collect 30 of these and take them to Merchant Groot in Giran. -->
 		<set name="icon" val="icon.etc_ertheia2" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="STEEL" />
@@ -1117,7 +1117,7 @@
 		<set name="is_questitem" val="true" />
 	</item>
 	<item id="3293" name="Mark of Sagittarius" additionalName="Not Available" type="EtcItem">
-		<!-- The item is not available. Mark given to those who have passed the Test of the Sagittarius. Class transfer related item. -->
+		<!-- The item is not available. A mark given to those who have passed the Test of the Sagittarius. Required for changing class. -->
 		<set name="icon" val="icon.etc_ertheia2" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="STEEL" />

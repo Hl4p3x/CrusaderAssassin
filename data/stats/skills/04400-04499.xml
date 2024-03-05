@@ -2183,7 +2183,7 @@
 		</effects>
 	</skill>
 	<skill id="4457" toLevel="5" name="Fist Weapon Vulnerability">
-		<!-- Vulnerable to fist weapon. -->
+		<!-- Vulnerable to fist weapon attacks. -->
 		<icon>icon.skill4457</icon>
 		<magicLevel>1</magicLevel>
 		<operateType>P</operateType>
@@ -2201,7 +2201,7 @@
 		</effects>
 	</skill>
 	<skill id="4458" toLevel="5" name="Spear Vulnerability">
-		<!-- Vulnerable to spear. -->
+		<!-- Vulnerable to spear attacks. -->
 		<icon>icon.skill4458</icon>
 		<magicLevel>1</magicLevel>
 		<operateType>P</operateType>
@@ -2219,7 +2219,7 @@
 		</effects>
 	</skill>
 	<skill id="4459" toLevel="5" name="Dual Sword Vulnerability">
-		<!-- Vulnerable to dual sword. -->
+		<!-- Vulnerable to dual sword attacks. -->
 		<icon>icon.skill4459</icon>
 		<magicLevel>1</magicLevel>
 		<operateType>P</operateType>
@@ -2237,7 +2237,7 @@
 		</effects>
 	</skill>
 	<skill id="4460" toLevel="5" name="Sword Vulnerability">
-		<!-- Vulnerable to sword. -->
+		<!-- Vulnerable to sword attacks. -->
 		<icon>icon.skill4460</icon>
 		<magicLevel>1</magicLevel>
 		<operateType>P</operateType>
@@ -2287,7 +2287,7 @@
 		</effects>
 	</skill>
 	<skill id="4462" toLevel="5" name="Two-handed Weapon Vulnerability">
-		<!-- Vulnerable to two-handed weapon. -->
+		<!-- Vulnerable to two-handed weapon attacks. -->
 		<icon>icon.skill4462</icon>
 		<magicLevel>1</magicLevel>
 		<operateType>P</operateType>

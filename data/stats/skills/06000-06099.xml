@@ -332,7 +332,7 @@
 		<targetType>TARGET</targetType>
 		<affectScope>SINGLE</affectScope>
 	</skill>
-	<skill id="6034" toLevel="1" name="Freezing">
+	<skill id="6034" toLevel="1" name="Freeze">
 		<!-- Impossible to move until the match starts. -->
 		<icon>icon.skill0000</icon>
 		<abnormalLevel>1</abnormalLevel>

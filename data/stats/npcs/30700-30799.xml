@@ -269,7 +269,7 @@
 			<height normal="29" />
 		</collision>
 	</npc>
-	<npc id="30707" level="75" type="Guard" name="Raigen" title="Captain">
+	<npc id="30707" level="75" type="Guard" name="Raigen" title="Guard Captain">
 		<parameters>
 			<param name="MoveAroundSocial" value="0" />
 			<param name="MoveAroundSocial1" value="92" />
@@ -894,7 +894,7 @@
 			<height normal="25" />
 		</collision>
 	</npc>
-	<npc id="30723" level="75" type="Guard" name="Roy" title="Captain">
+	<npc id="30723" level="75" type="Guard" name="Roy" title="Guard Captain">
 		<parameters>
 			<param name="MoveAroundSocial" value="0" />
 			<param name="MoveAroundSocial1" value="92" />
@@ -1777,7 +1777,7 @@
 			<height normal="24" />
 		</collision>
 	</npc>
-	<npc id="30745" level="70" type="Folk" name="Tor" title="Hunters' Guild">
+	<npc id="30745" level="70" type="Folk" name="Tor " title="Hunters' Guild">
 		<parameters>
 			<param name="MoveAroundSocial" value="0" />
 			<param name="MoveAroundSocial1" value="120" />

@@ -422,7 +422,7 @@
 			<height normal="21.5" grown="25.8" />
 		</collision>
 	</npc>
-	<npc id="27310" level="75" type="Monster" name="Kitanis Van Hacken" title="Quest Monster">
+	<npc id="27310" level="75" type="Monster" name="Kitanis van Hacken" title="Quest Monster">
 		<parameters>
 			<param name="MoveAroundSocial" value="130" />
 			<param name="MoveAroundSocial1" value="130" />

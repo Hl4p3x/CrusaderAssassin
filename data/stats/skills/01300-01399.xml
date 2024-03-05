@@ -3346,8 +3346,8 @@
 		</effects>
 	</skill>
 	<skill id="1368" toLevel="8" name="Expand Dwarven Craft">
-		<!-- Increases the number of recipes that can be recorded in Dwarven-only recipe books. -->
-		<icon>icon.skill1368</icon>
+		<!-- Increases the number of recipes that can be recorded in Dwarven-only recipe books. Slots: +6. -->
+		<icon>icon.s_expand_dwarven_craft</icon>
 		<magicLevel>
 			<value level="1">10</value>
 			<value level="2">20</value>
@@ -3410,8 +3410,8 @@
 		</effects>
 	</skill>
 	<skill id="1370" toLevel="8" name="Expand Trade">
-		<!-- Increases the number of items that can be bought and sold at private stores. -->
-		<icon>icon.skill1370</icon>
+		<!-- Increases the number of items that can be bought and sold at private stores. Slots: +1. -->
+		<icon>icon.s_expand_trade</icon>
 		<magicLevel>
 			<value level="1">40</value>
 			<value level="2">55</value>
@@ -3456,8 +3456,8 @@
 		</effects>
 	</skill>
 	<skill id="1371" toLevel="8" name="Expand Warehouse">
-		<!-- Increases the number of items that can be stored in private warehouses and freight. -->
-		<icon>icon.skill0333</icon>
+		<!-- Increases the number of items that can be stored in private warehouses and freight. Slots: +6. -->
+		<icon>icon.s_expand_storage</icon>
 		<magicLevel>
 			<value level="1">10</value>
 			<value level="2">20</value>
@@ -3488,8 +3488,8 @@
 		</effects>
 	</skill>
 	<skill id="1372" toLevel="5" name="Expand Inventory">
-		<!-- Increases the number of items an individual can possess. -->
-		<icon>icon.skill0332</icon>
+		<!-- Increases the number of items an individual can possess. Slots: +10. -->
+		<icon>icon.s_expand_inventory</icon>
 		<magicLevel>
 			<value level="1">10</value>
 			<value level="2">20</value>

@@ -941,7 +941,7 @@
 			<param name="MoveAroundSocial1" value="75" />
 			<param name="MoveAroundSocial2" value="75" />
 			<minions name="Privates">
-				<npc id="27037" count="4" respawnTime="240" weightPoint="1" />
+				<npc id="27037" count="4" respawnTime="240" weightPoint="1" /> <!-- Calpico's Pawn -->
 			</minions>
 		</parameters>
 		<race>HUMANOID</race>
@@ -1065,7 +1065,7 @@
 			<param name="MoveAroundSocial1" value="75" />
 			<param name="MoveAroundSocial2" value="75" />
 			<minions name="Privates">
-				<npc id="27042" count="5" respawnTime="180" weightPoint="1" />
+				<npc id="27042" count="5" respawnTime="180" weightPoint="1" /> <!-- Orc Escort -->
 			</minions>
 		</parameters>
 		<race>HUMANOID</race>
@@ -1924,7 +1924,7 @@
 			<param name="MoveAroundSocial1" value="75" />
 			<param name="MoveAroundSocial2" value="75" />
 			<minions name="Privates">
-				<npc id="27063" count="2" respawnTime="200" weightPoint="1" />
+				<npc id="27063" count="2" respawnTime="200" weightPoint="1" /> <!-- Tanukia's Warhound -->
 			</minions>
 		</parameters>
 		<race>HUMANOID</race>
@@ -2055,7 +2055,7 @@
 			<param name="MoveAroundSocial1" value="104" />
 			<param name="MoveAroundSocial2" value="104" />
 			<minions name="Privates">
-				<npc id="27066" count="2" respawnTime="200" weightPoint="1" />
+				<npc id="27066" count="2" respawnTime="200" weightPoint="1" /> <!-- Roko's Warhound -->
 			</minions>
 		</parameters>
 		<race>HUMANOID</race>
@@ -2186,7 +2186,7 @@
 			<param name="MoveAroundSocial1" value="104" />
 			<param name="MoveAroundSocial2" value="104" />
 			<minions name="Privates">
-				<npc id="27069" count="2" respawnTime="200" weightPoint="1" />
+				<npc id="27069" count="2" respawnTime="200" weightPoint="1" /> <!-- Murtika's Warhound -->
 			</minions>
 		</parameters>
 		<race>HUMANOID</race>
@@ -2804,7 +2804,7 @@
 			<param name="MoveAroundSocial1" value="40" />
 			<param name="MoveAroundSocial2" value="65" />
 			<minions name="Privates">
-				<npc id="20253" count="4" respawnTime="60" weightPoint="1" />
+				<npc id="20253" count="4" respawnTime="60" weightPoint="1" /> <!-- Delu Lizardman Warrior -->
 			</minions>
 		</parameters>
 		<race>HUMANOID</race>

@@ -276,16 +276,16 @@
 						<item id="6662" count="1" /> <!-- Ring of Core -->
 					</item>
 					<item chance="2.5">
-						<item id="8618" count="1" /> <!-- Buff Expansion Book Lv. 1 -->
+						<item id="8618" count="1" /> <!-- Spellbook: Divine Inspiration Lv. 1 -->
 					</item>
 					<item chance="2.5">
-						<item id="8619" count="1" /> <!-- Buff Expansion Book Lv. 2 -->
+						<item id="8619" count="1" /> <!-- Spellbook: Divine Inspiration Lv. 2 -->
 					</item>
 					<item chance="2.5">
-						<item id="8620" count="1" /> <!-- Buff Expansion Book Lv. 3 -->
+						<item id="8620" count="1" /> <!-- Spellbook: Divine Inspiration Lv. 3 -->
 					</item>
 					<item chance="2.5">
-						<item id="8621" count="1" /> <!-- Buff Expansion Book Lv. 4 -->
+						<item id="8621" count="1" /> <!-- Spellbook: Divine Inspiration Lv. 4 -->
 					</item>
 					<item chance="2.5">
 						<item id="49471" count="1" /> <!-- Fire Dragon Pendant Pack -->
@@ -345,13 +345,13 @@
 						<item id="91034" count="1" /> <!-- Earth Spirit Evolution Stone -->
 					</item>
 					<item chance="2.5">
-						<item id="91113" count="1" /> <!-- Old Inventory Expansion Ticket Lv. 1 -->
+						<item id="91113" count="1" /> <!-- Old Inventory Expansion Coupon Lv. 1 -->
 					</item>
 					<item chance="2.5">
-						<item id="91114" count="1" /> <!-- Old Inventory Expansion Ticket Lv. 2 -->
+						<item id="91114" count="1" /> <!-- Old Inventory Expansion Coupon Lv. 2 -->
 					</item>
 					<item chance="2.5">
-						<item id="91115" count="1" /> <!-- Old Inventory Expansion Ticket Lv. 3 -->
+						<item id="91115" count="1" /> <!-- Old Inventory Expansion Coupon Lv. 3 -->
 					</item>
 					<item chance="2.5">
 						<item id="91148" count="1" /> <!-- Jewel Box Lv. 5 -->
@@ -360,10 +360,10 @@
 						<item id="91216" count="1" /> <!-- +16 B-grade Weapon Pack -->
 					</item>
 					<item chance="2.5">
-						<item id="91296" count="1" /> <!-- Old Inventory Expansion Ticket Lv. 4 -->
+						<item id="91296" count="1" /> <!-- Old Inventory Expansion Coupon Lv. 4 -->
 					</item>
 					<item chance="2.5">
-						<item id="91297" count="1" /> <!-- Old Inventory Expansion Ticket Lv. 5 -->
+						<item id="91297" count="1" /> <!-- Old Inventory Expansion Coupon Lv. 5 -->
 					</item>
 					<item chance="2.5">
 						<item id="91741" count="1" /> <!-- Einhasad's Protection - Sealed -->

@@ -237,7 +237,7 @@
 		</skills>
 	</item>
 	<item id="48066" name="Zodiac Agathion Box" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.star_agathion_cube" />
 		<set name="default_action" val="SKILL_REDUCE_ON_SKILL_SUCCESS" />
 		<set name="weight" val="5" />

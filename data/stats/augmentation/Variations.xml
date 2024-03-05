@@ -13519,7 +13519,7 @@
 				</optionCategory>
 			</optionGroup>
 		</variation>
-		<!-- Special Equipment Augmenting Stone -->
+		<!-- Augmenting Stone: Special Equipment -->
 		<variation mineralId="97787" itemGroup="8">
 			<optionGroup order="0">
 				<optionCategory chance="15">
@@ -13651,7 +13651,7 @@
 				</optionCategory>
 			</optionGroup>
 		</variation>
-		<!-- Special Equipment Augmenting Stone - Sealed -->
+		<!-- Augmenting Stone: Special Equipment - Sealed -->
 		<variation mineralId="97788" itemGroup="8">
 			<optionGroup order="0">
 				<optionCategory chance="15">
@@ -14025,7 +14025,7 @@
 				</optionCategory>
 			</optionGroup>
 		</variation>
-		<!-- Special Equipment Augmenting Stone -->
+		<!-- Augmenting Stone: Special Equipment -->
 		<variation mineralId="97787" itemGroup="9">
 			<optionGroup order="0">
 				<optionCategory chance="15">
@@ -14157,7 +14157,7 @@
 				</optionCategory>
 			</optionGroup>
 		</variation>
-		<!-- Special Equipment Augmenting Stone - Sealed -->
+		<!-- Augmenting Stone: Special Equipment - Sealed -->
 		<variation mineralId="97788" itemGroup="9">
 			<optionGroup order="0">
 				<optionCategory chance="15">
@@ -14531,7 +14531,7 @@
 				</optionCategory>
 			</optionGroup>
 		</variation>
-		<!-- Special Equipment Augmenting Stone -->
+		<!-- Augmenting Stone: Special Equipment -->
 		<variation mineralId="97787" itemGroup="26">
 			<optionGroup order="0">
 				<optionCategory chance="20">
@@ -14702,7 +14702,7 @@
 				</optionCategory>
 			</optionGroup>
 		</variation>
-		<!-- Special Equipment Augmenting Stone - Sealed -->
+		<!-- Augmenting Stone: Special Equipment - Sealed -->
 		<variation mineralId="97788" itemGroup="26">
 			<optionGroup order="0">
 				<optionCategory chance="20">
@@ -16653,7 +16653,6 @@
 			<item id="93433" /> <!-- Star Buster - Sealed -->
 			<item id="93434" /> <!-- Dismantler - Sealed -->
 			<item id="93435" /> <!-- Colichemarde - Sealed -->
-			<item id="93864" /> <!-- Death Knight's Flame Sword -->
 			<item id="94909" /> <!-- Bastard Sword - Sealed -->
 			<item id="94910" /> <!-- Claymore - Sealed -->
 			<item id="94911" /> <!-- Flamberge - Sealed -->
@@ -17028,6 +17027,20 @@
 			<item id="97961" /> <!-- Anais' Fists - Sealed -->
 			<item id="97962" /> <!-- Juriel's Dual Swords -->
 			<item id="97963" /> <!-- Juriel's Dual Swords - Sealed -->
+			<item id="93864" /> <!-- Death Knight's Flame Sword -->
+			<item id="96927" /> <!-- Axe of Immortality -->
+			<item id="96928" /> <!-- Ancient Sword of Immortality -->
+			<item id="96929" /> <!-- Magic Blunt Weapon of Immortality -->
+			<item id="96930" /> <!-- Flame Fists of Immortality -->
+			<item id="96931" /> <!-- Pistols of Immortality -->
+			<item id="96932" /> <!-- Rapier of Immortality -->
+			<item id="96933" /> <!-- Staff of Immortality -->
+			<item id="96935" /> <!-- Dagger of Immortality -->
+			<item id="96938" /> <!-- Two-handed Sword of Immortality -->
+			<item id="96939" /> <!-- Spear of Immortality -->
+			<item id="96940" /> <!-- Bow of Immortality -->
+			<item id="97088" /> <!-- Sword of Immortality -->
+			<item id="97089" /> <!-- Dual Swords of Immortality -->
 		</itemGroup>
 		<itemGroup id="1">
 			<item id="95663" /> <!-- Sigil of Protection -->
@@ -17163,11 +17176,11 @@
 			<item id="21755" /> <!-- The Best Graduate's Cope -->
 			<item id="37533" /> <!-- NC Messenger's Hat - Sealed -->
 			<item id="37535" /> <!-- Santa Hat - Sealed -->
-			<item id="49521" /> <!-- Refined Romantic Chapeau <STR+1 INT+1> -->
-			<item id="49522" /> <!-- Pirate King Hat <STR+1 INT+1> -->
+			<item id="49521" /> <!-- Refined Romantic Chapeau <STR +1 INT +1> -->
+			<item id="49522" /> <!-- Pirate King Hat <STR +1 INT +1> -->
 			<item id="49523" /> <!-- Demon's Circlet <STR+1 INT+1> -->
 			<item id="49530" /> <!-- Blue Dynasty Circlet -->
-			<item id="49687" /> <!-- Chic Silver Chapeau <Str+1 Int+1> -->
+			<item id="49687" /> <!-- Chic Silver Chapeau <STR +1 INT +1> -->
 			<item id="90769" /> <!-- Teddy Bear Hat - Sealed -->
 			<item id="90770" /> <!-- Piggy Hat - Sealed -->
 			<item id="90771" /> <!-- Frog Hat - Sealed -->
@@ -17731,26 +17744,27 @@
 		<itemGroup id="8">
 			<item id="94166" /> <!-- Circlet of Hero - Sealed -->
 			<item id="95637" /> <!-- Clan Circlet - Sealed -->
+			<item id="98205" /> <!-- Blessed Circlet of Hero - Sealed -->
 		</itemGroup>
 		<itemGroup id="9">
 			<item id="90837" /> <!-- White Uniform Hat <STR+1 INT+1> -->
-			<item id="90838" /> <!-- White Uniform Hat <DEX+1 WIT+1> -->
+			<item id="90838" /> <!-- White Uniform Hat <DEX +1 WIT +1> -->
 			<item id="90839" /> <!-- White Uniform Hat <CON+1 MEN+1> -->
 			<item id="90840" /> <!-- Napoleon Hat <STR+1 INT+1> -->
-			<item id="90841" /> <!-- Napoleon Hat <DEX+1 WIT+1> -->
+			<item id="90841" /> <!-- Napoleon Hat <DEX +1 WIT +1> -->
 			<item id="90842" /> <!-- Napoleon Hat <CON+1 MEN+1> -->
 			<item id="90843" /> <!-- Ninja Head Accessory <STR+1 INT+1> -->
 			<item id="90844" /> <!-- Ninja Head Accessory <DEX+1 WIT+1> -->
 			<item id="90845" /> <!-- Ninja Head Accessory <CON+1 MEN+1> -->
 			<item id="90846" /> <!-- Warrior's Helmet <STR+1 INT+1> -->
-			<item id="90847" /> <!-- Warrior's Helmet <DEX+1 WIT+1> -->
+			<item id="90847" /> <!-- Warrior's Helmet <DEX +1 WIT +1> -->
 			<item id="90848" /> <!-- Warrior's Helmet <CON+1 MEN+1> -->
 			<item id="90849" /> <!-- First Mate Hat <STR+1 INT+1> -->
-			<item id="90850" /> <!-- First Mate Hat <DEX+1 WIT+1> -->
+			<item id="90850" /> <!-- First Mate Hat <DEX +1 WIT +1> -->
 			<item id="90851" /> <!-- First Mate Hat <CON+1 MEN+1> -->
-			<item id="90852" /> <!-- Artisan's Goggles <STR+1 INT+1> -->
-			<item id="90853" /> <!-- Artisan's Goggles <DEX+1 WIT+1> -->
-			<item id="90854" /> <!-- Artisan's Goggles <CON+1 MEN+1> -->
+			<item id="90852" /> <!-- Artisan's Goggles <STR +1 INT +1> -->
+			<item id="90853" /> <!-- Artisan's Goggles <DEX +1 WIT +1> -->
+			<item id="90854" /> <!-- Artisan's Goggles <CON +1 MEN +1> -->
 		</itemGroup>
 		<itemGroup id="10">
 			<item id="91952" /> <!-- Ring of Insolence -->
@@ -17952,8 +17966,8 @@
 		<fee itemGroup="8" adenaFee="900000" cancelFee="100000">
 			<mineral id="94303" /> <!-- Augmenting Stone: Circlet -->
 			<mineral id="94304" /> <!-- Augmenting Stone: Circlet - Sealed -->
-			<mineral id="97787" /> <!-- Special Equipment Augmenting Stone -->
-			<mineral id="97788" /> <!-- Special Equipment Augmenting Stone - Sealed -->
+			<mineral id="97787" /> <!-- Augmenting Stone: Special Equipment -->
+			<mineral id="97788" /> <!-- Augmenting Stone: Special Equipment - Sealed -->
 		</fee>
 
 		<fee itemGroup="9" adenaFee="2000000" cancelFee="100000">
@@ -17965,8 +17979,8 @@
 		<fee itemGroup="9" adenaFee="900000" cancelFee="100000">
 			<mineral id="94303" /> <!-- Augmenting Stone: Circlet -->
 			<mineral id="94304" /> <!-- Augmenting Stone: Circlet - Sealed -->
-			<mineral id="97787" /> <!-- Special Equipment Augmenting Stone -->
-			<mineral id="97788" /> <!-- Special Equipment Augmenting Stone - Sealed -->
+			<mineral id="97787" /> <!-- Augmenting Stone: Special Equipment -->
+			<mineral id="97788" /> <!-- Augmenting Stone: Special Equipment - Sealed -->
 		</fee>
 		<fee itemGroup="9" itemId="2131" itemCount="30" cancelFee="100000">
 			<mineral id="90856" /> <!-- Life Stone Lv. 1 - Head Accessory -->
@@ -18124,8 +18138,8 @@
 			<mineral id="97790" /> <!-- Blessed Augmenting Stone: Special Equipment - Sealed -->
 		</fee>
 		<fee itemGroup="26" adenaFee="900000" cancelFee="100000">
-			<mineral id="97787" /> <!-- Special Equipment Augmenting Stone -->
-			<mineral id="97788" /> <!-- Special Equipment Augmenting Stone - Sealed -->
+			<mineral id="97787" /> <!-- Augmenting Stone: Special Equipment -->
+			<mineral id="97788" /> <!-- Augmenting Stone: Special Equipment - Sealed -->
 		</fee>
 	</fees>
 </list>

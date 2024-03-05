@@ -112,12 +112,12 @@
 		<operateType>A1</operateType>
 	</skill>
 	<skill id="61526" toLevel="10" name="Test - p_hp_vampiric_rate_down">
-		<!-- Target's HP Drain -10% -->
+		<!-- The target's HP Drain -10% -->
 		<icon>icon.s_soul_sign</icon>
 		<operateType>A1</operateType>
 	</skill>
 	<skill id="61527" toLevel="10" name="Test - p_hp_vampiric_rate_down (simultaneous use test)">
-		<!-- Target's HP Drain -10% -->
+		<!-- The target's HP Drain -10% -->
 		<icon>icon.skill1447</icon>
 		<operateType>A1</operateType>
 	</skill>
@@ -257,35 +257,28 @@
 		<operateType>A1</operateType>
 	</skill>
 	<skill id="61560" toLevel="1" name="Test - Dark Disruption">
-		<!-- Deals magic damage to the target and enemies around them. Power 130. Cancels the Opal effect with a 50% chance. Duration: 10 sec. HP Recovery Potions' Effect -500. Removes the following buffs and blocks them for 10 sec.:. - Special class transformation -->
-		<icon>icon.banish</icon>
+		<!-- Deals magic damage to the target and enemies around them. Power 130. Cancels the Opal effect with a 50% chance. Duration: $s1 HP Recovery Potions' Effect $s2 Removes the following buffs and blocks them for 10 sec.: - Special class transformation -->
 		<operateType>A1</operateType>
 	</skill>
 	<skill id="61561" toLevel="1" name="Test - Dark Disruption">
-		<!-- Removes the following buffs and blocks them for 10 sec.:. - Special class transformation -->
-		<icon>icon.banish</icon>
+		<!-- Removes the following buffs and blocks them for 10 sec.: - Special class transformation -->
 		<operateType>A1</operateType>
 	</skill>
 	<skill id="61562" toLevel="1" name="Test - Ninja Skills">
 		<!-- Ninja Skill - Instant Movement -->
-		<icon>icon.skill30507</icon>
 		<operateType>A1</operateType>
 	</skill>
 	<skill id="61563" toLevel="1" name="Ninja - Left">
-		<icon>icon.skill30507</icon>
 		<operateType>A1</operateType>
 	</skill>
 	<skill id="61564" toLevel="1" name="Ninja - Right">
-		<icon>icon.skill30508</icon>
 		<operateType>A1</operateType>
 	</skill>
 	<skill id="61565" toLevel="1" name="Ninja - Back">
-		<icon>icon.skill30507</icon>
 		<operateType>A1</operateType>
 	</skill>
 	<skill id="61566" toLevel="1" name="Transcendent Lethal Shot - without_action">
-		<!-- Shoots a deadly arrow. Attacks the target with 9479 power. Ignores Shield Defense. Ignores 5% of the target's defense. Critical. -->
-		<icon>icon.skill0343</icon>
+		<!-- Shoots a deadly arrow. Attacks the target with $s1 power. Ignores Shield Defense. Ignores $s2 of the target's defense. Critical. -->
 		<operateType>A1</operateType>
 	</skill>
 	<skill id="61567" toLevel="1" name="Reputation Recovery +10%">

@@ -349,7 +349,7 @@
 		<set name="is_questitem" val="true" />
 	</item>
 	<item id="2729" name="Hair of Nahir" additionalName="Not Available" type="EtcItem">
-		<!-- The item is not available. Nahir's hair. Take it to Priest Petron on Talking Island. -->
+		<!-- The item is not available. Nahir's hair. Take it to Priest Foster on Talking Island. -->
 		<set name="icon" val="icon.etc_ertheia2" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="STEEL" />
@@ -361,7 +361,7 @@
 		<set name="is_questitem" val="true" />
 	</item>
 	<item id="2730" name="Einhasad's Statue" additionalName="Not Available" type="EtcItem">
-		<!-- The item is not available. Einhasad's statue obtained from Priest Petron. Take it to Andellia who lives near the Mother Tree in the Elven Village. -->
+		<!-- The item is not available. Einhasad's statue obtained from Priest Foster. Take it to Andellia who lives near the Mother Tree in the Elven Village. -->
 		<set name="icon" val="icon.etc_ertheia2" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="STEEL" />

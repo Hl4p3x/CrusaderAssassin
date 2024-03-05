@@ -844,9 +844,9 @@
 		<icon>icon.skill0000</icon>
 		<operateType>A1</operateType>
 	</skill>
-	<skill id="48587" toLevel="20" name="Ranged Weapon Resistance 5%">
-		<!-- Ranged Weapon Resistance +5% -->
-		<icon>icon.skill0000</icon>
+	<skill id="48587" toLevel="20" name="Bow/ Firearms Resistance">
+		<!-- Bow/ Firearms Resistance. -->
+		<icon>icon.skill4071</icon>
 		<operateType>A1</operateType>
 	</skill>
 	<skill id="48588" toLevel="20" name="Resistance to All Weapons 5%">
@@ -879,7 +879,7 @@
 		<icon>icon.skill0000</icon>
 		<operateType>A1</operateType>
 	</skill>
-	<skill id="48594" toLevel="1" name="Escape">
+	<skill id="48594" toLevel="1" name="Return">
 		<icon>icon.skill0000</icon>
 		<operateType>A1</operateType>
 	</skill>

@@ -16,7 +16,7 @@
 	</option>
 	<option id="401" name="o_f_58_1g_37">
 		<!-- Max HP +38.27 -->
-		<!-- Max MP +11.28. -->
+		<!-- Max MP +11.28 -->
 		<effects>
 			<effect name="MaxHp">
 				<amount>38.272</amount>

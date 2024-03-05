@@ -1684,7 +1684,7 @@
 		</effects>
 	</skill>
 	<skill id="1527" toLevel="3" name="Expert Casting">
-		<!-- Casting Spd. +100. Skill Cooldown -10% -->
+		<!-- Casting Spd. +100. M. Skill Cooldown -10% -->
 		<icon>icon.skill11841</icon>
 		<magicLevel>
 			<value level="1">58</value>
@@ -3352,7 +3352,7 @@
 		</effects>
 	</skill>
 	<skill id="1553" toLevel="2" name="Chain Heal">
-		<!-- For the target and 10 nearby allies. Restores 30% of Max HP to the most damaged ally. Restored HP of the rest decreases. -->
+		<!-- For the target and 10 nearby allies. Recovers 30% of Max HP to the most damaged ally. Recovered HP of the rest decreases. -->
 		<icon>icon.skill1553</icon>
 		<affectLimit>9-0</affectLimit>
 		<affectRange>300</affectRange>

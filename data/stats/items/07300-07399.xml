@@ -794,7 +794,7 @@
 		<set name="is_destroyable" val="false" />
 	</item>
 	<item id="7361" name="Resonance Amulet: 4" type="EtcItem">
-		<!-- An item that enables communication with the forth mysterious monument. -->
+		<!-- An item required for communicating with the fourth mysterious slate. -->
 		<set name="icon" val="icon.etc_resonance_amulet_i00" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="PAPER" />
@@ -807,7 +807,7 @@
 		<set name="is_destroyable" val="false" />
 	</item>
 	<item id="7362" name="Resonance Amulet: 4" type="EtcItem">
-		<!-- An item that enables communication with the forth mysterious monument. -->
+		<!-- An item required for communicating with the fourth mysterious slate. -->
 		<set name="icon" val="icon.etc_resonance_amulet_i00" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="PAPER" />
@@ -820,7 +820,7 @@
 		<set name="is_destroyable" val="false" />
 	</item>
 	<item id="7363" name="Resonance Amulet: 4" type="EtcItem">
-		<!-- An item that enables communication with the forth mysterious monument. -->
+		<!-- An item required for communicating with the fourth mysterious slate. -->
 		<set name="icon" val="icon.etc_resonance_amulet_i00" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="PAPER" />
@@ -833,7 +833,7 @@
 		<set name="is_destroyable" val="false" />
 	</item>
 	<item id="7364" name="Resonance Amulet: 4" type="EtcItem">
-		<!-- An item that enables communication with the forth mysterious monument. -->
+		<!-- An item required for communicating with the fourth mysterious slate. -->
 		<set name="icon" val="icon.etc_resonance_amulet_i00" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="PAPER" />
@@ -846,7 +846,7 @@
 		<set name="is_destroyable" val="false" />
 	</item>
 	<item id="7365" name="Resonance Amulet: 4" type="EtcItem">
-		<!-- An item that enables communication with the forth mysterious monument. -->
+		<!-- An item required for communicating with the fourth mysterious slate. -->
 		<set name="icon" val="icon.etc_resonance_amulet_i00" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="PAPER" />
@@ -859,7 +859,7 @@
 		<set name="is_destroyable" val="false" />
 	</item>
 	<item id="7366" name="Resonance Amulet: 4" type="EtcItem">
-		<!-- An item that enables communication with the forth mysterious monument. -->
+		<!-- An item required for communicating with the fourth mysterious slate. -->
 		<set name="icon" val="icon.etc_resonance_amulet_i00" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="PAPER" />
@@ -872,7 +872,7 @@
 		<set name="is_destroyable" val="false" />
 	</item>
 	<item id="7367" name="Resonance Amulet: 4" type="EtcItem">
-		<!-- An item that enables communication with the forth mysterious monument. -->
+		<!-- An item required for communicating with the fourth mysterious slate. -->
 		<set name="icon" val="icon.etc_resonance_amulet_i00" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="PAPER" />
@@ -885,7 +885,7 @@
 		<set name="is_destroyable" val="false" />
 	</item>
 	<item id="7368" name="Resonance Amulet: 4" type="EtcItem">
-		<!-- An item that enables communication with the forth mysterious monument. -->
+		<!-- An item required for communicating with the fourth mysterious slate. -->
 		<set name="icon" val="icon.etc_resonance_amulet_i00" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="PAPER" />
@@ -898,7 +898,7 @@
 		<set name="is_destroyable" val="false" />
 	</item>
 	<item id="7369" name="Resonance Amulet: 4" type="EtcItem">
-		<!-- An item that enables communication with the forth mysterious monument. -->
+		<!-- An item required for communicating with the fourth mysterious slate. -->
 		<set name="icon" val="icon.etc_resonance_amulet_i00" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="PAPER" />
@@ -911,7 +911,7 @@
 		<set name="is_destroyable" val="false" />
 	</item>
 	<item id="7370" name="Resonance Amulet: 4" type="EtcItem">
-		<!-- An item that enables communication with the forth mysterious monument. -->
+		<!-- An item required for communicating with the fourth mysterious slate. -->
 		<set name="icon" val="icon.etc_resonance_amulet_i00" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="PAPER" />
@@ -924,7 +924,7 @@
 		<set name="is_destroyable" val="false" />
 	</item>
 	<item id="7371" name="Resonance Amulet: 4" type="EtcItem">
-		<!-- An item that enables communication with the forth mysterious monument. -->
+		<!-- An item required for communicating with the fourth mysterious slate. -->
 		<set name="icon" val="icon.etc_resonance_amulet_i00" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="PAPER" />
@@ -937,7 +937,7 @@
 		<set name="is_destroyable" val="false" />
 	</item>
 	<item id="7372" name="Resonance Amulet: 4" type="EtcItem">
-		<!-- An item that enables communication with the forth mysterious monument. -->
+		<!-- An item required for communicating with the fourth mysterious slate. -->
 		<set name="icon" val="icon.etc_resonance_amulet_i00" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="PAPER" />
@@ -950,7 +950,7 @@
 		<set name="is_destroyable" val="false" />
 	</item>
 	<item id="7373" name="Resonance Amulet: 4" type="EtcItem">
-		<!-- An item that enables communication with the forth mysterious monument. -->
+		<!-- An item required for communicating with the fourth mysterious slate. -->
 		<set name="icon" val="icon.etc_resonance_amulet_i00" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="PAPER" />
@@ -963,7 +963,7 @@
 		<set name="is_destroyable" val="false" />
 	</item>
 	<item id="7374" name="Resonance Amulet: 4" type="EtcItem">
-		<!-- An item that enables communication with the forth mysterious monument. -->
+		<!-- An item required for communicating with the fourth mysterious slate. -->
 		<set name="icon" val="icon.etc_resonance_amulet_i00" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="PAPER" />
@@ -976,7 +976,7 @@
 		<set name="is_destroyable" val="false" />
 	</item>
 	<item id="7375" name="Resonance Amulet: 4" type="EtcItem">
-		<!-- An item that enables communication with the forth mysterious monument. -->
+		<!-- An item required for communicating with the fourth mysterious slate. -->
 		<set name="icon" val="icon.etc_resonance_amulet_i00" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="PAPER" />
@@ -989,7 +989,7 @@
 		<set name="is_destroyable" val="false" />
 	</item>
 	<item id="7376" name="Resonance Amulet: 4" type="EtcItem">
-		<!-- An item that enables communication with the forth mysterious monument. -->
+		<!-- An item required for communicating with the fourth mysterious slate. -->
 		<set name="icon" val="icon.etc_resonance_amulet_i00" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="PAPER" />
@@ -1002,7 +1002,7 @@
 		<set name="is_destroyable" val="false" />
 	</item>
 	<item id="7377" name="Resonance Amulet: 4" type="EtcItem">
-		<!-- An item that enables communication with the forth mysterious monument. -->
+		<!-- An item required for communicating with the fourth mysterious slate. -->
 		<set name="icon" val="icon.etc_resonance_amulet_i00" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="PAPER" />
@@ -1015,7 +1015,7 @@
 		<set name="is_destroyable" val="false" />
 	</item>
 	<item id="7378" name="Resonance Amulet: 4" type="EtcItem">
-		<!-- An item that enables communication with the forth mysterious monument. -->
+		<!-- An item required for communicating with the fourth mysterious slate. -->
 		<set name="icon" val="icon.etc_resonance_amulet_i00" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="PAPER" />
@@ -1028,7 +1028,7 @@
 		<set name="is_destroyable" val="false" />
 	</item>
 	<item id="7379" name="Resonance Amulet: 4" type="EtcItem">
-		<!-- An item that enables communication with the forth mysterious monument. -->
+		<!-- An item required for communicating with the fourth mysterious slate. -->
 		<set name="icon" val="icon.etc_resonance_amulet_i00" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="PAPER" />
@@ -1041,7 +1041,7 @@
 		<set name="is_destroyable" val="false" />
 	</item>
 	<item id="7380" name="Resonance Amulet: 4" type="EtcItem">
-		<!-- An item that enables communication with the forth mysterious monument. -->
+		<!-- An item required for communicating with the fourth mysterious slate. -->
 		<set name="icon" val="icon.etc_resonance_amulet_i00" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="PAPER" />
@@ -1054,7 +1054,7 @@
 		<set name="is_destroyable" val="false" />
 	</item>
 	<item id="7381" name="Resonance Amulet: 4" type="EtcItem">
-		<!-- An item that enables communication with the forth mysterious monument. -->
+		<!-- An item required for communicating with the fourth mysterious slate. -->
 		<set name="icon" val="icon.etc_resonance_amulet_i00" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="PAPER" />
@@ -1067,7 +1067,7 @@
 		<set name="is_destroyable" val="false" />
 	</item>
 	<item id="7382" name="Resonance Amulet: 4" type="EtcItem">
-		<!-- An item that enables communication with the forth mysterious monument. -->
+		<!-- An item required for communicating with the fourth mysterious slate. -->
 		<set name="icon" val="icon.etc_resonance_amulet_i00" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="PAPER" />
@@ -1080,7 +1080,7 @@
 		<set name="is_destroyable" val="false" />
 	</item>
 	<item id="7383" name="Resonance Amulet: 4" type="EtcItem">
-		<!-- An item that enables communication with the forth mysterious monument. -->
+		<!-- An item required for communicating with the fourth mysterious slate. -->
 		<set name="icon" val="icon.etc_resonance_amulet_i00" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="PAPER" />
@@ -1093,7 +1093,7 @@
 		<set name="is_destroyable" val="false" />
 	</item>
 	<item id="7384" name="Resonance Amulet: 4" type="EtcItem">
-		<!-- An item that enables communication with the forth mysterious monument. -->
+		<!-- An item required for communicating with the fourth mysterious slate. -->
 		<set name="icon" val="icon.etc_resonance_amulet_i00" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="PAPER" />
@@ -1106,7 +1106,7 @@
 		<set name="is_destroyable" val="false" />
 	</item>
 	<item id="7385" name="Resonance Amulet: 4" type="EtcItem">
-		<!-- An item that enables communication with the forth mysterious monument. -->
+		<!-- An item required for communicating with the fourth mysterious slate. -->
 		<set name="icon" val="icon.etc_resonance_amulet_i00" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="PAPER" />
@@ -1119,7 +1119,7 @@
 		<set name="is_destroyable" val="false" />
 	</item>
 	<item id="7386" name="Resonance Amulet: 4" type="EtcItem">
-		<!-- An item that enables communication with the forth mysterious monument. -->
+		<!-- An item required for communicating with the fourth mysterious slate. -->
 		<set name="icon" val="icon.etc_resonance_amulet_i00" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="PAPER" />
@@ -1132,7 +1132,7 @@
 		<set name="is_destroyable" val="false" />
 	</item>
 	<item id="7387" name="Resonance Amulet: 4" type="EtcItem">
-		<!-- An item that enables communication with the forth mysterious monument. -->
+		<!-- An item required for communicating with the fourth mysterious slate. -->
 		<set name="icon" val="icon.etc_resonance_amulet_i00" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="PAPER" />
@@ -1145,7 +1145,7 @@
 		<set name="is_destroyable" val="false" />
 	</item>
 	<item id="7388" name="Resonance Amulet: 4" type="EtcItem">
-		<!-- An item that enables communication with the forth mysterious monument. -->
+		<!-- An item required for communicating with the fourth mysterious slate. -->
 		<set name="icon" val="icon.etc_resonance_amulet_i00" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="PAPER" />
@@ -1158,7 +1158,7 @@
 		<set name="is_destroyable" val="false" />
 	</item>
 	<item id="7389" name="Resonance Amulet: 4" type="EtcItem">
-		<!-- An item that enables communication with the forth mysterious monument. -->
+		<!-- An item required for communicating with the fourth mysterious slate. -->
 		<set name="icon" val="icon.etc_resonance_amulet_i00" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="PAPER" />
@@ -1171,7 +1171,7 @@
 		<set name="is_destroyable" val="false" />
 	</item>
 	<item id="7390" name="Resonance Amulet: 4" type="EtcItem">
-		<!-- An item that enables communication with the forth mysterious monument. -->
+		<!-- An item required for communicating with the fourth mysterious slate. -->
 		<set name="icon" val="icon.etc_resonance_amulet_i00" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="PAPER" />
@@ -1184,7 +1184,7 @@
 		<set name="is_destroyable" val="false" />
 	</item>
 	<item id="7391" name="Resonance Amulet: 4" type="EtcItem">
-		<!-- An item that enables communication with the forth mysterious monument. -->
+		<!-- An item required for communicating with the fourth mysterious slate. -->
 		<set name="icon" val="icon.etc_resonance_amulet_i00" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="PAPER" />

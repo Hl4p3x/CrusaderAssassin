@@ -188,7 +188,7 @@
 			</effect>
 		</effects>
 	</skill>
-	<skill id="50412" toLevel="1" name="+5 Boss' Weapon Blessing Effect">
+	<skill id="50412" toLevel="1" name="+5 Boss Weapon Blessing Effect">
 		<!-- Attribute Attack +20. -->
 		<icon>icon.bless_effect_enchant</icon>
 		<operateType>P</operateType>
@@ -218,7 +218,7 @@
 		</effects>
 	</skill>
 	<skill id="50414" toLevel="1" name="+7 Boss' Weapon Blessing Effect">
-		<!-- All Critical Rate +5%. -->
+		<!-- All Critical Rate +5% -->
 		<icon>icon.bless_effect_enchant</icon>
 		<operateType>P</operateType>
 		<magicCriticalRate>5</magicCriticalRate>
@@ -293,8 +293,8 @@
 			</effect>
 		</effects>
 	</skill>
-	<skill id="50418" toLevel="1" name="+1 Death Knight's Flame Sword Blessing Effect">
-		<!-- Skill Power +15% -->
+	<skill id="50418" toLevel="1" name="+0 Weapon of Immortality Blessing Effect">
+		<!-- Skill Power +10%/ Attribute Attack +30 -->
 		<icon>icon.bless_effect_enchant</icon>
 		<operateType>P</operateType>
 		<magicCriticalRate>5</magicCriticalRate>
@@ -310,7 +310,7 @@
 			</effect>
 		</effects>
 	</skill>
-	<skill id="50419" toLevel="1" name="+2 Death Knight's Flame Sword Blessing Effect">
+	<skill id="50419" toLevel="1" name="+1 Weapon of Immortality Blessing Effect">
 		<!-- All Critical Damage +200. Increases Max Critical Rate. -->
 		<icon>icon.bless_effect_enchant</icon>
 		<operateType>P</operateType>
@@ -337,7 +337,7 @@
 			</effect>
 		</effects>
 	</skill>
-	<skill id="50420" toLevel="1" name="+3 Death Knight's Flame Sword Blessing Effect">
+	<skill id="50420" toLevel="1" name="+2 Weapon of Immortality Blessing Effect">
 		<!-- Soulshot/ Spiritshot damage +20%. -->
 		<icon>icon.bless_effect_enchant</icon>
 		<operateType>P</operateType>
@@ -351,7 +351,7 @@
 		</effects>
 	</skill>
 	<skill id="50421" toLevel="1" name="+16 A-grade Weapon Blessing Effect">
-		<!-- P. Atk. +200, M. Atk. +250. -->
+		<!-- Skill Cooldown -5% -->
 		<icon>icon.bless_effect_enchant</icon>
 		<operateType>P</operateType>
 		<magicCriticalRate>5</magicCriticalRate>
@@ -368,7 +368,7 @@
 		</effects>
 	</skill>
 	<skill id="50422" toLevel="1" name="+20 A-grade Weapon Blessing Effect">
-		<!-- All Critical Rate +10%. -->
+		<!-- STR/ INT/ DEX/ WIT/ CON/ MEN +1 -->
 		<icon>icon.bless_effect_enchant</icon>
 		<operateType>P</operateType>
 		<magicCriticalRate>5</magicCriticalRate>
@@ -385,7 +385,7 @@
 		</effects>
 	</skill>
 	<skill id="50423" toLevel="1" name="+25 A-grade Weapon Blessing Effect">
-		<!-- Skill Power +10% -->
+		<!-- Damage +5% -->
 		<icon>icon.bless_effect_enchant</icon>
 		<operateType>P</operateType>
 		<magicCriticalRate>5</magicCriticalRate>
@@ -403,7 +403,6 @@
 	</skill>
 	<skill id="50424" toLevel="1" name="+16 S-grade Weapon Blessing Effect">
 		<!-- P. Atk. +400, M. Atk. +600. -->
-		<icon>icon.bless_effect_enchant</icon>
 		<operateType>P</operateType>
 		<magicCriticalRate>5</magicCriticalRate>
 		<magicLevel>1</magicLevel>
@@ -420,7 +419,6 @@
 	</skill>
 	<skill id="50425" toLevel="1" name="+20 S-grade Weapon Blessing Effect">
 		<!-- All Critical Rate +15%. -->
-		<icon>icon.bless_effect_enchant</icon>
 		<operateType>P</operateType>
 		<magicCriticalRate>5</magicCriticalRate>
 		<magicLevel>1</magicLevel>
@@ -437,7 +435,6 @@
 	</skill>
 	<skill id="50426" toLevel="1" name="+25 S-grade Weapon Blessing Effect">
 		<!-- Skill Power +15% -->
-		<icon>icon.bless_effect_enchant</icon>
 		<operateType>P</operateType>
 		<magicCriticalRate>5</magicCriticalRate>
 		<magicLevel>1</magicLevel>
@@ -1732,7 +1729,7 @@
 		</effects>
 	</skill>
 	<skill id="50444" toLevel="6" name="Queen Ant's Ring">
-		<!-- A ring imbued with Queen Ant's power. <Effect>. Max MP +9. P. Accuracy +1. M. Accuracy +1. P. Atk. +4%. M. Atk. +4%. Infection Atk. Rate +10%. Infection Resistance +10% -->
+		<!-- A ring imbued with Queen Ant's power. Max MP +9. P. Accuracy +1. M. Accuracy +1. P. Atk. +4%. M. Atk. +4%. Infection Atk. Rate +10%. Infection Resistance +10% -->
 		<icon>
 			<value level="1">icon.accessory_ring_of_queen_ant_i03</value>
 			<value level="2">icon.accessory_ring_of_queen_ant_i03</value>
@@ -1877,7 +1874,7 @@
 		</effects>
 	</skill>
 	<skill id="50445" toLevel="6" name="Ring of Core">
-		<!-- A ring imbued with Core's power. <Effect>. Max MP +9. P. Evasion +1. M. Evasion +1. P. Def. +2%. M. Def. +2%. Received damage -2%. Silence Atk. Rate +10%. Fear Atk. Rate +10%. Silence Resistance +10%. Fear Resistance +90 -->
+		<!-- A ring imbued with Core's power. Max MP +9. P. Evasion +1. M. Evasion +1. P. Def. +2%. M. Def. +2%. Received damage -2%. Silence Atk. Rate +10%. Fear Atk. Rate +10%. Silence Resistance +10%. Fear Resistance +90 -->
 		<icon>
 			<value level="1">icon.accessory_ring_of_core_i03</value>
 			<value level="2">icon.accessory_ring_of_core_i03</value>
@@ -2061,7 +2058,7 @@
 		</effects>
 	</skill>
 	<skill id="50446" toLevel="6" name="Baium's Ring">
-		<!-- A ring imbued with Baium's power. <Effect>. Max MP +15. P. Accuracy +2. M. Accuracy +2. Atk. Spd. +3%. Casting Spd. +3%. Skill Power +3%. Infection Atk. Rate +5%. Shock Atk. Rate +10%. Infection Resistance +5%. Shock Resistance +150 -->
+		<!-- A ring imbued with Baium's power. Max MP +15. P. Accuracy +2. M. Accuracy +2. Atk. Spd. +3%. Casting Spd. +3%. Skill Power +3%. Infection Atk. Rate +5%. Shock Atk. Rate +10%. Infection Resistance +5%. Shock Resistance +150 -->
 		<icon>
 			<value level="1">icon.accessory_ring_of_baium_i03</value>
 			<value level="2">icon.accessory_ring_of_baium_i03</value>
@@ -2234,7 +2231,7 @@
 		</effects>
 	</skill>
 	<skill id="50447" toLevel="6" name="Orfen's Earring">
-		<!-- An earring imbued with Orfen's power. <Effect>. Max MP +19. Received Healing +2%. Skill MP Consumption -2%. Hold Atk. Rate +10%. Silence Atk. Rate +5%. Fear Atk. Rate +5%. Hold Resistance +10%. Silence Resistance +5%. Fear Resistance +5% -->
+		<!-- An earring imbued with Orfen's power. Max MP +19. Received Healing +2%. Skill MP Consumption -2%. Hold Atk. Rate +10%. Silence Atk. Rate +5%. Fear Atk. Rate +5%. Hold Resistance +10%. Silence Resistance +5%. Fear Resistance +5% -->
 		<icon>
 			<value level="1">icon.accessory_earring_of_orfen_i03</value>
 			<value level="2">icon.accessory_earring_of_orfen_i03</value>
@@ -2380,7 +2377,7 @@
 				<chance>3</chance>
 				<targetType>SELF</targetType>
 				<isCritical>false</isCritical>
-				<skillId>50471</skillId> <!-- Orfen Power -->
+				<skillId>50471</skillId> <!-- Orfen Power - Recovery -->
 				<skillLevel>1</skillLevel>
 			</effect>
 			<effect name="TriggerSkillByAttack" fromLevel="6" toLevel="6">
@@ -2389,7 +2386,7 @@
 				<chance>3</chance>
 				<targetType>SELF</targetType>
 				<isCritical>true</isCritical>
-				<skillId>50471</skillId> <!-- Orfen Power -->
+				<skillId>50471</skillId> <!-- Orfen Power - Recovery -->
 				<skillLevel>1</skillLevel>
 			</effect>
 			<effect name="TriggerSkillByAttack" fromLevel="6" toLevel="6">
@@ -2413,7 +2410,7 @@
 		</effects>
 	</skill>
 	<skill id="50448" toLevel="6" name="Zaken's Earring">
-		<!-- An earring imbued with Zaken's power. <Effect>. Max MP +22. Received Healing +4%. Skill MP Consumption -2%. HP Recovery Rate +10%. Infection Atk. Rate +10%. Shock Atk. Rate +5%. Silence Atk. Rate +5%. Fear Atk. Rate +5%. Infection Resistance +10%. Shock Resistance +220. Silence Resistance +221. Fear Resistance +222 -->
+		<!-- An earring imbued with Zaken's power. Max MP +22. Received Healing +4%. Skill MP Consumption -2%. HP Recovery Rate +10%. Infection Atk. Rate +10%. Shock Atk. Rate +5%. Silence Atk. Rate +5%. Fear Atk. Rate +5%. Infection Resistance +10%. Shock Resistance +220. Silence Resistance +221. Fear Resistance +222 -->
 		<icon>
 			<value level="1">icon.accessory_earring_of_zaken_i03</value>
 			<value level="2">icon.accessory_earring_of_zaken_i03</value>
@@ -2598,7 +2595,7 @@
 				<chance>3</chance>
 				<targetType>SELF</targetType>
 				<isCritical>false</isCritical>
-				<skillId>50472</skillId> <!-- Zaken Power -->
+				<skillId>50472</skillId> <!-- Zaken Power - Recovery -->
 				<skillLevel>1</skillLevel>
 			</effect>
 			<effect name="TriggerSkillByAttack" fromLevel="6" toLevel="6">
@@ -2607,7 +2604,7 @@
 				<chance>3</chance>
 				<targetType>SELF</targetType>
 				<isCritical>true</isCritical>
-				<skillId>50472</skillId> <!-- Zaken Power -->
+				<skillId>50472</skillId> <!-- Zaken Power - Recovery -->
 				<skillLevel>1</skillLevel>
 			</effect>
 			<effect name="TriggerSkillByAttack" fromLevel="6" toLevel="6">
@@ -2631,7 +2628,7 @@
 		</effects>
 	</skill>
 	<skill id="50449" toLevel="6" name="Antharas' Earring">
-		<!-- An earring imbued with the Earth Dragon's power. <Effect>. Max MP +28. Received Healing +6%. Skill MP Consumption -3%. Absorbs 3% of the inflicted damage as HP. Infection Atk. Rate +10%. Shock Atk. Rate +5%. Silence Atk. Rate +5%. Fear Atk. Rate +5%. Infection Resistance +10%. Shock Resistance +280. Silence Resistance +281. Fear Resistance +282 -->
+		<!-- An earring imbued with the Earth Dragon's power. Max MP +28. Received Healing +6%. Skill MP Consumption -3%. Absorbs 3% of the inflicted damage as HP. Infection Atk. Rate +10%. Shock Atk. Rate +5%. Silence Atk. Rate +5%. Fear Atk. Rate +5%. Infection Resistance +10%. Shock Resistance +280. Silence Resistance +281. Fear Resistance +282 -->
 		<icon>
 			<value level="1">icon.accessory_earring_of_antaras_i02</value>
 			<value level="2">icon.accessory_earring_of_antaras_i02</value>
@@ -2819,7 +2816,7 @@
 				<chance>3</chance>
 				<targetType>SELF</targetType>
 				<isCritical>false</isCritical>
-				<skillId>50473</skillId> <!-- Antharas Power -->
+				<skillId>50473</skillId> <!-- Antharas Power - Recovery -->
 				<skillLevel>1</skillLevel>
 			</effect>
 			<effect name="TriggerSkillByAttack" fromLevel="6" toLevel="6">
@@ -2828,7 +2825,7 @@
 				<chance>3</chance>
 				<targetType>SELF</targetType>
 				<isCritical>true</isCritical>
-				<skillId>50473</skillId> <!-- Antharas Power -->
+				<skillId>50473</skillId> <!-- Antharas Power - Recovery -->
 				<skillLevel>1</skillLevel>
 			</effect>
 			<effect name="TriggerSkillByAttack" fromLevel="6" toLevel="6">
@@ -2852,7 +2849,7 @@
 		</effects>
 	</skill>
 	<skill id="50450" toLevel="6" name="Frintezza's Necklace">
-		<!-- A necklace imbued with Frintezza's power. <Effect>. Max. MP +30. Skill Power +5%. Skill Cooldown -5%. All Critical Rate +2%. All Critical Damage +20. Sleep Atk. Rate +10%. Sleep Resistance +10% -->
+		<!-- A necklace imbued with Frintezza's power. Max. MP +30. Skill Power +5%. Skill Cooldown -5%. All Critical Rate +2%. All Critical Damage +20. Sleep Atk. Rate +10%. Sleep Resistance +10% -->
 		<icon>
 			<value level="1">icon.accessory_necklace_of_frintessa_i04</value>
 			<value level="2">icon.accessory_necklace_of_frintessa_i04</value>
@@ -3013,9 +3010,12 @@
 			</effect>
 		</effects>
 	</skill>
-	<skill id="50451" toLevel="1" name="Queen Ant Power">
-		<!-- For 30 sec., grants immunity to debuffs that decrease P./ M. Atk. -->
-		<icon>icon.accessory_ring_of_queen_ant_i05</icon>
+	<skill id="50451" toLevel="2" name="Queen Ant Power">
+		<!-- Grants immunity to debuffs that decrease P./ M. Atk. -->
+		<icon>
+			<value level="1">icon.accessory_ring_of_queen_ant_i05</value>
+			<value level="2">icon.accessory_ring_of_queen_ant_i06</value>
+		</icon>
 		<abnormalLevel>1</abnormalLevel>
 		<abnormalTime>30</abnormalTime>
 		<abnormalType>PA_DOWN</abnormalType>
@@ -3049,9 +3049,12 @@
 			</effect>
 		</effects>
 	</skill>
-	<skill id="50452" toLevel="1" name="Core Power">
-		<!-- For 30 sec., grants immunity to debuffs that decrease P./ M. Def. -->
-		<icon>icon.accessory_ring_of_core_i05</icon>
+	<skill id="50452" toLevel="2" name="Core Power">
+		<!-- Grants immunity to debuffs that decrease P./ M. Def. -->
+		<icon>
+			<value level="1">icon.accessory_ring_of_core_i05</value>
+			<value level="2">icon.accessory_ring_of_core_i06</value>
+		</icon>
 		<abnormalLevel>1</abnormalLevel>
 		<abnormalTime>30</abnormalTime>
 		<abnormalType>PD_DOWN</abnormalType>
@@ -3086,7 +3089,7 @@
 		</effects>
 	</skill>
 	<skill id="50453" toLevel="1" name="Baium Power">
-		<!-- For 30 sec.:. Damage +10% -->
+		<!-- Damage +10% -->
 		<icon>icon.accessory_ring_of_baium_i05</icon>
 		<abnormalLevel>1</abnormalLevel>
 		<abnormalTime>30</abnormalTime>
@@ -3104,34 +3107,55 @@
 		<affectScope>SINGLE</affectScope>
 		<effects>
 			<effect name="PveMagicalSkillDamageBonus">
-				<amount>10</amount>
+				<amount>
+					<value level="1">10</value>
+					<value level="2">11</value>
+				</amount>
 				<mode>PER</mode>
 			</effect>
 			<effect name="PvePhysicalAttackDamageBonus">
-				<amount>10</amount>
+				<amount>
+					<value level="1">10</value>
+					<value level="2">11</value>
+				</amount>
 				<mode>PER</mode>
 			</effect>
 			<effect name="PvePhysicalSkillDamageBonus">
-				<amount>10</amount>
+				<amount>
+					<value level="1">10</value>
+					<value level="2">11</value>
+				</amount>
 				<mode>PER</mode>
 			</effect>
 			<effect name="PvpPhysicalAttackDefenceBonus">
-				<amount>10</amount>
+				<amount>
+					<value level="1">10</value>
+					<value level="2">11</value>
+				</amount>
 				<mode>PER</mode>
 			</effect>
 			<effect name="PvpMagicalSkillDefenceBonus">
-				<amount>10</amount>
+				<amount>
+					<value level="1">10</value>
+					<value level="2">11</value>
+				</amount>
 				<mode>PER</mode>
 			</effect>
 			<effect name="PvpPhysicalSkillDefenceBonus">
-				<amount>10</amount>
+				<amount>
+					<value level="1">10</value>
+					<value level="2">11</value>
+				</amount>
 				<mode>PER</mode>
 			</effect>
 		</effects>
 	</skill>
-	<skill id="50454" toLevel="1" name="Orfen Power">
+	<skill id="50454" toLevel="2" name="Orfen Power">
 		<!-- Inflicts Hold on the enemy. -->
-		<icon>icon.accessory_earring_of_orfen_i05</icon>
+		<icon>
+			<value level="1">icon.accessory_earring_of_orfen_i05</value>
+			<value level="2">icon.accessory_earring_of_orfen_i06</value>
+		</icon>
 		<abnormalLevel>1</abnormalLevel>
 		<abnormalTime>3</abnormalTime>
 		<abnormalType>ROOT_MAGICALLY</abnormalType>
@@ -3157,9 +3181,12 @@
 			</effect>
 		</effects>
 	</skill>
-	<skill id="50455" toLevel="1" name="Zaken Power">
+	<skill id="50455" toLevel="2" name="Zaken Power">
 		<!-- Inflicts Silence on the enemy. -->
-		<icon>icon.accessory_earring_of_zaken_i05</icon>
+		<icon>
+			<value level="1">icon.accessory_earring_of_zaken_i05</value>
+			<value level="2">icon.accessory_earring_of_zaken_i06</value>
+		</icon>
 		<abnormalLevel>1</abnormalLevel>
 		<abnormalTime>3</abnormalTime>
 		<abnormalType>SILENCE</abnormalType>
@@ -3184,9 +3211,12 @@
 			<effect name="PhysicalMute" />
 		</effects>
 	</skill>
-	<skill id="50456" toLevel="1" name="Antharas Power">
+	<skill id="50456" toLevel="2" name="Antharas Power">
 		<!-- Stuns the target and immobilizes it. -->
-		<icon>icon.accessory_earring_of_antaras_i05</icon>
+		<icon>
+			<value level="1">icon.accessory_earring_of_antaras_i05</value>
+			<value level="2">icon.accessory_earring_of_antaras_i06</value>
+		</icon>
 		<abnormalLevel>1</abnormalLevel>
 		<abnormalTime>3</abnormalTime>
 		<abnormalType>STUN</abnormalType>
@@ -3209,9 +3239,12 @@
 			<effect name="BlockActions" />
 		</effects>
 	</skill>
-	<skill id="50457" toLevel="1" name="Frintezza Power">
+	<skill id="50457" toLevel="2" name="Frintezza Power">
 		<!-- Inflicts Fear on the enemy. -->
-		<icon>icon.accessory_necklace_of_frintessa_i06</icon>
+		<icon>
+			<value level="1">icon.accessory_necklace_of_frintessa_i06</value>
+			<value level="2">icon.accessory_necklace_of_frintessa_i07</value>
+		</icon>
 		<abnormalLevel>1</abnormalLevel>
 		<abnormalTime>3</abnormalTime>
 		<abnormalType>TURN_FLEE</abnormalType>
@@ -4391,7 +4424,7 @@
 			</effect>
 		</effects>
 	</skill>
-	<skill id="50470" toLevel="20" name="Growth Rune">
+	<skill id="50470" toLevel="25" name="Growth Rune">
 		<!-- Acquired XP +1%. Acquired SP +1% -->
 		<icon>
 			<value level="1">icon.pc_new_cafe_rune_i00</value>
@@ -4414,6 +4447,11 @@
 			<value level="18">icon.pc_new_cafe_rune_i03</value>
 			<value level="19">icon.pc_new_cafe_rune_i03</value>
 			<value level="20">icon.pc_new_cafe_rune_i03</value>
+			<value level="21">icon.pc_new_cafe_rune_i04</value>
+			<value level="22">icon.pc_new_cafe_rune_i04</value>
+			<value level="23">icon.pc_new_cafe_rune_i04</value>
+			<value level="24">icon.pc_new_cafe_rune_i04</value>
+			<value level="25">icon.pc_new_cafe_rune_i04</value>
 		</icon>
 		<operateType>P</operateType>
 		<magicCriticalRate>5</magicCriticalRate>
@@ -4441,6 +4479,11 @@
 					<value level="18">18</value>
 					<value level="19">19</value>
 					<value level="20">20</value>
+					<value level="21">21</value>
+					<value level="22">22</value>
+					<value level="23">23</value>
+					<value level="24">24</value>
+					<value level="25">25</value>
 				</amount>
 			</effect>
 			<effect name="SpModify">
@@ -4465,6 +4508,11 @@
 					<value level="18">18</value>
 					<value level="19">19</value>
 					<value level="20">20</value>
+					<value level="21">21</value>
+					<value level="22">22</value>
+					<value level="23">23</value>
+					<value level="24">24</value>
+					<value level="25">25</value>
 				</amount>
 			</effect>
 			<effect name="PhysicalDefence">
@@ -4486,6 +4534,11 @@
 					<value level="18">330</value>
 					<value level="19">360</value>
 					<value level="20">390</value>
+					<value level="21">420</value>
+					<value level="22">450</value>
+					<value level="23">480</value>
+					<value level="24">510</value>
+					<value level="25">540</value>
 				</amount>
 				<mode>DIFF</mode>
 			</effect>
@@ -4508,6 +4561,11 @@
 					<value level="18">330</value>
 					<value level="19">360</value>
 					<value level="20">390</value>
+					<value level="21">420</value>
+					<value level="22">450</value>
+					<value level="23">480</value>
+					<value level="24">510</value>
+					<value level="25">540</value>
 				</amount>
 				<mode>DIFF</mode>
 			</effect>
@@ -4525,6 +4583,11 @@
 					<value level="18">330</value>
 					<value level="19">360</value>
 					<value level="20">390</value>
+					<value level="21">420</value>
+					<value level="22">450</value>
+					<value level="23">480</value>
+					<value level="24">510</value>
+					<value level="25">540</value>
 				</amount>
 				<mode>DIFF</mode>
 			</effect>
@@ -4542,12 +4605,57 @@
 					<value level="18">330</value>
 					<value level="19">360</value>
 					<value level="20">390</value>
+					<value level="21">420</value>
+					<value level="22">450</value>
+					<value level="23">480</value>
+					<value level="24">510</value>
+					<value level="25">540</value>
 				</amount>
 				<mode>DIFF</mode>
 			</effect>
+			<effect name="DefencePhysicalSkillCriticalRate" fromLevel="21" toLevel="25">
+				<amount>
+					<value level="21">-0.4</value>
+					<value level="22">-0.8</value>
+					<value level="23">-1.2</value>
+					<value level="24">-1.6</value>
+					<value level="25">-2</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="DefenceMagicCriticalRate" fromLevel="21" toLevel="25">
+				<amount>
+					<value level="21">-0.4</value>
+					<value level="22">-0.8</value>
+					<value level="23">-1.2</value>
+					<value level="24">-1.6</value>
+					<value level="25">-2</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="DefencePhysicalSkillCriticalDamage" fromLevel="21" toLevel="25">
+				<amount>
+					<value level="21">-0.4</value>
+					<value level="22">-0.8</value>
+					<value level="23">-1.2</value>
+					<value level="24">-1.6</value>
+					<value level="25">-2</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="DefenceMagicCriticalDamage" fromLevel="21" toLevel="25">
+				<amount>
+					<value level="21">-0.4</value>
+					<value level="22">-0.8</value>
+					<value level="23">-1.2</value>
+					<value level="24">-1.6</value>
+					<value level="25">-2</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
 		</effects>
 	</skill>
-	<skill id="50471" toLevel="1" name="Orfen Power">
+	<skill id="50471" toLevel="1" name="Orfen Power - Recovery">
 		<icon>icon.accessory_earring_of_orfen_i05</icon>
 		<castRange>700</castRange>
 		<effectRange>1100</effectRange>
@@ -4566,7 +4674,7 @@
 			</effect>
 		</effects>
 	</skill>
-	<skill id="50472" toLevel="1" name="Zaken Power">
+	<skill id="50472" toLevel="1" name="Zaken Power - Recovery">
 		<icon>icon.accessory_earring_of_zaken_i05</icon>
 		<castRange>700</castRange>
 		<effectRange>1100</effectRange>
@@ -4585,7 +4693,7 @@
 			</effect>
 		</effects>
 	</skill>
-	<skill id="50473" toLevel="1" name="Antharas Power">
+	<skill id="50473" toLevel="1" name="Antharas Power - Recovery">
 		<icon>icon.accessory_earring_of_antaras_i05</icon>
 		<castRange>700</castRange>
 		<effectRange>1100</effectRange>
@@ -5496,7 +5604,7 @@
 		<operateType>A1</operateType>
 	</skill>
 	<skill id="50498" toLevel="1" name="Aden's Pistols">
-		<!-- <Level Bonus Effect>. P./ M. Atk. are increased depending on level. <Lv. 40-49>. P. Atk. +33. M. Atk. +10. <Lv. 50-59>. P. Atk. +63. M. Atk. +19. <Lv. 60-64>. P. Atk. +96. M. Atk. +29. <Lv. 65-69>. P. Atk. +129. M. Atk. +38. <Lv. 70-74>. P. Atk. +159. M. Atk. +47. <Lv. 75+>. P. Atk. +192. M. Atk. +57 -->
+		<!-- <Level bonus effect>. P./ M. Atk. increase according to your level. <Lv. 40-49>. P. Atk. +33. M. Atk. +10. <Lv. 50-59>. P. Atk. +63. M. Atk. +19. <Lv. 60-64>. P. Atk. +96. M. Atk. +29. <Lv. 65-69>. P. Atk. +129. M. Atk. +38. <Lv. 70-74>. P. Atk. +159. M. Atk. +47. <Lv. 75+>. P. Atk. +192. M. Atk. +57 -->
 		<icon>icon.shooter_d</icon>
 		<operateType>P</operateType>
 		<effects>
@@ -5514,7 +5622,7 @@
 	</skill>
 	<skill id="50499" toLevel="1" name="Anakim's Divine Pistols">
 		<!-- A weapon imbued with Anakim's soul. Uses Anakim's power to deliver <font color="FFBB00">an additional attack</font>. Anakim's Holy Blast: a spirit attack according to M. Atk. -->
-		<icon>icon.skill1516</icon>
+		<icon>icon.shooter_boss_anakim</icon>
 		<operateType>P</operateType>
 	</skill>
 </list>

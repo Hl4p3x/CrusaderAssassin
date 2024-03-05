@@ -923,6 +923,44 @@
 			</effect>
 		</effects>
 	</skill>
+	<skill id="45523" toLevel="1" name="Exclusion - Cancel Suppression">
+		<icon>icon.skill0000</icon>
+		<affectRange>1000</affectRange>
+		<effectPoint>1000</effectPoint>
+		<hitTime>4000</hitTime>
+		<isMagic>1</isMagic>
+		<magicLevel>76</magicLevel>
+		<mpConsume>
+			<value level="1">80</value>
+			<value level="2">85</value>
+		</mpConsume>
+		<operateType>A1</operateType>
+		<reuseDelay>10000</reuseDelay>
+		<magicCriticalRate>5</magicCriticalRate>
+		<targetType>SELF</targetType>
+		<affectScope>PARTY</affectScope>
+		<affectObject>FRIEND</affectObject>
+		<effects>
+			<effect name="DispelBySlot">
+				<dispel>
+					<value level="1">ATTACK_TIME_UP,40</value>
+				</dispel>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="45524" toLevel="1" name="Exclusion - Damage">
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+		<isMagic>1</isMagic>
+		<mpConsume>0</mpConsume>
+		<castRange>-1</castRange>
+		<hitTime>0</hitTime>
+		<coolTime>0</coolTime>
+		<reuseDelay>0</reuseDelay>
+		<effectPoint>-500</effectPoint>
+		<hpConsume>0</hpConsume>
+		<abnormalTime>0</abnormalTime>
+	</skill>
 	<skill id="45530" toLevel="1" name="Tranquility">
 		<!-- For party members. For 12 sec. Max HP +5000. Recovers 100% HP per 3 sec. -->
 		<icon>icon.serenity</icon>
@@ -955,40 +993,70 @@
 	</skill>
 	<skill id="45531" toLevel="1" name="Tranquility">
 		<icon>icon.serenity</icon>
-		<operateType>A1</operateType>
+		<operateType>A2</operateType>
+		<abnormalTime>3</abnormalTime>
+		<isTriggeredSkill>true</isTriggeredSkill>
+		<magicLevel>76</magicLevel>
+		<effects>
+			<effect name="HealPercent"> <!-- Instant Heal -->
+				<power>100</power>
+			</effect>
+			<effect name="HealPercent">
+				<delay>3000</delay>
+				<power>100</power>
+			</effect>
+			<effect name="HealPercent">
+				<delay>6000</delay>
+				<power>100</power>
+			</effect>
+			<effect name="HealPercent">
+				<delay>9000</delay>
+				<power>100</power>
+			</effect>
+			<effect name="HealPercent">
+				<delay>11000</delay>
+				<power>100</power>
+			</effect>
+		</effects>
 	</skill>
 	<skill id="45532" toLevel="1" name="Tranquility">
 		<icon>icon.serenity</icon>
 		<operateType>A1</operateType>
 	</skill>
 	<skill id="45533" toLevel="1" name="Exclusion">
-		<!-- <Knockback/ Suppression skill>. Knocks back the target and enemies around them. Deals magic damage with 130 power. Duration: 5 sec. Greatly decreases Atk. Spd./ Casting Spd./ Speed. P. Skill Cooldown +5%. M. Skill Cooldown +5%. Duration: 10 sec. Speed buffs are disabled. Gap-closing skills cannot be used. -->
+		<!-- <Knockback/ Suppression skill>. <<font color="00FF00">Allies</font>>. Cancels Suppression skills. Can cancel Ultimate Suppression skills. <<font color="FF0000">Enemies</font>>. Deals magic damage with 130 power. Knockback/ Suppression/ Rush Block effect. <font color="FF8800">Suppression Effect</font>. Duration: 5 sec. Greatly decreases Atk. Spd./ Casting Spd. and Speed. P./ M. Skill Cooldown +5%. Can be cancelled with debuff/ anomaly-removing skills or Ultimate Suppression-removing skills. <font color="FF8800">Rush Block Effect</font>. Duration: 10 sec. Speed buffs cannot be applied. Rush skills cannot be used. -->
 		<icon>icon.expel</icon>
-		<basicProperty>PHYSICAL</basicProperty>
-		<effectPoint>-500</effectPoint>
-		<affectLimit>5-12</affectLimit>
-		<affectRange>200</affectRange>
-		<effectRange>200</effectRange>
-		<hitTime>2000</hitTime>
-		<magicLevel>76</magicLevel>
-		<mpConsume>105</mpConsume>
-		<nextAction>ATTACK</nextAction>
 		<operateType>A1</operateType>
-		<reuseDelay>300000</reuseDelay>
-		<magicCriticalRate>5</magicCriticalRate>
-		<targetType>ENEMY_ONLY</targetType>
+		<hitTime>3000</hitTime>
+		<reuseDelay>90000</reuseDelay>
+		<effectPoint>-500</effectPoint>
+		<magicCriticalRate>-5</magicCriticalRate>
+		<activateRate>100</activateRate>
+		<magicLevel>76</magicLevel>
+		<affectRange>300</affectRange>
+		<affectLimit>10-10</affectLimit>
+		<targetType>ENEMY</targetType>
 		<affectScope>RANGE</affectScope>
 		<affectObject>NOT_FRIEND</affectObject>
 		<effects>
-			<effect name="PhysicalAttack">
+			<effect name="MagicalAttack">
 				<power>130</power>
 			</effect>
-			<effect name="CallSkill">
-				<skillId>45537</skillId> <!-- Exclusion -->
-				<skillLevel>1</skillLevel>
+			<effect name="KnockBack">
+				<distance>250</distance>
+				<speed>600</speed>
+				<knockDown>false</knockDown>
 			</effect>
 			<effect name="CallSkill">
 				<skillId>45535</skillId> <!-- Exclusion -->
+				<skillLevel>1</skillLevel>
+			</effect>
+			<effect name="CallSkill">
+				<skillId>47244</skillId> <!-- Rush Block -->
+				<skillLevel>1</skillLevel>
+			</effect>
+			<effect name="CallSkill">
+				<skillId>45523</skillId> <!-- Exclusion - Cancel Suppression -->
 				<skillLevel>1</skillLevel>
 			</effect>
 		</effects>
@@ -996,44 +1064,98 @@
 	<skill id="45534" toLevel="1" name="Dark Disruption">
 		<!-- Deals magic damage to the target and enemies around them. Power 130. Duration: 10 sec. HP Recovery Potions' Effect -500. Removes the following buffs and blocks them for 10 sec.:. - Special class transformation -->
 		<icon>icon.banish</icon>
-		<operateType>A1</operateType>
-	</skill>
-	<skill id="45535" toLevel="1" name="Exclusion">
-		<!-- Greatly decreases Atk. Spd./ Casting Spd./ Speed. P. Skill Cooldown +5%. M. Skill Cooldown +5% -->
-		<icon>icon.expel</icon>
-		<affectLimit>5-12</affectLimit>
-		<affectRange>200</affectRange>
-		<abnormalLevel>1</abnormalLevel>
-		<abnormalTime>8</abnormalTime>
-		<activateRate>60</activateRate>
-		<basicProperty>PHYSICAL</basicProperty>
-		<effectPoint>-500</effectPoint>
-		<effectRange>200</effectRange>
+		<itemConsumeId>3031</itemConsumeId>
+		<itemConsumeCount>100</itemConsumeCount>
+		<castRange>600</castRange>
+		<effectRange>1100</effectRange>
+		<affectRange>300</affectRange>
+		<affectLimit>7-12</affectLimit>
+		<hitTime>4000</hitTime>
+		<isMagic>1</isMagic>
+		<mpConsume>105</mpConsume>
 		<operateType>A2</operateType>
-		<isDebuff>true</isDebuff>
-		<trait>ANOMALY</trait>
+		<effectPoint>-500</effectPoint>
+		<reuseDelay>90000</reuseDelay>
 		<magicCriticalRate>5</magicCriticalRate>
-		<targetType>ENEMY_ONLY</targetType>
+		<isDebuff>true</isDebuff>
+		<targetType>ENEMY</targetType>
 		<affectScope>RANGE</affectScope>
 		<affectObject>NOT_FRIEND</affectObject>
+		<abnormalLevel>1</abnormalLevel>
+		<abnormalTime>10</abnormalTime>
+		<magicLevel>76</magicLevel>
+		<effects>
+			<effect name="MagicalAttack">
+				<power>130</power>
+			</effect>
+			<effect name="AdditionalPotionHp">
+				<amount>-500</amount>
+				<mode>DIFF</mode>
+			</effect>
+			<effect name="DispelBySlot">
+				<dispel>OVERWHELMING_POWER,-1;SPECIAL_CLASS_TRANSFORM,-1;CHANGEBODY,-1;BLAZING_FURY,-1;LEGENDARY_ARCHER,-1</dispel>
+			</effect>
+			<effect name="BlockAbnormalSlot">
+				<slot>OVERWHELMING_POWER;SPECIAL_CLASS_TRANSFORM;CHANGEBODY;BLAZING_FURY;LEGENDARY_ARCHER</slot>
+			</effect>
+			<effect name="BlockSkill">
+				<magicTypes>47970;54206;45413;397;398;54102;1800;1801;1802;393;394;45151;45152;45539;47831;47832;47380;47384;47388;47392;47927</magicTypes>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="45535" toLevel="1" name="Exclusion">
+		<!-- Greatly decreases Atk. Spd./ Casting Spd./ Speed. P./ M. Skill Cooldown +5%. Can be cancelled with Ultimate Suppression-removing skills or debuff/ anomaly-removing skills. -->
+		<icon>icon.expel</icon>
+		<operateType>A2</operateType>
+		<abnormalTime>5</abnormalTime>
+		<abnormalLevel>4</abnormalLevel>
+		<abnormalType>ATTACK_TIME_UP</abnormalType>
+		<trait>SUPPRESSION</trait>
+		<isDebuff>true</isDebuff>
+		<effectPoint>-500</effectPoint>
 		<effects>
 			<effect name="PhysicalAttackSpeed">
-				<amount>-100</amount>
-				<mode>DIFF</mode>
+				<amount>-23</amount>
+				<mode>PER</mode>
 			</effect>
 			<effect name="MagicalAttackSpeed">
-				<amount>-100</amount>
-				<mode>DIFF</mode>
+				<amount>-23</amount>
+				<mode>PER</mode>
 			</effect>
 			<effect name="Speed">
-				<amount>-100</amount>
-				<mode>DIFF</mode>
+				<amount>
+					<value level="1">-23</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="Reuse">
+				<amount>5</amount>
+				<mode>PER</mode>
+				<magicType>0</magicType>
+			</effect>
+			<effect name="Reuse">
+				<amount>5</amount>
+				<mode>PER</mode>
+				<magicType>1</magicType>
 			</effect>
 		</effects>
 	</skill>
 	<skill id="45536" toLevel="1" name="Tranquility">
 		<icon>icon.serenity</icon>
-		<operateType>A1</operateType>
+		<abnormalTime>10</abnormalTime>
+		<isMagic>1</isMagic>
+		<operateType>A2</operateType>
+		<effectPoint>100</effectPoint>
+		<abnormalLevel>
+			<value level="1">1</value>
+		</abnormalLevel>
+		<effects>
+			<effect name="HealPercent">
+				<amount>
+					<value level="1">100</value>
+				</amount>
+			</effect>
+		</effects>
 	</skill>
 	<skill id="45537" toLevel="1" name="Exclusion">
 		<icon>icon.expel</icon>
@@ -1347,14 +1469,61 @@
 	<skill id="45545" toLevel="1" name="Meteor">
 		<icon>icon.meteor</icon>
 		<operateType>A1</operateType>
+		<effectPoint>-400</effectPoint>
+		<activateRate>1500</activateRate>
+		<isMagic>1</isMagic>
+		<targetType>ENEMY_ONLY</targetType>
+		<affectScope>RANGE</affectScope>
+		<affectLimit>5-12</affectLimit>
+		<affectRange>350</affectRange>
+		<basicProperty>MAGIC</basicProperty>
+		<magicCriticalRate>5</magicCriticalRate>
+		<isTriggeredSkill>true</isTriggeredSkill>
+		<hitTime>1500</hitTime>
+		<reuseDelay>30000</reuseDelay>
+		<staticReuse>true</staticReuse>
+		<effects>
+			<effect name="MagicalAttack">
+				<power>380</power>
+			</effect>
+			<effect name="CallSkill">
+				<skillId>45546</skillId> <!-- Meteor -->
+				<skillLevel>1</skillLevel>
+			</effect>
+		</effects>
 	</skill>
 	<skill id="45546" toLevel="1" name="Meteor">
 		<!-- The meteor deals continuous damage. M. Def. -30% -->
 		<icon>icon.meteor</icon>
-		<operateType>A1</operateType>
+		<operateType>A2</operateType>
+		<abnormalTime>3</abnormalTime>
+		<abnormalLevel>4</abnormalLevel>
+		<abnormalType>MD_DOWN</abnormalType>
+		<activateRate>3000</activateRate>
+		<affectScope>RANGE</affectScope>
+		<targetType>ENEMY_ONLY</targetType>
+		<affectLimit>5-12</affectLimit>
+		<affectRange>350</affectRange>
+		<castRange>900</castRange>
+		<effectRange>1200</effectRange>
+		<effectPoint>-400</effectPoint>
+		<isMagic>1</isMagic>
+		<basicProperty>MAGIC</basicProperty>
+		<hitTime>3000</hitTime>
+		<magicCriticalRate>5</magicCriticalRate>
+		<isTriggeredSkill>true</isTriggeredSkill>
+		<effects>
+			<effect name="MagicalAttack">
+				<power>380</power>
+			</effect>
+			<effect name="MagicalDefence">
+				<amount>-30</amount>
+				<mode>PER</mode>
+			</effect>
+		</effects>
 	</skill>
 	<skill id="45547" toLevel="15" name="Hellfire">
-		<!-- P. Def. -40%. M. Def. -40% -->
+		<!-- <Debuff: PvP>. P. Def. -40%. M. Def. -40%. P. Atk. -250. M. Atk. -250. <Debuff: PvE>. P. Def. -40%. M. Def. -40% -->
 		<icon>icon.hell_fire</icon>
 		<operateType>A1</operateType>
 	</skill>
@@ -1365,11 +1534,226 @@
 	<skill id="45549" toLevel="1" name="Shillien's Curse">
 		<!-- Sword/ Blunt Resistance -10%. Skill Power -10% -->
 		<icon>icon.curse_of_shilen</icon>
-		<operateType>A1</operateType>
+		<abnormalLevel>1</abnormalLevel>
+		<abnormalTime>10</abnormalTime>
+		<activateRate>80</activateRate>
+		<basicProperty>MAGIC</basicProperty>
+		<affectRange>450</affectRange>
+		<effectPoint>-1800</effectPoint>
+		<hitTime>1800</hitTime>
+		<isDebuff>true</isDebuff>
+		<lvlBonusRate>20</lvlBonusRate>
+		<magicLevel>85</magicLevel>
+		<operateType>A2</operateType>
+		<magicCriticalRate>5</magicCriticalRate>
+		<targetType>ENEMY</targetType>
+		<affectScope>RANGE</affectScope>
+		<affectObject>NOT_FRIEND</affectObject>
+		<isTriggeredSkill>true</isTriggeredSkill>
+		<effects>
+			<effect name="DefenceTrait">
+				<SWORD>
+					<value level="1">-10</value>
+				</SWORD>
+				<BLUNT>
+					<value level="1">-10</value>
+				</BLUNT>
+			</effect>
+			<effect name="PhysicalSkillPower">
+				<amount>-10</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="MagicalSkillPower">
+				<amount>-10</amount>
+				<mode>PER</mode>
+			</effect>
+		</effects>
 	</skill>
 	<skill id="45550" toLevel="1" name="Shillien's Curse">
 		<!-- With a certain chance, removes up to 3 buffs. Max HP/ MP/ CP -20%. Skill Power -10% -->
 		<icon>icon.curse_of_shilen</icon>
+		<abnormalLevel>1</abnormalLevel>
+		<abnormalTime>10</abnormalTime>
+		<activateRate>80</activateRate>
+		<basicProperty>MAGIC</basicProperty>
+		<affectRange>450</affectRange>
+		<effectPoint>-1800</effectPoint>
+		<hitTime>1800</hitTime>
+		<isDebuff>true</isDebuff>
+		<lvlBonusRate>20</lvlBonusRate>
+		<magicLevel>85</magicLevel>
+		<operateType>A2</operateType>
+		<magicCriticalRate>5</magicCriticalRate>
+		<targetType>ENEMY</targetType>
+		<affectScope>RANGE</affectScope>
+		<affectObject>NOT_FRIEND</affectObject>
+		<isTriggeredSkill>true</isTriggeredSkill>
+		<effects>
+			<effect name="DispelByCategory">
+				<slot>BUFF</slot>
+				<rate>6</rate>
+				<max>3</max>
+			</effect>
+			<effect name="MaxCp">
+				<amount>-20</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="MaxHp">
+				<amount>-20</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="MaxMp">
+				<amount>-20</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="PhysicalSkillPower">
+				<amount>
+					<value level="1">-10</value>
+					<value fromLevel="1" toLevel="1" fromSubLevel="1001" toSubLevel="1001">-12</value>
+					<value fromLevel="1" toLevel="1" fromSubLevel="1002" toSubLevel="1002">-14</value>
+					<value fromLevel="1" toLevel="1" fromSubLevel="1003" toSubLevel="1003">-16</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="MagicalSkillPower">
+				<amount>
+					<value level="1">-10</value>
+					<value fromLevel="1" toLevel="1" fromSubLevel="1001" toSubLevel="1001">-12</value>
+					<value fromLevel="1" toLevel="1" fromSubLevel="1002" toSubLevel="1002">-14</value>
+					<value fromLevel="1" toLevel="1" fromSubLevel="1003" toSubLevel="1003">-16</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="45551" toLevel="1" name="Pa'agrio's Touch">
+		<icon>icon.touch_of_paagrio1</icon>
 		<operateType>A1</operateType>
+		<isMagic>5</isMagic>
+		<mpConsume>0</mpConsume>
+		<castRange>-1</castRange>
+		<hitTime>0</hitTime>
+		<coolTime>0</coolTime>
+		<reuseDelay>0</reuseDelay>
+		<effectPoint>0</effectPoint>
+		<hpConsume>0</hpConsume>
+		<abnormalTime>3</abnormalTime>
+	</skill>
+	<skill id="45552" toLevel="1" name="Pa'agrio's Touch">
+		<icon>icon.touch_of_paagrio1</icon>
+		<operateType>A1</operateType>
+		<isMagic>5</isMagic>
+		<mpConsume>0</mpConsume>
+		<castRange>-1</castRange>
+		<hitTime>0</hitTime>
+		<coolTime>0</coolTime>
+		<reuseDelay>0</reuseDelay>
+		<effectPoint>0</effectPoint>
+		<hpConsume>0</hpConsume>
+		<abnormalTime>3</abnormalTime>
+	</skill>
+	<skill id="45553" toLevel="1" name="Pa'agrio's Touch">
+		<icon>icon.touch_of_paagrio1</icon>
+		<operateType>A1</operateType>
+		<isMagic>5</isMagic>
+		<mpConsume>0</mpConsume>
+		<castRange>-1</castRange>
+		<hitTime>0</hitTime>
+		<coolTime>0</coolTime>
+		<reuseDelay>0</reuseDelay>
+		<effectPoint>0</effectPoint>
+		<hpConsume>0</hpConsume>
+		<abnormalTime>3</abnormalTime>
+	</skill>
+	<skill id="45554" toLevel="1" name="Pa'agrio's Touch">
+		<icon>icon.touch_of_paagrio1</icon>
+		<operateType>A1</operateType>
+		<isMagic>5</isMagic>
+		<mpConsume>0</mpConsume>
+		<castRange>-1</castRange>
+		<hitTime>0</hitTime>
+		<coolTime>0</coolTime>
+		<reuseDelay>0</reuseDelay>
+		<effectPoint>0</effectPoint>
+		<hpConsume>0</hpConsume>
+		<abnormalTime>3</abnormalTime>
+	</skill>
+	<skill id="45555" toLevel="1" name="Pa'agrio's Touch">
+		<icon>icon.touch_of_paagrio1</icon>
+		<operateType>A1</operateType>
+		<isMagic>5</isMagic>
+		<mpConsume>0</mpConsume>
+		<castRange>-1</castRange>
+		<hitTime>0</hitTime>
+		<coolTime>0</coolTime>
+		<reuseDelay>0</reuseDelay>
+		<effectPoint>0</effectPoint>
+		<hpConsume>0</hpConsume>
+		<abnormalTime>3</abnormalTime>
+	</skill>
+	<skill id="45556" toLevel="1" name="Pa'agrio's Touch">
+		<icon>icon.touch_of_paagrio1</icon>
+		<operateType>A1</operateType>
+		<isMagic>5</isMagic>
+		<mpConsume>0</mpConsume>
+		<castRange>-1</castRange>
+		<hitTime>0</hitTime>
+		<coolTime>0</coolTime>
+		<reuseDelay>0</reuseDelay>
+		<effectPoint>0</effectPoint>
+		<hpConsume>0</hpConsume>
+		<abnormalTime>3</abnormalTime>
+	</skill>
+	<skill id="45557" toLevel="1" name="Pa'agrio's Touch">
+		<icon>icon.touch_of_paagrio1</icon>
+		<operateType>A1</operateType>
+		<isMagic>5</isMagic>
+		<mpConsume>0</mpConsume>
+		<castRange>-1</castRange>
+		<hitTime>0</hitTime>
+		<coolTime>0</coolTime>
+		<reuseDelay>0</reuseDelay>
+		<effectPoint>0</effectPoint>
+		<hpConsume>0</hpConsume>
+		<abnormalTime>3</abnormalTime>
+	</skill>
+	<skill id="45558" toLevel="1" name="Pa'agrio's Touch">
+		<icon>icon.touch_of_paagrio1</icon>
+		<operateType>A1</operateType>
+		<isMagic>5</isMagic>
+		<mpConsume>0</mpConsume>
+		<castRange>-1</castRange>
+		<hitTime>0</hitTime>
+		<coolTime>0</coolTime>
+		<reuseDelay>0</reuseDelay>
+		<effectPoint>0</effectPoint>
+		<hpConsume>0</hpConsume>
+		<abnormalTime>3</abnormalTime>
+	</skill>
+	<skill id="45559" toLevel="1" name="Pa'agrio's Touch">
+		<icon>icon.touch_of_paagrio1</icon>
+		<operateType>A1</operateType>
+		<isMagic>5</isMagic>
+		<mpConsume>0</mpConsume>
+		<castRange>-1</castRange>
+		<hitTime>0</hitTime>
+		<coolTime>0</coolTime>
+		<reuseDelay>0</reuseDelay>
+		<effectPoint>0</effectPoint>
+		<hpConsume>0</hpConsume>
+		<abnormalTime>3</abnormalTime>
+	</skill>
+	<skill id="45560" toLevel="1" name="Pa'agrio's Touch">
+		<icon>icon.touch_of_paagrio1</icon>
+		<operateType>A1</operateType>
+		<isMagic>5</isMagic>
+		<mpConsume>0</mpConsume>
+		<castRange>-1</castRange>
+		<hitTime>0</hitTime>
+		<coolTime>0</coolTime>
+		<reuseDelay>0</reuseDelay>
+		<effectPoint>0</effectPoint>
+		<hpConsume>0</hpConsume>
+		<abnormalTime>3</abnormalTime>
 	</skill>
 </list>

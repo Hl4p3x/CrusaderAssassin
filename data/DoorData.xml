@@ -7535,143 +7535,125 @@
 		<openStatus default="close" />
 	</door>
 	
-	<!-- 18_20 Classic -->
-	<door id="18200001" name="L2fortress_02_s.fort02_wall_door">
-		<nodes nodeZ="-2870">
-			<node x="-54367" y="89535" />
-			<node x="-54139" y="89542" />
-			<node x="-54139" y="89639" />
-			<node x="-54367" y="89640" />
+	<!-- 18_19 Classic -->
+	<door id="18190002" name="Embryo_Astatine_S.E_A_Gate_door_01">
+		<nodes nodeZ="-2223">
+			<node x="-55065" y="52809" />
+			<node x="-54951" y="52809" />
+			<node x="-54951" y="52833" />
+			<node x="-55065" y="52833" />
 		</nodes>
-		<location x="-54247" y="89585" z="-2870" />
-		<stats basePDef="644" baseMDef="518" baseHpMax="169710" />
+		<location x="-54959" y="52821" z="-2212" />
+		<stats basePDef="100000" baseMDef="5000" baseHpMax="3258432" />
+		<status targetable="false" showHp="false" />
 		<openStatus default="close" />
 	</door>
-	<door id="18200002" name="L2fortress_02_s.Fort02_indoor">
-		<nodes nodeZ="-2849">
-			<node x="-53226" y="91814" />
-			<node x="-53311" y="91816" />
-			<node x="-53311" y="91831" />
-			<node x="-53227" y="91830" />
+	<door id="18190004" name="Embryo_Astatine_S.E_A_Gate_door_01">
+		<nodes nodeZ="-2224">
+			<node x="-55164" y="52811" />
+			<node x="-55049" y="52808" />
+			<node x="-55049" y="52833" />
+			<node x="-55163" y="52834" />
 		</nodes>
-		<location x="-53312" y="91823" z="-2849" />
-		<stats basePDef="644" baseMDef="518" baseHpMax="169710" />
-		<status showHp="false" />
+		<location x="-55156" y="52821" z="-2212" />
+		<stats basePDef="100000" baseMDef="5000" baseHpMax="3258432" />
+		<status targetable="false" showHp="false" />
 		<openStatus default="close" />
 	</door>
-	<door id="18200003" name="L2fortress_02_s.Fort02_indoor">
-		<nodes nodeZ="-2849">
-			<node x="-53240" y="91814" />
-			<node x="-53144" y="91814" />
-			<node x="-53143" y="91833" />
-			<node x="-53240" y="91829" />
+	<door id="18190006" name="Embryo_Astatine_S.E_A_Gate_door_01">
+		<nodes nodeZ="-2417">
+			<node x="-46998" y="50373" />
+			<node x="-46924" y="50450" />
+			<node x="-46944" y="50469" />
+			<node x="-47020" y="50390" />
 		</nodes>
-		<location x="-53154" y="91823" z="-2849" />
-		<stats basePDef="644" baseMDef="518" baseHpMax="169710" />
-		<status showHp="false" />
+		<location x="-46939" y="50454" z="-2406" />
+		<stats basePDef="100000" baseMDef="5000" baseHpMax="3258432" />
+		<status targetable="false" showHp="false" />
 		<openStatus default="close" />
 	</door>
-	<door id="18200004" name="L2fortress_02_s.Fort02_indoor">
-		<nodes nodeZ="-2851">
-			<node x="-51504" y="90348" />
-			<node x="-51521" y="90251" />
-			<node x="-51504" y="90251" />
-			<node x="-51521" y="90348" />
+	<door id="18190008" name="Embryo_Astatine_S.E_A_Gate_door_01">
+		<nodes nodeZ="-2418">
+			<node x="-47074" y="50302" />
+			<node x="-46991" y="50381" />
+			<node x="-47012" y="50401" />
+			<node x="-47093" y="50321" />
 		</nodes>
-		<location x="-51513" y="90259" z="-2851" />
-		<stats basePDef="644" baseMDef="518" baseHpMax="169710" />
-		<status showHp="false" />
+		<location x="-47078" y="50315" z="-2406" />
+		<stats basePDef="100000" baseMDef="5000" baseHpMax="3258432" />
+		<status targetable="false" showHp="false" />
 		<openStatus default="close" />
 	</door>
-	<door id="18200005" name="L2fortress_02_s.Fort02_indoor">
-		<nodes nodeZ="-2851">
-			<node x="-51521" y="90328" />
-			<node x="-51521" y="90428" />
-			<node x="-51503" y="90427" />
-			<node x="-51504" y="90328" />
+	<door id="18190010" name="Embryo_Astatine_S.E_A_Gate_door_01">
+		<nodes nodeZ="-3227">
+			<node x="-47603" y="59900" />
+			<node x="-47500" y="59932" />
+			<node x="-47506" y="59948" />
+			<node x="-47608" y="59917" />
 		</nodes>
-		<location x="-51513" y="90417" z="-2851" />
-		<stats basePDef="644" baseMDef="518" baseHpMax="169710" />
-		<status showHp="false" />
+		<location x="-47509" y="59937" z="-3216" />
+		<stats basePDef="100000" baseMDef="5000" baseHpMax="3258432" />
+		<status targetable="false" showHp="false" />
 		<openStatus default="close" />
 	</door>
-	<door id="18200006" name="L2fortress_02_s.Fort02_indoor">
-		<nodes nodeZ="-2819">
-			<node x="-55118" y="91764" />
-			<node x="-55114" y="91863" />
-			<node x="-55131" y="91863" />
-			<node x="-55130" y="91763" />
+	<door id="18190012" name="Embryo_Astatine_S.E_A_Gate_door_01">
+		<nodes nodeZ="-3228">
+			<node x="-47698" y="59872" />
+			<node x="-47597" y="59902" />
+			<node x="-47601" y="59918" />
+			<node x="-47703" y="59886" />
 		</nodes>
-		<location x="-55123" y="91775" z="-2819" />
-		<stats basePDef="644" baseMDef="518" baseHpMax="169710" />
-		<openStatus openMethod="BY_CLICK" default="close" />
-	</door>
-	<door id="18200007" name="L2fortress_02_s.Fort02_indoor">
-		<nodes nodeZ="-2819">
-			<node x="-55131" y="91845" />
-			<node x="-55129" y="91943" />
-			<node x="-55114" y="91944" />
-			<node x="-55115" y="91846" />
-		</nodes>
-		<location x="-55123" y="91933" z="-2819" />
-		<stats basePDef="644" baseMDef="518" baseHpMax="169710" />
-		<openStatus openMethod="BY_CLICK" default="close" />
-	</door>
-	<door id="18200008" name="L2fortress_02_s.Fort02_indoor">
-		<nodes nodeZ="-2811">
-			<node x="-51220" y="92018" />
-			<node x="-51142" y="91945" />
-			<node x="-51130" y="91960" />
-			<node x="-51208" y="92035" />
-		</nodes>
-		<location x="-51146" y="91961" z="-2811" />
-		<stats basePDef="644" baseMDef="518" baseHpMax="169710" />
-		<openStatus openMethod="BY_CLICK" default="close" />
-	</door>
-	<door id="18200009" name="L2fortress_02_s.Fort02_indoor">
-		<nodes nodeZ="-2811">
-			<node x="-51187" y="92015" />
-			<node x="-51274" y="92077" />
-			<node x="-51261" y="92091" />
-			<node x="-51200" y="91999" />
-		</nodes>
-		<location x="-51259" y="92074" z="-2811" />
-		<stats basePDef="644" baseMDef="518" baseHpMax="169710" />
-		<openStatus openMethod="BY_CLICK" default="close" />
-	</door>
-	<door id="18200010" name="L2fortress_02_s.fort02_wall_door">
-		<nodes nodeZ="-2869">
-			<node x="-52376" y="92935" />
-			<node x="-52148" y="92942" />
-			<node x="-52148" y="93039" />
-			<node x="-52376" y="93040" />
-		</nodes>
-		<location x="-52256" y="92985" z="-2869" />
-		<stats basePDef="644" baseMDef="518" baseHpMax="169710" />
+		<location x="-47697" y="59880" z="-3216" />
+		<stats basePDef="100000" baseMDef="5000" baseHpMax="3258432" />
+		<status targetable="false" showHp="false" />
 		<openStatus default="close" />
 	</door>
-	<door id="18200011" name="L2fortress_02_s.Fort02_indoor">
-		<nodes nodeZ="-2849">
-			<node x="-53232" y="90612" />
-			<node x="-53317" y="90614" />
-			<node x="-53317" y="90629" />
-			<node x="-53233" y="90628" />
+	<door id="18190100" name="Embryo_Astatine_S.E_A_F_effcet_00">
+		<nodes nodeZ="-8057">
+			<node x="-43343" y="44412" />
+			<node x="-43343" y="44521" />
+			<node x="-43355" y="44521" />
+			<node x="-43355" y="44413" />
 		</nodes>
-		<location x="-53318" y="90621" z="-2849" />
-		<stats basePDef="644" baseMDef="518" baseHpMax="169710" />
-		<status showHp="false" />
+		<location x="-43349" y="44516" z="-7952" />
+		<stats basePDef="100000" baseMDef="5000" baseHpMax="3258432" />
+		<status targetable="false" showHp="false" />
 		<openStatus default="close" />
 	</door>
-	<door id="18200012" name="L2fortress_02_s.Fort02_indoor">
-		<nodes nodeZ="-2849">
-			<node x="-53246" y="90612" />
-			<node x="-53150" y="90612" />
-			<node x="-53149" y="90631" />
-			<node x="-53246" y="90627" />
+	<door id="18190102" name="Embryo_Astatine_S.E_A_F_effcet_00">
+		<nodes nodeZ="-8057">
+			<node x="-43347" y="44006" />
+			<node x="-43347" y="44115" />
+			<node x="-43359" y="44115" />
+			<node x="-43359" y="44007" />
 		</nodes>
-		<location x="-53160" y="90621" z="-2849" />
-		<stats basePDef="644" baseMDef="518" baseHpMax="169710" />
-		<status showHp="false" />
+		<location x="-43353" y="44110" z="-7952" />
+		<stats basePDef="100000" baseMDef="5000" baseHpMax="3258432" />
+		<status targetable="false" showHp="false" />
+		<openStatus default="close" />
+	</door>
+	<door id="18190104" name="Embryo_Astatine_S.E_A_F_effcet_00">
+		<nodes nodeZ="-8057">
+			<node x="-44696" y="44413" />
+			<node x="-44696" y="44522" />
+			<node x="-44708" y="44522" />
+			<node x="-44708" y="44414" />
+		</nodes>
+		<location x="-44702" y="44517" z="-7952" />
+		<stats basePDef="100000" baseMDef="5000" baseHpMax="3258432" />
+		<status targetable="false" showHp="false" />
+		<openStatus default="close" />
+	</door>
+	<door id="18190106" name="Embryo_Astatine_S.E_A_F_effcet_00">
+		<nodes nodeZ="-8057">
+			<node x="-44700" y="44007" />
+			<node x="-44700" y="44116" />
+			<node x="-44712" y="44116" />
+			<node x="-44712" y="44008" />
+		</nodes>
+		<location x="-44706" y="44111" z="-7952" />
+		<stats basePDef="100000" baseMDef="5000" baseHpMax="3258432" />
+		<status targetable="false" showHp="false" />
 		<openStatus default="close" />
 	</door>
 	
@@ -8096,32 +8078,8 @@
 		<status showHp="false" />
 		<openStatus default="close" closeTime="10" />
 	</door>
-	<door id="19160012" name="Rune_temple_of_heresy_s.Rune_toh_aisle_door">
-		<nodes nodeZ="-11053">
-			<node x="-14560" y="-52655" />
-			<node x="-14496" y="-52657" />
-			<node x="-14495" y="-52307" />
-			<node x="-14557" y="-52307" />
-		</nodes>
-		<location x="-14531" y="-52484" z="-10932" />
-		<stats basePDef="644" baseMDef="518" baseHpMax="126600" />
-		<status showHp="false" />
-		<openStatus default="close" closeTime="10" />
-	</door>
-	<door id="19160013" name="Rune_temple_of_heresy_s.Rune_toh_aisle_door">
-		<nodes nodeZ="-11053">
-			<node x="-18303" y="-52657" />
-			<node x="-18225" y="-52655" />
-			<node x="-18224" y="-52305" />
-			<node x="-18302" y="-52305" />
-		</nodes>
-		<location x="-18260" y="-52485" z="-10932" />
-		<stats basePDef="644" baseMDef="518" baseHpMax="126600" />
-		<status showHp="false" />
-		<openStatus default="close" closeTime="10" />
-	</door>
 	<door id="19160066" name="Rune_temple_of_heresy_s.Rune_toh_entrance">
-		<nodes nodeZ="-10722">
+		<nodes nodeZ="-10643">
 			<node x="-18085" y="-55001" />
 			<node x="-17830" y="-55003" />
 			<node x="-17831" y="-54943" />
@@ -8133,7 +8091,7 @@
 		<openStatus default="close" />
 	</door>
 	<door id="19160088" name="Rune_temple_of_heresy_s.Rune_toh_entrance">
-		<nodes nodeZ="-10721">
+		<nodes nodeZ="-10653">
 			<node x="-14959" y="-54999" />
 			<node x="-14704" y="-55001" />
 			<node x="-14705" y="-54941" />
@@ -9696,7 +9654,7 @@
 		<openStatus default="close" />
 	</door>
 	
-	<!-- 20_24 -->
+	<!-- 20_24 Classic -->
 	<door id="20240001" name="bereth_S.bereth_Door01">
 		<nodes nodeZ="-9399">
 			<node x="16223" y="210720" />
@@ -10768,7 +10726,7 @@
 		<openStatus openMethod="BY_CLICK" default="close" />
 	</door>
 	
-	<!-- 22_15 -->
+	<!-- 22_15 Classic -->
 	<door id="22150001" name="L2fortress_02_s.fort02_wall_door">
 		<nodes nodeZ="-1478">
 			<node x="72376" y="-96500" />
@@ -11052,7 +11010,7 @@
 		<openStatus default="close" />
 	</door>
 	
-	<!-- 22_18 -->
+	<!-- 22_18 Classic -->
 	<door id="22180001" name="L2fortress_02_s.fort02_wall_door">
 		<nodes nodeZ="-3093">
 			<node x="74150" y="2726" />

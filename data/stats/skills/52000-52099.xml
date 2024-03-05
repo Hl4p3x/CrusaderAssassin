@@ -30,6 +30,7 @@
 	<skill id="52002" toLevel="1" name="Flag Power - Warrior">
 		<!-- Flag Power for warriors. Decreases nearby enemies' Speed. -->
 		<icon>icon.skill1298</icon>
+		<!-- Speed of the flag bearer is decreased. -->
 		<operateType>P</operateType>
 		<abnormalVisualEffect>FORT_FLAG_AVE</abnormalVisualEffect>
 		<effects>
@@ -77,7 +78,7 @@
 		</effects>
 	</skill>
 	<skill id="52004" toLevel="1" name="Flag Power - Rogue">
-		<!-- Flag Power for rogues. Increases P. Evasion и P. Skill Evasion. -->
+		<!-- Flag Power for rogues. Increases P. Evasion and P. Skill Evasion. -->
 		<icon>icon.skill0111</icon>
 		<operateType>A2</operateType>
 		<coolTime>500</coolTime>
@@ -101,7 +102,7 @@
 		</effects>
 	</skill>
 	<skill id="52005" toLevel="1" name="Flag Power - Archer">
-		<!-- Flag Power for archers. Increases P. Evasion и P. Skill Evasion. -->
+		<!-- Flag Power for archers. Increases P. Evasion and P. Skill Evasion. -->
 		<icon>icon.skill0111</icon>
 		<operateType>A2</operateType>
 		<coolTime>500</coolTime>
@@ -355,7 +356,7 @@
 			</effect>
 		</effects>
 	</skill>
-	<skill id="52013" toLevel="1" name="Flag Carrier">
+	<skill id="52013" toLevel="1" name="Flag Bearer">
 		<!-- Speed is decreased while carrying a flag. -->
 		<icon>icon.weapon_fort_flag_i00</icon>
 		<operateType>P</operateType>
@@ -653,12 +654,12 @@
 		<operateType>A1</operateType>
 	</skill>
 	<skill id="52028" toLevel="1" name="New Adventure">
-		<!-- P. Def. +100. M. Def. +100. Max HP +100. Max MP +100. HP Recovery Rate +10. MP Recovery Rate +10. HP Recovery Potions' Effect +10. Speed +5. Acquired XP/ SP +100%. XP recovery fee -50% -->
+		<!-- P. Def. +100. M. Def. +100. Max HP +100. Max MP +100. HP Recovery Rate +8. MP Recovery Rate +8. HP Recovery Potions' Effect +10. Speed +5. Acquired XP/ SP +50%. XP recovery fee -30% -->
 		<icon>icon.s_dormant_user_display</icon>
 		<operateType>A1</operateType>
 	</skill>
 	<skill id="52029" toLevel="1" name="First to Maximum">
-		<!-- Hail to bardugunN1!. A buff for the first character to reach Lv. 92. P. Atk. +92. M. Atk. +92. P. Def. +92. M. Def. +92. Atk. Spd. +92. Casting Spd. +92. Max HP +92. Max MP +92 -->
+		<!-- The legendary adventurer from the Ryunwanhon clan of the EINS server. A buff for the first character to reach Lv. 92 on the server. P. Atk. +92. M. Atk. +92. P. Def. +92. M. Def. +92. Atk. Spd. +92. Casting Spd. +92. Max HP +92. Max MP +92 -->
 		<icon>icon.skill5762</icon>
 		<operateType>A1</operateType>
 	</skill>

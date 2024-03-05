@@ -112,7 +112,7 @@
 		</effects>
 	</skill>
 	<skill id="6304" toLevel="1" name="Stun">
-		<!-- Immobilizes and stuns a target for 2 sec. -->
+		<!-- Immobilizes and stuns the target for 2 sec. -->
 		<icon>icon.skill0100</icon>
 		<abnormalLevel>1</abnormalLevel>
 		<abnormalTime>2</abnormalTime>
@@ -474,7 +474,7 @@
 		</effects>
 	</skill>
 	<skill id="6318" toLevel="1" name="Holy Shield Defense">
-		<!-- Increases P. Def. by 10% for 3 sec. -->
+		<!-- For 3 sec., P. Def. +10%. -->
 		<icon>icon.skill1040</icon>
 		<abnormalLevel>3</abnormalLevel>
 		<abnormalTime>3</abnormalTime>
@@ -502,7 +502,7 @@
 		</effects>
 	</skill>
 	<skill id="6319" toLevel="1" name="Divine Magic Protection">
-		<!-- M. Def. +10% for 3 sec. -->
+		<!-- For 3 sec., M. Def. +10%. -->
 		<icon>icon.skill6319</icon>
 		<abnormalLevel>3</abnormalLevel>
 		<abnormalTime>3</abnormalTime>
@@ -530,7 +530,7 @@
 		</effects>
 	</skill>
 	<skill id="6320" toLevel="1" name="Summon Holy Magic Circle">
-		<!-- Decreases enemy's P. Def. by 23% for 15 sec. -->
+		<!-- For 15 sec., the enemy's P. Def. -23%. -->
 		<icon>icon.skill6320</icon>
 		<abnormalLevel>3</abnormalLevel>
 		<abnormalTime>15</abnormalTime>
@@ -885,7 +885,7 @@
 		</effects>
 	</skill>
 	<skill id="6334" toLevel="1" name="Stun">
-		<!-- Immobilizes and stuns a target for 4 sec. -->
+		<!-- Immobilizes and stuns the target for 4 sec. -->
 		<icon>icon.skill0100</icon>
 		<abnormalLevel>1</abnormalLevel>
 		<abnormalTime>4</abnormalTime>
@@ -1042,7 +1042,7 @@
 		</effects>
 	</skill>
 	<skill id="6340" toLevel="1" name="Stun">
-		<!-- Immobilizes and stuns a target for 4 sec. -->
+		<!-- Immobilizes and stuns the target for 4 sec. -->
 		<icon>icon.skill0100</icon>
 		<abnormalLevel>1</abnormalLevel>
 		<abnormalTime>4</abnormalTime>
@@ -1684,7 +1684,7 @@
 			<effect name="PhysicalMute" />
 		</effects>
 	</skill>
-	<skill id="6384" toLevel="2" name="Bistakon Deadly Blow">
+	<skill id="6384" toLevel="2" name="Bistakon's Lethal Blow">
 		<icon>icon.skill0000</icon>
 		<castRange>60</castRange>
 		<coolTime>500</coolTime>
@@ -1744,7 +1744,7 @@
 		</effects>
 	</skill>
 	<skill id="6386" toLevel="1" name="Bistakon Earth Rise">
-		<!-- Immobilizes and stuns a target for 3 sec. -->
+		<!-- Immobilizes and stuns the target for 3 sec. -->
 		<icon>icon.skill0100</icon>
 		<abnormalLevel>1</abnormalLevel>
 		<abnormalTime>3</abnormalTime>

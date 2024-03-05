@@ -378,7 +378,7 @@
 		</effects>
 	</option>
 	<option id="40458" name="o_s_cl_mg">
-		<!-- Max MP +8.42. -->
+		<!-- Max MP +8.42 -->
 		<!-- P. Critical Damage +5.69 -->
 		<effects>
 			<effect name="MaxMp">
@@ -392,7 +392,7 @@
 		</effects>
 	</option>
 	<option id="40459" name="o_s_cl_mg">
-		<!-- Max MP +8.42. -->
+		<!-- Max MP +8.42 -->
 		<!-- M. Skill Critical Damage +6.5 -->
 		<effects>
 			<effect name="MaxMp">
@@ -406,7 +406,7 @@
 		</effects>
 	</option>
 	<option id="40460" name="o_s_cl_mg">
-		<!-- Max MP +8.42. -->
+		<!-- Max MP +8.42 -->
 		<!-- M. Evasion +0.64 -->
 		<effects>
 			<effect name="MaxMp">
@@ -420,7 +420,7 @@
 		</effects>
 	</option>
 	<option id="40461" name="o_s_cl_mg">
-		<!-- Max MP +8.42. -->
+		<!-- Max MP +8.42 -->
 		<!-- M. Accuracy +0.64 -->
 		<effects>
 			<effect name="MaxMp">
@@ -434,7 +434,7 @@
 		</effects>
 	</option>
 	<option id="40462" name="o_s_cl_mg">
-		<!-- Max MP +8.42. -->
+		<!-- Max MP +8.42 -->
 		<!-- M. Skill Critical Rate +2.2 -->
 		<effects>
 			<effect name="MaxMp">

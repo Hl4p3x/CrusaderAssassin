@@ -360,7 +360,7 @@
 		</stats>
 	</item>
 	<item id="94024" name="Piglet-Bank Lv.2" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.etc_piggy_bank" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -384,7 +384,7 @@
 		</capsuled_items>
 	</item>
 	<item id="94025" name="Piglet-Bank Lv.3" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.etc_piggy_bank" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -744,7 +744,7 @@
 		<set name="is_sellable" val="false" />
 	</item>
 	<item id="94046" name="Spellbook: Glorious Warrior's Ability Lv. 1" additionalName="Sealed" type="EtcItem">
-		<!-- A commemorative spellbook for reaching Lv. 90. Double-click to learn Glorious Warrior's Ability Lv. 1. <Classes>. All classes. <Skill effect>. Increases CON and MEN. -->
+		<!-- A reward for reaching Lv. 90. Double-click to learn Glorious Warrior's Ability Lv. 1. <Classes>. All. <Skill effect>. Increases CON and MEN. -->
 		<set name="icon" val="icon.etc_spell_books_black_i00" />
 		<set name="default_action" val="SKILL_REDUCE" />
 		<set name="immediate_effect" val="true" />
@@ -1297,7 +1297,7 @@
 		</skills>
 	</item>
 	<item id="94087" name="Package: Helmet of Mana" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.armor_leather_helmet_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -1312,7 +1312,7 @@
 		</capsuled_items>
 	</item>
 	<item id="94088" name="Package: Helmet of Mana" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.armor_leather_helmet_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -1327,7 +1327,7 @@
 		</capsuled_items>
 	</item>
 	<item id="94089" name="Package: Boots of Evasion" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.armor_t100_b_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -1342,7 +1342,7 @@
 		</capsuled_items>
 	</item>
 	<item id="94090" name="Package: Boots of Evasion" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.armor_t100_b_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -1368,7 +1368,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="handler" val="ExtractableItems" />
 		<capsuled_items>
-			<item id="93073" min="1" max="1" chance="100" /> <!-- Sayha's Storm Lv. 3 (Time-limited) - Sealed -->
+			<item id="93073" min="1" max="1" chance="100" /> <!-- Sayha's Storm (Time-limited) - Sealed -->
 			<item id="93848" min="1" max="1" chance="100" /> <!-- Sayha's Cookie (Time-limited) - Sealed -->
 			<item id="93886" min="1" max="1" chance="100" /> <!-- Enhanced Dice (Time-limited) - Sealed -->
 		</capsuled_items>
@@ -1394,7 +1394,7 @@
 			<item id="91076" min="1" max="1" chance="5.7405" /> <!-- Venir's Talisman Fragment -->
 			<item id="49756" min="1" max="1" chance="5.7405" /> <!-- Cloth Piece -->
 			<item id="93330" min="1" max="1" chance="4.7405" /> <!-- Enchant Kit: Talisman of Authority - Sealed -->
-			<item id="94095" min="1" max="1" chance="1.0" /> <!-- Package: Inventory Expansion Ticket Lv. 4-5 -->
+			<item id="94095" min="1" max="1" chance="1.0" /> <!-- Package: High-grade Inventory Expansion Coupon -->
 			<item id="93103" min="1" max="1" chance="0.1" /> <!-- Spellbook: Divine Beam -->
 			<item id="92401" min="1" max="1" chance="0.1" /> <!-- Spellbook: White Guardian -->
 			<item id="93268" min="1" max="1" chance="0.1" /> <!-- Improved Scroll: Enchant A-grade Weapon - Sealed -->
@@ -1412,7 +1412,7 @@
 			<item id="49580" min="1" max="1" chance="0.001" /> <!-- Baium's Ring -->
 			<item id="90763" min="1" max="1" chance="0.001" /> <!-- Zaken's Earring -->
 			<item id="92990" min="1" max="1" chance="0.001" /> <!-- Boss' Weapon Pack - Sealed -->
-			<item id="93930" min="1" max="1" chance="0.001" /> <!-- Special Armor Coupon - Sealed -->
+			<item id="93930" min="1" max="1" chance="0.001" /> <!-- Special Armor Coupon (Time-limited) - Sealed -->
 			<item id="94083" min="1" max="1" chance="0.001" /> <!-- Helmet of Mana -->
 			<item id="94085" min="1" max="1" chance="0.001" /> <!-- Boots of Evasion -->
 		</capsuled_items>
@@ -1427,7 +1427,7 @@
 		<set name="is_stackable" val="true" />
 	</item>
 	<item id="94094" name="+7 Talisman of Authority Pack" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.bm_silver_lure_box" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -1442,7 +1442,7 @@
 		</capsuled_items>
 	</item>
 	<item id="94095" name="Package: Inventory Expansion Ticket Lv. 4-5" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.etc_ticket_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -1452,8 +1452,8 @@
 		<set name="is_stackable" val="true" />
 		<set name="handler" val="ExtractableItems" />
 		<capsuled_items>
-			<item id="92007" min="1" max="1" chance="100" /> <!-- Inventory Expansion Ticket Lv. 4 - Sealed -->
-			<item id="92008" min="1" max="1" chance="100" /> <!-- Inventory Expansion Ticket Lv. 5 - Sealed -->
+			<item id="92007" min="1" max="1" chance="100" /> <!-- High-grade Inventory Expansion Coupon - Sealed -->
+			<item id="92008" min="1" max="1" chance="100" /> <!-- Inventory Expansion Coupon Lv. 5 - Sealed -->
 		</capsuled_items>
 	</item>
 	<item id="94096" name="Regular Pet Training Guide" type="EtcItem">
@@ -1464,7 +1464,7 @@
 		<set name="is_stackable" val="true" />
 	</item>
 	<item id="94097" name="Sealed Wolf Necklace" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.etc_summon_wolf_r_02" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -1480,7 +1480,7 @@
 		</capsuled_items>
 	</item>
 	<item id="94098" name="Sealed Buffalo Necklace" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.buffalo_necklace_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -1496,7 +1496,7 @@
 		</capsuled_items>
 	</item>
 	<item id="94099" name="Sealed Tiger Necklace" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.etc_tooth_gragon" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />

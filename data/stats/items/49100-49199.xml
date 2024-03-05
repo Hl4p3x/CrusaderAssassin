@@ -89,7 +89,7 @@
 		<set name="is_freightable" val="true" />
 	</item>
 	<item id="49108" name="Beauty Chest" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.etc_box_of_adventure_2_i00" />
 		<set name="default_action" val="SKILL_REDUCE" />
 		<set name="material" val="FISH" />
@@ -102,7 +102,7 @@
 		</capsuled_items>
 	</item>
 	<item id="49109" name="Buff Scroll Chest" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.etc_box_of_adventure_3_i00" />
 		<set name="default_action" val="SKILL_REDUCE" />
 		<set name="material" val="FISH" />
@@ -115,7 +115,7 @@
 		</capsuled_items>
 	</item>
 	<item id="49110" name="High-Quality Dye Chest" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.etc_box_of_adventure_4_i00" />
 		<set name="default_action" val="SKILL_REDUCE" />
 		<set name="material" val="FISH" />
@@ -127,7 +127,7 @@
 		</skills>
 	</item>
 	<item id="49111" name="Dye Chest" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.etc_box_of_adventure_5_i00" />
 		<set name="default_action" val="SKILL_REDUCE" />
 		<set name="material" val="FISH" />
@@ -139,7 +139,7 @@
 		</skills>
 	</item>
 	<item id="49112" name="C-grade Staff Pack" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.etc_treasure_box_i02" />
 		<set name="default_action" val="SKILL_REDUCE" />
 		<set name="material" val="FISH" />
@@ -150,7 +150,7 @@
 		</skills>
 	</item>
 	<item id="49113" name="C-grade Fist Weapon Pack" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.etc_treasure_box_i03" />
 		<set name="default_action" val="SKILL_REDUCE" />
 		<set name="material" val="FISH" />
@@ -161,7 +161,7 @@
 		</skills>
 	</item>
 	<item id="49114" name="C-grade Spear Pack" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.etc_treasure_box_i04" />
 		<set name="default_action" val="SKILL_REDUCE" />
 		<set name="material" val="FISH" />
@@ -172,7 +172,7 @@
 		</skills>
 	</item>
 	<item id="49115" name="C-grade Blunt Weapon Pack" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.etc_treasure_box_i05" />
 		<set name="default_action" val="SKILL_REDUCE" />
 		<set name="material" val="FISH" />
@@ -183,7 +183,7 @@
 		</skills>
 	</item>
 	<item id="49116" name="C-grade Dagger Pack" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.etc_treasure_box_i06" />
 		<set name="default_action" val="SKILL_REDUCE" />
 		<set name="material" val="FISH" />
@@ -194,7 +194,7 @@
 		</skills>
 	</item>
 	<item id="49117" name="C-grade One-handed Sword Pack" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.etc_treasure_box_i07" />
 		<set name="default_action" val="SKILL_REDUCE" />
 		<set name="material" val="FISH" />
@@ -205,7 +205,7 @@
 		</skills>
 	</item>
 	<item id="49118" name="C-grade Bow Pack" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.etc_treasure_box_i08" />
 		<set name="default_action" val="SKILL_REDUCE" />
 		<set name="material" val="FISH" />
@@ -250,7 +250,7 @@
 		<set name="is_dropable" val="false" />
 	</item>
 	<item id="49122" name="Ring of Macken" additionalName="15-day" type="Armor">
-		<!-- Available for 15 d. HP +20, M. Atk. +3, P. Atk. +5. Effects of two identical rings do not stack. -->
+		<!-- Available for 15 d. Applies the following effects: HP +20, M. Atk. +3, P. Atk. +5. Effects of two identical rings do not stack. -->
 		<set name="icon" val="icon.ev_11th_rare_acc_ring" />
 		<set name="default_action" val="EQUIP" />
 		<set name="bodypart" val="rfinger;lfinger" />
@@ -264,7 +264,7 @@
 		</stats>
 	</item>
 	<item id="49123" name="Ring of Macken" type="Armor">
-		<!-- HP +20, M. Atk. +3, P. Atk. +5. Effects of two identical rings do not stack. -->
+		<!-- Applies the following effects: HP +20, M. Atk. +3, P. Atk. +5. Effects of two identical rings do not stack. -->
 		<set name="icon" val="icon.ev_11th_rare_acc_ring" />
 		<set name="default_action" val="EQUIP" />
 		<set name="bodypart" val="rfinger;lfinger" />
@@ -304,7 +304,7 @@
 		</stats>
 	</item>
 	<item id="49126" name="Necklace of Macken" additionalName="15-day" type="Armor">
-		<!-- Available for 15 days. Max MP +20, M. Def. +3, P. Def. +5. -->
+		<!-- Available for 15 d. Applies the following effects: MP +20, M. Def. +3, P. Def. +5. -->
 		<set name="icon" val="icon.ev_11th_rare_acc_necklace" />
 		<set name="default_action" val="EQUIP" />
 		<set name="bodypart" val="neck" />
@@ -319,7 +319,7 @@
 		</stats>
 	</item>
 	<item id="49127" name="Necklace of Macken" type="Armor">
-		<!-- When equipped, increases MP by 20, M. Def. by 3, P. Def. by 5. -->
+		<!-- Applies the following effects: MP +20, M. Def. +3, P. Def. +5. -->
 		<set name="icon" val="icon.ev_11th_rare_acc_necklace" />
 		<set name="default_action" val="EQUIP" />
 		<set name="bodypart" val="neck" />
@@ -332,7 +332,7 @@
 		</stats>
 	</item>
 	<item id="49128" name="Gift Box" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.new_user_box" />
 		<set name="default_action" val="SKILL_REDUCE" />
 		<set name="material" val="FISH" />
@@ -459,7 +459,7 @@
 		</skills>
 	</item>
 	<item id="49137" name="Venus' Rune Chest (Low Level)" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.etc_pi_box_belief_pack" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -476,7 +476,7 @@
 		</capsuled_items>
 	</item>
 	<item id="49138" name="Venus' Rune Chest (High Level)" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.etc_pi_box_love_pack" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -493,7 +493,7 @@
 		</capsuled_items>
 	</item>
 	<item id="49139" name="Dual Swords' Gift Pack" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.etc_pi_box_joy_pack" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />

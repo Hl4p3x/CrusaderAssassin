@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/skills.xsd">
 	<skill id="55300" toLevel="1" name="Buff for the Hero of Abandoned Camp">
-		<!-- Buff for those who fight in the Abandoned Camp. P./ M. Atk. +10%. A chance to obtain Shabby Box when the buff is cancelled. Note!. The box can't be obtained if your character is dead or if there is no space in your inventory. -->
+		<!-- A buff for those who fight in the Abandoned Camp. P./ M. Atk. +10%. There is a chance to obtain Shabby Box when the buff expires. Note!. The box cannot be obtained if you are dead or if there is no free space in your inventory. -->
 		<icon>BranchIcon.Icon.skill_g_field_special_buff_i02</icon>
 		<operateType>A1</operateType>
 		<isMagic>4</isMagic>
@@ -21,7 +21,7 @@
 		<effectPoint>1</effectPoint>
 	</skill>
 	<skill id="55303" toLevel="1" name="Buff for the Hero of Orc Barracks">
-		<!-- Buff for those who fight in the Orc Barracks. P./ M. Atk. +10%. A chance to obtain Crude Box when the buff is cancelled. Note!. The box can't be obtained if your character is dead or if there is no space in your inventory. -->
+		<!-- A buff for those who fight in the Orc Barracks. P./ M. Atk. +10%. There is a chance to obtain Crude Box when the buff expires. Note!. The box cannot be obtained if you are dead or if there is no free space in your inventory. -->
 		<icon>BranchIcon.Icon.skill_g_field_special_buff_i03</icon>
 		<operateType>A1</operateType>
 		<isMagic>4</isMagic>
@@ -41,7 +41,7 @@
 		<effectPoint>1</effectPoint>
 	</skill>
 	<skill id="55306" toLevel="1" name="Buff for the Hero of the Cruma Tower's 2nd Floor">
-		<!-- Buff for those who fight on the 2nd floor of the Cruma Tower. P./ M. Atk. +10%. A chance to obtain Old Box when the buff is cancelled. Note!. The box can't be obtained if your character is dead or if there is no space in your inventory. -->
+		<!-- A buff for those who fight on the 2nd floor of the Cruma Tower. P./ M. Atk. +10%. There is a chance to obtain Old Box when the buff expires. Note!. The box cannot be obtained if you are dead or if there is no free space in your inventory. -->
 		<icon>BranchIcon.Icon.skill_g_field_special_buff_i04</icon>
 		<operateType>A1</operateType>
 		<isMagic>4</isMagic>

@@ -69,8 +69,8 @@
 			<npc id="25742" x="95285" y="20886" z="-3120" heading="46378" dbSave="true" dbName="Priest of Core Decar" respawnTime="22hour" respawnRandom="0hour" />
 			<npc id="25743" x="102675" y="26799" z="-3376" heading="46378" dbSave="true" dbName="Orfen's Priest Lord Ipos" respawnTime="22hour" respawnRandom="0hour" />
 			<npc id="25745" x="180326" y="43505" z="-3840" heading="46378" dbSave="true" dbName="Orc Timak Darphen" respawnTime="22hour" respawnRandom="0hour" />
-			<npc id="25755" x="129750" y="-9334" z="-3600" heading="46378" dbSave="true" dbName="Gross Salamander" respawnTime="22hour" respawnRandom="0hour" />
-			<npc id="25756" x="128767" y="-11501" z="-3664" heading="46378" dbSave="true" dbName="Gross Dre Vanul" respawnTime="22hour" respawnRandom="0hour" />
+			<npc id="25755" x="130500" y="-6790" z="-3525" heading="23700" dbSave="true" dbName="Gross Salamander" respawnTime="22hour" respawnRandom="0hour" />
+			<npc id="25756" x="125500" y="-12990" z="-3970" heading="7190" dbSave="true" dbName="Gross Dre Vanul" respawnTime="22hour" respawnRandom="0hour" />
 			<npc id="25758" x="112793" y="-987" z="-3904" heading="46378" dbSave="true" dbName="Fiend Goblier" respawnTime="22hour" respawnRandom="0hour" />
 			<npc id="25759" x="119294" y="-1929" z="-3720" heading="46378" dbSave="true" dbName="Fiend Cherkia" respawnTime="22hour" respawnRandom="0hour" />
 			<npc id="25760" x="123636" y="-4094" z="-3304" heading="46378" dbSave="true" dbName="Fiend Harthemon" respawnTime="22hour" respawnRandom="0hour" />

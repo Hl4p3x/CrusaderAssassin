@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../xsd/optionsData.xsd">
 	<option id="94100" name="P. Evasion +2.1">
+		<!-- P. Evasion +2.1 -->
 		<effects>
 			<effect name="PhysicalEvasion">
 				<amount>2.1</amount>
@@ -9,6 +10,7 @@
 		</effects>
 	</option>
 	<option id="94101" name="P. Evasion +2.2">
+		<!-- P. Evasion +2.2 -->
 		<effects>
 			<effect name="PhysicalEvasion">
 				<amount>2.2</amount>
@@ -17,6 +19,7 @@
 		</effects>
 	</option>
 	<option id="94102" name="P. Evasion +2.3">
+		<!-- P. Evasion +2.3 -->
 		<effects>
 			<effect name="PhysicalEvasion">
 				<amount>2.3</amount>
@@ -25,6 +28,7 @@
 		</effects>
 	</option>
 	<option id="94103" name="P. Evasion +2.4">
+		<!-- P. Evasion +2.4 -->
 		<effects>
 			<effect name="PhysicalEvasion">
 				<amount>2.4</amount>
@@ -33,6 +37,7 @@
 		</effects>
 	</option>
 	<option id="94104" name="P. Evasion +2.5">
+		<!-- P. Evasion +2.5 -->
 		<effects>
 			<effect name="PhysicalEvasion">
 				<amount>2.5</amount>
@@ -41,6 +46,7 @@
 		</effects>
 	</option>
 	<option id="94105" name="P. Evasion +2.6">
+		<!-- P. Evasion +2.6 -->
 		<effects>
 			<effect name="PhysicalEvasion">
 				<amount>2.6</amount>
@@ -49,6 +55,7 @@
 		</effects>
 	</option>
 	<option id="94106" name="P. Evasion +2.7">
+		<!-- P. Evasion +2.7 -->
 		<effects>
 			<effect name="PhysicalEvasion">
 				<amount>2.7</amount>
@@ -57,6 +64,7 @@
 		</effects>
 	</option>
 	<option id="94107" name="P. Evasion +2.8">
+		<!-- P. Evasion +2.8 -->
 		<effects>
 			<effect name="PhysicalEvasion">
 				<amount>2.8</amount>
@@ -65,6 +73,7 @@
 		</effects>
 	</option>
 	<option id="94108" name="P. Evasion +2.9">
+		<!-- P. Evasion +2.9 -->
 		<effects>
 			<effect name="PhysicalEvasion">
 				<amount>2.9</amount>
@@ -73,6 +82,7 @@
 		</effects>
 	</option>
 	<option id="94109" name="P. Evasion +3">
+		<!-- P. Evasion +3 -->
 		<effects>
 			<effect name="PhysicalEvasion">
 				<amount>3.0</amount>
@@ -81,6 +91,7 @@
 		</effects>
 	</option>
 	<option id="94110" name="P. Evasion +3.1">
+		<!-- P. Evasion +3.1 -->
 		<effects>
 			<effect name="PhysicalEvasion">
 				<amount>3.1</amount>
@@ -89,6 +100,7 @@
 		</effects>
 	</option>
 	<option id="94111" name="P. Evasion +3.2">
+		<!-- P. Evasion +3.2 -->
 		<effects>
 			<effect name="PhysicalEvasion">
 				<amount>3.2</amount>
@@ -97,6 +109,7 @@
 		</effects>
 	</option>
 	<option id="94112" name="P. Evasion +3.3">
+		<!-- P. Evasion +3.3 -->
 		<effects>
 			<effect name="PhysicalEvasion">
 				<amount>3.3</amount>
@@ -105,6 +118,7 @@
 		</effects>
 	</option>
 	<option id="94113" name="P. Evasion +3.5">
+		<!-- P. Evasion +3.5 -->
 		<effects>
 			<effect name="PhysicalEvasion">
 				<amount>3.5</amount>
@@ -113,6 +127,7 @@
 		</effects>
 	</option>
 	<option id="94114" name="P. Evasion +3.7">
+		<!-- P. Evasion +3.7 -->
 		<effects>
 			<effect name="PhysicalEvasion">
 				<amount>3.7</amount>
@@ -121,6 +136,7 @@
 		</effects>
 	</option>
 	<option id="94115" name="P. Evasion +3.9">
+		<!-- P. Evasion +3.9 -->
 		<effects>
 			<effect name="PhysicalEvasion">
 				<amount>3.9</amount>
@@ -129,6 +145,7 @@
 		</effects>
 	</option>
 	<option id="94116" name="P. Evasion +4.1">
+		<!-- P. Evasion +4.1 -->
 		<effects>
 			<effect name="PhysicalEvasion">
 				<amount>4.1</amount>
@@ -137,6 +154,7 @@
 		</effects>
 	</option>
 	<option id="94117" name="P. Evasion +4.3">
+		<!-- P. Evasion +4.3 -->
 		<effects>
 			<effect name="PhysicalEvasion">
 				<amount>4.3</amount>
@@ -145,6 +163,7 @@
 		</effects>
 	</option>
 	<option id="94118" name="P. Evasion +5">
+		<!-- P. Evasion +5 -->
 		<effects>
 			<effect name="PhysicalEvasion">
 				<amount>5.0</amount>
@@ -153,6 +172,7 @@
 		</effects>
 	</option>
 	<option id="94119" name="M. Evasion +2">
+		<!-- M. Evasion +2 -->
 		<effects>
 			<effect name="MagicalEvasion">
 				<amount>2.0</amount>
@@ -161,6 +181,7 @@
 		</effects>
 	</option>
 	<option id="94120" name="M. Evasion +2.1">
+		<!-- M. Evasion +2.1 -->
 		<effects>
 			<effect name="MagicalEvasion">
 				<amount>2.1</amount>
@@ -169,6 +190,7 @@
 		</effects>
 	</option>
 	<option id="94121" name="M. Evasion +2.2">
+		<!-- M. Evasion +2.2 -->
 		<effects>
 			<effect name="MagicalEvasion">
 				<amount>2.2</amount>
@@ -177,6 +199,7 @@
 		</effects>
 	</option>
 	<option id="94122" name="M. Evasion +2.3">
+		<!-- M. Evasion +2.3 -->
 		<effects>
 			<effect name="MagicalEvasion">
 				<amount>2.3</amount>
@@ -185,6 +208,7 @@
 		</effects>
 	</option>
 	<option id="94123" name="M. Evasion +2.4">
+		<!-- M. Evasion +2.4 -->
 		<effects>
 			<effect name="MagicalEvasion">
 				<amount>2.4</amount>
@@ -193,6 +217,7 @@
 		</effects>
 	</option>
 	<option id="94124" name="M. Evasion +2.5">
+		<!-- M. Evasion +2.5 -->
 		<effects>
 			<effect name="MagicalEvasion">
 				<amount>2.5</amount>
@@ -201,6 +226,7 @@
 		</effects>
 	</option>
 	<option id="94125" name="M. Evasion +2.6">
+		<!-- M. Evasion +2.6 -->
 		<effects>
 			<effect name="MagicalEvasion">
 				<amount>2.6</amount>
@@ -209,6 +235,7 @@
 		</effects>
 	</option>
 	<option id="94126" name="M. Evasion +2.7">
+		<!-- M. Evasion +2.7 -->
 		<effects>
 			<effect name="MagicalEvasion">
 				<amount>2.7</amount>
@@ -217,6 +244,7 @@
 		</effects>
 	</option>
 	<option id="94127" name="M. Evasion +2.8">
+		<!-- M. Evasion +2.8 -->
 		<effects>
 			<effect name="MagicalEvasion">
 				<amount>2.8</amount>
@@ -225,6 +253,7 @@
 		</effects>
 	</option>
 	<option id="94128" name="M. Evasion +2.9">
+		<!-- M. Evasion +2.9 -->
 		<effects>
 			<effect name="MagicalEvasion">
 				<amount>2.9</amount>
@@ -233,6 +262,7 @@
 		</effects>
 	</option>
 	<option id="94129" name="M. Evasion +3">
+		<!-- M. Evasion +3 -->
 		<effects>
 			<effect name="MagicalEvasion">
 				<amount>3.0</amount>
@@ -241,6 +271,7 @@
 		</effects>
 	</option>
 	<option id="94130" name="M. Evasion +3.1">
+		<!-- M. Evasion +3.1 -->
 		<effects>
 			<effect name="MagicalEvasion">
 				<amount>3.1</amount>
@@ -249,6 +280,7 @@
 		</effects>
 	</option>
 	<option id="94131" name="M. Evasion +3.2">
+		<!-- M. Evasion +3.2 -->
 		<effects>
 			<effect name="MagicalEvasion">
 				<amount>3.2</amount>
@@ -257,6 +289,7 @@
 		</effects>
 	</option>
 	<option id="94132" name="M. Evasion +3.3">
+		<!-- M. Evasion +3.3 -->
 		<effects>
 			<effect name="MagicalEvasion">
 				<amount>3.3</amount>
@@ -265,6 +298,7 @@
 		</effects>
 	</option>
 	<option id="94133" name="M. Evasion +3.5">
+		<!-- M. Evasion +3.5 -->
 		<effects>
 			<effect name="MagicalEvasion">
 				<amount>3.5</amount>
@@ -273,6 +307,7 @@
 		</effects>
 	</option>
 	<option id="94134" name="M. Evasion +3.7">
+		<!-- M. Evasion +3.7 -->
 		<effects>
 			<effect name="MagicalEvasion">
 				<amount>3.7</amount>
@@ -281,6 +316,7 @@
 		</effects>
 	</option>
 	<option id="94135" name="M. Evasion +3.9">
+		<!-- M. Evasion +3.9 -->
 		<effects>
 			<effect name="MagicalEvasion">
 				<amount>3.9</amount>
@@ -289,6 +325,7 @@
 		</effects>
 	</option>
 	<option id="94136" name="M. Evasion +4.1">
+		<!-- M. Evasion +4.1 -->
 		<effects>
 			<effect name="MagicalEvasion">
 				<amount>4.1</amount>
@@ -297,6 +334,7 @@
 		</effects>
 	</option>
 	<option id="94137" name="M. Evasion +4.3">
+		<!-- M. Evasion +4.3 -->
 		<effects>
 			<effect name="MagicalEvasion">
 				<amount>4.3</amount>
@@ -305,6 +343,7 @@
 		</effects>
 	</option>
 	<option id="94138" name="M. Evasion +5">
+		<!-- M. Evasion +5 -->
 		<effects>
 			<effect name="MagicalEvasion">
 				<amount>5.0</amount>
@@ -493,6 +532,7 @@
 		<!-- Received Skill Critical Rate -5% -->
 	</option>
 	<option id="94199" name="P. Atk. +60">
+		<!-- P. Atk. +60 -->
 		<effects>
 			<effect name="PAtk">
 				<amount>64</amount>

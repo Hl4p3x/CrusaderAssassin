@@ -235,7 +235,7 @@
 		<set name="is_stackable" val="true" />
 	</item>
 	<item id="3431" name="Spellbook: Greater Group Heal" additionalName="Not Available" type="EtcItem">
-		<!-- The item is not available. A spellbook for learning the Greater Group Heal skill. Used by Bishops, Shillien Elders and Elven Elders. Required level: Bishop - 40, Shillien Elders/ Elven Elders - 48. -->
+		<!-- The item is not available. A spellbook for learning the Greater Group Heal skill. Used by Bishops, Shillien Elders and Elven Elders. Required level: Bishop - 40, Shillien Elder/ Elven Elder - 48. -->
 		<set name="icon" val="icon.etc_ertheia2" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="PAPER" />
@@ -1006,7 +1006,7 @@
 		<set name="is_depositable" val="false" />
 	</item>
 	<item id="3499" name="Fairy Dust" additionalName="Not Available" type="EtcItem">
-		<!-- The item is not available. Dust that can be obtained by killing Fairies. Can be sold for a high price. -->
+		<!-- The item is not available. Powder that can be obtained by killing Fairies. Can be sold at a high price. -->
 		<set name="icon" val="icon.etc_ertheia2" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="STEEL" />

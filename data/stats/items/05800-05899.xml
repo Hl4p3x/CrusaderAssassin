@@ -580,7 +580,7 @@
 		<set name="is_questitem" val="true" />
 	</item>
 	<item id="5884" name="Cave Beast Tooth" type="EtcItem">
-		<!-- Ingredient used by Orc Shamans during a ritual. Take it to Priest Vanutu. -->
+		<!-- An ingredient used by Orc Shamans in their rituals. Take it to Seer Vanutu. -->
 		<set name="icon" val="icon.etc_fang_red_i00" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="CRYSTAL" />
@@ -592,7 +592,7 @@
 		<set name="is_questitem" val="true" />
 	</item>
 	<item id="5885" name="Death Wave Light" type="EtcItem">
-		<!-- Ingredient used by Orc Shamans during a ritual. Take it to Priest Vanutu. -->
+		<!-- An ingredient used by Orc Shamans in their rituals. Take it to Seer Vanutu. -->
 		<set name="icon" val="icon.etc_crystal_ball_green_i00" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="CRYSTAL" />
@@ -628,7 +628,7 @@
 		<set name="is_questitem" val="true" />
 	</item>
 	<item id="5888" name="Karik Horn" type="EtcItem">
-		<!-- Ingredient used by Orc Shamans during a ritual. Take it to Priest Vanutu. -->
+		<!-- An ingredient used by Orc Shamans in their rituals. Take it to Seer Vanutu. -->
 		<set name="icon" val="icon.etc_horn_i00" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="CRYSTAL" />
@@ -640,7 +640,7 @@
 		<set name="is_questitem" val="true" />
 	</item>
 	<item id="5889" name="Limal Karinness Blood" type="EtcItem">
-		<!-- Ingredient used by Orc Shamans during a ritual. Take it to Priest Vanutu. -->
+		<!-- An ingredient used by Orc Shamans in their rituals. Take it to Seer Vanutu. -->
 		<set name="icon" val="icon.etc_reagent_red_i00" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="CRYSTAL" />

@@ -213,7 +213,7 @@
 		</effects>
 	</skill>
 	<skill id="39305" toLevel="3" name="Dark Knight Transformation">
-		<!-- Transforms into Dark Knight. Max HP +10%. Max MP +10%. PvP damage +5%. Received PvP damage -5%. Shock Resistance +5%. Paralysis Resistance +5%. Silence Resistance +5%. Fear Resistance +5%. The effect remains after death. -->
+		<!-- You are transformed into Dark Knight. Max HP +10%. Max MP +10%. PvP damage +5%. Received PvP damage -5%. Shock Resistance +5%. Paralysis Resistance +5%. Silence Resistance +5%. Fear Resistance +5%. The effect remains after death. -->
 		<icon>icon.etc_charm_of_courage_i05</icon>
 		<abnormalLevel>1</abnormalLevel>
 		<abnormalTime>1200</abnormalTime>
@@ -370,7 +370,7 @@
 			</effect>
 		</effects>
 	</skill>
-	<skill id="39307" toLevel="1" name="Warrior Experience Amulet">
+	<skill id="39307" toLevel="1" name="Warrior's XP Amulet">
 		<!-- Acquired XP/ SP +50%. -->
 		<icon>icon.skill_exp_sp_up</icon>
 		<operateType>P</operateType>
@@ -670,7 +670,7 @@
 		<mpConsume>1</mpConsume>
 	</skill>
 	<skill id="39340" toLevel="1" name="Noble Blessed Body - Event">
-		<!-- Max HP +35% for 1 h. -->
+		<!-- For 1 h., Max HP +35%. -->
 		<icon>icon.skill1045</icon>
 		<operateType>A1</operateType>
 		<castRange>900</castRange>
@@ -680,7 +680,7 @@
 		<mpConsume>1</mpConsume>
 	</skill>
 	<skill id="39341" toLevel="1" name="Noble Blessed Soul - Event">
-		<!-- Max MP +35% for 1 h. -->
+		<!-- For 1 h., Max MP +35%. -->
 		<icon>icon.skill1048</icon>
 		<operateType>A1</operateType>
 		<castRange>900</castRange>
@@ -800,7 +800,7 @@
 		<mpConsume>1</mpConsume>
 	</skill>
 	<skill id="39353" toLevel="1" name="Greater Shield - Anniversary">
-		<!-- P. Def. +15% for 1 h. -->
+		<!-- For 1 h., P. Def. +15%. -->
 		<icon>icon.skill1389</icon>
 		<operateType>A1</operateType>
 		<castRange>900</castRange>
@@ -810,7 +810,7 @@
 		<mpConsume>1</mpConsume>
 	</skill>
 	<skill id="39354" toLevel="1" name="Wild Magic - Event">
-		<!-- M. Skill Critical Rate +20 for 1 h. -->
+		<!-- For 1 h., M. Skill Critical Rate +20. -->
 		<icon>icon.skill1303</icon>
 		<operateType>A1</operateType>
 		<castRange>900</castRange>
@@ -1264,7 +1264,7 @@
 		</effects>
 	</skill>
 	<skill id="39369" toLevel="1" name="White Knight Transformation">
-		<!-- Transforms into White Knight. Max HP +10%. Max MP +10%. PvE damage +5%. Received PvE damage -5%. Shock Resistance +5%. Paralysis Resistance +5%. Silence Resistance +5%. Fear Resistance +5%. The effect remains after death. -->
+		<!-- You are transformed into White Knight. Max HP +10%. Max MP +10%. PvE damage +5%. Received PvE damage -5%. Shock Resistance +5%. Paralysis Resistance +5%. Silence Resistance +5%. Fear Resistance +5%. The effect remains after death. -->
 		<icon>icon.etc_charm_of_courage_i00</icon>
 		<abnormalLevel>1</abnormalLevel>
 		<abnormalTime>1200</abnormalTime>

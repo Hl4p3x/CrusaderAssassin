@@ -2,7 +2,7 @@
 <list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/skills.xsd">
 	<skill id="50500" toLevel="10" name="+1 Anakim's Divine Pistols">
 		<!-- A weapon imbued with Anakim's soul. Uses Anakim's power to deliver <font color="FFBB00">an additional attack</font>. Anakim's Holy Blast: a spirit attack according to M. Atk. -->
-		<icon>icon.skill1516</icon>
+		<icon>icon.shooter_boss_anakim</icon>
 		<operateType>P</operateType>
 		<effects>
 			<effect name="TriggerSkillByAttack">
@@ -161,7 +161,7 @@
 	</skill>
 	<skill id="50501" toLevel="22" name="Anakim's Holy Blast">
 		<!-- <<font color="FFBB00">Additional attack</font>>. Inflicts magic damage on the enemy with 72 power. -->
-		<icon>icon.skill1516</icon>
+		<icon>icon.shooter_boss_anakim</icon>
 		<operateType>A1</operateType>
 		<isMagic>1</isMagic>
 		<castRange>900</castRange>
@@ -200,7 +200,7 @@
 	</skill>
 	<skill id="50502" toLevel="20" name="Anakim's Enhanced Holy Blast">
 		<!-- <<font color="FFBB00">Additional attack</font>>. Inflicts magic damage on the enemy with 121 power. -->
-		<icon>icon.skill1516</icon>
+		<icon>icon.shooter_boss_anakim</icon>
 		<operateType>A1</operateType>
 		<isMagic>1</isMagic>
 		<castRange>900</castRange>
@@ -444,7 +444,7 @@
 			</effect>
 		</effects>
 	</skill>
-	<skill id="50507" toLevel="1" name="Shield of Protection">
+	<skill id="50507" toLevel="1" name="A-grade: Shield of Protection">
 		<!-- Max HP +1000. Max MP +1000. Max CP +1000. All received Critical Damage -10% -->
 		<icon>icon.shield_of_protection</icon>
 		<operateType>P</operateType>
@@ -609,7 +609,7 @@
 			</effect>
 		</effects>
 	</skill>
-	<skill id="50511" toLevel="1" name="Sigil of Protection">
+	<skill id="50511" toLevel="1" name="A-grade: Sigil of Protection">
 		<!-- Max HP +500. Max MP +500. Max CP +500. All received Critical Rate -10% -->
 		<icon>icon.sigil_of_protection</icon>
 		<operateType>P</operateType>
@@ -792,7 +792,7 @@
 		</effects>
 	</skill>
 	<skill id="50517" toLevel="1" name="Aden's Dual Swords">
-		<!-- <Level bonus effect>. P./ M. Atk. are increased depending on your level. <Lv. 40-49>. P. Atk. +21. M. Atk. +10. <Lv. 50-59>. P. Atk. +41. M. Atk. +20. <Lv. 60-64>. P. Atk. +62. M. Atk. +31. <Lv. 65-69>. P. Atk. +83. M. Atk. +41. <Lv. 70-74>. P. Atk. +103. M. Atk. +51. <Lv. 75+>. P. Atk. +124. M. Atk. +61 -->
+		<!-- <Level bonus effect>. P./ M. Atk. increase according to your level. <Lv. 40-49>. P. Atk. +21. M. Atk. +10. <Lv. 50-59>. P. Atk. +41. M. Atk. +20. <Lv. 60-64>. P. Atk. +62. M. Atk. +31. <Lv. 65-69>. P. Atk. +83. M. Atk. +41. <Lv. 70-74>. P. Atk. +103. M. Atk. +51. <Lv. 75+>. P. Atk. +124. M. Atk. +61 -->
 		<icon>icon.weapon_dual_sword_i00</icon>
 		<operateType>P</operateType>
 		<effects>
@@ -1238,7 +1238,7 @@
 		</endEffects>
 	</skill>
 	<skill id="50523" toLevel="22" name="Beleth' Soul Eater">
-		<!-- A two-handed magic blunt weapon containing Beleth' soul. Allows to use Beleth' power. <Level bonus effect>. P./ M. Atk. are increased depending on your level. <Lv. 60-69>. P. Atk. +1. M. Atk. +4. <Lv. 70-79>. P. Atk. +2. M. Atk. +10. <Lv. 80-89>. P. Atk. +4 ~ +14. M. Atk. +20 ~ +49. <Lv. 90+>. P. Atk. +16 and higher. M. Atk. +57 and higher -->
+		<!-- A two-handed magic blunt weapon containing Beleth' soul. Allows to use Beleth' power. <Level bonus effect>. P./ M. Atk. increase according to your level. <Lv. 60-69>. P. Atk. +1. M. Atk. +4. <Lv. 70-79>. P. Atk. +2. M. Atk. +10. <Lv. 80-89>. P. Atk. +4 ~ +14. M. Atk. +20 ~ +49. <Lv. 90+>. P. Atk. +16 and higher. M. Atk. +57 and higher -->
 		<icon>icon.staff_of_bereth</icon>
 		<operateType>P</operateType>
 		<effects>
@@ -2847,7 +2847,7 @@
 			</effect>
 		</effects>
 	</skill>
-	<skill id="50541" toLevel="1" name="Helmet of Protection">
+	<skill id="50541" toLevel="1" name="A-grade: Helmet of Protection">
 		<!-- STR +1. INT +1. MEN +1. P. Atk. +10%. M. Atk. +10%. HP Recovery Rate +10%. MP Recovery Rate +10%. Overweight limit +1500 -->
 		<icon>icon.armor_leather_helmet_i00</icon>
 		<operateType>P</operateType>
@@ -3108,7 +3108,7 @@
 			</effect>
 		</effects>
 	</skill>
-	<skill id="50545" toLevel="1" name="Gauntlets of Protection">
+	<skill id="50545" toLevel="1" name="A-grade: Gauntlets of Protection">
 		<!-- STR +1. INT +1. CON +1. Atk. Spd. +18%. Casting Spd. +18%. Max HP +250. Overweight limit +1000 -->
 		<icon>icon.armor_t901_g_i00</icon>
 		<operateType>P</operateType>
@@ -3253,7 +3253,7 @@
 			</effect>
 		</effects>
 	</skill>
-	<skill id="50549" toLevel="1" name="Boots of Protection">
+	<skill id="50549" toLevel="1" name="A-grade: Boots of Protection">
 		<!-- STR +1. INT +1. CON +1. Max HP +250. Speed +9. Overweight limit +1000 -->
 		<icon>icon.armor_t901_b_i00</icon>
 		<operateType>P</operateType>
@@ -3816,9 +3816,12 @@
 			</effect>
 		</effects>
 	</skill>
-	<skill id="50556" toLevel="1" name="Beleth Power">
+	<skill id="50556" toLevel="2" name="Beleth Power">
 		<!-- The target's Skill Power when hit -10% -->
-		<icon>icon.accessary_dynasty_ring_i05</icon>
+		<icon>
+			<value level="1">icon.accessary_dynasty_ring_i05</value>
+			<value level="2">icon.accessary_dynasty_ring_i06</value>
+		</icon>
 		<operateType>A2</operateType>
 		<abnormalLevel>1</abnormalLevel>
 		<abnormalTime>30</abnormalTime>
@@ -3831,11 +3834,17 @@
 		<affectScope>SINGLE</affectScope>
 		<effects>
 			<effect name="DamageByAttack">
-				<amount>-10</amount>
+				<amount>
+					<value level="1">-10</value>
+					<value level="2">-11</value>
+				</amount>
 				<type>PK</type>
 			</effect>
 			<effect name="DamageByAttack">
-				<amount>-10</amount>
+				<amount>
+					<value level="1">-10</value>
+					<value level="2">-11</value>
+				</amount>
 				<type>ENEMY_ALL</type>
 			</effect>
 		</effects>
@@ -4535,7 +4544,7 @@
 			</effect>
 		</effects>
 	</skill>
-	<skill id="50567" toLevel="1" name="Orc's Ring">
+	<skill id="50567" toLevel="1" name="Orcish Ring">
 		<!-- P. Atk. +100. M. Atk. +100. Atk. Spd. +100. Casting Spd. +100. Soulshot damage +10%. Spiritshot damage +10% -->
 		<icon>icon.accessary_cerberuss_ring_i00</icon>
 		<operateType>P</operateType>
@@ -5276,93 +5285,206 @@
 			</effect>
 		</effects>
 	</skill>
-	<skill id="50581" toLevel="1" name="Demons' Weapon - Degger/Rapier (placeholder) - physical">
-		<icon>icon.skill19554</icon>
+	<skill id="50581" toLevel="6" name="Slash of Immortality - One-handed Sword">
+		<icon>icon.s_immortal_slash</icon>
 		<operateType>A1</operateType>
+		<isMagic>1</isMagic>
+		<mpConsume>0</mpConsume>
+		<castRange>900</castRange>
+		<hitTime>0</hitTime>
+		<coolTime>0</coolTime>
+		<reuseDelay>0</reuseDelay>
+		<effectPoint>-9999</effectPoint>
+		<hpConsume>0</hpConsume>
+		<abnormalTime>0</abnormalTime>
 	</skill>
-	<skill id="50582" toLevel="1" name="Demons' Weapon - Degger/Rapier (placeholder) - magic">
-		<icon>icon.skill19554</icon>
+	<skill id="50582" toLevel="6" name="Hurricane Smash - Two-handed Sword">
+		<icon>icon.s_hurricane_crush</icon>
 		<operateType>A1</operateType>
+		<isMagic>1</isMagic>
+		<mpConsume>0</mpConsume>
+		<castRange>900</castRange>
+		<hitTime>0</hitTime>
+		<coolTime>0</coolTime>
+		<reuseDelay>0</reuseDelay>
+		<effectPoint>-9999</effectPoint>
+		<hpConsume>0</hpConsume>
+		<abnormalTime>0</abnormalTime>
 	</skill>
-	<skill id="50583" toLevel="1" name="Demons' Weapon - P. melee (placeholder) - physical">
-		<icon>icon.skill19554</icon>
+	<skill id="50583" toLevel="6" name="Dual Execution - Dual Swords">
+		<icon>icon.s_dual_execution</icon>
 		<operateType>A1</operateType>
+		<isMagic>1</isMagic>
+		<mpConsume>0</mpConsume>
+		<castRange>900</castRange>
+		<hitTime>0</hitTime>
+		<coolTime>0</coolTime>
+		<reuseDelay>0</reuseDelay>
+		<effectPoint>-9999</effectPoint>
+		<hpConsume>0</hpConsume>
+		<abnormalTime>0</abnormalTime>
 	</skill>
-	<skill id="50584" toLevel="1" name="Demons' Weapon - P. melee (placeholder) - magic">
-		<icon>icon.skill19554</icon>
+	<skill id="50584" toLevel="6" name="Doom Lightning - One-handed Magic Blunt Weapon">
+		<icon>icon.s_dual_execution</icon>
 		<operateType>A1</operateType>
+		<isMagic>1</isMagic>
+		<mpConsume>0</mpConsume>
+		<castRange>900</castRange>
+		<hitTime>0</hitTime>
+		<coolTime>0</coolTime>
+		<reuseDelay>0</reuseDelay>
+		<effectPoint>-9999</effectPoint>
+		<hpConsume>0</hpConsume>
+		<abnormalTime>0</abnormalTime>
 	</skill>
-	<skill id="50585" toLevel="1" name="Demons' Weapon - M. range (placeholder) - physical">
-		<icon>icon.skill19554</icon>
+	<skill id="50585" toLevel="6" name="Wrecking Arrow - Bow">
+		<icon>icon.s_ruin_arrow</icon>
 		<operateType>A1</operateType>
+		<isMagic>1</isMagic>
+		<mpConsume>0</mpConsume>
+		<castRange>900</castRange>
+		<hitTime>0</hitTime>
+		<coolTime>0</coolTime>
+		<reuseDelay>0</reuseDelay>
+		<effectPoint>-9999</effectPoint>
+		<hpConsume>0</hpConsume>
+		<abnormalTime>0</abnormalTime>
 	</skill>
-	<skill id="50586" toLevel="1" name="Demons' Weapon - M. range (placeholder) - magic">
-		<icon>icon.skill19554</icon>
+	<skill id="50586" toLevel="6" name="Hellish Slash">
+		<icon>icon.skill30974</icon>
 		<operateType>A1</operateType>
+		<isMagic>1</isMagic>
+		<mpConsume>0</mpConsume>
+		<castRange>900</castRange>
+		<hitTime>0</hitTime>
+		<coolTime>0</coolTime>
+		<reuseDelay>0</reuseDelay>
+		<effectPoint>-9999</effectPoint>
+		<hpConsume>0</hpConsume>
+		<abnormalTime>0</abnormalTime>
 	</skill>
-	<skill id="50587" toLevel="1" name="Demonic Sword">
-		<!-- A one-handed sword imbued with demonic power. P. Atk. in melee (100%). -->
-		<icon>icon.frozen_weapon_sword</icon>
+	<skill id="50587" toLevel="6" name="Slash of Immortality - One-handed Blunt Weapon">
+		<icon>icon.s_immortal_slash</icon>
 		<operateType>A1</operateType>
+		<isMagic>1</isMagic>
+		<mpConsume>0</mpConsume>
+		<castRange>900</castRange>
+		<hitTime>0</hitTime>
+		<coolTime>0</coolTime>
+		<reuseDelay>0</reuseDelay>
+		<effectPoint>-9999</effectPoint>
+		<hpConsume>0</hpConsume>
+		<abnormalTime>0</abnormalTime>
 	</skill>
-	<skill id="50588" toLevel="1" name="Demonic Blunt Weapon">
-		<!-- A blunt weapon imbued with demonic power. P. Atk. in melee (100%). -->
-		<icon>icon.frozen_weapon_blunt</icon>
+	<skill id="50588" toLevel="6" name="Slash of Immortality - Rapier">
+		<icon>icon.s_immortal_slash</icon>
 		<operateType>A1</operateType>
+		<isMagic>1</isMagic>
+		<mpConsume>0</mpConsume>
+		<castRange>900</castRange>
+		<hitTime>0</hitTime>
+		<coolTime>0</coolTime>
+		<reuseDelay>0</reuseDelay>
+		<effectPoint>-9999</effectPoint>
+		<hpConsume>0</hpConsume>
+		<abnormalTime>0</abnormalTime>
 	</skill>
-	<skill id="50589" toLevel="1" name="Demonic Two-handed Sword">
-		<!-- A two-handed sword imbued with demonic power. P. Atk. in melee (100%). -->
-		<icon>icon.frozen_weapon_two_hand_sword</icon>
+	<skill id="50589" toLevel="6" name="Slash of Immortality - Dagger">
+		<icon>icon.s_immortal_slash</icon>
 		<operateType>A1</operateType>
+		<isMagic>1</isMagic>
+		<mpConsume>0</mpConsume>
+		<castRange>900</castRange>
+		<hitTime>0</hitTime>
+		<coolTime>0</coolTime>
+		<reuseDelay>0</reuseDelay>
+		<effectPoint>-9999</effectPoint>
+		<hpConsume>0</hpConsume>
+		<abnormalTime>0</abnormalTime>
 	</skill>
-	<skill id="50590" toLevel="1" name="Demonic Two-handed Blunt Weapon">
-		<!-- A two-handed blunt weapon imbued with demonic power. P. Atk. in melee (100%). -->
-		<icon>icon.frozen_weapon_two_hand_sword</icon>
+	<skill id="50590" toLevel="6" name="Hurricane Smash - Ancient Sword">
+		<icon>icon.s_hurricane_crush</icon>
 		<operateType>A1</operateType>
+		<isMagic>1</isMagic>
+		<mpConsume>0</mpConsume>
+		<castRange>900</castRange>
+		<hitTime>0</hitTime>
+		<coolTime>0</coolTime>
+		<reuseDelay>0</reuseDelay>
+		<effectPoint>-9999</effectPoint>
+		<hpConsume>0</hpConsume>
+		<abnormalTime>0</abnormalTime>
 	</skill>
-	<skill id="50591" toLevel="1" name="Demonic Ancient Sword">
-		<!-- An ancient sword imbued with demonic power. P. Atk. in melee (100%). -->
-		<icon>icon.frozen_weapon_ancientsword</icon>
+	<skill id="50591" toLevel="6" name="Hurricane Smash - Spear">
+		<icon>icon.s_hurricane_crush</icon>
 		<operateType>A1</operateType>
+		<isMagic>1</isMagic>
+		<mpConsume>0</mpConsume>
+		<castRange>900</castRange>
+		<hitTime>0</hitTime>
+		<coolTime>0</coolTime>
+		<reuseDelay>0</reuseDelay>
+		<effectPoint>-9999</effectPoint>
+		<hpConsume>0</hpConsume>
+		<abnormalTime>0</abnormalTime>
 	</skill>
-	<skill id="50592" toLevel="1" name="Demonic Dual Swords">
-		<!-- A dual swords imbued with demonic power. P. Atk. in melee (100%). -->
-		<icon>icon.frozen_weapon_dual_sword</icon>
+	<skill id="50592" toLevel="6" name="Dual Execution - Fists">
+		<icon>icon.s_dual_execution</icon>
 		<operateType>A1</operateType>
+		<isMagic>1</isMagic>
+		<mpConsume>0</mpConsume>
+		<castRange>900</castRange>
+		<hitTime>0</hitTime>
+		<coolTime>0</coolTime>
+		<reuseDelay>0</reuseDelay>
+		<effectPoint>-9999</effectPoint>
+		<hpConsume>0</hpConsume>
+		<abnormalTime>0</abnormalTime>
 	</skill>
 	<skill id="50593" toLevel="1" name="Demonic Fists">
 		<!-- A fist weapon imbued with demonic power. P. Atk. in melee (100%). -->
-		<icon>icon.frozen_weapon_dualfist</icon>
 		<operateType>A1</operateType>
 	</skill>
 	<skill id="50594" toLevel="1" name="Demonic Spear">
 		<!-- A spear imbued with demonic power. P. Atk. in melee (100%). -->
-		<icon>icon.frozen_weapon_pole</icon>
 		<operateType>A1</operateType>
 	</skill>
-	<skill id="50595" toLevel="1" name="Demonic Dagger">
-		<!-- A dagger imbued with demonic power. Dagger/ rapier P. Atk. (100%). -->
-		<icon>icon.frozen_weapon_dagger</icon>
+	<skill id="50595" toLevel="6" name="Doom Lightning - Two-handed Magic Blunt Weapon">
+		<icon>icon.s_dual_execution</icon>
 		<operateType>A1</operateType>
+		<isMagic>1</isMagic>
+		<mpConsume>0</mpConsume>
+		<castRange>900</castRange>
+		<hitTime>0</hitTime>
+		<coolTime>0</coolTime>
+		<reuseDelay>0</reuseDelay>
+		<effectPoint>-9999</effectPoint>
+		<hpConsume>0</hpConsume>
+		<abnormalTime>0</abnormalTime>
 	</skill>
-	<skill id="50596" toLevel="1" name="Demonic Rapier">
-		<!-- A rapier imbued with demonic power. Dagger/ rapier P. Atk. (100%). -->
-		<icon>icon.frozen_weapon_rapier</icon>
+	<skill id="50596" toLevel="6" name="Wrecking Arrow - Firearms">
+		<icon>icon.s_ruin_arrow</icon>
 		<operateType>A1</operateType>
+		<isMagic>1</isMagic>
+		<mpConsume>0</mpConsume>
+		<castRange>900</castRange>
+		<hitTime>0</hitTime>
+		<coolTime>0</coolTime>
+		<reuseDelay>0</reuseDelay>
+		<effectPoint>-9999</effectPoint>
+		<hpConsume>0</hpConsume>
+		<abnormalTime>0</abnormalTime>
 	</skill>
 	<skill id="50597" toLevel="1" name="Demonic Magic Blunt Weapon">
 		<!-- A magic blunt weapon imbued with demonic power. M. Atk. in range combat (100%). -->
-		<icon>icon.frozen_weapon_staff</icon>
 		<operateType>A1</operateType>
 	</skill>
 	<skill id="50598" toLevel="1" name="Demonic Staff">
 		<!-- A staff imbued with demonic power. M. Atk. in range combat (100%). -->
-		<icon>icon.frozen_weapon_two_hand_staff</icon>
 		<operateType>A1</operateType>
 	</skill>
 	<skill id="50599" toLevel="1" name="Demonic Bow">
 		<!-- A bow imbued with demonic power. M. Atk. in range combat (100%). -->
-		<icon>icon.frozen_weapon_bow</icon>
 		<operateType>A1</operateType>
 	</skill>
 </list>

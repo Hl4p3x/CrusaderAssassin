@@ -712,7 +712,7 @@
 		</effects>
 	</option>
 	<option id="33579" name="paralyze">
-		<!-- Paralysis Atk. Rate +5%. -->
+		<!-- Paralysis Atk. Rate +5% -->
 		<effects>
 			<effect name="BlockActions">
 				<amount>5</amount>
@@ -733,7 +733,7 @@
 		<magic_skill id="3100" level="1" chance="20" /> <!-- Item Skill: Sleep -->
 	</option>
 	<option id="33583" name="sleep">
-		<!-- Sleep Atk. Rate +3%. -->
+		<!-- Sleep Atk. Rate +3% -->
 		<magic_skill id="3100" level="1" chance="20" /> <!-- Item Skill: Sleep -->
 	</option>
 	<option id="33584" name="sleep">
@@ -765,7 +765,7 @@
 		<active_skill id="3190" level="1" /> <!-- Item Skill: Hold -->
 	</option>
 	<option id="33591" name="hold">
-		<!-- Hold Atk. Rate +5%. -->
+		<!-- Hold Atk. Rate +5% -->
 		<active_skill id="3190" level="1" /> <!-- Item Skill: Hold -->
 	</option>
 	<option id="33592" name="crit_dmg">

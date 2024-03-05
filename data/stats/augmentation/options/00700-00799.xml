@@ -407,7 +407,7 @@
 		</effects>
 	</option>
 	<option id="729" name="o_f_70_1g_1">
-		<!-- P. Def. +18.72. -->
+		<!-- P. Def. +18.72 -->
 		<effects>
 			<effect name="PhysicalDefence">
 				<amount>18.715</amount>

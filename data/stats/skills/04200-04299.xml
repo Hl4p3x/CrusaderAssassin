@@ -1115,7 +1115,7 @@
 			</effect>
 		</effects>
 	</skill>
-	<skill id="4221" toLevel="1" name="Range Dual Attack">
+	<skill id="4221" toLevel="1" name="Range Double Attack">
 		<icon>icon.skill0000</icon>
 		<affectRange>100</affectRange>
 		<coolTime>1500</coolTime>
@@ -1578,7 +1578,7 @@
 		</effects>
 	</skill>
 	<skill id="4237" toLevel="1" name="Decrease Speed">
-		<!-- Immediately target's Speed -30%. -->
+		<!-- Momentarily the target's Speed -30%. -->
 		<icon>icon.skill1236</icon>
 		<abnormalLevel>3</abnormalLevel>
 		<abnormalTime>60</abnormalTime>
@@ -1979,7 +1979,7 @@
 		</effects>
 	</skill>
 	<skill id="4249" toLevel="12" name="Decrease Speed">
-		<!-- Immediately target's Speed -20%. -->
+		<!-- Momentarily the target's Speed -20%. -->
 		<icon>icon.skill1184</icon>
 		<abnormalLevel>2</abnormalLevel>
 		<abnormalTime>60</abnormalTime>
@@ -3197,7 +3197,7 @@
 		</effects>
 	</skill>
 	<skill id="4274" toLevel="5" name="Blunt Weapon Vulnerability">
-		<!-- Vulnerable to blunt weapons. -->
+		<!-- Vulnerable to blunt weapon attacks. -->
 		<icon>icon.skill4274_new</icon>
 		<magicLevel>1</magicLevel>
 		<operateType>P</operateType>
@@ -3306,7 +3306,7 @@
 		<magicCriticalRate>-5</magicCriticalRate>
 	</skill>
 	<skill id="4283" toLevel="1" name="Greater Magic Damage Resistance">
-		<!-- Very resistant to magic attack. -->
+		<!-- Increased M. Damage Resistance. -->
 		<icon>icon.skill4283_new</icon>
 		<magicLevel>1</magicLevel>
 		<operateType>P</operateType>

@@ -5,8 +5,8 @@
 		<icon>icon.bm_freya_potion</icon>
 		<operateType>A1</operateType>
 	</skill>
-	<skill id="49401" toLevel="2" name="Pet's Protection: Master Recharge">
-		<!-- <Pet's protection>. Increases its master's stats. <Effect>. Continuously recovers MP. The higher the skill level, the more effective the skill recovery. Note!. Doesn't stack with other pet's protection skills. While one Pet's Protection is active, you cannot get another pet's protection. -->
+	<skill id="49401" toLevel="2" name="Pet's Protection - Master Recharge">
+		<!-- <Pet's Protection>. Increases the master's stats. <Effect>. Continuously recovers MP. The higher the skill level, the more effective the skill recovery. Note!. Doesn't stack with other Pet's Protection effects. While one Pet's Protection is active, you cannot get another. -->
 		<icon>icon.skill11272</icon>
 		<operateType>A2</operateType>
 		<abnormalTime>180</abnormalTime>
@@ -32,8 +32,8 @@
 			</effect>
 		</effects>
 	</skill>
-	<skill id="49402" toLevel="2" name="Pet's Protection: Master Evasion">
-		<!-- <Pet's protection>. Increases its master's stats. <Effect>. Skill Evasion +2%. P. Evasion +5. M. Evasion +5. Note!. Doesn't stack with other pet's protection skills. While one Pet's Protection is active, you cannot get another pet's protection. -->
+	<skill id="49402" toLevel="2" name="Pet's Protection - Master Evasion">
+		<!-- <Pet's Protection>. Increases the master's stats. <Effect>. Skill Evasion +2%. P. Evasion +5. M. Evasion +5. Note!. Doesn't stack with other Pet's Protection effects. While one Pet's Protection is active, you cannot get another. -->
 		<icon>icon.skill11272</icon>
 		<operateType>A2</operateType>
 		<abnormalTime>180</abnormalTime>
@@ -80,8 +80,8 @@
 			</effect>
 		</effects>
 	</skill>
-	<skill id="49403" toLevel="2" name="Pet's Protection: Master Power">
-		<!-- <Pet's protection>. Increases its master's stats. <Effect>. Skill Power +1%. Note!. Doesn't stack with other pet's protection skills. While one Pet's Protection is active, you cannot get another pet's protection. -->
+	<skill id="49403" toLevel="2" name="Pet's Protection - Master Power">
+		<!-- <Pet's Protection>. Increases the master's stats. <Effect>. Skill Power +1%. Note!. Doesn't stack with other Pet's Protection effects. While one Pet's Protection is active, you cannot get another. -->
 		<icon>icon.skill11272</icon>
 		<operateType>A2</operateType>
 		<abnormalTime>180</abnormalTime>
@@ -114,8 +114,8 @@
 			</effect>
 		</effects>
 	</skill>
-	<skill id="49404" toLevel="2" name="Pet's Protection: Master Health">
-		<!-- <Pet's protection>. Increases its master's stats. <Effect>. Max HP +500. Note!. Doesn't stack with other pet's protection skills. While one Pet's Protection is active, you cannot get another pet's protection. -->
+	<skill id="49404" toLevel="2" name="Pet's Protection - Master Health">
+		<!-- <Pet's Protection>. Increases the master's stats. <Effect>. Max HP +500. Note!. Doesn't stack with other Pet's Protection effects. While one Pet's Protection is active, you cannot get another. -->
 		<icon>icon.skill11272</icon>
 		<operateType>A2</operateType>
 		<abnormalTime>180</abnormalTime>
@@ -141,8 +141,8 @@
 			</effect>
 		</effects>
 	</skill>
-	<skill id="49405" toLevel="2" name="Pet's Protection: Master Speed">
-		<!-- <Pet's protection>. Increases its master's stats. <Effect>. Speed +2. Note!. Doesn't stack with other pet's protection skills. While one Pet's Protection is active, you cannot get another pet's protection. -->
+	<skill id="49405" toLevel="2" name="Pet's Protection - Master Speed">
+		<!-- <Pet's Protection>. Increases the master's stats. <Effect>. Speed +2. Note!. Doesn't stack with other Pet's Protection effects. While one Pet's Protection is active, you cannot get another. -->
 		<icon>icon.skill11272</icon>
 		<operateType>A2</operateType>
 		<abnormalTime>180</abnormalTime>
@@ -168,8 +168,8 @@
 			</effect>
 		</effects>
 	</skill>
-	<skill id="49406" toLevel="2" name="Pet's Protection: Master Chance">
-		<!-- <Pet's protection>. Increases its master's stats. <Effect>. All Critical Rate +1%. Note!. Doesn't stack with other pet's protection skills. While one Pet's Protection is active, you cannot get another pet's protection. -->
+	<skill id="49406" toLevel="2" name="Pet's Protection - Master Chance">
+		<!-- <Pet's Protection>. Increases the master's stats. <Effect>. All Critical Rate +1%. Note!. Doesn't stack with other Pet's Protection effects. While one Pet's Protection is active, you cannot get another. -->
 		<icon>icon.skill11272</icon>
 		<operateType>A2</operateType>
 		<abnormalTime>180</abnormalTime>

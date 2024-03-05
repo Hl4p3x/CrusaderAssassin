@@ -38,7 +38,7 @@
 			<height normal="22" />
 		</collision>
 	</npc>
-	<npc id="13272" level="1" type="Monster" name="Defective Watermelon">
+	<npc id="13272" level="1" type="Monster" name="Withered Watermelon">
 		<race>ETC</race>
 		<sex>ETC</sex>
 		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
@@ -192,7 +192,7 @@
 			<height normal="20" />
 		</collision>
 	</npc>
-	<npc id="13276" level="1" type="Monster" name="Defective Honey Watermelon">
+	<npc id="13276" level="1" type="Monster" name="Withered Honey Watermelon">
 		<race>ETC</race>
 		<sex>ETC</sex>
 		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">

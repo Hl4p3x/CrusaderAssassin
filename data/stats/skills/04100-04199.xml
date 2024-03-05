@@ -1312,7 +1312,7 @@
 		<targetType>TARGET</targetType>
 		<affectScope>SINGLE</affectScope>
 	</skill>
-	<skill id="4135" toLevel="1" name="Baium Heal">
+	<skill id="4135" toLevel="1" name="Baium's Heal">
 		<icon>icon.skill0000</icon>
 		<effectPoint>100</effectPoint>
 		<hitTime>100</hitTime>
@@ -1911,7 +1911,7 @@
 		</effects>
 	</skill>
 	<skill id="4146" toLevel="3" name="Decrease P. Def.">
-		<!-- Immediately P. Def. -17%. -->
+		<!-- Momentarily P. Def. -17%. -->
 		<icon>icon.skill0122</icon>
 		<abnormalLevel>
 			<value level="1">1</value>
@@ -2300,7 +2300,7 @@
 		</effects>
 	</skill>
 	<skill id="4153" toLevel="12" name="Decrease Speed">
-		<!-- Immediately target's Speed -20%. -->
+		<!-- Momentarily the target's Speed -20%. -->
 		<icon>icon.skill1184</icon>
 		<abnormalLevel>2</abnormalLevel>
 		<abnormalTime>60</abnormalTime>
@@ -2840,7 +2840,7 @@
 		</effects>
 	</skill>
 	<skill id="4162" toLevel="3" name="Decrease Atk. Spd.">
-		<!-- Immediately Atk. Spd. -17%. -->
+		<!-- Momentarily Atk. Spd. -17%. -->
 		<icon>icon.skill1206</icon>
 		<abnormalLevel>
 			<value level="1">1</value>
@@ -4103,7 +4103,7 @@
 		</effects>
 	</skill>
 	<skill id="4184" toLevel="12" name="Decrease Atk. Spd.">
-		<!-- Immediately Atk. Spd. -17%. -->
+		<!-- Momentarily Atk. Spd. -17%. -->
 		<icon>icon.skill1206</icon>
 		<abnormalLevel>
 			<value level="1">1</value>
@@ -4311,7 +4311,7 @@
 		</effects>
 	</skill>
 	<skill id="4187" toLevel="12" name="Decrease Speed">
-		<!-- Immediately target's Speed -10%. -->
+		<!-- Momentarily the target's Speed -10%. -->
 		<icon>icon.skill1160</icon>
 		<abnormalLevel>
 			<value level="1">1</value>
@@ -4907,7 +4907,7 @@
 		</effects>
 	</skill>
 	<skill id="4196" toLevel="12" name="Decrease Speed">
-		<!-- Immediately target's Speed -20%. -->
+		<!-- Momentarily the target's Speed -20%. -->
 		<icon>icon.skill1184</icon>
 		<abnormalLevel>2</abnormalLevel>
 		<abnormalTime>60</abnormalTime>

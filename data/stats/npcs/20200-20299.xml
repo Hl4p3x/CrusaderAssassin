@@ -14,7 +14,7 @@
 		</parameters>
 		<race>UNDEAD</race>
 		<sex>MALE</sex>
-		<acquire exp="834" sp="61" />
+		<acquire exp="834" sp="8" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="670.637516093159" hpRegen="4.5" mp="343.8" mpRegen="1.8" />
 			<attack physical="99.21986" magical="67.7543" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
@@ -61,7 +61,7 @@
 		</parameters>
 		<race>UNDEAD</race>
 		<sex>MALE</sex>
-		<acquire exp="885" sp="75" />
+		<acquire exp="885" sp="8" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="705.138521256333" hpRegen="4.5" mp="358.32" mpRegen="1.8" />
 			<attack physical="106.16525" magical="72.49711" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
@@ -112,7 +112,7 @@
 		</parameters>
 		<race>ANIMAL</race>
 		<sex>MALE</sex>
-		<acquire exp="994" sp="73" />
+		<acquire exp="994" sp="9" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="777.385831121245" hpRegen="4.5" mp="387.72" mpRegen="1.8" />
 			<attack physical="121.20802" magical="82.76936" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
@@ -152,7 +152,7 @@
 		</parameters>
 		<race>ANIMAL</race>
 		<sex>MALE</sex>
-		<acquire exp="400" sp="32" />
+		<acquire exp="400" sp="4" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="361.300316445296" hpRegen="2.5" mp="192" mpRegen="1.2" />
 			<attack physical="44.32863" magical="30.2707" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
@@ -198,7 +198,7 @@
 		</parameters>
 		<race>BUG</race>
 		<sex>MALE</sex>
-		<acquire exp="490" sp="39" />
+		<acquire exp="490" sp="5" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="433.232298200102" hpRegen="3.5" mp="231.96" mpRegen="1.5" />
 			<attack physical="55.84125" magical="38.13234" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
@@ -244,7 +244,7 @@
 		</parameters>
 		<race>ANIMAL</race>
 		<sex>MALE</sex>
-		<acquire exp="525" sp="42" />
+		<acquire exp="525" sp="5" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="459.224016948565" hpRegen="3.5" mp="245.52" mpRegen="1.5" />
 			<attack physical="60.19687" magical="41.10666" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
@@ -293,7 +293,7 @@
 		</parameters>
 		<race>HUMANOID</race>
 		<sex>MALE</sex>
-		<acquire exp="561" sp="44" />
+		<acquire exp="561" sp="5" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="486.247334679017" hpRegen="3.5" mp="259.2" mpRegen="1.5" />
 			<attack physical="64.83203" magical="44.27187" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
@@ -339,7 +339,7 @@
 		<race>HUMANOID</race>
 		<sex>MALE</sex>
 		<equipment rhand="2" lhand="19" /> <!-- Long Sword / Small Shield -->
-		<acquire exp="601" sp="87" />
+		<acquire exp="601" sp="5" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="514.314772839948" hpRegen="3.5" mp="273" mpRegen="1.5" />
 			<attack physical="69.75926" magical="47.63653" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
@@ -390,7 +390,7 @@
 		<race>HUMANOID</race>
 		<sex>MALE</sex>
 		<equipment rhand="10" /> <!-- Dagger -->
-		<acquire exp="643" sp="92" />
+		<acquire exp="643" sp="6" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="543.437297370415" hpRegen="3.5" mp="286.92" mpRegen="1.5" />
 			<attack physical="74.99121" magical="51.20928" random="5" critical="8" accuracy="0" attackSpeed="253" type="DAGGER" range="40" distance="80" width="120" />
@@ -441,7 +441,7 @@
 		<race>HUMANOID</race>
 		<sex>MALE</sex>
 		<equipment rhand="275" /> <!-- Longbow -->
-		<acquire exp="688" sp="98" />
+		<acquire exp="688" sp="6" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="573.624217856864" hpRegen="3.5" mp="300.96" mpRegen="1.5" />
 			<attack physical="80.54056" magical="54.99876" random="5" critical="8" accuracy="0" attackSpeed="253" type="BOW" range="1100" distance="10" width="0" />
@@ -492,7 +492,7 @@
 		<race>HUMANOID</race>
 		<sex>MALE</sex>
 		<equipment rhand="68" lhand="19" /> <!-- Falchion / Small Shield -->
-		<acquire exp="736" sp="103" />
+		<acquire exp="736" sp="7" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="604.883087573501" hpRegen="3.5" mp="315.12" mpRegen="1.5" />
 			<attack physical="86.42002" magical="59.01367" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
@@ -543,7 +543,7 @@
 		<race>HUMANOID</race>
 		<sex>MALE</sex>
 		<equipment rhand="123" lhand="19" /> <!-- Saber / Small Shield -->
-		<acquire exp="788" sp="106" />
+		<acquire exp="788" sp="7" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="637.219604833719" hpRegen="3.5" mp="329.4" mpRegen="1.5" />
 			<attack physical="92.64226" magical="63.26266" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
@@ -595,7 +595,7 @@
 		<race>HUMANOID</race>
 		<sex>MALE</sex>
 		<equipment rhand="69" lhand="19" /> <!-- rhand: Bastard Sword lhand: Small Shield -->
-		<acquire exp="994" sp="78" />
+		<acquire exp="994" sp="9" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="777.385831121245" hpRegen="4.5" mp="387.72" mpRegen="1.8" />
 			<attack physical="121.20802" magical="82.76936" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
@@ -649,7 +649,7 @@
 		</parameters>
 		<race>CONSTRUCT</race>
 		<sex>MALE</sex>
-		<acquire exp="1410" sp="565" />
+		<acquire exp="1410" sp="13" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="1019.59695680077" hpRegen="4.5" mp="478.8" mpRegen="1.8" />
 			<attack physical="176.36077" magical="120.43155" random="20" critical="1" accuracy="9" attackSpeed="253" type="BLUNT" range="40" distance="80" width="120" />
@@ -703,7 +703,7 @@
 		</parameters>
 		<race>CONSTRUCT</race>
 		<sex>MALE</sex>
-		<acquire exp="1481" sp="291" />
+		<acquire exp="1481" sp="13" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="1063.54199060681" hpRegen="5.5" mp="504.8" mpRegen="2.1" />
 			<attack physical="187.11878" magical="127.77787" random="20" critical="1" accuracy="9" attackSpeed="253" type="BLUNT" range="40" distance="80" width="120" />
@@ -755,7 +755,7 @@
 		</parameters>
 		<race>BEAST</race>
 		<sex>MALE</sex>
-		<acquire exp="1554" sp="612" />
+		<acquire exp="1554" sp="14" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="1108.45623972656" hpRegen="5.5" mp="531" mpRegen="2.1" />
 			<attack physical="198.34591" magical="135.44454" random="20" critical="1" accuracy="9" attackSpeed="253" type="BLUNT" range="40" distance="80" width="120" />
@@ -809,7 +809,7 @@
 		</parameters>
 		<race>CONSTRUCT</race>
 		<sex>MALE</sex>
-		<acquire exp="1633" sp="319" />
+		<acquire exp="1633" sp="15" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="1154.31374327461" hpRegen="5.5" mp="557.4" mpRegen="2.1" />
 			<attack physical="210.04832" magical="143.43577" random="20" critical="1" accuracy="9" attackSpeed="253" type="BLUNT" range="40" distance="80" width="120" />
@@ -865,7 +865,7 @@
 		</parameters>
 		<race>CONSTRUCT</race>
 		<sex>MALE</sex>
-		<acquire exp="1713" sp="454" />
+		<acquire exp="1713" sp="15" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="1201.08570061422" hpRegen="5.5" mp="584" mpRegen="2.1" />
 			<attack physical="222.23112" magical="151.75505" random="20" critical="1" accuracy="9" attackSpeed="253" type="BLUNT" range="40" distance="80" width="120" />
@@ -918,7 +918,7 @@
 		</parameters>
 		<race>GIANT</race>
 		<sex>MALE</sex>
-		<acquire exp="1800" sp="707" />
+		<acquire exp="1800" sp="16" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="1248.74044783714" hpRegen="5.5" mp="610.8" mpRegen="2.1" />
 			<attack physical="234.89829" magical="160.40508" random="20" critical="1" accuracy="9" attackSpeed="253" type="BLUNT" range="40" distance="80" width="120" />
@@ -975,7 +975,7 @@
 		</parameters>
 		<race>BEAST</race>
 		<sex>MALE</sex>
-		<acquire exp="1890" sp="746" />
+		<acquire exp="1890" sp="17" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="1297.24344275991" hpRegen="5.5" mp="637.8" mpRegen="2.1" />
 			<attack physical="248.0526" magical="169.38777" random="20" critical="1" accuracy="9" attackSpeed="253" type="BLUNT" range="40" distance="80" width="120" />
@@ -1035,7 +1035,7 @@
 		</parameters>
 		<race>PLANT</race>
 		<sex>FEMALE</sex>
-		<acquire exp="1984" sp="778" />
+		<acquire exp="1984" sp="18" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="1346.55725878612" hpRegen="5.5" mp="665" mpRegen="2.1" />
 			<attack physical="261.69549" magical="178.7041" random="20" critical="1" accuracy="9" attackSpeed="253" type="BLUNT" range="40" distance="80" width="120" />
@@ -1087,7 +1087,7 @@
 		</parameters>
 		<race>CONSTRUCT</race>
 		<sex>MALE</sex>
-		<acquire exp="2083" sp="561" />
+		<acquire exp="2083" sp="21" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="1396.64158795631" hpRegen="5.5" mp="692.4" mpRegen="2.1" />
 			<attack physical="275.82705" magical="188.35412" random="20" critical="1" accuracy="9" attackSpeed="253" type="BLUNT" range="40" distance="80" width="120" />
@@ -1142,7 +1142,7 @@
 		</parameters>
 		<race>BEAST</race>
 		<sex>MALE</sex>
-		<acquire exp="2187" sp="587" />
+		<acquire exp="2187" sp="22" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="1447.45325347694" hpRegen="5.5" mp="720" mpRegen="2.1" />
 			<attack physical="290.44588" magical="198.33688" random="20" critical="1" accuracy="9" attackSpeed="253" type="BLUNT" range="40" distance="80" width="120" />
@@ -1198,7 +1198,7 @@
 		</parameters>
 		<race>PLANT</race>
 		<sex>FEMALE</sex>
-		<acquire exp="400" sp="32" />
+		<acquire exp="400" sp="4" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="361.300316445296" hpRegen="2.5" mp="192" mpRegen="1.2" />
 			<attack physical="44.32863" magical="30.2707" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
@@ -1250,7 +1250,7 @@
 		<race>HUMANOID</race>
 		<sex>MALE</sex>
 		<equipment rhand="13" /> <!-- Short Bow -->
-		<acquire exp="458" sp="36" />
+		<acquire exp="458" sp="4" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="408.258202789494" hpRegen="3.5" mp="218.52" mpRegen="1.5" />
 			<attack physical="51.75278" magical="35.34044" random="5" critical="8" accuracy="0" attackSpeed="253" type="BOW" range="1100" distance="10" width="0" />
@@ -1303,7 +1303,7 @@
 		</parameters>
 		<race>BUG</race>
 		<sex>MALE</sex>
-		<acquire exp="561" sp="44" />
+		<acquire exp="561" sp="5" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="486.247334679017" hpRegen="3.5" mp="259.2" mpRegen="1.5" />
 			<attack physical="64.83203" magical="44.27187" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
@@ -1356,7 +1356,7 @@
 		</parameters>
 		<race>BUG</race>
 		<sex>MALE</sex>
-		<acquire exp="601" sp="47" />
+		<acquire exp="601" sp="5" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="514.314772839948" hpRegen="3.5" mp="273" mpRegen="1.5" />
 			<attack physical="69.75926" magical="47.63653" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
@@ -1406,7 +1406,7 @@
 		</parameters>
 		<race>UNDEAD</race>
 		<sex>MALE</sex>
-		<acquire exp="643" sp="50" />
+		<acquire exp="643" sp="6" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="543.437297370415" hpRegen="3.5" mp="286.92" mpRegen="1.5" />
 			<attack physical="74.99121" magical="51.20928" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
@@ -1453,7 +1453,7 @@
 		</parameters>
 		<race>BUG</race>
 		<sex>MALE</sex>
-		<acquire exp="688" sp="53" />
+		<acquire exp="688" sp="6" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="573.624217856864" hpRegen="3.5" mp="300.96" mpRegen="1.5" />
 			<attack physical="80.54056" magical="54.99876" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
@@ -1504,7 +1504,7 @@
 		</parameters>
 		<race>BUG</race>
 		<sex>MALE</sex>
-		<acquire exp="788" sp="56" />
+		<acquire exp="788" sp="7" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="637.219604833719" hpRegen="3.5" mp="329.4" mpRegen="1.5" />
 			<attack physical="92.64226" magical="63.26266" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
@@ -1552,7 +1552,7 @@
 		<race>HUMANOID</race>
 		<sex>MALE</sex>
 		<equipment rhand="153" /> <!-- Sickle -->
-		<acquire exp="834" sp="61" />
+		<acquire exp="834" sp="8" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="670.637516093159" hpRegen="4.5" mp="343.8" mpRegen="1.8" />
 			<attack physical="99.21986" magical="67.7543" random="20" critical="1" accuracy="9" attackSpeed="253" type="BLUNT" range="40" distance="80" width="120" />
@@ -1603,7 +1603,7 @@
 		</parameters>
 		<race>ANIMAL</race>
 		<sex>MALE</sex>
-		<acquire exp="885" sp="64" />
+		<acquire exp="885" sp="8" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="705.138521256333" hpRegen="4.5" mp="358.32" mpRegen="1.8" />
 			<attack physical="106.16525" magical="72.49711" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
@@ -1650,7 +1650,7 @@
 		<race>HUMANOID</race>
 		<sex>MALE</sex>
 		<equipment rhand="217" /> <!-- Shining Knife -->
-		<acquire exp="938" sp="68" />
+		<acquire exp="938" sp="9" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="740.722181648393" hpRegen="4.5" mp="372.96" mpRegen="1.8" />
 			<attack physical="113.49065" magical="77.49941" random="5" critical="8" accuracy="0" attackSpeed="253" type="DAGGER" range="40" distance="80" width="120" />
@@ -1700,7 +1700,7 @@
 		</parameters>
 		<race>BUG</race>
 		<sex>MALE</sex>
-		<acquire exp="994" sp="73" />
+		<acquire exp="994" sp="9" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="777.385831121245" hpRegen="4.5" mp="387.72" mpRegen="1.8" />
 			<attack physical="121.20802" magical="82.76936" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
@@ -1748,7 +1748,7 @@
 		<race>HUMANOID</race>
 		<sex>MALE</sex>
 		<equipment rhand="219" /> <!-- Sword Breaker -->
-		<acquire exp="1054" sp="77" />
+		<acquire exp="1054" sp="10" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="815.124490768837" hpRegen="4.5" mp="402.6" mpRegen="1.8" />
 			<attack physical="129.32896" magical="88.31491" random="5" critical="8" accuracy="0" attackSpeed="253" type="DAGGER" range="40" distance="80" width="120" />
@@ -1798,9 +1798,9 @@
 		</parameters>
 		<race>UNDEAD</race>
 		<sex>MALE</sex>
-		<acquire exp="28147" sp="10429" attributeExp="869" />
+		<acquire exp="28147" sp="281" attributeExp="869" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="23925.95" hpRegen="8.5" mp="2182.53" mpRegen="3" />
+			<vitals hp="26318.99" hpRegen="8.5" mp="2182.53" mpRegen="3" />
 			<attack physical="1627.23706201287" magical="1111.19198517759" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
 			<defence physical="420.1865344" magical="307.4742656" />
 			<speed>
@@ -1833,13 +1833,17 @@
 		</collision>
 		<dropLists>
 			<drop>
-				<item id="57" min="892" max="985" chance="70" /> <!-- Adena -->
-				<item id="92833" min="1" max="1" chance="0.098" /> <!-- Sealed Dark Crystal Gaiter Pattern -->
-				<item id="5288" min="1" max="1" chance="0.004" /> <!-- Sealed Dark Crystal Gaiters -->
+				<item id="57" min="602" max="665" chance="70" /> <!-- Adena -->
+				<item id="92476" min="1" max="1" chance="0.605" /> <!-- Metal Ingot -->
+				<item id="92479" min="1" max="1" chance="0.605" /> <!-- Metallograph -->
+				<item id="92481" min="1" max="1" chance="0.605" /> <!-- Cloth -->
+				<item id="92833" min="1" max="1" chance="0.027" /> <!-- Sealed Dark Crystal Gaiter Pattern -->
+				<item id="96623" min="1" max="1" chance="0.0003" /> <!-- Dye Powder -->
+				<item id="5288" min="1" max="1" chance="0.005" /> <!-- Sealed Dark Crystal Gaiters -->
 			</drop>
 			<spoil>
-				<item id="5424" min="1" max="1" chance="0.023" /> <!-- Recipe: Sealed Dark Crystal Gaiters (60%) -->
-				<item id="5425" min="1" max="1" chance="0.014" /> <!-- Recipe: Sealed Dark Crystal Gaiters (100%) -->
+				<item id="5424" min="1" max="1" chance="0.032" /> <!-- Recipe: Sealed Dark Crystal Gaiters (60%) -->
+				<item id="5425" min="1" max="1" chance="0.019" /> <!-- Recipe: Sealed Dark Crystal Gaiters (100%) -->
 			</spoil>
 		</dropLists>
 	</npc>
@@ -1857,9 +1861,9 @@
 		<race>UNDEAD</race>
 		<sex>MALE</sex>
 		<equipment rhand="79" lhand="945" />
-		<acquire exp="28352" sp="12700" attributeExp="968" />
+		<acquire exp="28352" sp="282" attributeExp="968" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="24246.2" hpRegen="8.5" mp="2227.484" mpRegen="3" />
+			<vitals hp="26670.89" hpRegen="8.5" mp="2227.484" mpRegen="3" />
 			<attack physical="1691.95163397728" magical="1155.38365006349" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
 			<defence physical="425.8567808" magical="311.6235136" />
 			<speed>
@@ -1896,9 +1900,9 @@
 		</collision>
 		<dropLists>
 			<drop>
-				<item id="57" min="892" max="987" chance="70" /> <!-- Adena -->
-				<item id="97653" min="1" max="1" chance="0.001" /> <!-- Collector's Weapon I - Sealed -->
-				<item id="97654" min="1" max="1" chance="0.003" /> <!-- Collector's Armor I - Sealed -->
+				<item id="57" min="602" max="667" chance="70" /> <!-- Adena -->
+				<item id="97653" min="1" max="1" chance="0.002" /> <!-- Collector's Weapon C - Sealed -->
+				<item id="97654" min="1" max="1" chance="0.004" /> <!-- Collector's Armor C - Sealed -->
 			</drop>
 		</dropLists>
 	</npc>
@@ -1917,9 +1921,9 @@
 		<race>UNDEAD</race>
 		<sex>MALE</sex>
 		<equipment rhand="14" />
-		<acquire exp="28352" sp="12700" attributeExp="968" />
+		<acquire exp="28352" sp="282" attributeExp="968" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="24246.2" hpRegen="8.5" mp="2227.484" mpRegen="3" />
+			<vitals hp="26670.89" hpRegen="8.5" mp="2227.484" mpRegen="3" />
 			<attack physical="1691.95163397728" magical="1155.38365006349" random="5" critical="8" accuracy="0" attackSpeed="253" type="BOW" range="1100" distance="10" width="0" />
 			<defence physical="425.8567808" magical="311.6235136" />
 			<speed>
@@ -1957,22 +1961,22 @@
 		</collision>
 		<dropLists>
 			<drop>
-				<item id="57" min="892" max="987" chance="70" /> <!-- Adena -->
-				<item id="92801" min="1" max="1" chance="0.004" /> <!-- Deadman's Glory Stone -->
-				<item id="92857" min="1" max="1" chance="0.072" /> <!-- Sealed Phoenix Earring Gemstone -->
-				<item id="92895" min="1" max="1" chance="0.005" /> <!-- Destroyer Hammer Piece -->
-				<item id="171" min="1" max="1" chance="0.0003" /> <!-- Deadman's Glory -->
-				<item id="7889" min="1" max="1" chance="0.0003" /> <!-- Wizard's Tear -->
-				<item id="6324" min="1" max="1" chance="0.002" /> <!-- Sealed Phoenix Earring -->
-				<item id="7899" min="1" max="1" chance="0.0001" /> <!-- Destroyer Hammer -->
+				<item id="57" min="602" max="667" chance="70" /> <!-- Adena -->
+				<item id="92801" min="1" max="1" chance="0.005" /> <!-- Deadman's Glory Stone -->
+				<item id="92857" min="1" max="1" chance="0.1" /> <!-- Sealed Phoenix Earring Gemstone -->
+				<item id="92895" min="1" max="1" chance="0.007" /> <!-- Destroyer Hammer Piece -->
+				<item id="171" min="1" max="1" chance="0.0004" /> <!-- Deadman's Glory -->
+				<item id="7889" min="1" max="1" chance="0.0004" /> <!-- Wizard's Tear -->
+				<item id="6324" min="1" max="1" chance="0.003" /> <!-- Sealed Phoenix Earring -->
+				<item id="7899" min="1" max="1" chance="0.0002" /> <!-- Destroyer Hammer -->
 			</drop>
 			<spoil>
-				<item id="4194" min="1" max="1" chance="0.003" /> <!-- Recipe: Deadman's Glory (100%) -->
-				<item id="5002" min="1" max="1" chance="0.005" /> <!-- Recipe: Deadman's Glory (60%) -->
-				<item id="6331" min="1" max="1" chance="0.015" /> <!-- Recipe: Sealed Phoenix Earring (70%) -->
-				<item id="6332" min="1" max="1" chance="0.01" /> <!-- Recipe: Sealed Phoenix Earring (100%) -->
-				<item id="8320" min="1" max="1" chance="0.0007" /> <!-- Recipe: Destroyer Hammer (100%) -->
-				<item id="8487" min="1" max="1" chance="0.001" /> <!-- Recipe: Destroyer Hammer (60%) -->
+				<item id="4194" min="1" max="1" chance="0.004" /> <!-- Recipe: Deadman's Glory (100%) -->
+				<item id="5002" min="1" max="1" chance="0.007" /> <!-- Recipe: Deadman's Glory (60%) -->
+				<item id="6331" min="1" max="1" chance="0.02" /> <!-- Recipe: Sealed Phoenix Earring (70%) -->
+				<item id="6332" min="1" max="1" chance="0.014" /> <!-- Recipe: Sealed Phoenix Earring (100%) -->
+				<item id="8320" min="1" max="1" chance="0.001" /> <!-- Recipe: Destroyer Hammer (100%) -->
+				<item id="8487" min="1" max="1" chance="0.002" /> <!-- Recipe: Destroyer Hammer (60%) -->
 			</spoil>
 		</dropLists>
 	</npc>
@@ -1991,9 +1995,9 @@
 		<race>UNDEAD</race>
 		<sex>MALE</sex>
 		<equipment rhand="77" lhand="2495" />
-		<acquire exp="27904" sp="6805" attributeExp="1056" />
+		<acquire exp="27904" sp="275" attributeExp="1056" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="24246.2" hpRegen="8.5" mp="2227.484" mpRegen="3" />
+			<vitals hp="26670.89" hpRegen="8.5" mp="2227.484" mpRegen="3" />
 			<attack physical="1766.86854720512" magical="1206.54217207818" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
 			<defence physical="431.4497024" magical="315.7161728" />
 			<speed>
@@ -2031,22 +2035,22 @@
 		</collision>
 		<dropLists>
 			<drop>
-				<item id="57" min="892" max="987" chance="70" /> <!-- Adena -->
-				<item id="92799" min="1" max="1" chance="0.004" /> <!-- Damascus Sword Blade -->
-				<item id="92814" min="1" max="1" chance="0.027" /> <!-- Sealed Tallum Tunic Texture -->
-				<item id="92830" min="1" max="1" chance="0.013" /> <!-- Sealed Tallum Plate Armor Pattern -->
-				<item id="79" min="1" max="1" chance="0.0003" /> <!-- Damascus Sword -->
-				<item id="2626" min="1" max="1" chance="0.0003" /> <!-- Samurai Long Sword*Samurai Long Sword -->
-				<item id="5293" min="1" max="1" chance="0.0003" /> <!-- Sealed Tallum Plate Armor -->
-				<item id="5304" min="1" max="1" chance="0.0007" /> <!-- Sealed Tallum Tunic -->
+				<item id="57" min="602" max="667" chance="70" /> <!-- Adena -->
+				<item id="92799" min="1" max="1" chance="0.005" /> <!-- Damascus Sword Blade -->
+				<item id="92814" min="1" max="1" chance="0.038" /> <!-- Sealed Tallum Tunic Texture -->
+				<item id="92830" min="1" max="1" chance="0.017" /> <!-- Sealed Tallum Plate Armor Pattern -->
+				<item id="79" min="1" max="1" chance="0.0004" /> <!-- Damascus Sword -->
+				<item id="2626" min="1" max="1" chance="0.0004" /> <!-- Samurai Long Sword*Samurai Long Sword -->
+				<item id="5293" min="1" max="1" chance="0.0005" /> <!-- Sealed Tallum Plate Armor -->
+				<item id="5304" min="1" max="1" chance="0.001" /> <!-- Sealed Tallum Tunic -->
 			</drop>
 			<spoil>
-				<item id="4192" min="1" max="1" chance="0.003" /> <!-- Recipe: Damascus Sword (100%) -->
-				<item id="5000" min="1" max="1" chance="0.005" /> <!-- Recipe: Damascus Sword (60%) -->
-				<item id="5346" min="1" max="1" chance="0.006" /> <!-- Recipe: Sealed Tallum Tunic (60%) -->
-				<item id="5347" min="1" max="1" chance="0.004" /> <!-- Recipe: Sealed Tallum Tunic (100%) -->
-				<item id="5418" min="1" max="1" chance="0.003" /> <!-- Recipe: Sealed Tallum Plate Armor (60%) -->
-				<item id="5419" min="1" max="1" chance="0.002" /> <!-- Recipe: Sealed Tallum Plate Armor (100%) -->
+				<item id="4192" min="1" max="1" chance="0.004" /> <!-- Recipe: Damascus Sword (100%) -->
+				<item id="5000" min="1" max="1" chance="0.007" /> <!-- Recipe: Damascus Sword (60%) -->
+				<item id="5346" min="1" max="1" chance="0.009" /> <!-- Recipe: Sealed Tallum Tunic (60%) -->
+				<item id="5347" min="1" max="1" chance="0.005" /> <!-- Recipe: Sealed Tallum Tunic (100%) -->
+				<item id="5418" min="1" max="1" chance="0.004" /> <!-- Recipe: Sealed Tallum Plate Armor (60%) -->
+				<item id="5419" min="1" max="1" chance="0.003" /> <!-- Recipe: Sealed Tallum Plate Armor (100%) -->
 			</spoil>
 		</dropLists>
 	</npc>
@@ -2064,9 +2068,9 @@
 		<race>UNDEAD</race>
 		<sex>MALE</sex>
 		<equipment rhand="73" lhand="2495" />
-		<acquire exp="27936" sp="6805" attributeExp="1056" />
+		<acquire exp="27936" sp="275" attributeExp="1056" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="24246.2" hpRegen="8.5" mp="2227.484" mpRegen="3" />
+			<vitals hp="26670.89" hpRegen="8.5" mp="2227.484" mpRegen="3" />
 			<attack physical="1844.02134215877" magical="1259.22752534588" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
 			<defence physical="436.96" magical="319.7483648" />
 			<speed>
@@ -2109,15 +2113,15 @@
 		</collision>
 		<dropLists>
 			<drop>
-				<item id="57" min="892" max="987" chance="70" /> <!-- Adena -->
-				<item id="92826" min="1" max="1" chance="0.244" /> <!-- Sealed Tallum Glove Design -->
-				<item id="7883" min="1" max="1" chance="0.0004" /> <!-- Guardian's Sword -->
-				<item id="91900" min="1" max="1" chance="0.0004" /> <!-- Colichemarde -->
-				<item id="5295" min="1" max="1" chance="0.003" /> <!-- Sealed Tallum Gloves -->
+				<item id="57" min="602" max="667" chance="70" /> <!-- Adena -->
+				<item id="92826" min="1" max="1" chance="0.34" /> <!-- Sealed Tallum Glove Design -->
+				<item id="7883" min="1" max="1" chance="0.0006" /> <!-- Guardian's Sword -->
+				<item id="91900" min="1" max="1" chance="0.0006" /> <!-- Colichemarde -->
+				<item id="5295" min="1" max="1" chance="0.004" /> <!-- Sealed Tallum Gloves -->
 			</drop>
 			<spoil>
-				<item id="5394" min="1" max="1" chance="0.058" /> <!-- Recipe: Sealed Tallum Gloves (60%) -->
-				<item id="5395" min="1" max="1" chance="0.035" /> <!-- Recipe: Sealed Tallum Gloves (100%) -->
+				<item id="5394" min="1" max="1" chance="0.081" /> <!-- Recipe: Sealed Tallum Gloves (60%) -->
+				<item id="5395" min="1" max="1" chance="0.048" /> <!-- Recipe: Sealed Tallum Gloves (100%) -->
 			</spoil>
 		</dropLists>
 	</npc>
@@ -2135,9 +2139,9 @@
 		<race>UNDEAD</race>
 		<sex>MALE</sex>
 		<equipment rhand="946" lhand="945" />
-		<acquire exp="27450" sp="8428" attributeExp="1144" />
+		<acquire exp="27450" sp="269" attributeExp="1144" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="24246.2" hpRegen="8.5" mp="2227.484" mpRegen="3" />
+			<vitals hp="26670.89" hpRegen="8.5" mp="2227.484" mpRegen="3" />
 			<attack physical="1844.02134215877" magical="1259.22752534588" random="5" critical="8" accuracy="0" attackSpeed="253" type="DAGGER" range="40" distance="80" width="120" />
 			<defence physical="436.96" magical="319.7483648" />
 			<speed>
@@ -2182,23 +2186,27 @@
 		</collision>
 		<dropLists>
 			<drop>
-				<item id="57" min="892" max="987" chance="70" /> <!-- Adena -->
-				<item id="92829" min="1" max="1" chance="0.02" /> <!-- Sealed Dark Crystal Breastplate Pattern -->
-				<item id="92850" min="1" max="1" chance="0.005" /> <!-- Halberd Edge -->
-				<item id="92855" min="1" max="1" chance="0.005" /> <!-- Elemental Sword Edge -->
-				<item id="7893" min="1" max="1" chance="0.0003" /> <!-- Kaim Vanul's Bones -->
-				<item id="98" min="1" max="1" chance="0.0001" /> <!-- Halberd -->
-				<item id="150" min="1" max="1" chance="0.0001" /> <!-- Elemental Sword -->
-				<item id="5287" min="1" max="1" chance="0.0005" /> <!-- Sealed Dark Crystal Breastplate -->
-				<item id="94885" min="1" max="1" chance="0.0001" /> <!-- Scofield -->
+				<item id="57" min="602" max="667" chance="70" /> <!-- Adena -->
+				<item id="92476" min="1" max="1" chance="0.433" /> <!-- Metal Ingot -->
+				<item id="92479" min="1" max="1" chance="0.433" /> <!-- Metallograph -->
+				<item id="92481" min="1" max="1" chance="0.433" /> <!-- Cloth -->
+				<item id="92829" min="1" max="1" chance="0.012" /> <!-- Sealed Dark Crystal Breastplate Pattern -->
+				<item id="92850" min="1" max="1" chance="0.003" /> <!-- Halberd Edge -->
+				<item id="92855" min="1" max="1" chance="0.003" /> <!-- Elemental Sword Edge -->
+				<item id="96623" min="1" max="1" chance="0.0002" /> <!-- Dye Powder -->
+				<item id="7893" min="1" max="1" chance="0.0004" /> <!-- Kaim Vanul's Bones -->
+				<item id="98" min="1" max="1" chance="0.0002" /> <!-- Halberd -->
+				<item id="150" min="1" max="1" chance="0.0002" /> <!-- Elemental Sword -->
+				<item id="5287" min="1" max="1" chance="0.0007" /> <!-- Sealed Dark Crystal Breastplate -->
+				<item id="94885" min="1" max="1" chance="0.0002" /> <!-- Scofield -->
 			</drop>
 			<spoil>
-				<item id="5416" min="1" max="1" chance="0.005" /> <!-- Recipe: Sealed Dark Crystal Breastplate (60%) -->
-				<item id="5417" min="1" max="1" chance="0.003" /> <!-- Recipe: Sealed Dark Crystal Breastplate (100%) -->
-				<item id="5458" min="1" max="1" chance="0.001" /> <!-- Recipe: Halberd (60%) -->
-				<item id="5459" min="1" max="1" chance="0.0007" /> <!-- Recipe: Halberd (100%) -->
-				<item id="5468" min="1" max="1" chance="0.001" /> <!-- Recipe: Elemental Sword (60%) -->
-				<item id="5469" min="1" max="1" chance="0.0007" /> <!-- Recipe: Elemental Sword (100%) -->
+				<item id="5416" min="1" max="1" chance="0.007" /> <!-- Recipe: Sealed Dark Crystal Breastplate (60%) -->
+				<item id="5417" min="1" max="1" chance="0.004" /> <!-- Recipe: Sealed Dark Crystal Breastplate (100%) -->
+				<item id="5458" min="1" max="1" chance="0.002" /> <!-- Recipe: Halberd (60%) -->
+				<item id="5459" min="1" max="1" chance="0.001" /> <!-- Recipe: Halberd (100%) -->
+				<item id="5468" min="1" max="1" chance="0.002" /> <!-- Recipe: Elemental Sword (60%) -->
+				<item id="5469" min="1" max="1" chance="0.001" /> <!-- Recipe: Elemental Sword (100%) -->
 			</spoil>
 		</dropLists>
 	</npc>
@@ -2217,9 +2225,9 @@
 		</parameters>
 		<race>CONSTRUCT</race>
 		<sex>MALE</sex>
-		<acquire exp="28153" sp="10429" attributeExp="869" />
+		<acquire exp="28153" sp="281" attributeExp="869" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="23925.95" hpRegen="8.5" mp="2182.53" mpRegen="3" />
+			<vitals hp="26318.99" hpRegen="8.5" mp="2182.53" mpRegen="3" />
 			<attack physical="1627.23706201287" magical="1111.19198517759" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
 			<defence physical="420.1865344" magical="307.4742656" />
 			<speed>
@@ -2254,7 +2262,7 @@
 		</collision>
 		<dropLists>
 			<drop>
-				<item id="57" min="892" max="985" chance="70" /> <!-- Adena -->
+				<item id="57" min="602" max="665" chance="70" /> <!-- Adena -->
 			</drop>
 		</dropLists>
 	</npc>
@@ -2272,9 +2280,9 @@
 		</parameters>
 		<race>CONSTRUCT</race>
 		<sex>MALE</sex>
-		<acquire exp="28141" sp="10429" attributeExp="869" />
+		<acquire exp="28141" sp="281" attributeExp="869" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="23925.95" hpRegen="8.5" mp="2182.53" mpRegen="3" />
+			<vitals hp="26318.99" hpRegen="8.5" mp="2182.53" mpRegen="3" />
 			<attack physical="1627.23706201287" magical="1111.19198517759" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
 			<defence physical="420.1865344" magical="307.4742656" />
 			<speed>
@@ -2308,18 +2316,18 @@
 		</collision>
 		<dropLists>
 			<drop>
-				<item id="57" min="892" max="985" chance="70" /> <!-- Adena -->
-				<item id="92768" min="1" max="1" chance="0.024" /> <!-- Blue Wolf Breastplate Part -->
-				<item id="92800" min="1" max="1" chance="0.006" /> <!-- Lance Blade -->
-				<item id="97" min="1" max="1" chance="0.0004" /> <!-- Lance -->
+				<item id="57" min="602" max="665" chance="70" /> <!-- Adena -->
+				<item id="92768" min="1" max="1" chance="0.033" /> <!-- Blue Wolf Breastplate Part -->
+				<item id="92800" min="1" max="1" chance="0.008" /> <!-- Lance Blade -->
+				<item id="97" min="1" max="1" chance="0.0006" /> <!-- Lance -->
 				<item id="358" min="1" max="1" chance="0.002" /> <!-- Blue Wolf Breastplate -->
-				<item id="7901" min="1" max="1" chance="0.0004" /> <!-- Star Buster -->
+				<item id="7901" min="1" max="1" chance="0.0006" /> <!-- Star Buster -->
 			</drop>
 			<spoil>
-				<item id="4155" min="1" max="1" chance="0.019" /> <!-- Recipe: Blue Wolf Breastplate (100%) -->
-				<item id="4193" min="1" max="1" chance="0.005" /> <!-- Recipe: Lance (100%) -->
-				<item id="4981" min="1" max="1" chance="0.032" /> <!-- Recipe: Blue Wolf Breastplate (60%) -->
-				<item id="5001" min="1" max="1" chance="0.008" /> <!-- Recipe: Lance (60%) -->
+				<item id="4155" min="1" max="1" chance="0.027" /> <!-- Recipe: Blue Wolf Breastplate (100%) -->
+				<item id="4193" min="1" max="1" chance="0.007" /> <!-- Recipe: Lance (100%) -->
+				<item id="4981" min="1" max="1" chance="0.045" /> <!-- Recipe: Blue Wolf Breastplate (60%) -->
+				<item id="5001" min="1" max="1" chance="0.011" /> <!-- Recipe: Lance (60%) -->
 			</spoil>
 		</dropLists>
 	</npc>
@@ -2336,9 +2344,9 @@
 		</parameters>
 		<race>DRAGON</race>
 		<sex>MALE</sex>
-		<acquire exp="27691" sp="12385" attributeExp="956" />
+		<acquire exp="27691" sp="275" attributeExp="956" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="23925.95" hpRegen="8.5" mp="2182.53" mpRegen="3" />
+			<vitals hp="26318.99" hpRegen="8.5" mp="2182.53" mpRegen="3" />
 			<attack physical="1691.95163397728" magical="1155.38365006349" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
 			<defence physical="425.8567808" magical="311.6235136" />
 			<speed>
@@ -2370,18 +2378,18 @@
 		</collision>
 		<dropLists>
 			<drop>
-				<item id="57" min="892" max="985" chance="70" /> <!-- Adena -->
-				<item id="92771" min="1" max="1" chance="0.022" /> <!-- Blue Wolf Leather Armor Texture -->
-				<item id="92801" min="1" max="1" chance="0.006" /> <!-- Deadman's Glory Stone -->
-				<item id="171" min="1" max="1" chance="0.0004" /> <!-- Deadman's Glory -->
+				<item id="57" min="602" max="665" chance="70" /> <!-- Adena -->
+				<item id="92771" min="1" max="1" chance="0.03" /> <!-- Blue Wolf Leather Armor Texture -->
+				<item id="92801" min="1" max="1" chance="0.008" /> <!-- Deadman's Glory Stone -->
+				<item id="171" min="1" max="1" chance="0.0006" /> <!-- Deadman's Glory -->
 				<item id="2391" min="1" max="1" chance="0.002" /> <!-- Blue Wolf Leather Armor -->
-				<item id="91885" min="1" max="1" chance="0.0004" /> <!-- Dismantler -->
+				<item id="91885" min="1" max="1" chance="0.0006" /> <!-- Dismantler -->
 			</drop>
 			<spoil>
-				<item id="4159" min="1" max="1" chance="0.018" /> <!-- Recipe: Blue Wolf Leather Armor (100%) -->
-				<item id="4194" min="1" max="1" chance="0.005" /> <!-- Recipe: Deadman's Glory (100%) -->
-				<item id="4984" min="1" max="1" chance="0.029" /> <!-- Recipe: Blue Wolf Leather Armor (60%) -->
-				<item id="5002" min="1" max="1" chance="0.008" /> <!-- Recipe: Deadman's Glory (60%) -->
+				<item id="4159" min="1" max="1" chance="0.024" /> <!-- Recipe: Blue Wolf Leather Armor (100%) -->
+				<item id="4194" min="1" max="1" chance="0.007" /> <!-- Recipe: Deadman's Glory (100%) -->
+				<item id="4984" min="1" max="1" chance="0.041" /> <!-- Recipe: Blue Wolf Leather Armor (60%) -->
+				<item id="5002" min="1" max="1" chance="0.011" /> <!-- Recipe: Deadman's Glory (60%) -->
 			</spoil>
 		</dropLists>
 	</npc>
@@ -2399,9 +2407,9 @@
 		</parameters>
 		<race>DEMONIC</race>
 		<sex>FEMALE</sex>
-		<acquire exp="27710" sp="12385" attributeExp="956" />
+		<acquire exp="27710" sp="275" attributeExp="956" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="23925.95" hpRegen="8.5" mp="2182.53" mpRegen="3" />
+			<vitals hp="26318.99" hpRegen="8.5" mp="2182.53" mpRegen="3" />
 			<attack physical="1691.95163397728" magical="1155.38365006349" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
 			<defence physical="425.8567808" magical="311.6235136" />
 			<speed>
@@ -2439,17 +2447,19 @@
 		</collision>
 		<dropLists>
 			<drop>
-				<item id="57" min="892" max="985" chance="70" /> <!-- Adena -->
-				<item id="92799" min="1" max="1" chance="0.006" /> <!-- Damascus Sword Blade -->
-				<item id="92803" min="1" max="1" chance="0.006" /> <!-- Staff of Evil Spirits Head -->
-				<item id="79" min="1" max="1" chance="0.0006" /> <!-- Damascus Sword -->
-				<item id="210" min="1" max="1" chance="0.0006" /> <!-- Staff of Evil Spirits -->
+				<item id="57" min="602" max="665" chance="70" /> <!-- Adena -->
+				<item id="92799" min="1" max="1" chance="0.008" /> <!-- Damascus Sword Blade -->
+				<item id="92803" min="1" max="1" chance="0.008" /> <!-- Staff of Evil Spirits Head -->
+				<item id="97653" min="1" max="1" chance="0.0006" /> <!-- Collector's Weapon C - Sealed -->
+				<item id="97654" min="1" max="1" chance="0.001" /> <!-- Collector's Armor C - Sealed -->
+				<item id="79" min="1" max="1" chance="0.0004" /> <!-- Damascus Sword -->
+				<item id="210" min="1" max="1" chance="0.0004" /> <!-- Staff of Evil Spirits -->
 			</drop>
 			<spoil>
-				<item id="4192" min="1" max="1" chance="0.005" /> <!-- Recipe: Damascus Sword (100%) -->
-				<item id="4196" min="1" max="1" chance="0.005" /> <!-- Recipe: Staff of Evil Spirits (100%) -->
-				<item id="5000" min="1" max="1" chance="0.008" /> <!-- Recipe: Damascus Sword (60%) -->
-				<item id="5004" min="1" max="1" chance="0.008" /> <!-- Recipe: Staff of Evil Spirits (60%) -->
+				<item id="4192" min="1" max="1" chance="0.007" /> <!-- Recipe: Damascus Sword (100%) -->
+				<item id="4196" min="1" max="1" chance="0.007" /> <!-- Recipe: Staff of Evil Spirits (100%) -->
+				<item id="5000" min="1" max="1" chance="0.011" /> <!-- Recipe: Damascus Sword (60%) -->
+				<item id="5004" min="1" max="1" chance="0.011" /> <!-- Recipe: Staff of Evil Spirits (60%) -->
 			</spoil>
 		</dropLists>
 	</npc>
@@ -2467,9 +2477,9 @@
 		</parameters>
 		<race>DEMONIC</race>
 		<sex>FEMALE</sex>
-		<acquire exp="11830" sp="5291" attributeExp="956" />
+		<acquire exp="11830" sp="112" attributeExp="956" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="7864.557" hpRegen="8.5" mp="2137.842" mpRegen="3" />
+			<vitals hp="8651.266" hpRegen="8.5" mp="2137.842" mpRegen="3" />
 			<attack physical="1691.95163397728" magical="1155.38365006349" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
 			<defence physical="425.8567808" magical="311.6235136" />
 			<speed>
@@ -2521,9 +2531,9 @@
 		<race>BEAST</race>
 		<sex>MALE</sex>
 		<equipment rhand="223" />
-		<acquire exp="27942" sp="6805" attributeExp="1056" />
+		<acquire exp="27942" sp="275" attributeExp="1056" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="24246.2" hpRegen="8.5" mp="2227.484" mpRegen="3" />
+			<vitals hp="26670.89" hpRegen="8.5" mp="2227.484" mpRegen="3" />
 			<attack physical="1844.02134215877" magical="1259.22752534588" random="5" critical="8" accuracy="0" attackSpeed="253" type="DAGGER" range="40" distance="80" width="120" />
 			<defence physical="436.96" magical="319.7483648" />
 			<speed>
@@ -2571,7 +2581,7 @@
 		</collision>
 		<dropLists>
 			<drop>
-				<item id="57" min="892" max="987" chance="70" /> <!-- Adena -->
+				<item id="57" min="602" max="667" chance="70" /> <!-- Adena -->
 			</drop>
 		</dropLists>
 	</npc>
@@ -2591,7 +2601,7 @@
 		<race>GIANT</race>
 		<sex>MALE</sex>
 		<equipment rhand="88" /> <!-- Morning Star -->
-		<acquire exp="1219" sp="64" />
+		<acquire exp="1219" sp="11" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="1187.4828" hpRegen="4.5" mp="370.580748055665" mpRegen="1.8" />
 			<attack physical="106.16525" magical="72.49711" random="20" critical="1" accuracy="9" attackSpeed="253" type="BLUNT" range="40" distance="80" width="120" />
@@ -2666,7 +2676,7 @@
 		<race>GIANT</race>
 		<sex>MALE</sex>
 		<equipment rhand="73" /> <!-- Shamshir -->
-		<acquire exp="1307" sp="127" />
+		<acquire exp="1307" sp="13" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="1225.2572" hpRegen="4.5" mp="385.403977977891" mpRegen="1.8" />
 			<attack physical="113.49065" magical="77.49941" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
@@ -2737,7 +2747,7 @@
 		</parameters>
 		<race>BEAST</race>
 		<sex>MALE</sex>
-		<acquire exp="643" sp="50" />
+		<acquire exp="643" sp="6" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="543.437297370415" hpRegen="3.5" mp="286.92" mpRegen="1.5" />
 			<attack physical="74.99121" magical="51.20928" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
@@ -2783,7 +2793,7 @@
 		<race>HUMANOID</race>
 		<sex>MALE</sex>
 		<equipment rhand="1" lhand="19" /> <!-- Short Sword / Small Shield -->
-		<acquire exp="688" sp="52" />
+		<acquire exp="688" sp="6" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="573.624217856864" hpRegen="3.5" mp="300.96" mpRegen="1.5" />
 			<attack physical="80.54056" magical="54.99876" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
@@ -2829,7 +2839,7 @@
 		<race>HUMANOID</race>
 		<sex>MALE</sex>
 		<equipment rhand="123" /> <!-- Saber -->
-		<acquire exp="736" sp="56" />
+		<acquire exp="736" sp="7" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="604.883087573501" hpRegen="3.5" mp="315.12" mpRegen="1.5" />
 			<attack physical="86.42002" magical="59.01367" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
@@ -2875,7 +2885,7 @@
 		<race>HUMANOID</race>
 		<sex>MALE</sex>
 		<equipment rhand="16" /> <!-- Great Spear -->
-		<acquire exp="788" sp="56" />
+		<acquire exp="788" sp="7" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="637.219604833719" hpRegen="3.5" mp="329.4" mpRegen="1.5" />
 			<attack physical="92.64226" magical="63.26266" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
@@ -2921,7 +2931,7 @@
 		<race>UNDEAD</race>
 		<sex>MALE</sex>
 		<equipment rhand="86" /> <!-- Tomahawk -->
-		<acquire exp="688" sp="52" />
+		<acquire exp="688" sp="6" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="573.624217856864" hpRegen="3.5" mp="300.96" mpRegen="1.5" />
 			<attack physical="80.54056" magical="54.99876" random="20" critical="1" accuracy="9" attackSpeed="253" type="BLUNT" range="40" distance="80" width="120" />
@@ -2973,7 +2983,7 @@
 		<race>HUMANOID</race>
 		<sex>MALE</sex>
 		<equipment rhand="123" /> <!-- rhand: Saber -->
-		<acquire exp="834" sp="34" />
+		<acquire exp="834" sp="8" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="670.637516093159" hpRegen="4.5" mp="343.8" mpRegen="1.8" />
 			<attack physical="99.21986" magical="67.7543" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
@@ -3025,7 +3035,7 @@
 		<race>HUMANOID</race>
 		<sex>MALE</sex>
 		<equipment rhand="13" /> <!-- rhand: Short Bow -->
-		<acquire exp="885" sp="37" />
+		<acquire exp="885" sp="8" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="705.138521256333" hpRegen="4.5" mp="358.32" mpRegen="1.8" />
 			<attack physical="106.16525" magical="72.49711" random="5" critical="8" accuracy="0" attackSpeed="253" type="BOW" range="1100" distance="10" width="0" />
@@ -3079,7 +3089,7 @@
 		<race>HUMANOID</race>
 		<sex>MALE</sex>
 		<equipment rhand="123" lhand="19" /> <!-- rhand: Saber lhand: Small Shield -->
-		<acquire exp="938" sp="39" />
+		<acquire exp="938" sp="9" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="740.722181648393" hpRegen="4.5" mp="372.96" mpRegen="1.8" />
 			<attack physical="113.49065" magical="77.49941" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
@@ -3133,7 +3143,7 @@
 		<race>HUMANOID</race>
 		<sex>MALE</sex>
 		<equipment rhand="7" /> <!-- rhand: Apprentice's Rod -->
-		<acquire exp="994" sp="42" />
+		<acquire exp="994" sp="9" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="777.385831121245" hpRegen="4.5" mp="387.72" mpRegen="1.8" />
 			<attack physical="121.20802" magical="82.76936" random="20" critical="1" accuracy="9" attackSpeed="253" type="BLUNT" range="40" distance="80" width="120" />
@@ -3188,7 +3198,7 @@
 		<race>HUMANOID</race>
 		<sex>MALE</sex>
 		<equipment rhand="79" /> <!-- rhand: Sword of Damascus -->
-		<acquire exp="1054" sp="44" />
+		<acquire exp="1054" sp="10" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="815.124490768837" hpRegen="4.5" mp="402.6" mpRegen="1.8" />
 			<attack physical="129.32896" magical="88.31491" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
@@ -3237,7 +3247,7 @@
 		<race>HUMANOID</race>
 		<sex>MALE</sex>
 		<equipment rhand="2" /> <!-- Long Sword -->
-		<acquire exp="213" sp="12" />
+		<acquire exp="213" sp="2" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="243.022656988362" hpRegen="2.5" mp="140.88" mpRegen="1.2" />
 			<attack physical="27.24646" magical="18.6058" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
@@ -3285,7 +3295,7 @@
 		<race>HUMANOID</race>
 		<sex>MALE</sex>
 		<equipment rhand="7" /> <!-- Apprentice's Rod -->
-		<acquire exp="284" sp="15" />
+		<acquire exp="284" sp="3" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="298.073870812572" hpRegen="2.5" mp="166.08" mpRegen="1.2" />
 			<attack physical="34.8979" magical="23.83074" random="20" critical="1" accuracy="9" attackSpeed="253" type="BLUNT" range="40" distance="80" width="120" />
@@ -3337,7 +3347,7 @@
 		</parameters>
 		<race>CONSTRUCT</race>
 		<sex>MALE</sex>
-		<acquire exp="458" sp="68" />
+		<acquire exp="458" sp="4" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="408.258202789494" hpRegen="3.5" mp="218.52" mpRegen="1.5" />
 			<attack physical="51.75278" magical="35.34044" random="20" critical="1" accuracy="9" attackSpeed="253" type="BLUNT" range="40" distance="80" width="120" />
@@ -3393,7 +3403,7 @@
 		</parameters>
 		<race>CONSTRUCT</race>
 		<sex>MALE</sex>
-		<acquire exp="561" sp="44" />
+		<acquire exp="561" sp="5" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="486.247334679017" hpRegen="3.5" mp="259.2" mpRegen="1.5" />
 			<attack physical="64.83203" magical="44.27187" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
@@ -3450,7 +3460,7 @@
 		<race>HUMANOID</race>
 		<sex>MALE</sex>
 		<equipment rhand="215" /> <!-- Doom Dagger -->
-		<acquire exp="834" sp="60" />
+		<acquire exp="834" sp="8" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="670.637516093159" hpRegen="4.5" mp="343.8" mpRegen="1.8" />
 			<attack physical="99.21986" magical="67.7543" random="5" critical="8" accuracy="0" attackSpeed="253" type="DAGGER" range="40" distance="80" width="120" />
@@ -3502,7 +3512,7 @@
 		<race>HUMANOID</race>
 		<sex>MALE</sex>
 		<equipment rhand="275" /> <!-- Longbow -->
-		<acquire exp="885" sp="64" />
+		<acquire exp="885" sp="8" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="705.138521256333" hpRegen="4.5" mp="358.32" mpRegen="1.8" />
 			<attack physical="106.16525" magical="72.49711" random="5" critical="8" accuracy="0" attackSpeed="253" type="BOW" range="1100" distance="10" width="0" />
@@ -3557,7 +3567,7 @@
 		<race>HUMANOID</race>
 		<sex>MALE</sex>
 		<equipment rhand="7" /> <!-- Apprentice's Rod -->
-		<acquire exp="994" sp="72" />
+		<acquire exp="994" sp="9" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="777.385831121245" hpRegen="4.5" mp="387.72" mpRegen="1.8" />
 			<attack physical="121.20802" magical="82.76936" random="20" critical="1" accuracy="9" attackSpeed="253" type="BLUNT" range="40" distance="80" width="120" />
@@ -3611,7 +3621,7 @@
 		<race>HUMANOID</race>
 		<sex>MALE</sex>
 		<equipment rhand="79" /> <!-- Damascus Sword -->
-		<acquire exp="1054" sp="77" />
+		<acquire exp="1054" sp="10" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="815.124490768837" hpRegen="4.5" mp="402.6" mpRegen="1.8" />
 			<attack physical="129.32896" magical="88.31491" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
@@ -3665,7 +3675,7 @@
 		<race>HUMANOID</race>
 		<sex>MALE</sex>
 		<equipment rhand="123" lhand="20" /> <!-- Saber / Buckler -->
-		<acquire exp="938" sp="69" />
+		<acquire exp="938" sp="9" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="740.722181648393" hpRegen="4.5" mp="372.96" mpRegen="1.8" />
 			<attack physical="113.49065" magical="77.49941" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
@@ -3716,9 +3726,9 @@
 		<race>UNDEAD</race>
 		<sex>MALE</sex>
 		<equipment rhand="79" lhand="945" />
-		<acquire exp="11533" sp="5158" attributeExp="944" />
+		<acquire exp="11533" sp="110" attributeExp="944" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="7864.557" hpRegen="8.5" mp="2137.842" mpRegen="3" />
+			<vitals hp="8651.266" hpRegen="8.5" mp="2137.842" mpRegen="3" />
 			<attack physical="1691.95163397728" magical="1155.38365006349" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
 			<defence physical="425.8567808" magical="311.6235136" />
 			<speed>
@@ -3770,9 +3780,9 @@
 		<race>UNDEAD</race>
 		<sex>MALE</sex>
 		<equipment rhand="275" />
-		<acquire exp="11533" sp="5158" attributeExp="944" />
+		<acquire exp="11533" sp="110" attributeExp="944" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="7864.557" hpRegen="8.5" mp="2137.842" mpRegen="3" />
+			<vitals hp="8651.266" hpRegen="8.5" mp="2137.842" mpRegen="3" />
 			<attack physical="1691.95163397728" magical="1155.38365006349" random="5" critical="8" accuracy="0" attackSpeed="253" type="BOW" range="1100" distance="10" width="0" />
 			<defence physical="425.8567808" magical="311.6235136" />
 			<speed>
@@ -3824,9 +3834,9 @@
 		<race>UNDEAD</race>
 		<sex>MALE</sex>
 		<equipment rhand="77" />
-		<acquire exp="11642" sp="2835" attributeExp="1043" />
+		<acquire exp="11642" sp="112" attributeExp="1043" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="7975.316" hpRegen="8.5" mp="2182.53" mpRegen="3" />
+			<vitals hp="8772.785" hpRegen="8.5" mp="2182.53" mpRegen="3" />
 			<attack physical="1766.86854720512" magical="1206.54217207818" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
 			<defence physical="431.4497024" magical="315.7161728" />
 			<speed>
@@ -3878,9 +3888,9 @@
 		<race>UNDEAD</race>
 		<sex>MALE</sex>
 		<equipment rhand="73" />
-		<acquire exp="11935" sp="2907" attributeExp="1056" />
+		<acquire exp="11935" sp="115" attributeExp="1056" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="7975.316" hpRegen="8.5" mp="2182.53" mpRegen="3" />
+			<vitals hp="8772.785" hpRegen="8.5" mp="2182.53" mpRegen="3" />
 			<attack physical="1766.86854720512" magical="1206.54217207818" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
 			<defence physical="431.4497024" magical="315.7161728" />
 			<speed>
@@ -3928,9 +3938,9 @@
 		<race>UNDEAD</race>
 		<sex>MALE</sex>
 		<equipment rhand="946" lhand="945" />
-		<acquire exp="11729" sp="3601" attributeExp="1144" />
+		<acquire exp="11729" sp="115" attributeExp="1144" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="8082.278" hpRegen="8.5" mp="2227.484" mpRegen="3" />
+			<vitals hp="8890.506" hpRegen="8.5" mp="2227.484" mpRegen="3" />
 			<attack physical="1844.02134215877" magical="1259.22752534588" random="5" critical="8" accuracy="0" attackSpeed="253" type="DAGGER" range="40" distance="80" width="120" />
 			<defence physical="436.96" magical="319.7483648" />
 			<speed>
@@ -3992,9 +4002,9 @@
 		<race>BEAST</race>
 		<sex>MALE</sex>
 		<equipment rhand="223" />
-		<acquire exp="11938" sp="2907" attributeExp="1056" />
+		<acquire exp="11938" sp="115" attributeExp="1056" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="7975.316" hpRegen="8.5" mp="2182.53" mpRegen="3" />
+			<vitals hp="8772.785" hpRegen="8.5" mp="2182.53" mpRegen="3" />
 			<attack physical="1766.86854720512" magical="1206.54217207818" random="5" critical="8" accuracy="0" attackSpeed="253" type="DAGGER" range="40" distance="80" width="120" />
 			<defence physical="431.4497024" magical="315.7161728" />
 			<speed>
@@ -4055,9 +4065,9 @@
 		</parameters>
 		<race>UNDEAD</race>
 		<sex>MALE</sex>
-		<acquire exp="11422" sp="4232" attributeExp="847" />
+		<acquire exp="11422" sp="113" attributeExp="847" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="7750" hpRegen="8.5" mp="2093.42" mpRegen="3" />
+			<vitals hp="8525.316" hpRegen="8.5" mp="2093.42" mpRegen="3" />
 			<attack physical="1627.23706201287" magical="1111.19198517759" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
 			<defence physical="420.1865344" magical="307.4742656" />
 			<speed>
@@ -4106,9 +4116,9 @@
 		<race>UNDEAD</race>
 		<sex>MALE</sex>
 		<equipment rhand="124" />
-		<acquire exp="11729" sp="3601" attributeExp="1144" />
+		<acquire exp="11729" sp="115" attributeExp="1144" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="8082.278" hpRegen="8.5" mp="2227.484" mpRegen="3" />
+			<vitals hp="8890.506" hpRegen="8.5" mp="2227.484" mpRegen="3" />
 			<attack physical="1844.02134215877" magical="1259.22752534588" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
 			<defence physical="436.96" magical="319.7483648" />
 			<speed>
@@ -4155,9 +4165,9 @@
 		</parameters>
 		<race>CONSTRUCT</race>
 		<sex>MALE</sex>
-		<acquire exp="11422" sp="4232" attributeExp="847" />
+		<acquire exp="11422" sp="113" attributeExp="847" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="7750" hpRegen="8.5" mp="2093.42" mpRegen="3" />
+			<vitals hp="8525.316" hpRegen="8.5" mp="2093.42" mpRegen="3" />
 			<attack physical="1627.23706201287" magical="1111.19198517759" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
 			<defence physical="420.1865344" magical="307.4742656" />
 			<speed>
@@ -4202,9 +4212,9 @@
 		</parameters>
 		<race>DRAGON</race>
 		<sex>MALE</sex>
-		<acquire exp="11533" sp="5158" attributeExp="944" />
+		<acquire exp="11533" sp="110" attributeExp="944" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="7864.557" hpRegen="8.5" mp="2137.842" mpRegen="3" />
+			<vitals hp="8651.266" hpRegen="8.5" mp="2137.842" mpRegen="3" />
 			<attack physical="1691.95163397728" magical="1155.38365006349" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
 			<defence physical="425.8567808" magical="311.6235136" />
 			<speed>
@@ -4250,9 +4260,9 @@
 		</parameters>
 		<race>DEMONIC</race>
 		<sex>FEMALE</sex>
-		<acquire exp="11542" sp="5158" attributeExp="944" />
+		<acquire exp="11542" sp="110" attributeExp="944" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="7864.557" hpRegen="8.5" mp="2137.842" mpRegen="3" />
+			<vitals hp="8651.266" hpRegen="8.5" mp="2137.842" mpRegen="3" />
 			<attack physical="1691.95163397728" magical="1155.38365006349" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
 			<defence physical="425.8567808" magical="311.6235136" />
 			<speed>
@@ -4303,9 +4313,9 @@
 		</parameters>
 		<race>DEMONIC</race>
 		<sex>FEMALE</sex>
-		<acquire exp="11830" sp="5291" attributeExp="956" />
+		<acquire exp="11830" sp="112" attributeExp="956" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="7864.557" hpRegen="8.5" mp="2137.842" mpRegen="3" />
+			<vitals hp="8651.266" hpRegen="8.5" mp="2137.842" mpRegen="3" />
 			<attack physical="1691.95163397728" magical="1155.38365006349" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
 			<defence physical="425.8567808" magical="311.6235136" />
 			<speed>
@@ -4355,9 +4365,9 @@
 		</parameters>
 		<race>DRAGON</race>
 		<sex>MALE</sex>
-		<acquire exp="11729" sp="3601" attributeExp="1144" />
+		<acquire exp="11729" sp="115" attributeExp="1144" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="8082.278" hpRegen="8.5" mp="2227.484" mpRegen="3" />
+			<vitals hp="8890.506" hpRegen="8.5" mp="2227.484" mpRegen="3" />
 			<attack physical="1844.02134215877" magical="1259.22752534588" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
 			<defence physical="436.96" magical="319.7483648" />
 			<speed>
@@ -4406,9 +4416,9 @@
 		</parameters>
 		<race>CONSTRUCT</race>
 		<sex>MALE</sex>
-		<acquire exp="11426" sp="4232" attributeExp="847" />
+		<acquire exp="11426" sp="113" attributeExp="847" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="7750" hpRegen="8.5" mp="2093.42" mpRegen="3" />
+			<vitals hp="8525.316" hpRegen="8.5" mp="2093.42" mpRegen="3" />
 			<attack physical="1627.23706201287" magical="1111.19198517759" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
 			<defence physical="420.1865344" magical="307.4742656" />
 			<speed>
@@ -4454,9 +4464,9 @@
 		<race>BEAST</race>
 		<sex>FEMALE</sex>
 		<equipment rhand="68" />
-		<acquire exp="11935" sp="2907" attributeExp="1056" />
+		<acquire exp="11935" sp="115" attributeExp="1056" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="7975.316" hpRegen="8.5" mp="2182.53" mpRegen="3" />
+			<vitals hp="8772.785" hpRegen="8.5" mp="2182.53" mpRegen="3" />
 			<attack physical="1766.86854720512" magical="1206.54217207818" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
 			<defence physical="431.4497024" magical="315.7161728" />
 			<speed>
@@ -4518,7 +4528,7 @@
 		<race>HUMANOID</race>
 		<sex>MALE</sex>
 		<equipment rhand="2" /> <!-- Long Sword -->
-		<acquire exp="428" sp="34" />
+		<acquire exp="428" sp="4" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="384.286402264366" hpRegen="3.5" mp="205.2" mpRegen="1.5" />
 			<attack physical="47.91924" magical="32.72263" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
@@ -4567,7 +4577,7 @@
 		<race>HUMANOID</race>
 		<sex>MALE</sex>
 		<equipment rhand="7" /> <!-- Apprentice's Rod -->
-		<acquire exp="400" sp="32" />
+		<acquire exp="400" sp="4" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="361.300316445296" hpRegen="2.5" mp="192" mpRegen="1.2" />
 			<attack physical="44.32863" magical="30.2707" random="20" critical="1" accuracy="9" attackSpeed="253" type="BLUNT" range="40" distance="80" width="120" />
@@ -4615,7 +4625,7 @@
 		<race>HUMANOID</race>
 		<sex>MALE</sex>
 		<equipment rhand="291" /> <!-- rhand: Trident -->
-		<acquire exp="400" sp="18" />
+		<acquire exp="400" sp="4" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="361.300316445296" hpRegen="2.5" mp="192" mpRegen="1.2" />
 			<attack physical="44.32863" magical="30.2707" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
@@ -4666,7 +4676,7 @@
 		<race>HUMANOID</race>
 		<sex>MALE</sex>
 		<equipment rhand="2" lhand="19" /> <!-- rhand: Long Sword lhand: Small Shield -->
-		<acquire exp="525" sp="23" />
+		<acquire exp="525" sp="5" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="459.224016948565" hpRegen="3.5" mp="245.52" mpRegen="1.5" />
 			<attack physical="60.19687" magical="41.10666" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
@@ -4717,7 +4727,7 @@
 		<race>HUMANOID</race>
 		<sex>MALE</sex>
 		<equipment rhand="16" /> <!-- rhand: Great Spear -->
-		<acquire exp="458" sp="20" />
+		<acquire exp="458" sp="4" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="408.258202789494" hpRegen="3.5" mp="218.52" mpRegen="1.5" />
 			<attack physical="51.75278" magical="35.34044" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
@@ -4766,7 +4776,7 @@
 		<race>HUMANOID</race>
 		<sex>MALE</sex>
 		<equipment rhand="2507" /> <!-- rhand: Lizardspear -->
-		<acquire exp="428" sp="19" />
+		<acquire exp="428" sp="4" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="384.286402264366" hpRegen="3.5" mp="205.2" mpRegen="1.5" />
 			<attack physical="47.91924" magical="32.72263" random="5" critical="8" accuracy="0" attackSpeed="253" type="BOW" range="1100" distance="10" width="0" />
@@ -4816,7 +4826,7 @@
 		<race>HUMANOID</race>
 		<sex>MALE</sex>
 		<equipment rhand="7" /> <!-- rhand: Apprentice's Rod -->
-		<acquire exp="490" sp="22" />
+		<acquire exp="490" sp="5" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="433.232298200102" hpRegen="3.5" mp="231.96" mpRegen="1.5" />
 			<attack physical="55.84125" magical="38.13234" random="20" critical="1" accuracy="9" attackSpeed="253" type="BLUNT" range="40" distance="80" width="120" />
@@ -4866,7 +4876,7 @@
 		<race>HUMANOID</race>
 		<sex>MALE</sex>
 		<equipment rhand="7" /> <!-- rhand: Apprentice's Rod -->
-		<acquire exp="490" sp="22" />
+		<acquire exp="490" sp="5" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="433.232298200102" hpRegen="3.5" mp="231.96" mpRegen="1.5" />
 			<attack physical="55.84125" magical="38.13234" random="20" critical="1" accuracy="9" attackSpeed="253" type="BLUNT" range="40" distance="80" width="120" />
@@ -4916,7 +4926,7 @@
 		<race>HUMANOID</race>
 		<sex>MALE</sex>
 		<equipment rhand="68" /> <!-- rhand: Falchion -->
-		<acquire exp="1410" sp="57" />
+		<acquire exp="1410" sp="13" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="1019.59695680077" hpRegen="4.5" mp="478.8" mpRegen="1.8" />
 			<attack physical="176.36077" magical="120.43155" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />

@@ -115,4 +115,18 @@
 		<item id="1147" count="1" equipped="true" /> <!-- Squire's Pants -->
 		<item id="10650" count="3" /> <!-- Newbie Scroll of Escape -->
 	</equipment>
+	<!-- Assassin Male -->
+	<equipment classId="221">
+		<item id="218" count="1" equipped="true" /> <!-- Throwing Knife -->
+		<item id="1146" count="1" equipped="true" /> <!-- Squire's Shirt -->
+		<item id="1147" count="1" equipped="true" /> <!-- Squire's Pants -->
+		<item id="10650" count="3" /> <!-- Newbie Scroll of Escape -->
+	</equipment>
+	<!-- Assassin Female -->
+	<equipment classId="225">
+		<item id="218" count="1" equipped="true" /> <!-- Throwing Knife -->
+		<item id="1146" count="1" equipped="true" /> <!-- Squire's Shirt -->
+		<item id="1147" count="1" equipped="true" /> <!-- Squire's Pants -->
+		<item id="10650" count="3" /> <!-- Newbie Scroll of Escape -->
+	</equipment>
 </list>

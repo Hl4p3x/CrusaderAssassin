@@ -183,7 +183,7 @@
 		</effects>
 	</skill>
 	<skill id="6423" toLevel="1" name="Stun">
-		<!-- Immobilizes and stuns a target for 3 sec. -->
+		<!-- Immobilizes and stuns the target for 3 sec. -->
 		<icon>icon.skill0100</icon>
 		<abnormalLevel>1</abnormalLevel>
 		<abnormalTime>3</abnormalTime>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/items.xsd">
 	<item id="92400" name="Forgotten Primeval Garden's Time Stone" additionalName="Sealed" type="EtcItem">
-		<!-- Prolongs your session zone's raid for 60 min. <Hunting zones>. Primeval Garden - World Hunting Zone. Garden of Eva - World Hunting Zone -->
+		<!-- Prolongs your session zone's raid for 60 min. <Hunting zones>. Primeval Garden - World Hunting Zone. Garden of Eva - World Hunting Zone. Garden of Authority - World Hunting Zone -->
 		<set name="icon" val="icon.timezone_refill_3" />
 		<set name="default_action" val="SKILL_REDUCE" />
 		<set name="material" val="LIQUID" />
@@ -17,7 +17,7 @@
 		</skills>
 	</item>
 	<item id="92401" name="Spellbook: White Guardian" type="EtcItem">
-		<!-- Required for learning the White Guardian Transformation. <Classes>. All classes, except Kamael classes and Death Knight. <Skill effect>. Transforms into White Guardian. Increases Max HP/ MP, P./ M. Accuracy, P./ M. Atk., P./ M. Def., Atk. Spd., P. Skill Critical Damage, M. Skill Critical Rate, Speed. -->
+		<!-- Required for learning the White Guardian Transformation. <Classes>. All classes after the 3rd class change. (except Kamael classes and Death Knights). <Skill effect>. Transforms into White Guardian. Increases Max HP/ MP, P./ M. Accuracy, P./ M. Atk., P./ M. Def., Atk. Spd., P. Skill Critical Damage, M. Skill Critical Rate, Speed. -->
 		<set name="icon" val="icon.si_phanteon_book" />
 		<set name="default_action" val="SKILL_REDUCE" />
 		<set name="material" val="LIQUID" />
@@ -26,7 +26,7 @@
 		<set name="is_stackable" val="true" />
 	</item>
 	<item id="92402" name="Scroll: Enchant Talisman of Speed" additionalName="Sealed" type="EtcItem">
-		<!-- Required for enchanting Talisman of Speed. -->
+		<!-- A scroll for enchanting Talisman of Speed. -->
 		<set name="icon" val="icon.tallisman_rapid_scrl" />
 		<set name="default_action" val="SKILL_REDUCE" />
 		<set name="material" val="PAPER" />
@@ -68,7 +68,7 @@
 		</skills>
 	</item>
 	<item id="92404" name="Zaken's Blood Sword" type="Weapon">
-		<!-- <font color=ff6666><Unavailable to Sylphs/ Vanguard Riders.></font> -->
+		<!-- <font color=ff6666><Unavailable to Sylphs/ Vanguard Riders/ Assassins.></font> -->
 		<set name="icon" val="icon.special_weapon_onehandsword" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="SWORD" />
@@ -116,7 +116,7 @@
 		</skills>
 	</item>
 	<item id="92405" name="Core's Plasmic Bow" type="Weapon">
-		<!-- <font color=ff6666><Unavailable to Sylphs/ Vanguard Riders.></font> -->
+		<!-- <font color=ff6666><Unavailable to Sylphs/ Vanguard Riders/ Assassins.></font> -->
 		<set name="icon" val="icon.weapon_karupis_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="BOW" />
@@ -200,7 +200,7 @@
 		</skills>
 	</item>
 	<item id="92407" name="Orfen's Venom Sword" type="Weapon">
-		<!-- <font color=ff6666><Unavailable to Sylphs/ Vanguard Riders.></font> -->
+		<!-- <font color=ff6666><Unavailable to Sylphs/ Vanguard Riders/ Assassins.></font> -->
 		<set name="icon" val="icon.weapon_the_two_handed_sword_of_hero_i01" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="SWORD" />
@@ -326,7 +326,7 @@
 		</skills>
 	</item>
 	<item id="92411" name="Sealed Treasure Chest" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.etc_readybox_gold" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -381,7 +381,7 @@
 			<item id="91856" min="7" max="7" chance="2.272727" /> <!-- Special Dragon's Miracle Potion Lv. 1 -->
 			<item id="49765" min="7" max="7" chance="2.272727" /> <!-- Life Control Tower's Scroll of Blessing -->
 			<item id="90143" min="7" max="7" chance="2.272727" /> <!-- Einhasad's Protection -->
-			<item id="91713" min="7" max="7" chance="2.272727" /> <!-- Sayha's Storm Lv. 3 -->
+			<item id="91713" min="7" max="7" chance="2.272727" /> <!-- Sayha's Storm -->
 			<item id="92412" min="1" max="1" chance="2.272727" /> <!-- Sealed Rune of Power -->
 		</capsuled_items>
 	</item>
@@ -394,7 +394,7 @@
 		<set name="is_stackable" val="true" />
 	</item>
 	<item id="92413" name="Mysterious Pack Lv. 1" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.etc_pi_box_joy_pack" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -418,7 +418,7 @@
 		</capsuled_items>
 	</item>
 	<item id="92414" name="Mysterious Pack Lv. 2" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.npoint_earthworm_30day_box" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -444,7 +444,7 @@
 		</capsuled_items>
 	</item>
 	<item id="92415" name="Mysterious Pack Lv. 3" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.etc_pi_box_belief_pack" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -473,7 +473,7 @@
 		</capsuled_items>
 	</item>
 	<item id="92416" name="Mysterious Pack Lv. 4" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.npoint_valakas_30day_box" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -502,7 +502,7 @@
 		</capsuled_items>
 	</item>
 	<item id="92417" name="Mysterious Pack Lv. 5" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.npoint_tauti_30day_box" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -535,7 +535,7 @@
 		</capsuled_items>
 	</item>
 	<item id="92418" name="Mysterious Pack Lv. 6" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.npoint_antaras_30day_box" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -546,7 +546,7 @@
 		<set name="extractableCountMin" val="1" />
 		<set name="extractableCountMax" val="1" />
 		<capsuled_items>
-			<item id="91712" min="100" max="100" chance="6.25" /> <!-- Sayha's Storm Lv. 3 - Sealed -->
+			<item id="91712" min="100" max="100" chance="6.25" /> <!-- Sayha's Storm - Sealed -->
 			<item id="91757" min="50" max="50" chance="6.25" /> <!-- Magic Lamp Charging Potion - Sealed -->
 			<item id="90859" min="10" max="10" chance="6.25" /> <!-- Eva's Head Accessory Box -->
 			<item id="90856" min="10" max="10" chance="6.25" /> <!-- Life Stone Lv. 1 - Head Accessory -->
@@ -565,7 +565,7 @@
 		</capsuled_items>
 	</item>
 	<item id="92419" name="Mysterious Pack Lv. 7" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.etc_pi_box_love_pack" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -602,7 +602,7 @@
 		</capsuled_items>
 	</item>
 	<item id="92420" name="Mysterious Pack Lv. 8" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.etc_pi_box_wish_pack" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -633,7 +633,7 @@
 		</capsuled_items>
 	</item>
 	<item id="92421" name="Queen Ant's Stone Breaker" type="Weapon">
-		<!-- <font color=ff6666><Unavailable to Sylphs/ Vanguard Riders.></font> -->
+		<!-- <font color=ff6666><Unavailable to Sylphs/ Vanguard Riders/ Assassins.></font> -->
 		<set name="icon" val="icon.special_weapon_onehandblunt" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="BLUNT" />
@@ -791,7 +791,7 @@
 		<set name="is_sellable" val="false" />
 	</item>
 	<item id="92434" name="Mysterious Talisman Pack" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="BranchSys.icon.br_four_leaf_clover_box_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -812,7 +812,7 @@
 		</capsuled_items>
 	</item>
 	<item id="92435" name="Mysterious Talisman Pack Lv. 1" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="BranchIcon.Icon.etc_vip_present_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -833,7 +833,7 @@
 		</capsuled_items>
 	</item>
 	<item id="92436" name="Mysterious Talisman Pack Lv. 2" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="BranchIcon.Icon.etc_vip_present_i04" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -854,7 +854,7 @@
 		</capsuled_items>
 	</item>
 	<item id="92437" name="Mysterious Talisman Pack Lv. 3" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="BranchIcon.Icon.etc_vip_present_i03" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -875,7 +875,7 @@
 		</capsuled_items>
 	</item>
 	<item id="92438" name="Mysterious Talisman Pack Lv. 4" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="BranchIcon.Icon.etc_vip_present_i01" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -896,7 +896,7 @@
 		</capsuled_items>
 	</item>
 	<item id="92439" name="Mysterious Talisman Pack Lv. 5" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="BranchIcon.Icon.etc_vip_present_i02" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -917,7 +917,7 @@
 		</capsuled_items>
 	</item>
 	<item id="92440" name="Mysterious Talisman Pack Lv. 6" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="BranchIcon.Icon.etc_vip_present_i05" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -938,7 +938,7 @@
 		</capsuled_items>
 	</item>
 	<item id="92441" name="Mysterious Talisman Pack Lv. 7" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.bm_sayha_silver_present" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -959,7 +959,7 @@
 		</capsuled_items>
 	</item>
 	<item id="92442" name="Mysterious Talisman Pack Lv. 8" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.bm_sayha_gold_present" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -980,7 +980,7 @@
 		</capsuled_items>
 	</item>
 	<item id="92443" name="+1 Talisman of Aden Pack" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.bm_sheep_agathion_30d_box" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -995,7 +995,7 @@
 		</capsuled_items>
 	</item>
 	<item id="92444" name="+2 Talisman of Aden Pack" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.bm_sheep_agathion_30d_box" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -1010,7 +1010,7 @@
 		</capsuled_items>
 	</item>
 	<item id="92445" name="+3 Talisman of Aden Pack" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.bm_sheep_agathion_30d_box" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -1025,7 +1025,7 @@
 		</capsuled_items>
 	</item>
 	<item id="92446" name="+4 Talisman of Aden Pack" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.bm_sheep_agathion_30d_box" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -1040,7 +1040,7 @@
 		</capsuled_items>
 	</item>
 	<item id="92447" name="+5 Talisman of Aden Pack" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.bm_sheep_agathion_30d_box" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -1055,7 +1055,7 @@
 		</capsuled_items>
 	</item>
 	<item id="92448" name="+6 Talisman of Aden Pack" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.bm_sheep_agathion_30d_box" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -1070,7 +1070,7 @@
 		</capsuled_items>
 	</item>
 	<item id="92449" name="+7 Talisman of Aden Pack" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.bm_sheep_agathion_30d_box" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -1085,7 +1085,7 @@
 		</capsuled_items>
 	</item>
 	<item id="92450" name="+8 Talisman of Aden Pack" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.bm_sheep_agathion_30d_box" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -1100,7 +1100,7 @@
 		</capsuled_items>
 	</item>
 	<item id="92451" name="+1 Talisman of Eva Pack" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.bm_pirate_treasure_box" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -1115,7 +1115,7 @@
 		</capsuled_items>
 	</item>
 	<item id="92452" name="+2 Talisman of Eva Pack" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.bm_pirate_treasure_box" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -1130,7 +1130,7 @@
 		</capsuled_items>
 	</item>
 	<item id="92453" name="+3 Talisman of Eva Pack" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.bm_pirate_treasure_box" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -1145,7 +1145,7 @@
 		</capsuled_items>
 	</item>
 	<item id="92454" name="+4 Talisman of Eva Pack" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.bm_pirate_treasure_box" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -1160,7 +1160,7 @@
 		</capsuled_items>
 	</item>
 	<item id="92455" name="+5 Talisman of Eva Pack" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.bm_pirate_treasure_box" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -1175,7 +1175,7 @@
 		</capsuled_items>
 	</item>
 	<item id="92456" name="+6 Talisman of Eva Pack" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.bm_pirate_treasure_box" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -1190,7 +1190,7 @@
 		</capsuled_items>
 	</item>
 	<item id="92457" name="+7 Talisman of Eva Pack" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.bm_pirate_treasure_box" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -1205,7 +1205,7 @@
 		</capsuled_items>
 	</item>
 	<item id="92458" name="+8 Talisman of Eva Pack" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.bm_pirate_treasure_box" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -1220,7 +1220,7 @@
 		</capsuled_items>
 	</item>
 	<item id="92459" name="Talisman of Speed Pack" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.bm_pirate_king_box" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -1235,7 +1235,7 @@
 		</capsuled_items>
 	</item>
 	<item id="92460" name="+1 Talisman of Speed Pack" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.bm_pirate_king_box" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -1250,7 +1250,7 @@
 		</capsuled_items>
 	</item>
 	<item id="92461" name="+2 Talisman of Speed Pack" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.bm_pirate_king_box" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -1265,7 +1265,7 @@
 		</capsuled_items>
 	</item>
 	<item id="92462" name="+3 Talisman of Speed Pack" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.bm_pirate_king_box" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -1280,7 +1280,7 @@
 		</capsuled_items>
 	</item>
 	<item id="92463" name="+4 Talisman of Speed Pack" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.bm_pirate_king_box" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -1295,7 +1295,7 @@
 		</capsuled_items>
 	</item>
 	<item id="92464" name="+5 Talisman of Speed Pack" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.bm_pirate_king_box" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -1310,7 +1310,7 @@
 		</capsuled_items>
 	</item>
 	<item id="92465" name="+6 Talisman of Speed Pack" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.bm_pirate_king_box" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -1325,7 +1325,7 @@
 		</capsuled_items>
 	</item>
 	<item id="92466" name="+7 Talisman of Speed Pack" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.bm_pirate_king_box" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -1340,7 +1340,7 @@
 		</capsuled_items>
 	</item>
 	<item id="92467" name="+8 Talisman of Speed Pack" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.bm_pirate_king_box" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -1355,7 +1355,7 @@
 		</capsuled_items>
 	</item>
 	<item id="92468" name="Venir's Talisman Pack Lv. 1" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="BranchIcon.Icon.bm_special_pendant_abradant_box" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -1370,7 +1370,7 @@
 		</capsuled_items>
 	</item>
 	<item id="92469" name="Venir's Talisman Pack Lv. 2" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="BranchIcon.Icon.bm_special_pendant_abradant_box" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -1385,7 +1385,7 @@
 		</capsuled_items>
 	</item>
 	<item id="92470" name="Venir's Talisman Pack Lv. 3" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="BranchIcon.Icon.bm_special_pendant_abradant_box" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -1400,7 +1400,7 @@
 		</capsuled_items>
 	</item>
 	<item id="92471" name="Venir's Talisman Pack Lv. 4" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="BranchIcon.Icon.bm_special_pendant_abradant_box" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -1415,7 +1415,7 @@
 		</capsuled_items>
 	</item>
 	<item id="92472" name="Venir's Talisman Pack Lv. 5" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="BranchIcon.Icon.bm_special_pendant_abradant_box" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -1430,7 +1430,7 @@
 		</capsuled_items>
 	</item>
 	<item id="92473" name="Venir's Talisman Pack Lv. 6" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="BranchIcon.Icon.bm_special_pendant_abradant_box" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -1445,7 +1445,7 @@
 		</capsuled_items>
 	</item>
 	<item id="92474" name="Venir's Talisman Pack Lv. 7" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="BranchIcon.Icon.bm_special_pendant_abradant_box" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -1460,7 +1460,7 @@
 		</capsuled_items>
 	</item>
 	<item id="92475" name="Venir's Talisman Pack Lv. 8" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="BranchIcon.Icon.bm_special_pendant_abradant_box" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />

@@ -42,7 +42,7 @@
 		<effectPoint>1</effectPoint>
 		<hitTime>25000</hitTime>
 	</skill>
-	<skill id="15606" toLevel="1" name="Recharge">
+	<skill id="15606" toLevel="1" name="Charge">
 		<!-- Recharge. -->
 		<icon>icon.skill14444</icon>
 		<operateType>A1</operateType>
@@ -247,7 +247,7 @@
 		<isMagic>1</isMagic>
 	</skill>
 	<skill id="15623" toLevel="7" name="Push Up">
-		<!-- Aerial Yoke. -->
+		<!-- Inflicts Hold. -->
 		<icon>icon.skill1042</icon>
 		<operateType>A2</operateType>
 		<mpConsume>10</mpConsume>
@@ -282,7 +282,7 @@
 		<operateType>P</operateType>
 	</skill>
 	<skill id="15629" toLevel="1" name="Nerva's Mental Blow">
-		<!-- Powerful attack on enemies in a fan-shaped radius of you. -->
+		<!-- Makes an explosion in a fan-shaped range. Deals heavy damage to the enemy. -->
 		<icon>icon.skill0000</icon>
 		<operateType>A1</operateType>
 		<castRange>70</castRange>
@@ -365,7 +365,7 @@
 		<isDebuff>true</isDebuff>
 	</skill>
 	<skill id="15654" toLevel="1" name="Master's Blessing - GM's Courage">
-		<!-- The GM is always by your side. Increases P. Atk. toward monsters by 100% for 5 min. -->
+		<!-- The GM is always by your side. For 5 min., P. Atk. to monsters +100%. -->
 		<icon>icon.skill5661</icon>
 		<operateType>A2</operateType>
 		<hitTime>500</hitTime>
@@ -454,7 +454,7 @@
 		<isMagic>1</isMagic>
 	</skill>
 	<skill id="15664" toLevel="1" name="Push Up">
-		<!-- Floats the target into the air and stops him from moving for awhile. -->
+		<!-- Launches a Wind attack on the target immobilizing them temporarily. -->
 		<icon>icon.skill11050</icon>
 		<operateType>A2</operateType>
 		<hitTime>1500</hitTime>
@@ -486,7 +486,7 @@
 		<operateType>A1</operateType>
 		<isMagic>1</isMagic> <!-- Magic Skill -->
 	</skill>
-	<skill id="15669" toLevel="5" name="Enhance P. Def. 1">
+	<skill id="15669" toLevel="5" name="P. Def. Boost 1">
 		<!-- P. Def. +20%. -->
 		<icon>icon.skill1040</icon>
 		<operateType>A1</operateType>
@@ -504,7 +504,7 @@
 		<operateType>A1</operateType>
 		<isMagic>1</isMagic> <!-- Magic Skill -->
 	</skill>
-	<skill id="15672" toLevel="5" name="Physical Attack Resistance 1">
+	<skill id="15672" toLevel="5" name="P. Atk. Resistance 1">
 		<!-- Physical Attack Resistance +10. -->
 		<icon>icon.skill1086</icon>
 		<operateType>A1</operateType>
@@ -630,7 +630,7 @@
 		</mpConsume>
 	</skill>
 	<skill id="15683" toLevel="3" name="Front Drain">
-		<!-- Inflicts heavy physical damage on enemies in fron of your character. -->
+		<!-- Deals heavy physical damage to enemies in front of you. -->
 		<icon>icon.skill0000</icon>
 		<operateType>A1</operateType>
 		<castRange>40</castRange>
@@ -656,7 +656,7 @@
 		<reuseDelay>1000</reuseDelay>
 	</skill>
 	<skill id="15685" toLevel="4" name="Heal">
-		<!-- Recovers 10% HP of the target. -->
+		<!-- Recovers 10% of the target's HP. -->
 		<icon>icon.skill0000</icon>
 		<operateType>A1</operateType>
 		<castRange>400</castRange>
@@ -665,7 +665,7 @@
 		<effectPoint>100</effectPoint>
 	</skill>
 	<skill id="15686" toLevel="3" name="Multi-healing">
-		<!-- Recovers 10% HP of the allies. -->
+		<!-- Recovers 10% of allies' HP. -->
 		<icon>icon.skill0000</icon>
 		<operateType>A1</operateType>
 		<hitTime>3000</hitTime>
@@ -714,7 +714,7 @@
 		<mpConsume>10</mpConsume>
 	</skill>
 	<skill id="15691" toLevel="1" name="Defense Break">
-		<!-- Inflicts heavy physical damage on enemies in fron of your character. -->
+		<!-- Deals heavy physical damage to enemies in front of you. -->
 		<icon>icon.skill0000</icon>
 		<operateType>A1</operateType>
 		<castRange>40</castRange>
@@ -725,7 +725,7 @@
 		<mpConsume>10</mpConsume>
 	</skill>
 	<skill id="15692" toLevel="1" name="Smashing Attack">
-		<!-- Inflicts heavy physical damage on enemies surrounding your character. -->
+		<!-- Deals heavy physical damage to all nearby enemies. -->
 		<icon>icon.skill0000</icon>
 		<operateType>A1</operateType>
 		<hitTime>2000</hitTime>

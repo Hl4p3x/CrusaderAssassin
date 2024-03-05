@@ -28,7 +28,7 @@
 		</effects>
 	</option>
 	<option id="23978" name="o_f_84_2r_4">
-		<!-- Max MP +34.88. -->
+		<!-- Max MP +34.88 -->
 		<effects>
 			<effect name="MaxMp">
 				<amount>34.877</amount>

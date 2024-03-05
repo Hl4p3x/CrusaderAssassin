@@ -76,6 +76,26 @@
 		<reward id="97522" count="1" type="ON_SUCCESS" /> <!-- Growth Rune Lv. 20 - Sealed -->
 		<reward id="97518" count="1" type="ON_FAILURE" /> <!-- Growth Rune Lv. 16 - Sealed -->
 	</item>
+	<item one="97522" two="94780" commission="1000" chance="20"> <!-- Growth Rune Lv. 20 - Sealed / Growth Rune Fragment - Sealed -->
+		<reward id="98316" count="1" type="ON_SUCCESS" /> <!-- Growth Rune Lv. 21 - Sealed -->
+		<reward id="97518" count="1" type="ON_FAILURE" /> <!-- Growth Rune Lv. 16 - Sealed -->
+	</item>
+	<item one="98316" two="94780" commission="1000" chance="15"> <!-- Growth Rune Lv. 21 - Sealed / Growth Rune Fragment - Sealed -->
+		<reward id="98317" count="1" type="ON_SUCCESS" /> <!-- Growth Rune Lv. 22 - Sealed -->
+		<reward id="98316" count="1" type="ON_FAILURE" /> <!-- Growth Rune Lv. 21 - Sealed -->
+	</item>
+	<item one="98317" two="94780" commission="1000" chance="10"> <!-- Growth Rune Lv. 22 - Sealed / Growth Rune Fragment - Sealed -->
+		<reward id="98318" count="1" type="ON_SUCCESS" /> <!-- Growth Rune Lv. 23 - Sealed -->
+		<reward id="98316" count="1" type="ON_FAILURE" /> <!-- Growth Rune Lv. 21 - Sealed -->
+	</item>
+	<item one="98318" two="94780" commission="1000" chance="5"> <!-- Growth Rune Lv. 23 - Sealed / Growth Rune Fragment - Sealed -->
+		<reward id="98319" count="1" type="ON_SUCCESS" /> <!-- Growth Rune Lv. 24 - Sealed -->
+		<reward id="98316" count="1" type="ON_FAILURE" /> <!-- Growth Rune Lv. 21 - Sealed -->
+	</item>
+	<item one="98319" two="94780" commission="1000" chance="5"> <!-- Growth Rune Lv. 24 - Sealed / Growth Rune Fragment - Sealed -->
+		<reward id="98320" count="1" type="ON_SUCCESS" /> <!-- Growth Rune Lv. 25 - Sealed -->
+		<reward id="98316" count="1" type="ON_FAILURE" /> <!-- Growth Rune Lv. 21 - Sealed -->
+	</item>
 	<item one="92096" two="92096" commission="1000" chance="65"> <!-- Moonstone Lv. 1 - Sealed / Moonstone Lv. 1 - Sealed -->
 		<reward id="92097" count="1" type="ON_SUCCESS" /> <!-- Moonstone Lv. 2 - Sealed -->
 		<reward id="92096" count="1" type="ON_FAILURE" /> <!-- Moonstone Lv. 1 - Sealed -->
@@ -1812,6 +1832,14 @@
 		<reward id="94284" count="1" type="ON_SUCCESS" /> <!-- Chocolate Doll - Lv. 10 (Time-limited) - Sealed -->
 		<reward id="94280" count="1" type="ON_FAILURE" /> <!-- Chocolate Doll - Lv. 6 (Time-limited) - Sealed -->
 	</item>
+	<item one="97494" two="97494" commission="1000" chance="7"> <!-- Package: Glakias Doll Lv. 1 - Sealed / Package: Glakias Doll Lv. 1 - Sealed -->
+		<reward id="97485" count="1" type="ON_SUCCESS" /> <!-- Glakias Doll Lv. 2 -->
+		<reward id="97494" count="1" type="ON_FAILURE" /> <!-- Package: Glakias Doll Lv. 1 - Sealed -->
+	</item>
+	<item one="97484" two="97494" commission="1000" chance="7"> <!-- Glakias Doll Lv. 1 - Sealed / Package: Glakias Doll Lv. 1 - Sealed -->
+		<reward id="97485" count="1" type="ON_SUCCESS" /> <!-- Glakias Doll Lv. 2 -->
+		<reward id="97494" count="1" type="ON_FAILURE" /> <!-- Package: Glakias Doll Lv. 1 - Sealed -->
+	</item>
 	<item one="97484" two="97484" commission="1000" chance="7"> <!-- Glakias Doll Lv. 1 - Sealed / Glakias Doll Lv. 1 - Sealed -->
 		<reward id="97485" count="1" type="ON_SUCCESS" /> <!-- Glakias Doll Lv. 2 -->
 		<reward id="97484" count="1" type="ON_FAILURE" /> <!-- Glakias Doll Lv. 1 - Sealed -->
@@ -1827,6 +1855,14 @@
 	<item one="97487" two="97487" commission="1000" chance="30"> <!-- Glakias Doll Lv. 4 / Glakias Doll Lv. 4 -->
 		<reward id="97488" count="1" type="ON_SUCCESS" /> <!-- Glakias Doll Lv. 5 -->
 		<reward id="97487" count="1" type="ON_FAILURE" /> <!-- Glakias Doll Lv. 4 -->
+	</item>
+	<item one="94156" two="94156" commission="1000" chance="7"> <!-- Package: Baium Doll Lv. 1 - Sealed / Package: Baium Doll Lv. 1 - Sealed -->
+		<reward id="91256" count="1" type="ON_SUCCESS" /> <!-- Baium Doll Lv. 2 -->
+		<reward id="94156" count="1" type="ON_FAILURE" /> <!-- Package: Baium Doll Lv. 1 - Sealed -->
+	</item>
+	<item one="94153" two="94156" commission="1000" chance="7"> <!-- Baium Doll Lv. 1 - Sealed / Package: Baium Doll Lv. 1 - Sealed -->
+		<reward id="91256" count="1" type="ON_SUCCESS" /> <!-- Baium Doll Lv. 2 -->
+		<reward id="94156" count="1" type="ON_FAILURE" /> <!-- Package: Baium Doll Lv. 1 - Sealed -->
 	</item>
 	<item one="94153" two="94153" commission="1000" chance="7"> <!-- Baium Doll Lv. 1 - Sealed / Baium Doll Lv. 1 - Sealed -->
 		<reward id="91256" count="1" type="ON_SUCCESS" /> <!-- Baium Doll Lv. 2 -->
@@ -1844,6 +1880,14 @@
 		<reward id="96639" count="1" type="ON_SUCCESS" /> <!-- Baium Doll Lv. 5 -->
 		<reward id="96632" count="1" type="ON_FAILURE" /> <!-- Baium Doll Lv. 4 -->
 	</item>
+	<item one="97489" two="97489" commission="1000" chance="7"> <!-- Package: Behemoth Doll Lv. 1 - Sealed / Package: Behemoth Doll Lv. 1 - Sealed -->
+		<reward id="97480" count="1" type="ON_SUCCESS" /> <!-- Behemoth Doll Lv. 2 -->
+		<reward id="97489" count="1" type="ON_FAILURE" /> <!-- Package: Behemoth Doll Lv. 1 - Sealed -->
+	</item>
+	<item one="97479" two="97489" commission="1000" chance="7"> <!-- Behemoth Doll Lv. 1 - Sealed / Package: Behemoth Doll Lv. 1 - Sealed -->
+		<reward id="97480" count="1" type="ON_SUCCESS" /> <!-- Behemoth Doll Lv. 2 -->
+		<reward id="97489" count="1" type="ON_FAILURE" /> <!-- Package: Behemoth Doll Lv. 1 - Sealed -->
+	</item>
 	<item one="97479" two="97479" commission="1000" chance="7"> <!-- Behemoth Doll Lv. 1 - Sealed / Behemoth Doll Lv. 1 - Sealed -->
 		<reward id="97480" count="1" type="ON_SUCCESS" /> <!-- Behemoth Doll Lv. 2 -->
 		<reward id="97479" count="1" type="ON_FAILURE" /> <!-- Behemoth Doll Lv. 1 - Sealed -->
@@ -1859,6 +1903,14 @@
 	<item one="97482" two="97482" commission="1000" chance="30"> <!-- Behemoth Doll Lv. 4 / Behemoth Doll Lv. 4 -->
 		<reward id="97483" count="1" type="ON_SUCCESS" /> <!-- Behemoth Doll Lv. 5 -->
 		<reward id="97482" count="1" type="ON_FAILURE" /> <!-- Behemoth Doll Lv. 4 -->
+	</item>
+	<item one="96652" two="96652" commission="1000" chance="7"> <!-- Package: Antharas Doll Lv. 1 - Sealed / Package: Antharas Doll Lv. 1 - Sealed -->
+		<reward id="96602" count="1" type="ON_SUCCESS" /> <!-- Antharas Doll Lv. 2 -->
+		<reward id="96652" count="1" type="ON_FAILURE" /> <!-- Package: Antharas Doll Lv. 1 - Sealed -->
+	</item>
+	<item one="96601" two="96652" commission="1000" chance="7"> <!-- Antharas Doll Lv. 1 - Sealed / Package: Antharas Doll Lv. 1 - Sealed -->
+		<reward id="96602" count="1" type="ON_SUCCESS" /> <!-- Antharas Doll Lv. 2 -->
+		<reward id="96652" count="1" type="ON_FAILURE" /> <!-- Package: Antharas Doll Lv. 1 - Sealed -->
 	</item>
 	<item one="96601" two="96601" commission="1000" chance="7"> <!-- Antharas Doll Lv. 1 - Sealed / Antharas Doll Lv. 1 - Sealed -->
 		<reward id="96602" count="1" type="ON_SUCCESS" /> <!-- Antharas Doll Lv. 2 -->
@@ -1876,6 +1928,14 @@
 		<reward id="96644" count="1" type="ON_SUCCESS" /> <!-- Antharas Doll Lv. 5 -->
 		<reward id="96637" count="1" type="ON_FAILURE" /> <!-- Antharas Doll Lv. 4 -->
 	</item>
+	<item one="94159" two="94159" commission="1000" chance="7"> <!-- Package: Queen Ant Doll Lv. 1 - Sealed / Package: Queen Ant Doll Lv. 1 - Sealed -->
+		<reward id="91257" count="1" type="ON_SUCCESS" /> <!-- Queen Ant Doll Lv. 2 -->
+		<reward id="94159" count="1" type="ON_FAILURE" /> <!-- Package: Queen Ant Doll Lv. 1 - Sealed -->
+	</item>
+	<item one="94154" two="94159" commission="1000" chance="7"> <!-- Queen Ant Doll Lv. 1 - Sealed / Package: Queen Ant Doll Lv. 1 - Sealed -->
+		<reward id="91257" count="1" type="ON_SUCCESS" /> <!-- Queen Ant Doll Lv. 2 -->
+		<reward id="94159" count="1" type="ON_FAILURE" /> <!-- Package: Queen Ant Doll Lv. 1 - Sealed -->
+	</item>
 	<item one="94154" two="94154" commission="1000" chance="7"> <!-- Queen Ant Doll Lv. 1 - Sealed / Queen Ant Doll Lv. 1 - Sealed -->
 		<reward id="91257" count="1" type="ON_SUCCESS" /> <!-- Queen Ant Doll Lv. 2 -->
 		<reward id="94154" count="1" type="ON_FAILURE" /> <!-- Queen Ant Doll Lv. 1 - Sealed -->
@@ -1891,6 +1951,14 @@
 	<item one="96631" two="96631" commission="1000" chance="30"> <!-- Queen Ant Doll Lv. 4 / Queen Ant Doll Lv. 4 -->
 		<reward id="96638" count="1" type="ON_SUCCESS" /> <!-- Queen Ant Doll Lv. 5 -->
 		<reward id="96631" count="1" type="ON_FAILURE" /> <!-- Queen Ant Doll Lv. 4 -->
+	</item>
+	<item one="94162" two="94162" commission="1000" chance="7"> <!-- Package: Orfen Doll Lv. 1 - Sealed / Package: Orfen Doll Lv. 1 - Sealed -->
+		<reward id="91258" count="1" type="ON_SUCCESS" /> <!-- Orfen Doll Lv. 2 -->
+		<reward id="94162" count="1" type="ON_FAILURE" /> <!-- Package: Orfen Doll Lv. 1 - Sealed -->
+	</item>
+	<item one="94155" two="94162" commission="1000" chance="7"> <!-- Orfen Doll Lv. 1 - Sealed / Package: Orfen Doll Lv. 1 - Sealed -->
+		<reward id="91258" count="1" type="ON_SUCCESS" /> <!-- Orfen Doll Lv. 2 -->
+		<reward id="94162" count="1" type="ON_FAILURE" /> <!-- Package: Orfen Doll Lv. 1 - Sealed -->
 	</item>
 	<item one="94155" two="94155" commission="1000" chance="7"> <!-- Orfen Doll Lv. 1 - Sealed / Orfen Doll Lv. 1 - Sealed -->
 		<reward id="91258" count="1" type="ON_SUCCESS" /> <!-- Orfen Doll Lv. 2 -->
@@ -1908,6 +1976,14 @@
 		<reward id="96640" count="1" type="ON_SUCCESS" /> <!-- Orfen Doll Lv. 5 -->
 		<reward id="96633" count="1" type="ON_FAILURE" /> <!-- Orfen Doll Lv. 4 -->
 	</item>
+	<item one="94651" two="94651" commission="1000" chance="7"> <!-- Package: Zaken Doll Lv. 1 - Sealed / Package: Zaken Doll Lv. 1 - Sealed -->
+		<reward id="94646" count="1" type="ON_SUCCESS" /> <!-- Zaken Doll Lv. 2 -->
+		<reward id="94651" count="1" type="ON_FAILURE" /> <!-- Package: Zaken Doll Lv. 1 - Sealed -->
+	</item>
+	<item one="94645" two="94651" commission="1000" chance="7"> <!-- Zaken Doll Lv. 1 - Sealed / Package: Zaken Doll Lv. 1 - Sealed -->
+		<reward id="94646" count="1" type="ON_SUCCESS" /> <!-- Zaken Doll Lv. 2 -->
+		<reward id="94651" count="1" type="ON_FAILURE" /> <!-- Package: Zaken Doll Lv. 1 - Sealed -->
+	</item>
 	<item one="94645" two="94645" commission="1000" chance="7"> <!-- Zaken Doll Lv. 1 - Sealed / Zaken Doll Lv. 1 - Sealed -->
 		<reward id="94646" count="1" type="ON_SUCCESS" /> <!-- Zaken Doll Lv. 2 -->
 		<reward id="94645" count="1" type="ON_FAILURE" /> <!-- Zaken Doll Lv. 1 - Sealed -->
@@ -1924,6 +2000,14 @@
 		<reward id="96641" count="1" type="ON_SUCCESS" /> <!-- Zaken Doll Lv. 5 -->
 		<reward id="96634" count="1" type="ON_FAILURE" /> <!-- Zaken Doll Lv. 4 -->
 	</item>
+	<item one="94654" two="94654" commission="1000" chance="7"> <!-- Package: Core Doll Lv. 1 - Sealed / Package: Core Doll Lv. 1 - Sealed -->
+		<reward id="94649" count="1" type="ON_SUCCESS" /> <!-- Core Doll Lv. 2 -->
+		<reward id="94654" count="1" type="ON_FAILURE" /> <!-- Package: Core Doll Lv. 1 - Sealed -->
+	</item>
+	<item one="94648" two="94654" commission="1000" chance="7"> <!-- Core Doll Lv. 1 - Sealed / Package: Core Doll Lv. 1 - Sealed -->
+		<reward id="94649" count="1" type="ON_SUCCESS" /> <!-- Core Doll Lv. 2 -->
+		<reward id="94654" count="1" type="ON_FAILURE" /> <!-- Package: Core Doll Lv. 1 - Sealed -->
+	</item>
 	<item one="94648" two="94648" commission="1000" chance="7"> <!-- Core Doll Lv. 1 - Sealed / Core Doll Lv. 1 - Sealed -->
 		<reward id="94649" count="1" type="ON_SUCCESS" /> <!-- Core Doll Lv. 2 -->
 		<reward id="94648" count="1" type="ON_FAILURE" /> <!-- Core Doll Lv. 1 - Sealed -->
@@ -1939,6 +2023,14 @@
 	<item one="96635" two="96635" commission="1000" chance="30"> <!-- Core Doll Lv. 4 / Core Doll Lv. 4 -->
 		<reward id="96642" count="1" type="ON_SUCCESS" /> <!-- Core Doll Lv. 5 -->
 		<reward id="96635" count="1" type="ON_FAILURE" /> <!-- Core Doll Lv. 4 -->
+	</item>
+	<item one="94513" two="94513" commission="1000" chance="7"> <!-- Package: Frintezza Doll Lv. 1 - Sealed / Package: Frintezza Doll Lv. 1 - Sealed -->
+		<reward id="91604" count="1" type="ON_SUCCESS" /> <!-- Frintezza Doll Lv. 2 -->
+		<reward id="94513" count="1" type="ON_FAILURE" /> <!-- Package: Frintezza Doll Lv. 1 - Sealed -->
+	</item>
+	<item one="94509" two="94513" commission="1000" chance="7"> <!-- Frintezza Doll Lv. 1 - Sealed / Package: Frintezza Doll Lv. 1 - Sealed -->
+		<reward id="91604" count="1" type="ON_SUCCESS" /> <!-- Frintezza Doll Lv. 2 -->
+		<reward id="94513" count="1" type="ON_FAILURE" /> <!-- Package: Frintezza Doll Lv. 1 - Sealed -->
 	</item>
 	<item one="94509" two="94509" commission="1000" chance="7"> <!-- Frintezza Doll Lv. 1 - Sealed / Frintezza Doll Lv. 1 - Sealed -->
 		<reward id="91604" count="1" type="ON_SUCCESS" /> <!-- Frintezza Doll Lv. 2 -->
@@ -2540,16 +2632,80 @@
 		<reward id="97879" count="1" type="ON_SUCCESS" /> <!-- Adventurer's Dye - Lv. 3 -->
 		<reward id="97879" count="1" type="ON_FAILURE" /> <!-- Adventurer's Dye - Lv. 3 -->
 	</item>
-	<item one="93301" enchantOne="10" two="98039" commission="5000000" chance="0.5"> <!-- +10 Cloak of Protection - Sealed / Incredible Enhancement Stone -->
+	<item one="93301" enchantOne="10" two="98039" commission="5000000" chance="0.5"> <!-- +10 Cloak of Protection - Sealed / Incredible Upgrade Stone -->
 		<reward id="97452" count="1" type="ON_SUCCESS" /> <!-- Heavenly Cloak - Sealed -->
 		<reward id="93301" count="1" enchant="10" type="ON_FAILURE" /> <!-- Cloak of Protection - Sealed -->
 	</item>
-	<item one="93301" enchantOne="10" two="98040" commission="5000000" chance="0.5"> <!-- +10 Cloak of Protection - Sealed / Incredible Enhancement Stone - Sealed -->
+	<item one="93301" enchantOne="10" two="98040" commission="5000000" chance="0.5"> <!-- +10 Cloak of Protection - Sealed / Incredible Upgrade Stone - Sealed -->
 		<reward id="97452" count="1" type="ON_SUCCESS" /> <!-- Heavenly Cloak - Sealed -->
 		<reward id="93301" count="1" enchant="10" type="ON_FAILURE" /> <!-- Cloak of Protection - Sealed -->
 	</item>
 	<item one="93301" enchantOne="10" two="93301" enchantTwo="10" commission="1000000000" chance="50"> <!-- +10 Cloak of Protection - Sealed / +10 Cloak of Protection - Sealed -->
 		<reward id="97452" count="1" type="ON_SUCCESS" /> <!-- Heavenly Cloak - Sealed -->
 		<reward id="93301" count="1" enchant="10" type="ON_FAILURE" /> <!-- Cloak of Protection - Sealed -->
+	</item>
+	<item one="98115" two="96685" commission="1000" chance="8"> <!-- Mysterious Pack Lv. 1 (Time-limited) - Sealed / Mysterious Crystal (Time-limited) - Sealed -->
+		<reward id="98116" count="1" type="ON_SUCCESS" /> <!-- Mysterious Pack Lv. 2 (Time-limited) - Sealed -->
+		<reward id="98115" count="1" type="ON_FAILURE" /> <!-- Mysterious Pack Lv. 1 (Time-limited) - Sealed -->
+	</item>
+	<item one="98116" two="96685" commission="1000" chance="6"> <!-- Mysterious Pack Lv. 2 (Time-limited) - Sealed / Mysterious Crystal (Time-limited) - Sealed -->
+		<reward id="98117" count="1" type="ON_SUCCESS" /> <!-- Mysterious Pack Lv. 3 (Time-limited) - Sealed -->
+		<reward id="98116" count="1" type="ON_FAILURE" /> <!-- Mysterious Pack Lv. 2 (Time-limited) - Sealed -->
+	</item>
+	<item one="98117" two="96685" commission="1000" chance="3.5"> <!-- Mysterious Pack Lv. 3 (Time-limited) - Sealed / Mysterious Crystal (Time-limited) - Sealed -->
+		<reward id="98118" count="1" type="ON_SUCCESS" /> <!-- Mysterious Pack Lv. 4 (Time-limited) - Sealed -->
+		<reward id="98117" count="1" type="ON_FAILURE" /> <!-- Mysterious Pack Lv. 3 (Time-limited) - Sealed -->
+	</item>
+	<item one="98118" two="96685" commission="1000" chance="1.5"> <!-- Mysterious Pack Lv. 4 (Time-limited) - Sealed / Mysterious Crystal (Time-limited) - Sealed -->
+		<reward id="98119" count="1" type="ON_SUCCESS" /> <!-- Mysterious Pack Lv. 5 (Time-limited) - Sealed -->
+		<reward id="98118" count="1" type="ON_FAILURE" /> <!-- Mysterious Pack Lv. 4 (Time-limited) - Sealed -->
+	</item>
+	<item one="98119" two="96685" commission="1000" chance="0.5"> <!-- Mysterious Pack Lv. 5 (Time-limited) - Sealed / Mysterious Crystal (Time-limited) - Sealed -->
+		<reward id="98120" count="1" type="ON_SUCCESS" /> <!-- Mysterious Pack Lv. 6 (Time-limited) - Sealed -->
+		<reward id="98119" count="1" type="ON_FAILURE" /> <!-- Mysterious Pack Lv. 5 (Time-limited) - Sealed -->
+	</item>
+	<item one="98120" two="96685" commission="1000" chance="0.2"> <!-- Mysterious Pack Lv. 6 (Time-limited) - Sealed / Mysterious Crystal (Time-limited) - Sealed -->
+		<reward id="98121" count="1" type="ON_SUCCESS" /> <!-- Mysterious Pack Lv. 7 (Time-limited) - Sealed -->
+		<reward id="98120" count="1" type="ON_FAILURE" /> <!-- Mysterious Pack Lv. 6 (Time-limited) - Sealed -->
+	</item>
+	<item one="98121" two="96685" commission="1000" chance="0.08"> <!-- Mysterious Pack Lv. 7 (Time-limited) - Sealed / Mysterious Crystal (Time-limited) - Sealed -->
+		<reward id="98122" count="1" type="ON_SUCCESS" /> <!-- Mysterious Pack Lv. 8 (Time-limited) - Sealed -->
+		<reward id="98121" count="1" type="ON_FAILURE" /> <!-- Mysterious Pack Lv. 7 (Time-limited) - Sealed -->
+	</item>
+	<item one="98122" two="96685" commission="1000" chance="0.03"> <!-- Mysterious Pack Lv. 8 (Time-limited) - Sealed / Mysterious Crystal (Time-limited) - Sealed -->
+		<reward id="98123" count="1" type="ON_SUCCESS" /> <!-- Mysterious Pack Lv. 9 (Time-limited) - Sealed -->
+		<reward id="98122" count="1" type="ON_FAILURE" /> <!-- Mysterious Pack Lv. 8 (Time-limited) - Sealed -->
+	</item>
+	<item one="98123" two="96685" commission="1000" chance="0.02"> <!-- Mysterious Pack Lv. 9 (Time-limited) - Sealed / Mysterious Crystal (Time-limited) - Sealed -->
+		<reward id="98124" count="1" type="ON_SUCCESS" /> <!-- Mysterious Pack Lv. 10 (Time-limited) - Sealed -->
+		<reward id="98123" count="1" type="ON_FAILURE" /> <!-- Mysterious Pack Lv. 9 (Time-limited) - Sealed -->
+	</item>
+	<item one="98124" two="96685" commission="1000" chance="0.01"> <!-- Mysterious Pack Lv. 10 (Time-limited) - Sealed / Mysterious Crystal (Time-limited) - Sealed -->
+		<reward id="98125" count="1" type="ON_SUCCESS" /> <!-- Mysterious Pack Lv. 11 (Time-limited) - Sealed -->
+		<reward id="98124" count="1" type="ON_FAILURE" /> <!-- Mysterious Pack Lv. 10 (Time-limited) - Sealed -->
+	</item>
+	<item one="98125" two="96685" commission="1000" chance="0.005"> <!-- Mysterious Pack Lv. 11 (Time-limited) - Sealed / Mysterious Crystal (Time-limited) - Sealed -->
+		<reward id="98126" count="1" type="ON_SUCCESS" /> <!-- Mysterious Pack Lv. 12 (Time-limited) - Sealed -->
+		<reward id="98125" count="1" type="ON_FAILURE" /> <!-- Mysterious Pack Lv. 11 (Time-limited) - Sealed -->
+	</item>
+	<item one="98126" two="96685" commission="1000" chance="0.003"> <!-- Mysterious Pack Lv. 12 (Time-limited) - Sealed / Mysterious Crystal (Time-limited) - Sealed -->
+		<reward id="98127" count="1" type="ON_SUCCESS" /> <!-- Mysterious Pack Lv. 13 (Time-limited) - Sealed -->
+		<reward id="98126" count="1" type="ON_FAILURE" /> <!-- Mysterious Pack Lv. 12 (Time-limited) - Sealed -->
+	</item>
+	<item one="98127" two="96685" commission="1000" chance="0.001"> <!-- Mysterious Pack Lv. 13 (Time-limited) - Sealed / Mysterious Crystal (Time-limited) - Sealed -->
+		<reward id="98128" count="1" type="ON_SUCCESS" /> <!-- Mysterious Pack Lv. 14 (Time-limited) - Sealed -->
+		<reward id="98127" count="1" type="ON_FAILURE" /> <!-- Mysterious Pack Lv. 13 (Time-limited) - Sealed -->
+	</item>
+	<item one="98235" enchantOne="10" two="98039" commission="5000000" chance="0.5"> <!-- +10 Agathion Dragon Egg - Sealed / Incredible Upgrade Stone -->
+		<reward id="98236" count="1" type="ON_SUCCESS" /> <!-- Agathion Valakas - Sealed -->
+		<reward id="98235" count="1" enchant="10" type="ON_FAILURE" /> <!-- Agathion Dragon Egg - Sealed -->
+	</item>
+	<item one="98235" enchantOne="10" two="98040" commission="5000000" chance="0.5"> <!-- +10 Agathion Dragon Egg - Sealed / Incredible Upgrade Stone - Sealed -->
+		<reward id="98236" count="1" type="ON_SUCCESS" /> <!-- Agathion Valakas - Sealed -->
+		<reward id="98235" count="1" enchant="10" type="ON_FAILURE" /> <!-- Agathion Dragon Egg - Sealed -->
+	</item>
+	<item one="98235" enchantOne="10" two="98235" enchantTwo="10" commission="1000000000" chance="50"> <!-- +10 Agathion Dragon Egg - Sealed / +10 Agathion Dragon Egg - Sealed -->
+		<reward id="98236" count="1" type="ON_SUCCESS" /> <!-- Agathion Valakas - Sealed -->
+		<reward id="98235" count="1" enchant="10" type="ON_FAILURE" /> <!-- Agathion Dragon Egg - Sealed -->
 	</item>
 </list>

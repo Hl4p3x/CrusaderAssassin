@@ -24,7 +24,7 @@
 		<set name="is_stackable" val="true" />
 	</item>
 	<item id="93103" name="Spellbook: Divine Beam" type="EtcItem">
-		<!-- A spellbook for learning the Divine Beam skill. <Classes>. Cardinal. Eva's Saint. Shillien Saint. Hierophant. <Skill effect>. A divine beam strikes the target. Inflicts magic damage. Deals increased damage if the target is inflicted with Hold. Deals additional damage to demons and undead. -->
+		<!-- A spellbook for learning the Divine Beam skill. <Classes>. Cardinal. Eva's Saint. Shillien Saint. Hierophant. <Skill effect>. A divine beam strikes the target. Inflicts magic damage with additional power. Deals high damage to demons and the undead. -->
 		<set name="icon" val="icon.etc_magic_book_white_i00" />
 		<set name="material" val="PAPER" />
 		<set name="is_sellable" val="false" />
@@ -45,7 +45,7 @@
 		<set name="is_stackable" val="true" />
 	</item>
 	<item id="93106" name="Scroll: Mass Dryad Root" type="EtcItem">
-		<!-- A scroll for learning the Mass Dryad Root skill. <Class>. Shillien Saint. <Skill effect>. Holds nearby enemies. <font color=ff6666>Note!</font>. The skill will be removed after learning a more powerful skill:. - Duress -->
+		<!-- A scroll for learning the Mass Dryad Root skill. <Class>. Shillien Saint. <Skill effect>. Inflicts Hold on nearby enemies. <font color=ff6666>Note!</font>. The skill will be removed after learning a more powerful skill:. - Duress -->
 		<set name="icon" val="icon.etc_magic_book_red_i00" />
 		<set name="material" val="PAPER" />
 		<set name="is_sellable" val="false" />
@@ -457,7 +457,7 @@
 		</skills>
 	</item>
 	<item id="93134" name="Package: Agathion Ignis" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.agathion_fire_1" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -474,7 +474,7 @@
 		</capsuled_items>
 	</item>
 	<item id="93135" name="Package: Agathion Nebula" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.agathion_water_1" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -491,7 +491,7 @@
 		</capsuled_items>
 	</item>
 	<item id="93136" name="Package: Agathion Procella" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.agathion_wind_1" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -508,7 +508,7 @@
 		</capsuled_items>
 	</item>
 	<item id="93137" name="Package: Agathion Petram" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.agathion_earth_1" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -525,7 +525,7 @@
 		</capsuled_items>
 	</item>
 	<item id="93138" name="Package: Agathion Joy" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.pleasure_agathion_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -686,7 +686,7 @@
 		</skills>
 	</item>
 	<item id="93143" name="Siege Support Box - Goddard" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="Branchsys2.icon2.g_alegra_box" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -703,7 +703,7 @@
 			<item id="91641" min="5" max="5" chance="15.4825" /> <!-- Sayha's Blessing - Sealed -->
 			<item id="91641" min="10" max="10" chance="15.4825" /> <!-- Sayha's Blessing - Sealed -->
 			<item id="91641" min="100" max="100" chance="3.0" /> <!-- Sayha's Blessing - Sealed -->
-			<item id="91713" min="10" max="10" chance="15.4825" /> <!-- Sayha's Storm Lv. 3 -->
+			<item id="91713" min="10" max="10" chance="15.4825" /> <!-- Sayha's Storm -->
 			<item id="90890" min="1" max="1" chance="5.0" /> <!-- Agathion Bracelet Lv. 3 -->
 			<item id="9591" min="1" max="1" chance="5.0" /> <!-- Talisman Bracelet Lv. 3 -->
 			<item id="90934" min="1" max="1" chance="5.0" /> <!-- Brooch Lv. 3 -->
@@ -730,7 +730,7 @@
 		</capsuled_items>
 	</item>
 	<item id="93144" name="+4 Dragon Belt Pack" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.etc_readybox_bronze" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -771,7 +771,7 @@
 		</skills>
 	</item>
 	<item id="93147" name="Random Enhanced Tallum Blade Crafting" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.weapon_tallum_blade_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -793,7 +793,7 @@
 		</capsuled_items>
 	</item>
 	<item id="93148" name="Random Enhanced Dragon Slayer Crafting" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.weapon_dragon_slayer_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -815,7 +815,7 @@
 		</capsuled_items>
 	</item>
 	<item id="93149" name="Random Enhanced Halberd Crafting" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.weapon_halbard_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -837,7 +837,7 @@
 		</capsuled_items>
 	</item>
 	<item id="93150" name="Random Enhanced Elemental Sword Crafting" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.weapon_elemental_sword_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -859,7 +859,7 @@
 		</capsuled_items>
 	</item>
 	<item id="93151" name="Random Enhanced Sword of Miracles Crafting" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.weapon_sword_of_miracle_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -881,7 +881,7 @@
 		</capsuled_items>
 	</item>
 	<item id="93152" name="Random Enhanced Elysian Crafting" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.weapon_elysian_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -903,7 +903,7 @@
 		</capsuled_items>
 	</item>
 	<item id="93153" name="Random Enhanced Dasparion's Staff Crafting" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.weapon_dasparions_staff_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -925,7 +925,7 @@
 		</capsuled_items>
 	</item>
 	<item id="93154" name="Random Enhanced Branch of the Mother Tree Crafting" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.weapon_worldtrees_branch_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -947,7 +947,7 @@
 		</capsuled_items>
 	</item>
 	<item id="93155" name="Random Enhanced Bloody Orchid Crafting" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.weapon_bloody_orchid_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -969,7 +969,7 @@
 		</capsuled_items>
 	</item>
 	<item id="93156" name="Random Enhanced Soul Separator Crafting" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.weapon_soul_separator_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -991,7 +991,7 @@
 		</capsuled_items>
 	</item>
 	<item id="93157" name="Random Enhanced Blood Tornado Crafting" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.weapon_blood_tornado_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -1013,7 +1013,7 @@
 		</capsuled_items>
 	</item>
 	<item id="93158" name="Random Enhanced Dragon Grinder Crafting" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.weapon_dragon_grinder_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -1035,7 +1035,7 @@
 		</capsuled_items>
 	</item>
 	<item id="93159" name="Random Enhanced Carnage Bow Crafting" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.weapon_carnium_bow_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -1057,7 +1057,7 @@
 		</capsuled_items>
 	</item>
 	<item id="93160" name="Random Enhanced Soul Bow Crafting" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.weapon_soul_bow_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -1079,7 +1079,7 @@
 		</capsuled_items>
 	</item>
 	<item id="93161" name="Random Enhanced Tallum Glaive Crafting" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.weapon_tallum_glaive_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -1101,7 +1101,7 @@
 		</capsuled_items>
 	</item>
 	<item id="93162" name="Random Enhanced Dark Legion's Edge Crafting" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.weapon_dark_legions_edge_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -1123,7 +1123,7 @@
 		</capsuled_items>
 	</item>
 	<item id="93163" name="Random Enhanced Meteor Shower Crafting" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.weapon_meteor_shower_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -1145,7 +1145,7 @@
 		</capsuled_items>
 	</item>
 	<item id="93164" name="Random Enhanced Keshanberk*Keshanberk Crafting" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.weapon_dual_sword_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -1167,7 +1167,7 @@
 		</capsuled_items>
 	</item>
 	<item id="93165" name="Random Enhanced Keshanberk*Damascus Crafting" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.weapon_dual_sword_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -1189,7 +1189,7 @@
 		</capsuled_items>
 	</item>
 	<item id="93166" name="Random Enhanced Damascus*Damascus Crafting" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.weapon_dual_sword_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -1211,7 +1211,7 @@
 		</capsuled_items>
 	</item>
 	<item id="93167" name="Random Enhanced Infernal Master Crafting" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.weapon_inferno_master_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -1233,7 +1233,7 @@
 		</capsuled_items>
 	</item>
 	<item id="93168" name="Random Enhanced Spiritual Eye Crafting" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.weapon_eye_of_soul_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -1255,7 +1255,7 @@
 		</capsuled_items>
 	</item>
 	<item id="93169" name="Random Enhanced Flaming Dragon Skull Crafting" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.weapon_dragon_flame_head_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -1277,7 +1277,7 @@
 		</capsuled_items>
 	</item>
 	<item id="93170" name="Random Enhanced Destroyer Hammer Crafting" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.weapon_hammer_of_destroyer_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -1299,7 +1299,7 @@
 		</capsuled_items>
 	</item>
 	<item id="93171" name="Random Enhanced Doom Crusher Crafting" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.weapon_doom_crusher_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -1321,7 +1321,7 @@
 		</capsuled_items>
 	</item>
 	<item id="93172" name="Random Enhanced Sirra's Blade Crafting" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.weapon_sirr_blade_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -1343,7 +1343,7 @@
 		</capsuled_items>
 	</item>
 	<item id="93173" name="Random Enhanced Sword of Ipos Crafting" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.weapon_sword_of_ipos_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -1365,7 +1365,7 @@
 		</capsuled_items>
 	</item>
 	<item id="93174" name="Random Enhanced Barakiel's Axe Crafting" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.weapon_barakiel_axe_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -1387,7 +1387,7 @@
 		</capsuled_items>
 	</item>
 	<item id="93175" name="Random Enhanced Behemoth' Tuning Fork Crafting" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.weapon_tuning_fork_of_behemoth_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -1409,7 +1409,7 @@
 		</capsuled_items>
 	</item>
 	<item id="93176" name="Random Enhanced Naga Storm Crafting" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.weapon_naga_storm_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -1431,7 +1431,7 @@
 		</capsuled_items>
 	</item>
 	<item id="93177" name="Random Enhanced Tiphon's Spear Crafting" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.weapon_tiphon_spear_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -1453,7 +1453,7 @@
 		</capsuled_items>
 	</item>
 	<item id="93178" name="Random Enhanced Shyeed's Bow Crafting" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.weapon_shyid_bow_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -1475,7 +1475,7 @@
 		</capsuled_items>
 	</item>
 	<item id="93179" name="Random Enhanced Sobekk's Hurricane Crafting" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.weapon_sobekk_hurricane_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -1497,7 +1497,7 @@
 		</capsuled_items>
 	</item>
 	<item id="93180" name="Random Enhanced Themis' Tongue Crafting" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.weapon_tongue_of_themis_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -1519,7 +1519,7 @@
 		</capsuled_items>
 	</item>
 	<item id="93181" name="Random Enhanced Cabrio's Hand Crafting" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.weapon_hand_of_cabrio_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -1541,7 +1541,7 @@
 		</capsuled_items>
 	</item>
 	<item id="93182" name="Random Enhanced Daimon Crystal Crafting" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.weapon_crystal_of_deamon_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -1563,7 +1563,7 @@
 		</capsuled_items>
 	</item>
 	<item id="93183" name="Random Enhanced Damascus*Damascus Crafting" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.weapon_dual_sword_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -1585,7 +1585,7 @@
 		</capsuled_items>
 	</item>
 	<item id="93184" name="Random Enhanced Durendal Crafting" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.weapon_death_bringer_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -1607,7 +1607,7 @@
 		</capsuled_items>
 	</item>
 	<item id="93185" name="Random Enhanced Undertaker Crafting" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.weapon_death_bringer_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -1629,7 +1629,7 @@
 		</capsuled_items>
 	</item>
 	<item id="93186" name="Random Enhanced Divine Pain Crafting" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.weapon_pain_of_godness_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -1651,7 +1651,7 @@
 		</capsuled_items>
 	</item>
 	<item id="93187" name="Random Enhanced Éclair Bijou Crafting" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.weapon_greed_stinger_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -1673,7 +1673,7 @@
 		</capsuled_items>
 	</item>
 	<item id="93188" name="Random Enhanced Lacerator Crafting" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.weapon_greed_stinger_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -1695,7 +1695,7 @@
 		</capsuled_items>
 	</item>
 	<item id="93189" name="Random Enhanced White Lightning Crafting" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.weapon_lightning_blaze_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -1717,7 +1717,7 @@
 		</capsuled_items>
 	</item>
 	<item id="93190" name="Random Enhanced Dark Crystal Breastplate Crafting" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.armor_t74_u_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -1739,7 +1739,7 @@
 		</capsuled_items>
 	</item>
 	<item id="93191" name="Random Enhanced Armor of Nightmare Crafting" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.armor_t80_ul_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -1761,7 +1761,7 @@
 		</capsuled_items>
 	</item>
 	<item id="93192" name="Random Enhanced Dark Crystal Gaiters Crafting" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.armor_t74_l_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -1783,7 +1783,7 @@
 		</capsuled_items>
 	</item>
 	<item id="93193" name="Random Enhanced Dark Crystal Helmet Crafting" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.armor_helmet_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -1805,7 +1805,7 @@
 		</capsuled_items>
 	</item>
 	<item id="93194" name="Random Enhanced Tallum Helmet Crafting" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.armor_helmet_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -1827,7 +1827,7 @@
 		</capsuled_items>
 	</item>
 	<item id="93195" name="Random Enhanced Dark Crystal Shield Crafting" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.shield_dark_crystal_shield_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -1849,7 +1849,7 @@
 		</capsuled_items>
 	</item>
 	<item id="93196" name="Random Enhanced Tallum Plate Armor Crafting" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.armor_t77_ul_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -1871,7 +1871,7 @@
 		</capsuled_items>
 	</item>
 	<item id="93197" name="Random Enhanced Majestic Plate Armor Crafting" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.armor_t83_ul_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -1893,7 +1893,7 @@
 		</capsuled_items>
 	</item>
 	<item id="93198" name="Random Enhanced Dark Crystal Leather Armor Crafting" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.armor_t75_u_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -1915,7 +1915,7 @@
 		</capsuled_items>
 	</item>
 	<item id="93199" name="Random Enhanced Dark Crystal Leggings Crafting" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.armor_t75_l_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />

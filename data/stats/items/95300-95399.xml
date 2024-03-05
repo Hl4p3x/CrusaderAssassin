@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/items.xsd">
 	<item id="95300" name="Pa'agrian Sword" additionalName="Sealed" type="Weapon">
-		<!-- <font color=ff6666><Unavailable to Sylphs/ Vanguard Riders.></font> -->
+		<!-- <font color=ff6666><Unavailable to Sylphs/ Vanguard Riders/ Assassins.></font> -->
 		<set name="icon" val="icon.weapon_sword_of_paagrio_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="SWORD" />
@@ -28,7 +28,7 @@
 		</stats>
 	</item>
 	<item id="95301" name="Priest Sword" additionalName="Sealed" type="Weapon">
-		<!-- <font color=ff6666><Unavailable to Sylphs/ Vanguard Riders.></font> -->
+		<!-- <font color=ff6666><Unavailable to Sylphs/ Vanguard Riders/ Assassins.></font> -->
 		<set name="icon" val="icon.weapon_sword_of_priest_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="SWORD" />
@@ -56,7 +56,7 @@
 		</stats>
 	</item>
 	<item id="95302" name="Sword of Magic Fog" additionalName="Sealed" type="Weapon">
-		<!-- <font color=ff6666><Unavailable to Sylphs/ Vanguard Riders.></font> -->
+		<!-- <font color=ff6666><Unavailable to Sylphs/ Vanguard Riders/ Assassins.></font> -->
 		<set name="icon" val="icon.weapon_sword_of_magic_fog_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="SWORD" />
@@ -84,7 +84,7 @@
 		</stats>
 	</item>
 	<item id="95303" name="Mysterious Sword" additionalName="Sealed" type="Weapon">
-		<!-- <font color=ff6666><Unavailable to Sylphs/ Vanguard Riders.></font> -->
+		<!-- <font color=ff6666><Unavailable to Sylphs/ Vanguard Riders/ Assassins.></font> -->
 		<set name="icon" val="icon.weapon_mystery_sword_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="SWORD" />
@@ -112,7 +112,7 @@
 		</stats>
 	</item>
 	<item id="95304" name="Ecliptic Sword" additionalName="Sealed" type="Weapon">
-		<!-- <font color=ff6666><Unavailable to Sylphs/ Vanguard Riders.></font> -->
+		<!-- <font color=ff6666><Unavailable to Sylphs/ Vanguard Riders/ Assassins.></font> -->
 		<set name="icon" val="icon.weapon_sword_of_eclipse_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="SWORD" />
@@ -143,7 +143,7 @@
 		</stats>
 	</item>
 	<item id="95305" name="Priest Mace" additionalName="Sealed" type="Weapon">
-		<!-- <font color=ff6666><Unavailable to Sylphs/ Vanguard Riders.></font> -->
+		<!-- <font color=ff6666><Unavailable to Sylphs/ Vanguard Riders/ Assassins.></font> -->
 		<set name="icon" val="icon.weapon_mace_of_priest_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="BLUNT" />
@@ -171,7 +171,7 @@
 		</stats>
 	</item>
 	<item id="95306" name="Spell Breaker" additionalName="Sealed" type="Weapon">
-		<!-- <font color=ff6666><Unavailable to Sylphs/ Vanguard Riders.></font> -->
+		<!-- <font color=ff6666><Unavailable to Sylphs/ Vanguard Riders/ Assassins.></font> -->
 		<set name="icon" val="icon.weapon_spell_breaker_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="BLUNT" />
@@ -205,7 +205,7 @@
 		</skills>
 	</item>
 	<item id="95307" name="Kaim Vanul's Bones" additionalName="Sealed" type="Weapon">
-		<!-- <font color=ff6666><Unavailable to Sylphs/ Vanguard Riders.></font> -->
+		<!-- <font color=ff6666><Unavailable to Sylphs/ Vanguard Riders/ Assassins.></font> -->
 		<set name="icon" val="icon.weapon_bone_of_kaim_vanul_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="BLUNT" />
@@ -239,7 +239,7 @@
 		</skills>
 	</item>
 	<item id="95308" name="Lesser Giant's Hammer" additionalName="Sealed" type="Weapon">
-		<!-- <font color=ff6666><Unavailable to Sylphs/ Vanguard Riders.></font> -->
+		<!-- <font color=ff6666><Unavailable to Sylphs/ Vanguard Riders/ Assassins.></font> -->
 		<set name="icon" val="icon.weapon_giants_hammer_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="BLUNT" />
@@ -266,7 +266,7 @@
 		</stats>
 	</item>
 	<item id="95309" name="Dwarven Hammer" additionalName="Sealed" type="Weapon">
-		<!-- <font color=ff6666><Unavailable to Sylphs/ Vanguard Riders.></font> -->
+		<!-- <font color=ff6666><Unavailable to Sylphs/ Vanguard Riders/ Assassins.></font> -->
 		<set name="icon" val="icon.weapon_dwarven_hammer_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="BLUNT" />
@@ -297,7 +297,7 @@
 		</stats>
 	</item>
 	<item id="95310" name="Karik Horn" additionalName="Sealed" type="Weapon">
-		<!-- <font color=ff6666><Unavailable to Sylphs/ Vanguard Riders.></font> -->
+		<!-- <font color=ff6666><Unavailable to Sylphs/ Vanguard Riders/ Assassins.></font> -->
 		<set name="icon" val="icon.weapon_horn_of_karik_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="BLUNT" />
@@ -324,7 +324,7 @@
 		</stats>
 	</item>
 	<item id="95311" name="Ice Storm Hammer" additionalName="Sealed" type="Weapon">
-		<!-- <font color=ff6666><Unavailable to Sylphs/ Vanguard Riders.></font> -->
+		<!-- <font color=ff6666><Unavailable to Sylphs/ Vanguard Riders/ Assassins.></font> -->
 		<set name="icon" val="icon.weapon_ice_storm_hammer_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="BLUNT" />
@@ -357,7 +357,7 @@
 		</skills>
 	</item>
 	<item id="95312" name="Katzbalger" additionalName="Sealed" type="Weapon">
-		<!-- <font color=ff6666><Unavailable to Humans/ Elves/ Dark Elves/ Sylphs/ Vanguard Riders.></font> -->
+		<!-- <font color=ff6666><Unavailable to Humans/ Elves/ Dark Elves/ Sylphs/ Vanguard Riders/ Assassins.></font> -->
 		<set name="icon" val="icon.weapon_tulwar_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="ANCIENTSWORD" />
@@ -384,7 +384,7 @@
 		</stats>
 	</item>
 	<item id="95313" name="Field Sword" additionalName="Sealed" type="Weapon">
-		<!-- <font color=ff6666><Unavailable to Humans/ Elves/ Dark Elves/ Sylphs/ Vanguard Riders.></font> -->
+		<!-- <font color=ff6666><Unavailable to Humans/ Elves/ Dark Elves/ Sylphs/ Vanguard Riders/ Assassins.></font> -->
 		<set name="icon" val="icon.weapon_tulwar_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="ANCIENTSWORD" />
@@ -411,7 +411,7 @@
 		</stats>
 	</item>
 	<item id="95314" name="Military Talwar" additionalName="Sealed" type="Weapon">
-		<!-- <font color=ff6666><Unavailable to Humans/ Elves/ Dark Elves/ Sylphs/ Vanguard Riders.></font> -->
+		<!-- <font color=ff6666><Unavailable to Humans/ Elves/ Dark Elves/ Sylphs/ Vanguard Riders/ Assassins.></font> -->
 		<set name="icon" val="icon.weapon_tulwar_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="ANCIENTSWORD" />
@@ -438,7 +438,7 @@
 		</stats>
 	</item>
 	<item id="95315" name="Talwar" additionalName="Sealed" type="Weapon">
-		<!-- <font color=ff6666><Unavailable to Humans/ Elves/ Dark Elves/ Sylphs/ Vanguard Riders.></font> -->
+		<!-- <font color=ff6666><Unavailable to Humans/ Elves/ Dark Elves/ Sylphs/ Vanguard Riders/ Assassins.></font> -->
 		<set name="icon" val="icon.weapon_tulwar_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="ANCIENTSWORD" />
@@ -465,7 +465,7 @@
 		</stats>
 	</item>
 	<item id="95316" name="Immortal Edge" additionalName="Sealed" type="Weapon">
-		<!-- <font color=ff6666><Unavailable to Humans/ Elves/ Dark Elves/ Sylphs/ Vanguard Riders.></font> -->
+		<!-- <font color=ff6666><Unavailable to Humans/ Elves/ Dark Elves/ Sylphs/ Vanguard Riders/ Assassins.></font> -->
 		<set name="icon" val="icon.weapon_invincible_blade_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="ANCIENTSWORD" />
@@ -492,7 +492,7 @@
 		</stats>
 	</item>
 	<item id="95317" name="Schlager" additionalName="Sealed" type="Weapon">
-		<!-- <font color=ff6666><Unavailable to Humans/ Elves/ Dark Elves/ Sylphs/ Vanguard Riders.></font> -->
+		<!-- <font color=ff6666><Unavailable to Humans/ Elves/ Dark Elves/ Sylphs/ Vanguard Riders/ Assassins.></font> -->
 		<set name="icon" val="icon.weapon_schlaeger_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="ANCIENTSWORD" />
@@ -519,7 +519,7 @@
 		</stats>
 	</item>
 	<item id="95318" name="Innominate Victory" additionalName="Sealed" type="Weapon">
-		<!-- <font color=ff6666><Unavailable to Humans/ Elves/ Dark Elves/ Sylphs/ Vanguard Riders.></font> -->
+		<!-- <font color=ff6666><Unavailable to Humans/ Elves/ Dark Elves/ Sylphs/ Vanguard Riders/ Assassins.></font> -->
 		<set name="icon" val="icon.weapon_nameless_victory_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="ANCIENTSWORD" />
@@ -552,7 +552,7 @@
 		</skills>
 	</item>
 	<item id="95319" name="Grand Épée" additionalName="Sealed" type="Weapon">
-		<!-- <font color=ff6666><Unavailable to Orcs/ Sylphs/ Dwarves.></font> -->
+		<!-- <font color=ff6666><Unavailable to Orcs/ Sylphs/ Dwarves/ Assassins.></font> -->
 		<set name="icon" val="icon.weapon_rapier_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="RAPIER" />
@@ -579,7 +579,7 @@
 		</stats>
 	</item>
 	<item id="95320" name="Épée" additionalName="Sealed" type="Weapon">
-		<!-- <font color=ff6666><Unavailable to Orcs/ Sylphs/ Dwarves.></font> -->
+		<!-- <font color=ff6666><Unavailable to Orcs/ Sylphs/ Dwarves/ Assassins.></font> -->
 		<set name="icon" val="icon.weapon_rapier_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="RAPIER" />
@@ -606,7 +606,7 @@
 		</stats>
 	</item>
 	<item id="95321" name="Estoc" additionalName="Sealed" type="Weapon">
-		<!-- <font color=ff6666><Unavailable to Orcs/ Sylphs/ Dwarves.></font> -->
+		<!-- <font color=ff6666><Unavailable to Orcs/ Sylphs/ Dwarves/ Assassins.></font> -->
 		<set name="icon" val="icon.weapon_rapier_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="RAPIER" />
@@ -633,7 +633,7 @@
 		</stats>
 	</item>
 	<item id="95322" name="Fleuret" additionalName="Sealed" type="Weapon">
-		<!-- <font color=ff6666><Unavailable to Orcs/ Sylphs/ Dwarves.></font> -->
+		<!-- <font color=ff6666><Unavailable to Orcs/ Sylphs/ Dwarves/ Assassins.></font> -->
 		<set name="icon" val="icon.weapon_rapier_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="RAPIER" />
@@ -660,7 +660,7 @@
 		</stats>
 	</item>
 	<item id="95323" name="Blinzlasher" additionalName="Sealed" type="Weapon">
-		<!-- <font color=ff6666><Unavailable to Orcs/ Sylphs/ Dwarves.></font> -->
+		<!-- <font color=ff6666><Unavailable to Orcs/ Sylphs/ Dwarves/ Assassins.></font> -->
 		<set name="icon" val="icon.weapon_blink_slasher_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="RAPIER" />
@@ -687,7 +687,7 @@
 		</stats>
 	</item>
 	<item id="95324" name="Chevalier Rapier" additionalName="Sealed" type="Weapon">
-		<!-- <font color=ff6666><Unavailable to Orcs/ Sylphs/ Dwarves.></font> -->
+		<!-- <font color=ff6666><Unavailable to Orcs/ Sylphs/ Dwarves/ Assassins.></font> -->
 		<set name="icon" val="icon.weapon_soldat_estoc_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="RAPIER" />
@@ -714,7 +714,7 @@
 		</stats>
 	</item>
 	<item id="95325" name="Soldat Estoc" additionalName="Sealed" type="Weapon">
-		<!-- <font color=ff6666><Unavailable to Orcs/ Sylphs/ Dwarves.></font> -->
+		<!-- <font color=ff6666><Unavailable to Orcs/ Sylphs/ Dwarves/ Assassins.></font> -->
 		<set name="icon" val="icon.weapon_soldat_estoc_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="RAPIER" />
@@ -741,7 +741,7 @@
 		</stats>
 	</item>
 	<item id="95326" name="Military Fleuret" additionalName="Sealed" type="Weapon">
-		<!-- <font color=ff6666><Unavailable to Orcs/ Sylphs/ Dwarves.></font> -->
+		<!-- <font color=ff6666><Unavailable to Orcs/ Sylphs/ Dwarves/ Assassins.></font> -->
 		<set name="icon" val="icon.weapon_assult_fleuret_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="RAPIER" />
@@ -914,7 +914,7 @@
 		</skills>
 	</item>
 	<item id="95334" name="Package: Breastplate of Protection" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.armor_t901_u_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -928,7 +928,7 @@
 		</capsuled_items>
 	</item>
 	<item id="95335" name="Package: Gaiters of Protection" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.armor_t901_l_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -942,7 +942,7 @@
 		</capsuled_items>
 	</item>
 	<item id="95336" name="Package: Breastplate of Protection" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.armor_t901_u_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -956,7 +956,7 @@
 		</capsuled_items>
 	</item>
 	<item id="95337" name="Package: Gaiters of Protection" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.armor_t901_l_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -970,7 +970,7 @@
 		</capsuled_items>
 	</item>
 	<item id="95338" name="Package: Leather Armor of Protection" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.armor_t902_u_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -984,7 +984,7 @@
 		</capsuled_items>
 	</item>
 	<item id="95339" name="Package: Leather Leggings of Protection" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.armor_t902_l_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -998,7 +998,7 @@
 		</capsuled_items>
 	</item>
 	<item id="95340" name="Package: Leather Armor of Protection" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.armor_t902_u_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -1012,7 +1012,7 @@
 		</capsuled_items>
 	</item>
 	<item id="95341" name="Package: Leather Leggings of Protection" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.armor_t902_l_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -1026,7 +1026,7 @@
 		</capsuled_items>
 	</item>
 	<item id="95342" name="Package: Tunic of Protection" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.armor_t903_u_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -1040,7 +1040,7 @@
 		</capsuled_items>
 	</item>
 	<item id="95343" name="Package: Stockings of Protection" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.armor_t903_l_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -1054,7 +1054,7 @@
 		</capsuled_items>
 	</item>
 	<item id="95344" name="Package: Tunic of Protection" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.armor_t903_u_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -1068,7 +1068,7 @@
 		</capsuled_items>
 	</item>
 	<item id="95345" name="Package: Stockings of Protection" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.armor_t903_l_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />

@@ -170,7 +170,7 @@
 		<set name="handler" val="Book" />
 	</item>
 	<item id="7117" name="Scroll of Escape: Talking Island Village" additionalName="Sealed" type="EtcItem">
-		<!-- Magic scroll that allows you to teleport to Talking Island Village. -->
+		<!-- A magic scroll for teleporting to the Talking Island Village. -->
 		<set name="icon" val="icon.etc_scroll_of_return_i04" />
 		<set name="default_action" val="SKILL_REDUCE" />
 		<set name="material" val="PAPER" />
@@ -212,7 +212,7 @@
 		</skills>
 	</item>
 	<item id="7119" name="Scroll of Escape: Dark Elf Village" additionalName="Sealed" type="EtcItem">
-		<!-- Magic scroll that allows you to teleport to Dark Elf Village. -->
+		<!-- A magic scroll for teleporting to the Dark Elf Village. -->
 		<set name="icon" val="icon.etc_scroll_of_return_i04" />
 		<set name="default_action" val="SKILL_REDUCE" />
 		<set name="material" val="PAPER" />
@@ -254,7 +254,7 @@
 		</skills>
 	</item>
 	<item id="7121" name="Scroll of Escape: Dwarven Village" additionalName="Sealed" type="EtcItem">
-		<!-- Magic scroll that allows you to teleport to Dwarven Village. -->
+		<!-- A magic scroll for teleporting to the Dwarven Village. -->
 		<set name="icon" val="icon.etc_scroll_of_return_i04" />
 		<set name="default_action" val="SKILL_REDUCE" />
 		<set name="material" val="PAPER" />
@@ -317,7 +317,7 @@
 		</skills>
 	</item>
 	<item id="7124" name="Scroll of Escape: Dion" additionalName="Sealed" type="EtcItem">
-		<!-- Teleports to Dion. -->
+		<!-- A magic scroll for teleporting to Dion. -->
 		<set name="icon" val="icon.etc_scroll_of_return_i04" />
 		<set name="default_action" val="SKILL_REDUCE" />
 		<set name="material" val="PAPER" />
@@ -338,7 +338,7 @@
 		</skills>
 	</item>
 	<item id="7125" name="Scroll of Escape: Floran Village" additionalName="Sealed" type="EtcItem">
-		<!-- Teleports to Floran Village. -->
+		<!-- A magic scroll for teleporting to Floran Village. -->
 		<set name="icon" val="icon.etc_scroll_of_return_i04" />
 		<set name="default_action" val="SKILL_REDUCE" />
 		<set name="material" val="PAPER" />
@@ -359,7 +359,7 @@
 		</skills>
 	</item>
 	<item id="7126" name="Scroll of Escape: Giran" additionalName="Sealed" type="EtcItem">
-		<!-- Teleports to Giran. -->
+		<!-- A magic scroll for teleporting to Giran. -->
 		<set name="icon" val="icon.etc_scroll_of_return_i04" />
 		<set name="default_action" val="SKILL_REDUCE" />
 		<set name="material" val="PAPER" />
@@ -380,7 +380,7 @@
 		</skills>
 	</item>
 	<item id="7127" name="Scroll of Escape: Hardin's Academy" additionalName="Sealed" type="EtcItem">
-		<!-- Teleports to Hardin's Academy. -->
+		<!-- A magic scroll for teleporting to Hardin's Academy. -->
 		<set name="icon" val="icon.etc_scroll_of_return_i00" />
 		<set name="default_action" val="SKILL_REDUCE" />
 		<set name="material" val="PAPER" />
@@ -401,7 +401,7 @@
 		</skills>
 	</item>
 	<item id="7129" name="Scroll of Escape: Oren" additionalName="Sealed" type="EtcItem">
-		<!-- Teleports to Oren. -->
+		<!-- A magic scroll for teleporting to Oren. -->
 		<set name="icon" val="icon.etc_scroll_of_return_i04" />
 		<set name="default_action" val="SKILL_REDUCE" />
 		<set name="material" val="PAPER" />
@@ -422,7 +422,7 @@
 		</skills>
 	</item>
 	<item id="7130" name="Scroll of Escape: Ivory Tower" additionalName="Sealed" type="EtcItem">
-		<!-- Teleports to the Ivory Tower. -->
+		<!-- A magic scroll for teleporting to the Ivory Tower. -->
 		<set name="icon" val="icon.etc_scroll_of_return_i04" />
 		<set name="default_action" val="SKILL_REDUCE" />
 		<set name="material" val="PAPER" />
@@ -443,7 +443,7 @@
 		</skills>
 	</item>
 	<item id="7131" name="Scroll of Escape: Hunter's Village" additionalName="Sealed" type="EtcItem">
-		<!-- A magical scroll that teleports to Hunters' Village. -->
+		<!-- A magic scroll for teleporting to the Hunters' Village. -->
 		<set name="icon" val="icon.etc_scroll_of_return_i04" />
 		<set name="default_action" val="SKILL_REDUCE" />
 		<set name="material" val="PAPER" />
@@ -464,7 +464,7 @@
 		</skills>
 	</item>
 	<item id="7139" name="Lizardman Bracelet" type="EtcItem">
-		<!-- Leto Lizardman Bracelet. Take it to Guard Rath in Giran. -->
+		<!-- A bracelet from a Leto Lizardman. Take it to Guard Rath in Giran. -->
 		<set name="icon" val="icon.etc_leash_i00" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="PAPER" />

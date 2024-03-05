@@ -16,7 +16,7 @@
 	</option>
 	<option id="22201" name="o_f_82_2g_47">
 		<!-- Max MP +11.74. -->
-		<!-- Max CP +55.25. -->
+		<!-- Max CP +55.25 -->
 		<effects>
 			<effect name="MaxCp">
 				<amount>55.246</amount>
@@ -44,7 +44,7 @@
 	</option>
 	<option id="22203" name="o_f_82_2g_49">
 		<!-- Max MP +11.74. -->
-		<!-- M. Atk. +6.73. -->
+		<!-- M. Atk. +6.73 -->
 		<effects>
 			<effect name="MaxMp">
 				<amount>11.742</amount>
@@ -156,7 +156,7 @@
 	</option>
 	<option id="22211" name="o_f_82_2g_57">
 		<!-- Max CP +64.45. -->
-		<!-- M. Atk. +6.73. -->
+		<!-- M. Atk. +6.73 -->
 		<effects>
 			<effect name="MaxCp">
 				<amount>64.454</amount>
@@ -254,7 +254,7 @@
 	</option>
 	<option id="22218" name="o_f_82_2g_64">
 		<!-- P. Atk. +6.31. -->
-		<!-- M. Atk. +6.73. -->
+		<!-- M. Atk. +6.73 -->
 		<effects>
 			<effect name="PAtk">
 				<amount>6.306</amount>

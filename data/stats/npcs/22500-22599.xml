@@ -5,9 +5,9 @@
 		<race>UNDEAD</race>
 		<sex>MALE</sex>
 		<equipment rhand="78" /> <!-- Great Sword -->
-		<acquire exp="4066070" sp="21881" attributeExp="1800" />
+		<acquire exp="4066070" sp="40654" attributeExp="1800" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="285910.12658" hpRegen="10.2" mp="11928" mpRegen="3.6" />
+			<vitals hp="314500.6" hpRegen="10.2" mp="11928" mpRegen="3.6" />
 			<attack physical="3611" magical="2465" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
 			<defence physical="2383" magical="1045" />
 			<speed>
@@ -73,9 +73,9 @@
 		<!-- AUTO GENERATED NPC TODO: FIX IT -->
 		<race>HUMANOID</race>
 		<sex>MALE</sex>
-		<acquire exp="152824" sp="4764" attributeExp="908" />
+		<acquire exp="152824" sp="1524" attributeExp="908" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="49032.91139" hpRegen="8.5" mp="2770.2" mpRegen="3" />
+			<vitals hp="53936.07" hpRegen="8.5" mp="2770.2" mpRegen="3" />
 			<attack physical="794.70901" magical="542.68324" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
 			<defence physical="319.24623" magical="233.61053" />
 			<speed>
@@ -105,9 +105,9 @@
 		<race>HUMANOID</race>
 		<sex>MALE</sex>
 		<equipment rhand="15304" /> <!-- Transparent Crossbow (NPC) - Not Available -->
-		<acquire exp="152824" sp="4764" attributeExp="908" />
+		<acquire exp="152824" sp="1524" attributeExp="908" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="49032.91139" hpRegen="8.5" mp="2770.2" mpRegen="3" />
+			<vitals hp="53936.07" hpRegen="8.5" mp="2770.2" mpRegen="3" />
 			<attack physical="794.70901" magical="542.68324" random="5" critical="8" accuracy="0" attackSpeed="253" type="BOW" range="1100" distance="10" width="0" />
 			<defence physical="319.24623" magical="233.61053" />
 			<speed>
@@ -136,9 +136,9 @@
 		<!-- AUTO GENERATED NPC TODO: FIX IT -->
 		<race>HUMANOID</race>
 		<sex>MALE</sex>
-		<acquire exp="152824" sp="4764" attributeExp="908" />
+		<acquire exp="152824" sp="1524" attributeExp="908" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="49032.91139" hpRegen="8.5" mp="2770.2" mpRegen="3" />
+			<vitals hp="53936.07" hpRegen="8.5" mp="2770.2" mpRegen="3" />
 			<attack physical="794.70901" magical="542.68324" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
 			<defence physical="319.24623" magical="233.61053" />
 			<speed>
@@ -167,9 +167,9 @@
 		<!-- AUTO GENERATED NPC TODO: FIX IT -->
 		<race>HUMANOID</race>
 		<sex>MALE</sex>
-		<acquire exp="152824" sp="4764" attributeExp="908" />
+		<acquire exp="152824" sp="1524" attributeExp="908" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="49032.91139" hpRegen="8.5" mp="2770.2" mpRegen="3" />
+			<vitals hp="53936.07" hpRegen="8.5" mp="2770.2" mpRegen="3" />
 			<attack physical="794.70901" magical="542.68324" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
 			<defence physical="319.24623" magical="233.61053" />
 			<speed>
@@ -198,9 +198,9 @@
 		<!-- AUTO GENERATED NPC TODO: FIX IT -->
 		<race>HUMANOID</race>
 		<sex>MALE</sex>
-		<acquire exp="1518750" sp="4764" attributeExp="908" />
+		<acquire exp="1518750" sp="15188" attributeExp="908" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="490326.58228" hpRegen="8.5" mp="2770.2" mpRegen="3" />
+			<vitals hp="539360.1" hpRegen="8.5" mp="2770.2" mpRegen="3" />
 			<attack physical="794.70901" magical="542.68324" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
 			<defence physical="319.24623" magical="233.61053" />
 			<speed>
@@ -229,9 +229,9 @@
 		<!-- AUTO GENERATED NPC TODO: FIX IT -->
 		<race>HUMANOID</race>
 		<sex>MALE</sex>
-		<acquire exp="231348" sp="3496" attributeExp="1173" />
+		<acquire exp="231348" sp="2313" attributeExp="1173" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="66894.3038" hpRegen="10.2" mp="2928.25" mpRegen="3.6" />
+			<vitals hp="73584.18" hpRegen="10.2" mp="2928.25" mpRegen="3.6" />
 			<attack physical="1688.456" magical="864.744" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
 			<defence physical="419.73" magical="230.358" />
 			<speed>
@@ -260,9 +260,9 @@
 		<!-- AUTO GENERATED NPC TODO: FIX IT -->
 		<race>HUMANOID</race>
 		<sex>MALE</sex>
-		<acquire exp="231348" sp="3496" attributeExp="1173" />
+		<acquire exp="231348" sp="2313" attributeExp="1173" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="66894.3038" hpRegen="10.2" mp="2928.25" mpRegen="3.6" />
+			<vitals hp="73584.18" hpRegen="10.2" mp="2928.25" mpRegen="3.6" />
 			<attack physical="1688.456" magical="864.744" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
 			<defence physical="419.73" magical="230.358" />
 			<speed>
@@ -291,9 +291,9 @@
 		<!-- AUTO GENERATED NPC TODO: FIX IT -->
 		<race>HUMANOID</race>
 		<sex>MALE</sex>
-		<acquire exp="231348" sp="3496" attributeExp="1173" />
+		<acquire exp="231348" sp="2313" attributeExp="1173" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="66894.3038" hpRegen="10.2" mp="2928.25" mpRegen="3.6" />
+			<vitals hp="73584.18" hpRegen="10.2" mp="2928.25" mpRegen="3.6" />
 			<attack physical="1688.456" magical="864.744" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
 			<defence physical="419.73" magical="230.358" />
 			<speed>
@@ -322,9 +322,9 @@
 		<!-- AUTO GENERATED NPC TODO: FIX IT -->
 		<race>HUMANOID</race>
 		<sex>MALE</sex>
-		<acquire exp="231348" sp="3496" attributeExp="1173" />
+		<acquire exp="231348" sp="2313" attributeExp="1173" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="66894.3038" hpRegen="10.2" mp="2928.25" mpRegen="3.6" />
+			<vitals hp="73584.18" hpRegen="10.2" mp="2928.25" mpRegen="3.6" />
 			<attack physical="1688.456" magical="864.744" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
 			<defence physical="419.73" magical="230.358" />
 			<speed>
@@ -354,9 +354,9 @@
 		<race>HUMANOID</race>
 		<sex>MALE</sex>
 		<equipment rhand="15304" /> <!-- Transparent Crossbow (NPC) - Not Available -->
-		<acquire exp="231348" sp="3496" attributeExp="1173" />
+		<acquire exp="231348" sp="2313" attributeExp="1173" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="66894.3038" hpRegen="10.2" mp="2928.25" mpRegen="3.6" />
+			<vitals hp="73584.18" hpRegen="10.2" mp="2928.25" mpRegen="3.6" />
 			<attack physical="1688.456" magical="864.744" random="5" critical="8" accuracy="0" attackSpeed="253" type="BOW" range="1100" distance="10" width="0" />
 			<defence physical="419.73" magical="230.358" />
 			<speed>
@@ -385,9 +385,9 @@
 		<!-- AUTO GENERATED NPC TODO: FIX IT -->
 		<race>HUMANOID</race>
 		<sex>MALE</sex>
-		<acquire exp="2689600" sp="3496" attributeExp="1173" />
+		<acquire exp="2689600" sp="26896" attributeExp="1173" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="668944.93671" hpRegen="10.2" mp="2928.25" mpRegen="3.6" />
+			<vitals hp="735839.9" hpRegen="10.2" mp="2928.25" mpRegen="3.6" />
 			<attack physical="1688.456" magical="864.744" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
 			<defence physical="419.73" magical="230.358" />
 			<speed>
@@ -416,9 +416,9 @@
 		<!-- AUTO GENERATED NPC TODO: FIX IT -->
 		<race>HUMANOID</race>
 		<sex>MALE</sex>
-		<acquire exp="438628" sp="17925" attributeExp="1760" />
+		<acquire exp="438628" sp="4383" attributeExp="1760" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="162141.77215" hpRegen="10.2" mp="11714.4" mpRegen="3.6" />
+			<vitals hp="178355.7" hpRegen="10.2" mp="11714.4" mpRegen="3.6" />
 			<attack physical="3057" magical="2087" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
 			<defence physical="1829" magical="919" />
 			<speed>
@@ -446,9 +446,9 @@
 		<!-- AUTO GENERATED NPC TODO: FIX IT -->
 		<race>HUMANOID</race>
 		<sex>MALE</sex>
-		<acquire exp="438628" sp="17925" attributeExp="1760" />
+		<acquire exp="438628" sp="4383" attributeExp="1760" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="162141.77215" hpRegen="10.2" mp="11714.4" mpRegen="3.6" />
+			<vitals hp="178355.7" hpRegen="10.2" mp="11714.4" mpRegen="3.6" />
 			<attack physical="3057" magical="2087" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
 			<defence physical="1829" magical="919" />
 			<speed>
@@ -476,9 +476,9 @@
 		<!-- AUTO GENERATED NPC TODO: FIX IT -->
 		<race>HUMANOID</race>
 		<sex>MALE</sex>
-		<acquire exp="438628" sp="17925" attributeExp="1760" />
+		<acquire exp="438628" sp="4383" attributeExp="1760" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="162141.77215" hpRegen="10.2" mp="11714.4" mpRegen="3.6" />
+			<vitals hp="178355.7" hpRegen="10.2" mp="11714.4" mpRegen="3.6" />
 			<attack physical="3057" magical="2087" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
 			<defence physical="1829" magical="919" />
 			<speed>
@@ -506,9 +506,9 @@
 		<!-- AUTO GENERATED NPC TODO: FIX IT -->
 		<race>HUMANOID</race>
 		<sex>MALE</sex>
-		<acquire exp="438628" sp="17925" attributeExp="1760" />
+		<acquire exp="438628" sp="4383" attributeExp="1760" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="162141.77215" hpRegen="10.2" mp="11714.4" mpRegen="3.6" />
+			<vitals hp="178355.7" hpRegen="10.2" mp="11714.4" mpRegen="3.6" />
 			<attack physical="3057" magical="2087" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
 			<defence physical="1829" magical="919" />
 			<speed>
@@ -536,9 +536,9 @@
 		<!-- AUTO GENERATED NPC TODO: FIX IT -->
 		<race>HUMANOID</race>
 		<sex>MALE</sex>
-		<acquire exp="4646400" sp="17925" attributeExp="1760" />
+		<acquire exp="4646400" sp="46464" attributeExp="1760" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="1621415.82278" hpRegen="10.2" mp="11714.4" mpRegen="3.6" />
+			<vitals hp="1783560" hpRegen="10.2" mp="11714.4" mpRegen="3.6" />
 			<attack physical="3057" magical="2087" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
 			<defence physical="1829" magical="919" />
 			<speed>
@@ -566,9 +566,9 @@
 		<!-- AUTO GENERATED NPC TODO: FIX IT -->
 		<race>HUMANOID</race>
 		<sex>MALE</sex>
-		<acquire exp="438628" sp="17925" attributeExp="1760" />
+		<acquire exp="438628" sp="4383" attributeExp="1760" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="162141.77215" hpRegen="10.2" mp="11714.4" mpRegen="3.6" />
+			<vitals hp="178355.7" hpRegen="10.2" mp="11714.4" mpRegen="3.6" />
 			<attack physical="3057" magical="2087" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
 			<defence physical="1829" magical="919" />
 			<speed>
@@ -591,9 +591,9 @@
 		<!-- AUTO GENERATED NPC TODO: FIX IT -->
 		<race>HUMANOID</race>
 		<sex>MALE</sex>
-		<acquire exp="438628" sp="17925" attributeExp="1760" />
+		<acquire exp="438628" sp="4383" attributeExp="1760" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="162141.77215" hpRegen="10.2" mp="11714.4" mpRegen="3.6" />
+			<vitals hp="178355.7" hpRegen="10.2" mp="11714.4" mpRegen="3.6" />
 			<attack physical="3057" magical="2087" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
 			<defence physical="1829" magical="919" />
 			<speed>
@@ -616,9 +616,9 @@
 		<!-- AUTO GENERATED NPC TODO: FIX IT -->
 		<race>DRAGON</race>
 		<sex>MALE</sex>
-		<acquire exp="38122" sp="10848" attributeExp="1144" />
+		<acquire exp="38122" sp="378" attributeExp="1144" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="5241.18825" hpRegen="10.2" mp="2512.2" mpRegen="3.6" />
+			<vitals hp="5765.307075" hpRegen="10.2" mp="2512.2" mpRegen="3.6" />
 			<attack physical="1552.864" magical="795.304" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
 			<defence physical="409.65" magical="258.5499" />
 			<speed>
@@ -660,9 +660,9 @@
 		<!-- AUTO GENERATED NPC TODO: FIX IT -->
 		<race>HUMANOID</race>
 		<sex>MALE</sex>
-		<acquire exp="41366" sp="11770" attributeExp="1144" />
+		<acquire exp="41366" sp="410" attributeExp="1144" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="10482.27848" hpRegen="10.2" mp="2512.2" mpRegen="3.6" />
+			<vitals hp="11530.38" hpRegen="10.2" mp="2512.2" mpRegen="3.6" />
 			<attack physical="1552.864" magical="795.304" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
 			<defence physical="409.65" magical="258.5499" />
 			<speed>
@@ -705,9 +705,9 @@
 		<!-- AUTO GENERATED NPC TODO: FIX IT -->
 		<race>DRAGON</race>
 		<sex>MALE</sex>
-		<acquire exp="41366" sp="11770" attributeExp="1144" />
+		<acquire exp="41366" sp="410" attributeExp="1144" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="10482.27848" hpRegen="10.2" mp="2512.2" mpRegen="3.6" />
+			<vitals hp="11530.38" hpRegen="10.2" mp="2512.2" mpRegen="3.6" />
 			<attack physical="1552.864" magical="795.304" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
 			<defence physical="409.65" magical="258.5499" />
 			<speed>
@@ -749,9 +749,9 @@
 		<!-- AUTO GENERATED NPC TODO: FIX IT -->
 		<race>DRAGON</race>
 		<sex>MALE</sex>
-		<acquire exp="38122" sp="10848" attributeExp="1144" />
+		<acquire exp="38122" sp="378" attributeExp="1144" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="9277.21519" hpRegen="10.2" mp="2512.2" mpRegen="3.6" />
+			<vitals hp="10204.43" hpRegen="10.2" mp="2512.2" mpRegen="3.6" />
 			<attack physical="1552.864" magical="795.304" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
 			<defence physical="409.65" magical="258.5499" />
 			<speed>
@@ -794,9 +794,9 @@
 		<!-- AUTO GENERATED NPC TODO: FIX IT -->
 		<race>DRAGON</race>
 		<sex>MALE</sex>
-		<acquire exp="51206" sp="14573" attributeExp="1144" />
+		<acquire exp="51206" sp="512" attributeExp="1144" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="15723.41772" hpRegen="10.2" mp="2512.2" mpRegen="3.6" />
+			<vitals hp="17296.2" hpRegen="10.2" mp="2512.2" mpRegen="3.6" />
 			<attack physical="1552.864" magical="795.304" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
 			<defence physical="409.65" magical="258.5499" />
 			<speed>
@@ -838,9 +838,9 @@
 		<!-- AUTO GENERATED NPC TODO: FIX IT -->
 		<race>UNDEAD</race>
 		<sex>MALE</sex>
-		<acquire exp="165845" sp="23437" attributeExp="1800" />
+		<acquire exp="165845" sp="1652" attributeExp="1800" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="71477.8481" hpRegen="10.2" mp="11928" mpRegen="3.6" />
+			<vitals hp="78625.32" hpRegen="10.2" mp="11928" mpRegen="3.6" />
 			<attack physical="3611" magical="2465" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
 			<defence physical="2383" magical="1045" />
 			<speed>
@@ -869,9 +869,9 @@
 		<race>DRAGON</race>
 		<sex>MALE</sex>
 		<equipment rhand="15302" /> <!-- Transparent Bow (NPC) - Not Available -->
-		<acquire exp="88814" sp="5034" attributeExp="1258" />
+		<acquire exp="88814" sp="883" attributeExp="1258" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="26757.59494" hpRegen="10.2" mp="2928.25" mpRegen="3.6" />
+			<vitals hp="29433.54" hpRegen="10.2" mp="2928.25" mpRegen="3.6" />
 			<attack physical="3057" magical="2087" random="5" critical="8" accuracy="0" attackSpeed="253" type="BOW" range="1100" distance="10" width="0" />
 			<defence physical="1829" magical="919" />
 			<speed>
@@ -900,9 +900,9 @@
 		<race>DRAGON</race>
 		<sex>MALE</sex>
 		<equipment rhand="97523" lhand="97524" /> <!-- Monsters Only - Demonic_Footman's_Sword2 - Not Available / Monsters Only - Dragontroop_Soldier's_Shield2 - Not Available -->
-		<acquire exp="88814" sp="5034" attributeExp="1258" />
+		<acquire exp="88814" sp="883" attributeExp="1258" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="26757.59494" hpRegen="10.2" mp="2928.25" mpRegen="3.6" />
+			<vitals hp="29433.54" hpRegen="10.2" mp="2928.25" mpRegen="3.6" />
 			<attack physical="3057" magical="2087" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
 			<defence physical="1829" magical="919" />
 			<speed>
@@ -930,9 +930,9 @@
 		<!-- AUTO GENERATED NPC TODO: FIX IT -->
 		<race>DRAGON</race>
 		<sex>MALE</sex>
-		<acquire exp="165845" sp="23437" attributeExp="1800" />
+		<acquire exp="165845" sp="1652" attributeExp="1800" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="71477.8481" hpRegen="10.2" mp="11928" mpRegen="3.6" />
+			<vitals hp="78625.32" hpRegen="10.2" mp="11928" mpRegen="3.6" />
 			<attack physical="3611" magical="2465" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
 			<defence physical="2383" magical="1045" />
 			<speed>
@@ -960,9 +960,9 @@
 		<!-- AUTO GENERATED NPC TODO: FIX IT -->
 		<race>DRAGON</race>
 		<sex>MALE</sex>
-		<acquire exp="234598" sp="27351" attributeExp="1800" />
+		<acquire exp="234598" sp="2341" attributeExp="1800" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="107216.4557" hpRegen="10.2" mp="11928" mpRegen="3.6" />
+			<vitals hp="117938" hpRegen="10.2" mp="11928" mpRegen="3.6" />
 			<attack physical="3611" magical="2465" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
 			<defence physical="2383" magical="1045" />
 			<speed>
@@ -1004,9 +1004,9 @@
 		<!-- AUTO GENERATED NPC TODO: FIX IT -->
 		<race>DIVINE</race>
 		<sex>MALE</sex>
-		<acquire exp="86700" sp="1445" attributeExp="1700" />
+		<acquire exp="86700" sp="867" attributeExp="1700" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="168750" hpRegen="10.2" mp="11928" mpRegen="3.6" />
+			<vitals hp="185625.3" hpRegen="10.2" mp="11928" mpRegen="3.6" />
 			<attack physical="2226.2521499701" magical="1520.24164482038" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
 			<defence physical="998.10183" magical="730.36761" />
 			<speed>
@@ -1029,9 +1029,9 @@
 		<!-- AUTO GENERATED NPC TODO: FIX IT -->
 		<race>DIVINE</race>
 		<sex>MALE</sex>
-		<acquire exp="86700" sp="1445" attributeExp="1700" />
+		<acquire exp="86700" sp="867" attributeExp="1700" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="168750" hpRegen="10.2" mp="11928" mpRegen="3.6" />
+			<vitals hp="185625.3" hpRegen="10.2" mp="11928" mpRegen="3.6" />
 			<attack physical="2226.2521499701" magical="1520.24164482038" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
 			<defence physical="998.10183" magical="730.36761" />
 			<speed>
@@ -1054,9 +1054,9 @@
 		<!-- AUTO GENERATED NPC TODO: FIX IT -->
 		<race>DIVINE</race>
 		<sex>MALE</sex>
-		<acquire exp="86700" sp="1445" attributeExp="1700" />
+		<acquire exp="86700" sp="867" attributeExp="1700" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="168750" hpRegen="10.2" mp="11928" mpRegen="3.6" />
+			<vitals hp="185625.3" hpRegen="10.2" mp="11928" mpRegen="3.6" />
 			<attack physical="2226.2521499701" magical="1520.24164482038" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
 			<defence physical="998.10183" magical="730.36761" />
 			<speed>
@@ -1080,9 +1080,9 @@
 		<race>DEMONIC</race>
 		<sex>MALE</sex>
 		<equipment rhand="234" lhand="234" /> <!-- Demon's Dagger / Demon's Dagger -->
-		<acquire exp="202500" sp="1620" attributeExp="1800" />
+		<acquire exp="202500" sp="2025" attributeExp="1800" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="900000" hpRegen="10.2" mp="11928" mpRegen="3.6" />
+			<vitals hp="990000" hpRegen="10.2" mp="11928" mpRegen="3.6" />
 			<attack physical="3611" magical="2465" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
 			<defence physical="2383" magical="1045" />
 			<speed>
@@ -1104,9 +1104,9 @@
 		<!-- AUTO GENERATED NPC TODO: FIX IT -->
 		<race>DEMONIC</race>
 		<sex>MALE</sex>
-		<acquire exp="202500" sp="1620" attributeExp="1800" />
+		<acquire exp="202500" sp="2025" attributeExp="1800" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="900000" hpRegen="10.2" mp="11928" mpRegen="3.6" />
+			<vitals hp="990000" hpRegen="10.2" mp="11928" mpRegen="3.6" />
 			<attack physical="3611" magical="2465" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
 			<defence physical="2383" magical="1045" />
 			<speed>
@@ -1129,9 +1129,9 @@
 		<race>DEMONIC</race>
 		<sex>MALE</sex>
 		<equipment rhand="5800" lhand="5799" /> <!-- Nephilim Lord - Not Available / Nephilim Lord -->
-		<acquire exp="202500" sp="1620" attributeExp="1800" />
+		<acquire exp="202500" sp="2025" attributeExp="1800" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="900000" hpRegen="10.2" mp="11928" mpRegen="3.6" />
+			<vitals hp="990000" hpRegen="10.2" mp="11928" mpRegen="3.6" />
 			<attack physical="3611" magical="2465" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
 			<defence physical="2383" magical="1045" />
 			<speed>
@@ -1154,9 +1154,9 @@
 		<race>DIVINE</race>
 		<sex>MALE</sex>
 		<equipment rhand="5795" /> <!-- Tomb Guard A - Not Available -->
-		<acquire exp="65025" sp="1445" attributeExp="1700" />
+		<acquire exp="65025" sp="650" attributeExp="1700" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="168750" hpRegen="10.2" mp="11928" mpRegen="3.6" />
+			<vitals hp="185625.3" hpRegen="10.2" mp="11928" mpRegen="3.6" />
 			<attack physical="2226.2521499701" magical="1520.24164482038" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
 			<defence physical="998.10183" magical="730.36761" />
 			<speed>
@@ -1180,9 +1180,9 @@
 		<race>DIVINE</race>
 		<sex>MALE</sex>
 		<equipment rhand="5797" /> <!-- Tomb Savant A - Not Available -->
-		<acquire exp="65025" sp="1445" attributeExp="1700" />
+		<acquire exp="65025" sp="650" attributeExp="1700" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="168750" hpRegen="10.2" mp="11928" mpRegen="3.6" />
+			<vitals hp="185625.3" hpRegen="10.2" mp="11928" mpRegen="3.6" />
 			<attack physical="2226.2521499701" magical="1520.24164482038" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
 			<defence physical="998.10183" magical="730.36761" />
 			<speed>
@@ -1206,9 +1206,9 @@
 		<race>DIVINE</race>
 		<sex>MALE</sex>
 		<equipment rhand="5796" /> <!-- Tomb Guard B - Not Available -->
-		<acquire exp="65025" sp="1445" attributeExp="1700" />
+		<acquire exp="65025" sp="650" attributeExp="1700" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="168750" hpRegen="10.2" mp="11928" mpRegen="3.6" />
+			<vitals hp="185625.3" hpRegen="10.2" mp="11928" mpRegen="3.6" />
 			<attack physical="2226.2521499701" magical="1520.24164482038" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
 			<defence physical="998.10183" magical="730.36761" />
 			<speed>
@@ -1232,9 +1232,9 @@
 		<race>DEMONIC</race>
 		<sex>MALE</sex>
 		<equipment rhand="234" lhand="234" /> <!-- Demon's Dagger / Demon's Dagger -->
-		<acquire exp="132676" sp="18749" attributeExp="1800" />
+		<acquire exp="132676" sp="1320" attributeExp="1800" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="9000000" hpRegen="10.2" mp="11928" mpRegen="3.6" />
+			<vitals hp="9900000" hpRegen="10.2" mp="11928" mpRegen="3.6" />
 			<attack physical="3611" magical="2465" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
 			<defence physical="2383" magical="1045" />
 			<speed>
@@ -1256,9 +1256,9 @@
 		<!-- AUTO GENERATED NPC TODO: FIX IT -->
 		<race>DEMONIC</race>
 		<sex>MALE</sex>
-		<acquire exp="132676" sp="18749" attributeExp="1800" />
+		<acquire exp="132676" sp="1320" attributeExp="1800" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="9000000" hpRegen="10.2" mp="11928" mpRegen="3.6" />
+			<vitals hp="9900000" hpRegen="10.2" mp="11928" mpRegen="3.6" />
 			<attack physical="3611" magical="2465" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
 			<defence physical="2383" magical="1045" />
 			<speed>
@@ -1281,9 +1281,9 @@
 		<race>DEMONIC</race>
 		<sex>MALE</sex>
 		<equipment rhand="5800" lhand="5799" /> <!-- Nephilim Lord - Not Available / Nephilim Lord -->
-		<acquire exp="132676" sp="18749" attributeExp="1800" />
+		<acquire exp="132676" sp="1320" attributeExp="1800" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="9000000" hpRegen="10.2" mp="11928" mpRegen="3.6" />
+			<vitals hp="9900000" hpRegen="10.2" mp="11928" mpRegen="3.6" />
 			<attack physical="3611" magical="2465" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
 			<defence physical="2383" magical="1045" />
 			<speed>
@@ -1305,9 +1305,9 @@
 		<!-- AUTO GENERATED NPC TODO: FIX IT -->
 		<race>UNDEAD</race>
 		<sex>MALE</sex>
-		<acquire exp="63973" sp="18206" />
+		<acquire exp="63973" sp="636" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="506327.8481" hpRegen="10.2" mp="2365" mpRegen="3.6" />
+			<vitals hp="556960.8" hpRegen="10.2" mp="2365" mpRegen="3.6" />
 			<attack physical="2226.2521499701" magical="1520.24164482038" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
 			<defence physical="998.10183" magical="730.36761" />
 			<speed>
@@ -1330,9 +1330,9 @@
 		<!-- AUTO GENERATED NPC TODO: FIX IT -->
 		<race>HUMANOID</race>
 		<sex>MALE</sex>
-		<acquire exp="63973" sp="18206" />
+		<acquire exp="63973" sp="636" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="506327.8481" hpRegen="10.2" mp="2365" mpRegen="3.6" />
+			<vitals hp="556960.8" hpRegen="10.2" mp="2365" mpRegen="3.6" />
 			<attack physical="2226.2521499701" magical="1520.24164482038" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
 			<defence physical="998.10183" magical="730.36761" />
 			<speed>
@@ -1355,9 +1355,9 @@
 		<!-- AUTO GENERATED NPC TODO: FIX IT -->
 		<race>HUMANOID</race>
 		<sex>MALE</sex>
-		<acquire exp="63973" sp="18206" />
+		<acquire exp="63973" sp="636" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="506327.8481" hpRegen="10.2" mp="2365" mpRegen="3.6" />
+			<vitals hp="556960.8" hpRegen="10.2" mp="2365" mpRegen="3.6" />
 			<attack physical="2226.2521499701" magical="1520.24164482038" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
 			<defence physical="998.10183" magical="730.36761" />
 			<speed>
@@ -1380,9 +1380,9 @@
 		<!-- AUTO GENERATED NPC TODO: FIX IT -->
 		<race>HUMANOID</race>
 		<sex>MALE</sex>
-		<acquire exp="69360" sp="19724" />
+		<acquire exp="69360" sp="694" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="632910.12658" hpRegen="10.2" mp="2365" mpRegen="3.6" />
+			<vitals hp="696201.3" hpRegen="10.2" mp="2365" mpRegen="3.6" />
 			<attack physical="2226.2521499701" magical="1520.24164482038" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
 			<defence physical="998.10183" magical="730.36761" />
 			<speed>
@@ -1562,12 +1562,114 @@
 			<skill id="4416" level="14" /> <!-- Humans -->
 		</skillList>
 	</npc>
-	<npc id="22552" level="87" type="Monster" name="Castle's Elite Guardian">
+	<npc id="22552" level="91" type="Monster" name="Fortress' Elite Guardian">
 		<!-- AUTO GENERATED NPC TODO: FIX IT -->
 		<race>HUMANOID</race>
 		<sex>MALE</sex>
+		<equipment rhand="97301" /> <!-- Gorde's Flame Spear -->
+		<acquire exp="1706457" sp="17059" attributeExp="1301" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="140993.03797" hpRegen="10.2" mp="11502" mpRegen="3.6" />
+			<vitals hp="87404.43" hpRegen="10.2" mp="2770.2" mpRegen="3.6" />
+			<attack physical="3888" magical="2654" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="2660" magical="1108" />
+			<speed>
+				<walk ground="60" />
+				<run ground="150" />
+			</speed>
+			<hitTime>600</hitTime>
+		</stats>
+		<status attackable="true" />
+		<collision>
+			<radius normal="21" />
+			<height normal="43.2" />
+		</collision>
+		<skillList>
+			<skill id="4416" level="6" /> <!-- Humanoids -->
+		</skillList>
+	</npc>
+	<npc id="22553" level="91" type="Monster" name="Fortress' Elite Guardian">
+		<!-- AUTO GENERATED NPC TODO: FIX IT -->
+		<race>HUMANOID</race>
+		<sex>MALE</sex>
+		<equipment rhand="92404" lhand="94301" /> <!-- Zaken's Blood Sword / Shield of Vengeance -->
+		<acquire exp="1706457" sp="17059" attributeExp="1301" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="87404.43" hpRegen="10.2" mp="2770.2" mpRegen="3.6" />
+			<attack physical="3888" magical="2654" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="2660" magical="1108" />
+			<speed>
+				<walk ground="60" />
+				<run ground="150" />
+			</speed>
+			<hitTime>600</hitTime>
+		</stats>
+		<status attackable="true" />
+		<collision>
+			<radius normal="22.4" />
+			<height normal="50.9" />
+		</collision>
+		<skillList>
+			<skill id="4416" level="6" /> <!-- Humanoids -->
+		</skillList>
+	</npc>
+	<npc id="22554" level="91" type="Monster" name="Fortress' Elite Guardian">
+		<!-- AUTO GENERATED NPC TODO: FIX IT -->
+		<race>HUMANOID</race>
+		<sex>MALE</sex>
+		<equipment rhand="92421" /> <!-- Queen Ant's Stone Breaker -->
+		<acquire exp="1706457" sp="17059" attributeExp="1301" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="87404.43" hpRegen="10.2" mp="2770.2" mpRegen="3.6" />
+			<attack physical="3888" magical="2654" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="2660" magical="1108" />
+			<speed>
+				<walk ground="50" />
+				<run ground="150" />
+			</speed>
+			<hitTime>600</hitTime>
+		</stats>
+		<status attackable="true" />
+		<collision>
+			<radius normal="15.4" />
+			<height normal="36.9" />
+		</collision>
+		<skillList>
+			<skill id="4416" level="6" /> <!-- Humanoids -->
+		</skillList>
+	</npc>
+	<npc id="22555" level="91" type="Monster" name="Fortress' Elite Guardian">
+		<!-- AUTO GENERATED NPC TODO: FIX IT -->
+		<race>HUMANOID</race>
+		<sex>MALE</sex>
+		<equipment rhand="96268" /> <!-- Beleth' Soul Eater -->
+		<acquire exp="1706457" sp="17059" attributeExp="1301" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="87404.43" hpRegen="10.2" mp="2770.2" mpRegen="3.6" />
+			<attack physical="3888" magical="2654" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="2660" magical="1108" />
+			<speed>
+				<walk ground="50" />
+				<run ground="150" />
+			</speed>
+			<hitTime>600</hitTime>
+		</stats>
+		<status attackable="true" />
+		<collision>
+			<radius normal="19.6" />
+			<height normal="41.8" />
+		</collision>
+		<skillList>
+			<skill id="4416" level="6" /> <!-- Humanoids -->
+		</skillList>
+	</npc>
+	<npc id="22556" level="86" type="Monster" name="Outer Castle's Guardian">
+		<!-- AUTO GENERATED NPC TODO: FIX IT -->
+		<race>HUMANOID</race>
+		<sex>MALE</sex>
+		<equipment rhand="8683" /> <!-- Tiphon's Spear -->
+		<acquire exp="185070" sp="1849" attributeExp="946" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="35125.95" hpRegen="10.2" mp="2770.2" mpRegen="3.6" />
 			<attack physical="2780" magical="1898" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
 			<defence physical="1552" magical="856" />
 			<speed>
@@ -1578,19 +1680,21 @@
 		</stats>
 		<status attackable="true" />
 		<collision>
-			<radius normal="15" />
-			<height normal="30" />
+			<radius normal="21" />
+			<height normal="43.2" />
 		</collision>
 		<skillList>
 			<skill id="4416" level="6" /> <!-- Humanoids -->
 		</skillList>
 	</npc>
-	<npc id="22553" level="87" type="Monster" name="Castle's Elite Guardian">
+	<npc id="22557" level="86" type="Monster" name="Outer Castle's Guardian">
 		<!-- AUTO GENERATED NPC TODO: FIX IT -->
 		<race>HUMANOID</race>
 		<sex>MALE</sex>
+		<equipment rhand="8678" lhand="2498" /> <!-- Sirra's Blade / Shield of Nightmare -->
+		<acquire exp="185070" sp="1849" attributeExp="946" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="140993.03797" hpRegen="10.2" mp="11502" mpRegen="3.6" />
+			<vitals hp="35125.95" hpRegen="10.2" mp="2770.2" mpRegen="3.6" />
 			<attack physical="2780" magical="1898" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
 			<defence physical="1552" magical="856" />
 			<speed>
@@ -1601,19 +1705,21 @@
 		</stats>
 		<status attackable="true" />
 		<collision>
-			<radius normal="16" />
-			<height normal="35.5" />
+			<radius normal="22.4" />
+			<height normal="50.9" />
 		</collision>
 		<skillList>
 			<skill id="4416" level="6" /> <!-- Humanoids -->
 		</skillList>
 	</npc>
-	<npc id="22554" level="87" type="Monster" name="Castle's Elite Guardian">
+	<npc id="22558" level="86" type="Monster" name="Outer Castle's Guardian">
 		<!-- AUTO GENERATED NPC TODO: FIX IT -->
 		<race>HUMANOID</race>
 		<sex>MALE</sex>
+		<equipment rhand="8687" /> <!-- Cabrio's Hand -->
+		<acquire exp="185070" sp="1849" attributeExp="946" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="140993.03797" hpRegen="10.2" mp="11502" mpRegen="3.6" />
+			<vitals hp="35125.95" hpRegen="10.2" mp="2770.2" mpRegen="3.6" />
 			<attack physical="2780" magical="1898" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
 			<defence physical="1552" magical="856" />
 			<speed>
@@ -1624,19 +1730,21 @@
 		</stats>
 		<status attackable="true" />
 		<collision>
-			<radius normal="11" />
-			<height normal="25.5" />
+			<radius normal="15.4" />
+			<height normal="36.9" />
 		</collision>
 		<skillList>
 			<skill id="4416" level="6" /> <!-- Humanoids -->
 		</skillList>
 	</npc>
-	<npc id="22555" level="87" type="Monster" name="Castle's Elite Guardian">
+	<npc id="22559" level="86" type="Monster" name="Outer Castle's Guardian">
 		<!-- AUTO GENERATED NPC TODO: FIX IT -->
 		<race>HUMANOID</race>
 		<sex>MALE</sex>
+		<equipment rhand="8688" /> <!-- Daimon Crystal -->
+		<acquire exp="185070" sp="1849" attributeExp="946" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="140993.03797" hpRegen="10.2" mp="11502" mpRegen="3.6" />
+			<vitals hp="35125.95" hpRegen="10.2" mp="2770.2" mpRegen="3.6" />
 			<attack physical="2780" magical="1898" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
 			<defence physical="1552" magical="856" />
 			<speed>
@@ -1647,100 +1755,8 @@
 		</stats>
 		<status attackable="true" />
 		<collision>
-			<radius normal="14" />
-			<height normal="29" />
-		</collision>
-		<skillList>
-			<skill id="4416" level="6" /> <!-- Humanoids -->
-		</skillList>
-	</npc>
-	<npc id="22556" level="87" type="Monster" name="Outer Castle's Guardian">
-		<!-- AUTO GENERATED NPC TODO: FIX IT -->
-		<race>HUMANOID</race>
-		<sex>MALE</sex>
-		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="140993.03797" hpRegen="10.2" mp="11502" mpRegen="3.6" />
-			<attack physical="2780" magical="1898" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
-			<defence physical="1552" magical="856" />
-			<speed>
-				<walk ground="60" />
-				<run ground="150" />
-			</speed>
-			<hitTime>600</hitTime>
-		</stats>
-		<status attackable="true" />
-		<collision>
-			<radius normal="15" />
-			<height normal="30" />
-		</collision>
-		<skillList>
-			<skill id="4416" level="6" /> <!-- Humanoids -->
-		</skillList>
-	</npc>
-	<npc id="22557" level="87" type="Monster" name="Outer Castle's Guardian">
-		<!-- AUTO GENERATED NPC TODO: FIX IT -->
-		<race>HUMANOID</race>
-		<sex>MALE</sex>
-		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="140993.03797" hpRegen="10.2" mp="11502" mpRegen="3.6" />
-			<attack physical="2780" magical="1898" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
-			<defence physical="1552" magical="856" />
-			<speed>
-				<walk ground="60" />
-				<run ground="150" />
-			</speed>
-			<hitTime>600</hitTime>
-		</stats>
-		<status attackable="true" />
-		<collision>
-			<radius normal="16" />
-			<height normal="35.5" />
-		</collision>
-		<skillList>
-			<skill id="4416" level="6" /> <!-- Humanoids -->
-		</skillList>
-	</npc>
-	<npc id="22558" level="87" type="Monster" name="Outer Castle's Guardian">
-		<!-- AUTO GENERATED NPC TODO: FIX IT -->
-		<race>HUMANOID</race>
-		<sex>MALE</sex>
-		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="140993.03797" hpRegen="10.2" mp="11502" mpRegen="3.6" />
-			<attack physical="2780" magical="1898" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
-			<defence physical="1552" magical="856" />
-			<speed>
-				<walk ground="50" />
-				<run ground="150" />
-			</speed>
-			<hitTime>600</hitTime>
-		</stats>
-		<status attackable="true" />
-		<collision>
-			<radius normal="11" />
-			<height normal="25.5" />
-		</collision>
-		<skillList>
-			<skill id="4416" level="6" /> <!-- Humanoids -->
-		</skillList>
-	</npc>
-	<npc id="22559" level="87" type="Monster" name="Outer Castle's Guardian">
-		<!-- AUTO GENERATED NPC TODO: FIX IT -->
-		<race>HUMANOID</race>
-		<sex>MALE</sex>
-		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="140993.03797" hpRegen="10.2" mp="11502" mpRegen="3.6" />
-			<attack physical="2780" magical="1898" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
-			<defence physical="1552" magical="856" />
-			<speed>
-				<walk ground="50" />
-				<run ground="150" />
-			</speed>
-			<hitTime>600</hitTime>
-		</stats>
-		<status attackable="true" />
-		<collision>
-			<radius normal="14" />
-			<height normal="29" />
+			<radius normal="19.6" />
+			<height normal="41.8" />
 		</collision>
 		<skillList>
 			<skill id="4416" level="6" /> <!-- Humanoids -->
@@ -1752,7 +1768,7 @@
 		<sex>MALE</sex>
 		<acquire exp="48731" sp="484" attributeExp="842" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="11087.7135" hpRegen="10.2" mp="2770.2" mpRegen="3.6" />
+			<vitals hp="12196.48485" hpRegen="10.2" mp="2770.2" mpRegen="3.6" />
 			<attack physical="2226.2521499701" magical="1520.24164482038" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
 			<defence physical="998.10183" magical="730.36761" />
 			<speed>
@@ -1773,7 +1789,7 @@
 		<dropLists>
 			<drop>
 				<item id="57" min="1183" max="1308" chance="70" /> <!-- Adena -->
-				<item id="97830" min="1" max="1" chance="0.024" /> <!-- Tower of Insolence's Time Stone -->
+				<item id="97830" min="1" max="1" chance="0.022" /> <!-- Tower of Insolence's Time Stone -->
 			</drop>
 		</dropLists>
 	</npc>
@@ -1783,7 +1799,7 @@
 		<sex>MALE</sex>
 		<acquire exp="48731" sp="484" attributeExp="935" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="11087.7135" hpRegen="10.2" mp="2770.2" mpRegen="3.6" />
+			<vitals hp="12196.48485" hpRegen="10.2" mp="2770.2" mpRegen="3.6" />
 			<attack physical="2226.2521499701" magical="1520.24164482038" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
 			<defence physical="998.10183" magical="730.36761" />
 			<speed>
@@ -1804,7 +1820,7 @@
 		<dropLists>
 			<drop>
 				<item id="57" min="1183" max="1308" chance="70" /> <!-- Adena -->
-				<item id="97830" min="1" max="1" chance="0.024" /> <!-- Tower of Insolence's Time Stone -->
+				<item id="97830" min="1" max="1" chance="0.022" /> <!-- Tower of Insolence's Time Stone -->
 			</drop>
 		</dropLists>
 	</npc>
@@ -1814,7 +1830,7 @@
 		<sex>MALE</sex>
 		<acquire exp="48731" sp="484" attributeExp="1029" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="11087.7135" hpRegen="10.2" mp="2770.2" mpRegen="3.6" />
+			<vitals hp="12196.48485" hpRegen="10.2" mp="2770.2" mpRegen="3.6" />
 			<attack physical="2226.2521499701" magical="1520.24164482038" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
 			<defence physical="998.10183" magical="730.36761" />
 			<speed>
@@ -1837,7 +1853,7 @@
 				<item id="57" min="1183" max="1308" chance="70" /> <!-- Adena -->
 				<item id="91767" min="1" max="1" chance="0.016" /> <!-- Enchant Kit: Talisman of Aden - Sealed -->
 				<item id="93903" min="1" max="1" chance="0.0006" /> <!-- Antharas' Lair's Time Stone -->
-				<item id="97830" min="1" max="1" chance="0.024" /> <!-- Tower of Insolence's Time Stone -->
+				<item id="97830" min="1" max="1" chance="0.022" /> <!-- Tower of Insolence's Time Stone -->
 			</drop>
 		</dropLists>
 	</npc>
@@ -1848,7 +1864,7 @@
 		<equipment rhand="15302" /> <!-- Transparent Bow (NPC) - Not Available -->
 		<acquire exp="48731" sp="484" attributeExp="1122" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="11087.7135" hpRegen="10.2" mp="2770.2" mpRegen="3.6" />
+			<vitals hp="12196.48485" hpRegen="10.2" mp="2770.2" mpRegen="3.6" />
 			<attack physical="2226.2521499701" magical="1520.24164482038" random="5" critical="8" accuracy="0" attackSpeed="253" type="BOW" range="1100" distance="10" width="0" />
 			<defence physical="998.10183" magical="730.36761" />
 			<speed>
@@ -1871,7 +1887,7 @@
 				<item id="57" min="1183" max="1308" chance="70" /> <!-- Adena -->
 				<item id="91767" min="1" max="1" chance="0.016" /> <!-- Enchant Kit: Talisman of Aden - Sealed -->
 				<item id="93903" min="1" max="1" chance="0.0006" /> <!-- Antharas' Lair's Time Stone -->
-				<item id="97830" min="1" max="1" chance="0.024" /> <!-- Tower of Insolence's Time Stone -->
+				<item id="97830" min="1" max="1" chance="0.022" /> <!-- Tower of Insolence's Time Stone -->
 			</drop>
 		</dropLists>
 	</npc>
@@ -1881,7 +1897,7 @@
 		<sex>MALE</sex>
 		<acquire exp="72317" sp="723" attributeExp="1216" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="11087.7135" hpRegen="10.2" mp="2770.2" mpRegen="3.6" />
+			<vitals hp="12196.48485" hpRegen="10.2" mp="2770.2" mpRegen="3.6" />
 			<attack physical="2226.2521499701" magical="1520.24164482038" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
 			<defence physical="998.10183" magical="730.36761" />
 			<speed>
@@ -1904,7 +1920,7 @@
 				<item id="57" min="1755" max="1942" chance="70" /> <!-- Adena -->
 				<item id="91767" min="1" max="1" chance="0.008" /> <!-- Enchant Kit: Talisman of Aden - Sealed -->
 				<item id="93903" min="1" max="1" chance="0.0009" /> <!-- Antharas' Lair's Time Stone -->
-				<item id="97830" min="1" max="1" chance="0.024" /> <!-- Tower of Insolence's Time Stone -->
+				<item id="97830" min="1" max="1" chance="0.022" /> <!-- Tower of Insolence's Time Stone -->
 				<item id="95436" min="1" max="1" chance="0.004" /> <!-- Guardian Messenger's Spear -->
 				<item id="95437" min="1" max="1" chance="0.004" /> <!-- Sealed Angel's Hammer -->
 			</drop>
@@ -1916,7 +1932,7 @@
 		<sex>MALE</sex>
 		<acquire exp="74028" sp="740" attributeExp="946" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="17709.49367" hpRegen="10.2" mp="2770.2" mpRegen="3.6" />
+			<vitals hp="19480.2256" hpRegen="10.2" mp="2770.2" mpRegen="3.6" />
 			<attack physical="2503" magical="1709" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
 			<defence physical="1275" magical="793" />
 			<speed>
@@ -1937,7 +1953,7 @@
 		<dropLists>
 			<drop>
 				<item id="57" min="1880" max="2078" chance="70" /> <!-- Adena -->
-				<item id="97830" min="1" max="1" chance="0.024" /> <!-- Tower of Insolence's Time Stone -->
+				<item id="97830" min="1" max="1" chance="0.022" /> <!-- Tower of Insolence's Time Stone -->
 			</drop>
 		</dropLists>
 	</npc>
@@ -1947,7 +1963,7 @@
 		<sex>MALE</sex>
 		<acquire exp="74028" sp="740" attributeExp="1041" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="17709.49367" hpRegen="10.2" mp="2770.2" mpRegen="3.6" />
+			<vitals hp="19480.2256" hpRegen="10.2" mp="2770.2" mpRegen="3.6" />
 			<attack physical="2503" magical="1709" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
 			<defence physical="1275" magical="793" />
 			<speed>
@@ -1968,7 +1984,7 @@
 		<dropLists>
 			<drop>
 				<item id="57" min="1880" max="2078" chance="70" /> <!-- Adena -->
-				<item id="97830" min="1" max="1" chance="0.024" /> <!-- Tower of Insolence's Time Stone -->
+				<item id="97830" min="1" max="1" chance="0.022" /> <!-- Tower of Insolence's Time Stone -->
 			</drop>
 		</dropLists>
 	</npc>
@@ -1978,7 +1994,7 @@
 		<sex>MALE</sex>
 		<acquire exp="74028" sp="740" attributeExp="1135" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="17709.49367" hpRegen="10.2" mp="2770.2" mpRegen="3.6" />
+			<vitals hp="19480.2256" hpRegen="10.2" mp="2770.2" mpRegen="3.6" />
 			<attack physical="2503" magical="1709" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
 			<defence physical="1275" magical="793" />
 			<speed>
@@ -2001,7 +2017,7 @@
 				<item id="57" min="1880" max="2078" chance="70" /> <!-- Adena -->
 				<item id="91767" min="1" max="1" chance="0.028" /> <!-- Enchant Kit: Talisman of Aden - Sealed -->
 				<item id="93903" min="1" max="1" chance="0.001" /> <!-- Antharas' Lair's Time Stone -->
-				<item id="97830" min="1" max="1" chance="0.024" /> <!-- Tower of Insolence's Time Stone -->
+				<item id="97830" min="1" max="1" chance="0.022" /> <!-- Tower of Insolence's Time Stone -->
 			</drop>
 		</dropLists>
 	</npc>
@@ -2012,7 +2028,7 @@
 		<equipment rhand="15302" /> <!-- Transparent Bow (NPC) - Not Available -->
 		<acquire exp="74028" sp="740" attributeExp="1135" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="17709.49367" hpRegen="10.2" mp="2770.2" mpRegen="3.6" />
+			<vitals hp="19480.2256" hpRegen="10.2" mp="2770.2" mpRegen="3.6" />
 			<attack physical="2503" magical="1709" random="5" critical="8" accuracy="0" attackSpeed="253" type="BOW" range="1100" distance="10" width="0" />
 			<defence physical="1275" magical="793" />
 			<speed>
@@ -2035,7 +2051,7 @@
 				<item id="57" min="1880" max="2078" chance="70" /> <!-- Adena -->
 				<item id="91767" min="1" max="1" chance="0.028" /> <!-- Enchant Kit: Talisman of Aden - Sealed -->
 				<item id="93903" min="1" max="1" chance="0.001" /> <!-- Antharas' Lair's Time Stone -->
-				<item id="97830" min="1" max="1" chance="0.024" /> <!-- Tower of Insolence's Time Stone -->
+				<item id="97830" min="1" max="1" chance="0.022" /> <!-- Tower of Insolence's Time Stone -->
 			</drop>
 		</dropLists>
 	</npc>
@@ -2045,7 +2061,7 @@
 		<sex>MALE</sex>
 		<acquire exp="117988" sp="1176" attributeExp="1230" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="17709.49367" hpRegen="10.2" mp="2770.2" mpRegen="3.6" />
+			<vitals hp="19480.2256" hpRegen="10.2" mp="2770.2" mpRegen="3.6" />
 			<attack physical="2503" magical="1709" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
 			<defence physical="1275" magical="793" />
 			<speed>
@@ -2068,7 +2084,7 @@
 				<item id="57" min="2872" max="3173" chance="70" /> <!-- Adena -->
 				<item id="91767" min="1" max="1" chance="0.014" /> <!-- Enchant Kit: Talisman of Aden - Sealed -->
 				<item id="93903" min="1" max="1" chance="0.002" /> <!-- Antharas' Lair's Time Stone -->
-				<item id="97830" min="1" max="1" chance="0.024" /> <!-- Tower of Insolence's Time Stone -->
+				<item id="97830" min="1" max="1" chance="0.022" /> <!-- Tower of Insolence's Time Stone -->
 				<item id="95436" min="1" max="1" chance="0.008" /> <!-- Guardian Messenger's Spear -->
 				<item id="95437" min="1" max="1" chance="0.008" /> <!-- Sealed Angel's Hammer -->
 			</drop>
@@ -2080,7 +2096,7 @@
 		<sex>MALE</sex>
 		<acquire exp="120748" sp="1203" attributeExp="861" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="23227.21519" hpRegen="10.2" mp="2770.2" mpRegen="3.6" />
+			<vitals hp="25549.6843239" hpRegen="10.2" mp="2770.2" mpRegen="3.6" />
 			<attack physical="2780" magical="1898" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
 			<defence physical="1552" magical="856" />
 			<speed>
@@ -2101,7 +2117,7 @@
 		<dropLists>
 			<drop>
 				<item id="57" min="2723" max="3012" chance="70" /> <!-- Adena -->
-				<item id="97830" min="1" max="1" chance="0.025" /> <!-- Tower of Insolence's Time Stone -->
+				<item id="97830" min="1" max="1" chance="0.022" /> <!-- Tower of Insolence's Time Stone -->
 			</drop>
 		</dropLists>
 	</npc>
@@ -2111,7 +2127,7 @@
 		<sex>MALE</sex>
 		<acquire exp="120748" sp="1203" attributeExp="957" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="23227.21519" hpRegen="10.2" mp="2770.2" mpRegen="3.6" />
+			<vitals hp="25549.6843239" hpRegen="10.2" mp="2770.2" mpRegen="3.6" />
 			<attack physical="2780" magical="1898" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
 			<defence physical="1552" magical="856" />
 			<speed>
@@ -2132,7 +2148,7 @@
 		<dropLists>
 			<drop>
 				<item id="57" min="2723" max="3012" chance="70" /> <!-- Adena -->
-				<item id="97830" min="1" max="1" chance="0.025" /> <!-- Tower of Insolence's Time Stone -->
+				<item id="97830" min="1" max="1" chance="0.022" /> <!-- Tower of Insolence's Time Stone -->
 			</drop>
 		</dropLists>
 	</npc>
@@ -2142,7 +2158,7 @@
 		<sex>MALE</sex>
 		<acquire exp="120748" sp="1203" attributeExp="1053" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="23227.21519" hpRegen="10.2" mp="2770.2" mpRegen="3.6" />
+			<vitals hp="25549.6843239" hpRegen="10.2" mp="2770.2" mpRegen="3.6" />
 			<attack physical="2780" magical="1898" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
 			<defence physical="1552" magical="856" />
 			<speed>
@@ -2166,7 +2182,7 @@
 				<item id="91767" min="1" max="1" chance="0.022" /> <!-- Enchant Kit: Talisman of Aden - Sealed -->
 				<item id="93303" min="1" max="1" chance="0.007" /> <!-- Package: Cloak of Protection - Sealed -->
 				<item id="93903" min="1" max="1" chance="0.002" /> <!-- Antharas' Lair's Time Stone -->
-				<item id="97830" min="1" max="1" chance="0.025" /> <!-- Tower of Insolence's Time Stone -->
+				<item id="97830" min="1" max="1" chance="0.022" /> <!-- Tower of Insolence's Time Stone -->
 			</drop>
 		</dropLists>
 	</npc>
@@ -2177,7 +2193,7 @@
 		<equipment rhand="94359" /> <!-- For Monster only (Crossbow) -->
 		<acquire exp="120748" sp="1203" attributeExp="1148" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="23227.21519" hpRegen="10.2" mp="2770.2" mpRegen="3.6" />
+			<vitals hp="25549.6843239" hpRegen="10.2" mp="2770.2" mpRegen="3.6" />
 			<attack physical="2780" magical="1898" random="5" critical="8" accuracy="0" attackSpeed="253" type="BOW" range="1100" distance="10" width="0" />
 			<defence physical="1552" magical="856" />
 			<speed>
@@ -2201,7 +2217,7 @@
 				<item id="91767" min="1" max="1" chance="0.022" /> <!-- Enchant Kit: Talisman of Aden - Sealed -->
 				<item id="93303" min="1" max="1" chance="0.007" /> <!-- Package: Cloak of Protection - Sealed -->
 				<item id="93903" min="1" max="1" chance="0.002" /> <!-- Antharas' Lair's Time Stone -->
-				<item id="97830" min="1" max="1" chance="0.025" /> <!-- Tower of Insolence's Time Stone -->
+				<item id="97830" min="1" max="1" chance="0.022" /> <!-- Tower of Insolence's Time Stone -->
 			</drop>
 		</dropLists>
 	</npc>
@@ -2211,7 +2227,7 @@
 		<sex>MALE</sex>
 		<acquire exp="190797" sp="1907" attributeExp="1244" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="23227.21519" hpRegen="10.2" mp="2770.2" mpRegen="3.6" />
+			<vitals hp="25549.6843239" hpRegen="10.2" mp="2770.2" mpRegen="3.6" />
 			<attack physical="2780" magical="1898" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
 			<defence physical="1552" magical="856" />
 			<speed>
@@ -2235,7 +2251,7 @@
 				<item id="91767" min="1" max="1" chance="0.016" /> <!-- Enchant Kit: Talisman of Aden - Sealed -->
 				<item id="93303" min="1" max="1" chance="0.005" /> <!-- Package: Cloak of Protection - Sealed -->
 				<item id="93903" min="1" max="1" chance="0.002" /> <!-- Antharas' Lair's Time Stone -->
-				<item id="97830" min="1" max="1" chance="0.025" /> <!-- Tower of Insolence's Time Stone -->
+				<item id="97830" min="1" max="1" chance="0.022" /> <!-- Tower of Insolence's Time Stone -->
 				<item id="95436" min="1" max="1" chance="0.009" /> <!-- Guardian Messenger's Spear -->
 				<item id="95437" min="1" max="1" chance="0.009" /> <!-- Sealed Angel's Hammer -->
 			</drop>
@@ -2248,7 +2264,7 @@
 		<equipment rhand="84" /> <!-- Homunkulus' Sword -->
 		<acquire exp="195209" sp="1951" attributeExp="871" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="27872.1519" hpRegen="10.2" mp="2770.2" mpRegen="3.6" />
+			<vitals hp="30659.6211911" hpRegen="10.2" mp="2770.2" mpRegen="3.6" />
 			<attack physical="3057" magical="2087" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
 			<defence physical="1829" magical="919" />
 			<speed>
@@ -2269,7 +2285,7 @@
 		<dropLists>
 			<drop>
 				<item id="57" min="4502" max="4979" chance="70" /> <!-- Adena -->
-				<item id="97830" min="1" max="1" chance="0.025" /> <!-- Tower of Insolence's Time Stone -->
+				<item id="97830" min="1" max="1" chance="0.022" /> <!-- Tower of Insolence's Time Stone -->
 			</drop>
 		</dropLists>
 	</npc>
@@ -2279,7 +2295,7 @@
 		<sex>MALE</sex>
 		<acquire exp="195209" sp="1951" attributeExp="968" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="27872.1519" hpRegen="10.2" mp="2770.2" mpRegen="3.6" />
+			<vitals hp="30659.6211911" hpRegen="10.2" mp="2770.2" mpRegen="3.6" />
 			<attack physical="3057" magical="2087" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
 			<defence physical="1829" magical="919" />
 			<speed>
@@ -2300,7 +2316,7 @@
 		<dropLists>
 			<drop>
 				<item id="57" min="4502" max="4979" chance="70" /> <!-- Adena -->
-				<item id="97830" min="1" max="1" chance="0.025" /> <!-- Tower of Insolence's Time Stone -->
+				<item id="97830" min="1" max="1" chance="0.022" /> <!-- Tower of Insolence's Time Stone -->
 			</drop>
 		</dropLists>
 	</npc>
@@ -2311,7 +2327,7 @@
 		<equipment rhand="142" /> <!-- Keshanberk -->
 		<acquire exp="195209" sp="1951" attributeExp="1065" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="27872.1519" hpRegen="10.2" mp="2770.2" mpRegen="3.6" />
+			<vitals hp="30659.6211911" hpRegen="10.2" mp="2770.2" mpRegen="3.6" />
 			<attack physical="3057" magical="2087" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
 			<defence physical="1829" magical="919" />
 			<speed>
@@ -2335,7 +2351,7 @@
 				<item id="91767" min="1" max="1" chance="0.039" /> <!-- Enchant Kit: Talisman of Aden - Sealed -->
 				<item id="93303" min="1" max="1" chance="0.013" /> <!-- Package: Cloak of Protection - Sealed -->
 				<item id="93903" min="1" max="1" chance="0.001" /> <!-- Antharas' Lair's Time Stone -->
-				<item id="97830" min="1" max="1" chance="0.025" /> <!-- Tower of Insolence's Time Stone -->
+				<item id="97830" min="1" max="1" chance="0.022" /> <!-- Tower of Insolence's Time Stone -->
 				<item id="96623" min="1" max="1" chance="0.004" /> <!-- Dye Powder -->
 			</drop>
 		</dropLists>
@@ -2346,7 +2362,7 @@
 		<sex>MALE</sex>
 		<acquire exp="195209" sp="1951" attributeExp="1162" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="27872.1519" hpRegen="10.2" mp="2770.2" mpRegen="3.6" />
+			<vitals hp="30659.6211911" hpRegen="10.2" mp="2770.2" mpRegen="3.6" />
 			<attack physical="3057" magical="2087" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
 			<defence physical="1829" magical="919" />
 			<speed>
@@ -2370,7 +2386,7 @@
 				<item id="91767" min="1" max="1" chance="0.039" /> <!-- Enchant Kit: Talisman of Aden - Sealed -->
 				<item id="93303" min="1" max="1" chance="0.013" /> <!-- Package: Cloak of Protection - Sealed -->
 				<item id="93903" min="1" max="1" chance="0.001" /> <!-- Antharas' Lair's Time Stone -->
-				<item id="97830" min="1" max="1" chance="0.025" /> <!-- Tower of Insolence's Time Stone -->
+				<item id="97830" min="1" max="1" chance="0.022" /> <!-- Tower of Insolence's Time Stone -->
 				<item id="96623" min="1" max="1" chance="0.004" /> <!-- Dye Powder -->
 			</drop>
 		</dropLists>
@@ -2382,7 +2398,7 @@
 		<equipment rhand="78" /> <!-- Great Sword -->
 		<acquire exp="297492" sp="2974" attributeExp="1258" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="27872.1519" hpRegen="10.2" mp="2770.2" mpRegen="3.6" />
+			<vitals hp="30659.6211911" hpRegen="10.2" mp="2770.2" mpRegen="3.6" />
 			<attack physical="3057" magical="2087" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
 			<defence physical="1829" magical="919" />
 			<speed>
@@ -2406,7 +2422,7 @@
 				<item id="91767" min="1" max="1" chance="0.029" /> <!-- Enchant Kit: Talisman of Aden - Sealed -->
 				<item id="93303" min="1" max="1" chance="0.009" /> <!-- Package: Cloak of Protection - Sealed -->
 				<item id="93903" min="1" max="1" chance="0.002" /> <!-- Antharas' Lair's Time Stone -->
-				<item id="97830" min="1" max="1" chance="0.025" /> <!-- Tower of Insolence's Time Stone -->
+				<item id="97830" min="1" max="1" chance="0.022" /> <!-- Tower of Insolence's Time Stone -->
 				<item id="96623" min="1" max="1" chance="0.006" /> <!-- Dye Powder -->
 				<item id="95436" min="1" max="1" chance="0.016" /> <!-- Guardian Messenger's Spear -->
 				<item id="95437" min="1" max="1" chance="0.016" /> <!-- Sealed Angel's Hammer -->
@@ -2420,7 +2436,7 @@
 		<equipment rhand="79" /> <!-- Damascus Sword -->
 		<acquire exp="304291" sp="3042" attributeExp="881" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="33446.83544" hpRegen="10.2" mp="2770.2" mpRegen="3.6" />
+			<vitals hp="36791.5454269" hpRegen="10.2" mp="2770.2" mpRegen="3.6" />
 			<attack physical="3334" magical="2276" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
 			<defence physical="2106" magical="982" />
 			<speed>
@@ -2441,7 +2457,7 @@
 		<dropLists>
 			<drop>
 				<item id="57" min="7397" max="8178" chance="70" /> <!-- Adena -->
-				<item id="97830" min="1" max="1" chance="0.025" /> <!-- Tower of Insolence's Time Stone -->
+				<item id="97830" min="1" max="1" chance="0.022" /> <!-- Tower of Insolence's Time Stone -->
 			</drop>
 		</dropLists>
 	</npc>
@@ -2451,7 +2467,7 @@
 		<sex>MALE</sex>
 		<acquire exp="304291" sp="3042" attributeExp="979" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="33446.83544" hpRegen="10.2" mp="2770.2" mpRegen="3.6" />
+			<vitals hp="36791.5454269" hpRegen="10.2" mp="2770.2" mpRegen="3.6" />
 			<attack physical="3334" magical="2276" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
 			<defence physical="2106" magical="982" />
 			<speed>
@@ -2472,7 +2488,7 @@
 		<dropLists>
 			<drop>
 				<item id="57" min="7397" max="8178" chance="70" /> <!-- Adena -->
-				<item id="97830" min="1" max="1" chance="0.025" /> <!-- Tower of Insolence's Time Stone -->
+				<item id="97830" min="1" max="1" chance="0.022" /> <!-- Tower of Insolence's Time Stone -->
 			</drop>
 		</dropLists>
 	</npc>
@@ -2482,7 +2498,7 @@
 		<sex>MALE</sex>
 		<acquire exp="304291" sp="3042" attributeExp="1077" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="33446.83544" hpRegen="10.2" mp="2770.2" mpRegen="3.6" />
+			<vitals hp="36791.5454269" hpRegen="10.2" mp="2770.2" mpRegen="3.6" />
 			<attack physical="3334" magical="2276" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
 			<defence physical="2106" magical="982" />
 			<speed>
@@ -2506,7 +2522,7 @@
 				<item id="91767" min="1" max="1" chance="0.07" /> <!-- Enchant Kit: Talisman of Aden - Sealed -->
 				<item id="93303" min="1" max="1" chance="0.023" /> <!-- Package: Cloak of Protection - Sealed -->
 				<item id="93903" min="1" max="1" chance="0.003" /> <!-- Antharas' Lair's Time Stone -->
-				<item id="97830" min="1" max="1" chance="0.025" /> <!-- Tower of Insolence's Time Stone -->
+				<item id="97830" min="1" max="1" chance="0.022" /> <!-- Tower of Insolence's Time Stone -->
 				<item id="96623" min="1" max="1" chance="0.008" /> <!-- Dye Powder -->
 			</drop>
 		</dropLists>
@@ -2517,7 +2533,7 @@
 		<sex>MALE</sex>
 		<acquire exp="304291" sp="3042" attributeExp="1175" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="33446.83544" hpRegen="10.2" mp="2770.2" mpRegen="3.6" />
+			<vitals hp="36791.5454269" hpRegen="10.2" mp="2770.2" mpRegen="3.6" />
 			<attack physical="3334" magical="2276" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
 			<defence physical="2106" magical="982" />
 			<speed>
@@ -2541,7 +2557,7 @@
 				<item id="91767" min="1" max="1" chance="0.07" /> <!-- Enchant Kit: Talisman of Aden - Sealed -->
 				<item id="93303" min="1" max="1" chance="0.023" /> <!-- Package: Cloak of Protection - Sealed -->
 				<item id="93903" min="1" max="1" chance="0.003" /> <!-- Antharas' Lair's Time Stone -->
-				<item id="97830" min="1" max="1" chance="0.025" /> <!-- Tower of Insolence's Time Stone -->
+				<item id="97830" min="1" max="1" chance="0.022" /> <!-- Tower of Insolence's Time Stone -->
 				<item id="96623" min="1" max="1" chance="0.008" /> <!-- Dye Powder -->
 			</drop>
 		</dropLists>
@@ -2552,7 +2568,7 @@
 		<sex>MALE</sex>
 		<acquire exp="448377" sp="4483" attributeExp="1273" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="33446.83544" hpRegen="10.2" mp="2770.2" mpRegen="3.6" />
+			<vitals hp="36791.5454269" hpRegen="10.2" mp="2770.2" mpRegen="3.6" />
 			<attack physical="3334" magical="2276" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
 			<defence physical="2106" magical="982" />
 			<speed>
@@ -2576,7 +2592,7 @@
 				<item id="91767" min="1" max="1" chance="0.051" /> <!-- Enchant Kit: Talisman of Aden - Sealed -->
 				<item id="93303" min="1" max="1" chance="0.017" /> <!-- Package: Cloak of Protection - Sealed -->
 				<item id="93903" min="1" max="1" chance="0.004" /> <!-- Antharas' Lair's Time Stone -->
-				<item id="97830" min="1" max="1" chance="0.025" /> <!-- Tower of Insolence's Time Stone -->
+				<item id="97830" min="1" max="1" chance="0.022" /> <!-- Tower of Insolence's Time Stone -->
 				<item id="96623" min="1" max="1" chance="0.011" /> <!-- Dye Powder -->
 				<item id="95436" min="1" max="1" chance="0.029" /> <!-- Guardian Messenger's Spear -->
 				<item id="95437" min="1" max="1" chance="0.029" /> <!-- Sealed Angel's Hammer -->
@@ -2589,7 +2605,7 @@
 		<sex>MALE</sex>
 		<acquire exp="458510" sp="4585" attributeExp="891" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="40136.07595" hpRegen="10.2" mp="2770.2" mpRegen="3.6" />
+			<vitals hp="44149.8545147" hpRegen="10.2" mp="2770.2" mpRegen="3.6" />
 			<attack physical="3611" magical="2465" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
 			<defence physical="2383" magical="1045" />
 			<speed>
@@ -2610,7 +2626,7 @@
 		<dropLists>
 			<drop>
 				<item id="57" min="11497" max="12716" chance="70" /> <!-- Adena -->
-				<item id="97830" min="1" max="1" chance="0.025" /> <!-- Tower of Insolence's Time Stone -->
+				<item id="97830" min="1" max="1" chance="0.022" /> <!-- Tower of Insolence's Time Stone -->
 			</drop>
 		</dropLists>
 	</npc>
@@ -2620,7 +2636,7 @@
 		<sex>MALE</sex>
 		<acquire exp="458510" sp="4585" attributeExp="990" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="40136.07595" hpRegen="10.2" mp="2770.2" mpRegen="3.6" />
+			<vitals hp="44149.8545147" hpRegen="10.2" mp="2770.2" mpRegen="3.6" />
 			<attack physical="3611" magical="2465" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
 			<defence physical="2383" magical="1045" />
 			<speed>
@@ -2641,7 +2657,7 @@
 		<dropLists>
 			<drop>
 				<item id="57" min="11497" max="12716" chance="70" /> <!-- Adena -->
-				<item id="97830" min="1" max="1" chance="0.025" /> <!-- Tower of Insolence's Time Stone -->
+				<item id="97830" min="1" max="1" chance="0.022" /> <!-- Tower of Insolence's Time Stone -->
 			</drop>
 		</dropLists>
 	</npc>
@@ -2652,7 +2668,7 @@
 		<equipment rhand="15302" /> <!-- Transparent Bow (NPC) - Not Available -->
 		<acquire exp="458510" sp="4585" attributeExp="1089" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="40136.07595" hpRegen="10.2" mp="2770.2" mpRegen="3.6" />
+			<vitals hp="44149.8545147" hpRegen="10.2" mp="2770.2" mpRegen="3.6" />
 			<attack physical="3611" magical="2465" random="5" critical="8" accuracy="0" attackSpeed="253" type="BOW" range="1100" distance="10" width="0" />
 			<defence physical="2383" magical="1045" />
 			<speed>
@@ -2676,7 +2692,7 @@
 				<item id="91767" min="1" max="1" chance="0.117" /> <!-- Enchant Kit: Talisman of Aden - Sealed -->
 				<item id="93303" min="1" max="1" chance="0.038" /> <!-- Package: Cloak of Protection - Sealed -->
 				<item id="93903" min="1" max="1" chance="0.004" /> <!-- Antharas' Lair's Time Stone -->
-				<item id="97830" min="1" max="1" chance="0.025" /> <!-- Tower of Insolence's Time Stone -->
+				<item id="97830" min="1" max="1" chance="0.022" /> <!-- Tower of Insolence's Time Stone -->
 				<item id="96623" min="1" max="1" chance="0.013" /> <!-- Dye Powder -->
 			</drop>
 		</dropLists>
@@ -2687,7 +2703,7 @@
 		<sex>MALE</sex>
 		<acquire exp="458510" sp="4585" attributeExp="1188" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="40136.07595" hpRegen="10.2" mp="2770.2" mpRegen="3.6" />
+			<vitals hp="44149.8545147" hpRegen="10.2" mp="2770.2" mpRegen="3.6" />
 			<attack physical="3611" magical="2465" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
 			<defence physical="2383" magical="1045" />
 			<speed>
@@ -2711,7 +2727,7 @@
 				<item id="91767" min="1" max="1" chance="0.117" /> <!-- Enchant Kit: Talisman of Aden - Sealed -->
 				<item id="93303" min="1" max="1" chance="0.038" /> <!-- Package: Cloak of Protection - Sealed -->
 				<item id="93903" min="1" max="1" chance="0.004" /> <!-- Antharas' Lair's Time Stone -->
-				<item id="97830" min="1" max="1" chance="0.025" /> <!-- Tower of Insolence's Time Stone -->
+				<item id="97830" min="1" max="1" chance="0.022" /> <!-- Tower of Insolence's Time Stone -->
 				<item id="96623" min="1" max="1" chance="0.013" /> <!-- Dye Powder -->
 			</drop>
 		</dropLists>
@@ -2722,7 +2738,7 @@
 		<sex>MALE</sex>
 		<acquire exp="667663" sp="6674" attributeExp="1287" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="40136.07595" hpRegen="10.2" mp="2770.2" mpRegen="3.6" />
+			<vitals hp="44149.8545147" hpRegen="10.2" mp="2770.2" mpRegen="3.6" />
 			<attack physical="3611" magical="2465" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
 			<defence physical="2383" magical="1045" />
 			<speed>
@@ -2746,7 +2762,7 @@
 				<item id="91767" min="1" max="1" chance="0.084" /> <!-- Enchant Kit: Talisman of Aden - Sealed -->
 				<item id="93303" min="1" max="1" chance="0.027" /> <!-- Package: Cloak of Protection - Sealed -->
 				<item id="93903" min="1" max="1" chance="0.006" /> <!-- Antharas' Lair's Time Stone -->
-				<item id="97830" min="1" max="1" chance="0.025" /> <!-- Tower of Insolence's Time Stone -->
+				<item id="97830" min="1" max="1" chance="0.022" /> <!-- Tower of Insolence's Time Stone -->
 				<item id="96623" min="1" max="1" chance="0.018" /> <!-- Dye Powder -->
 				<item id="95436" min="1" max="1" chance="0.047" /> <!-- Guardian Messenger's Spear -->
 				<item id="95437" min="1" max="1" chance="0.047" /> <!-- Sealed Angel's Hammer -->
@@ -2760,7 +2776,7 @@
 		<equipment rhand="148" /> <!-- Sword of Valhalla -->
 		<acquire exp="682583" sp="6824" attributeExp="1101" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="48163.29114" hpRegen="10.2" mp="2770.2" mpRegen="3.6" />
+			<vitals hp="52979.8254128" hpRegen="10.2" mp="2770.2" mpRegen="3.6" />
 			<attack physical="3888" magical="2654" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
 			<defence physical="2660" magical="1108" />
 			<speed>
@@ -2781,7 +2797,7 @@
 		<dropLists>
 			<drop>
 				<item id="57" min="16285" max="18001" chance="70" /> <!-- Adena -->
-				<item id="97830" min="1" max="1" chance="0.025" /> <!-- Tower of Insolence's Time Stone -->
+				<item id="97830" min="1" max="1" chance="0.022" /> <!-- Tower of Insolence's Time Stone -->
 			</drop>
 		</dropLists>
 	</npc>
@@ -2792,7 +2808,7 @@
 		<equipment rhand="6718" /> <!-- Monster Only (Einhasad Shaman) -->
 		<acquire exp="682583" sp="6824" attributeExp="1201" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="48163.29114" hpRegen="10.2" mp="2770.2" mpRegen="3.6" />
+			<vitals hp="52979.8254128" hpRegen="10.2" mp="2770.2" mpRegen="3.6" />
 			<attack physical="3888" magical="2654" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
 			<defence physical="2660" magical="1108" />
 			<speed>
@@ -2816,7 +2832,7 @@
 				<item id="91767" min="1" max="1" chance="0.181" /> <!-- Enchant Kit: Talisman of Aden - Sealed -->
 				<item id="93303" min="1" max="1" chance="0.059" /> <!-- Package: Cloak of Protection - Sealed -->
 				<item id="93903" min="1" max="1" chance="0.007" /> <!-- Antharas' Lair's Time Stone -->
-				<item id="97830" min="1" max="1" chance="0.025" /> <!-- Tower of Insolence's Time Stone -->
+				<item id="97830" min="1" max="1" chance="0.022" /> <!-- Tower of Insolence's Time Stone -->
 				<item id="96623" min="1" max="1" chance="0.02" /> <!-- Dye Powder -->
 			</drop>
 		</dropLists>
@@ -2828,7 +2844,7 @@
 		<equipment rhand="6717" /> <!-- Monster Only (Einhasad Warrior) -->
 		<acquire exp="682583" sp="6824" attributeExp="1201" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="48163.29114" hpRegen="10.2" mp="2770.2" mpRegen="3.6" />
+			<vitals hp="52979.8254128" hpRegen="10.2" mp="2770.2" mpRegen="3.6" />
 			<attack physical="3888" magical="2654" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
 			<defence physical="2660" magical="1108" />
 			<speed>
@@ -2852,7 +2868,7 @@
 				<item id="91767" min="1" max="1" chance="0.181" /> <!-- Enchant Kit: Talisman of Aden - Sealed -->
 				<item id="93303" min="1" max="1" chance="0.059" /> <!-- Package: Cloak of Protection - Sealed -->
 				<item id="93903" min="1" max="1" chance="0.007" /> <!-- Antharas' Lair's Time Stone -->
-				<item id="97830" min="1" max="1" chance="0.025" /> <!-- Tower of Insolence's Time Stone -->
+				<item id="97830" min="1" max="1" chance="0.022" /> <!-- Tower of Insolence's Time Stone -->
 				<item id="96623" min="1" max="1" chance="0.02" /> <!-- Dye Powder -->
 			</drop>
 		</dropLists>
@@ -2864,7 +2880,7 @@
 		<equipment rhand="148" /> <!-- Sword of Valhalla -->
 		<acquire exp="864028" sp="8637" attributeExp="1301" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="48163.29114" hpRegen="10.2" mp="2770.2" mpRegen="3.6" />
+			<vitals hp="52979.8254128" hpRegen="10.2" mp="2770.2" mpRegen="3.6" />
 			<attack physical="3888" magical="2654" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
 			<defence physical="2660" magical="1108" />
 			<speed>
@@ -2888,7 +2904,7 @@
 				<item id="91767" min="1" max="1" chance="0.128" /> <!-- Enchant Kit: Talisman of Aden - Sealed -->
 				<item id="93303" min="1" max="1" chance="0.041" /> <!-- Package: Cloak of Protection - Sealed -->
 				<item id="93903" min="1" max="1" chance="0.009" /> <!-- Antharas' Lair's Time Stone -->
-				<item id="97830" min="1" max="1" chance="0.025" /> <!-- Tower of Insolence's Time Stone -->
+				<item id="97830" min="1" max="1" chance="0.022" /> <!-- Tower of Insolence's Time Stone -->
 				<item id="96623" min="1" max="1" chance="0.028" /> <!-- Dye Powder -->
 				<item id="95436" min="1" max="1" chance="0.072" /> <!-- Guardian Messenger's Spear -->
 				<item id="95437" min="1" max="1" chance="0.072" /> <!-- Sealed Angel's Hammer -->
@@ -2902,7 +2918,7 @@
 		<equipment rhand="6717" /> <!-- Monster Only (Einhasad Warrior) -->
 		<acquire exp="883122" sp="8828" attributeExp="1316" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="57796.20253" hpRegen="10.2" mp="2770.2" mpRegen="3.6" />
+			<vitals hp="63575.7905002" hpRegen="10.2" mp="2770.2" mpRegen="3.6" />
 			<attack physical="4165" magical="2843" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
 			<defence physical="2937" magical="1171" />
 			<speed>
@@ -2923,7 +2939,7 @@
 		<dropLists>
 			<drop>
 				<item id="57" min="22019" max="24333" chance="70" /> <!-- Adena -->
-				<item id="97830" min="1" max="1" chance="0.025" /> <!-- Tower of Insolence's Time Stone -->
+				<item id="97830" min="1" max="1" chance="0.022" /> <!-- Tower of Insolence's Time Stone -->
 			</drop>
 		</dropLists>
 	</npc>
@@ -2934,12 +2950,12 @@
 		<equipment rhand="148" /> <!-- Sword of Valhalla -->
 		<acquire exp="883122" sp="8828" attributeExp="1316" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="57796.20253" hpRegen="10.2" mp="2770.2" mpRegen="3.6" />
+			<vitals hp="63575.7905002" hpRegen="10.2" mp="2770.2" mpRegen="3.6" />
 			<attack physical="4165" magical="2843" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
 			<defence physical="2937" magical="1171" />
 			<speed>
 				<walk ground="30" />
-				<run ground="220" />
+				<run ground="170" />
 			</speed>
 			<hitTime>600</hitTime>
 		</stats>
@@ -2958,7 +2974,7 @@
 				<item id="91767" min="1" max="1" chance="0.278" /> <!-- Enchant Kit: Talisman of Aden - Sealed -->
 				<item id="93303" min="1" max="1" chance="0.09" /> <!-- Package: Cloak of Protection - Sealed -->
 				<item id="93903" min="1" max="1" chance="0.01" /> <!-- Antharas' Lair's Time Stone -->
-				<item id="97830" min="1" max="1" chance="0.025" /> <!-- Tower of Insolence's Time Stone -->
+				<item id="97830" min="1" max="1" chance="0.022" /> <!-- Tower of Insolence's Time Stone -->
 				<item id="96623" min="1" max="1" chance="0.03" /> <!-- Dye Powder -->
 			</drop>
 		</dropLists>
@@ -2970,7 +2986,7 @@
 		<equipment rhand="15302" /> <!-- Transparent Bow (NPC) - Not Available -->
 		<acquire exp="883122" sp="8828" attributeExp="1316" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="57796.20253" hpRegen="10.2" mp="2770.2" mpRegen="3.6" />
+			<vitals hp="63575.7905002" hpRegen="10.2" mp="2770.2" mpRegen="3.6" />
 			<attack physical="4165" magical="2843" random="5" critical="8" accuracy="0" attackSpeed="253" type="BOW" range="1100" distance="10" width="0" />
 			<defence physical="2937" magical="1171" />
 			<speed>
@@ -2994,7 +3010,7 @@
 				<item id="91767" min="1" max="1" chance="0.278" /> <!-- Enchant Kit: Talisman of Aden - Sealed -->
 				<item id="93303" min="1" max="1" chance="0.09" /> <!-- Package: Cloak of Protection - Sealed -->
 				<item id="93903" min="1" max="1" chance="0.01" /> <!-- Antharas' Lair's Time Stone -->
-				<item id="97830" min="1" max="1" chance="0.025" /> <!-- Tower of Insolence's Time Stone -->
+				<item id="97830" min="1" max="1" chance="0.022" /> <!-- Tower of Insolence's Time Stone -->
 				<item id="96623" min="1" max="1" chance="0.03" /> <!-- Dye Powder -->
 			</drop>
 		</dropLists>
@@ -3005,7 +3021,7 @@
 		<sex>MALE</sex>
 		<acquire exp="1278662" sp="12781" attributeExp="1316" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="57796.20253" hpRegen="10.2" mp="2770.2" mpRegen="3.6" />
+			<vitals hp="63575.7905002" hpRegen="10.2" mp="2770.2" mpRegen="3.6" />
 			<attack physical="4165" magical="2843" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
 			<defence physical="2937" magical="1171" />
 			<speed>
@@ -3029,7 +3045,7 @@
 				<item id="91767" min="1" max="1" chance="0.194" /> <!-- Enchant Kit: Talisman of Aden - Sealed -->
 				<item id="93303" min="1" max="1" chance="0.063" /> <!-- Package: Cloak of Protection - Sealed -->
 				<item id="93903" min="1" max="1" chance="0.014" /> <!-- Antharas' Lair's Time Stone -->
-				<item id="97830" min="1" max="1" chance="0.025" /> <!-- Tower of Insolence's Time Stone -->
+				<item id="97830" min="1" max="1" chance="0.022" /> <!-- Tower of Insolence's Time Stone -->
 				<item id="96623" min="1" max="1" chance="0.042" /> <!-- Dye Powder -->
 				<item id="95436" min="1" max="1" chance="0.109" /> <!-- Guardian Messenger's Spear -->
 				<item id="95437" min="1" max="1" chance="0.109" /> <!-- Sealed Angel's Hammer -->
@@ -3043,7 +3059,7 @@
 		<equipment rhand="148" /> <!-- Sword of Valhalla -->
 		<acquire exp="1306610" sp="13060" attributeExp="1330" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="69355.6962" hpRegen="10.2" mp="2770.2" mpRegen="3.6" />
+			<vitals hp="76290.9485954" hpRegen="10.2" mp="2770.2" mpRegen="3.6" />
 			<attack physical="4442" magical="3032" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
 			<defence physical="3214" magical="1234" />
 			<speed>
@@ -3064,7 +3080,7 @@
 		<dropLists>
 			<drop>
 				<item id="57" min="29122" max="32189" chance="70" /> <!-- Adena -->
-				<item id="97830" min="1" max="1" chance="0.025" /> <!-- Tower of Insolence's Time Stone -->
+				<item id="97830" min="1" max="1" chance="0.022" /> <!-- Tower of Insolence's Time Stone -->
 			</drop>
 		</dropLists>
 	</npc>
@@ -3075,7 +3091,7 @@
 		<equipment rhand="6718" /> <!-- Monster Only (Einhasad Shaman) -->
 		<acquire exp="1306610" sp="13060" attributeExp="1330" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="69355.6962" hpRegen="10.2" mp="2770.2" mpRegen="3.6" />
+			<vitals hp="76290.9485954" hpRegen="10.2" mp="2770.2" mpRegen="3.6" />
 			<attack physical="4442" magical="3032" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
 			<defence physical="3214" magical="1234" />
 			<speed>
@@ -3099,7 +3115,7 @@
 				<item id="91767" min="1" max="1" chance="0.421" /> <!-- Enchant Kit: Talisman of Aden - Sealed -->
 				<item id="93303" min="1" max="1" chance="0.137" /> <!-- Package: Cloak of Protection - Sealed -->
 				<item id="93903" min="1" max="1" chance="0.015" /> <!-- Antharas' Lair's Time Stone -->
-				<item id="97830" min="1" max="1" chance="0.025" /> <!-- Tower of Insolence's Time Stone -->
+				<item id="97830" min="1" max="1" chance="0.022" /> <!-- Tower of Insolence's Time Stone -->
 				<item id="96623" min="1" max="1" chance="0.046" /> <!-- Dye Powder -->
 			</drop>
 		</dropLists>

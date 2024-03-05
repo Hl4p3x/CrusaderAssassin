@@ -29,7 +29,7 @@
 		<set name="is_sellable" val="false" />
 	</item>
 	<item id="72245" name="Festival Gift Box" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="BranchSys.br_gold_box_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -83,12 +83,12 @@
 			<item id="91690" min="30" max="30" chance="2.325581" /> <!-- Special HP Recovery Potion - Sealed -->
 			<item id="94269" min="3" max="3" chance="2.325581" /> <!-- Scroll: Boost Attack - Sealed -->
 			<item id="94271" min="3" max="3" chance="2.325581" /> <!-- Scroll: Boost Defense - Sealed -->
-			<item id="91712" min="3" max="3" chance="2.325581" /> <!-- Sayha's Storm Lv. 3 - Sealed -->
+			<item id="91712" min="3" max="3" chance="2.325581" /> <!-- Sayha's Storm - Sealed -->
 			<item id="91641" min="3" max="3" chance="2.325581" /> <!-- Sayha's Blessing - Sealed -->
 		</capsuled_items>
 	</item>
 	<item id="72246" name="Kit: Growth Support (Lv. 1-75)" type="EtcItem">
-		<!-- Double-click to get more information about the contents. <font color=ff6666>Note!</font>. Required level: 1-75. -->
+		<!-- Double-click to obtain various items. <font color=ff6666>Note!</font>. Required level: 1-75. -->
 		<set name="icon" val="br_cashtex.item.br_cash_lucky_cube_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -105,7 +105,7 @@
 		</capsuled_items>
 	</item>
 	<item id="72247" name="Daily Kit: Support" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="BranchSys.icon.br_fortuna_cube_s_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -118,7 +118,7 @@
 		<capsuled_items>
 			<item id="91641" min="50" max="50" chance="100" /> <!-- Sayha's Blessing - Sealed -->
 			<item id="49674" min="15" max="15" chance="100" /> <!-- XP Growth Scroll - Sealed -->
-			<item id="91712" min="15" max="15" chance="100" /> <!-- Sayha's Storm Lv. 3 - Sealed -->
+			<item id="91712" min="15" max="15" chance="100" /> <!-- Sayha's Storm - Sealed -->
 			<item id="94269" min="15" max="15" chance="100" /> <!-- Scroll: Boost Attack - Sealed -->
 			<item id="94271" min="15" max="15" chance="100" /> <!-- Scroll: Boost Defense - Sealed -->
 			<item id="90835" min="5" max="5" chance="100" /> <!-- Life Control Tower's Scroll of Blessing - Sealed -->
@@ -127,7 +127,7 @@
 		</capsuled_items>
 	</item>
 	<item id="72250" name="XP Bonus Rune Pack (7-day)" additionalName="7-day" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.etc_pi_gift_box_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -153,7 +153,7 @@
 		<set name="time" val="10080" />
 	</item>
 	<item id="72252" name="XP Bonus Rune Pack (15-day)" additionalName="15-day" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.etc_pi_gift_box_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -179,7 +179,7 @@
 		<set name="time" val="21600" />
 	</item>
 	<item id="72254" name="XP Bonus Rune Pack (30-day)" additionalName="30-day" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.etc_pi_gift_box_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -220,7 +220,7 @@
 		</stats>
 	</item>
 	<item id="72257" name="Returning Hero's Welcome Gift" additionalName="THE HERO" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.bm_2018_special_box" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -298,7 +298,7 @@
 		<set name="is_sellable" val="false" />
 	</item>
 	<item id="72264" name="Sayha's Treasure Chest (Time-limited)" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.bm_sayha_gold_present" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -373,7 +373,7 @@
 		</capsuled_items>
 	</item>
 	<item id="72265" name="17th Anniversary Master's Pack (Time-limited)" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.bm_special_pendant_abradant_box" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -392,7 +392,7 @@
 			<item id="93499" min="1" max="1" chance="7.692307" /> <!-- Enchanted B-grade Weapon Coupon - Sealed -->
 			<item id="93500" min="1" max="1" chance="7.692307" /> <!-- Enchanted B-grade Armor Coupon - Sealed -->
 			<item id="94620" min="1" max="1" chance="7.692307" /> <!-- Primeval Isle's Time Stone (Time-limited) - Sealed -->
-			<item id="93073" min="2" max="2" chance="7.692307" /> <!-- Sayha's Storm Lv. 3 (Time-limited) - Sealed -->
+			<item id="93073" min="2" max="2" chance="7.692307" /> <!-- Sayha's Storm (Time-limited) - Sealed -->
 			<item id="91840" min="2" max="2" chance="7.692307" /> <!-- XP Growth Scroll (Time-limited) - Sealed -->
 			<item id="94380" min="5" max="5" chance="7.692307" /> <!-- Scroll: Boost Attack (Time-limited) - Sealed -->
 			<item id="94381" min="5" max="5" chance="7.692307" /> <!-- Scroll: Boost Defense (Time-limited) - Sealed -->
@@ -413,7 +413,7 @@
 		<set name="time" val="10080" />
 	</item>
 	<item id="72270" name="Lineage 2 PA Support Kit (Time-limited)" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.etc_pi_gift_box_i03" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -462,7 +462,7 @@
 		<set name="is_sellable" val="false" />
 	</item>
 	<item id="72283" name="Aden's Treasure Chest (Time-limited)" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.event_july_seven_park_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -489,11 +489,11 @@
 			<item id="93685" min="1" max="1" chance="100" /> <!-- Enchant Kit: Talisman of Speed - Sealed -->
 			<item id="91864" min="1" max="1" chance="100" /> <!-- Dragon Belt Pack - Sealed -->
 			<item id="91641" min="2" max="2" chance="100" /> <!-- Sayha's Blessing - Sealed -->
-			<item id="91712" min="1" max="1" chance="100" /> <!-- Sayha's Storm Lv. 3 - Sealed -->
+			<item id="91712" min="1" max="1" chance="100" /> <!-- Sayha's Storm - Sealed -->
 		</capsuled_items>
 	</item>
 	<item id="72284" name="Hero's Lost Trophy" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.bm_gold_lure_box" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -562,7 +562,7 @@
 		<set name="is_sellable" val="false" />
 	</item>
 	<item id="72291" name="L-Coins (1000 pcs.)" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.bm_lcoin_box_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -576,7 +576,7 @@
 		</capsuled_items>
 	</item>
 	<item id="72292" name="L-Coins (8000 pcs.)" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.bm_lcoin_box_i03" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />

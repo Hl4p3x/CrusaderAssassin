@@ -1783,7 +1783,7 @@
 		</conditions>
 		<effects>
 			<effect name="SummonNpc">
-				<npcId>9023</npcId> <!-- Campfire -->
+				<npcId>9023</npcId> <!-- Bonfire -->
 				<npcCount>1</npcCount>
 				<despawnDelay>30000</despawnDelay>
 			</effect>

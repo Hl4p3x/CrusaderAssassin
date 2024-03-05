@@ -125,7 +125,7 @@
 		<magic_skill id="3098" level="10" chance="2.0" /> <!-- Item Skill: Stun -->
 	</option>
 	<option id="16331" name="o_s_75_2u_45">
-		<!-- Item Skill: Decreases Skill MP Consumption. -->
+		<!-- Item skill: Decreases Skill MP Consumption. -->
 		<passive_skill id="3258" level="3" /> <!-- Item Skill: Clarity -->
 	</option>
 	<option id="16332" name="o_s_75_2u_46">

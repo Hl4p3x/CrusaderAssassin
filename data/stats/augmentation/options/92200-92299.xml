@@ -298,6 +298,7 @@
 		<!-- Received Healing +5% -->
 	</option>
 	<option id="92299" name="P. Atk. +60">
+		<!-- P. Atk. +60 -->
 		<effects>
 			<effect name="PAtk">
 				<amount>60</amount>

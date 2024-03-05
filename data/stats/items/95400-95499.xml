@@ -202,7 +202,7 @@
 		</stats>
 	</item>
 	<item id="95411" name="Jewelry Box - Onyx" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.etc_bm_jewelbox_onyx_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -221,7 +221,7 @@
 		</capsuled_items>
 	</item>
 	<item id="95412" name="Jewelry Box - Coral" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.etc_bm_jewelbox_coral_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -239,7 +239,7 @@
 		</capsuled_items>
 	</item>
 	<item id="95413" name="Jewelry Box - Spinel" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.etc_bm_jewelbox_garnet_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -747,7 +747,7 @@
 		</stats>
 	</item>
 	<item id="95432" name="Excuro's Staff" type="Weapon">
-		<!-- <Pet equipment effect>. Increases P./ M. Atk. <Acquisition>. Cruma Tower Purge. <font color=ff6666><Unavailable to Sylphs/ Vanguard Riders></font> -->
+		<!-- <Pet equipment effect>. Increases P./ M. Atk. <Acquisition>. Cruma Tower Purge. <font color=ff6666><Unavailable to Sylphs/ Vanguard Riders/ Assassins.></font> -->
 		<set name="icon" val="icon.subjugation_wp_staff_01" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="BLUNT" />
@@ -777,7 +777,7 @@
 		</skills>
 	</item>
 	<item id="95433" name="Torfe's Claw" type="Weapon">
-		<!-- <Pet equipment effect>. Increases P./ M. Atk. <Acquisition>. Cruma Tower Purge. <font color=ff6666><Unavailable to Sylphs/ Vanguard Riders></font> -->
+		<!-- <Pet equipment effect>. Increases P./ M. Atk. <Acquisition>. Cruma Tower Purge. <font color=ff6666><Unavailable to Sylphs/ Vanguard Riders/ Assassins.></font> -->
 		<set name="icon" val="icon.subjugation_wp_dualfist_01" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="FIST" />
@@ -807,7 +807,7 @@
 		</skills>
 	</item>
 	<item id="95434" name="Giants' Club" type="Weapon">
-		<!-- <Pet equipment effect>. Increases P./ M. Atk. <Acquisition>. Silent Valley Purge. <font color=ff6666><Unavailable to Sylphs/ Vanguard Riders></font> -->
+		<!-- <Pet equipment effect>. Increases P./ M. Atk. <Acquisition>. Silent Valley Purge. <font color=ff6666><Unavailable to Sylphs/ Vanguard Riders/ Assassins.></font> -->
 		<set name="icon" val="icon.subjugation_wp_blunt_01" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="BLUNT" />
@@ -898,7 +898,7 @@
 		</skills>
 	</item>
 	<item id="95437" name="Sealed Angel's Hammer" type="Weapon">
-		<!-- <Pet equipment effect>. Increases P./ M. Atk. <Acquisition>. Tower of Insolence - World Hunting Zone. <font color=ff6666><Unavailable to Sylphs/ Vanguard Riders></font> -->
+		<!-- <Pet equipment effect>. Increases P./ M. Atk. <Acquisition>. Tower of Insolence - World Hunting Zone. <font color=ff6666><Unavailable to Sylphs/ Vanguard Riders/ Assassins.></font> -->
 		<set name="icon" val="icon.subjugation_wp_twohandblunt_01" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="BLUNT" />
@@ -928,7 +928,7 @@
 		</skills>
 	</item>
 	<item id="95438" name="Lizardman Shaman's Staff" type="Weapon">
-		<!-- <Pet equipment effect>. Increases P./ M. Atk. <Acquisition>. Plains of the Lizardmen Purge. <font color=ff6666><Unavailable to Sylphs/ Vanguard Riders></font> -->
+		<!-- <Pet equipment effect>. Increases P./ M. Atk. <Acquisition>. Plains of the Lizardmen Purge. <font color=ff6666><Unavailable to Sylphs/ Vanguard Riders/ Assassins.></font> -->
 		<set name="icon" val="icon.subjugation_wp_twohandstaff_01" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="BLUNT" />
@@ -1019,7 +1019,7 @@
 		</skills>
 	</item>
 	<item id="95441" name="Dragon Bone Blade" type="Weapon">
-		<!-- <Pet equipment effect>. Increases P./ M. Atk. <Acquisition>. Dragon Valley Purge. <font color=ff6666><Unavailable to Humans/ Elves/ Dark Elves/ Sylphs/ Vanguard Riders.></font> -->
+		<!-- <Pet equipment effect>. Increases P./ M. Atk. <Acquisition>. Dragon Valley Purge. <font color=ff6666><Unavailable to Humans/ Elves/ Dark Elves/ Sylphs/ Vanguard Riders/ Assassins.></font> -->
 		<set name="icon" val="icon.subjugation_wp_ancientsword_01" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="ANCIENTSWORD" />
@@ -1049,7 +1049,7 @@
 		</skills>
 	</item>
 	<item id="95442" name="Berserker's Sword" type="Weapon">
-		<!-- <Pet equipment effect>. Increases P./ M. Atk. <Acquisition>. Sel Mahum Base Purge. <font color=ff6666><Unavailable to Sylphs/ Vanguard Riders.></font> -->
+		<!-- <Pet equipment effect>. Increases P./ M. Atk. <Acquisition>. Sel Mahum Base Purge. <font color=ff6666><Unavailable to Sylphs/ Vanguard Riders/ Assassins.></font> -->
 		<set name="icon" val="icon.subjugation_wp_sword_01" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="SWORD" />
@@ -1078,7 +1078,7 @@
 		</skills>
 	</item>
 	<item id="95443" name="Sel Mahum Sniper" type="Weapon">
-		<!-- <Pet equipment effect>. Increases P./ M. Atk. <Acquisition>. Sel Mahum Base Purge. <font color=ff6666><Unavailable to Sylphs/ Vanguard Riders.></font> -->
+		<!-- <Pet equipment effect>. Increases P./ M. Atk. <Acquisition>. Sel Mahum Base Purge. <font color=ff6666><Unavailable to Sylphs/ Vanguard Riders/ Assassins.></font> -->
 		<set name="icon" val="icon.subjugation_wp_bow_01" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="BOW" />
@@ -1109,7 +1109,7 @@
 		</skills>
 	</item>
 	<item id="95444" name="Turek Orc Prefect's Dual Swords" type="Weapon">
-		<!-- When enchanting dual swords, two-handed swords/ blunts, and fists, the P. Atk. bonus is higher than that of one-handed weapons. <Pet equipment effect>. Increases P./ M. Atk. <Acquisition>. Orc Barracks Purge. <font color=ff6666><Unavailable to Sylphs/ Vanguard Riders.></font> -->
+		<!-- When enchanting dual swords, two-handed swords/ blunts, and fists, the P. Atk. bonus is higher than that of one-handed weapons. <Pet equipment effect>. Increases P./ M. Atk. <Acquisition>. Orc Barracks Purge. <font color=ff6666><Unavailable to Sylphs/ Vanguard Riders/ Assassins.></font> -->
 		<set name="icon" val="icon.subjugation_wp_dual_01" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="DUAL" />
@@ -1138,7 +1138,7 @@
 		</skills>
 	</item>
 	<item id="95445" name="Butcher's Long Sword" type="Weapon">
-		<!-- <Pet equipment effect>. Increases P./ M. Atk. <Acquisition>. Orc Barracks Purge. <font color=ff6666><Unavailable to Sylphs/ Vanguard Riders.></font> -->
+		<!-- <Pet equipment effect>. Increases P./ M. Atk. <Acquisition>. Orc Barracks Purge. <font color=ff6666><Unavailable to Sylphs/ Vanguard Riders/ Assassins.></font> -->
 		<set name="icon" val="icon.subjugation_wp_twohandsword_01" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="SWORD" />
@@ -1167,7 +1167,7 @@
 		</skills>
 	</item>
 	<item id="95446" name="Excuro's Staff" additionalName="Sealed" type="Weapon">
-		<!-- <Pet equipment effect>. Increases P./ M. Atk. <Acquisition>. Cruma Tower Purge. <font color=ff6666><Unavailable to Sylphs/ Vanguard Riders></font> -->
+		<!-- <Pet equipment effect>. Increases P./ M. Atk. <Acquisition>. Cruma Tower Purge. <font color=ff6666><Unavailable to Sylphs/ Vanguard Riders/ Assassins.></font> -->
 		<set name="icon" val="icon.subjugation_wp_staff_01" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="BLUNT" />
@@ -1199,7 +1199,7 @@
 		</skills>
 	</item>
 	<item id="95447" name="Torfe's Claw" additionalName="Sealed" type="Weapon">
-		<!-- <Pet equipment effect>. Increases P./ M. Atk. <Acquisition>. Cruma Tower Purge. <font color=ff6666><Unavailable to Sylphs/ Vanguard Riders></font> -->
+		<!-- <Pet equipment effect>. Increases P./ M. Atk. <Acquisition>. Cruma Tower Purge. <font color=ff6666><Unavailable to Sylphs/ Vanguard Riders/ Assassins.></font> -->
 		<set name="icon" val="icon.subjugation_wp_dualfist_01" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="FIST" />
@@ -1231,7 +1231,7 @@
 		</skills>
 	</item>
 	<item id="95448" name="Giants' Club" additionalName="Sealed" type="Weapon">
-		<!-- <Pet equipment effect>. Increases P./ M. Atk. <Acquisition>. Silent Valley Purge. <font color=ff6666><Unavailable to Sylphs/ Vanguard Riders></font> -->
+		<!-- <Pet equipment effect>. Increases P./ M. Atk. <Acquisition>. Silent Valley Purge. <font color=ff6666><Unavailable to Sylphs/ Vanguard Riders/ Assassins.></font> -->
 		<set name="icon" val="icon.subjugation_wp_blunt_01" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="BLUNT" />
@@ -1328,7 +1328,7 @@
 		</skills>
 	</item>
 	<item id="95451" name="Sealed Angel's Hammer" additionalName="Sealed" type="Weapon">
-		<!-- <Pet equipment effect>. Increases P./ M. Atk. <Acquisition>. Tower of Insolence - World Hunting Zone. <font color=ff6666><Unavailable to Sylphs/ Vanguard Riders></font> -->
+		<!-- <Pet equipment effect>. Increases P./ M. Atk. <Acquisition>. Tower of Insolence - World Hunting Zone. <font color=ff6666><Unavailable to Sylphs/ Vanguard Riders/ Assassins.></font> -->
 		<set name="icon" val="icon.subjugation_wp_twohandblunt_01" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="BLUNT" />
@@ -1360,7 +1360,7 @@
 		</skills>
 	</item>
 	<item id="95452" name="Lizardman Shaman's Staff" additionalName="Sealed" type="Weapon">
-		<!-- <Pet equipment effect>. Increases P./ M. Atk. <Acquisition>. Plains of the Lizardmen Purge. <font color=ff6666><Unavailable to Sylphs/ Vanguard Riders></font> -->
+		<!-- <Pet equipment effect>. Increases P./ M. Atk. <Acquisition>. Plains of the Lizardmen Purge. <font color=ff6666><Unavailable to Sylphs/ Vanguard Riders/ Assassins.></font> -->
 		<set name="icon" val="icon.subjugation_wp_twohandstaff_01" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="BLUNT" />
@@ -1457,7 +1457,7 @@
 		</skills>
 	</item>
 	<item id="95455" name="Dragon Bone Blade" additionalName="Sealed" type="Weapon">
-		<!-- <Pet equipment effect>. Increases P./ M. Atk. <Acquisition>. Dragon Valley Purge. <font color=ff6666><Unavailable to Humans/ Elves/ Dark Elves/ Sylphs/ Vanguard Riders.></font> -->
+		<!-- <Pet equipment effect>. Increases P./ M. Atk. <Acquisition>. Dragon Valley Purge. <font color=ff6666><Unavailable to Humans/ Elves/ Dark Elves/ Sylphs/ Vanguard Riders/ Assassins.></font> -->
 		<set name="icon" val="icon.subjugation_wp_ancientsword_01" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="ANCIENTSWORD" />
@@ -1489,7 +1489,7 @@
 		</skills>
 	</item>
 	<item id="95456" name="Berserker's Sword" additionalName="Sealed" type="Weapon">
-		<!-- <Pet equipment effect>. Increases P./ M. Atk. <Acquisition>. Sel Mahum Base Purge. <font color=ff6666><Unavailable to Sylphs/ Vanguard Riders.></font> -->
+		<!-- <Pet equipment effect>. Increases P./ M. Atk. <Acquisition>. Sel Mahum Base Purge. <font color=ff6666><Unavailable to Sylphs/ Vanguard Riders/ Assassins.></font> -->
 		<set name="icon" val="icon.subjugation_wp_sword_01" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="SWORD" />
@@ -1520,7 +1520,7 @@
 		</skills>
 	</item>
 	<item id="95457" name="Sel Mahum Sniper" additionalName="Sealed" type="Weapon">
-		<!-- <Pet equipment effect>. Increases P./ M. Atk. <Acquisition>. Sel Mahum Base Purge. <font color=ff6666><Unavailable to Sylphs/ Vanguard Riders.></font> -->
+		<!-- <Pet equipment effect>. Increases P./ M. Atk. <Acquisition>. Sel Mahum Base Purge. <font color=ff6666><Unavailable to Sylphs/ Vanguard Riders/ Assassins.></font> -->
 		<set name="icon" val="icon.subjugation_wp_bow_01" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="BOW" />
@@ -1553,7 +1553,7 @@
 		</skills>
 	</item>
 	<item id="95458" name="Turek Orc Prefect's Dual Swords" additionalName="Sealed" type="Weapon">
-		<!-- When enchanting dual swords, two-handed swords/ blunts, and fists, the P. Atk. bonus is higher than that of one-handed weapons. <Pet equipment effect>. Increases P./ M. Atk. <Acquisition>. Orc Barracks Purge. <font color=ff6666><Unavailable to Sylphs/ Vanguard Riders.></font> -->
+		<!-- When enchanting dual swords, two-handed swords/ blunts, and fists, the P. Atk. bonus is higher than that of one-handed weapons. <Pet equipment effect>. Increases P./ M. Atk. <Acquisition>. Orc Barracks Purge. <font color=ff6666><Unavailable to Sylphs/ Vanguard Riders/ Assassins.></font> -->
 		<set name="icon" val="icon.subjugation_wp_dual_01" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="DUAL" />
@@ -1584,7 +1584,7 @@
 		</skills>
 	</item>
 	<item id="95459" name="Butcher's Long Sword" additionalName="Sealed" type="Weapon">
-		<!-- <Pet equipment effect>. Increases P./ M. Atk. <Acquisition>. Orc Barracks Purge. <font color=ff6666><Unavailable to Sylphs/ Vanguard Riders.></font> -->
+		<!-- <Pet equipment effect>. Increases P./ M. Atk. <Acquisition>. Orc Barracks Purge. <font color=ff6666><Unavailable to Sylphs/ Vanguard Riders/ Assassins.></font> -->
 		<set name="icon" val="icon.subjugation_wp_twohandsword_01" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="SWORD" />
@@ -1615,7 +1615,7 @@
 		</skills>
 	</item>
 	<item id="95460" name="Cruma Tower Purge Rank Reward Pack" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.etc_treasure_box_i01" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -1637,7 +1637,7 @@
 		</capsuled_items>
 	</item>
 	<item id="95461" name="Silent Valley Purge Rank Reward Pack" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.etc_treasure_box_i02" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -1659,7 +1659,7 @@
 		</capsuled_items>
 	</item>
 	<item id="95462" name="Tower of Insolence Purge Rank Reward Pack" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.etc_treasure_box_i03" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -1680,7 +1680,7 @@
 		</capsuled_items>
 	</item>
 	<item id="95463" name="Plains of the Lizardmen Purge Rank Reward Pack" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.etc_treasure_box_i04" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -1701,7 +1701,7 @@
 		</capsuled_items>
 	</item>
 	<item id="95464" name="Dragon Valley Purge Rank Reward Pack" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.etc_treasure_box_i05" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -1722,7 +1722,7 @@
 		</capsuled_items>
 	</item>
 	<item id="95465" name="Sel Mahum Base Purge Rank Reward Pack" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.etc_treasure_box_i06" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -1743,7 +1743,7 @@
 		</capsuled_items>
 	</item>
 	<item id="95466" name="Orc Barracks Purge Rank Reward Pack" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.etc_treasure_box_i07" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -1764,7 +1764,7 @@
 		</capsuled_items>
 	</item>
 	<item id="95467" name="Low-grade Supply Box - Cruma Tower Purge" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.etc_box_of_adventure_1_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -1780,7 +1780,7 @@
 		</capsuled_items>
 	</item>
 	<item id="95468" name="Low-grade Supply Box - Silent Valley Purge" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.etc_box_of_adventure_1_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -1796,7 +1796,7 @@
 		</capsuled_items>
 	</item>
 	<item id="95469" name="Low-grade Supply Box - Tower of Insolence Purge" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.etc_box_of_adventure_1_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -1812,7 +1812,7 @@
 		</capsuled_items>
 	</item>
 	<item id="95470" name="Low-grade Supply Box - Plains of the Lizardmen Purge" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.etc_box_of_adventure_1_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -1828,7 +1828,7 @@
 		</capsuled_items>
 	</item>
 	<item id="95471" name="Low-grade Supply Box - Dragon Valley Purge" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.etc_box_of_adventure_1_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -1844,7 +1844,7 @@
 		</capsuled_items>
 	</item>
 	<item id="95472" name="Low-grade Supply Box - Sel Mahum Base Purge" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.etc_box_of_adventure_1_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -1860,7 +1860,7 @@
 		</capsuled_items>
 	</item>
 	<item id="95473" name="Low-grade Supply Box - Orc Barracks Purge" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.etc_box_of_adventure_1_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -1876,7 +1876,7 @@
 		</capsuled_items>
 	</item>
 	<item id="95474" name="High-grade Supply Box - Cruma Tower Purge" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.etc_box_of_adventure_3_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -1892,7 +1892,7 @@
 		</capsuled_items>
 	</item>
 	<item id="95475" name="High-grade Supply Box - Silent Valley Purge" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.etc_box_of_adventure_3_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -1908,7 +1908,7 @@
 		</capsuled_items>
 	</item>
 	<item id="95476" name="High-grade Supply Box - Tower of Insolence Purge" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.etc_box_of_adventure_3_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -1924,7 +1924,7 @@
 		</capsuled_items>
 	</item>
 	<item id="95477" name="High-grade Supply Box - Plains of the Lizardmen Purge" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.etc_box_of_adventure_3_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -1940,7 +1940,7 @@
 		</capsuled_items>
 	</item>
 	<item id="95478" name="High-grade Supply Box - Dragon Valley Purge" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.etc_box_of_adventure_3_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -1956,7 +1956,7 @@
 		</capsuled_items>
 	</item>
 	<item id="95479" name="High-grade Supply Box - Sel Mahum Base Purge" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.etc_box_of_adventure_3_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -1972,7 +1972,7 @@
 		</capsuled_items>
 	</item>
 	<item id="95480" name="High-grade Supply Box - Orc Barracks Purge" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.etc_box_of_adventure_3_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -2061,7 +2061,7 @@
 		<set name="is_stackable" val="true" />
 	</item>
 	<item id="95489" name="2nd Class Change Gift Box" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.etc_pi_gift_box_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -2090,7 +2090,7 @@
 		<set name="is_sellable" val="false" />
 	</item>
 	<item id="95491" name="Infinite Bone Quiver" additionalName="Sealed" type="EtcItem">
-		<!-- Quiver containing arrows made of sharply ground bone. Used with a D-grade bow. -->
+		<!-- A quiver with arrows made of sharpened bones. For D-grade bows. -->
 		<set name="icon" val="br_cashtex.item.br_cash_quiver_of_bone_arrows_i00" />
 		<set name="immediate_effect" val="true" />
 		<set name="crystal_type" val="D" />
@@ -2124,18 +2124,18 @@
 			<item id="94845" min="1" max="1" chance="1.470588" /> <!-- Leather Leggings of Protection -->
 			<item id="94848" min="1" max="1" chance="1.470588" /> <!-- Tunic of Protection -->
 			<item id="94849" min="1" max="1" chance="1.470588" /> <!-- Stockings of Protection -->
-			<item id="94326" min="1" max="1" chance="1.470588" /> <!-- Spellbook: Dance of Warrior -->
-			<item id="94327" min="1" max="1" chance="1.470588" /> <!-- Spellbook: Dance of Fire -->
-			<item id="94325" min="1" max="1" chance="1.470588" /> <!-- Spellbook: Song of Hunter -->
-			<item id="94324" min="1" max="1" chance="1.470588" /> <!-- Spellbook: Song of Earth -->
+			<item id="94326" min="1" max="1" chance="1.470588" /> <!-- Spellbook: Dance of Warrior Lv. 2 -->
+			<item id="94327" min="1" max="1" chance="1.470588" /> <!-- Spellbook: Dance of Fire Lv. 2 -->
+			<item id="94325" min="1" max="1" chance="1.470588" /> <!-- Spellbook: Song of Hunter Lv. 2 -->
+			<item id="94324" min="1" max="1" chance="1.470588" /> <!-- Spellbook: Song of Earth Lv. 2 -->
 			<item id="93103" min="1" max="1" chance="1.470588" /> <!-- Spellbook: Divine Beam -->
 			<item id="94499" min="1" max="1" chance="1.470588" /> <!-- Spellbook: Titanic Weapon -->
-			<item id="94502" min="1" max="1" chance="1.470588" /> <!-- Spellbook: Ogre Spirit Totem -->
-			<item id="94503" min="1" max="1" chance="1.470588" /> <!-- Spellbook: Rabbit Spirit Totem -->
-			<item id="94504" min="1" max="1" chance="1.470588" /> <!-- Spellbook: Puma Spirit Totem -->
+			<item id="94502" min="1" max="1" chance="1.470588" /> <!-- Spellbook: Ogre Spirit Totem Lv. 2 -->
+			<item id="94503" min="1" max="1" chance="1.470588" /> <!-- Spellbook: Rabbit Spirit Totem Lv. 2 -->
+			<item id="94504" min="1" max="1" chance="1.470588" /> <!-- Spellbook: Puma Spirit Totem Lv. 2 -->
 			<item id="94670" min="1" max="1" chance="1.470588" /> <!-- Spellbook: Debuff Master -->
-			<item id="95349" min="1" max="1" chance="1.470588" /> <!-- Spellbook: Dance of Fury -->
-			<item id="95348" min="1" max="1" chance="1.470588" /> <!-- Spellbook: Song of Wind -->
+			<item id="95349" min="1" max="1" chance="1.470588" /> <!-- Spellbook: Dance of Fury Lv. 2 -->
+			<item id="95348" min="1" max="1" chance="1.470588" /> <!-- Spellbook: Song of Wind Lv. 2 -->
 			<item id="49683" min="1" max="1" chance="1.470588" /> <!-- Talisman of Baium -->
 			<item id="95660" min="1" max="1" chance="1.470588" /> <!-- Boss' Weapon Pack - Sealed -->
 			<item id="94385" min="1" max="1" chance="1.470588" /> <!-- Improved Scroll: Enchant Rare Accessories -->
@@ -2178,7 +2178,7 @@
 			<item id="94303" min="1" max="1" chance="1.470588" /> <!-- Augmenting Stone: Circlet -->
 			<item id="94269" min="2" max="2" chance="1.470588" /> <!-- Scroll: Boost Attack - Sealed -->
 			<item id="94271" min="2" max="2" chance="1.470588" /> <!-- Scroll: Boost Defense - Sealed -->
-			<item id="91712" min="2" max="2" chance="1.470588" /> <!-- Sayha's Storm Lv. 3 - Sealed -->
+			<item id="91712" min="2" max="2" chance="1.470588" /> <!-- Sayha's Storm - Sealed -->
 			<item id="91641" min="3" max="3" chance="1.470588" /> <!-- Sayha's Blessing - Sealed -->
 			<item id="91690" min="20" max="20" chance="1.470588" /> <!-- Special HP Recovery Potion - Sealed -->
 			<item id="92314" min="20" max="20" chance="1.470588" /> <!-- Giran Seal -->
@@ -2250,8 +2250,8 @@
 		<set name="is_sellable" val="false" />
 	</item>
 	<item id="95498" name="Crystal of Light" additionalName="Sealed" type="EtcItem">
-		<!-- A spellbook for learning the Collect Light Souls Lv. 2 skill. <Classes>. All Kamael classes after the 3rd class change. <Skill effect>. Allows to obtain 100 Light Souls. -->
-		<set name="icon" val="icon.high_energy_condense_i00" />
+		<!-- A spellbook for learning the Collect Light Souls Lv. 2 skill. <Classes>. Doombringer. Soul Hound. Trickster. <Skill effect>. Allows to obtain 100 Light Souls. -->
+		<set name="icon" val="icon.giant_book_i02" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="PAPER" />
 		<set name="weight" val="120" />
@@ -2261,8 +2261,8 @@
 		<set name="is_stackable" val="true" />
 	</item>
 	<item id="95499" name="Crystal of Shadows" additionalName="Sealed" type="EtcItem">
-		<!-- A spellbook for learning the Collect Shadow Souls Lv. 2 skill. <Classes>. All Kamael classes after the 3rd class change. <Skill effect>. Allows to obtain 100 Shadow Souls. -->
-		<set name="icon" val="icon.high_energy_condense_i01" />
+		<!-- A spellbook for learning the Collect Shadow Souls Lv. 2 skill. <Classes>. Doombringer. Soul Hound. Trickster. <Skill effect>. Allows to obtain 100 Shadow Souls. -->
+		<set name="icon" val="icon.giant_book_i00" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="PAPER" />
 		<set name="weight" val="120" />

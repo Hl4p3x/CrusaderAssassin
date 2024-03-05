@@ -3,9 +3,9 @@
 	<npc id="22300" level="80" type="Monster" name="Strong Kima" element="WIND">
 		<race>ANIMAL</race>
 		<sex>MALE</sex>
-		<acquire exp="17600" sp="5814" attributeExp="1040" />
+		<acquire exp="17600" sp="173" attributeExp="1040" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="16163.92" hpRegen="8.5" mp="2227.484" mpRegen="3" />
+			<vitals hp="17780.38" hpRegen="8.5" mp="2227.484" mpRegen="3" />
 			<attack physical="2028.42347637464" magical="1385.15027788047" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
 			<defence physical="480.656" magical="351.72320128" />
 			<speed>
@@ -41,12 +41,12 @@
 			</drop>
 		</dropLists>
 	</npc>
-	<npc id="22301" level="80" type="Monster" name="Big Honeybee" element="WIND">
+	<npc id="22301" level="80" type="Monster" name="Big Honeybee" title="Honey Seeker" element="WIND">
 		<race>ANIMAL</race>
 		<sex>MALE</sex>
-		<acquire exp="17600" sp="5814" attributeExp="1040" />
+		<acquire exp="52800" sp="525" attributeExp="1040" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="16163.92" hpRegen="8.5" mp="2227.484" mpRegen="3" />
+			<vitals hp="53341.77" hpRegen="8.5" mp="2227.484" mpRegen="3" />
 			<attack physical="2028.42347637464" magical="1385.15027788047" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
 			<defence physical="480.656" magical="351.72320128" />
 			<speed>
@@ -113,9 +113,9 @@
 	<npc id="22302" level="80" type="Monster" name="Rude Tag" title="Slayer" element="WIND">
 		<race>ANIMAL</race>
 		<sex>MALE</sex>
-		<acquire exp="60928" sp="5814" attributeExp="1040" />
+		<acquire exp="60928" sp="608" attributeExp="1040" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="32328.48" hpRegen="8.5" mp="2227.484" mpRegen="3" />
+			<vitals hp="35561.39" hpRegen="8.5" mp="2227.484" mpRegen="3" />
 			<attack physical="2212.82561059052" magical="1511.07303041506" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
 			<defence physical="436.96" magical="319.7483648" />
 			<speed>
@@ -156,9 +156,9 @@
 	<npc id="22303" level="70" type="Monster" name="Rusty" element="WIND">
 		<race>FAIRY</race>
 		<sex>MALE</sex>
-		<acquire exp="8898" sp="1669" attributeExp="30" />
+		<acquire exp="8898" sp="88" attributeExp="30" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="13717.72" hpRegen="7.5" mp="1789.914" mpRegen="2.7" />
+			<vitals hp="15089.87" hpRegen="7.5" mp="1789.914" mpRegen="2.7" />
 			<attack physical="1844.02134215877" magical="1259.22752534588" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
 			<defence physical="416.64968576" magical="304.88616576" />
 			<speed>
@@ -197,9 +197,9 @@
 	<npc id="22304" level="80" type="Monster" name="Giant Rusty" element="WIND">
 		<race>FAIRY</race>
 		<sex>MALE</sex>
-		<acquire exp="14080" sp="2180" attributeExp="1040" />
+		<acquire exp="14080" sp="141" attributeExp="1040" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="16163.92" hpRegen="8.5" mp="2227.484" mpRegen="3" />
+			<vitals hp="17780.38" hpRegen="8.5" mp="2227.484" mpRegen="3" />
 			<attack physical="1844.02134215877" magical="1259.22752534588" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
 			<defence physical="436.96" magical="319.7483648" />
 			<speed>
@@ -235,7 +235,7 @@
 			</drop>
 		</dropLists>
 	</npc>
-	<npc id="22305" level="82" type="Monster" name="Dragontroop Soldier" element="WIND">
+	<npc id="22305" level="82" type="Monster" name="Dragon Soldier" element="WIND">
 		<parameters>
 			<param name="MoveAroundSocial" value="80" />
 			<param name="MoveAroundSocial1" value="80" />
@@ -246,9 +246,9 @@
 		<race>DRAGON</race>
 		<sex>MALE</sex>
 		<equipment rhand="94661" /> <!-- Dragontroop Soldier Sword -->
-		<acquire exp="35866" sp="10207" attributeExp="1173" />
+		<acquire exp="35866" sp="356" attributeExp="1173" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="16113.92" hpRegen="17" mp="2614.5" mpRegen="6" />
+			<vitals hp="17725.32" hpRegen="17" mp="2614.5" mpRegen="6" />
 			<attack physical="11080.4990625" magical="5674.90875" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
 			<defence physical="1133.2702548" magical="829.278366777064" />
 			<speed>
@@ -279,27 +279,27 @@
 		</collision>
 		<dropLists>
 			<drop>
-				<item id="57" min="1455" max="1610" chance="70" /> <!-- Adena -->
-				<item id="92847" min="1" max="1" chance="0.006" /> <!-- Dragon Grinder Edge -->
-				<item id="92860" min="1" max="1" chance="0.059" /> <!-- Sealed Majestic Necklace Beads -->
-				<item id="92862" min="1" max="1" chance="0.118" /> <!-- Sealed Majestic Ring Gemstone -->
-				<item id="270" min="1" max="1" chance="0.0001" /> <!-- Dragon Grinder -->
-				<item id="5233" min="1" max="1" chance="0.0002" /> <!-- Keshanberk*Keshanberk -->
-				<item id="6326" min="1" max="1" chance="0.001" /> <!-- Sealed Majestic Necklace -->
-				<item id="6328" min="1" max="1" chance="0.003" /> <!-- Sealed Majestic Ring -->
-				<item id="91903" min="1" max="1" chance="0.0001" /> <!-- Lacerator -->
+				<item id="57" min="1062" max="1174" chance="70" /> <!-- Adena -->
+				<item id="92847" min="1" max="1" chance="0.008" /> <!-- Dragon Grinder Edge -->
+				<item id="92860" min="1" max="1" chance="0.078" /> <!-- Sealed Majestic Necklace Beads -->
+				<item id="92862" min="1" max="1" chance="0.157" /> <!-- Sealed Majestic Ring Gemstone -->
+				<item id="270" min="1" max="1" chance="0.0002" /> <!-- Dragon Grinder -->
+				<item id="5233" min="1" max="1" chance="0.0003" /> <!-- Keshanberk*Keshanberk -->
+				<item id="6326" min="1" max="1" chance="0.002" /> <!-- Sealed Majestic Necklace -->
+				<item id="6328" min="1" max="1" chance="0.004" /> <!-- Sealed Majestic Ring -->
+				<item id="91903" min="1" max="1" chance="0.0002" /> <!-- Lacerator -->
 			</drop>
 			<spoil>
-				<item id="5450" min="1" max="1" chance="0.001" /> <!-- Recipe: Dragon Grinder (60%) -->
-				<item id="5451" min="1" max="1" chance="0.0008" /> <!-- Recipe: Dragon Grinder (100%) -->
-				<item id="6335" min="1" max="1" chance="0.012" /> <!-- Recipe: Sealed Majestic Necklace (70%) -->
-				<item id="6336" min="1" max="1" chance="0.008" /> <!-- Recipe: Sealed Majestic Necklace (100%) -->
-				<item id="6339" min="1" max="1" chance="0.024" /> <!-- Recipe: Sealed Majestic Ring (70%) -->
-				<item id="6340" min="1" max="1" chance="0.017" /> <!-- Recipe: Sealed Majestic Ring (100%) -->
+				<item id="5450" min="1" max="1" chance="0.002" /> <!-- Recipe: Dragon Grinder (60%) -->
+				<item id="5451" min="1" max="1" chance="0.001" /> <!-- Recipe: Dragon Grinder (100%) -->
+				<item id="6335" min="1" max="1" chance="0.016" /> <!-- Recipe: Sealed Majestic Necklace (70%) -->
+				<item id="6336" min="1" max="1" chance="0.011" /> <!-- Recipe: Sealed Majestic Necklace (100%) -->
+				<item id="6339" min="1" max="1" chance="0.032" /> <!-- Recipe: Sealed Majestic Ring (70%) -->
+				<item id="6340" min="1" max="1" chance="0.022" /> <!-- Recipe: Sealed Majestic Ring (100%) -->
 			</spoil>
 		</dropLists>
 	</npc>
-	<npc id="22306" level="82" type="Monster" name="Dragontroop Lancer" element="WIND">
+	<npc id="22306" level="82" type="Monster" name="Dragon Lancer" element="WIND">
 		<parameters>
 			<param name="MoveAroundSocial" value="80" />
 			<param name="MoveAroundSocial1" value="80" />
@@ -310,9 +310,9 @@
 		<race>DRAGON</race>
 		<sex>MALE</sex>
 		<equipment rhand="94664" /> <!-- Dragontroop Lancer Javeline -->
-		<acquire exp="35866" sp="10207" attributeExp="1173" />
+		<acquire exp="35866" sp="356" attributeExp="1173" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="16113.92" hpRegen="17" mp="2614.5" mpRegen="6" />
+			<vitals hp="17725.32" hpRegen="17" mp="2614.5" mpRegen="6" />
 			<attack physical="11080.4990625" magical="5674.90875" random="5" critical="8" accuracy="0" attackSpeed="253" type="BOW" range="1100" distance="10" width="0" />
 			<defence physical="1133.2702548" magical="829.278366777064" />
 			<speed>
@@ -343,34 +343,35 @@
 		</collision>
 		<dropLists>
 			<drop>
-				<item id="57" min="1455" max="1610" chance="70" /> <!-- Adena -->
-				<item id="95783" min="1" max="1" chance="0.013" /> <!-- Aden's Soul Crystal Lv. 1 - Weapon -->
-				<item id="92810" min="1" max="1" chance="0.016" /> <!-- Sealed Tallum Leather Armor Pattern -->
-				<item id="92818" min="1" max="1" chance="0.042" /> <!-- Sealed Tallum Stocking Fabric -->
-				<item id="92845" min="1" max="1" chance="0.005" /> <!-- Bloody Orchid Head -->
-				<item id="92856" min="1" max="1" chance="0.005" /> <!-- Tallum Blade Edge -->
-				<item id="92896" min="1" max="1" chance="0.003" /> <!-- Doom Crusher Head -->
+				<item id="57" min="1062" max="1174" chance="70" /> <!-- Adena -->
+				<item id="92810" min="1" max="1" chance="0.022" /> <!-- Sealed Tallum Leather Armor Pattern -->
+				<item id="92818" min="1" max="1" chance="0.056" /> <!-- Sealed Tallum Stocking Fabric -->
+				<item id="92845" min="1" max="1" chance="0.007" /> <!-- Bloody Orchid Head -->
+				<item id="92856" min="1" max="1" chance="0.007" /> <!-- Tallum Blade Edge -->
+				<item id="92896" min="1" max="1" chance="0.005" /> <!-- Doom Crusher Head -->
+				<item id="97655" min="1" max="1" chance="0.0002" /> <!-- Package: +4 ~ +12 Collector's Weapon C - Sealed -->
+				<item id="97656" min="1" max="1" chance="0.0004" /> <!-- Package: +4 ~ +8 Collector's Armor C - Sealed -->
 				<item id="80" min="1" max="1" chance="0.0002" /> <!-- Tallum Blade -->
 				<item id="235" min="1" max="1" chance="0.0002" /> <!-- Bloody Orchid -->
-				<item id="5301" min="1" max="1" chance="0.0005" /> <!-- Sealed Tallum Leather Armor -->
-				<item id="5305" min="1" max="1" chance="0.001" /> <!-- Sealed Tallum Stockings -->
+				<item id="5301" min="1" max="1" chance="0.0006" /> <!-- Sealed Tallum Leather Armor -->
+				<item id="5305" min="1" max="1" chance="0.002" /> <!-- Sealed Tallum Stockings -->
 				<item id="7902" min="1" max="1" chance="0.0001" /> <!-- Doom Crusher -->
 			</drop>
 			<spoil>
-				<item id="5334" min="1" max="1" chance="0.004" /> <!-- Recipe: Sealed Tallum Leather Armor (60%) -->
-				<item id="5335" min="1" max="1" chance="0.002" /> <!-- Recipe: Sealed Tallum Leather Armor (100%) -->
-				<item id="5354" min="1" max="1" chance="0.01" /> <!-- Recipe: Sealed Tallum Stockings (60%) -->
-				<item id="5355" min="1" max="1" chance="0.006" /> <!-- Recipe: Sealed Tallum Stockings (100%) -->
-				<item id="5446" min="1" max="1" chance="0.001" /> <!-- Recipe: Bloody Orchid (60%) -->
-				<item id="5447" min="1" max="1" chance="0.0007" /> <!-- Recipe: Bloody Orchid (100%) -->
-				<item id="5470" min="1" max="1" chance="0.001" /> <!-- Recipe: Tallum Blade (60%) -->
-				<item id="5471" min="1" max="1" chance="0.0007" /> <!-- Recipe: Tallum Blade (100%) -->
-				<item id="8325" min="1" max="1" chance="0.0005" /> <!-- Recipe: Doom Crusher (100%) -->
-				<item id="8326" min="1" max="1" chance="0.0008" /> <!-- Recipe: Doom Crusher (60%) -->
+				<item id="5334" min="1" max="1" chance="0.005" /> <!-- Recipe: Sealed Tallum Leather Armor (60%) -->
+				<item id="5335" min="1" max="1" chance="0.003" /> <!-- Recipe: Sealed Tallum Leather Armor (100%) -->
+				<item id="5354" min="1" max="1" chance="0.013" /> <!-- Recipe: Sealed Tallum Stockings (60%) -->
+				<item id="5355" min="1" max="1" chance="0.008" /> <!-- Recipe: Sealed Tallum Stockings (100%) -->
+				<item id="5446" min="1" max="1" chance="0.002" /> <!-- Recipe: Bloody Orchid (60%) -->
+				<item id="5447" min="1" max="1" chance="0.0009" /> <!-- Recipe: Bloody Orchid (100%) -->
+				<item id="5470" min="1" max="1" chance="0.002" /> <!-- Recipe: Tallum Blade (60%) -->
+				<item id="5471" min="1" max="1" chance="0.0009" /> <!-- Recipe: Tallum Blade (100%) -->
+				<item id="8325" min="1" max="1" chance="0.0006" /> <!-- Recipe: Doom Crusher (100%) -->
+				<item id="8326" min="1" max="1" chance="0.001" /> <!-- Recipe: Doom Crusher (60%) -->
 			</spoil>
 		</dropLists>
 	</npc>
-	<npc id="22307" level="82" type="Monster" name="Dragontroop Berserker" element="WIND">
+	<npc id="22307" level="82" type="Monster" name="Dragon Berserker" element="WIND">
 		<parameters>
 			<param name="MoveAroundSocial" value="80" />
 			<param name="MoveAroundSocial1" value="80" />
@@ -380,9 +381,9 @@
 		</parameters>
 		<race>DRAGON</race>
 		<sex>MALE</sex>
-		<acquire exp="59537" sp="16944" attributeExp="1173" />
+		<acquire exp="59537" sp="592" attributeExp="1173" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="26856.33" hpRegen="17" mp="2614.5" mpRegen="6" />
+			<vitals hp="29541.77" hpRegen="17" mp="2614.5" mpRegen="6" />
 			<attack physical="11080.4990625" magical="5674.90875" random="5" critical="4" accuracy="5" attackSpeed="253" type="FIST" range="40" distance="80" width="120" />
 			<defence physical="1133.2702548" magical="829.278366777064" />
 			<speed>
@@ -413,11 +414,11 @@
 		</collision>
 		<dropLists>
 			<drop>
-				<item id="57" min="1747" max="1933" chance="70" /> <!-- Adena -->
+				<item id="57" min="1275" max="1409" chance="70" /> <!-- Adena -->
 			</drop>
 		</dropLists>
 	</npc>
-	<npc id="22308" level="82" type="Monster" name="Dragontroop Minion" element="WIND">
+	<npc id="22308" level="82" type="Monster" name="Dragon Minion" element="WIND">
 		<parameters>
 			<param name="MoveAroundSocial" value="80" />
 			<param name="MoveAroundSocial1" value="80" />
@@ -427,9 +428,9 @@
 		</parameters>
 		<race>DRAGON</race>
 		<sex>MALE</sex>
-		<acquire exp="35866" sp="10207" attributeExp="1173" />
+		<acquire exp="35866" sp="356" attributeExp="1173" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="16113.92" hpRegen="17" mp="2614.5" mpRegen="6" />
+			<vitals hp="17725.32" hpRegen="17" mp="2614.5" mpRegen="6" />
 			<attack physical="11080.4990625" magical="5674.90875" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
 			<defence physical="1133.2702548" magical="829.278366777064" />
 			<speed>
@@ -460,13 +461,13 @@
 		</collision>
 		<dropLists>
 			<drop>
-				<item id="57" min="1455" max="1610" chance="70" /> <!-- Adena -->
-				<item id="97655" min="1" max="1" chance="0.0009" /> <!-- Package: +4 ~ +12 Collector's Weapon I - Sealed -->
-				<item id="97656" min="1" max="1" chance="0.002" /> <!-- Package: +4 ~ +8 Collector's Armor I - Sealed -->
+				<item id="57" min="1062" max="1174" chance="70" /> <!-- Adena -->
+				<item id="97655" min="1" max="1" chance="0.001" /> <!-- Package: +4 ~ +12 Collector's Weapon C - Sealed -->
+				<item id="97656" min="1" max="1" chance="0.002" /> <!-- Package: +4 ~ +8 Collector's Armor C - Sealed -->
 			</drop>
 		</dropLists>
 	</npc>
-	<npc id="22309" level="82" type="Monster" name="Dragontroop Wizard" element="WIND">
+	<npc id="22309" level="82" type="Monster" name="Dragon Mage" element="WIND">
 		<parameters>
 			<param name="MoveAroundSocial" value="80" />
 			<param name="MoveAroundSocial1" value="80" />
@@ -477,9 +478,9 @@
 		<race>DRAGON</race>
 		<sex>MALE</sex>
 		<equipment rhand="94663" /> <!-- Dragontroop Wizard Staff -->
-		<acquire exp="35866" sp="10207" attributeExp="1173" />
+		<acquire exp="35866" sp="356" attributeExp="1173" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="16113.92" hpRegen="17" mp="2614.5" mpRegen="6" />
+			<vitals hp="17725.32" hpRegen="17" mp="2614.5" mpRegen="6" />
 			<attack physical="11080.4990625" magical="5674.90875" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
 			<defence physical="1133.2702548" magical="829.278366777064" />
 			<speed>
@@ -510,18 +511,18 @@
 		</collision>
 		<dropLists>
 			<drop>
-				<item id="57" min="1455" max="1610" chance="70" /> <!-- Adena -->
-				<item id="92844" min="1" max="1" chance="0.025" /> <!-- Carnage Bow Shaft -->
-				<item id="288" min="1" max="1" chance="0.0005" /> <!-- Carnage Bow -->
-				<item id="94885" min="1" max="1" chance="0.0005" /> <!-- Scofield -->
+				<item id="57" min="1062" max="1174" chance="70" /> <!-- Adena -->
+				<item id="92844" min="1" max="1" chance="0.033" /> <!-- Carnage Bow Shaft -->
+				<item id="288" min="1" max="1" chance="0.0007" /> <!-- Carnage Bow -->
+				<item id="94885" min="1" max="1" chance="0.0007" /> <!-- Scofield -->
 			</drop>
 			<spoil>
-				<item id="5444" min="1" max="1" chance="0.006" /> <!-- Recipe: Carnage Bow (60%) -->
-				<item id="5445" min="1" max="1" chance="0.004" /> <!-- Recipe: Carnage Bow (100%) -->
+				<item id="5444" min="1" max="1" chance="0.008" /> <!-- Recipe: Carnage Bow (60%) -->
+				<item id="5445" min="1" max="1" chance="0.005" /> <!-- Recipe: Carnage Bow (100%) -->
 			</spoil>
 		</dropLists>
 	</npc>
-	<npc id="22310" level="82" type="Monster" name="Dragontroop Elite Wizard" element="WIND">
+	<npc id="22310" level="82" type="Monster" name="Elite Dragon Mage" title="Katuba's Servant" element="WIND">
 		<parameters>
 			<param name="MoveAroundSocial" value="80" />
 			<param name="MoveAroundSocial1" value="80" />
@@ -531,9 +532,9 @@
 		</parameters>
 		<race>DRAGON</race>
 		<sex>MALE</sex>
-		<acquire exp="59537" sp="16944" attributeExp="1173" />
+		<acquire exp="119075" sp="1190" attributeExp="1173" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="26856.33" hpRegen="17" mp="2614.5" mpRegen="6" />
+			<vitals hp="59083.54" hpRegen="17" mp="2614.5" mpRegen="6" />
 			<attack physical="11080.4990625" magical="5674.90875" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
 			<defence physical="1133.2702548" magical="829.278366777064" />
 			<speed>
@@ -564,32 +565,31 @@
 		</collision>
 		<dropLists>
 			<drop>
-				<item id="57" min="1747" max="1933" chance="70" /> <!-- Adena -->
-				<item id="91767" min="1" max="1" chance="0.003" /> <!-- Enchant Kit: Talisman of Aden - Sealed -->
-				<item id="94188" min="1" max="1" chance="0.0005" /> <!-- Augmenting Stone: Armor -->
-				<item id="92476" min="1" max="1" chance="0.531" /> <!-- Metal Ingot -->
-				<item id="92479" min="1" max="1" chance="0.531" /> <!-- Metallograph -->
-				<item id="92480" min="1" max="1" chance="0.531" /> <!-- Leather -->
-				<item id="92822" min="1" max="1" chance="0.06" /> <!-- Sealed Tallum Boot Lining -->
-				<item id="92835" min="1" max="1" chance="0.04" /> <!-- Sealed Tallum Helmet Design -->
-				<item id="92841" min="1" max="1" chance="0.004" /> <!-- Meteor Shower Head -->
+				<item id="57" min="1275" max="1409" chance="70" /> <!-- Adena -->
+				<item id="92476" min="1" max="1" chance="0.706" /> <!-- Metal Ingot -->
+				<item id="92479" min="1" max="1" chance="0.706" /> <!-- Metallograph -->
+				<item id="92480" min="1" max="1" chance="0.706" /> <!-- Leather -->
+				<item id="92822" min="1" max="1" chance="0.079" /> <!-- Sealed Tallum Boot Lining -->
+				<item id="92835" min="1" max="1" chance="0.053" /> <!-- Sealed Tallum Helmet Design -->
+				<item id="92841" min="1" max="1" chance="0.005" /> <!-- Meteor Shower Head -->
 				<item id="92842" min="1" max="1" chance="0.003" /> <!-- Elysian Head -->
-				<item id="164" min="1" max="1" chance="0.0001" /> <!-- Elysian -->
+				<item id="96623" min="1" max="1" chance="0.0004" /> <!-- Dye Powder -->
+				<item id="164" min="1" max="1" chance="0.0002" /> <!-- Elysian -->
 				<item id="2504" min="1" max="1" chance="0.0002" /> <!-- Meteor Shower -->
-				<item id="5294" min="1" max="1" chance="0.002" /> <!-- Sealed Tallum Helmet -->
-				<item id="5296" min="1" max="1" chance="0.003" /> <!-- Sealed Tallum Boots -->
-				<item id="91888" min="1" max="1" chance="0.0001" /> <!-- Undertaker -->
+				<item id="5294" min="1" max="1" chance="0.003" /> <!-- Sealed Tallum Helmet -->
+				<item id="5296" min="1" max="1" chance="0.004" /> <!-- Sealed Tallum Boots -->
+				<item id="91888" min="1" max="1" chance="0.0002" /> <!-- Undertaker -->
 				<item id="91889" min="1" max="1" chance="0.0002" /> <!-- Divine Pain -->
 			</drop>
 			<spoil>
-				<item id="5370" min="1" max="1" chance="0.028" /> <!-- Recipe: Sealed Tallum Boots (60%) -->
-				<item id="5371" min="1" max="1" chance="0.017" /> <!-- Recipe: Sealed Tallum Boots (100%) -->
-				<item id="5428" min="1" max="1" chance="0.019" /> <!-- Recipe: Sealed Tallum Helmet (60%) -->
-				<item id="5429" min="1" max="1" chance="0.011" /> <!-- Recipe: Sealed Tallum Helmet (100%) -->
+				<item id="5370" min="1" max="1" chance="0.038" /> <!-- Recipe: Sealed Tallum Boots (60%) -->
+				<item id="5371" min="1" max="1" chance="0.023" /> <!-- Recipe: Sealed Tallum Boots (100%) -->
+				<item id="5428" min="1" max="1" chance="0.025" /> <!-- Recipe: Sealed Tallum Helmet (60%) -->
+				<item id="5429" min="1" max="1" chance="0.015" /> <!-- Recipe: Sealed Tallum Helmet (100%) -->
 				<item id="5438" min="1" max="1" chance="0.002" /> <!-- Recipe: Meteor Shower (60%) -->
 				<item id="5439" min="1" max="1" chance="0.001" /> <!-- Recipe: Meteor Shower (100%) -->
-				<item id="5440" min="1" max="1" chance="0.001" /> <!-- Recipe: Elysian (60%) -->
-				<item id="5441" min="1" max="1" chance="0.0007" /> <!-- Recipe: Elysian (100%) -->
+				<item id="5440" min="1" max="1" chance="0.002" /> <!-- Recipe: Elysian (60%) -->
+				<item id="5441" min="1" max="1" chance="0.001" /> <!-- Recipe: Elysian (100%) -->
 			</spoil>
 		</dropLists>
 	</npc>
@@ -603,9 +603,9 @@
 		</parameters>
 		<race>DRAGON</race>
 		<sex>MALE</sex>
-		<acquire exp="35866" sp="10207" attributeExp="1173" />
+		<acquire exp="35866" sp="356" attributeExp="1173" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="16113.92" hpRegen="17" mp="2614.5" mpRegen="6" />
+			<vitals hp="17725.32" hpRegen="17" mp="2614.5" mpRegen="6" />
 			<attack physical="11080.4990625" magical="5674.90875" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
 			<defence physical="1133.2702548" magical="829.278366777064" />
 			<speed>
@@ -636,7 +636,7 @@
 		</collision>
 		<dropLists>
 			<drop>
-				<item id="57" min="1455" max="1610" chance="70" /> <!-- Adena -->
+				<item id="57" min="1062" max="1174" chance="70" /> <!-- Adena -->
 			</drop>
 		</dropLists>
 	</npc>
@@ -650,9 +650,9 @@
 		</parameters>
 		<race>DRAGON</race>
 		<sex>MALE</sex>
-		<acquire exp="35866" sp="2219" attributeExp="1173" />
+		<acquire exp="35866" sp="356" attributeExp="1173" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="16113.92" hpRegen="17" mp="2614.5" mpRegen="6" />
+			<vitals hp="17725.32" hpRegen="17" mp="2614.5" mpRegen="6" />
 			<attack physical="11080.4990625" magical="5674.90875" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
 			<defence physical="1133.2702548" magical="829.278366777064" />
 			<speed>
@@ -683,17 +683,17 @@
 		</collision>
 		<dropLists>
 			<drop>
-				<item id="57" min="1455" max="1610" chance="70" /> <!-- Adena -->
+				<item id="57" min="1062" max="1174" chance="70" /> <!-- Adena -->
 			</drop>
 		</dropLists>
 	</npc>
 	<npc id="22313" level="85" type="Monster" name="Twilight Witch" element="WIND">
 		<race>HUMANOID</race>
 		<sex>FEMALE</sex>
-		<acquire exp="124477" sp="41081" attributeExp="1216" />
+		<acquire exp="124477" sp="1243" attributeExp="1216" />
 		<equipment rhand="94725" /> <!-- npc weapon_One-handed Staff - Sealed -->
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="31045.57" hpRegen="51" mp="11080.8" mpRegen="18" />
+			<vitals hp="34150" hpRegen="51" mp="11080.8" mpRegen="18" />
 			<attack physical="14266.4711398802" magical="10959.9191768631" random="20" critical="1" accuracy="9" attackSpeed="253" type="BLUNT" range="40" distance="80" width="120" />
 			<defence physical="1085.36442" magical="794.22258" />
 			<speed>
@@ -731,10 +731,10 @@
 	<npc id="22314" level="85" type="Monster" name="Twilight Warrior" element="WIND">
 		<race>HUMANOID</race>
 		<sex>MALE</sex>
-		<acquire exp="138308" sp="45648" attributeExp="1216" />
+		<acquire exp="138308" sp="1380" attributeExp="1216" />
 		<equipment rhand="94724" /> <!-- npc weapon_Two-handed Staff - Sealed -->
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="34131.01" hpRegen="51" mp="11080.8" mpRegen="18" />
+			<vitals hp="37544.3" hpRegen="51" mp="11080.8" mpRegen="18" />
 			<attack physical="14266.4711398802" magical="10959.9191768631" random="20" critical="1" accuracy="9" attackSpeed="253" type="BLUNT" range="40" distance="80" width="120" />
 			<defence physical="1085.36442" magical="794.22258" />
 			<speed>
@@ -772,9 +772,9 @@
 	<npc id="22315" level="85" type="Monster" name="Demonic Wizard" title="Deiman's Cohort" element="WIND">
 		<race>DEMONIC</race>
 		<sex>FEMALE</sex>
-		<acquire exp="439446" sp="145020" attributeExp="1216" />
+		<acquire exp="439446" sp="4393" attributeExp="1216" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="57848.73" hpRegen="51" mp="11080.8" mpRegen="18" />
+			<vitals hp="63634.18" hpRegen="51" mp="11080.8" mpRegen="18" />
 			<attack physical="14266.4711398802" magical="10959.9191768631" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
 			<defence physical="1085.36442" magical="794.22258" />
 			<speed>
@@ -813,9 +813,9 @@
 	<npc id="22316" level="85" type="Monster" name="Demonic Warrior" title="Deiman's Cohort" element="WIND">
 		<race>DEMONIC</race>
 		<sex>MALE</sex>
-		<acquire exp="647143" sp="213571" attributeExp="1216" />
+		<acquire exp="647143" sp="6466" attributeExp="1216" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="96415.19" hpRegen="51" mp="11080.8" mpRegen="18" />
+			<vitals hp="106056.3" hpRegen="51" mp="11080.8" mpRegen="18" />
 			<attack physical="14266.4711398802" magical="10959.9191768631" random="20" critical="1" accuracy="9" attackSpeed="253" type="BLUNT" range="40" distance="80" width="120" />
 			<defence physical="1085.36442" magical="794.22258" />
 			<speed>
@@ -854,9 +854,9 @@
 	<npc id="22317" level="85" type="Monster" name="Old Vampire" element="EARTH">
 		<race>DEMONIC</race>
 		<sex>MALE</sex>
-		<acquire exp="89511" sp="29536" attributeExp="1216" />
+		<acquire exp="89511" sp="889" attributeExp="1216" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="25646.2" hpRegen="900" mp="11080.8" mpRegen="18" />
+			<vitals hp="28210.76" hpRegen="900" mp="11080.8" mpRegen="18" />
 			<attack physical="14266.4711398802" magical="10959.9191768631" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
 			<defence physical="1085.36442" magical="794.22258" />
 			<speed>
@@ -894,9 +894,9 @@
 	<npc id="22318" level="85" type="Monster" name="Hunting Vampire" element="EARTH">
 		<race>DEMONIC</race>
 		<sex>MALE</sex>
-		<acquire exp="96815" sp="31949" attributeExp="1216" />
+		<acquire exp="96815" sp="968" attributeExp="1216" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="28153.16" hpRegen="900" mp="11080.8" mpRegen="18" />
+			<vitals hp="30968.35" hpRegen="900" mp="11080.8" mpRegen="18" />
 			<attack physical="14266.4711398802" magical="10959.9191768631" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
 			<defence physical="1085.36442" magical="794.22258" />
 			<speed>
@@ -934,9 +934,9 @@
 	<npc id="22319" level="85" type="Monster" name="Bloody Vampire" title="Satina's Elite Legionary" element="EARTH">
 		<race>DEMONIC</race>
 		<sex>MALE</sex>
-		<acquire exp="307612" sp="101511" attributeExp="1216" />
+		<acquire exp="307612" sp="3071" attributeExp="1216" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="38565.82" hpRegen="340" mp="11080.8" mpRegen="18" />
+			<vitals hp="42422.79" hpRegen="340" mp="11080.8" mpRegen="18" />
 			<attack physical="14266.4711398802" magical="10959.9191768631" random="10" critical="4" accuracy="5" attackSpeed="253" type="BOW" range="40" distance="80" width="120" />
 			<defence physical="1085.36442" magical="794.22258" />
 			<speed>
@@ -975,9 +975,9 @@
 	<npc id="22320" level="85" type="Monster" name="Rueful Vampire" title="Satina's Elite Legionary" element="EARTH">
 		<race>DEMONIC</race>
 		<sex>MALE</sex>
-		<acquire exp="453000" sp="149485" attributeExp="1216" />
+		<acquire exp="453000" sp="4523" attributeExp="1216" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="77132.28" hpRegen="340" mp="11080.8" mpRegen="18" />
+			<vitals hp="84844.94" hpRegen="340" mp="11080.8" mpRegen="18" />
 			<attack physical="14266.4711398802" magical="10959.9191768631" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
 			<defence physical="1085.36442" magical="794.22258" />
 			<speed>
@@ -1018,9 +1018,9 @@
 		<race>HUMANOID</race>
 		<sex>MALE</sex>
 		<equipment rhand="5128" /> <!-- Crokian Blade - Not Available -->
-		<acquire exp="17190" sp="1883" attributeExp="41" />
+		<acquire exp="17190" sp="169" attributeExp="41" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="7800.63291" hpRegen="8.5" mp="2229.06104544454" mpRegen="3" />
+			<vitals hp="8580.836" hpRegen="8.5" mp="2229.06104544454" mpRegen="3" />
 			<attack physical="794.70901" magical="542.68324" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
 			<defence physical="319.24623" magical="233.61053" />
 			<speed>
@@ -1045,9 +1045,9 @@
 		<race>HUMANOID</race>
 		<sex>MALE</sex>
 		<equipment rhand="5128" /> <!-- Crokian Blade - Not Available -->
-		<acquire exp="71124" sp="4031" attributeExp="1216" />
+		<acquire exp="71124" sp="708" attributeExp="1216" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="13042.40506" hpRegen="10.2" mp="2770.2" mpRegen="3.6" />
+			<vitals hp="14346.9507640247" hpRegen="10.2" mp="2770.2" mpRegen="3.6" />
 			<attack physical="2226.2521499701" magical="1520.24164482038" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
 			<defence physical="998.10183" magical="730.36761" />
 			<speed>
@@ -1070,9 +1070,9 @@
 		<!-- AUTO GENERATED NPC TODO: FIX IT -->
 		<race>DEMONIC</race>
 		<sex>MALE</sex>
-		<acquire exp="3548559" sp="21881" attributeExp="1647" />
+		<acquire exp="3548559" sp="35478" attributeExp="1647" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="1424051" hpRegen="10.2" mp="11928" mpRegen="3.6" />
+			<vitals hp="1566456" hpRegen="10.2" mp="11928" mpRegen="3.6" />
 			<attack physical="3611" magical="2465" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
 			<defence physical="2383" magical="1045" />
 			<speed>
@@ -1101,7 +1101,7 @@
 		<race>ETC</race>
 		<sex>FEMALE</sex>
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="10">
-			<vitals hp="41.9253083414476" hpRegen="2" mp="40" mpRegen="0.9" />
+			<vitals hp="317" hpRegen="2" mp="40" mpRegen="0.9" />
 			<attack physical="10.24492" magical="6.99595" critical="4" attackSpeed="253" range="40" type="SWORD" distance="80" width="120" random="10" accuracy="5" />
 			<defence physical="47.91652" magical="35.06323" />
 			<speed>
@@ -1120,7 +1120,7 @@
 		<!-- AUTO GENERATED NPC TODO: FIX IT -->
 		<race>ETC</race>
 		<sex>FEMALE</sex>
-		<acquire exp="75" sp="3" />
+		<acquire exp="75" sp="1" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="10">
 			<vitals hp="61" hpRegen="2" mp="54.64" mpRegen="0.9" />
 			<attack physical="10.0732600732601" magical="7.5514315231404" random="30" critical="4" accuracy="4.75" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
@@ -1165,7 +1165,7 @@
 		<!-- AUTO GENERATED NPC TODO: FIX IT -->
 		<race>ETC</race>
 		<sex>FEMALE</sex>
-		<acquire exp="91" sp="4" />
+		<acquire exp="91" sp="1" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="10">
 			<vitals hp="85" hpRegen="2" mp="69.6" mpRegen="0.9" />
 			<attack physical="12.6646403242148" magical="10.5445708750751" random="50" critical="4" accuracy="9" attackSpeed="253" type="BLUNT" range="40" distance="80" width="120" />
@@ -1206,7 +1206,7 @@
 		<!-- AUTO GENERATED NPC TODO: FIX IT -->
 		<race>ETC</race>
 		<sex>FEMALE</sex>
-		<acquire exp="91" sp="4" />
+		<acquire exp="91" sp="1" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="10">
 			<vitals hp="85" hpRegen="2" mp="69.6" mpRegen="0.9" />
 			<attack physical="15.625" magical="11.7434156523754" random="30" critical="4" accuracy="4.75" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
@@ -1239,7 +1239,7 @@
 				<item id="2374" min="1" max="1" chance="0.0004" /> <!-- Red Sunset Dagger -->
 			</drop>
 			<spoil>
-				<item id="1788" min="1" max="1" chance="0.096" /> <!-- Recipe: Bow -->
+				<item id="1788" min="1" max="1" chance="0.096" /> <!-- Recipe: Bow (100%) -->
 			</spoil>
 		</dropLists>
 	</npc>
@@ -1247,7 +1247,7 @@
 		<!-- AUTO GENERATED NPC TODO: FIX IT -->
 		<race>ETC</race>
 		<sex>FEMALE</sex>
-		<acquire exp="235" sp="13" />
+		<acquire exp="235" sp="2" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="10">
 			<vitals hp="261" hpRegen="2" mp="149.2" mpRegen="0.9" />
 			<attack physical="17.9018976011457" magical="12.8239333168738" random="30" critical="4" accuracy="4.75" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
@@ -1281,7 +1281,7 @@
 				<item id="94880" min="1" max="1" chance="0.0001" /> <!-- Wooden Pistols -->
 			</drop>
 			<spoil>
-				<item id="1792" min="1" max="1" chance="0.013" /> <!-- Recipe: Short Spear -->
+				<item id="1792" min="1" max="1" chance="0.013" /> <!-- Recipe: Short Spear (100%) -->
 				<item id="1797" min="1" max="1" chance="0.347" /> <!-- Recipe: Leather Stockings -->
 			</spoil>
 		</dropLists>
@@ -1290,7 +1290,7 @@
 		<!-- AUTO GENERATED NPC TODO: FIX IT -->
 		<race>ETC</race>
 		<sex>FEMALE</sex>
-		<acquire exp="235" sp="13" />
+		<acquire exp="235" sp="2" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="10">
 			<vitals hp="261" hpRegen="2" mp="149.2" mpRegen="0.9" />
 			<attack physical="19.6197564618617" magical="14.1072371222234" random="50" critical="4" accuracy="9" attackSpeed="253" type="BLUNT" range="40" distance="80" width="120" />
@@ -1324,7 +1324,7 @@
 				<item id="94880" min="1" max="1" chance="0.0001" /> <!-- Wooden Pistols -->
 			</drop>
 			<spoil>
-				<item id="1792" min="1" max="1" chance="0.013" /> <!-- Recipe: Short Spear -->
+				<item id="1792" min="1" max="1" chance="0.013" /> <!-- Recipe: Short Spear (100%) -->
 				<item id="1797" min="1" max="1" chance="0.347" /> <!-- Recipe: Leather Stockings -->
 			</spoil>
 		</dropLists>
@@ -1333,7 +1333,7 @@
 		<!-- AUTO GENERATED NPC TODO: FIX IT -->
 		<race>ETC</race>
 		<sex>FEMALE</sex>
-		<acquire exp="284" sp="15" />
+		<acquire exp="284" sp="3" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="10">
 			<vitals hp="298" hpRegen="2.5" mp="166.08" mpRegen="1.2" />
 			<attack physical="23.5737859500236" magical="16.4975710452675" random="30" critical="4" accuracy="4.75" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
@@ -1379,7 +1379,7 @@
 		</parameters>
 		<race>PLANT</race>
 		<sex>FEMALE</sex>
-		<acquire exp="536423" sp="150174" />
+		<acquire exp="536423" sp="5364" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="10">
 			<vitals hp="37462" hpRegen="10.5" mp="610.8" mpRegen="3.6" />
 			<speed>
@@ -1402,7 +1402,7 @@
 		<!-- AUTO GENERATED NPC TODO: FIX IT -->
 		<race>UNDEAD</race>
 		<sex>MALE</sex>
-		<acquire exp="891528" sp="249563" />
+		<acquire exp="891528" sp="8915" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="52944.93671" hpRegen="6.5" mp="889.8" mpRegen="2.4" />
 			<attack physical="388.11142" magical="265.02979" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
@@ -1427,9 +1427,9 @@
 		<race>HUMANOID</race>
 		<sex>MALE</sex>
 		<equipment rhand="38448" /> <!-- Monster Only: Minotaur Two-handed Axe - Not Available -->
-		<acquire exp="1301469" sp="364364" />
+		<acquire exp="1301469" sp="13013" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="69412.65823" hpRegen="7.5" mp="1188.8" mpRegen="2.7" />
+			<vitals hp="76353.6255229982" hpRegen="7.5" mp="1188.8" mpRegen="2.7" />
 			<attack physical="582.81759" magical="397.98887" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
 			<defence physical="271.89033" magical="198.95754" />
 			<speed>
@@ -1451,9 +1451,9 @@
 		<!-- AUTO GENERATED NPC TODO: FIX IT -->
 		<race>ANIMAL</race>
 		<sex>MALE</sex>
-		<acquire exp="1935450" sp="541800" />
+		<acquire exp="1935450" sp="19350" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="84704.43038" hpRegen="8.5" mp="1507.8" mpRegen="3" />
+			<vitals hp="93174.8224996143" hpRegen="8.5" mp="1507.8" mpRegen="3" />
 			<attack physical="794.70901" magical="542.68324" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
 			<defence physical="319.24623" magical="233.61053" />
 			<speed>
@@ -1475,9 +1475,9 @@
 		<!-- AUTO GENERATED NPC TODO: FIX IT -->
 		<race>DRAGON</race>
 		<sex>MALE</sex>
-		<acquire exp="2500608" sp="700032" />
+		<acquire exp="2500608" sp="25005" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="121231.01266" hpRegen="10.2" mp="2227.484" mpRegen="3.6" />
+			<vitals hp="133354.129441241" hpRegen="10.2" mp="2227.484" mpRegen="3.6" />
 			<attack physical="1552.864" magical="795.304" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
 			<defence physical="409.65" magical="258.5499" />
 			<speed>
@@ -1498,9 +1498,9 @@
 	<npc id="22336" level="85" type="Monster" name="Steel Warrior" element="FIRE">
 		<race>ETC</race>
 		<sex>FEMALE</sex>
-		<acquire exp="173761" sp="50113" attributeExp="1216" />
+		<acquire exp="173761" sp="1734" attributeExp="1216" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="10">
-			<vitals hp="38565.82" hpRegen="10.5" mp="11080.8" mpRegen="3.6" />
+			<vitals hp="42422.79" hpRegen="10.5" mp="11080.8" mpRegen="3.6" />
 			<speed>
 				<walk ground="30" />
 				<run ground="170" />
@@ -1522,9 +1522,9 @@
 	<npc id="22337" level="85" type="Monster" name="Steel Worker" element="FIRE">
 		<race>ETC</race>
 		<sex>FEMALE</sex>
-		<acquire exp="173761" sp="50113" attributeExp="1216" />
+		<acquire exp="173761" sp="1734" attributeExp="1216" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="10">
-			<vitals hp="38565.82" hpRegen="10.5" mp="11080.8" mpRegen="3.6" />
+			<vitals hp="42422.79" hpRegen="10.5" mp="11080.8" mpRegen="3.6" />
 			<speed>
 				<walk ground="30" />
 				<run ground="170" />
@@ -1547,9 +1547,9 @@
 	<npc id="22338" level="85" type="Monster" name="Steel Stalker" title="Steel Manager" element="FIRE">
 		<race>ETC</race>
 		<sex>FEMALE</sex>
-		<acquire exp="707096" sp="197987" attributeExp="1216" />
+		<acquire exp="707096" sp="7066" attributeExp="1216" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="10">
-			<vitals hp="77132.28" hpRegen="10.5" mp="11080.8" mpRegen="3.6" />
+			<vitals hp="84844.94" hpRegen="10.5" mp="11080.8" mpRegen="3.6" />
 			<speed>
 				<walk ground="30" />
 				<run ground="210" />
@@ -1573,9 +1573,9 @@
 		<!-- AUTO GENERATED NPC TODO: FIX IT -->
 		<race>HUMANOID</race>
 		<sex>MALE</sex>
-		<acquire exp="1290587" sp="361279" attributeExp="1216" />
+		<acquire exp="1290587" sp="12904" attributeExp="1216" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="115698.10127" hpRegen="10.2" mp="11080.8" mpRegen="3.6" />
+			<vitals hp="127267.7" hpRegen="10.2" mp="11080.8" mpRegen="3.6" />
 			<attack physical="2226.2521499701" magical="1520.24164482038" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
 			<defence physical="998.10183" magical="730.36761" />
 			<speed>
@@ -1604,9 +1604,9 @@
 	<npc id="22340" level="85" type="Monster" name="Zamad" element="WATER">
 		<race>ETC</race>
 		<sex>FEMALE</sex>
-		<acquire exp="245195" sp="70646" attributeExp="1216" />
+		<acquire exp="245195" sp="2449" attributeExp="1216" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="10">
-			<vitals hp="57848.73" hpRegen="10.5" mp="11080.8" mpRegen="3.6" />
+			<vitals hp="63634.18" hpRegen="10.5" mp="11080.8" mpRegen="3.6" />
 			<speed>
 				<walk ground="45" />
 				<run ground="150" />
@@ -1628,10 +1628,10 @@
 	<npc id="22341" level="85" type="Monster" name="Vegskytt" element="WATER">
 		<race>ETC</race>
 		<sex>FEMALE</sex>
-		<acquire exp="204128" sp="58797" attributeExp="1216" />
+		<acquire exp="204128" sp="2037" attributeExp="1216" />
 		<equipment rhand="15302" /> <!-- Transparent Bow (NPC) - Not Available -->
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="10">
-			<vitals hp="38565.82" hpRegen="10.5" mp="11080.8" mpRegen="3.6" />
+			<vitals hp="42422.79" hpRegen="10.5" mp="11080.8" mpRegen="3.6" />
 			<speed>
 				<walk ground="55" />
 				<run ground="150" />
@@ -1654,9 +1654,9 @@
 	<npc id="22342" level="85" type="Monster" name="Shisuck" title="Ancient Hero Mutant" element="WATER">
 		<race>ETC</race>
 		<sex>FEMALE</sex>
-		<acquire exp="786571" sp="220196" attributeExp="1216" />
+		<acquire exp="786571" sp="7861" attributeExp="1216" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="10">
-			<vitals hp="96415.19" hpRegen="10.5" mp="11080.8" mpRegen="3.6" />
+			<vitals hp="106056.3" hpRegen="10.5" mp="11080.8" mpRegen="3.6" />
 			<speed>
 				<walk ground="60" />
 				<run ground="140" />
@@ -1679,9 +1679,9 @@
 	<npc id="22343" level="85" type="Monster" name="Drayzak" title="Ancient Hero Mutant" element="WATER">
 		<race>ETC</race>
 		<sex>FEMALE</sex>
-		<acquire exp="1348351" sp="377463" attributeExp="1216" />
+		<acquire exp="1348351" sp="13482" attributeExp="1216" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="10">
-			<vitals hp="134981" hpRegen="10.5" mp="11080.8" mpRegen="3.6" />
+			<vitals hp="148479.1" hpRegen="10.5" mp="11080.8" mpRegen="3.6" />
 			<speed>
 				<walk ground="45" />
 				<run ground="160" />
@@ -1705,9 +1705,9 @@
 		<!-- AUTO GENERATED NPC TODO: FIX IT -->
 		<race>ETC</race>
 		<sex>FEMALE</sex>
-		<acquire exp="3612500" sp="1011356" />
+		<acquire exp="3612500" sp="36125" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="10">
-			<vitals hp="231396.2" hpRegen="10.5" mp="11080.8" mpRegen="3.6" />
+			<vitals hp="254535.4" hpRegen="10.5" mp="11080.8" mpRegen="3.6" />
 			<speed>
 				<walk ground="90" />
 				<run ground="120" />
@@ -1720,14 +1720,20 @@
 			<radius normal="16.5" />
 			<height normal="31.5" />
 		</collision>
+		<dropLists>
+			<drop>
+				<item id="57" min="22062" max="24382" chance="70" /> <!-- Adena -->
+				<item id="94717" min="1" max="1" chance="8.835" /> <!-- Hellbound Energy - Sealed -->
+			</drop>
+		</dropLists>
 	</npc>
 	<npc id="22345" level="87" type="Monster" name="Frosty Knight" element="WATER">
 		<!-- FROST LORD CASTLEZONE -->
 		<race>ETC</race>
 		<sex>FEMALE</sex>
-		<acquire exp="709306" sp="23275" attributeExp="1740" />
+		<acquire exp="709306" sp="7092" attributeExp="1740" />
 		<stats str="88" int="79" dex="55" wit="77" con="82" men="78">
-			<vitals hp="68544.3" hpRegen="10.5" mp="11502" mpRegen="3.6" />
+			<vitals hp="75398.77" hpRegen="10.5" mp="11502" mpRegen="3.6" />
 			<speed>
 				<walk ground="70" />
 				<run ground="150" />
@@ -1756,9 +1762,9 @@
 		<!-- FROST LORD CASTLEZONE -->
 		<race>ETC</race>
 		<sex>FEMALE</sex>
-		<acquire exp="658480" sp="21602" attributeExp="1740" />
+		<acquire exp="658480" sp="6577" attributeExp="1740" />
 		<stats str="88" int="79" dex="78" wit="60" con="82" men="78">
-			<vitals hp="57120.31" hpRegen="10.5" mp="11502" mpRegen="3.6" />
+			<vitals hp="62832.31" hpRegen="10.5" mp="11502" mpRegen="3.6" />
 			<speed>
 				<walk ground="36" />
 				<run ground="180" />
@@ -1787,10 +1793,10 @@
 		<!-- FROST LORD CASTLEZONE -->
 		<race>ETC</race>
 		<sex>FEMALE</sex>
-		<acquire exp="749331" sp="24584" attributeExp="1740" />
+		<acquire exp="749331" sp="7493" attributeExp="1740" />
 		<equipment rhand="15302" />
 		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
-			<vitals hp="57120.31" hpRegen="10.5" mp="11502" mpRegen="3.6" />
+			<vitals hp="62832.31" hpRegen="10.5" mp="11502" mpRegen="3.6" />
 			<speed>
 				<walk ground="60" />
 				<run ground="180" />
@@ -1812,7 +1818,7 @@
 		<dropLists>
 			<drop>
 				<item id="57" min="64652" max="71482" chance="70" /> <!-- Adena -->
-				<item id="95782" min="3" max="9" chance="7.099" /> <!-- Frost Lord's Weapon Crystal - Sealed -->
+				<item id="95782" min="3" max="9" chance="7.099" /> <!-- Frost Lord's Weapon Crystal -->
 			</drop>
 		</dropLists>
 	</npc>
@@ -1820,9 +1826,9 @@
 		<!-- FROST LORD CASTLEZONE -->
 		<race>ETC</race>
 		<sex>FEMALE</sex>
-		<acquire exp="1046828" sp="34344" attributeExp="2070" />
+		<acquire exp="1046828" sp="10465" attributeExp="2070" />
 		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
-			<vitals hp="156371.1" hpRegen="10.5" mp="11928" mpRegen="3.6" />
+			<vitals hp="172007.7" hpRegen="10.5" mp="11928" mpRegen="3.6" />
 			<speed>
 				<walk ground="70" />
 				<run ground="150" />
@@ -1844,7 +1850,7 @@
 		<dropLists>
 			<drop>
 				<item id="57" min="128875" max="142333" chance="70" /> <!-- Adena -->
-				<item id="95782" min="3" max="9" chance="14.13" /> <!-- Frost Lord's Weapon Crystal - Sealed -->
+				<item id="95782" min="3" max="9" chance="14.13" /> <!-- Frost Lord's Weapon Crystal -->
 			</drop>
 		</dropLists>
 	</npc>
@@ -1852,9 +1858,9 @@
 		<!-- FROST LORD CASTLEZONE -->
 		<race>ETC</race>
 		<sex>FEMALE</sex>
-		<acquire exp="964985" sp="31663" attributeExp="2070" />
+		<acquire exp="964985" sp="9647" attributeExp="2070" />
 		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
-			<vitals hp="121621.8" hpRegen="10.5" mp="11928" mpRegen="3.6" />
+			<vitals hp="133783.7" hpRegen="10.5" mp="11928" mpRegen="3.6" />
 			<speed>
 				<walk ground="36" />
 				<run ground="180" />
@@ -1876,7 +1882,7 @@
 		<dropLists>
 			<drop>
 				<item id="57" min="114727" max="126708" chance="70" /> <!-- Adena -->
-				<item id="95782" min="3" max="9" chance="12.579" /> <!-- Frost Lord's Weapon Crystal - Sealed -->
+				<item id="95782" min="3" max="9" chance="12.579" /> <!-- Frost Lord's Weapon Crystal -->
 			</drop>
 		</dropLists>
 	</npc>
@@ -1884,10 +1890,10 @@
 		<!-- FROST LORD CASTLEZONE -->
 		<race>ETC</race>
 		<sex>FEMALE</sex>
-		<acquire exp="1099089" sp="36069" attributeExp="2070" />
+		<acquire exp="1099089" sp="10984" attributeExp="2070" />
 		<equipment rhand="15302" />
 		<stats str="88" int="79" dex="55" wit="45" con="82" men="78">
-			<vitals hp="121621.8" hpRegen="10.5" mp="11928" mpRegen="3.6" />
+			<vitals hp="133783.7" hpRegen="10.5" mp="11928" mpRegen="3.6" />
 			<speed>
 				<walk ground="60" />
 				<run ground="180" />
@@ -1910,7 +1916,7 @@
 			<drop>
 				<item id="57" min="128001" max="141368" chance="70" /> <!-- Adena -->
 				<item id="95803" min="1" max="1" chance="0.974" /> <!-- Hardin's Soul Crystal Lv. 1 - Rare -->
-				<item id="95782" min="3" max="9" chance="7.017" /> <!-- Frost Lord's Weapon Crystal - Sealed -->
+				<item id="95782" min="3" max="9" chance="7.017" /> <!-- Frost Lord's Weapon Crystal -->
 			</drop>
 		</dropLists>
 	</npc>
@@ -1918,10 +1924,10 @@
 		<!-- FROST LORD CASTLEZONE -->
 		<race>ETC</race>
 		<sex>FEMALE</sex>
-		<acquire exp="749331" sp="24584" attributeExp="1740" />
+		<acquire exp="749331" sp="7493" attributeExp="1740" />
 		<equipment rhand="15302" />
 		<stats str="88" int="79" dex="55" wit="40" con="82" men="78">
-			<vitals hp="57120.31" hpRegen="10.5" mp="11502" mpRegen="3.6" />
+			<vitals hp="62832.31" hpRegen="10.5" mp="11502" mpRegen="3.6" />
 			<speed>
 				<walk ground="40" />
 				<run ground="180" />
@@ -1944,7 +1950,7 @@
 			<drop>
 				<item id="57" min="64652" max="71482" chance="70" /> <!-- Adena -->
 				<item id="95803" min="1" max="1" chance="1.479" /> <!-- Hardin's Soul Crystal Lv. 1 - Rare -->
-				<item id="95782" min="1" max="3" chance="10.648" /> <!-- Frost Lord's Weapon Crystal - Sealed -->
+				<item id="95782" min="1" max="3" chance="10.648" /> <!-- Frost Lord's Weapon Crystal -->
 			</drop>
 		</dropLists>
 	</npc>
@@ -1952,10 +1958,10 @@
 		<!-- FROST LORD CASTLEZONE -->
 		<race>ETC</race>
 		<sex>FEMALE</sex>
-		<acquire exp="1099089" sp="36069" attributeExp="2070" />
+		<acquire exp="1099089" sp="10984" attributeExp="2070" />
 		<equipment rhand="15302" />
 		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
-			<vitals hp="121621.8" hpRegen="10.5" mp="11928" mpRegen="3.6" />
+			<vitals hp="133783.7" hpRegen="10.5" mp="11928" mpRegen="3.6" />
 			<speed>
 				<walk ground="40" />
 				<run ground="180" />
@@ -1979,7 +1985,7 @@
 			<drop>
 				<item id="57" min="128001" max="141368" chance="70" /> <!-- Adena -->
 				<item id="95803" min="1" max="1" chance="0.974" /> <!-- Hardin's Soul Crystal Lv. 1 - Rare -->
-				<item id="95782" min="3" max="9" chance="7.017" /> <!-- Frost Lord's Weapon Crystal - Sealed -->
+				<item id="95782" min="3" max="9" chance="7.017" /> <!-- Frost Lord's Weapon Crystal -->
 			</drop>
 		</dropLists>
 	</npc>
@@ -1987,9 +1993,9 @@
 		<!-- AUTO GENERATED NPC TODO: FIX IT -->
 		<race>HUMANOID</race>
 		<sex>MALE</sex>
-		<acquire exp="1019393" sp="30579" attributeExp="1740" />
+		<acquire exp="1019393" sp="10188" attributeExp="1740" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="164491.77215" hpRegen="10.2" mp="11502" mpRegen="3.6" />
+			<vitals hp="180941.1" hpRegen="10.2" mp="11502" mpRegen="3.6" />
 			<attack physical="2780" magical="1898" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
 			<defence physical="1552" magical="856" />
 			<speed>
@@ -2018,9 +2024,9 @@
 		<!-- AUTO GENERATED NPC TODO: FIX IT -->
 		<race>HUMANOID</race>
 		<sex>MALE</sex>
-		<acquire exp="1170546" sp="35120" attributeExp="1740" />
+		<acquire exp="1170546" sp="11702" attributeExp="1740" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="211489.24051" hpRegen="10.2" mp="11502" mpRegen="3.6" />
+			<vitals hp="232638.6" hpRegen="10.2" mp="11502" mpRegen="3.6" />
 			<attack physical="2780" magical="1898" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
 			<defence physical="1552" magical="856" />
 			<speed>
@@ -2051,9 +2057,9 @@
 		<!-- AUTO GENERATED NPC TODO: FIX IT -->
 		<race>HUMANOID</race>
 		<sex>MALE</sex>
-		<acquire exp="1068667" sp="32093" attributeExp="1740" />
+		<acquire exp="1068667" sp="10680" attributeExp="1740" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="187990.50633" hpRegen="10.2" mp="11502" mpRegen="3.6" />
+			<vitals hp="206789.9" hpRegen="10.2" mp="11502" mpRegen="3.6" />
 			<attack physical="2780" magical="1898" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
 			<defence physical="1552" magical="856" />
 			<speed>
@@ -2081,9 +2087,9 @@
 		<!-- AUTO GENERATED NPC TODO: FIX IT -->
 		<race>HUMANOID</race>
 		<sex>MALE</sex>
-		<acquire exp="1219820" sp="36634" attributeExp="1740" />
+		<acquire exp="1219820" sp="12194" attributeExp="1740" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="234987.97468" hpRegen="10.2" mp="11502" mpRegen="3.6" />
+			<vitals hp="258486.7" hpRegen="10.2" mp="11502" mpRegen="3.6" />
 			<attack physical="2780" magical="1898" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
 			<defence physical="1552" magical="856" />
 			<speed>
@@ -2111,9 +2117,9 @@
 		<!-- AUTO GENERATED NPC TODO: FIX IT -->
 		<race>HUMANOID</race>
 		<sex>MALE</sex>
-		<acquire exp="1629558" sp="48924" attributeExp="2070" />
+		<acquire exp="1629558" sp="16289" attributeExp="2070" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="250171.51899" hpRegen="10.2" mp="11928" mpRegen="3.6" />
+			<vitals hp="275188" hpRegen="10.2" mp="11928" mpRegen="3.6" />
 			<attack physical="3611" magical="2465" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
 			<defence physical="2383" magical="1045" />
 			<speed>
@@ -2142,9 +2148,9 @@
 		<!-- AUTO GENERATED NPC TODO: FIX IT -->
 		<race>HUMANOID</race>
 		<sex>MALE</sex>
-		<acquire exp="1887867" sp="56619" attributeExp="2070" />
+		<acquire exp="1887867" sp="18873" attributeExp="2070" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="321649.36709" hpRegen="10.2" mp="11928" mpRegen="3.6" />
+			<vitals hp="353813.3" hpRegen="10.2" mp="11928" mpRegen="3.6" />
 			<attack physical="3611" magical="2465" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
 			<defence physical="2383" magical="1045" />
 			<speed>
@@ -2173,9 +2179,9 @@
 		<!-- AUTO GENERATED NPC TODO: FIX IT -->
 		<race>HUMANOID</race>
 		<sex>MALE</sex>
-		<acquire exp="1700028" sp="51030" attributeExp="2070" />
+		<acquire exp="1700028" sp="16994" attributeExp="2070" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="285910.12658" hpRegen="10.2" mp="11928" mpRegen="3.6" />
+			<vitals hp="314500.6" hpRegen="10.2" mp="11928" mpRegen="3.6" />
 			<attack physical="3611" magical="2465" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
 			<defence physical="2383" magical="1045" />
 			<speed>
@@ -2204,9 +2210,9 @@
 		<!-- AUTO GENERATED NPC TODO: FIX IT -->
 		<race>HUMANOID</race>
 		<sex>MALE</sex>
-		<acquire exp="1958256" sp="58725" attributeExp="2070" />
+		<acquire exp="1958256" sp="19578" attributeExp="2070" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="357387.97468" hpRegen="10.2" mp="11928" mpRegen="3.6" />
+			<vitals hp="393125.9" hpRegen="10.2" mp="11928" mpRegen="3.6" />
 			<attack physical="3611" magical="2465" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
 			<defence physical="2383" magical="1045" />
 			<speed>
@@ -2234,13 +2240,13 @@
 			</drop>
 		</dropLists>
 	</npc>
-	<npc id="22361" level="80" type="Monster" name="Strider" element="EARTH">
+	<npc id="22361" level="80" type="Monster" name="Dragon" element="EARTH">
 		<!-- AUTO GENERATED NPC TODO: FIX IT -->
 		<race>DRAGON</race>
 		<sex>MALE</sex>
-		<acquire exp="32028" sp="14324" attributeExp="1056" />
+		<acquire exp="32028" sp="320" attributeExp="1056" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="16163.92405" hpRegen="10.2" mp="2227.484" mpRegen="3.6" />
+			<vitals hp="17780.38" hpRegen="10.2" mp="2227.484" mpRegen="3.6" />
 			<attack physical="1552.864" magical="795.304" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
 			<defence physical="409.65" magical="258.5499" />
 			<speed>
@@ -2260,20 +2266,17 @@
 		</skillList>
 		<dropLists>
 			<drop>
-				<item id="57" min="892" max="987" chance="70" /> <!-- Adena -->
-				<item id="91767" min="1" max="1" chance="0.006" /> <!-- Enchant Kit: Talisman of Aden - Sealed -->
-				<item id="97653" min="1" max="1" chance="0.0010" /> <!-- Collector's Weapon I - Sealed -->
-				<item id="97654" min="1" max="1" chance="0.002" /> <!-- Collector's Armor I - Sealed -->
+				<item id="57" min="602" max="667" chance="70" /> <!-- Adena -->
 			</drop>
 		</dropLists>
 	</npc>
-	<npc id="22362" level="80" type="Monster" name="Strider" element="EARTH">
+	<npc id="22362" level="80" type="Monster" name="Dragon" element="EARTH">
 		<!-- AUTO GENERATED NPC TODO: FIX IT -->
 		<race>DRAGON</race>
 		<sex>MALE</sex>
-		<acquire exp="37824" sp="9216" attributeExp="1056" />
+		<acquire exp="37824" sp="378" attributeExp="1056" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="21013.29114" hpRegen="10.2" mp="2227.484" mpRegen="3.6" />
+			<vitals hp="23114.56" hpRegen="10.2" mp="2227.484" mpRegen="3.6" />
 			<attack physical="1552.864" magical="795.304" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
 			<defence physical="409.65" magical="258.5499" />
 			<speed>
@@ -2293,18 +2296,23 @@
 		</skillList>
 		<dropLists>
 			<drop>
-				<item id="57" min="892" max="987" chance="70" /> <!-- Adena -->
-				<item id="91767" min="1" max="1" chance="0.017" /> <!-- Enchant Kit: Talisman of Aden - Sealed -->
+				<item id="57" min="602" max="667" chance="70" /> <!-- Adena -->
+				<item id="92476" min="1" max="1" chance="0.757" /> <!-- Metal Ingot -->
+				<item id="92479" min="1" max="1" chance="0.757" /> <!-- Metallograph -->
+				<item id="92481" min="1" max="1" chance="0.757" /> <!-- Cloth -->
+				<item id="96623" min="1" max="1" chance="0.0004" /> <!-- Dye Powder -->
+				<item id="97653" min="1" max="1" chance="0.001" /> <!-- Collector's Weapon C - Sealed -->
+				<item id="97654" min="1" max="1" chance="0.002" /> <!-- Collector's Armor C - Sealed -->
 			</drop>
 		</dropLists>
 	</npc>
-	<npc id="22363" level="80" type="Monster" name="Strider" element="EARTH">
+	<npc id="22363" level="80" type="Monster" name="Dragon" element="EARTH">
 		<!-- AUTO GENERATED NPC TODO: FIX IT -->
 		<race>DRAGON</race>
 		<sex>MALE</sex>
-		<acquire exp="30964" sp="9506" attributeExp="1144" />
+		<acquire exp="30964" sp="307" attributeExp="1144" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="16163.92405" hpRegen="10.2" mp="2227.484" mpRegen="3.6" />
+			<vitals hp="17780.38" hpRegen="10.2" mp="2227.484" mpRegen="3.6" />
 			<attack physical="1552.864" magical="795.304" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
 			<defence physical="409.65" magical="258.5499" />
 			<speed>
@@ -2324,8 +2332,7 @@
 		</skillList>
 		<dropLists>
 			<drop>
-				<item id="57" min="892" max="987" chance="70" /> <!-- Adena -->
-				<item id="91767" min="1" max="1" chance="0.017" /> <!-- Enchant Kit: Talisman of Aden - Sealed -->
+				<item id="57" min="602" max="667" chance="70" /> <!-- Adena -->
 			</drop>
 		</dropLists>
 	</npc>
@@ -2333,9 +2340,9 @@
 		<!-- AUTO GENERATED NPC TODO: FIX IT -->
 		<race>DRAGON</race>
 		<sex>MALE</sex>
-		<acquire exp="41285" sp="12674" attributeExp="1144" />
+		<acquire exp="41285" sp="410" attributeExp="1144" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="24246.20253" hpRegen="10.2" mp="2227.484" mpRegen="3.6" />
+			<vitals hp="26670.89" hpRegen="10.2" mp="2227.484" mpRegen="3.6" />
 			<attack physical="1552.864" magical="795.304" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
 			<defence physical="409.65" magical="258.5499" />
 			<speed>
@@ -2355,23 +2362,23 @@
 		</skillList>
 		<dropLists>
 			<drop>
-				<item id="57" min="892" max="987" chance="70" /> <!-- Adena -->
-				<item id="91767" min="1" max="1" chance="0.005" /> <!-- Enchant Kit: Talisman of Aden - Sealed -->
-				<item id="94186" min="1" max="1" chance="0.0003" /> <!-- Augmenting Stone: Weapon -->
-				<item id="95783" min="1" max="1" chance="0.024" /> <!-- Aden's Soul Crystal Lv. 1 - Weapon -->
-				<item id="92476" min="1" max="1" chance="0.543" /> <!-- Metal Ingot -->
-				<item id="92479" min="1" max="1" chance="0.543" /> <!-- Metallograph -->
-				<item id="92481" min="1" max="1" chance="0.543" /> <!-- Cloth -->
+				<item id="57" min="602" max="667" chance="70" /> <!-- Adena -->
+				<item id="92476" min="1" max="1" chance="0.757" /> <!-- Metal Ingot -->
+				<item id="92479" min="1" max="1" chance="0.757" /> <!-- Metallograph -->
+				<item id="92481" min="1" max="1" chance="0.757" /> <!-- Cloth -->
+				<item id="96623" min="1" max="1" chance="0.0004" /> <!-- Dye Powder -->
+				<item id="97653" min="1" max="1" chance="0.001" /> <!-- Collector's Weapon C - Sealed -->
+				<item id="97654" min="1" max="1" chance="0.002" /> <!-- Collector's Armor C - Sealed -->
 			</drop>
 		</dropLists>
 	</npc>
-	<npc id="22365" level="82" type="Monster" name="Strider" element="WIND">
+	<npc id="22365" level="82" type="Monster" name="Dragon" element="WIND">
 		<!-- AUTO GENERATED NPC TODO: FIX IT -->
 		<race>DRAGON</race>
 		<sex>MALE</sex>
-		<acquire exp="53799" sp="15311" attributeExp="1173" />
+		<acquire exp="53799" sp="538" attributeExp="1173" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="16113.92405" hpRegen="10.2" mp="2614.5" mpRegen="3.6" />
+			<vitals hp="17725.32" hpRegen="10.2" mp="2614.5" mpRegen="3.6" />
 			<attack physical="1688.456" magical="864.744" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
 			<defence physical="419.73" magical="230.358" />
 			<speed>
@@ -2391,18 +2398,17 @@
 		</skillList>
 		<dropLists>
 			<drop>
-				<item id="57" min="1455" max="1610" chance="70" /> <!-- Adena -->
-				<item id="91767" min="1" max="1" chance="0.027" /> <!-- Enchant Kit: Talisman of Aden - Sealed -->
+				<item id="57" min="1062" max="1174" chance="70" /> <!-- Adena -->
 			</drop>
 		</dropLists>
 	</npc>
-	<npc id="22366" level="82" type="Monster" name="Strider" element="WIND">
+	<npc id="22366" level="82" type="Monster" name="Dragon" element="WIND">
 		<!-- AUTO GENERATED NPC TODO: FIX IT -->
 		<race>DRAGON</race>
 		<sex>MALE</sex>
-		<acquire exp="53799" sp="15311" attributeExp="1173" />
+		<acquire exp="53799" sp="538" attributeExp="1173" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="16113.92405" hpRegen="10.2" mp="2614.5" mpRegen="3.6" />
+			<vitals hp="17725.32" hpRegen="10.2" mp="2614.5" mpRegen="3.6" />
 			<attack physical="1688.456" magical="864.744" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
 			<defence physical="419.73" magical="230.358" />
 			<speed>
@@ -2422,18 +2428,23 @@
 		</skillList>
 		<dropLists>
 			<drop>
-				<item id="57" min="1455" max="1610" chance="70" /> <!-- Adena -->
-				<item id="91767" min="1" max="1" chance="0.027" /> <!-- Enchant Kit: Talisman of Aden - Sealed -->
+				<item id="57" min="1062" max="1174" chance="70" /> <!-- Adena -->
+				<item id="92476" min="1" max="1" chance="1.176" /> <!-- Metal Ingot -->
+				<item id="92479" min="1" max="1" chance="1.176" /> <!-- Metallograph -->
+				<item id="92480" min="1" max="1" chance="1.176" /> <!-- Leather -->
+				<item id="96623" min="1" max="1" chance="0.0006" /> <!-- Dye Powder -->
+				<item id="97655" min="1" max="1" chance="0.0007" /> <!-- Package: +4 ~ +12 Collector's Weapon C - Sealed -->
+				<item id="97656" min="1" max="1" chance="0.001" /> <!-- Package: +4 ~ +8 Collector's Armor C - Sealed -->
 			</drop>
 		</dropLists>
 	</npc>
-	<npc id="22367" level="82" type="Monster" name="Strider" element="WIND">
+	<npc id="22367" level="82" type="Monster" name="Dragon" element="WIND">
 		<!-- AUTO GENERATED NPC TODO: FIX IT -->
 		<race>DRAGON</race>
 		<sex>MALE</sex>
-		<acquire exp="64550" sp="18357" attributeExp="1173" />
+		<acquire exp="64550" sp="646" attributeExp="1173" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="20948.10127" hpRegen="10.2" mp="2614.5" mpRegen="3.6" />
+			<vitals hp="23042.4" hpRegen="10.2" mp="2614.5" mpRegen="3.6" />
 			<attack physical="1688.456" magical="864.744" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
 			<defence physical="419.73" magical="230.358" />
 			<speed>
@@ -2453,10 +2464,7 @@
 		</skillList>
 		<dropLists>
 			<drop>
-				<item id="57" min="1455" max="1610" chance="70" /> <!-- Adena -->
-				<item id="91767" min="1" max="1" chance="0.009" /> <!-- Enchant Kit: Talisman of Aden - Sealed -->
-				<item id="97655" min="1" max="1" chance="0.0006" /> <!-- Package: +4 ~ +12 Collector's Weapon I - Sealed -->
-				<item id="97656" min="1" max="1" chance="0.001" /> <!-- Package: +4 ~ +8 Collector's Armor I - Sealed -->
+				<item id="57" min="1062" max="1174" chance="70" /> <!-- Adena -->
 			</drop>
 		</dropLists>
 	</npc>
@@ -2464,9 +2472,9 @@
 		<!-- AUTO GENERATED NPC TODO: FIX IT -->
 		<race>DRAGON</race>
 		<sex>MALE</sex>
-		<acquire exp="119075" sp="33887" attributeExp="1173" />
+		<acquire exp="119075" sp="1190" attributeExp="1173" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="40284.17722" hpRegen="10.2" mp="2614.5" mpRegen="3.6" />
+			<vitals hp="44312.66" hpRegen="10.2" mp="2614.5" mpRegen="3.6" />
 			<attack physical="1688.456" magical="864.744" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
 			<defence physical="419.73" magical="230.358" />
 			<speed>
@@ -2486,23 +2494,23 @@
 		</skillList>
 		<dropLists>
 			<drop>
-				<item id="57" min="1455" max="1610" chance="70" /> <!-- Adena -->
-				<item id="91767" min="1" max="1" chance="0.008" /> <!-- Enchant Kit: Talisman of Aden - Sealed -->
-				<item id="94188" min="1" max="1" chance="0.0009" /> <!-- Augmenting Stone: Armor -->
-				<item id="95783" min="1" max="1" chance="0.04" /> <!-- Aden's Soul Crystal Lv. 1 - Weapon -->
-				<item id="92476" min="1" max="1" chance="0.886" /> <!-- Metal Ingot -->
-				<item id="92479" min="1" max="1" chance="0.886" /> <!-- Metallograph -->
-				<item id="92480" min="1" max="1" chance="0.886" /> <!-- Leather -->
+				<item id="57" min="1062" max="1174" chance="70" /> <!-- Adena -->
+				<item id="92476" min="1" max="1" chance="1.176" /> <!-- Metal Ingot -->
+				<item id="92479" min="1" max="1" chance="1.176" /> <!-- Metallograph -->
+				<item id="92480" min="1" max="1" chance="1.176" /> <!-- Leather -->
+				<item id="96623" min="1" max="1" chance="0.0006" /> <!-- Dye Powder -->
+				<item id="97655" min="1" max="1" chance="0.0007" /> <!-- Package: +4 ~ +12 Collector's Weapon C - Sealed -->
+				<item id="97656" min="1" max="1" chance="0.001" /> <!-- Package: +4 ~ +8 Collector's Armor C - Sealed -->
 			</drop>
 		</dropLists>
 	</npc>
-	<npc id="22369" level="85" type="Monster" name="Giant Mercenary" element="EARTH">
+	<npc id="22369" level="85" type="Monster" name="Giant Mercenary" title="Entry Watchman" element="EARTH">
 		<!-- AUTO GENERATED NPC TODO: FIX IT -->
 		<race>HUMANOID</race>
 		<sex>MALE</sex>
-		<acquire exp="52345" sp="6120" attributeExp="1029" />
+		<acquire exp="209381" sp="2088" attributeExp="1029" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="19613.29114" hpRegen="10.2" mp="2770.2" mpRegen="3.6" />
+			<vitals hp="86297.47" hpRegen="10.2" mp="2770.2" mpRegen="3.6" />
 			<attack physical="2226.2521499701" magical="1520.24164482038" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
 			<defence physical="998.10183" magical="730.36761" />
 			<speed>
@@ -2521,14 +2529,19 @@
 			<skill id="48047" level="1" /> <!-- Earth Attribute Monster -->
 			<skill id="5620" level="1" /> <!-- Melee Attack Vulnerability -->
 		</skillList>
+		<dropLists>
+			<drop>
+				<item id="57" min="1423" max="1572" chance="70" /> <!-- Adena -->
+			</drop>
+		</dropLists>
 	</npc>
 	<npc id="22370" level="85" type="Monster" name="Mutated Warrior" element="EARTH">
 		<!-- AUTO GENERATED NPC TODO: FIX IT -->
 		<race>HUMANOID</race>
 		<sex>MALE</sex>
-		<acquire exp="52345" sp="6120" attributeExp="1029" />
+		<acquire exp="52345" sp="520" attributeExp="1029" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="19613.29114" hpRegen="10.2" mp="2770.2" mpRegen="3.6" />
+			<vitals hp="21574.68" hpRegen="10.2" mp="2770.2" mpRegen="3.6" />
 			<attack physical="2226.2521499701" magical="1520.24164482038" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
 			<defence physical="998.10183" magical="730.36761" />
 			<speed>
@@ -2549,9 +2562,9 @@
 		</skillList>
 		<dropLists>
 			<drop>
-				<item id="57" min="2437" max="2693" chance="70" /> <!-- Adena -->
-				<item id="97655" min="1" max="1" chance="0.002" /> <!-- Package: +4 ~ +12 Collector's Weapon I - Sealed -->
-				<item id="97656" min="1" max="1" chance="0.003" /> <!-- Package: +4 ~ +8 Collector's Armor I - Sealed -->
+				<item id="57" min="1423" max="1572" chance="70" /> <!-- Adena -->
+				<item id="97655" min="1" max="1" chance="0.002" /> <!-- Package: +4 ~ +12 Collector's Weapon C - Sealed -->
+				<item id="97656" min="1" max="1" chance="0.005" /> <!-- Package: +4 ~ +8 Collector's Armor C - Sealed -->
 			</drop>
 		</dropLists>
 	</npc>
@@ -2559,9 +2572,9 @@
 		<!-- AUTO GENERATED NPC TODO: FIX IT -->
 		<race>HUMANOID</race>
 		<sex>MALE</sex>
-		<acquire exp="83109" sp="6091" attributeExp="1216" />
+		<acquire exp="83109" sp="831" attributeExp="1216" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="39225.94937" hpRegen="10.2" mp="2770.2" mpRegen="3.6" />
+			<vitals hp="43148.73" hpRegen="10.2" mp="2770.2" mpRegen="3.6" />
 			<attack physical="2226.2521499701" magical="1520.24164482038" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
 			<defence physical="998.10183" magical="730.36761" />
 			<speed>
@@ -2582,43 +2595,42 @@
 		</skillList>
 		<dropLists>
 			<drop>
-				<item id="57" min="4143" max="4578" chance="70" /> <!-- Adena -->
-				<item id="94186" min="1" max="1" chance="0.0004" /> <!-- Augmenting Stone: Weapon -->
-				<item id="94188" min="1" max="1" chance="0.0008" /> <!-- Augmenting Stone: Armor -->
-				<item id="92476" min="1" max="1" chance="0.839" /> <!-- Metal Ingot -->
-				<item id="92477" min="1" max="1" chance="0.839" /> <!-- Wood -->
-				<item id="92478" min="1" max="1" chance="0.839" /> <!-- Varnish -->
-				<item id="92812" min="1" max="1" chance="0.013" /> <!-- Sealed Majestic Leather Armor Fabric -->
-				<item id="92817" min="1" max="1" chance="0.013" /> <!-- Sealed Majestic Robe Fabric -->
-				<item id="92824" min="1" max="1" chance="0.062" /> <!-- Sealed Majestic Boot Lining -->
-				<item id="92828" min="1" max="1" chance="0.062" /> <!-- Sealed Majestic Gauntlet Design -->
-				<item id="92832" min="1" max="1" chance="0.01" /> <!-- Sealed Majestic Plate Armor Pattern -->
-				<item id="92837" min="1" max="1" chance="0.041" /> <!-- Sealed Majestic Circlet Design -->
-				<item id="92899" min="1" max="1" chance="0.003" /> <!-- Barakiel's Axe Piece -->
-				<item id="5316" min="1" max="1" chance="0.0005" /> <!-- Sealed Majestic Plate Armor -->
-				<item id="5317" min="1" max="1" chance="0.002" /> <!-- Sealed Majestic Circlet -->
-				<item id="5318" min="1" max="1" chance="0.003" /> <!-- Sealed Majestic Gauntlets -->
-				<item id="5319" min="1" max="1" chance="0.003" /> <!-- Sealed Majestic Boots -->
-				<item id="5323" min="1" max="1" chance="0.0007" /> <!-- Sealed Majestic Leather Armor -->
-				<item id="5329" min="1" max="1" chance="0.0007" /> <!-- Sealed Majestic Robe -->
+				<item id="57" min="2419" max="2673" chance="70" /> <!-- Adena -->
+				<item id="91767" min="1" max="1" chance="0.008" /> <!-- Enchant Kit: Talisman of Aden - Sealed -->
+				<item id="92476" min="1" max="1" chance="1.515" /> <!-- Metal Ingot -->
+				<item id="92477" min="1" max="1" chance="1.515" /> <!-- Wood -->
+				<item id="92478" min="1" max="1" chance="1.515" /> <!-- Varnish -->
+				<item id="92812" min="1" max="1" chance="0.023" /> <!-- Sealed Majestic Leather Armor Fabric -->
+				<item id="92817" min="1" max="1" chance="0.023" /> <!-- Sealed Majestic Robe Fabric -->
+				<item id="92824" min="1" max="1" chance="0.112" /> <!-- Sealed Majestic Boot Lining -->
+				<item id="92828" min="1" max="1" chance="0.112" /> <!-- Sealed Majestic Gauntlet Design -->
+				<item id="92832" min="1" max="1" chance="0.017" /> <!-- Sealed Majestic Plate Armor Pattern -->
+				<item id="92837" min="1" max="1" chance="0.075" /> <!-- Sealed Majestic Circlet Design -->
+				<item id="92899" min="1" max="1" chance="0.006" /> <!-- Barakiel's Axe Piece -->
+				<item id="5316" min="1" max="1" chance="0.0007" /> <!-- Sealed Majestic Plate Armor -->
+				<item id="5317" min="1" max="1" chance="0.003" /> <!-- Sealed Majestic Circlet -->
+				<item id="5318" min="1" max="1" chance="0.005" /> <!-- Sealed Majestic Gauntlets -->
+				<item id="5319" min="1" max="1" chance="0.005" /> <!-- Sealed Majestic Boots -->
+				<item id="5323" min="1" max="1" chance="0.0010" /> <!-- Sealed Majestic Leather Armor -->
+				<item id="5329" min="1" max="1" chance="0.0010" /> <!-- Sealed Majestic Robe -->
 				<item id="8680" min="1" max="1" chance="0.0002" /> <!-- Barakiel's Axe -->
 				<item id="91902" min="1" max="1" chance="0.0002" /> <!-- Éclair Bijou -->
 			</drop>
 			<spoil>
-				<item id="5338" min="1" max="1" chance="0.005" /> <!-- Recipe: Sealed Majestic Leather Armor (60%) -->
-				<item id="5339" min="1" max="1" chance="0.003" /> <!-- Recipe: Sealed Majestic Leather Armor (100%) -->
-				<item id="5352" min="1" max="1" chance="0.005" /> <!-- Recipe: Sealed Majestic Robe (60%) -->
-				<item id="5353" min="1" max="1" chance="0.003" /> <!-- Recipe: Sealed Majestic Robe (100%) -->
-				<item id="5382" min="1" max="1" chance="0.025" /> <!-- Recipe: Sealed Majestic Boots (60%) -->
-				<item id="5383" min="1" max="1" chance="0.015" /> <!-- Recipe: Sealed Majestic Boots (100%) -->
-				<item id="5406" min="1" max="1" chance="0.025" /> <!-- Recipe: Sealed Majestic Gauntlets (60%) -->
-				<item id="5407" min="1" max="1" chance="0.015" /> <!-- Recipe: Sealed Majestic Gauntlets (100%) -->
-				<item id="5422" min="1" max="1" chance="0.004" /> <!-- Recipe: Sealed Majestic Plate Armor (60%) -->
-				<item id="5423" min="1" max="1" chance="0.002" /> <!-- Recipe: Sealed Majestic Plate Armor (100%) -->
-				<item id="5432" min="1" max="1" chance="0.017" /> <!-- Recipe: Sealed Majestic Circlet (60%) -->
-				<item id="5433" min="1" max="1" chance="0.01" /> <!-- Recipe: Sealed Majestic Circlet (100%) -->
-				<item id="8694" min="1" max="1" chance="0.001" /> <!-- Recipe: Barakiel's Axe (60%) -->
-				<item id="8695" min="1" max="1" chance="0.0008" /> <!-- Recipe: Barakiel's Axe (100%) -->
+				<item id="5338" min="1" max="1" chance="0.008" /> <!-- Recipe: Sealed Majestic Leather Armor (60%) -->
+				<item id="5339" min="1" max="1" chance="0.005" /> <!-- Recipe: Sealed Majestic Leather Armor (100%) -->
+				<item id="5352" min="1" max="1" chance="0.008" /> <!-- Recipe: Sealed Majestic Robe (60%) -->
+				<item id="5353" min="1" max="1" chance="0.005" /> <!-- Recipe: Sealed Majestic Robe (100%) -->
+				<item id="5382" min="1" max="1" chance="0.038" /> <!-- Recipe: Sealed Majestic Boots (60%) -->
+				<item id="5383" min="1" max="1" chance="0.023" /> <!-- Recipe: Sealed Majestic Boots (100%) -->
+				<item id="5406" min="1" max="1" chance="0.038" /> <!-- Recipe: Sealed Majestic Gauntlets (60%) -->
+				<item id="5407" min="1" max="1" chance="0.023" /> <!-- Recipe: Sealed Majestic Gauntlets (100%) -->
+				<item id="5422" min="1" max="1" chance="0.006" /> <!-- Recipe: Sealed Majestic Plate Armor (60%) -->
+				<item id="5423" min="1" max="1" chance="0.004" /> <!-- Recipe: Sealed Majestic Plate Armor (100%) -->
+				<item id="5432" min="1" max="1" chance="0.025" /> <!-- Recipe: Sealed Majestic Circlet (60%) -->
+				<item id="5433" min="1" max="1" chance="0.015" /> <!-- Recipe: Sealed Majestic Circlet (100%) -->
+				<item id="8694" min="1" max="1" chance="0.002" /> <!-- Recipe: Barakiel's Axe (60%) -->
+				<item id="8695" min="1" max="1" chance="0.001" /> <!-- Recipe: Barakiel's Axe (100%) -->
 			</spoil>
 		</dropLists>
 	</npc>
@@ -2627,9 +2639,9 @@
 		<race>HUMANOID</race>
 		<sex>MALE</sex>
 		<equipment rhand="15304" /> <!-- Transparent Crossbow (NPC) - Not Available -->
-		<acquire exp="52345" sp="6120" attributeExp="1029" />
+		<acquire exp="52345" sp="520" attributeExp="1029" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="19613.29114" hpRegen="10.2" mp="2770.2" mpRegen="3.6" />
+			<vitals hp="21574.68" hpRegen="10.2" mp="2770.2" mpRegen="3.6" />
 			<attack physical="2226.2521499701" magical="1520.24164482038" random="5" critical="8" accuracy="0" attackSpeed="253" type="BOW" range="1100" distance="10" width="0" />
 			<defence physical="998.10183" magical="730.36761" />
 			<speed>
@@ -2650,7 +2662,7 @@
 		</skillList>
 		<dropLists>
 			<drop>
-				<item id="57" min="2437" max="2693" chance="70" /> <!-- Adena -->
+				<item id="57" min="1423" max="1572" chance="70" /> <!-- Adena -->
 			</drop>
 		</dropLists>
 	</npc>
@@ -2658,9 +2670,9 @@
 		<!-- AUTO GENERATED NPC TODO: FIX IT -->
 		<race>ETC</race>
 		<sex>MALE</sex>
-		<acquire exp="112211" sp="13118" attributeExp="1258" />
+		<acquire exp="112211" sp="1115" attributeExp="1258" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="26757.59494" hpRegen="10.2" mp="2928.25" mpRegen="3.6" />
+			<vitals hp="29433.54" hpRegen="10.2" mp="2928.25" mpRegen="3.6" />
 			<attack physical="3057" magical="2087" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
 			<defence physical="1829" magical="919" />
 			<speed>
@@ -2683,9 +2695,9 @@
 		<!-- AUTO GENERATED NPC TODO: FIX IT -->
 		<race>HUMANOID</race>
 		<sex>MALE</sex>
-		<acquire exp="117369" sp="13721" attributeExp="1800" />
+		<acquire exp="117369" sp="1166" attributeExp="1800" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="71477.8481" hpRegen="10.2" mp="11928" mpRegen="3.6" />
+			<vitals hp="78625.32" hpRegen="10.2" mp="11928" mpRegen="3.6" />
 			<attack physical="3611" magical="2465" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
 			<defence physical="2383" magical="1045" />
 			<speed>
@@ -2704,13 +2716,13 @@
 			<skill id="48047" level="1" /> <!-- Earth Attribute Monster -->
 		</skillList>
 	</npc>
-	<npc id="22375" level="88" type="Monster" name="Giant Aggregation" element="EARTH">
+	<npc id="22375" level="88" type="Monster" name="Giant Aggregation" title="Inner Watchman" element="EARTH">
 		<!-- AUTO GENERATED NPC TODO: FIX IT -->
 		<race>ETC</race>
 		<sex>MALE</sex>
-		<acquire exp="112261" sp="6362" attributeExp="1258" />
+		<acquire exp="336783" sp="3361" attributeExp="1258" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="53515.82278" hpRegen="10.2" mp="2928.25" mpRegen="3.6" />
+			<vitals hp="176601.9" hpRegen="10.2" mp="2928.25" mpRegen="3.6" />
 			<attack physical="3057" magical="2087" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
 			<defence physical="1829" magical="919" />
 			<speed>
@@ -2730,45 +2742,45 @@
 		</skillList>
 		<dropLists>
 			<drop>
-				<item id="57" min="3966" max="4384" chance="70" /> <!-- Adena -->
-				<item id="92811" min="1" max="1" chance="0.022" /> <!-- Sealed Leather Armor of Nightmare Fabric -->
-				<item id="92816" min="1" max="1" chance="0.022" /> <!-- Sealed Robe of Nightmare Fabric -->
-				<item id="92820" min="1" max="1" chance="0.103" /> <!-- Sealed Shield of Nightmare Fragment -->
-				<item id="92823" min="1" max="1" chance="0.108" /> <!-- Sealed Boots of Nightmare Lining -->
-				<item id="92827" min="1" max="1" chance="0.108" /> <!-- Sealed Gauntlets of Nightmare Design -->
-				<item id="92831" min="1" max="1" chance="0.017" /> <!-- Sealed Armor of Nightmare Pattern -->
-				<item id="92836" min="1" max="1" chance="0.072" /> <!-- Sealed Helm of Nightmare Design -->
-				<item id="92897" min="1" max="1" chance="0.005" /> <!-- Sirra's Blade Edge -->
-				<item id="92902" min="1" max="1" chance="0.005" /> <!-- Tiphon's Spear Edge -->
-				<item id="5311" min="1" max="1" chance="0.0006" /> <!-- Sealed Armor of Nightmare -->
-				<item id="5312" min="1" max="1" chance="0.003" /> <!-- Sealed Helm of Nightmare -->
-				<item id="5313" min="1" max="1" chance="0.004" /> <!-- Sealed Gauntlets of Nightmare -->
-				<item id="5314" min="1" max="1" chance="0.004" /> <!-- Sealed Boots of Nightmare -->
-				<item id="5315" min="1" max="1" chance="0.004" /> <!-- Sealed Shield of Nightmare -->
-				<item id="5320" min="1" max="1" chance="0.0008" /> <!-- Sealed Leather Armor of Nightmare -->
-				<item id="5326" min="1" max="1" chance="0.0008" /> <!-- Sealed Robe of Nightmare -->
-				<item id="8678" min="1" max="1" chance="0.0002" /> <!-- Sirra's Blade -->
-				<item id="8683" min="1" max="1" chance="0.0002" /> <!-- Tiphon's Spear -->
+				<item id="57" min="2361" max="2609" chance="70" /> <!-- Adena -->
+				<item id="92811" min="1" max="1" chance="0.03" /> <!-- Sealed Leather Armor of Nightmare Fabric -->
+				<item id="92816" min="1" max="1" chance="0.03" /> <!-- Sealed Robe of Nightmare Fabric -->
+				<item id="92820" min="1" max="1" chance="0.14" /> <!-- Sealed Shield of Nightmare Fragment -->
+				<item id="92823" min="1" max="1" chance="0.147" /> <!-- Sealed Boots of Nightmare Lining -->
+				<item id="92827" min="1" max="1" chance="0.147" /> <!-- Sealed Gauntlets of Nightmare Design -->
+				<item id="92831" min="1" max="1" chance="0.023" /> <!-- Sealed Armor of Nightmare Pattern -->
+				<item id="92836" min="1" max="1" chance="0.098" /> <!-- Sealed Helm of Nightmare Design -->
+				<item id="92897" min="1" max="1" chance="0.007" /> <!-- Sirra's Blade Edge -->
+				<item id="92902" min="1" max="1" chance="0.007" /> <!-- Tiphon's Spear Edge -->
+				<item id="5311" min="1" max="1" chance="0.0008" /> <!-- Sealed Armor of Nightmare -->
+				<item id="5312" min="1" max="1" chance="0.004" /> <!-- Sealed Helm of Nightmare -->
+				<item id="5313" min="1" max="1" chance="0.006" /> <!-- Sealed Gauntlets of Nightmare -->
+				<item id="5314" min="1" max="1" chance="0.006" /> <!-- Sealed Boots of Nightmare -->
+				<item id="5315" min="1" max="1" chance="0.005" /> <!-- Sealed Shield of Nightmare -->
+				<item id="5320" min="1" max="1" chance="0.001" /> <!-- Sealed Leather Armor of Nightmare -->
+				<item id="5326" min="1" max="1" chance="0.001" /> <!-- Sealed Robe of Nightmare -->
+				<item id="8678" min="1" max="1" chance="0.0003" /> <!-- Sirra's Blade -->
+				<item id="8683" min="1" max="1" chance="0.0003" /> <!-- Tiphon's Spear -->
 			</drop>
 			<spoil>
-				<item id="5336" min="1" max="1" chance="0.005" /> <!-- Recipe: Sealed Leather Armor of Nightmare (60%) -->
-				<item id="5337" min="1" max="1" chance="0.003" /> <!-- Recipe: Sealed Leather Armor of Nightmare (100%) -->
-				<item id="5350" min="1" max="1" chance="0.005" /> <!-- Recipe: Sealed Robe of Nightmare (60%) -->
-				<item id="5351" min="1" max="1" chance="0.003" /> <!-- Recipe: Sealed Robe of Nightmare (100%) -->
-				<item id="5366" min="1" max="1" chance="0.024" /> <!-- Recipe: Sealed Shield of Nightmare (60%) -->
-				<item id="5367" min="1" max="1" chance="0.015" /> <!-- Recipe: Sealed Shield of Nightmare (100%) -->
-				<item id="5380" min="1" max="1" chance="0.026" /> <!-- Recipe: Sealed Boots of Nightmare (60%) -->
-				<item id="5381" min="1" max="1" chance="0.015" /> <!-- Recipe: Sealed Boots of Nightmare (100%) -->
-				<item id="5404" min="1" max="1" chance="0.026" /> <!-- Recipe: Sealed Gauntlets of Nightmare (60%) -->
-				<item id="5405" min="1" max="1" chance="0.015" /> <!-- Recipe: Sealed Gauntlets of Nightmare (100%) -->
-				<item id="5420" min="1" max="1" chance="0.004" /> <!-- Recipe: Sealed Armor of Nightmare (60%) -->
-				<item id="5421" min="1" max="1" chance="0.002" /> <!-- Recipe: Sealed Armor of Nightmare (100%) -->
-				<item id="5430" min="1" max="1" chance="0.017" /> <!-- Recipe: Sealed Helm of Nightmare (60%) -->
-				<item id="5431" min="1" max="1" chance="0.01" /> <!-- Recipe: Sealed Helm of Nightmare (100%) -->
-				<item id="8690" min="1" max="1" chance="0.001" /> <!-- Recipe: Sirra's Blade (60%) -->
-				<item id="8691" min="1" max="1" chance="0.0008" /> <!-- Recipe: Sirra's Blade (100%) -->
-				<item id="8700" min="1" max="1" chance="0.001" /> <!-- Recipe: Tiphon's Spear (60%) -->
-				<item id="8701" min="1" max="1" chance="0.0008" /> <!-- Recipe: Tiphon's Spear (100%) -->
+				<item id="5336" min="1" max="1" chance="0.007" /> <!-- Recipe: Sealed Leather Armor of Nightmare (60%) -->
+				<item id="5337" min="1" max="1" chance="0.004" /> <!-- Recipe: Sealed Leather Armor of Nightmare (100%) -->
+				<item id="5350" min="1" max="1" chance="0.007" /> <!-- Recipe: Sealed Robe of Nightmare (60%) -->
+				<item id="5351" min="1" max="1" chance="0.004" /> <!-- Recipe: Sealed Robe of Nightmare (100%) -->
+				<item id="5366" min="1" max="1" chance="0.033" /> <!-- Recipe: Sealed Shield of Nightmare (60%) -->
+				<item id="5367" min="1" max="1" chance="0.02" /> <!-- Recipe: Sealed Shield of Nightmare (100%) -->
+				<item id="5380" min="1" max="1" chance="0.035" /> <!-- Recipe: Sealed Boots of Nightmare (60%) -->
+				<item id="5381" min="1" max="1" chance="0.021" /> <!-- Recipe: Sealed Boots of Nightmare (100%) -->
+				<item id="5404" min="1" max="1" chance="0.035" /> <!-- Recipe: Sealed Gauntlets of Nightmare (60%) -->
+				<item id="5405" min="1" max="1" chance="0.021" /> <!-- Recipe: Sealed Gauntlets of Nightmare (100%) -->
+				<item id="5420" min="1" max="1" chance="0.005" /> <!-- Recipe: Sealed Armor of Nightmare (60%) -->
+				<item id="5421" min="1" max="1" chance="0.003" /> <!-- Recipe: Sealed Armor of Nightmare (100%) -->
+				<item id="5430" min="1" max="1" chance="0.023" /> <!-- Recipe: Sealed Helm of Nightmare (60%) -->
+				<item id="5431" min="1" max="1" chance="0.014" /> <!-- Recipe: Sealed Helm of Nightmare (100%) -->
+				<item id="8690" min="1" max="1" chance="0.002" /> <!-- Recipe: Sirra's Blade (60%) -->
+				<item id="8691" min="1" max="1" chance="0.001" /> <!-- Recipe: Sirra's Blade (100%) -->
+				<item id="8700" min="1" max="1" chance="0.002" /> <!-- Recipe: Tiphon's Spear (60%) -->
+				<item id="8701" min="1" max="1" chance="0.001" /> <!-- Recipe: Tiphon's Spear (100%) -->
 			</spoil>
 		</dropLists>
 	</npc>
@@ -2777,9 +2789,9 @@
 		<race>GIANT</race>
 		<sex>MALE</sex>
 		<equipment rhand="3937" /> <!-- Monster Only (Lesser Giant) - Not Available -->
-		<acquire exp="112261" sp="6362" attributeExp="1258" />
+		<acquire exp="112261" sp="1115" attributeExp="1258" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="53515.82278" hpRegen="10.2" mp="2928.25" mpRegen="3.6" />
+			<vitals hp="58867.09" hpRegen="10.2" mp="2928.25" mpRegen="3.6" />
 			<attack physical="3057" magical="2087" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
 			<defence physical="1829" magical="919" />
 			<speed>
@@ -2799,7 +2811,7 @@
 		</skillList>
 		<dropLists>
 			<drop>
-				<item id="57" min="3966" max="4384" chance="70" /> <!-- Adena -->
+				<item id="57" min="2361" max="2609" chance="70" /> <!-- Adena -->
 			</drop>
 		</dropLists>
 	</npc>
@@ -2808,9 +2820,9 @@
 		<race>GIANT</race>
 		<sex>MALE</sex>
 		<equipment rhand="4028" /> <!-- Giant Cannon - Not Available -->
-		<acquire exp="112261" sp="6362" attributeExp="1258" />
+		<acquire exp="112261" sp="1115" attributeExp="1258" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="53515.82278" hpRegen="10.2" mp="2928.25" mpRegen="3.6" />
+			<vitals hp="58867.09" hpRegen="10.2" mp="2928.25" mpRegen="3.6" />
 			<attack physical="3057" magical="2087" random="5" critical="8" accuracy="0" attackSpeed="253" type="BOW" range="1100" distance="10" width="0" />
 			<defence physical="1829" magical="919" />
 			<speed>
@@ -2830,13 +2842,7 @@
 		</skillList>
 		<dropLists>
 			<drop>
-				<item id="57" min="3966" max="4384" chance="70" /> <!-- Adena -->
-				<item id="94186" min="1" max="1" chance="0.003" /> <!-- Augmenting Stone: Weapon -->
-				<item id="94188" min="1" max="1" chance="0.005" /> <!-- Augmenting Stone: Armor -->
-				<item id="94423" min="1" max="1" chance="0.005" /> <!-- Augmenting Stone: Accessory -->
-				<item id="92476" min="1" max="1" chance="5.494" /> <!-- Metal Ingot -->
-				<item id="92477" min="1" max="1" chance="5.494" /> <!-- Wood -->
-				<item id="92480" min="1" max="1" chance="5.494" /> <!-- Leather -->
+				<item id="57" min="2361" max="2609" chance="70" /> <!-- Adena -->
 			</drop>
 		</dropLists>
 	</npc>
@@ -2845,9 +2851,9 @@
 		<race>GIANT</race>
 		<sex>MALE</sex>
 		<equipment rhand="3938" /> <!-- Monster Only (Lesser Giant Wizard's Weapon) - Not Available -->
-		<acquire exp="112261" sp="6362" attributeExp="1258" />
+		<acquire exp="112261" sp="1115" attributeExp="1258" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="53515.82278" hpRegen="10.2" mp="2928.25" mpRegen="3.6" />
+			<vitals hp="58867.09" hpRegen="10.2" mp="2928.25" mpRegen="3.6" />
 			<attack physical="3057" magical="2087" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
 			<defence physical="1829" magical="919" />
 			<speed>
@@ -2867,7 +2873,12 @@
 		</skillList>
 		<dropLists>
 			<drop>
-				<item id="57" min="3966" max="4384" chance="70" /> <!-- Adena -->
+				<item id="57" min="2361" max="2609" chance="70" /> <!-- Adena -->
+				<item id="95783" min="1" max="1" chance="0.202" /> <!-- Aden's Soul Crystal Lv. 1 - Weapon -->
+				<item id="96901" min="1" max="1" chance="0.134" /> <!-- Aden's Soul Crystal Lv. 1 - Armor -->
+				<item id="92476" min="1" max="1" chance="5.971" /> <!-- Metal Ingot -->
+				<item id="92477" min="1" max="1" chance="5.971" /> <!-- Wood -->
+				<item id="92480" min="1" max="1" chance="5.971" /> <!-- Leather -->
 			</drop>
 		</dropLists>
 	</npc>
@@ -2875,9 +2886,9 @@
 		<!-- AUTO GENERATED NPC TODO: FIX IT -->
 		<race>GIANT</race>
 		<sex>MALE</sex>
-		<acquire exp="71051" sp="4027" attributeExp="1258" />
+		<acquire exp="71051" sp="705" attributeExp="1258" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="26757.59494" hpRegen="10.2" mp="2928.25" mpRegen="3.6" />
+			<vitals hp="29433.54" hpRegen="10.2" mp="2928.25" mpRegen="3.6" />
 			<attack physical="3057" magical="2087" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
 			<defence physical="1829" magical="919" />
 			<speed>
@@ -2897,7 +2908,7 @@
 		</skillList>
 		<dropLists>
 			<drop>
-				<item id="57" min="3571" max="3947" chance="70" /> <!-- Adena -->
+				<item id="57" min="2125" max="2351" chance="70" /> <!-- Adena -->
 			</drop>
 		</dropLists>
 	</npc>
@@ -2906,9 +2917,9 @@
 		<race>GIANT</race>
 		<sex>MALE</sex>
 		<equipment rhand="15304" /> <!-- Transparent Crossbow (NPC) - Not Available -->
-		<acquire exp="71051" sp="4027" attributeExp="1258" />
+		<acquire exp="71051" sp="705" attributeExp="1258" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="26757.59494" hpRegen="10.2" mp="2928.25" mpRegen="3.6" />
+			<vitals hp="29433.54" hpRegen="10.2" mp="2928.25" mpRegen="3.6" />
 			<attack physical="3057" magical="2087" random="5" critical="8" accuracy="0" attackSpeed="253" type="BOW" range="1100" distance="10" width="0" />
 			<defence physical="1829" magical="919" />
 			<speed>
@@ -2928,17 +2939,17 @@
 		</skillList>
 		<dropLists>
 			<drop>
-				<item id="57" min="3571" max="3947" chance="70" /> <!-- Adena -->
+				<item id="57" min="2125" max="2351" chance="70" /> <!-- Adena -->
 			</drop>
 		</dropLists>
 	</npc>
-	<npc id="22381" level="88" type="Monster" name="Lesser Mage" element="EARTH">
+	<npc id="22381" level="88" type="Monster" name="Lesser Mage" title="Inner Watchman" element="EARTH">
 		<!-- AUTO GENERATED NPC TODO: FIX IT -->
 		<race>GIANT</race>
 		<sex>MALE</sex>
-		<acquire exp="71051" sp="4027" attributeExp="1258" />
+		<acquire exp="284205" sp="2842" attributeExp="1258" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="26757.59494" hpRegen="10.2" mp="2928.25" mpRegen="3.6" />
+			<vitals hp="117734.2" hpRegen="10.2" mp="2928.25" mpRegen="3.6" />
 			<attack physical="3057" magical="2087" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
 			<defence physical="1829" magical="919" />
 			<speed>
@@ -2958,13 +2969,12 @@
 		</skillList>
 		<dropLists>
 			<drop>
-				<item id="57" min="3571" max="3947" chance="70" /> <!-- Adena -->
-				<item id="94186" min="1" max="1" chance="0.002" /> <!-- Augmenting Stone: Weapon -->
-				<item id="94188" min="1" max="1" chance="0.004" /> <!-- Augmenting Stone: Armor -->
-				<item id="94423" min="1" max="1" chance="0.004" /> <!-- Augmenting Stone: Accessory -->
-				<item id="92476" min="1" max="1" chance="3.532" /> <!-- Metal Ingot -->
-				<item id="92477" min="1" max="1" chance="3.532" /> <!-- Wood -->
-				<item id="92480" min="1" max="1" chance="3.532" /> <!-- Leather -->
+				<item id="57" min="2125" max="2351" chance="70" /> <!-- Adena -->
+				<item id="95783" min="1" max="1" chance="0.143" /> <!-- Aden's Soul Crystal Lv. 1 - Weapon -->
+				<item id="96901" min="1" max="1" chance="0.096" /> <!-- Aden's Soul Crystal Lv. 1 - Armor -->
+				<item id="92476" min="1" max="1" chance="4.244" /> <!-- Metal Ingot -->
+				<item id="92477" min="1" max="1" chance="4.244" /> <!-- Wood -->
+				<item id="92480" min="1" max="1" chance="4.245" /> <!-- Leather -->
 			</drop>
 		</dropLists>
 	</npc>
@@ -2972,9 +2982,9 @@
 		<!-- AUTO GENERATED NPC TODO: FIX IT -->
 		<race>GIANT</race>
 		<sex>MALE</sex>
-		<acquire exp="71051" sp="4027" attributeExp="1258" />
+		<acquire exp="71051" sp="705" attributeExp="1258" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="26757.59494" hpRegen="10.2" mp="2928.25" mpRegen="3.6" />
+			<vitals hp="29433.54" hpRegen="10.2" mp="2928.25" mpRegen="3.6" />
 			<attack physical="3057" magical="2087" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
 			<defence physical="1829" magical="919" />
 			<speed>
@@ -2994,45 +3004,45 @@
 		</skillList>
 		<dropLists>
 			<drop>
-				<item id="57" min="3571" max="3947" chance="70" /> <!-- Adena -->
-				<item id="92811" min="1" max="1" chance="0.014" /> <!-- Sealed Leather Armor of Nightmare Fabric -->
-				<item id="92816" min="1" max="1" chance="0.014" /> <!-- Sealed Robe of Nightmare Fabric -->
-				<item id="92820" min="1" max="1" chance="0.066" /> <!-- Sealed Shield of Nightmare Fragment -->
-				<item id="92823" min="1" max="1" chance="0.07" /> <!-- Sealed Boots of Nightmare Lining -->
-				<item id="92827" min="1" max="1" chance="0.07" /> <!-- Sealed Gauntlets of Nightmare Design -->
-				<item id="92831" min="1" max="1" chance="0.011" /> <!-- Sealed Armor of Nightmare Pattern -->
-				<item id="92836" min="1" max="1" chance="0.046" /> <!-- Sealed Helm of Nightmare Design -->
-				<item id="92897" min="1" max="1" chance="0.003" /> <!-- Sirra's Blade Edge -->
-				<item id="92902" min="1" max="1" chance="0.003" /> <!-- Tiphon's Spear Edge -->
-				<item id="5311" min="1" max="1" chance="0.0004" /> <!-- Sealed Armor of Nightmare -->
-				<item id="5312" min="1" max="1" chance="0.002" /> <!-- Sealed Helm of Nightmare -->
-				<item id="5313" min="1" max="1" chance="0.003" /> <!-- Sealed Gauntlets of Nightmare -->
-				<item id="5314" min="1" max="1" chance="0.003" /> <!-- Sealed Boots of Nightmare -->
-				<item id="5315" min="1" max="1" chance="0.002" /> <!-- Sealed Shield of Nightmare -->
-				<item id="5320" min="1" max="1" chance="0.0005" /> <!-- Sealed Leather Armor of Nightmare -->
-				<item id="5326" min="1" max="1" chance="0.0005" /> <!-- Sealed Robe of Nightmare -->
-				<item id="8678" min="1" max="1" chance="0.0001" /> <!-- Sirra's Blade -->
-				<item id="8683" min="1" max="1" chance="0.0001" /> <!-- Tiphon's Spear -->
+				<item id="57" min="2125" max="2351" chance="70" /> <!-- Adena -->
+				<item id="92811" min="1" max="1" chance="0.021" /> <!-- Sealed Leather Armor of Nightmare Fabric -->
+				<item id="92816" min="1" max="1" chance="0.021" /> <!-- Sealed Robe of Nightmare Fabric -->
+				<item id="92820" min="1" max="1" chance="0.1" /> <!-- Sealed Shield of Nightmare Fragment -->
+				<item id="92823" min="1" max="1" chance="0.104" /> <!-- Sealed Boots of Nightmare Lining -->
+				<item id="92827" min="1" max="1" chance="0.104" /> <!-- Sealed Gauntlets of Nightmare Design -->
+				<item id="92831" min="1" max="1" chance="0.016" /> <!-- Sealed Armor of Nightmare Pattern -->
+				<item id="92836" min="1" max="1" chance="0.07" /> <!-- Sealed Helm of Nightmare Design -->
+				<item id="92897" min="1" max="1" chance="0.005" /> <!-- Sirra's Blade Edge -->
+				<item id="92902" min="1" max="1" chance="0.005" /> <!-- Tiphon's Spear Edge -->
+				<item id="5311" min="1" max="1" chance="0.0006" /> <!-- Sealed Armor of Nightmare -->
+				<item id="5312" min="1" max="1" chance="0.003" /> <!-- Sealed Helm of Nightmare -->
+				<item id="5313" min="1" max="1" chance="0.004" /> <!-- Sealed Gauntlets of Nightmare -->
+				<item id="5314" min="1" max="1" chance="0.004" /> <!-- Sealed Boots of Nightmare -->
+				<item id="5315" min="1" max="1" chance="0.004" /> <!-- Sealed Shield of Nightmare -->
+				<item id="5320" min="1" max="1" chance="0.0008" /> <!-- Sealed Leather Armor of Nightmare -->
+				<item id="5326" min="1" max="1" chance="0.0008" /> <!-- Sealed Robe of Nightmare -->
+				<item id="8678" min="1" max="1" chance="0.0002" /> <!-- Sirra's Blade -->
+				<item id="8683" min="1" max="1" chance="0.0002" /> <!-- Tiphon's Spear -->
 			</drop>
 			<spoil>
-				<item id="5336" min="1" max="1" chance="0.003" /> <!-- Recipe: Sealed Leather Armor of Nightmare (60%) -->
-				<item id="5337" min="1" max="1" chance="0.002" /> <!-- Recipe: Sealed Leather Armor of Nightmare (100%) -->
-				<item id="5350" min="1" max="1" chance="0.003" /> <!-- Recipe: Sealed Robe of Nightmare (60%) -->
-				<item id="5351" min="1" max="1" chance="0.002" /> <!-- Recipe: Sealed Robe of Nightmare (100%) -->
-				<item id="5366" min="1" max="1" chance="0.016" /> <!-- Recipe: Sealed Shield of Nightmare (60%) -->
-				<item id="5367" min="1" max="1" chance="0.009" /> <!-- Recipe: Sealed Shield of Nightmare (100%) -->
-				<item id="5380" min="1" max="1" chance="0.017" /> <!-- Recipe: Sealed Boots of Nightmare (60%) -->
-				<item id="5381" min="1" max="1" chance="0.01" /> <!-- Recipe: Sealed Boots of Nightmare (100%) -->
-				<item id="5404" min="1" max="1" chance="0.017" /> <!-- Recipe: Sealed Gauntlets of Nightmare (60%) -->
-				<item id="5405" min="1" max="1" chance="0.01" /> <!-- Recipe: Sealed Gauntlets of Nightmare (100%) -->
-				<item id="5420" min="1" max="1" chance="0.003" /> <!-- Recipe: Sealed Armor of Nightmare (60%) -->
+				<item id="5336" min="1" max="1" chance="0.005" /> <!-- Recipe: Sealed Leather Armor of Nightmare (60%) -->
+				<item id="5337" min="1" max="1" chance="0.003" /> <!-- Recipe: Sealed Leather Armor of Nightmare (100%) -->
+				<item id="5350" min="1" max="1" chance="0.005" /> <!-- Recipe: Sealed Robe of Nightmare (60%) -->
+				<item id="5351" min="1" max="1" chance="0.003" /> <!-- Recipe: Sealed Robe of Nightmare (100%) -->
+				<item id="5366" min="1" max="1" chance="0.024" /> <!-- Recipe: Sealed Shield of Nightmare (60%) -->
+				<item id="5367" min="1" max="1" chance="0.014" /> <!-- Recipe: Sealed Shield of Nightmare (100%) -->
+				<item id="5380" min="1" max="1" chance="0.025" /> <!-- Recipe: Sealed Boots of Nightmare (60%) -->
+				<item id="5381" min="1" max="1" chance="0.015" /> <!-- Recipe: Sealed Boots of Nightmare (100%) -->
+				<item id="5404" min="1" max="1" chance="0.025" /> <!-- Recipe: Sealed Gauntlets of Nightmare (60%) -->
+				<item id="5405" min="1" max="1" chance="0.015" /> <!-- Recipe: Sealed Gauntlets of Nightmare (100%) -->
+				<item id="5420" min="1" max="1" chance="0.004" /> <!-- Recipe: Sealed Armor of Nightmare (60%) -->
 				<item id="5421" min="1" max="1" chance="0.002" /> <!-- Recipe: Sealed Armor of Nightmare (100%) -->
-				<item id="5430" min="1" max="1" chance="0.011" /> <!-- Recipe: Sealed Helm of Nightmare (60%) -->
-				<item id="5431" min="1" max="1" chance="0.007" /> <!-- Recipe: Sealed Helm of Nightmare (100%) -->
-				<item id="8690" min="1" max="1" chance="0.0008" /> <!-- Recipe: Sirra's Blade (60%) -->
-				<item id="8691" min="1" max="1" chance="0.0005" /> <!-- Recipe: Sirra's Blade (100%) -->
-				<item id="8700" min="1" max="1" chance="0.0008" /> <!-- Recipe: Tiphon's Spear (60%) -->
-				<item id="8701" min="1" max="1" chance="0.0005" /> <!-- Recipe: Tiphon's Spear (100%) -->
+				<item id="5430" min="1" max="1" chance="0.017" /> <!-- Recipe: Sealed Helm of Nightmare (60%) -->
+				<item id="5431" min="1" max="1" chance="0.01" /> <!-- Recipe: Sealed Helm of Nightmare (100%) -->
+				<item id="8690" min="1" max="1" chance="0.001" /> <!-- Recipe: Sirra's Blade (60%) -->
+				<item id="8691" min="1" max="1" chance="0.0007" /> <!-- Recipe: Sirra's Blade (100%) -->
+				<item id="8700" min="1" max="1" chance="0.001" /> <!-- Recipe: Tiphon's Spear (60%) -->
+				<item id="8701" min="1" max="1" chance="0.0007" /> <!-- Recipe: Tiphon's Spear (100%) -->
 			</spoil>
 		</dropLists>
 	</npc>
@@ -3040,9 +3050,9 @@
 		<!-- AUTO GENERATED NPC TODO: FIX IT -->
 		<race>HUMANOID</race>
 		<sex>MALE</sex>
-		<acquire exp="187678" sp="21881" attributeExp="1800" />
+		<acquire exp="187678" sp="1871" attributeExp="1800" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="107216.5" hpRegen="10.2" mp="11928" mpRegen="3.6" />
+			<vitals hp="117938" hpRegen="10.2" mp="11928" mpRegen="3.6" />
 			<attack physical="3611" magical="2465" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
 			<defence physical="2383" magical="1045" />
 			<speed>
@@ -3062,7 +3072,7 @@
 		</skillList>
 		<dropLists>
 			<drop>
-				<item id="57" min="5596" max="6179" chance="70" /> <!-- Adena -->
+				<item id="57" min="2899" max="3202" chance="70" /> <!-- Adena -->
 			</drop>
 		</dropLists>
 	</npc>
@@ -3071,9 +3081,9 @@
 		<race>GIANT</race>
 		<sex>MALE</sex>
 		<equipment rhand="96718" /> <!-- Monster Only (Lesser Giant A) - Not Available -->
-		<acquire exp="187678" sp="21881" attributeExp="1800" />
+		<acquire exp="187678" sp="1871" attributeExp="1800" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="107216.5" hpRegen="10.2" mp="11928" mpRegen="3.6" />
+			<vitals hp="117938" hpRegen="10.2" mp="11928" mpRegen="3.6" />
 			<attack physical="3611" magical="2465" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
 			<defence physical="2383" magical="1045" />
 			<speed>
@@ -3093,18 +3103,18 @@
 		</skillList>
 		<dropLists>
 			<drop>
-				<item id="57" min="5596" max="6179" chance="70" /> <!-- Adena -->
+				<item id="57" min="2899" max="3202" chance="70" /> <!-- Adena -->
 			</drop>
 		</dropLists>
 	</npc>
-	<npc id="22385" level="90" type="Monster" name="Evolved Lesser Giant Elder" element="EARTH">
+	<npc id="22385" level="90" type="Monster" name="Evolved Lesser Giant Elder" title="Inner Manager" element="EARTH">
 		<!-- AUTO GENERATED NPC TODO: FIX IT -->
 		<race>GIANT</race>
 		<sex>MALE</sex>
 		<equipment rhand="96719" /> <!-- Monster Only (Lesser Giant Wizard's Weapon A) - Not Available -->
-		<acquire exp="187678" sp="21881" attributeExp="1800" />
+		<acquire exp="750713" sp="7501" attributeExp="1800" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="107216.5" hpRegen="10.2" mp="11928" mpRegen="3.6" />
+			<vitals hp="471751.3" hpRegen="10.2" mp="11928" mpRegen="3.6" />
 			<attack physical="3611" magical="2465" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
 			<defence physical="2383" magical="1045" />
 			<speed>
@@ -3124,10 +3134,12 @@
 		</skillList>
 		<dropLists>
 			<drop>
-				<item id="57" min="5596" max="6179" chance="70" /> <!-- Adena -->
-				<item id="92476" min="1" max="3" chance="12.388" /> <!-- Metal Ingot -->
-				<item id="92479" min="1" max="3" chance="18.581" /> <!-- Metallograph -->
-				<item id="92481" min="2" max="6" chance="9.291" /> <!-- Cloth -->
+				<item id="57" min="2899" max="3202" chance="70" /> <!-- Adena -->
+				<item id="94184" min="1" max="1" chance="0.009" /> <!-- Scroll of Blessing: Weapon -->
+				<item id="97338" min="1" max="1" chance="0.005" /> <!-- Scroll of Blessing: Armor -->
+				<item id="92476" min="1" max="3" chance="8.756" /> <!-- Metal Ingot -->
+				<item id="92479" min="1" max="3" chance="13.134" /> <!-- Metallograph -->
+				<item id="92481" min="1" max="1" chance="26.268" /> <!-- Cloth -->
 			</drop>
 		</dropLists>
 	</npc>
@@ -3136,9 +3148,9 @@
 		<race>GIANT</race>
 		<sex>MALE</sex>
 		<equipment rhand="4028" /> <!-- Giant Cannon - Not Available -->
-		<acquire exp="187678" sp="21881" attributeExp="1800" />
+		<acquire exp="187678" sp="1871" attributeExp="1800" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="107216.5" hpRegen="10.2" mp="11928" mpRegen="3.6" />
+			<vitals hp="117938" hpRegen="10.2" mp="11928" mpRegen="3.6" />
 			<attack physical="3611" magical="2465" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
 			<defence physical="2383" magical="1045" />
 			<speed>
@@ -3158,10 +3170,12 @@
 		</skillList>
 		<dropLists>
 			<drop>
-				<item id="57" min="5596" max="6179" chance="70" /> <!-- Adena -->
-				<item id="92476" min="1" max="3" chance="12.388" /> <!-- Metal Ingot -->
-				<item id="92479" min="1" max="3" chance="18.581" /> <!-- Metallograph -->
-				<item id="92481" min="2" max="6" chance="9.291" /> <!-- Cloth -->
+				<item id="57" min="2899" max="3202" chance="70" /> <!-- Adena -->
+				<item id="94184" min="1" max="1" chance="0.009" /> <!-- Scroll of Blessing: Weapon -->
+				<item id="97338" min="1" max="1" chance="0.005" /> <!-- Scroll of Blessing: Armor -->
+				<item id="92476" min="1" max="3" chance="8.756" /> <!-- Metal Ingot -->
+				<item id="92479" min="1" max="3" chance="13.134" /> <!-- Metallograph -->
+				<item id="92481" min="1" max="1" chance="26.268" /> <!-- Cloth -->
 			</drop>
 		</dropLists>
 	</npc>
@@ -3169,9 +3183,9 @@
 		<!-- AUTO GENERATED NPC TODO: FIX IT -->
 		<race>GIANT</race>
 		<sex>MALE</sex>
-		<acquire exp="132676" sp="18749" attributeExp="1800" />
+		<acquire exp="132676" sp="1320" attributeExp="1800" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="71477.85" hpRegen="10.2" mp="11928" mpRegen="3.6" />
+			<vitals hp="78625.32" hpRegen="10.2" mp="11928" mpRegen="3.6" />
 			<attack physical="3611" magical="2465" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
 			<defence physical="2383" magical="1045" />
 			<speed>
@@ -3189,14 +3203,19 @@
 			<skill id="4416" level="11" /> <!-- Giants -->
 			<skill id="48047" level="1" /> <!-- Earth Attribute Monster -->
 		</skillList>
+		<dropLists>
+			<drop>
+				<item id="57" min="2124" max="2346" chance="70" /> <!-- Adena -->
+			</drop>
+		</dropLists>
 	</npc>
-	<npc id="22388" level="90" type="Monster" name="Baron's Templar" element="EARTH">
+	<npc id="22388" level="90" type="Monster" name="Baron's Templar" title="Inner Manager" element="EARTH">
 		<!-- AUTO GENERATED NPC TODO: FIX IT -->
 		<race>GIANT</race>
 		<sex>MALE</sex>
-		<acquire exp="132676" sp="16304" attributeExp="1800" />
+		<acquire exp="530705" sp="5306" attributeExp="1800" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="71477.85" hpRegen="10.2" mp="11928" mpRegen="3.6" />
+			<vitals hp="314500.6" hpRegen="10.2" mp="11928" mpRegen="3.6" />
 			<attack physical="3611" magical="2465" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
 			<defence physical="2383" magical="1045" />
 			<speed>
@@ -3216,7 +3235,7 @@
 		</skillList>
 		<dropLists>
 			<drop>
-				<item id="57" min="4100" max="4527" chance="70" /> <!-- Adena -->
+				<item id="57" min="2124" max="2346" chance="70" /> <!-- Adena -->
 			</drop>
 		</dropLists>
 	</npc>
@@ -3225,9 +3244,9 @@
 		<race>GIANT</race>
 		<sex>MALE</sex>
 		<equipment rhand="15304" /> <!-- Transparent Crossbow (NPC) - Not Available -->
-		<acquire exp="132676" sp="16304" attributeExp="1800" />
+		<acquire exp="132676" sp="1320" attributeExp="1800" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="71477.85" hpRegen="10.2" mp="11928" mpRegen="3.6" />
+			<vitals hp="78625.32" hpRegen="10.2" mp="11928" mpRegen="3.6" />
 			<attack physical="3611" magical="2465" random="5" critical="8" accuracy="0" attackSpeed="253" type="BOW" range="1100" distance="10" width="0" />
 			<defence physical="2383" magical="1045" />
 			<speed>
@@ -3247,10 +3266,12 @@
 		</skillList>
 		<dropLists>
 			<drop>
-				<item id="57" min="4100" max="4527" chance="70" /> <!-- Adena -->
-				<item id="92476" min="1" max="3" chance="9.076" /> <!-- Metal Ingot -->
-				<item id="92479" min="1" max="3" chance="13.613" /> <!-- Metallograph -->
-				<item id="92481" min="1" max="1" chance="27.227" /> <!-- Cloth -->
+				<item id="57" min="2124" max="2346" chance="70" /> <!-- Adena -->
+				<item id="94184" min="1" max="1" chance="0.006" /> <!-- Scroll of Blessing: Weapon -->
+				<item id="97338" min="1" max="1" chance="0.004" /> <!-- Scroll of Blessing: Armor -->
+				<item id="92476" min="1" max="1" chance="19.245" /> <!-- Metal Ingot -->
+				<item id="92479" min="1" max="3" chance="9.623" /> <!-- Metallograph -->
+				<item id="92481" min="1" max="1" chance="19.245" /> <!-- Cloth -->
 			</drop>
 		</dropLists>
 	</npc>
@@ -3258,9 +3279,9 @@
 		<!-- AUTO GENERATED NPC TODO: FIX IT -->
 		<race>GIANT</race>
 		<sex>MALE</sex>
-		<acquire exp="132676" sp="18749" attributeExp="1800" />
+		<acquire exp="132676" sp="1320" attributeExp="1800" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="71477.85" hpRegen="10.2" mp="11928" mpRegen="3.6" />
+			<vitals hp="78625.32" hpRegen="10.2" mp="11928" mpRegen="3.6" />
 			<attack physical="3611" magical="2465" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
 			<defence physical="2383" magical="1045" />
 			<speed>
@@ -3280,10 +3301,12 @@
 		</skillList>
 		<dropLists>
 			<drop>
-				<item id="57" min="4100" max="4527" chance="70" /> <!-- Adena -->
-				<item id="92476" min="1" max="3" chance="9.076" /> <!-- Metal Ingot -->
-				<item id="92479" min="1" max="3" chance="13.613" /> <!-- Metallograph -->
-				<item id="92481" min="1" max="1" chance="27.227" /> <!-- Cloth -->
+				<item id="57" min="2124" max="2346" chance="70" /> <!-- Adena -->
+				<item id="94184" min="1" max="1" chance="0.006" /> <!-- Scroll of Blessing: Weapon -->
+				<item id="97338" min="1" max="1" chance="0.004" /> <!-- Scroll of Blessing: Armor -->
+				<item id="92476" min="1" max="1" chance="19.245" /> <!-- Metal Ingot -->
+				<item id="92479" min="1" max="3" chance="9.623" /> <!-- Metallograph -->
+				<item id="92481" min="1" max="1" chance="19.245" /> <!-- Cloth -->
 			</drop>
 		</dropLists>
 	</npc>
@@ -3292,9 +3315,9 @@
 		<race>UNDEAD</race>
 		<sex>MALE</sex>
 		<equipment rhand="96867" /> <!-- For monsters_Dream Dungeon_Two-handed Sword - Not Available -->
-		<acquire exp="1033350" sp="103335" />
+		<acquire exp="1033350" sp="10334" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="102168.98734" hpRegen="10.2" mp="11290.8" mpRegen="3.6" />
+			<vitals hp="112385.4" hpRegen="10.2" mp="11290.8" mpRegen="3.6" />
 			<attack physical="1759.08" magical="900.92" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
 			<defence physical="424.63" magical="233.046" />
 			<speed>
@@ -3322,9 +3345,9 @@
 		<!-- AUTO GENERATED NPC TODO: FIX IT -->
 		<race>UNDEAD</race>
 		<sex>MALE</sex>
-		<acquire exp="1033350" sp="103335" />
+		<acquire exp="1033350" sp="10334" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="102168.98734" hpRegen="10.2" mp="11290.8" mpRegen="3.6" />
+			<vitals hp="112385.4" hpRegen="10.2" mp="11290.8" mpRegen="3.6" />
 			<attack physical="1759.08" magical="900.92" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
 			<defence physical="424.63" magical="233.046" />
 			<speed>
@@ -3352,9 +3375,9 @@
 		<!-- AUTO GENERATED NPC TODO: FIX IT -->
 		<race>UNDEAD</race>
 		<sex>MALE</sex>
-		<acquire exp="1033350" sp="103335" />
+		<acquire exp="1033350" sp="10334" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="102168.98734" hpRegen="10.2" mp="11290.8" mpRegen="3.6" />
+			<vitals hp="112385.4" hpRegen="10.2" mp="11290.8" mpRegen="3.6" />
 			<attack physical="1759.08" magical="900.92" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
 			<defence physical="424.63" magical="233.046" />
 			<speed>
@@ -3382,9 +3405,9 @@
 		<!-- AUTO GENERATED NPC TODO: FIX IT -->
 		<race>UNDEAD</race>
 		<sex>MALE</sex>
-		<acquire exp="1033350" sp="103335" />
+		<acquire exp="1033350" sp="10334" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="102168.98734" hpRegen="10.2" mp="11290.8" mpRegen="3.6" />
+			<vitals hp="112385.4" hpRegen="10.2" mp="11290.8" mpRegen="3.6" />
 			<attack physical="1759.08" magical="900.92" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
 			<defence physical="424.63" magical="233.046" />
 			<speed>
@@ -3413,9 +3436,9 @@
 		<race>DIVINE</race>
 		<sex>MALE</sex>
 		<equipment rhand="15302" /> <!-- Transparent Bow (NPC) - Not Available -->
-		<acquire exp="1033350" sp="103335" />
+		<acquire exp="1033350" sp="10334" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="102168.98734" hpRegen="10.2" mp="11290.8" mpRegen="3.6" />
+			<vitals hp="112385.4" hpRegen="10.2" mp="11290.8" mpRegen="3.6" />
 			<attack physical="1759.08" magical="900.92" random="5" critical="8" accuracy="0" attackSpeed="253" type="BOW" range="1100" distance="10" width="0" />
 			<defence physical="424.63" magical="233.046" />
 			<speed>
@@ -3444,9 +3467,9 @@
 		<race>DIVINE</race>
 		<sex>MALE</sex>
 		<equipment rhand="6718" /> <!-- Monster Only (Einhasad Shaman) -->
-		<acquire exp="1033350" sp="103335" />
+		<acquire exp="1033350" sp="10334" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="102168.98734" hpRegen="10.2" mp="11290.8" mpRegen="3.6" />
+			<vitals hp="112385.4" hpRegen="10.2" mp="11290.8" mpRegen="3.6" />
 			<attack physical="1759.08" magical="900.92" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
 			<defence physical="424.63" magical="233.046" />
 			<speed>
@@ -3475,9 +3498,9 @@
 		<race>DIVINE</race>
 		<sex>MALE</sex>
 		<equipment rhand="91986" /> <!-- Monster Only (Grail Apostle Spear) -->
-		<acquire exp="1033350" sp="103335" />
+		<acquire exp="1033350" sp="10334" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="102168.98734" hpRegen="10.2" mp="11290.8" mpRegen="3.6" />
+			<vitals hp="112385.4" hpRegen="10.2" mp="11290.8" mpRegen="3.6" />
 			<attack physical="1759.08" magical="900.92" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
 			<defence physical="424.63" magical="233.046" />
 			<speed>
@@ -3506,9 +3529,9 @@
 		<race>DIVINE</race>
 		<sex>MALE</sex>
 		<equipment rhand="6717" /> <!-- Monster Only (Einhasad Warrior) -->
-		<acquire exp="1033350" sp="103335" />
+		<acquire exp="1033350" sp="10334" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="102168.98734" hpRegen="10.2" mp="11290.8" mpRegen="3.6" />
+			<vitals hp="112385.4" hpRegen="10.2" mp="11290.8" mpRegen="3.6" />
 			<attack physical="1759.08" magical="900.92" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
 			<defence physical="424.63" magical="233.046" />
 			<speed>
@@ -3537,9 +3560,9 @@
 		<race>HUMANOID</race>
 		<sex>MALE</sex>
 		<equipment rhand="15280" /> <!-- Transparent 1HS (NPC) - Not Available -->
-		<acquire exp="1033350" sp="103335" />
+		<acquire exp="1033350" sp="10334" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="102168.98734" hpRegen="10.2" mp="11290.8" mpRegen="3.6" />
+			<vitals hp="112385.4" hpRegen="10.2" mp="11290.8" mpRegen="3.6" />
 			<attack physical="1759.08" magical="900.92" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
 			<defence physical="424.63" magical="233.046" />
 			<speed>

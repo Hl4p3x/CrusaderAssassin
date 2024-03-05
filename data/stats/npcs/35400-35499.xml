@@ -919,7 +919,7 @@
 			<height normal="22" />
 		</collision>
 	</npc>
-	<npc id="35420" level="70" type="Folk" name="Loken" title="Herald">
+	<npc id="35420" level="70" type="Folk" name="Loken" title="Messenger">
 		<parameters>
 			<param name="MoveAroundSocial" value="0" />
 			<param name="MoveAroundSocial1" value="0" />
@@ -1584,7 +1584,7 @@
 			<height normal="37" grown="44.5" />
 		</collision>
 	</npc>
-	<npc id="35437" level="56" type="Folk" name="Herald">
+	<npc id="35437" level="56" type="Folk" name="Messenger">
 		<parameters>
 			<param name="MoveAroundSocial" value="120" />
 			<param name="MoveAroundSocial1" value="100" />
@@ -1779,7 +1779,7 @@
 			<height normal="22" />
 		</collision>
 	</npc>
-	<npc id="35441" level="70" type="Merchant" name="Dianne" title="Clan Hall Manager">
+	<npc id="35441" level="70" type="Merchant" name="Diane" title="Clan Hall Manager">
 		<parameters>
 			<param name="MoveAroundSocial" value="0" />
 			<param name="MoveAroundSocial1" value="102" />

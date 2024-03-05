@@ -574,7 +574,7 @@
 			</effect>
 		</effects>
 	</skill>
-	<skill id="3526" toLevel="3" name="Set Effect: Blue Wolf Light Armor, 2-piece">
+	<skill id="3526" toLevel="3" name="Set Effect: Wolf Light Armor, 2-piece">
 		<!-- <Set effect>. INT -2,. MEN +3. MP Recovery Rate +5.26% -->
 		<icon>icon.armor_t69_ul_i00</icon>
 		<magicLevel>1</magicLevel>
@@ -2367,7 +2367,7 @@
 		</effects>
 	</skill>
 	<skill id="3590" toLevel="1" name="Infinity Power - Immortal">
-		<!-- For 5 min., chance of deadly attack +20%. -->
+		<!-- For 5 min., Vital Point Attack Rate +20%. -->
 		<icon>icon.skill0410</icon>
 		<abnormalLevel>1</abnormalLevel>
 		<abnormalTime>300</abnormalTime>

@@ -144,7 +144,7 @@
 			<item id="49000" min="1" max="1" chance="100" /> <!-- Agathion Singer and Dancer - Not Available -->
 			<item id="29651" min="50" max="50" chance="100" /> <!-- Healing Potion - Not Available -->
 			<item id="10650" min="30" max="30" chance="100" /> <!-- Newbie's Scroll of Escape - Sealed -->
-			<item id="49036" min="30" max="30" chance="100" /> <!-- Wind Walk Potion (Novice) - Sealed -->
+			<item id="49036" min="30" max="30" chance="100" /> <!-- Newbie Wind Walk Potion - Sealed -->
 			<item id="29653" min="30" max="30" chance="100" /> <!-- Haste Potion - Not Available -->
 			<item id="29511" min="1" max="1" chance="100" /> <!-- Newbie Kit Lv. 2 - Not Available -->
 		</capsuled_items>
@@ -281,7 +281,7 @@
 		<set name="is_stackable" val="true" />
 	</item>
 	<item id="29518" name="Blessed Resurrection Scroll" additionalName="Not Available" type="EtcItem">
-		<!-- The item is not available. Magic scroll that resurrects a dead character and restores his or her XP completely. -->
+		<!-- The item is not available. A magic scroll that resurrects a dead party member fully recovering their XP. -->
 		<set name="icon" val="icon.etc_ertheia2" />
 		<set name="default_action" val="SKILL_REDUCE" />
 		<set name="material" val="PAPER" />
@@ -690,7 +690,7 @@
 		<set name="is_stackable" val="true" />
 	</item>
 	<item id="29546" name="Blessed Resurrection Scroll" additionalName="Not Available" type="EtcItem">
-		<!-- The item is not available. Magic scroll that resurrects a dead character and restores his or her XP completely. -->
+		<!-- The item is not available. A magic scroll that resurrects a dead party member fully recovering their XP. -->
 		<set name="icon" val="icon.etc_ertheia2" />
 		<set name="default_action" val="SKILL_REDUCE" />
 		<set name="material" val="PAPER" />
@@ -1198,7 +1198,7 @@
 		<set name="is_stackable" val="true" />
 	</item>
 	<item id="29587" name="Agathion Singer and Dancer" additionalName="Not Available" type="Armor">
-		<!-- The item is not available. A bracelet for summoning agathion Singer and Dancer. -->
+		<!-- The item is not available. A bracelet for summoning Agathion Singer and Dancer. -->
 		<set name="icon" val="icon.etc_ertheia2" />
 		<set name="default_action" val="EQUIP" />
 		<set name="is_tradable" val="false" />

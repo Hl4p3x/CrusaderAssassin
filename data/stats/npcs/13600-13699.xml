@@ -315,7 +315,7 @@
 			<skill id="4415" level="1" /> <!-- Bare Hands -->
 		</skillList>
 	</npc>
-	<npc id="13609" level="55" type="Folk" name="Scarecrow">
+	<npc id="13609" level="55" type="Folk" name="Dummy">
 		<!-- AUTO GENERATED NPC TODO: FIX IT -->
 		<race>CONSTRUCT</race>
 		<sex>MALE</sex>
@@ -700,7 +700,7 @@
 			<skill id="4415" level="1" /> <!-- Bare Hands -->
 		</skillList>
 	</npc>
-	<npc id="13620" level="75" type="Folk" name="Scarecrow">
+	<npc id="13620" level="75" type="Folk" name="Dummy">
 		<!-- AUTO GENERATED NPC TODO: FIX IT -->
 		<race>CONSTRUCT</race>
 		<sex>MALE</sex>

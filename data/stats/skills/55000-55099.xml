@@ -2855,7 +2855,7 @@
 			</effect>
 		</effects>
 	</skill>
-	<skill id="55090" toLevel="1" name="Fire Dragon Pendant Base Effect Lv. 1">
+	<skill id="55090" toLevel="1" name="Fire Dragon Pendant: Base Effect Lv. 1">
 		<!-- P. Atk. +4. -->
 		<icon>BranchIcon.Icon.bm_pendant_pve</icon>
 		<magicLevel>1</magicLevel>

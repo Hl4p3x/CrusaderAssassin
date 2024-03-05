@@ -426,7 +426,7 @@
 		<reuseDelay>5000</reuseDelay>
 	</skill>
 	<skill id="15545" toLevel="1" name="Cubit Attack">
-		<!-- Powerful attack on enemies in a fan-shaped radius of you. -->
+		<!-- Makes an explosion in a fan-shaped range. Deals heavy damage to the enemy. -->
 		<icon>icon.skill0003</icon>
 		<operateType>A1</operateType>
 		<mpConsume>10</mpConsume>
@@ -445,7 +445,7 @@
 		<reuseDelay>5000</reuseDelay>
 	</skill>
 	<skill id="15547" toLevel="1" name="Point Attack">
-		<!-- Swings sword at an enemy. -->
+		<!-- A powerful sword attack on a single target. -->
 		<icon>icon.skill0000</icon>
 		<operateType>A1</operateType>
 		<mpConsume>10</mpConsume>
@@ -454,7 +454,7 @@
 		<hitTime>1000</hitTime>
 	</skill>
 	<skill id="15548" toLevel="1" name="Partial Healing">
-		<!-- Restores a part of allies' HP. -->
+		<!-- Recovers some of allies' HP. -->
 		<icon>icon.skill1219</icon>
 		<operateType>A2</operateType>
 		<mpConsume>10</mpConsume>
@@ -499,7 +499,7 @@
 		<isDebuff>true</isDebuff>
 	</skill>
 	<skill id="15552" toLevel="1" name="Hell's Prison">
-		<!-- Target's P. Atk. -30%. -->
+		<!-- The target's P. Atk. -30%. -->
 		<icon>icon.skill1068</icon>
 		<operateType>A2</operateType>
 		<mpConsume>10</mpConsume>
@@ -542,7 +542,7 @@
 		<isDebuff>true</isDebuff>
 	</skill>
 	<skill id="15557" toLevel="1" name="Crane Strike">
-		<!-- Decreases target's Atk. Spd. by 10%. -->
+		<!-- The target's Atk. Spd. -10%. -->
 		<icon>icon.skill0101</icon>
 		<operateType>A2</operateType>
 		<mpConsume>10</mpConsume>
@@ -610,7 +610,7 @@
 		<reuseDelay>5000</reuseDelay>
 	</skill>
 	<skill id="15565" toLevel="1" name="Theor's Ranged Attack">
-		<!-- AoE P. Atk. On nearby enemies. -->
+		<!-- An AoE physical attack on all nearby enemies. -->
 		<icon>icon.skill0036</icon>
 		<operateType>A1</operateType>
 		<mpConsume>10</mpConsume>
@@ -630,7 +630,7 @@
 		<isDebuff>true</isDebuff>
 	</skill>
 	<skill id="15567" toLevel="1" name="Aerial Yoke">
-		<!-- Aerial Yoke. -->
+		<!-- Inflicts Hold. -->
 		<icon>icon.skill1042</icon>
 		<operateType>A2</operateType>
 		<mpConsume>10</mpConsume>
@@ -639,7 +639,7 @@
 		<effectPoint>-100</effectPoint>
 		<isDebuff>true</isDebuff>
 	</skill>
-	<skill id="15568" toLevel="1" name="Charge">
+	<skill id="15568" toLevel="1" name="Attack">
 		<!-- Powerful rush attack on enemy. -->
 		<icon>icon.skill0000</icon>
 		<operateType>A1</operateType>
@@ -879,7 +879,7 @@
 		<isDebuff>true</isDebuff>
 	</skill>
 	<skill id="15595" toLevel="1" name="Lindvior's Fall">
-		<!-- P. Atk. On nearby enemies. -->
+		<!-- A physical attack on all nearby enemies. -->
 		<icon>icon.skill0036</icon>
 		<operateType>A2</operateType>
 		<isMagic>1</isMagic>
@@ -893,7 +893,7 @@
 		<hitTime>4200</hitTime>
 	</skill>
 	<skill id="15597" toLevel="1" name="Presentation - Lindvior's Landing">
-		<!-- Lindvior lands. -->
+		<!-- Lindvior's Fall -->
 		<icon>icon.skill0000</icon>
 		<operateType>A1</operateType>
 		<hitTime>5000</hitTime>

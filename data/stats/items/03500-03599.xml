@@ -769,7 +769,7 @@
 		<set name="is_questitem" val="true" />
 	</item>
 	<item id="3567" name="Key" type="EtcItem">
-		<!-- Key to be taken to Researcher Lorain near the entrance to Cruma Tower. -->
+		<!-- A key to be taken to Researcher Lorain at the entrance to Cruma Tower. -->
 		<set name="icon" val="icon.etc_key_i00" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="STEEL" />

@@ -292,7 +292,7 @@
 		<set name="is_freightable" val="true" />
 	</item>
 	<item id="96124" name="Elmoreden Tower's Time Stone" additionalName="Sealed" type="EtcItem">
-		<!-- Prolongs your session zone's raid for 60 min. <Hunting zone>. Elmoreden Tower - World Hunting Zone. Note!. The item will be deleted after the event (a special announcement will appear). -->
+		<!-- Prolongs your session zone's raid for 60 min. <Hunting zone>. Elmoreden Tower - World Hunting Zone -->
 		<set name="icon" val="icon.timezone_refill_oman_a_60" />
 		<set name="default_action" val="SKILL_REDUCE_ON_SKILL_SUCCESS" />
 		<set name="immediate_effect" val="true" />
@@ -431,7 +431,7 @@
 		</stats>
 	</item>
 	<item id="96130" name="Durendal (Time-limited)" additionalName="Sealed" type="Weapon">
-		<!-- Cannot be enchanted or augmented. No soul crystal can be inserted. Cannot be equipped on a pet. <font color=eeaa22><Permanent item craft></font>. A sealed item can be created in the Weapons tab of the Special Craft window. <font color=ff6666><Unavailable to Humans/ Elves/ Dark Elves/ Sylphs/ Vanguard Riders.></font> -->
+		<!-- Cannot be enchanted or augmented. No soul crystal can be inserted. Cannot be equipped on a pet. <font color=eeaa22><Permanent item craft></font>. A sealed item can be created in the Weapons tab of the Special Craft window. <font color=ff6666><Unavailable to Humans/ Elves/ Dark Elves/ Sylphs/ Vanguard Riders/ Assassins.></font> -->
 		<set name="icon" val="icon.weapon_death_bringer_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="ANCIENTSWORD" />

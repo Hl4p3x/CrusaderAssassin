@@ -258,7 +258,7 @@
 		<targetType>TARGET</targetType>
 		<affectScope>SINGLE</affectScope>
 	</skill>
-	<skill id="6116" toLevel="1" name="Attacks the Turkey">
+	<skill id="6116" toLevel="1" name="Attack Turkey">
 		<!-- Attacks the turkey. -->
 		<icon>icon.skill0000</icon>
 		<effectPoint>1</effectPoint>

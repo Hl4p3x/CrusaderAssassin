@@ -863,25 +863,30 @@
 		</effects>
 	</skill>
 	<skill id="4549" toLevel="1" name="Quest - Unsealed Altar">
+		<icon>icon.skill0000</icon>
 		<hitTime>3000</hitTime>
 		<isMagic>2</isMagic> <!-- Static Skill -->
 		<magicLevel>99</magicLevel>
 		<operateType>A1</operateType>
+		<hitTime>3000</hitTime>
 		<magicCriticalRate>-5</magicCriticalRate>
 		<targetType>TARGET</targetType>
 		<affectScope>SINGLE</affectScope>
 	</skill>
 	<skill id="4550" toLevel="1" name="Quest - Cursed Altar">
+		<icon>icon.skill0000</icon>
 		<hitTime>3000</hitTime>
 		<isMagic>2</isMagic> <!-- Static Skill -->
 		<magicLevel>99</magicLevel>
 		<operateType>A1</operateType>
+		<hitTime>3000</hitTime>
 		<magicCriticalRate>-5</magicCriticalRate>
 		<targetType>TARGET</targetType>
 		<affectScope>SINGLE</affectScope>
 	</skill>
 	<skill id="4551" toLevel="10" name="Hot Springs Rheumatism">
-		<!-- Infected Hot Springs Rheumatism. While afflicted, P. Critical Rate +3. -->
+		<!-- Infected with Hot Springs Rheumatism. P. Critical Rate +3. -->
+		<icon>icon.skill1164</icon>
 		<abnormalLevel>
 			<value level="1">1</value>
 			<value level="2">2</value>
@@ -945,7 +950,8 @@
 		</effects>
 	</skill>
 	<skill id="4552" toLevel="10" name="Hot Springs Cholera">
-		<!-- Infected with Hot Springs Cholera. While afflicted, P. Accuracy +3. -->
+		<!-- Infected with Hot Springs Cholera. P. Accuracy +3. -->
+		<icon>icon.skill1164</icon>
 		<abnormalLevel>
 			<value level="1">1</value>
 			<value level="2">2</value>
@@ -1009,7 +1015,8 @@
 		</effects>
 	</skill>
 	<skill id="4553" toLevel="10" name="Hot Springs Flu">
-		<!-- Infected with Hot Springs Flu. While afflicted, Atk. Spd. increases temporarily. -->
+		<!-- Infected with Hot Springs Flu. Increases Atk. Spd. -->
+		<icon>icon.skill1164</icon>
 		<abnormalLevel>
 			<value level="1">1</value>
 			<value level="2">2</value>
@@ -1072,8 +1079,9 @@
 			</effect>
 		</effects>
 	</skill>
-	<skill id="4554" toLevel="10" name="Hot Spring Malaria">
-		<!-- Infected with Hot Springs Malaria. While afflicted, Casting Spd. +4%. -->
+	<skill id="4554" toLevel="10" name="Hot Springs Malaria">
+		<!-- Infected with Hot Springs Malaria. Casting Spd. +4%. -->
+		<icon>icon.skill1164</icon>
 		<abnormalLevel>
 			<value level="1">1</value>
 			<value level="2">2</value>
@@ -1138,6 +1146,7 @@
 		</effects>
 	</skill>
 	<skill id="4555" toLevel="1" name="Mutation Resistance">
+		<icon>icon.skill0000</icon>
 		<magicLevel>75</magicLevel>
 		<operateType>P</operateType>
 		<magicCriticalRate>-5</magicCriticalRate>
@@ -1151,6 +1160,7 @@
 		</effects>
 	</skill>
 	<skill id="4556" toLevel="1" name="Dispel Hot Spring Disease A D">
+		<icon>icon.skill0000</icon>
 		<castRange>600</castRange>
 		<effectRange>1100</effectRange>
 		<isMagic>1</isMagic> <!-- Magic Skill -->
@@ -1169,6 +1179,7 @@
 		</effects>
 	</skill>
 	<skill id="4557" toLevel="1" name="Dispel Hot Spring Disease B D">
+		<icon>icon.skill0000</icon>
 		<castRange>600</castRange>
 		<effectRange>1100</effectRange>
 		<isMagic>1</isMagic> <!-- Magic Skill -->
@@ -1187,6 +1198,7 @@
 		</effects>
 	</skill>
 	<skill id="4558" toLevel="1" name="Dispel Hot Spring Disease C D">
+		<icon>icon.skill0000</icon>
 		<castRange>600</castRange>
 		<effectRange>1100</effectRange>
 		<isMagic>1</isMagic> <!-- Magic Skill -->
@@ -1206,6 +1218,7 @@
 	</skill>
 	<skill id="4559" toLevel="1" name="Hot Spring Illusion">
 		<!-- Temporary optical illusion caused by the Hot Spring. -->
+		<icon>icon.skill0000</icon>
 		<abnormalLevel>1</abnormalLevel>
 		<abnormalTime>600</abnormalTime>
 		<abnormalType>BIG_HEAD</abnormalType>
@@ -2402,7 +2415,7 @@
 			</effect>
 		</effects>
 	</skill>
-	<skill id="4578" toLevel="1" name="Petrified">
+	<skill id="4578" toLevel="1" name="Petrification">
 		<!-- Momentarily petrifies the target. -->
 		<icon>icon.skill4111</icon>
 		<abnormalLevel>1</abnormalLevel>
@@ -2762,7 +2775,7 @@
 		</effects>
 	</skill>
 	<skill id="4583" toLevel="12" name="Decrease Speed">
-		<!-- Immediately target's Speed -10%. -->
+		<!-- Momentarily the target's Speed -10%. -->
 		<icon>icon.skill1160</icon>
 		<abnormalLevel>
 			<value level="1">1</value>
@@ -3285,7 +3298,7 @@
 		</effects>
 	</skill>
 	<skill id="4589" toLevel="12" name="Decrease Speed">
-		<!-- Immediately target's Speed -10%. -->
+		<!-- Momentarily the target's Speed -10%. -->
 		<icon>icon.skill1160</icon>
 		<abnormalLevel>
 			<value level="1">1</value>
@@ -3371,7 +3384,7 @@
 		</effects>
 	</skill>
 	<skill id="4590" toLevel="12" name="Decrease Speed">
-		<!-- Immediately target's Speed -10%. -->
+		<!-- Momentarily the target's Speed -10%. -->
 		<icon>icon.skill1160</icon>
 		<abnormalLevel>
 			<value level="1">1</value>
@@ -3457,7 +3470,7 @@
 		</effects>
 	</skill>
 	<skill id="4591" toLevel="12" name="Decrease Speed">
-		<!-- Immediately target's Speed -10%. -->
+		<!-- Momentarily the target's Speed -10%. -->
 		<icon>icon.skill1160</icon>
 		<abnormalLevel>
 			<value level="1">1</value>

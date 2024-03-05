@@ -26,7 +26,7 @@
 		<operateType>A1</operateType>
 	</skill>
 	<skill id="48305" toLevel="3" name="Test Skill - Vulnerability: Dual Swords">
-		<!-- Vulnerable to dual swords attacks. -->
+		<!-- Vulnerable to dual sword attacks. -->
 		<icon>icon.skill0000</icon>
 		<operateType>A1</operateType>
 	</skill>
@@ -1007,7 +1007,7 @@
 			</effect>
 		</effects>
 	</skill>
-	<skill id="48392" toLevel="1" name="Ice Storm">
+	<skill id="48392" toLevel="1" name="Snow Storm">
 		<icon>icon.skill0000</icon>
 		<operateType>A1</operateType>
 		<isMagic>1</isMagic>
@@ -1029,12 +1029,12 @@
 			</effect>
 		</effects>
 	</skill>
-	<skill id="48393" toLevel="1" name="Eskimo Transformation">
+	<skill id="48393" toLevel="1" name="Inuit Transformation">
 		<!-- A fur outfit that perfectly protects from the cold. It will prevent you from being chilled to the bone in the Frozen Canyon. -->
 		<icon>icon.eskimo_suit</icon>
 		<operateType>A1</operateType>
 	</skill>
-	<skill id="48394" toLevel="1" name="Eskimo Transformation">
+	<skill id="48394" toLevel="1" name="Inuit Transformation">
 		<!-- A fur outfit that perfectly protects from the cold. It will prevent you from being chilled to the bone in the Frozen Canyon. -->
 		<icon>icon.eskimo_suit</icon>
 		<operateType>A1</operateType>

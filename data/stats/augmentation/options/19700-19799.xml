@@ -37,7 +37,7 @@
 		</effects>
 	</option>
 	<option id="19793" name="o_f_80_1g_5">
-		<!-- Max CP +150.61. -->
+		<!-- Max CP +150.61 -->
 		<effects>
 			<effect name="MaxCp">
 				<amount>150.614</amount>

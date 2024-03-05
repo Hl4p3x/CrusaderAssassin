@@ -217,7 +217,7 @@
 		<isMagic>1</isMagic>
 	</skill>
 	<skill id="16117" toLevel="1" name="Amplify Damage Lv. 1">
-		<!-- Damage +20% toward normal monsters. -->
+		<!-- Damage to common monsters +20%. -->
 		<icon>icon.skill6367_1</icon>
 		<operateType>A2</operateType>
 		<mpConsume>1</mpConsume>
@@ -227,7 +227,7 @@
 		<isMagic>1</isMagic>
 	</skill>
 	<skill id="16118" toLevel="1" name="Amplify Damage Lv. 2">
-		<!-- Damage +30% toward normal monsters. -->
+		<!-- Damage to common monsters +30%. -->
 		<icon>icon.skill6367_2</icon>
 		<operateType>A2</operateType>
 		<mpConsume>1</mpConsume>
@@ -600,7 +600,7 @@
 		<isDebuff>true</isDebuff>
 	</skill>
 	<skill id="16150" toLevel="5" name="Slow">
-		<!-- Immediately target's Speed -30%. -->
+		<!-- Momentarily the target's Speed -30%. -->
 		<icon>icon.skill1160</icon>
 		<operateType>A2</operateType>
 		<mpConsume>
@@ -854,7 +854,7 @@
 		<operateType>A2</operateType>
 	</skill>
 	<skill id="16174" toLevel="1" name="Herb of Growth">
-		<!-- Thanks to Hellbound's mysterious energy, all party members' acquired XP/ SP while hunting +50% for 10 min. -->
+		<!-- Due to Hellbound's mysterious energy, all party members' acquired XP/ SP while hunting +50% for 10 min. -->
 		<icon>BranchSys2.icon.g_giant_gem</icon>
 		<operateType>A1</operateType>
 		<hitTime>100</hitTime>
@@ -863,7 +863,7 @@
 		<isMagic>4</isMagic>
 	</skill>
 	<skill id="16175" toLevel="1" name="Major Herb of Growth">
-		<!-- Thanks to Hellbound's mysterious energy, all party members' acquired XP/ SP while hunting +100% for 10 min. -->
+		<!-- Due to Hellbound's mysterious energy, all party members' acquired XP/ SP while hunting +100% for 10 min. -->
 		<icon>BranchSys2.icon.g_dawn_gem</icon>
 		<operateType>P</operateType>
 		<hitTime>100</hitTime>
@@ -872,7 +872,7 @@
 		<isMagic>4</isMagic>
 	</skill>
 	<skill id="16176" toLevel="1" name="Superior Herb of Growth">
-		<!-- Thanks to Hellbound's mysterious energy, all party members' acquired XP/ SP while hunting +300% for 2 min. -->
+		<!-- Due to Hellbound's mysterious energy, all party members' acquired XP/ SP while hunting +300% for 2 min. -->
 		<icon>icon.etc_str_symbol_i01</icon>
 		<operateType>P</operateType>
 		<hitTime>100</hitTime>
@@ -997,7 +997,7 @@
 		<hitTime>1500</hitTime>
 	</skill>
 	<skill id="16192" toLevel="1" name="Tyranny">
-		<!-- Powerful magical AoE attack. -->
+		<!-- A powerful magic attack on surrounding enemies. -->
 		<icon>icon.skill0000</icon>
 		<operateType>A1</operateType>
 		<mpConsume>1</mpConsume>
@@ -1028,7 +1028,7 @@
 		<isMagic>1</isMagic>
 	</skill>
 	<skill id="16195" toLevel="1" name="Guided Death">
-		<!-- A powerful magical AoE attack. -->
+		<!-- A powerful magic attack on surrounding enemies. -->
 		<icon>icon.skill0000</icon>
 		<operateType>A1</operateType>
 		<mpConsume>1</mpConsume>
@@ -1067,7 +1067,7 @@
 		<hitTime>1500</hitTime>
 	</skill>
 	<skill id="16199" toLevel="1" name="Howling Abyss">
-		<!-- Magical attack on a single target. -->
+		<!-- A magic attack on a single target. -->
 		<icon>icon.skill0000</icon>
 		<operateType>A1</operateType>
 		<mpConsume>1</mpConsume>

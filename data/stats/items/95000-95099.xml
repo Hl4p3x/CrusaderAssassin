@@ -370,7 +370,7 @@
 		</skills>
 	</item>
 	<item id="95013" name="Bagh-Nakh" additionalName="Sealed" type="Weapon">
-		<!-- <font color=ff6666><Unavailable to Sylphs/ Vanguard Riders.></font> -->
+		<!-- <font color=ff6666><Unavailable to Sylphs/ Vanguard Riders/ Assassins.></font> -->
 		<set name="icon" val="icon.weapon_baghnakh_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="FIST" />
@@ -397,7 +397,7 @@
 		</stats>
 	</item>
 	<item id="95014" name="Single-edged Jamadhr" additionalName="Sealed" type="Weapon">
-		<!-- <font color=ff6666><Unavailable to Sylphs/ Vanguard Riders.></font> -->
+		<!-- <font color=ff6666><Unavailable to Sylphs/ Vanguard Riders/ Assassins.></font> -->
 		<set name="icon" val="icon.weapon_single-edged_jamadhr_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="FIST" />
@@ -424,7 +424,7 @@
 		</stats>
 	</item>
 	<item id="95015" name="Triple-edged Jamadhr" additionalName="Sealed" type="Weapon">
-		<!-- <font color=ff6666><Unavailable to Sylphs/ Vanguard Riders.></font> -->
+		<!-- <font color=ff6666><Unavailable to Sylphs/ Vanguard Riders/ Assassins.></font> -->
 		<set name="icon" val="icon.weapon_triple-edged_jamadhr_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="FIST" />
@@ -451,7 +451,7 @@
 		</stats>
 	</item>
 	<item id="95016" name="Bich'Hwa" additionalName="Sealed" type="Weapon">
-		<!-- <font color=ff6666><Unavailable to Sylphs/ Vanguard Riders.></font> -->
+		<!-- <font color=ff6666><Unavailable to Sylphs/ Vanguard Riders/ Assassins.></font> -->
 		<set name="icon" val="icon.weapon_bichhwa_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="FIST" />
@@ -478,7 +478,7 @@
 		</stats>
 	</item>
 	<item id="95017" name="Scallop Jamadhr" additionalName="Sealed" type="Weapon">
-		<!-- <font color=ff6666><Unavailable to Sylphs/ Vanguard Riders.></font> -->
+		<!-- <font color=ff6666><Unavailable to Sylphs/ Vanguard Riders/ Assassins.></font> -->
 		<set name="icon" val="icon.weapon_scallop_jamadhr_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="FIST" />
@@ -505,7 +505,7 @@
 		</stats>
 	</item>
 	<item id="95018" name="Chakram" additionalName="Sealed" type="Weapon">
-		<!-- <font color=ff6666><Unavailable to Sylphs/ Vanguard Riders.></font> -->
+		<!-- <font color=ff6666><Unavailable to Sylphs/ Vanguard Riders/ Assassins.></font> -->
 		<set name="icon" val="icon.weapon_chakram_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="FIST" />
@@ -532,7 +532,7 @@
 		</stats>
 	</item>
 	<item id="95019" name="Pata" additionalName="Sealed" type="Weapon">
-		<!-- <font color=ff6666><Unavailable to Sylphs/ Vanguard Riders.></font> -->
+		<!-- <font color=ff6666><Unavailable to Sylphs/ Vanguard Riders/ Assassins.></font> -->
 		<set name="icon" val="icon.weapon_chakram_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="FIST" />
@@ -565,7 +565,7 @@
 		</skills>
 	</item>
 	<item id="95020" name="Fisted Blade" additionalName="Sealed" type="Weapon">
-		<!-- <font color=ff6666><Unavailable to Sylphs/ Vanguard Riders.></font> -->
+		<!-- <font color=ff6666><Unavailable to Sylphs/ Vanguard Riders/ Assassins.></font> -->
 		<set name="icon" val="icon.weapon_fist_blade_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="FIST" />
@@ -592,7 +592,7 @@
 		</stats>
 	</item>
 	<item id="95021" name="Arthro Nail" additionalName="Sealed" type="Weapon">
-		<!-- <font color=ff6666><Unavailable to Sylphs/ Vanguard Riders.></font> -->
+		<!-- <font color=ff6666><Unavailable to Sylphs/ Vanguard Riders/ Assassins.></font> -->
 		<set name="icon" val="icon.weapon_arthro_nail_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="FIST" />
@@ -625,7 +625,7 @@
 		</skills>
 	</item>
 	<item id="95022" name="Reinforced Bow" additionalName="Sealed" type="Weapon">
-		<!-- <font color=ff6666><Unavailable to Sylphs/ Vanguard Riders.></font> -->
+		<!-- <font color=ff6666><Unavailable to Sylphs/ Vanguard Riders/ Assassins.></font> -->
 		<set name="icon" val="icon.weapon_strengthening_bow_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="BOW" />
@@ -653,7 +653,7 @@
 		</stats>
 	</item>
 	<item id="95023" name="Longbow" additionalName="Sealed" type="Weapon">
-		<!-- <font color=ff6666><Unavailable to Sylphs/ Vanguard Riders.></font> -->
+		<!-- <font color=ff6666><Unavailable to Sylphs/ Vanguard Riders/ Assassins.></font> -->
 		<set name="icon" val="icon.weapon_long_bow_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="BOW" />
@@ -681,7 +681,7 @@
 		</stats>
 	</item>
 	<item id="95024" name="Elven Bow" additionalName="Sealed" type="Weapon">
-		<!-- <font color=ff6666><Unavailable to Sylphs/ Vanguard Riders.></font> -->
+		<!-- <font color=ff6666><Unavailable to Sylphs/ Vanguard Riders/ Assassins.></font> -->
 		<set name="icon" val="icon.weapon_elven_bow_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="BOW" />
@@ -709,7 +709,7 @@
 		</stats>
 	</item>
 	<item id="95025" name="Dark Elven Bow" additionalName="Sealed" type="Weapon">
-		<!-- <font color=ff6666><Unavailable to Sylphs/ Vanguard Riders.></font> -->
+		<!-- <font color=ff6666><Unavailable to Sylphs/ Vanguard Riders/ Assassins.></font> -->
 		<set name="icon" val="icon.weapon_dark_elven_bow_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="BOW" />
@@ -737,7 +737,7 @@
 		</stats>
 	</item>
 	<item id="95026" name="Gastraphetes" additionalName="Sealed" type="Weapon">
-		<!-- <font color=ff6666><Unavailable to Sylphs/ Vanguard Riders.></font> -->
+		<!-- <font color=ff6666><Unavailable to Sylphs/ Vanguard Riders/ Assassins.></font> -->
 		<set name="icon" val="icon.weapon_gastraphetes_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="BOW" />
@@ -765,7 +765,7 @@
 		</stats>
 	</item>
 	<item id="95027" name="Reinforced Longbow" additionalName="Sealed" type="Weapon">
-		<!-- <font color=ff6666><Unavailable to Sylphs/ Vanguard Riders.></font> -->
+		<!-- <font color=ff6666><Unavailable to Sylphs/ Vanguard Riders/ Assassins.></font> -->
 		<set name="icon" val="icon.weapon_strengthening_long_bow_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="BOW" />
@@ -793,7 +793,7 @@
 		</stats>
 	</item>
 	<item id="95028" name="Light Bow" additionalName="Sealed" type="Weapon">
-		<!-- <font color=ff6666><Unavailable to Sylphs/ Vanguard Riders.></font> -->
+		<!-- <font color=ff6666><Unavailable to Sylphs/ Vanguard Riders/ Assassins.></font> -->
 		<set name="icon" val="icon.weapon_cyclone_bow_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="BOW" />
@@ -821,7 +821,7 @@
 		</stats>
 	</item>
 	<item id="95029" name="Crystallized Ice Bow" additionalName="Sealed" type="Weapon">
-		<!-- <font color=ff6666><Unavailable to Sylphs/ Vanguard Riders.></font> -->
+		<!-- <font color=ff6666><Unavailable to Sylphs/ Vanguard Riders/ Assassins.></font> -->
 		<set name="icon" val="icon.weapon_crystallized_ice_bow_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="BOW" />
@@ -849,7 +849,7 @@
 		</stats>
 	</item>
 	<item id="95030" name="Elemental Bow" additionalName="Sealed" type="Weapon">
-		<!-- <font color=ff6666><Unavailable to Sylphs/ Vanguard Riders.></font> -->
+		<!-- <font color=ff6666><Unavailable to Sylphs/ Vanguard Riders/ Assassins.></font> -->
 		<set name="icon" val="icon.weapon_elemental_bow_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="BOW" />
@@ -877,7 +877,7 @@
 		</stats>
 	</item>
 	<item id="95031" name="Akat Longbow" additionalName="Sealed" type="Weapon">
-		<!-- <font color=ff6666><Unavailable to Sylphs/ Vanguard Riders.></font> -->
+		<!-- <font color=ff6666><Unavailable to Sylphs/ Vanguard Riders/ Assassins.></font> -->
 		<set name="icon" val="icon.weapon_akat_long_bow_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="BOW" />
@@ -905,7 +905,7 @@
 		</stats>
 	</item>
 	<item id="95032" name="Dark Elven Longbow" additionalName="Sealed" type="Weapon">
-		<!-- <font color=ff6666><Unavailable to Sylphs/ Vanguard Riders.></font> -->
+		<!-- <font color=ff6666><Unavailable to Sylphs/ Vanguard Riders/ Assassins.></font> -->
 		<set name="icon" val="icon.weapon_dark_elven_long_bow_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="BOW" />
@@ -939,7 +939,7 @@
 		</skills>
 	</item>
 	<item id="95033" name="Noble Elven Bow" additionalName="Sealed" type="Weapon">
-		<!-- <font color=ff6666><Unavailable to Sylphs/ Vanguard Riders.></font> -->
+		<!-- <font color=ff6666><Unavailable to Sylphs/ Vanguard Riders/ Assassins.></font> -->
 		<set name="icon" val="icon.weapon_noble_elven_bow_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="BOW" />
@@ -967,7 +967,7 @@
 		</stats>
 	</item>
 	<item id="95034" name="Trident" additionalName="Sealed" type="Weapon">
-		<!-- <font color=ff6666><Unavailable to Sylphs></font> -->
+		<!-- <font color=ff6666><Unavailable to Sylphs/ Assassins.></font> -->
 		<set name="icon" val="icon.weapon_trident_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="POLE" />
@@ -997,7 +997,7 @@
 		</stats>
 	</item>
 	<item id="95035" name="Pike" additionalName="Sealed" type="Weapon">
-		<!-- <font color=ff6666><Unavailable to Sylphs></font> -->
+		<!-- <font color=ff6666><Unavailable to Sylphs/ Assassins.></font> -->
 		<set name="icon" val="icon.weapon_pike_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="POLE" />
@@ -1027,7 +1027,7 @@
 		</stats>
 	</item>
 	<item id="95036" name="Battle Hammer" additionalName="Sealed" type="Weapon">
-		<!-- <font color=ff6666><Unavailable to Sylphs></font> -->
+		<!-- <font color=ff6666><Unavailable to Sylphs/ Assassins.></font> -->
 		<set name="icon" val="icon.weapon_war_hammer_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="POLE" />
@@ -1057,7 +1057,7 @@
 		</stats>
 	</item>
 	<item id="95037" name="War Pick" additionalName="Sealed" type="Weapon">
-		<!-- <font color=ff6666><Unavailable to Sylphs></font> -->
+		<!-- <font color=ff6666><Unavailable to Sylphs/ Assassins.></font> -->
 		<set name="icon" val="icon.weapon_hammer_in_flames_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="POLE" />
@@ -1087,7 +1087,7 @@
 		</stats>
 	</item>
 	<item id="95038" name="Dwarven Trident" additionalName="Sealed" type="Weapon">
-		<!-- <font color=ff6666><Unavailable to Sylphs></font> -->
+		<!-- <font color=ff6666><Unavailable to Sylphs/ Assassins.></font> -->
 		<set name="icon" val="icon.weapon_dwarven_trident_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="POLE" />
@@ -1117,7 +1117,7 @@
 		</stats>
 	</item>
 	<item id="95039" name="Dwarven Pike" additionalName="Sealed" type="Weapon">
-		<!-- <font color=ff6666><Unavailable to Sylphs></font> -->
+		<!-- <font color=ff6666><Unavailable to Sylphs/ Assassins.></font> -->
 		<set name="icon" val="icon.weapon_dwarven_pike_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="POLE" />
@@ -1147,7 +1147,7 @@
 		</stats>
 	</item>
 	<item id="95040" name="Glaive" additionalName="Sealed" type="Weapon">
-		<!-- <font color=ff6666><Unavailable to Sylphs></font> -->
+		<!-- <font color=ff6666><Unavailable to Sylphs/ Assassins.></font> -->
 		<set name="icon" val="icon.weapon_glaive_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="POLE" />
@@ -1177,7 +1177,7 @@
 		</stats>
 	</item>
 	<item id="95041" name="Orcish Glaive" additionalName="Sealed" type="Weapon">
-		<!-- <font color=ff6666><Unavailable to Sylphs></font> -->
+		<!-- <font color=ff6666><Unavailable to Sylphs/ Assassins.></font> -->
 		<set name="icon" val="icon.weapon_orcish_glaive_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="POLE" />
@@ -1207,7 +1207,7 @@
 		</stats>
 	</item>
 	<item id="95042" name="Great Axe" additionalName="Sealed" type="Weapon">
-		<!-- <font color=ff6666><Unavailable to Sylphs></font> -->
+		<!-- <font color=ff6666><Unavailable to Sylphs/ Assassins.></font> -->
 		<set name="icon" val="icon.weapon_great_axe_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="POLE" />
@@ -1241,7 +1241,7 @@
 		</skills>
 	</item>
 	<item id="95043" name="scorpion" additionalName="Sealed" type="Weapon">
-		<!-- <font color=ff6666><Unavailable to Sylphs></font> -->
+		<!-- <font color=ff6666><Unavailable to Sylphs/ Assassins.></font> -->
 		<set name="icon" val="icon.weapon_scorpion_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="POLE" />
@@ -1271,7 +1271,7 @@
 		</stats>
 	</item>
 	<item id="95044" name="Body Slasher" additionalName="Sealed" type="Weapon">
-		<!-- <font color=ff6666><Unavailable to Sylphs></font> -->
+		<!-- <font color=ff6666><Unavailable to Sylphs/ Assassins.></font> -->
 		<set name="icon" val="icon.weapon_body_slasher_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="POLE" />
@@ -1301,7 +1301,7 @@
 		</stats>
 	</item>
 	<item id="95045" name="Widow Maker" additionalName="Sealed" type="Weapon">
-		<!-- <font color=ff6666><Unavailable to Sylphs></font> -->
+		<!-- <font color=ff6666><Unavailable to Sylphs/ Assassins.></font> -->
 		<set name="icon" val="icon.weapon_widow_maker_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="POLE" />
@@ -1331,7 +1331,7 @@
 		</stats>
 	</item>
 	<item id="95046" name="Branch of Life" additionalName="Sealed" type="Weapon">
-		<!-- <font color=ff6666><Unavailable to Sylphs/ Vanguard Riders.></font> -->
+		<!-- <font color=ff6666><Unavailable to Sylphs/ Vanguard Riders/ Assassins.></font> -->
 		<set name="icon" val="icon.weapon_branch_of_life_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="SWORD" />
@@ -1359,7 +1359,7 @@
 		</stats>
 	</item>
 	<item id="95047" name="Temptation of Abyss" additionalName="Sealed" type="Weapon">
-		<!-- <font color=ff6666><Unavailable to Sylphs/ Vanguard Riders.></font> -->
+		<!-- <font color=ff6666><Unavailable to Sylphs/ Vanguard Riders/ Assassins.></font> -->
 		<set name="icon" val="icon.weapon_temptation_of_abyss_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="SWORD" />
@@ -1387,7 +1387,7 @@
 		</stats>
 	</item>
 	<item id="95048" name="Proof of Revenge" additionalName="Sealed" type="Weapon">
-		<!-- <font color=ff6666><Unavailable to Sylphs/ Vanguard Riders.></font> -->
+		<!-- <font color=ff6666><Unavailable to Sylphs/ Vanguard Riders/ Assassins.></font> -->
 		<set name="icon" val="icon.weapon_proof_of_revenge_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="SWORD" />
@@ -1415,7 +1415,7 @@
 		</stats>
 	</item>
 	<item id="95049" name="Divine Rod" additionalName="Sealed" type="Weapon">
-		<!-- <font color=ff6666><Unavailable to Sylphs/ Vanguard Riders.></font> -->
+		<!-- <font color=ff6666><Unavailable to Sylphs/ Vanguard Riders/ Assassins.></font> -->
 		<set name="icon" val="icon.weapon_divine_tome_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="SWORD" />
@@ -1443,7 +1443,7 @@
 		</stats>
 	</item>
 	<item id="95050" name="Sage's Blood" additionalName="Sealed" type="Weapon">
-		<!-- <font color=ff6666><Unavailable to Sylphs/ Vanguard Riders.></font> -->
+		<!-- <font color=ff6666><Unavailable to Sylphs/ Vanguard Riders/ Assassins.></font> -->
 		<set name="icon" val="icon.weapon_blood_of_saints_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="SWORD" />
@@ -1471,7 +1471,7 @@
 		</stats>
 	</item>
 	<item id="95051" name="Tome of Blood" additionalName="Sealed" type="Weapon">
-		<!-- <font color=ff6666><Unavailable to Sylphs/ Vanguard Riders.></font> -->
+		<!-- <font color=ff6666><Unavailable to Sylphs/ Vanguard Riders/ Assassins.></font> -->
 		<set name="icon" val="icon.weapon_tome_of_blood_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="SWORD" />
@@ -1499,7 +1499,7 @@
 		</stats>
 	</item>
 	<item id="95052" name="Crucifix of Blood" additionalName="Sealed" type="Weapon">
-		<!-- <font color=ff6666><Unavailable to Sylphs/ Vanguard Riders.></font> -->
+		<!-- <font color=ff6666><Unavailable to Sylphs/ Vanguard Riders/ Assassins.></font> -->
 		<set name="icon" val="icon.weapon_crucifix_of_blood_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="SWORD" />
@@ -1527,7 +1527,7 @@
 		</stats>
 	</item>
 	<item id="95053" name="Eye of Infinity" additionalName="Sealed" type="Weapon">
-		<!-- <font color=ff6666><Unavailable to Sylphs/ Vanguard Riders.></font> -->
+		<!-- <font color=ff6666><Unavailable to Sylphs/ Vanguard Riders/ Assassins.></font> -->
 		<set name="icon" val="icon.weapon_apprentices_spellbook_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="SWORD" />
@@ -1555,7 +1555,7 @@
 		</stats>
 	</item>
 	<item id="95054" name="Blue Crystal Skull" additionalName="Sealed" type="Weapon">
-		<!-- <font color=ff6666><Unavailable to Sylphs/ Vanguard Riders.></font> -->
+		<!-- <font color=ff6666><Unavailable to Sylphs/ Vanguard Riders/ Assassins.></font> -->
 		<set name="icon" val="icon.weapon_apprentices_spellbook_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="SWORD" />
@@ -1583,7 +1583,7 @@
 		</stats>
 	</item>
 	<item id="95055" name="Demon's Fangs" additionalName="Sealed" type="Weapon">
-		<!-- <font color=ff6666><Unavailable to Sylphs/ Vanguard Riders.></font> -->
+		<!-- <font color=ff6666><Unavailable to Sylphs/ Vanguard Riders/ Assassins.></font> -->
 		<set name="icon" val="icon.weapon_demon_fangs_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="SWORD" />
@@ -1611,7 +1611,7 @@
 		</stats>
 	</item>
 	<item id="95056" name="Vajra Wand" additionalName="Sealed" type="Weapon">
-		<!-- <font color=ff6666><Unavailable to Sylphs/ Vanguard Riders.></font> -->
+		<!-- <font color=ff6666><Unavailable to Sylphs/ Vanguard Riders/ Assassins.></font> -->
 		<set name="icon" val="icon.weapon_apprentices_spellbook_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="SWORD" />
@@ -1639,7 +1639,7 @@
 		</stats>
 	</item>
 	<item id="95057" name="Ancient Reagent" additionalName="Sealed" type="Weapon">
-		<!-- <font color=ff6666><Unavailable to Sylphs/ Vanguard Riders.></font> -->
+		<!-- <font color=ff6666><Unavailable to Sylphs/ Vanguard Riders/ Assassins.></font> -->
 		<set name="icon" val="icon.weapon_apprentices_spellbook_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="SWORD" />
@@ -1667,7 +1667,7 @@
 		</stats>
 	</item>
 	<item id="95058" name="Horn of Glory" additionalName="Sealed" type="Weapon">
-		<!-- <font color=ff6666><Unavailable to Sylphs/ Vanguard Riders.></font> -->
+		<!-- <font color=ff6666><Unavailable to Sylphs/ Vanguard Riders/ Assassins.></font> -->
 		<set name="icon" val="icon.weapon_horn_of_glory_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="SWORD" />

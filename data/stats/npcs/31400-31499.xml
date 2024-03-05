@@ -137,7 +137,7 @@
 			<skill id="4045" level="1" /> <!-- Full Magic Attack Resistance -->
 		</skillList>
 	</npc>
-	<npc id="31455" level="70" type="Folk" name="Key Box">
+	<npc id="31455" level="70" type="Folk" name="Key Chest">
 		<!-- AUTO GENERATED NPC TODO: FIX IT -->
 		<race>CONSTRUCT</race>
 		<sex>MALE</sex>
@@ -171,7 +171,7 @@
 			<skill id="4045" level="1" /> <!-- Full Magic Attack Resistance -->
 		</skillList>
 	</npc>
-	<npc id="31456" level="70" type="Folk" name="Key Box">
+	<npc id="31456" level="70" type="Folk" name="Key Chest">
 		<!-- AUTO GENERATED NPC TODO: FIX IT -->
 		<race>CONSTRUCT</race>
 		<sex>MALE</sex>
@@ -205,7 +205,7 @@
 			<skill id="4045" level="1" /> <!-- Full Magic Attack Resistance -->
 		</skillList>
 	</npc>
-	<npc id="31457" level="70" type="Folk" name="Key Box">
+	<npc id="31457" level="70" type="Folk" name="Key Chest">
 		<!-- AUTO GENERATED NPC TODO: FIX IT -->
 		<race>CONSTRUCT</race>
 		<sex>MALE</sex>
@@ -239,7 +239,7 @@
 			<skill id="4045" level="1" /> <!-- Full Magic Attack Resistance -->
 		</skillList>
 	</npc>
-	<npc id="31458" level="70" type="Folk" name="Key Box">
+	<npc id="31458" level="70" type="Folk" name="Key Chest">
 		<!-- AUTO GENERATED NPC TODO: FIX IT -->
 		<race>CONSTRUCT</race>
 		<sex>MALE</sex>
@@ -273,7 +273,7 @@
 			<skill id="4045" level="1" /> <!-- Full Magic Attack Resistance -->
 		</skillList>
 	</npc>
-	<npc id="31459" level="70" type="Folk" name="Key Box">
+	<npc id="31459" level="70" type="Folk" name="Key Chest">
 		<!-- AUTO GENERATED NPC TODO: FIX IT -->
 		<race>CONSTRUCT</race>
 		<sex>MALE</sex>
@@ -307,7 +307,7 @@
 			<skill id="4045" level="1" /> <!-- Full Magic Attack Resistance -->
 		</skillList>
 	</npc>
-	<npc id="31460" level="70" type="Folk" name="Key Box">
+	<npc id="31460" level="70" type="Folk" name="Key Chest">
 		<!-- AUTO GENERATED NPC TODO: FIX IT -->
 		<race>CONSTRUCT</race>
 		<sex>MALE</sex>
@@ -341,7 +341,7 @@
 			<skill id="4045" level="1" /> <!-- Full Magic Attack Resistance -->
 		</skillList>
 	</npc>
-	<npc id="31461" level="70" type="Folk" name="Key Box">
+	<npc id="31461" level="70" type="Folk" name="Key Chest">
 		<!-- AUTO GENERATED NPC TODO: FIX IT -->
 		<race>CONSTRUCT</race>
 		<sex>MALE</sex>
@@ -375,7 +375,7 @@
 			<skill id="4045" level="1" /> <!-- Full Magic Attack Resistance -->
 		</skillList>
 	</npc>
-	<npc id="31462" level="70" type="Folk" name="Key Box">
+	<npc id="31462" level="70" type="Folk" name="Key Chest">
 		<!-- AUTO GENERATED NPC TODO: FIX IT -->
 		<race>CONSTRUCT</race>
 		<sex>MALE</sex>
@@ -409,7 +409,7 @@
 			<skill id="4045" level="1" /> <!-- Full Magic Attack Resistance -->
 		</skillList>
 	</npc>
-	<npc id="31463" level="70" type="Folk" name="Key Box">
+	<npc id="31463" level="70" type="Folk" name="Key Chest">
 		<!-- AUTO GENERATED NPC TODO: FIX IT -->
 		<race>CONSTRUCT</race>
 		<sex>MALE</sex>
@@ -443,7 +443,7 @@
 			<skill id="4045" level="1" /> <!-- Full Magic Attack Resistance -->
 		</skillList>
 	</npc>
-	<npc id="31464" level="70" type="Folk" name="Key Box">
+	<npc id="31464" level="70" type="Folk" name="Key Chest">
 		<!-- AUTO GENERATED NPC TODO: FIX IT -->
 		<race>CONSTRUCT</race>
 		<sex>MALE</sex>
@@ -477,7 +477,7 @@
 			<skill id="4045" level="1" /> <!-- Full Magic Attack Resistance -->
 		</skillList>
 	</npc>
-	<npc id="31465" level="70" type="Folk" name="Key Box">
+	<npc id="31465" level="70" type="Folk" name="Key Chest">
 		<!-- AUTO GENERATED NPC TODO: FIX IT -->
 		<race>CONSTRUCT</race>
 		<sex>MALE</sex>
@@ -511,7 +511,7 @@
 			<skill id="4045" level="1" /> <!-- Full Magic Attack Resistance -->
 		</skillList>
 	</npc>
-	<npc id="31466" level="70" type="Folk" name="Key Box">
+	<npc id="31466" level="70" type="Folk" name="Key Chest">
 		<!-- AUTO GENERATED NPC TODO: FIX IT -->
 		<race>CONSTRUCT</race>
 		<sex>MALE</sex>
@@ -545,7 +545,7 @@
 			<skill id="4045" level="1" /> <!-- Full Magic Attack Resistance -->
 		</skillList>
 	</npc>
-	<npc id="31467" level="70" type="Folk" name="Key Box">
+	<npc id="31467" level="70" type="Folk" name="Key Chest">
 		<!-- AUTO GENERATED NPC TODO: FIX IT -->
 		<race>CONSTRUCT</race>
 		<sex>MALE</sex>

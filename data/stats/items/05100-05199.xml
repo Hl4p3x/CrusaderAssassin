@@ -175,7 +175,7 @@
 		</stats>
 	</item>
 	<item id="5133" name="Chrono Unitus" type="Weapon">
-		<!-- Chronicle II Souvenir!. <font color=ff6666><Unavailable to Sylphs/ Vanguard Riders.></font> -->
+		<!-- Chronicle II Souvenir!. <font color=ff6666><Unavailable to Sylphs/ Vanguard Riders/ Assassins.></font> -->
 		<set name="icon" val="icon.weapon_chrono_tambourine_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="DUALFIST" />

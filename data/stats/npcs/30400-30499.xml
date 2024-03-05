@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/npcs.xsd">
-	<npc id="30400" level="70" type="Folk" name="Newbie Helper" title="Tutorial Indicator">
+	<npc id="30400" level="70" type="Folk" name="Newbie Helper" title="Tutorial">
 		<parameters>
 			<param name="MoveAroundSocial" value="0" />
 			<param name="MoveAroundSocial1" value="79" />
@@ -918,9 +918,9 @@
 			<param name="MoveAroundSocial" value="0" />
 			<param name="MoveAroundSocial1" value="120" />
 			<minions name="Privates">
-				<npc id="27032" count="1" respawnTime="10" weightPoint="1" />
-				<npc id="27033" count="1" respawnTime="10" weightPoint="1" />
-				<npc id="27034" count="1" respawnTime="10" weightPoint="1" />
+				<npc id="27032" count="1" respawnTime="10" weightPoint="1" /> <!-- Lizardman Chieftain -->
+				<npc id="27033" count="1" respawnTime="10" weightPoint="1" /> <!-- Lizardman Lieutenant -->
+				<npc id="27034" count="1" respawnTime="10" weightPoint="1" /> <!-- Lizardman Soldier -->
 			</minions>
 		</parameters>
 		<race>HUMAN</race>

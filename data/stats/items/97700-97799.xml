@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/items.xsd">
 	<item id="97700" name="Opal Jewelry Box Lv. 6" additionalName="Sealed" type="EtcItem">
-		<!-- Can be compounded with a Jewelry Box of the same level and a jewel. Double-click to get more information about the contents. -->
+		<!-- <font color=bbaa88><Compound></font>. Materials: identical Jewels and Jewelry Boxes. In case of failure, the current level remains the same, but materials disappear. Double-click to obtain various items. -->
 		<set name="icon" val="icon.etc_bm_jewelbox_opal_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -16,7 +16,7 @@
 		</capsuled_items>
 	</item>
 	<item id="97701" name="Opal Jewelry Box Lv. 7" additionalName="Sealed" type="EtcItem">
-		<!-- Can be compounded with a Jewelry Box of the same level and a jewel. Double-click to get more information about the contents. -->
+		<!-- <font color=bbaa88><Compound></font>. Materials: identical Jewels and Jewelry Boxes. In case of failure, the current level remains the same, but materials disappear. Double-click to obtain various items. -->
 		<set name="icon" val="icon.etc_bm_jewelbox_opal_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -31,7 +31,7 @@
 		</capsuled_items>
 	</item>
 	<item id="97702" name="Opal Jewelry Box Lv. 8" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.etc_bm_jewelbox_opal_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -46,7 +46,7 @@
 		</capsuled_items>
 	</item>
 	<item id="97703" name="Amber Jewelry Box Lv. 6" additionalName="Sealed" type="EtcItem">
-		<!-- Can be compounded with a Jewelry Box of the same level and a jewel. Double-click to get more information about the contents. -->
+		<!-- <font color=bbaa88><Compound></font>. Materials: identical Jewels and Jewelry Boxes. In case of failure, the current level remains the same, but materials disappear. Double-click to obtain various items. -->
 		<set name="icon" val="icon.etc_bm_jewelbox_amber_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -61,7 +61,7 @@
 		</capsuled_items>
 	</item>
 	<item id="97704" name="Amber Jewelry Box Lv. 7" additionalName="Sealed" type="EtcItem">
-		<!-- Can be compounded with a Jewelry Box of the same level and a jewel. Double-click to get more information about the contents. -->
+		<!-- <font color=bbaa88><Compound></font>. Materials: identical Jewels and Jewelry Boxes. In case of failure, the current level remains the same, but materials disappear. Double-click to obtain various items. -->
 		<set name="icon" val="icon.etc_bm_jewelbox_amber_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -76,7 +76,7 @@
 		</capsuled_items>
 	</item>
 	<item id="97705" name="Amber Jewelry Box Lv. 8" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.etc_bm_jewelbox_amber_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -91,7 +91,7 @@
 		</capsuled_items>
 	</item>
 	<item id="97706" name="Moonstone Jewelry Box Lv. 6" additionalName="Sealed" type="EtcItem">
-		<!-- Can be compounded with a Jewelry Box of the same level and a jewel. Double-click to get more information about the contents. -->
+		<!-- <font color=bbaa88><Compound></font>. Materials: identical Jewels and Jewelry Boxes. In case of failure, the current level remains the same, but materials disappear. Double-click to obtain various items. -->
 		<set name="icon" val="icon.etc_bm_jewelbox_moonstone_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -106,7 +106,7 @@
 		</capsuled_items>
 	</item>
 	<item id="97707" name="Moonstone Jewelry Box Lv. 7" additionalName="Sealed" type="EtcItem">
-		<!-- Can be compounded with a Jewelry Box of the same level and a jewel. Double-click to get more information about the contents. -->
+		<!-- <font color=bbaa88><Compound></font>. Materials: identical Jewels and Jewelry Boxes. In case of failure, the current level remains the same, but materials disappear. Double-click to obtain various items. -->
 		<set name="icon" val="icon.etc_bm_jewelbox_moonstone_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -121,7 +121,7 @@
 		</capsuled_items>
 	</item>
 	<item id="97708" name="Moonstone Jewelry Box Lv. 8" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.etc_bm_jewelbox_moonstone_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -341,7 +341,7 @@
 		<set name="is_sellable" val="false" />
 	</item>
 	<item id="97729" name="Red Orc Lantern Pack (Time-limited)" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.etc_pi_gift_box_i04" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -361,7 +361,7 @@
 		</capsuled_items>
 	</item>
 	<item id="97730" name="Rabbit's Gift (Time-limited)" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.etc_treasure_box_i11" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -379,7 +379,7 @@
 		</capsuled_items>
 	</item>
 	<item id="97731" name="Blessed Augmenting Stone Pack (Time-limited)" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.etc_treasure_box_i01" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -400,7 +400,7 @@
 		</capsuled_items>
 	</item>
 	<item id="97732" name="Doll Pack Lv. 1-2 (Time-limited)" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.bm_sayha_gold_present" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -432,7 +432,7 @@
 		</capsuled_items>
 	</item>
 	<item id="97733" name="+0 ~ +2 Rare Accessory Pack (Time-limited)" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.bm_gold_lure_special_box" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -510,7 +510,7 @@
 		<set name="is_stackable" val="true" />
 	</item>
 	<item id="97735" name="Lv.3 Dye Exchange Coupon (Time-limited)" additionalName="Sealed" type="EtcItem">
-		<!-- Can be exchanged for Dyes through Game Assistant in the Event section. -->
+		<!-- Double-click to choose 1 Dye Lv. 3 <font color=00FF00>(Exchangeable)</font>. -->
 		<set name="icon" val="BranchSys3.icon1.g_luckygame_card_trade_i00" />
 		<set name="default_action" val="NONE" />
 		<set name="immediate_effect" val="true" />
@@ -520,7 +520,7 @@
 		<set name="is_sellable" val="false" />
 	</item>
 	<item id="97736" name="Package: Soulshots (Time-limited)" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.etc_exchange_ticket_i03" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -536,7 +536,7 @@
 		</capsuled_items>
 	</item>
 	<item id="97737" name="Package: Dye Lv. 3 (Time-limited)" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="BranchSys3.icon1.g_luckygame_card_trade_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -547,12 +547,12 @@
 		<set name="is_stackable" val="true" />
 		<set name="handler" val="ExtractableItems" />
 		<capsuled_items>
-			<item id="97735" min="1" max="1" chance="100" /> <!-- Lv.3 Dye Exchange Coupon (Time-limited) - Sealed -->
+			<item id="97735" min="1" max="1" chance="100" /> <!-- Dye Coupon Lv. 3 (Time-limited) - Sealed -->
 			<item id="97734" min="3" max="3" chance="100" /> <!-- High-grade Item Craft Coupon (Time-limited) - Sealed -->
 		</capsuled_items>
 	</item>
 	<item id="97738" name="Package: Elixir (Time-limited)" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.etc_powder_of_life_i01" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -568,7 +568,7 @@
 		</capsuled_items>
 	</item>
 	<item id="97739" name="High-grade Item Craft Coupon Premium Pack (Time-limited)" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.ev_charge_box" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -589,7 +589,7 @@
 		</capsuled_items>
 	</item>
 	<item id="97740" name="Premium Kit: Giran Seal (Time-limited)" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.present_of_destination_event" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -605,7 +605,7 @@
 		</capsuled_items>
 	</item>
 	<item id="97741" name="Package: High-grade Item Craft Coupon (100 pcs.) (Time-limited)" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.bm_challenger_wp_ench_ticket" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -631,7 +631,7 @@
 		<set name="is_stackable" val="true" />
 	</item>
 	<item id="97743" name="Elixir Pack (Time-limited)" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.etc_treasure_box_i06" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -656,7 +656,7 @@
 		</capsuled_items>
 	</item>
 	<item id="97744" name="+0 ~ +4 Talisman of Baium Box (Time-limited)" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.etc_treasure_box_i07" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -682,7 +682,7 @@
 		</capsuled_items>
 	</item>
 	<item id="97745" name="Spellbook: Master of Aggression" type="EtcItem">
-		<!-- A spellbook for learning the Deadly Aggression/ Force Aggression skills. <Class>. Knights after the 3rd class change. <Skill effect>. Phoenix Knight/ Eva's Templar. Turns the Aggression skill into Deadly Aggression, which urges the target to attack. Temporarily decreases the character's received P. Skill Critical Rate and increases Speed. <Skill effect>. Hell Knight/ Shillien Templar. Turns the Aggression skill into Force Aggression, which urges the target to attack. Temporarily decreases the character's received P. Skill Critical Damage and increases Speed. -->
+		<!-- A spellbook for learning the Force/ Deadly/ Defensive/ Ovewhelming Aggression skill. <Classes>. Phoenix Knight. Hell Knight. Eva's Templar. Shillien Templar. <Skill effect>. Phoenix Knight. Aggression → Deadly Aggression. Urges the target to attack. Temporarily decreases the character's received P. Skill Critical Rate, and increases Speed. Hell Knight. Aggression → Force Aggression. Urges the target to attack. Temporarily decreases the character's received P. Skill Critical Damage, and increases Speed. Eva's Templar. Aggression → Defensive Aggression. Urges the target to attack. Temporarily decreases the character's received P. Skill Rate, and increases P./ M. Def. and Speed. Shillien Templar. Aggression → Ovewhelming Aggression. Urges the target to attack. Temporarily decreases Received P. Skill Critical Damage, and increases Debuff/ Anomaly Resistance and Speed. -->
 		<set name="icon" val="icon.etc_magic_book_black_i00" />
 		<set name="default_action" val="NONE" />
 		<set name="immediate_effect" val="true" />
@@ -691,7 +691,7 @@
 		<set name="is_stackable" val="true" />
 	</item>
 	<item id="97746" name="Spellbook: Master of Aggression" additionalName="Sealed" type="EtcItem">
-		<!-- A spellbook for learning the Deadly Aggression/ Force Aggression skills. <Class>. Knights after the 3rd class change. <Skill effect>. Phoenix Knight/ Eva's Templar. Turns the Aggression skill into Deadly Aggression, which urges the target to attack. Temporarily decreases the character's received P. Skill Critical Rate and increases Speed. <Skill effect>. Hell Knight/ Shillien Templar. Turns the Aggression skill into Force Aggression, which urges the target to attack. Temporarily decreases the character's received P. Skill Critical Damage and increases Speed. -->
+		<!-- A spellbook for learning the Force/ Deadly/ Defensive/ Ovewhelming Aggression skill. <Classes>. Phoenix Knight. Hell Knight. Eva's Templar. Shillien Templar. <Skill effect>. Phoenix Knight. Aggression → Deadly Aggression. Urges the target to attack. Temporarily decreases the character's received P. Skill Critical Rate, and increases Speed. Hell Knight. Aggression → Force Aggression. Urges the target to attack. Temporarily decreases the character's received P. Skill Critical Damage, and increases Speed. Eva's Templar. Aggression → Defensive Aggression. Urges the target to attack. Temporarily decreases the character's received P. Skill Rate, and increases P./ M. Def. and Speed. Shillien Templar. Aggression → Ovewhelming Aggression. Urges the target to attack. Temporarily decreases Received P. Skill Critical Damage, and increases Debuff/ Anomaly Resistance and Speed. -->
 		<set name="icon" val="icon.etc_magic_book_black_i00" />
 		<set name="default_action" val="NONE" />
 		<set name="immediate_effect" val="true" />
@@ -712,7 +712,7 @@
 		<set name="is_sellable" val="false" />
 	</item>
 	<item id="97748" name="Family Month Gift Box (Time-limited)" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.etc_pi_box_love_pack" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -725,12 +725,12 @@
 		<capsuled_items>
 			<item id="93708" min="500" max="500" chance="100" /> <!-- Mid-grade HP Recovery Potion (Time-limited) - Sealed -->
 			<item id="91840" min="5" max="5" chance="100" /> <!-- XP Growth Scroll (Time-limited) - Sealed -->
-			<item id="93073" min="5" max="5" chance="100" /> <!-- Sayha's Storm Lv. 3 (Time-limited) - Sealed -->
+			<item id="93073" min="5" max="5" chance="100" /> <!-- Sayha's Storm (Time-limited) - Sealed -->
 			<item id="97747" min="1" max="1" chance="100" /> <!-- Carnation (Time-limited) - Sealed -->
 		</capsuled_items>
 	</item>
 	<item id="97749" name="Package: +6 Breastplate of Protection" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain +6 Breastplate of Protection <font color=00FF00>(exchangeable)</font>. -->
 		<set name="icon" val="icon.armor_t901_u_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -745,7 +745,7 @@
 		</capsuled_items>
 	</item>
 	<item id="97750" name="Package: +6 Gaiters of Protection" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain +6 Gaiters of Protection <font color=00FF00>(exchangeable)</font>. -->
 		<set name="icon" val="icon.armor_t901_l_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -760,7 +760,7 @@
 		</capsuled_items>
 	</item>
 	<item id="97751" name="Package: +6 Breastplate of Protection (Sealed)" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain +6 Breastplate of Protection <font color=ff6666>(exchangeable)</font>. -->
 		<set name="icon" val="icon.armor_t901_u_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -775,7 +775,7 @@
 		</capsuled_items>
 	</item>
 	<item id="97752" name="Package: +6 Gaiters of Protection (Sealed)" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain +6 Breastplate of Protection <font color=ff6666>(exchangeable)</font>. -->
 		<set name="icon" val="icon.armor_t901_l_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -790,7 +790,7 @@
 		</capsuled_items>
 	</item>
 	<item id="97753" name="Package: +6 Leather Armor of Protection" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain +6 Leather Armor of Protection <font color=00FF00>(exchangeable)</font>. -->
 		<set name="icon" val="icon.armor_t902_u_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -805,7 +805,7 @@
 		</capsuled_items>
 	</item>
 	<item id="97754" name="Package: +6 Leather Leggings of Protection" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain +6 Leather Leggings of Protection <font color=00FF00>(exchangeable)</font>. -->
 		<set name="icon" val="icon.armor_t902_l_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -820,7 +820,7 @@
 		</capsuled_items>
 	</item>
 	<item id="97755" name="Package: +6 Leather Armor of Protection (Sealed)" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain +6 Leather Armor of Protection <font color=ff6666>(unexchangeable)</font>. -->
 		<set name="icon" val="icon.armor_t902_u_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -835,7 +835,7 @@
 		</capsuled_items>
 	</item>
 	<item id="97756" name="Package: +6 Leather Leggings of Protection (Sealed)" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain +6 Leather Leggings of Protection <font color=ff6666>(unexchangeable)</font>. -->
 		<set name="icon" val="icon.armor_t902_l_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -850,7 +850,7 @@
 		</capsuled_items>
 	</item>
 	<item id="97757" name="Package: +6 Tunic of Protection" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain +6 Tunic of Protection <font color=00FF00>(exchangeable)</font>. -->
 		<set name="icon" val="icon.armor_t903_u_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -865,7 +865,7 @@
 		</capsuled_items>
 	</item>
 	<item id="97758" name="Package: +6 Stockings of Protection" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain +6 Stockings of Protection <font color=00FF00>(exchangeable)</font>. -->
 		<set name="icon" val="icon.armor_t903_l_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -880,7 +880,7 @@
 		</capsuled_items>
 	</item>
 	<item id="97759" name="Package: +6 Tunic of Protection (Sealed)" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain +6 Tunic of Protection <font color=ff6666>(unexchangeable)</font>. -->
 		<set name="icon" val="icon.armor_t903_u_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -895,7 +895,7 @@
 		</capsuled_items>
 	</item>
 	<item id="97760" name="Package: +6 Stockings of Protection (Sealed)" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain +6 Stockings of Protection <font color=ff6666>(unexchangeable)</font>. -->
 		<set name="icon" val="icon.armor_t903_l_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -910,7 +910,7 @@
 		</capsuled_items>
 	</item>
 	<item id="97761" name="Package: +6 Gauntlets of Protection" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain +6 Gauntlets of Protection <font color=00FF00>(exchangeable)</font>. -->
 		<set name="icon" val="icon.armor_t901_g_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -925,7 +925,7 @@
 		</capsuled_items>
 	</item>
 	<item id="97762" name="Package: +6 Gauntlets of Protection (Sealed)" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain +6 Gauntlets of Protection <font color=ff6666>(unexchangeable)</font>. -->
 		<set name="icon" val="icon.armor_t901_g_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -940,7 +940,7 @@
 		</capsuled_items>
 	</item>
 	<item id="97763" name="Package: +6 Helmet of Protection" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain +6 Helmet of Protection <font color=00FF00>(exchangeable)</font>. -->
 		<set name="icon" val="icon.armor_leather_helmet_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -955,7 +955,7 @@
 		</capsuled_items>
 	</item>
 	<item id="97764" name="Package: +6 Helmet of Protection (Sealed)" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain +6 Helmet of Protection <font color=ff6666>(unexchangeable)</font>. -->
 		<set name="icon" val="icon.armor_leather_helmet_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -970,7 +970,7 @@
 		</capsuled_items>
 	</item>
 	<item id="97765" name="Package: +6 Boots of Protection" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain +6 Boots of Protection <font color=00FF00>(exchangeable)</font>. -->
 		<set name="icon" val="icon.armor_t901_b_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -985,7 +985,7 @@
 		</capsuled_items>
 	</item>
 	<item id="97766" name="Package: +6 Boots of Protection (Sealed)" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain +6 Boots of Protection <font color=ff6666>(unexchangeable)</font>. -->
 		<set name="icon" val="icon.armor_t901_b_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -1000,7 +1000,7 @@
 		</capsuled_items>
 	</item>
 	<item id="97767" name="Package: +6 Sigil of Protection" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain +6 Sigil of Protection <font color=00FF00>(exchangeable)</font>. -->
 		<set name="icon" val="icon.sigil_of_protection" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -1015,7 +1015,7 @@
 		</capsuled_items>
 	</item>
 	<item id="97768" name="Package: +6 Sigil of Protection (Sealed)" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain +6 Sigil of Protection <font color=ff6666>(unexchangeable)</font>. -->
 		<set name="icon" val="icon.sigil_of_protection" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -1030,7 +1030,7 @@
 		</capsuled_items>
 	</item>
 	<item id="97769" name="Package: +6 Shield of Protection" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain +6 Shield of Protection <font color=00FF00>(exchangeable)</font>. -->
 		<set name="icon" val="icon.shield_of_protection" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -1045,7 +1045,7 @@
 		</capsuled_items>
 	</item>
 	<item id="97770" name="Package: +6 Shield of Protection (Sealed)" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain +6 Shield of Protection <font color=ff6666>(unexchangeable)</font>. -->
 		<set name="icon" val="icon.shield_of_protection" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -1060,7 +1060,7 @@
 		</capsuled_items>
 	</item>
 	<item id="97771" name="Unidentified Rock" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.destiny_stone" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -1079,7 +1079,7 @@
 		</capsuled_items>
 	</item>
 	<item id="97772" name="Shiny Unidentified Rock" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.destiny_stone" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -1103,7 +1103,7 @@
 		</capsuled_items>
 	</item>
 	<item id="97773" name="Step Up Kit: Agathion Spirit I (Time-limited)" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.bm_starter_package_agathion_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -1118,7 +1118,7 @@
 		</capsuled_items>
 	</item>
 	<item id="97774" name="Step Up Kit: Agathion Spirit II (Time-limited)" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.bm_starter_package_agathion_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -1133,7 +1133,7 @@
 		</capsuled_items>
 	</item>
 	<item id="97775" name="Step Up Kit: Agathion Spirit III (Time-limited)" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.bm_starter_package_agathion_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -1148,7 +1148,7 @@
 		</capsuled_items>
 	</item>
 	<item id="97776" name="Step Up Kit: Agathion Spirit IV (Time-limited)" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.bm_starter_package_agathion_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -1164,7 +1164,7 @@
 		</capsuled_items>
 	</item>
 	<item id="97777" name="Step Up Kit: Agathion Spirit V (Time-limited)" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.bm_starter_package_agathion_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -1180,7 +1180,7 @@
 		</capsuled_items>
 	</item>
 	<item id="97778" name="Agathion Spirit Exchange Coupon Pack (200 pcs.)" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.star_agathion_cube" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -1195,7 +1195,7 @@
 		</capsuled_items>
 	</item>
 	<item id="97779" name="Agathion Spirit Exchange Coupon Pack (500 pcs.)" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.star_agathion_cube_2" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -1210,7 +1210,7 @@
 		</capsuled_items>
 	</item>
 	<item id="97780" name="Agathion Spirit Exchange Coupon Pack (1000 pcs.)" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.bless_star_agathion_upgrade_cube" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -1225,7 +1225,7 @@
 		</capsuled_items>
 	</item>
 	<item id="97781" name="Agathion Spirit Exchange Coupon Pack (10-1000 pcs.) (Time-limited)" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.bm_gold_relic_box" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -1316,6 +1316,7 @@
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_freightable" val="true" />
+		<set name="is_stackable" val="true" />
 	</item>
 	<item id="97789" name="Blessed Augmenting Stone: Special Equipment" type="EtcItem">
 		<!-- A blessed stone. Augments Dragon Belt and Circlet of Hero. Adena required. -->
@@ -1340,7 +1341,7 @@
 		<set name="is_stackable" val="true" />
 	</item>
 	<item id="97791" name="Daily Augmenting Stone Pack" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.renewal_mineral_r" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -1356,7 +1357,7 @@
 			<item id="94210" min="1" max="1" chance="25" /> <!-- Augmenting Stone: Weapon - Sealed -->
 			<item id="94212" min="1" max="1" chance="25" /> <!-- Augmenting Stone: Armor - Sealed -->
 			<item id="94424" min="1" max="1" chance="25" /> <!-- Augmenting Stone: Accessory - Sealed -->
-			<item id="97788" min="1" max="1" chance="25" /> <!-- Special Equipment Augmenting Stone - Sealed -->
+			<item id="97788" min="1" max="1" chance="25" /> <!-- Augmenting Stone: Special Equipment - Sealed -->
 		</capsuled_items>
 	</item>
 	<item id="97792" name="Mark of Challenge (Time-limited)" additionalName="Sealed" type="EtcItem">
@@ -1371,7 +1372,7 @@
 		<set name="is_stackable" val="true" />
 	</item>
 	<item id="97793" name="Challenger's Supplies (Time-limited)" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.etc_golden_spice_comp_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -1389,7 +1390,7 @@
 		</capsuled_items>
 	</item>
 	<item id="97794" name="Pack of Seals (Time-limited)" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.etc_bm_jewelbox_main_i01" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -1466,7 +1467,7 @@
 		</capsuled_items>
 	</item>
 	<item id="97795" name="Package: Hardin's Soul Crystal (100 pcs.)" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.aden_rune_high_i01" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -1481,7 +1482,7 @@
 		</capsuled_items>
 	</item>
 	<item id="97796" name="Package: Circlet of Hero (100 pcs.)" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.accessory_barka_karm_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -1496,7 +1497,7 @@
 		</capsuled_items>
 	</item>
 	<item id="97797" name="Package: Talisman of Authority (100 pcs.)" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.sayhas_talisman_new" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -1511,7 +1512,7 @@
 		</capsuled_items>
 	</item>
 	<item id="97798" name="Package: Talisman of Hellbound Lv. 1" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.hellbound_talisman_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />

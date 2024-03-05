@@ -48,7 +48,7 @@
 	</option>
 	<option id="19804" name="o_f_80_1g_16">
 		<!-- P. Def. +11.77. -->
-		<!-- Max MP +12.9. -->
+		<!-- Max MP +12.9 -->
 		<effects>
 			<effect name="PhysicalDefence">
 				<amount>11.768</amount>
@@ -62,7 +62,7 @@
 	</option>
 	<option id="19805" name="o_f_80_1g_17">
 		<!-- P. Def. +11.77. -->
-		<!-- Max CP +70.88. -->
+		<!-- Max CP +70.88 -->
 		<effects>
 			<effect name="PhysicalDefence">
 				<amount>11.768</amount>
@@ -202,7 +202,7 @@
 	</option>
 	<option id="19815" name="o_f_80_1g_27">
 		<!-- M. Def. +9.29. -->
-		<!-- Max MP +12.9. -->
+		<!-- Max MP +12.9 -->
 		<effects>
 			<effect name="MagicalDefence">
 				<amount>9.286</amount>
@@ -216,7 +216,7 @@
 	</option>
 	<option id="19816" name="o_f_80_1g_28">
 		<!-- M. Def. +9.29. -->
-		<!-- Max CP +70.88. -->
+		<!-- Max CP +70.88 -->
 		<effects>
 			<effect name="MagicalDefence">
 				<amount>9.286</amount>
@@ -342,7 +342,7 @@
 	</option>
 	<option id="19825" name="o_f_80_1g_37">
 		<!-- Max HP +44.3 -->
-		<!-- Max MP +12.9. -->
+		<!-- Max MP +12.9 -->
 		<effects>
 			<effect name="MaxHp">
 				<amount>44.298</amount>
@@ -356,7 +356,7 @@
 	</option>
 	<option id="19826" name="o_f_80_1g_38">
 		<!-- Max HP +44.3 -->
-		<!-- Max CP +70.88. -->
+		<!-- Max CP +70.88 -->
 		<effects>
 			<effect name="MaxHp">
 				<amount>44.298</amount>
@@ -482,7 +482,7 @@
 	</option>
 	<option id="19835" name="o_f_80_1g_47">
 		<!-- Max MP +14.51. -->
-		<!-- Max CP +70.88. -->
+		<!-- Max CP +70.88 -->
 		<effects>
 			<effect name="MaxCp">
 				<amount>70.877</amount>

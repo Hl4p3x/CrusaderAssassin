@@ -40,7 +40,7 @@
 		<set name="is_sellable" val="false" />
 	</item>
 	<item id="72114" name="Christmas Kit" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="BranchSys.Icon.Br_santa_gift_click_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -59,7 +59,7 @@
 		</capsuled_items>
 	</item>
 	<item id="72115" name="Match Girls' Gift (Time-limited)" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.etc_pouch_red_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -89,7 +89,7 @@
 		</capsuled_items>
 	</item>
 	<item id="72179" name="Top-grade A-grade Weapon Pack (Time-limited)" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.etc_treasure_box_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -118,7 +118,7 @@
 		</capsuled_items>
 	</item>
 	<item id="72186" name="Special Kit" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.sayha2017_box_i03" />
 		<set name="default_action" val="SKILL_REDUCE_ON_SKILL_SUCCESS" />
 		<set name="material" val="FISH" />
@@ -129,13 +129,13 @@
 		<set name="handler" val="ExtractableItems" />
 		<capsuled_items>
 			<item id="91690" min="200" max="200" chance="100" /> <!-- Special HP Recovery Potion - Sealed -->
-			<item id="91712" min="20" max="20" chance="100" /> <!-- Sayha's Storm Lv. 3 - Sealed -->
+			<item id="91712" min="20" max="20" chance="100" /> <!-- Sayha's Storm - Sealed -->
 			<item id="94269" min="25" max="25" chance="100" /> <!-- Scroll: Boost Attack - Sealed -->
 			<item id="94271" min="25" max="25" chance="100" /> <!-- Scroll: Boost Defense - Sealed -->
 		</capsuled_items>
 	</item>
 	<item id="72190" name="Lucky Kit" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.bm_goblin_pocket" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -152,7 +152,7 @@
 		</capsuled_items>
 	</item>
 	<item id="72191" name="L-Coins (1000 pcs.)" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.bm_lcoin_box_i00" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="FISH" />
@@ -166,7 +166,7 @@
 		</capsuled_items>
 	</item>
 	<item id="72192" name="L-Coins (8000 pcs.)" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.bm_lcoin_box_i03" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="FISH" />

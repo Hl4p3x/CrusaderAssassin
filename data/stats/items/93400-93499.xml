@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/items.xsd">
 	<item id="93400" name="Package: Deton's Request Lv. 5" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.stage_scroll_pack" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -14,7 +14,7 @@
 		</capsuled_items>
 	</item>
 	<item id="93401" name="Package: Deton's Request Lv. 6" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.stage_scroll_pack" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -27,7 +27,7 @@
 		</capsuled_items>
 	</item>
 	<item id="93402" name="Package: Deton's Request Lv. 7" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.stage_scroll_pack" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -40,7 +40,7 @@
 		</capsuled_items>
 	</item>
 	<item id="93403" name="Package: Deton's Request Lv. 8" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.stage_scroll_pack" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -53,7 +53,7 @@
 		</capsuled_items>
 	</item>
 	<item id="93404" name="Package: Deton's Request Lv. 9" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.stage_scroll_pack" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -66,7 +66,7 @@
 		</capsuled_items>
 	</item>
 	<item id="93405" name="Package: Deton's Request Lv. 10" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.stage_scroll_pack" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -220,7 +220,7 @@
 		<set name="is_stackable" val="true" />
 	</item>
 	<item id="93415" name="Formal Wear" additionalName="Sealed" type="Armor">
-		<!-- Formal Wear appears as a tuxedo for men and a wedding dress for women. -->
+		<!-- A wedding attire that looks like a tuxedo for male characters and a wedding dress for female characters. -->
 		<set name="icon" val="icon.armor_t2000_ul_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="armor_type" val="HEAVY" />
@@ -363,7 +363,7 @@
 		</stats>
 	</item>
 	<item id="93422" name="Damascus Sword" additionalName="Sealed" type="Weapon">
-		<!-- <font color=ff6666><Unavailable to Sylphs/ Vanguard Riders.></font> -->
+		<!-- <font color=ff6666><Unavailable to Sylphs/ Vanguard Riders/ Assassins.></font> -->
 		<set name="icon" val="icon.weapon_sword_of_damascus_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="SWORD" />
@@ -395,7 +395,7 @@
 		</skills>
 	</item>
 	<item id="93423" name="Lance" additionalName="Sealed" type="Weapon">
-		<!-- <font color=ff6666><Unavailable to Sylphs></font> -->
+		<!-- <font color=ff6666><Unavailable to Sylphs/ Assassins.></font> -->
 		<set name="icon" val="icon.weapon_lancia_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="POLE" />
@@ -429,7 +429,7 @@
 		</skills>
 	</item>
 	<item id="93424" name="Deadman's Glory" additionalName="Sealed" type="Weapon">
-		<!-- <font color=ff6666><Unavailable to Sylphs/ Vanguard Riders.></font> -->
+		<!-- <font color=ff6666><Unavailable to Sylphs/ Vanguard Riders/ Assassins.></font> -->
 		<set name="icon" val="icon.weapon_deadmans_glory_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="BLUNT" />
@@ -462,7 +462,7 @@
 		</skills>
 	</item>
 	<item id="93425" name="Art of Battle Axe" additionalName="Sealed" type="Weapon">
-		<!-- <font color=ff6666><Unavailable to Sylphs/ Vanguard Riders.></font> -->
+		<!-- <font color=ff6666><Unavailable to Sylphs/ Vanguard Riders/ Assassins.></font> -->
 		<set name="icon" val="icon.weapon_art_of_battle_axe_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="BLUNT" />
@@ -495,7 +495,7 @@
 		</skills>
 	</item>
 	<item id="93426" name="Staff of Evil Spirits" additionalName="Sealed" type="Weapon">
-		<!-- <font color=ff6666><Unavailable to Sylphs/ Vanguard Riders.></font> -->
+		<!-- <font color=ff6666><Unavailable to Sylphs/ Vanguard Riders/ Assassins.></font> -->
 		<set name="icon" val="icon.weapon_staff_of_evil_sprit_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="BLUNT" />
@@ -562,7 +562,7 @@
 		</skills>
 	</item>
 	<item id="93428" name="Bellion Cestus" additionalName="Sealed" type="Weapon">
-		<!-- <font color=ff6666><Unavailable to Sylphs/ Vanguard Riders.></font> -->
+		<!-- <font color=ff6666><Unavailable to Sylphs/ Vanguard Riders/ Assassins.></font> -->
 		<set name="icon" val="icon.weapon_bellion_cestus_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="DUALFIST" />
@@ -595,7 +595,7 @@
 		</skills>
 	</item>
 	<item id="93429" name="Bow of Peril" additionalName="Sealed" type="Weapon">
-		<!-- <font color=ff6666><Unavailable to Sylphs/ Vanguard Riders.></font> -->
+		<!-- <font color=ff6666><Unavailable to Sylphs/ Vanguard Riders/ Assassins.></font> -->
 		<set name="icon" val="icon.weapon_hazard_bow_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="BOW" />
@@ -629,7 +629,7 @@
 		</skills>
 	</item>
 	<item id="93430" name="Samurai Long Sword*Samurai Long Sword" additionalName="Sealed" type="Weapon">
-		<!-- When enchanting dual swords, two-handed swords/ blunts and fists, the P. Atk. bonus is higher than that of one-handed weapons. <font color=ff6666><Unavailable to Sylphs/ Vanguard Riders.></font> -->
+		<!-- When enchanting dual swords, two-handed swords/ blunts and fists, the P. Atk. bonus is higher than that of one-handed weapons. <font color=ff6666><Unavailable to Sylphs/ Vanguard Riders/ Assassins.></font> -->
 		<set name="icon" val="icon.weapon_dual_sword_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="DUAL" />
@@ -661,7 +661,7 @@
 		</skills>
 	</item>
 	<item id="93431" name="Guardian's Sword" additionalName="Sealed" type="Weapon">
-		<!-- <font color=ff6666><Unavailable to Sylphs/ Vanguard Riders.></font> -->
+		<!-- <font color=ff6666><Unavailable to Sylphs/ Vanguard Riders/ Assassins.></font> -->
 		<set name="icon" val="icon.weapon_guardians_sword_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="SWORD" />
@@ -693,7 +693,7 @@
 		</skills>
 	</item>
 	<item id="93432" name="Wizard's Tear" additionalName="Sealed" type="Weapon">
-		<!-- <font color=ff6666><Unavailable to Sylphs/ Vanguard Riders.></font> -->
+		<!-- <font color=ff6666><Unavailable to Sylphs/ Vanguard Riders/ Assassins.></font> -->
 		<set name="icon" val="icon.weapon_tears_of_wizard_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="SWORD" />
@@ -726,7 +726,7 @@
 		</skills>
 	</item>
 	<item id="93433" name="Star Buster" additionalName="Sealed" type="Weapon">
-		<!-- <font color=ff6666><Unavailable to Sylphs/ Vanguard Riders.></font> -->
+		<!-- <font color=ff6666><Unavailable to Sylphs/ Vanguard Riders/ Assassins.></font> -->
 		<set name="icon" val="icon.weapon_star_buster_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="BLUNT" />
@@ -759,7 +759,7 @@
 		</skills>
 	</item>
 	<item id="93434" name="Dismantler" additionalName="Sealed" type="Weapon">
-		<!-- <font color=ff6666><Unavailable to Humans/ Elves/ Dark Elves/ Sylphs/ Vanguard Riders.></font> -->
+		<!-- <font color=ff6666><Unavailable to Humans/ Elves/ Dark Elves/ Sylphs/ Vanguard Riders/ Assassins.></font> -->
 		<set name="icon" val="icon.weapon_dismantler_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="ANCIENTSWORD" />
@@ -792,7 +792,7 @@
 		</skills>
 	</item>
 	<item id="93435" name="Colichemarde" additionalName="Sealed" type="Weapon">
-		<!-- <font color=ff6666><Unavailable to Orcs/ Sylphs/ Dwarves.></font> -->
+		<!-- <font color=ff6666><Unavailable to Orcs/ Sylphs/ Dwarves/ Assassins.></font> -->
 		<set name="icon" val="icon.weapon_colichemarde_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="RAPIER" />
@@ -824,7 +824,7 @@
 		</skills>
 	</item>
 	<item id="93436" name="+4 ~ +15 Weapon Pack - Samurai Long Sword" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.weapon_samurai_old_longsword_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -852,7 +852,7 @@
 		</capsuled_items>
 	</item>
 	<item id="93437" name="+4 ~ +15 Weapon Pack - Demon's Staff" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.weapon_demons_staff_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -880,7 +880,7 @@
 		</capsuled_items>
 	</item>
 	<item id="93438" name="+4 ~ +15 Weapon Pack - Ecliptic Axe" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.weapon_eclipse_axe_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -908,7 +908,7 @@
 		</capsuled_items>
 	</item>
 	<item id="93439" name="+4 ~ +15 Weapon Pack - Crystal Dagger" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.weapon_crystal_dagger_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -936,7 +936,7 @@
 		</capsuled_items>
 	</item>
 	<item id="93440" name="+4 ~ +15 Weapon Pack - Eminence Bow" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.weapon_eminence_bow_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -964,7 +964,7 @@
 		</capsuled_items>
 	</item>
 	<item id="93441" name="+4 ~ +15 Weapon Pack - Orcish Poleaxe" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.weapon_orcish_poleaxe_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -992,7 +992,7 @@
 		</capsuled_items>
 	</item>
 	<item id="93442" name="+4 ~ +15 Weapon Pack - Katana*Katana" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.weapon_dual_sword_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -1020,7 +1020,7 @@
 		</capsuled_items>
 	</item>
 	<item id="93443" name="+4 ~ +15 Weapon Pack - Yaksa Mace" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.weapon_yaksa_mace_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -1048,7 +1048,7 @@
 		</capsuled_items>
 	</item>
 	<item id="93444" name="+4 ~ +15 Weapon Pack - Berserker Blade" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.weapon_berserker_blade_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -1076,7 +1076,7 @@
 		</capsuled_items>
 	</item>
 	<item id="93445" name="+4 ~ +15 Weapon Pack - Great Pata" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.weapon_great_pata_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -1104,7 +1104,7 @@
 		</capsuled_items>
 	</item>
 	<item id="93446" name="+4 ~ +15 Weapon Pack - Admiral's Estoc" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.weapon_blink_slasher_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -1132,7 +1132,7 @@
 		</capsuled_items>
 	</item>
 	<item id="93447" name="+4 ~ +15 Weapon Pack - Saber Tooth" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.weapon_invincible_blade_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -1160,7 +1160,7 @@
 		</capsuled_items>
 	</item>
 	<item id="93448" name="A-grade Weapon Coupon" additionalName="Sealed" type="EtcItem">
-		<!-- Can be exchanged for an A-grade weapon through the Game Assistant. -->
+		<!-- Can be exchanged for an A-grade weapon through the Game Assistant. <How to use>. Game Assistant - Items -->
 		<set name="icon" val="icon.bm_weapon_ticket_a" />
 		<set name="material" val="LIQUID" />
 		<set name="is_tradable" val="false" />
@@ -1169,7 +1169,7 @@
 		<set name="is_stackable" val="true" />
 	</item>
 	<item id="93449" name="A-grade Armor Coupon" additionalName="Sealed" type="EtcItem">
-		<!-- Can be exchanged for an A-grade armor through the Game Assistant. -->
+		<!-- Can be exchanged for an A-grade armor through the Game Assistant. <How to use>. Game Assistant - Items -->
 		<set name="icon" val="icon.bm_armor_ticket_a" />
 		<set name="material" val="LIQUID" />
 		<set name="is_tradable" val="false" />
@@ -1178,7 +1178,7 @@
 		<set name="is_stackable" val="true" />
 	</item>
 	<item id="93450" name="Golden Pack" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.bm_gold_relic_box" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -1226,7 +1226,7 @@
 		</capsuled_items>
 	</item>
 	<item id="93451" name="Boss' Weapon Pack" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.zariche_box" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -1264,7 +1264,7 @@
 		<set name="is_stackable" val="true" />
 	</item>
 	<item id="93454" name="+14 S-grade Weapon Pack" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.event_hero_treasure_box_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -1293,7 +1293,7 @@
 		</capsuled_items>
 	</item>
 	<item id="93455" name="+10 S-grade Weapon Pack" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.event_hero_treasure_box_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -1322,7 +1322,7 @@
 		</capsuled_items>
 	</item>
 	<item id="93456" name="+16 A-grade Weapon Pack" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.etc_treasure_box_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -1352,7 +1352,7 @@
 		</capsuled_items>
 	</item>
 	<item id="93457" name="+8 Dragon Belt Pack" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.etc_readybox_bronze" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -1382,7 +1382,7 @@
 		</skills>
 	</item>
 	<item id="93459" name="A-grade Armor Pack - Majestic Equipment" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.etc_box_of_adventure_3_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -1410,7 +1410,7 @@
 		</capsuled_items>
 	</item>
 	<item id="93460" name="A-grade Armor Pack - Equipment of Nightmare" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.etc_box_of_adventure_3_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -1438,7 +1438,7 @@
 		</capsuled_items>
 	</item>
 	<item id="93461" name="A-grade Armor Pack - Dark Crystal Equipment" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.etc_box_of_adventure_3_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -1468,7 +1468,7 @@
 		</capsuled_items>
 	</item>
 	<item id="93462" name="A-grade Armor Pack - Tallum Equipment" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.etc_box_of_adventure_3_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -1497,7 +1497,7 @@
 		</capsuled_items>
 	</item>
 	<item id="93463" name="+4 ~ +15 Weapon Pack - Damascus Sword" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.weapon_sword_of_damascus_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -1525,7 +1525,7 @@
 		</capsuled_items>
 	</item>
 	<item id="93464" name="+4 ~ +15 Weapon Pack - Wizard's Tear" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.weapon_tears_of_wizard_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -1553,7 +1553,7 @@
 		</capsuled_items>
 	</item>
 	<item id="93465" name="+4 ~ +15 Weapon Pack - Guardian's Sword" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.weapon_guardians_sword_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -1581,7 +1581,7 @@
 		</capsuled_items>
 	</item>
 	<item id="93466" name="+4 ~ +15 Weapon Pack - Bellion Cestus" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.weapon_bellion_cestus_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -1609,7 +1609,7 @@
 		</capsuled_items>
 	</item>
 	<item id="93467" name="+4 ~ +15 Weapon Pack - Bow of Peril" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.weapon_hazard_bow_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -1637,7 +1637,7 @@
 		</capsuled_items>
 	</item>
 	<item id="93468" name="+4 ~ +15 Weapon Pack - Lance" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.weapon_lancia_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -1665,7 +1665,7 @@
 		</capsuled_items>
 	</item>
 	<item id="93469" name="+4 ~ +15 Weapon Pack - Staff of Evil Spirits" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.weapon_staff_of_evil_sprit_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -1693,7 +1693,7 @@
 		</capsuled_items>
 	</item>
 	<item id="93470" name="+4 ~ +15 Weapon Pack - Deadman's Glory" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.weapon_deadmans_glory_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -1721,7 +1721,7 @@
 		</capsuled_items>
 	</item>
 	<item id="93471" name="+4 ~ +15 Weapon Pack - Art of Battle Axe" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.weapon_art_of_battle_axe_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -1749,7 +1749,7 @@
 		</capsuled_items>
 	</item>
 	<item id="93472" name="+4 ~ +15 Weapon Pack - Samurai Long Sword*Samurai Long Sword" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.weapon_dual_sword_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -1777,7 +1777,7 @@
 		</capsuled_items>
 	</item>
 	<item id="93473" name="+4 ~ +15 Weapon Pack - Demon's Dagger" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.weapon_demons_sword_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -1805,7 +1805,7 @@
 		</capsuled_items>
 	</item>
 	<item id="93474" name="+4 ~ +15 Weapon Pack - Colichemarde" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.weapon_colichemarde_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -1833,7 +1833,7 @@
 		</capsuled_items>
 	</item>
 	<item id="93475" name="+4 ~ +15 Weapon Pack - Dismantler" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.weapon_dismantler_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -1861,7 +1861,7 @@
 		</capsuled_items>
 	</item>
 	<item id="93476" name="+4 ~ +15 Weapon Pack - Star Buster" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.weapon_star_buster_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -1889,7 +1889,7 @@
 		</capsuled_items>
 	</item>
 	<item id="93477" name="L-Coins (3000 pcs.)" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.bm_lcoin_box_i01" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="FISH" />
@@ -1904,7 +1904,7 @@
 		</capsuled_items>
 	</item>
 	<item id="93478" name="Reward Box Lv. 60" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. <font color=ff6666>Note!</font>. Required level: 60+. -->
+		<!-- Double-click to obtain various items. <font color=ff6666>Note!</font>. Required level: 60+. -->
 		<set name="icon" val="icon.bm_2019_cube_lv1" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -1924,7 +1924,7 @@
 		</capsuled_items>
 	</item>
 	<item id="93479" name="Reward Box Lv. 65" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. <font color=ff6666>Note!</font>. Required level: 65+. -->
+		<!-- Double-click to obtain various items. <font color=ff6666>Note!</font>. Required level: 65+. -->
 		<set name="icon" val="icon.bm_2019_cube_lv2" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -1944,7 +1944,7 @@
 		</capsuled_items>
 	</item>
 	<item id="93480" name="Reward Box Lv. 70" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. <font color=ff6666>Note!</font>. Required level: 70+. -->
+		<!-- Double-click to obtain various items. <font color=ff6666>Note!</font>. Required level: 70+. -->
 		<set name="icon" val="icon.bm_2019_cube_lv3" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -1978,7 +1978,7 @@
 		</capsuled_items>
 	</item>
 	<item id="93482" name="L-Coins (5000 pcs.)" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.bm_lcoin_box_i02" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="FISH" />
@@ -1993,7 +1993,7 @@
 		</capsuled_items>
 	</item>
 	<item id="93483" name="Growth Kit: L-Coins" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.npoint_antaras_30day_box" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -2009,7 +2009,7 @@
 		</capsuled_items>
 	</item>
 	<item id="93484" name="L-Coin's Grace Kit" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.npoint_earring_of_lind_30day_box" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -2058,7 +2058,7 @@
 		</skills>
 	</item>
 	<item id="93487" name="Character Creation Kit - Orc Shaman" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.etc_equip_item_box_i01" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -2074,7 +2074,7 @@
 		</capsuled_items>
 	</item>
 	<item id="93488" name="Character Creation Kit - Orc Warrior" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.etc_equip_item_box_i01" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -2090,7 +2090,7 @@
 		</capsuled_items>
 	</item>
 	<item id="93489" name="Character Creation Kit - Dwarf" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.etc_equip_item_box_i01" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -2106,7 +2106,7 @@
 		</capsuled_items>
 	</item>
 	<item id="93490" name="Character Creation Kit - Kamael" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.etc_equip_item_box_i01" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -2123,7 +2123,7 @@
 		</capsuled_items>
 	</item>
 	<item id="93491" name="Character Creation Kit - Fighter" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.etc_equip_item_box_i01" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -2139,7 +2139,7 @@
 		</capsuled_items>
 	</item>
 	<item id="93492" name="Character Creation Kit - Mystic" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.etc_equip_item_box_i01" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -2154,7 +2154,7 @@
 		</capsuled_items>
 	</item>
 	<item id="93493" name="Moon Armor Set" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.etc_treasure_box_i01" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -2173,7 +2173,7 @@
 		</capsuled_items>
 	</item>
 	<item id="93494" name="Moon Shell Set" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.etc_treasure_box_i01" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -2192,7 +2192,7 @@
 		</capsuled_items>
 	</item>
 	<item id="93495" name="Moon Cape Set" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.etc_treasure_box_i01" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -2211,7 +2211,7 @@
 		</capsuled_items>
 	</item>
 	<item id="93496" name="1st Class Change Gift Box" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.etc_pi_gift_box_i01" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -2229,7 +2229,7 @@
 		</capsuled_items>
 	</item>
 	<item id="93497" name="1st Class Transfer Gift Box" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.etc_pi_gift_box_i01" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -2247,7 +2247,7 @@
 		</capsuled_items>
 	</item>
 	<item id="93498" name="Enchanted C-grade Weapon Coupon" additionalName="Sealed" type="EtcItem">
-		<!-- Can be exchanged for a C-grade weapon through the Game Assistant. -->
+		<!-- Can be exchanged for a C-grade weapon through the Game Assistant. <How to use>. Game Assistant - Items -->
 		<set name="icon" val="icon.bm_weapon_ticket_c" />
 		<set name="material" val="LIQUID" />
 		<set name="is_tradable" val="false" />
@@ -2256,7 +2256,7 @@
 		<set name="is_stackable" val="true" />
 	</item>
 	<item id="93499" name="Enchanted B-grade Weapon Coupon" additionalName="Sealed" type="EtcItem">
-		<!-- Can be exchanged for a B-grade weapon through the Game Assistant. -->
+		<!-- Can be exchanged for a B-grade weapon through the Game Assistant. <How to use>. Game Assistant - Items -->
 		<set name="icon" val="icon.bm_weapon_ticket_b" />
 		<set name="material" val="LIQUID" />
 		<set name="is_tradable" val="false" />

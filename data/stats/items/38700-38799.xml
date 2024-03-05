@@ -21,7 +21,7 @@
 		<set name="is_stackable" val="true" />
 	</item>
 	<item id="38753" name="Uldie's Elite Gift" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="BranchSys.icon.br_ghost_magicalbox_i00" />
 		<set name="default_action" val="SKILL_REDUCE_ON_SKILL_SUCCESS" />
 		<set name="material" val="PAPER" />

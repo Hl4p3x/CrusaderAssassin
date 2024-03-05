@@ -505,7 +505,7 @@
 		</skills>
 	</item>
 	<item id="29150" name="Scroll of Escape: Elven Village" additionalName="Not Available" type="EtcItem">
-		<!-- The item is not available. Magic scroll that allows you to teleport to Elven Village. -->
+		<!-- The item is not available. A magic scroll for teleporting to the Elven Village. -->
 		<set name="icon" val="icon.etc_ertheia2" />
 		<set name="default_action" val="SKILL_REDUCE" />
 		<set name="material" val="PAPER" />
@@ -559,7 +559,7 @@
 		</skills>
 	</item>
 	<item id="29153" name="Scroll of Escape: Dwarven Village" additionalName="Not Available" type="EtcItem">
-		<!-- The item is not available. Teleports to the Dwarven Village. -->
+		<!-- The item is not available. A magic scroll for teleporting to the Dwarven Village. -->
 		<set name="icon" val="icon.etc_ertheia2" />
 		<set name="default_action" val="SKILL_REDUCE" />
 		<set name="material" val="PAPER" />
@@ -577,7 +577,7 @@
 		</skills>
 	</item>
 	<item id="29154" name="Scroll of Escape: Gludin Village" additionalName="Not Available" type="EtcItem">
-		<!-- The item is not available. Magic scroll that allows you to teleport to Gludin. -->
+		<!-- The item is not available. A magic scroll for teleporting to Gludin. -->
 		<set name="icon" val="icon.etc_ertheia2" />
 		<set name="default_action" val="SKILL_REDUCE" />
 		<set name="material" val="PAPER" />

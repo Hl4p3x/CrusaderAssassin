@@ -144,7 +144,7 @@
 		</effects>
 	</option>
 	<option id="39040" name="Col_10">
-		<!-- M. Atk. +8. -->
+		<!-- M. Atk. +8 -->
 		<effects>
 			<effect name="MAtk">
 				<amount>8</amount>

@@ -23,7 +23,7 @@
 		</stats>
 	</item>
 	<item id="92301" name="Tallum Helmet (Heavy)" additionalName="Sealed" type="Armor">
-		<!-- <Properties>. CON +1. Overweight limit +1500. M. Def. +10. Max HP +50. P. Atk. +4%. HP Recovery Rate +5.5%. Can't be sealed by a town blacksmith. -->
+		<!-- <Properties>. CON +1. Overweight limit +1500. M. Def. +10. Max HP +50. P. Atk. +4%. HP Recovery Rate +5.5%. Cannot be sealed by a town blacksmith. -->
 		<set name="icon" val="icon.armor_helmet_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="bodypart" val="head" />
@@ -67,7 +67,7 @@
 		</stats>
 	</item>
 	<item id="92303" name="Tallum Helmet (Robe)" additionalName="Sealed" type="Armor">
-		<!-- <Properties>. MEN +1. Overweight limit +1500. M. Def. +10. M. Atk. +8%. MP Recovery Rate +5.5%. M. Def. +8%. Can't be sealed by a town blacksmith. -->
+		<!-- <Properties>. MEN +1. Overweight limit +1500. M. Def. +10. M. Atk. +8%. MP Recovery Rate +5.5%. M. Def. +8%. Cannot be sealed by a town blacksmith. -->
 		<set name="icon" val="icon.armor_helmet_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="bodypart" val="head" />
@@ -89,7 +89,7 @@
 		</stats>
 	</item>
 	<item id="92304" name="Dark Crystal Helmet (Heavy)" additionalName="Sealed" type="Armor">
-		<!-- <Properties>. CON +1. Overweight limit +1500. M. Def. +10. Max HP +100. P. Atk. +4%. HP Recovery Rate +5.5%. Can't be sealed by a town blacksmith. -->
+		<!-- <Properties>. CON +1. Overweight limit +1500. M. Def. +10. Max HP +100. P. Atk. +4%. HP Recovery Rate +5.5%. Cannot be sealed by a town blacksmith. -->
 		<set name="icon" val="icon.armor_helmet_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="bodypart" val="head" />
@@ -111,7 +111,7 @@
 		</stats>
 	</item>
 	<item id="92305" name="Dark Crystal Helmet (Light)" additionalName="Sealed" type="Armor">
-		<!-- <Properties>. CON +1. Overweight limit +1500. M. Def. +10. P. Atk. +4%. MP Recovery Rate +5.5%. P. Critical Damage +30. Can't be sealed by a town blacksmith. -->
+		<!-- <Properties>. CON +1. Overweight limit +1500. M. Def. +10. P. Atk. +4%. MP Recovery Rate +5.5%. P. Critical Damage +30. Cannot be sealed by a town blacksmith. -->
 		<set name="icon" val="icon.armor_helmet_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="bodypart" val="head" />
@@ -133,7 +133,7 @@
 		</stats>
 	</item>
 	<item id="92306" name="Dark Crystal Helmet (Robe)" additionalName="Sealed" type="Armor">
-		<!-- <Properties>. MEN +1. Overweight limit +1500. M. Def. +10. M. Atk. +8%. MP Recovery Rate +5.5%. P. Def. +8%. Can't be sealed by a town blacksmith. -->
+		<!-- <Properties>. MEN +1. Overweight limit +1500. M. Def. +10. M. Atk. +8%. MP Recovery Rate +5.5%. P. Def. +8%. Cannot be sealed by a town blacksmith. -->
 		<set name="icon" val="icon.armor_helmet_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="bodypart" val="head" />
@@ -155,7 +155,7 @@
 		</stats>
 	</item>
 	<item id="92307" name="Helm of Nightmare (Heavy)" additionalName="Sealed" type="Armor">
-		<!-- <Properties>. CON +1. Overweight limit +1500. M. Def. +10. P. Atk. +4%. HP Recovery Rate +8%. Reflects 5% of the received damage. Can't be sealed by a town blacksmith. -->
+		<!-- <Properties>. CON +1. Overweight limit +1500. M. Def. +10. P. Atk. +4%. HP Recovery Rate +8%. Reflects 5% of the received damage. Cannot be sealed by a town blacksmith. -->
 		<set name="icon" val="icon.armor_leather_helmet_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="bodypart" val="head" />
@@ -177,7 +177,7 @@
 		</stats>
 	</item>
 	<item id="92308" name="Helm of Nightmare (Light)" additionalName="Sealed" type="Armor">
-		<!-- <Properties>. CON +1. Overweight limit +1500. M. Def. +10. P. Atk. +4%. MP Recovery Rate +8%. Can't be sealed by a town blacksmith. -->
+		<!-- <Properties>. CON +1. Overweight limit +1500. M. Def. +10. P. Atk. +4%. MP Recovery Rate +8%. Cannot be sealed by a town blacksmith. -->
 		<set name="icon" val="icon.armor_leather_helmet_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="bodypart" val="head" />
@@ -199,7 +199,7 @@
 		</stats>
 	</item>
 	<item id="92309" name="Helm of Nightmare (Robe)" additionalName="Sealed" type="Armor">
-		<!-- <Properties>. MEN +1. Overweight limit +1500. M. Def. +10. M. Atk. +8%. MP Recovery Rate +8%. M. Skill Critical Damage +30. Can't be sealed by a town blacksmith. -->
+		<!-- <Properties>. MEN +1. Overweight limit +1500. M. Def. +10. M. Atk. +8%. MP Recovery Rate +8%. M. Skill Critical Damage +30. Cannot be sealed by a town blacksmith. -->
 		<set name="icon" val="icon.armor_leather_helmet_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="bodypart" val="head" />
@@ -221,7 +221,7 @@
 		</stats>
 	</item>
 	<item id="92310" name="Majestic Circlet (Heavy)" additionalName="Sealed" type="Armor">
-		<!-- <Properties>. CON +1. Overweight limit +1500. M. Def. +10. P. Atk. +4%. HP Recovery Rate +8%. Can't be sealed by a town blacksmith. -->
+		<!-- <Properties>. CON +1. Overweight limit +1500. M. Def. +10. P. Atk. +4%. HP Recovery Rate +8%. Cannot be sealed by a town blacksmith. -->
 		<set name="icon" val="icon.armor_leather_helmet_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="bodypart" val="head" />
@@ -265,7 +265,7 @@
 		</stats>
 	</item>
 	<item id="92312" name="Majestic Circlet (Robe)" additionalName="Sealed" type="Armor">
-		<!-- <Properties>. MEN +1. Overweight limit +1500. M. Def. +10. Max MP +300. M. Atk. +8%. MP Recovery Rate +8%. Can't be sealed by a town blacksmith. -->
+		<!-- <Properties>. MEN +1. Overweight limit +1500. M. Def. +10. Max MP +300. M. Atk. +8%. MP Recovery Rate +8%. Cannot be sealed by a town blacksmith. -->
 		<set name="icon" val="icon.armor_leather_helmet_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="bodypart" val="head" />
@@ -287,7 +287,7 @@
 		</stats>
 	</item>
 	<item id="92313" name="Giran Trophy Chest - Not Available" type="EtcItem" additionalName="Not Available">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.etc_ertheia2" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -299,7 +299,7 @@
 		<set name="is_sellable" val="false" />
 	</item>
 	<item id="92314" name="Giran Seal" type="EtcItem" additionalName="Sealed">
-		<!-- For 20 min., acquired XP/ SP +20%. Can be exchanged for various items through the special craft option. Note!. When used with Einhasad's Blessing Scroll, Einhasad's Protection, Dandy's Home Run Ball, or Dandy's Golden Ball, the most powerful effect is active. -->
+		<!-- <font color=EEAA22>Can be sold for adena.</font>. For 20 min., acquired XP/ SP +20%. Can be exchanged for various items through the special craft option. Note!. When used with Einhasad's Blessing Scroll, Einhasad's Protection, Dandy's Home Run Ball, or Dandy's Golden Ball, the most powerful effect is active. -->
 		<set name="icon" val="icon.etc_royal_seal_of_lord_i04" />
 		<set name="default_action" val="SKILL_REDUCE" />
 		<set name="etcitem_type" val="SCROLL" />
@@ -320,7 +320,7 @@
 		</skills>
 	</item>
 	<item id="92315" name="Luxury Magic Box" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.bm_circlet_upgrade_box" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -338,7 +338,7 @@
 		</capsuled_items>
 	</item>
 	<item id="92316" name="+10 Dragon Belt Pack" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.etc_readybox_bronze" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -476,7 +476,7 @@
 		</stats>
 	</item>
 	<item id="92330" name="Samurai Long Sword" additionalName="Sealed" type="Weapon">
-		<!-- A Samurai Long Sword filled with the energy of gratitude. Cannot be enchanted or augmented. No soul crystal can be inserted. <font color=ff6666><Unavailable to Sylphs/ Vanguard Riders.></font> -->
+		<!-- A Samurai Long Sword filled with the energy of gratitude. Cannot be enchanted or augmented. No soul crystal can be inserted. <font color=ff6666><Unavailable to Sylphs/ Vanguard Riders/ Assassins.></font> -->
 		<set name="icon" val="icon.weapon_samurai_old_longsword_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="SWORD" />
@@ -505,7 +505,7 @@
 		</stats>
 	</item>
 	<item id="92331" name="Ecliptic Axe" additionalName="Sealed" type="Weapon">
-		<!-- An Ecliptic Axe filled with the energy of gratitude. Cannot be enchanted or augmented. No soul crystal can be inserted. <font color=ff6666><Unavailable to Sylphs/ Vanguard Riders.></font> -->
+		<!-- An Ecliptic Axe filled with the energy of gratitude. Cannot be enchanted or augmented. No soul crystal can be inserted. <font color=ff6666><Unavailable to Sylphs/ Vanguard Riders/ Assassins.></font> -->
 		<set name="icon" val="icon.weapon_eclipse_axe_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="BLUNT" />
@@ -536,7 +536,7 @@
 		</stats>
 	</item>
 	<item id="92332" name="Eminence Bow" additionalName="Sealed" type="Weapon">
-		<!-- An Eminence Bow filled with the energy of gratitude. Cannot be enchanted or augmented. No soul crystal can be inserted. <font color=ff6666><Unavailable to Sylphs/ Vanguard Riders.></font> -->
+		<!-- An Eminence Bow filled with the energy of gratitude. Cannot be enchanted or augmented. No soul crystal can be inserted. <font color=ff6666><Unavailable to Sylphs/ Vanguard Riders/ Assassins.></font> -->
 		<set name="icon" val="icon.weapon_eminence_bow_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="BOW" />
@@ -581,7 +581,7 @@
 		<set name="is_infinite" val="true" />
 	</item>
 	<item id="92334" name="Katana*Katana" additionalName="Sealed" type="Weapon">
-		<!-- A Katana*Katana filled with the energy of gratitude. Cannot be enchanted or augmented. No soul crystal can be inserted. <font color=ff6666><Unavailable to Sylphs/ Vanguard Riders.></font> -->
+		<!-- A Katana*Katana filled with the energy of gratitude. Cannot be enchanted or augmented. No soul crystal can be inserted. <font color=ff6666><Unavailable to Sylphs/ Vanguard Riders/ Assassins.></font> -->
 		<set name="icon" val="icon.weapon_dual_sword_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="DUAL" />
@@ -610,7 +610,7 @@
 		</stats>
 	</item>
 	<item id="92335" name="Berserker Blade" additionalName="Sealed" type="Weapon">
-		<!-- A Berserker Blade filled with the energy of gratitude. Cannot be enchanted or augmented. No soul crystal can be inserted. <font color=ff6666><Unavailable to Sylphs/ Vanguard Riders.></font> -->
+		<!-- A Berserker Blade filled with the energy of gratitude. Cannot be enchanted or augmented. No soul crystal can be inserted. <font color=ff6666><Unavailable to Sylphs/ Vanguard Riders/ Assassins.></font> -->
 		<set name="icon" val="icon.weapon_berserker_blade_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="SWORD" />
@@ -669,7 +669,7 @@
 		</stats>
 	</item>
 	<item id="92337" name="Demon's Staff" additionalName="Sealed" type="Weapon">
-		<!-- A Demon's Staff filled with the energy of gratitude. Cannot be enchanted or augmented. No soul crystal can be inserted. <font color=ff6666><Unavailable to Sylphs/ Vanguard Riders.></font> -->
+		<!-- A Demon's Staff filled with the energy of gratitude. Cannot be enchanted or augmented. No soul crystal can be inserted. <font color=ff6666><Unavailable to Sylphs/ Vanguard Riders/ Assassins.></font> -->
 		<set name="icon" val="icon.weapon_demons_staff_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="BLUNT" />
@@ -763,7 +763,7 @@
 		</skills>
 	</item>
 	<item id="92340" name="Yaksa Mace" additionalName="Sealed" type="Weapon">
-		<!-- A Yaksa Mace filled with the energy of gratitude. Cannot be enchanted or augmented. No soul crystal can be inserted. <font color=ff6666><Unavailable to Sylphs/ Vanguard Riders.></font> -->
+		<!-- A Yaksa Mace filled with the energy of gratitude. Cannot be enchanted or augmented. No soul crystal can be inserted. <font color=ff6666><Unavailable to Sylphs/ Vanguard Riders/ Assassins.></font> -->
 		<set name="icon" val="icon.weapon_yaksa_mace_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="BLUNT" />
@@ -793,7 +793,7 @@
 		</stats>
 	</item>
 	<item id="92341" name="Great Pata" additionalName="Sealed" type="Weapon">
-		<!-- A Great Pata filled with the energy of gratitude. Cannot be enchanted or augmented. No soul crystal can be inserted. <font color=ff6666><Unavailable to Sylphs/ Vanguard Riders.></font> -->
+		<!-- A Great Pata filled with the energy of gratitude. Cannot be enchanted or augmented. No soul crystal can be inserted. <font color=ff6666><Unavailable to Sylphs/ Vanguard Riders/ Assassins.></font> -->
 		<set name="icon" val="icon.weapon_great_pata_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="DUALFIST" />
@@ -823,7 +823,7 @@
 		</stats>
 	</item>
 	<item id="92342" name="Saber Tooth" additionalName="Sealed" type="Weapon">
-		<!-- A Saber Tooth filled with the energy of gratitude. Cannot be enchanted or augmented. No soul crystal can be inserted. <font color=ff6666><Unavailable to Humans/ Elves/ Dark Elves/ Sylphs/ Vanguard Riders.></font> -->
+		<!-- A Saber Tooth filled with the energy of gratitude. Cannot be enchanted or augmented. No soul crystal can be inserted. <font color=ff6666><Unavailable to Humans/ Elves/ Dark Elves/ Sylphs/ Vanguard Riders/ Assassins.></font> -->
 		<set name="icon" val="icon.weapon_invincible_blade_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="ANCIENTSWORD" />
@@ -853,7 +853,7 @@
 		</stats>
 	</item>
 	<item id="92343" name="Package: +16 Samurai Long Sword" type="EtcItem" additionalName="Sealed">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.weapon_samurai_old_longsword_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -868,7 +868,7 @@
 		</capsuled_items>
 	</item>
 	<item id="92344" name="Package: +16 Ecliptic Axe" type="EtcItem" additionalName="Sealed">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.weapon_eclipse_axe_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -883,7 +883,7 @@
 		</capsuled_items>
 	</item>
 	<item id="92345" name="Package: +16 Eminence Bow" type="EtcItem" additionalName="Sealed">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.weapon_eminence_bow_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -899,7 +899,7 @@
 		</capsuled_items>
 	</item>
 	<item id="92346" name="Package: +16 Katana*Katana" type="EtcItem" additionalName="Sealed">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.weapon_dual_sword_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -914,7 +914,7 @@
 		</capsuled_items>
 	</item>
 	<item id="92347" name="Package: +16 Berserker Blade" type="EtcItem" additionalName="Sealed">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.weapon_berserker_blade_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -929,7 +929,7 @@
 		</capsuled_items>
 	</item>
 	<item id="92348" name="Package: +16 Admiral's Estoc" type="EtcItem" additionalName="Sealed">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.weapon_rapier_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -944,7 +944,7 @@
 		</capsuled_items>
 	</item>
 	<item id="92349" name="Package: +16 Demon's Staff" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.weapon_demons_staff_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -959,7 +959,7 @@
 		</capsuled_items>
 	</item>
 	<item id="92350" name="Package: +16 Crystal Dagger" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.weapon_crystal_dagger_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -974,7 +974,7 @@
 		</capsuled_items>
 	</item>
 	<item id="92351" name="Package: +16 Orcish Poleaxe" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.weapon_orcish_poleaxe_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -989,7 +989,7 @@
 		</capsuled_items>
 	</item>
 	<item id="92352" name="Package: +16 Yaksa Mace" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.weapon_yaksa_mace_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -1004,7 +1004,7 @@
 		</capsuled_items>
 	</item>
 	<item id="92353" name="Package: +16 Great Pata" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.weapon_great_pata_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -1019,7 +1019,7 @@
 		</capsuled_items>
 	</item>
 	<item id="92354" name="Package: +16 Saber Tooth" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.weapon_invincible_blade_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -1034,7 +1034,7 @@
 		</capsuled_items>
 	</item>
 	<item id="92355" name="Package: +7 Samurai Long Sword" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.weapon_samurai_old_longsword_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -1049,7 +1049,7 @@
 		</capsuled_items>
 	</item>
 	<item id="92356" name="Package: +7 Ecliptic Axe" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.weapon_eclipse_axe_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -1064,7 +1064,7 @@
 		</capsuled_items>
 	</item>
 	<item id="92357" name="Package: +7 Eminence Bow" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.weapon_eminence_bow_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -1080,7 +1080,7 @@
 		</capsuled_items>
 	</item>
 	<item id="92358" name="Package: +7 Katana*Katana" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.weapon_dual_sword_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -1095,7 +1095,7 @@
 		</capsuled_items>
 	</item>
 	<item id="92359" name="Package: +7 Berserker Blade" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.weapon_berserker_blade_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -1110,7 +1110,7 @@
 		</capsuled_items>
 	</item>
 	<item id="92360" name="Package: +7 Admiral's Estoc" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.weapon_rapier_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -1125,7 +1125,7 @@
 		</capsuled_items>
 	</item>
 	<item id="92361" name="Package: +7 Demon's Staff" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.weapon_demons_staff_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -1140,7 +1140,7 @@
 		</capsuled_items>
 	</item>
 	<item id="92362" name="Package: +7 Crystal Dagger" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.weapon_crystal_dagger_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -1155,7 +1155,7 @@
 		</capsuled_items>
 	</item>
 	<item id="92363" name="Package: +7 Orcish Poleaxe" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.weapon_orcish_poleaxe_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -1170,7 +1170,7 @@
 		</capsuled_items>
 	</item>
 	<item id="92364" name="Package: +7 Yaksa Mace" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.weapon_yaksa_mace_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -1185,7 +1185,7 @@
 		</capsuled_items>
 	</item>
 	<item id="92365" name="Package: +7 Great Pata" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.weapon_great_pata_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -1200,7 +1200,7 @@
 		</capsuled_items>
 	</item>
 	<item id="92366" name="Package: +7 Saber Tooth" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.weapon_invincible_blade_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -1297,7 +1297,7 @@
 		</stats>
 	</item>
 	<item id="92372" name="+4 Blue Wolf Heavy Armor Set" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.armor_t68_u_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -1381,7 +1381,7 @@
 		</stats>
 	</item>
 	<item id="92377" name="+4 Blue Wolf Light Armor Set" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.armor_t69_ul_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -1483,7 +1483,7 @@
 		</stats>
 	</item>
 	<item id="92383" name="+4 Blue Wolf Robe Set" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.armor_t70_u_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -1550,7 +1550,7 @@
 		</stats>
 	</item>
 	<item id="92387" name="+4 Black Ore Set" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.accessary_necklace_of_black_ore_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -1567,7 +1567,7 @@
 		</capsuled_items>
 	</item>
 	<item id="92388" name="Ruby Lv. 4" additionalName="Sealed" type="Armor">
-		<!-- Soulshot/ Blessed Soulshot/ Beast Soulshot damage +8%. Effects of two identical jewels do not stack, the higher-level jewel takes precedence. -->
+		<!-- When equipped, Soulshot/ Blessed Soulshot/ Beast Soulshot damage +8%. Effects of two identical jewels do not stack, the higher-level jewel takes precedence. -->
 		<set name="icon" val="icon.etc_bm_jewel_ruby_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="bodypart" val="brooch_jewel" />
@@ -1579,7 +1579,7 @@
 		<set name="is_sellable" val="false" />
 	</item>
 	<item id="92389" name="Sapphire Lv. 4" additionalName="Sealed" type="Armor">
-		<!-- Spiritshot, Blessed Spiritshot and Beast Spiritshot damage +8%. The effect doesn't stack if two identical jewels are equipped, the higher-level jewel takes precedence. -->
+		<!-- When equipped, Spiritshot/ Blessed Spiritshot/ Beast Spiritshot damage +8%. Effects of two identical jewels do not stack, the higher-level jewel takes precedence. -->
 		<set name="icon" val="icon.etc_bm_jewel_sapphire_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="bodypart" val="brooch_jewel" />
@@ -1591,7 +1591,7 @@
 		<set name="is_sellable" val="false" />
 	</item>
 	<item id="92390" name="Diamond Lv. 4" additionalName="Sealed" type="Armor">
-		<!-- P. Def. +81, Received P. Critical Damage -4%. Effects of two identical jewels do not stack, the higher-level jewel takes precedence. -->
+		<!-- When equipped, P. Def. +81, received P. Critical Damage -4%. Effects of two identical jewels do not stack, the higher-level jewel takes precedence. -->
 		<set name="icon" val="icon.etc_bm_jewel_diamond_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="bodypart" val="brooch_jewel" />
@@ -1603,7 +1603,7 @@
 		<set name="is_sellable" val="false" />
 	</item>
 	<item id="92391" name="Pearl Lv. 4" additionalName="Sealed" type="Armor">
-		<!-- M. Def. +46, Received M. Skill Critical Damage -4%. The effect doesn't stack if two identical jewels are equipped, the higher-level jewel takes precedence. -->
+		<!-- When equipped, M. Def. +46, received M. Skill Critical Damage -4%. Effects of two identical jewels do not stack, the higher-level jewel takes precedence. -->
 		<set name="icon" val="icon.etc_bm_jewel_pearl_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="bodypart" val="brooch_jewel" />
@@ -1627,7 +1627,7 @@
 		<set name="is_sellable" val="false" />
 	</item>
 	<item id="92393" name="Sincerely Presented Jewel Box" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.bm_special_jewelbox_lv5" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -1648,7 +1648,7 @@
 		</capsuled_items>
 	</item>
 	<item id="92394" name="Sayha's Grace Kit" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.bm_dragon_present" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -1663,7 +1663,7 @@
 		</skills>
 	</item>
 	<item id="92395" name="Sayha's Lucky Basket" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.etc_candy_basket_i04_1" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -1701,12 +1701,12 @@
 			<item id="91864" min="1" max="1" chance="3.703704" /> <!-- Dragon Belt Pack - Sealed -->
 			<item id="92020" min="1" max="1" chance="3.703704" /> <!-- Enchant Kit: Talisman of Eva - Sealed -->
 			<item id="49674" min="1" max="1" chance="3.703704" /> <!-- XP Growth Scroll - Sealed -->
-			<item id="91712" min="1" max="1" chance="3.703704" /> <!-- Sayha's Storm Lv. 3 - Sealed -->
+			<item id="91712" min="1" max="1" chance="3.703704" /> <!-- Sayha's Storm - Sealed -->
 			<item id="91757" min="1" max="1" chance="3.703704" /> <!-- Magic Lamp Charging Potion - Sealed -->
 		</capsuled_items>
 	</item>
 	<item id="92396" name="Package: Sayha's Blessing (1000 pcs.)" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.event_oriental_park_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -1721,7 +1721,7 @@
 		</capsuled_items>
 	</item>
 	<item id="92397" name="Sayha's Blessing - Lv. 1-75" additionalName="Sealed" type="EtcItem">
-		<!-- Sayha's Grace points +35,000. Reqiured level: 1-75. -->
+		<!-- Sayha's Grace points +35,000. Required level: 1-75. -->
 		<set name="icon" val="icon.etc_wind_potion_i00" />
 		<set name="default_action" val="SKILL_REDUCE" />
 		<set name="material" val="LIQUID" />
@@ -1756,7 +1756,7 @@
 		</skills>
 	</item>
 	<item id="92399" name="Forgotten Primeval Garden's Time Stone" type="EtcItem">
-		<!-- Prolongs your session zone's raid for 60 min. <Hunting zones>. Primeval Garden - World Hunting Zone. Garden of Eva - World Hunting Zone -->
+		<!-- Prolongs your session zone's raid for 60 min. <Hunting zones>. Primeval Garden - World Hunting Zone. Garden of Eva - World Hunting Zone. Garden of Authority - World Hunting Zone -->
 		<set name="icon" val="icon.timezone_refill_3" />
 		<set name="default_action" val="SKILL_REDUCE_ON_SKILL_SUCCESS" />
 		<set name="material" val="LIQUID" />

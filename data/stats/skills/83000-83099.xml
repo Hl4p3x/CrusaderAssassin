@@ -688,7 +688,7 @@
 		<operateType>A1</operateType>
 	</skill>
 	<skill id="83011" toLevel="20" name="Received Skill Critical Rate">
-		<!-- -0,2% -->
+		<!-- -0.2% -->
 		<icon>
 			<value level="1">icon.skill3080</value>
 			<value level="2">icon.skill3080</value>
@@ -714,7 +714,7 @@
 		<operateType>A1</operateType>
 	</skill>
 	<skill id="83012" toLevel="20" name="Soulshot/ Spiritshot damage">
-		<!-- +0,5% -->
+		<!-- +0.5% -->
 		<icon>
 			<value level="1">icon.skill3080</value>
 			<value level="2">icon.skill3080</value>

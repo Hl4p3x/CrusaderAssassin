@@ -119,7 +119,7 @@
 	</option>
 	<option id="7567" name="o_f_55_2g_14">
 		<!-- P. Def. +6.07. -->
-		<!-- M. Def. +4.3. -->
+		<!-- M. Def. +4.3 -->
 		<effects>
 			<effect name="PhysicalDefence">
 				<amount>6.066</amount>

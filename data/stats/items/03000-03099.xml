@@ -688,7 +688,7 @@
 		<set name="is_sellable" val="false" />
 	</item>
 	<item id="3048" name="Spellbook: Reflect Damage" additionalName="Not Available" type="EtcItem">
-		<!-- The item is not available. A spellbook for learning the Reflect Damage skill. Used by Dark Avengers. Required level: 40. -->
+		<!-- The item is not available. A spellbook for learning the Damage Reflection skill. Used by Dark Avengers. Required level: 40. -->
 		<set name="icon" val="icon.etc_ertheia2" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="PAPER" />

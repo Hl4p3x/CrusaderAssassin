@@ -457,7 +457,7 @@
 		</effects>
 	</skill>
 	<skill id="1011" toLevel="18" name="Heal">
-		<!-- Restores the target's HP with 50 Power. -->
+		<!-- Recovers the target's HP with 50 power. -->
 		<icon>icon.skill1011</icon>
 		<castRange>600</castRange>
 		<effectPoint>
@@ -573,14 +573,20 @@
 			</effect>
 		</effects>
 	</skill>
-	<skill id="1012" toLevel="3" name="Cure">
+	<skill id="1012" toLevel="4" name="Cure">
 		<!-- Removes Infection debuffs from the target. -->
-		<icon>icon.skill11772</icon>
-		<castRange>600</castRange>
+		<icon>
+			<value level="1">icon.skill11772</value>
+			<value level="2">icon.skill11772</value>
+			<value level="3">icon.skill11772</value>
+			<value level="4">icon.skill16871</value>
+		</icon>
+		<castRange>700</castRange>
 		<effectPoint>
 			<value level="1">121</value>
 			<value level="2">331</value>
 			<value level="3">566</value>
+			<value level="4">760</value>
 		</effectPoint>
 		<effectRange>1100</effectRange>
 		<hitTime>4000</hitTime>
@@ -589,29 +595,37 @@
 			<value level="1">7</value>
 			<value level="2">35</value>
 			<value level="3">58</value>
+			<value level="4">76</value>
 		</magicLevel>
 		<mpConsume>
 			<value level="1">8</value>
 			<value level="2">24</value>
 			<value level="3">44</value>
+			<value level="4">78</value>
 		</mpConsume>
 		<mpInitialConsume>
 			<value level="1">2</value>
 			<value level="2">6</value>
 			<value level="3">11</value>
+			<value level="4">22</value>
 		</mpInitialConsume>
 		<operateType>A1</operateType>
 		<reuseDelay>4000</reuseDelay>
 		<magicCriticalRate>5</magicCriticalRate>
-		<targetType>SELF</targetType>
+		<targetType>TARGET</targetType>
 		<affectScope>SINGLE</affectScope>
+		<affectObject>FRIEND</affectObject>
 		<effects>
 			<effect name="DispelBySlot">
 				<dispel>
 					<value level="1">POISON,3;BLEEDING,3;DOT_MP,3</value>
-					<value level="2">POISON,7;BLEEDING,7;DOT_MP,7;SPEED_DOWN,7;ATTACK_TIME_UP,7;CASTING_TIME_UP,7</value>
-					<value level="3">POISON,9;BLEEDING,9;DOT_MP,9;SPEED_DOWN,9;ATTACK_TIME_UP,9;CASTING_TIME_UP,9;ROOT_PHYSICALLY,9;ROOT_MAGICALLY,9;SILENCE,9;SILENCE_ALL,9;SILENCE_PHYSICAL,9</value>
+					<value level="2">POISON,7;BLEEDING,7;DOT_MP,7</value>
+					<value level="3">POISON,9;BLEEDING,9;DOT_MP,9;ROOT_PHYSICALLY,9;ROOT_MAGICALLY,9;SILENCE,9;SILENCE_ALL,9;SILENCE_PHYSICAL,9</value>
+					<value level="4">POISON,9;BLEEDING,9;DOT_MP,9;ROOT_PHYSICALLY,9;ROOT_MAGICALLY,9;SILENCE,9;SILENCE_ALL,9;SILENCE_PHYSICAL,9</value>
 				</dispel>
+			</effect>
+			<effect name="Heal" fromLevel="4" toLevel="4">
+				<power>400</power>
 			</effect>
 		</effects>
 	</skill>

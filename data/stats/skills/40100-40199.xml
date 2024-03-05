@@ -81,7 +81,7 @@
 			</effect>
 		</effects>
 	</skill>
-	<skill id="40104" toLevel="1" name="Sayha's Storm Lv. 3 (Event)">
+	<skill id="40104" toLevel="1" name="Sayha's Storm">
 		<!-- For 20 min. while hunting, Sayha's Grace Consumption +100%, acquired XP/ SP +200%. Cooldown: 1 min. The effect remains after death. You can cancel the effect by yourself. -->
 		<icon>icon.bm_sayha_storm</icon>
 		<operateType>A1</operateType>
@@ -326,7 +326,7 @@
 		</effects>
 	</skill>
 	<skill id="40121" toLevel="1" name="High-grade Red Lantern">
-		<!-- <Reward for achieving the 1st place in the Large Magic Lamp event>. XP +1,200,000,000, SP +32,400,000. Can be exchanged by the Game Assistant for the Lit Red Lantern (transferable to other characters on the account). -->
+		<!-- <Reward for achieving the 1st place in the Large Magic Lamp event>. XP +1,200 000,000, SP +3,240,000. Can be exchanged by the Game Assistant for the Lit Red Lantern (transferable to other characters on the account). -->
 		<icon>icon.etc_holy_grail_i00</icon>
 		<operateType>A1</operateType>
 		<itemConsumeCount>1</itemConsumeCount>
@@ -346,7 +346,7 @@
 		</effects>
 	</skill>
 	<skill id="40122" toLevel="1" name="High-grade Purple Lantern">
-		<!-- <Reward for achieving the 2nd place in the Large Magic Lamp event>. XP +360,000,000, SP +9,720,000. Can be exchanged by the Game Assistant for the Lit Purple Lantern (transferable to other characters on the account). -->
+		<!-- <Reward for achieving the 2nd place in the Large Magic Lamp event>. XP +360,000,000, SP +972,000. Can be exchanged by the Game Assistant for the Lit Purple Lantern (transferable to other characters on the account). -->
 		<icon>icon.etc_holy_grail_i01</icon>
 		<operateType>A1</operateType>
 		<itemConsumeCount>1</itemConsumeCount>
@@ -366,7 +366,7 @@
 		</effects>
 	</skill>
 	<skill id="40123" toLevel="1" name="High-grade Blue Lantern">
-		<!-- <Reward for achieving the 3rd place in the Large Magic Lamp event>. XP +120,000,000, SP +3,240,000. Can be exchanged by the Game Assistant for the Lit Blue Lantern (transferable to other characters on the account). -->
+		<!-- <Reward for achieving the 3rd place in the Large Magic Lamp event>. XP +120,000,000, SP +324,000. Can be exchanged by the Game Assistant for the Lit Blue Lantern (transferable to other characters on the account). -->
 		<icon>icon.etc_holy_grail_i02</icon>
 		<operateType>A1</operateType>
 		<itemConsumeCount>1</itemConsumeCount>
@@ -386,7 +386,7 @@
 		</effects>
 	</skill>
 	<skill id="40124" toLevel="1" name="High-grade Green Lantern">
-		<!-- <Reward for achieving the 4th place in the Large Magic Lamp event>. XP +60,000,000, SP +1,620,000. Can be exchanged by the Game Assistant for the Lit Green Lantern (transferable to other characters on the account). -->
+		<!-- <Reward for achieving the 4th place in the Large Magic Lamp event>. XP +60,000,000, SP +162,000. Can be exchanged by the Game Assistant for the Lit Green Lantern (transferable to other characters on the account). -->
 		<icon>icon.etc_holy_grail_i03</icon>
 		<operateType>A1</operateType>
 		<itemConsumeCount>1</itemConsumeCount>
@@ -406,7 +406,7 @@
 		</effects>
 	</skill>
 	<skill id="40125" toLevel="1" name="High-grade Lit Red Lantern">
-		<!-- <Reward for the 1st place in the Big Magic Lamp event>. XP +1,200,000,000, SP +32,400,000. Cannot be transferred to higher-level characters. -->
+		<!-- <Reward for the 1st place in the Big Magic Lamp event>. XP +1,200,000,000, SP +3,240,000. Cannot be transferred to higher-level characters. -->
 		<icon>icon.etc_holy_grail_i00</icon>
 		<operateType>A1</operateType>
 		<itemConsumeCount>1</itemConsumeCount>
@@ -426,7 +426,7 @@
 		</effects>
 	</skill>
 	<skill id="40126" toLevel="1" name="High-grade Lit Purple Lantern">
-		<!-- <Reward for the 2nd place in the Big Magic Lamp event>. XP +360,000,000, SP +9,720,000. Cannot be transferred to higher-level characters. -->
+		<!-- <Reward for the 2nd place in the Big Magic Lamp event>. XP +360,000,000, SP +972,000. Cannot be transferred to higher-level characters. -->
 		<icon>icon.etc_holy_grail_i01</icon>
 		<operateType>A1</operateType>
 		<itemConsumeCount>1</itemConsumeCount>
@@ -446,7 +446,7 @@
 		</effects>
 	</skill>
 	<skill id="40127" toLevel="1" name="High-grade Lit Blue Lantern">
-		<!-- <Reward for the 3rd place in the Big Magic Lamp event>. XP +120,000,000, SP +3,240,000. Cannot be transferred to higher-level characters. -->
+		<!-- <Reward for the 3rd place in the Big Magic Lamp event>. XP +120,000,000, SP +324,000. Cannot be transferred to higher-level characters. -->
 		<icon>icon.etc_holy_grail_i02</icon>
 		<operateType>A1</operateType>
 		<itemConsumeCount>1</itemConsumeCount>
@@ -466,7 +466,7 @@
 		</effects>
 	</skill>
 	<skill id="40128" toLevel="1" name="High-grade Lit Green Lantern">
-		<!-- <Reward for the 4th place in the Big Magic Lamp event>. XP +60,000,000, SP +1,620,000. Cannot be transferred to higher-level characters. -->
+		<!-- <Reward for the 4th place in the Big Magic Lamp event>. XP +60,000,000, SP +162,000. Cannot be transferred to higher-level characters. -->
 		<icon>icon.etc_holy_grail_i03</icon>
 		<operateType>A1</operateType>
 		<itemConsumeCount>1</itemConsumeCount>
@@ -713,7 +713,7 @@
 		<operateType>A1</operateType>
 	</skill>
 	<skill id="40156" toLevel="1" name="Honey Rice Cakes (Event)">
-		<!-- Instantly recovers 200 HP. -->
+		<!-- Momentarily recovers 200 HP. -->
 		<icon>icon.skill0000</icon>
 		<operateType>A1</operateType>
 	</skill>
@@ -777,14 +777,22 @@
 		<hitTime>1500</hitTime>
 		<isMagic>2</isMagic> <!-- Static Skill -->
 		<itemConsumeCount>1</itemConsumeCount>
-		<itemConsumeId>94046</itemConsumeId>
+		<itemConsumeId>
+			<value level="1">94046</value> <!-- Spellbook: Glorious Warrior's Ability (Lv. 1) -->
+			<value level="2">95890</value> <!-- Spellbook: Glorious Warrior's Ability (Lv. 2) -->
+			<value level="3">95891</value> <!-- Spellbook: Glorious Warrior's Ability (Lv. 3) -->
+		</itemConsumeId>
 		<operateType>A1</operateType>
 		<targetType>SELF</targetType>
 		<affectScope>SINGLE</affectScope>
 		<effects>
 			<effect name="SetSkill">
 				<skillId>45361</skillId> <!-- Glorious Warrior's Ability -->
-				<skillLevel>1</skillLevel>
+				<skillLevel>
+					<value level="1">1</value>
+					<value level="2">2</value>
+					<value level="3">3</value>
+				</skillLevel>
 			</effect>
 		</effects>
 	</skill>
@@ -1125,7 +1133,7 @@
 		<icon>icon.etc_ssq_scroll_i00</icon>
 		<operateType>A1</operateType>
 	</skill>
-	<skill id="40192" toLevel="1" name="Scroll: Enchant Death Knight's Flame Sword">
+	<skill id="40192" toLevel="1" name="Scroll: Enchant Special Weapon">
 		<icon>icon.skill0000</icon>
 		<operateType>A1</operateType>
 		<isMagic>2</isMagic> <!-- Static Skill -->

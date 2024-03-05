@@ -46,7 +46,7 @@
 		</stats>
 	</item>
 	<item id="93002" name="Sayha's Blessing Pouch" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.pouch_i01" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -300,7 +300,7 @@
 		</capsuled_items>
 	</item>
 	<item id="93022" name="Package: Queen Ant Doll Lv. 2" additionalName="7-day" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.bm_queen_ant_doll_30d" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -315,7 +315,7 @@
 		</capsuled_items>
 	</item>
 	<item id="93023" name="Package: Baium Doll Lv. 2" additionalName="7-day" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.bm_baium_doll_30d" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -330,7 +330,7 @@
 		</capsuled_items>
 	</item>
 	<item id="93024" name="Package: Orfen Doll Lv. 2" additionalName="7-day" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.bm_orfen_doll_30d" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -345,7 +345,7 @@
 		</capsuled_items>
 	</item>
 	<item id="93025" name="A-grade Weapon Pack" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.weapon_group" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -383,7 +383,7 @@
 		</capsuled_items>
 	</item>
 	<item id="93026" name="A-grade Armor Pack" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.armor_group" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -428,7 +428,7 @@
 		</capsuled_items>
 	</item>
 	<item id="93027" name="PA Treasure Chest" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.bm_dragon_present" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -452,7 +452,7 @@
 		</capsuled_items>
 	</item>
 	<item id="93028" name="Aden's Sword" additionalName="Sealed" type="Weapon">
-		<!-- <font color=ff6666><Unavailable to Sylphs/ Vanguard Riders.></font> -->
+		<!-- <font color=ff6666><Unavailable to Sylphs/ Vanguard Riders/ Assassins.></font> -->
 		<set name="icon" val="icon.weapon_spinebone_sword_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="SWORD" />
@@ -509,7 +509,7 @@
 		</skills>
 	</item>
 	<item id="93030" name="Aden's Bow" additionalName="Sealed" type="Weapon">
-		<!-- <font color=ff6666><Unavailable to Sylphs/ Vanguard Riders.></font> -->
+		<!-- <font color=ff6666><Unavailable to Sylphs/ Vanguard Riders/ Assassins.></font> -->
 		<set name="icon" val="icon.weapon_gastraphetes_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="BOW" />
@@ -540,7 +540,7 @@
 		</skills>
 	</item>
 	<item id="93031" name="Aden's Club" additionalName="Sealed" type="Weapon">
-		<!-- <font color=ff6666><Unavailable to Sylphs/ Vanguard Riders.></font> -->
+		<!-- <font color=ff6666><Unavailable to Sylphs/ Vanguard Riders/ Assassins.></font> -->
 		<set name="icon" val="icon.weapon_war_pick_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="BLUNT" />
@@ -569,7 +569,7 @@
 		</skills>
 	</item>
 	<item id="93032" name="Aden's Two-handed Sword" additionalName="Sealed" type="Weapon">
-		<!-- <font color=ff6666><Unavailable to Sylphs/ Vanguard Riders.></font> -->
+		<!-- <font color=ff6666><Unavailable to Sylphs/ Vanguard Riders/ Assassins.></font> -->
 		<set name="icon" val="icon.weapon_flamberge_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="SWORD" />
@@ -597,7 +597,7 @@
 		</skills>
 	</item>
 	<item id="93033" name="Aden's Two-handed Blunt Weapon" additionalName="Sealed" type="Weapon">
-		<!-- <font color=ff6666><Unavailable to Sylphs/ Vanguard Riders.></font> -->
+		<!-- <font color=ff6666><Unavailable to Sylphs/ Vanguard Riders/ Assassins.></font> -->
 		<set name="icon" val="icon.weapon_ghost_staff_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="BLUNT" />
@@ -627,7 +627,7 @@
 		</skills>
 	</item>
 	<item id="93034" name="Aden's Spear" additionalName="Sealed" type="Weapon">
-		<!-- <font color=ff6666><Unavailable to Sylphs></font> -->
+		<!-- <font color=ff6666><Unavailable to Sylphs/ Assassins.></font> -->
 		<set name="icon" val="icon.weapon_dwarven_trident_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="POLE" />
@@ -657,7 +657,7 @@
 		</skills>
 	</item>
 	<item id="93035" name="Aden's Fists" additionalName="Sealed" type="Weapon">
-		<!-- <font color=ff6666><Unavailable to Sylphs/ Vanguard Riders.></font> -->
+		<!-- <font color=ff6666><Unavailable to Sylphs/ Vanguard Riders/ Assassins.></font> -->
 		<set name="icon" val="icon.weapon_baghnakh_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="DUALFIST" />
@@ -686,7 +686,7 @@
 		</skills>
 	</item>
 	<item id="93036" name="Aden's Rapier" additionalName="Sealed" type="Weapon">
-		<!-- <font color=ff6666><Unavailable to Orcs/ Sylphs/ Dwarves.></font> -->
+		<!-- <font color=ff6666><Unavailable to Orcs/ Sylphs/ Dwarves/ Assassins.></font> -->
 		<set name="icon" val="icon.weapon_soldat_estoc_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="RAPIER" />
@@ -715,7 +715,7 @@
 		</skills>
 	</item>
 	<item id="93037" name="Aden's Ancient Sword" additionalName="Sealed" type="Weapon">
-		<!-- <font color=ff6666><Unavailable to Humans/ Elves/ Dark Elves/ Sylphs/ Vanguard Riders.></font> -->
+		<!-- <font color=ff6666><Unavailable to Humans/ Elves/ Dark Elves/ Sylphs/ Vanguard Riders/ Assassins.></font> -->
 		<set name="icon" val="icon.weapon_schlaeger_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="ANCIENTSWORD" />
@@ -888,7 +888,7 @@
 		</skills>
 	</item>
 	<item id="93047" name="Samurai Long Sword" additionalName="Sealed" type="Weapon">
-		<!-- <font color=ff6666><Unavailable to Sylphs/ Vanguard Riders.></font> -->
+		<!-- <font color=ff6666><Unavailable to Sylphs/ Vanguard Riders/ Assassins.></font> -->
 		<set name="icon" val="icon.weapon_samurai_old_longsword_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="SWORD" />
@@ -917,7 +917,7 @@
 		</stats>
 	</item>
 	<item id="93048" name="Demon's Staff" additionalName="Sealed" type="Weapon">
-		<!-- <font color=ff6666><Unavailable to Sylphs/ Vanguard Riders.></font> -->
+		<!-- <font color=ff6666><Unavailable to Sylphs/ Vanguard Riders/ Assassins.></font> -->
 		<set name="icon" val="icon.weapon_demons_staff_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="BLUNT" />
@@ -948,7 +948,7 @@
 		</stats>
 	</item>
 	<item id="93049" name="Ecliptic Axe" additionalName="Sealed" type="Weapon">
-		<!-- <font color=ff6666><Unavailable to Sylphs/ Vanguard Riders.></font> -->
+		<!-- <font color=ff6666><Unavailable to Sylphs/ Vanguard Riders/ Assassins.></font> -->
 		<set name="icon" val="icon.weapon_eclipse_axe_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="BLUNT" />
@@ -1009,7 +1009,7 @@
 		</stats>
 	</item>
 	<item id="93051" name="Eminence Bow" additionalName="Sealed" type="Weapon">
-		<!-- <font color=ff6666><Unavailable to Sylphs/ Vanguard Riders.></font> -->
+		<!-- <font color=ff6666><Unavailable to Sylphs/ Vanguard Riders/ Assassins.></font> -->
 		<set name="icon" val="icon.weapon_eminence_bow_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="BOW" />
@@ -1040,7 +1040,7 @@
 		</stats>
 	</item>
 	<item id="93052" name="Orcish Poleaxe" additionalName="Sealed" type="Weapon">
-		<!-- <font color=ff6666><Unavailable to Sylphs></font> -->
+		<!-- <font color=ff6666><Unavailable to Sylphs/ Assassins.></font> -->
 		<set name="icon" val="icon.weapon_orcish_poleaxe_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="POLE" />
@@ -1073,7 +1073,7 @@
 		</skills>
 	</item>
 	<item id="93053" name="Katana*Katana" additionalName="Sealed" type="Weapon">
-		<!-- When enchanting dual swords, two-handed swords/ blunts and fists, the P. Atk. bonus is higher than that of one-handed weapons. <font color=ff6666><Unavailable to Sylphs/ Vanguard Riders.></font> -->
+		<!-- When enchanting dual swords, two-handed swords/ blunts and fists, the P. Atk. bonus is higher than that of one-handed weapons. <font color=ff6666><Unavailable to Sylphs/ Vanguard Riders/ Assassins.></font> -->
 		<set name="icon" val="icon.weapon_dual_sword_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="DUAL" />
@@ -1102,7 +1102,7 @@
 		</stats>
 	</item>
 	<item id="93054" name="Yaksa Mace" additionalName="Sealed" type="Weapon">
-		<!-- <font color=ff6666><Unavailable to Sylphs/ Vanguard Riders.></font> -->
+		<!-- <font color=ff6666><Unavailable to Sylphs/ Vanguard Riders/ Assassins.></font> -->
 		<set name="icon" val="icon.weapon_yaksa_mace_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="BLUNT" />
@@ -1132,7 +1132,7 @@
 		</stats>
 	</item>
 	<item id="93055" name="Berserker Blade" additionalName="Sealed" type="Weapon">
-		<!-- <font color=ff6666><Unavailable to Sylphs/ Vanguard Riders.></font> -->
+		<!-- <font color=ff6666><Unavailable to Sylphs/ Vanguard Riders/ Assassins.></font> -->
 		<set name="icon" val="icon.weapon_berserker_blade_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="SWORD" />
@@ -1161,7 +1161,7 @@
 		</stats>
 	</item>
 	<item id="93056" name="Great Pata" additionalName="Sealed" type="Weapon">
-		<!-- <font color=ff6666><Unavailable to Sylphs/ Vanguard Riders.></font> -->
+		<!-- <font color=ff6666><Unavailable to Sylphs/ Vanguard Riders/ Assassins.></font> -->
 		<set name="icon" val="icon.weapon_great_pata_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="DUALFIST" />
@@ -1191,7 +1191,7 @@
 		</stats>
 	</item>
 	<item id="93057" name="Admiral's Estoc" additionalName="Sealed" type="Weapon">
-		<!-- <font color=ff6666><Unavailable to Orcs/ Sylphs/ Dwarves.></font> -->
+		<!-- <font color=ff6666><Unavailable to Orcs/ Sylphs/ Dwarves/ Assassins.></font> -->
 		<set name="icon" val="icon.weapon_blink_slasher_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="RAPIER" />
@@ -1221,7 +1221,7 @@
 		</stats>
 	</item>
 	<item id="93058" name="Saber Tooth" additionalName="Sealed" type="Weapon">
-		<!-- <font color=ff6666><Unavailable to Humans/ Elves/ Dark Elves/ Sylphs/ Vanguard Riders.></font> -->
+		<!-- <font color=ff6666><Unavailable to Humans/ Elves/ Dark Elves/ Sylphs/ Vanguard Riders/ Assassins.></font> -->
 		<set name="icon" val="icon.weapon_invincible_blade_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="ANCIENTSWORD" />
@@ -1309,7 +1309,7 @@
 		</skills>
 	</item>
 	<item id="93063" name="Inventory Expansion Ticket of Glory" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to learn Expand Inventory of Glory. <Classes>. All classes. <Skill effect>. Increases the number of inventory slots. -->
+		<!-- Double-click to learn Expand Inventory of Glory. <Classes>. All. <Skill effect>. Increases the number of inventory slots. -->
 		<set name="icon" val="icon.etc_ticket_i00" />
 		<set name="default_action" val="SKILL_REDUCE" />
 		<set name="material" val="PAPER" />
@@ -1323,7 +1323,7 @@
 		</skills>
 	</item>
 	<item id="93064" name="Weight Limit Ticket of Glory" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to learn Increased Weight Limit of Glory. <Classes>. All classes. <Skill effect>. Increases weight limit. -->
+		<!-- Double-click to learn Increased Weight Limit of Glory. <Classes>. All. <Skill effect>. Increases weight limit. -->
 		<set name="icon" val="icon.etc_ticket_i00" />
 		<set name="default_action" val="SKILL_REDUCE" />
 		<set name="material" val="PAPER" />
@@ -1375,7 +1375,7 @@
 		</skills>
 	</item>
 	<item id="93068" name="Red Lantern - 1st Place" additionalName="Sealed" type="EtcItem">
-		<!-- XP +100,000,000, SP +2,700,000. Cannot be exchanged for the lit lantern. -->
+		<!-- XP +100,000,000, SP +270,000. Cannot be exchanged for the lit lantern. -->
 		<set name="icon" val="icon.r99_soul_stone_i00" />
 		<set name="default_action" val="SKILL_REDUCE" />
 		<set name="material" val="PAPER" />
@@ -1389,7 +1389,7 @@
 		</skills>
 	</item>
 	<item id="93069" name="Purple Lantern - 2nd Place" additionalName="Sealed" type="EtcItem">
-		<!-- XP +30,000,000, SP +810,000. Cannot be exchanged for the lit lantern. -->
+		<!-- XP +30,000,000, SP +81,000. Cannot be exchanged for the lit lantern. -->
 		<set name="icon" val="icon.r99_soul_stone_i05" />
 		<set name="default_action" val="SKILL_REDUCE" />
 		<set name="material" val="PAPER" />
@@ -1403,7 +1403,7 @@
 		</skills>
 	</item>
 	<item id="93070" name="Blue Lantern - 3rd Place" additionalName="Sealed" type="EtcItem">
-		<!-- XP +10,000,000, SP +270,000. Cannot be exchanged for the lit lantern. -->
+		<!-- XP +10,000,000, SP +27,000. Cannot be exchanged for the lit lantern. -->
 		<set name="icon" val="icon.r99_soul_stone_i02" />
 		<set name="default_action" val="SKILL_REDUCE" />
 		<set name="material" val="PAPER" />
@@ -1417,7 +1417,7 @@
 		</skills>
 	</item>
 	<item id="93071" name="Green Lantern - 4th Place" additionalName="Sealed" type="EtcItem">
-		<!-- XP +5,000,000, SP +135,000. Cannot be exchanged for the lit lantern. -->
+		<!-- XP +5,000,000, SP +13,500. Cannot be exchanged for the lit lantern. -->
 		<set name="icon" val="icon.r99_soul_stone_i04" />
 		<set name="default_action" val="SKILL_REDUCE" />
 		<set name="material" val="PAPER" />
@@ -1446,7 +1446,7 @@
 		</skills>
 	</item>
 	<item id="93073" name="Sayha's Storm Lv. 3 (Time-limited)" additionalName="Sealed" type="EtcItem">
-		<!-- Applies a buff when used. <Buff effect>. Sayha's Grace Consumption +100%. Acquired XP +200%. Acquired SP +200%. Duration: 20 min. Cooldown: 1 min. The effect remains after death. <font color=eeaa22>(Requires 35,000+ Sayha's Grace points.)</font> -->
+		<!-- Applies a buff when used. <Buff effect>. Sayha's Grace Consumption +100%. Acquired XP +200%. Acquired SP +200%. Duration: 20 min. Cooldown: 1 min. The effect remains after death. <font color=eeaa22>(Requires 35,000+ Sayha's Grace.)</font> -->
 		<set name="icon" val="icon.bm_sayha_storm" />
 		<set name="default_action" val="SKILL_REDUCE" />
 		<set name="material" val="PAPER" />
@@ -1461,7 +1461,7 @@
 		</skills>
 	</item>
 	<item id="93074" name="Blue Lantern - 3rd Place" additionalName="Sealed" type="EtcItem">
-		<!-- Quest item. XP +10,000,000, SP +270,000. Cannot be exchanged for the lit lantern. -->
+		<!-- Quest item. XP +10,000,000, SP +27,000. Cannot be exchanged for the lit lantern. -->
 		<set name="icon" val="icon.r99_soul_stone_i02" />
 		<set name="default_action" val="SKILL_REDUCE" />
 		<set name="material" val="PAPER" />
@@ -1542,7 +1542,7 @@
 		</skills>
 	</item>
 	<item id="93077" name="Fortune Letter Box" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.bm_gold_relic_box" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -1576,7 +1576,7 @@
 		</capsuled_items>
 	</item>
 	<item id="93078" name="Special Box of Useful Items" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.sayha2017_box_i01" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -1589,7 +1589,7 @@
 		<capsuled_items>
 			<item id="91781" min="2" max="2" chance="100" /> <!-- Old Sayha's Buff Scroll - Sealed -->
 			<item id="91780" min="2" max="2" chance="100" /> <!-- Old Battle Scroll - Sealed -->
-			<item id="91712" min="2" max="2" chance="100" /> <!-- Sayha's Storm Lv. 3 - Sealed -->
+			<item id="91712" min="2" max="2" chance="100" /> <!-- Sayha's Storm - Sealed -->
 			<item id="49674" min="2" max="2" chance="100" /> <!-- XP Growth Scroll - Sealed -->
 			<item id="92990" min="1" max="1" chance="100" /> <!-- Boss' Weapon Pack - Sealed -->
 			<item id="91119" min="1" max="1" chance="100" /> <!-- Ignis' Necklace -->
@@ -1616,7 +1616,7 @@
 		</capsuled_items>
 	</item>
 	<item id="93079" name="Treasure Chest of Glory" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.bm_gold_lure_special_box" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -1659,7 +1659,7 @@
 			<item id="90144" min="2" max="2" chance="2.941176" /> <!-- Transformation Scroll: White Assassin -->
 			<item id="91282" min="2" max="2" chance="2.941176" /> <!-- Mysterious Transformation Box -->
 			<item id="91028" min="2" max="2" chance="2.941176" /> <!-- High-grade Maliss' HP Recovery Potion -->
-			<item id="91713" min="3" max="3" chance="2.941176" /> <!-- Sayha's Storm Lv. 3 -->
+			<item id="91713" min="3" max="3" chance="2.941176" /> <!-- Sayha's Storm -->
 			<item id="13016" min="5" max="5" chance="2.941176" /> <!-- My Teleport Scroll -->
 			<item id="49845" min="3" max="3" chance="2.941176" /> <!-- Sayha's Blessing -->
 		</capsuled_items>
@@ -1885,7 +1885,7 @@
 		<set name="is_freightable" val="true" />
 	</item>
 	<item id="93096" name="Red Libra Coin (Time-limited)" additionalName="Sealed" type="EtcItem">
-		<!-- A coin minted in the Red Libra Guild. <How to use>. Grocer Pink -->
+		<!-- A coin minted in the Red Libra Guild. <How to use>. Grocer Pink. Special craft: Spellbook Coupon - 3 Stars -->
 		<set name="icon" val="icon.etc_coins_gold_i00" />
 		<set name="material" val="LIQUID" />
 		<set name="is_tradable" val="false" />

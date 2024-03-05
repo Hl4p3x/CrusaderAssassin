@@ -6,7 +6,7 @@
 		<isMagic>4</isMagic>
 		<reuseDelay>5000</reuseDelay>
 	</skill>
-	<skill id="55901" toLevel="2" name="Cooking Ingredient">
+	<skill id="55901" toLevel="2" name="Cooking Ingredients">
 		<icon>
 			<value level="1">icon.skill11775</value>
 			<value level="2">icon.skill0000</value>

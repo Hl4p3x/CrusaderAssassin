@@ -53,7 +53,7 @@
 		<operateType>A1</operateType>
 	</skill>
 	<skill id="48010" toLevel="20" name="Received Basic Critical Damage Decrease">
-		<!-- Received basic Critical Damage -1000 -->
+		<!-- Received basic Critical Damage -500 -->
 		<icon>icon.skill0000</icon>
 		<operateType>A1</operateType>
 	</skill>
@@ -117,7 +117,7 @@
 		<hitTime>1000</hitTime>
 		<effectPoint>100</effectPoint>
 	</skill>
-	<skill id="48018" toLevel="1" name="Sayha's Grace Regeneration">
+	<skill id="48018" toLevel="2" name="Sayha's Grace Regeneration">
 		<icon>icon.skill0000</icon>
 		<operateType>A1</operateType>
 		<isMagic>4</isMagic>
@@ -214,7 +214,7 @@
 		<hitTime>500</hitTime>
 	</skill>
 	<skill id="48030" toLevel="2" name="Raid Reward - Wild Magic">
-		<!-- M. Skill Critical Rate +20 for +60 min. -->
+		<!-- For 60 min., M. Skill Critical Rate +20. -->
 		<icon>icon.skill1303</icon>
 		<operateType>A2</operateType>
 		<isMagic>1</isMagic> <!-- Magic Skill -->
@@ -222,7 +222,7 @@
 		<hitTime>500</hitTime>
 	</skill>
 	<skill id="48031" toLevel="2" name="Raid Reward - Acumen">
-		<!-- Casting Spd. +30% for 60 min. -->
+		<!-- For 60 min., Casting Spd. +30%. -->
 		<icon>icon.skill1085</icon>
 		<operateType>A2</operateType>
 		<isMagic>1</isMagic> <!-- Magic Skill -->
@@ -388,11 +388,11 @@
 		<operateType>A1</operateType>
 	</skill>
 	<skill id="48053" toLevel="1" name="PA Battle Buff">
-		<!-- Max CP +1000 for 60 min. -->
+		<!-- For 60 min., Max CP +1000. -->
 		<icon>icon.soul_spirit2</icon>
 		<operateType>A1</operateType>
 	</skill>
-	<skill id="48054" toLevel="1" name="Burning">
+	<skill id="48054" toLevel="3" name="Burning">
 		<!-- For 30 sec., acquired XP/ SP +50%, when attacking a special monster. -->
 		<icon>icon.skill3238</icon>
 		<operateType>A2</operateType>
@@ -404,10 +404,21 @@
 		<affectScope>SINGLE</affectScope>
 		<effects>
 			<effect name="ExpModify">
-				<amount>50</amount>
+				<amount>
+					<value level="1">50</value>
+					<value level="2">50</value>
+					<value level="3">100</value>
+				</amount>
 			</effect>
 			<effect name="SpModify">
-				<amount>50</amount>
+				<amount>
+					<value level="1">50</value>
+					<value level="2">50</value>
+					<value level="3">100</value>
+				</amount>
+			</effect>
+			<effect name="MpVampiricAttack" fromLevel="3" toLevel="3">
+				<amount>3</amount>
 			</effect>
 		</effects>
 	</skill>
@@ -593,17 +604,17 @@
 		<operateType>A1</operateType>
 	</skill>
 	<skill id="48067" toLevel="1" name="Fortress Battle - Theor's Range Attack Type 1">
-		<!-- AoE P. Atk. On nearby enemies. -->
+		<!-- An AoE physical attack on all nearby enemies. -->
 		<icon>icon.skill0036</icon>
 		<operateType>A1</operateType>
 	</skill>
 	<skill id="48068" toLevel="1" name="Fortress Battle - Theor's Range Attack Type 2">
-		<!-- AoE P. Atk. On nearby enemies. -->
+		<!-- An AoE physical attack on all nearby enemies. -->
 		<icon>icon.skill0036</icon>
 		<operateType>A1</operateType>
 	</skill>
 	<skill id="48069" toLevel="1" name="Fortress Battle - Theor's Range Attack Type 3">
-		<!-- AoE P. Atk. On nearby enemies. -->
+		<!-- An AoE physical attack on all nearby enemies. -->
 		<icon>icon.skill0036</icon>
 		<operateType>A1</operateType>
 	</skill>
@@ -755,12 +766,12 @@
 		<operateType>A1</operateType>
 	</skill>
 	<skill id="48086" toLevel="1" name="Dimensional Door A">
-		<!-- Summons a dimensional door that moves the PC to the Dimensional Door B. -->
+		<!-- Summons a dimensional door that teleports to the Dimensional Door B. -->
 		<icon>Icon.skill1050</icon>
 		<operateType>A1</operateType>
 	</skill>
 	<skill id="48087" toLevel="1" name="Dimensional Door B">
-		<!-- Summons a dimensional door that moves the PC to the Dimensional Door A. -->
+		<!-- Summons a dimensional door that teleports to the Dimensional Door A. -->
 		<icon>Icon.skill1050</icon>
 		<operateType>A1</operateType>
 	</skill>

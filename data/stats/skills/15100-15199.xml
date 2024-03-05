@@ -282,8 +282,8 @@
 		<affectScope>SINGLE</affectScope>
 		<affectObject>FRIEND</affectObject>
 	</skill>
-	<skill id="15155" toLevel="1" name="Petrified">
-		<!-- Petrified -->
+	<skill id="15155" toLevel="1" name="Petrification">
+		<!-- Petrification -->
 		<icon>icon.skill1540</icon>
 		<operateType>A2</operateType>
 		<hitTime>500</hitTime>
@@ -513,7 +513,7 @@
 		<hitCancelTime>0</hitCancelTime>
 		<effectRange>3000</effectRange>
 		<magicLevel>99</magicLevel>
-		<channelingSkillId>15177</channelingSkillId> <!-- Petra Injection - Enhance P. Def. -->
+		<channelingSkillId>15177</channelingSkillId> <!-- Petra Injection - P. Def. Boost -->
 		<channelingStart>1.2</channelingStart>
 		<channelingTickInterval>2</channelingTickInterval>
 		<isMagic>2</isMagic>

@@ -280,7 +280,7 @@
 			<skill id="4045" level="1" /> <!-- Full Magic Attack Resistance -->
 		</skillList>
 	</npc>
-	<npc id="34108" level="75" type="Folk" name="Newbie Helper" title="Tutorial Indicator">
+	<npc id="34108" level="75" type="Folk" name="Newbie Helper" title="Tutorial">
 		<race>KAMAEL</race>
 		<sex>FEMALE</sex>
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
@@ -313,7 +313,7 @@
 			<skill id="4045" level="1" /> <!-- Full Magic Attack Resistance -->
 		</skillList>
 	</npc>
-	<npc id="34109" level="75" type="Folk" name="Ragnir" title="Elder">
+	<npc id="34109" level="75" type="Folk" name="Ragnir" title="Hierarch">
 		<!-- AUTO GENERATED NPC TODO: FIX IT -->
 		<race>KAMAEL</race>
 		<sex>MALE</sex>
@@ -347,7 +347,7 @@
 			<skill id="4045" level="1" /> <!-- Full Magic Attack Resistance -->
 		</skillList>
 	</npc>
-	<npc id="34110" level="75" type="Folk" name="Newbie Guide">
+	<npc id="34110" level="75" type="Folk" name="Krenir" title="Vice Hierarch">
 		<!-- AUTO GENERATED NPC TODO: FIX IT -->
 		<race>KAMAEL</race>
 		<sex>FEMALE</sex>
@@ -1921,7 +1921,7 @@
 			<skill id="4045" level="1" /> <!-- Full Magic Attack Resistance -->
 		</skillList>
 	</npc>
-	<npc id="34156" level="75" type="Monster" name="Clan Stronghold Device" usingServerSideTitle="true">
+	<npc id="34156" level="75" type="Monster" name="Clan Stronghold Device">
 		<!-- AUTO GENERATED NPC TODO: FIX IT -->
 		<race>CONSTRUCT</race>
 		<sex>MALE</sex>
@@ -2226,7 +2226,7 @@
 			<skill id="4045" level="1" /> <!-- Full Magic Attack Resistance -->
 		</skillList>
 	</npc>
-	<npc id="34166" level="75" type="Folk" name="Sweetie Snow" title="Quiz Event OX">
+	<npc id="34166" level="75" type="Folk" name="Sweetie Sno" title="Quiz Event OX">
 		<!-- AUTO GENERATED NPC TODO: FIX IT -->
 		<race>ELEMENTAL</race>
 		<sex>FEMALE</sex>
@@ -3032,7 +3032,7 @@
 			<skill id="4045" level="1" /> <!-- Full Magic Attack Resistance -->
 		</skillList>
 	</npc>
-	<npc id="34190" level="70" type="Folk" name="Elite Wizard">
+	<npc id="34190" level="70" type="Folk" name="Elite Mage">
 		<race>HUMAN</race>
 		<sex>FEMALE</sex>
 		<acquire exp="35866" sp="5207" attributeExp="1204" />
@@ -3068,7 +3068,7 @@
 			<skill id="4045" level="1" /> <!-- Full Magic Attack Resistance -->
 		</skillList>
 	</npc>
-	<npc id="34191" level="70" type="Folk" name="Elite Wizard">
+	<npc id="34191" level="70" type="Folk" name="Elite Mage">
 		<race>HUMAN</race>
 		<sex>FEMALE</sex>
 		<acquire exp="35866" sp="5207" attributeExp="1204" />
@@ -3236,7 +3236,7 @@
 			<height normal="23.5" />
 		</collision>
 	</npc>
-	<npc id="34197" level="85" type="Folk" name="Elite Wizard">
+	<npc id="34197" level="85" type="Folk" name="Elite Mage">
 		<race>ETC</race>
 		<sex>FEMALE</sex>
 		<acquire exp="35866" sp="5207" attributeExp="1204" />
@@ -3255,7 +3255,7 @@
 			<height normal="23" />
 		</collision>
 	</npc>
-	<npc id="34198" level="85" type="Folk" name="Elite Wizard">
+	<npc id="34198" level="85" type="Folk" name="Elite Mage">
 		<race>ETC</race>
 		<sex>FEMALE</sex>
 		<acquire exp="35866" sp="5207" attributeExp="1204" />
@@ -3274,7 +3274,7 @@
 			<height normal="22.2" />
 		</collision>
 	</npc>
-	<npc id="34199" level="85" type="Folk" name="Elite Wizard">
+	<npc id="34199" level="85" type="Folk" name="Elite Mage">
 		<race>ETC</race>
 		<sex>FEMALE</sex>
 		<acquire exp="35866" sp="5207" attributeExp="1204" />

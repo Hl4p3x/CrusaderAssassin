@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/items.xsd">
 	<item id="97600" name="Beryl Jewelry Box Lv. 3" additionalName="Sealed" type="EtcItem">
-		<!-- Can be compounded with a Jewelry Box of the same level and a jewel. Double-click to get more information about the contents. -->
+		<!-- <font color=bbaa88><Compound></font>. Materials: identical Jewels and Jewelry Boxes. In case of failure, the current level remains the same, but materials disappear. Double-click to obtain various items. -->
 		<set name="icon" val="icon.etc_bm_jewelbox_beryl_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -16,7 +16,7 @@
 		</capsuled_items>
 	</item>
 	<item id="97601" name="Beryl Jewelry Box Lv. 4" additionalName="Sealed" type="EtcItem">
-		<!-- Can be compounded with a Jewelry Box of the same level and a jewel. Double-click to get more information about the contents. -->
+		<!-- <font color=bbaa88><Compound></font>. Materials: identical Jewels and Jewelry Boxes. In case of failure, the current level remains the same, but materials disappear. Double-click to obtain various items. -->
 		<set name="icon" val="icon.etc_bm_jewelbox_beryl_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -31,7 +31,7 @@
 		</capsuled_items>
 	</item>
 	<item id="97602" name="Beryl Jewelry Box Lv. 5" additionalName="Sealed" type="EtcItem">
-		<!-- Can be compounded with a Jewelry Box of the same level and a jewel. Double-click to get more information about the contents. -->
+		<!-- <font color=bbaa88><Compound></font>. Materials: identical Jewels and Jewelry Boxes. In case of failure, the current level remains the same, but materials disappear. Double-click to obtain various items. -->
 		<set name="icon" val="icon.etc_bm_jewelbox_beryl_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -46,7 +46,7 @@
 		</capsuled_items>
 	</item>
 	<item id="97603" name="Onyx Jewelry Box Lv. 1" additionalName="Sealed" type="EtcItem">
-		<!-- Can be compounded with a Jewelry Box of the same level and a jewel. Double-click to get more information about the contents. -->
+		<!-- <font color=bbaa88><Compound></font>. Materials: identical Jewels and Jewelry Boxes. In case of failure, the current level remains the same, but materials disappear. Double-click to obtain various items. -->
 		<set name="icon" val="icon.etc_bm_jewelbox_onyx_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -61,7 +61,7 @@
 		</capsuled_items>
 	</item>
 	<item id="97604" name="Onyx Jewelry Box Lv. 2" additionalName="Sealed" type="EtcItem">
-		<!-- Can be compounded with a Jewelry Box of the same level and a jewel. Double-click to get more information about the contents. -->
+		<!-- <font color=bbaa88><Compound></font>. Materials: identical Jewels and Jewelry Boxes. In case of failure, the current level remains the same, but materials disappear. Double-click to obtain various items. -->
 		<set name="icon" val="icon.etc_bm_jewelbox_onyx_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -76,7 +76,7 @@
 		</capsuled_items>
 	</item>
 	<item id="97605" name="Onyx Jewelry Box Lv. 3" additionalName="Sealed" type="EtcItem">
-		<!-- Can be compounded with a Jewelry Box of the same level and a jewel. Double-click to get more information about the contents. -->
+		<!-- <font color=bbaa88><Compound></font>. Materials: identical Jewels and Jewelry Boxes. In case of failure, the current level remains the same, but materials disappear. Double-click to obtain various items. -->
 		<set name="icon" val="icon.etc_bm_jewelbox_onyx_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -91,7 +91,7 @@
 		</capsuled_items>
 	</item>
 	<item id="97606" name="Onyx Jewelry Box Lv. 4" additionalName="Sealed" type="EtcItem">
-		<!-- Can be compounded with a Jewelry Box of the same level and a jewel. Double-click to get more information about the contents. -->
+		<!-- <font color=bbaa88><Compound></font>. Materials: identical Jewels and Jewelry Boxes. In case of failure, the current level remains the same, but materials disappear. Double-click to obtain various items. -->
 		<set name="icon" val="icon.etc_bm_jewelbox_onyx_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -106,7 +106,7 @@
 		</capsuled_items>
 	</item>
 	<item id="97607" name="Onyx Jewelry Box Lv. 5" additionalName="Sealed" type="EtcItem">
-		<!-- Can be compounded with a Jewelry Box of the same level and a jewel. Double-click to get more information about the contents. -->
+		<!-- <font color=bbaa88><Compound></font>. Materials: identical Jewels and Jewelry Boxes. In case of failure, the current level remains the same, but materials disappear. Double-click to obtain various items. -->
 		<set name="icon" val="icon.etc_bm_jewelbox_onyx_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -121,7 +121,7 @@
 		</capsuled_items>
 	</item>
 	<item id="97608" name="Spinel Jewelry Box Lv. 1" additionalName="Sealed" type="EtcItem">
-		<!-- Can be compounded with a Jewelry Box of the same level and a jewel. Double-click to get more information about the contents. -->
+		<!-- <font color=bbaa88><Compound></font>. Materials: identical Jewels and Jewelry Boxes. In case of failure, the current level remains the same, but materials disappear. Double-click to obtain various items. -->
 		<set name="icon" val="icon.etc_bm_jewelbox_garnet_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -136,7 +136,7 @@
 		</capsuled_items>
 	</item>
 	<item id="97609" name="Spinel Jewelry Box Lv. 2" additionalName="Sealed" type="EtcItem">
-		<!-- Can be compounded with a Jewelry Box of the same level and a jewel. Double-click to get more information about the contents. -->
+		<!-- <font color=bbaa88><Compound></font>. Materials: identical Jewels and Jewelry Boxes. In case of failure, the current level remains the same, but materials disappear. Double-click to obtain various items. -->
 		<set name="icon" val="icon.etc_bm_jewelbox_garnet_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -151,7 +151,7 @@
 		</capsuled_items>
 	</item>
 	<item id="97610" name="Spinel Jewelry Box Lv. 3" additionalName="Sealed" type="EtcItem">
-		<!-- Can be compounded with a Jewelry Box of the same level and a jewel. Double-click to get more information about the contents. -->
+		<!-- <font color=bbaa88><Compound></font>. Materials: identical Jewels and Jewelry Boxes. In case of failure, the current level remains the same, but materials disappear. Double-click to obtain various items. -->
 		<set name="icon" val="icon.etc_bm_jewelbox_garnet_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -166,7 +166,7 @@
 		</capsuled_items>
 	</item>
 	<item id="97611" name="Spinel Jewelry Box Lv. 4" additionalName="Sealed" type="EtcItem">
-		<!-- Can be compounded with a Jewelry Box of the same level and a jewel. Double-click to get more information about the contents. -->
+		<!-- <font color=bbaa88><Compound></font>. Materials: identical Jewels and Jewelry Boxes. In case of failure, the current level remains the same, but materials disappear. Double-click to obtain various items. -->
 		<set name="icon" val="icon.etc_bm_jewelbox_garnet_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -181,7 +181,7 @@
 		</capsuled_items>
 	</item>
 	<item id="97612" name="Spinel Jewelry Box Lv. 5" additionalName="Sealed" type="EtcItem">
-		<!-- Can be compounded with a Jewelry Box of the same level and a jewel. Double-click to get more information about the contents. -->
+		<!-- <font color=bbaa88><Compound></font>. Materials: identical Jewels and Jewelry Boxes. In case of failure, the current level remains the same, but materials disappear. Double-click to obtain various items. -->
 		<set name="icon" val="icon.etc_bm_jewelbox_garnet_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -196,7 +196,7 @@
 		</capsuled_items>
 	</item>
 	<item id="97613" name="Zircon Jewelry Box Lv. 1" additionalName="Sealed" type="EtcItem">
-		<!-- Can be compounded with a Jewelry Box of the same level and a jewel. Double-click to get more information about the contents. -->
+		<!-- <font color=bbaa88><Compound></font>. Materials: identical Jewels and Jewelry Boxes. In case of failure, the current level remains the same, but materials disappear. Double-click to obtain various items. -->
 		<set name="icon" val="icon.etc_bm_jewelbox_bloodstone_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -211,7 +211,7 @@
 		</capsuled_items>
 	</item>
 	<item id="97614" name="Zircon Jewelry Box Lv. 2" additionalName="Sealed" type="EtcItem">
-		<!-- Can be compounded with a Jewelry Box of the same level and a jewel. Double-click to get more information about the contents. -->
+		<!-- <font color=bbaa88><Compound></font>. Materials: identical Jewels and Jewelry Boxes. In case of failure, the current level remains the same, but materials disappear. Double-click to obtain various items. -->
 		<set name="icon" val="icon.etc_bm_jewelbox_bloodstone_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -226,7 +226,7 @@
 		</capsuled_items>
 	</item>
 	<item id="97615" name="Zircon Jewelry Box Lv. 3" additionalName="Sealed" type="EtcItem">
-		<!-- Can be compounded with a Jewelry Box of the same level and a jewel. Double-click to get more information about the contents. -->
+		<!-- <font color=bbaa88><Compound></font>. Materials: identical Jewels and Jewelry Boxes. In case of failure, the current level remains the same, but materials disappear. Double-click to obtain various items. -->
 		<set name="icon" val="icon.etc_bm_jewelbox_bloodstone_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -241,7 +241,7 @@
 		</capsuled_items>
 	</item>
 	<item id="97616" name="Zircon Jewelry Box Lv. 4" additionalName="Sealed" type="EtcItem">
-		<!-- Can be compounded with a Jewelry Box of the same level and a jewel. Double-click to get more information about the contents. -->
+		<!-- <font color=bbaa88><Compound></font>. Materials: identical Jewels and Jewelry Boxes. In case of failure, the current level remains the same, but materials disappear. Double-click to obtain various items. -->
 		<set name="icon" val="icon.etc_bm_jewelbox_bloodstone_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -256,7 +256,7 @@
 		</capsuled_items>
 	</item>
 	<item id="97617" name="Zircon Jewelry Box Lv. 5" additionalName="Sealed" type="EtcItem">
-		<!-- Can be compounded with a Jewelry Box of the same level and a jewel. Double-click to get more information about the contents. -->
+		<!-- <font color=bbaa88><Compound></font>. Materials: identical Jewels and Jewelry Boxes. In case of failure, the current level remains the same, but materials disappear. Double-click to obtain various items. -->
 		<set name="icon" val="icon.etc_bm_jewelbox_bloodstone_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -271,7 +271,7 @@
 		</capsuled_items>
 	</item>
 	<item id="97618" name="Coral Jewelry Box Lv. 1" additionalName="Sealed" type="EtcItem">
-		<!-- Can be compounded with a Jewelry Box of the same level and a jewel. Double-click to get more information about the contents. -->
+		<!-- <font color=bbaa88><Compound></font>. Materials: identical Jewels and Jewelry Boxes. In case of failure, the current level remains the same, but materials disappear. Double-click to obtain various items. -->
 		<set name="icon" val="icon.etc_bm_jewelbox_coral_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -286,7 +286,7 @@
 		</capsuled_items>
 	</item>
 	<item id="97619" name="Coral Jewelry Box Lv. 2" additionalName="Sealed" type="EtcItem">
-		<!-- Can be compounded with a Jewelry Box of the same level and a jewel. Double-click to get more information about the contents. -->
+		<!-- <font color=bbaa88><Compound></font>. Materials: identical Jewels and Jewelry Boxes. In case of failure, the current level remains the same, but materials disappear. Double-click to obtain various items. -->
 		<set name="icon" val="icon.etc_bm_jewelbox_coral_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -301,7 +301,7 @@
 		</capsuled_items>
 	</item>
 	<item id="97620" name="Coral Jewelry Box Lv. 3" additionalName="Sealed" type="EtcItem">
-		<!-- Can be compounded with a Jewelry Box of the same level and a jewel. Double-click to get more information about the contents. -->
+		<!-- <font color=bbaa88><Compound></font>. Materials: identical Jewels and Jewelry Boxes. In case of failure, the current level remains the same, but materials disappear. Double-click to obtain various items. -->
 		<set name="icon" val="icon.etc_bm_jewelbox_coral_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -316,7 +316,7 @@
 		</capsuled_items>
 	</item>
 	<item id="97621" name="Coral Jewelry Box Lv. 4" additionalName="Sealed" type="EtcItem">
-		<!-- Can be compounded with a Jewelry Box of the same level and a jewel. Double-click to get more information about the contents. -->
+		<!-- <font color=bbaa88><Compound></font>. Materials: identical Jewels and Jewelry Boxes. In case of failure, the current level remains the same, but materials disappear. Double-click to obtain various items. -->
 		<set name="icon" val="icon.etc_bm_jewelbox_coral_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -331,7 +331,7 @@
 		</capsuled_items>
 	</item>
 	<item id="97622" name="Coral Jewelry Box Lv. 5" additionalName="Sealed" type="EtcItem">
-		<!-- Can be compounded with a Jewelry Box of the same level and a jewel. Double-click to get more information about the contents. -->
+		<!-- <font color=bbaa88><Compound></font>. Materials: identical Jewels and Jewelry Boxes. In case of failure, the current level remains the same, but materials disappear. Double-click to obtain various items. -->
 		<set name="icon" val="icon.etc_bm_jewelbox_coral_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -346,7 +346,7 @@
 		</capsuled_items>
 	</item>
 	<item id="97623" name="Opal Jewelry Box Lv. 1" additionalName="Sealed" type="EtcItem">
-		<!-- Can be compounded with a Jewelry Box of the same level and a jewel. Double-click to get more information about the contents. -->
+		<!-- <font color=bbaa88><Compound></font>. Materials: identical Jewels and Jewelry Boxes. In case of failure, the current level remains the same, but materials disappear. Double-click to obtain various items. -->
 		<set name="icon" val="icon.etc_bm_jewelbox_opal_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -361,7 +361,7 @@
 		</capsuled_items>
 	</item>
 	<item id="97624" name="Opal Jewelry Box Lv. 2" additionalName="Sealed" type="EtcItem">
-		<!-- Can be compounded with a Jewelry Box of the same level and a jewel. Double-click to get more information about the contents. -->
+		<!-- <font color=bbaa88><Compound></font>. Materials: identical Jewels and Jewelry Boxes. In case of failure, the current level remains the same, but materials disappear. Double-click to obtain various items. -->
 		<set name="icon" val="icon.etc_bm_jewelbox_opal_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -376,7 +376,7 @@
 		</capsuled_items>
 	</item>
 	<item id="97625" name="Opal Jewelry Box Lv. 3" additionalName="Sealed" type="EtcItem">
-		<!-- Can be compounded with a Jewelry Box of the same level and a jewel. Double-click to get more information about the contents. -->
+		<!-- <font color=bbaa88><Compound></font>. Materials: identical Jewels and Jewelry Boxes. In case of failure, the current level remains the same, but materials disappear. Double-click to obtain various items. -->
 		<set name="icon" val="icon.etc_bm_jewelbox_opal_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -391,7 +391,7 @@
 		</capsuled_items>
 	</item>
 	<item id="97626" name="Opal Jewelry Box Lv. 4" additionalName="Sealed" type="EtcItem">
-		<!-- Can be compounded with a Jewelry Box of the same level and a jewel. Double-click to get more information about the contents. -->
+		<!-- <font color=bbaa88><Compound></font>. Materials: identical Jewels and Jewelry Boxes. In case of failure, the current level remains the same, but materials disappear. Double-click to obtain various items. -->
 		<set name="icon" val="icon.etc_bm_jewelbox_opal_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -406,7 +406,7 @@
 		</capsuled_items>
 	</item>
 	<item id="97627" name="Opal Jewelry Box Lv. 5" additionalName="Sealed" type="EtcItem">
-		<!-- Can be compounded with a Jewelry Box of the same level and a jewel. Double-click to get more information about the contents. -->
+		<!-- <font color=bbaa88><Compound></font>. Materials: identical Jewels and Jewelry Boxes. In case of failure, the current level remains the same, but materials disappear. Double-click to obtain various items. -->
 		<set name="icon" val="icon.etc_bm_jewelbox_opal_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -421,7 +421,7 @@
 		</capsuled_items>
 	</item>
 	<item id="97628" name="Amber Jewelry Box Lv. 1" additionalName="Sealed" type="EtcItem">
-		<!-- Can be compounded with a Jewelry Box of the same level and a jewel. Double-click to get more information about the contents. -->
+		<!-- <font color=bbaa88><Compound></font>. Materials: identical Jewels and Jewelry Boxes. In case of failure, the current level remains the same, but materials disappear. Double-click to obtain various items. -->
 		<set name="icon" val="icon.etc_bm_jewelbox_amber_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -436,7 +436,7 @@
 		</capsuled_items>
 	</item>
 	<item id="97629" name="Amber Jewelry Box Lv. 2" additionalName="Sealed" type="EtcItem">
-		<!-- Can be compounded with a Jewelry Box of the same level and a jewel. Double-click to get more information about the contents. -->
+		<!-- <font color=bbaa88><Compound></font>. Materials: identical Jewels and Jewelry Boxes. In case of failure, the current level remains the same, but materials disappear. Double-click to obtain various items. -->
 		<set name="icon" val="icon.etc_bm_jewelbox_amber_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -451,7 +451,7 @@
 		</capsuled_items>
 	</item>
 	<item id="97630" name="Amber Jewelry Box Lv. 3" additionalName="Sealed" type="EtcItem">
-		<!-- Can be compounded with a Jewelry Box of the same level and a jewel. Double-click to get more information about the contents. -->
+		<!-- <font color=bbaa88><Compound></font>. Materials: identical Jewels and Jewelry Boxes. In case of failure, the current level remains the same, but materials disappear. Double-click to obtain various items. -->
 		<set name="icon" val="icon.etc_bm_jewelbox_amber_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -466,7 +466,7 @@
 		</capsuled_items>
 	</item>
 	<item id="97631" name="Amber Jewelry Box Lv. 4" additionalName="Sealed" type="EtcItem">
-		<!-- Can be compounded with a Jewelry Box of the same level and a jewel. Double-click to get more information about the contents. -->
+		<!-- <font color=bbaa88><Compound></font>. Materials: identical Jewels and Jewelry Boxes. In case of failure, the current level remains the same, but materials disappear. Double-click to obtain various items. -->
 		<set name="icon" val="icon.etc_bm_jewelbox_amber_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -481,7 +481,7 @@
 		</capsuled_items>
 	</item>
 	<item id="97632" name="Amber Jewelry Box Lv. 5" additionalName="Sealed" type="EtcItem">
-		<!-- Can be compounded with a Jewelry Box of the same level and a jewel. Double-click to get more information about the contents. -->
+		<!-- <font color=bbaa88><Compound></font>. Materials: identical Jewels and Jewelry Boxes. In case of failure, the current level remains the same, but materials disappear. Double-click to obtain various items. -->
 		<set name="icon" val="icon.etc_bm_jewelbox_amber_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -496,7 +496,7 @@
 		</capsuled_items>
 	</item>
 	<item id="97633" name="Moonstone Jewelry Box Lv. 1" additionalName="Sealed" type="EtcItem">
-		<!-- Can be compounded with a Jewelry Box of the same level and a jewel. Double-click to get more information about the contents. -->
+		<!-- <font color=bbaa88><Compound></font>. Materials: identical Jewels and Jewelry Boxes. In case of failure, the current level remains the same, but materials disappear. Double-click to obtain various items. -->
 		<set name="icon" val="icon.etc_bm_jewelbox_moonstone_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -511,7 +511,7 @@
 		</capsuled_items>
 	</item>
 	<item id="97634" name="Moonstone Jewelry Box Lv. 2" additionalName="Sealed" type="EtcItem">
-		<!-- Can be compounded with a Jewelry Box of the same level and a jewel. Double-click to get more information about the contents. -->
+		<!-- <font color=bbaa88><Compound></font>. Materials: identical Jewels and Jewelry Boxes. In case of failure, the current level remains the same, but materials disappear. Double-click to obtain various items. -->
 		<set name="icon" val="icon.etc_bm_jewelbox_moonstone_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -526,7 +526,7 @@
 		</capsuled_items>
 	</item>
 	<item id="97635" name="Moonstone Jewelry Box Lv. 3" additionalName="Sealed" type="EtcItem">
-		<!-- Can be compounded with a Jewelry Box of the same level and a jewel. Double-click to get more information about the contents. -->
+		<!-- <font color=bbaa88><Compound></font>. Materials: identical Jewels and Jewelry Boxes. In case of failure, the current level remains the same, but materials disappear. Double-click to obtain various items. -->
 		<set name="icon" val="icon.etc_bm_jewelbox_moonstone_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -541,7 +541,7 @@
 		</capsuled_items>
 	</item>
 	<item id="97636" name="Moonstone Jewelry Box Lv. 4" additionalName="Sealed" type="EtcItem">
-		<!-- Can be compounded with a Jewelry Box of the same level and a jewel. Double-click to get more information about the contents. -->
+		<!-- <font color=bbaa88><Compound></font>. Materials: identical Jewels and Jewelry Boxes. In case of failure, the current level remains the same, but materials disappear. Double-click to obtain various items. -->
 		<set name="icon" val="icon.etc_bm_jewelbox_moonstone_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -556,7 +556,7 @@
 		</capsuled_items>
 	</item>
 	<item id="97637" name="Moonstone Jewelry Box Lv. 5" additionalName="Sealed" type="EtcItem">
-		<!-- Can be compounded with a Jewelry Box of the same level and a jewel. Double-click to get more information about the contents. -->
+		<!-- <font color=bbaa88><Compound></font>. Materials: identical Jewels and Jewelry Boxes. In case of failure, the current level remains the same, but materials disappear. Double-click to obtain various items. -->
 		<set name="icon" val="icon.etc_bm_jewelbox_moonstone_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -571,7 +571,7 @@
 		</capsuled_items>
 	</item>
 	<item id="97638" name="Daily Kit: Jewel Craft" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.etc_bm_jewelbox_shhadai" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -607,7 +607,7 @@
 		<set name="is_stackable" val="true" />
 	</item>
 	<item id="97641" name="Package: Secret Shop Coin (100 pcs.) (Time-limited)" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.etc_11th_token" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -622,7 +622,7 @@
 		</capsuled_items>
 	</item>
 	<item id="97642" name="Package: Secret Shop Coin (200 pcs.) (Time-limited)" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.etc_11th_token" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -637,7 +637,7 @@
 		</capsuled_items>
 	</item>
 	<item id="97643" name="Package: Secret Shop Coin (300 pcs.) (Time-limited)" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.etc_11th_token" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -652,7 +652,7 @@
 		</capsuled_items>
 	</item>
 	<item id="97644" name="Package: Secret Shop Coin (500 pcs.) (Time-limited)" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.etc_11th_token" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -667,7 +667,7 @@
 		</capsuled_items>
 	</item>
 	<item id="97645" name="Package: Secret Shop Coin (1000 pcs.) (Time-limited)" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.etc_11th_token" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -682,7 +682,7 @@
 		</capsuled_items>
 	</item>
 	<item id="97646" name="Package: Clan Cloak" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.alliance_cloak_pvp04" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -697,7 +697,7 @@
 		</capsuled_items>
 	</item>
 	<item id="97647" name="Package: Clan Circlet" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.accessory_flame_circlet_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -712,7 +712,7 @@
 		</capsuled_items>
 	</item>
 	<item id="97648" name="Pack of Seals (Time-limited)" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.etc_bm_jewelbox_main_i01" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -785,7 +785,7 @@
 		</capsuled_items>
 	</item>
 	<item id="97649" name="Package: Dragon Belt (100 pcs.)" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.etc_readybox_bronze" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -800,7 +800,7 @@
 		</capsuled_items>
 	</item>
 	<item id="97650" name="Package: Piercing Mask (100 pcs.)" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.etc_readybox_silver" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -815,7 +815,7 @@
 		</capsuled_items>
 	</item>
 	<item id="97651" name="Package: Einhasad's Pendant Lv. 1 (100 pcs.)" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="Icon.bm_pendant_pve_white_pack" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -830,7 +830,7 @@
 		</capsuled_items>
 	</item>
 	<item id="97652" name="Master's Book Chest" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.sayha2017_box_i04" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -858,7 +858,7 @@
 		</capsuled_items>
 	</item>
 	<item id="97653" name="Collector's Weapon I" additionalName="Sealed" type="Weapon">
-		<!-- Can be used to replace some items in collections. Replaces C-grade ~ No-grade items in Attack/ Defense/ Support/ Utility sections. <font color=EEAA22>Use Scroll: Enchant C-grade Weapon to enhance it.</font> -->
+		<!-- Can be used to replace some items in the following collections. Replaces no-grade and C/ D-grade items in Attack/ Defense/ Support/ Utility sections of some collections. <font color=EEAA22>Use Scroll: Enchant C-grade Weapon to enhance it.</font> -->
 		<set name="icon" val="icon.weapon_pasis_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="SWORD" />
@@ -883,7 +883,7 @@
 		</stats>
 	</item>
 	<item id="97654" name="Collector's Armor I" additionalName="Sealed" type="Armor">
-		<!-- Can be used to replace some items in collections. Replaces C-grade ~ No-grade items in Attack/ Defense/ Support/ Utility sections. <font color=EEAA22>Use Scroll: Enchant C-grade Armor to enhance it.</font> -->
+		<!-- Can be used to replace some items in the following collections. Replaces no-grade and C/ D-grade items in Attack/ Defense/ Support/ Utility sections of some collections. <font color=EEAA22>Use Scroll: Enchant C-grade Armor to enhance it.</font> -->
 		<set name="icon" val="icon.pirate_crew_change" />
 		<set name="default_action" val="EQUIP" />
 		<set name="armor_type" val="HEAVY" />
@@ -899,7 +899,7 @@
 		<set name="enchant_enabled" val="true" />
 	</item>
 	<item id="97655" name="Package: +4 ~ +12 Collector's Weapon I" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.weapon_pasis_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -913,19 +913,19 @@
 		<set name="extractableCountMin" val="1" />
 		<set name="extractableCountMax" val="1" />
 		<capsuled_items>
-			<item id="97653" min="1" max="1" minEnchant="4" maxEnchant="4" chance="54" /> <!-- Collector's Weapon I - Sealed -->
-			<item id="97653" min="1" max="1" minEnchant="5" maxEnchant="5" chance="15" /> <!-- Collector's Weapon I - Sealed -->
-			<item id="97653" min="1" max="1" minEnchant="6" maxEnchant="6" chance="10" /> <!-- Collector's Weapon I - Sealed -->
-			<item id="97653" min="1" max="1" minEnchant="7" maxEnchant="7" chance="6" /> <!-- Collector's Weapon I - Sealed -->
-			<item id="97653" min="1" max="1" minEnchant="8" maxEnchant="8" chance="5" /> <!-- Collector's Weapon I - Sealed -->
-			<item id="97653" min="1" max="1" minEnchant="9" maxEnchant="9" chance="4" /> <!-- Collector's Weapon I - Sealed -->
-			<item id="97653" min="1" max="1" minEnchant="10" maxEnchant="10" chance="3" /> <!-- Collector's Weapon I - Sealed -->
-			<item id="97653" min="1" max="1" minEnchant="11" maxEnchant="11" chance="2" /> <!-- Collector's Weapon I - Sealed -->
-			<item id="97653" min="1" max="1" minEnchant="12" maxEnchant="12" chance="1" /> <!-- Collector's Weapon I - Sealed -->
+			<item id="97653" min="1" max="1" minEnchant="4" maxEnchant="4" chance="54" /> <!-- Collector's Weapon C - Sealed -->
+			<item id="97653" min="1" max="1" minEnchant="5" maxEnchant="5" chance="15" /> <!-- Collector's Weapon C - Sealed -->
+			<item id="97653" min="1" max="1" minEnchant="6" maxEnchant="6" chance="10" /> <!-- Collector's Weapon C - Sealed -->
+			<item id="97653" min="1" max="1" minEnchant="7" maxEnchant="7" chance="6" /> <!-- Collector's Weapon C - Sealed -->
+			<item id="97653" min="1" max="1" minEnchant="8" maxEnchant="8" chance="5" /> <!-- Collector's Weapon C - Sealed -->
+			<item id="97653" min="1" max="1" minEnchant="9" maxEnchant="9" chance="4" /> <!-- Collector's Weapon C - Sealed -->
+			<item id="97653" min="1" max="1" minEnchant="10" maxEnchant="10" chance="3" /> <!-- Collector's Weapon C - Sealed -->
+			<item id="97653" min="1" max="1" minEnchant="11" maxEnchant="11" chance="2" /> <!-- Collector's Weapon C - Sealed -->
+			<item id="97653" min="1" max="1" minEnchant="12" maxEnchant="12" chance="1" /> <!-- Collector's Weapon C - Sealed -->
 		</capsuled_items>
 	</item>
 	<item id="97656" name="Package: +4 ~ +8 Collector's Armor I" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.pirate_crew_change" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -939,15 +939,15 @@
 		<set name="extractableCountMin" val="1" />
 		<set name="extractableCountMax" val="1" />
 		<capsuled_items>
-			<item id="97654" min="1" max="1" minEnchant="4" maxEnchant="4" chance="64" /> <!-- Collector's Armor I - Sealed -->
-			<item id="97654" min="1" max="1" minEnchant="5" maxEnchant="5" chance="12" /> <!-- Collector's Armor I - Sealed -->
-			<item id="97654" min="1" max="1" minEnchant="6" maxEnchant="6" chance="7" /> <!-- Collector's Armor I - Sealed -->
-			<item id="97654" min="1" max="1" minEnchant="7" maxEnchant="7" chance="5" /> <!-- Collector's Armor I - Sealed -->
-			<item id="97654" min="1" max="1" minEnchant="8" maxEnchant="8" chance="3" /> <!-- Collector's Armor I - Sealed -->
+			<item id="97654" min="1" max="1" minEnchant="4" maxEnchant="4" chance="64" /> <!-- Collector's Armor C - Sealed -->
+			<item id="97654" min="1" max="1" minEnchant="5" maxEnchant="5" chance="12" /> <!-- Collector's Armor C - Sealed -->
+			<item id="97654" min="1" max="1" minEnchant="6" maxEnchant="6" chance="7" /> <!-- Collector's Armor C - Sealed -->
+			<item id="97654" min="1" max="1" minEnchant="7" maxEnchant="7" chance="5" /> <!-- Collector's Armor C - Sealed -->
+			<item id="97654" min="1" max="1" minEnchant="8" maxEnchant="8" chance="3" /> <!-- Collector's Armor C - Sealed -->
 		</capsuled_items>
 	</item>
 	<item id="97657" name="Step Up Kit: Ancient Adena I (Time-limited)" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.bm_pendant_pvp_box" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -964,7 +964,7 @@
 		</capsuled_items>
 	</item>
 	<item id="97658" name="Step Up Kit: Ancient Adena II (Time-limited)" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.bm_pendant_pve_box" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -981,7 +981,7 @@
 		</capsuled_items>
 	</item>
 	<item id="97659" name="Step Up Kit: Ancient Adena III (Time-limited)" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.bm_special_jewelbox_lv5" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -1008,8 +1008,8 @@
 		<set name="is_sellable" val="false" />
 	</item>
 	<item id="97661" name="+5 Boss' Weapon Coupon (Time-limited)" additionalName="Sealed" type="EtcItem">
-		<!-- Can be exchanged for sealed +5 Boss' Weapon through Game Assistant in the Event section. -->
-		<set name="icon" val="icon.wepon_trade_ticket_i00" />
+		<!-- Double-click to choose 1 Boss weapon enchanted to +5 <font color=ff6666>(unexchangeable)</font>. -->
+		<set name="icon" val="icon.boss_weapon_ticket_i00" />
 		<set name="default_action" val="NONE" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="LIQUID" />
@@ -1018,8 +1018,8 @@
 		<set name="is_sellable" val="false" />
 	</item>
 	<item id="97662" name="Boss' Weapon Coupon (Time-limited)" additionalName="Sealed" type="EtcItem">
-		<!-- Can be exchanged for sealed Boss' Weapon through Game Assistant in the Event section. -->
-		<set name="icon" val="icon.wepon_trade_ticket_i00" />
+		<!-- Double-click to choose 1 Boss Weapon <font color=ff6666>(unexchangeable)</font>. -->
+		<set name="icon" val="icon.boss_weapon_ticket_i00" />
 		<set name="default_action" val="NONE" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="LIQUID" />
@@ -1028,7 +1028,7 @@
 		<set name="is_sellable" val="false" />
 	</item>
 	<item id="97663" name="Improved/ Cursed Scroll: Enchant Weapon Pack (Time-limited)" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.event_hero_treasure_box_silver" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -1046,7 +1046,7 @@
 		</capsuled_items>
 	</item>
 	<item id="97664" name="Package: +5 Frost Lord's Sword (Sealed)" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.frozen_weapon_sword" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -1061,7 +1061,7 @@
 		</capsuled_items>
 	</item>
 	<item id="97665" name="Package: +5 Frost Lord's Two-handed Sword (Sealed)" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.frozen_weapon_two_hand_sword" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -1076,7 +1076,7 @@
 		</capsuled_items>
 	</item>
 	<item id="97666" name="Package: +5 Frost Lord's Axe (Sealed)" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.frozen_weapon_blunt" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -1091,7 +1091,7 @@
 		</capsuled_items>
 	</item>
 	<item id="97667" name="Package: +5 Frost Lord's Dagger (Sealed)" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.frozen_weapon_dagger" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -1106,7 +1106,7 @@
 		</capsuled_items>
 	</item>
 	<item id="97668" name="Package: +5 Frost Lord's Spear (Sealed)" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.frozen_weapon_pole" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -1121,7 +1121,7 @@
 		</capsuled_items>
 	</item>
 	<item id="97669" name="Package: +5 Frost Lord's Bow (Sealed)" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.frozen_weapon_bow" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -1136,7 +1136,7 @@
 		</capsuled_items>
 	</item>
 	<item id="97670" name="Package: +5 Frost Lord's Blade Fists (Sealed)" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.frozen_weapon_dualfist" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -1151,7 +1151,7 @@
 		</capsuled_items>
 	</item>
 	<item id="97671" name="Package: +5 Frost Lord's Magic Blunt Weapon (Sealed)" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.frozen_weapon_staff" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -1166,7 +1166,7 @@
 		</capsuled_items>
 	</item>
 	<item id="97672" name="Package: +5 Frost Lord's Staff (Sealed)" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.frozen_weapon_two_hand_staff" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -1181,7 +1181,7 @@
 		</capsuled_items>
 	</item>
 	<item id="97673" name="Package: +5 Frost Lord's Ancient Sword (Sealed)" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.frozen_weapon_ancientsword" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -1196,7 +1196,7 @@
 		</capsuled_items>
 	</item>
 	<item id="97674" name="Package: +5 Frost Lord's Rapier (Sealed)" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.frozen_weapon_rapier" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -1211,7 +1211,7 @@
 		</capsuled_items>
 	</item>
 	<item id="97675" name="Package: +5 Frost Lord's Pistols (Sealed)" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.frozen_weapon_shooter" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -1226,7 +1226,7 @@
 		</capsuled_items>
 	</item>
 	<item id="97676" name="Package: +5 Frost Lord's Dual Swords (Sealed)" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.frozen_weapon_dual_sword" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -1241,7 +1241,7 @@
 		</capsuled_items>
 	</item>
 	<item id="97677" name="Package: +5 Zaken's Blood Sword (Sealed)" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain Zaken's Blood Sword enchanted to +5 <font color=ff6666>(unexchangeable)</font>. -->
 		<set name="icon" val="icon.special_weapon_onehandsword" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -1256,7 +1256,7 @@
 		</capsuled_items>
 	</item>
 	<item id="97678" name="Package: +5 Core's Plasmic Bow (Sealed)" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain Core's Plasmic Bow enchanted to +5 <font color=ff6666>(unexchangeable)</font>. -->
 		<set name="icon" val="icon.weapon_karupis_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -1271,7 +1271,7 @@
 		</capsuled_items>
 	</item>
 	<item id="97679" name="Package: +5 Queen Ant's Stone Breaker (Sealed)" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain Queen Ant's Stone Breaker enchanted to +5 <font color=ff6666>(unexchangeable)</font>. -->
 		<set name="icon" val="icon.special_weapon_onehandblunt" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -1286,7 +1286,7 @@
 		</capsuled_items>
 	</item>
 	<item id="97680" name="Package: +5 Orfen's Venom Sword (Sealed)" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain Orfen's Venom Sword enchanted to +5 <font color=ff6666>(unexchangeable)</font>. -->
 		<set name="icon" val="icon.weapon_the_two_handed_sword_of_hero_i01" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -1301,7 +1301,7 @@
 		</capsuled_items>
 	</item>
 	<item id="97681" name="Package: +5 Baium's Thunder Breaker (Sealed)" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain Baium's Thunder Breaker enchanted to +5 <font color=ff6666>(unexchangeable)</font>. -->
 		<set name="icon" val="icon.weapon_terakan_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -1316,7 +1316,7 @@
 		</capsuled_items>
 	</item>
 	<item id="97682" name="Package: +5 Anakim's Divine Pistols (Sealed)" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to get Anakim's Divine Pistols enchanted to +5 <font color=ff6666>(unexchangeable)</font>. -->
 		<set name="icon" val="icon.shooter_boss_anakim" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -1331,7 +1331,7 @@
 		</capsuled_items>
 	</item>
 	<item id="97683" name="Package: +5 Beleth' Soul Eater (Sealed)" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain Beleth' Soul Eater enchanted to +5<font color=ff6666>(unexchangeable)</font>. -->
 		<set name="icon" val="icon.staff_of_bereth" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -1346,7 +1346,7 @@
 		</capsuled_items>
 	</item>
 	<item id="97684" name="Package: +5 Gorde's Flame Spear (Sealed)" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain Gorde's Flame Spear enchanted to +5 <font color=ff6666>(unexchangeable)</font>. -->
 		<set name="icon" val="icon.weapon_r110_spear_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -1361,7 +1361,7 @@
 		</capsuled_items>
 	</item>
 	<item id="97685" name="Beryl Jewelry Box Lv. 6" additionalName="Sealed" type="EtcItem">
-		<!-- Can be compounded with a Jewelry Box of the same level and a jewel. Double-click to get more information about the contents. -->
+		<!-- <font color=bbaa88><Compound></font>. Materials: identical Jewels and Jewelry Boxes. In case of failure, the current level remains the same, but materials disappear. Double-click to obtain various items. -->
 		<set name="icon" val="icon.etc_bm_jewelbox_beryl_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -1376,7 +1376,7 @@
 		</capsuled_items>
 	</item>
 	<item id="97686" name="Beryl Jewelry Box Lv. 7" additionalName="Sealed" type="EtcItem">
-		<!-- Can be compounded with a Jewelry Box of the same level and a jewel. Double-click to get more information about the contents. -->
+		<!-- <font color=bbaa88><Compound></font>. Materials: identical Jewels and Jewelry Boxes. In case of failure, the current level remains the same, but materials disappear. Double-click to obtain various items. -->
 		<set name="icon" val="icon.etc_bm_jewelbox_beryl_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -1391,7 +1391,7 @@
 		</capsuled_items>
 	</item>
 	<item id="97687" name="Beryl Jewelry Box Lv. 8" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.etc_bm_jewelbox_beryl_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -1406,7 +1406,7 @@
 		</capsuled_items>
 	</item>
 	<item id="97688" name="Onyx Jewelry Box Lv. 6" additionalName="Sealed" type="EtcItem">
-		<!-- Can be compounded with a Jewelry Box of the same level and a jewel. Double-click to get more information about the contents. -->
+		<!-- <font color=bbaa88><Compound></font>. Materials: identical Jewels and Jewelry Boxes. In case of failure, the current level remains the same, but materials disappear. Double-click to obtain various items. -->
 		<set name="icon" val="icon.etc_bm_jewelbox_onyx_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -1421,7 +1421,7 @@
 		</capsuled_items>
 	</item>
 	<item id="97689" name="Onyx Jewelry Box Lv. 7" additionalName="Sealed" type="EtcItem">
-		<!-- Can be compounded with a Jewelry Box of the same level and a jewel. Double-click to get more information about the contents. -->
+		<!-- <font color=bbaa88><Compound></font>. Materials: identical Jewels and Jewelry Boxes. In case of failure, the current level remains the same, but materials disappear. Double-click to obtain various items. -->
 		<set name="icon" val="icon.etc_bm_jewelbox_onyx_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -1436,7 +1436,7 @@
 		</capsuled_items>
 	</item>
 	<item id="97690" name="Onyx Jewelry Box Lv. 8" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.etc_bm_jewelbox_onyx_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -1451,7 +1451,7 @@
 		</capsuled_items>
 	</item>
 	<item id="97691" name="Spinel Jewelry Box Lv. 6" additionalName="Sealed" type="EtcItem">
-		<!-- Can be compounded with a Jewelry Box of the same level and a jewel. Double-click to get more information about the contents. -->
+		<!-- <font color=bbaa88><Compound></font>. Materials: identical Jewels and Jewelry Boxes. In case of failure, the current level remains the same, but materials disappear. Double-click to obtain various items. -->
 		<set name="icon" val="icon.etc_bm_jewelbox_garnet_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -1466,7 +1466,7 @@
 		</capsuled_items>
 	</item>
 	<item id="97692" name="Spinel Jewelry Box Lv. 7" additionalName="Sealed" type="EtcItem">
-		<!-- Can be compounded with a Jewelry Box of the same level and a jewel. Double-click to get more information about the contents. -->
+		<!-- <font color=bbaa88><Compound></font>. Materials: identical Jewels and Jewelry Boxes. In case of failure, the current level remains the same, but materials disappear. Double-click to obtain various items. -->
 		<set name="icon" val="icon.etc_bm_jewelbox_garnet_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -1481,7 +1481,7 @@
 		</capsuled_items>
 	</item>
 	<item id="97693" name="Spinel Jewelry Box Lv. 8" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.etc_bm_jewelbox_garnet_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -1496,7 +1496,7 @@
 		</capsuled_items>
 	</item>
 	<item id="97694" name="Zircon Jewelry Box Lv. 6" additionalName="Sealed" type="EtcItem">
-		<!-- Can be compounded with a Jewelry Box of the same level and a jewel. Double-click to get more information about the contents. -->
+		<!-- <font color=bbaa88><Compound></font>. Materials: identical Jewels and Jewelry Boxes. In case of failure, the current level remains the same, but materials disappear. Double-click to obtain various items. -->
 		<set name="icon" val="icon.etc_bm_jewelbox_bloodstone_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -1511,7 +1511,7 @@
 		</capsuled_items>
 	</item>
 	<item id="97695" name="Zircon Jewelry Box Lv. 7" additionalName="Sealed" type="EtcItem">
-		<!-- Can be compounded with a Jewelry Box of the same level and a jewel. Double-click to get more information about the contents. -->
+		<!-- <font color=bbaa88><Compound></font>. Materials: identical Jewels and Jewelry Boxes. In case of failure, the current level remains the same, but materials disappear. Double-click to obtain various items. -->
 		<set name="icon" val="icon.etc_bm_jewelbox_bloodstone_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -1526,7 +1526,7 @@
 		</capsuled_items>
 	</item>
 	<item id="97696" name="Zircon Jewelry Box Lv. 8" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.etc_bm_jewelbox_bloodstone_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -1541,7 +1541,7 @@
 		</capsuled_items>
 	</item>
 	<item id="97697" name="Coral Jewelry Box Lv. 6" additionalName="Sealed" type="EtcItem">
-		<!-- Can be compounded with a Jewelry Box of the same level and a jewel. Double-click to get more information about the contents. -->
+		<!-- <font color=bbaa88><Compound></font>. Materials: identical Jewels and Jewelry Boxes. In case of failure, the current level remains the same, but materials disappear. Double-click to obtain various items. -->
 		<set name="icon" val="icon.etc_bm_jewelbox_coral_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -1556,7 +1556,7 @@
 		</capsuled_items>
 	</item>
 	<item id="97698" name="Coral Jewelry Box Lv. 7" additionalName="Sealed" type="EtcItem">
-		<!-- Can be compounded with a Jewelry Box of the same level and a jewel. Double-click to get more information about the contents. -->
+		<!-- <font color=bbaa88><Compound></font>. Materials: identical Jewels and Jewelry Boxes. In case of failure, the current level remains the same, but materials disappear. Double-click to obtain various items. -->
 		<set name="icon" val="icon.etc_bm_jewelbox_coral_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -1571,7 +1571,7 @@
 		</capsuled_items>
 	</item>
 	<item id="97699" name="Coral Jewelry Box Lv. 8" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.etc_bm_jewelbox_coral_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />

@@ -11,7 +11,7 @@
 		<set name="is_sellable" val="false" />
 	</item>
 	<item id="97801" name="Package: Dye Powder (100 pcs.)" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.dye_charge_meal" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -26,7 +26,7 @@
 		</capsuled_items>
 	</item>
 	<item id="97802" name="Spellbook: Extended Life" type="EtcItem">
-		<!-- A spellbook for learning the Extended Life skill. <Classes>. All classes after the 3rd class change. <Skill effect>. Increases Max HP according to the character's level. -->
+		<!-- A spellbook for learning the Extended Life skill. <Classes>. All classes after the 3rd class change. <Skill effect>. Increases Max HP in proportion to your level. -->
 		<set name="icon" val="icon.etc_magic_book_black_i00" />
 		<set name="default_action" val="NONE" />
 		<set name="immediate_effect" val="true" />
@@ -35,7 +35,7 @@
 		<set name="is_stackable" val="true" />
 	</item>
 	<item id="97803" name="Spellbook: Extended Life" additionalName="Sealed" type="EtcItem">
-		<!-- A spellbook for learning the Extended Life skill. <Classes>. All classes after the 3rd class change. <Skill effect>. Increases Max HP according to the character's level. -->
+		<!-- A spellbook for learning the Extended Life skill. <Classes>. All classes after the 3rd class change. <Skill effect>. Increases Max HP in proportion to your level. -->
 		<set name="icon" val="icon.etc_magic_book_black_i00" />
 		<set name="default_action" val="NONE" />
 		<set name="immediate_effect" val="true" />
@@ -78,7 +78,7 @@
 		<set name="is_stackable" val="true" />
 	</item>
 	<item id="97807" name="+7 Special Armor Coupon (Time-limited)" additionalName="Sealed" type="EtcItem">
-		<!-- Can be exchanged for +7 Special Armor through the Game Assistant. -->
+		<!-- Double-click to choose 1 Special Armor enchanted to +7. -->
 		<set name="icon" val="icon.bm_armor_ticket_a" />
 		<set name="default_action" val="NONE" />
 		<set name="immediate_effect" val="true" />
@@ -88,7 +88,7 @@
 		<set name="is_sellable" val="false" />
 	</item>
 	<item id="97808" name="+7 Boss' Weapon Coupon (Time-limited)" additionalName="Sealed" type="EtcItem">
-		<!-- Can be exchanged for +7 Boss' Weapon through the Game Assistant. -->
+		<!-- Double-click to choose 1 Boss Weapon enchanted +7. -->
 		<set name="icon" val="icon.bm_weapon_ticket_a" />
 		<set name="default_action" val="NONE" />
 		<set name="immediate_effect" val="true" />
@@ -98,7 +98,7 @@
 		<set name="is_sellable" val="false" />
 	</item>
 	<item id="97809" name="+3 Rare Accessory Pack (Time-limited)" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="BranchSys3.icon.g_cash_fortuna_box_r" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -123,7 +123,7 @@
 		</capsuled_items>
 	</item>
 	<item id="97810" name="Package: +7 Zaken's Blood Sword" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.special_weapon_onehandsword" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -138,7 +138,7 @@
 		</capsuled_items>
 	</item>
 	<item id="97811" name="Package: +7 Core's Plasmic Bow" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.weapon_karupis_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -153,7 +153,7 @@
 		</capsuled_items>
 	</item>
 	<item id="97812" name="Package: +7 Queen Ant's Stone Breaker" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.special_weapon_onehandblunt" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -168,7 +168,7 @@
 		</capsuled_items>
 	</item>
 	<item id="97813" name="Package: +7 Orfen's Venom Sword" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.weapon_the_two_handed_sword_of_hero_i01" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -183,7 +183,7 @@
 		</capsuled_items>
 	</item>
 	<item id="97814" name="Package: +7 Baium's Thunder Breaker" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.weapon_terakan_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -198,7 +198,7 @@
 		</capsuled_items>
 	</item>
 	<item id="97815" name="Package: +7 Anakim's Divine Pistols" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.shooter_boss_anakim" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -213,7 +213,7 @@
 		</capsuled_items>
 	</item>
 	<item id="97816" name="Package: +7 Beleth' Soul Eater" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.staff_of_bereth" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -228,7 +228,7 @@
 		</capsuled_items>
 	</item>
 	<item id="97817" name="Package: +7 Gorde's Flame Spear" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.weapon_r110_spear_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -243,7 +243,7 @@
 		</capsuled_items>
 	</item>
 	<item id="97818" name="Package: +7 Ice Crystal Breastplate" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.armor_t94_u_i01" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -258,7 +258,7 @@
 		</capsuled_items>
 	</item>
 	<item id="97819" name="Package: +7 Ice Crystal Gaiters" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.armor_t94_l_i01" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -273,7 +273,7 @@
 		</capsuled_items>
 	</item>
 	<item id="97820" name="Package: +7 Leather Armor of Lightning" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.armor_t101_u_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -288,7 +288,7 @@
 		</capsuled_items>
 	</item>
 	<item id="97821" name="Package: +7 Leather Leggings of Lightning" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.armor_t102_l_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -303,7 +303,7 @@
 		</capsuled_items>
 	</item>
 	<item id="97822" name="Package: +7 Flaming Tunic" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.armor_t96_u_i03" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -318,7 +318,7 @@
 		</capsuled_items>
 	</item>
 	<item id="97823" name="Package: +7 Flaming Stockings" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.armor_t96_l_i03" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -333,7 +333,7 @@
 		</capsuled_items>
 	</item>
 	<item id="97824" name="Package: +7 Helmet of Mana" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.armor_leather_helmet_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -348,7 +348,7 @@
 		</capsuled_items>
 	</item>
 	<item id="97825" name="Package: +7 Stun Gauntlets" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.armor_t96_g_i03" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -363,7 +363,7 @@
 		</capsuled_items>
 	</item>
 	<item id="97826" name="Package: +7 Boots of Evasion" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.armor_t100_b_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -378,7 +378,7 @@
 		</capsuled_items>
 	</item>
 	<item id="97827" name="Package: +7 Gloves of Silence" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.armor_t94_g_i01" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -393,7 +393,7 @@
 		</capsuled_items>
 	</item>
 	<item id="97828" name="Package: +7 Sigil of Inevitability" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.elos_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -408,7 +408,7 @@
 		</capsuled_items>
 	</item>
 	<item id="97829" name="Package: +7 Shield of Vengeance" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.shield_of_revenge" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -442,7 +442,7 @@
 		<set name="is_stackable" val="true" />
 	</item>
 	<item id="97832" name="Spellbook: Flamenco" type="EtcItem">
-		<!-- A spellbook for learning the Flamenco skill. <Class>. Spectral Dancer. <Skill effect>. Applies a buff which decreases received P. Skill Critical Rate on the caster and their allies. <Upgrade effect>. Frantic Pace → Rapid Frantic Pace -->
+		<!-- A spellbook for learning the Flamenco skill. <Class>. Spectral Dancer. <Skill effect>. Applies a buff that decreases received P. Skill Critical Rate on the caster and their allies. <Upgrade effect>. Frantic Pace → Rapid Frantic Pace -->
 		<set name="icon" val="icon.etc_magic_book_blue_i00" />
 		<set name="default_action" val="NONE" />
 		<set name="immediate_effect" val="true" />
@@ -460,7 +460,7 @@
 		<set name="is_stackable" val="true" />
 	</item>
 	<item id="97834" name="Spellbook: Dance Mastery" type="EtcItem">
-		<!-- A spellbook for learning the Dance Mastery skill. <Class>. Spectral Dancer. <Skill effect>. Grants the following properties according to STR:. 1) Increases P. Atk. 2) Increases Hold/ Imprisonment/ Sleep Atk. Rate. 3) Upgrades the following skills:. - Dance of Warrior. - Song of Wind. - Dance of Fury -->
+		<!-- A spellbook for learning the Dance Mastery skill. <Class>. Spectral Dancer. <Skill effect>. Grants the following properties depending on your STR:. 1) Increases P. Atk. 2) Increases Hold/ Imprisonment/ Sleep Atk. Rate. 3) Upgrades the following skills:. - Dance of Warrior. - Song of Wind. - Dance of Fury -->
 		<set name="icon" val="icon.etc_magic_book_blue_i00" />
 		<set name="default_action" val="NONE" />
 		<set name="immediate_effect" val="true" />
@@ -478,7 +478,7 @@
 		<set name="is_stackable" val="true" />
 	</item>
 	<item id="97836" name="Spellbook: Dance of Medusa Lv. 4" type="EtcItem">
-		<!-- A spellbook for learning the Dance of Medusa Lv. 4 skill. <Class>. Spectral Dancer. <Skill effect>. Keeps the existing effect the same and adds a new one: allows to attack the enemy petrified by Spectral Dancers. -->
+		<!-- A spellbook for learning Dance of Medusa Lv. 4. <Class>. Spectral Dancer. <Skill effect>. Applies the former buff effect and adds a new one: allows to attack the enemy petrified by a Spectral Dancer. -->
 		<set name="icon" val="icon.etc_magic_book_blue_i00" />
 		<set name="default_action" val="NONE" />
 		<set name="immediate_effect" val="true" />
@@ -570,7 +570,7 @@
 		<set name="is_stackable" val="true" />
 	</item>
 	<item id="97846" name="Spellbook: Flamenco" additionalName="Sealed" type="EtcItem">
-		<!-- A spellbook for learning the Flamenco skill. <Class>. Spectral Dancer. <Skill effect>. Applies a buff which decreases received P. Skill Critical Rate on the caster and their allies. <Upgrade effect>. Frantic Pace → Rapid Frantic Pace -->
+		<!-- A spellbook for learning the Flamenco skill. <Class>. Spectral Dancer. <Skill effect>. Applies a buff that decreases received P. Skill Critical Rate on the caster and their allies. <Upgrade effect>. Frantic Pace → Rapid Frantic Pace -->
 		<set name="icon" val="icon.etc_magic_book_blue_i00" />
 		<set name="default_action" val="NONE" />
 		<set name="immediate_effect" val="true" />
@@ -592,7 +592,7 @@
 		<set name="is_stackable" val="true" />
 	</item>
 	<item id="97848" name="Spellbook: Dance Mastery" additionalName="Sealed" type="EtcItem">
-		<!-- A spellbook for learning the Dance Mastery skill. <Class>. Spectral Dancer. <Skill effect>. Grants the following properties according to STR:. 1) Increases P. Atk. 2) Increases Hold/ Imprisonment/ Sleep Atk. Rate. 3) Upgrades the following skills:. - Dance of Warrior. - Song of Wind. - Dance of Fury -->
+		<!-- A spellbook for learning the Dance Mastery skill. <Class>. Spectral Dancer. <Skill effect>. Grants the following properties depending on your STR:. 1) Increases P. Atk. 2) Increases Hold/ Imprisonment/ Sleep Atk. Rate. 3) Upgrades the following skills:. - Dance of Warrior. - Song of Wind. - Dance of Fury -->
 		<set name="icon" val="icon.etc_magic_book_blue_i00" />
 		<set name="default_action" val="NONE" />
 		<set name="immediate_effect" val="true" />
@@ -614,7 +614,7 @@
 		<set name="is_stackable" val="true" />
 	</item>
 	<item id="97850" name="Spellbook: Dance of Medusa Lv. 4" additionalName="Sealed" type="EtcItem">
-		<!-- A spellbook for learning the Dance of Medusa Lv. 4 skill. <Class>. Spectral Dancer. <Skill effect>. Keeps the existing effect the same and adds a new one: allows to attack the enemy petrified by Spectral Dancers. -->
+		<!-- A spellbook for learning Dance of Medusa Lv. 4. <Class>. Spectral Dancer. <Skill effect>. Applies the former buff effect and adds a new one: allows to attack the enemy petrified by a Spectral Dancer. -->
 		<set name="icon" val="icon.etc_magic_book_blue_i00" />
 		<set name="default_action" val="NONE" />
 		<set name="immediate_effect" val="true" />
@@ -713,7 +713,7 @@
 		<set name="is_stackable" val="true" />
 	</item>
 	<item id="97859" name="Stable Scroll: Enchant Rare Accessories" type="EtcItem">
-		<!-- <font color=eeaa22>In case of failure the enchant value remains the same. Only +5 accessories can be enchanted.</font>. <font color=ff6666>Cannot be used for mass enchanting. Additional enhance effects cannot be used.</font> -->
+		<!-- <font color=eeaa22>In case of failure the enchant value remains the same. Only +4 accessories can be enchanted.</font>. <font color=ff6666>Cannot be used for mass enchanting. Additional enhance effects cannot be used.</font> -->
 		<set name="icon" val="icon.etc_stable_scrl_of_ench_fallen_angel" />
 		<set name="default_action" val="SKILL_REDUCE" />
 		<set name="immediate_effect" val="true" />
@@ -727,7 +727,7 @@
 		</skills>
 	</item>
 	<item id="97860" name="Stable Scroll: Enchant Rare Accessories" additionalName="Sealed" type="EtcItem">
-		<!-- <font color=eeaa22>In case of failure the enchant value remains the same. Only +5 accessories can be enchanted.</font>. <font color=ff6666>Cannot be used for mass enchanting. Additional enhance effects cannot be used.</font> -->
+		<!-- <font color=eeaa22>In case of failure the enchant value remains the same. Only +4 accessories can be enchanted.</font>. <font color=ff6666>Cannot be used for mass enchanting. Additional enhance effects cannot be used.</font> -->
 		<set name="icon" val="icon.etc_stable_scrl_of_ench_fallen_angel" />
 		<set name="default_action" val="SKILL_REDUCE" />
 		<set name="immediate_effect" val="true" />
@@ -743,7 +743,7 @@
 		</skills>
 	</item>
 	<item id="97861" name="Solasol's Special Gift (Time-limited)" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.etc_pi_gift_box_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -774,7 +774,7 @@
 		</capsuled_items>
 	</item>
 	<item id="97862" name="Solasol's Gift (Time-limited)" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.etc_pi_gift_box_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -793,7 +793,7 @@
 		</capsuled_items>
 	</item>
 	<item id="97863" name="Solasol's Blessed Augmenting Stone Pack (Time-limited)" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.etc_treasure_box_i01" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -813,7 +813,7 @@
 		</capsuled_items>
 	</item>
 	<item id="97864" name="+5 Solasol's Special Armor Pack (Time-limited)" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.event_hero_treasure_box_blue" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -835,7 +835,7 @@
 		</capsuled_items>
 	</item>
 	<item id="97865" name="Solasol's Spellbook Chest - 2-3 Stars (Time-limited)" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.sayha2017_box_i01" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -853,7 +853,7 @@
 		</capsuled_items>
 	</item>
 	<item id="97866" name="Solasol's Rare Accessory Pack (Time-limited)" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.bm_gold_lure_special_box" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -997,7 +997,7 @@
 		<set name="is_sellable" val="false" />
 	</item>
 	<item id="97877" name="Growth Support Box (Time-limited)" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.bm_green_box_02" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -1008,7 +1008,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="handler" val="ExtractableItems" />
 		<capsuled_items>
-			<item id="93073" min="100" max="100" chance="100" /> <!-- Sayha's Storm Lv. 3 (Time-limited) - Sealed -->
+			<item id="93073" min="100" max="100" chance="100" /> <!-- Sayha's Storm (Time-limited) - Sealed -->
 			<item id="97438" min="100" max="100" chance="100" /> <!-- Einhasad's Protection (Time-limited) - Sealed -->
 			<item id="97147" min="10" max="10" chance="100" /> <!-- Dye Powder - Sealed -->
 		</capsuled_items>

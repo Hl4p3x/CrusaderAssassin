@@ -130,7 +130,7 @@
 		<affectScope>SINGLE</affectScope>
 	</skill>
 	<skill id="15308" toLevel="1" name="Half-Chop">
-		<!-- Inflicts a powerful P. Atk. on the target and Stuns them. -->
+		<!-- Deals physical damage to the enemy stunning them. -->
 		<icon>icon.skill0100</icon>
 		<operateType>A2</operateType>
 		<mpConsume>10</mpConsume>
@@ -688,7 +688,7 @@
 		<affectScope>SINGLE</affectScope>
 	</skill>
 	<skill id="15340" toLevel="1" name="Trouble Heal">
-		<!-- Restores the target's HP. -->
+		<!-- Recovers the target's HP. -->
 		<icon>icon.skill1258</icon>
 		<operateType>A1</operateType>
 		<effectPoint>100</effectPoint>
@@ -720,7 +720,7 @@
 		<affectScope>SINGLE</affectScope>
 	</skill>
 	<skill id="15343" toLevel="1" name="Trouble Ability">
-		<!-- P. Atk./ M. Atk. +30%. -->
+		<!-- P./ M. Atk. +30%. -->
 		<icon>icon.skill1068</icon>
 		<operateType>A2</operateType>
 		<castRange>500</castRange>
@@ -865,7 +865,7 @@
 		<affectScope>SINGLE</affectScope>
 	</skill>
 	<skill id="15352" toLevel="1" name="Strife">
-		<!-- Inflicts powerful damage on targets within a fan-shaped range. -->
+		<!-- Makes an explosion in a fan-shaped range. Deals heavy damage to the enemy. -->
 		<icon>icon.skill0003</icon>
 		<operateType>A1</operateType>
 		<castRange>200</castRange>
@@ -928,7 +928,7 @@
 		<targetType>ENEMY</targetType>
 		<affectScope>SINGLE</affectScope>
 	</skill>
-	<skill id="15355" toLevel="1" name="Yoke">
+	<skill id="15355" toLevel="1" name="Shackles">
 		<!-- Damages a target with Yoke. -->
 		<icon>icon.skill1042</icon>
 		<operateType>A2</operateType>
@@ -1108,7 +1108,7 @@
 		<affectObject>NOT_FRIEND</affectObject>
 	</skill>
 	<skill id="15366" toLevel="1" name="Cannon Fire">
-		<!-- Bleeding. -->
+		<!-- Inflicts Bleed. -->
 		<icon>icon.skill0096</icon>
 		<operateType>A2</operateType>
 		<castRange>1200</castRange>
@@ -1153,7 +1153,7 @@
 		<affectScope>POINT_BLANK</affectScope>
 	</skill>
 	<skill id="15369" toLevel="1" name="Massive Blow">
-		<!-- Inflicts a powerful attack and Bleed on nearby targets. -->
+		<!-- Deals heavy physical damage to all nearby enemies, inflicting Bleed on them. -->
 		<icon>icon.skill0096</icon>
 		<operateType>A2</operateType>
 		<castRange>1500</castRange>

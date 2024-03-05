@@ -70,7 +70,7 @@
 		<operateType>A1</operateType>
 	</skill>
 	<skill id="48204" toLevel="1" name="Katuba's Knock Down">
-		<!-- Temporarily immobilizes and knocks down. -->
+		<!-- Temporarily knocked down and immobilized. -->
 		<icon>icon.skill1896</icon>
 		<operateType>A1</operateType>
 	</skill>
@@ -340,7 +340,7 @@
 		<operateType>A1</operateType>
 	</skill>
 	<skill id="48244" toLevel="1" name="Knock Down">
-		<!-- Temporarily immobilizes and knocks down. -->
+		<!-- Temporarily knocked down and immobilized. -->
 		<icon>icon.skill0518</icon>
 		<operateType>A1</operateType>
 	</skill>
@@ -431,17 +431,17 @@
 		<operateType>A1</operateType>
 	</skill>
 	<skill id="48260" toLevel="20" name="Received P. Skill Critical Damage Decrease">
-		<!-- Received P. Skill Critical Damage -1000 -->
+		<!-- Received P. Skill Critical Damage -500 -->
 		<icon>icon.skill0000</icon>
 		<operateType>A1</operateType>
 	</skill>
 	<skill id="48261" toLevel="20" name="Received M. Skill Critical Damage Decrease">
-		<!-- Received M. Skill Critical Damage -1000 -->
+		<!-- Received M. Skill Critical Damage -500 -->
 		<icon>icon.skill0000</icon>
 		<operateType>A1</operateType>
 	</skill>
 	<skill id="48262" toLevel="20" name="All Received Critical Damage Decrease">
-		<!-- All Received Critical Damage -1000 -->
+		<!-- All Received Critical Damage -500 -->
 		<icon>icon.skill0000</icon>
 		<operateType>A1</operateType>
 	</skill>

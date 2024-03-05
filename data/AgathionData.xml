@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="xsd/AgathionData.xsd">
-	<!-- Agathion Aries - 60 days -->
+	<!-- Agathion Aries - Available for 60 d. -->
 	<agathion id="90894" enchant="0" mainSkill="51030,1;51031,1;51032,1;51033,1" />
 	<!-- Agathion Aries -->
 	<agathion id="90895" enchant="0" mainSkill="51030,1;51031,1;51032,1;51033,1" />
@@ -460,4 +460,23 @@
 	<agathion id="96194" enchant="8" subSkill="50325,9" />
 	<agathion id="96194" enchant="9" subSkill="50325,10" />
 	<agathion id="96194" enchant="10" subSkill="50325,11" />
+	<!-- Agathion Dragon Egg - Sealed -->
+	<agathion id="98235" enchant="0" subSkill="50663,1" />
+	<agathion id="98235" enchant="1" subSkill="50663,2" />
+	<agathion id="98235" enchant="2" subSkill="50663,3" />
+	<agathion id="98235" enchant="3" subSkill="50663,4" />
+	<agathion id="98235" enchant="4" subSkill="50663,5" />
+	<agathion id="98235" enchant="5" subSkill="50663,6" />
+	<agathion id="98235" enchant="6" subSkill="50663,7" />
+	<agathion id="98235" enchant="7" subSkill="50663,8" />
+	<agathion id="98235" enchant="8" subSkill="50663,9" />
+	<agathion id="98235" enchant="9" subSkill="50663,10" />
+	<agathion id="98235" enchant="10" subSkill="50663,11" />
+	<!-- Agathion Valakas - Sealed -->
+	<agathion id="98236" enchant="0" subSkill="50663,12" />
+	<agathion id="98236" enchant="1" subSkill="50663,13" />
+	<agathion id="98236" enchant="2" subSkill="50663,14" />
+	<agathion id="98236" enchant="3" subSkill="50663,15" />
+	<agathion id="98236" enchant="4" subSkill="50663,16" />
+	<agathion id="98236" enchant="5" subSkill="50663,17" />
 </list>

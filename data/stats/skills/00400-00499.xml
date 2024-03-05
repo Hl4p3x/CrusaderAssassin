@@ -1814,7 +1814,7 @@
 		</effects>
 	</skill>
 	<skill id="420" toLevel="3" name="Zealot">
-		<!-- <Skill with fixed cooldown>. For +10%0. Atk. Spd. +10%. P. Critical Rate +22. P. Critical Damage +22%. P. Skill Critical Rate +11%. P. Skill Critical Damage +11%. P. Accuracy +6. Speed +10. P. Skill MP Consumption -50%. Buff Cancel Resistance +40%. Received Healing -50%. Knockback Atk. Rate +3%. Recovers +10%1 MP, when using the skill. -->
+		<!-- <Skill with fixed cooldown>. Atk. Spd. +10%. P. Critical Rate +22. P. Critical Damage +22%. P. Skill Critical Rate +11%. P. Skill Critical Damage +11%. P. Accuracy +6. Speed +10. P. Skill MP Consumption -50%. Buff Cancel Resistance +40%. Received Healing -50%. Knockback Atk. Rate +3%. Recovers +10%0 MP, when using the skill. -->
 		<icon>icon.skill0420</icon>
 		<abnormalLevel>
 			<value level="1">1</value>
@@ -2471,7 +2471,15 @@
 			<value level="4">95</value>
 		</mpConsume>
 		<operateType>A2</operateType>
-		<reuseDelay>60000</reuseDelay>
+		<reuseDelay>
+			<value level="1">60000</value>
+			<value level="2">60000</value>
+			<value level="3">60000</value>
+			<value level="4">60000</value>
+			<value toLevel="4" fromLevel="4" toSubLevel="1001" fromSubLevel="1001">55000</value>
+			<value toLevel="4" fromLevel="4" toSubLevel="1002" fromSubLevel="1002">50000</value>
+			<value toLevel="4" fromLevel="4" toSubLevel="1003" fromSubLevel="1003">45000</value>
+		</reuseDelay>
 		<trait>SILENCE</trait>
 		<targetType>SELF</targetType>
 		<affectScope>POINT_BLANK</affectScope>
@@ -2989,7 +2997,7 @@
 		</effects>
 	</skill>
 	<skill id="451" toLevel="5" name="Sonic Move">
-		<!-- Speed +20 -->
+		<!-- Speed +5 -->
 		<icon>icon.skill0451</icon>
 		<abnormalLevel>1</abnormalLevel>
 		<abnormalTime>30</abnormalTime>

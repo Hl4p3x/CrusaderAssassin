@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../xsd/optionsData.xsd">
 	<option id="92400" name="Max HP +13">
+		<!-- Max HP +13 -->
 		<effects>
 			<effect name="MaxHp">
 				<amount>13</amount>
@@ -9,6 +10,7 @@
 		</effects>
 	</option>
 	<option id="92401" name="Max HP +14">
+		<!-- Max HP +14 -->
 		<effects>
 			<effect name="MaxHp">
 				<amount>14</amount>
@@ -17,6 +19,7 @@
 		</effects>
 	</option>
 	<option id="92402" name="Max HP +15">
+		<!-- Max HP +15 -->
 		<effects>
 			<effect name="MaxHp">
 				<amount>15</amount>
@@ -25,6 +28,7 @@
 		</effects>
 	</option>
 	<option id="92403" name="Max HP +16">
+		<!-- Max HP +16 -->
 		<effects>
 			<effect name="MaxHp">
 				<amount>16</amount>
@@ -33,6 +37,7 @@
 		</effects>
 	</option>
 	<option id="92404" name="Max HP +17">
+		<!-- Max HP +17 -->
 		<effects>
 			<effect name="MaxHp">
 				<amount>17</amount>
@@ -41,6 +46,7 @@
 		</effects>
 	</option>
 	<option id="92405" name="Max HP +18">
+		<!-- Max HP +18 -->
 		<effects>
 			<effect name="MaxHp">
 				<amount>18</amount>
@@ -49,6 +55,7 @@
 		</effects>
 	</option>
 	<option id="92406" name="Max HP +19">
+		<!-- Max HP +19 -->
 		<effects>
 			<effect name="MaxHp">
 				<amount>19</amount>
@@ -57,6 +64,7 @@
 		</effects>
 	</option>
 	<option id="92407" name="Max HP +20">
+		<!-- Max HP +20 -->
 		<effects>
 			<effect name="MaxHp">
 				<amount>20</amount>
@@ -65,6 +73,7 @@
 		</effects>
 	</option>
 	<option id="92408" name="Max HP +22">
+		<!-- Max HP +22 -->
 		<effects>
 			<effect name="MaxHp">
 				<amount>22</amount>
@@ -73,6 +82,7 @@
 		</effects>
 	</option>
 	<option id="92409" name="Max HP +24">
+		<!-- Max HP +24 -->
 		<effects>
 			<effect name="MaxHp">
 				<amount>24</amount>
@@ -81,6 +91,7 @@
 		</effects>
 	</option>
 	<option id="92410" name="Max HP +26">
+		<!-- Max HP +26 -->
 		<effects>
 			<effect name="MaxHp">
 				<amount>26</amount>
@@ -89,6 +100,7 @@
 		</effects>
 	</option>
 	<option id="92411" name="Max HP +28">
+		<!-- Max HP +28 -->
 		<effects>
 			<effect name="MaxHp">
 				<amount>28</amount>
@@ -97,6 +109,7 @@
 		</effects>
 	</option>
 	<option id="92412" name="Max HP +35">
+		<!-- Max HP +35 -->
 		<effects>
 			<effect name="MaxHp">
 				<amount>35</amount>
@@ -105,6 +118,7 @@
 		</effects>
 	</option>
 	<option id="92413" name="Max HP +37">
+		<!-- Max HP +37 -->
 		<effects>
 			<effect name="MaxHp">
 				<amount>37</amount>
@@ -113,6 +127,7 @@
 		</effects>
 	</option>
 	<option id="92414" name="Max HP +39">
+		<!-- Max HP +39 -->
 		<effects>
 			<effect name="MaxHp">
 				<amount>39</amount>
@@ -121,6 +136,7 @@
 		</effects>
 	</option>
 	<option id="92415" name="Max HP +41">
+		<!-- Max HP +41 -->
 		<effects>
 			<effect name="MaxHp">
 				<amount>41</amount>
@@ -129,6 +145,7 @@
 		</effects>
 	</option>
 	<option id="92416" name="Max HP +44">
+		<!-- Max HP +44 -->
 		<effects>
 			<effect name="MaxHp">
 				<amount>44</amount>
@@ -137,6 +154,7 @@
 		</effects>
 	</option>
 	<option id="92417" name="Max HP +47">
+		<!-- Max HP +47 -->
 		<effects>
 			<effect name="MaxHp">
 				<amount>47</amount>
@@ -145,6 +163,7 @@
 		</effects>
 	</option>
 	<option id="92418" name="Max HP +50">
+		<!-- Max HP +50 -->
 		<effects>
 			<effect name="MaxHp">
 				<amount>50</amount>
@@ -153,6 +172,7 @@
 		</effects>
 	</option>
 	<option id="92419" name="Max MP +12">
+		<!-- Max MP +12 -->
 		<effects>
 			<effect name="MaxMp">
 				<amount>12</amount>
@@ -161,6 +181,7 @@
 		</effects>
 	</option>
 	<option id="92420" name="Max MP +13">
+		<!-- Max MP +13 -->
 		<effects>
 			<effect name="MaxMp">
 				<amount>13</amount>
@@ -169,6 +190,7 @@
 		</effects>
 	</option>
 	<option id="92421" name="Max MP +14">
+		<!-- Max MP +14 -->
 		<effects>
 			<effect name="MaxMp">
 				<amount>14</amount>
@@ -177,6 +199,7 @@
 		</effects>
 	</option>
 	<option id="92422" name="Max MP +15">
+		<!-- Max MP +15 -->
 		<effects>
 			<effect name="MaxMp">
 				<amount>15</amount>
@@ -185,6 +208,7 @@
 		</effects>
 	</option>
 	<option id="92423" name="Max MP +16">
+		<!-- Max MP +16 -->
 		<effects>
 			<effect name="MaxMp">
 				<amount>16</amount>
@@ -193,6 +217,7 @@
 		</effects>
 	</option>
 	<option id="92424" name="Max MP +17">
+		<!-- Max MP +17 -->
 		<effects>
 			<effect name="MaxMp">
 				<amount>17</amount>
@@ -201,6 +226,7 @@
 		</effects>
 	</option>
 	<option id="92425" name="Max MP +18">
+		<!-- Max MP +18 -->
 		<effects>
 			<effect name="MaxMp">
 				<amount>18</amount>
@@ -209,6 +235,7 @@
 		</effects>
 	</option>
 	<option id="92426" name="Max MP +19">
+		<!-- Max MP +19 -->
 		<effects>
 			<effect name="MaxMp">
 				<amount>19</amount>
@@ -217,6 +244,7 @@
 		</effects>
 	</option>
 	<option id="92427" name="Max MP +20">
+		<!-- Max MP +20 -->
 		<effects>
 			<effect name="MaxMp">
 				<amount>20</amount>
@@ -225,6 +253,7 @@
 		</effects>
 	</option>
 	<option id="92428" name="Max MP +22">
+		<!-- Max MP +22 -->
 		<effects>
 			<effect name="MaxMp">
 				<amount>22</amount>
@@ -233,6 +262,7 @@
 		</effects>
 	</option>
 	<option id="92429" name="Max MP +24">
+		<!-- Max MP +24 -->
 		<effects>
 			<effect name="MaxMp">
 				<amount>24</amount>
@@ -241,6 +271,7 @@
 		</effects>
 	</option>
 	<option id="92430" name="Max MP +26">
+		<!-- Max MP +26 -->
 		<effects>
 			<effect name="MaxMp">
 				<amount>26</amount>
@@ -249,6 +280,7 @@
 		</effects>
 	</option>
 	<option id="92431" name="Max MP +28">
+		<!-- Max MP +28 -->
 		<effects>
 			<effect name="MaxMp">
 				<amount>28</amount>
@@ -257,6 +289,7 @@
 		</effects>
 	</option>
 	<option id="92432" name="Max MP +35">
+		<!-- Max MP +35 -->
 		<effects>
 			<effect name="MaxMp">
 				<amount>35</amount>
@@ -265,6 +298,7 @@
 		</effects>
 	</option>
 	<option id="92433" name="Max MP +37">
+		<!-- Max MP +37 -->
 		<effects>
 			<effect name="MaxMp">
 				<amount>37</amount>
@@ -273,6 +307,7 @@
 		</effects>
 	</option>
 	<option id="92434" name="Max MP +39">
+		<!-- Max MP +39 -->
 		<effects>
 			<effect name="MaxMp">
 				<amount>39</amount>
@@ -281,6 +316,7 @@
 		</effects>
 	</option>
 	<option id="92435" name="Max MP +41">
+		<!-- Max MP +41 -->
 		<effects>
 			<effect name="MaxMp">
 				<amount>41</amount>
@@ -289,6 +325,7 @@
 		</effects>
 	</option>
 	<option id="92436" name="Max MP +44">
+		<!-- Max MP +44 -->
 		<effects>
 			<effect name="MaxMp">
 				<amount>44</amount>
@@ -297,6 +334,7 @@
 		</effects>
 	</option>
 	<option id="92437" name="Max MP +47">
+		<!-- Max MP +47 -->
 		<effects>
 			<effect name="MaxMp">
 				<amount>47</amount>
@@ -305,6 +343,7 @@
 		</effects>
 	</option>
 	<option id="92438" name="Max MP +50">
+		<!-- Max MP +50 -->
 		<effects>
 			<effect name="MaxMp">
 				<amount>50</amount>
@@ -313,6 +352,7 @@
 		</effects>
 	</option>
 	<option id="92439" name="P. Evasion +1.2">
+		<!-- P. Evasion +1.2 -->
 		<effects>
 			<effect name="PhysicalEvasion">
 				<amount>1.2</amount>
@@ -321,6 +361,7 @@
 		</effects>
 	</option>
 	<option id="92440" name="P. Evasion +1.2">
+		<!-- P. Evasion +1.2 -->
 		<effects>
 			<effect name="PhysicalEvasion">
 				<amount>1.2</amount>
@@ -329,6 +370,7 @@
 		</effects>
 	</option>
 	<option id="92441" name="P. Evasion +1.3">
+		<!-- P. Evasion +1.3 -->
 		<effects>
 			<effect name="PhysicalEvasion">
 				<amount>1.3</amount>
@@ -337,6 +379,7 @@
 		</effects>
 	</option>
 	<option id="92442" name="P. Evasion +1.3">
+		<!-- P. Evasion +1.3 -->
 		<effects>
 			<effect name="PhysicalEvasion">
 				<amount>1.3</amount>
@@ -345,6 +388,7 @@
 		</effects>
 	</option>
 	<option id="92443" name="P. Evasion +1.3">
+		<!-- P. Evasion +1.3 -->
 		<effects>
 			<effect name="PhysicalEvasion">
 				<amount>1.3</amount>
@@ -353,6 +397,7 @@
 		</effects>
 	</option>
 	<option id="92444" name="P. Evasion +1.4">
+		<!-- P. Evasion +1.4 -->
 		<effects>
 			<effect name="PhysicalEvasion">
 				<amount>1.4</amount>
@@ -361,6 +406,7 @@
 		</effects>
 	</option>
 	<option id="92445" name="P. Evasion +1.4">
+		<!-- P. Evasion +1.4 -->
 		<effects>
 			<effect name="PhysicalEvasion">
 				<amount>1.4</amount>
@@ -369,6 +415,7 @@
 		</effects>
 	</option>
 	<option id="92446" name="P. Evasion +1.4">
+		<!-- P. Evasion +1.4 -->
 		<effects>
 			<effect name="PhysicalEvasion">
 				<amount>1.4</amount>
@@ -377,6 +424,7 @@
 		</effects>
 	</option>
 	<option id="92447" name="P. Evasion +1.4">
+		<!-- P. Evasion +1.4 -->
 		<effects>
 			<effect name="PhysicalEvasion">
 				<amount>1.4</amount>
@@ -385,6 +433,7 @@
 		</effects>
 	</option>
 	<option id="92448" name="P. Evasion +1.4">
+		<!-- P. Evasion +1.4 -->
 		<effects>
 			<effect name="PhysicalEvasion">
 				<amount>1.4</amount>
@@ -393,6 +442,7 @@
 		</effects>
 	</option>
 	<option id="92449" name="P. Evasion +1.5">
+		<!-- P. Evasion +1.5 -->
 		<effects>
 			<effect name="PhysicalEvasion">
 				<amount>1.5</amount>
@@ -401,6 +451,7 @@
 		</effects>
 	</option>
 	<option id="92450" name="P. Evasion +1.5">
+		<!-- P. Evasion +1.5 -->
 		<effects>
 			<effect name="PhysicalEvasion">
 				<amount>1.5</amount>
@@ -409,6 +460,7 @@
 		</effects>
 	</option>
 	<option id="92451" name="P. Evasion +1.5">
+		<!-- P. Evasion +1.5 -->
 		<effects>
 			<effect name="PhysicalEvasion">
 				<amount>1.5</amount>
@@ -417,6 +469,7 @@
 		</effects>
 	</option>
 	<option id="92452" name="P. Evasion +1.8">
+		<!-- P. Evasion +1.8 -->
 		<effects>
 			<effect name="PhysicalEvasion">
 				<amount>1.8</amount>
@@ -425,6 +478,7 @@
 		</effects>
 	</option>
 	<option id="92453" name="P. Evasion +2">
+		<!-- P. Evasion +2 -->
 		<effects>
 			<effect name="PhysicalEvasion">
 				<amount>2.0</amount>
@@ -433,6 +487,7 @@
 		</effects>
 	</option>
 	<option id="92454" name="P. Evasion +2.1">
+		<!-- P. Evasion +2.1 -->
 		<effects>
 			<effect name="PhysicalEvasion">
 				<amount>2.1</amount>
@@ -441,6 +496,7 @@
 		</effects>
 	</option>
 	<option id="92455" name="P. Evasion +2.2">
+		<!-- P. Evasion +2.2 -->
 		<effects>
 			<effect name="PhysicalEvasion">
 				<amount>2.2</amount>
@@ -449,6 +505,7 @@
 		</effects>
 	</option>
 	<option id="92456" name="P. Evasion +2.3">
+		<!-- P. Evasion +2.3 -->
 		<effects>
 			<effect name="PhysicalEvasion">
 				<amount>2.3</amount>
@@ -457,6 +514,7 @@
 		</effects>
 	</option>
 	<option id="92457" name="P. Evasion +2.4">
+		<!-- P. Evasion +2.4 -->
 		<effects>
 			<effect name="PhysicalEvasion">
 				<amount>2.4</amount>
@@ -465,6 +523,7 @@
 		</effects>
 	</option>
 	<option id="92458" name="P. Evasion +3">
+		<!-- P. Evasion +3 -->
 		<effects>
 			<effect name="PhysicalEvasion">
 				<amount>3.0</amount>
@@ -473,6 +532,7 @@
 		</effects>
 	</option>
 	<option id="92459" name="M. Evasion +1.2">
+		<!-- M. Evasion +1.2 -->
 		<effects>
 			<effect name="MagicalEvasion">
 				<amount>1.2</amount>
@@ -481,6 +541,7 @@
 		</effects>
 	</option>
 	<option id="92460" name="M. Evasion +1.2">
+		<!-- M. Evasion +1.2 -->
 		<effects>
 			<effect name="MagicalEvasion">
 				<amount>1.2</amount>
@@ -489,6 +550,7 @@
 		</effects>
 	</option>
 	<option id="92461" name="M. Evasion +1.3">
+		<!-- M. Evasion +1.3 -->
 		<effects>
 			<effect name="MagicalEvasion">
 				<amount>1.3</amount>
@@ -497,6 +559,7 @@
 		</effects>
 	</option>
 	<option id="92462" name="M. Evasion +1.3">
+		<!-- M. Evasion +1.3 -->
 		<effects>
 			<effect name="MagicalEvasion">
 				<amount>1.3</amount>
@@ -505,6 +568,7 @@
 		</effects>
 	</option>
 	<option id="92463" name="M. Evasion +1.3">
+		<!-- M. Evasion +1.3 -->
 		<effects>
 			<effect name="MagicalEvasion">
 				<amount>1.3</amount>
@@ -513,6 +577,7 @@
 		</effects>
 	</option>
 	<option id="92464" name="M. Evasion +1.4">
+		<!-- M. Evasion +1.4 -->
 		<effects>
 			<effect name="MagicalEvasion">
 				<amount>1.4</amount>
@@ -521,6 +586,7 @@
 		</effects>
 	</option>
 	<option id="92465" name="M. Evasion +1.4">
+		<!-- M. Evasion +1.4 -->
 		<effects>
 			<effect name="MagicalEvasion">
 				<amount>1.4</amount>
@@ -529,6 +595,7 @@
 		</effects>
 	</option>
 	<option id="92466" name="M. Evasion +1.4">
+		<!-- M. Evasion +1.4 -->
 		<effects>
 			<effect name="MagicalEvasion">
 				<amount>1.4</amount>
@@ -537,6 +604,7 @@
 		</effects>
 	</option>
 	<option id="92467" name="M. Evasion +1.4">
+		<!-- M. Evasion +1.4 -->
 		<effects>
 			<effect name="MagicalEvasion">
 				<amount>1.4</amount>
@@ -545,6 +613,7 @@
 		</effects>
 	</option>
 	<option id="92468" name="M. Evasion +1.4">
+		<!-- M. Evasion +1.4 -->
 		<effects>
 			<effect name="MagicalEvasion">
 				<amount>1.4</amount>
@@ -553,6 +622,7 @@
 		</effects>
 	</option>
 	<option id="92469" name="M. Evasion +1.5">
+		<!-- M. Evasion +1.5 -->
 		<effects>
 			<effect name="MagicalEvasion">
 				<amount>1.5</amount>
@@ -561,6 +631,7 @@
 		</effects>
 	</option>
 	<option id="92470" name="M. Evasion +1.5">
+		<!-- M. Evasion +1.5 -->
 		<effects>
 			<effect name="MagicalEvasion">
 				<amount>1.5</amount>
@@ -569,6 +640,7 @@
 		</effects>
 	</option>
 	<option id="92471" name="M. Evasion +1.5">
+		<!-- M. Evasion +1.5 -->
 		<effects>
 			<effect name="MagicalEvasion">
 				<amount>1.5</amount>
@@ -577,6 +649,7 @@
 		</effects>
 	</option>
 	<option id="92472" name="M. Evasion +1.8">
+		<!-- M. Evasion +1.8 -->
 		<effects>
 			<effect name="MagicalEvasion">
 				<amount>1.8</amount>
@@ -585,6 +658,7 @@
 		</effects>
 	</option>
 	<option id="92473" name="M. Evasion +2">
+		<!-- M. Evasion +2 -->
 		<effects>
 			<effect name="MagicalEvasion">
 				<amount>2.0</amount>
@@ -593,6 +667,7 @@
 		</effects>
 	</option>
 	<option id="92474" name="M. Evasion +2.1">
+		<!-- M. Evasion +2.1 -->
 		<effects>
 			<effect name="MagicalEvasion">
 				<amount>2.1</amount>
@@ -601,6 +676,7 @@
 		</effects>
 	</option>
 	<option id="92475" name="M. Evasion +2.2">
+		<!-- M. Evasion +2.2 -->
 		<effects>
 			<effect name="MagicalEvasion">
 				<amount>2.2</amount>
@@ -609,6 +685,7 @@
 		</effects>
 	</option>
 	<option id="92476" name="M. Evasion +2.3">
+		<!-- M. Evasion +2.3 -->
 		<effects>
 			<effect name="MagicalEvasion">
 				<amount>2.3</amount>
@@ -617,6 +694,7 @@
 		</effects>
 	</option>
 	<option id="92477" name="M. Evasion +2.4">
+		<!-- M. Evasion +2.4 -->
 		<effects>
 			<effect name="MagicalEvasion">
 				<amount>2.4</amount>
@@ -625,6 +703,7 @@
 		</effects>
 	</option>
 	<option id="92478" name="M. Evasion +3">
+		<!-- M. Evasion +3 -->
 		<effects>
 			<effect name="MagicalEvasion">
 				<amount>3.0</amount>
@@ -633,6 +712,7 @@
 		</effects>
 	</option>
 	<option id="92479" name="Received P. Skill Critical Rate -1.2%">
+		<!-- Received P. Skill Critical Rate -1.2% -->
 		<effects>
 			<effect name="DefencePhysicalSkillCriticalRate">
 				<amount>-1.2</amount>
@@ -641,6 +721,7 @@
 		</effects>
 	</option>
 	<option id="92480" name="Received P. Skill Critical Rate -1.2%">
+		<!-- Received P. Skill Critical Rate -1.2% -->
 		<effects>
 			<effect name="DefencePhysicalSkillCriticalRate">
 				<amount>-1.2</amount>
@@ -649,6 +730,7 @@
 		</effects>
 	</option>
 	<option id="92481" name="Received P. Skill Critical Rate -1.2%">
+		<!-- Received P. Skill Critical Rate -1.2% -->
 		<effects>
 			<effect name="DefencePhysicalSkillCriticalRate">
 				<amount>-1.2</amount>
@@ -657,6 +739,7 @@
 		</effects>
 	</option>
 	<option id="92482" name="Received P. Skill Critical Rate -1.2%">
+		<!-- Received P. Skill Critical Rate -1.2% -->
 		<effects>
 			<effect name="DefencePhysicalSkillCriticalRate">
 				<amount>-1.2</amount>
@@ -665,6 +748,7 @@
 		</effects>
 	</option>
 	<option id="92483" name="Received P. Skill Critical Rate -1.2%">
+		<!-- Received P. Skill Critical Rate -1.2% -->
 		<effects>
 			<effect name="DefencePhysicalSkillCriticalRate">
 				<amount>-1.2</amount>
@@ -673,6 +757,7 @@
 		</effects>
 	</option>
 	<option id="92484" name="Received P. Skill Critical Rate -1.3%">
+		<!-- Received P. Skill Critical Rate -1.3% -->
 		<effects>
 			<effect name="DefencePhysicalSkillCriticalRate">
 				<amount>-1.4</amount>
@@ -681,6 +766,7 @@
 		</effects>
 	</option>
 	<option id="92485" name="Received P. Skill Critical Rate -1.3%">
+		<!-- Received P. Skill Critical Rate -1.3% -->
 		<effects>
 			<effect name="DefencePhysicalSkillCriticalRate">
 				<amount>-1.4</amount>
@@ -689,6 +775,7 @@
 		</effects>
 	</option>
 	<option id="92486" name="Received P. Skill Critical Rate -1.3%">
+		<!-- Received P. Skill Critical Rate -1.3% -->
 		<effects>
 			<effect name="DefencePhysicalSkillCriticalRate">
 				<amount>-1.4</amount>
@@ -697,6 +784,7 @@
 		</effects>
 	</option>
 	<option id="92487" name="Received P. Skill Critical Rate -1.3%">
+		<!-- Received P. Skill Critical Rate -1.3% -->
 		<effects>
 			<effect name="DefencePhysicalSkillCriticalRate">
 				<amount>-1.4</amount>
@@ -705,6 +793,7 @@
 		</effects>
 	</option>
 	<option id="92488" name="Received P. Skill Critical Rate -1.3%">
+		<!-- Received P. Skill Critical Rate -1.3% -->
 		<effects>
 			<effect name="DefencePhysicalSkillCriticalRate">
 				<amount>-1.4</amount>
@@ -713,6 +802,7 @@
 		</effects>
 	</option>
 	<option id="92489" name="Received P. Skill Critical Rate -1.4%">
+		<!-- Received P. Skill Critical Rate -1.4% -->
 		<effects>
 			<effect name="DefencePhysicalSkillCriticalRate">
 				<amount>-1.4</amount>
@@ -721,6 +811,7 @@
 		</effects>
 	</option>
 	<option id="92490" name="Received P. Skill Critical Rate -1.4%">
+		<!-- Received P. Skill Critical Rate -1.4% -->
 		<effects>
 			<effect name="DefencePhysicalSkillCriticalRate">
 				<amount>-1.4</amount>
@@ -729,6 +820,7 @@
 		</effects>
 	</option>
 	<option id="92491" name="Received P. Skill Critical Rate -1.4%">
+		<!-- Received P. Skill Critical Rate -1.4% -->
 		<effects>
 			<effect name="DefencePhysicalSkillCriticalRate">
 				<amount>-1.4</amount>
@@ -737,6 +829,7 @@
 		</effects>
 	</option>
 	<option id="92492" name="Received P. Skill Critical Rate -1.4%">
+		<!-- Received P. Skill Critical Rate -1.4% -->
 		<effects>
 			<effect name="DefencePhysicalSkillCriticalRate">
 				<amount>-1.4</amount>
@@ -745,6 +838,7 @@
 		</effects>
 	</option>
 	<option id="92493" name="Received P. Skill Critical Rate -1.4%">
+		<!-- Received P. Skill Critical Rate -1.4% -->
 		<effects>
 			<effect name="DefencePhysicalSkillCriticalRate">
 				<amount>-1.4</amount>
@@ -753,6 +847,7 @@
 		</effects>
 	</option>
 	<option id="92494" name="Received P. Skill Critical Rate -1.5%">
+		<!-- Received P. Skill Critical Rate -1.5% -->
 		<effects>
 			<effect name="DefencePhysicalSkillCriticalRate">
 				<amount>-1.5</amount>
@@ -761,6 +856,7 @@
 		</effects>
 	</option>
 	<option id="92495" name="Received P. Skill Critical Rate -1.5%">
+		<!-- Received P. Skill Critical Rate -1.5% -->
 		<effects>
 			<effect name="DefencePhysicalSkillCriticalRate">
 				<amount>-1.5</amount>
@@ -769,6 +865,7 @@
 		</effects>
 	</option>
 	<option id="92496" name="Received P. Skill Critical Rate -1.5%">
+		<!-- Received P. Skill Critical Rate -1.5% -->
 		<effects>
 			<effect name="DefencePhysicalSkillCriticalRate">
 				<amount>-1.5</amount>
@@ -777,6 +874,7 @@
 		</effects>
 	</option>
 	<option id="92497" name="Received P. Skill Critical Rate -1.6%">
+		<!-- Received P. Skill Critical Rate -1.6% -->
 		<effects>
 			<effect name="DefencePhysicalSkillCriticalRate">
 				<amount>-1.6</amount>
@@ -785,6 +883,7 @@
 		</effects>
 	</option>
 	<option id="92498" name="Received P. Skill Critical Rate -2%">
+		<!-- Received P. Skill Critical Rate -2% -->
 		<effects>
 			<effect name="DefencePhysicalSkillCriticalRate">
 				<amount>-2.0</amount>

@@ -38,7 +38,7 @@
 		<affectScope>SINGLE</affectScope>
 	</skill>
 	<skill id="6803" toLevel="1" name="Arena Haste">
-		<!-- Increases Atk. Spd. by 33% for 5 min. -->
+		<!-- For 5 min., Atk. Spd. +33%. -->
 		<icon>icon.skill1086</icon>
 		<abnormalLevel>2</abnormalLevel>
 		<abnormalTime>300</abnormalTime>
@@ -163,7 +163,7 @@
 		</effects>
 	</skill>
 	<skill id="6808" toLevel="1" name="Arena Might">
-		<!-- Increases P. Atk. by 15% for 5 min. -->
+		<!-- For 5 min., P. Atk. +15%. -->
 		<icon>icon.skill1068</icon>
 		<abnormalLevel>3</abnormalLevel>
 		<abnormalTime>300</abnormalTime>
@@ -579,7 +579,7 @@
 		<affectScope>RANGE</affectScope>
 		<affectObject>NOT_FRIEND</affectObject>
 	</skill>
-	<skill id="6820" toLevel="1" name="P. Def. Enhance">
+	<skill id="6820" toLevel="1" name="P. Def. Boost">
 		<icon>icon.skill0000</icon>
 		<abnormalLevel>3</abnormalLevel>
 		<abnormalTime>30</abnormalTime>
@@ -605,7 +605,7 @@
 		</effects>
 	</skill>
 	<skill id="6821" toLevel="1" name="Decrease P. Def.">
-		<!-- For 4 sec., P. Def. decreases by 23%. -->
+		<!-- For 4 sec., P. Def. -23%. -->
 		<icon>icon.skill0122</icon>
 		<abnormalTime>4</abnormalTime>
 		<activateRate>80</activateRate>
@@ -626,7 +626,7 @@
 		<affectScope>SINGLE</affectScope>
 	</skill>
 	<skill id="6822" toLevel="1" name="Decrease P. Def.">
-		<!-- For 4 sec., P. Def. decreases by 40%. -->
+		<!-- For 4 sec., P. Def. -40%. -->
 		<icon>icon.skill0122</icon>
 		<operateType>A2</operateType>
 		<effectPoint>-347</effectPoint>
@@ -718,8 +718,8 @@
 		<targetType>ENEMY</targetType>
 		<affectScope>SINGLE</affectScope>
 	</skill>
-	<skill id="6827" toLevel="1" name="Petrified">
-		<!-- Petrified and unable to move for 30 sec. -->
+	<skill id="6827" toLevel="1" name="Petrification">
+		<!-- Makes the target's body as hard as stone for 30 sec. -->
 		<icon>icon.skill4111</icon>
 		<abnormalTime>3</abnormalTime>
 		<activateRate>80</activateRate>
@@ -966,7 +966,7 @@
 		<targetType>SELF</targetType>
 		<affectScope>SINGLE</affectScope>
 	</skill>
-	<skill id="6842" toLevel="2" name="Enhance">
+	<skill id="6842" toLevel="2" name="Upgrade">
 		<!-- P. Atk. +12%, Atk. Spd. +15%. -->
 		<icon>icon.skill1086</icon>
 		<abnormalLevel>
@@ -1006,7 +1006,7 @@
 			</effect>
 		</effects>
 	</skill>
-	<skill id="6843" toLevel="1" name="Enhance">
+	<skill id="6843" toLevel="1" name="Upgrade">
 		<!-- Atk. Spd. +33%. -->
 		<icon>icon.skill1086</icon>
 		<operateType>A2</operateType>
@@ -1358,7 +1358,7 @@
 			</effect>
 		</effects>
 	</skill>
-	<skill id="6861" toLevel="1" name="Enhance">
+	<skill id="6861" toLevel="1" name="Upgrade">
 		<!-- Increases P. Atk. by 20% and Atk. Spd. by 30%. -->
 		<icon>icon.skill1086</icon>
 		<abnormalLevel>3</abnormalLevel>
@@ -1866,7 +1866,7 @@
 			</effect>
 		</effects>
 	</skill>
-	<skill id="6882" toLevel="1" name="Petrified">
+	<skill id="6882" toLevel="1" name="Petrification">
 		<!-- Momentarily petrifies the target. -->
 		<icon>icon.skill4111</icon>
 		<abnormalLevel>1</abnormalLevel>
@@ -2061,7 +2061,7 @@
 			</effect>
 		</effects>
 	</skill>
-	<skill id="6889" toLevel="1" name="AoE Attack">
+	<skill id="6889" toLevel="1" name="An AoE attack.">
 		<icon>icon.skill0000</icon>
 		<castRange>40</castRange>
 		<effectRange>100</effectRange>

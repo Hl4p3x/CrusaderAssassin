@@ -299,7 +299,7 @@
 		<set name="material" val="PAPER" />
 	</item>
 	<item id="90226" name="Brooch Lv. 1" additionalName="30-day" type="Armor">
-		<!-- 30-day item. Activates 2 jewel slots. -->
+		<!-- A Lv. 1 brooch. Available for 30 d. Unlocks 2 jewel slots. -->
 		<set name="icon" val="icon.etc_bm_brooch_lavianrose_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="bodypart" val="brooch" />
@@ -842,7 +842,7 @@
 		<set name="material" val="PAPER" />
 	</item>
 	<item id="90273" name="Magic Potion of Leaping Lv. 4" additionalName="Sealed" type="EtcItem">
-		<!-- XP +37,000,000, SP +1,110,000. Required level: 45. -->
+		<!-- XP +37,000,000, SP +111,000. Required level: 45+. -->
 		<set name="icon" val="icon.etc_earth_potion_i00" />
 		<set name="default_action" val="SKILL_REDUCE" />
 		<set name="is_tradable" val="false" />

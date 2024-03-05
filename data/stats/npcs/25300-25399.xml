@@ -5,7 +5,7 @@
 		<sex>MALE</sex>
 		<equipment rhand="288" /> <!-- Carnage Bow -->
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="31866.8020137814" hpRegen="91.4930863014358" mp="1641" mpRegen="3" />
+			<vitals hp="35053.4822151596" hpRegen="91.4930863014358" mp="1641" mpRegen="3" />
 			<attack physical="2848.82203115447" magical="1105.91356508692" random="5" critical="8" accuracy="0" attackSpeed="253" type="BOW" range="1100" distance="10" width="0" />
 			<defence physical="505.60512" magical="493.3" />
 			<speed>
@@ -40,7 +40,7 @@
 		<sex>MALE</sex>
 		<equipment rhand="79" /> <!-- Damascus Sword -->
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="23781.1955326727" hpRegen="91.4930863014358" mp="1641" mpRegen="3" />
+			<vitals hp="26159.31508594" hpRegen="91.4930863014358" mp="1641" mpRegen="3" />
 			<attack physical="2848.82203115447" magical="1105.91356508692" random="5" critical="8" accuracy="0" attackSpeed="253" type="DAGGER" range="40" distance="80" width="120" />
 			<defence physical="505.60512" magical="493.3" />
 			<speed>
@@ -74,7 +74,7 @@
 		<parameters>
 			<minions name="Privates">
 				<npc id="25303" count="3" respawnTime="360" weightPoint="1" /> <!-- Tayr's Aide -->
-				<npc id="25304" count="1" respawnTime="360" weightPoint="1" /> <!-- Tayr's Guard -->
+				<npc id="25304" count="1" respawnTime="360" weightPoint="1" /> <!-- Tayr's Royal Guard -->
 			</minions>
 			<param name="RaidSpawnMusic" value="Rm01_A" />
 			<skill name="RangeHold_a" id="4197" level="9" /> <!-- Hold -->
@@ -111,7 +111,7 @@
 		<sex>MALE</sex>
 		<equipment rhand="213" /> <!-- Branch of the Mother Tree -->
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="33170.6026756464" hpRegen="95.1367199926651" mp="1777.4" mpRegen="3" />
+			<vitals hp="36487.662943211" hpRegen="95.1367199926651" mp="1777.4" mpRegen="3" />
 			<attack physical="3970.90812329385" magical="2222.63213776311" random="20" critical="1" accuracy="9" attackSpeed="253" type="BLUNT" range="40" distance="80" width="120" />
 			<defence physical="546.7159248" magical="533.4164" />
 			<speed>
@@ -151,7 +151,7 @@
 		<sex>MALE</sex>
 		<equipment rhand="79" lhand="6919" /> <!-- Damascus Sword / Monster Only (Shield of Ketra Orc) -->
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="49508.3622024573" hpRegen="95.1367199926651" mp="1777.4" mpRegen="3" />
+			<vitals hp="54459.1984227031" hpRegen="95.1367199926651" mp="1777.4" mpRegen="3" />
 			<attack physical="5956.51109771821" magical="5001.14110989056" random="10" critical="4" accuracy="4.75" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
 			<defence physical="546.7159248" magical="533.4164" />
 			<speed>
@@ -215,8 +215,8 @@
 	<npc id="25306" level="75" type="RaidBoss" name="Fire Spirit Nastron" title="Raid Boss">
 		<parameters>
 			<minions name="Privates">
-				<npc id="25307" count="1" respawnTime="360" weightPoint="1" />
-				<npc id="25308" count="4" respawnTime="360" weightPoint="1" />
+				<npc id="25307" count="1" respawnTime="360" weightPoint="1" /> <!-- Family of Nastron -->
+				<npc id="25308" count="4" respawnTime="360" weightPoint="1" /> <!-- Family of Nastron -->
 			</minions>
 			<param name="RaidSpawnMusic" value="Rm03_A" />
 			<skill name="DDMagic_a" id="4194" level="10" />
@@ -227,7 +227,7 @@
 		<sex>MALE</sex>
 		<acquire exp="2643172" sp="634" />
 		<stats str="60" int="76" dex="73" wit="70" con="57" men="80">
-			<vitals hp="1348544.25360805" hpRegen="5000" mp="1917" mpRegen="3" />
+			<vitals hp="1483398.67896886" hpRegen="5000" mp="1917" mpRegen="3" />
 			<attack physical="919.753931716379" magical="309.854019612594" random="5" critical="4" accuracy="4.75" attackSpeed="253" type="FIST" range="40" distance="80" width="120" />
 			<defence physical="1185.643995" magical="578.3992" />
 			<speed>
@@ -269,7 +269,7 @@
 		<race>CONSTRUCT</race>
 		<sex>MALE</sex>
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="35605.1288081334" hpRegen="76.0201258197969" mp="1881.8" mpRegen="3" />
+			<vitals hp="39165.6416889468" hpRegen="76.0201258197969" mp="1881.8" mpRegen="3" />
 			<attack physical="3642.58982857972" magical="4799.50285599904" random="20" critical="1" accuracy="9" attackSpeed="253" type="BLUNT" range="40" distance="80" width="120" />
 			<defence physical="581.336118" magical="567.1848" />
 			<speed>
@@ -304,7 +304,7 @@
 		<race>CONSTRUCT</race>
 		<sex>MALE</sex>
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="17802.5644040667" hpRegen="76.0201258197969" mp="1881.8" mpRegen="3" />
+			<vitals hp="19582.8208444734" hpRegen="76.0201258197969" mp="1881.8" mpRegen="3" />
 			<attack physical="1821.29491428986" magical="1199.87571399976" random="20" critical="1" accuracy="9" attackSpeed="253" type="BLUNT" range="40" distance="80" width="120" />
 			<defence physical="581.336118" magical="567.1848" />
 			<speed>
@@ -337,8 +337,8 @@
 	<npc id="25309" level="75" type="RaidBoss" name="Varka's Hero Shadith" title="Raid Boss">
 		<parameters>
 			<minions name="Privates">
-				<npc id="25310" count="1" respawnTime="360" weightPoint="1" />
-				<npc id="25311" count="4" respawnTime="360" weightPoint="1" />
+				<npc id="25310" count="1" respawnTime="360" weightPoint="1" /> <!-- Shadith' Escort Captain -->
+				<npc id="25311" count="4" respawnTime="360" weightPoint="1" /> <!-- Shadith' Sentinel -->
 			</minions>
 			<param name="RaidSpawnMusic" value="Rm03_A" />
 			<skill name="DDMagic_a" id="4195" level="9" />
@@ -350,7 +350,7 @@
 		<equipment rhand="6716" /> <!-- Monster Only (Silenos Shaman) -->
 		<acquire exp="1670060147" sp="400814" />
 		<stats str="60" int="76" dex="73" wit="70" con="57" men="80">
-			<vitals hp="1801962.32226519" hpRegen="5000" mp="1674.8" mpRegen="3" />
+			<vitals hp="1982158.55449171" hpRegen="5000" mp="1674.8" mpRegen="3" />
 			<attack physical="1445.33274686674" magical="280.52213944732" random="20" critical="1" accuracy="9" attackSpeed="253" type="BLUNT" range="40" distance="80" width="120" />
 			<defence physical="1024.125" magical="499.6" />
 			<speed>
@@ -393,7 +393,7 @@
 		<sex>MALE</sex>
 		<equipment rhand="142" lhand="6918" /> <!-- Keshanberk / Monster Only (Shield of Silenos) -->
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="47562.3910653454" hpRegen="91.4930863014358" mp="1641" mpRegen="3" />
+			<vitals hp="52318.6301718799" hpRegen="91.4930863014358" mp="1641" mpRegen="3" />
 			<attack physical="5697.64406230895" magical="4423.65426034769" random="10" critical="4" accuracy="4.75" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
 			<defence physical="505.60512" magical="493.3" />
 			<speed>
@@ -429,7 +429,7 @@
 		<sex>MALE</sex>
 		<equipment rhand="2504" /> <!-- Meteor Shower -->
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="23781.1955326727" hpRegen="91.4930863014358" mp="1641" mpRegen="3" />
+			<vitals hp="26159.31508594" hpRegen="91.4930863014358" mp="1641" mpRegen="3" />
 			<attack physical="2848.82203115447" magical="1105.91356508692" random="5" critical="8" accuracy="0" attackSpeed="253" type="DAGGER" range="40" distance="80" width="120" />
 			<defence physical="505.60512" magical="493.3" />
 			<speed>
@@ -463,7 +463,7 @@
 		<parameters>
 			<minions name="Privates">
 				<npc id="25313" count="2" respawnTime="360" weightPoint="1" /> <!-- Mos' Aide -->
-				<npc id="25314" count="2" respawnTime="360" weightPoint="1" /> <!-- Mos' Guard -->
+				<npc id="25314" count="2" respawnTime="360" weightPoint="1" /> <!-- Mos' Escort -->
 			</minions>
 			<param name="RaidSpawnMusic" value="Rm02_A" />
 			<skill name="RangeDDMagic_a" id="4178" level="9" /> <!-- BOSS Flamestrike -->
@@ -500,7 +500,7 @@
 		<sex>MALE</sex>
 		<equipment rhand="6716" /> <!-- Monster Only (Silenos Shaman) -->
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="49508.3622024573" hpRegen="95.1367199926651" mp="1777.4" mpRegen="3" />
+			<vitals hp="54459.1984227031" hpRegen="95.1367199926651" mp="1777.4" mpRegen="3" />
 			<attack physical="2978.25554885911" magical="1250.28527747264" random="20" critical="1" accuracy="9" attackSpeed="253" type="BLUNT" range="40" distance="80" width="120" />
 			<defence physical="546.7159248" magical="533.4164" />
 			<speed>
@@ -537,7 +537,7 @@
 		<sex>MALE</sex>
 		<equipment rhand="142" /> <!-- Keshanberk -->
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="24754.1811012287" hpRegen="95.1367199926651" mp="1777.4" mpRegen="3" />
+			<vitals hp="27229.5992113515" hpRegen="95.1367199926651" mp="1777.4" mpRegen="3" />
 			<attack physical="2978.25554885911" magical="1250.28527747264" random="10" critical="4" accuracy="4.75" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
 			<defence physical="546.7159248" magical="533.4164" />
 			<speed>
@@ -601,8 +601,8 @@
 	<npc id="25316" level="75" type="RaidBoss" name="Water Spirit Ashutar" title="Raid Boss">
 		<parameters>
 			<minions name="Privates">
-				<npc id="25317" count="1" respawnTime="360" weightPoint="1" />
-				<npc id="25318" count="4" respawnTime="360" weightPoint="1" />
+				<npc id="25317" count="1" respawnTime="360" weightPoint="1" /> <!-- Ashutar's Kin -->
+				<npc id="25318" count="4" respawnTime="360" weightPoint="1" /> <!-- Ashutar's Kin -->
 			</minions>
 			<param name="RaidSpawnMusic" value="Rm03_A" />
 			<skill name="DDMagic_a" id="4196" level="10" />
@@ -613,7 +613,7 @@
 		<sex>FEMALE</sex>
 		<acquire exp="2643172" sp="634" />
 		<stats str="60" int="76" dex="73" wit="70" con="57" men="80">
-			<vitals hp="1348544.25360805" hpRegen="5000" mp="1917" mpRegen="3" />
+			<vitals hp="1483398.67896886" hpRegen="5000" mp="1917" mpRegen="3" />
 			<attack physical="919.753931716379" magical="309.854019612594" random="5" critical="4" accuracy="4.75" attackSpeed="253" type="FIST" range="40" distance="80" width="120" />
 			<defence physical="1185.643995" magical="578.3992" />
 			<speed>
@@ -655,7 +655,7 @@
 		<race>CONSTRUCT</race>
 		<sex>MALE</sex>
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="35605.1288081334" hpRegen="76.0201258197969" mp="1881.8" mpRegen="3" />
+			<vitals hp="39165.6416889468" hpRegen="76.0201258197969" mp="1881.8" mpRegen="3" />
 			<attack physical="3642.58982857972" magical="4799.50285599904" random="20" critical="1" accuracy="9" attackSpeed="253" type="BLUNT" range="40" distance="80" width="120" />
 			<defence physical="581.336118" magical="567.1848" />
 			<speed>
@@ -690,7 +690,7 @@
 		<race>CONSTRUCT</race>
 		<sex>MALE</sex>
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="17802.5644040667" hpRegen="76.0201258197969" mp="1881.8" mpRegen="3" />
+			<vitals hp="19582.8208444734" hpRegen="76.0201258197969" mp="1881.8" mpRegen="3" />
 			<attack physical="1821.29491428986" magical="1199.87571399976" random="20" critical="1" accuracy="9" attackSpeed="253" type="BLUNT" range="40" distance="80" width="120" />
 			<defence physical="581.336118" magical="567.1848" />
 			<speed>
@@ -723,8 +723,8 @@
 	<npc id="25319" level="75" type="RaidBoss" name="Ember" title="Raid Boss">
 		<parameters>
 			<minions name="Privates">
-				<npc id="25320" count="3" respawnTime="360" weightPoint="1" />
-				<npc id="25321" count="1" respawnTime="360" weightPoint="1" />
+				<npc id="25320" count="3" respawnTime="360" weightPoint="1" /> <!-- Sentinel of Ember -->
+				<npc id="25321" count="1" respawnTime="360" weightPoint="1" /> <!-- Messenger of Ember -->
 			</minions>
 			<param name="RaidSpawnMusic" value="Rm01_A" />
 			<skill name="DDMagic_a" id="4191" level="10" />
@@ -735,7 +735,7 @@
 		<sex>MALE</sex>
 		<acquire exp="5437588" sp="1305" />
 		<stats str="60" int="76" dex="73" wit="70" con="57" men="80">
-			<vitals hp="2643448.10041031" hpRegen="5000" mp="1846.8" mpRegen="3" />
+			<vitals hp="2907792.91045134" hpRegen="5000" mp="1846.8" mpRegen="3" />
 			<attack physical="2807.84035814098" magical="1145.14415159579" random="10" critical="4" accuracy="4.75" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
 			<defence physical="1139.632641" magical="555.954" />
 			<speed>
@@ -778,7 +778,7 @@
 		<race>CONSTRUCT</race>
 		<sex>MALE</sex>
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="46761.9861986775" hpRegen="134.1096890947" mp="1812" mpRegen="3" />
+			<vitals hp="51438.1848185452" hpRegen="134.1096890947" mp="1812" mpRegen="3" />
 			<attack physical="7413.2545534839" magical="7859.00328968377" random="5" critical="4" accuracy="4.75" attackSpeed="253" type="FIST" range="40" distance="80" width="120" />
 			<defence physical="558.2728788" magical="544.6896" />
 			<speed>
@@ -821,7 +821,7 @@
 		<race>ELEMENTAL</race>
 		<sex>MALE</sex>
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="69794.0092517574" hpRegen="134.1096890947" mp="1812" mpRegen="3" />
+			<vitals hp="76773.4101769332" hpRegen="134.1096890947" mp="1812" mpRegen="3" />
 			<attack physical="5560.07991711085" magical="4420.88276406805" random="5" critical="4" accuracy="4.75" attackSpeed="253" type="FIST" range="40" distance="80" width="120" />
 			<defence physical="558.2728788" magical="544.6896" />
 			<speed>
@@ -856,8 +856,8 @@
 	<npc id="25322" level="66" type="RaidBoss" name="Demon's Agent Falston" title="Raid Boss">
 		<parameters>
 			<minions name="Privates">
-				<npc id="25323" count="3" respawnTime="360" weightPoint="1" />
-				<npc id="25324" count="1" respawnTime="360" weightPoint="1" />
+				<npc id="25323" count="3" respawnTime="360" weightPoint="1" /> <!-- Falston's Disciple -->
+				<npc id="25324" count="1" respawnTime="360" weightPoint="1" /> <!-- Servant of Falston -->
 			</minions>
 			<param name="RaidSpawnMusic" value="Rm01_A" />
 			<skill name="RangeHold_a" id="4197" level="6" />
@@ -867,7 +867,7 @@
 		<equipment rhand="6723" /> <!-- Monster Only (Vampire Warrior) -->
 		<acquire exp="111003597" sp="26640" />
 		<stats str="60" int="76" dex="73" wit="70" con="57" men="80">
-			<vitals hp="2103103.86214303" hpRegen="2500" mp="1219.8" mpRegen="2.7" />
+			<vitals hp="2313414.24835734" hpRegen="2500" mp="1219.8" mpRegen="2.7" />
 			<attack physical="1885.06250586742" magical="624.886061285576" random="10" critical="4" accuracy="4.75" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
 			<defence physical="830.18256" magical="405" />
 			<speed>
@@ -909,7 +909,7 @@
 		<sex>FEMALE</sex>
 		<equipment rhand="99" /> <!-- Apprentice's Spellbook -->
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="36887.5737958898" hpRegen="110.823040573561" mp="1188.8" mpRegen="2.7" />
+			<vitals hp="40576.3311754788" hpRegen="110.823040573561" mp="1188.8" mpRegen="2.7" />
 			<attack physical="4841.23256010037" magical="4311.34525530238" random="20" critical="1" accuracy="9" attackSpeed="253" type="BLUNT" range="40" distance="80" width="120" />
 			<defence physical="407.835495" magical="397.92" />
 			<speed>
@@ -949,7 +949,7 @@
 		<sex>MALE</sex>
 		<equipment rhand="178" /> <!-- Bone Staff -->
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="55056.0802923729" hpRegen="110.823040573561" mp="1188.8" mpRegen="2.7" />
+			<vitals hp="60561.6883216102" hpRegen="110.823040573561" mp="1188.8" mpRegen="2.7" />
 			<attack physical="7262.03039091033" magical="9700.95124104716" random="20" critical="1" accuracy="9" attackSpeed="253" type="BLUNT" range="40" distance="80" width="120" />
 			<defence physical="407.835495" magical="397.92" />
 			<speed>
@@ -983,8 +983,8 @@
 	<npc id="25325" level="70" type="RaidBoss" name="Flame of Splendor Barakiel" title="Raid Boss">
 		<parameters>
 			<minions name="Privates">
-				<npc id="25326" count="1" respawnTime="360" weightPoint="1" />
-				<npc id="25327" count="4" respawnTime="360" weightPoint="1" />
+				<npc id="25326" count="1" respawnTime="360" weightPoint="1" /> <!-- Barakiel's Disciple -->
+				<npc id="25327" count="4" respawnTime="360" weightPoint="1" /> <!-- Barakiel's Acolyte -->
 			</minions>
 			<param name="RaidSpawnMusic" value="Rm01_A" />
 			<skill name="DDMagic_a" id="4192" level="7" />
@@ -996,7 +996,7 @@
 		<equipment rhand="6717" /> <!-- Monster Only (Einhasad Warrior) -->
 		<acquire exp="226669890" sp="54400" />
 		<stats str="60" int="76" dex="73" wit="70" con="57" men="80">
-			<vitals hp="2240316.42745449" hpRegen="2500" mp="1345.8" mpRegen="2.7" />
+			<vitals hp="2464348.07019994" hpRegen="2500" mp="1345.8" mpRegen="2.7" />
 			<attack physical="2154.88111713047" magical="717.403871261232" random="10" critical="4" accuracy="4.75" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
 			<defence physical="887.74791" magical="433.08" />
 			<speed>
@@ -1039,7 +1039,7 @@
 		<sex>MALE</sex>
 		<equipment rhand="6718" /> <!-- Monster Only (Einhasad Shaman) -->
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="58887.3167955979" hpRegen="116.468584127042" mp="1314" mpRegen="2.7" />
+			<vitals hp="64776.0484751577" hpRegen="116.468584127042" mp="1314" mpRegen="2.7" />
 			<attack physical="8357.00898150475" magical="11094.0736231147" random="20" critical="1" accuracy="9" attackSpeed="253" type="BLUNT" range="40" distance="80" width="120" />
 			<defence physical="436.725945" magical="426.1" />
 			<speed>
@@ -1075,7 +1075,7 @@
 		<sex>MALE</sex>
 		<equipment rhand="6718" /> <!-- Monster Only (Einhasad Shaman) -->
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="29443.6583977989" hpRegen="116.468584127042" mp="1314" mpRegen="2.7" />
+			<vitals hp="32388.0242375788" hpRegen="116.468584127042" mp="1314" mpRegen="2.7" />
 			<attack physical="4178.50449075237" magical="2773.51840577869" random="20" critical="1" accuracy="9" attackSpeed="253" type="BLUNT" range="40" distance="80" width="120" />
 			<defence physical="436.725945" magical="426.1" />
 			<speed>
@@ -1108,10 +1108,10 @@
 	<npc id="25328" level="71" type="RaidBoss" name="Eilhalder von Hellmann" title="Raid Boss">
 		<parameters>
 			<minions name="Privates">
-				<npc id="25329" count="1" respawnTime="360" weightPoint="1" />
-				<npc id="25330" count="1" respawnTime="360" weightPoint="1" />
-				<npc id="25331" count="1" respawnTime="360" weightPoint="1" />
-				<npc id="25332" count="1" respawnTime="360" weightPoint="1" />
+				<npc id="25329" count="1" respawnTime="360" weightPoint="1" /> <!-- Violette -->
+				<npc id="25330" count="1" respawnTime="360" weightPoint="1" /> <!-- Kurstin -->
+				<npc id="25331" count="1" respawnTime="360" weightPoint="1" /> <!-- Mina -->
+				<npc id="25332" count="1" respawnTime="360" weightPoint="1" /> <!-- Dorian -->
 			</minions>
 			<param name="RaidSpawnMusic" value="Rm02_A" />
 			<skill name="RangeHold_a" id="4197" level="7" />
@@ -1120,7 +1120,7 @@
 		<sex>MALE</sex>
 		<acquire exp="235387962" sp="56493" />
 		<stats str="60" int="76" dex="73" wit="70" con="57" men="80">
-			<vitals hp="2271093.4140046" hpRegen="3500" mp="1377.8" mpRegen="3" />
+			<vitals hp="2498202.75540506" hpRegen="3500" mp="1377.8" mpRegen="3" />
 			<attack physical="2218.75550083933" magical="795.420449310881" random="5" critical="4" accuracy="4.75" attackSpeed="253" type="FIST" range="40" distance="80" width="120" />
 			<defence physical="901.96077" magical="440.02" />
 			<speed>
@@ -1162,7 +1162,7 @@
 		<sex>FEMALE</sex>
 		<equipment rhand="946" /> <!-- Skeleton Dagger -->
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="40026.986837187" hpRegen="117.68436242886" mp="1345.8" mpRegen="2.7" />
+			<vitals hp="44029.6855209057" hpRegen="117.68436242886" mp="1345.8" mpRegen="2.7" />
 			<attack physical="5746.2059869401" magical="5101.31544776437" random="5" critical="8" accuracy="0" attackSpeed="253" type="DAGGER" range="40" distance="80" width="120" />
 			<defence physical="443.873955" magical="433.08" />
 			<speed>
@@ -1203,7 +1203,7 @@
 		<sex>FEMALE</sex>
 		<equipment rhand="946" /> <!-- Skeleton Dagger -->
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="40026.986837187" hpRegen="117.68436242886" mp="1345.8" mpRegen="2.7" />
+			<vitals hp="44029.6855209057" hpRegen="117.68436242886" mp="1345.8" mpRegen="2.7" />
 			<attack physical="5746.2059869401" magical="5101.31544776437" random="5" critical="8" accuracy="0" attackSpeed="253" type="DAGGER" range="40" distance="80" width="120" />
 			<defence physical="443.873955" magical="433.08" />
 			<speed>
@@ -1244,7 +1244,7 @@
 		<sex>FEMALE</sex>
 		<equipment rhand="946" /> <!-- Skeleton Dagger -->
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="40026.986837187" hpRegen="117.68436242886" mp="1345.8" mpRegen="2.7" />
+			<vitals hp="44029.6855209057" hpRegen="117.68436242886" mp="1345.8" mpRegen="2.7" />
 			<attack physical="5746.2059869401" magical="5101.31544776437" random="5" critical="8" accuracy="0" attackSpeed="253" type="DAGGER" range="40" distance="80" width="120" />
 			<defence physical="443.873955" magical="433.08" />
 			<speed>
@@ -1284,7 +1284,7 @@
 		<sex>MALE</sex>
 		<equipment rhand="234" /> <!-- Demon's Dagger -->
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="59741.7713987865" hpRegen="117.68436242886" mp="1345.8" mpRegen="2.7" />
+			<vitals hp="65715.9485386652" hpRegen="117.68436242886" mp="1345.8" mpRegen="2.7" />
 			<attack physical="8619.52446852187" magical="11478.4619401797" random="10" critical="4" accuracy="4.75" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
 			<defence physical="443.873955" magical="433.08" />
 			<speed>
@@ -1510,7 +1510,7 @@
 		<sex>MALE</sex>
 		<acquire exp="2044015" sp="490" />
 		<stats str="60" int="76" dex="73" wit="70" con="57" men="80">
-			<vitals hp="2182711.63061157" hpRegen="160.661813888535" mp="1282.4" mpRegen="2.7" />
+			<vitals hp="2400982.79367273" hpRegen="160.661813888535" mp="1282.4" mpRegen="2.7" />
 			<attack physical="1269.93205526796" magical="659.985595188552" random="5" critical="4" accuracy="4.75" attackSpeed="253" type="FIST" range="40" distance="80" width="120" />
 			<defence physical="859.0845" magical="419.1" />
 			<speed>
@@ -1556,7 +1556,7 @@
 		<sex>MALE</sex>
 		<acquire exp="2504376" sp="601" />
 		<stats str="60" int="76" dex="73" wit="70" con="57" men="80">
-			<vitals hp="2464345.74118205" hpRegen="175.808199429551" mp="1607.4" mpRegen="3" />
+			<vitals hp="2710780.31530026" hpRegen="175.808199429551" mp="1607.4" mpRegen="3" />
 			<attack physical="1662.16594596409" magical="941.257306822256" random="5" critical="4" accuracy="4.75" attackSpeed="253" type="FIST" range="40" distance="80" width="120" />
 			<defence physical="998.10183" magical="486.92" />
 			<speed>
@@ -1594,8 +1594,8 @@
 	<npc id="25339" level="85" type="Monster" name="Alectia" title="Halisha's Shadow">
 		<parameters>
 			<minions name="Privates">
-				<npc id="25340" count="1" respawnTime="360" weightPoint="1" />
-				<npc id="25341" count="1" respawnTime="360" weightPoint="1" />
+				<npc id="25340" count="1" respawnTime="360" weightPoint="1" /> <!-- Alectia's Knight -->
+				<npc id="25341" count="1" respawnTime="360" weightPoint="1" /> <!-- Alectia's Knight -->
 			</minions>
 			<param name="RaidSpawnMusic" value="Rm03_A" />
 			<skill name="RangeDDMagic_a" id="4178" level="9" />
@@ -1605,7 +1605,7 @@
 		<equipment rhand="6720" /> <!-- Monster Only (Halisha's Shadow) -->
 		<acquire exp="115600000" sp="3468000" />
 		<stats str="60" int="76" dex="73" wit="70" con="57" men="80">
-			<vitals hp="5000000" hpRegen="1" mp="1708.8" mpRegen="3" />
+			<vitals hp="5500000" hpRegen="1" mp="1708.8" mpRegen="3" />
 			<attack physical="35810" magical="4375" random="5" critical="8" accuracy="0" attackSpeed="253" type="BOW" range="1100" distance="10" width="0" />
 			<defence physical="2505" magical="1452" />
 			<speed>
@@ -1652,7 +1652,7 @@
 		<race>DEMONIC</race>
 		<sex>MALE</sex>
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="44350.854" hpRegen="17" mp="2770.2" mpRegen="6" />
+			<vitals hp="48785.9394" hpRegen="17" mp="2770.2" mpRegen="6" />
 			<attack physical="47554.9" magical="24355.375" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
 			<defence physical="1562.9247648" magical="857.7603864" />
 			<speed>
@@ -1688,7 +1688,7 @@
 		<race>BEAST</race>
 		<sex>MALE</sex>
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="44350.854" hpRegen="17" mp="2770.2" mpRegen="6" />
+			<vitals hp="48785.9394" hpRegen="17" mp="2770.2" mpRegen="6" />
 			<attack physical="47554.9" magical="24355.375" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
 			<defence physical="1562.9247648" magical="857.7603864" />
 			<speed>
@@ -1721,9 +1721,9 @@
 	<npc id="25342" level="85" type="Monster" name="Tisha" title="Halisha's Shadow">
 		<parameters>
 			<minions name="Privates">
-				<npc id="25343" count="1" respawnTime="360" weightPoint="1" />
-				<npc id="25345" count="1" respawnTime="360" weightPoint="1" />
-				<npc id="25344" count="1" respawnTime="360" weightPoint="1" />
+				<npc id="25343" count="1" respawnTime="360" weightPoint="1" /> <!-- Tisha's Knight -->
+				<npc id="25345" count="1" respawnTime="360" weightPoint="1" /> <!-- Tisha's Knight -->
+				<npc id="25344" count="1" respawnTime="360" weightPoint="1" /> <!-- Tisha's Knight -->
 			</minions>
 			<param name="RaidSpawnMusic" value="Rm02_A" />
 			<skill name="PhysicalSpecial_b" id="4748" level="9" />
@@ -1733,7 +1733,7 @@
 		<equipment rhand="6720" /> <!-- Monster Only (Halisha's Shadow) -->
 		<acquire exp="2643172" sp="634" />
 		<stats str="60" int="76" dex="73" wit="70" con="57" men="80">
-			<vitals hp="10000000" hpRegen="1" mp="1708.8" mpRegen="3" />
+			<vitals hp="11000000" hpRegen="1" mp="1708.8" mpRegen="3" />
 			<attack physical="53715" magical="4375" random="5" critical="8" accuracy="0" attackSpeed="253" type="BOW" range="1100" distance="10" width="0" />
 			<defence physical="2505" magical="1452" />
 			<speed>
@@ -1780,7 +1780,7 @@
 		<race>DEMONIC</race>
 		<sex>MALE</sex>
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="44350.854" hpRegen="17" mp="2770.2" mpRegen="6" />
+			<vitals hp="48785.9394" hpRegen="17" mp="2770.2" mpRegen="6" />
 			<attack physical="47554.9" magical="24355.375" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
 			<defence physical="1562.9247648" magical="857.7603864" />
 			<speed>
@@ -1816,7 +1816,7 @@
 		<race>DEMONIC</race>
 		<sex>MALE</sex>
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="44350.854" hpRegen="17" mp="2770.2" mpRegen="6" />
+			<vitals hp="48785.9394" hpRegen="17" mp="2770.2" mpRegen="6" />
 			<attack physical="47554.9" magical="24355.375" random="5" critical="8" accuracy="0" attackSpeed="253" type="BOW" range="1100" distance="10" width="0" />
 			<defence physical="1562.9247648" magical="857.7603864" />
 			<speed>
@@ -1854,7 +1854,7 @@
 		<race>DEMONIC</race>
 		<sex>FEMALE</sex>
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="44350.854" hpRegen="17" mp="2770.2" mpRegen="6" />
+			<vitals hp="48785.9394" hpRegen="17" mp="2770.2" mpRegen="6" />
 			<attack physical="47554.9" magical="24355.375" random="20" critical="1" accuracy="9" attackSpeed="253" type="BLUNT" range="40" distance="80" width="120" />
 			<defence physical="1562.9247648" magical="857.7603864" />
 			<speed>
@@ -1889,8 +1889,8 @@
 	<npc id="25346" level="85" type="Monster" name="Mekara" title="Halisha's Shadow">
 		<parameters>
 			<minions name="Privates">
-				<npc id="25347" count="1" respawnTime="360" weightPoint="1" />
-				<npc id="25348" count="1" respawnTime="360" weightPoint="1" />
+				<npc id="25347" count="1" respawnTime="360" weightPoint="1" /> <!-- Mekara's Knight -->
+				<npc id="25348" count="1" respawnTime="360" weightPoint="1" /> <!-- Mekara's Knight -->
 			</minions>
 			<param name="RaidSpawnMusic" value="Rm01_A" />
 			<skill name="RangeHold_a" id="4197" level="9" />
@@ -1900,7 +1900,7 @@
 		<equipment rhand="6720" /> <!-- Monster Only (Halisha's Shadow) -->
 		<acquire exp="2643172" sp="634" />
 		<stats str="60" int="76" dex="73" wit="70" con="57" men="80">
-			<vitals hp="17500000" hpRegen="1" mp="1708.8" mpRegen="3" />
+			<vitals hp="19250000" hpRegen="1" mp="1708.8" mpRegen="3" />
 			<attack physical="71332.35" magical="4375" random="5" critical="8" accuracy="0" attackSpeed="253" type="BOW" range="1100" distance="10" width="0" />
 			<defence physical="2505" magical="1452" />
 			<speed>
@@ -1947,7 +1947,7 @@
 		<race>DEMONIC</race>
 		<sex>FEMALE</sex>
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="44350.854" hpRegen="17" mp="2770.2" mpRegen="6" />
+			<vitals hp="48785.9394" hpRegen="17" mp="2770.2" mpRegen="6" />
 			<attack physical="47554.9" magical="24355.375" random="20" critical="1" accuracy="9" attackSpeed="253" type="BLUNT" range="40" distance="80" width="120" />
 			<defence physical="1562.9247648" magical="857.7603864" />
 			<speed>
@@ -1987,7 +1987,7 @@
 		<sex>MALE</sex>
 		<equipment rhand="78" /> <!-- Great Sword -->
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="44350.854" hpRegen="17" mp="2770.2" mpRegen="6" />
+			<vitals hp="48785.9394" hpRegen="17" mp="2770.2" mpRegen="6" />
 			<attack physical="47554.9" magical="24355.375" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
 			<defence physical="1562.9247648" magical="857.7603864" />
 			<speed>
@@ -2023,8 +2023,8 @@
 	<npc id="25349" level="85" type="Monster" name="Morigul" title="Halisha's Shadow">
 		<parameters>
 			<minions name="Privates">
-				<npc id="25350" count="1" respawnTime="360" weightPoint="1" />
-				<npc id="25351" count="1" respawnTime="360" weightPoint="1" />
+				<npc id="25350" count="1" respawnTime="360" weightPoint="1" /> <!-- Morigul's Knight -->
+				<npc id="25351" count="1" respawnTime="360" weightPoint="1" /> <!-- Morigul's Knight -->
 			</minions>
 			<param name="RaidSpawnMusic" value="Rm03_A" />
 			<skill name="DDMagic_a" id="4195" level="9" />
@@ -2036,7 +2036,7 @@
 		<equipment rhand="6720" /> <!-- Monster Only (Halisha's Shadow) -->
 		<acquire exp="2643172" sp="634" />
 		<stats str="60" int="76" dex="73" wit="70" con="57" men="80">
-			<vitals hp="30000000" hpRegen="1" mp="1708.8" mpRegen="3" />
+			<vitals hp="33000000" hpRegen="1" mp="1708.8" mpRegen="3" />
 			<attack physical="142664.7" magical="4375" random="5" critical="8" accuracy="0" attackSpeed="253" type="BOW" range="1100" distance="10" width="0" />
 			<defence physical="2505" magical="1452" />
 			<speed>
@@ -2085,7 +2085,7 @@
 		<race>DEMONIC</race>
 		<sex>FEMALE</sex>
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="44350.854" hpRegen="17" mp="2770.2" mpRegen="6" />
+			<vitals hp="48785.9394" hpRegen="17" mp="2770.2" mpRegen="6" />
 			<attack physical="47554.9" magical="24355.375" random="20" critical="1" accuracy="9" attackSpeed="253" type="BLUNT" range="40" distance="80" width="120" />
 			<defence physical="1562.9247648" magical="857.7603864" />
 			<speed>
@@ -2125,7 +2125,7 @@
 		<race>DEMONIC</race>
 		<sex>MALE</sex>
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="44350.854" hpRegen="17" mp="2770.2" mpRegen="6" />
+			<vitals hp="48785.9394" hpRegen="17" mp="2770.2" mpRegen="6" />
 			<attack physical="47554.9" magical="24355.375" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
 			<defence physical="1562.9247648" magical="857.7603864" />
 			<speed>
@@ -2160,7 +2160,7 @@
 	<npc id="25352" level="30" type="RaidBoss" name="Giant Wasteland Basilisk" title="Raid Boss">
 		<parameters>
 			<minions name="Privates">
-				<npc id="25353" count="3" respawnTime="360" weightPoint="1" />
+				<npc id="25353" count="3" respawnTime="360" weightPoint="1" /> <!-- Wasteland Basilisk -->
 			</minions>
 			<param name="RaidSpawnMusic" value="Rm03_A" />
 			<skill name="RangeHold_a" id="4197" level="3" />
@@ -2264,8 +2264,8 @@
 	<npc id="25354" level="35" type="RaidBoss" name="Gargoyle Lord Sirocco" title="Raid Boss">
 		<parameters>
 			<minions name="Privates">
-				<npc id="25355" count="4" respawnTime="360" weightPoint="1" />
-				<npc id="25356" count="1" respawnTime="360" weightPoint="1" />
+				<npc id="25355" count="4" respawnTime="360" weightPoint="1" /> <!-- Sirocco's Gargoyle -->
+				<npc id="25356" count="1" respawnTime="360" weightPoint="1" /> <!-- Sirocco's Escorts -->
 			</minions>
 			<param name="RaidSpawnMusic" value="Rm02_A" />
 			<skill name="DDMagic_a" id="4195" level="3" />
@@ -2412,8 +2412,8 @@
 	<npc id="25357" level="21" type="RaidBoss" name="Sukar Ratman Chief" title="Raid Boss">
 		<parameters>
 			<minions name="Privates">
-				<npc id="25358" count="2" respawnTime="360" weightPoint="1" />
-				<npc id="25359" count="1" respawnTime="360" weightPoint="1" />
+				<npc id="25358" count="2" respawnTime="360" weightPoint="1" /> <!-- Sukar Ratman Escort -->
+				<npc id="25359" count="1" respawnTime="360" weightPoint="1" /> <!-- Sukar Ratman Priest -->
 			</minions>
 			<param name="RaidSpawnMusic" value="Rm02_A" />
 			<skill name="RangeDDMagic_a" id="4178" level="2" />
@@ -2569,7 +2569,7 @@
 	<npc id="25360" level="26" type="RaidBoss" name="Tiger Hornet" title="Raid Boss">
 		<parameters>
 			<minions name="Privates">
-				<npc id="25361" count="3" respawnTime="360" weightPoint="1" />
+				<npc id="25361" count="3" respawnTime="360" weightPoint="1" /> <!-- Yellow Hornet -->
 			</minions>
 			<param name="RaidSpawnMusic" value="Rm03_A" />
 			<skill name="RangeHold_a" id="4197" level="2" />
@@ -2652,8 +2652,8 @@
 	<npc id="25362" level="23" type="RaidBoss" name="Tracker Captain Sharuk" title="Raid Boss">
 		<parameters>
 			<minions name="Privates">
-				<npc id="25363" count="2" respawnTime="360" weightPoint="1" />
-				<npc id="25364" count="3" respawnTime="360" weightPoint="1" />
+				<npc id="25363" count="2" respawnTime="360" weightPoint="1" /> <!-- Sharuk's Tracker -->
+				<npc id="25364" count="3" respawnTime="360" weightPoint="1" /> <!-- Sharuk's Sniper -->
 			</minions>
 			<param name="RaidSpawnMusic" value="Rm02_A" />
 			<skill name="PhysicalSpecial_b" id="4743" level="2" />
@@ -2777,7 +2777,7 @@
 		<sex>MALE</sex>
 		<equipment rhand="93" /> <!-- Winged Spear -->
 		<stats str="60" int="76" dex="73" wit="70" con="57" men="80">
-			<vitals hp="1120158.21372725" hpRegen="1207.39267133816" mp="2691.6" mpRegen="5.4" />
+			<vitals hp="1232174.03509997" hpRegen="1207.39267133816" mp="2691.6" mpRegen="5.4" />
 			<attack physical="12124.002" magical="5644.86" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
 			<defence physical="1775.49582" magical="866.16" />
 			<speed>
@@ -2856,27 +2856,13 @@
 				<item id="91900" min="1" max="1" chance="2.813" /> <!-- Colichemarde -->
 				<item id="94884" min="1" max="1" chance="2.813" /> <!-- Volcano -->
 			</drop>
-			<fortune>
-				<item id="94135" min="1" max="1" chance="0.067" /> <!-- Master's Book: Might -->
-				<item id="94136" min="1" max="1" chance="0.067" /> <!-- Master's Book: Shield -->
-				<item id="94361" min="1" max="1" chance="0.067" /> <!-- Master's Book: Empower -->
-				<item id="94362" min="1" max="1" chance="0.067" /> <!-- Master's Book: Magic Barrier -->
-				<item id="94363" min="1" max="1" chance="0.067" /> <!-- Master's Book: Focus -->
-				<item id="94364" min="1" max="1" chance="0.067" /> <!-- Master's Book: Death Whisper -->
-				<item id="94365" min="1" max="1" chance="0.067" /> <!-- Master's Book: Wind Walk -->
-				<item id="94366" min="1" max="1" chance="0.067" /> <!-- Master's Book: Berserker Spirit -->
-				<item id="94367" min="1" max="1" chance="0.067" /> <!-- Master's Book: Clarity -->
-				<item id="94368" min="1" max="1" chance="0.067" /> <!-- Master's Book: Wild Magic -->
-				<item id="94369" min="1" max="1" chance="0.067" /> <!-- Master's Book: Haste -->
-				<item id="94370" min="1" max="1" chance="0.067" /> <!-- Master's Book: Acumen -->
-			</fortune>
 		</dropLists>
 	</npc>
-	<npc id="25366" level="85" type="RaidBoss" name="Kuroboros' High Priest" title="High Elite">
+	<npc id="25366" level="90" type="RaidBoss" name="Kuroboros' High Priest" title="High Elite">
 		<parameters>
 			<minions name="Privates">
-				<npc id="25367" count="2" respawnTime="360" weightPoint="1" />
-				<npc id="25368" count="1" respawnTime="360" weightPoint="1" />
+				<npc id="25367" count="2" respawnTime="360" weightPoint="1" /> <!-- Kuroboros' Follower -->
+				<npc id="25368" count="1" respawnTime="360" weightPoint="1" /> <!-- Kuroboros' Discipline -->
 			</minions>
 			<param name="RaidSpawnMusic" value="Rm02_A" />
 			<skill name="RangeDDMagic_a" id="4178" level="2" />
@@ -2885,9 +2871,9 @@
 		<sex>MALE</sex>
 		<equipment lhand="2" /> <!-- Long Sword -->
 		<stats str="60" int="76" dex="73" wit="70" con="57" men="80">
-			<vitals hp="4034803.28324654" hpRegen="2782.41061841141" mp="3693.6" mpRegen="6" />
+			<vitals hp="9168358.71748168" hpRegen="2782.41061841141" mp="4047.6" mpRegen="6" />
 			<attack physical="41848.312" magical="12177.6875" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
-			<defence physical="2170.72884" magical="1058.96" />
+			<defence physical="2383" magical="1058.96" />
 			<speed>
 				<walk ground="75" />
 				<run ground="190" />
@@ -2920,74 +2906,143 @@
 		</collision>
 		<dropLists>
 			<drop>
-				<item id="94319" min="1" max="1" chance="0.113" /> <!-- Spellbook: Sword Symphony -->
-				<item id="94320" min="1" max="1" chance="0.122" /> <!-- Spellbook: Dance of Blood -->
-				<item id="94499" min="1" max="1" chance="0.113" /> <!-- Spellbook: Titanic Weapon -->
-				<item id="94502" min="1" max="1" chance="0.11" /> <!-- Spellbook: Ogre Spirit Totem -->
-				<item id="94503" min="1" max="1" chance="0.11" /> <!-- Spellbook: Rabbit Spirit Totem -->
-				<item id="94504" min="1" max="1" chance="0.11" /> <!-- Spellbook: Puma Spirit Totem -->
-				<item id="94671" min="1" max="1" chance="0.111" /> <!-- Spellbook: Flame Burst -->
-				<item id="95356" min="1" max="1" chance="0.114" /> <!-- Spellbook: Extra Hit -->
-				<item id="96038" min="1" max="1" chance="0.111" /> <!-- Spellbook: Balanced Body -->
-				<item id="96041" min="1" max="1" chance="0.109" /> <!-- Spellbook: Eva's Nocturne -->
-				<item id="96044" min="1" max="1" chance="0.11" /> <!-- Spellbook: Nemesis -->
-				<item id="96287" min="1" max="1" chance="0.114" /> <!-- Spellbook: Ultimate Defense Lv. 3 -->
-				<item id="96605" min="1" max="1" chance="0.11" /> <!-- Spellbook: Shield of Security -->
-				<item id="96607" min="1" max="1" chance="0.109" /> <!-- Spellbook: Lunatic Crusher -->
-				<item id="96609" min="1" max="1" chance="0.109" /> <!-- Spellbook: Eva's Care -->
-				<item id="96611" min="1" max="1" chance="0.109" /> <!-- Spellbook: Shillien's Curse -->
-				<item id="96666" min="1" max="1" chance="0.113" /> <!-- Spellbook: Dark Blow -->
-				<item id="96877" min="1" max="1" chance="0.117" /> <!-- Spellbook: Chain Arrest -->
-				<item id="96878" min="1" max="1" chance="0.109" /> <!-- Spellbook: Flame Arrow -->
-				<item id="96879" min="1" max="1" chance="0.11" /> <!-- Spellbook: Arrow Shower -->
-				<item id="96880" min="1" max="1" chance="0.109" /> <!-- Spellbook: Piercing Arrow -->
-				<item id="97039" min="1" max="1" chance="0.112" /> <!-- Spellbook: Spiral -->
-				<item id="97104" min="1" max="1" chance="0.147" /> <!-- Spellbook: Master of Combat Lv. 3 -->
-				<item id="97108" min="1" max="1" chance="0.12" /> <!-- Spellbook: Wild Growl Lv. 2 -->
-				<item id="97109" min="1" max="1" chance="0.12" /> <!-- Spellbook: Darkness Unleashing -->
-				<item id="97188" min="1" max="1" chance="0.11" /> <!-- Spellbook: Ray of Light -->
-				<item id="97320" min="1" max="1" chance="0.109" /> <!-- Spellbook: Slashing Blades -->
-				<item id="97325" min="1" max="1" chance="0.108" /> <!-- Spellbook: Spear Rumble -->
-				<item id="97459" min="1" max="1" chance="0.109" /> <!-- Spellbook: Soul Guard Lv. 3 -->
-				<item id="97463" min="1" max="1" chance="0.109" /> <!-- Spellbook: Death Pain -->
-				<item id="97467" min="1" max="1" chance="0.111" /> <!-- Spellbook: Resonance -->
-				<item id="97471" min="1" max="1" chance="0.111" /> <!-- Spellbook: Lightning Tornado -->
-				<item id="97833" min="1" max="1" chance="0.112" /> <!-- Spellbook: Music Mastery -->
-				<item id="97834" min="1" max="1" chance="0.122" /> <!-- Spellbook: Dance Mastery -->
-				<item id="97835" min="1" max="1" chance="0.112" /> <!-- Spellbook: Song of Silence Lv. 4 -->
-				<item id="97836" min="1" max="1" chance="0.122" /> <!-- Spellbook: Dance of Medusa Lv. 4 -->
-				<item id="97840" min="1" max="1" chance="0.109" /> <!-- Spellbook: Essential Energy -->
-				<item id="97842" min="1" max="1" chance="0.109" /> <!-- Spellbook: Great Attack Lv. 3 -->
-				<item id="97843" min="1" max="1" chance="0.109" /> <!-- Spellbook: Perfect Abilities Lv. 3 -->
-				<item id="94117" min="1" max="1" chance="5" /> <!-- Advanced Pet Training Guide -->
-				<item id="94469" min="1" max="1" chance="0.208" /> <!-- Pet Book: Blocked Target Change -->
-				<item id="94471" min="1" max="1" chance="0.208" /> <!-- Pet Book: Strong Bite -->
-				<item id="94472" min="1" max="1" chance="0.208" /> <!-- Pet Book: Last Dire Claw -->
-				<item id="94475" min="1" max="1" chance="0.208" /> <!-- Pet Book: Exploding Feather -->
-				<item id="94476" min="1" max="1" chance="0.209" /> <!-- Pet Book: Pulling Body -->
-				<item id="94477" min="1" max="1" chance="0.209" /> <!-- Pet Book: Back Explosion -->
-				<item id="94478" min="1" max="1" chance="1.25" /> <!-- Pet Book: Steel Skin -->
-				<item id="96357" min="1" max="1" chance="0.208" /> <!-- STR Dye - Lv. 3 -->
-				<item id="96377" min="1" max="1" chance="0.208" /> <!-- CON Dye - Lv. 3 -->
-				<item id="96397" min="1" max="1" chance="0.208" /> <!-- DEX Dye - Lv. 3 -->
-				<item id="96417" min="1" max="1" chance="0.208" /> <!-- INT Dye - Lv. 3 -->
-				<item id="96437" min="1" max="1" chance="0.208" /> <!-- MEN Dye - Lv. 3 -->
-				<item id="96457" min="1" max="1" chance="0.208" /> <!-- WIT Dye - Lv. 3 -->
-				<item id="97382" min="1" max="1" chance="0.333" /> <!-- Pet Book: Master Recharge -->
-				<item id="97383" min="1" max="1" chance="0.333" /> <!-- Pet Book: Master Evasion -->
-				<item id="97384" min="1" max="1" chance="0.333" /> <!-- Pet Book: Master Power -->
-				<item id="97385" min="1" max="1" chance="0.333" /> <!-- Pet Book: Master Chance -->
-				<item id="97386" min="1" max="1" chance="0.333" /> <!-- Pet Book: Master Health -->
-				<item id="97387" min="1" max="1" chance="0.333" /> <!-- Pet Book: Master Speed -->
-				<item id="81" min="1" max="1" chance="1.928" /> <!-- Dragon Slayer -->
-				<item id="151" min="1" max="1" chance="1.928" /> <!-- Sword of Miracles -->
-				<item id="164" min="1" max="1" chance="1.928" /> <!-- Elysian -->
-				<item id="213" min="1" max="1" chance="1.928" /> <!-- Branch of the Mother Tree -->
-				<item id="236" min="1" max="1" chance="1.928" /> <!-- Soul Separator -->
-				<item id="270" min="1" max="1" chance="1.928" /> <!-- Dragon Grinder -->
-				<item id="289" min="1" max="1" chance="1.928" /> <!-- Soul Bow -->
-				<item id="305" min="1" max="1" chance="1.928" /> <!-- Tallum Glaive -->
-				<item id="2500" min="1" max="1" chance="1.928" /> <!-- Dark Legion's Edge -->
+				<item id="729" min="2" max="4" chance="20" /> <!-- Scroll: Enchant A-grade Weapon -->
+				<item id="730" min="2" max="4" chance="80" /> <!-- Scroll: Enchant A-grade Armor -->
+				<item id="91942" min="1" max="1" chance="0.053" /> <!-- Spellbook: Collect Light Souls Lv. 2 -->
+				<item id="91943" min="1" max="1" chance="0.053" /> <!-- Spellbook: Collect Shadow Souls Lv. 2 -->
+				<item id="93255" min="1" max="1" chance="2.4" /> <!-- Improved Scroll: Enchant A-grade Weapon -->
+				<item id="93256" min="1" max="1" chance="9.6" /> <!-- Improved Scroll: Enchant A-grade Armor -->
+				<item id="94138" min="1" max="1" chance="0.051" /> <!-- Spellbook: Pain of Sagittarius -->
+				<item id="94139" min="1" max="1" chance="0.052" /> <!-- Spellbook: Esprit -->
+				<item id="94140" min="1" max="1" chance="0.051" /> <!-- Spellbook: Dark Sense -->
+				<item id="94141" min="1" max="1" chance="0.053" /> <!-- Spellbook: Buff Thief -->
+				<item id="94319" min="1" max="1" chance="0.073" /> <!-- Spellbook: Sword Symphony -->
+				<item id="94320" min="1" max="1" chance="0.079" /> <!-- Spellbook: Dance of Blood -->
+				<item id="94321" min="1" max="1" chance="0.053" /> <!-- Spellbook: Wild Beat -->
+				<item id="94322" min="1" max="1" chance="0.056" /> <!-- Spellbook: Crazy Waltz -->
+				<item id="94499" min="1" max="1" chance="0.073" /> <!-- Spellbook: Titanic Weapon -->
+				<item id="94502" min="1" max="1" chance="0.071" /> <!-- Spellbook: Ogre Spirit Totem Lv. 2 -->
+				<item id="94503" min="1" max="1" chance="0.071" /> <!-- Spellbook: Rabbit Spirit Totem Lv. 2 -->
+				<item id="94504" min="1" max="1" chance="0.071" /> <!-- Spellbook: Puma Spirit Totem Lv. 2 -->
+				<item id="94506" min="1" max="1" chance="0.052" /> <!-- Spellbook: Burning Assault -->
+				<item id="94671" min="1" max="1" chance="0.072" /> <!-- Spellbook: Flame Burst -->
+				<item id="94672" min="1" max="1" chance="0.052" /> <!-- Spellbook: Seal of Infection -->
+				<item id="94675" min="1" max="1" chance="0.052" /> <!-- Spellbook: Cold Flames -->
+				<item id="94806" min="1" max="1" chance="0.053" /> <!-- Spellbook: Flying Dagger -->
+				<item id="95356" min="1" max="1" chance="0.074" /> <!-- Spellbook: Extra Hit -->
+				<item id="95357" min="1" max="1" chance="0.055" /> <!-- Spellbook: Time Burst Lv. 2 -->
+				<item id="95359" min="1" max="1" chance="0.055" /> <!-- Spellbook: Elemental Wind Lv. 2 -->
+				<item id="95363" min="1" max="1" chance="0.055" /> <!-- Spellbook: Elemental Spirit Lv. 3 -->
+				<item id="95654" min="1" max="1" chance="0.055" /> <!-- Spellbook: Elemental Care Lv. 2 -->
+				<item id="95857" min="1" max="1" chance="0.052" /> <!-- Spellbook: Golden Stone -->
+				<item id="95858" min="1" max="1" chance="0.052" /> <!-- Spellbook: Crushing Leap -->
+				<item id="95859" min="1" max="1" chance="0.052" /> <!-- Spellbook: Adena Stun -->
+				<item id="95860" min="1" max="1" chance="0.055" /> <!-- Spellbook: Life Gain -->
+				<item id="96038" min="1" max="1" chance="0.072" /> <!-- Spellbook: Balanced Body -->
+				<item id="96039" min="1" max="1" chance="0.052" /> <!-- Spellbook: Advanced Cleanse -->
+				<item id="96041" min="1" max="1" chance="0.071" /> <!-- Spellbook: Eva's Nocturne -->
+				<item id="96042" min="1" max="1" chance="0.051" /> <!-- Spellbook: Eva's Power -->
+				<item id="96044" min="1" max="1" chance="0.072" /> <!-- Spellbook: Nemesis -->
+				<item id="96045" min="1" max="1" chance="0.052" /> <!-- Spellbook: Shillien's Power -->
+				<item id="96046" min="1" max="1" chance="0.053" /> <!-- Spellbook: Divine Recovery -->
+				<item id="96047" min="1" max="1" chance="0.054" /> <!-- Spellbook: Sacred Power -->
+				<item id="96048" min="1" max="1" chance="0.052" /> <!-- Spellbook: Improved Resilience -->
+				<item id="96049" min="1" max="1" chance="0.055" /> <!-- Spellbook: Holy Buster -->
+				<item id="96050" min="1" max="1" chance="0.054" /> <!-- Spellbook: Unleashing -->
+				<item id="96275" min="1" max="1" chance="0.053" /> <!-- Spellbook: Knight's Power -->
+				<item id="96277" min="1" max="1" chance="0.053" /> <!-- Spellbook: Knight's Assault -->
+				<item id="96279" min="1" max="1" chance="0.053" /> <!-- Spellbook: Chain Strike (Shock) -->
+				<item id="96281" min="1" max="1" chance="0.053" /> <!-- Spellbook: Shield Throwing -->
+				<item id="96287" min="1" max="1" chance="0.074" /> <!-- Spellbook: Ultimate Defense Lv. 3 -->
+				<item id="96605" min="1" max="1" chance="0.071" /> <!-- Spellbook: Shield of Security -->
+				<item id="96607" min="1" max="1" chance="0.071" /> <!-- Spellbook: Lunatic Crusher -->
+				<item id="96609" min="1" max="1" chance="0.071" /> <!-- Spellbook: Eva's Care -->
+				<item id="96611" min="1" max="1" chance="0.071" /> <!-- Spellbook: Shillien's Curse -->
+				<item id="96662" min="1" max="1" chance="0.053" /> <!-- Spellbook: Fatal Accuracy -->
+				<item id="96663" min="1" max="1" chance="0.053" /> <!-- Spellbook: Shadow Assault -->
+				<item id="96664" min="1" max="1" chance="0.053" /> <!-- Spellbook: Rogue Mastery -->
+				<item id="96666" min="1" max="1" chance="0.073" /> <!-- Spellbook: Dark Blow -->
+				<item id="96876" min="1" max="1" chance="0.053" /> <!-- Spellbook: Thorn Shot -->
+				<item id="96877" min="1" max="1" chance="0.076" /> <!-- Spellbook: Chain Arrest -->
+				<item id="96878" min="1" max="1" chance="0.071" /> <!-- Spellbook: Flame Arrow -->
+				<item id="96879" min="1" max="1" chance="0.072" /> <!-- Spellbook: Arrow Shower -->
+				<item id="96880" min="1" max="1" chance="0.071" /> <!-- Spellbook: Piercing Arrow -->
+				<item id="96881" min="1" max="1" chance="0.055" /> <!-- Spellbook: Devious Shot -->
+				<item id="96882" min="1" max="1" chance="0.051" /> <!-- Spellbook: Steady Aim -->
+				<item id="96883" min="1" max="1" chance="0.052" /> <!-- Spellbook: Alacrity -->
+				<item id="96884" min="1" max="1" chance="0.051" /> <!-- Spellbook: Eagle Eye -->
+				<item id="96885" min="1" max="1" chance="0.057" /> <!-- Spellbook: Dexterous Body -->
+				<item id="97039" min="1" max="1" chance="0.073" /> <!-- Spellbook: Spiral -->
+				<item id="97040" min="1" max="1" chance="0.053" /> <!-- Spellbook: Magic Circle -->
+				<item id="97041" min="1" max="1" chance="0.053" /> <!-- Spellbook: Heavy Sleep -->
+				<item id="97104" min="1" max="1" chance="0.093" /> <!-- Spellbook: Master of Combat Lv. 3 -->
+				<item id="97105" min="1" max="1" chance="0.055" /> <!-- Spellbook: Final Secret Lv. 2 -->
+				<item id="97107" min="1" max="1" chance="0.055" /> <!-- Spellbook: Threatening Swing -->
+				<item id="97108" min="1" max="1" chance="0.077" /> <!-- Spellbook: Wild Growl Lv. 2 -->
+				<item id="97109" min="1" max="1" chance="0.077" /> <!-- Spellbook: Darkness Unleashing -->
+				<item id="97110" min="1" max="1" chance="0.055" /> <!-- Spellbook: Wild Assault -->
+				<item id="97188" min="1" max="1" chance="0.072" /> <!-- Spellbook: Ray of Light -->
+				<item id="97189" min="1" max="1" chance="0.052" /> <!-- Spellbook: Chains of Pain -->
+				<item id="97190" min="1" max="1" chance="0.052" /> <!-- Spellbook: Servitor Ultimate Defense Lv. 3 -->
+				<item id="97320" min="1" max="1" chance="0.07" /> <!-- Spellbook: Slashing Blades -->
+				<item id="97321" min="1" max="1" chance="0.051" /> <!-- Spellbook: Blade Throw -->
+				<item id="97322" min="1" max="1" chance="0.051" /> <!-- Spellbook: Sword Spirit Lv. 2 -->
+				<item id="97325" min="1" max="1" chance="0.07" /> <!-- Spellbook: Spear Rumble -->
+				<item id="97326" min="1" max="1" chance="0.051" /> <!-- Spellbook: Unleashed Power -->
+				<item id="97327" min="1" max="1" chance="0.051" /> <!-- Spellbook: Anger Lv. 2 -->
+				<item id="97457" min="1" max="1" chance="0.051" /> <!-- Spellbook: Powerful Disarm -->
+				<item id="97459" min="1" max="1" chance="0.071" /> <!-- Spellbook: Soul Guard Lv. 3 -->
+				<item id="97461" min="1" max="1" chance="0.051" /> <!-- Spellbook: Shock Impact -->
+				<item id="97463" min="1" max="1" chance="0.071" /> <!-- Spellbook: Death Pain -->
+				<item id="97467" min="1" max="1" chance="0.072" /> <!-- Spellbook: Resonance -->
+				<item id="97469" min="1" max="1" chance="0.052" /> <!-- Spellbook: Fragarach -->
+				<item id="97471" min="1" max="1" chance="0.072" /> <!-- Spellbook: Lightning Tornado -->
+				<item id="97473" min="1" max="1" chance="0.052" /> <!-- Spellbook: Lightning Mastery -->
+				<item id="97745" min="1" max="1" chance="0.053" /> <!-- Spellbook: Master of Aggression -->
+				<item id="97802" min="1" max="1" chance="0.098" /> <!-- Spellbook: Extended Life -->
+				<item id="97833" min="1" max="1" chance="0.073" /> <!-- Spellbook: Music Mastery -->
+				<item id="97834" min="1" max="1" chance="0.079" /> <!-- Spellbook: Dance Mastery -->
+				<item id="97835" min="1" max="1" chance="0.073" /> <!-- Spellbook: Song of Silence Lv. 4 -->
+				<item id="97836" min="1" max="1" chance="0.079" /> <!-- Spellbook: Dance of Medusa Lv. 4 -->
+				<item id="97839" min="1" max="1" chance="0.051" /> <!-- Spellbook: Fatal Crush -->
+				<item id="97840" min="1" max="1" chance="0.071" /> <!-- Spellbook: Essential Energy -->
+				<item id="97841" min="1" max="1" chance="0.051" /> <!-- Spellbook: Tower Shield Lv. 2 -->
+				<item id="97842" min="1" max="1" chance="0.071" /> <!-- Spellbook: Great Attack Lv. 3 -->
+				<item id="97843" min="1" max="1" chance="0.051" /> <!-- Spellbook: Perfect Abilities Lv. 3 -->
+				<item id="98233" min="1" max="1" chance="0.054" /> <!-- Spellbook: Acceleration Lv. 2 -->
+				<item id="98257" min="1" max="1" chance="0.054" /> <!-- Spellbook: Deadly Resilience -->
+				<item id="98258" min="1" max="1" chance="0.053" /> <!-- Spellbook: Sounds of Muse -->
+				<item id="98259" min="1" max="1" chance="0.056" /> <!-- Spellbook: Dancer's Play -->
+				<item id="98260" min="1" max="1" chance="0.052" /> <!-- Spellbook: Spell of Power -->
+				<item id="98261" min="1" max="1" chance="0.052" /> <!-- Spellbook: Spell of Fatality -->
+				<item id="98262" min="1" max="1" chance="0.051" /> <!-- Spellbook: Splash Attack -->
+				<item id="98263" min="1" max="1" chance="0.053" /> <!-- Spellbook: Titan Spirit -->
+				<item id="98264" min="1" max="1" chance="0.052" /> <!-- Spellbook: Khavatari Spirit -->
+				<item id="98265" min="1" max="1" chance="0.055" /> <!-- Spellbook: Instigator -->
+				<item id="98266" min="1" max="1" chance="0.055" /> <!-- Spellbook: Long Range Attack Lv. 3 -->
+				<item id="98267" min="1" max="1" chance="0.052" /> <!-- Spellbook: Mighty Children of Eva -->
+				<item id="98268" min="1" max="1" chance="0.053" /> <!-- Spellbook: Mighty Children of Shillien -->
+				<item id="98269" min="1" max="1" chance="0.054" /> <!-- Spellbook: Einhasad's Expert Blessing -->
+				<item id="98270" min="1" max="1" chance="0.052" /> <!-- Spellbook: Eva's Summoner -->
+				<item id="98271" min="1" max="1" chance="0.053" /> <!-- Spellbook: Shillien's Summoner -->
+				<item id="98272" min="1" max="1" chance="0.054" /> <!-- Spellbook: Einhasad's Summoner -->
+				<item id="98273" min="1" max="1" chance="0.072" /> <!-- Spellbook: Trophy Thief -->
+				<item id="98274" min="1" max="1" chance="0.074" /> <!-- Spellbook: Hammer Rumble -->
+				<item id="98323" min="1" max="1" chance="0.074" /> <!-- Spellbook: Bloody Strike -->
+				<item id="98482" min="1" max="1" chance="0.077" /> <!-- Spellbook: Clone Dance -->
+				<item id="98484" min="1" max="1" chance="0.077" /> <!-- Spellbook: Constraint -->
+				<item id="98485" min="1" max="1" chance="0.077" /> <!-- Spellbook: Resolve to Kill -->
+				<item id="98488" min="1" max="1" chance="0.055" /> <!-- Spellbook: Noda's Hidden Power -->
+				<item id="98489" min="1" max="1" chance="0.055" /> <!-- Spellbook: Return Motion -->
+				<item id="98490" min="1" max="1" chance="0.055" /> <!-- Spellbook: Shadow Boost -->
+				<item id="98554" min="1" max="1" chance="0.055" /> <!-- Spellbook: Maximum Critical Lv. 3 - Sealed -->
+				<item id="98558" min="1" max="1" chance="0.072" /> <!-- Spellbook: Healing Lv. 4 -->
+				<item id="96359" min="1" max="1" chance="0.167" /> <!-- STR Dye - Lv. 5 -->
+				<item id="96379" min="1" max="1" chance="0.167" /> <!-- CON Dye - Lv. 5 -->
+				<item id="96399" min="1" max="1" chance="0.167" /> <!-- DEX Dye - Lv. 5 -->
+				<item id="96419" min="1" max="1" chance="0.167" /> <!-- INT Dye - Lv. 5 -->
+				<item id="96439" min="1" max="1" chance="0.167" /> <!-- MEN Dye - Lv. 5 -->
+				<item id="96459" min="1" max="1" chance="0.167" /> <!-- WIT Dye - Lv. 5 -->
 				<item id="5311" min="1" max="1" chance="7.69" /> <!-- Sealed Armor of Nightmare -->
 				<item id="5312" min="1" max="1" chance="7.69" /> <!-- Sealed Helm of Nightmare -->
 				<item id="5313" min="1" max="1" chance="7.69" /> <!-- Sealed Gauntlets of Nightmare -->
@@ -3001,29 +3056,24 @@
 				<item id="5323" min="1" max="1" chance="7.7" /> <!-- Sealed Majestic Leather Armor -->
 				<item id="5326" min="1" max="1" chance="7.69" /> <!-- Sealed Robe of Nightmare -->
 				<item id="5329" min="1" max="1" chance="7.7" /> <!-- Sealed Majestic Robe -->
-				<item id="5706" min="1" max="1" chance="1.928" /> <!-- Damascus Sword*Damascus Sword -->
 				<item id="6326" min="1" max="1" chance="33.33" /> <!-- Sealed Majestic Necklace -->
 				<item id="6327" min="1" max="1" chance="33.33" /> <!-- Sealed Majestic Earring -->
 				<item id="6328" min="1" max="1" chance="33.34" /> <!-- Sealed Majestic Ring -->
-				<item id="7895" min="1" max="1" chance="1.931" /> <!-- Flaming Dragon Skull -->
-				<item id="7902" min="1" max="1" chance="1.931" /> <!-- Doom Crusher -->
-				<item id="8678" min="1" max="1" chance="0.333" /> <!-- Sirra's Blade -->
-				<item id="8679" min="1" max="1" chance="0.333" /> <!-- Sword of Ipos -->
-				<item id="8680" min="1" max="1" chance="0.333" /> <!-- Barakiel's Axe -->
-				<item id="8681" min="1" max="1" chance="0.333" /> <!-- Behemoth' Tuning Fork -->
-				<item id="8682" min="1" max="1" chance="0.333" /> <!-- Naga's Storm -->
-				<item id="8683" min="1" max="1" chance="0.334" /> <!-- Tiphon's Spear -->
-				<item id="8684" min="1" max="1" chance="0.334" /> <!-- Shyeed's Bow -->
-				<item id="8685" min="1" max="1" chance="0.334" /> <!-- Sobekk's Hurricane -->
-				<item id="8686" min="1" max="1" chance="0.334" /> <!-- Themis' Tongue -->
-				<item id="8687" min="1" max="1" chance="0.334" /> <!-- Cabrio's Hand -->
-				<item id="8688" min="1" max="1" chance="0.334" /> <!-- Daimon Crystal -->
-				<item id="8938" min="1" max="1" chance="0.334" /> <!-- Tallum Blade*Damascus Sword -->
-				<item id="91887" min="1" max="1" chance="0.334" /> <!-- Durendal -->
-				<item id="91888" min="1" max="1" chance="1.931" /> <!-- Undertaker -->
-				<item id="91902" min="1" max="1" chance="0.334" /> <!-- Éclair Bijou -->
-				<item id="91903" min="1" max="1" chance="1.931" /> <!-- Lacerator -->
-				<item id="94886" min="1" max="1" chance="0.334" /> <!-- Zephyrus -->
+				<item id="8678" min="1" max="1" chance="2.198" /> <!-- Sirra's Blade -->
+				<item id="8679" min="1" max="1" chance="2.198" /> <!-- Sword of Ipos -->
+				<item id="8680" min="1" max="1" chance="2.198" /> <!-- Barakiel's Axe -->
+				<item id="8681" min="1" max="1" chance="2.198" /> <!-- Behemoth' Tuning Fork -->
+				<item id="8682" min="1" max="1" chance="2.198" /> <!-- Naga's Storm -->
+				<item id="8683" min="1" max="1" chance="2.201" /> <!-- Tiphon's Spear -->
+				<item id="8684" min="1" max="1" chance="2.201" /> <!-- Shyeed's Bow -->
+				<item id="8685" min="1" max="1" chance="2.201" /> <!-- Sobekk's Hurricane -->
+				<item id="8686" min="1" max="1" chance="2.201" /> <!-- Themis' Tongue -->
+				<item id="8687" min="1" max="1" chance="2.201" /> <!-- Cabrio's Hand -->
+				<item id="8688" min="1" max="1" chance="2.201" /> <!-- Daimon Crystal -->
+				<item id="8938" min="1" max="1" chance="2.201" /> <!-- Tallum Blade*Damascus Sword -->
+				<item id="91887" min="1" max="1" chance="2.201" /> <!-- Durendal -->
+				<item id="91902" min="1" max="1" chance="2.201" /> <!-- Éclair Bijou -->
+				<item id="94886" min="1" max="1" chance="2.201" /> <!-- Zephyrus -->
 			</drop>
 			<fortune>
 				<item id="94135" min="1" max="1" chance="0.067" /> <!-- Master's Book: Might -->
@@ -3041,7 +3091,7 @@
 			</fortune>
 		</dropLists>
 	</npc>
-	<npc id="25367" level="80" type="Monster" name="Kuroboros' Follower" title="Raid Minion">
+	<npc id="25367" level="85" type="Monster" name="Kuroboros' Follower" title="Raid Minion">
 		<parameters>
 			<skill name="PhysicalSpecial_a" id="4743" level="2" />
 		</parameters>
@@ -3049,9 +3099,9 @@
 		<sex>MALE</sex>
 		<equipment rhand="1" lhand="102" /> <!-- Short Sword / Round Shield -->
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="90576" hpRegen="17" mp="71253" mpRegen="10" />
+			<vitals hp="160460.3" hpRegen="17" mp="71253" mpRegen="10" />
 			<attack physical="3633" magical="6279" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
-			<defence physical="1024" magical="725" />
+			<defence physical="1024" magical="730.36761" />
 			<speed>
 				<walk ground="43" />
 				<run ground="190" />
@@ -3080,7 +3130,7 @@
 			<height normal="23" />
 		</collision>
 	</npc>
-	<npc id="25368" level="80" type="Monster" name="Kuroboros' Discipline" title="Raid Minion">
+	<npc id="25368" level="85" type="Monster" name="Kuroboros' Discipline" title="Raid Minion">
 		<parameters>
 			<skill name="HealMagic_a" id="4788" level="6" />
 			<skill name="SelfRangeBuff_a" id="4212" level="6" />
@@ -3089,9 +3139,9 @@
 		<sex>MALE</sex>
 		<equipment rhand="179" /> <!-- Mace of Prayer -->
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="90576" hpRegen="17" mp="71253" mpRegen="10" />
+			<vitals hp="160460.3" hpRegen="17" mp="71253" mpRegen="10" />
 			<attack physical="3633" magical="6279" random="20" critical="1" accuracy="9" attackSpeed="253" type="BLUNT" range="40" distance="80" width="120" />
-			<defence physical="1024" magical="725" />
+			<defence physical="1024" magical="730.36761" />
 			<speed>
 				<walk ground="43" />
 				<run ground="190" />
@@ -3121,11 +3171,11 @@
 			<height normal="29" />
 		</collision>
 	</npc>
-	<npc id="25369" level="75" type="RaidBoss" name="Cursed Scavenger" title="Elite">
+	<npc id="25369" level="80" type="RaidBoss" name="Cursed Scavenger" title="Elite">
 		<parameters>
 			<minions name="Privates">
-				<npc id="25370" count="1" respawnTime="360" weightPoint="1" />
-				<npc id="25371" count="4" respawnTime="360" weightPoint="1" />
+				<npc id="25370" count="1" respawnTime="360" weightPoint="1" /> <!-- Corpse Scavenger -->
+				<npc id="25371" count="4" respawnTime="360" weightPoint="1" /> <!-- Anima Scavenger -->
 			</minions>
 			<param name="RaidSpawnMusic" value="Rm01_A" />
 			<skill name="DDMagic_a" id="4191" level="2" />
@@ -3135,7 +3185,7 @@
 		<race>UNDEAD</race>
 		<sex>MALE</sex>
 		<stats str="60" int="76" dex="73" wit="70" con="57" men="80">
-			<vitals hp="64816.3054176643" hpRegen="1" mp="3015.6" mpRegen="6" />
+			<vitals hp="330000" hpRegen="1" mp="3349.6" mpRegen="6" />
 			<attack physical="1809.34202064" magical="981.225735" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
 			<defence physical="1915.47738" magical="934.44" />
 			<speed>
@@ -3174,15 +3224,20 @@
 		</collision>
 		<dropLists>
 			<drop>
-				<item id="947" min="1" max="1" chance="2.4" /> <!-- Scroll: Enchant B-grade Weapon -->
-				<item id="948" min="1" max="1" chance="9.6" /> <!-- Scroll: Enchant B-grade Armor -->
-				<item id="90045" min="1" max="1" chance="75" /> <!-- Magic Tablet -->
-				<item id="93002" min="1" max="1" chance="100" /> <!-- Sayha's Blessing Pouch - Sealed -->
-				<item id="93003" min="2" max="4" chance="100" /> <!-- Sayha's Grace - Sealed -->
-				<item id="94186" min="1" max="1" chance="0.4" /> <!-- Augmenting Stone: Weapon -->
-				<item id="94188" min="1" max="1" chance="1.6" /> <!-- Augmenting Stone: Armor -->
-				<item id="95783" min="1" max="1" chance="1.25" /> <!-- Aden's Soul Crystal Lv. 1 - Weapon -->
-				<item id="91031" min="1" max="1" chance="1" /> <!-- Water Spirit Evolution Stone -->
+				<item id="729" min="1" max="1" chance="2" /> <!-- Scroll: Enchant A-grade Weapon -->
+				<item id="730" min="1" max="1" chance="8" /> <!-- Scroll: Enchant A-grade Armor -->
+				<item id="947" min="1" max="1" chance="10" /> <!-- Scroll: Enchant B-grade Weapon -->
+				<item id="948" min="1" max="1" chance="40" /> <!-- Scroll: Enchant B-grade Armor -->
+				<item id="90045" min="1" max="1" chance="100" /> <!-- Magic Tablet -->
+				<item id="94186" min="1" max="1" chance="0.6" /> <!-- Augmenting Stone: Weapon -->
+				<item id="94188" min="1" max="1" chance="2.4" /> <!-- Augmenting Stone: Armor -->
+				<item id="95783" min="1" max="1" chance="15" /> <!-- Aden's Soul Crystal Lv. 1 - Weapon -->
+				<item id="49756" min="1" max="1" chance="5" /> <!-- Cloth Piece -->
+				<item id="91031" min="1" max="1" chance="0.25" /> <!-- Water Spirit Evolution Stone -->
+				<item id="91032" min="1" max="1" chance="0.25" /> <!-- Fire Spirit Evolution Stone -->
+				<item id="91033" min="1" max="1" chance="0.25" /> <!-- Wind Spirit Evolution Stone -->
+				<item id="91034" min="1" max="1" chance="0.25" /> <!-- Earth Spirit Evolution Stone -->
+				<item id="96623" min="1" max="1" chance="1.6" /> <!-- Dye Powder -->
 			</drop>
 			<fortune>
 				<item id="91031" min="1" max="1" chance="0.5" /> <!-- Water Spirit Evolution Stone -->
@@ -3322,7 +3377,7 @@
 	<npc id="25373" level="21" type="RaidBoss" name="Dagoniel's Herald Malex" title="Raid Boss">
 		<parameters>
 			<minions name="Privates">
-				<npc id="25374" count="3" respawnTime="360" weightPoint="1" />
+				<npc id="25374" count="3" respawnTime="360" weightPoint="1" /> <!-- Abyss Flyer -->
 			</minions>
 			<param name="RaidSpawnMusic" value="Rm01_A" />
 			<skill name="RangeHold_a" id="4197" level="2" />
@@ -3405,8 +3460,8 @@
 	<npc id="25375" level="20" type="RaidBoss" name="Zombie Lord Ferkel" title="Raid Boss">
 		<parameters>
 			<minions name="Privates">
-				<npc id="25376" count="2" respawnTime="360" weightPoint="1" />
-				<npc id="25377" count="1" respawnTime="360" weightPoint="1" />
+				<npc id="25376" count="2" respawnTime="360" weightPoint="1" /> <!-- Ferkel's Warrior -->
+				<npc id="25377" count="1" respawnTime="360" weightPoint="1" /> <!-- Ferkel's Priest -->
 			</minions>
 			<param name="RaidSpawnMusic" value="Rm02_A" />
 			<skill name="RangeDDMagic_a" id="4178" level="2" />
@@ -3740,7 +3795,7 @@
 	<npc id="25383" level="34" type="RaidBoss" name="Revenant of Sir Calibus" title="Raid Boss">
 		<parameters>
 			<minions name="Privates">
-				<npc id="25384" count="3" respawnTime="360" weightPoint="1" />
+				<npc id="25384" count="3" respawnTime="360" weightPoint="1" /> <!-- Servant of Calibus -->
 			</minions>
 			<param name="RaidSpawnMusic" value="Rm02_A" />
 			<skill name="RangeHold_a" id="4197" level="3" />
@@ -3826,11 +3881,11 @@
 			<height normal="27" grown="34" />
 		</collision>
 	</npc>
-	<npc id="25385" level="75" type="RaidBoss" name="Evil Spirit Tempest" title="High Elite">
+	<npc id="25385" level="80" type="RaidBoss" name="Evil Spirit Tempest" title="High Elite">
 		<parameters>
 			<minions name="Privates">
-				<npc id="25386" count="1" respawnTime="360" weightPoint="1" />
-				<npc id="25387" count="4" respawnTime="360" weightPoint="1" />
+				<npc id="25386" count="1" respawnTime="360" weightPoint="1" /> <!-- Storm Ghost -->
+				<npc id="25387" count="4" respawnTime="360" weightPoint="1" /> <!-- Storm Spirit -->
 			</minions>
 			<param name="RaidSpawnMusic" value="Rm02_A" />
 			<skill name="DDMagic_a" id="4192" level="3" />
@@ -3840,7 +3895,7 @@
 		<race>DEMONIC</race>
 		<sex>MALE</sex>
 		<stats str="60" int="76" dex="73" wit="70" con="57" men="80">
-			<vitals hp="1555591.33002394" hpRegen="2530.1828558908" mp="3015.6" mpRegen="6" />
+			<vitals hp="2755824.93220855" hpRegen="2530.1828558908" mp="3349.6" mpRegen="6" />
 			<attack physical="15385.5614" magical="6675.005" random="5" critical="4" accuracy="5" attackSpeed="253" type="FIST" range="40" distance="80" width="120" />
 			<defence physical="1915.47738" magical="934.44" />
 			<speed>
@@ -3877,80 +3932,154 @@
 		</collision>
 		<dropLists>
 			<drop>
-				<item id="93388" min="1" max="1" chance="0.158" /> <!-- Spellbook: Death Guard -->
-				<item id="93392" min="1" max="1" chance="0.15" /> <!-- Spellbook: Bone Cage -->
-				<item id="93633" min="1" max="1" chance="0.162" /> <!-- Spellbook: Drain Magic Energy -->
-				<item id="93867" min="1" max="1" chance="0.143" /> <!-- Spellbook: Amazing Thunder Storm Mastery -->
-				<item id="93871" min="1" max="1" chance="0.149" /> <!-- Spellbook: Knight's Help -->
-				<item id="94134" min="1" max="1" chance="0.143" /> <!-- Spellbook: Amazing Spike Thrust Mastery -->
-				<item id="94323" min="1" max="1" chance="0.16" /> <!-- Spellbook: Frantic Pace -->
-				<item id="94497" min="1" max="1" chance="0.15" /> <!-- Spellbook: Life Force Harmony -->
-				<item id="94669" min="1" max="1" chance="0.146" /> <!-- Spellbook: Pa'agrio's Medicine -->
-				<item id="94676" min="1" max="1" chance="0.144" /> <!-- Spellbook: Chant of Healing -->
-				<item id="95772" min="1" max="1" chance="0.5" /> <!-- Master's Book Chest -->
-				<item id="96273" min="1" max="1" chance="0.149" /> <!-- Spellbook: Masterpiece Shield -->
-				<item id="96661" min="1" max="1" chance="0.148" /> <!-- Spellbook: Fast Run Lv. 3 -->
-				<item id="96886" min="1" max="1" chance="0.15" /> <!-- Spellbook: Perfect Mastery -->
-				<item id="97106" min="1" max="1" chance="0.154" /> <!-- Spellbook: Wild Charge -->
-				<item id="97844" min="1" max="1" chance="0.144" /> <!-- Spellbook: Improved Sleep -->
-				<item id="79" min="1" max="1" chance="5" /> <!-- Damascus Sword -->
-				<item id="97" min="1" max="1" chance="5" /> <!-- Lance -->
-				<item id="110" min="1" max="1" chance="6.25" /> <!-- Doom Shield -->
-				<item id="171" min="1" max="1" chance="5" /> <!-- Deadman's Glory -->
-				<item id="175" min="1" max="1" chance="5" /> <!-- Art of Battle Axe -->
-				<item id="210" min="1" max="1" chance="5" /> <!-- Staff of Evil Spirits -->
-				<item id="234" min="1" max="1" chance="5" /> <!-- Demon's Dagger -->
-				<item id="268" min="1" max="1" chance="5" /> <!-- Bellion Cestus -->
-				<item id="287" min="1" max="1" chance="5" /> <!-- Bow of Peril -->
-				<item id="358" min="1" max="1" chance="6.25" /> <!-- Blue Wolf Breastplate -->
-				<item id="601" min="1" max="1" chance="6.25" /> <!-- Sealed Doom Boots -->
-				<item id="2380" min="1" max="1" chance="6.25" /> <!-- Blue Wolf Gaiters -->
-				<item id="2381" min="1" max="1" chance="6.25" /> <!-- Doom Plate Armor -->
-				<item id="2391" min="1" max="1" chance="6.25" /> <!-- Blue Wolf Leather Armor -->
-				<item id="2392" min="1" max="1" chance="6.25" /> <!-- Doom Leather Armor -->
-				<item id="2398" min="1" max="1" chance="6.25" /> <!-- Blue Wolf Tunic -->
-				<item id="2399" min="1" max="1" chance="6.25" /> <!-- Doom Tunic -->
-				<item id="2403" min="1" max="1" chance="6.25" /> <!-- Blue Wolf Stockings -->
-				<item id="2404" min="1" max="1" chance="6.25" /> <!-- Doom Stockings -->
-				<item id="2416" min="1" max="1" chance="6.25" /> <!-- Sealed Blue Wolf Helmet -->
-				<item id="2417" min="1" max="1" chance="6.25" /> <!-- Sealed Doom Helmet -->
-				<item id="2439" min="1" max="1" chance="6.25" /> <!-- Sealed Blue Wolf Boots -->
-				<item id="2475" min="1" max="1" chance="6.25" /> <!-- Sealed Doom Gloves -->
-				<item id="2487" min="1" max="1" chance="6.25" /> <!-- Sealed Blue Wolf Gloves -->
-				<item id="2626" min="1" max="1" chance="5" /> <!-- Samurai Long Sword*Samurai Long Sword -->
-				<item id="7883" min="1" max="1" chance="5" /> <!-- Guardian's Sword -->
-				<item id="7889" min="1" max="1" chance="5" /> <!-- Wizard's Tear -->
-				<item id="7893" min="1" max="1" chance="5" /> <!-- Kaim Vanul's Bones -->
-				<item id="7901" min="1" max="1" chance="5" /> <!-- Star Buster -->
-				<item id="91885" min="1" max="1" chance="5" /> <!-- Dismantler -->
-				<item id="91900" min="1" max="1" chance="5" /> <!-- Colichemarde -->
-				<item id="94884" min="1" max="1" chance="5" /> <!-- Volcano -->
-				<item id="80" min="1" max="1" chance="0.231" /> <!-- Tallum Blade -->
-				<item id="98" min="1" max="1" chance="0.231" /> <!-- Halberd -->
-				<item id="150" min="1" max="1" chance="0.231" /> <!-- Elemental Sword -->
-				<item id="212" min="1" max="1" chance="0.231" /> <!-- Dasparion's Staff -->
-				<item id="235" min="1" max="1" chance="0.231" /> <!-- Bloody Orchid -->
-				<item id="269" min="1" max="1" chance="0.231" /> <!-- Bloody Tornado -->
-				<item id="288" min="1" max="1" chance="0.231" /> <!-- Carnage Bow -->
-				<item id="2504" min="1" max="1" chance="0.231" /> <!-- Meteor Shower -->
-				<item id="5287" min="1" max="1" chance="2" /> <!-- Sealed Dark Crystal Breastplate -->
-				<item id="5288" min="1" max="1" chance="2" /> <!-- Sealed Dark Crystal Gaiters -->
-				<item id="5289" min="1" max="1" chance="2" /> <!-- Sealed Dark Crystal Helmet -->
-				<item id="5290" min="1" max="1" chance="2" /> <!-- Sealed Dark Crystal Gloves -->
-				<item id="5291" min="1" max="1" chance="2" /> <!-- Sealed Dark Crystal Boots -->
-				<item id="5292" min="1" max="1" chance="2" /> <!-- Sealed Dark Crystal Shield -->
-				<item id="5293" min="1" max="1" chance="2" /> <!-- Sealed Tallum Plate Armor -->
-				<item id="5294" min="1" max="1" chance="2" /> <!-- Sealed Tallum Helmet -->
-				<item id="5295" min="1" max="1" chance="2" /> <!-- Sealed Tallum Gloves -->
-				<item id="5296" min="1" max="1" chance="2" /> <!-- Sealed Tallum Boots -->
-				<item id="6323" min="1" max="1" chance="6.666" /> <!-- Sealed Phoenix Necklace -->
-				<item id="6324" min="1" max="1" chance="6.668" /> <!-- Sealed Phoenix Earring -->
-				<item id="6325" min="1" max="1" chance="6.666" /> <!-- Sealed Phoenix Ring -->
-				<item id="7884" min="1" max="1" chance="0.231" /> <!-- Infernal Master -->
-				<item id="7894" min="1" max="1" chance="0.231" /> <!-- Spiritual Eye -->
-				<item id="7899" min="1" max="1" chance="0.231" /> <!-- Destroyer Hammer -->
-				<item id="91889" min="1" max="1" chance="0.228" /> <!-- Divine Pain -->
-				<item id="91903" min="1" max="1" chance="0.231" /> <!-- Lacerator -->
+				<item id="93388" min="1" max="1" chance="0.124" /> <!-- Spellbook: Death Guard -->
+				<item id="93392" min="1" max="1" chance="0.118" /> <!-- Spellbook: Bone Cage -->
+				<item id="93633" min="1" max="1" chance="0.127" /> <!-- Spellbook: Drain Magic Energy -->
+				<item id="93867" min="1" max="1" chance="0.113" /> <!-- Spellbook: Amazing Thunder Storm Mastery -->
+				<item id="93871" min="1" max="1" chance="0.117" /> <!-- Spellbook: Knight's Help -->
+				<item id="94134" min="1" max="1" chance="0.113" /> <!-- Spellbook: Amazing Spike Thrust Mastery -->
+				<item id="94323" min="1" max="1" chance="0.125" /> <!-- Spellbook: Frantic Pace -->
+				<item id="94497" min="1" max="1" chance="0.118" /> <!-- Spellbook: Life Force Harmony -->
+				<item id="94669" min="1" max="1" chance="0.115" /> <!-- Spellbook: Pa'agrio's Cure -->
+				<item id="94676" min="1" max="1" chance="0.114" /> <!-- Spellbook: Chant of Healing -->
+				<item id="95772" min="1" max="1" chance="2.25" /> <!-- Master's Book Chest -->
+				<item id="96273" min="1" max="1" chance="0.117" /> <!-- Spellbook: Masterpiece Shield -->
+				<item id="96661" min="1" max="1" chance="0.116" /> <!-- Spellbook: Fast Run Lv. 3 -->
+				<item id="96886" min="1" max="1" chance="0.118" /> <!-- Spellbook: Perfect Mastery -->
+				<item id="97106" min="1" max="1" chance="0.12" /> <!-- Spellbook: Wild Charge -->
+				<item id="97844" min="1" max="1" chance="0.114" /> <!-- Spellbook: Improved Sleep -->
+				<item id="98486" min="1" max="1" chance="0.12" /> <!-- Spellbook: Erosion Lv. 2 -->
+				<item id="98487" min="1" max="1" chance="0.12" /> <!-- Spellbook: Murder Attempt Lv. 2 -->
+				<item id="98491" min="1" max="1" chance="0.12" /> <!-- Spellbook: Blow Boost -->
+				<item id="98538" min="1" max="1" chance="0.12" /> <!-- Spellbook: Forward Move Lv. 2 -->
+				<item id="94096" min="1" max="1" chance="8" /> <!-- Regular Pet Training Guide -->
+				<item id="94469" min="1" max="1" chance="0.083" /> <!-- Pet Book: Blocked Target Change -->
+				<item id="94471" min="1" max="1" chance="0.083" /> <!-- Pet Book: Strong Bite -->
+				<item id="94472" min="1" max="1" chance="0.083" /> <!-- Pet Book: Last Dire Claw -->
+				<item id="94475" min="1" max="1" chance="0.083" /> <!-- Pet Book: Exploding Feather -->
+				<item id="94476" min="1" max="1" chance="0.083" /> <!-- Pet Book: Pulling Body -->
+				<item id="94477" min="1" max="1" chance="0.083" /> <!-- Pet Book: Back Explosion -->
+				<item id="94478" min="1" max="1" chance="0.5" /> <!-- Pet Book: Steel Skin -->
+				<item id="96357" min="1" max="1" chance="0.033" /> <!-- STR Dye - Lv. 3 -->
+				<item id="96377" min="1" max="1" chance="0.033" /> <!-- CON Dye - Lv. 3 -->
+				<item id="96397" min="1" max="1" chance="0.033" /> <!-- DEX Dye - Lv. 3 -->
+				<item id="96417" min="1" max="1" chance="0.033" /> <!-- INT Dye - Lv. 3 -->
+				<item id="96437" min="1" max="1" chance="0.033" /> <!-- MEN Dye - Lv. 3 -->
+				<item id="96457" min="1" max="1" chance="0.033" /> <!-- WIT Dye - Lv. 3 -->
+				<item id="79" min="1" max="1" chance="6.25" /> <!-- Damascus Sword -->
+				<item id="97" min="1" max="1" chance="6.25" /> <!-- Lance -->
+				<item id="110" min="1" max="1" chance="6.1" /> <!-- Doom Shield -->
+				<item id="171" min="1" max="1" chance="6.25" /> <!-- Deadman's Glory -->
+				<item id="175" min="1" max="1" chance="6.25" /> <!-- Art of Battle Axe -->
+				<item id="210" min="1" max="1" chance="6.25" /> <!-- Staff of Evil Spirits -->
+				<item id="234" min="1" max="1" chance="6.25" /> <!-- Demon's Dagger -->
+				<item id="268" min="1" max="1" chance="6.25" /> <!-- Bellion Cestus -->
+				<item id="287" min="1" max="1" chance="6.25" /> <!-- Bow of Peril -->
+				<item id="600" min="1" max="1" chance="6.4" /> <!-- Sealed Avadon Boots -->
+				<item id="601" min="1" max="1" chance="6.1" /> <!-- Sealed Doom Boots -->
+				<item id="673" min="1" max="1" chance="6.4" /> <!-- Avadon Shield -->
+				<item id="864" min="1" max="1" chance="33.33" /> <!-- Black Ore Earring -->
+				<item id="895" min="1" max="1" chance="33.33" /> <!-- Black Ore Ring -->
+				<item id="926" min="1" max="1" chance="33.34" /> <!-- Black Ore Necklace -->
+				<item id="2376" min="1" max="1" chance="6.4" /> <!-- Avadon Breastplate -->
+				<item id="2379" min="1" max="1" chance="6.4" /> <!-- Avadon Gaiters -->
+				<item id="2381" min="1" max="1" chance="6.1" /> <!-- Doom Plate Armor -->
+				<item id="2390" min="1" max="1" chance="6.4" /> <!-- Avadon Leather Armor -->
+				<item id="2392" min="1" max="1" chance="6.1" /> <!-- Doom Leather Armor -->
+				<item id="2399" min="1" max="1" chance="6.1" /> <!-- Doom Tunic -->
+				<item id="2404" min="1" max="1" chance="6.1" /> <!-- Doom Stockings -->
+				<item id="2406" min="1" max="1" chance="6.4" /> <!-- Avadon Robe -->
+				<item id="2415" min="1" max="1" chance="6.4" /> <!-- Sealed Avadon Circlet -->
+				<item id="2417" min="1" max="1" chance="6.1" /> <!-- Sealed Doom Helmet -->
+				<item id="2464" min="1" max="1" chance="6.4" /> <!-- Sealed Avadon Gloves -->
+				<item id="2475" min="1" max="1" chance="6.1" /> <!-- Sealed Doom Gloves -->
+				<item id="2626" min="1" max="1" chance="6.25" /> <!-- Samurai Long Sword*Samurai Long Sword -->
+				<item id="7883" min="1" max="1" chance="6.25" /> <!-- Guardian's Sword -->
+				<item id="7889" min="1" max="1" chance="6.25" /> <!-- Wizard's Tear -->
+				<item id="7893" min="1" max="1" chance="6.25" /> <!-- Kaim Vanul's Bones -->
+				<item id="7901" min="1" max="1" chance="6.25" /> <!-- Star Buster -->
+				<item id="91885" min="1" max="1" chance="6.25" /> <!-- Dismantler -->
+				<item id="91900" min="1" max="1" chance="6.25" /> <!-- Colichemarde -->
+				<item id="94884" min="1" max="1" chance="6.25" /> <!-- Volcano -->
+				<item id="80" min="1" max="1" chance="0.533" /> <!-- Tallum Blade -->
+				<item id="81" min="1" max="1" chance="0.286" /> <!-- Dragon Slayer -->
+				<item id="98" min="1" max="1" chance="0.533" /> <!-- Halberd -->
+				<item id="150" min="1" max="1" chance="0.533" /> <!-- Elemental Sword -->
+				<item id="151" min="1" max="1" chance="0.286" /> <!-- Sword of Miracles -->
+				<item id="164" min="1" max="1" chance="0.286" /> <!-- Elysian -->
+				<item id="212" min="1" max="1" chance="0.533" /> <!-- Dasparion's Staff -->
+				<item id="213" min="1" max="1" chance="0.286" /> <!-- Branch of the Mother Tree -->
+				<item id="235" min="1" max="1" chance="0.533" /> <!-- Bloody Orchid -->
+				<item id="236" min="1" max="1" chance="0.286" /> <!-- Soul Separator -->
+				<item id="269" min="1" max="1" chance="0.534" /> <!-- Bloody Tornado -->
+				<item id="270" min="1" max="1" chance="0.286" /> <!-- Dragon Grinder -->
+				<item id="288" min="1" max="1" chance="0.534" /> <!-- Carnage Bow -->
+				<item id="289" min="1" max="1" chance="0.286" /> <!-- Soul Bow -->
+				<item id="305" min="1" max="1" chance="0.286" /> <!-- Tallum Glaive -->
+				<item id="2500" min="1" max="1" chance="0.286" /> <!-- Dark Legion's Edge -->
+				<item id="2504" min="1" max="1" chance="0.534" /> <!-- Meteor Shower -->
+				<item id="5233" min="1" max="1" chance="0.534" /> <!-- Keshanberk*Keshanberk -->
+				<item id="5287" min="1" max="1" chance="0.938" /> <!-- Sealed Dark Crystal Breastplate -->
+				<item id="5288" min="1" max="1" chance="0.938" /> <!-- Sealed Dark Crystal Gaiters -->
+				<item id="5289" min="1" max="1" chance="0.938" /> <!-- Sealed Dark Crystal Helmet -->
+				<item id="5290" min="1" max="1" chance="0.938" /> <!-- Sealed Dark Crystal Gloves -->
+				<item id="5291" min="1" max="1" chance="0.938" /> <!-- Sealed Dark Crystal Boots -->
+				<item id="5292" min="1" max="1" chance="0.938" /> <!-- Sealed Dark Crystal Shield -->
+				<item id="5293" min="1" max="1" chance="0.938" /> <!-- Sealed Tallum Plate Armor -->
+				<item id="5294" min="1" max="1" chance="0.938" /> <!-- Sealed Tallum Helmet -->
+				<item id="5295" min="1" max="1" chance="0.938" /> <!-- Sealed Tallum Gloves -->
+				<item id="5296" min="1" max="1" chance="0.938" /> <!-- Sealed Tallum Boots -->
+				<item id="5297" min="1" max="1" chance="0.938" /> <!-- Sealed Dark Crystal Leather Armor -->
+				<item id="5298" min="1" max="1" chance="0.938" /> <!-- Sealed Dark Crystal Leggings -->
+				<item id="5301" min="1" max="1" chance="0.938" /> <!-- Sealed Tallum Leather Armor -->
+				<item id="5304" min="1" max="1" chance="0.938" /> <!-- Sealed Tallum Tunic -->
+				<item id="5305" min="1" max="1" chance="0.938" /> <!-- Sealed Tallum Stockings -->
+				<item id="5308" min="1" max="1" chance="0.938" /> <!-- Sealed Dark Crystal Robe -->
+				<item id="5311" min="1" max="1" chance="1.154" /> <!-- Sealed Armor of Nightmare -->
+				<item id="5312" min="1" max="1" chance="1.154" /> <!-- Sealed Helm of Nightmare -->
+				<item id="5313" min="1" max="1" chance="1.154" /> <!-- Sealed Gauntlets of Nightmare -->
+				<item id="5314" min="1" max="1" chance="1.154" /> <!-- Sealed Boots of Nightmare -->
+				<item id="5315" min="1" max="1" chance="1.154" /> <!-- Sealed Shield of Nightmare -->
+				<item id="5316" min="1" max="1" chance="1.154" /> <!-- Sealed Majestic Plate Armor -->
+				<item id="5317" min="1" max="1" chance="1.154" /> <!-- Sealed Majestic Circlet -->
+				<item id="5318" min="1" max="1" chance="1.154" /> <!-- Sealed Majestic Gauntlets -->
+				<item id="5319" min="1" max="1" chance="1.155" /> <!-- Sealed Majestic Boots -->
+				<item id="5320" min="1" max="1" chance="1.154" /> <!-- Sealed Leather Armor of Nightmare -->
+				<item id="5323" min="1" max="1" chance="1.155" /> <!-- Sealed Majestic Leather Armor -->
+				<item id="5326" min="1" max="1" chance="1.154" /> <!-- Sealed Robe of Nightmare -->
+				<item id="5329" min="1" max="1" chance="1.155" /> <!-- Sealed Majestic Robe -->
+				<item id="5706" min="1" max="1" chance="0.286" /> <!-- Damascus Sword*Damascus Sword -->
+				<item id="6323" min="1" max="1" chance="8.333" /> <!-- Sealed Phoenix Necklace -->
+				<item id="6324" min="1" max="1" chance="8.333" /> <!-- Sealed Phoenix Earring -->
+				<item id="6325" min="1" max="1" chance="8.335" /> <!-- Sealed Phoenix Ring -->
+				<item id="6326" min="1" max="1" chance="8.333" /> <!-- Sealed Majestic Necklace -->
+				<item id="6327" min="1" max="1" chance="8.333" /> <!-- Sealed Majestic Earring -->
+				<item id="6328" min="1" max="1" chance="8.335" /> <!-- Sealed Majestic Ring -->
+				<item id="7884" min="1" max="1" chance="0.534" /> <!-- Infernal Master -->
+				<item id="7894" min="1" max="1" chance="0.534" /> <!-- Spiritual Eye -->
+				<item id="7895" min="1" max="1" chance="0.286" /> <!-- Flaming Dragon Skull -->
+				<item id="7899" min="1" max="1" chance="0.534" /> <!-- Destroyer Hammer -->
+				<item id="7902" min="1" max="1" chance="0.286" /> <!-- Doom Crusher -->
+				<item id="8678" min="1" max="1" chance="0.133" /> <!-- Sirra's Blade -->
+				<item id="8679" min="1" max="1" chance="0.133" /> <!-- Sword of Ipos -->
+				<item id="8680" min="1" max="1" chance="0.133" /> <!-- Barakiel's Axe -->
+				<item id="8681" min="1" max="1" chance="0.133" /> <!-- Behemoth' Tuning Fork -->
+				<item id="8682" min="1" max="1" chance="0.133" /> <!-- Naga's Storm -->
+				<item id="8683" min="1" max="1" chance="0.133" /> <!-- Tiphon's Spear -->
+				<item id="8684" min="1" max="1" chance="0.133" /> <!-- Shyeed's Bow -->
+				<item id="8685" min="1" max="1" chance="0.133" /> <!-- Sobekk's Hurricane -->
+				<item id="8686" min="1" max="1" chance="0.133" /> <!-- Themis' Tongue -->
+				<item id="8687" min="1" max="1" chance="0.133" /> <!-- Cabrio's Hand -->
+				<item id="8688" min="1" max="1" chance="0.133" /> <!-- Daimon Crystal -->
+				<item id="8938" min="1" max="1" chance="0.133" /> <!-- Tallum Blade*Damascus Sword -->
+				<item id="91887" min="1" max="1" chance="0.133" /> <!-- Durendal -->
+				<item id="91888" min="1" max="1" chance="0.286" /> <!-- Undertaker -->
+				<item id="91889" min="1" max="1" chance="0.534" /> <!-- Divine Pain -->
+				<item id="91902" min="1" max="1" chance="0.133" /> <!-- Éclair Bijou -->
+				<item id="91903" min="1" max="1" chance="0.286" /> <!-- Lacerator -->
+				<item id="91904" min="1" max="1" chance="0.534" /> <!-- White Lightning -->
+				<item id="94885" min="1" max="1" chance="0.534" /> <!-- Scofield -->
+				<item id="94886" min="1" max="1" chance="0.133" /> <!-- Zephyrus -->
 			</drop>
 			<fortune>
 				<item id="94135" min="1" max="1" chance="0.067" /> <!-- Master's Book: Might -->
@@ -3968,7 +4097,7 @@
 			</fortune>
 		</dropLists>
 	</npc>
-	<npc id="25386" level="75" type="Monster" name="Storm Ghost" title="Raid Minion">
+	<npc id="25386" level="80" type="Monster" name="Storm Ghost" title="Raid Minion">
 		<parameters>
 			<skill name="PhysicalSpecial_a" id="4743" level="3" />
 		</parameters>
@@ -3976,7 +4105,7 @@
 		<sex>MALE</sex>
 		<equipment rhand="128" /> <!-- Knight's Sword -->
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="70968" hpRegen="17" mp="55828" mpRegen="10" />
+			<vitals hp="99633.6" hpRegen="17" mp="71253" mpRegen="10" />
 			<attack physical="3333" magical="5676" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
 			<defence physical="957" magical="678" />
 			<speed>
@@ -4009,12 +4138,12 @@
 			<height normal="31" />
 		</collision>
 	</npc>
-	<npc id="25387" level="75" type="Monster" name="Storm Spirit" title="Raid Minion">
+	<npc id="25387" level="80" type="Monster" name="Storm Spirit" title="Raid Minion">
 		<race>UNDEAD</race>
 		<sex>MALE</sex>
 		<equipment rhand="946" /> <!-- Skeleton Dagger -->
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="70968" hpRegen="17" mp="55828" mpRegen="10" />
+			<vitals hp="99633.6" hpRegen="17" mp="71253" mpRegen="10" />
 			<attack physical="3333" magical="5676" random="5" critical="8" accuracy="0" attackSpeed="253" type="DAGGER" range="40" distance="80" width="120" />
 			<defence physical="957" magical="678" />
 			<speed>
@@ -4049,8 +4178,8 @@
 	<npc id="25388" level="60" type="RaidBoss" name="Red Eye Captain Trakia" title="Elite">
 		<parameters>
 			<minions name="Privates">
-				<npc id="25389" count="3" respawnTime="360" weightPoint="1" />
-				<npc id="25390" count="2" respawnTime="360" weightPoint="1" />
+				<npc id="25389" count="3" respawnTime="360" weightPoint="1" /> <!-- Red Eye Archer -->
+				<npc id="25390" count="2" respawnTime="360" weightPoint="1" /> <!-- Red Eye Guards -->
 			</minions>
 			<param name="RaidSpawnMusic" value="Rm01_A" />
 			<skill name="PhysicalSpecial_b" id="4743" level="3" />
@@ -4059,7 +4188,7 @@
 		<sex>MALE</sex>
 		<equipment rhand="70" /> <!-- Claymore -->
 		<stats str="60" int="76" dex="73" wit="70" con="57" men="80">
-			<vitals hp="46068.6863601363" hpRegen="1" mp="2073.6" mpRegen="4.8" />
+			<vitals hp="50675.55499615" hpRegen="1" mp="2073.6" mpRegen="4.8" />
 			<attack physical="609.961176" magical="473.3232" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
 			<defence physical="1485.90048" magical="724.88" />
 			<speed>
@@ -4242,7 +4371,7 @@
 	<npc id="25392" level="35" type="RaidBoss" name="Queen's Royal Guard Captain" title="Elite">
 		<parameters>
 			<minions name="Privates">
-				<npc id="25393" count="3" respawnTime="360" weightPoint="1" />
+				<npc id="25393" count="3" respawnTime="360" weightPoint="1" /> <!-- Marsh Stakato Noble -->
 			</minions>
 			<param name="RaidSpawnMusic" value="Rm01_A" />
 			<skill name="RangeHold_a" id="4197" level="3" />
@@ -4380,11 +4509,11 @@
 			<height normal="39" grown="48" />
 		</collision>
 	</npc>
-	<npc id="25395" level="80" type="RaidBoss" name="Archon Susceptor" title="High Elite">
+	<npc id="25395" level="80" type="RaidBoss" name="Susceptor Archon" title="High Elite">
 		<parameters>
 			<minions name="Privates">
-				<npc id="25396" count="1" respawnTime="360" weightPoint="1" />
-				<npc id="25397" count="2" respawnTime="360" weightPoint="1" />
+				<npc id="25396" count="1" respawnTime="360" weightPoint="1" /> <!-- Susceptor Kusion -->
+				<npc id="25397" count="2" respawnTime="360" weightPoint="1" /> <!-- Susceptor Gustos -->
 			</minions>
 			<param name="RaidSpawnMusic" value="Rm01_A" />
 			<skill name="RangeDDMagic_a" id="4178" level="4" />
@@ -4392,7 +4521,7 @@
 		<race>CONSTRUCT</race>
 		<sex>MALE</sex>
 		<stats str="60" int="76" dex="73" wit="70" con="57" men="80">
-			<vitals hp="2505295.39291686" hpRegen="2647.36823225113" mp="3349.6" mpRegen="6" />
+			<vitals hp="2755824.93220855" hpRegen="2647.36823225113" mp="3349.6" mpRegen="6" />
 			<attack physical="27330.336" magical="9145.973" random="20" critical="1" accuracy="9" attackSpeed="253" type="BLUNT" range="40" distance="80" width="120" />
 			<defence physical="2048.25" magical="999.2" />
 			<speed>
@@ -4480,7 +4609,7 @@
 			</drop>
 		</dropLists>
 	</npc>
-	<npc id="25396" level="80" type="Monster" name="Kusion Susceptor" title="Raid Minion">
+	<npc id="25396" level="80" type="Monster" name="Susceptor Kusion" title="Raid Minion">
 		<parameters>
 			<skill name="HealMagic_a" id="4788" level="4" />
 			<skill name="SelfRangeBuff_a" id="4212" level="4" />
@@ -4488,7 +4617,7 @@
 		<race>CONSTRUCT</race>
 		<sex>MALE</sex>
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="90576" hpRegen="17" mp="71253" mpRegen="10" />
+			<vitals hp="99633.6" hpRegen="17" mp="71253" mpRegen="10" />
 			<attack physical="3633" magical="6279" random="20" critical="1" accuracy="9" attackSpeed="253" type="BLUNT" range="40" distance="80" width="120" />
 			<defence physical="1024" magical="725" />
 			<speed>
@@ -4520,14 +4649,14 @@
 			<height normal="35" grown="41.5" />
 		</collision>
 	</npc>
-	<npc id="25397" level="80" type="Monster" name="Gustos Susceptor" title="Raid Minion">
+	<npc id="25397" level="80" type="Monster" name="Susceptor Gustos" title="Raid Minion">
 		<parameters>
 			<skill name="PhysicalSpecial_a" id="4743" level="4" />
 		</parameters>
 		<race>CONSTRUCT</race>
 		<sex>MALE</sex>
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="90576" hpRegen="17" mp="71253" mpRegen="10" />
+			<vitals hp="99633.6" hpRegen="17" mp="71253" mpRegen="10" />
 			<attack physical="3633" magical="6279" random="20" critical="1" accuracy="9" attackSpeed="253" type="BLUNT" range="40" distance="80" width="120" />
 			<defence physical="1024" magical="725" />
 			<speed>
@@ -4558,11 +4687,11 @@
 			<height normal="35" grown="41.5" />
 		</collision>
 	</npc>
-	<npc id="25398" level="80" type="RaidBoss" name="Gaze of Abyss" title="Elite">
+	<npc id="25398" level="85" type="RaidBoss" name="Gaze of Abyss" title="Elite">
 		<parameters>
 			<minions name="Privates">
-				<npc id="25399" count="3" respawnTime="360" weightPoint="1" />
-				<npc id="25400" count="1" respawnTime="360" weightPoint="1" />
+				<npc id="25399" count="3" respawnTime="360" weightPoint="1" /> <!-- Watchman's Apprentice -->
+				<npc id="25400" count="1" respawnTime="360" weightPoint="1" /> <!-- Watchman's Servant -->
 			</minions>
 			<param name="RaidSpawnMusic" value="Rm02_A" />
 			<skill name="DDMagic_a" id="4194" level="3" />
@@ -4572,7 +4701,7 @@
 		<race>CONSTRUCT</race>
 		<sex>MALE</sex>
 		<stats str="60" int="76" dex="73" wit="70" con="57" men="80">
-			<vitals hp="104387.308038203" hpRegen="1" mp="3349.6" mpRegen="6" />
+			<vitals hp="635386.812192" hpRegen="1" mp="3693.6" mpRegen="6" />
 			<attack physical="4372.85376" magical="1756.026816" random="20" critical="1" accuracy="9" attackSpeed="253" type="BLUNT" range="40" distance="80" width="120" />
 			<defence physical="2048.25" magical="999.2" />
 			<speed>
@@ -4609,19 +4738,18 @@
 		</collision>
 		<dropLists>
 			<drop>
-				<item id="729" min="1" max="1" chance="1.2" /> <!-- Scroll: Enchant A-grade Weapon -->
-				<item id="730" min="1" max="1" chance="4.8" /> <!-- Scroll: Enchant A-grade Armor -->
-				<item id="947" min="1" max="1" chance="2.4" /> <!-- Scroll: Enchant B-grade Weapon -->
-				<item id="948" min="1" max="1" chance="9.6" /> <!-- Scroll: Enchant B-grade Armor -->
+				<item id="729" min="1" max="1" chance="5" /> <!-- Scroll: Enchant A-grade Weapon -->
+				<item id="730" min="1" max="1" chance="20" /> <!-- Scroll: Enchant A-grade Armor -->
 				<item id="90045" min="1" max="1" chance="100" /> <!-- Magic Tablet -->
-				<item id="93002" min="1" max="1" chance="100" /> <!-- Sayha's Blessing Pouch - Sealed -->
-				<item id="93003" min="2" max="4" chance="100" /> <!-- Sayha's Grace - Sealed -->
-				<item id="94186" min="1" max="1" chance="0.6" /> <!-- Augmenting Stone: Weapon -->
-				<item id="94188" min="1" max="1" chance="2.4" /> <!-- Augmenting Stone: Armor -->
-				<item id="95783" min="1" max="1" chance="2.5" /> <!-- Aden's Soul Crystal Lv. 1 - Weapon -->
-				<item id="49756" min="1" max="1" chance="1" /> <!-- Cloth Piece -->
-				<item id="91031" min="1" max="1" chance="1" /> <!-- Water Spirit Evolution Stone -->
-				<item id="96623" min="1" max="1" chance="1.6" /> <!-- Dye Powder -->
+				<item id="94186" min="1" max="1" chance="1" /> <!-- Augmenting Stone: Weapon -->
+				<item id="94188" min="1" max="1" chance="4" /> <!-- Augmenting Stone: Armor -->
+				<item id="95783" min="1" max="1" chance="30" /> <!-- Aden's Soul Crystal Lv. 1 - Weapon -->
+				<item id="49756" min="1" max="1" chance="5" /> <!-- Cloth Piece -->
+				<item id="91031" min="1" max="1" chance="0.25" /> <!-- Water Spirit Evolution Stone -->
+				<item id="91032" min="1" max="1" chance="0.25" /> <!-- Fire Spirit Evolution Stone -->
+				<item id="91033" min="1" max="1" chance="0.25" /> <!-- Wind Spirit Evolution Stone -->
+				<item id="91034" min="1" max="1" chance="0.25" /> <!-- Earth Spirit Evolution Stone -->
+				<item id="96623" min="1" max="1" chance="2" /> <!-- Dye Powder -->
 			</drop>
 			<fortune>
 				<item id="91031" min="1" max="1" chance="0.5" /> <!-- Water Spirit Evolution Stone -->

@@ -5,7 +5,7 @@
 		<sex>MALE</sex>
 		<equipment rhand="93" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="747660" hpRegen="158" mp="1475" mpRegen="3" />
+			<vitals hp="822426" hpRegen="158" mp="1475" mpRegen="3" />
 			<attack physical="4185" magical="371" random="10" critical="4" accuracy="0" attackSpeed="253" type="POLE" range="80" distance="80" width="120" />
 			<defence physical="5108" magical="1686" />
 			<speed>
@@ -43,7 +43,7 @@
 		<race>UNDEAD</race>
 		<sex>MALE</sex>
 		<stats str="60" int="76" dex="73" wit="70" con="57" men="80">
-			<vitals hp="1709400" hpRegen="718" mp="18000" mpRegen="99" />
+			<vitals hp="1880340" hpRegen="718" mp="18000" mpRegen="99" />
 			<attack physical="1874.18" magical="1596.95" random="10" critical="4" accuracy="4.75" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
 			<defence physical="3300" magical="2200" />
 			<speed>
@@ -76,7 +76,7 @@
 		<sex>MALE</sex>
 		<acquire exp="0" sp="0" raidPoints="1000" />
 		<stats str="60" int="76" dex="73" wit="70" con="57" men="80">
-			<vitals hp="44444444" hpRegen="2568.6" mp="2025740.40219378" mpRegen="1000" />
+			<vitals hp="48888888.4" hpRegen="2568.6" mp="2025740.40219378" mpRegen="1000" />
 			<attack physical="19098" magical="3153" random="5" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
 			<defence physical="2087.8612716763" magical="1210.03954974141" />
 			<speed>
@@ -107,11 +107,11 @@
 			<skill id="4071" level="2" /> <!-- Bow Resistance -->
 		</skillList>
 	</npc>
-	<npc id="29103" level="84" type="Monster" name="Behemoth Dragon">
+	<npc id="29103" level="84" type="Monster" name="Dragon Beast">
 		<race>DRAGON</race>
 		<sex>MALE</sex>
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="506329" hpRegen="15" mp="22800" mpRegen="30" />
+			<vitals hp="556961.9" hpRegen="15" mp="22800" mpRegen="30" />
 			<attack physical="10163" magical="8167" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
 			<defence physical="1245" magical="774" />
 			<speed>
@@ -143,7 +143,7 @@
 		<race>DRAGON</race>
 		<sex>MALE</sex>
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="1012658" hpRegen="15" mp="22800" mpRegen="30" />
+			<vitals hp="1113923.8" hpRegen="15" mp="22800" mpRegen="30" />
 			<attack physical="10163" magical="8167" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
 			<defence physical="1245" magical="774" />
 			<speed>
@@ -177,7 +177,7 @@
 		<sex>FEMALE</sex>
 		<acquire attributeExp="104000" />
 		<stats str="60" int="76" dex="73" wit="70" con="57" men="80">
-			<vitals hp="2505295" hpRegen="2647.36823225113" mp="3349.6" mpRegen="6" />
+			<vitals hp="2755824.5" hpRegen="2647.36823225113" mp="3349.6" mpRegen="6" />
 			<attack physical="27330.336" magical="9145.973" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
 			<defence physical="2048.25" magical="999.2" />
 			<speed>
@@ -273,7 +273,7 @@
 		<sex>FEMALE</sex>
 		<acquire attributeExp="104000" />
 		<stats str="60" int="76" dex="73" wit="70" con="57" men="80">
-			<vitals hp="2478639" hpRegen="2647.36823225113" mp="3349.6" mpRegen="6" />
+			<vitals hp="2726502.9" hpRegen="2647.36823225113" mp="3349.6" mpRegen="6" />
 			<attack physical="27330.336" magical="9145.973" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
 			<defence physical="2048.25" magical="999.2" />
 			<speed>
@@ -367,7 +367,7 @@
 		<sex>MALE</sex>
 		<acquire attributeExp="104000" />
 		<stats str="60" int="76" dex="73" wit="70" con="57" men="80">
-			<vitals hp="2380030" hpRegen="2647.36823225113" mp="3349.6" mpRegen="6" />
+			<vitals hp="2618033" hpRegen="2647.36823225113" mp="3349.6" mpRegen="6" />
 			<attack physical="27330.336" magical="9145.973" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
 			<defence physical="2048.25" magical="999.2" />
 			<speed>
@@ -461,7 +461,7 @@
 		<sex>MALE</sex>
 		<acquire attributeExp="104000" />
 		<stats str="60" int="76" dex="73" wit="70" con="57" men="80">
-			<vitals hp="1603389" hpRegen="2647.36823225113" mp="3349.6" mpRegen="6" />
+			<vitals hp="1763727.9" hpRegen="2647.36823225113" mp="3349.6" mpRegen="6" />
 			<attack physical="27330.336" magical="9145.973" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="150" distance="80" width="120" />
 			<defence physical="2048.25" magical="999.2" />
 			<speed>
@@ -555,7 +555,7 @@
 		<race>HUMANOID</race>
 		<sex>FEMALE</sex>
 		<stats str="60" int="76" dex="73" wit="70" con="57" men="80">
-			<vitals hp="12680" hpRegen="1" mp="18000" mpRegen="99" />
+			<vitals hp="13948" hpRegen="1" mp="18000" mpRegen="99" />
 			<attack physical="13829.6" magical="4375.2" random="10" critical="4" accuracy="4.75" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
 			<defence physical="2048.8" magical="1365.6" />
 			<speed>
@@ -588,7 +588,7 @@
 		<race>CONSTRUCT</race>
 		<sex>MALE</sex>
 		<stats str="60" int="76" dex="73" wit="70" con="57" men="80">
-			<vitals hp="12680640" hpRegen="1" mp="18000" mpRegen="99" />
+			<vitals hp="13948704" hpRegen="1" mp="18000" mpRegen="99" />
 			<attack physical="13829.6" magical="4375.2" random="10" critical="4" accuracy="4.75" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
 			<defence physical="2048.8" magical="1365.6" />
 			<speed>
@@ -624,7 +624,7 @@
 		<race>ELEMENTAL</race>
 		<sex>MALE</sex>
 		<stats str="60" int="76" dex="73" wit="70" con="57" men="80">
-			<vitals hp="15658.22" hpRegen="1" mp="3349.6" mpRegen="6" />
+			<vitals hp="17224" hpRegen="1" mp="3349.6" mpRegen="6" />
 			<attack physical="4372.85376" magical="1756.026816" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
 			<defence physical="2048.25" magical="999.2" />
 			<speed>
@@ -659,7 +659,7 @@
 		<race>ELEMENTAL</race>
 		<sex>MALE</sex>
 		<stats str="60" int="76" dex="73" wit="70" con="57" men="80">
-			<vitals hp="152404.9" hpRegen="1" mp="3349.6" mpRegen="6" />
+			<vitals hp="167645.8" hpRegen="1" mp="3349.6" mpRegen="6" />
 			<attack physical="4372.85376" magical="1756.026816" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
 			<defence physical="2048.25" magical="999.2" />
 			<speed>
@@ -694,7 +694,7 @@
 		<race>ELEMENTAL</race>
 		<sex>MALE</sex>
 		<stats str="60" int="76" dex="73" wit="70" con="57" men="80">
-			<vitals hp="152404.9" hpRegen="1" mp="3349.6" mpRegen="6" />
+			<vitals hp="167645.8" hpRegen="1" mp="3349.6" mpRegen="6" />
 			<attack physical="4372.85376" magical="1756.026816" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
 			<defence physical="2048.25" magical="999.2" />
 			<speed>
@@ -728,7 +728,7 @@
 		<race>ELEMENTAL</race>
 		<sex>MALE</sex>
 		<stats str="60" int="76" dex="73" wit="70" con="57" men="80">
-			<vitals hp="152404.9" hpRegen="1" mp="3349.6" mpRegen="6" />
+			<vitals hp="167645.8" hpRegen="1" mp="3349.6" mpRegen="6" />
 			<attack physical="4372.85376" magical="1756.026816" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
 			<defence physical="2048.25" magical="999.2" />
 			<speed>
@@ -763,7 +763,7 @@
 		<race>HUMANOID</race>
 		<sex>MALE</sex>
 		<stats str="60" int="76" dex="73" wit="70" con="57" men="80">
-			<vitals hp="2500000" hpRegen="1" mp="18000" mpRegen="99" />
+			<vitals hp="2750000" hpRegen="1" mp="18000" mpRegen="99" />
 			<attack physical="13829.6" magical="4375.2" random="10" critical="4" accuracy="4.75" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
 			<defence physical="2048.8" magical="1365.6" />
 			<speed>
@@ -796,7 +796,7 @@
 		<race>ELEMENTAL</race>
 		<sex>MALE</sex>
 		<stats str="60" int="76" dex="73" wit="70" con="57" men="80">
-			<vitals hp="52193.33" hpRegen="1" mp="3349.6" mpRegen="6" />
+			<vitals hp="57412.89" hpRegen="1" mp="3349.6" mpRegen="6" />
 			<attack physical="4372.85376" magical="1756.026816" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
 			<defence physical="2048.25" magical="999.2" />
 			<speed>
@@ -830,7 +830,7 @@
 		<race>ELEMENTAL</race>
 		<sex>MALE</sex>
 		<stats str="60" int="76" dex="73" wit="70" con="57" men="80">
-			<vitals hp="52193.33" hpRegen="1" mp="3349.6" mpRegen="6" />
+			<vitals hp="57412.89" hpRegen="1" mp="3349.6" mpRegen="6" />
 			<attack physical="4372.85376" magical="1756.026816" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
 			<defence physical="2048.25" magical="999.2" />
 			<speed>
@@ -866,7 +866,7 @@
 		<race>UNDEAD</race>
 		<sex>MALE</sex>
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="569620.25316" hpRegen="10.2" mp="18000" mpRegen="3.6" />
+			<vitals hp="626582.3" hpRegen="10.2" mp="18000" mpRegen="3.6" />
 			<attack physical="3376.912" magical="1729.488" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
 			<defence physical="839.46" magical="460.716" />
 			<speed>
@@ -888,7 +888,7 @@
 		<race>UNDEAD</race>
 		<sex>MALE</sex>
 		<stats str="60" int="76" dex="73" wit="70" con="57" men="80">
-			<vitals hp="19999999.8" hpRegen="1355.01358333333" mp="12240" mpRegen="10" />
+			<vitals hp="21999999.78" hpRegen="1355.01358333333" mp="12240" mpRegen="10" />
 			<attack physical="10122" magical="4400" random="10" critical="4" accuracy="4.75" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
 			<defence physical="2244" magical="1496" />
 			<speed>
@@ -923,7 +923,7 @@
 		<sex>FEMALE</sex>
 		<acquire attributeExp="1008000" />
 		<stats str="60" int="76" dex="73" wit="70" con="57" men="80">
-			<vitals hp="300000000" hpRegen="1" mp="18000" mpRegen="99" />
+			<vitals hp="330000000" hpRegen="1" mp="18000" mpRegen="99" />
 			<attack physical="35810" magical="4375.2" random="10" critical="4" accuracy="4.75" attackSpeed="223" type="SWORD" range="40" distance="80" width="120" />
 			<defence physical="2505" magical="1452" />
 			<speed>
@@ -959,7 +959,7 @@
 		<sex>FEMALE</sex>
 		<acquire attributeExp="1008000" />
 		<stats str="60" int="76" dex="73" wit="70" con="57" men="80">
-			<vitals hp="300000000" hpRegen="1" mp="18000" mpRegen="99" />
+			<vitals hp="330000000" hpRegen="1" mp="18000" mpRegen="99" />
 			<attack physical="35810" magical="4375.2" random="10" critical="4" accuracy="4.75" attackSpeed="223" type="SWORD" range="40" distance="80" width="120" />
 			<defence physical="2505" magical="1452" />
 			<speed>
@@ -995,7 +995,7 @@
 		<sex>MALE</sex>
 		<acquire attributeExp="1008000" />
 		<stats str="60" int="76" dex="73" wit="70" con="57" men="80">
-			<vitals hp="300000000" hpRegen="1" mp="18000" mpRegen="99" />
+			<vitals hp="330000000" hpRegen="1" mp="18000" mpRegen="99" />
 			<attack physical="35810" magical="4375.2" random="10" critical="4" accuracy="4.75" attackSpeed="223" type="SWORD" range="40" distance="80" width="120" />
 			<defence physical="2505" magical="1452" />
 			<speed>
@@ -1031,7 +1031,7 @@
 		<sex>MALE</sex>
 		<acquire attributeExp="1008000" />
 		<stats str="60" int="76" dex="73" wit="70" con="57" men="80">
-			<vitals hp="300000000" hpRegen="1" mp="18000" mpRegen="99" />
+			<vitals hp="330000000" hpRegen="1" mp="18000" mpRegen="99" />
 			<attack physical="35810" magical="4375.2" random="10" critical="4" accuracy="4.75" attackSpeed="223" type="SWORD" range="150" distance="80" width="120" />
 			<defence physical="2505" magical="1452" />
 			<speed>
@@ -1066,7 +1066,7 @@
 		<race>HUMANOID</race>
 		<sex>FEMALE</sex>
 		<stats str="60" int="76" dex="73" wit="70" con="57" men="80">
-			<vitals hp="12680" hpRegen="1" mp="18000" mpRegen="99" />
+			<vitals hp="13948" hpRegen="1" mp="18000" mpRegen="99" />
 			<attack physical="35810" magical="4375.2" random="10" critical="4" accuracy="4.75" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
 			<defence physical="2505" magical="1452" />
 			<speed>
@@ -1099,7 +1099,7 @@
 		<race>CONSTRUCT</race>
 		<sex>MALE</sex>
 		<stats str="60" int="76" dex="73" wit="70" con="57" men="80">
-			<vitals hp="12680640" hpRegen="1" mp="18000" mpRegen="99" />
+			<vitals hp="13948704" hpRegen="1" mp="18000" mpRegen="99" />
 			<attack physical="35810" magical="4375.2" random="10" critical="4" accuracy="4.75" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
 			<defence physical="2505" magical="1452" />
 			<speed>
@@ -1132,7 +1132,7 @@
 		<race>ELEMENTAL</race>
 		<sex>MALE</sex>
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="113924.05063" hpRegen="10.2" mp="18000" mpRegen="3.6" />
+			<vitals hp="125316.5" hpRegen="10.2" mp="18000" mpRegen="3.6" />
 			<attack physical="3899.90824" magical="2663.13177" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
 			<defence physical="811.3347" magical="593.69952" />
 			<speed>
@@ -1156,7 +1156,7 @@
 		<race>ELEMENTAL</race>
 		<sex>MALE</sex>
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="20886120" hpRegen="10.2" mp="18000" mpRegen="3.6" />
+			<vitals hp="22974640" hpRegen="10.2" mp="18000" mpRegen="3.6" />
 			<attack physical="3899.90824" magical="2663.13177" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
 			<defence physical="811.3347" magical="593.69952" />
 			<speed>
@@ -1180,7 +1180,7 @@
 		<race>ELEMENTAL</race>
 		<sex>MALE</sex>
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="20886120" hpRegen="10.2" mp="18000" mpRegen="3.6" />
+			<vitals hp="22974640" hpRegen="10.2" mp="18000" mpRegen="3.6" />
 			<attack physical="3899.90824" magical="2663.13177" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
 			<defence physical="811.3347" magical="593.69952" />
 			<speed>
@@ -1204,7 +1204,7 @@
 		<race>ELEMENTAL</race>
 		<sex>MALE</sex>
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="20886120" hpRegen="10.2" mp="18000" mpRegen="3.6" />
+			<vitals hp="22974640" hpRegen="10.2" mp="18000" mpRegen="3.6" />
 			<attack physical="3899.90824" magical="2663.13177" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
 			<defence physical="811.3347" magical="593.69952" />
 			<speed>
@@ -1228,7 +1228,7 @@
 		<race>HUMANOID</race>
 		<sex>MALE</sex>
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="3560126.58228" hpRegen="10.2" mp="18000" mpRegen="3.6" />
+			<vitals hp="3916139" hpRegen="10.2" mp="18000" mpRegen="3.6" />
 			<attack physical="3899.90824" magical="2663.13177" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
 			<defence physical="811.3347" magical="593.69952" />
 			<speed>
@@ -1251,7 +1251,7 @@
 		<race>ELEMENTAL</race>
 		<sex>MALE</sex>
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="5696202.53165" hpRegen="10.2" mp="18000" mpRegen="3.6" />
+			<vitals hp="6265823" hpRegen="10.2" mp="18000" mpRegen="3.6" />
 			<attack physical="3899.90824" magical="2663.13177" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
 			<defence physical="811.3347" magical="593.69952" />
 			<speed>
@@ -1276,7 +1276,7 @@
 		<race>ELEMENTAL</race>
 		<sex>MALE</sex>
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="5696202.53165" hpRegen="10.2" mp="18000" mpRegen="3.6" />
+			<vitals hp="6265823" hpRegen="10.2" mp="18000" mpRegen="3.6" />
 			<attack physical="3899.90824" magical="2663.13177" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
 			<defence physical="811.3347" magical="593.69952" />
 			<speed>
@@ -1300,7 +1300,7 @@
 		<race>UNDEAD</race>
 		<sex>MALE</sex>
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="5696202.53165" hpRegen="10.2" mp="18000" mpRegen="3.6" />
+			<vitals hp="6265823" hpRegen="10.2" mp="18000" mpRegen="3.6" />
 			<attack physical="3899.90824" magical="2663.13177" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
 			<defence physical="811.3347" magical="593.69952" />
 			<speed>
@@ -1323,7 +1323,7 @@
 		<race>ELEMENTAL</race>
 		<sex>MALE</sex>
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="3567674.05063" hpRegen="10.2" mp="3349.6" mpRegen="3.6" />
+			<vitals hp="3924427" hpRegen="10.2" mp="3349.6" mpRegen="3.6" />
 			<attack physical="1552.864" magical="795.304" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
 			<defence physical="409.65" magical="258.5499" />
 			<speed>
@@ -1346,7 +1346,7 @@
 		<race>HUMANOID</race>
 		<sex>MALE</sex>
 		<stats str="60" int="76" dex="73" wit="70" con="57" men="80">
-			<vitals hp="177777776" hpRegen="10.2" mp="18000" mpRegen="3.6" />
+			<vitals hp="195555553.6" hpRegen="10.2" mp="18000" mpRegen="3.6" />
 			<attack physical="14444" magical="986" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
 			<defence physical="9532" magical="418" />
 			<speed>
@@ -1371,7 +1371,7 @@
 		<race>DEMONIC</race>
 		<sex>MALE</sex>
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="4841772.1519" hpRegen="10.2" mp="3693.6" mpRegen="3.6" />
+			<vitals hp="5325950" hpRegen="10.2" mp="3693.6" mpRegen="3.6" />
 			<attack physical="7222" magical="493" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
 			<defence physical="4766" magical="209" />
 			<speed>
@@ -1395,7 +1395,7 @@
 		<race>DEMONIC</race>
 		<sex>MALE</sex>
 		<stats str="60" int="76" dex="73" wit="70" con="57" men="80">
-			<vitals hp="22222222" hpRegen="10.2" mp="3349.6" mpRegen="3.6" />
+			<vitals hp="24444444.2" hpRegen="10.2" mp="3349.6" mpRegen="3.6" />
 			<attack physical="14444" magical="986" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
 			<defence physical="9532" magical="418" />
 			<speed>
@@ -1420,7 +1420,7 @@
 		<race>ETC</race>
 		<sex>MALE</sex>
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="17088610" hpRegen="10.2" mp="18000" mpRegen="3.6" />
+			<vitals hp="18797470" hpRegen="10.2" mp="18000" mpRegen="3.6" />
 			<attack physical="4452.5043" magical="3040.48329" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
 			<defence physical="1996.20366" magical="1460.73522" />
 			<speed>
@@ -1440,7 +1440,7 @@
 		<race>ETC</race>
 		<sex>MALE</sex>
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="42721520" hpRegen="10.2" mp="18000" mpRegen="3.6" />
+			<vitals hp="46993670" hpRegen="10.2" mp="18000" mpRegen="3.6" />
 			<attack physical="7222" magical="493" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
 			<defence physical="4766" magical="209" />
 			<speed>
@@ -1460,7 +1460,7 @@
 		<race>ETC</race>
 		<sex>MALE</sex>
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="56962020" hpRegen="10.2" mp="18000" mpRegen="3.6" />
+			<vitals hp="62658230" hpRegen="10.2" mp="18000" mpRegen="3.6" />
 			<attack physical="7222" magical="493" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
 			<defence physical="4766" magical="209" />
 			<speed>
@@ -1480,7 +1480,7 @@
 		<race>ETC</race>
 		<sex>MALE</sex>
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="72746780" hpRegen="10.2" mp="18000" mpRegen="3.6" />
+			<vitals hp="80021540" hpRegen="10.2" mp="18000" mpRegen="3.6" />
 			<attack physical="7222" magical="493" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
 			<defence physical="4766" magical="209" />
 			<speed>
@@ -1500,7 +1500,7 @@
 		<race>DRAGON</race>
 		<sex>MALE</sex>
 		<stats str="60" int="76" dex="73" wit="70" con="57" men="80">
-			<vitals hp="366666666" hpRegen="10.2" mp="2025740" mpRegen="3.6" />
+			<vitals hp="403333332.6" hpRegen="10.2" mp="2025740" mpRegen="3.6" />
 			<attack physical="14444" magical="986" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
 			<defence physical="9532" magical="418" />
 			<speed>
@@ -1520,19 +1520,19 @@
 		</skillList>
 		<dropLists>
 			<drop>
-				<item id="93103" min="1" max="1" chance="0.25" /> <!-- Spellbook: Divine Beam -->
-				<item id="93387" min="1" max="1" chance="0.25" /> <!-- Spellbook: Ultimate Death Knight Transformation -->
-				<item id="94498" min="1" max="1" chance="0.25" /> <!-- Spellbook: Titan Champion -->
-				<item id="94508" min="1" max="1" chance="0.25" /> <!-- Spellbook: Cacophony of War -->
-				<item id="94668" min="1" max="1" chance="0.25" /> <!-- Spellbook: Pa'agrio's Touch -->
-				<item id="94673" min="1" max="1" chance="0.25" /> <!-- Spellbook: Team Building -->
-				<item id="94861" min="1" max="1" chance="0.25" /> <!-- Spellbook: Tranquility -->
-				<item id="94862" min="1" max="1" chance="0.25" /> <!-- Spellbook: Exclusion -->
-				<item id="94863" min="1" max="1" chance="0.25" /> <!-- Spellbook: Dark Disruption -->
-				<item id="95346" min="1" max="1" chance="0.25" /> <!-- Spellbook: Meteor -->
-				<item id="95347" min="1" max="1" chance="0.25" /> <!-- Spellbook: Rolling Dice -->
-				<item id="95354" min="1" max="1" chance="0.25" /> <!-- Spellbook: Dragon Strike -->
-				<item id="95861" min="1" max="1" chance="0.25" /> <!-- Spellbook: Mechanical Hero -->
+				<item id="93103" min="1" max="1" chance="0.242" /> <!-- Spellbook: Divine Beam -->
+				<item id="93387" min="1" max="1" chance="0.243" /> <!-- Spellbook: Ultimate Death Knight Transformation -->
+				<item id="94498" min="1" max="1" chance="0.242" /> <!-- Spellbook: Titan Champion -->
+				<item id="94508" min="1" max="1" chance="0.242" /> <!-- Spellbook: Cacophony of War -->
+				<item id="94668" min="1" max="1" chance="0.242" /> <!-- Spellbook: Pa'agrio's Touch -->
+				<item id="94673" min="1" max="1" chance="0.242" /> <!-- Spellbook: Team Building -->
+				<item id="94861" min="1" max="1" chance="0.242" /> <!-- Spellbook: Tranquility -->
+				<item id="94862" min="1" max="1" chance="0.242" /> <!-- Spellbook: Exclusion -->
+				<item id="94863" min="1" max="1" chance="0.242" /> <!-- Spellbook: Dark Disruption -->
+				<item id="95346" min="1" max="1" chance="0.242" /> <!-- Spellbook: Meteor -->
+				<item id="95347" min="1" max="1" chance="0.242" /> <!-- Spellbook: Rolling Dice -->
+				<item id="95354" min="1" max="1" chance="0.242" /> <!-- Spellbook: Dragon Strike -->
+				<item id="95861" min="1" max="1" chance="0.242" /> <!-- Spellbook: Prime Master Transformation -->
 				<item id="96006" min="1" max="1" chance="50" /> <!-- +5 Top-grade A-grade Weapon Pack - Sealed -->
 				<item id="96031" min="1" max="1" chance="8.35" /> <!-- Package: +5 Leather Armor of Lightning - Sealed -->
 				<item id="96032" min="1" max="1" chance="8.35" /> <!-- Package: +5 Leather Leggings of Lightning - Sealed -->
@@ -1540,25 +1540,26 @@
 				<item id="96034" min="1" max="1" chance="8.35" /> <!-- Package: +5 Ice Crystal Gaiters - Sealed -->
 				<item id="96035" min="1" max="1" chance="8.3" /> <!-- Package: +5 Flaming Tunic - Sealed -->
 				<item id="96036" min="1" max="1" chance="8.3" /> <!-- Package: +5 Flaming Stockings - Sealed -->
-				<item id="96289" min="1" max="1" chance="0.25" /> <!-- Spellbook: Phoenix Shield -->
-				<item id="96291" min="1" max="1" chance="0.25" /> <!-- Spellbook: Hell -->
-				<item id="96293" min="1" max="1" chance="0.25" /> <!-- Spellbook: Shelter -->
-				<item id="96295" min="1" max="1" chance="0.25" /> <!-- Spellbook: Condemnation -->
-				<item id="96670" min="1" max="1" chance="0.25" /> <!-- Spellbook: Critical Assault -->
-				<item id="96671" min="1" max="1" chance="0.25" /> <!-- Spellbook: Fury Blade -->
-				<item id="96672" min="1" max="1" chance="0.25" /> <!-- Spellbook: Mortal Piercing -->
-				<item id="96873" min="1" max="1" chance="0.25" /> <!-- Spellbook: Legendary Archer -->
-				<item id="97111" min="1" max="1" chance="0.25" /> <!-- Spellbook: Wild Evolution -->
-				<item id="97182" min="1" max="1" chance="0.25" /> <!-- Spellbook: Cat Emperor -->
-				<item id="97183" min="1" max="1" chance="0.25" /> <!-- Spellbook: Unicorn Guard -->
-				<item id="97184" min="1" max="1" chance="0.25" /> <!-- Spellbook: Lord Raise -->
-				<item id="97318" min="1" max="1" chance="0.25" /> <!-- Spellbook: Challenger -->
-				<item id="97323" min="1" max="1" chance="0.25" /> <!-- Spellbook: Great Sweep -->
-				<item id="97453" min="1" max="1" chance="0.25" /> <!-- Spellbook: Overwhelming Power -->
-				<item id="97465" min="1" max="1" chance="0.25" /> <!-- Spellbook: Leopold -->
-				<item id="97831" min="1" max="1" chance="0.25" /> <!-- Spellbook: Amadeus -->
-				<item id="97832" min="1" max="1" chance="0.25" /> <!-- Spellbook: Flamenco -->
-				<item id="97837" min="1" max="1" chance="0.25" /> <!-- Spellbook: Crusader Transformation -->
+				<item id="96289" min="1" max="1" chance="0.242" /> <!-- Spellbook: Phoenix Shield -->
+				<item id="96291" min="1" max="1" chance="0.242" /> <!-- Spellbook: Hell -->
+				<item id="96293" min="1" max="1" chance="0.242" /> <!-- Spellbook: Shelter -->
+				<item id="96295" min="1" max="1" chance="0.242" /> <!-- Spellbook: Condemnation -->
+				<item id="96670" min="1" max="1" chance="0.242" /> <!-- Spellbook: Critical Assault -->
+				<item id="96671" min="1" max="1" chance="0.242" /> <!-- Spellbook: Fury Blade -->
+				<item id="96672" min="1" max="1" chance="0.242" /> <!-- Spellbook: Mortal Piercing -->
+				<item id="96873" min="1" max="1" chance="0.242" /> <!-- Spellbook: Legendary Archer -->
+				<item id="97111" min="1" max="1" chance="0.242" /> <!-- Spellbook: Wild Evolution -->
+				<item id="97182" min="1" max="1" chance="0.242" /> <!-- Spellbook: Cat Emperor -->
+				<item id="97183" min="1" max="1" chance="0.242" /> <!-- Spellbook: Unicorn Guard -->
+				<item id="97184" min="1" max="1" chance="0.242" /> <!-- Spellbook: Lord Raise -->
+				<item id="97318" min="1" max="1" chance="0.242" /> <!-- Spellbook: Challenger -->
+				<item id="97323" min="1" max="1" chance="0.242" /> <!-- Spellbook: Great Sweep -->
+				<item id="97453" min="1" max="1" chance="0.242" /> <!-- Spellbook: Overwhelming Power -->
+				<item id="97465" min="1" max="1" chance="0.242" /> <!-- Spellbook: Leopold -->
+				<item id="97831" min="1" max="1" chance="0.242" /> <!-- Spellbook: Amadeus -->
+				<item id="97832" min="1" max="1" chance="0.242" /> <!-- Spellbook: Flamenco -->
+				<item id="97837" min="1" max="1" chance="0.242" /> <!-- Spellbook: Crusader Transformation -->
+				<item id="98481" min="1" max="1" chance="0.242" /> <!-- Spellbook: Time Distortion -->
 				<item id="96602" min="1" max="1" chance="50" /> <!-- Antharas Doll Lv. 2 -->
 				<item id="90992" min="1" max="1" chance="50" /> <!-- Antharas' Earring -->
 				<item id="94840" min="1" max="1" chance="2.222" /> <!-- Breastplate of Protection -->
@@ -1582,7 +1583,7 @@
 		<race>DRAGON</race>
 		<sex>MALE</sex>
 		<stats str="60" int="76" dex="73" wit="70" con="57" men="80">
-			<vitals hp="488888888" hpRegen="10.2" mp="2025740" mpRegen="3.6" />
+			<vitals hp="537777776.8" hpRegen="10.2" mp="2025740" mpRegen="3.6" />
 			<attack physical="14444" magical="986" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
 			<defence physical="9532" magical="418" />
 			<speed>
@@ -1602,19 +1603,19 @@
 		</skillList>
 		<dropLists>
 			<drop>
-				<item id="93103" min="1" max="1" chance="0.375" /> <!-- Spellbook: Divine Beam -->
-				<item id="93387" min="1" max="1" chance="0.375" /> <!-- Spellbook: Ultimate Death Knight Transformation -->
-				<item id="94498" min="1" max="1" chance="0.375" /> <!-- Spellbook: Titan Champion -->
-				<item id="94508" min="1" max="1" chance="0.375" /> <!-- Spellbook: Cacophony of War -->
-				<item id="94668" min="1" max="1" chance="0.375" /> <!-- Spellbook: Pa'agrio's Touch -->
-				<item id="94673" min="1" max="1" chance="0.375" /> <!-- Spellbook: Team Building -->
-				<item id="94861" min="1" max="1" chance="0.375" /> <!-- Spellbook: Tranquility -->
-				<item id="94862" min="1" max="1" chance="0.375" /> <!-- Spellbook: Exclusion -->
-				<item id="94863" min="1" max="1" chance="0.375" /> <!-- Spellbook: Dark Disruption -->
-				<item id="95346" min="1" max="1" chance="0.375" /> <!-- Spellbook: Meteor -->
-				<item id="95347" min="1" max="1" chance="0.375" /> <!-- Spellbook: Rolling Dice -->
-				<item id="95354" min="1" max="1" chance="0.375" /> <!-- Spellbook: Dragon Strike -->
-				<item id="95861" min="1" max="1" chance="0.375" /> <!-- Spellbook: Mechanical Hero -->
+				<item id="93103" min="1" max="1" chance="0.364" /> <!-- Spellbook: Divine Beam -->
+				<item id="93387" min="1" max="1" chance="0.365" /> <!-- Spellbook: Ultimate Death Knight Transformation -->
+				<item id="94498" min="1" max="1" chance="0.364" /> <!-- Spellbook: Titan Champion -->
+				<item id="94508" min="1" max="1" chance="0.364" /> <!-- Spellbook: Cacophony of War -->
+				<item id="94668" min="1" max="1" chance="0.364" /> <!-- Spellbook: Pa'agrio's Touch -->
+				<item id="94673" min="1" max="1" chance="0.364" /> <!-- Spellbook: Team Building -->
+				<item id="94861" min="1" max="1" chance="0.364" /> <!-- Spellbook: Tranquility -->
+				<item id="94862" min="1" max="1" chance="0.364" /> <!-- Spellbook: Exclusion -->
+				<item id="94863" min="1" max="1" chance="0.364" /> <!-- Spellbook: Dark Disruption -->
+				<item id="95346" min="1" max="1" chance="0.364" /> <!-- Spellbook: Meteor -->
+				<item id="95347" min="1" max="1" chance="0.364" /> <!-- Spellbook: Rolling Dice -->
+				<item id="95354" min="1" max="1" chance="0.364" /> <!-- Spellbook: Dragon Strike -->
+				<item id="95861" min="1" max="1" chance="0.364" /> <!-- Spellbook: Prime Master Transformation -->
 				<item id="96006" min="1" max="1" chance="100" /> <!-- +5 Top-grade A-grade Weapon Pack - Sealed -->
 				<item id="96031" min="1" max="1" chance="16.7" /> <!-- Package: +5 Leather Armor of Lightning - Sealed -->
 				<item id="96032" min="1" max="1" chance="16.7" /> <!-- Package: +5 Leather Leggings of Lightning - Sealed -->
@@ -1622,26 +1623,26 @@
 				<item id="96034" min="1" max="1" chance="16.7" /> <!-- Package: +5 Ice Crystal Gaiters - Sealed -->
 				<item id="96035" min="1" max="1" chance="16.6" /> <!-- Package: +5 Flaming Tunic - Sealed -->
 				<item id="96036" min="1" max="1" chance="16.6" /> <!-- Package: +5 Flaming Stockings - Sealed -->
-				<item id="96289" min="1" max="1" chance="0.375" /> <!-- Spellbook: Phoenix Shield -->
-				<item id="96291" min="1" max="1" chance="0.375" /> <!-- Spellbook: Hell -->
-				<item id="96293" min="1" max="1" chance="0.375" /> <!-- Spellbook: Shelter -->
-				<item id="96295" min="1" max="1" chance="0.375" /> <!-- Spellbook: Condemnation -->
-				<item id="96670" min="1" max="1" chance="0.375" /> <!-- Spellbook: Critical Assault -->
-				<item id="96671" min="1" max="1" chance="0.375" /> <!-- Spellbook: Fury Blade -->
-				<item id="96672" min="1" max="1" chance="0.375" /> <!-- Spellbook: Mortal Piercing -->
-				<item id="96873" min="1" max="1" chance="0.375" /> <!-- Spellbook: Legendary Archer -->
-				<item id="97111" min="1" max="1" chance="0.375" /> <!-- Spellbook: Wild Evolution -->
-				<item id="97182" min="1" max="1" chance="0.375" /> <!-- Spellbook: Cat Emperor -->
-				<item id="97183" min="1" max="1" chance="0.375" /> <!-- Spellbook: Unicorn Guard -->
-				<item id="97184" min="1" max="1" chance="0.375" /> <!-- Spellbook: Lord Raise -->
-				<item id="97318" min="1" max="1" chance="0.375" /> <!-- Spellbook: Challenger -->
-				<item id="97323" min="1" max="1" chance="0.375" /> <!-- Spellbook: Great Sweep -->
-				<item id="97453" min="1" max="1" chance="0.375" /> <!-- Spellbook: Overwhelming Power -->
-				<item id="97465" min="1" max="1" chance="0.375" /> <!-- Spellbook: Leopold -->
-				<item id="97831" min="1" max="1" chance="0.375" /> <!-- Spellbook: Amadeus -->
-				<item id="97832" min="1" max="1" chance="0.375" /> <!-- Spellbook: Flamenco -->
-				<item id="97837" min="1" max="1" chance="0.375" /> <!-- Spellbook: Crusader Transformation -->
-				<item id="96299" min="1" max="1" chance="0.087" /> <!-- Recipe: Death Knight's Flame Sword (20%) -->
+				<item id="96289" min="1" max="1" chance="0.364" /> <!-- Spellbook: Phoenix Shield -->
+				<item id="96291" min="1" max="1" chance="0.364" /> <!-- Spellbook: Hell -->
+				<item id="96293" min="1" max="1" chance="0.364" /> <!-- Spellbook: Shelter -->
+				<item id="96295" min="1" max="1" chance="0.364" /> <!-- Spellbook: Condemnation -->
+				<item id="96670" min="1" max="1" chance="0.364" /> <!-- Spellbook: Critical Assault -->
+				<item id="96671" min="1" max="1" chance="0.364" /> <!-- Spellbook: Fury Blade -->
+				<item id="96672" min="1" max="1" chance="0.364" /> <!-- Spellbook: Mortal Piercing -->
+				<item id="96873" min="1" max="1" chance="0.364" /> <!-- Spellbook: Legendary Archer -->
+				<item id="97111" min="1" max="1" chance="0.364" /> <!-- Spellbook: Wild Evolution -->
+				<item id="97182" min="1" max="1" chance="0.364" /> <!-- Spellbook: Cat Emperor -->
+				<item id="97183" min="1" max="1" chance="0.364" /> <!-- Spellbook: Unicorn Guard -->
+				<item id="97184" min="1" max="1" chance="0.364" /> <!-- Spellbook: Lord Raise -->
+				<item id="97318" min="1" max="1" chance="0.364" /> <!-- Spellbook: Challenger -->
+				<item id="97323" min="1" max="1" chance="0.364" /> <!-- Spellbook: Great Sweep -->
+				<item id="97453" min="1" max="1" chance="0.364" /> <!-- Spellbook: Overwhelming Power -->
+				<item id="97465" min="1" max="1" chance="0.364" /> <!-- Spellbook: Leopold -->
+				<item id="97831" min="1" max="1" chance="0.364" /> <!-- Spellbook: Amadeus -->
+				<item id="97832" min="1" max="1" chance="0.364" /> <!-- Spellbook: Flamenco -->
+				<item id="97837" min="1" max="1" chance="0.364" /> <!-- Spellbook: Crusader Transformation -->
+				<item id="98481" min="1" max="1" chance="0.364" /> <!-- Spellbook: Time Distortion -->
 				<item id="96602" min="1" max="1" chance="75" /> <!-- Antharas Doll Lv. 2 -->
 				<item id="90992" min="1" max="1" chance="75" /> <!-- Antharas' Earring -->
 				<item id="94840" min="1" max="1" chance="5.555" /> <!-- Breastplate of Protection -->
@@ -1665,7 +1666,7 @@
 		<race>DRAGON</race>
 		<sex>MALE</sex>
 		<stats str="60" int="76" dex="73" wit="70" con="57" men="80">
-			<vitals hp="666666666" hpRegen="10.2" mp="2025740" mpRegen="3.6" />
+			<vitals hp="733333332.6" hpRegen="10.2" mp="2025740" mpRegen="3.6" />
 			<attack physical="14444" magical="986" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
 			<defence physical="9532" magical="418" />
 			<speed>
@@ -1685,19 +1686,19 @@
 		</skillList>
 		<dropLists>
 			<drop>
-				<item id="93103" min="1" max="1" chance="0.781" /> <!-- Spellbook: Divine Beam -->
-				<item id="93387" min="1" max="1" chance="0.781" /> <!-- Spellbook: Ultimate Death Knight Transformation -->
-				<item id="94498" min="1" max="1" chance="0.781" /> <!-- Spellbook: Titan Champion -->
-				<item id="94508" min="1" max="1" chance="0.781" /> <!-- Spellbook: Cacophony of War -->
-				<item id="94668" min="1" max="1" chance="0.781" /> <!-- Spellbook: Pa'agrio's Touch -->
-				<item id="94673" min="1" max="1" chance="0.781" /> <!-- Spellbook: Team Building -->
-				<item id="94861" min="1" max="1" chance="0.781" /> <!-- Spellbook: Tranquility -->
-				<item id="94862" min="1" max="1" chance="0.781" /> <!-- Spellbook: Exclusion -->
-				<item id="94863" min="1" max="1" chance="0.781" /> <!-- Spellbook: Dark Disruption -->
-				<item id="95346" min="1" max="1" chance="0.781" /> <!-- Spellbook: Meteor -->
-				<item id="95347" min="1" max="1" chance="0.781" /> <!-- Spellbook: Rolling Dice -->
-				<item id="95354" min="1" max="1" chance="0.781" /> <!-- Spellbook: Dragon Strike -->
-				<item id="95861" min="1" max="1" chance="0.781" /> <!-- Spellbook: Mechanical Hero -->
+				<item id="93103" min="1" max="1" chance="0.758" /> <!-- Spellbook: Divine Beam -->
+				<item id="93387" min="1" max="1" chance="0.76" /> <!-- Spellbook: Ultimate Death Knight Transformation -->
+				<item id="94498" min="1" max="1" chance="0.758" /> <!-- Spellbook: Titan Champion -->
+				<item id="94508" min="1" max="1" chance="0.758" /> <!-- Spellbook: Cacophony of War -->
+				<item id="94668" min="1" max="1" chance="0.758" /> <!-- Spellbook: Pa'agrio's Touch -->
+				<item id="94673" min="1" max="1" chance="0.758" /> <!-- Spellbook: Team Building -->
+				<item id="94861" min="1" max="1" chance="0.758" /> <!-- Spellbook: Tranquility -->
+				<item id="94862" min="1" max="1" chance="0.758" /> <!-- Spellbook: Exclusion -->
+				<item id="94863" min="1" max="1" chance="0.758" /> <!-- Spellbook: Dark Disruption -->
+				<item id="95346" min="1" max="1" chance="0.758" /> <!-- Spellbook: Meteor -->
+				<item id="95347" min="1" max="1" chance="0.758" /> <!-- Spellbook: Rolling Dice -->
+				<item id="95354" min="1" max="1" chance="0.758" /> <!-- Spellbook: Dragon Strike -->
+				<item id="95861" min="1" max="1" chance="0.758" /> <!-- Spellbook: Prime Master Transformation -->
 				<item id="96006" min="1" max="1" chance="100" /> <!-- +5 Top-grade A-grade Weapon Pack - Sealed -->
 				<item id="96031" min="1" max="1" chance="16.7" /> <!-- Package: +5 Leather Armor of Lightning - Sealed -->
 				<item id="96032" min="1" max="1" chance="16.7" /> <!-- Package: +5 Leather Leggings of Lightning - Sealed -->
@@ -1705,29 +1706,29 @@
 				<item id="96034" min="1" max="1" chance="16.7" /> <!-- Package: +5 Ice Crystal Gaiters - Sealed -->
 				<item id="96035" min="1" max="1" chance="16.6" /> <!-- Package: +5 Flaming Tunic - Sealed -->
 				<item id="96036" min="1" max="1" chance="16.6" /> <!-- Package: +5 Flaming Stockings - Sealed -->
-				<item id="96289" min="1" max="1" chance="0.781" /> <!-- Spellbook: Phoenix Shield -->
-				<item id="96291" min="1" max="1" chance="0.781" /> <!-- Spellbook: Hell -->
-				<item id="96293" min="1" max="1" chance="0.781" /> <!-- Spellbook: Shelter -->
-				<item id="96295" min="1" max="1" chance="0.781" /> <!-- Spellbook: Condemnation -->
-				<item id="96670" min="1" max="1" chance="0.781" /> <!-- Spellbook: Critical Assault -->
-				<item id="96671" min="1" max="1" chance="0.781" /> <!-- Spellbook: Fury Blade -->
-				<item id="96672" min="1" max="1" chance="0.781" /> <!-- Spellbook: Mortal Piercing -->
-				<item id="96873" min="1" max="1" chance="0.781" /> <!-- Spellbook: Legendary Archer -->
-				<item id="97111" min="1" max="1" chance="0.781" /> <!-- Spellbook: Wild Evolution -->
-				<item id="97182" min="1" max="1" chance="0.781" /> <!-- Spellbook: Cat Emperor -->
-				<item id="97183" min="1" max="1" chance="0.781" /> <!-- Spellbook: Unicorn Guard -->
-				<item id="97184" min="1" max="1" chance="0.781" /> <!-- Spellbook: Lord Raise -->
-				<item id="97318" min="1" max="1" chance="0.781" /> <!-- Spellbook: Challenger -->
-				<item id="97323" min="1" max="1" chance="0.781" /> <!-- Spellbook: Great Sweep -->
-				<item id="97453" min="1" max="1" chance="0.781" /> <!-- Spellbook: Overwhelming Power -->
-				<item id="97465" min="1" max="1" chance="0.781" /> <!-- Spellbook: Leopold -->
-				<item id="97831" min="1" max="1" chance="0.781" /> <!-- Spellbook: Amadeus -->
-				<item id="97832" min="1" max="1" chance="0.781" /> <!-- Spellbook: Flamenco -->
-				<item id="97837" min="1" max="1" chance="0.781" /> <!-- Spellbook: Crusader Transformation -->
-				<item id="96299" min="1" max="1" chance="0.117" /> <!-- Recipe: Death Knight's Flame Sword (20%) -->
+				<item id="96289" min="1" max="1" chance="0.758" /> <!-- Spellbook: Phoenix Shield -->
+				<item id="96291" min="1" max="1" chance="0.758" /> <!-- Spellbook: Hell -->
+				<item id="96293" min="1" max="1" chance="0.758" /> <!-- Spellbook: Shelter -->
+				<item id="96295" min="1" max="1" chance="0.758" /> <!-- Spellbook: Condemnation -->
+				<item id="96670" min="1" max="1" chance="0.758" /> <!-- Spellbook: Critical Assault -->
+				<item id="96671" min="1" max="1" chance="0.758" /> <!-- Spellbook: Fury Blade -->
+				<item id="96672" min="1" max="1" chance="0.758" /> <!-- Spellbook: Mortal Piercing -->
+				<item id="96873" min="1" max="1" chance="0.758" /> <!-- Spellbook: Legendary Archer -->
+				<item id="97111" min="1" max="1" chance="0.758" /> <!-- Spellbook: Wild Evolution -->
+				<item id="97182" min="1" max="1" chance="0.758" /> <!-- Spellbook: Cat Emperor -->
+				<item id="97183" min="1" max="1" chance="0.758" /> <!-- Spellbook: Unicorn Guard -->
+				<item id="97184" min="1" max="1" chance="0.758" /> <!-- Spellbook: Lord Raise -->
+				<item id="97318" min="1" max="1" chance="0.758" /> <!-- Spellbook: Challenger -->
+				<item id="97323" min="1" max="1" chance="0.758" /> <!-- Spellbook: Great Sweep -->
+				<item id="97453" min="1" max="1" chance="0.758" /> <!-- Spellbook: Overwhelming Power -->
+				<item id="97465" min="1" max="1" chance="0.758" /> <!-- Spellbook: Leopold -->
+				<item id="97831" min="1" max="1" chance="0.758" /> <!-- Spellbook: Amadeus -->
+				<item id="97832" min="1" max="1" chance="0.758" /> <!-- Spellbook: Flamenco -->
+				<item id="97837" min="1" max="1" chance="0.758" /> <!-- Spellbook: Crusader Transformation -->
+				<item id="98481" min="1" max="1" chance="0.758" /> <!-- Spellbook: Time Distortion -->
 				<item id="96602" min="1" max="1" chance="100" /> <!-- Antharas Doll Lv. 2 -->
+				<item id="98152" min="1" max="1" chance="0.005" /> <!-- Purified Sphere of Immortality -->
 				<item id="90992" min="1" max="1" chance="100" /> <!-- Antharas' Earring -->
-				<item id="93864" min="1" max="1" chance="0.00001" /> <!-- Death Knight's Flame Sword -->
 				<item id="94840" min="1" max="1" chance="5.555" /> <!-- Breastplate of Protection -->
 				<item id="94841" min="1" max="1" chance="5.555" /> <!-- Gaiters of Protection -->
 				<item id="94844" min="1" max="1" chance="5.555" /> <!-- Leather Armor of Protection -->
@@ -1749,7 +1750,7 @@
 		<race>DRAGON</race>
 		<sex>MALE</sex>
 		<stats str="60" int="76" dex="73" wit="70" con="57" men="80">
-			<vitals hp="60000000" hpRegen="10.2" mp="2025740" mpRegen="3.6" />
+			<vitals hp="66000000" hpRegen="10.2" mp="2025740" mpRegen="3.6" />
 			<attack physical="14444" magical="986" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
 			<defence physical="9532" magical="418" />
 			<speed>
@@ -1773,7 +1774,7 @@
 		<race>DRAGON</race>
 		<sex>MALE</sex>
 		<stats str="60" int="76" dex="73" wit="70" con="57" men="80">
-			<vitals hp="60000000" hpRegen="10.2" mp="2025740" mpRegen="3.6" />
+			<vitals hp="66000000" hpRegen="10.2" mp="2025740" mpRegen="3.6" />
 			<attack physical="14444" magical="986" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
 			<defence physical="9532" magical="418" />
 			<speed>
@@ -1797,7 +1798,7 @@
 		<race>ETC</race>
 		<sex>MALE</sex>
 		<stats str="60" int="76" dex="73" wit="70" con="57" men="80">
-			<vitals hp="800000" hpRegen="10.2" mp="1507.8" mpRegen="3.6" />
+			<vitals hp="880000" hpRegen="10.2" mp="1507.8" mpRegen="3.6" />
 			<attack physical="14444" magical="986" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
 			<defence physical="9532" magical="418" />
 			<speed>
@@ -1813,20 +1814,20 @@
 		</collision>
 		<dropLists>
 			<drop>
-				<item id="93103" min="1" max="1" chance="0.25" /> <!-- Spellbook: Divine Beam -->
-				<item id="93387" min="1" max="1" chance="0.25" /> <!-- Spellbook: Ultimate Death Knight Transformation -->
-				<item id="94498" min="1" max="1" chance="0.25" /> <!-- Spellbook: Titan Champion -->
-				<item id="94508" min="1" max="1" chance="0.25" /> <!-- Spellbook: Cacophony of War -->
-				<item id="94668" min="1" max="1" chance="0.25" /> <!-- Spellbook: Pa'agrio's Touch -->
-				<item id="94673" min="1" max="1" chance="0.25" /> <!-- Spellbook: Team Building -->
+				<item id="93103" min="1" max="1" chance="0.242" /> <!-- Spellbook: Divine Beam -->
+				<item id="93387" min="1" max="1" chance="0.243" /> <!-- Spellbook: Ultimate Death Knight Transformation -->
+				<item id="94498" min="1" max="1" chance="0.242" /> <!-- Spellbook: Titan Champion -->
+				<item id="94508" min="1" max="1" chance="0.242" /> <!-- Spellbook: Cacophony of War -->
+				<item id="94668" min="1" max="1" chance="0.242" /> <!-- Spellbook: Pa'agrio's Touch -->
+				<item id="94673" min="1" max="1" chance="0.242" /> <!-- Spellbook: Team Building -->
 				<item id="94726" min="1" max="1" chance="50" /> <!-- Talisman of Hellbound Pack -->
-				<item id="94861" min="1" max="1" chance="0.25" /> <!-- Spellbook: Tranquility -->
-				<item id="94862" min="1" max="1" chance="0.25" /> <!-- Spellbook: Exclusion -->
-				<item id="94863" min="1" max="1" chance="0.25" /> <!-- Spellbook: Dark Disruption -->
-				<item id="95346" min="1" max="1" chance="0.25" /> <!-- Spellbook: Meteor -->
-				<item id="95347" min="1" max="1" chance="0.25" /> <!-- Spellbook: Rolling Dice -->
-				<item id="95354" min="1" max="1" chance="0.25" /> <!-- Spellbook: Dragon Strike -->
-				<item id="95861" min="1" max="1" chance="0.25" /> <!-- Spellbook: Mechanical Hero -->
+				<item id="94861" min="1" max="1" chance="0.242" /> <!-- Spellbook: Tranquility -->
+				<item id="94862" min="1" max="1" chance="0.242" /> <!-- Spellbook: Exclusion -->
+				<item id="94863" min="1" max="1" chance="0.242" /> <!-- Spellbook: Dark Disruption -->
+				<item id="95346" min="1" max="1" chance="0.242" /> <!-- Spellbook: Meteor -->
+				<item id="95347" min="1" max="1" chance="0.242" /> <!-- Spellbook: Rolling Dice -->
+				<item id="95354" min="1" max="1" chance="0.242" /> <!-- Spellbook: Dragon Strike -->
+				<item id="95861" min="1" max="1" chance="0.242" /> <!-- Spellbook: Prime Master Transformation -->
 				<item id="96006" min="1" max="1" chance="50" /> <!-- +5 Top-grade A-grade Weapon Pack - Sealed -->
 				<item id="96007" min="1" max="1" chance="4.165" /> <!-- Package: +5 Armor of Nightmare - Sealed -->
 				<item id="96008" min="1" max="1" chance="4.165" /> <!-- Package: +5 Helm of Nightmare (Heavy) - Sealed -->
@@ -1852,25 +1853,26 @@
 				<item id="96028" min="1" max="1" chance="4.17" /> <!-- Package: +5 Majestic Circlet (Robe) - Sealed -->
 				<item id="96029" min="1" max="1" chance="4.17" /> <!-- Package: +5 Majestic Gauntlets (Robe) - Sealed -->
 				<item id="96030" min="1" max="1" chance="4.17" /> <!-- Package: +5 Majestic Boots (Robe) - Sealed -->
-				<item id="96289" min="1" max="1" chance="0.25" /> <!-- Spellbook: Phoenix Shield -->
-				<item id="96291" min="1" max="1" chance="0.25" /> <!-- Spellbook: Hell -->
-				<item id="96293" min="1" max="1" chance="0.25" /> <!-- Spellbook: Shelter -->
-				<item id="96295" min="1" max="1" chance="0.25" /> <!-- Spellbook: Condemnation -->
-				<item id="96670" min="1" max="1" chance="0.25" /> <!-- Spellbook: Critical Assault -->
-				<item id="96671" min="1" max="1" chance="0.25" /> <!-- Spellbook: Fury Blade -->
-				<item id="96672" min="1" max="1" chance="0.25" /> <!-- Spellbook: Mortal Piercing -->
-				<item id="96873" min="1" max="1" chance="0.25" /> <!-- Spellbook: Legendary Archer -->
-				<item id="97111" min="1" max="1" chance="0.25" /> <!-- Spellbook: Wild Evolution -->
-				<item id="97182" min="1" max="1" chance="0.25" /> <!-- Spellbook: Cat Emperor -->
-				<item id="97183" min="1" max="1" chance="0.25" /> <!-- Spellbook: Unicorn Guard -->
-				<item id="97184" min="1" max="1" chance="0.25" /> <!-- Spellbook: Lord Raise -->
-				<item id="97318" min="1" max="1" chance="0.25" /> <!-- Spellbook: Challenger -->
-				<item id="97323" min="1" max="1" chance="0.25" /> <!-- Spellbook: Great Sweep -->
-				<item id="97453" min="1" max="1" chance="0.25" /> <!-- Spellbook: Overwhelming Power -->
-				<item id="97465" min="1" max="1" chance="0.25" /> <!-- Spellbook: Leopold -->
-				<item id="97831" min="1" max="1" chance="0.25" /> <!-- Spellbook: Amadeus -->
-				<item id="97832" min="1" max="1" chance="0.25" /> <!-- Spellbook: Flamenco -->
-				<item id="97837" min="1" max="1" chance="0.25" /> <!-- Spellbook: Crusader Transformation -->
+				<item id="96289" min="1" max="1" chance="0.242" /> <!-- Spellbook: Phoenix Shield -->
+				<item id="96291" min="1" max="1" chance="0.242" /> <!-- Spellbook: Hell -->
+				<item id="96293" min="1" max="1" chance="0.242" /> <!-- Spellbook: Shelter -->
+				<item id="96295" min="1" max="1" chance="0.242" /> <!-- Spellbook: Condemnation -->
+				<item id="96670" min="1" max="1" chance="0.242" /> <!-- Spellbook: Critical Assault -->
+				<item id="96671" min="1" max="1" chance="0.242" /> <!-- Spellbook: Fury Blade -->
+				<item id="96672" min="1" max="1" chance="0.242" /> <!-- Spellbook: Mortal Piercing -->
+				<item id="96873" min="1" max="1" chance="0.242" /> <!-- Spellbook: Legendary Archer -->
+				<item id="97111" min="1" max="1" chance="0.242" /> <!-- Spellbook: Wild Evolution -->
+				<item id="97182" min="1" max="1" chance="0.242" /> <!-- Spellbook: Cat Emperor -->
+				<item id="97183" min="1" max="1" chance="0.242" /> <!-- Spellbook: Unicorn Guard -->
+				<item id="97184" min="1" max="1" chance="0.242" /> <!-- Spellbook: Lord Raise -->
+				<item id="97318" min="1" max="1" chance="0.242" /> <!-- Spellbook: Challenger -->
+				<item id="97323" min="1" max="1" chance="0.242" /> <!-- Spellbook: Great Sweep -->
+				<item id="97453" min="1" max="1" chance="0.242" /> <!-- Spellbook: Overwhelming Power -->
+				<item id="97465" min="1" max="1" chance="0.242" /> <!-- Spellbook: Leopold -->
+				<item id="97831" min="1" max="1" chance="0.242" /> <!-- Spellbook: Amadeus -->
+				<item id="97832" min="1" max="1" chance="0.242" /> <!-- Spellbook: Flamenco -->
+				<item id="97837" min="1" max="1" chance="0.242" /> <!-- Spellbook: Crusader Transformation -->
+				<item id="98481" min="1" max="1" chance="0.242" /> <!-- Spellbook: Time Distortion -->
 				<item id="96600" min="1" max="1" chance="50" /> <!-- Beleth' Ring -->
 				<item id="93139" min="1" max="1" chance="8.35" /> <!-- Ice Crystal Breastplate -->
 				<item id="93140" min="1" max="1" chance="8.35" /> <!-- Ice Crystal Gaiters -->
@@ -1887,7 +1889,7 @@
 		<race>DEMONIC</race>
 		<sex>MALE</sex>
 		<stats str="60" int="76" dex="73" wit="70" con="57" men="80">
-			<vitals hp="16800000" hpRegen="10.2" mp="18000" mpRegen="3.6" />
+			<vitals hp="18480000" hpRegen="10.2" mp="18000" mpRegen="3.6" />
 			<attack physical="7036.32" magical="3603.68" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
 			<defence physical="1698.52" magical="932.184" />
 			<speed>
@@ -1912,7 +1914,7 @@
 		<race>DEMONIC</race>
 		<sex>MALE</sex>
 		<stats str="60" int="76" dex="73" wit="70" con="57" men="80">
-			<vitals hp="16800000" hpRegen="10.2" mp="18000" mpRegen="3.6" />
+			<vitals hp="18480000" hpRegen="10.2" mp="18000" mpRegen="3.6" />
 			<attack physical="7036.32" magical="3603.68" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
 			<defence physical="1698.52" magical="932.184" />
 			<speed>
@@ -1937,7 +1939,7 @@
 		<race>DEMONIC</race>
 		<sex>MALE</sex>
 		<stats str="60" int="76" dex="73" wit="70" con="57" men="80">
-			<vitals hp="16800000" hpRegen="10.2" mp="18000" mpRegen="3.6" />
+			<vitals hp="18480000" hpRegen="10.2" mp="18000" mpRegen="3.6" />
 			<attack physical="7036.32" magical="3603.68" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
 			<defence physical="1698.52" magical="932.184" />
 			<speed>
@@ -1962,7 +1964,7 @@
 		<race>DEMONIC</race>
 		<sex>MALE</sex>
 		<stats str="60" int="76" dex="73" wit="70" con="57" men="80">
-			<vitals hp="16800000" hpRegen="10.2" mp="18000" mpRegen="3.6" />
+			<vitals hp="18480000" hpRegen="10.2" mp="18000" mpRegen="3.6" />
 			<attack physical="7036.32" magical="3603.68" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
 			<defence physical="1698.52" magical="932.184" />
 			<speed>
@@ -1987,7 +1989,7 @@
 		<race>DEMONIC</race>
 		<sex>MALE</sex>
 		<stats str="60" int="76" dex="73" wit="70" con="57" men="80">
-			<vitals hp="16800000" hpRegen="10.2" mp="18000" mpRegen="3.6" />
+			<vitals hp="18480000" hpRegen="10.2" mp="18000" mpRegen="3.6" />
 			<attack physical="7036.32" magical="3603.68" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
 			<defence physical="1698.52" magical="932.184" />
 			<speed>
@@ -2012,7 +2014,7 @@
 		<race>DEMONIC</race>
 		<sex>MALE</sex>
 		<stats str="60" int="76" dex="73" wit="70" con="57" men="80">
-			<vitals hp="16800000" hpRegen="10.2" mp="18000" mpRegen="3.6" />
+			<vitals hp="18480000" hpRegen="10.2" mp="18000" mpRegen="3.6" />
 			<attack physical="7036.32" magical="3603.68" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
 			<defence physical="1698.52" magical="932.184" />
 			<speed>
@@ -2037,7 +2039,7 @@
 		<race>DEMONIC</race>
 		<sex>MALE</sex>
 		<stats str="60" int="76" dex="73" wit="70" con="57" men="80">
-			<vitals hp="16800000" hpRegen="10.2" mp="18000" mpRegen="3.6" />
+			<vitals hp="18480000" hpRegen="10.2" mp="18000" mpRegen="3.6" />
 			<attack physical="7036.32" magical="3603.68" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
 			<defence physical="1698.52" magical="932.184" />
 			<speed>
@@ -2062,7 +2064,7 @@
 		<race>DEMONIC</race>
 		<sex>MALE</sex>
 		<stats str="60" int="76" dex="73" wit="70" con="57" men="80">
-			<vitals hp="16800000" hpRegen="10.2" mp="18000" mpRegen="3.6" />
+			<vitals hp="18480000" hpRegen="10.2" mp="18000" mpRegen="3.6" />
 			<attack physical="7036.32" magical="3603.68" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
 			<defence physical="1698.52" magical="932.184" />
 			<speed>
@@ -2087,7 +2089,7 @@
 		<race>DEMONIC</race>
 		<sex>MALE</sex>
 		<stats str="60" int="76" dex="73" wit="70" con="57" men="80">
-			<vitals hp="16800000" hpRegen="10.2" mp="18000" mpRegen="3.6" />
+			<vitals hp="18480000" hpRegen="10.2" mp="18000" mpRegen="3.6" />
 			<attack physical="7036.32" magical="3603.68" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
 			<defence physical="1698.52" magical="932.184" />
 			<speed>
@@ -2112,7 +2114,7 @@
 		<race>DEMONIC</race>
 		<sex>MALE</sex>
 		<stats str="60" int="76" dex="73" wit="70" con="57" men="80">
-			<vitals hp="16800000" hpRegen="10.2" mp="18000" mpRegen="3.6" />
+			<vitals hp="18480000" hpRegen="10.2" mp="18000" mpRegen="3.6" />
 			<attack physical="7036.32" magical="3603.68" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
 			<defence physical="1698.52" magical="932.184" />
 			<speed>
@@ -2137,7 +2139,7 @@
 		<race>DEMONIC</race>
 		<sex>MALE</sex>
 		<stats str="60" int="76" dex="73" wit="70" con="57" men="80">
-			<vitals hp="16800000" hpRegen="10.2" mp="18000" mpRegen="3.6" />
+			<vitals hp="18480000" hpRegen="10.2" mp="18000" mpRegen="3.6" />
 			<attack physical="7036.32" magical="3603.68" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
 			<defence physical="1698.52" magical="932.184" />
 			<speed>
@@ -2162,7 +2164,7 @@
 		<race>DEMONIC</race>
 		<sex>MALE</sex>
 		<stats str="60" int="76" dex="73" wit="70" con="57" men="80">
-			<vitals hp="16800000" hpRegen="10.2" mp="18000" mpRegen="3.6" />
+			<vitals hp="18480000" hpRegen="10.2" mp="18000" mpRegen="3.6" />
 			<attack physical="7036.32" magical="3603.68" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
 			<defence physical="1698.52" magical="932.184" />
 			<speed>
@@ -2187,7 +2189,7 @@
 		<race>DEMONIC</race>
 		<sex>MALE</sex>
 		<stats str="60" int="76" dex="73" wit="70" con="57" men="80">
-			<vitals hp="16800000" hpRegen="10.2" mp="18000" mpRegen="3.6" />
+			<vitals hp="18480000" hpRegen="10.2" mp="18000" mpRegen="3.6" />
 			<attack physical="7036.32" magical="3603.68" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
 			<defence physical="1698.52" magical="932.184" />
 			<speed>
@@ -2212,7 +2214,7 @@
 		<race>ETC</race>
 		<sex>MALE</sex>
 		<stats str="60" int="76" dex="73" wit="70" con="57" men="80">
-			<vitals hp="12000000" hpRegen="10.2" mp="18000" mpRegen="3.6" />
+			<vitals hp="13200000" hpRegen="10.2" mp="18000" mpRegen="3.6" />
 			<attack physical="8905.0086" magical="6080.96658" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
 			<defence physical="3992.40732" magical="2921.47044" />
 			<speed>
@@ -2231,64 +2233,66 @@
 		</skillList>
 		<dropLists>
 			<drop>
-				<item id="91944" min="1" max="1" chance="0.05" /> <!-- Spellbook: Light Master Lv. 2 -->
-				<item id="91945" min="1" max="1" chance="0.05" /> <!-- Spellbook: Shadow Master Lv. 2 -->
-				<item id="92401" min="1" max="1" chance="0.072" /> <!-- Spellbook: White Guardian -->
+				<item id="91944" min="1" max="1" chance="0.048" /> <!-- Spellbook: Light Master Lv. 2 -->
+				<item id="91945" min="1" max="1" chance="0.048" /> <!-- Spellbook: Shadow Master Lv. 2 -->
+				<item id="92401" min="1" max="1" chance="0.07" /> <!-- Spellbook: White Guardian -->
 				<item id="93103" min="1" max="1" chance="0.009" /> <!-- Spellbook: Divine Beam -->
 				<item id="93387" min="1" max="1" chance="0.01" /> <!-- Spellbook: Ultimate Death Knight Transformation -->
-				<item id="93631" min="1" max="1" chance="0.048" /> <!-- Spellbook: Hellfire -->
-				<item id="93869" min="1" max="1" chance="0.047" /> <!-- Spellbook: Elemental Burst -->
-				<item id="93870" min="1" max="1" chance="0.046" /> <!-- Spellbook: Ethereal Strike -->
-				<item id="94137" min="1" max="1" chance="0.048" /> <!-- Spellbook: Devour -->
-				<item id="94324" min="1" max="1" chance="0.047" /> <!-- Spellbook: Song of Earth -->
-				<item id="94325" min="1" max="1" chance="0.047" /> <!-- Spellbook: Song of Hunter -->
-				<item id="94326" min="1" max="1" chance="0.05" /> <!-- Spellbook: Dance of Warrior -->
-				<item id="94327" min="1" max="1" chance="0.05" /> <!-- Spellbook: Dance of Fire -->
+				<item id="93631" min="1" max="1" chance="0.046" /> <!-- Spellbook: Hellfire -->
+				<item id="93869" min="1" max="1" chance="0.045" /> <!-- Spellbook: Elemental Burst -->
+				<item id="93870" min="1" max="1" chance="0.044" /> <!-- Spellbook: Ethereal Strike -->
+				<item id="94137" min="1" max="1" chance="0.046" /> <!-- Spellbook: Devour -->
+				<item id="94324" min="1" max="1" chance="0.045" /> <!-- Spellbook: Song of Earth Lv. 2 -->
+				<item id="94325" min="1" max="1" chance="0.045" /> <!-- Spellbook: Song of Hunter Lv. 2 -->
+				<item id="94326" min="1" max="1" chance="0.048" /> <!-- Spellbook: Dance of Warrior Lv. 2 -->
+				<item id="94327" min="1" max="1" chance="0.048" /> <!-- Spellbook: Dance of Fire Lv. 2 -->
 				<item id="94498" min="1" max="1" chance="0.009" /> <!-- Spellbook: Titan Champion -->
-				<item id="94500" min="1" max="1" chance="0.047" /> <!-- Spellbook: Titanic Sweep -->
-				<item id="94501" min="1" max="1" chance="0.047" /> <!-- Spellbook: Titanic Break -->
-				<item id="94505" min="1" max="1" chance="0.046" /> <!-- Spellbook: Burning Strike -->
-				<item id="94507" min="1" max="1" chance="0.046" /> <!-- Spellbook: Armor Break -->
+				<item id="94500" min="1" max="1" chance="0.045" /> <!-- Spellbook: Titanic Sweep -->
+				<item id="94501" min="1" max="1" chance="0.045" /> <!-- Spellbook: Titanic Break -->
+				<item id="94505" min="1" max="1" chance="0.044" /> <!-- Spellbook: Burning Strike -->
+				<item id="94507" min="1" max="1" chance="0.044" /> <!-- Spellbook: Armor Break -->
 				<item id="94508" min="1" max="1" chance="0.009" /> <!-- Spellbook: Cacophony of War -->
 				<item id="94668" min="1" max="1" chance="0.009" /> <!-- Spellbook: Pa'agrio's Touch -->
-				<item id="94670" min="1" max="1" chance="0.047" /> <!-- Spellbook: Debuff Master -->
+				<item id="94670" min="1" max="1" chance="0.045" /> <!-- Spellbook: Debuff Master -->
 				<item id="94673" min="1" max="1" chance="0.009" /> <!-- Spellbook: Team Building -->
-				<item id="94674" min="1" max="1" chance="0.046" /> <!-- Spellbook: Blood Bond -->
+				<item id="94674" min="1" max="1" chance="0.044" /> <!-- Spellbook: Blood Bond -->
 				<item id="94861" min="1" max="1" chance="0.009" /> <!-- Spellbook: Tranquility -->
 				<item id="94862" min="1" max="1" chance="0.009" /> <!-- Spellbook: Exclusion -->
 				<item id="94863" min="1" max="1" chance="0.009" /> <!-- Spellbook: Dark Disruption -->
 				<item id="95346" min="1" max="1" chance="0.009" /> <!-- Spellbook: Meteor -->
 				<item id="95347" min="1" max="1" chance="0.009" /> <!-- Spellbook: Rolling Dice -->
-				<item id="95348" min="1" max="1" chance="0.047" /> <!-- Spellbook: Song of Wind -->
-				<item id="95349" min="1" max="1" chance="0.05" /> <!-- Spellbook: Dance of Fury -->
-				<item id="95350" min="1" max="1" chance="0.05" /> <!-- Spellbook: Goring Charge -->
-				<item id="95352" min="1" max="1" chance="0.05" /> <!-- Spellbook: Elemental Changing -->
-				<item id="95365" min="1" max="1" chance="0.05" /> <!-- Spellbook: Elemental Spirit Lv. 4 -->
-				<item id="95856" min="1" max="1" chance="0.047" /> <!-- Spellbook: Fortune Time -->
-				<item id="95862" min="1" max="1" chance="0.048" /> <!-- Spellbook: Mechanical Masterpiece -->
-				<item id="95863" min="1" max="1" chance="0.048" /> <!-- Spellbook: Blacksmith's Attack -->
-				<item id="96037" min="1" max="1" chance="0.047" /> <!-- Spellbook: Sensation -->
-				<item id="96040" min="1" max="1" chance="0.046" /> <!-- Spellbook: Treatment -->
-				<item id="96043" min="1" max="1" chance="0.046" /> <!-- Spellbook: Duress -->
-				<item id="96283" min="1" max="1" chance="0.047" /> <!-- Spellbook: Power of Life -->
-				<item id="96285" min="1" max="1" chance="0.046" /> <!-- Spellbook: Toughness -->
-				<item id="96665" min="1" max="1" chance="0.047" /> <!-- Spellbook: Seclusion -->
-				<item id="96667" min="1" max="1" chance="0.046" /> <!-- Spellbook: Reversed Pull -->
-				<item id="96668" min="1" max="1" chance="0.046" /> <!-- Spellbook: Synchro Freedom -->
-				<item id="96669" min="1" max="1" chance="0.046" /> <!-- Spellbook: Ethereal Blood -->
-				<item id="96874" min="1" max="1" chance="0.048" /> <!-- Spellbook: True Aim -->
-				<item id="96875" min="1" max="1" chance="0.049" /> <!-- Spellbook: Deadly Shooter -->
-				<item id="97037" min="1" max="1" chance="0.046" /> <!-- Spellbook: Faery Shield -->
-				<item id="97038" min="1" max="1" chance="0.046" /> <!-- Spellbook: Soul Guardian -->
-				<item id="97102" min="1" max="1" chance="0.05" /> <!-- Spellbook: Giant's Stomp -->
-				<item id="97185" min="1" max="1" chance="0.046" /> <!-- Spellbook: Cubic of Secrets Lv. 2 -->
-				<item id="97186" min="1" max="1" chance="0.046" /> <!-- Spellbook: Elemental Cubic Lv. 2 -->
-				<item id="97187" min="1" max="1" chance="0.046" /> <!-- Spellbook: Phantom Cubic Lv. 2 -->
-				<item id="97319" min="1" max="1" chance="0.046" /> <!-- Spellbook: Blade Wave -->
-				<item id="97324" min="1" max="1" chance="0.046" /> <!-- Spellbook: Spear Cage -->
-				<item id="97455" min="1" max="1" chance="0.046" /> <!-- Spellbook: Soul Mark -->
-				<item id="97838" min="1" max="1" chance="0.045" /> <!-- Spellbook: Unique Seal of Damage -->
-				<item id="93908" min="1" max="1" chance="100" /> <!-- Core's Crystal -->
+				<item id="95348" min="1" max="1" chance="0.045" /> <!-- Spellbook: Song of Wind Lv. 2 -->
+				<item id="95349" min="1" max="1" chance="0.048" /> <!-- Spellbook: Dance of Fury Lv. 2 -->
+				<item id="95350" min="1" max="1" chance="0.047" /> <!-- Spellbook: Goring Charge -->
+				<item id="95352" min="1" max="1" chance="0.047" /> <!-- Spellbook: Elemental Changing -->
+				<item id="95365" min="1" max="1" chance="0.047" /> <!-- Spellbook: Elemental Spirit Lv. 4 -->
+				<item id="95856" min="1" max="1" chance="0.045" /> <!-- Spellbook: Fortune Time -->
+				<item id="95862" min="1" max="1" chance="0.046" /> <!-- Spellbook: Mechanical Masterpiece -->
+				<item id="95863" min="1" max="1" chance="0.046" /> <!-- Spellbook: Blacksmith' Attack -->
+				<item id="96037" min="1" max="1" chance="0.045" /> <!-- Spellbook: Sensation -->
+				<item id="96040" min="1" max="1" chance="0.044" /> <!-- Spellbook: Treatment -->
+				<item id="96043" min="1" max="1" chance="0.044" /> <!-- Spellbook: Duress -->
+				<item id="96283" min="1" max="1" chance="0.045" /> <!-- Spellbook: Power of Life -->
+				<item id="96285" min="1" max="1" chance="0.044" /> <!-- Spellbook: Toughness -->
+				<item id="96665" min="1" max="1" chance="0.045" /> <!-- Spellbook: Seclusion -->
+				<item id="96667" min="1" max="1" chance="0.044" /> <!-- Spellbook: Reversed Pull -->
+				<item id="96668" min="1" max="1" chance="0.044" /> <!-- Spellbook: Synchro Freedom -->
+				<item id="96669" min="1" max="1" chance="0.044" /> <!-- Spellbook: Ethereal Blood -->
+				<item id="96874" min="1" max="1" chance="0.046" /> <!-- Spellbook: True Aim -->
+				<item id="96875" min="1" max="1" chance="0.047" /> <!-- Spellbook: Deadly Shooter -->
+				<item id="97037" min="1" max="1" chance="0.044" /> <!-- Spellbook: Faery Shield -->
+				<item id="97038" min="1" max="1" chance="0.044" /> <!-- Spellbook: Soul Guardian -->
+				<item id="97102" min="1" max="1" chance="0.047" /> <!-- Spellbook: Giant's Stomp -->
+				<item id="97185" min="1" max="1" chance="0.044" /> <!-- Spellbook: Cubic of Secrets Lv. 2 -->
+				<item id="97186" min="1" max="1" chance="0.044" /> <!-- Spellbook: Elemental Cubic Lv. 2 -->
+				<item id="97187" min="1" max="1" chance="0.044" /> <!-- Spellbook: Phantom Cubic Lv. 2 -->
+				<item id="97319" min="1" max="1" chance="0.044" /> <!-- Spellbook: Blade Wave -->
+				<item id="97324" min="1" max="1" chance="0.044" /> <!-- Spellbook: Spear Cage -->
+				<item id="97455" min="1" max="1" chance="0.044" /> <!-- Spellbook: Soul Mark -->
+				<item id="97838" min="1" max="1" chance="0.044" /> <!-- Spellbook: Unique Seal of Damage -->
+				<item id="98446" min="1" max="1" chance="0.044" /> <!-- Spellbook: Powerful Servitor Share -->
+				<item id="98483" min="1" max="1" chance="0.047" /> <!-- Spellbook: Assassination -->
+				<item id="93908" min="1" max="1" chance="50" /> <!-- Core's Crystal -->
 				<item id="94649" min="1" max="1" chance="5" /> <!-- Core Doll Lv. 2 -->
 				<item id="96613" min="1" max="1" chance="0.01" /> <!-- Spellbook: Expanded Potential of Dyes -->
 				<item id="6662" min="1" max="1" chance="10" /> <!-- Ring of Core -->
@@ -2347,7 +2351,7 @@
 		<race>FAIRY</race>
 		<sex>MALE</sex>
 		<stats str="60" int="76" dex="73" wit="70" con="57" men="80">
-			<vitals hp="18000000" hpRegen="10.2" mp="18000" mpRegen="3.6" />
+			<vitals hp="19800000" hpRegen="10.2" mp="18000" mpRegen="3.6" />
 			<attack physical="8905.0086" magical="6080.96658" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
 			<defence physical="3992.40732" magical="2921.47044" />
 			<speed>
@@ -2366,65 +2370,67 @@
 		</skillList>
 		<dropLists>
 			<drop>
-				<item id="91944" min="1" max="1" chance="0.05" /> <!-- Spellbook: Light Master Lv. 2 -->
-				<item id="91945" min="1" max="1" chance="0.05" /> <!-- Spellbook: Shadow Master Lv. 2 -->
-				<item id="92401" min="1" max="1" chance="0.072" /> <!-- Spellbook: White Guardian -->
+				<item id="91944" min="1" max="1" chance="0.048" /> <!-- Spellbook: Light Master Lv. 2 -->
+				<item id="91945" min="1" max="1" chance="0.048" /> <!-- Spellbook: Shadow Master Lv. 2 -->
+				<item id="92401" min="1" max="1" chance="0.07" /> <!-- Spellbook: White Guardian -->
 				<item id="93103" min="1" max="1" chance="0.009" /> <!-- Spellbook: Divine Beam -->
 				<item id="93387" min="1" max="1" chance="0.01" /> <!-- Spellbook: Ultimate Death Knight Transformation -->
-				<item id="93631" min="1" max="1" chance="0.048" /> <!-- Spellbook: Hellfire -->
-				<item id="93869" min="1" max="1" chance="0.047" /> <!-- Spellbook: Elemental Burst -->
-				<item id="93870" min="1" max="1" chance="0.046" /> <!-- Spellbook: Ethereal Strike -->
-				<item id="94137" min="1" max="1" chance="0.048" /> <!-- Spellbook: Devour -->
-				<item id="94324" min="1" max="1" chance="0.047" /> <!-- Spellbook: Song of Earth -->
-				<item id="94325" min="1" max="1" chance="0.047" /> <!-- Spellbook: Song of Hunter -->
-				<item id="94326" min="1" max="1" chance="0.05" /> <!-- Spellbook: Dance of Warrior -->
-				<item id="94327" min="1" max="1" chance="0.05" /> <!-- Spellbook: Dance of Fire -->
+				<item id="93631" min="1" max="1" chance="0.046" /> <!-- Spellbook: Hellfire -->
+				<item id="93869" min="1" max="1" chance="0.045" /> <!-- Spellbook: Elemental Burst -->
+				<item id="93870" min="1" max="1" chance="0.044" /> <!-- Spellbook: Ethereal Strike -->
+				<item id="94137" min="1" max="1" chance="0.046" /> <!-- Spellbook: Devour -->
+				<item id="94324" min="1" max="1" chance="0.045" /> <!-- Spellbook: Song of Earth Lv. 2 -->
+				<item id="94325" min="1" max="1" chance="0.045" /> <!-- Spellbook: Song of Hunter Lv. 2 -->
+				<item id="94326" min="1" max="1" chance="0.048" /> <!-- Spellbook: Dance of Warrior Lv. 2 -->
+				<item id="94327" min="1" max="1" chance="0.048" /> <!-- Spellbook: Dance of Fire Lv. 2 -->
 				<item id="94498" min="1" max="1" chance="0.009" /> <!-- Spellbook: Titan Champion -->
-				<item id="94500" min="1" max="1" chance="0.047" /> <!-- Spellbook: Titanic Sweep -->
-				<item id="94501" min="1" max="1" chance="0.047" /> <!-- Spellbook: Titanic Break -->
-				<item id="94505" min="1" max="1" chance="0.046" /> <!-- Spellbook: Burning Strike -->
-				<item id="94507" min="1" max="1" chance="0.046" /> <!-- Spellbook: Armor Break -->
+				<item id="94500" min="1" max="1" chance="0.045" /> <!-- Spellbook: Titanic Sweep -->
+				<item id="94501" min="1" max="1" chance="0.045" /> <!-- Spellbook: Titanic Break -->
+				<item id="94505" min="1" max="1" chance="0.044" /> <!-- Spellbook: Burning Strike -->
+				<item id="94507" min="1" max="1" chance="0.044" /> <!-- Spellbook: Armor Break -->
 				<item id="94508" min="1" max="1" chance="0.009" /> <!-- Spellbook: Cacophony of War -->
 				<item id="94668" min="1" max="1" chance="0.009" /> <!-- Spellbook: Pa'agrio's Touch -->
-				<item id="94670" min="1" max="1" chance="0.047" /> <!-- Spellbook: Debuff Master -->
+				<item id="94670" min="1" max="1" chance="0.045" /> <!-- Spellbook: Debuff Master -->
 				<item id="94673" min="1" max="1" chance="0.009" /> <!-- Spellbook: Team Building -->
-				<item id="94674" min="1" max="1" chance="0.046" /> <!-- Spellbook: Blood Bond -->
+				<item id="94674" min="1" max="1" chance="0.044" /> <!-- Spellbook: Blood Bond -->
 				<item id="94861" min="1" max="1" chance="0.009" /> <!-- Spellbook: Tranquility -->
 				<item id="94862" min="1" max="1" chance="0.009" /> <!-- Spellbook: Exclusion -->
 				<item id="94863" min="1" max="1" chance="0.009" /> <!-- Spellbook: Dark Disruption -->
 				<item id="95346" min="1" max="1" chance="0.009" /> <!-- Spellbook: Meteor -->
 				<item id="95347" min="1" max="1" chance="0.009" /> <!-- Spellbook: Rolling Dice -->
-				<item id="95348" min="1" max="1" chance="0.047" /> <!-- Spellbook: Song of Wind -->
-				<item id="95349" min="1" max="1" chance="0.05" /> <!-- Spellbook: Dance of Fury -->
-				<item id="95350" min="1" max="1" chance="0.05" /> <!-- Spellbook: Goring Charge -->
-				<item id="95352" min="1" max="1" chance="0.05" /> <!-- Spellbook: Elemental Changing -->
-				<item id="95365" min="1" max="1" chance="0.05" /> <!-- Spellbook: Elemental Spirit Lv. 4 -->
-				<item id="95856" min="1" max="1" chance="0.047" /> <!-- Spellbook: Fortune Time -->
-				<item id="95862" min="1" max="1" chance="0.048" /> <!-- Spellbook: Mechanical Masterpiece -->
-				<item id="95863" min="1" max="1" chance="0.048" /> <!-- Spellbook: Blacksmith's Attack -->
-				<item id="96037" min="1" max="1" chance="0.047" /> <!-- Spellbook: Sensation -->
-				<item id="96040" min="1" max="1" chance="0.046" /> <!-- Spellbook: Treatment -->
-				<item id="96043" min="1" max="1" chance="0.046" /> <!-- Spellbook: Duress -->
-				<item id="96283" min="1" max="1" chance="0.047" /> <!-- Spellbook: Power of Life -->
-				<item id="96285" min="1" max="1" chance="0.046" /> <!-- Spellbook: Toughness -->
-				<item id="96665" min="1" max="1" chance="0.047" /> <!-- Spellbook: Seclusion -->
-				<item id="96667" min="1" max="1" chance="0.046" /> <!-- Spellbook: Reversed Pull -->
-				<item id="96668" min="1" max="1" chance="0.046" /> <!-- Spellbook: Synchro Freedom -->
-				<item id="96669" min="1" max="1" chance="0.046" /> <!-- Spellbook: Ethereal Blood -->
-				<item id="96874" min="1" max="1" chance="0.048" /> <!-- Spellbook: True Aim -->
-				<item id="96875" min="1" max="1" chance="0.049" /> <!-- Spellbook: Deadly Shooter -->
-				<item id="97037" min="1" max="1" chance="0.046" /> <!-- Spellbook: Faery Shield -->
-				<item id="97038" min="1" max="1" chance="0.046" /> <!-- Spellbook: Soul Guardian -->
-				<item id="97102" min="1" max="1" chance="0.05" /> <!-- Spellbook: Giant's Stomp -->
-				<item id="97185" min="1" max="1" chance="0.046" /> <!-- Spellbook: Cubic of Secrets Lv. 2 -->
-				<item id="97186" min="1" max="1" chance="0.046" /> <!-- Spellbook: Elemental Cubic Lv. 2 -->
-				<item id="97187" min="1" max="1" chance="0.046" /> <!-- Spellbook: Phantom Cubic Lv. 2 -->
-				<item id="97319" min="1" max="1" chance="0.046" /> <!-- Spellbook: Blade Wave -->
-				<item id="97324" min="1" max="1" chance="0.046" /> <!-- Spellbook: Spear Cage -->
-				<item id="97455" min="1" max="1" chance="0.046" /> <!-- Spellbook: Soul Mark -->
-				<item id="97838" min="1" max="1" chance="0.045" /> <!-- Spellbook: Unique Seal of Damage -->
+				<item id="95348" min="1" max="1" chance="0.045" /> <!-- Spellbook: Song of Wind Lv. 2 -->
+				<item id="95349" min="1" max="1" chance="0.048" /> <!-- Spellbook: Dance of Fury Lv. 2 -->
+				<item id="95350" min="1" max="1" chance="0.047" /> <!-- Spellbook: Goring Charge -->
+				<item id="95352" min="1" max="1" chance="0.047" /> <!-- Spellbook: Elemental Changing -->
+				<item id="95365" min="1" max="1" chance="0.047" /> <!-- Spellbook: Elemental Spirit Lv. 4 -->
+				<item id="95856" min="1" max="1" chance="0.045" /> <!-- Spellbook: Fortune Time -->
+				<item id="95862" min="1" max="1" chance="0.046" /> <!-- Spellbook: Mechanical Masterpiece -->
+				<item id="95863" min="1" max="1" chance="0.046" /> <!-- Spellbook: Blacksmith' Attack -->
+				<item id="96037" min="1" max="1" chance="0.045" /> <!-- Spellbook: Sensation -->
+				<item id="96040" min="1" max="1" chance="0.044" /> <!-- Spellbook: Treatment -->
+				<item id="96043" min="1" max="1" chance="0.044" /> <!-- Spellbook: Duress -->
+				<item id="96283" min="1" max="1" chance="0.045" /> <!-- Spellbook: Power of Life -->
+				<item id="96285" min="1" max="1" chance="0.044" /> <!-- Spellbook: Toughness -->
+				<item id="96665" min="1" max="1" chance="0.045" /> <!-- Spellbook: Seclusion -->
+				<item id="96667" min="1" max="1" chance="0.044" /> <!-- Spellbook: Reversed Pull -->
+				<item id="96668" min="1" max="1" chance="0.044" /> <!-- Spellbook: Synchro Freedom -->
+				<item id="96669" min="1" max="1" chance="0.044" /> <!-- Spellbook: Ethereal Blood -->
+				<item id="96874" min="1" max="1" chance="0.046" /> <!-- Spellbook: True Aim -->
+				<item id="96875" min="1" max="1" chance="0.047" /> <!-- Spellbook: Deadly Shooter -->
+				<item id="97037" min="1" max="1" chance="0.044" /> <!-- Spellbook: Faery Shield -->
+				<item id="97038" min="1" max="1" chance="0.044" /> <!-- Spellbook: Soul Guardian -->
+				<item id="97102" min="1" max="1" chance="0.047" /> <!-- Spellbook: Giant's Stomp -->
+				<item id="97185" min="1" max="1" chance="0.044" /> <!-- Spellbook: Cubic of Secrets Lv. 2 -->
+				<item id="97186" min="1" max="1" chance="0.044" /> <!-- Spellbook: Elemental Cubic Lv. 2 -->
+				<item id="97187" min="1" max="1" chance="0.044" /> <!-- Spellbook: Phantom Cubic Lv. 2 -->
+				<item id="97319" min="1" max="1" chance="0.044" /> <!-- Spellbook: Blade Wave -->
+				<item id="97324" min="1" max="1" chance="0.044" /> <!-- Spellbook: Spear Cage -->
+				<item id="97455" min="1" max="1" chance="0.044" /> <!-- Spellbook: Soul Mark -->
+				<item id="97838" min="1" max="1" chance="0.044" /> <!-- Spellbook: Unique Seal of Damage -->
+				<item id="98446" min="1" max="1" chance="0.044" /> <!-- Spellbook: Powerful Servitor Share -->
+				<item id="98483" min="1" max="1" chance="0.047" /> <!-- Spellbook: Assassination -->
 				<item id="91258" min="1" max="1" chance="5" /> <!-- Orfen Doll Lv. 2 -->
-				<item id="93907" min="1" max="1" chance="100" /> <!-- Orfen's Crystal -->
+				<item id="93907" min="1" max="1" chance="50" /> <!-- Orfen's Crystal -->
 				<item id="96613" min="1" max="1" chance="0.01" /> <!-- Spellbook: Expanded Potential of Dyes -->
 				<item id="6661" min="1" max="1" chance="10" /> <!-- Orfen's Earring -->
 				<item id="374" min="1" max="1" chance="3.85" /> <!-- Armor of Nightmare -->
@@ -2482,7 +2488,7 @@
 		<race>BUG</race>
 		<sex>MALE</sex>
 		<stats str="60" int="76" dex="73" wit="70" con="57" men="80">
-			<vitals hp="24000000" hpRegen="10.2" mp="18000" mpRegen="3.6" />
+			<vitals hp="26400000" hpRegen="10.2" mp="18000" mpRegen="3.6" />
 			<attack physical="8905.0086" magical="6080.96658" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
 			<defence physical="3992.40732" magical="2921.47044" />
 			<speed>
@@ -2501,65 +2507,67 @@
 		</skillList>
 		<dropLists>
 			<drop>
-				<item id="91944" min="1" max="1" chance="0.05" /> <!-- Spellbook: Light Master Lv. 2 -->
-				<item id="91945" min="1" max="1" chance="0.05" /> <!-- Spellbook: Shadow Master Lv. 2 -->
-				<item id="92401" min="1" max="1" chance="0.072" /> <!-- Spellbook: White Guardian -->
+				<item id="91944" min="1" max="1" chance="0.048" /> <!-- Spellbook: Light Master Lv. 2 -->
+				<item id="91945" min="1" max="1" chance="0.048" /> <!-- Spellbook: Shadow Master Lv. 2 -->
+				<item id="92401" min="1" max="1" chance="0.07" /> <!-- Spellbook: White Guardian -->
 				<item id="93103" min="1" max="1" chance="0.009" /> <!-- Spellbook: Divine Beam -->
 				<item id="93387" min="1" max="1" chance="0.01" /> <!-- Spellbook: Ultimate Death Knight Transformation -->
-				<item id="93631" min="1" max="1" chance="0.048" /> <!-- Spellbook: Hellfire -->
-				<item id="93869" min="1" max="1" chance="0.047" /> <!-- Spellbook: Elemental Burst -->
-				<item id="93870" min="1" max="1" chance="0.046" /> <!-- Spellbook: Ethereal Strike -->
-				<item id="94137" min="1" max="1" chance="0.048" /> <!-- Spellbook: Devour -->
-				<item id="94324" min="1" max="1" chance="0.047" /> <!-- Spellbook: Song of Earth -->
-				<item id="94325" min="1" max="1" chance="0.047" /> <!-- Spellbook: Song of Hunter -->
-				<item id="94326" min="1" max="1" chance="0.05" /> <!-- Spellbook: Dance of Warrior -->
-				<item id="94327" min="1" max="1" chance="0.05" /> <!-- Spellbook: Dance of Fire -->
+				<item id="93631" min="1" max="1" chance="0.046" /> <!-- Spellbook: Hellfire -->
+				<item id="93869" min="1" max="1" chance="0.045" /> <!-- Spellbook: Elemental Burst -->
+				<item id="93870" min="1" max="1" chance="0.044" /> <!-- Spellbook: Ethereal Strike -->
+				<item id="94137" min="1" max="1" chance="0.046" /> <!-- Spellbook: Devour -->
+				<item id="94324" min="1" max="1" chance="0.045" /> <!-- Spellbook: Song of Earth Lv. 2 -->
+				<item id="94325" min="1" max="1" chance="0.045" /> <!-- Spellbook: Song of Hunter Lv. 2 -->
+				<item id="94326" min="1" max="1" chance="0.048" /> <!-- Spellbook: Dance of Warrior Lv. 2 -->
+				<item id="94327" min="1" max="1" chance="0.048" /> <!-- Spellbook: Dance of Fire Lv. 2 -->
 				<item id="94498" min="1" max="1" chance="0.009" /> <!-- Spellbook: Titan Champion -->
-				<item id="94500" min="1" max="1" chance="0.047" /> <!-- Spellbook: Titanic Sweep -->
-				<item id="94501" min="1" max="1" chance="0.047" /> <!-- Spellbook: Titanic Break -->
-				<item id="94505" min="1" max="1" chance="0.046" /> <!-- Spellbook: Burning Strike -->
-				<item id="94507" min="1" max="1" chance="0.046" /> <!-- Spellbook: Armor Break -->
+				<item id="94500" min="1" max="1" chance="0.045" /> <!-- Spellbook: Titanic Sweep -->
+				<item id="94501" min="1" max="1" chance="0.045" /> <!-- Spellbook: Titanic Break -->
+				<item id="94505" min="1" max="1" chance="0.044" /> <!-- Spellbook: Burning Strike -->
+				<item id="94507" min="1" max="1" chance="0.044" /> <!-- Spellbook: Armor Break -->
 				<item id="94508" min="1" max="1" chance="0.009" /> <!-- Spellbook: Cacophony of War -->
 				<item id="94668" min="1" max="1" chance="0.009" /> <!-- Spellbook: Pa'agrio's Touch -->
-				<item id="94670" min="1" max="1" chance="0.047" /> <!-- Spellbook: Debuff Master -->
+				<item id="94670" min="1" max="1" chance="0.045" /> <!-- Spellbook: Debuff Master -->
 				<item id="94673" min="1" max="1" chance="0.009" /> <!-- Spellbook: Team Building -->
-				<item id="94674" min="1" max="1" chance="0.046" /> <!-- Spellbook: Blood Bond -->
+				<item id="94674" min="1" max="1" chance="0.044" /> <!-- Spellbook: Blood Bond -->
 				<item id="94861" min="1" max="1" chance="0.009" /> <!-- Spellbook: Tranquility -->
 				<item id="94862" min="1" max="1" chance="0.009" /> <!-- Spellbook: Exclusion -->
 				<item id="94863" min="1" max="1" chance="0.009" /> <!-- Spellbook: Dark Disruption -->
 				<item id="95346" min="1" max="1" chance="0.009" /> <!-- Spellbook: Meteor -->
 				<item id="95347" min="1" max="1" chance="0.009" /> <!-- Spellbook: Rolling Dice -->
-				<item id="95348" min="1" max="1" chance="0.047" /> <!-- Spellbook: Song of Wind -->
-				<item id="95349" min="1" max="1" chance="0.05" /> <!-- Spellbook: Dance of Fury -->
-				<item id="95350" min="1" max="1" chance="0.05" /> <!-- Spellbook: Goring Charge -->
-				<item id="95352" min="1" max="1" chance="0.05" /> <!-- Spellbook: Elemental Changing -->
-				<item id="95365" min="1" max="1" chance="0.05" /> <!-- Spellbook: Elemental Spirit Lv. 4 -->
-				<item id="95856" min="1" max="1" chance="0.047" /> <!-- Spellbook: Fortune Time -->
-				<item id="95862" min="1" max="1" chance="0.048" /> <!-- Spellbook: Mechanical Masterpiece -->
-				<item id="95863" min="1" max="1" chance="0.048" /> <!-- Spellbook: Blacksmith's Attack -->
-				<item id="96037" min="1" max="1" chance="0.047" /> <!-- Spellbook: Sensation -->
-				<item id="96040" min="1" max="1" chance="0.046" /> <!-- Spellbook: Treatment -->
-				<item id="96043" min="1" max="1" chance="0.046" /> <!-- Spellbook: Duress -->
-				<item id="96283" min="1" max="1" chance="0.047" /> <!-- Spellbook: Power of Life -->
-				<item id="96285" min="1" max="1" chance="0.046" /> <!-- Spellbook: Toughness -->
-				<item id="96665" min="1" max="1" chance="0.047" /> <!-- Spellbook: Seclusion -->
-				<item id="96667" min="1" max="1" chance="0.046" /> <!-- Spellbook: Reversed Pull -->
-				<item id="96668" min="1" max="1" chance="0.046" /> <!-- Spellbook: Synchro Freedom -->
-				<item id="96669" min="1" max="1" chance="0.046" /> <!-- Spellbook: Ethereal Blood -->
-				<item id="96874" min="1" max="1" chance="0.048" /> <!-- Spellbook: True Aim -->
-				<item id="96875" min="1" max="1" chance="0.049" /> <!-- Spellbook: Deadly Shooter -->
-				<item id="97037" min="1" max="1" chance="0.046" /> <!-- Spellbook: Faery Shield -->
-				<item id="97038" min="1" max="1" chance="0.046" /> <!-- Spellbook: Soul Guardian -->
-				<item id="97102" min="1" max="1" chance="0.05" /> <!-- Spellbook: Giant's Stomp -->
-				<item id="97185" min="1" max="1" chance="0.046" /> <!-- Spellbook: Cubic of Secrets Lv. 2 -->
-				<item id="97186" min="1" max="1" chance="0.046" /> <!-- Spellbook: Elemental Cubic Lv. 2 -->
-				<item id="97187" min="1" max="1" chance="0.046" /> <!-- Spellbook: Phantom Cubic Lv. 2 -->
-				<item id="97319" min="1" max="1" chance="0.046" /> <!-- Spellbook: Blade Wave -->
-				<item id="97324" min="1" max="1" chance="0.046" /> <!-- Spellbook: Spear Cage -->
-				<item id="97455" min="1" max="1" chance="0.046" /> <!-- Spellbook: Soul Mark -->
-				<item id="97838" min="1" max="1" chance="0.045" /> <!-- Spellbook: Unique Seal of Damage -->
+				<item id="95348" min="1" max="1" chance="0.045" /> <!-- Spellbook: Song of Wind Lv. 2 -->
+				<item id="95349" min="1" max="1" chance="0.048" /> <!-- Spellbook: Dance of Fury Lv. 2 -->
+				<item id="95350" min="1" max="1" chance="0.047" /> <!-- Spellbook: Goring Charge -->
+				<item id="95352" min="1" max="1" chance="0.047" /> <!-- Spellbook: Elemental Changing -->
+				<item id="95365" min="1" max="1" chance="0.047" /> <!-- Spellbook: Elemental Spirit Lv. 4 -->
+				<item id="95856" min="1" max="1" chance="0.045" /> <!-- Spellbook: Fortune Time -->
+				<item id="95862" min="1" max="1" chance="0.046" /> <!-- Spellbook: Mechanical Masterpiece -->
+				<item id="95863" min="1" max="1" chance="0.046" /> <!-- Spellbook: Blacksmith' Attack -->
+				<item id="96037" min="1" max="1" chance="0.045" /> <!-- Spellbook: Sensation -->
+				<item id="96040" min="1" max="1" chance="0.044" /> <!-- Spellbook: Treatment -->
+				<item id="96043" min="1" max="1" chance="0.044" /> <!-- Spellbook: Duress -->
+				<item id="96283" min="1" max="1" chance="0.045" /> <!-- Spellbook: Power of Life -->
+				<item id="96285" min="1" max="1" chance="0.044" /> <!-- Spellbook: Toughness -->
+				<item id="96665" min="1" max="1" chance="0.045" /> <!-- Spellbook: Seclusion -->
+				<item id="96667" min="1" max="1" chance="0.044" /> <!-- Spellbook: Reversed Pull -->
+				<item id="96668" min="1" max="1" chance="0.044" /> <!-- Spellbook: Synchro Freedom -->
+				<item id="96669" min="1" max="1" chance="0.044" /> <!-- Spellbook: Ethereal Blood -->
+				<item id="96874" min="1" max="1" chance="0.046" /> <!-- Spellbook: True Aim -->
+				<item id="96875" min="1" max="1" chance="0.047" /> <!-- Spellbook: Deadly Shooter -->
+				<item id="97037" min="1" max="1" chance="0.044" /> <!-- Spellbook: Faery Shield -->
+				<item id="97038" min="1" max="1" chance="0.044" /> <!-- Spellbook: Soul Guardian -->
+				<item id="97102" min="1" max="1" chance="0.047" /> <!-- Spellbook: Giant's Stomp -->
+				<item id="97185" min="1" max="1" chance="0.044" /> <!-- Spellbook: Cubic of Secrets Lv. 2 -->
+				<item id="97186" min="1" max="1" chance="0.044" /> <!-- Spellbook: Elemental Cubic Lv. 2 -->
+				<item id="97187" min="1" max="1" chance="0.044" /> <!-- Spellbook: Phantom Cubic Lv. 2 -->
+				<item id="97319" min="1" max="1" chance="0.044" /> <!-- Spellbook: Blade Wave -->
+				<item id="97324" min="1" max="1" chance="0.044" /> <!-- Spellbook: Spear Cage -->
+				<item id="97455" min="1" max="1" chance="0.044" /> <!-- Spellbook: Soul Mark -->
+				<item id="97838" min="1" max="1" chance="0.044" /> <!-- Spellbook: Unique Seal of Damage -->
+				<item id="98446" min="1" max="1" chance="0.044" /> <!-- Spellbook: Powerful Servitor Share -->
+				<item id="98483" min="1" max="1" chance="0.047" /> <!-- Spellbook: Assassination -->
 				<item id="91257" min="1" max="1" chance="5" /> <!-- Queen Ant Doll Lv. 2 -->
-				<item id="93910" min="1" max="1" chance="100" /> <!-- Queen Ant's Crystal -->
+				<item id="93910" min="1" max="1" chance="50" /> <!-- Queen Ant's Crystal -->
 				<item id="96613" min="1" max="1" chance="0.01" /> <!-- Spellbook: Expanded Potential of Dyes -->
 				<item id="6660" min="1" max="1" chance="10" /> <!-- Queen Ant's Ring -->
 				<item id="374" min="1" max="1" chance="3.85" /> <!-- Armor of Nightmare -->
@@ -2617,7 +2625,7 @@
 		<race>UNDEAD</race>
 		<sex>MALE</sex>
 		<stats str="60" int="76" dex="73" wit="70" con="57" men="80">
-			<vitals hp="8000000" hpRegen="10.2" mp="18000" mpRegen="3.6" />
+			<vitals hp="8800000" hpRegen="10.2" mp="18000" mpRegen="3.6" />
 			<attack physical="8905.0086" magical="6080.96658" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
 			<defence physical="3992.40732" magical="2921.47044" />
 			<speed>
@@ -2634,13 +2642,127 @@
 		<skillList>
 			<skill id="4416" level="1" /> <!-- Undead -->
 		</skillList>
+		<dropLists>
+			<drop>
+				<item id="91944" min="1" max="1" chance="0.048" /> <!-- Spellbook: Light Master Lv. 2 -->
+				<item id="91945" min="1" max="1" chance="0.048" /> <!-- Spellbook: Shadow Master Lv. 2 -->
+				<item id="92401" min="1" max="1" chance="0.07" /> <!-- Spellbook: White Guardian -->
+				<item id="93103" min="1" max="1" chance="0.009" /> <!-- Spellbook: Divine Beam -->
+				<item id="93387" min="1" max="1" chance="0.01" /> <!-- Spellbook: Ultimate Death Knight Transformation -->
+				<item id="93631" min="1" max="1" chance="0.046" /> <!-- Spellbook: Hellfire -->
+				<item id="93869" min="1" max="1" chance="0.045" /> <!-- Spellbook: Elemental Burst -->
+				<item id="93870" min="1" max="1" chance="0.044" /> <!-- Spellbook: Ethereal Strike -->
+				<item id="94137" min="1" max="1" chance="0.046" /> <!-- Spellbook: Devour -->
+				<item id="94324" min="1" max="1" chance="0.045" /> <!-- Spellbook: Song of Earth Lv. 2 -->
+				<item id="94325" min="1" max="1" chance="0.045" /> <!-- Spellbook: Song of Hunter Lv. 2 -->
+				<item id="94326" min="1" max="1" chance="0.048" /> <!-- Spellbook: Dance of Warrior Lv. 2 -->
+				<item id="94327" min="1" max="1" chance="0.048" /> <!-- Spellbook: Dance of Fire Lv. 2 -->
+				<item id="94498" min="1" max="1" chance="0.009" /> <!-- Spellbook: Titan Champion -->
+				<item id="94500" min="1" max="1" chance="0.045" /> <!-- Spellbook: Titanic Sweep -->
+				<item id="94501" min="1" max="1" chance="0.045" /> <!-- Spellbook: Titanic Break -->
+				<item id="94505" min="1" max="1" chance="0.044" /> <!-- Spellbook: Burning Strike -->
+				<item id="94507" min="1" max="1" chance="0.044" /> <!-- Spellbook: Armor Break -->
+				<item id="94508" min="1" max="1" chance="0.009" /> <!-- Spellbook: Cacophony of War -->
+				<item id="94668" min="1" max="1" chance="0.009" /> <!-- Spellbook: Pa'agrio's Touch -->
+				<item id="94670" min="1" max="1" chance="0.045" /> <!-- Spellbook: Debuff Master -->
+				<item id="94673" min="1" max="1" chance="0.009" /> <!-- Spellbook: Team Building -->
+				<item id="94674" min="1" max="1" chance="0.044" /> <!-- Spellbook: Blood Bond -->
+				<item id="94861" min="1" max="1" chance="0.009" /> <!-- Spellbook: Tranquility -->
+				<item id="94862" min="1" max="1" chance="0.009" /> <!-- Spellbook: Exclusion -->
+				<item id="94863" min="1" max="1" chance="0.009" /> <!-- Spellbook: Dark Disruption -->
+				<item id="95346" min="1" max="1" chance="0.009" /> <!-- Spellbook: Meteor -->
+				<item id="95347" min="1" max="1" chance="0.009" /> <!-- Spellbook: Rolling Dice -->
+				<item id="95348" min="1" max="1" chance="0.045" /> <!-- Spellbook: Song of Wind Lv. 2 -->
+				<item id="95349" min="1" max="1" chance="0.048" /> <!-- Spellbook: Dance of Fury Lv. 2 -->
+				<item id="95350" min="1" max="1" chance="0.047" /> <!-- Spellbook: Goring Charge -->
+				<item id="95352" min="1" max="1" chance="0.047" /> <!-- Spellbook: Elemental Changing -->
+				<item id="95365" min="1" max="1" chance="0.047" /> <!-- Spellbook: Elemental Spirit Lv. 4 -->
+				<item id="95856" min="1" max="1" chance="0.045" /> <!-- Spellbook: Fortune Time -->
+				<item id="95862" min="1" max="1" chance="0.046" /> <!-- Spellbook: Mechanical Masterpiece -->
+				<item id="95863" min="1" max="1" chance="0.046" /> <!-- Spellbook: Blacksmith' Attack -->
+				<item id="96037" min="1" max="1" chance="0.045" /> <!-- Spellbook: Sensation -->
+				<item id="96040" min="1" max="1" chance="0.044" /> <!-- Spellbook: Treatment -->
+				<item id="96043" min="1" max="1" chance="0.044" /> <!-- Spellbook: Duress -->
+				<item id="96283" min="1" max="1" chance="0.045" /> <!-- Spellbook: Power of Life -->
+				<item id="96285" min="1" max="1" chance="0.044" /> <!-- Spellbook: Toughness -->
+				<item id="96665" min="1" max="1" chance="0.045" /> <!-- Spellbook: Seclusion -->
+				<item id="96667" min="1" max="1" chance="0.044" /> <!-- Spellbook: Reversed Pull -->
+				<item id="96668" min="1" max="1" chance="0.044" /> <!-- Spellbook: Synchro Freedom -->
+				<item id="96669" min="1" max="1" chance="0.044" /> <!-- Spellbook: Ethereal Blood -->
+				<item id="96874" min="1" max="1" chance="0.046" /> <!-- Spellbook: True Aim -->
+				<item id="96875" min="1" max="1" chance="0.047" /> <!-- Spellbook: Deadly Shooter -->
+				<item id="97037" min="1" max="1" chance="0.044" /> <!-- Spellbook: Faery Shield -->
+				<item id="97038" min="1" max="1" chance="0.044" /> <!-- Spellbook: Soul Guardian -->
+				<item id="97102" min="1" max="1" chance="0.047" /> <!-- Spellbook: Giant's Stomp -->
+				<item id="97185" min="1" max="1" chance="0.044" /> <!-- Spellbook: Cubic of Secrets Lv. 2 -->
+				<item id="97186" min="1" max="1" chance="0.044" /> <!-- Spellbook: Elemental Cubic Lv. 2 -->
+				<item id="97187" min="1" max="1" chance="0.044" /> <!-- Spellbook: Phantom Cubic Lv. 2 -->
+				<item id="97319" min="1" max="1" chance="0.044" /> <!-- Spellbook: Blade Wave -->
+				<item id="97324" min="1" max="1" chance="0.044" /> <!-- Spellbook: Spear Cage -->
+				<item id="97455" min="1" max="1" chance="0.044" /> <!-- Spellbook: Soul Mark -->
+				<item id="97838" min="1" max="1" chance="0.044" /> <!-- Spellbook: Unique Seal of Damage -->
+				<item id="98446" min="1" max="1" chance="0.044" /> <!-- Spellbook: Powerful Servitor Share -->
+				<item id="98483" min="1" max="1" chance="0.047" /> <!-- Spellbook: Assassination -->
+				<item id="93906" min="1" max="1" chance="50" /> <!-- Zaken's Crystal -->
+				<item id="94646" min="1" max="1" chance="5" /> <!-- Zaken Doll Lv. 2 -->
+				<item id="96613" min="1" max="1" chance="0.01" /> <!-- Spellbook: Expanded Potential of Dyes -->
+				<item id="90763" min="1" max="1" chance="10" /> <!-- Zaken's Earring -->
+				<item id="374" min="1" max="1" chance="3.85" /> <!-- Armor of Nightmare -->
+				<item id="2383" min="1" max="1" chance="3.85" /> <!-- Majestic Plate Armor -->
+				<item id="2394" min="1" max="1" chance="3.84" /> <!-- Leather Armor of Nightmare -->
+				<item id="2395" min="1" max="1" chance="3.85" /> <!-- Majestic Leather Armor -->
+				<item id="2408" min="1" max="1" chance="3.84" /> <!-- Robe of Nightmare -->
+				<item id="2409" min="1" max="1" chance="3.85" /> <!-- Majestic Robe -->
+				<item id="2498" min="1" max="1" chance="3.84" /> <!-- Shield of Nightmare -->
+				<item id="5771" min="1" max="1" chance="3.84" /> <!-- Gauntlets of Nightmare (Heavy) -->
+				<item id="5772" min="1" max="1" chance="3.84" /> <!-- Gauntlets of Nightmare (Light) -->
+				<item id="5773" min="1" max="1" chance="3.84" /> <!-- Gauntlets of Nightmare (Robe) -->
+				<item id="5774" min="1" max="1" chance="3.85" /> <!-- Majestic Gauntlets (Heavy) -->
+				<item id="5775" min="1" max="1" chance="3.85" /> <!-- Majestic Gauntlets (Light) -->
+				<item id="5776" min="1" max="1" chance="3.85" /> <!-- Majestic Gauntlets (Robe) -->
+				<item id="5783" min="1" max="1" chance="3.84" /> <!-- Boots of Nightmare (Heavy) -->
+				<item id="5784" min="1" max="1" chance="3.84" /> <!-- Boots of Nightmare (Light) -->
+				<item id="5785" min="1" max="1" chance="3.84" /> <!-- Boots of Nightmare (Robe) -->
+				<item id="5786" min="1" max="1" chance="3.85" /> <!-- Majestic Boots (Heavy) -->
+				<item id="5787" min="1" max="1" chance="3.85" /> <!-- Majestic Boots (Light) -->
+				<item id="5788" min="1" max="1" chance="3.85" /> <!-- Majestic Boots (Robe) -->
+				<item id="8678" min="1" max="1" chance="3.33" /> <!-- Sirra's Blade -->
+				<item id="8679" min="1" max="1" chance="3.33" /> <!-- Sword of Ipos -->
+				<item id="8680" min="1" max="1" chance="3.33" /> <!-- Barakiel's Axe -->
+				<item id="8681" min="1" max="1" chance="3.33" /> <!-- Behemoth' Tuning Fork -->
+				<item id="8682" min="1" max="1" chance="3.33" /> <!-- Naga's Storm -->
+				<item id="8683" min="1" max="1" chance="3.335" /> <!-- Tiphon's Spear -->
+				<item id="8684" min="1" max="1" chance="3.335" /> <!-- Shyeed's Bow -->
+				<item id="8685" min="1" max="1" chance="3.335" /> <!-- Sobekk's Hurricane -->
+				<item id="8686" min="1" max="1" chance="3.335" /> <!-- Themis' Tongue -->
+				<item id="8687" min="1" max="1" chance="3.335" /> <!-- Cabrio's Hand -->
+				<item id="8688" min="1" max="1" chance="3.335" /> <!-- Daimon Crystal -->
+				<item id="8938" min="1" max="1" chance="3.335" /> <!-- Tallum Blade*Damascus Sword -->
+				<item id="90473" min="1" max="1" chance="3.85" /> <!-- Helm of Nightmare (Heavy) -->
+				<item id="90474" min="1" max="1" chance="3.85" /> <!-- Helm of Nightmare (Light) -->
+				<item id="90475" min="1" max="1" chance="3.84" /> <!-- Helm of Nightmare (Robe) -->
+				<item id="90476" min="1" max="1" chance="3.85" /> <!-- Majestic Circlet (Heavy) -->
+				<item id="90477" min="1" max="1" chance="3.85" /> <!-- Majestic Circlet (Light) -->
+				<item id="90478" min="1" max="1" chance="3.85" /> <!-- Majestic Circlet (Robe) -->
+				<item id="91887" min="1" max="1" chance="3.335" /> <!-- Durendal -->
+				<item id="91902" min="1" max="1" chance="3.335" /> <!-- Éclair Bijou -->
+				<item id="92404" min="1" max="1" chance="3" /> <!-- Zaken's Blood Sword -->
+				<item id="93094" min="1" max="1" chance="3.85" /> <!-- Majestic Sigil -->
+				<item id="94085" min="1" max="1" chance="10" /> <!-- Boots of Evasion -->
+				<item id="94886" min="1" max="1" chance="3.335" /> <!-- Zephyrus -->
+			</drop>
+			<fortune>
+				<item id="94383" min="1" max="1" chance="0.95" /> <!-- Scroll: Enchant Rare Accessories -->
+				<item id="94385" min="1" max="1" chance="0.05" /> <!-- Improved Scroll: Enchant Rare Accessories -->
+			</fortune>
+		</dropLists>
 	</npc>
 	<npc id="29174" level="85" type="Monster" name="Self-destruct Device">
 		<!-- AUTO GENERATED NPC TODO: FIX IT -->
 		<race>ETC</race>
 		<sex>MALE</sex>
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="4841772.1519" hpRegen="10.2" mp="3693.6" mpRegen="3.6" />
+			<vitals hp="5325950" hpRegen="10.2" mp="3693.6" mpRegen="3.6" />
 			<attack physical="4452.5043" magical="3040.48329" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
 			<defence physical="1996.20366" magical="1460.73522" />
 			<speed>
@@ -2663,7 +2785,7 @@
 		<race>ETC</race>
 		<sex>MALE</sex>
 		<stats str="60" int="76" dex="73" wit="70" con="57" men="80">
-			<vitals hp="1709400" hpRegen="10.2" mp="18000" mpRegen="3.6" />
+			<vitals hp="1880340" hpRegen="10.2" mp="18000" mpRegen="3.6" />
 			<attack physical="14444" magical="986" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
 			<defence physical="9532" magical="418" />
 			<speed>
@@ -2683,7 +2805,7 @@
 		<race>UNDEAD</race>
 		<sex>MALE</sex>
 		<stats str="60" int="76" dex="73" wit="70" con="57" men="80">
-			<vitals hp="44444400" hpRegen="10.2" mp="18000" mpRegen="3.6" />
+			<vitals hp="48888888.84" hpRegen="10.2" mp="18000" mpRegen="3.6" />
 			<attack physical="14444" magical="986" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
 			<defence physical="9532" magical="418" />
 			<speed>
@@ -2794,7 +2916,7 @@
 		<sex>MALE</sex>
 		<equipment rhand="97301" /> <!-- Gorde's Flame Spear -->
 		<stats str="60" int="76" dex="73" wit="70" con="57" men="80">
-			<vitals hp="8000000" hpRegen="10.2" mp="18000" mpRegen="3.6" />
+			<vitals hp="8800000" hpRegen="10.2" mp="18000" mpRegen="3.6" />
 			<attack physical="1112" magical="7592" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
 			<defence physical="6208" magical="3424" />
 			<speed>
@@ -2815,54 +2937,56 @@
 			<drop>
 				<item id="729" min="1" max="3" chance="100" /> <!-- Scroll: Enchant A-grade Weapon -->
 				<item id="730" min="1" max="3" chance="100" /> <!-- Scroll: Enchant A-grade Armor -->
-				<item id="91944" min="1" max="1" chance="0.05" /> <!-- Spellbook: Light Master Lv. 2 -->
-				<item id="91945" min="1" max="1" chance="0.05" /> <!-- Spellbook: Shadow Master Lv. 2 -->
-				<item id="92401" min="1" max="1" chance="0.072" /> <!-- Spellbook: White Guardian -->
-				<item id="93631" min="1" max="1" chance="0.048" /> <!-- Spellbook: Hellfire -->
-				<item id="93869" min="1" max="1" chance="0.047" /> <!-- Spellbook: Elemental Burst -->
-				<item id="93870" min="1" max="1" chance="0.046" /> <!-- Spellbook: Ethereal Strike -->
-				<item id="94137" min="1" max="1" chance="0.048" /> <!-- Spellbook: Devour -->
-				<item id="94324" min="1" max="1" chance="0.047" /> <!-- Spellbook: Song of Earth -->
-				<item id="94325" min="1" max="1" chance="0.047" /> <!-- Spellbook: Song of Hunter -->
-				<item id="94326" min="1" max="1" chance="0.05" /> <!-- Spellbook: Dance of Warrior -->
-				<item id="94327" min="1" max="1" chance="0.05" /> <!-- Spellbook: Dance of Fire -->
+				<item id="91944" min="1" max="1" chance="0.048" /> <!-- Spellbook: Light Master Lv. 2 -->
+				<item id="91945" min="1" max="1" chance="0.048" /> <!-- Spellbook: Shadow Master Lv. 2 -->
+				<item id="92401" min="1" max="1" chance="0.07" /> <!-- Spellbook: White Guardian -->
+				<item id="93631" min="1" max="1" chance="0.046" /> <!-- Spellbook: Hellfire -->
+				<item id="93869" min="1" max="1" chance="0.045" /> <!-- Spellbook: Elemental Burst -->
+				<item id="93870" min="1" max="1" chance="0.044" /> <!-- Spellbook: Ethereal Strike -->
+				<item id="94137" min="1" max="1" chance="0.046" /> <!-- Spellbook: Devour -->
+				<item id="94324" min="1" max="1" chance="0.045" /> <!-- Spellbook: Song of Earth Lv. 2 -->
+				<item id="94325" min="1" max="1" chance="0.045" /> <!-- Spellbook: Song of Hunter Lv. 2 -->
+				<item id="94326" min="1" max="1" chance="0.048" /> <!-- Spellbook: Dance of Warrior Lv. 2 -->
+				<item id="94327" min="1" max="1" chance="0.048" /> <!-- Spellbook: Dance of Fire Lv. 2 -->
 				<item id="94383" min="1" max="1" chance="5" /> <!-- Scroll: Enchant Rare Accessories -->
-				<item id="94500" min="1" max="1" chance="0.047" /> <!-- Spellbook: Titanic Sweep -->
-				<item id="94501" min="1" max="1" chance="0.047" /> <!-- Spellbook: Titanic Break -->
-				<item id="94505" min="1" max="1" chance="0.046" /> <!-- Spellbook: Burning Strike -->
-				<item id="94507" min="1" max="1" chance="0.046" /> <!-- Spellbook: Armor Break -->
-				<item id="94670" min="1" max="1" chance="0.047" /> <!-- Spellbook: Debuff Master -->
-				<item id="94674" min="1" max="1" chance="0.046" /> <!-- Spellbook: Blood Bond -->
-				<item id="95348" min="1" max="1" chance="0.047" /> <!-- Spellbook: Song of Wind -->
-				<item id="95349" min="1" max="1" chance="0.05" /> <!-- Spellbook: Dance of Fury -->
-				<item id="95350" min="1" max="1" chance="0.05" /> <!-- Spellbook: Goring Charge -->
-				<item id="95352" min="1" max="1" chance="0.05" /> <!-- Spellbook: Elemental Changing -->
-				<item id="95365" min="1" max="1" chance="0.05" /> <!-- Spellbook: Elemental Spirit Lv. 4 -->
-				<item id="95856" min="1" max="1" chance="0.047" /> <!-- Spellbook: Fortune Time -->
-				<item id="95862" min="1" max="1" chance="0.048" /> <!-- Spellbook: Mechanical Masterpiece -->
-				<item id="95863" min="1" max="1" chance="0.048" /> <!-- Spellbook: Blacksmith's Attack -->
-				<item id="96037" min="1" max="1" chance="0.047" /> <!-- Spellbook: Sensation -->
-				<item id="96040" min="1" max="1" chance="0.046" /> <!-- Spellbook: Treatment -->
-				<item id="96043" min="1" max="1" chance="0.046" /> <!-- Spellbook: Duress -->
-				<item id="96283" min="1" max="1" chance="0.047" /> <!-- Spellbook: Power of Life -->
-				<item id="96285" min="1" max="1" chance="0.046" /> <!-- Spellbook: Toughness -->
-				<item id="96665" min="1" max="1" chance="0.047" /> <!-- Spellbook: Seclusion -->
-				<item id="96667" min="1" max="1" chance="0.046" /> <!-- Spellbook: Reversed Pull -->
-				<item id="96668" min="1" max="1" chance="0.046" /> <!-- Spellbook: Synchro Freedom -->
-				<item id="96669" min="1" max="1" chance="0.046" /> <!-- Spellbook: Ethereal Blood -->
-				<item id="96874" min="1" max="1" chance="0.048" /> <!-- Spellbook: True Aim -->
-				<item id="96875" min="1" max="1" chance="0.049" /> <!-- Spellbook: Deadly Shooter -->
-				<item id="97037" min="1" max="1" chance="0.046" /> <!-- Spellbook: Faery Shield -->
-				<item id="97038" min="1" max="1" chance="0.046" /> <!-- Spellbook: Soul Guardian -->
-				<item id="97102" min="1" max="1" chance="0.05" /> <!-- Spellbook: Giant's Stomp -->
-				<item id="97185" min="1" max="1" chance="0.046" /> <!-- Spellbook: Cubic of Secrets Lv. 2 -->
-				<item id="97186" min="1" max="1" chance="0.046" /> <!-- Spellbook: Elemental Cubic Lv. 2 -->
-				<item id="97187" min="1" max="1" chance="0.046" /> <!-- Spellbook: Phantom Cubic Lv. 2 -->
-				<item id="97319" min="1" max="1" chance="0.046" /> <!-- Spellbook: Blade Wave -->
-				<item id="97324" min="1" max="1" chance="0.046" /> <!-- Spellbook: Spear Cage -->
+				<item id="94500" min="1" max="1" chance="0.045" /> <!-- Spellbook: Titanic Sweep -->
+				<item id="94501" min="1" max="1" chance="0.045" /> <!-- Spellbook: Titanic Break -->
+				<item id="94505" min="1" max="1" chance="0.044" /> <!-- Spellbook: Burning Strike -->
+				<item id="94507" min="1" max="1" chance="0.044" /> <!-- Spellbook: Armor Break -->
+				<item id="94670" min="1" max="1" chance="0.045" /> <!-- Spellbook: Debuff Master -->
+				<item id="94674" min="1" max="1" chance="0.044" /> <!-- Spellbook: Blood Bond -->
+				<item id="95348" min="1" max="1" chance="0.045" /> <!-- Spellbook: Song of Wind Lv. 2 -->
+				<item id="95349" min="1" max="1" chance="0.048" /> <!-- Spellbook: Dance of Fury Lv. 2 -->
+				<item id="95350" min="1" max="1" chance="0.047" /> <!-- Spellbook: Goring Charge -->
+				<item id="95352" min="1" max="1" chance="0.047" /> <!-- Spellbook: Elemental Changing -->
+				<item id="95365" min="1" max="1" chance="0.047" /> <!-- Spellbook: Elemental Spirit Lv. 4 -->
+				<item id="95856" min="1" max="1" chance="0.045" /> <!-- Spellbook: Fortune Time -->
+				<item id="95862" min="1" max="1" chance="0.046" /> <!-- Spellbook: Mechanical Masterpiece -->
+				<item id="95863" min="1" max="1" chance="0.046" /> <!-- Spellbook: Blacksmith' Attack -->
+				<item id="96037" min="1" max="1" chance="0.045" /> <!-- Spellbook: Sensation -->
+				<item id="96040" min="1" max="1" chance="0.044" /> <!-- Spellbook: Treatment -->
+				<item id="96043" min="1" max="1" chance="0.044" /> <!-- Spellbook: Duress -->
+				<item id="96283" min="1" max="1" chance="0.045" /> <!-- Spellbook: Power of Life -->
+				<item id="96285" min="1" max="1" chance="0.044" /> <!-- Spellbook: Toughness -->
+				<item id="96665" min="1" max="1" chance="0.045" /> <!-- Spellbook: Seclusion -->
+				<item id="96667" min="1" max="1" chance="0.044" /> <!-- Spellbook: Reversed Pull -->
+				<item id="96668" min="1" max="1" chance="0.044" /> <!-- Spellbook: Synchro Freedom -->
+				<item id="96669" min="1" max="1" chance="0.044" /> <!-- Spellbook: Ethereal Blood -->
+				<item id="96874" min="1" max="1" chance="0.046" /> <!-- Spellbook: True Aim -->
+				<item id="96875" min="1" max="1" chance="0.047" /> <!-- Spellbook: Deadly Shooter -->
+				<item id="97037" min="1" max="1" chance="0.044" /> <!-- Spellbook: Faery Shield -->
+				<item id="97038" min="1" max="1" chance="0.044" /> <!-- Spellbook: Soul Guardian -->
+				<item id="97102" min="1" max="1" chance="0.047" /> <!-- Spellbook: Giant's Stomp -->
+				<item id="97185" min="1" max="1" chance="0.044" /> <!-- Spellbook: Cubic of Secrets Lv. 2 -->
+				<item id="97186" min="1" max="1" chance="0.044" /> <!-- Spellbook: Elemental Cubic Lv. 2 -->
+				<item id="97187" min="1" max="1" chance="0.044" /> <!-- Spellbook: Phantom Cubic Lv. 2 -->
+				<item id="97319" min="1" max="1" chance="0.044" /> <!-- Spellbook: Blade Wave -->
+				<item id="97324" min="1" max="1" chance="0.044" /> <!-- Spellbook: Spear Cage -->
 				<item id="97338" min="1" max="1" chance="5" /> <!-- Scroll of Blessing: Armor -->
-				<item id="97455" min="1" max="1" chance="0.046" /> <!-- Spellbook: Soul Mark -->
-				<item id="97838" min="1" max="1" chance="0.045" /> <!-- Spellbook: Unique Seal of Damage -->
+				<item id="97455" min="1" max="1" chance="0.044" /> <!-- Spellbook: Soul Mark -->
+				<item id="97838" min="1" max="1" chance="0.044" /> <!-- Spellbook: Unique Seal of Damage -->
+				<item id="98446" min="1" max="1" chance="0.044" /> <!-- Spellbook: Powerful Servitor Share -->
+				<item id="98483" min="1" max="1" chance="0.047" /> <!-- Spellbook: Assassination -->
 				<item id="49756" min="1" max="2" chance="100" /> <!-- Cloth Piece -->
 				<item id="97375" min="1" max="1" chance="0.125" /> <!-- Pet Book: Magic Flare -->
 				<item id="97376" min="1" max="1" chance="0.125" /> <!-- Pet Book: Sharp Senses -->
@@ -2932,7 +3056,7 @@
 		<sex>MALE</sex>
 		<equipment rhand="97302" /> <!-- Gorde's Flame Spear - Sealed -->
 		<stats str="60" int="76" dex="73" wit="70" con="57" men="80">
-			<vitals hp="18000000" hpRegen="10.2" mp="18000" mpRegen="3.6" />
+			<vitals hp="19800000" hpRegen="10.2" mp="18000" mpRegen="3.6" />
 			<attack physical="1112" magical="7592" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
 			<defence physical="6208" magical="3424" />
 			<speed>
@@ -2951,65 +3075,67 @@
 		</skillList>
 		<dropLists>
 			<drop>
-				<item id="91944" min="1" max="1" chance="0.05" /> <!-- Spellbook: Light Master Lv. 2 -->
-				<item id="91945" min="1" max="1" chance="0.05" /> <!-- Spellbook: Shadow Master Lv. 2 -->
-				<item id="92401" min="1" max="1" chance="0.072" /> <!-- Spellbook: White Guardian -->
+				<item id="91944" min="1" max="1" chance="0.048" /> <!-- Spellbook: Light Master Lv. 2 -->
+				<item id="91945" min="1" max="1" chance="0.048" /> <!-- Spellbook: Shadow Master Lv. 2 -->
+				<item id="92401" min="1" max="1" chance="0.07" /> <!-- Spellbook: White Guardian -->
 				<item id="93103" min="1" max="1" chance="0.009" /> <!-- Spellbook: Divine Beam -->
 				<item id="93387" min="1" max="1" chance="0.01" /> <!-- Spellbook: Ultimate Death Knight Transformation -->
-				<item id="93631" min="1" max="1" chance="0.048" /> <!-- Spellbook: Hellfire -->
-				<item id="93869" min="1" max="1" chance="0.047" /> <!-- Spellbook: Elemental Burst -->
-				<item id="93870" min="1" max="1" chance="0.046" /> <!-- Spellbook: Ethereal Strike -->
-				<item id="94137" min="1" max="1" chance="0.048" /> <!-- Spellbook: Devour -->
-				<item id="94324" min="1" max="1" chance="0.047" /> <!-- Spellbook: Song of Earth -->
-				<item id="94325" min="1" max="1" chance="0.047" /> <!-- Spellbook: Song of Hunter -->
-				<item id="94326" min="1" max="1" chance="0.05" /> <!-- Spellbook: Dance of Warrior -->
-				<item id="94327" min="1" max="1" chance="0.05" /> <!-- Spellbook: Dance of Fire -->
+				<item id="93631" min="1" max="1" chance="0.046" /> <!-- Spellbook: Hellfire -->
+				<item id="93869" min="1" max="1" chance="0.045" /> <!-- Spellbook: Elemental Burst -->
+				<item id="93870" min="1" max="1" chance="0.044" /> <!-- Spellbook: Ethereal Strike -->
+				<item id="94137" min="1" max="1" chance="0.046" /> <!-- Spellbook: Devour -->
+				<item id="94324" min="1" max="1" chance="0.045" /> <!-- Spellbook: Song of Earth Lv. 2 -->
+				<item id="94325" min="1" max="1" chance="0.045" /> <!-- Spellbook: Song of Hunter Lv. 2 -->
+				<item id="94326" min="1" max="1" chance="0.048" /> <!-- Spellbook: Dance of Warrior Lv. 2 -->
+				<item id="94327" min="1" max="1" chance="0.048" /> <!-- Spellbook: Dance of Fire Lv. 2 -->
 				<item id="94383" min="1" max="1" chance="10" /> <!-- Scroll: Enchant Rare Accessories -->
 				<item id="94498" min="1" max="1" chance="0.009" /> <!-- Spellbook: Titan Champion -->
-				<item id="94500" min="1" max="1" chance="0.047" /> <!-- Spellbook: Titanic Sweep -->
-				<item id="94501" min="1" max="1" chance="0.047" /> <!-- Spellbook: Titanic Break -->
-				<item id="94505" min="1" max="1" chance="0.046" /> <!-- Spellbook: Burning Strike -->
-				<item id="94507" min="1" max="1" chance="0.046" /> <!-- Spellbook: Armor Break -->
+				<item id="94500" min="1" max="1" chance="0.045" /> <!-- Spellbook: Titanic Sweep -->
+				<item id="94501" min="1" max="1" chance="0.045" /> <!-- Spellbook: Titanic Break -->
+				<item id="94505" min="1" max="1" chance="0.044" /> <!-- Spellbook: Burning Strike -->
+				<item id="94507" min="1" max="1" chance="0.044" /> <!-- Spellbook: Armor Break -->
 				<item id="94508" min="1" max="1" chance="0.009" /> <!-- Spellbook: Cacophony of War -->
 				<item id="94668" min="1" max="1" chance="0.009" /> <!-- Spellbook: Pa'agrio's Touch -->
-				<item id="94670" min="1" max="1" chance="0.047" /> <!-- Spellbook: Debuff Master -->
+				<item id="94670" min="1" max="1" chance="0.045" /> <!-- Spellbook: Debuff Master -->
 				<item id="94673" min="1" max="1" chance="0.009" /> <!-- Spellbook: Team Building -->
-				<item id="94674" min="1" max="1" chance="0.046" /> <!-- Spellbook: Blood Bond -->
+				<item id="94674" min="1" max="1" chance="0.044" /> <!-- Spellbook: Blood Bond -->
 				<item id="94861" min="1" max="1" chance="0.009" /> <!-- Spellbook: Tranquility -->
 				<item id="94862" min="1" max="1" chance="0.009" /> <!-- Spellbook: Exclusion -->
 				<item id="94863" min="1" max="1" chance="0.009" /> <!-- Spellbook: Dark Disruption -->
 				<item id="95346" min="1" max="1" chance="0.009" /> <!-- Spellbook: Meteor -->
 				<item id="95347" min="1" max="1" chance="0.009" /> <!-- Spellbook: Rolling Dice -->
-				<item id="95348" min="1" max="1" chance="0.047" /> <!-- Spellbook: Song of Wind -->
-				<item id="95349" min="1" max="1" chance="0.05" /> <!-- Spellbook: Dance of Fury -->
-				<item id="95350" min="1" max="1" chance="0.05" /> <!-- Spellbook: Goring Charge -->
-				<item id="95352" min="1" max="1" chance="0.05" /> <!-- Spellbook: Elemental Changing -->
-				<item id="95365" min="1" max="1" chance="0.05" /> <!-- Spellbook: Elemental Spirit Lv. 4 -->
-				<item id="95856" min="1" max="1" chance="0.047" /> <!-- Spellbook: Fortune Time -->
-				<item id="95862" min="1" max="1" chance="0.048" /> <!-- Spellbook: Mechanical Masterpiece -->
-				<item id="95863" min="1" max="1" chance="0.048" /> <!-- Spellbook: Blacksmith's Attack -->
-				<item id="96037" min="1" max="1" chance="0.047" /> <!-- Spellbook: Sensation -->
-				<item id="96040" min="1" max="1" chance="0.046" /> <!-- Spellbook: Treatment -->
-				<item id="96043" min="1" max="1" chance="0.046" /> <!-- Spellbook: Duress -->
-				<item id="96283" min="1" max="1" chance="0.047" /> <!-- Spellbook: Power of Life -->
-				<item id="96285" min="1" max="1" chance="0.046" /> <!-- Spellbook: Toughness -->
-				<item id="96665" min="1" max="1" chance="0.047" /> <!-- Spellbook: Seclusion -->
-				<item id="96667" min="1" max="1" chance="0.046" /> <!-- Spellbook: Reversed Pull -->
-				<item id="96668" min="1" max="1" chance="0.046" /> <!-- Spellbook: Synchro Freedom -->
-				<item id="96669" min="1" max="1" chance="0.046" /> <!-- Spellbook: Ethereal Blood -->
-				<item id="96874" min="1" max="1" chance="0.048" /> <!-- Spellbook: True Aim -->
-				<item id="96875" min="1" max="1" chance="0.049" /> <!-- Spellbook: Deadly Shooter -->
-				<item id="97037" min="1" max="1" chance="0.046" /> <!-- Spellbook: Faery Shield -->
-				<item id="97038" min="1" max="1" chance="0.046" /> <!-- Spellbook: Soul Guardian -->
-				<item id="97102" min="1" max="1" chance="0.05" /> <!-- Spellbook: Giant's Stomp -->
-				<item id="97185" min="1" max="1" chance="0.046" /> <!-- Spellbook: Cubic of Secrets Lv. 2 -->
-				<item id="97186" min="1" max="1" chance="0.046" /> <!-- Spellbook: Elemental Cubic Lv. 2 -->
-				<item id="97187" min="1" max="1" chance="0.046" /> <!-- Spellbook: Phantom Cubic Lv. 2 -->
-				<item id="97319" min="1" max="1" chance="0.046" /> <!-- Spellbook: Blade Wave -->
-				<item id="97324" min="1" max="1" chance="0.046" /> <!-- Spellbook: Spear Cage -->
+				<item id="95348" min="1" max="1" chance="0.045" /> <!-- Spellbook: Song of Wind Lv. 2 -->
+				<item id="95349" min="1" max="1" chance="0.048" /> <!-- Spellbook: Dance of Fury Lv. 2 -->
+				<item id="95350" min="1" max="1" chance="0.047" /> <!-- Spellbook: Goring Charge -->
+				<item id="95352" min="1" max="1" chance="0.047" /> <!-- Spellbook: Elemental Changing -->
+				<item id="95365" min="1" max="1" chance="0.047" /> <!-- Spellbook: Elemental Spirit Lv. 4 -->
+				<item id="95856" min="1" max="1" chance="0.045" /> <!-- Spellbook: Fortune Time -->
+				<item id="95862" min="1" max="1" chance="0.046" /> <!-- Spellbook: Mechanical Masterpiece -->
+				<item id="95863" min="1" max="1" chance="0.046" /> <!-- Spellbook: Blacksmith' Attack -->
+				<item id="96037" min="1" max="1" chance="0.045" /> <!-- Spellbook: Sensation -->
+				<item id="96040" min="1" max="1" chance="0.044" /> <!-- Spellbook: Treatment -->
+				<item id="96043" min="1" max="1" chance="0.044" /> <!-- Spellbook: Duress -->
+				<item id="96283" min="1" max="1" chance="0.045" /> <!-- Spellbook: Power of Life -->
+				<item id="96285" min="1" max="1" chance="0.044" /> <!-- Spellbook: Toughness -->
+				<item id="96665" min="1" max="1" chance="0.045" /> <!-- Spellbook: Seclusion -->
+				<item id="96667" min="1" max="1" chance="0.044" /> <!-- Spellbook: Reversed Pull -->
+				<item id="96668" min="1" max="1" chance="0.044" /> <!-- Spellbook: Synchro Freedom -->
+				<item id="96669" min="1" max="1" chance="0.044" /> <!-- Spellbook: Ethereal Blood -->
+				<item id="96874" min="1" max="1" chance="0.046" /> <!-- Spellbook: True Aim -->
+				<item id="96875" min="1" max="1" chance="0.047" /> <!-- Spellbook: Deadly Shooter -->
+				<item id="97037" min="1" max="1" chance="0.044" /> <!-- Spellbook: Faery Shield -->
+				<item id="97038" min="1" max="1" chance="0.044" /> <!-- Spellbook: Soul Guardian -->
+				<item id="97102" min="1" max="1" chance="0.047" /> <!-- Spellbook: Giant's Stomp -->
+				<item id="97185" min="1" max="1" chance="0.044" /> <!-- Spellbook: Cubic of Secrets Lv. 2 -->
+				<item id="97186" min="1" max="1" chance="0.044" /> <!-- Spellbook: Elemental Cubic Lv. 2 -->
+				<item id="97187" min="1" max="1" chance="0.044" /> <!-- Spellbook: Phantom Cubic Lv. 2 -->
+				<item id="97319" min="1" max="1" chance="0.044" /> <!-- Spellbook: Blade Wave -->
+				<item id="97324" min="1" max="1" chance="0.044" /> <!-- Spellbook: Spear Cage -->
 				<item id="97338" min="1" max="1" chance="50" /> <!-- Scroll of Blessing: Armor -->
-				<item id="97455" min="1" max="1" chance="0.046" /> <!-- Spellbook: Soul Mark -->
-				<item id="97838" min="1" max="1" chance="0.045" /> <!-- Spellbook: Unique Seal of Damage -->
+				<item id="97455" min="1" max="1" chance="0.044" /> <!-- Spellbook: Soul Mark -->
+				<item id="97838" min="1" max="1" chance="0.044" /> <!-- Spellbook: Unique Seal of Damage -->
+				<item id="98446" min="1" max="1" chance="0.044" /> <!-- Spellbook: Powerful Servitor Share -->
+				<item id="98483" min="1" max="1" chance="0.047" /> <!-- Spellbook: Assassination -->
 				<item id="96613" min="1" max="1" chance="0.01" /> <!-- Spellbook: Expanded Potential of Dyes -->
 				<item id="374" min="1" max="1" chance="3.85" /> <!-- Armor of Nightmare -->
 				<item id="2383" min="1" max="1" chance="3.85" /> <!-- Majestic Plate Armor -->
@@ -3067,7 +3193,7 @@
 		<sex>MALE</sex>
 		<equipment rhand="91986" /> <!-- Monster Only (Grail Apostle Spear) -->
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="17088610" hpRegen="10.2" mp="1475" mpRegen="3.6" />
+			<vitals hp="18797470" hpRegen="10.2" mp="1475" mpRegen="3.6" />
 			<attack physical="7222" magical="493" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
 			<defence physical="4766" magical="209" />
 			<speed>
@@ -3094,7 +3220,7 @@
 		<race>DRAGON</race>
 		<sex>MALE</sex>
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="1898734" hpRegen="22" mp="22800" mpRegen="30" />
+			<vitals hp="2088607.4" hpRegen="22" mp="22800" mpRegen="30" />
 			<attack physical="14519" magical="11667" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
 			<defence physical="1370" magical="851" />
 			<speed>
@@ -3133,7 +3259,7 @@
 		<race>ETC</race>
 		<sex>FEMALE</sex>
 		<stats str="88" int="79" dex="55" wit="40" con="82" men="78">
-			<vitals hp="30769200" hpRegen="10.5" mp="18000" mpRegen="3.6" />
+			<vitals hp="33846160" hpRegen="10.5" mp="18000" mpRegen="3.6" />
 			<speed>
 				<walk ground="30" />
 				<run ground="250" />
@@ -3196,7 +3322,7 @@
 		<sex>FEMALE</sex>
 		<equipment rhand="95840" />
 		<stats str="88" int="79" dex="55" wit="38" con="82" men="78"> <!-- Do not touch the "Wit" -->
-			<vitals hp="30769200" hpRegen="20.5" mp="18000" mpRegen="3.6" />
+			<vitals hp="33846160" hpRegen="20.5" mp="18000" mpRegen="3.6" />
 			<speed>
 				<walk ground="40" />
 				<run ground="180" />
@@ -3215,19 +3341,19 @@
 		<exCrtEffect>false</exCrtEffect>
 		<dropLists>
 			<drop>
-				<item id="93103" min="1" max="1" chance="0.125" /> <!-- Spellbook: Divine Beam -->
-				<item id="93387" min="1" max="1" chance="0.125" /> <!-- Spellbook: Ultimate Death Knight Transformation -->
-				<item id="94498" min="1" max="1" chance="0.125" /> <!-- Spellbook: Titan Champion -->
-				<item id="94508" min="1" max="1" chance="0.125" /> <!-- Spellbook: Cacophony of War -->
-				<item id="94668" min="1" max="1" chance="0.125" /> <!-- Spellbook: Pa'agrio's Touch -->
-				<item id="94673" min="1" max="1" chance="0.125" /> <!-- Spellbook: Team Building -->
-				<item id="94861" min="1" max="1" chance="0.125" /> <!-- Spellbook: Tranquility -->
-				<item id="94862" min="1" max="1" chance="0.125" /> <!-- Spellbook: Exclusion -->
-				<item id="94863" min="1" max="1" chance="0.125" /> <!-- Spellbook: Dark Disruption -->
-				<item id="95346" min="1" max="1" chance="0.125" /> <!-- Spellbook: Meteor -->
-				<item id="95347" min="1" max="1" chance="0.125" /> <!-- Spellbook: Rolling Dice -->
-				<item id="95354" min="1" max="1" chance="0.125" /> <!-- Spellbook: Dragon Strike -->
-				<item id="95861" min="1" max="1" chance="0.125" /> <!-- Spellbook: Mechanical Hero -->
+				<item id="93103" min="1" max="1" chance="0.121" /> <!-- Spellbook: Divine Beam -->
+				<item id="93387" min="1" max="1" chance="0.122" /> <!-- Spellbook: Ultimate Death Knight Transformation -->
+				<item id="94498" min="1" max="1" chance="0.121" /> <!-- Spellbook: Titan Champion -->
+				<item id="94508" min="1" max="1" chance="0.121" /> <!-- Spellbook: Cacophony of War -->
+				<item id="94668" min="1" max="1" chance="0.121" /> <!-- Spellbook: Pa'agrio's Touch -->
+				<item id="94673" min="1" max="1" chance="0.121" /> <!-- Spellbook: Team Building -->
+				<item id="94861" min="1" max="1" chance="0.121" /> <!-- Spellbook: Tranquility -->
+				<item id="94862" min="1" max="1" chance="0.121" /> <!-- Spellbook: Exclusion -->
+				<item id="94863" min="1" max="1" chance="0.121" /> <!-- Spellbook: Dark Disruption -->
+				<item id="95346" min="1" max="1" chance="0.121" /> <!-- Spellbook: Meteor -->
+				<item id="95347" min="1" max="1" chance="0.121" /> <!-- Spellbook: Rolling Dice -->
+				<item id="95354" min="1" max="1" chance="0.121" /> <!-- Spellbook: Dragon Strike -->
+				<item id="95861" min="1" max="1" chance="0.121" /> <!-- Spellbook: Prime Master Transformation -->
 				<item id="96007" min="1" max="1" chance="4.165" /> <!-- Package: +5 Armor of Nightmare - Sealed -->
 				<item id="96008" min="1" max="1" chance="4.165" /> <!-- Package: +5 Helm of Nightmare (Heavy) - Sealed -->
 				<item id="96009" min="1" max="1" chance="4.165" /> <!-- Package: +5 Gauntlets of Nightmare (Heavy) - Sealed -->
@@ -3252,25 +3378,26 @@
 				<item id="96028" min="1" max="1" chance="4.17" /> <!-- Package: +5 Majestic Circlet (Robe) - Sealed -->
 				<item id="96029" min="1" max="1" chance="4.17" /> <!-- Package: +5 Majestic Gauntlets (Robe) - Sealed -->
 				<item id="96030" min="1" max="1" chance="4.17" /> <!-- Package: +5 Majestic Boots (Robe) - Sealed -->
-				<item id="96289" min="1" max="1" chance="0.125" /> <!-- Spellbook: Phoenix Shield -->
-				<item id="96291" min="1" max="1" chance="0.125" /> <!-- Spellbook: Hell -->
-				<item id="96293" min="1" max="1" chance="0.125" /> <!-- Spellbook: Shelter -->
-				<item id="96295" min="1" max="1" chance="0.125" /> <!-- Spellbook: Condemnation -->
-				<item id="96670" min="1" max="1" chance="0.125" /> <!-- Spellbook: Critical Assault -->
-				<item id="96671" min="1" max="1" chance="0.125" /> <!-- Spellbook: Fury Blade -->
-				<item id="96672" min="1" max="1" chance="0.125" /> <!-- Spellbook: Mortal Piercing -->
-				<item id="96873" min="1" max="1" chance="0.125" /> <!-- Spellbook: Legendary Archer -->
-				<item id="97111" min="1" max="1" chance="0.125" /> <!-- Spellbook: Wild Evolution -->
-				<item id="97182" min="1" max="1" chance="0.125" /> <!-- Spellbook: Cat Emperor -->
-				<item id="97183" min="1" max="1" chance="0.125" /> <!-- Spellbook: Unicorn Guard -->
-				<item id="97184" min="1" max="1" chance="0.125" /> <!-- Spellbook: Lord Raise -->
-				<item id="97318" min="1" max="1" chance="0.125" /> <!-- Spellbook: Challenger -->
-				<item id="97323" min="1" max="1" chance="0.125" /> <!-- Spellbook: Great Sweep -->
-				<item id="97453" min="1" max="1" chance="0.125" /> <!-- Spellbook: Overwhelming Power -->
-				<item id="97465" min="1" max="1" chance="0.125" /> <!-- Spellbook: Leopold -->
-				<item id="97831" min="1" max="1" chance="0.125" /> <!-- Spellbook: Amadeus -->
-				<item id="97832" min="1" max="1" chance="0.125" /> <!-- Spellbook: Flamenco -->
-				<item id="97837" min="1" max="1" chance="0.125" /> <!-- Spellbook: Crusader Transformation -->
+				<item id="96289" min="1" max="1" chance="0.121" /> <!-- Spellbook: Phoenix Shield -->
+				<item id="96291" min="1" max="1" chance="0.121" /> <!-- Spellbook: Hell -->
+				<item id="96293" min="1" max="1" chance="0.121" /> <!-- Spellbook: Shelter -->
+				<item id="96295" min="1" max="1" chance="0.121" /> <!-- Spellbook: Condemnation -->
+				<item id="96670" min="1" max="1" chance="0.121" /> <!-- Spellbook: Critical Assault -->
+				<item id="96671" min="1" max="1" chance="0.121" /> <!-- Spellbook: Fury Blade -->
+				<item id="96672" min="1" max="1" chance="0.121" /> <!-- Spellbook: Mortal Piercing -->
+				<item id="96873" min="1" max="1" chance="0.121" /> <!-- Spellbook: Legendary Archer -->
+				<item id="97111" min="1" max="1" chance="0.121" /> <!-- Spellbook: Wild Evolution -->
+				<item id="97182" min="1" max="1" chance="0.121" /> <!-- Spellbook: Cat Emperor -->
+				<item id="97183" min="1" max="1" chance="0.121" /> <!-- Spellbook: Unicorn Guard -->
+				<item id="97184" min="1" max="1" chance="0.121" /> <!-- Spellbook: Lord Raise -->
+				<item id="97318" min="1" max="1" chance="0.121" /> <!-- Spellbook: Challenger -->
+				<item id="97323" min="1" max="1" chance="0.121" /> <!-- Spellbook: Great Sweep -->
+				<item id="97453" min="1" max="1" chance="0.121" /> <!-- Spellbook: Overwhelming Power -->
+				<item id="97465" min="1" max="1" chance="0.121" /> <!-- Spellbook: Leopold -->
+				<item id="97831" min="1" max="1" chance="0.121" /> <!-- Spellbook: Amadeus -->
+				<item id="97832" min="1" max="1" chance="0.121" /> <!-- Spellbook: Flamenco -->
+				<item id="97837" min="1" max="1" chance="0.121" /> <!-- Spellbook: Crusader Transformation -->
+				<item id="98481" min="1" max="1" chance="0.121" /> <!-- Spellbook: Time Distortion -->
 				<item id="95781" min="1" max="1" chance="15" /> <!-- Black Frozen Core -->
 				<item id="97485" min="1" max="1" chance="0.85" /> <!-- Glakias Doll Lv. 2 -->
 				<item id="8678" min="1" max="1" chance="3.33" /> <!-- Sirra's Blade -->
@@ -3314,53 +3441,7 @@
 		<sex>FEMALE</sex>
 		<equipment rhand="95841" />
 		<stats str="88" int="79" dex="55" wit="38" con="82" men="78">
-			<vitals hp="30769200" hpRegen="10.5" mp="18000" mpRegen="3.6" />
-			<speed>
-				<walk ground="40" />
-				<run ground="180" />
-			</speed>
-			<attack physical="3611" magical="2465" critical="4" attackSpeed="253" range="40" />
-			<defence physical="2383" magical="1045" />
-		</stats>
-		<status attackable="false" />
-		<collision>
-			<radius normal="42" />
-			<height normal="102.75" />
-		</collision>
-		<skillList>
-			<skill id="4279" level="1" /> <!-- Fire Vulnerability -->
-		</skillList>
-	</npc>
-	<npc id="29138" level="90" type="GrandBoss" name="Glakias" title="Dreadful Frost Lord" element="WATER">
-		<!-- GLAKIAS FROST LORD INSTANCE HARD MODE -->
-		<race>ETC</race>
-		<sex>FEMALE</sex>
-		<equipment rhand="95842" />
-		<stats str="88" int="79" dex="55" wit="45" con="82" men="78">
-			<vitals hp="37230730" hpRegen="10.5" mp="18000" mpRegen="3.6" />
-			<speed>
-				<walk ground="40" />
-				<run ground="180" />
-			</speed>
-			<attack physical="3611" magical="2465" critical="4" attackSpeed="253" range="40" />
-			<defence physical="2383" magical="1045" />
-		</stats>
-		<status attackable="false" />
-		<collision>
-			<radius normal="42" />
-			<height normal="102.75" />
-		</collision>
-		<skillList>
-			<skill id="4279" level="1" /> <!-- Fire Vulnerability -->
-		</skillList>
-	</npc>
-	<npc id="29139" level="90" type="GrandBoss" name="Glakias" title="Dreadful Frost Lord" element="WATER">
-		<!-- GLAKIAS FROST LORD INSTANCE HARD MODE -->
-		<race>ETC</race>
-		<sex>FEMALE</sex>
-		<equipment rhand="95843" />
-		<stats str="88" int="79" dex="55" wit="45" con="82" men="78">
-			<vitals hp="37230730" hpRegen="20.5" mp="18000" mpRegen="3.6" />
+			<vitals hp="33846160" hpRegen="10.5" mp="18000" mpRegen="3.6" />
 			<speed>
 				<walk ground="40" />
 				<run ground="180" />
@@ -3378,20 +3459,136 @@
 		</skillList>
 		<dropLists>
 			<drop>
-				<item id="93103" min="1" max="1" chance="0.125" /> <!-- Spellbook: Divine Beam -->
-				<item id="93387" min="1" max="1" chance="0.125" /> <!-- Spellbook: Ultimate Death Knight Transformation -->
-				<item id="93933" min="1" max="1" chance="15" /> <!-- Rare Accessory Pack - Sealed -->
-				<item id="94498" min="1" max="1" chance="0.125" /> <!-- Spellbook: Titan Champion -->
-				<item id="94508" min="1" max="1" chance="0.125" /> <!-- Spellbook: Cacophony of War -->
-				<item id="94668" min="1" max="1" chance="0.125" /> <!-- Spellbook: Pa'agrio's Touch -->
-				<item id="94673" min="1" max="1" chance="0.125" /> <!-- Spellbook: Team Building -->
-				<item id="94861" min="1" max="1" chance="0.125" /> <!-- Spellbook: Tranquility -->
-				<item id="94862" min="1" max="1" chance="0.125" /> <!-- Spellbook: Exclusion -->
-				<item id="94863" min="1" max="1" chance="0.125" /> <!-- Spellbook: Dark Disruption -->
-				<item id="95346" min="1" max="1" chance="0.125" /> <!-- Spellbook: Meteor -->
-				<item id="95347" min="1" max="1" chance="0.125" /> <!-- Spellbook: Rolling Dice -->
-				<item id="95354" min="1" max="1" chance="0.125" /> <!-- Spellbook: Dragon Strike -->
-				<item id="95861" min="1" max="1" chance="0.125" /> <!-- Spellbook: Mechanical Hero -->
+				<item id="93103" min="1" max="1" chance="0.121" /> <!-- Spellbook: Divine Beam -->
+				<item id="93387" min="1" max="1" chance="0.122" /> <!-- Spellbook: Ultimate Death Knight Transformation -->
+				<item id="94498" min="1" max="1" chance="0.121" /> <!-- Spellbook: Titan Champion -->
+				<item id="94508" min="1" max="1" chance="0.121" /> <!-- Spellbook: Cacophony of War -->
+				<item id="94668" min="1" max="1" chance="0.121" /> <!-- Spellbook: Pa'agrio's Touch -->
+				<item id="94673" min="1" max="1" chance="0.121" /> <!-- Spellbook: Team Building -->
+				<item id="94861" min="1" max="1" chance="0.121" /> <!-- Spellbook: Tranquility -->
+				<item id="94862" min="1" max="1" chance="0.121" /> <!-- Spellbook: Exclusion -->
+				<item id="94863" min="1" max="1" chance="0.121" /> <!-- Spellbook: Dark Disruption -->
+				<item id="95346" min="1" max="1" chance="0.121" /> <!-- Spellbook: Meteor -->
+				<item id="95347" min="1" max="1" chance="0.121" /> <!-- Spellbook: Rolling Dice -->
+				<item id="95354" min="1" max="1" chance="0.121" /> <!-- Spellbook: Dragon Strike -->
+				<item id="95861" min="1" max="1" chance="0.121" /> <!-- Spellbook: Prime Master Transformation -->
+				<item id="96007" min="1" max="1" chance="4.165" /> <!-- Package: +5 Armor of Nightmare - Sealed -->
+				<item id="96008" min="1" max="1" chance="4.165" /> <!-- Package: +5 Helm of Nightmare (Heavy) - Sealed -->
+				<item id="96009" min="1" max="1" chance="4.165" /> <!-- Package: +5 Gauntlets of Nightmare (Heavy) - Sealed -->
+				<item id="96010" min="1" max="1" chance="4.165" /> <!-- Package: +5 Boots of Nightmare (Heavy) - Sealed -->
+				<item id="96011" min="1" max="1" chance="4.165" /> <!-- Package: +5 Majestic Plate Armor - Sealed -->
+				<item id="96012" min="1" max="1" chance="4.165" /> <!-- Package: +5 Majestic Circlet (Heavy) - Sealed -->
+				<item id="96013" min="1" max="1" chance="4.165" /> <!-- Package: +5 Majestic Gauntlets (Heavy) - Sealed -->
+				<item id="96014" min="1" max="1" chance="4.165" /> <!-- Package: +5 Majestic Boots (Heavy) - Sealed -->
+				<item id="96015" min="1" max="1" chance="4.165" /> <!-- Package: +5 Leather Armor of Nightmare - Sealed -->
+				<item id="96016" min="1" max="1" chance="4.165" /> <!-- Package: +5 Helm of Nightmare (Light) - Sealed -->
+				<item id="96017" min="1" max="1" chance="4.165" /> <!-- Package: +5 Gauntlets of Nightmare (Light) - Sealed -->
+				<item id="96018" min="1" max="1" chance="4.165" /> <!-- Package: +5 Boots of Nightmare (Light) - Sealed -->
+				<item id="96019" min="1" max="1" chance="4.165" /> <!-- Package: +5 Majestic Leather Armor - Sealed -->
+				<item id="96020" min="1" max="1" chance="4.165" /> <!-- Package: +5 Majestic Circlet (Light) - Sealed -->
+				<item id="96021" min="1" max="1" chance="4.165" /> <!-- Package: +5 Majestic Gauntlets (Light) - Sealed -->
+				<item id="96022" min="1" max="1" chance="4.165" /> <!-- Package: +5 Majestic Boots (Light) - Sealed -->
+				<item id="96023" min="1" max="1" chance="4.17" /> <!-- Package: +5 Robe of Nightmare - Sealed -->
+				<item id="96024" min="1" max="1" chance="4.17" /> <!-- Package: +5 Helm of Nightmare (Robe) - Sealed -->
+				<item id="96025" min="1" max="1" chance="4.17" /> <!-- Package: +5 Gauntlets of Nightmare (Robe) - Sealed -->
+				<item id="96026" min="1" max="1" chance="4.17" /> <!-- Package: +5 Boots of Nightmare (Robe) - Sealed -->
+				<item id="96027" min="1" max="1" chance="4.17" /> <!-- Package: +5 Majestic Robe - Sealed -->
+				<item id="96028" min="1" max="1" chance="4.17" /> <!-- Package: +5 Majestic Circlet (Robe) - Sealed -->
+				<item id="96029" min="1" max="1" chance="4.17" /> <!-- Package: +5 Majestic Gauntlets (Robe) - Sealed -->
+				<item id="96030" min="1" max="1" chance="4.17" /> <!-- Package: +5 Majestic Boots (Robe) - Sealed -->
+				<item id="96289" min="1" max="1" chance="0.121" /> <!-- Spellbook: Phoenix Shield -->
+				<item id="96291" min="1" max="1" chance="0.121" /> <!-- Spellbook: Hell -->
+				<item id="96293" min="1" max="1" chance="0.121" /> <!-- Spellbook: Shelter -->
+				<item id="96295" min="1" max="1" chance="0.121" /> <!-- Spellbook: Condemnation -->
+				<item id="96670" min="1" max="1" chance="0.121" /> <!-- Spellbook: Critical Assault -->
+				<item id="96671" min="1" max="1" chance="0.121" /> <!-- Spellbook: Fury Blade -->
+				<item id="96672" min="1" max="1" chance="0.121" /> <!-- Spellbook: Mortal Piercing -->
+				<item id="96873" min="1" max="1" chance="0.121" /> <!-- Spellbook: Legendary Archer -->
+				<item id="97111" min="1" max="1" chance="0.121" /> <!-- Spellbook: Wild Evolution -->
+				<item id="97182" min="1" max="1" chance="0.121" /> <!-- Spellbook: Cat Emperor -->
+				<item id="97183" min="1" max="1" chance="0.121" /> <!-- Spellbook: Unicorn Guard -->
+				<item id="97184" min="1" max="1" chance="0.121" /> <!-- Spellbook: Lord Raise -->
+				<item id="97318" min="1" max="1" chance="0.121" /> <!-- Spellbook: Challenger -->
+				<item id="97323" min="1" max="1" chance="0.121" /> <!-- Spellbook: Great Sweep -->
+				<item id="97453" min="1" max="1" chance="0.121" /> <!-- Spellbook: Overwhelming Power -->
+				<item id="97465" min="1" max="1" chance="0.121" /> <!-- Spellbook: Leopold -->
+				<item id="97831" min="1" max="1" chance="0.121" /> <!-- Spellbook: Amadeus -->
+				<item id="97832" min="1" max="1" chance="0.121" /> <!-- Spellbook: Flamenco -->
+				<item id="97837" min="1" max="1" chance="0.121" /> <!-- Spellbook: Crusader Transformation -->
+				<item id="98481" min="1" max="1" chance="0.121" /> <!-- Spellbook: Time Distortion -->
+				<item id="95781" min="1" max="1" chance="15" /> <!-- Black Frozen Core -->
+				<item id="97485" min="1" max="1" chance="0.85" /> <!-- Glakias Doll Lv. 2 -->
+				<item id="8678" min="1" max="1" chance="3.33" /> <!-- Sirra's Blade -->
+				<item id="8679" min="1" max="1" chance="3.33" /> <!-- Sword of Ipos -->
+				<item id="8680" min="1" max="1" chance="3.33" /> <!-- Barakiel's Axe -->
+				<item id="8681" min="1" max="1" chance="3.33" /> <!-- Behemoth' Tuning Fork -->
+				<item id="8682" min="1" max="1" chance="3.33" /> <!-- Naga's Storm -->
+				<item id="8683" min="1" max="1" chance="3.335" /> <!-- Tiphon's Spear -->
+				<item id="8684" min="1" max="1" chance="3.335" /> <!-- Shyeed's Bow -->
+				<item id="8685" min="1" max="1" chance="3.335" /> <!-- Sobekk's Hurricane -->
+				<item id="8686" min="1" max="1" chance="3.335" /> <!-- Themis' Tongue -->
+				<item id="8687" min="1" max="1" chance="3.335" /> <!-- Cabrio's Hand -->
+				<item id="8688" min="1" max="1" chance="3.335" /> <!-- Daimon Crystal -->
+				<item id="8938" min="1" max="1" chance="3.335" /> <!-- Tallum Blade*Damascus Sword -->
+				<item id="91887" min="1" max="1" chance="3.335" /> <!-- Durendal -->
+				<item id="91902" min="1" max="1" chance="3.335" /> <!-- Éclair Bijou -->
+				<item id="93139" min="1" max="1" chance="8.35" /> <!-- Ice Crystal Breastplate -->
+				<item id="93140" min="1" max="1" chance="8.35" /> <!-- Ice Crystal Gaiters -->
+				<item id="93315" min="1" max="1" chance="8.35" /> <!-- Leather Armor of Lightning -->
+				<item id="93316" min="1" max="1" chance="8.35" /> <!-- Leather Leggings of Lightning -->
+				<item id="93733" min="1" max="1" chance="8.3" /> <!-- Flaming Tunic -->
+				<item id="93734" min="1" max="1" chance="8.3" /> <!-- Flaming Stockings -->
+				<item id="94886" min="1" max="1" chance="3.335" /> <!-- Zephyrus -->
+				<item id="95726" min="1" max="1" chance="1.333" /> <!-- Frost Lord's Two-handed Sword -->
+				<item id="95728" min="1" max="1" chance="1.333" /> <!-- Frost Lord's Dagger -->
+				<item id="95730" min="1" max="1" chance="1.334" /> <!-- Frost Lord's Bow -->
+				<item id="95732" min="1" max="1" chance="1.334" /> <!-- Frost Lord's Magic Blunt Weapon -->
+				<item id="95734" min="1" max="1" chance="1.334" /> <!-- Frost Lord's Ancient Sword -->
+				<item id="95736" min="1" max="1" chance="1.334" /> <!-- Frost Lord's Pistols -->
+			</drop>
+			<fortune>
+				<item id="94383" min="1" max="1" chance="0.95" /> <!-- Scroll: Enchant Rare Accessories -->
+				<item id="94385" min="1" max="1" chance="0.05" /> <!-- Improved Scroll: Enchant Rare Accessories -->
+			</fortune>
+		</dropLists>
+	</npc>
+	<npc id="29138" level="90" type="GrandBoss" name="Glakias" title="Dreadful Frost Lord" element="WATER">
+		<!-- GLAKIAS FROST LORD INSTANCE HARD MODE -->
+		<race>ETC</race>
+		<sex>FEMALE</sex>
+		<equipment rhand="95842" />
+		<stats str="88" int="79" dex="55" wit="45" con="82" men="78">
+			<vitals hp="40953860" hpRegen="10.5" mp="18000" mpRegen="3.6" />
+			<speed>
+				<walk ground="40" />
+				<run ground="180" />
+			</speed>
+			<attack physical="3611" magical="2465" critical="4" attackSpeed="253" range="40" />
+			<defence physical="2383" magical="1045" />
+		</stats>
+		<status attackable="false" />
+		<collision>
+			<radius normal="42" />
+			<height normal="102.75" />
+		</collision>
+		<skillList>
+			<skill id="4279" level="1" /> <!-- Fire Vulnerability -->
+		</skillList>
+		<dropLists>
+			<drop>
+				<item id="93103" min="1" max="1" chance="0.121" /> <!-- Spellbook: Divine Beam -->
+				<item id="93387" min="1" max="1" chance="0.122" /> <!-- Spellbook: Ultimate Death Knight Transformation -->
+				<item id="94498" min="1" max="1" chance="0.121" /> <!-- Spellbook: Titan Champion -->
+				<item id="94508" min="1" max="1" chance="0.121" /> <!-- Spellbook: Cacophony of War -->
+				<item id="94668" min="1" max="1" chance="0.121" /> <!-- Spellbook: Pa'agrio's Touch -->
+				<item id="94673" min="1" max="1" chance="0.121" /> <!-- Spellbook: Team Building -->
+				<item id="94861" min="1" max="1" chance="0.121" /> <!-- Spellbook: Tranquility -->
+				<item id="94862" min="1" max="1" chance="0.121" /> <!-- Spellbook: Exclusion -->
+				<item id="94863" min="1" max="1" chance="0.121" /> <!-- Spellbook: Dark Disruption -->
+				<item id="95346" min="1" max="1" chance="0.121" /> <!-- Spellbook: Meteor -->
+				<item id="95347" min="1" max="1" chance="0.121" /> <!-- Spellbook: Rolling Dice -->
+				<item id="95354" min="1" max="1" chance="0.121" /> <!-- Spellbook: Dragon Strike -->
+				<item id="95861" min="1" max="1" chance="0.121" /> <!-- Spellbook: Prime Master Transformation -->
 				<item id="96006" min="1" max="1" chance="50" /> <!-- +5 Top-grade A-grade Weapon Pack - Sealed -->
 				<item id="96031" min="1" max="1" chance="8.35" /> <!-- Package: +5 Leather Armor of Lightning - Sealed -->
 				<item id="96032" min="1" max="1" chance="8.35" /> <!-- Package: +5 Leather Leggings of Lightning - Sealed -->
@@ -3399,25 +3596,116 @@
 				<item id="96034" min="1" max="1" chance="8.35" /> <!-- Package: +5 Ice Crystal Gaiters - Sealed -->
 				<item id="96035" min="1" max="1" chance="8.3" /> <!-- Package: +5 Flaming Tunic - Sealed -->
 				<item id="96036" min="1" max="1" chance="8.3" /> <!-- Package: +5 Flaming Stockings - Sealed -->
-				<item id="96289" min="1" max="1" chance="0.125" /> <!-- Spellbook: Phoenix Shield -->
-				<item id="96291" min="1" max="1" chance="0.125" /> <!-- Spellbook: Hell -->
-				<item id="96293" min="1" max="1" chance="0.125" /> <!-- Spellbook: Shelter -->
-				<item id="96295" min="1" max="1" chance="0.125" /> <!-- Spellbook: Condemnation -->
-				<item id="96670" min="1" max="1" chance="0.125" /> <!-- Spellbook: Critical Assault -->
-				<item id="96671" min="1" max="1" chance="0.125" /> <!-- Spellbook: Fury Blade -->
-				<item id="96672" min="1" max="1" chance="0.125" /> <!-- Spellbook: Mortal Piercing -->
-				<item id="96873" min="1" max="1" chance="0.125" /> <!-- Spellbook: Legendary Archer -->
-				<item id="97111" min="1" max="1" chance="0.125" /> <!-- Spellbook: Wild Evolution -->
-				<item id="97182" min="1" max="1" chance="0.125" /> <!-- Spellbook: Cat Emperor -->
-				<item id="97183" min="1" max="1" chance="0.125" /> <!-- Spellbook: Unicorn Guard -->
-				<item id="97184" min="1" max="1" chance="0.125" /> <!-- Spellbook: Lord Raise -->
-				<item id="97318" min="1" max="1" chance="0.125" /> <!-- Spellbook: Challenger -->
-				<item id="97323" min="1" max="1" chance="0.125" /> <!-- Spellbook: Great Sweep -->
-				<item id="97453" min="1" max="1" chance="0.125" /> <!-- Spellbook: Overwhelming Power -->
-				<item id="97465" min="1" max="1" chance="0.125" /> <!-- Spellbook: Leopold -->
-				<item id="97831" min="1" max="1" chance="0.125" /> <!-- Spellbook: Amadeus -->
-				<item id="97832" min="1" max="1" chance="0.125" /> <!-- Spellbook: Flamenco -->
-				<item id="97837" min="1" max="1" chance="0.125" /> <!-- Spellbook: Crusader Transformation -->
+				<item id="96289" min="1" max="1" chance="0.121" /> <!-- Spellbook: Phoenix Shield -->
+				<item id="96291" min="1" max="1" chance="0.121" /> <!-- Spellbook: Hell -->
+				<item id="96293" min="1" max="1" chance="0.121" /> <!-- Spellbook: Shelter -->
+				<item id="96295" min="1" max="1" chance="0.121" /> <!-- Spellbook: Condemnation -->
+				<item id="96670" min="1" max="1" chance="0.121" /> <!-- Spellbook: Critical Assault -->
+				<item id="96671" min="1" max="1" chance="0.121" /> <!-- Spellbook: Fury Blade -->
+				<item id="96672" min="1" max="1" chance="0.121" /> <!-- Spellbook: Mortal Piercing -->
+				<item id="96873" min="1" max="1" chance="0.121" /> <!-- Spellbook: Legendary Archer -->
+				<item id="97111" min="1" max="1" chance="0.121" /> <!-- Spellbook: Wild Evolution -->
+				<item id="97182" min="1" max="1" chance="0.121" /> <!-- Spellbook: Cat Emperor -->
+				<item id="97183" min="1" max="1" chance="0.121" /> <!-- Spellbook: Unicorn Guard -->
+				<item id="97184" min="1" max="1" chance="0.121" /> <!-- Spellbook: Lord Raise -->
+				<item id="97318" min="1" max="1" chance="0.121" /> <!-- Spellbook: Challenger -->
+				<item id="97323" min="1" max="1" chance="0.121" /> <!-- Spellbook: Great Sweep -->
+				<item id="97453" min="1" max="1" chance="0.121" /> <!-- Spellbook: Overwhelming Power -->
+				<item id="97465" min="1" max="1" chance="0.121" /> <!-- Spellbook: Leopold -->
+				<item id="97831" min="1" max="1" chance="0.121" /> <!-- Spellbook: Amadeus -->
+				<item id="97832" min="1" max="1" chance="0.121" /> <!-- Spellbook: Flamenco -->
+				<item id="97837" min="1" max="1" chance="0.121" /> <!-- Spellbook: Crusader Transformation -->
+				<item id="98481" min="1" max="1" chance="0.121" /> <!-- Spellbook: Time Distortion -->
+				<item id="95781" min="1" max="1" chance="100" /> <!-- Black Frozen Core -->
+				<item id="97485" min="1" max="1" chance="4.25" /> <!-- Glakias Doll Lv. 2 -->
+				<item id="94840" min="1" max="1" chance="0.556" /> <!-- Breastplate of Protection -->
+				<item id="94841" min="1" max="1" chance="0.556" /> <!-- Gaiters of Protection -->
+				<item id="94844" min="1" max="1" chance="0.556" /> <!-- Leather Armor of Protection -->
+				<item id="94845" min="1" max="1" chance="0.556" /> <!-- Leather Leggings of Protection -->
+				<item id="94848" min="1" max="1" chance="0.556" /> <!-- Tunic of Protection -->
+				<item id="94849" min="1" max="1" chance="0.556" /> <!-- Stockings of Protection -->
+				<item id="95725" min="1" max="1" chance="2.144" /> <!-- Frost Lord's Sword -->
+				<item id="95727" min="1" max="1" chance="2.144" /> <!-- Frost Lord's Axe -->
+				<item id="95729" min="1" max="1" chance="2.144" /> <!-- Frost Lord's Spear -->
+				<item id="95731" min="1" max="1" chance="2.144" /> <!-- Frost Lord's Blade Fists -->
+				<item id="95733" min="1" max="1" chance="2.142" /> <!-- Frost Lord's Staff -->
+				<item id="95735" min="1" max="1" chance="2.142" /> <!-- Frost Lord's Rapier -->
+				<item id="95737" min="1" max="1" chance="2.142" /> <!-- Frost Lord's Dual Swords -->
+				<item id="95932" min="1" max="1" chance="0.556" /> <!-- Helmet of Protection -->
+				<item id="95933" min="1" max="1" chance="0.556" /> <!-- Gauntlets of Protection -->
+				<item id="95934" min="1" max="1" chance="0.556" /> <!-- Boots of Protection -->
+			</drop>
+			<fortune>
+				<item id="94383" min="1" max="1" chance="0.95" /> <!-- Scroll: Enchant Rare Accessories -->
+				<item id="94385" min="1" max="1" chance="0.05" /> <!-- Improved Scroll: Enchant Rare Accessories -->
+			</fortune>
+		</dropLists>
+	</npc>
+	<npc id="29139" level="90" type="GrandBoss" name="Glakias" title="Dreadful Frost Lord" element="WATER">
+		<!-- GLAKIAS FROST LORD INSTANCE HARD MODE -->
+		<race>ETC</race>
+		<sex>FEMALE</sex>
+		<equipment rhand="95843" />
+		<stats str="88" int="79" dex="55" wit="45" con="82" men="78">
+			<vitals hp="40953860" hpRegen="20.5" mp="18000" mpRegen="3.6" />
+			<speed>
+				<walk ground="40" />
+				<run ground="180" />
+			</speed>
+			<attack physical="3611" magical="2465" critical="4" attackSpeed="253" range="40" />
+			<defence physical="2383" magical="1045" />
+		</stats>
+		<status attackable="false" />
+		<collision>
+			<radius normal="42" />
+			<height normal="102.75" />
+		</collision>
+		<skillList>
+			<skill id="4279" level="1" /> <!-- Fire Vulnerability -->
+		</skillList>
+		<dropLists>
+			<drop>
+				<item id="93103" min="1" max="1" chance="0.121" /> <!-- Spellbook: Divine Beam -->
+				<item id="93387" min="1" max="1" chance="0.122" /> <!-- Spellbook: Ultimate Death Knight Transformation -->
+				<item id="93933" min="1" max="1" chance="15" /> <!-- Rare Accessory Pack - Sealed -->
+				<item id="94498" min="1" max="1" chance="0.121" /> <!-- Spellbook: Titan Champion -->
+				<item id="94508" min="1" max="1" chance="0.121" /> <!-- Spellbook: Cacophony of War -->
+				<item id="94668" min="1" max="1" chance="0.121" /> <!-- Spellbook: Pa'agrio's Touch -->
+				<item id="94673" min="1" max="1" chance="0.121" /> <!-- Spellbook: Team Building -->
+				<item id="94861" min="1" max="1" chance="0.121" /> <!-- Spellbook: Tranquility -->
+				<item id="94862" min="1" max="1" chance="0.121" /> <!-- Spellbook: Exclusion -->
+				<item id="94863" min="1" max="1" chance="0.121" /> <!-- Spellbook: Dark Disruption -->
+				<item id="95346" min="1" max="1" chance="0.121" /> <!-- Spellbook: Meteor -->
+				<item id="95347" min="1" max="1" chance="0.121" /> <!-- Spellbook: Rolling Dice -->
+				<item id="95354" min="1" max="1" chance="0.121" /> <!-- Spellbook: Dragon Strike -->
+				<item id="95861" min="1" max="1" chance="0.121" /> <!-- Spellbook: Prime Master Transformation -->
+				<item id="96006" min="1" max="1" chance="50" /> <!-- +5 Top-grade A-grade Weapon Pack - Sealed -->
+				<item id="96031" min="1" max="1" chance="8.35" /> <!-- Package: +5 Leather Armor of Lightning - Sealed -->
+				<item id="96032" min="1" max="1" chance="8.35" /> <!-- Package: +5 Leather Leggings of Lightning - Sealed -->
+				<item id="96033" min="1" max="1" chance="8.35" /> <!-- Package: +5 Ice Crystal Breastplate - Sealed -->
+				<item id="96034" min="1" max="1" chance="8.35" /> <!-- Package: +5 Ice Crystal Gaiters - Sealed -->
+				<item id="96035" min="1" max="1" chance="8.3" /> <!-- Package: +5 Flaming Tunic - Sealed -->
+				<item id="96036" min="1" max="1" chance="8.3" /> <!-- Package: +5 Flaming Stockings - Sealed -->
+				<item id="96289" min="1" max="1" chance="0.121" /> <!-- Spellbook: Phoenix Shield -->
+				<item id="96291" min="1" max="1" chance="0.121" /> <!-- Spellbook: Hell -->
+				<item id="96293" min="1" max="1" chance="0.121" /> <!-- Spellbook: Shelter -->
+				<item id="96295" min="1" max="1" chance="0.121" /> <!-- Spellbook: Condemnation -->
+				<item id="96670" min="1" max="1" chance="0.121" /> <!-- Spellbook: Critical Assault -->
+				<item id="96671" min="1" max="1" chance="0.121" /> <!-- Spellbook: Fury Blade -->
+				<item id="96672" min="1" max="1" chance="0.121" /> <!-- Spellbook: Mortal Piercing -->
+				<item id="96873" min="1" max="1" chance="0.121" /> <!-- Spellbook: Legendary Archer -->
+				<item id="97111" min="1" max="1" chance="0.121" /> <!-- Spellbook: Wild Evolution -->
+				<item id="97182" min="1" max="1" chance="0.121" /> <!-- Spellbook: Cat Emperor -->
+				<item id="97183" min="1" max="1" chance="0.121" /> <!-- Spellbook: Unicorn Guard -->
+				<item id="97184" min="1" max="1" chance="0.121" /> <!-- Spellbook: Lord Raise -->
+				<item id="97318" min="1" max="1" chance="0.121" /> <!-- Spellbook: Challenger -->
+				<item id="97323" min="1" max="1" chance="0.121" /> <!-- Spellbook: Great Sweep -->
+				<item id="97453" min="1" max="1" chance="0.121" /> <!-- Spellbook: Overwhelming Power -->
+				<item id="97465" min="1" max="1" chance="0.121" /> <!-- Spellbook: Leopold -->
+				<item id="97831" min="1" max="1" chance="0.121" /> <!-- Spellbook: Amadeus -->
+				<item id="97832" min="1" max="1" chance="0.121" /> <!-- Spellbook: Flamenco -->
+				<item id="97837" min="1" max="1" chance="0.121" /> <!-- Spellbook: Crusader Transformation -->
+				<item id="98481" min="1" max="1" chance="0.121" /> <!-- Spellbook: Time Distortion -->
 				<item id="95781" min="1" max="1" chance="100" /> <!-- Black Frozen Core -->
 				<item id="97485" min="1" max="1" chance="4.25" /> <!-- Glakias Doll Lv. 2 -->
 				<item id="95726" min="1" max="1" chance="2.499" /> <!-- Frost Lord's Two-handed Sword -->
@@ -3438,7 +3726,7 @@
 		<race>ETC</race>
 		<sex>FEMALE</sex>
 		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
-			<vitals hp="222680.3" hpRegen="10.5" mp="11928" mpRegen="3.6" />
+			<vitals hp="244947.7" hpRegen="10.5" mp="11928" mpRegen="3.6" />
 			<speed>
 				<walk ground="20" />
 				<run ground="150" />
@@ -3463,7 +3751,7 @@
 		<race>ETC</race>
 		<sex>FEMALE</sex>
 		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
-			<vitals hp="173195.7" hpRegen="10.5" mp="11928" mpRegen="3.6" />
+			<vitals hp="190514.8" hpRegen="10.5" mp="11928" mpRegen="3.6" />
 			<speed>
 				<walk ground="36" />
 				<run ground="180" />
@@ -3489,7 +3777,7 @@
 		<sex>FEMALE</sex>
 		<equipment rhand="15302" />
 		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
-			<vitals hp="173195.7" hpRegen="10.5" mp="11928" mpRegen="3.6" />
+			<vitals hp="190514.8" hpRegen="10.5" mp="11928" mpRegen="3.6" />
 			<speed>
 				<walk ground="60" />
 				<run ground="180" />
@@ -3515,7 +3803,7 @@
 		<sex>FEMALE</sex>
 		<equipment rhand="15302" />
 		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
-			<vitals hp="173195.7" hpRegen="10.5" mp="11928" mpRegen="3.6" />
+			<vitals hp="190514.8" hpRegen="10.5" mp="11928" mpRegen="3.6" />
 			<speed>
 				<walk ground="40" />
 				<run ground="180" />
@@ -3540,7 +3828,7 @@
 		<race>DRAGON</race>
 		<sex>MALE</sex>
 		<stats str="60" int="76" dex="73" wit="70" con="57" men="80">
-			<vitals hp="14496000" hpRegen="10.2" mp="18000" mpRegen="3.6" />
+			<vitals hp="15945600" hpRegen="10.2" mp="18000" mpRegen="3.6" />
 			<attack physical="14444" magical="986" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
 			<defence physical="9532" magical="418" />
 			<speed>
@@ -3563,7 +3851,7 @@
 		<race>ETC</race>
 		<sex>MALE</sex>
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="16455700" hpRegen="10.2" mp="18000" mpRegen="3.6" />
+			<vitals hp="18101270" hpRegen="10.2" mp="18000" mpRegen="3.6" />
 			<attack physical="7222" magical="493" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
 			<defence physical="4766" magical="209" />
 			<speed>
@@ -3581,12 +3869,12 @@
 			<skill id="4416" level="2" /> <!-- Magical Creatures -->
 		</skillList>
 	</npc>
-	<npc id="29193" level="90" type="Folk" name="Summon" title="Valakas' Wing">
+	<npc id="29193" level="90" type="Monster" name="Summon" title="Valakas' Wing">
 		<!-- AUTO GENERATED NPC TODO: FIX IT -->
 		<race>ETC</race>
-		<sex>FEMALE</sex>
+		<sex>MALE</sex>
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="17088607.59494" hpRegen="10.2" mp="18000" mpRegen="3.6" />
+			<vitals hp="18797470" hpRegen="10.2" mp="18000" mpRegen="3.6" />
 			<attack physical="7222" magical="493" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
 			<defence physical="4766" magical="209" />
 			<speed>
@@ -3595,18 +3883,18 @@
 			</speed>
 			<hitTime>600</hitTime>
 		</stats>
-		<status attackable="false" />
+		<status attackable="true" />
 		<collision>
 			<radius normal="30" />
 			<height normal="40" />
 		</collision>
 	</npc>
-	<npc id="29194" level="90" type="Folk" name="Invincibility" title="Valakas' Wing">
+	<npc id="29194" level="90" type="Monster" name="Invincibility" title="Valakas' Wing">
 		<!-- AUTO GENERATED NPC TODO: FIX IT -->
 		<race>ETC</race>
-		<sex>FEMALE</sex>
+		<sex>MALE</sex>
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="17088607.59494" hpRegen="10.2" mp="18000" mpRegen="3.6" />
+			<vitals hp="18797470" hpRegen="10.2" mp="18000" mpRegen="3.6" />
 			<attack physical="7222" magical="493" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
 			<defence physical="4766" magical="209" />
 			<speed>
@@ -3615,18 +3903,18 @@
 			</speed>
 			<hitTime>600</hitTime>
 		</stats>
-		<status attackable="false" />
+		<status attackable="true" />
 		<collision>
 			<radius normal="50" />
 			<height normal="81.2165" />
 		</collision>
 	</npc>
-	<npc id="29195" level="90" type="Folk" name="Valakas Recovery" title="Valakas' Wing">
+	<npc id="29195" level="90" type="Monster" name="Valakas Recovery" title="Valakas' Wing">
 		<!-- AUTO GENERATED NPC TODO: FIX IT -->
 		<race>ETC</race>
-		<sex>FEMALE</sex>
+		<sex>MALE</sex>
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="17088607.59494" hpRegen="10.2" mp="18000" mpRegen="3.6" />
+			<vitals hp="18797470" hpRegen="10.2" mp="18000" mpRegen="3.6" />
 			<attack physical="7222" magical="493" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
 			<defence physical="4766" magical="209" />
 			<speed>
@@ -3635,18 +3923,18 @@
 			</speed>
 			<hitTime>600</hitTime>
 		</stats>
-		<status attackable="false" />
+		<status attackable="true" />
 		<collision>
 			<radius normal="25" />
 			<height normal="70" />
 		</collision>
 	</npc>
-	<npc id="29196" level="90" type="Folk" name="Incarnation" title="Valakas' Wing">
+	<npc id="29196" level="90" type="Monster" name="Reflection" title="Valakas' Wing">
 		<!-- AUTO GENERATED NPC TODO: FIX IT -->
 		<race>ETC</race>
-		<sex>FEMALE</sex>
+		<sex>MALE</sex>
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="17088607.59494" hpRegen="10.2" mp="18000" mpRegen="3.6" />
+			<vitals hp="18797470" hpRegen="10.2" mp="18000" mpRegen="3.6" />
 			<attack physical="7222" magical="493" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
 			<defence physical="4766" magical="209" />
 			<speed>
@@ -3661,12 +3949,12 @@
 			<height normal="25.5" />
 		</collision>
 	</npc>
-	<npc id="29197" level="90" type="Folk" name="Mass Stun" title="Valakas' Wing">
+	<npc id="29197" level="90" type="Monster" name="Mass Stun" title="Valakas' Wing">
 		<!-- AUTO GENERATED NPC TODO: FIX IT -->
 		<race>ETC</race>
-		<sex>FEMALE</sex>
+		<sex>MALE</sex>
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="17088607.59494" hpRegen="10.2" mp="18000" mpRegen="3.6" />
+			<vitals hp="18797470" hpRegen="10.2" mp="18000" mpRegen="3.6" />
 			<attack physical="7222" magical="493" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
 			<defence physical="4766" magical="209" />
 			<speed>
@@ -3675,18 +3963,18 @@
 			</speed>
 			<hitTime>600</hitTime>
 		</stats>
-		<status attackable="false" />
+		<status attackable="true" />
 		<collision>
 			<radius normal="18" />
 			<height normal="29.5" />
 		</collision>
 	</npc>
-	<npc id="29198" level="90" type="Folk" name="Damage Zone" title="Valakas' Wing">
+	<npc id="29198" level="90" type="Monster" name="Damage Zone" title="Valakas' Wing">
 		<!-- AUTO GENERATED NPC TODO: FIX IT -->
 		<race>ETC</race>
-		<sex>FEMALE</sex>
+		<sex>MALE</sex>
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="17088607.59494" hpRegen="10.2" mp="18000" mpRegen="3.6" />
+			<vitals hp="18797470" hpRegen="10.2" mp="18000" mpRegen="3.6" />
 			<attack physical="7222" magical="493" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
 			<defence physical="4766" magical="209" />
 			<speed>
@@ -3695,18 +3983,18 @@
 			</speed>
 			<hitTime>600</hitTime>
 		</stats>
-		<status attackable="false" />
+		<status attackable="true" />
 		<collision>
 			<radius normal="15" />
 			<height normal="30" />
 		</collision>
 	</npc>
-	<npc id="29199" level="90" type="Folk" name="Effect Area" title="Valakas' Wing">
+	<npc id="29199" level="90" type="Monster" name="Effect Area" title="Valakas' Wing">
 		<!-- AUTO GENERATED NPC TODO: FIX IT -->
 		<race>ETC</race>
-		<sex>FEMALE</sex>
+		<sex>MALE</sex>
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="17088607.59494" hpRegen="10.2" mp="18000" mpRegen="3.6" />
+			<vitals hp="18797470" hpRegen="10.2" mp="18000" mpRegen="3.6" />
 			<attack physical="7222" magical="493" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
 			<defence physical="4766" magical="209" />
 			<speed>
@@ -3715,7 +4003,7 @@
 			</speed>
 			<hitTime>600</hitTime>
 		</stats>
-		<status attackable="false" />
+		<status attackable="true" />
 		<collision>
 			<radius normal="16" />
 			<height normal="35.5" />

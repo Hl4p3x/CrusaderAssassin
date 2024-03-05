@@ -137,7 +137,7 @@
 		<active_skill id="3141" level="8" /> <!-- Item Skill: Focus -->
 	</option>
 	<option id="15934" name="o_s_67_2u_4">
-		<!-- Active skill: Reflect Damage -->
+		<!-- Active skill: Damage Reflection -->
 		<active_skill id="3204" level="2" /> <!-- Item Skill: Damage Reflection -->
 	</option>
 	<option id="15935" name="o_s_67_2u_5">
@@ -301,7 +301,7 @@
 		<magic_skill id="3098" level="8" chance="2.0" /> <!-- Item Skill: Stun -->
 	</option>
 	<option id="15975" name="o_s_67_2u_45">
-		<!-- Item Skill: Decreases Skill MP Consumption. -->
+		<!-- Item skill: Decreases Skill MP Consumption. -->
 		<passive_skill id="3258" level="2" /> <!-- Item Skill: Clarity -->
 	</option>
 	<option id="15976" name="o_s_67_2u_46">

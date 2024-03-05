@@ -391,7 +391,7 @@
 		<set name="bodypart" val="deco1" />
 	</item>
 	<item id="49630" name="Blue Talisman Box - P. Crit." additionalName="1-hour" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.etc_treasure_box_i01" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -406,7 +406,7 @@
 		</capsuled_items>
 	</item>
 	<item id="49631" name="Blue Talisman Box - P. Atk." additionalName="1-hour" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.etc_treasure_box_i01" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -421,7 +421,7 @@
 		</capsuled_items>
 	</item>
 	<item id="49632" name="Blue Talisman Box - P. Def." additionalName="1-hour" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.etc_treasure_box_i01" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -436,7 +436,7 @@
 		</capsuled_items>
 	</item>
 	<item id="49633" name="Blue Talisman Pack - P. Skill Evasion" additionalName="1-hour" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.etc_treasure_box_i01" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -451,7 +451,7 @@
 		</capsuled_items>
 	</item>
 	<item id="49634" name="Blue Talisman Pack - M. Skill Critical Rate" additionalName="1-hour" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.etc_treasure_box_i01" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -466,7 +466,7 @@
 		</capsuled_items>
 	</item>
 	<item id="49635" name="Blue Talisman Box - M. Atk." additionalName="1-hour" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.etc_treasure_box_i01" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -481,7 +481,7 @@
 		</capsuled_items>
 	</item>
 	<item id="49636" name="Blue Talisman Box - M. Def." additionalName="1-hour" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.etc_treasure_box_i01" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -496,7 +496,7 @@
 		</capsuled_items>
 	</item>
 	<item id="49637" name="Blue Talisman Pack - M. Skill Evasion" additionalName="1-hour" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.etc_treasure_box_i01" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -511,7 +511,7 @@
 		</capsuled_items>
 	</item>
 	<item id="49638" name="Blue Talisman Box - Max HP" additionalName="1-hour" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.etc_treasure_box_i01" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -526,7 +526,7 @@
 		</capsuled_items>
 	</item>
 	<item id="49639" name="Blue Talisman Box - Max MP" additionalName="1-hour" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.etc_treasure_box_i01" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -541,7 +541,7 @@
 		</capsuled_items>
 	</item>
 	<item id="49640" name="Grey Talisman Box - Guard" additionalName="1-hour" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.etc_treasure_box_i05" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -556,7 +556,7 @@
 		</capsuled_items>
 	</item>
 	<item id="49641" name="Grey Talisman Box - Denial" additionalName="1-hour" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.etc_treasure_box_i05" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -571,7 +571,7 @@
 		</capsuled_items>
 	</item>
 	<item id="49642" name="Grey Talisman Box - Benefaction" additionalName="1-hour" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.etc_treasure_box_i05" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -586,7 +586,7 @@
 		</capsuled_items>
 	</item>
 	<item id="49643" name="Grey Talisman Box - Blocking" additionalName="1-hour" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.etc_treasure_box_i05" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -601,7 +601,7 @@
 		</capsuled_items>
 	</item>
 	<item id="49644" name="Grey Talisman Box - Gravity" additionalName="1-hour" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.etc_treasure_box_i05" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -616,7 +616,7 @@
 		</capsuled_items>
 	</item>
 	<item id="49645" name="Grey Talisman Box - Bond" additionalName="1-hour" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.etc_treasure_box_i05" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -631,7 +631,7 @@
 		</capsuled_items>
 	</item>
 	<item id="49646" name="White Talisman Box - P. Crit." additionalName="1-hour" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.etc_treasure_box_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -646,7 +646,7 @@
 		</capsuled_items>
 	</item>
 	<item id="49647" name="White Talisman Box - P. Atk." additionalName="1-hour" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.etc_treasure_box_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -661,7 +661,7 @@
 		</capsuled_items>
 	</item>
 	<item id="49648" name="White Talisman Box - P. Def." additionalName="1-hour" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.etc_treasure_box_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -676,7 +676,7 @@
 		</capsuled_items>
 	</item>
 	<item id="49649" name="White Talisman Pack - P. Skill Evasion" additionalName="1-hour" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.etc_treasure_box_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -691,7 +691,7 @@
 		</capsuled_items>
 	</item>
 	<item id="49650" name="White Talisman Pack - M. Skill Critical Rate" additionalName="1-hour" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.etc_treasure_box_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -706,7 +706,7 @@
 		</capsuled_items>
 	</item>
 	<item id="49651" name="White Talisman Box - M. Atk." additionalName="1-hour" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.etc_treasure_box_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -721,7 +721,7 @@
 		</capsuled_items>
 	</item>
 	<item id="49652" name="White Talisman Box - M. Def." additionalName="1-hour" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.etc_treasure_box_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -736,7 +736,7 @@
 		</capsuled_items>
 	</item>
 	<item id="49653" name="White Talisman Pack - M. Skill Evasion" additionalName="1-hour" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.etc_treasure_box_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -751,7 +751,7 @@
 		</capsuled_items>
 	</item>
 	<item id="49654" name="White Talisman Box - Max HP" additionalName="1-hour" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.etc_treasure_box_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -766,7 +766,7 @@
 		</capsuled_items>
 	</item>
 	<item id="49655" name="White Talisman Box - Max MP" additionalName="1-hour" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.etc_treasure_box_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -781,7 +781,7 @@
 		</capsuled_items>
 	</item>
 	<item id="49656" name="Yellow Talisman Box - Guard" additionalName="1-hour" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.etc_treasure_box_i02" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -796,7 +796,7 @@
 		</capsuled_items>
 	</item>
 	<item id="49657" name="Yellow Talisman Box - Denial" additionalName="1-hour" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.etc_treasure_box_i02" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -811,7 +811,7 @@
 		</capsuled_items>
 	</item>
 	<item id="49658" name="Yellow Talisman Box - Benefaction" additionalName="1-hour" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.etc_treasure_box_i02" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -826,7 +826,7 @@
 		</capsuled_items>
 	</item>
 	<item id="49659" name="Yellow Talisman Box - Blocking" additionalName="1-hour" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.etc_treasure_box_i02" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -841,7 +841,7 @@
 		</capsuled_items>
 	</item>
 	<item id="49660" name="Yellow Talisman Box - Gravity" additionalName="1-hour" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.etc_treasure_box_i02" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -856,7 +856,7 @@
 		</capsuled_items>
 	</item>
 	<item id="49661" name="Yellow Talisman Box - Bond" additionalName="1-hour" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.etc_treasure_box_i02" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -893,7 +893,7 @@
 		<set name="is_stackable" val="true" />
 	</item>
 	<item id="49664" name="B-grade Weapon Pack" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.etc_equip_item_box_i02" />
 		<set name="default_action" val="SKILL_REDUCE_ON_SKILL_SUCCESS" />
 		<set name="material" val="PAPER" />
@@ -904,7 +904,7 @@
 		</skills>
 	</item>
 	<item id="49665" name="B-grade Armor Pack" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.etc_equip_item_box_i01" />
 		<set name="default_action" val="SKILL_REDUCE_ON_SKILL_SUCCESS" />
 		<set name="material" val="PAPER" />
@@ -915,7 +915,7 @@
 		</skills>
 	</item>
 	<item id="49666" name="B-grade Accessory Pack" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.etc_box_of_adventure_2_i00" />
 		<set name="default_action" val="SKILL_REDUCE_ON_SKILL_SUCCESS" />
 		<set name="material" val="PAPER" />
@@ -926,7 +926,7 @@
 		</skills>
 	</item>
 	<item id="49667" name="C-grade Weapon Pack" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.etc_equip_item_box_i00" />
 		<set name="default_action" val="SKILL_REDUCE_ON_SKILL_SUCCESS" />
 		<set name="material" val="PAPER" />
@@ -937,7 +937,7 @@
 		</skills>
 	</item>
 	<item id="49668" name="C-grade Armor Pack" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.etc_equip_item_box_i03" />
 		<set name="default_action" val="SKILL_REDUCE_ON_SKILL_SUCCESS" />
 		<set name="material" val="PAPER" />
@@ -948,7 +948,7 @@
 		</skills>
 	</item>
 	<item id="49669" name="C-grade Accessory Pack" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.etc_box_of_adventure_5_i00" />
 		<set name="default_action" val="SKILL_REDUCE_ON_SKILL_SUCCESS" />
 		<set name="material" val="PAPER" />
@@ -959,7 +959,7 @@
 		</skills>
 	</item>
 	<item id="49670" name="B-grade Weapon Ingredient Pack" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.etc_treasure_box_i04" />
 		<set name="default_action" val="SKILL_REDUCE_ON_SKILL_SUCCESS" />
 		<set name="material" val="PAPER" />
@@ -990,7 +990,7 @@
 		</capsuled_items>
 	</item>
 	<item id="49671" name="B-grade Armor/ Accessory Ingredient Pack" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.event_hero_treasure_box_i00" />
 		<set name="default_action" val="SKILL_REDUCE_ON_SKILL_SUCCESS" />
 		<set name="material" val="PAPER" />
@@ -1005,7 +1005,7 @@
 			<item id="92756" min="1" max="1" chance="2.5" /> <!-- Zubei's Gaiters Material -->
 			<item id="92787" min="1" max="1" chance="2.5" /> <!-- Sealed Zubei's Helmet Design -->
 			<item id="92782" min="1" max="1" chance="2.5" /> <!-- Sealed Zubei's Boot Design -->
-			<item id="92783" min="1" max="1" chance="2.5" /> <!-- Sealed Avadon Boot Design -->
+			<item id="92783" min="1" max="1" chance="2.5" /> <!-- Sealed Avadon Boots Design -->
 			<item id="92784" min="1" max="1" chance="2.5" /> <!-- Sealed Doom Boot Fragment -->
 			<item id="92785" min="1" max="1" chance="2.5" /> <!-- Sealed Zubei's Gauntlet Fragment -->
 			<item id="92786" min="1" max="1" chance="2.5" /> <!-- Zubei's Shield Fragment -->
@@ -1042,7 +1042,7 @@
 		</capsuled_items>
 	</item>
 	<item id="49672" name="C-grade Weapon Ingredient Pack" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.etc_treasure_box_i06" />
 		<set name="default_action" val="SKILL_REDUCE_ON_SKILL_SUCCESS" />
 		<set name="material" val="PAPER" />
@@ -1065,7 +1065,7 @@
 		</capsuled_items>
 	</item>
 	<item id="49673" name="C-grade Armor/ Accessory Ingredient Pack" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.event_hero_treasure_box_i00" />
 		<set name="default_action" val="SKILL_REDUCE_ON_SKILL_SUCCESS" />
 		<set name="material" val="PAPER" />
@@ -1119,7 +1119,7 @@
 		</skills>
 	</item>
 	<item id="49675" name="Hero Cube Box" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.etc_pi_gift_box_i03" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -1294,7 +1294,7 @@
 		<set name="enchant_enabled" val="true" />
 	</item>
 	<item id="49688" name="Refined Silver Chapeau Box" additionalName="30-day" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.etc_treasure_box_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -1304,11 +1304,11 @@
 		<set name="time" val="43200" />
 		<set name="handler" val="ExtractableItems" />
 		<capsuled_items>
-			<item id="49686" min="1" max="1" chance="100" /> <!-- Chic Silver Chapeau <Str+1 Int+1> - 30-day -->
+			<item id="49686" min="1" max="1" chance="100" /> <!-- Chic Silver Chapeau <STR +1 INT +1> - 30-day -->
 		</capsuled_items>
 	</item>
 	<item id="49689" name="Chapeau Box" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.etc_treasure_box_i05" />
 		<set name="default_action" val="SKILL_REDUCE_ON_SKILL_SUCCESS" />
 		<set name="material" val="PAPER" />
@@ -1376,7 +1376,7 @@
 		</stats>
 	</item>
 	<item id="49693" name="Magic Potion of Leaping Lv. 1" additionalName="Sealed" type="EtcItem">
-		<!-- XP +1,200,000, SP +40,000. Required level: 20+. -->
+		<!-- XP +1,200,000, SP +4000. Required level: 20+. -->
 		<set name="icon" val="icon.etc_holy_potion_i00" />
 		<set name="default_action" val="SKILL_REDUCE" />
 		<set name="material" val="PAPER" />
@@ -1387,7 +1387,7 @@
 		<set name="is_freightable" val="true" />
 	</item>
 	<item id="49694" name="Magic Potion of Leaping Lv. 2" additionalName="Sealed" type="EtcItem">
-		<!-- XP +7,800,000, SP +240,000. Required level: 30+. -->
+		<!-- XP +7,800,000, SP +24,000. Required level: 30+. -->
 		<set name="icon" val="icon.etc_wind_potion_i00" />
 		<set name="default_action" val="SKILL_REDUCE" />
 		<set name="material" val="PAPER" />
@@ -1398,7 +1398,7 @@
 		<set name="is_freightable" val="true" />
 	</item>
 	<item id="49695" name="Magic Potion of Leaping Lv. 3" additionalName="Sealed" type="EtcItem">
-		<!-- XP +34,200,000, SP +1,040,000. Required level: 40+. -->
+		<!-- XP +34,200,000, SP +104,000. Required level: 40+. -->
 		<set name="icon" val="icon.etc_water_potion_i00" />
 		<set name="default_action" val="SKILL_REDUCE" />
 		<set name="material" val="PAPER" />
@@ -1409,7 +1409,7 @@
 		<set name="is_freightable" val="true" />
 	</item>
 	<item id="49696" name="Gift from a Returned Friend" additionalName="Sealed" type="EtcItem">
-		<!-- XP +37,000,000, SP +1,110,000. Required level: 45+. -->
+		<!-- XP +37,000,000, SP +111,000. Required level: 45+. -->
 		<set name="icon" val="BranchSys.icon.br_lucky_bag_i00" />
 		<set name="default_action" val="SKILL_REDUCE" />
 		<set name="material" val="PAPER" />

@@ -2673,7 +2673,7 @@
 			<height normal="19" />
 		</collision>
 	</npc>
-	<npc id="35559" level="70" type="Folk" name="Daguerre" title="Herald from Schuttgart">
+	<npc id="35559" level="70" type="Folk" name="Daguerre" title="Schuttgart Herald">
 		<parameters>
 			<param name="MoveAroundSocial" value="0" />
 			<param name="MoveAroundSocial1" value="92" />

@@ -118,6 +118,7 @@
 		<!-- Received damage -5% -->
 	</option>
 	<option id="93839" name="Received Healing +3.5%">
+		<!-- Received Healing +3.5% -->
 		<effects>
 			<effect name="HealEffect">
 				<amount>3.5</amount>
@@ -126,6 +127,7 @@
 		</effects>
 	</option>
 	<option id="93840" name="Received Healing +3.6%">
+		<!-- Received Healing +3.6% -->
 		<effects>
 			<effect name="HealEffect">
 				<amount>3.6</amount>
@@ -134,6 +136,7 @@
 		</effects>
 	</option>
 	<option id="93841" name="Received Healing +3.7%">
+		<!-- Received Healing +3.7% -->
 		<effects>
 			<effect name="HealEffect">
 				<amount>3.7</amount>
@@ -142,6 +145,7 @@
 		</effects>
 	</option>
 	<option id="93842" name="Received Healing +3.8%">
+		<!-- Received Healing +3.8% -->
 		<effects>
 			<effect name="HealEffect">
 				<amount>3.8</amount>
@@ -150,6 +154,7 @@
 		</effects>
 	</option>
 	<option id="93843" name="Received Healing +3.9%">
+		<!-- Received Healing +3.9% -->
 		<effects>
 			<effect name="HealEffect">
 				<amount>3.9</amount>
@@ -158,6 +163,7 @@
 		</effects>
 	</option>
 	<option id="93844" name="Received Healing +4.1%">
+		<!-- Received Healing +4.1% -->
 		<effects>
 			<effect name="HealEffect">
 				<amount>4.1</amount>
@@ -166,6 +172,7 @@
 		</effects>
 	</option>
 	<option id="93845" name="Received Healing +4.2%">
+		<!-- Received Healing +4.2% -->
 		<effects>
 			<effect name="HealEffect">
 				<amount>4.2</amount>
@@ -174,6 +181,7 @@
 		</effects>
 	</option>
 	<option id="93846" name="Received Healing +4.3%">
+		<!-- Received Healing +4.3% -->
 		<effects>
 			<effect name="HealEffect">
 				<amount>4.3</amount>
@@ -182,6 +190,7 @@
 		</effects>
 	</option>
 	<option id="93847" name="Received Healing +4.4%">
+		<!-- Received Healing +4.4% -->
 		<effects>
 			<effect name="HealEffect">
 				<amount>4.4</amount>
@@ -190,6 +199,7 @@
 		</effects>
 	</option>
 	<option id="93848" name="Received Healing +4.5%">
+		<!-- Received Healing +4.5% -->
 		<effects>
 			<effect name="HealEffect">
 				<amount>4.5</amount>
@@ -198,6 +208,7 @@
 		</effects>
 	</option>
 	<option id="93849" name="Received Healing +4.6%">
+		<!-- Received Healing +4.6% -->
 		<effects>
 			<effect name="HealEffect">
 				<amount>4.6</amount>
@@ -206,6 +217,7 @@
 		</effects>
 	</option>
 	<option id="93850" name="Received Healing +4.7%">
+		<!-- Received Healing +4.7% -->
 		<effects>
 			<effect name="HealEffect">
 				<amount>4.7</amount>
@@ -214,6 +226,7 @@
 		</effects>
 	</option>
 	<option id="93851" name="Received Healing +4.8%">
+		<!-- Received Healing +4.8% -->
 		<effects>
 			<effect name="HealEffect">
 				<amount>4.8</amount>
@@ -222,6 +235,7 @@
 		</effects>
 	</option>
 	<option id="93852" name="Received Healing +5%">
+		<!-- Received Healing +5% -->
 		<effects>
 			<effect name="HealEffect">
 				<amount>5.0</amount>
@@ -230,6 +244,7 @@
 		</effects>
 	</option>
 	<option id="93853" name="Received Healing +5.5%">
+		<!-- Received Healing +5.5% -->
 		<effects>
 			<effect name="HealEffect">
 				<amount>5.5</amount>
@@ -238,6 +253,7 @@
 		</effects>
 	</option>
 	<option id="93854" name="Received Healing +6%">
+		<!-- Received Healing +6% -->
 		<effects>
 			<effect name="HealEffect">
 				<amount>6.0</amount>
@@ -246,6 +262,7 @@
 		</effects>
 	</option>
 	<option id="93855" name="Received Healing +6.5%">
+		<!-- Received Healing +6.5% -->
 		<effects>
 			<effect name="HealEffect">
 				<amount>6.5</amount>
@@ -254,6 +271,7 @@
 		</effects>
 	</option>
 	<option id="93856" name="Received Healing +7%">
+		<!-- Received Healing +7% -->
 		<effects>
 			<effect name="HealEffect">
 				<amount>7.0</amount>
@@ -262,6 +280,7 @@
 		</effects>
 	</option>
 	<option id="93857" name="Received Healing +8%">
+		<!-- Received Healing +8% -->
 		<effects>
 			<effect name="HealEffect">
 				<amount>8.0</amount>
@@ -270,6 +289,7 @@
 		</effects>
 	</option>
 	<option id="93858" name="Received Healing +10%">
+		<!-- Received Healing +10% -->
 		<effects>
 			<effect name="HealEffect">
 				<amount>10.0</amount>
@@ -278,6 +298,7 @@
 		</effects>
 	</option>
 	<option id="93859" name="Received Healing +3.5%">
+		<!-- Received Healing +3.5% -->
 		<effects>
 			<effect name="HealEffect">
 				<amount>3.5</amount>
@@ -286,6 +307,7 @@
 		</effects>
 	</option>
 	<option id="93860" name="Received Healing +3.6%">
+		<!-- Received Healing +3.6% -->
 		<effects>
 			<effect name="HealEffect">
 				<amount>3.6</amount>
@@ -294,6 +316,7 @@
 		</effects>
 	</option>
 	<option id="93861" name="Received Healing +3.7%">
+		<!-- Received Healing +3.7% -->
 		<effects>
 			<effect name="HealEffect">
 				<amount>3.7</amount>
@@ -302,6 +325,7 @@
 		</effects>
 	</option>
 	<option id="93862" name="Received Healing +3.8%">
+		<!-- Received Healing +3.8% -->
 		<effects>
 			<effect name="HealEffect">
 				<amount>3.8</amount>
@@ -310,6 +334,7 @@
 		</effects>
 	</option>
 	<option id="93863" name="Received Healing +3.9%">
+		<!-- Received Healing +3.9% -->
 		<effects>
 			<effect name="HealEffect">
 				<amount>3.9</amount>
@@ -318,6 +343,7 @@
 		</effects>
 	</option>
 	<option id="93864" name="Received Healing +4.1%">
+		<!-- Received Healing +4.1% -->
 		<effects>
 			<effect name="HealEffect">
 				<amount>4.1</amount>
@@ -326,6 +352,7 @@
 		</effects>
 	</option>
 	<option id="93865" name="Received Healing +4.2%">
+		<!-- Received Healing +4.2% -->
 		<effects>
 			<effect name="HealEffect">
 				<amount>4.2</amount>
@@ -334,6 +361,7 @@
 		</effects>
 	</option>
 	<option id="93866" name="Received Healing +4.3%">
+		<!-- Received Healing +4.3% -->
 		<effects>
 			<effect name="HealEffect">
 				<amount>4.3</amount>
@@ -342,6 +370,7 @@
 		</effects>
 	</option>
 	<option id="93867" name="Received Healing +4.4%">
+		<!-- Received Healing +4.4% -->
 		<effects>
 			<effect name="HealEffect">
 				<amount>4.4</amount>
@@ -350,6 +379,7 @@
 		</effects>
 	</option>
 	<option id="93868" name="Received Healing +4.5%">
+		<!-- Received Healing +4.5% -->
 		<effects>
 			<effect name="HealEffect">
 				<amount>4.5</amount>
@@ -358,6 +388,7 @@
 		</effects>
 	</option>
 	<option id="93869" name="Received Healing +4.6%">
+		<!-- Received Healing +4.6% -->
 		<effects>
 			<effect name="HealEffect">
 				<amount>4.6</amount>
@@ -366,6 +397,7 @@
 		</effects>
 	</option>
 	<option id="93870" name="Received Healing +4.7%">
+		<!-- Received Healing +4.7% -->
 		<effects>
 			<effect name="HealEffect">
 				<amount>4.7</amount>
@@ -374,6 +406,7 @@
 		</effects>
 	</option>
 	<option id="93871" name="Received Healing +4.8%">
+		<!-- Received Healing +4.8% -->
 		<effects>
 			<effect name="HealEffect">
 				<amount>4.8</amount>
@@ -382,6 +415,7 @@
 		</effects>
 	</option>
 	<option id="93872" name="Received Healing +5%">
+		<!-- Received Healing +5% -->
 		<effects>
 			<effect name="HealEffect">
 				<amount>5.0</amount>
@@ -390,6 +424,7 @@
 		</effects>
 	</option>
 	<option id="93873" name="Received Healing +5.5%">
+		<!-- Received Healing +5.5% -->
 		<effects>
 			<effect name="HealEffect">
 				<amount>5.5</amount>
@@ -398,6 +433,7 @@
 		</effects>
 	</option>
 	<option id="93874" name="Received Healing +6%">
+		<!-- Received Healing +6% -->
 		<effects>
 			<effect name="HealEffect">
 				<amount>6.0</amount>
@@ -406,6 +442,7 @@
 		</effects>
 	</option>
 	<option id="93875" name="Received Healing +6.5%">
+		<!-- Received Healing +6.5% -->
 		<effects>
 			<effect name="HealEffect">
 				<amount>6.5</amount>
@@ -414,6 +451,7 @@
 		</effects>
 	</option>
 	<option id="93876" name="Received Healing +7%">
+		<!-- Received Healing +7% -->
 		<effects>
 			<effect name="HealEffect">
 				<amount>7.0</amount>
@@ -422,6 +460,7 @@
 		</effects>
 	</option>
 	<option id="93877" name="Received Healing +8%">
+		<!-- Received Healing +8% -->
 		<effects>
 			<effect name="HealEffect">
 				<amount>8.0</amount>
@@ -430,6 +469,7 @@
 		</effects>
 	</option>
 	<option id="93878" name="Received Healing +10%">
+		<!-- Received Healing +10% -->
 		<effects>
 			<effect name="HealEffect">
 				<amount>10.0</amount>
@@ -438,6 +478,7 @@
 		</effects>
 	</option>
 	<option id="93879" name="Received Healing +3.5%">
+		<!-- Received Healing +3.5% -->
 		<effects>
 			<effect name="HealEffect">
 				<amount>3.5</amount>
@@ -446,6 +487,7 @@
 		</effects>
 	</option>
 	<option id="93880" name="Received Healing +3.6%">
+		<!-- Received Healing +3.6% -->
 		<effects>
 			<effect name="HealEffect">
 				<amount>3.6</amount>
@@ -454,6 +496,7 @@
 		</effects>
 	</option>
 	<option id="93881" name="Received Healing +3.7%">
+		<!-- Received Healing +3.7% -->
 		<effects>
 			<effect name="HealEffect">
 				<amount>3.7</amount>
@@ -462,6 +505,7 @@
 		</effects>
 	</option>
 	<option id="93882" name="Received Healing +3.8%">
+		<!-- Received Healing +3.8% -->
 		<effects>
 			<effect name="HealEffect">
 				<amount>3.8</amount>
@@ -470,6 +514,7 @@
 		</effects>
 	</option>
 	<option id="93883" name="Received Healing +3.9%">
+		<!-- Received Healing +3.9% -->
 		<effects>
 			<effect name="HealEffect">
 				<amount>3.9</amount>
@@ -478,6 +523,7 @@
 		</effects>
 	</option>
 	<option id="93884" name="Received Healing +4.1%">
+		<!-- Received Healing +4.1% -->
 		<effects>
 			<effect name="HealEffect">
 				<amount>4.1</amount>
@@ -486,6 +532,7 @@
 		</effects>
 	</option>
 	<option id="93885" name="Received Healing +4.2%">
+		<!-- Received Healing +4.2% -->
 		<effects>
 			<effect name="HealEffect">
 				<amount>4.2</amount>
@@ -494,6 +541,7 @@
 		</effects>
 	</option>
 	<option id="93886" name="Received Healing +4.3%">
+		<!-- Received Healing +4.3% -->
 		<effects>
 			<effect name="HealEffect">
 				<amount>4.3</amount>
@@ -502,6 +550,7 @@
 		</effects>
 	</option>
 	<option id="93887" name="Received Healing +4.4%">
+		<!-- Received Healing +4.4% -->
 		<effects>
 			<effect name="HealEffect">
 				<amount>4.4</amount>
@@ -510,6 +559,7 @@
 		</effects>
 	</option>
 	<option id="93888" name="Received Healing +4.5%">
+		<!-- Received Healing +4.5% -->
 		<effects>
 			<effect name="HealEffect">
 				<amount>4.5</amount>
@@ -518,6 +568,7 @@
 		</effects>
 	</option>
 	<option id="93889" name="Received Healing +4.6%">
+		<!-- Received Healing +4.6% -->
 		<effects>
 			<effect name="HealEffect">
 				<amount>4.6</amount>
@@ -526,6 +577,7 @@
 		</effects>
 	</option>
 	<option id="93890" name="Received Healing +4.7%">
+		<!-- Received Healing +4.7% -->
 		<effects>
 			<effect name="HealEffect">
 				<amount>4.7</amount>
@@ -534,6 +586,7 @@
 		</effects>
 	</option>
 	<option id="93891" name="Received Healing +4.8%">
+		<!-- Received Healing +4.8% -->
 		<effects>
 			<effect name="HealEffect">
 				<amount>4.8</amount>
@@ -542,6 +595,7 @@
 		</effects>
 	</option>
 	<option id="93892" name="Received Healing +5%">
+		<!-- Received Healing +5% -->
 		<effects>
 			<effect name="HealEffect">
 				<amount>5.0</amount>
@@ -550,6 +604,7 @@
 		</effects>
 	</option>
 	<option id="93893" name="Received Healing +5.5%">
+		<!-- Received Healing +5.5% -->
 		<effects>
 			<effect name="HealEffect">
 				<amount>5.5</amount>
@@ -558,6 +613,7 @@
 		</effects>
 	</option>
 	<option id="93894" name="Received Healing +6%">
+		<!-- Received Healing +6% -->
 		<effects>
 			<effect name="HealEffect">
 				<amount>6.0</amount>
@@ -566,6 +622,7 @@
 		</effects>
 	</option>
 	<option id="93895" name="Received Healing +6.5%">
+		<!-- Received Healing +6.5% -->
 		<effects>
 			<effect name="HealEffect">
 				<amount>6.5</amount>
@@ -574,6 +631,7 @@
 		</effects>
 	</option>
 	<option id="93896" name="Received Healing +7%">
+		<!-- Received Healing +7% -->
 		<effects>
 			<effect name="HealEffect">
 				<amount>7.0</amount>
@@ -582,6 +640,7 @@
 		</effects>
 	</option>
 	<option id="93897" name="Received Healing +8%">
+		<!-- Received Healing +8% -->
 		<effects>
 			<effect name="HealEffect">
 				<amount>8.0</amount>
@@ -590,6 +649,7 @@
 		</effects>
 	</option>
 	<option id="93898" name="Received Healing +10%">
+		<!-- Received Healing +10% -->
 		<effects>
 			<effect name="HealEffect">
 				<amount>10.0</amount>
@@ -598,6 +658,7 @@
 		</effects>
 	</option>
 	<option id="93899" name="HP/ MP Recovery Rate +2.0">
+		<!-- HP/ MP Recovery Rate +2 -->
 		<effects>
 			<effect name="HpRegen">
 				<amount>2.0</amount>

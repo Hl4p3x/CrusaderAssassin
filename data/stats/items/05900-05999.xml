@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/items.xsd">
 	<item id="5900" name="Coin Collecting Album" additionalName="Not Available" type="EtcItem">
-		<!-- The item is not available. A coin collecting album made of high-quality leather. -->
+		<!-- The item is not available. A coin-collecting album made of high-quality leather. -->
 		<set name="icon" val="icon.etc_ertheia2" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="LIQUID" />
@@ -64,7 +64,7 @@
 		</skills>
 	</item>
 	<item id="5917" name="Kranvel's Spellbook: Chapter of Fire" type="EtcItem">
-		<!-- A Chapter of Great Magus Kranvel's Spellbook. Collect the Chapters on Fire, Water, Wind and Earth and take all of them to Elder Casian. -->
+		<!-- A chapter from the spellbook of Great Mage Kranvel. Collect all chapters - Fire, Water, Wind and Earth, and take them to Elder Casian. -->
 		<set name="icon" val="icon.etc_paper_red_i00" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="LIQUID" />
@@ -74,7 +74,7 @@
 		<set name="is_depositable" val="false" />
 	</item>
 	<item id="5918" name="Kranvel's Spellbook: Chapter of Water" type="EtcItem">
-		<!-- A Chapter of Great Magus Kranvel's Spellbook. Collect the Chapters on Fire, Water, Wind and Earth and take all of them to Elder Casian. -->
+		<!-- A chapter from the spellbook of Great Mage Kranvel. Collect all chapters - Fire, Water, Wind and Earth, and take them to Elder Casian. -->
 		<set name="icon" val="icon.etc_paper_blue_i00" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="LIQUID" />
@@ -84,7 +84,7 @@
 		<set name="is_depositable" val="false" />
 	</item>
 	<item id="5919" name="Kranvel's Spellbook: Chapter of Wind" type="EtcItem">
-		<!-- A Chapter of Great Magus Kranvel's Spellbook. Collect the Chapters on Fire, Water, Wind and Earth and take all of them to Elder Casian. -->
+		<!-- A chapter from the spellbook of Great Mage Kranvel. Collect all chapters - Fire, Water, Wind and Earth, and take them to Elder Casian. -->
 		<set name="icon" val="icon.etc_paper_white_i00" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="LIQUID" />
@@ -94,7 +94,7 @@
 		<set name="is_depositable" val="false" />
 	</item>
 	<item id="5920" name="Kranvel's Spellbook: Chapter of Earth" type="EtcItem">
-		<!-- A Chapter of Great Magus Kranvel's Spellbook. Collect the Chapters on Fire, Water, Wind and Earth and take all of them to Elder Casian. -->
+		<!-- A chapter from the spellbook of Great Mage Kranvel. Collect all chapters - Fire, Water, Wind and Earth, and take them to Elder Casian. -->
 		<set name="icon" val="icon.etc_paper_black_i00" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="LIQUID" />
@@ -291,7 +291,7 @@
 		<set name="is_stackable" val="true" />
 	</item>
 	<item id="5944" name="Ancient Parchment" type="EtcItem">
-		<!-- Piece of parchment from the Lesser Giant era. If you Double-click it, you can read the contents. -->
+		<!-- A piece of parchment from the Lesser Giant era. Double-click to read. -->
 		<set name="icon" val="icon.etc_roll_of_paper_black_i00" />
 		<set name="default_action" val="CAPSULE" />
 		<set name="immediate_effect" val="true" />
@@ -385,7 +385,7 @@
 		<set name="is_stackable" val="true" />
 	</item>
 	<item id="5955" name="Ancient Lesser Giant Book" type="EtcItem">
-		<!-- Book from the Lesser Giant era. If you Double-click it, you can examine its contents. -->
+		<!-- A book from the Lesser Giant era. Double-click to read. -->
 		<set name="icon" val="icon.etc_spell_books_black_i00" />
 		<set name="default_action" val="CAPSULE" />
 		<set name="immediate_effect" val="true" />

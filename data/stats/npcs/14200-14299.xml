@@ -4133,7 +4133,7 @@
 			<height normal="15" />
 		</collision>
 	</npc>
-	<npc id="14295" level="22" type="Pet" name="Boxer the Unicorn">
+	<npc id="14295" level="22" type="Pet" name="Boxer">
 		<parameters>
 			<skill name="HealMagic" id="4025" level="2" />
 			<param name="step1_action01" value="45" />
@@ -4173,7 +4173,7 @@
 			<height normal="18" />
 		</collision>
 	</npc>
-	<npc id="14296" level="27" type="Pet" name="Boxer the Unicorn">
+	<npc id="14296" level="27" type="Pet" name="Boxer">
 		<parameters>
 			<skill name="HealMagic" id="4025" level="3" />
 			<param name="step1_action01" value="45" />
@@ -4213,7 +4213,7 @@
 			<height normal="18" />
 		</collision>
 	</npc>
-	<npc id="14297" level="32" type="Pet" name="Boxer the Unicorn">
+	<npc id="14297" level="32" type="Pet" name="Boxer">
 		<parameters>
 			<skill name="HealMagic" id="4025" level="4" />
 			<param name="step1_action01" value="45" />
@@ -4253,7 +4253,7 @@
 			<height normal="18" />
 		</collision>
 	</npc>
-	<npc id="14298" level="37" type="Pet" name="Boxer the Unicorn">
+	<npc id="14298" level="37" type="Pet" name="Boxer">
 		<parameters>
 			<skill name="HealMagic" id="4025" level="5" />
 			<param name="step1_action01" value="45" />
@@ -4293,7 +4293,7 @@
 			<height normal="18" />
 		</collision>
 	</npc>
-	<npc id="14299" level="42" type="Pet" name="Boxer the Unicorn">
+	<npc id="14299" level="42" type="Pet" name="Boxer">
 		<parameters>
 			<skill name="HealMagic" id="4025" level="5" />
 			<param name="step1_action01" value="45" />

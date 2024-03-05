@@ -703,7 +703,7 @@
 		<targetType>TARGET</targetType>
 		<affectScope>SINGLE</affectScope>
 	</skill>
-	<skill id="6735" toLevel="1" name="Petrified">
+	<skill id="6735" toLevel="1" name="Petrification">
 		<!-- Petrified and unable to move. -->
 		<icon>icon.skill4111</icon>
 		<operateType>A2</operateType>
@@ -1483,7 +1483,7 @@
 			<effect name="BlockActions" />
 		</effects>
 	</skill>
-	<skill id="6769" toLevel="1" name="Petrified">
+	<skill id="6769" toLevel="1" name="Petrification">
 		<!-- Petrified and unable to move. -->
 		<icon>icon.skill4111</icon>
 		<abnormalLevel>1</abnormalLevel>
@@ -1720,7 +1720,7 @@
 			</effect>
 		</endEffects>
 	</skill>
-	<skill id="6777" toLevel="1" name="Bleeding Gash">
+	<skill id="6777" toLevel="1" name="Bleed Strike">
 		<!-- Slows enemy's movement for 20 sec., constatly draining HP due to Bleed, then causes paralysis for 10 sec. -->
 		<icon>icon.skill0096</icon>
 		<abnormalLevel>9</abnormalLevel>

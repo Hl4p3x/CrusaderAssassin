@@ -82,7 +82,7 @@
 		</effects>
 	</skill>
 	<skill id="19032" toLevel="1" name="Ability of Light">
-		<!-- Imbued with the Ability of Light. Max CP +2000. Effects do not apply when in Chaotic state. -->
+		<!-- Imbued with the Ability of Light. Max CP +2000. Cannot be used by chaotic characters. -->
 		<icon>icon.skill19008</icon>
 		<magicLevel>85</magicLevel>
 		<operateType>P</operateType>

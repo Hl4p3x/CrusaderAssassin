@@ -385,7 +385,7 @@
 			<skill id="4045" level="1" /> <!-- Full Magic Attack Resistance -->
 		</skillList>
 	</npc>
-	<npc id="31262" level="70" type="Folk" name="Rupert" title="Merchant">
+	<npc id="31262" level="70" type="Folk" name="Rupert" title="Trader">
 		<!-- AUTO GENERATED NPC TODO: FIX IT -->
 		<race>HUMAN</race>
 		<sex>MALE</sex>
@@ -1333,7 +1333,7 @@
 			<skill id="4045" level="1" /> <!-- Full Magic Attack Resistance -->
 		</skillList>
 	</npc>
-	<npc id="31292" level="80" type="Guard" name="Andrei" title="Captain">
+	<npc id="31292" level="80" type="Guard" name="Andrei" title="Guard Captain">
 		<!-- AUTO GENERATED NPC TODO: FIX IT -->
 		<race>HUMAN</race>
 		<sex>MALE</sex>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/npcs.xsd">
-	<npc id="14900" level="75" type="Pet" name="Magnus the Unicorn">
+	<npc id="14900" level="75" type="Pet" name="Magnus">
 		<parameters>
 			<skill name="PhysicalSpecial1" id="5138" level="1" />
 			<skill name="PhysicalSpecial2" id="5139" level="1" />
@@ -872,5 +872,104 @@
 			<skill id="4025" level="12" /> <!-- Master Recharge -->
 			<skill id="47925" level="1" /> <!-- Lord Raise Lv1 (Basic Effect) -->
 		</skillList>
+	</npc>
+	<npc id="14921" level="85" type="Folk" name="Feline Queen">
+		<!-- AUTO GENERATED NPC TODO: FIX IT -->
+		<race>ETC</race>
+		<sex>FEMALE</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="1828" hpRegen="10.5" mp="977" mpRegen="3.6" />
+			<speed>
+				<walk ground="26" />
+				<run ground="170" />
+			</speed>
+			<attack physical="1950.2231755595" magical="1331.5869440987" critical="4" attackSpeed="253" range="40" />
+			<defence physical="405.85106382979" magical="297.0297029703" />
+		</stats>
+		<status attackable="false" />
+		<collision>
+			<radius normal="8" />
+			<height normal="15" />
+		</collision>
+	</npc>
+	<npc id="14922" level="85" type="Folk" name="Cat Emperor">
+		<!-- AUTO GENERATED NPC TODO: FIX IT -->
+		<race>ETC</race>
+		<sex>FEMALE</sex>
+		<equipment rhand="98326" /> <!-- Arcana Reaper - Not Available -->
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="4600" hpRegen="10.5" mp="1778" mpRegen="3.6" />
+			<speed>
+				<walk ground="50" />
+				<run ground="180" />
+			</speed>
+			<attack physical="1950.2231755595" magical="1331.5869440987" critical="4" attackSpeed="253" range="40" />
+			<defence physical="405.85106382979" magical="297.0297029703" />
+		</stats>
+		<status attackable="false" />
+		<collision>
+			<radius normal="12" />
+			<height normal="15.9" />
+		</collision>
+	</npc>
+	<npc id="14923" level="85" type="Folk" name="Unicorn Guard">
+		<!-- AUTO GENERATED NPC TODO: FIX IT -->
+		<race>ETC</race>
+		<sex>FEMALE</sex>
+		<equipment rhand="98327" /> <!-- Elemental Reaper - Not Available -->
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="3800" hpRegen="10.5" mp="1778" mpRegen="3.6" />
+			<speed>
+				<walk ground="50" />
+				<run ground="180" />
+			</speed>
+			<attack physical="1950.2231755595" magical="1331.5869440987" critical="4" attackSpeed="253" range="40" />
+			<defence physical="405.85106382979" magical="297.0297029703" />
+		</stats>
+		<status attackable="false" />
+		<collision>
+			<radius normal="10" />
+			<height normal="23" />
+		</collision>
+	</npc>
+	<npc id="14924" level="85" type="Folk" name="Lord Raise">
+		<!-- AUTO GENERATED NPC TODO: FIX IT -->
+		<race>ETC</race>
+		<sex>FEMALE</sex>
+		<equipment rhand="98328" /> <!-- Spectral Reaper - Not Available -->
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="4300" hpRegen="10.5" mp="1778" mpRegen="3.6" />
+			<speed>
+				<walk ground="60" />
+				<run ground="180" />
+			</speed>
+			<attack physical="1950.2231755595" magical="1331.5869440987" critical="4" attackSpeed="253" range="40" />
+			<defence physical="405.85106382979" magical="297.0297029703" />
+		</stats>
+		<status attackable="false" />
+		<collision>
+			<radius normal="11" />
+			<height normal="27" />
+		</collision>
+	</npc>
+	<npc id="14925" level="85" type="Folk" name="Lord Raise">
+		<!-- AUTO GENERATED NPC TODO: FIX IT -->
+		<race>ETC</race>
+		<sex>FEMALE</sex>
+		<equipment rhand="98329" /> <!-- Envoy Weapon - Not Available -->
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="4300" hpRegen="10.5" mp="1778" mpRegen="3.6" />
+			<speed>
+				<walk ground="60" />
+				<run ground="180" />
+			</speed>
+			<attack physical="1950.2231755595" magical="1331.5869440987" critical="4" attackSpeed="253" range="40" />
+			<defence physical="405.85106382979" magical="297.0297029703" />
+		</stats>
+		<status attackable="false" />
+		<collision>
+			<radius normal="11" />
+			<height normal="27" />
+		</collision>
 	</npc>
 </list>

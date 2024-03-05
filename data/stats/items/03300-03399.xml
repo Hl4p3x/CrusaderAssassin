@@ -85,7 +85,7 @@
 		<set name="is_questitem" val="true" />
 	</item>
 	<item id="3307" name="Mark of Witchcraft" additionalName="Not Available" type="EtcItem">
-		<!-- The item is not available. The mark given to those who have passed the Test of Witchcraft. Required for changing your class. -->
+		<!-- The item is not available. A mark given to those who have passed the Test of Witchcraft. Required for changing class. -->
 		<set name="icon" val="icon.etc_ertheia2" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="STEEL" />
@@ -181,7 +181,7 @@
 		<set name="is_questitem" val="true" />
 	</item>
 	<item id="3315" name="Nestle's Memo" additionalName="Not Available" type="EtcItem">
-		<!-- The item is not available. Accessory Merchant Nestle's purchase records. It is recorded that Leopold of the Black Lion brought the jewel. -->
+		<!-- The item is not available. Trader Lara's purchase records. It is written here that Aklantoth' Gem has been brought by Leopold of the Black Lion. -->
 		<set name="icon" val="icon.etc_ertheia2" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="STEEL" />
@@ -433,7 +433,7 @@
 		<set name="is_questitem" val="true" />
 	</item>
 	<item id="3336" name="Mark of Summoner" additionalName="Not Available" type="EtcItem">
-		<!-- The item is not available. Mark given to those who have passed the Test of the Summoner. Class transfer related item. -->
+		<!-- The item is not available. A mark given to those who have passed the Test of the Summoner. Required for changing class. -->
 		<set name="icon" val="icon.etc_ertheia2" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="STEEL" />
@@ -625,7 +625,7 @@
 		<set name="is_questitem" val="true" />
 	</item>
 	<item id="3352" name="Galatea's Letter" additionalName="Not Available" type="EtcItem">
-		<!-- The item is not available. Letter from Head Summoner Galatea to Trader Lars in the Town of Dion. -->
+		<!-- The item is not available. A letter from Head Summoner Galatea to Grocer Lars in Dion. -->
 		<set name="icon" val="icon.etc_ertheia2" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="STEEL" />
@@ -1081,7 +1081,7 @@
 		<set name="is_questitem" val="true" />
 	</item>
 	<item id="3390" name="Mark of Lord" additionalName="Not Available" type="EtcItem">
-		<!-- The item is not available. Mark given to those who have passed the Test of the Lord. Item for class transfer. -->
+		<!-- The item is not available. A mark given to those who have passed the Test of the Lord. Required for changing class. -->
 		<set name="icon" val="icon.etc_ertheia2" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="STEEL" />

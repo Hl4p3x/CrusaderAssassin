@@ -66,7 +66,7 @@
 		<set name="is_stackable" val="true" />
 	</item>
 	<item id="37546" name="Rudolph's Gift 2015 Lv. 1" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.etc_pi_gift_box_i04" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -79,7 +79,7 @@
 		</capsuled_items>
 	</item>
 	<item id="37547" name="Rudolph's Gift 2015 Lv. 2" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.etc_pi_gift_box_i04" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -92,7 +92,7 @@
 		</capsuled_items>
 	</item>
 	<item id="37548" name="Rudolph's Gift 2015 Lv. 3" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.etc_pi_gift_box_i04" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -105,7 +105,7 @@
 		</capsuled_items>
 	</item>
 	<item id="37549" name="Rudolph's Gift 2015 Lv. 4" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.etc_pi_gift_box_i04" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -135,7 +135,7 @@
 		<set name="is_stackable" val="true" />
 	</item>
 	<item id="37552" name="Snowy Squash Seed" type="EtcItem">
-		<!-- Double-click to summon Snowy Young Squash. Will be deleted after the event. -->
+		<!-- Double-click to make Young Snowy Pumpkin appear. The item will be deleted after the event. -->
 		<set name="icon" val="icon.etc_gourd_i10" />
 		<set name="default_action" val="SKILL_REDUCE" />
 		<set name="material" val="PAPER" />
@@ -148,7 +148,7 @@
 		</skills>
 	</item>
 	<item id="37553" name="Large Snowy Squash Seed" type="EtcItem">
-		<!-- Double-click to summon Snowy Large Young Squash. Will be deleted after the event. -->
+		<!-- Double-click to make Young Large Snowy Pumpkin appear. The item will be deleted after the event. -->
 		<set name="icon" val="icon.etc_gourd_i11" />
 		<set name="default_action" val="SKILL_REDUCE" />
 		<set name="material" val="PAPER" />

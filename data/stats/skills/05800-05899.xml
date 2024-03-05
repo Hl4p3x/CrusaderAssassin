@@ -218,7 +218,7 @@
 		<affectScope>SINGLE</affectScope>
 	</skill>
 	<skill id="5810" toLevel="1" name="Decrease Speed">
-		<!-- Immediately target's Speed -30%. -->
+		<!-- Momentarily the target's Speed -30%. -->
 		<icon>icon.skill1160</icon>
 		<abnormalLevel>3</abnormalLevel>
 		<abnormalTime>60</abnormalTime>
@@ -2583,7 +2583,7 @@
 		</effects>
 	</skill>
 	<skill id="5898" toLevel="2" name="Blast of Anchor">
-		<!-- P./ M. Def., P. Evasion and Speed are decreased. -->
+		<!-- Decreases P./ M. Def., P. Evasion and Speed. -->
 		<icon>icon.skill1164</icon>
 		<abnormalLevel>1</abnormalLevel>
 		<abnormalTime>10</abnormalTime>

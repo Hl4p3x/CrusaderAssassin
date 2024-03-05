@@ -449,7 +449,7 @@
 		</skills>
 	</item>
 	<item id="736" name="Scroll of Escape" type="EtcItem">
-		<!-- Teleports to the nearest village. -->
+		<!-- Teleports to the nearest town. -->
 		<set name="icon" val="icon.etc_scroll_of_return_i00" />
 		<set name="default_action" val="SKILL_REDUCE" />
 		<set name="etcitem_type" val="SCROLL" />
@@ -481,7 +481,7 @@
 		</skills>
 	</item>
 	<item id="738" name="Sword of Solidarity" type="Weapon">
-		<!-- A mithril sword crafted long ago in memory of the union between the Humans and the Elves. <font color=ff6666><Unavailable to Sylphs/ Vanguard Riders.></font> -->
+		<!-- A mithril sword crafted long ago in memory of the union between the Humans and the Elves. <font color=ff6666><Unavailable to Sylphs/ Vanguard Riders/ Assassins.></font> -->
 		<set name="icon" val="icon.weapon_long_sword_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="SWORD" />
@@ -553,7 +553,7 @@
 		<set name="is_questitem" val="true" />
 	</item>
 	<item id="743" name="Sword of Sentinel" type="Weapon">
-		<!-- Steel blade issued to those fighters that have been acknowledged as protectors of the woods. <font color=ff6666><Unavailable to Sylphs/ Vanguard Riders.></font> -->
+		<!-- Steel blade issued to those fighters that have been acknowledged as protectors of the woods. <font color=ff6666><Unavailable to Sylphs/ Vanguard Riders/ Assassins.></font> -->
 		<set name="icon" val="icon.weapon_broad_sword_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="SWORD" />
@@ -577,7 +577,7 @@
 		</stats>
 	</item>
 	<item id="744" name="Staff of Sentinel" type="Weapon">
-		<!-- Staff issued to those magicians that have been acknowledged as protectors of the woods. <font color=ff6666><Unavailable to Sylphs/ Vanguard Riders.></font> -->
+		<!-- Staff issued to those magicians that have been acknowledged as protectors of the woods. <font color=ff6666><Unavailable to Sylphs/ Vanguard Riders/ Assassins.></font> -->
 		<set name="icon" val="icon.weapon_cedar_staff_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="BLUNT" />
@@ -626,7 +626,7 @@
 		<set name="is_questitem" val="true" />
 	</item>
 	<item id="747" name="Wand of Adept" type="Weapon">
-		<!-- The wand presented to those who have finished their studies at the school of magic. <font color=ff6666><Unavailable to Sylphs/ Vanguard Riders.></font> -->
+		<!-- The wand presented to those who have finished their studies at the school of magic. <font color=ff6666><Unavailable to Sylphs/ Vanguard Riders/ Assassins.></font> -->
 		<set name="icon" val="icon.weapon_apprentices_wand_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="BLUNT" />
@@ -652,7 +652,7 @@
 		</stats>
 	</item>
 	<item id="748" name="Gallint's Oak Wand" additionalName="Sealed" type="Weapon">
-		<!-- Oak wand enchanted by Gallint. Can be used for capturing and sealing the spirits of mirrors. <font color=ff6666><Unavailable to Sylphs/ Vanguard Riders.></font> -->
+		<!-- Oak wand enchanted by Gallint. Can be used for capturing and sealing the spirits of mirrors. <font color=ff6666><Unavailable to Sylphs/ Vanguard Riders/ Assassins.></font> -->
 		<set name="icon" val="icon.weapon_club_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="BLUNT" />
@@ -725,7 +725,7 @@
 		<set name="is_questitem" val="true" />
 	</item>
 	<item id="754" name="Red Sunset Staff" type="Weapon">
-		<!-- Staff used by warriors belonging to the Red Sunset clan. <font color=ff6666><Unavailable to Sylphs/ Vanguard Riders.></font> -->
+		<!-- Staff used by warriors belonging to the Red Sunset clan. <font color=ff6666><Unavailable to Sylphs/ Vanguard Riders/ Assassins.></font> -->
 		<set name="icon" val="icon.weapon_cedar_staff_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="BLUNT" />

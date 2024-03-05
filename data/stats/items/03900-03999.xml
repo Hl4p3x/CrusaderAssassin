@@ -21,7 +21,7 @@
 		</skills>
 	</item>
 	<item id="3927" name="Scroll: Death Whisper" type="EtcItem">
-		<!-- For 20 min., P. Critical Damage +25%. -->
+		<!-- When used, P. Critical Damage +25% for 20 min. -->
 		<set name="icon" val="icon.etc_scroll_white_i00" />
 		<set name="default_action" val="SKILL_REDUCE" />
 		<set name="etcitem_type" val="SCROLL" />
@@ -119,7 +119,7 @@
 		</skills>
 	</item>
 	<item id="3932" name="Scroll: Empower" type="EtcItem">
-		<!-- For 20 min. M. Atk. +55%. -->
+		<!-- When used, M. Atk. +55% for 20 min. -->
 		<set name="icon" val="icon.etc_scroll_white_i00" />
 		<set name="default_action" val="SKILL_REDUCE" />
 		<set name="etcitem_type" val="SCROLL" />
@@ -196,7 +196,7 @@
 		</skills>
 	</item>
 	<item id="3936" name="Blessed Scroll of Resurrection" type="EtcItem">
-		<!-- Magic scroll that resurrects a dead character and restores his or her XP completely. -->
+		<!-- A magic scroll that resurrects a dead party member fully recovering their XP. -->
 		<set name="icon" val="icon.etc_scroll_of_resurrection_i01" />
 		<set name="default_action" val="SKILL_REDUCE" />
 		<set name="etcitem_type" val="SCROLL" />
@@ -538,7 +538,7 @@
 		</skills>
 	</item>
 	<item id="3959" name="Blessed Scroll of Resurrection" additionalName="Not Available" type="EtcItem">
-		<!-- The item is not available. Magic scroll that resurrects a dead character and restores his or her XP completely. -->
+		<!-- The item is not available. A magic scroll that resurrects a dead party member fully recovering their XP. -->
 		<set name="icon" val="icon.etc_ertheia2" />
 		<set name="default_action" val="SKILL_REDUCE" />
 		<set name="etcitem_type" val="SCROLL" />
@@ -696,7 +696,7 @@
 		<set name="handler" val="MercTicket" />
 	</item>
 	<item id="3973" name="Mercenary Posting Ticket (Sword/Stationary)" type="EtcItem">
-		<!-- Dion/Sword/Stationary. -->
+		<!-- Dion/ Sword/ Stationary. -->
 		<set name="icon" val="icon.mticket_sword_fix_i00" />
 		<set name="etcitem_type" val="CASTLE_GUARD" />
 		<set name="immediate_effect" val="true" />
@@ -707,7 +707,7 @@
 		<set name="handler" val="MercTicket" />
 	</item>
 	<item id="3974" name="Mercenary Posting Ticket (Spear/Stationary)" type="EtcItem">
-		<!-- Dion/Spear/Stationary. -->
+		<!-- Dion/ Spear/ Stationary. -->
 		<set name="icon" val="icon.mticket_pole_fix_i00" />
 		<set name="etcitem_type" val="CASTLE_GUARD" />
 		<set name="immediate_effect" val="true" />
@@ -718,7 +718,7 @@
 		<set name="handler" val="MercTicket" />
 	</item>
 	<item id="3975" name="Mercenary Posting Ticket (Bow/Stationary)" type="EtcItem">
-		<!-- Dion/Bow/Stationary. -->
+		<!-- Dion/ Bow/ Stationary. -->
 		<set name="icon" val="icon.mticket_bow_fix_i00" />
 		<set name="etcitem_type" val="CASTLE_GUARD" />
 		<set name="immediate_effect" val="true" />
@@ -729,7 +729,7 @@
 		<set name="handler" val="MercTicket" />
 	</item>
 	<item id="3976" name="Mercenary Posting Ticket (Cleric/Stationary)" type="EtcItem">
-		<!-- Dion/Cleric/Stationary. -->
+		<!-- Dion/ Healer/ Stationary. -->
 		<set name="icon" val="icon.mticket_cleric_fix_i00" />
 		<set name="etcitem_type" val="CASTLE_GUARD" />
 		<set name="immediate_effect" val="true" />
@@ -740,7 +740,7 @@
 		<set name="handler" val="MercTicket" />
 	</item>
 	<item id="3977" name="Mercenary Posting Ticket (Wizard/Stationary)" type="EtcItem">
-		<!-- Dion/Wizard/Stationary. -->
+		<!-- Dion/ Wizard/ Stationary. -->
 		<set name="icon" val="icon.mticket_wizard_fix_i00" />
 		<set name="etcitem_type" val="CASTLE_GUARD" />
 		<set name="immediate_effect" val="true" />
@@ -751,7 +751,7 @@
 		<set name="handler" val="MercTicket" />
 	</item>
 	<item id="3978" name="Mercenary Posting Ticket (Sword/Mobile)" type="EtcItem">
-		<!-- Dion/Sword/Mobile. -->
+		<!-- Dion/ Sword/ Mobile. -->
 		<set name="icon" val="icon.mticket_sword_move_i00" />
 		<set name="etcitem_type" val="CASTLE_GUARD" />
 		<set name="immediate_effect" val="true" />
@@ -762,7 +762,7 @@
 		<set name="handler" val="MercTicket" />
 	</item>
 	<item id="3979" name="Mercenary Posting Ticket (Spear/Mobile)" type="EtcItem">
-		<!-- Dion/Spear/Mobile. -->
+		<!-- Dion/ Spear/ Mobile. -->
 		<set name="icon" val="icon.mticket_pole_move_i00" />
 		<set name="etcitem_type" val="CASTLE_GUARD" />
 		<set name="immediate_effect" val="true" />
@@ -773,7 +773,7 @@
 		<set name="handler" val="MercTicket" />
 	</item>
 	<item id="3980" name="Mercenary Posting Ticket (Bow/Mobile)" type="EtcItem">
-		<!-- Dion/Bow/Mobile. -->
+		<!-- Dion/ Bow/ Mobile. -->
 		<set name="icon" val="icon.mticket_bow_move_i00" />
 		<set name="etcitem_type" val="CASTLE_GUARD" />
 		<set name="immediate_effect" val="true" />
@@ -784,7 +784,7 @@
 		<set name="handler" val="MercTicket" />
 	</item>
 	<item id="3981" name="Mercenary Posting Ticket (Cleric/Mobile)" type="EtcItem">
-		<!-- Dion/Cleric/Mobile. -->
+		<!-- Dion/ Healer/ Mobile. -->
 		<set name="icon" val="icon.mticket_cleric_move_i00" />
 		<set name="etcitem_type" val="CASTLE_GUARD" />
 		<set name="immediate_effect" val="true" />
@@ -795,7 +795,7 @@
 		<set name="handler" val="MercTicket" />
 	</item>
 	<item id="3982" name="Mercenary Posting Ticket (Wizard/Mobile)" type="EtcItem">
-		<!-- Dion/Wizard/Mobile. -->
+		<!-- Dion/ Wizard/ Mobile. -->
 		<set name="icon" val="icon.mticket_wizard_move_i00" />
 		<set name="etcitem_type" val="CASTLE_GUARD" />
 		<set name="immediate_effect" val="true" />
@@ -839,7 +839,7 @@
 		<set name="handler" val="MercTicket" />
 	</item>
 	<item id="3986" name="Mercenary Posting Ticket (Sword/Stationary)" type="EtcItem">
-		<!-- Giran/Sword/Stationary. -->
+		<!-- Giran/ Sword/ Stationary. -->
 		<set name="icon" val="icon.mticket_sword_fix_i00" />
 		<set name="etcitem_type" val="CASTLE_GUARD" />
 		<set name="immediate_effect" val="true" />
@@ -850,7 +850,7 @@
 		<set name="handler" val="MercTicket" />
 	</item>
 	<item id="3987" name="Mercenary Posting Ticket (Spear/Stationary)" type="EtcItem">
-		<!-- Giran/Spear/Stationary. -->
+		<!-- Giran/ Spear/ Stationary. -->
 		<set name="icon" val="icon.mticket_pole_fix_i00" />
 		<set name="etcitem_type" val="CASTLE_GUARD" />
 		<set name="immediate_effect" val="true" />
@@ -861,7 +861,7 @@
 		<set name="handler" val="MercTicket" />
 	</item>
 	<item id="3988" name="Mercenary Posting Ticket (Bow/Stationary)" type="EtcItem">
-		<!-- Giran/Bow/Stationary. -->
+		<!-- Giran/ Bow/ Stationary. -->
 		<set name="icon" val="icon.mticket_bow_fix_i00" />
 		<set name="etcitem_type" val="CASTLE_GUARD" />
 		<set name="immediate_effect" val="true" />
@@ -872,7 +872,7 @@
 		<set name="handler" val="MercTicket" />
 	</item>
 	<item id="3989" name="Mercenary Posting Ticket (Cleric/Stationary)" type="EtcItem">
-		<!-- Giran/Cleric/Stationary. -->
+		<!-- Giran/ Healer/ Stationary. -->
 		<set name="icon" val="icon.mticket_cleric_fix_i00" />
 		<set name="etcitem_type" val="CASTLE_GUARD" />
 		<set name="immediate_effect" val="true" />
@@ -883,7 +883,7 @@
 		<set name="handler" val="MercTicket" />
 	</item>
 	<item id="3990" name="Mercenary Posting Ticket (Wizard/Stationary)" type="EtcItem">
-		<!-- Giran/Wizard/Stationary. -->
+		<!-- Giran/ Wizard/ Stationary. -->
 		<set name="icon" val="icon.mticket_wizard_fix_i00" />
 		<set name="etcitem_type" val="CASTLE_GUARD" />
 		<set name="immediate_effect" val="true" />
@@ -894,7 +894,7 @@
 		<set name="handler" val="MercTicket" />
 	</item>
 	<item id="3991" name="Mercenary Posting Ticket (Sword/Mobile)" type="EtcItem">
-		<!-- Giran/Sword/Mobile. -->
+		<!-- Giran/ Sword/ Mobile. -->
 		<set name="icon" val="icon.mticket_sword_move_i00" />
 		<set name="etcitem_type" val="CASTLE_GUARD" />
 		<set name="immediate_effect" val="true" />
@@ -905,7 +905,7 @@
 		<set name="handler" val="MercTicket" />
 	</item>
 	<item id="3992" name="Mercenary Posting Ticket (Spear/Mobile)" type="EtcItem">
-		<!-- Giran/Spear/Mobile. -->
+		<!-- Giran/ Spear/ Mobile. -->
 		<set name="icon" val="icon.mticket_pole_move_i00" />
 		<set name="etcitem_type" val="CASTLE_GUARD" />
 		<set name="immediate_effect" val="true" />
@@ -916,7 +916,7 @@
 		<set name="handler" val="MercTicket" />
 	</item>
 	<item id="3993" name="Mercenary Posting Ticket (Bow/Mobile)" type="EtcItem">
-		<!-- Giran/Bow/Mobile. -->
+		<!-- Giran/ Bow/ Mobile. -->
 		<set name="icon" val="icon.mticket_bow_move_i00" />
 		<set name="etcitem_type" val="CASTLE_GUARD" />
 		<set name="immediate_effect" val="true" />
@@ -927,7 +927,7 @@
 		<set name="handler" val="MercTicket" />
 	</item>
 	<item id="3994" name="Mercenary Posting Ticket (Cleric/Mobile)" type="EtcItem">
-		<!-- Giran/Cleric/Mobile. -->
+		<!-- Giran/ Healer/ Mobile. -->
 		<set name="icon" val="icon.mticket_cleric_move_i00" />
 		<set name="etcitem_type" val="CASTLE_GUARD" />
 		<set name="immediate_effect" val="true" />
@@ -938,7 +938,7 @@
 		<set name="handler" val="MercTicket" />
 	</item>
 	<item id="3995" name="Mercenary Posting Ticket (Wizard/Mobile)" type="EtcItem">
-		<!-- Giran/Wizard/Mobile. -->
+		<!-- Giran/ Wizard/ Mobile. -->
 		<set name="icon" val="icon.mticket_wizard_move_i00" />
 		<set name="etcitem_type" val="CASTLE_GUARD" />
 		<set name="immediate_effect" val="true" />
@@ -982,7 +982,7 @@
 		<set name="handler" val="MercTicket" />
 	</item>
 	<item id="3999" name="Mercenary Posting Ticket (Sword/Stationary)" type="EtcItem">
-		<!-- Oren/Sword/Stationary. -->
+		<!-- Oren/ Sword/ Stationary. -->
 		<set name="icon" val="icon.mticket_sword_fix_i00" />
 		<set name="etcitem_type" val="CASTLE_GUARD" />
 		<set name="immediate_effect" val="true" />

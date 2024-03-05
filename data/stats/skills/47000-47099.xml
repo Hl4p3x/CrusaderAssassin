@@ -3,7 +3,7 @@
 	<skill id="47001" toLevel="1" name="Goring Charge">
 		<!-- <Knockback skill with fixed cast time>. Makes a powerful blow in front of you. When the skill is used, the character starts aiming. To activate the skill, click in the intended direction. Attacks and knocks down enemies in the line of fire with 8000 power. Ignores 50% of the target's defense. -->
 		<icon>icon.piercing_thrust</icon>
-		<castRange>-1</castRange>
+		<castRange>900</castRange>
 		<coolTime>500</coolTime>
 		<effectPoint>-5000</effectPoint>
 		<affectLimit>5-12</affectLimit>
@@ -29,7 +29,12 @@
 		</conditions>
 		<effects>
 			<effect name="PhysicalAttack">
-				<power>8000</power>
+				<power>
+					<value fromLevel="1" toLevel="1">8000</value>
+					<value fromLevel="1" toLevel="1" fromSubLevel="1001" toSubLevel="1001">8720</value>
+					<value fromLevel="1" toLevel="1" fromSubLevel="1002" toSubLevel="1002">9440</value>
+					<value fromLevel="1" toLevel="1" fromSubLevel="1003" toSubLevel="1003">10160</value>
+				</power>
 				<pDefMod>0.5</pDefMod>
 			</effect>
 			<effect name="CallSkill">
@@ -39,7 +44,7 @@
 		</effects>
 	</skill>
 	<skill id="47002" toLevel="40" name="Dual Blow">
-		<!-- <Changing skill>. Uses spirit powers in combat. Attacks the enemy twice with 315 power. Critical. With a certain chance, recovers 5% MP after a ranged attack. (Cooldown: 40 sec.). Triggers after using Stealthy Swiftness to attack from a distance. The MP recovery buff and cooldown time are shared with other skills. -->
+		<!-- <<font color="00FF00">Changing skill</font>>. Uses spirit powers in combat. Attacks the enemy twice with 315 power. Critical. With a certain chance, recovers 5% of MP after a range attack. (Cooldown: 40 sec.). Triggers after using Stealthy Swiftness to attack from a distance. The MP recovery buff and cooldown time are shared with other skills. -->
 		<icon>icon.double_impact</icon>
 		<castRange>600</castRange>
 		<basicProperty>PHYSICAL</basicProperty>
@@ -515,7 +520,7 @@
 		</effects>
 	</skill>
 	<skill id="47005" toLevel="40" name="Triple Blow">
-		<!-- <Changing skill>. Uses spirit powers in combat. Attacks the enemy thrice with 315 power. Critical. With a certain chance, recovers 5% MP after a ranged attack. (Cooldown: 40 sec.). Triggers after using Stealthy Swiftness to attack from a distance. The MP recovery buff and cooldown time are shared with other skills. -->
+		<!-- <<font color="00FF00">Changing skill</font>>. Uses spirit powers in combat. Attacks the enemy thrice with 315 power. Critical. With a certain chance, recovers 5% MP after a ranged attack. (Cooldown: 40 sec.). Triggers after using Stealthy Swiftness to attack from a distance. The MP recovery buff and cooldown time are shared with other skills. -->
 		<icon>icon.triple_impact</icon>
 		<castRange>600</castRange>
 		<coolTime>500</coolTime>
@@ -1093,7 +1098,7 @@
 		</effects>
 	</skill>
 	<skill id="47008" toLevel="1" name="Stealthy Swiftness">
-		<!-- <Changing skill>. Makes such a fast attack that the target doesn't see you. Attacks the enemy twice with 6550 power. Ignores 10% of the target's defense. Critical. With a certain chance, recovers 5% MP after a ranged attack. (Cooldown: 40 sec.). Triggers after using Dual Blow/ Triple Blow to attack from a distance. The MP recovery buff and cooldown time are shared with other skills. -->
+		<!-- <<font color="00FF00">Changing skill</font>>. Makes such a fast attack that the target doesn't see you. Attacks the enemy twice with 6550 power. Ignores 10% of the target's defense. Critical. With a certain chance, recovers 5% MP after a ranged attack. (Cooldown: 40 sec.). Triggers after using Dual Blow/ Triple Blow to attack from a distance. The MP recovery buff and cooldown time are shared with other skills. -->
 		<icon>icon.silent_blitz</icon>
 		<castRange>600</castRange>
 		<coolTime>500</coolTime>
@@ -2192,21 +2197,27 @@
 			</effect>
 		</effects>
 	</skill>
-	<skill id="47041" toLevel="1" name="Dragon Strike Lv. 1">
+	<skill id="47041" toLevel="1" name="Dragon Strike">
 		<!-- <Fixed cast time skill>. Summons a large dragon by spirit power. <<font color="00FF00">Allies</font>>. <Elemental Restoration>. Restores HP/ MP for a long time. <<font color="FF0000">Enemies</font>>. <Elemental Storm>. The storm attacks nearby enemies. Inflicted damage depends on character's P. Atk. Deals great damage to enemies affected by <font color="FF8000">Elemental Mark</font>. -->
 		<icon>icon.elemental_dragon</icon>
 		<castRange>1300</castRange>
 		<coolTime>500</coolTime>
-		<effectRange>900</effectRange>
+		<effectRange>1800</effectRange>
 		<hitTime>1000</hitTime>
 		<magicLevel>80</magicLevel>
-		<isMagic>6</isMagic>
+		<isMagic>0</isMagic>
 		<itemConsumeId>3031</itemConsumeId>
 		<itemConsumeCount>100</itemConsumeCount>
+		<affectLimit>10-10</affectLimit>
+		<affectRange>200</affectRange>
 		<mpConsume>400</mpConsume>
 		<nextAction>ATTACK</nextAction>
 		<operateType>A1</operateType>
-		<reuseDelay>300000</reuseDelay>
+		<reuseDelay>120000</reuseDelay>
+		<staticReuse>true</staticReuse>
+		<reuseDelayGroup>47041</reuseDelayGroup>
+		<itemConsumeId>3031</itemConsumeId>
+		<itemConsumeCount>50</itemConsumeCount>
 		<magicCriticalRate>5</magicCriticalRate>
 		<basicProperty>PHYSICAL</basicProperty>
 		<targetType>TARGET</targetType>
@@ -2218,13 +2229,6 @@
 				</weaponType>
 			</condition>
 		</conditions>
-		<effects>
-			<effect name="TriggerSkillByDualRange">
-				<closeSkill>47042</closeSkill>
-				<rangeSkill>47043</rangeSkill>
-				<distance>100</distance>
-			</effect>
-		</effects>
 	</skill>
 	<skill id="47042" toLevel="2" name="Elemental Restoration">
 		<!-- Spirit power restores HP/ MP. -->
@@ -2240,14 +2244,13 @@
 			<value level="2">900</value>
 		</effectPoint>
 		<affectLimit>50-50</affectLimit>
-		<affectRange>600</affectRange>
-		<isMagic>5</isMagic> <!-- Static Skill -->
-		<magicLevel>1</magicLevel>
+		<affectRange>300</affectRange>
+		<isMagic>1</isMagic>
 		<operateType>A2</operateType>
 		<basicProperty>NONE</basicProperty>
 		<magicCriticalRate>5</magicCriticalRate>
 		<targetType>ENEMY_NOT</targetType>
-		<affectScope>PLEDGE</affectScope>
+		<affectScope>PARTY_PLEDGE</affectScope>
 		<affectObject>FRIEND_PC</affectObject>
 		<effects>
 			<effect name="HealOverTime">
@@ -2268,16 +2271,16 @@
 	</skill>
 	<skill id="47043" toLevel="2" name="Elemental Storm">
 		<icon>icon.elemental_roar</icon>
+		<isTriggeredSkill>true</isTriggeredSkill>
 		<operateType>A1</operateType>
 		<effectPoint>
 			<value level="1">-4260</value>
 			<value level="2">-4510</value>
 		</effectPoint>
-		<basicProperty>NONE</basicProperty>
-		<magicCriticalRate>-5</magicCriticalRate>
-		<effectRange>400</effectRange>
+		<basicProperty>PHYSICAL</basicProperty>
+		<isMagic>0</isMagic>
 		<activateRate>100</activateRate>
-		<affectRange>200</affectRange>
+		<affectRange>300</affectRange>
 		<affectLimit>10-10</affectLimit>
 		<isDebuff>true</isDebuff>
 		<targetType>ENEMY_ONLY</targetType>
@@ -2285,15 +2288,13 @@
 		<affectObject>NOT_FRIEND</affectObject>
 		<effects>
 			<effect name="PhysicalAttack">
-				<power>6000</power>
-			</effect>
-			<effect name="CallSkill">
-				<skillId>47057</skillId> <!-- Elemental Mark -->
-				<skillLevel>1</skillLevel>
+				<pAtkMod>2.0</pAtkMod>
+				<abnormalType>ELEMENTAL_SPIRIT</abnormalType>
+				<powerModifier>2</powerModifier>
 			</effect>
 		</effects>
 	</skill>
-	<skill id="47045" toLevel="1" name="Elemental Changing Lv. 1">
+	<skill id="47045" toLevel="1" name="Elemental Changing">
 		<!-- Applies different effects depending on spirit's mood. <<font color="00FF00">Allies </font>>. <Elemental Blessing>. Anomaly Resistance +10%. Received damage -5%. <<font color="FF0000">Enemies</font>>. <Elemental Weakness>. Anomaly Resistance -10%. Received damage +5% -->
 		<icon>icon.skill1996</icon>
 		<castRange>600</castRange>
@@ -2301,29 +2302,25 @@
 		<effectRange>900</effectRange>
 		<hitTime>1000</hitTime>
 		<magicLevel>80</magicLevel>
-		<isMagic>6</isMagic>
+		<isMagic>0</isMagic>
 		<mpConsume>100</mpConsume>
 		<nextAction>ATTACK</nextAction>
 		<operateType>A1</operateType>
 		<reuseDelay>30000</reuseDelay>
+		<reuseDelayGroup>47045</reuseDelayGroup>
+		<affectLimit>10-10</affectLimit>
+		<affectRange>200</affectRange>
 		<magicCriticalRate>5</magicCriticalRate>
 		<basicProperty>PHYSICAL</basicProperty>
 		<targetType>TARGET</targetType>
-		<affectScope>SINGLE</affectScope>
-		<effects>
-			<effect name="TriggerSkill">
-				<skillId>47047</skillId> <!-- Elemental Blessing -->
-				<skillLevel>1</skillLevel>
-				<targetType>ENEMY_NOT</targetType>
-				<adjustLevel>true</adjustLevel>
-			</effect>
-			<effect name="TriggerSkill">
-				<skillId>47046</skillId> <!-- Elemental Weakness -->
-				<skillLevel>1</skillLevel>
-				<targetType>ENEMY_ONLY</targetType>
-				<adjustLevel>true</adjustLevel>
-			</effect>
-		</effects>
+		<affectScope>RANGE</affectScope>
+		<conditions>
+			<condition name="EquipWeapon">
+				<weaponType>
+					<item>PISTOLS</item>
+				</weaponType>
+			</condition>
+		</conditions>
 	</skill>
 	<skill id="47046" toLevel="2" name="Elemental Weakness">
 		<!-- The defense is weakened by the will of spirits. Anomaly Resistance -10%. Received damage +5% -->
@@ -2501,7 +2498,7 @@
 			</effect>
 		</effects>
 	</skill>
-	<skill id="47048" toLevel="1" name="Elemental Guard Lv. 1">
+	<skill id="47048" toLevel="1" name="Elemental Guard">
 		<!-- Guarding spirits decrease received damage. Resistance to All Weapons +5% -->
 		<icon>icon.elemental_guard</icon>
 		<abnormalLevel>1</abnormalLevel>
@@ -2543,32 +2540,38 @@
 			</effect>
 		</effects>
 	</skill>
-	<skill id="47051" toLevel="1" name="Dragon Strike Lv. 2">
+	<skill id="47051" toLevel="1" name="Dragon Strike - Spirit">
 		<!-- <Fixed cast time skill>. Summons a large dragon by spirit power. <<font color="00FF00">Allies</font>>. <Elemental Restoration>. Restores HP/ MP for a long time. <<font color="FF0000">Enemies</font>>. <Elemental Storm>. The storm attacks nearby enemies. Inflicted damage depends on character's P. Atk. Deals great damage to enemies affected by <font color="FF8000">Elemental Mark</font>. -->
 		<icon>icon.elemental_dragon</icon>
 		<castRange>1300</castRange>
 		<coolTime>500</coolTime>
-		<effectRange>900</effectRange>
+		<effectRange>1800</effectRange>
 		<hitTime>1000</hitTime>
 		<magicLevel>80</magicLevel>
-		<isMagic>6</isMagic>
+		<isMagic>0</isMagic>
 		<mpConsume>400</mpConsume>
 		<nextAction>ATTACK</nextAction>
 		<operateType>A1</operateType>
-		<reuseDelay>300000</reuseDelay>
+		<reuseDelay>120000</reuseDelay>
+		<staticReuse>true</staticReuse>
+		<reuseDelayGroup>47041</reuseDelayGroup>
+		<itemConsumeId>3031</itemConsumeId>
+		<itemConsumeCount>50</itemConsumeCount>
 		<magicCriticalRate>5</magicCriticalRate>
+		<affectLimit>10-10</affectLimit>
+		<affectRange>200</affectRange>
 		<basicProperty>PHYSICAL</basicProperty>
 		<targetType>TARGET</targetType>
-		<affectScope>SINGLE</affectScope>
-		<effects>
-			<effect name="TriggerSkillByDualRange">
-				<closeSkill>47042</closeSkill>
-				<rangeSkill>47043</rangeSkill>
-				<distance>100</distance>
-			</effect>
-		</effects>
+		<affectScope>RANGE</affectScope>
+		<conditions>
+			<condition name="EquipWeapon">
+				<weaponType>
+					<item>PISTOLS</item>
+				</weaponType>
+			</condition>
+		</conditions>
 	</skill>
-	<skill id="47052" toLevel="1" name="Elemental Changing Lv. 2">
+	<skill id="47052" toLevel="1" name="Elemental Changing - Spirit">
 		<!-- Applies different effects depending on spirit's mood. <<font color="00FF00">Allies </font>>. <Elemental Blessing>. Anomaly Resistance +20%. Received damage -10%. <<font color="FF0000">Enemies</font>>. <Elemental Weakness>. Anomaly Resistance -20%. Received damage +10% -->
 		<icon>icon.skill1996</icon>
 		<castRange>600</castRange>
@@ -2576,24 +2579,27 @@
 		<effectRange>900</effectRange>
 		<hitTime>1000</hitTime>
 		<magicLevel>80</magicLevel>
-		<isMagic>6</isMagic>
+		<isMagic>0</isMagic>
 		<mpConsume>100</mpConsume>
 		<nextAction>ATTACK</nextAction>
 		<operateType>A1</operateType>
 		<reuseDelay>30000</reuseDelay>
+		<reuseDelayGroup>47045</reuseDelayGroup>
+		<affectLimit>10-10</affectLimit>
+		<affectRange>200</affectRange>
 		<magicCriticalRate>5</magicCriticalRate>
 		<basicProperty>PHYSICAL</basicProperty>
 		<targetType>TARGET</targetType>
-		<affectScope>SINGLE</affectScope>
-		<effects>
-			<effect name="TriggerSkillByDualRange">
-				<closeSkill>47047</closeSkill>
-				<rangeSkill>47046</rangeSkill>
-				<distance>100</distance>
-			</effect>
-		</effects>
+		<affectScope>RANGE</affectScope>
+		<conditions>
+			<condition name="EquipWeapon">
+				<weaponType>
+					<item>PISTOLS</item>
+				</weaponType>
+			</condition>
+		</conditions>
 	</skill>
-	<skill id="47053" toLevel="1" name="Elemental Guard Lv. 2">
+	<skill id="47053" toLevel="1" name="Elemental Guard - Spirit">
 		<!-- Guarding spirits decrease received damage. Resistance to All Weapons +10%. Skill Evasion +20% -->
 		<icon>icon.elemental_guard</icon>
 		<abnormalLevel>1</abnormalLevel>
@@ -2647,56 +2653,45 @@
 			<value level="1">-210</value>
 			<value level="2">-250</value>
 		</effectPoint>
-		<effectRange>900</effectRange>
+		<effectRange>
+			<value level="1">1100</value>
+			<value level="2">1800</value>
+		</effectRange>
 		<hitTime>1000</hitTime>
 		<magicLevel>
 			<value level="1">58</value>
 			<value level="2">79</value>
 		</magicLevel>
-		<nextAction>ATTACK</nextAction>
 		<operateType>A1</operateType>
 		<reuseDelay>15000</reuseDelay>
 		<magicCriticalRate>5</magicCriticalRate>
 		<basicProperty>PHYSICAL</basicProperty>
 		<targetType>TARGET</targetType>
 		<affectScope>SINGLE</affectScope>
-		<effects>
-			<effect name="TriggerSkill">
-				<skillId>47055</skillId> <!-- Elemental Remedy -->
-				<skillLevel>
-					<value level="1">1</value>
-					<value level="2">1</value>
-				</skillLevel>
-				<targetType>ENEMY_NOT</targetType>
-				<adjustLevel>false</adjustLevel>
-			</effect>
-			<effect name="TriggerSkill">
-				<skillId>47056</skillId> <!-- Elemental Dust -->
-				<skillLevel>1</skillLevel>
-				<targetType>ENEMY_ONLY</targetType>
-				<adjustLevel>true</adjustLevel>
-			</effect>
-		</effects>
+		<conditions>
+			<condition name="EquipWeapon">
+				<weaponType>
+					<item>PISTOLS</item>
+				</weaponType>
+			</condition>
+		</conditions>
 	</skill>
 	<skill id="47055" toLevel="1" name="Elemental Remedy">
 		<!-- Spirit's power restores HP. -->
 		<icon>icon.skill19427</icon>
 		<abnormalLevel>1</abnormalLevel>
 		<abnormalTime>4</abnormalTime>
-		<abnormalType>HEAL_EFFECT_UP</abnormalType>
 		<effectPoint>580</effectPoint>
 		<effectRange>900</effectRange>
-		<isMagic>5</isMagic>
 		<operateType>A2</operateType>
-		<isTriggeredSkill>true</isTriggeredSkill>
 		<magicCriticalRate>5</magicCriticalRate>
 		<basicProperty>PHYSICAL</basicProperty>
-		<targetType>ENEMY_NOT</targetType>
-		<affectScope>PLEDGE</affectScope>
-		<affectObject>FRIEND</affectObject>
+		<targetType>TARGET</targetType>
+		<affectScope>SINGLE</affectScope>
 		<effects>
-			<effect name="Heal">
-				<power>150</power>
+			<effect name="HealOverTime">
+				<power>200</power>
+				<ticks>1</ticks>
 			</effect>
 		</effects>
 	</skill>
@@ -2708,12 +2703,12 @@
 			<value level="2">2</value>
 		</abnormalLevel>
 		<abnormalTime>20</abnormalTime>
-		<abnormalType>TARGET_LOCK</abnormalType>
+		<abnormalVisualEffect>H_SY_ELEMENTAL_DUST_AVE</abnormalVisualEffect>
+		<abnormalType>ELEMENTAL_DUST</abnormalType>
 		<effectPoint>-590</effectPoint>
 		<effectRange>900</effectRange>
 		<isDebuff>true</isDebuff>
 		<operateType>A2</operateType>
-		<isTriggeredSkill>true</isTriggeredSkill>
 		<magicCriticalRate>5</magicCriticalRate>
 		<basicProperty>PHYSICAL</basicProperty>
 		<targetType>ENEMY_ONLY</targetType>
@@ -2733,6 +2728,10 @@
 				</amount>
 				<mode>PER</mode>
 			</effect>
+			<effect name="CallSkill" fromLevel="2" toLevel="2">
+				<skillId>47057</skillId> <!-- Elemental Mark -->
+				<skillLevel>1</skillLevel>
+			</effect>
 		</effects>
 	</skill>
 	<skill id="47057" toLevel="1" name="Elemental Mark">
@@ -2740,6 +2739,8 @@
 		<icon>icon.skill10288</icon>
 		<abnormalLevel>1</abnormalLevel>
 		<abnormalTime>10</abnormalTime>
+		<abnormalVisualEffect>H_SY_ELEMENTAL_MARK_AVE</abnormalVisualEffect>
+		<abnormalType>ELEMENTAL_CARE</abnormalType>
 		<effectPoint>-590</effectPoint>
 		<effectRange>900</effectRange>
 		<isDebuff>true</isDebuff>
@@ -2751,10 +2752,6 @@
 			<effect name="DefenceTrait">
 				<BOW>-5</BOW>
 				<PISTOLS>-5</PISTOLS>
-			</effect>
-			<effect name="MAtkByPAtk">
-				<amount>100</amount>
-				<mode>PER</mode>
 			</effect>
 		</effects>
 	</skill>
@@ -2777,7 +2774,7 @@
 			<condition name="OpCheckAbnormal">
 				<type>ELEMENTAL_SPIRIT</type>
 				<level>4</level>
-				<hasAbnormal>true</hasAbnormal>
+				<hasAbnormal>false</hasAbnormal>
 			</condition>
 		</conditions>
 		<effects>
@@ -2823,7 +2820,10 @@
 			<value level="2">2</value>
 		</abnormalLevel>
 		<abnormalTime>10</abnormalTime>
-		<abnormalType>SPEED_UP</abnormalType>
+		<abnormalVisualEffect>
+			<value level="1">H_G_AFFINITYA_AVE</value>
+			<value level="2">H_G_AFFINITYB_AVE</value>
+		</abnormalVisualEffect>
 		<castRange>400</castRange>
 		<effectRange>900</effectRange>
 		<hitTime>1000</hitTime>
@@ -2840,6 +2840,7 @@
 		<itemConsumeId>3031</itemConsumeId> <!-- Spirit Ore -->
 		<operateType>A2</operateType>
 		<reuseDelay>60000</reuseDelay>
+		<staticReuse>true</staticReuse>
 		<basicProperty>NONE</basicProperty>
 		<magicCriticalRate>5</magicCriticalRate>
 		<targetType>SELF</targetType>
@@ -2859,11 +2860,19 @@
 				</amount>
 				<mode>DIFF</mode>
 			</effect>
-			<effect name="DefenceTrait">
+			<effect name="DefenceTrait" fromLevel="1" toLevel="2">
 				<HOLD>
 					<value level="1">0</value>
 					<value level="2">100</value>
 				</HOLD>
+				<ROOT_PHYSICALLY>
+					<value level="1">0</value>
+					<value level="2">100</value>
+				</ROOT_PHYSICALLY>
+				<SUPPRESSION>
+					<value level="1">0</value>
+					<value level="2">100</value>
+				</SUPPRESSION>
 			</effect>
 		</effects>
 	</skill>
@@ -2874,18 +2883,24 @@
 			<value level="1">1</value>
 			<value level="2">2</value>
 		</abnormalLevel>
-		<abnormalTime>30</abnormalTime>
-		<abnormalType>FREEZING</abnormalType>
+		<abnormalTime>
+			<value level="1">30</value>
+			<value level="2">60</value>
+		</abnormalTime>
+		<abnormalVisualEffect>V_SY_BURST_TIME_AVE</abnormalVisualEffect>
 		<hitTime>1000</hitTime>
 		<isMagic>1</isMagic>
+		<mpConsume>
+			<value level="1">30</value>
+			<value level="2">50</value>
+		</mpConsume>
 		<operateType>A2</operateType>
 		<reuseDelay>300000</reuseDelay>
+		<staticReuse>true</staticReuse>
 		<basicProperty>NONE</basicProperty>
 		<magicCriticalRate>5</magicCriticalRate>
 		<targetType>SELF</targetType>
 		<affectScope>SINGLE</affectScope>
-		<itemConsumeCount>2</itemConsumeCount>
-		<itemConsumeId>3031</itemConsumeId> <!-- Spirit Ore -->
 		<conditions>
 			<condition name="EquipWeapon">
 				<weaponType>
@@ -2898,28 +2913,40 @@
 				<skillId>47063</skillId> <!-- Elemental Burst -->
 				<skillLevel>1</skillLevel>
 				<attackSkillId>47003</attackSkillId> <!-- Dual Blow -->
-				<chance>100</chance>
+				<chance>
+					<value level="1">10</value>
+					<value level="2">50</value>
+				</chance>
 				<targetType>ENEMY</targetType>
 			</effect>
 			<effect name="TriggerSkillBySkillAttack">
 				<skillId>47063</skillId> <!-- Elemental Burst -->
 				<skillLevel>1</skillLevel>
 				<attackSkillId>47004</attackSkillId> <!-- Dual Blow -->
-				<chance>100</chance>
+				<chance>
+					<value level="1">10</value>
+					<value level="2">50</value>
+				</chance>
 				<targetType>ENEMY</targetType>
 			</effect>
 			<effect name="TriggerSkillBySkillAttack">
 				<skillId>47064</skillId> <!-- Elemental Burst -->
 				<skillLevel>1</skillLevel>
 				<attackSkillId>47006</attackSkillId> <!-- Triple Blow -->
-				<chance>100</chance>
+				<chance>
+					<value level="1">10</value>
+					<value level="2">50</value>
+				</chance>
 				<targetType>ENEMY</targetType>
 			</effect>
 			<effect name="TriggerSkillBySkillAttack">
 				<skillId>47064</skillId> <!-- Elemental Burst -->
 				<skillLevel>1</skillLevel>
 				<attackSkillId>47007</attackSkillId> <!-- Triple Blow -->
-				<chance>100</chance>
+				<chance>
+					<value level="1">10</value>
+					<value level="2">50</value>
+				</chance>
 				<targetType>ENEMY</targetType>
 			</effect>
 		</effects>
@@ -2940,6 +2967,8 @@
 					<value level="1">3150</value>
 					<value level="2">3710</value>
 				</power>
+				<criticalChance>15</criticalChance>
+				<overHit>true</overHit>
 			</effect>
 		</effects>
 	</skill>
@@ -3171,6 +3200,29 @@
 					<item>LIGHT</item>
 				</armorType>
 			</effect>
+			<effect name="DefenceMagicCriticalRate">
+				<amount>
+					<value level="1">-1</value>
+					<value level="2">-2</value>
+					<value level="3">-2</value>
+					<value level="4">-2</value>
+					<value level="5">-2</value>
+					<value level="6">-3</value>
+					<value level="7">-3</value>
+					<value level="8">-4</value>
+					<value level="9">-4</value>
+					<value level="10">-4</value>
+					<value level="11">-4</value>
+					<value level="12">-5</value>
+					<value level="13">-5</value>
+					<value level="14">-5</value>
+					<value level="15">-5</value>
+				</amount>
+				<mode>PER</mode>
+				<armorType>
+					<item>LIGHT</item>
+				</armorType>
+			</effect>
 		</effects>
 	</skill>
 	<skill id="47083" toLevel="5" name="Quick Reload">
@@ -3194,12 +3246,17 @@
 			</effect>
 		</effects>
 	</skill>
-	<skill id="47084" toLevel="2" name="Long Range Attack">
-		<!-- Firearm attack range +50. -->
-		<icon>icon.long_range_attack</icon>
+	<skill id="47084" toLevel="3" name="Long Range Attack">
+		<!-- Attack range +50 -->
+		<icon>
+			<value level="1">icon.long_range_attack</value>
+			<value level="2">icon.long_range_attack</value>
+			<value level="3">icon.s_sylph_long_shot3</value>
+		</icon>
 		<magicLevel>
 			<value level="1">35</value>
 			<value level="2">55</value>
+			<value level="3">76</value>
 		</magicLevel>
 		<operateType>P</operateType>
 		<magicCriticalRate>5</magicCriticalRate>
@@ -3208,11 +3265,46 @@
 				<amount>
 					<value level="1">50</value>
 					<value level="2">100</value>
+					<value level="3">110</value>
+					<value fromLevel="3" toLevel="3" toSubLevel="1001" fromSubLevel="1001">140</value>
+					<value fromLevel="3" toLevel="3" toSubLevel="1002" fromSubLevel="1002">170</value>
+					<value fromLevel="3" toLevel="3" toSubLevel="1003" fromSubLevel="1003">200</value>
 				</amount>
 				<mode>DIFF</mode>
 				<weaponType>
 					<item>PISTOLS</item>
 				</weaponType>
+			</effect>
+			<effect name="PhysicalAttack" fromLevel="3" toLevel="3">
+				<amount>
+					<value fromLevel="3" toLevel="3">100</value>
+					<value fromLevel="3" toLevel="3" toSubLevel="1001" fromSubLevel="1001">1000</value>
+					<value fromLevel="3" toLevel="3" toSubLevel="1001" fromSubLevel="1001">2000</value>
+					<value fromLevel="3" toLevel="3" toSubLevel="1001" fromSubLevel="1001">3000</value>
+				</amount>
+				<mode>DIFF</mode>
+				<weaponType>
+					<item>PISTOLS</item>
+				</weaponType>
+			</effect>
+			<effect name="SkillBonusRange" fromLevel="3" toLevel="3">
+				<amount>
+					<value fromLevel="3" toLevel="3">10</value>
+					<value fromLevel="3" toLevel="3" toSubLevel="1001" fromSubLevel="1001">40</value>
+					<value fromLevel="3" toLevel="3" toSubLevel="1002" fromSubLevel="1002">70</value>
+					<value fromLevel="3" toLevel="3" toSubLevel="1003" fromSubLevel="1003">100</value>
+				</amount>
+				<mode>DIFF</mode>
+				<weaponType>
+					<item>PISTOLS</item>
+				</weaponType>
+			</effect>
+			<effect name="PhysicalSkillCriticalRate" fromLevel="3" toLevel="3" fromSubLevel="1001" toSubLevel="1003">
+				<amount>
+					<value fromLevel="3" toLevel="3" toSubLevel="1001" fromSubLevel="1001">4</value>
+					<value fromLevel="3" toLevel="3" toSubLevel="1002" fromSubLevel="1002">8</value>
+					<value fromLevel="3" toLevel="3" toSubLevel="1003" fromSubLevel="1003">12</value>
+				</amount>
 			</effect>
 		</effects>
 	</skill>
@@ -3228,16 +3320,428 @@
 		</effects>
 	</skill>
 	<skill id="47095" toLevel="35" name="Transcendent Triple Blow">
-		<!-- <Changing skill>. Uses spirit powers in combat. Attacks the enemy thrice with 315 power. Critical. With a certain chance, recovers 5% MP after a ranged attack. (Cooldown: 40 sec.). Triggers after using Stealthy Swiftness to attack from a distance. The MP recovery buff and cooldown time are shared with other skills. The skill can be used only in the transcendent instance zones. -->
+		<!-- <<font color="00FF00">Changing skill</font>>. Uses spirit powers in combat. Attacks the enemy thrice with 315 power. Critical. With a certain chance, recovers 5% MP after a ranged attack. (Cooldown: 40 sec.). Triggers after using Stealthy Swiftness to attack from a distance. The MP recovery buff and cooldown time are shared with other skills. The skill can be used only in the transcendent instance zones. -->
 		<icon>icon.triple_impact</icon>
+		<castRange>600</castRange>
+		<effectPoint>
+			<value level="1">-210</value>
+			<value level="2">-250</value>
+			<value level="3">-290</value>
+			<value level="4">-330</value>
+			<value level="5">-370</value>
+			<value level="6">-410</value>
+			<value level="7">-440</value>
+			<value level="8">-470</value>
+			<value level="9">-500</value>
+			<value level="10">-530</value>
+			<value level="11">-560</value>
+			<value level="12">-590</value>
+			<value level="13">-620</value>
+			<value level="14">-640</value>
+			<value level="15">-660</value>
+			<value level="16">-680</value>
+			<value level="17">-700</value>
+			<value level="18">-720</value>
+			<value level="19">-740</value>
+			<value level="20">-760</value>
+			<value level="21">-770</value>
+			<value level="22">-780</value>
+			<value level="23">-790</value>
+			<value level="24">-800</value>
+			<value level="25">-810</value>
+			<value level="26">-820</value>
+			<value level="27">-830</value>
+			<value level="28">-840</value>
+			<value level="29">-850</value>
+			<value level="30">-860</value>
+			<value level="31">-870</value>
+			<value level="32">-880</value>
+			<value level="33">-890</value>
+			<value level="34">-900</value>
+			<value level="35">-910</value>
+		</effectPoint>
+		<effectRange>1200</effectRange>
+		<magicLevel>
+			<value level="1">20</value>
+			<value level="2">24</value>
+			<value level="3">28</value>
+			<value level="4">32</value>
+			<value level="5">36</value>
+			<value level="6">40</value>
+			<value level="7">43</value>
+			<value level="8">46</value>
+			<value level="9">49</value>
+			<value level="10">52</value>
+			<value level="11">55</value>
+			<value level="12">58</value>
+			<value level="13">61</value>
+			<value level="14">63</value>
+			<value level="15">65</value>
+			<value level="16">67</value>
+			<value level="17">69</value>
+			<value level="18">71</value>
+			<value level="19">73</value>
+			<value level="20">75</value>
+			<value level="21">76</value>
+			<value level="22">77</value>
+			<value level="23">78</value>
+			<value level="24">79</value>
+			<value level="25">80</value>
+			<value level="26">81</value>
+			<value level="27">82</value>
+			<value level="28">83</value>
+			<value level="29">84</value>
+			<value level="30">85</value>
+			<value level="31">86</value>
+			<value level="32">87</value>
+			<value level="33">88</value>
+			<value level="34">89</value>
+			<value level="35">90</value>
+		</magicLevel>
+		<mpConsume>
+			<value level="1">14</value>
+			<value level="2">18</value>
+			<value level="3">22</value>
+			<value level="4">25</value>
+			<value level="5">29</value>
+			<value level="6">32</value>
+			<value level="7">36</value>
+			<value level="8">39</value>
+			<value level="9">41</value>
+			<value level="10">44</value>
+			<value level="11">47</value>
+			<value level="12">49</value>
+			<value level="13">53</value>
+			<value level="14">55</value>
+			<value level="15">56</value>
+			<value level="16">58</value>
+			<value level="17">60</value>
+			<value level="18">62</value>
+			<value level="19">64</value>
+			<value level="20">65</value>
+			<value level="21">66</value>
+			<value level="22">67</value>
+			<value level="23">68</value>
+			<value level="24">69</value>
+			<value level="25">70</value>
+			<value level="26">72</value>
+			<value level="27">72</value>
+			<value level="28">73</value>
+			<value level="29">74</value>
+			<value level="30">75</value>
+			<value level="31">76</value>
+			<value level="32">77</value>
+			<value level="33">78</value>
+			<value level="34">79</value>
+			<value level="35">80</value>
+		</mpConsume>
 		<operateType>A1</operateType>
+		<reuseDelay>1000</reuseDelay>
+		<nextAction>ATTACK</nextAction>
+		<magicCriticalRate>5</magicCriticalRate>
+		<basicProperty>PHYSICAL</basicProperty>
+		<targetType>ENEMY</targetType>
+		<affectScope>SINGLE</affectScope>
+		<conditions>
+			<condition name="EquipWeapon">
+				<weaponType>
+					<item>PISTOLS</item>
+				</weaponType>
+			</condition>
+		</conditions>
+		<effects>
+			<effect name="TriggerSkillByDualRange">
+				<closeSkill>47096</closeSkill>
+				<rangeSkill>47097</rangeSkill>
+				<targetType>ENEMY</targetType>
+				<distance>100</distance>
+			</effect>
+		</effects>
 	</skill>
 	<skill id="47096" toLevel="35" name="Transcendent Triple Blow">
 		<icon>icon.triple_impact</icon>
+		<castRange>100</castRange>
+		<effectRange>900</effectRange>
+		<affectLimit>5-12</affectLimit>
+		<affectRange>300</affectRange>
+		<basicProperty>PHYSICAL</basicProperty>
+		<hitTime>2000</hitTime>
+		<isTriggeredSkill>true</isTriggeredSkill>
+		<isHidingMessages>true</isHidingMessages>
+		<reuseDelay>1000</reuseDelay>
 		<operateType>A1</operateType>
+		<magicCriticalRate>5</magicCriticalRate>
+		<targetType>ENEMY</targetType>
+		<affectScope>RANGE</affectScope>
+		<affectObject>NOT_FRIEND</affectObject>
+		<effects>
+			<effect name="PhysicalAttack">
+				<power>
+					<value level="1">315</value>
+					<value level="2">371</value>
+					<value level="3">427</value>
+					<value level="4">483</value>
+					<value level="5">763</value>
+					<value level="6">1001</value>
+					<value level="7">1183</value>
+					<value level="8">1367</value>
+					<value level="9">1553</value>
+					<value level="10">1742</value>
+					<value level="11">1933</value>
+					<value level="12">2126</value>
+					<value level="13">2321</value>
+					<value level="14">2452</value>
+					<value level="15">2584</value>
+					<value level="16">2717</value>
+					<value level="17">2850</value>
+					<value level="18">2985</value>
+					<value level="19">3120</value>
+					<value level="20">3255</value>
+					<value level="21">3314</value>
+					<value level="22">3369</value>
+					<value level="23">3423</value>
+					<value level="24">3478</value>
+					<value level="25">3533</value>
+					<value level="26">3589</value>
+					<value level="27">3644</value>
+					<value level="28">3700</value>
+					<value level="29">3756</value>
+					<value level="30">3812</value>
+					<value level="31">3868</value>
+					<value level="32">3925</value>
+					<value level="33">3982</value>
+					<value level="34">4039</value>
+					<value level="35">4096</value>
+				</power>
+				<criticalChance>25</criticalChance>
+				<overHit>true</overHit>
+				<critical>true</critical>
+			</effect>
+			<effect name="PhysicalAttack">
+				<power>
+					<value level="1">315</value>
+					<value level="2">371</value>
+					<value level="3">427</value>
+					<value level="4">483</value>
+					<value level="5">763</value>
+					<value level="6">1001</value>
+					<value level="7">1183</value>
+					<value level="8">1367</value>
+					<value level="9">1553</value>
+					<value level="10">1742</value>
+					<value level="11">1933</value>
+					<value level="12">2126</value>
+					<value level="13">2321</value>
+					<value level="14">2452</value>
+					<value level="15">2584</value>
+					<value level="16">2717</value>
+					<value level="17">2850</value>
+					<value level="18">2985</value>
+					<value level="19">3120</value>
+					<value level="20">3255</value>
+					<value level="21">3314</value>
+					<value level="22">3369</value>
+					<value level="23">3423</value>
+					<value level="24">3478</value>
+					<value level="25">3533</value>
+					<value level="26">3589</value>
+					<value level="27">3644</value>
+					<value level="28">3700</value>
+					<value level="29">3756</value>
+					<value level="30">3812</value>
+					<value level="31">3868</value>
+					<value level="32">3925</value>
+					<value level="33">3982</value>
+					<value level="34">4039</value>
+					<value level="35">4096</value>
+				</power>
+				<criticalChance>25</criticalChance>
+				<overHit>true</overHit>
+				<critical>true</critical>
+			</effect>
+			<effect name="PhysicalAttack">
+				<power>
+					<value level="1">315</value>
+					<value level="2">371</value>
+					<value level="3">427</value>
+					<value level="4">483</value>
+					<value level="5">763</value>
+					<value level="6">1001</value>
+					<value level="7">1183</value>
+					<value level="8">1367</value>
+					<value level="9">1553</value>
+					<value level="10">1742</value>
+					<value level="11">1933</value>
+					<value level="12">2126</value>
+					<value level="13">2321</value>
+					<value level="14">2452</value>
+					<value level="15">2584</value>
+					<value level="16">2717</value>
+					<value level="17">2850</value>
+					<value level="18">2985</value>
+					<value level="19">3120</value>
+					<value level="20">3255</value>
+					<value level="21">3314</value>
+					<value level="22">3369</value>
+					<value level="23">3423</value>
+					<value level="24">3478</value>
+					<value level="25">3533</value>
+					<value level="26">3589</value>
+					<value level="27">3644</value>
+					<value level="28">3700</value>
+					<value level="29">3756</value>
+					<value level="30">3812</value>
+					<value level="31">3868</value>
+					<value level="32">3925</value>
+					<value level="33">3982</value>
+					<value level="34">4039</value>
+					<value level="35">4096</value>
+				</power>
+				<criticalChance>25</criticalChance>
+				<overHit>true</overHit>
+			</effect>
+		</effects>
 	</skill>
 	<skill id="47097" toLevel="35" name="Transcendent Triple Blow">
 		<icon>icon.triple_impact</icon>
+		<castRange>600</castRange>
+		<effectRange>1200</effectRange>
+		<affectLimit>5-12</affectLimit>
+		<affectRange>300</affectRange>
+		<basicProperty>PHYSICAL</basicProperty>
+		<hitTime>2000</hitTime>
+		<isTriggeredSkill>true</isTriggeredSkill>
+		<isHidingMessages>true</isHidingMessages>
+		<reuseDelay>1000</reuseDelay>
 		<operateType>A1</operateType>
+		<magicCriticalRate>5</magicCriticalRate>
+		<targetType>ENEMY</targetType>
+		<affectScope>RANGE</affectScope>
+		<affectObject>NOT_FRIEND</affectObject>
+		<effects>
+			<effect name="PhysicalAttack">
+				<power>
+					<value level="1">315</value>
+					<value level="2">371</value>
+					<value level="3">427</value>
+					<value level="4">483</value>
+					<value level="5">763</value>
+					<value level="6">1001</value>
+					<value level="7">1183</value>
+					<value level="8">1367</value>
+					<value level="9">1553</value>
+					<value level="10">1742</value>
+					<value level="11">1933</value>
+					<value level="12">2126</value>
+					<value level="13">2321</value>
+					<value level="14">2452</value>
+					<value level="15">2584</value>
+					<value level="16">2717</value>
+					<value level="17">2850</value>
+					<value level="18">2985</value>
+					<value level="19">3120</value>
+					<value level="20">3255</value>
+					<value level="21">3314</value>
+					<value level="22">3369</value>
+					<value level="23">3423</value>
+					<value level="24">3478</value>
+					<value level="25">3533</value>
+					<value level="26">3589</value>
+					<value level="27">3644</value>
+					<value level="28">3700</value>
+					<value level="29">3756</value>
+					<value level="30">3812</value>
+					<value level="31">3868</value>
+					<value level="32">3925</value>
+					<value level="33">3982</value>
+					<value level="34">4039</value>
+					<value level="35">4096</value>
+				</power>
+				<criticalChance>25</criticalChance>
+				<overHit>true</overHit>
+			</effect>
+			<effect name="PhysicalAttack">
+				<power>
+					<value level="1">315</value>
+					<value level="2">371</value>
+					<value level="3">427</value>
+					<value level="4">483</value>
+					<value level="5">763</value>
+					<value level="6">1001</value>
+					<value level="7">1183</value>
+					<value level="8">1367</value>
+					<value level="9">1553</value>
+					<value level="10">1742</value>
+					<value level="11">1933</value>
+					<value level="12">2126</value>
+					<value level="13">2321</value>
+					<value level="14">2452</value>
+					<value level="15">2584</value>
+					<value level="16">2717</value>
+					<value level="17">2850</value>
+					<value level="18">2985</value>
+					<value level="19">3120</value>
+					<value level="20">3255</value>
+					<value level="21">3314</value>
+					<value level="22">3369</value>
+					<value level="23">3423</value>
+					<value level="24">3478</value>
+					<value level="25">3533</value>
+					<value level="26">3589</value>
+					<value level="27">3644</value>
+					<value level="28">3700</value>
+					<value level="29">3756</value>
+					<value level="30">3812</value>
+					<value level="31">3868</value>
+					<value level="32">3925</value>
+					<value level="33">3982</value>
+					<value level="34">4039</value>
+					<value level="35">4096</value>
+				</power>
+				<criticalChance>25</criticalChance>
+				<overHit>true</overHit>
+			</effect>
+			<effect name="PhysicalAttack">
+				<power>
+					<value level="1">315</value>
+					<value level="2">371</value>
+					<value level="3">427</value>
+					<value level="4">483</value>
+					<value level="5">763</value>
+					<value level="6">1001</value>
+					<value level="7">1183</value>
+					<value level="8">1367</value>
+					<value level="9">1553</value>
+					<value level="10">1742</value>
+					<value level="11">1933</value>
+					<value level="12">2126</value>
+					<value level="13">2321</value>
+					<value level="14">2452</value>
+					<value level="15">2584</value>
+					<value level="16">2717</value>
+					<value level="17">2850</value>
+					<value level="18">2985</value>
+					<value level="19">3120</value>
+					<value level="20">3255</value>
+					<value level="21">3314</value>
+					<value level="22">3369</value>
+					<value level="23">3423</value>
+					<value level="24">3478</value>
+					<value level="25">3533</value>
+					<value level="26">3589</value>
+					<value level="27">3644</value>
+					<value level="28">3700</value>
+					<value level="29">3756</value>
+					<value level="30">3812</value>
+					<value level="31">3868</value>
+					<value level="32">3925</value>
+					<value level="33">3982</value>
+					<value level="34">4039</value>
+					<value level="35">4096</value>
+				</power>
+				<criticalChance>25</criticalChance>
+				<overHit>true</overHit>
+			</effect>
+		</effects>
 	</skill>
 </list>

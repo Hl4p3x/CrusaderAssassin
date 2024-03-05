@@ -2851,7 +2851,7 @@
 		<affectScope>SINGLE</affectScope>
 	</skill>
 	<skill id="5794" toLevel="1" name="Decrease Speed">
-		<!-- Immediately target's Speed -30%. -->
+		<!-- Momentarily the target's Speed -30%. -->
 		<icon>icon.skill1160</icon>
 		<abnormalLevel>3</abnormalLevel>
 		<abnormalTime>60</abnormalTime>
@@ -2904,7 +2904,7 @@
 		<affectScope>SINGLE</affectScope>
 	</skill>
 	<skill id="5796" toLevel="1" name="Decrease Speed">
-		<!-- Immediately target's Speed -30%. -->
+		<!-- Momentarily the target's Speed -30%. -->
 		<icon>icon.skill1160</icon>
 		<abnormalLevel>3</abnormalLevel>
 		<abnormalTime>60</abnormalTime>

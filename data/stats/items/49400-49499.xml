@@ -419,7 +419,7 @@
 		<set name="is_freightable" val="true" />
 	</item>
 	<item id="49421" name="Package: Cube of Sayha (30-day)" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.shirt_special_box_i03" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -436,7 +436,7 @@
 		</capsuled_items>
 	</item>
 	<item id="49422" name="Package: Cube of Sayha (90-day)" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.shirt_special_box_i03" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -530,7 +530,7 @@
 		<set name="is_sellable" val="false" />
 	</item>
 	<item id="49434" name="Sayha's Treasure Chest" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.etc_ev_kalie_treasure_box" />
 		<set name="default_action" val="SKILL_REDUCE" />
 		<set name="material" val="FISH" />
@@ -804,7 +804,7 @@
 		</stats>
 	</item>
 	<item id="49446" name="Blue Mackerel Chest: One-handed Sword" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.etc_raid_d_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -817,7 +817,7 @@
 		</capsuled_items>
 	</item>
 	<item id="49447" name="Trumpetfish Chest: Dagger" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.etc_raid_d_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -830,7 +830,7 @@
 		</capsuled_items>
 	</item>
 	<item id="49448" name="Shark Chest: Two-handed Sword" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.etc_raid_d_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -843,7 +843,7 @@
 		</capsuled_items>
 	</item>
 	<item id="49449" name="Squid Chest: Spear" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.etc_raid_d_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -856,7 +856,7 @@
 		</capsuled_items>
 	</item>
 	<item id="49450" name="Sea Horse Chest: Two-handed Magic Blunt Weapon" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.etc_raid_d_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -869,7 +869,7 @@
 		</capsuled_items>
 	</item>
 	<item id="49451" name="Lobster Chest: Fist Weapon" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.etc_raid_d_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -882,7 +882,7 @@
 		</capsuled_items>
 	</item>
 	<item id="49452" name="Giant Crab Chest: Bow" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.etc_raid_d_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -895,7 +895,7 @@
 		</capsuled_items>
 	</item>
 	<item id="49453" name="Turtle Chest: Shield" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.etc_raid_d_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -908,7 +908,7 @@
 		</capsuled_items>
 	</item>
 	<item id="49454" name="Blue Mackerel Chest: Dual Sword" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.etc_raid_d_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -921,7 +921,7 @@
 		</capsuled_items>
 	</item>
 	<item id="49455" name="Blue Mackerel Chest: One-handed Blunt Weapon" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.etc_raid_d_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -934,7 +934,7 @@
 		</capsuled_items>
 	</item>
 	<item id="49456" name="Blade Spirit Chest (5 pcs.)" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.etc_equip_item_box_i02" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -1050,7 +1050,7 @@
 		</skills>
 	</item>
 	<item id="49463" name="Fish Stew - Vampiric Rage Lv. 1" type="EtcItem">
-		<!-- Applies a buff when used. <Buff effect>. A chance to absorb 6% of the inflicted damage as HP. Duration: 20 min. -->
+		<!-- Applies a buff when used. <Buff effect>. With a certain chance, absorbs 6% of the inflicted damage as HP. Duration: 20 min. -->
 		<set name="icon" val="icon.fish_stew_buff" />
 		<set name="default_action" val="SKILL_REDUCE" />
 		<set name="material" val="PAPER" />
@@ -1184,7 +1184,7 @@
 		</skills>
 	</item>
 	<item id="49471" name="Fire Dragon Pendant Pack" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.bm_pendant_pve_box" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -1198,7 +1198,7 @@
 		</capsuled_items>
 	</item>
 	<item id="49472" name="Earth Dragon Pendant Pack" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.bm_pendant_pvp_box" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -1212,7 +1212,7 @@
 		</capsuled_items>
 	</item>
 	<item id="49473" name="Mr. K's Hand of God Gift Basket" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.mrk_basket_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -1397,7 +1397,7 @@
 		</skills>
 	</item>
 	<item id="49487" name="Soulshot Ticket (Tradable within account)" additionalName="Sealed" type="EtcItem">
-		<!-- Can be exchanged by the Game Assistant for Soulshots, Blessed Spiritshots and Beast Soulshots/ Spiritshots. -->
+		<!-- Can be exchanged for Soulshots and Blessed Spiritshots through the Game Assistant. -->
 		<set name="icon" val="icon.etc_exchange_ticket_i03" />
 		<set name="material" val="PAPER" />
 		<set name="is_tradable" val="false" />
@@ -1428,7 +1428,7 @@
 		</skills>
 	</item>
 	<item id="49489" name="Chest of Enchant Scroll's Parts" additionalName="Not Available" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.etc_ertheia2" />
 		<set name="default_action" val="PEEL" />
 		<set name="material" val="FISH" />
@@ -1449,7 +1449,7 @@
 		</capsuled_items>
 	</item>
 	<item id="49490" name="Fishing Kit" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.etc_elite_marguene_collection_box_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -1463,11 +1463,11 @@
 		<capsuled_items>
 			<item id="45492" min="1" max="1" chance="100" /> <!-- Fishing Rod - 1-day -->
 			<item id="49487" min="1" max="1" chance="100" /> <!-- Soulshot Ticket (Tradable within account) - Sealed -->
-			<item id="49508" min="720" max="720" chance="100" /> <!-- Normal Bait - Sealed -->
+			<item id="49508" min="720" max="720" chance="100" /> <!-- Common Bait - Sealed -->
 		</capsuled_items>
 	</item>
 	<item id="49491" name="D-grade Weapon Pack" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.etc_raid_e_i01" />
 		<set name="default_action" val="SKILL_REDUCE" />
 		<set name="material" val="FISH" />
@@ -1495,7 +1495,7 @@
 		</capsuled_items>
 	</item>
 	<item id="49492" name="C-grade Weapon Pack" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.etc_raid_e_i00" />
 		<set name="default_action" val="SKILL_REDUCE" />
 		<set name="material" val="FISH" />
@@ -1546,7 +1546,7 @@
 		</stats>
 	</item>
 	<item id="49494" name="Buff Scroll Chest" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.new_user_box" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -1599,7 +1599,7 @@
 		<set name="time" val="10080" />
 	</item>
 	<item id="49497" name="Hero's Fishing Kit" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.etc_elite_marguene_collection_box_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -1613,11 +1613,11 @@
 		<capsuled_items>
 			<item id="45492" min="1" max="1" chance="100" /> <!-- Fishing Rod - 1-day -->
 			<item id="49487" min="1" max="1" chance="100" /> <!-- Soulshot Ticket (Tradable within account) - Sealed -->
-			<item id="49508" min="720" max="720" chance="100" /> <!-- Normal Bait - Sealed -->
+			<item id="49508" min="720" max="720" chance="100" /> <!-- Common Bait - Sealed -->
 		</capsuled_items>
 	</item>
 	<item id="49498" name="My Teleport Scroll Kit" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.etc_pi_gift_box_i01" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />

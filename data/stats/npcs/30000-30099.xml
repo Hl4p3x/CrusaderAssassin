@@ -267,7 +267,7 @@
 			<height normal="31.45" />
 		</collision>
 	</npc>
-	<npc id="30009" level="70" type="Folk" name="Newbie Helper" title="Tutorial Indicator">
+	<npc id="30009" level="70" type="Folk" name="Newbie Helper" title="Tutorial">
 		<parameters>
 			<param name="MoveAroundSocial" value="0" />
 			<param name="MoveAroundSocial1" value="130" />
@@ -624,7 +624,7 @@
 			<skill id="4045" level="1" /> <!-- Full Magic Attack Resistance -->
 		</skillList>
 	</npc>
-	<npc id="30019" level="70" type="Folk" name="Newbie Helper" title="Tutorial Indicator">
+	<npc id="30019" level="70" type="Folk" name="Newbie Helper" title="Tutorial">
 		<parameters>
 			<param name="MoveAroundSocial" value="0" />
 			<param name="MoveAroundSocial1" value="90" />
@@ -1297,7 +1297,7 @@
 			<height normal="22.5" />
 		</collision>
 	</npc>
-	<npc id="30039" level="75" type="Guard" name="Gilbert" title="Captain">
+	<npc id="30039" level="75" type="Guard" name="Gilbert" title="Guard Captain">
 		<parameters>
 			<param name="MoveAroundSocial" value="0" />
 			<param name="MoveAroundSocial1" value="92" />
@@ -1337,7 +1337,7 @@
 			<height normal="24" />
 		</collision>
 	</npc>
-	<npc id="30040" level="75" type="Guard" name="Leon" title="Guard">
+	<npc id="30040" level="75" type="Guard" name="Rhiannon" title="Guard">
 		<parameters>
 			<param name="MoveAroundSocial" value="0" />
 			<param name="MoveAroundSocial1" value="92" />
@@ -2421,7 +2421,7 @@
 			<height normal="24" />
 		</collision>
 	</npc>
-	<npc id="30071" level="75" type="Guard" name="Lucas" title="Captain">
+	<npc id="30071" level="75" type="Guard" name="Lucas" title="Guard Captain">
 		<parameters>
 			<param name="MoveAroundSocial" value="0" />
 			<param name="MoveAroundSocial1" value="92" />
@@ -3123,7 +3123,7 @@
 			<height normal="22.5" />
 		</collision>
 	</npc>
-	<npc id="30091" level="70" type="Merchant" name="Ellie" title="Accessory Merchant">
+	<npc id="30091" level="70" type="Merchant" name="Eli" title="Accessory Merchant">
 		<parameters>
 			<param name="MoveAroundSocial" value="0" />
 			<param name="MoveAroundSocial1" value="85" />

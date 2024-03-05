@@ -20,7 +20,7 @@
 			<item id="94861" min="1" max="1" chance="1.818182" /> <!-- Spellbook: Tranquility -->
 			<item id="94668" min="1" max="1" chance="1.818182" /> <!-- Spellbook: Pa'agrio's Touch -->
 			<item id="95347" min="1" max="1" chance="1.818182" /> <!-- Spellbook: Rolling Dice -->
-			<item id="95861" min="1" max="1" chance="1.818182" /> <!-- Spellbook: Mechanical Hero -->
+			<item id="95861" min="1" max="1" chance="1.818182" /> <!-- Spellbook: Prime Master Transformation -->
 			<item id="94508" min="1" max="1" chance="1.818182" /> <!-- Spellbook: Cacophony of War -->
 			<item id="94862" min="1" max="1" chance="1.818182" /> <!-- Spellbook: Exclusion -->
 			<item id="94863" min="1" max="1" chance="1.818182" /> <!-- Spellbook: Dark Disruption -->
@@ -59,7 +59,7 @@
 			<item id="93976" min="1" max="1" chance="1.818182" /> <!-- Scroll: Enchant A-grade Weapon - Sealed -->
 			<item id="93977" min="1" max="1" chance="1.818182" /> <!-- Scroll: Enchant A-grade Armor - Sealed -->
 			<item id="91641" min="5" max="5" chance="1.818182" /> <!-- Sayha's Blessing - Sealed -->
-			<item id="91712" min="2" max="2" chance="1.818182" /> <!-- Sayha's Storm Lv. 3 - Sealed -->
+			<item id="91712" min="2" max="2" chance="1.818182" /> <!-- Sayha's Storm - Sealed -->
 			<item id="94269" min="2" max="2" chance="1.818182" /> <!-- Scroll: Boost Attack - Sealed -->
 			<item id="94271" min="2" max="2" chance="1.818182" /> <!-- Scroll: Boost Defense - Sealed -->
 			<item id="91690" min="50" max="50" chance="1.818182" /> <!-- Special HP Recovery Potion - Sealed -->
@@ -319,7 +319,7 @@
 			<item id="95346" min="1" max="1" chance="2.173913" /> <!-- Spellbook: Meteor -->
 			<item id="95347" min="1" max="1" chance="2.173913" /> <!-- Spellbook: Rolling Dice -->
 			<item id="95354" min="1" max="1" chance="2.173913" /> <!-- Spellbook: Dragon Strike -->
-			<item id="95861" min="1" max="1" chance="2.173913" /> <!-- Spellbook: Mechanical Hero -->
+			<item id="95861" min="1" max="1" chance="2.173913" /> <!-- Spellbook: Prime Master Transformation -->
 			<item id="92401" min="1" max="1" chance="2.173913" /> <!-- Spellbook: White Guardian -->
 			<item id="93103" min="1" max="1" chance="2.173913" /> <!-- Spellbook: Divine Beam -->
 			<item id="93384" min="1" max="1" chance="2.173913" /> <!-- Spellbook: Burning Field -->
@@ -329,31 +329,31 @@
 			<item id="93869" min="1" max="1" chance="2.173913" /> <!-- Spellbook: Elemental Burst -->
 			<item id="93870" min="1" max="1" chance="2.173913" /> <!-- Spellbook: Ethereal Strike -->
 			<item id="94137" min="1" max="1" chance="2.173913" /> <!-- Spellbook: Devour -->
-			<item id="94324" min="1" max="1" chance="2.173913" /> <!-- Spellbook: Song of Earth -->
-			<item id="94325" min="1" max="1" chance="2.173913" /> <!-- Spellbook: Song of Hunter -->
-			<item id="94326" min="1" max="1" chance="2.173913" /> <!-- Spellbook: Dance of Warrior -->
-			<item id="94327" min="1" max="1" chance="2.173913" /> <!-- Spellbook: Dance of Fire -->
+			<item id="94324" min="1" max="1" chance="2.173913" /> <!-- Spellbook: Song of Earth Lv. 2 -->
+			<item id="94325" min="1" max="1" chance="2.173913" /> <!-- Spellbook: Song of Hunter Lv. 2 -->
+			<item id="94326" min="1" max="1" chance="2.173913" /> <!-- Spellbook: Dance of Warrior Lv. 2 -->
+			<item id="94327" min="1" max="1" chance="2.173913" /> <!-- Spellbook: Dance of Fire Lv. 2 -->
 			<item id="94497" min="1" max="1" chance="2.173913" /> <!-- Spellbook: Life Force Harmony -->
 			<item id="94499" min="1" max="1" chance="2.173913" /> <!-- Spellbook: Titanic Weapon -->
 			<item id="94500" min="1" max="1" chance="2.173913" /> <!-- Spellbook: Titanic Sweep -->
 			<item id="94501" min="1" max="1" chance="2.173913" /> <!-- Spellbook: Titanic Break -->
-			<item id="94502" min="1" max="1" chance="2.173913" /> <!-- Spellbook: Ogre Spirit Totem -->
-			<item id="94503" min="1" max="1" chance="2.173913" /> <!-- Spellbook: Rabbit Spirit Totem -->
-			<item id="94504" min="1" max="1" chance="2.173913" /> <!-- Spellbook: Puma Spirit Totem -->
+			<item id="94502" min="1" max="1" chance="2.173913" /> <!-- Spellbook: Ogre Spirit Totem Lv. 2 -->
+			<item id="94503" min="1" max="1" chance="2.173913" /> <!-- Spellbook: Rabbit Spirit Totem Lv. 2 -->
+			<item id="94504" min="1" max="1" chance="2.173913" /> <!-- Spellbook: Puma Spirit Totem Lv. 2 -->
 			<item id="94505" min="1" max="1" chance="2.173913" /> <!-- Spellbook: Burning Strike -->
 			<item id="94507" min="1" max="1" chance="2.173913" /> <!-- Spellbook: Armor Break -->
 			<item id="94670" min="1" max="1" chance="2.173913" /> <!-- Spellbook: Debuff Master -->
 			<item id="94671" min="1" max="1" chance="2.173913" /> <!-- Spellbook: Flame Burst -->
 			<item id="94674" min="1" max="1" chance="2.173913" /> <!-- Spellbook: Blood Bond -->
-			<item id="95348" min="1" max="1" chance="2.173913" /> <!-- Spellbook: Song of Wind -->
-			<item id="95349" min="1" max="1" chance="2.173913" /> <!-- Spellbook: Dance of Fury -->
+			<item id="95348" min="1" max="1" chance="2.173913" /> <!-- Spellbook: Song of Wind Lv. 2 -->
+			<item id="95349" min="1" max="1" chance="2.173913" /> <!-- Spellbook: Dance of Fury Lv. 2 -->
 			<item id="95350" min="1" max="1" chance="2.173913" /> <!-- Spellbook: Goring Charge -->
 			<item id="95352" min="1" max="1" chance="2.173913" /> <!-- Spellbook: Elemental Changing -->
 			<item id="95356" min="1" max="1" chance="2.173913" /> <!-- Spellbook: Extra Hit -->
 			<item id="95365" min="1" max="1" chance="2.173913" /> <!-- Spellbook: Elemental Spirit Lv. 4 -->
 			<item id="95856" min="1" max="1" chance="2.173913" /> <!-- Spellbook: Fortune Time -->
 			<item id="95862" min="1" max="1" chance="2.173913" /> <!-- Spellbook: Mechanical Masterpiece -->
-			<item id="95863" min="1" max="1" chance="2.173913" /> <!-- Spellbook: Blacksmith's Attack -->
+			<item id="95863" min="1" max="1" chance="2.173913" /> <!-- Spellbook: Blacksmith' Attack -->
 		</capsuled_items>
 	</item>
 	<item id="95916" name="Lionel Hunter's Appearance - Not Available" additionalName="Test" type="Armor">
@@ -586,7 +586,7 @@
 			<item id="94861" min="1" max="1" chance="1.612903" /> <!-- Spellbook: Tranquility -->
 			<item id="94668" min="1" max="1" chance="1.612903" /> <!-- Spellbook: Pa'agrio's Touch -->
 			<item id="95347" min="1" max="1" chance="1.612903" /> <!-- Spellbook: Rolling Dice -->
-			<item id="95861" min="1" max="1" chance="1.612903" /> <!-- Spellbook: Mechanical Hero -->
+			<item id="95861" min="1" max="1" chance="1.612903" /> <!-- Spellbook: Prime Master Transformation -->
 			<item id="94508" min="1" max="1" chance="1.612903" /> <!-- Spellbook: Cacophony of War -->
 			<item id="94862" min="1" max="1" chance="1.612903" /> <!-- Spellbook: Exclusion -->
 			<item id="94863" min="1" max="1" chance="1.612903" /> <!-- Spellbook: Dark Disruption -->
@@ -891,7 +891,7 @@
 		</capsuled_items>
 	</item>
 	<item id="95939" name="Random Craft: Create +12 Yaksa Mace" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.weapon_yaksa_mace_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -909,7 +909,7 @@
 		</capsuled_items>
 	</item>
 	<item id="95940" name="Random Craft: Create +12 Saber Tooth" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.weapon_invincible_blade_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -927,7 +927,7 @@
 		</capsuled_items>
 	</item>
 	<item id="95941" name="Random Craft: Create +0 ~ +5 Zubei's Breastplate" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.armor_t64_u_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -955,7 +955,7 @@
 		</capsuled_items>
 	</item>
 	<item id="95942" name="Random Craft: Create +0 ~ +5 Blue Wolf Breastplate" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.armor_t68_u_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -983,7 +983,7 @@
 		</capsuled_items>
 	</item>
 	<item id="95943" name="Random Craft: Create +0 ~ +5 Zubei's Gaiters" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.armor_t64_l_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -1011,7 +1011,7 @@
 		</capsuled_items>
 	</item>
 	<item id="95944" name="Random Craft: Create +0 ~ +5 Avadon Breastplate" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.armor_t66_u_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -1039,7 +1039,7 @@
 		</capsuled_items>
 	</item>
 	<item id="95945" name="Random Craft: Create +0 ~ +5 Avadon Gaiters" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.armor_t66_l_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -1067,7 +1067,7 @@
 		</capsuled_items>
 	</item>
 	<item id="95946" name="Random Craft: Create +0 ~ +5 Blue Wolf Gaiters" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.armor_t68_l_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -1095,7 +1095,7 @@
 		</capsuled_items>
 	</item>
 	<item id="95947" name="Random Craft: Create +0 ~ +5 Doom Plate Armor" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.armor_t71_ul_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -1123,7 +1123,7 @@
 		</capsuled_items>
 	</item>
 	<item id="95948" name="Random Craft: Create +0 ~ +5 Zubei's Leather Shirt" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.armor_t65_u_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -1151,7 +1151,7 @@
 		</capsuled_items>
 	</item>
 	<item id="95949" name="Random Craft: Create +0 ~ +5 Zubei's Leather Gaiters" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.armor_t65_l_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -1179,7 +1179,7 @@
 		</capsuled_items>
 	</item>
 	<item id="95950" name="Random Craft: Create +0 ~ +5 Avadon Leather Armor" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.armor_t67_ul_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -1207,7 +1207,7 @@
 		</capsuled_items>
 	</item>
 	<item id="95951" name="Random Craft: Create +0 ~ +5 Blue Wolf Leather Armor" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.armor_t69_ul_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -1235,7 +1235,7 @@
 		</capsuled_items>
 	</item>
 	<item id="95952" name="Random Craft: Create +0 ~ +5 Doom Leather Armor" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.armor_t72_ul_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -1263,7 +1263,7 @@
 		</capsuled_items>
 	</item>
 	<item id="95953" name="Random Craft: Create +0 ~ +5 Zubei's Tunic" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.armor_t56_u_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -1291,7 +1291,7 @@
 		</capsuled_items>
 	</item>
 	<item id="95954" name="Random Craft: Create +0 ~ +5 Blue Wolf Tunic" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.armor_t70_u_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -1319,7 +1319,7 @@
 		</capsuled_items>
 	</item>
 	<item id="95955" name="Random Craft: Create +0 ~ +5 Doom Tunic" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.armor_t73_u_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -1347,7 +1347,7 @@
 		</capsuled_items>
 	</item>
 	<item id="95956" name="Random Craft: Create +0 ~ +5 Zubei's Stockings" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.armor_t56_l_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -1375,7 +1375,7 @@
 		</capsuled_items>
 	</item>
 	<item id="95957" name="Random Craft: Create +0 ~ +5 Blue Wolf Stockings" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.armor_t70_l_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -1403,7 +1403,7 @@
 		</capsuled_items>
 	</item>
 	<item id="95958" name="Random Craft: Create +0 ~ +5 Doom Stockings" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.armor_t73_l_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -1431,7 +1431,7 @@
 		</capsuled_items>
 	</item>
 	<item id="95959" name="Random Craft: Create +0 ~ +5 Avadon Robe" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.armor_t59_ul_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -1459,7 +1459,7 @@
 		</capsuled_items>
 	</item>
 	<item id="95960" name="Random Craft: Create +0 ~ +5 Zubei's Gauntlets (Heavy)" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.armor_t64_g_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -1487,7 +1487,7 @@
 		</capsuled_items>
 	</item>
 	<item id="95961" name="Random Craft: Create +0 ~ +5 Zubei's Gauntlets (Light)" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.armor_t65_g_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -1515,7 +1515,7 @@
 		</capsuled_items>
 	</item>
 	<item id="95962" name="Random Craft: Create +0 ~ +5 Zubei's Gauntlets (Robe)" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.armor_t56_g_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -1543,7 +1543,7 @@
 		</capsuled_items>
 	</item>
 	<item id="95963" name="Random Craft: Create +0 ~ +5 Avadon Gloves (Heavy)" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.armor_t66_g_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -1571,7 +1571,7 @@
 		</capsuled_items>
 	</item>
 	<item id="95964" name="Random Craft: Create +0 ~ +5 Avadon Gloves (Light)" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.armor_t67_g_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -1599,7 +1599,7 @@
 		</capsuled_items>
 	</item>
 	<item id="95965" name="Random Craft: Create +0 ~ +5 Avadon Gloves (Robe)" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.armor_t59_g_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -1627,7 +1627,7 @@
 		</capsuled_items>
 	</item>
 	<item id="95966" name="Random Craft: Create +0 ~ +5 Blue Wolf Gloves (Heavy)" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.armor_t68_g_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -1655,7 +1655,7 @@
 		</capsuled_items>
 	</item>
 	<item id="95967" name="Random Craft: Create +0 ~ +5 Blue Wolf Gloves (Light)" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.armor_t69_g_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -1683,7 +1683,7 @@
 		</capsuled_items>
 	</item>
 	<item id="95968" name="Random Craft: Create +0 ~ +5 Blue Wolf Gloves (Robe)" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.armor_t70_g_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -1711,7 +1711,7 @@
 		</capsuled_items>
 	</item>
 	<item id="95969" name="Random Craft: Create +0 ~ +5 Doom Gloves (Heavy)" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.armor_t71_g_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -1739,7 +1739,7 @@
 		</capsuled_items>
 	</item>
 	<item id="95970" name="Random Craft: Create +0 ~ +5 Doom Gloves (Light)" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.armor_t72_g_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -1767,7 +1767,7 @@
 		</capsuled_items>
 	</item>
 	<item id="95971" name="Random Craft: Create +0 ~ +5 Doom Gloves (Robe)" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.armor_t73_g_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -1795,7 +1795,7 @@
 		</capsuled_items>
 	</item>
 	<item id="95972" name="Random Craft: Create +0 ~ +5 Zubei's Boots (Heavy)" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.armor_t64_b_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -1823,7 +1823,7 @@
 		</capsuled_items>
 	</item>
 	<item id="95973" name="Random Craft: Create +0 ~ +5 Zubei's Boots (Light)" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.armor_t65_b_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -1851,7 +1851,7 @@
 		</capsuled_items>
 	</item>
 	<item id="95974" name="Random Craft: Create +0 ~ +5 Zubei's Boots (Robe)" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.armor_t56_b_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -1879,7 +1879,7 @@
 		</capsuled_items>
 	</item>
 	<item id="95975" name="Random Craft: Create +0 ~ +5 Avadon Boots (Heavy)" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.armor_t66_b_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -1907,7 +1907,7 @@
 		</capsuled_items>
 	</item>
 	<item id="95976" name="Random Craft: Create +0 ~ +5 Avadon Boots (Light)" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.armor_t67_b_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -1935,7 +1935,7 @@
 		</capsuled_items>
 	</item>
 	<item id="95977" name="Random Craft: Create +0 ~ +5 Avadon Boots (Robe)" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.armor_t59_b_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -1963,7 +1963,7 @@
 		</capsuled_items>
 	</item>
 	<item id="95978" name="Random Craft: Create +0 ~ +5 Blue Wolf Boots (Heavy)" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.armor_t68_b_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -1991,7 +1991,7 @@
 		</capsuled_items>
 	</item>
 	<item id="95979" name="Random Craft: Create +0 ~ +5 Blue Wolf Boots (Light)" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.armor_t69_b_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -2019,7 +2019,7 @@
 		</capsuled_items>
 	</item>
 	<item id="95980" name="Random Craft: Create +0 ~ +5 Blue Wolf Boots (Robe)" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.armor_t70_b_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -2047,7 +2047,7 @@
 		</capsuled_items>
 	</item>
 	<item id="95981" name="Random Craft: Create +0 ~ +5 Doom Boots (Heavy)" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.armor_t71_b_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -2075,7 +2075,7 @@
 		</capsuled_items>
 	</item>
 	<item id="95982" name="Random Craft: Create +0 ~ +5 Doom Boots (Light)" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.armor_t72_b_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -2103,7 +2103,7 @@
 		</capsuled_items>
 	</item>
 	<item id="95983" name="Random Craft: Create +0 ~ +5 Doom Boots (Robe)" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.armor_t73_b_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -2131,7 +2131,7 @@
 		</capsuled_items>
 	</item>
 	<item id="95984" name="Random Craft: Create +0 ~ +5 Avadon Circlet (Heavy)" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.armor_leather_helmet_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -2159,7 +2159,7 @@
 		</capsuled_items>
 	</item>
 	<item id="95985" name="Random Craft: Create +0 ~ +5 Avadon Circlet (Light)" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.armor_leather_helmet_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -2187,7 +2187,7 @@
 		</capsuled_items>
 	</item>
 	<item id="95986" name="Random Craft: Create +0 ~ +5 Avadon Circlet (Robe)" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.armor_leather_helmet_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -2215,7 +2215,7 @@
 		</capsuled_items>
 	</item>
 	<item id="95987" name="Random Craft: Create +0 ~ +5 Zubei's Helmet (Heavy)" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.armor_helmet_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -2243,7 +2243,7 @@
 		</capsuled_items>
 	</item>
 	<item id="95988" name="Random Craft: Create +0 ~ +5 Zubei's Helmet (Light)" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.armor_helmet_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -2271,7 +2271,7 @@
 		</capsuled_items>
 	</item>
 	<item id="95989" name="Random Craft: Create +0 ~ +5 Zubei's Helmet (Robe)" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.armor_helmet_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -2299,7 +2299,7 @@
 		</capsuled_items>
 	</item>
 	<item id="95990" name="Random Craft: Create +0 ~ +5 Blue Wolf Helmet (Heavy)" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.armor_leather_helmet_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -2327,7 +2327,7 @@
 		</capsuled_items>
 	</item>
 	<item id="95991" name="Random Craft: Create +0 ~ +5 Blue Wolf Helmet (Light)" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.armor_leather_helmet_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -2355,7 +2355,7 @@
 		</capsuled_items>
 	</item>
 	<item id="95992" name="Random Craft: Create +0 ~ +5 Blue Wolf Helmet (Robe)" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.armor_leather_helmet_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -2383,7 +2383,7 @@
 		</capsuled_items>
 	</item>
 	<item id="95993" name="Random Craft: Create +0 ~ +5 Doom Helmet (Heavy)" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.armor_leather_helmet_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -2411,7 +2411,7 @@
 		</capsuled_items>
 	</item>
 	<item id="95994" name="Random Craft: Create +0 ~ +5 Doom Helmet (Light)" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.armor_leather_helmet_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -2439,7 +2439,7 @@
 		</capsuled_items>
 	</item>
 	<item id="95995" name="Random Craft: Create +0 ~ +5 Doom Helmet (Robe)" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.armor_leather_helmet_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -2467,7 +2467,7 @@
 		</capsuled_items>
 	</item>
 	<item id="95996" name="Random Craft: Create +0 ~ +5 Zubei's Shield" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.shield_shrnoens_shield_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -2495,7 +2495,7 @@
 		</capsuled_items>
 	</item>
 	<item id="95997" name="Random Craft: Create +0 ~ +5 Avadon Shield" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.shield_avadon_shield_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -2523,7 +2523,7 @@
 		</capsuled_items>
 	</item>
 	<item id="95998" name="Random Craft: Create +0 ~ +5 Doom Shield" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.shield_doom_shield_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -2551,7 +2551,7 @@
 		</capsuled_items>
 	</item>
 	<item id="95999" name="Random Craft: Create +0 ~ +7 Ring of Insolence" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.ring_of_oman" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />

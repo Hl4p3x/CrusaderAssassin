@@ -153,7 +153,7 @@
 		<set name="is_stackable" val="true" />
 	</item>
 	<item id="90017" name="A-grade Weapon Ingredient Pack" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.etc_box_of_adventure_1_i00" />
 		<set name="default_action" val="SKILL_REDUCE_ON_SKILL_SUCCESS" />
 		<set name="material" val="PAPER" />
@@ -183,7 +183,7 @@
 		<set name="is_stackable" val="true" />
 	</item>
 	<item id="90020" name="Best Dye Pack" additionalName="3rd Class" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.etc_box_of_adventure_4_i00" />
 		<set name="default_action" val="SKILL_REDUCE_ON_SKILL_SUCCESS" />
 		<set name="material" val="FISH" />
@@ -334,7 +334,7 @@
 		<set name="is_sellable" val="false" />
 	</item>
 	<item id="90032" name="Elixir of Life" type="EtcItem">
-		<!-- Restores a large amount of HP. Reuse Time: 3 minutes. -->
+		<!-- Recovers a large amount of HP. Cooldown: 3 min. -->
 		<set name="icon" val="icon.etc_super_hp_potion_i00" />
 		<set name="default_action" val="SKILL_REDUCE" />
 		<set name="material" val="LIQUID" />
@@ -343,7 +343,7 @@
 		<set name="is_stackable" val="true" />
 	</item>
 	<item id="90033" name="Elixir of Mind" type="EtcItem">
-		<!-- Restores a large amount of MP. Reuse Time: 3 minutes. -->
+		<!-- Recovers a large amount of MP. Cooldown: 3 min. -->
 		<set name="icon" val="icon.etc_super_mp_potion_i00" />
 		<set name="default_action" val="SKILL_REDUCE" />
 		<set name="material" val="LIQUID" />
@@ -352,7 +352,7 @@
 		<set name="is_stackable" val="true" />
 	</item>
 	<item id="90034" name="Spellbook Chest - 3rd Class" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.etc_readybox_silver" />
 		<set name="default_action" val="SKILL_REDUCE_ON_SKILL_SUCCESS" />
 		<set name="material" val="FISH" />
@@ -364,7 +364,7 @@
 		</skills>
 	</item>
 	<item id="90035" name="Life Stone Pack" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.event_hero_treasure_box_i00" />
 		<set name="default_action" val="CAPSULE" />
 		<set name="material" val="FISH" />
@@ -472,7 +472,7 @@
 		</skills>
 	</item>
 	<item id="90044" name="Dimensional Blessing" additionalName="Sealed" type="EtcItem">
-		<!-- XP +37 million, SP +1.11 million. -->
+		<!-- XP +37,000,000, SP +111,000. -->
 		<set name="icon" val="icon.etc_blessed_kalie_i00" />
 		<set name="default_action" val="SKILL_REDUCE" />
 		<set name="etcitem_type" val="SCROLL" />
@@ -489,7 +489,7 @@
 		</skills>
 	</item>
 	<item id="90045" name="Magical Tablet" type="EtcItem">
-		<!-- Can be exchanged for Spellbooks and used for learning skills. <font color=bbaa88><Learning skills></font>. Consumed when learning special skills after the 2nd Class Transfer. <font color=bbaa88><Spellbooks exchange></font>. Can be exchanged for a Spellbook for skills after the 3rd Class Transfer by Harmony in Gludio or Lorenzo in Aden. -->
+		<!-- A tablet filled with magic energy. Required for learning some skills. -->
 		<set name="icon" val="icon.etc_hidden_1st_page_i00" />
 		<set name="material" val="CRYSTAL" />
 		<set name="is_stackable" val="true" />
@@ -516,7 +516,7 @@
 		<set name="is_sellable" val="false" />
 	</item>
 	<item id="90049" name="Scroll: Shield of Faith" type="EtcItem">
-		<!-- A scroll for learning the Shield of Faith skill. <Classes>. Phoenix Knight, Hell Knight, Eva's Templar, Shillien Templar. <Skill effect>. Increases party members' P./ M. Def. The character receives some of the damage inflicted to the party. -->
+		<!-- A scroll for learning the Shield of Faith skill. <Classes>. Phoenix Knight, Hell Knight, Eva's Templar, Shillien Templar. <Skill effect>. Increases party members' P./ M. Def. You receive some of the damage inflicted to your party. -->
 		<set name="icon" val="icon.etc_magic_book_black_i00" />
 		<set name="material" val="PAPER" />
 		<set name="is_stackable" val="true" />
@@ -530,7 +530,7 @@
 		<set name="is_sellable" val="false" />
 	</item>
 	<item id="90051" name="Scroll: Insane Crusher" type="EtcItem">
-		<!-- A scroll for learning the Insane Crusher skill. <Class>. Hell Knight. <Skill effect>. Casts a dark curse and unleashes a powerful strike dealing damage to nearby enemies. Cancels at least one of enemy's buffs, and temporarily decreases their Max CP significantly. Decreases Debuff/ Anomaly Resistance and Received Healing. <font color=ff6666>Note!</font>. The skill will be removed after learning a more powerful skill:. - Lunatic Crusher -->
+		<!-- A scroll for learning the Insane Crusher skill. <Class>. Hell Knight. <Skill effect>. Casts a dark curse and unleashes a powerful strike dealing damage to nearby enemies. Cancels at least one of the enemy's buffs, and temporarily decreases their Max CP significantly. Decreases Debuff/ Anomaly Resistance and Received Healing. <font color=ff6666>Note!</font>. The skill will be removed after learning a more powerful skill:. - Lunatic Crusher -->
 		<set name="icon" val="icon.etc_magic_book_black_i00" />
 		<set name="material" val="PAPER" />
 		<set name="is_stackable" val="true" />
@@ -727,7 +727,7 @@
 		<set name="is_sellable" val="false" />
 	</item>
 	<item id="90079" name="Scroll: Spoil Crush" type="EtcItem">
-		<!-- A scroll for learning the Spoil Crush skill. <Class>. Fortune Seeker. <Skill effect>. Causes a change inside the monster while attacking it, and makes it possible to steal valuable items. -->
+		<!-- A scroll for learning the Spoil Crush skill. <Class>. Fortune Seeker. <Skill effect>. Causes a change inside the monster while attacking it, and makes it possible to steal valuable items. <font color=ff6666>Note!</font>. The skill will be removed after learning a more powerful skill:. -Trophy Thief -->
 		<set name="icon" val="icon.etc_magic_book_red_i00" />
 		<set name="material" val="PAPER" />
 		<set name="is_stackable" val="true" />

@@ -154,7 +154,7 @@
 		</effects>
 	</skill>
 	<skill id="47307" toLevel="1" name="Phoenix Shield">
-		<!-- Protects nearby allies with a barrier imbued with the power of Phoenix. For 20 sec., creates <font color="00FF00">the barrier with 5000 HP + 25% of the caster's Max HP</font>. -->
+		<!-- Covers nearby allies by a barrier imbued with the power of Phoenix. For 5 sec., Received damage limit: 5000. For 20 sec., creates <font color="00FF00">the barrier with 5000 HP + 25% of the caster's Max HP</font>. -->
 		<icon>icon.pheonix_shield</icon>
 		<abnormalLevel>1</abnormalLevel>
 		<abnormalTime>20</abnormalTime>
@@ -262,7 +262,7 @@
 		</effects>
 	</skill>
 	<skill id="47310" toLevel="1" name="Shelter">
-		<!-- Creates a safe zone for allies re-directing damage to the caster. For 20 sec., 50% of damage to nearby allies is transferred to the caster. The effect is active only when standing close to the caster. Creates a barrier around the caster with <font color="00FF00">5000 HP + 200% of the caster's Max HP</font>. -->
+		<!-- Creates a safe zone for allies re-directing damage to the caster. For 20 sec., 50% of damage to nearby allies is transferred to the caster. The effect is active only when standing close to the caster. Creates a barrier around the caster with <font color="00FF00">5000 HP + 200% of the caster's Max HP</font>. All received Critical Damage -300 -->
 		<icon>icon.shelter</icon>
 		<abnormalLevel>1</abnormalLevel>
 		<abnormalTime>20</abnormalTime>
@@ -290,7 +290,7 @@
 		</effects>
 	</skill>
 	<skill id="47311" toLevel="1" name="Shelter">
-		<!-- Creates a barrier with <font color="00FF00">5000 HP + 200% of the caster's Max HP</font>. -->
+		<!-- Creates a barrier with <font color="00FF00">5000 HP + 200% of the caster's Max HP</font>. All received Critical Damage -300 -->
 		<icon>icon.shelter</icon>
 		<abnormalLevel>1</abnormalLevel>
 		<abnormalTime>20</abnormalTime>
@@ -327,7 +327,7 @@
 		<operateType>A1</operateType>
 	</skill>
 	<skill id="47313" toLevel="1" name="Condemnation">
-		<!-- <Paralysis skill with fixed cooldown>. Strikes the target with lightning. Attacks nearby enemies paralyzing them for 5 sec. Power 9619. The target's CP -50%. For 10 sec.:. Received Healing -30%. Debuff/ Anomaly Resistance -30%. Ignores Shield Defense. Ignores 25% of the target's defense. Critical. Available only if the distance to the target is 80 or more. -->
+		<!-- <Paralysis skill with fixed cooldown>. Strikes the target with lightning. Attacks nearby enemies paralyzing them for 5 sec. Power 9619. With a 5% chance, deals <font color="FFBB00">an additional attack</font>. The target's CP -50%. For 10 sec.:. Received Healing -30%. Debuff/ Anomaly Resistance -30%. Ignores Shield Defense. Ignores 25% of the target's defense. Critical. Available only if the distance to the target is 80 or more. -->
 		<icon>icon.condemn</icon>
 		<abnormalLevel>1</abnormalLevel>
 		<abnormalTime>5</abnormalTime>
@@ -413,15 +413,26 @@
 	<skill id="47315" toLevel="1" name="Shield of Security">
 		<!-- <Skill with fixed cooldown>. Consumes the caster's HP. Increases the defenses of the caster and their party members. For 20 sec.:. P. Def. +30%. M. Def. +30%. Received Healing +30% -->
 		<icon>icon.shield_of_safety</icon>
+		<staticReuse>true</staticReuse>
 		<abnormalLevel>1</abnormalLevel>
-		<abnormalTime>20</abnormalTime>
-		<effectRange>1000</effectRange>
+		<abnormalTime>
+			<value fromLevel="1" toLevel="1">20</value>
+			<value fromLevel="1" toLevel="1" fromSubLevel="1001" toSubLevel="1001">30</value>
+			<value fromLevel="1" toLevel="1" fromSubLevel="1002" toSubLevel="1002">40</value>
+			<value fromLevel="1" toLevel="1" fromSubLevel="1003" toSubLevel="1003">50</value>
+		</abnormalTime>
+		<effectRange>1200</effectRange>
+		<affectLimit>10-10</affectLimit>
+		<affectRange>1200</affectRange>
 		<hitTime>2000</hitTime>
 		<coolTime>500</coolTime>
 		<magicLevel>85</magicLevel>
 		<hpConsume>2000</hpConsume>
-		<itemConsumeCount>10</itemConsumeCount>
 		<itemConsumeId>3031</itemConsumeId> <!-- Spirit Ore -->
+		<itemConsumeCount>
+			<value level="1">10</value>
+			<value fromLevel="1" toLevel="2" fromSubLevel="1001" toSubLevel="1003">15</value>
+		</itemConsumeCount>
 		<operateType>A2</operateType>
 		<reuseDelay>120000</reuseDelay>
 		<basicProperty>NONE</basicProperty>
@@ -439,8 +450,32 @@
 				<mode>PER</mode>
 			</effect>
 			<effect name="HealEffect">
-				<amount>4</amount>
+				<amount>30</amount>
 				<mode>PER</mode>
+			</effect>
+			<effect name="DefenceCriticalDamage" fromLevel="1" toLevel="1" fromSubLevel="1001" toSubLevel="1003">
+				<amount>
+					<value fromLevel="1" toLevel="1" fromSubLevel="1001" toSubLevel="1001">-80</value>
+					<value fromLevel="1" toLevel="1" fromSubLevel="1002" toSubLevel="1002">-160</value>
+					<value fromLevel="1" toLevel="1" fromSubLevel="1003" toSubLevel="1003">-240</value>
+				</amount>
+				<mode>DIFF</mode>
+			</effect>
+			<effect name="DefencePhysicalSkillCriticalDamage" fromLevel="1" toLevel="1" fromSubLevel="1001" toSubLevel="1003">
+				<amount>
+					<value fromLevel="1" toLevel="1" fromSubLevel="1001" toSubLevel="1001">-80</value>
+					<value fromLevel="1" toLevel="1" fromSubLevel="1002" toSubLevel="1002">-160</value>
+					<value fromLevel="1" toLevel="1" fromSubLevel="1003" toSubLevel="1003">-240</value>
+				</amount>
+				<mode>DIFF</mode>
+			</effect>
+			<effect name="DefenceMagicCriticalDamage" fromLevel="1" toLevel="1" fromSubLevel="1001" toSubLevel="1003">
+				<amount>
+					<value fromLevel="1" toLevel="1" fromSubLevel="1001" toSubLevel="1001">-80</value>
+					<value fromLevel="1" toLevel="1" fromSubLevel="1002" toSubLevel="1002">-160</value>
+					<value fromLevel="1" toLevel="1" fromSubLevel="1003" toSubLevel="1003">-240</value>
+				</amount>
+				<mode>DIFF</mode>
 			</effect>
 		</effects>
 	</skill>
@@ -459,14 +494,24 @@
 		<mpConsume>112</mpConsume>
 		<nextAction>ATTACK</nextAction>
 		<operateType>A1</operateType>
-		<reuseDelay>30000</reuseDelay>
+		<reuseDelay>
+			<value level="1">30000</value>
+			<value toLevel="1" fromLevel="1" toSubLevel="1001" fromSubLevel="1001">25000</value>
+			<value toLevel="1" fromLevel="1" toSubLevel="1002" fromSubLevel="1002">20000</value>
+			<value toLevel="1" fromLevel="1" toSubLevel="1003" fromSubLevel="1003">15000</value>
+		</reuseDelay>
 		<magicCriticalRate>5</magicCriticalRate>
 		<targetType>SELF</targetType>
 		<affectScope>POINT_BLANK</affectScope>
 		<affectObject>NOT_FRIEND</affectObject>
 		<effects>
 			<effect name="PhysicalAttack">
-				<power>9619</power>
+				<power>
+					<value level="1">10580</value>
+					<value toLevel="1" fromLevel="1" toSubLevel="1001" fromSubLevel="1001">11109</value>
+					<value toLevel="1" fromLevel="1" toSubLevel="1002" fromSubLevel="1002">11638</value>
+					<value toLevel="1" fromLevel="1" toSubLevel="1003" fromSubLevel="1003">12167</value>
+				</power>
 				<ignoreShieldDefence>true</ignoreShieldDefence>
 				<pDefMod>0.8</pDefMod>
 				<criticalChance>20</criticalChance>
@@ -517,10 +562,20 @@
 		<coolTime>500</coolTime>
 		<magicLevel>85</magicLevel>
 		<mpConsume>146</mpConsume>
-		<itemConsumeCount>3</itemConsumeCount>
+		<itemConsumeCount>
+			<value level="1">3</value>
+			<value fromLevel="1" toLevel="1" fromSubLevel="1001" toSubLevel="1001">5</value>
+			<value fromLevel="1" toLevel="1" fromSubLevel="1002" toSubLevel="1002">7</value>
+			<value fromLevel="1" toLevel="1" fromSubLevel="1003" toSubLevel="1003">9</value>
+		</itemConsumeCount>
 		<itemConsumeId>3031</itemConsumeId> <!-- Spirit Ore -->
 		<operateType>A2</operateType>
-		<reuseDelay>120000</reuseDelay>
+		<reuseDelay>
+			<value level="1">120000</value>
+			<value fromLevel="1" toLevel="1" fromSubLevel="1001" toSubLevel="1001">105000</value>
+			<value fromLevel="1" toLevel="1" fromSubLevel="1002" toSubLevel="1002">90000</value>
+			<value fromLevel="1" toLevel="1" fromSubLevel="1003" toSubLevel="1003">60000</value>
+		</reuseDelay>
 		<basicProperty>NONE</basicProperty>
 		<magicCriticalRate>5</magicCriticalRate>
 		<targetType>SELF</targetType>
@@ -542,6 +597,30 @@
 				<amount>10</amount>
 				<mode>DIFF</mode>
 			</effect>
+			<effect name="DefenceCriticalRate">
+				<amount>
+					<value fromLevel="1" toLevel="1" fromSubLevel="1001" toSubLevel="1001">-4</value>
+					<value fromLevel="1" toLevel="1" fromSubLevel="1002" toSubLevel="1002">-8</value>
+					<value fromLevel="1" toLevel="1" fromSubLevel="1003" toSubLevel="1003">-12</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="DefencePhysicalSkillCriticalRate">
+				<amount>
+					<value fromLevel="1" toLevel="1" fromSubLevel="1001" toSubLevel="1001">-4</value>
+					<value fromLevel="1" toLevel="1" fromSubLevel="1002" toSubLevel="1002">-8</value>
+					<value fromLevel="1" toLevel="1" fromSubLevel="1003" toSubLevel="1003">-12</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="DefenceMagicCriticalRate">
+				<amount>
+					<value fromLevel="1" toLevel="1" fromSubLevel="1001" toSubLevel="1001">-4</value>
+					<value fromLevel="1" toLevel="1" fromSubLevel="1002" toSubLevel="1002">-8</value>
+					<value fromLevel="1" toLevel="1" fromSubLevel="1003" toSubLevel="1003">-12</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
 		</effects>
 	</skill>
 	<skill id="47319" toLevel="1" name="Mechanical Shock">
@@ -552,50 +631,82 @@
 	<skill id="47320" toLevel="1" name="Shillien's Curse">
 		<!-- <Skill with fixed cooldown>. Deals a heavy blow with 10,580 power. The Shillien spirit applies a curse on nearby enemies. <PvP effect>. With a certain chance, removes up to 3 buffs. Duration: 10 sec. Max HP/ MP/ CP -20%. Skill Power -10%. <PvE effect>. Duration: 10 sec. Sword/ Blunt Resistance -10%. Skill Power -10%. Ignores Shield Defense. Ignores 20% of the target's defense. Critical. -->
 		<icon>icon.curse_of_shilen</icon>
-		<abnormalLevel>1</abnormalLevel>
-		<abnormalTime>10</abnormalTime>
-		<affectLimit>5-10</affectLimit>
-		<affectRange>200</affectRange>
-		<hitTime>1000</hitTime>
-		<coolTime>500</coolTime>
-		<isDebuff>true</isDebuff>
-		<magicLevel>85</magicLevel>
-		<mpConsume>146</mpConsume>
-		<operateType>A2</operateType>
-		<reuseDelay>120000</reuseDelay>
+		<basicProperty>PHYSICAL</basicProperty>
+		<affectRange>250</affectRange>
+		<effectPoint>-1800</effectPoint>
+		<hitTime>1800</hitTime>
+		<mpConsume>112</mpConsume>
+		<itemConsumeCount>3</itemConsumeCount>
+		<itemConsumeId>3031</itemConsumeId>
 		<staticReuse>true</staticReuse>
-		<basicProperty>NONE</basicProperty>
+		<magicLevel>85</magicLevel>
+		<nextAction>ATTACK</nextAction>
+		<operateType>A1</operateType>
+		<reuseDelay>30000</reuseDelay>
 		<magicCriticalRate>5</magicCriticalRate>
 		<targetType>SELF</targetType>
-		<affectScope>RANGE</affectScope>
+		<affectScope>POINT_BLANK</affectScope>
 		<affectObject>NOT_FRIEND</affectObject>
+		<itemConsumeId>3031</itemConsumeId>
+		<itemConsumeCount>
+			<value fromLevel="1" toLevel="1">0</value>
+			<value fromLevel="1" toLevel="1" fromSubLevel="1001" toSubLevel="1003">2</value>
+		</itemConsumeCount>
 		<effects>
-			<effect name="DispelByCategory">
-				<slot>BUFF</slot>
-				<rate>25</rate>
-				<max>3</max>
-			</effect>
-			<effect name="MaxHp">
-				<amount>-20</amount>
-				<mode>PER</mode>
-			</effect>
-			<effect name="MaxMp">
-				<amount>-20</amount>
-				<mode>PER</mode>
-			</effect>
-			<effect name="MaxCp">
-				<amount>-20</amount>
-				<mode>PER</mode>
-			</effect>
-			<effect name="PhysicalSkillPower">
-				<amount>-10</amount>
-				<mode>PER</mode>
-			</effect>
-			<effect name="MagicalSkillPower">
-				<amount>-10</amount>
-				<mode>PER</mode>
+			<effect name="PhysicalAttack">
+				<power>
+					<value level="1">10580</value>
+					<value fromLevel="1" toLevel="1" fromSubLevel="1001" toSubLevel="1001">11109</value>
+					<value fromLevel="1" toLevel="1" fromSubLevel="1002" toSubLevel="1002">11638</value>
+					<value fromLevel="1" toLevel="1" fromSubLevel="1003" toSubLevel="1003">12167</value>
+				</power>
+				<ignoreShieldDefence>true</ignoreShieldDefence>
+				<criticalChance>15</criticalChance>
+				<overHit>true</overHit>
 			</effect>
 		</effects>
+		<pvpEffects>
+			<effect name="CallSkill">
+				<skillId>45550</skillId> <!-- Shillien's Curse -->
+				<skillLevel>1</skillLevel>
+			</effect>
+			<effect name="CallSkill" fromSubLevel="1001" toSubLevel="1001">
+				<skillId>1045550</skillId> <!-- Shillien's Curse -->
+				<skillLevel>1</skillLevel>
+				<skillSubLevel>1001</skillSubLevel>
+			</effect>
+			<effect name="CallSkill" fromSubLevel="1002" toSubLevel="1002">
+				<skillId>2045550</skillId> <!-- Shillien's Curse -->
+				<skillLevel>1</skillLevel>
+				<skillSubLevel>1002</skillSubLevel>
+			</effect>
+			<effect name="CallSkill" fromSubLevel="1003" toSubLevel="1003">
+				<skillId>3045550</skillId> <!-- Shillien's Curse -->
+				<skillLevel>1</skillLevel>
+				<skillSubLevel>1003</skillSubLevel>
+			</effect>
+		</pvpEffects>
+		<pveEffects>
+			<effect name="CallSkill">
+				<skillId>45549</skillId> <!-- Shillien's Curse -->
+				<skillLevel>1</skillLevel>
+			</effect>
+			<effect name="CallSkill" fromSubLevel="1001" toSubLevel="1001">
+				<skillId>1045549</skillId> <!-- Shillien's Curse -->
+				<skillLevel>1</skillLevel>
+				<skillSubLevel>1001</skillSubLevel>
+			</effect>
+			<effect name="CallSkill" fromSubLevel="1002" toSubLevel="1002">
+				<skillId>2045549</skillId> <!-- Shillien's Curse -->
+				<skillLevel>1</skillLevel>
+				<skillSubLevel>1002</skillSubLevel>
+			</effect>
+			<effect name="CallSkill" fromSubLevel="1003" toSubLevel="1003">
+				<skillId>3045549</skillId> <!-- Shillien's Curse -->
+				<skillLevel>1</skillLevel>
+				<skillSubLevel>1003</skillSubLevel>
+			</effect>
+		</pveEffects>
 	</skill>
 	<skill id="47321" toLevel="1" name="Block Sacrifice">
 		<!-- As long as the restriction is active, Shield of Sacrifice cannot be applied. -->
@@ -1372,19 +1483,67 @@
 		<operateType>A1</operateType>
 		<reuseDelay>5000</reuseDelay>
 		<magicCriticalRate>5</magicCriticalRate>
+		<itemConsumeId>3031</itemConsumeId>
+		<itemConsumeCount>
+			<value fromLevel="1" toLevel="5">0</value>
+			<value fromLevel="1" toLevel="5" fromSubLevel="1001" toSubLevel="1003">2</value>
+		</itemConsumeCount>
 		<targetType>ENEMY</targetType>
 		<affectScope>SINGLE</affectScope>
 		<effects>
 			<effect name="FatalBlow">
 				<power>
 					<value level="1">8200</value>
+					<value fromLevel="1" toLevel="1" fromSubLevel="1001" toSubLevel="1001">8528</value>
+					<value fromLevel="1" toLevel="1" fromSubLevel="1002" toSubLevel="1002">8856</value>
+					<value fromLevel="1" toLevel="1" fromSubLevel="1003" toSubLevel="1003">9512</value>
 					<value level="2">9000</value>
+					<value fromLevel="2" toLevel="2" fromSubLevel="1001" toSubLevel="1001">9360</value>
+					<value fromLevel="2" toLevel="2" fromSubLevel="1002" toSubLevel="1002">9720</value>
+					<value fromLevel="2" toLevel="2" fromSubLevel="1003" toSubLevel="1003">10440</value>
 					<value level="3">9300</value>
+					<value fromLevel="3" toLevel="3" fromSubLevel="1001" toSubLevel="1001">9672</value>
+					<value fromLevel="3" toLevel="3" fromSubLevel="1002" toSubLevel="1002">10044</value>
+					<value fromLevel="3" toLevel="3" fromSubLevel="1003" toSubLevel="1003">10788</value>
 					<value level="4">9600</value>
+					<value fromLevel="4" toLevel="4" fromSubLevel="1001" toSubLevel="1001">9984</value>
+					<value fromLevel="4" toLevel="4" fromSubLevel="1002" toSubLevel="1002">10368</value>
+					<value fromLevel="4" toLevel="4" fromSubLevel="1003" toSubLevel="1003">11136</value>
 					<value level="5">10000</value>
+					<value fromLevel="5" toLevel="5" fromSubLevel="1001" toSubLevel="1001">10400</value>
+					<value fromLevel="5" toLevel="5" fromSubLevel="1002" toSubLevel="1002">10800</value>
+					<value fromLevel="5" toLevel="5" fromSubLevel="1003" toSubLevel="1003">11600</value>
 				</power>
 				<criticalChance>30</criticalChance>
 				<chanceBoost>600</chanceBoost>
+			</effect>
+			<effect name="AdditionalPhysicalAttack">
+				<power>
+					<value level="1">8200</value>
+					<value fromLevel="1" toLevel="1" fromSubLevel="1001" toSubLevel="1001">8528</value>
+					<value fromLevel="1" toLevel="1" fromSubLevel="1002" toSubLevel="1002">8856</value>
+					<value fromLevel="1" toLevel="1" fromSubLevel="1003" toSubLevel="1003">9512</value>
+					<value level="2">9000</value>
+					<value fromLevel="2" toLevel="2" fromSubLevel="1001" toSubLevel="1001">9360</value>
+					<value fromLevel="2" toLevel="2" fromSubLevel="1002" toSubLevel="1002">9720</value>
+					<value fromLevel="2" toLevel="2" fromSubLevel="1003" toSubLevel="1003">10440</value>
+					<value level="3">9300</value>
+					<value fromLevel="3" toLevel="3" fromSubLevel="1001" toSubLevel="1001">9672</value>
+					<value fromLevel="3" toLevel="3" fromSubLevel="1002" toSubLevel="1002">10044</value>
+					<value fromLevel="3" toLevel="3" fromSubLevel="1003" toSubLevel="1003">10788</value>
+					<value level="4">9600</value>
+					<value fromLevel="4" toLevel="4" fromSubLevel="1001" toSubLevel="1001">9984</value>
+					<value fromLevel="4" toLevel="4" fromSubLevel="1002" toSubLevel="1002">10368</value>
+					<value fromLevel="4" toLevel="4" fromSubLevel="1003" toSubLevel="1003">11136</value>
+					<value level="5">10000</value>
+					<value fromLevel="5" toLevel="5" fromSubLevel="1001" toSubLevel="1001">10400</value>
+					<value fromLevel="5" toLevel="5" fromSubLevel="1002" toSubLevel="1002">10800</value>
+					<value fromLevel="5" toLevel="5" fromSubLevel="1003" toSubLevel="1003">11600</value>
+				</power>
+				<ignoreShieldDefence>true</ignoreShieldDefence>
+				<pDefMod>0.8</pDefMod>
+				<criticalChance>20</criticalChance>
+				<chance>50</chance>
 			</effect>
 		</effects>
 	</skill>
@@ -1703,7 +1862,7 @@
 		</endEffects>
 	</skill>
 	<skill id="47353" toLevel="1" name="Critical Assault">
-		<!-- Deals three dagger strikes to the enemy. Attacks the target at the front with 12000 power. Applies the <font color="FF8000">Critical Blade</font> effect after the attack. <font color="FF8000">Recovery Decrease</font> is triggered with a certain chance. <Critical Blade></font>. Duration: 10 sec. Received Vital Point Critical Damage +50%. <font color="FF8000"><Recovery Decrease></font>. The effect lasts for 3 sec. HP Recovery -90% after an attack. Critical. In PvP attacks up to 4 targets. In PvE attacks up to 4 targets. -->
+		<!-- Makes three dagger strikes at the enemy. Attacks the target at the front with 12000 power. Applies the <font color="FF8000">Critical Blade</font> effect after the attack. <font color="FF8000">Recovery Decrease</font> is triggered with a certain chance. <font color="FF8000"><Critical Blade></font>. Duration: 10 sec. Received Vital Point Critical Damage +50%. <font color="FF8000"><Recovery Decrease></font>. Duration: 3 sec. HP Recovery -90% after an attack. Critical. In PvP attacks up to 5 targets. In PvE attacks up to 5 targets. -->
 		<icon>icon.skill10508</icon>
 		<castRange>40</castRange>
 		<affectLimit>3-3</affectLimit>
@@ -1759,7 +1918,7 @@
 		</effects>
 	</skill>
 	<skill id="47355" toLevel="1" name="Fury Blade">
-		<!-- Deals four dagger strikes to the enemy. Attacks the target at the front with 9000 power. Applies the <font color="FF8000">Blade Storm Dance</font> effect after the attack. <font color="FF8000"><Blade Storm Dance></font>. With a 70% chance, interrupts the target's spellcasting for 5 sec. Critical. In PvP attacks up to 3 targets. In PvE attacks up to 3 targets. -->
+		<!-- Deals four dagger strikes to the enemy. Attacks the target at the front with 9000 power. Applies the <font color="FF8000">Blade Storm Dance</font> effect after the attack. <font color="FF8000"><Blade Storm Dance></font>. With a 70% chance, interrupts the target's spellcasting for 5 sec. Critical. In PvP attacks up to 4 targets. In PvE attacks up to 4 targets. -->
 		<icon>icon.s_fury_blade</icon>
 		<castRange>40</castRange>
 		<affectLimit>3-3</affectLimit>
@@ -1815,7 +1974,7 @@
 		</effects>
 	</skill>
 	<skill id="47357" toLevel="1" name="Mortal Piercing">
-		<!-- Deals two powerful dagger strikes to the enemy. Attacks the target at the front with 15500 power. Ignores Shield Defense. With a 30% chance, removes a shield from target. Success rate: <font color="FF8000">100%</font>. Critical. In PvP attacks up to 3 targets. In PvE attacks up to 3 targets. -->
+		<!-- Deals two powerful dagger strikes to the enemy. Attacks the target at the front with 15500 power. Ignores Shield Defense. With a 30% chance, removes a shield from target. Success rate: <font color="FF8000">100%</font>. Critical. In PvP attacks up to 4 targets. In PvE attacks up to 4 targets. -->
 		<icon>icon.skill0321</icon>
 		<castRange>40</castRange>
 		<affectLimit>3-3</affectLimit>
@@ -1951,6 +2110,14 @@
 		<magicCriticalRate>5</magicCriticalRate>
 		<operateType>P</operateType>
 		<effects>
+			<effect name="PhysicalAttack" fromLevel="2" toLevel="2" fromSubLevel="1001" toSubLevel="1003">
+				<power>
+					<value toLevel="2" fromLevel="2" toSubLevel="1001" fromSubLevel="1001">2</value>
+					<value toLevel="2" fromLevel="2" toSubLevel="1002" fromSubLevel="1002">4</value>
+					<value toLevel="2" fromLevel="2" toSubLevel="1003" fromSubLevel="1003">7</value>
+				</power>
+				<mode>PER</mode>
+			</effect>
 			<effect name="TriggerSkill">
 				<castSkillId>47334</castSkillId> <!-- Backstab -->
 				<skillId>47366</skillId> <!-- Fatal Blow -->
@@ -2161,7 +2328,40 @@
 	<skill id="47372" toLevel="3" name="Spectacular Theft">
 		<!-- P. Atk. +100. M. Atk. +100 -->
 		<icon>icon.skill1440</icon>
-		<operateType>A1</operateType>
+		<magicLevel>
+			<value level="1">76</value>
+			<value level="2">78</value>
+			<value level="3">80</value>
+		</magicLevel>
+		<abnormalLevel>
+			<value level="1">1</value>
+			<value level="2">2</value>
+			<value level="3">3</value>
+		</abnormalLevel>
+		<operateType>A2</operateType>
+		<abnormalTime>300</abnormalTime>
+		<isTriggeredSkill>true</isTriggeredSkill>
+		<isMagic>1</isMagic>
+		<targetType>SELF</targetType>
+		<affectScope>SINGLE</affectScope>
+		<effects>
+			<effect name="PAtk">
+				<amount>
+					<value level="1">100</value>
+					<value level="2">200</value>
+					<value level="3">300</value>
+				</amount>
+				<mode>DIFF</mode>
+			</effect>
+			<effect name="MAtk">
+				<amount>
+					<value level="1">100</value>
+					<value level="2">200</value>
+					<value level="3">300</value>
+				</amount>
+				<mode>DIFF</mode>
+			</effect>
+		</effects>
 	</skill>
 	<skill id="47373" toLevel="1" name="Hide Block">
 		<!-- You cannot use Seclusion. -->
@@ -2173,7 +2373,7 @@
 		<operateType>A1</operateType>
 	</skill>
 	<skill id="47380" toLevel="1" name="Legendary Archer">
-		<!-- For 20 min., transforms into a legendary archer. P. Atk. +25%. P. Skill Critical Rate +20%. P. Skill Critical Damage +20%. Max HP +10%. Melee Weapon Resistance +10%. While active, enhances the <font color="FF8000">Lethal Shot</font> skill. -->
+		<!-- For 20 min., transforms into a legendary archer. P. Atk. +25%. P. Skill Power +2%. P. Skill Critical Rate +20%. P. Skill Critical Damage +20%. Max HP +10%. Melee Weapon Resistance +10%. While active, enhances the <font color="FF8000">Lethal Shot</font> skill. -->
 		<icon>icon.s_legendary_archer_hu1</icon>
 		<operateType>A2</operateType>
 		<mpConsume>200</mpConsume>
@@ -2242,9 +2442,16 @@
 					<value level="13">13</value>
 					<value level="14">14</value>
 					<value level="15">15</value>
+					<value level="16">16</value>
+					<value level="17">17</value>
+					<value level="18">18</value>
 				</skillLevel>
 				<chance>10</chance>
 				<targetType>ENEMY</targetType>
+			</effect>
+			<effect name="PhysicalSkillPower">
+				<amount>2</amount>
+				<mode>PER</mode>
 			</effect>
 		</effects>
 	</skill>
@@ -2253,8 +2460,8 @@
 		<icon>icon.hero_attack</icon>
 		<operateType>A1</operateType>
 	</skill>
-	<skill id="47382" toLevel="15" name="Legendary Lethal Shot">
-		<!-- Shoots deadly arrows. Attacks the target twice with 5170 power. With a certain chance, makes an additional shot. If there are two shots, the second one cannot be critical. If there are three shots, all three shots are critical. Ignores Shield Defense. Ignores 10% of the target's defense. Critical. -->
+	<skill id="47382" toLevel="18" name="Legendary Lethal Shot">
+		<!-- Shoots a deadly arrow. Attacks the target twice with 5170 power. <font color="FF8000">With a certain chance, attacks the target thrice.</font>. Ignores Shield Defense. Ignores 10% of the target's defense. Critical. -->
 		<icon>icon.s_lethal_shot_hu</icon>
 		<operateType>A1</operateType>
 		<mpConsume>
@@ -2273,6 +2480,9 @@
 			<value level="13">78</value>
 			<value level="14">79</value>
 			<value level="15">80</value>
+			<value level="16">81</value>
+			<value level="17">82</value>
+			<value level="18">83</value>
 		</mpConsume>
 		<effectPoint>
 			<value level="1">-400</value>
@@ -2290,6 +2500,9 @@
 			<value level="13">-460</value>
 			<value level="14">-465</value>
 			<value level="15">-470</value>
+			<value level="16">-475</value>
+			<value level="17">-480</value>
+			<value level="18">-485</value>
 		</effectPoint>
 		<reuseDelay>1500</reuseDelay>
 		<hitTime>1800</hitTime>
@@ -2322,6 +2535,9 @@
 					<value level="13">6212</value>
 					<value level="14">6301</value>
 					<value level="15">6389</value>
+					<value level="16">6580</value>
+					<value level="17">6777</value>
+					<value level="18">6980</value>
 				</amount>
 				<ignoreShieldDefence>true</ignoreShieldDefence>
 				<pDefMod>0.9</pDefMod>
@@ -2344,6 +2560,9 @@
 					<value level="13">6212</value>
 					<value level="14">6301</value>
 					<value level="15">6389</value>
+					<value level="16">6580</value>
+					<value level="17">6777</value>
+					<value level="18">6980</value>
 				</amount>
 				<ignoreShieldDefence>true</ignoreShieldDefence>
 				<pDefMod>0.9</pDefMod>
@@ -2427,7 +2646,7 @@
 		</effects>
 	</skill>
 	<skill id="47384" toLevel="1" name="Legendary Archer">
-		<!-- For 20 min., transforms into a legendary archer. P. Atk. +25%. P. Skill Critical Rate +20%. P. Skill Critical Damage +20%. Max HP +10%. Melee Weapon Resistance +10%. While active, enhances the <font color="FF8000">Lethal Shot</font> skill. -->
+		<!-- For 20 min., transforms into a legendary archer. P. Atk. +25%. P. Skill Critical Rate +20%. P. Skill Critical Damage +20%. P. Skill Critical Damage +20. Max HP +10%. Melee Weapon Resistance +10%. While active, enhances the <font color="FF8000">Lethal Shot</font> skill. -->
 		<icon>icon.s_legendary_archer_el1</icon>
 		<operateType>A2</operateType>
 		<mpConsume>200</mpConsume>
@@ -2500,10 +2719,14 @@
 				<chance>10</chance>
 				<targetType>ENEMY</targetType>
 			</effect>
+			<effect name="PhysicalSkillCriticalDamage">
+				<amount>20</amount>
+				<mode>DIFF</mode>
+			</effect>
 		</effects>
 	</skill>
 	<skill id="47386" toLevel="15" name="Legendary Lethal Shot">
-		<!-- Shoots deadly arrows. Attacks the target twice with 5170 power. With a certain chance, makes an additional shot. If there are two shots, the second one cannot be critical. If there are three shots, all three shots are critical. Ignores Shield Defense. Ignores 10% of the target's defense. Critical. -->
+		<!-- Shoots a deadly arrow. Attacks the target twice with 5170 power. <font color="FF8000">With a certain chance, attacks the target thrice.</font>. Ignores Shield Defense. Ignores 10% of the target's defense. Critical. -->
 		<icon>icon.s_lethal_shot_el</icon>
 		<operateType>A1</operateType>
 		<mpConsume>
@@ -2676,7 +2899,7 @@
 		</effects>
 	</skill>
 	<skill id="47388" toLevel="1" name="Legendary Archer">
-		<!-- For 20 min., transforms into a legendary archer. P. Atk. +25%. P. Skill Critical Rate +20%. P. Skill Critical Damage +20%. Max HP +10%. Melee Weapon Resistance +10%. While active, enhances the <font color="FF8000">Lethal Shot</font> skill. -->
+		<!-- For 20 min., transforms into a legendary archer. P. Atk. +25%. P. Skill Critical Rate +20%. Received P. Skill Critical Rate -2%. P. Skill Critical Damage +20%. Max HP +10%. Melee Weapon Resistance +10%. While active, enhances the <font color="FF8000">Lethal Shot</font> skill. -->
 		<icon>icon.s_legendary_archer_da1</icon>
 		<operateType>A2</operateType>
 		<mpConsume>200</mpConsume>
@@ -2749,10 +2972,14 @@
 				<chance>10</chance>
 				<targetType>ENEMY</targetType>
 			</effect>
+			<effect name="DefencePhysicalSkillCriticalRate">
+				<amount>-2</amount>
+				<mode>PER</mode>
+			</effect>
 		</effects>
 	</skill>
 	<skill id="47390" toLevel="15" name="Legendary Lethal Shot">
-		<!-- Shoots deadly arrows. Attacks the target twice with 5429 power. With a certain chance, makes an additional shot. If there are two shots, the second one cannot be critical. If there are three shots, all three shots are critical. Ignores Shield Defense. Ignores 10% of the target's defense. Critical. -->
+		<!-- Shoots a deadly arrow. Attacks the target twice with 5429 power. <font color="FF8000">With a certain chance, attacks the target thrice.</font>. Ignores Shield Defense. Ignores 10% of the target's defense. Critical. -->
 		<icon>icon.s_lethal_shot_da</icon>
 		<operateType>A1</operateType>
 		<mpConsume>
@@ -2925,7 +3152,7 @@
 		</effects>
 	</skill>
 	<skill id="47392" toLevel="1" name="Legendary Archer">
-		<!-- For 20 min., transforms into a legendary archer. P. Atk. +25%. P. Skill Critical Rate +20%. P. Skill Critical Damage +20%. Max HP +10%. Melee Weapon Resistance +10%. While active, enhances the <font color="FF8000">Twin Shot</font> skill. -->
+		<!-- For 20 min., transforms into a legendary archer. P. Atk. +25%. P. Skill Critical Rate +20%. Received M. Skill Critical Rate -2%. P. Skill Critical Damage +20%. Max HP +10%. Melee Weapon Resistance +10%. While active, enhances the <font color="FF8000">Twin Shot</font> skill. -->
 		<icon>icon.s_legendary_archer_ka1</icon>
 		<operateType>A2</operateType>
 		<mpConsume>200</mpConsume>
@@ -2993,10 +3220,14 @@
 				<chance>10</chance>
 				<targetType>ENEMY</targetType>
 			</effect>
+			<effect name="DefenceMagicCriticalRate">
+				<amount>-2</amount>
+				<mode>PER</mode>
+			</effect>
 		</effects>
 	</skill>
 	<skill id="47394" toLevel="10" name="Legendary Twin Shot">
-		<!-- Shoots 2 arrows in a row. Attacks the target twice with 425 power. <font color="FF8000">With a certain chance, makes an additional shot when using skills.</font>. Ignores Shield Defense. Ignores 10% of the target's defense. Critical. -->
+		<!-- Shoots 2 arrows in a row. Attacks the target twice with 425 power. <font color="FF8000">With a certain chance, attacks the target thrice.</font>. Ignores Shield Defense. Ignores 10% of the target's defense. Critical. -->
 		<icon>icon.s_multi_shot_ka</icon>
 		<operateType>A1</operateType>
 		<mpConsume>

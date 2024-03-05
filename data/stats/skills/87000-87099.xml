@@ -3,18 +3,42 @@
 	<skill id="87001" toLevel="1" name="Crusader Transformation">
 		<!-- Those who have come to know the magic of light without applying strict rules wield the power that let them transform into crusaders who mastered their physical and magic skills to perfection. <Transformation effect>. P. Atk. +1000. M. Atk. +500. Max HP +1000. Max MP +500. Atk. Spd. +20. Casting Spd. +20. Speed +10. P. Skill Critical Rate +15%. P. Skill Critical Damage +15%. P. Skill Power +15%. M. Skill Critical Rate +5%. M. Skill Critical Damage +5%. M. Skill Power +5%. When hit, there is a chance to block damage from <font color="FFBB00">additional attacks</font> for 10 sec. With a certain chance, applies a buff on party members for 10 sec. after an attack. (Cooldown: 15 sec.). - <font color="00abff">Blue Energy</font>: CON +1/ MEN +1. All received Critical Rate -2%. - <font color="FFBB00">Yellow Energy</font>: DEX +1/ WIT +1. Skill Power +2%. - <font color="FF0000">Red Energy</font>: STR +1/ INT +1. Weapon P./ M. Atk. +1 -->
 		<icon>icon.transform_priest</icon>
-		<operateType>A2</operateType>
+		<abnormalLevel>1</abnormalLevel>
 		<abnormalTime>1200</abnormalTime>
-		<hitTime>2000</hitTime>
-		<coolTime>800</coolTime>
-		<isMagic>0</isMagic>
-		<itemConsumeCount>50</itemConsumeCount>
-		<itemConsumeId>3031</itemConsumeId>
+		<abnormalType>CHANGEBODY</abnormalType>
+		<abnormalVisualEffect>H_Y_TRANSFORM_CRUSADER_AVE</abnormalVisualEffect>
+		<blockedInOlympiad>true</blockedInOlympiad>
+		<stayAfterDeath>true</stayAfterDeath>
+		<effectPoint>1</effectPoint>
+		<isMagic>4</isMagic> <!-- Magic Skill -->
 		<magicLevel>76</magicLevel>
-		<mpConsume>200</mpConsume>
-		<reuseDelay>60000</reuseDelay>
+		<operateType>A2</operateType>
+		<reuseDelay>60000</reuseDelay> <!-- 3600000 -->
+		<hitTime>2800</hitTime>
+		<basicProperty>NONE</basicProperty>
+		<magicCriticalRate>5</magicCriticalRate>
+		<hitCancelTime>0</hitCancelTime>
 		<targetType>SELF</targetType>
 		<affectScope>SINGLE</affectScope>
+		<itemConsumeId>3031</itemConsumeId>
+		<itemConsumeCount>50</itemConsumeCount>
+		<conditions>
+			<condition name="OpNotAffectedBySkill">
+				<skillId>1800</skillId> <!-- Pirate Transformation -->
+			</condition>
+			<condition name="OpNotAffectedBySkill">
+				<skillId>1801</skillId> <!-- Dark Assassin Transformation -->
+			</condition>
+			<condition name="OpNotAffectedBySkill">
+				<skillId>1802</skillId> <!-- White Assassin Transformation -->
+			</condition>
+			<condition name="OpNotAffectedBySkill">
+				<skillId>54102</skillId> <!-- White Guardian Transformation -->
+			</condition>
+			<condition name="OpNotAffectedBySkill">
+				<skillId>47970</skillId> <!-- Overwhelming Power -->
+			</condition>
+		</conditions>
 		<effects>
 			<effect name="PAtk">
 				<amount>1000</amount>
@@ -44,11 +68,11 @@
 				<amount>10</amount>
 				<mode>DIFF</mode>
 			</effect>
-			<effect name="PhysicalSkillCriticalRate">
+			<effect name="CriticalRate">
 				<amount>15</amount>
 				<mode>PER</mode>
 			</effect>
-			<effect name="PhysicalSkillCriticalDamage">
+			<effect name="CriticalDamage">
 				<amount>15</amount>
 				<mode>PER</mode>
 			</effect>
@@ -68,95 +92,56 @@
 				<amount>5</amount>
 				<mode>PER</mode>
 			</effect>
-			<effect name="TriggerSkillByAttack">
+			<effect name="TriggerSkillByDamage">
+				<!-- Patience -->
 				<attackerType>Creature</attackerType>
-				<minDamage>100</minDamage>
-				<chance>10</chance>
+				<chance>30</chance>
 				<targetType>SELF</targetType>
-				<isCritical>false</isCritical>
-				<allowWeapons>ALL</allowWeapons>
+				<minDamage>1</minDamage>
 				<skillId>87002</skillId> <!-- Crusader Transformation - Stat Increase -->
 				<skillLevel>1</skillLevel>
-				<allowSkillAttack>true</allowSkillAttack>
 			</effect>
-			<effect name="TriggerSkillByAttack">
+			<effect name="TriggerSkillByDamage">
 				<attackerType>Creature</attackerType>
-				<minDamage>100</minDamage>
 				<chance>10</chance>
-				<targetType>SELF</targetType>
-				<isCritical>true</isCritical>
-				<allowWeapons>ALL</allowWeapons>
-				<skillId>87002</skillId> <!-- Crusader Transformation - Stat Increase -->
+				<targetType>ENEMY</targetType>
+				<minDamage>1</minDamage>
+				<skillId>87037</skillId> <!-- Unique Seal of Damage -->
 				<skillLevel>1</skillLevel>
-				<allowSkillAttack>true</allowSkillAttack>
-			</effect>
-			<effect name="TriggerSkillByAttack">
-				<attackerType>Creature</attackerType>
-				<minDamage>100</minDamage>
-				<chance>10</chance>
-				<targetType>SELF</targetType>
-				<isCritical>false</isCritical>
-				<allowWeapons>ALL</allowWeapons>
-				<skillId>87002</skillId> <!-- Crusader Transformation - Stat Increase -->
-				<skillLevel>1</skillLevel>
-				<allowSkillAttack>true</allowSkillAttack>
-			</effect>
-			<effect name="TriggerSkillByAttack">
-				<attackerType>Creature</attackerType>
-				<minDamage>100</minDamage>
-				<chance>10</chance>
-				<targetType>SELF</targetType>
-				<isCritical>true</isCritical>
-				<allowWeapons>ALL</allowWeapons>
-				<skillId>87002</skillId> <!-- Crusader Transformation - Stat Increase -->
-				<skillLevel>1</skillLevel>
-				<allowSkillAttack>true</allowSkillAttack>
-			</effect>
-			<effect name="TriggerSkillByAttack">
-				<attackerType>Creature</attackerType>
-				<minDamage>100</minDamage>
-				<chance>10</chance>
-				<targetType>SELF</targetType>
-				<isCritical>false</isCritical>
-				<allowWeapons>ALL</allowWeapons>
-				<skillId>87002</skillId> <!-- Crusader Transformation - Stat Increase -->
-				<skillLevel>1</skillLevel>
-				<allowSkillAttack>true</allowSkillAttack>
-			</effect>
-			<effect name="TriggerSkillByAttack">
-				<attackerType>Creature</attackerType>
-				<minDamage>100</minDamage>
-				<chance>10</chance>
-				<targetType>SELF</targetType>
-				<isCritical>true</isCritical>
-				<allowWeapons>ALL</allowWeapons>
-				<skillId>87002</skillId> <!-- Crusader Transformation - Stat Increase -->
-				<skillLevel>1</skillLevel>
-				<allowSkillAttack>true</allowSkillAttack>
 			</effect>
 		</effects>
 	</skill>
 	<skill id="87002" toLevel="1" name="Crusader Transformation - Stat Increase">
 		<icon>icon.transform_priest</icon>
+		<operateType>A2</operateType>
+		<abnormalLevel>1</abnormalLevel>
+		<abnormalTime>10</abnormalTime>
 		<isTriggeredSkill>true</isTriggeredSkill>
-		<operateType>A1</operateType>
-		<staticReuse>true</staticReuse>
 		<reuseDelay>15000</reuseDelay>
+		<staticReuse>true</staticReuse>
+		<basicProperty>NONE</basicProperty>
+		<magicCriticalRate>-5</magicCriticalRate>
+		<hitCancelTime>0</hitCancelTime>
+		<isMagic>1</isMagic>
 		<targetType>SELF</targetType>
 		<affectScope>SINGLE</affectScope>
+		<isTriggeredSkill>true</isTriggeredSkill>
 		<effects>
 			<effect name="CallRandomSkill">
-				<skills>87003,1;87004,1;87004,1</skills>
+				<skills>87003,1;87004,1;87005,1</skills>
 			</effect>
 		</effects>
 	</skill>
 	<skill id="87003" toLevel="1" name="Crusader's Blue Energy">
 		<!-- Blue energy that was granted to crusaders. Makes the body tougher. For 10 sec. CON +1. MEN +1. All received Critical Rate -2% -->
 		<icon>icon.trigger_priest_heirophant_buff1</icon>
-		<operateType>A2</operateType>
-		<abnormalType>CRUSADER_ENERGY</abnormalType>
 		<abnormalLevel>1</abnormalLevel>
 		<abnormalTime>10</abnormalTime>
+		<abnormalType>CRUSADER_ENERGY</abnormalType>
+		<affectRange>900</affectRange>
+		<magicLevel>76</magicLevel>
+		<operateType>A2</operateType>
+		<abnormalVisualEffect>H_Y_TRANSFORM_CRUSADERA_AVE</abnormalVisualEffect>
 		<targetType>SELF</targetType>
 		<affectScope>PARTY</affectScope>
 		<affectObject>FRIEND</affectObject>
@@ -177,15 +162,22 @@
 				<amount>-2</amount>
 				<mode>PER</mode>
 			</effect>
+			<effect name="DefencePhysicalSkillCriticalRate">
+				<amount>-2</amount>
+				<mode>PER</mode>
+			</effect>
 		</effects>
 	</skill>
 	<skill id="87004" toLevel="1" name="Crusader's Yellow Energy">
 		<!-- Yellow energy that was granted to crusaders. Makes the body light like a feather. For 10 sec. DEX +1. WIT +1. Skill Power +2% -->
 		<icon>icon.trigger_priest_heirophant_buff2</icon>
-		<operateType>A2</operateType>
-		<abnormalType>CRUSADER_ENERGY</abnormalType>
 		<abnormalLevel>1</abnormalLevel>
 		<abnormalTime>10</abnormalTime>
+		<abnormalType>CRUSADER_ENERGY</abnormalType>
+		<affectRange>900</affectRange>
+		<magicLevel>76</magicLevel>
+		<operateType>A2</operateType>
+		<abnormalVisualEffect>H_Y_TRANSFORM_CRUSADERA_AVE</abnormalVisualEffect>
 		<targetType>SELF</targetType>
 		<affectScope>PARTY</affectScope>
 		<affectObject>FRIEND</affectObject>
@@ -211,10 +203,13 @@
 	<skill id="87005" toLevel="1" name="Crusader's Red Energy">
 		<!-- Red energy that was granted to crusaders. Makes the body stronger. For 10 sec. STR +1. INT +1. All weapon P. Atk. +1. All weapon M. Atk. +1 -->
 		<icon>icon.trigger_priest_heirophant_buff3</icon>
-		<operateType>A2</operateType>
-		<abnormalType>CRUSADER_ENERGY</abnormalType>
 		<abnormalLevel>1</abnormalLevel>
+		<abnormalType>CRUSADER_ENERGY</abnormalType>
 		<abnormalTime>10</abnormalTime>
+		<affectRange>900</affectRange>
+		<magicLevel>76</magicLevel>
+		<operateType>A2</operateType>
+		<abnormalVisualEffect>H_Y_TRANSFORM_CRUSADERB_AVE</abnormalVisualEffect>
 		<targetType>SELF</targetType>
 		<affectScope>PARTY</affectScope>
 		<affectObject>FRIEND</affectObject>
@@ -239,34 +234,8 @@
 		<!-- A powerful strike. If the enemy's HP is higher than 30%:. Attacks the target with 6246 power. If the enemy's HP is lower than 30%:. Increases the number of attacks by 1. Ignores Shield Defense. Ignores 20% of the target's defense. Critical. -->
 		<icon>icon.fatal_smash</icon>
 		<operateType>A1</operateType>
-		<basicProperty>PHYSICAL</basicProperty>
-		<isMagic>0</isMagic>
 		<castRange>400</castRange>
-		<effectRange>600</effectRange>
-		<hitTime>1000</hitTime>
-		<magicLevel>
-			<value level="1">76</value>
-			<value level="2">77</value>
-			<value level="3">78</value>
-			<value level="4">79</value>
-			<value level="5">80</value>
-			<value level="6">81</value>
-			<value level="7">82</value>
-			<value level="8">83</value>
-			<value level="9">84</value>
-			<value level="10">85</value>
-			<value level="11">86</value>
-			<value level="12">87</value>
-			<value level="13">88</value>
-			<value level="14">89</value>
-			<value level="15">90</value>
-			<value level="16">91</value>
-			<value level="17">92</value>
-			<value level="18">93</value>
-			<value level="19">94</value>
-			<value level="20">95</value>
-		</magicLevel>
-		<reuseDelay>1000</reuseDelay>
+		<coolTime>200</coolTime>
 		<effectPoint>
 			<value level="1">-3800</value>
 			<value level="2">-3850</value>
@@ -289,6 +258,30 @@
 			<value level="19">-4950</value>
 			<value level="20">-5000</value>
 		</effectPoint>
+		<effectRange>900</effectRange>
+		<hitTime>800</hitTime>
+		<magicLevel>
+			<value level="1">76</value>
+			<value level="2">77</value>
+			<value level="3">78</value>
+			<value level="4">79</value>
+			<value level="5">80</value>
+			<value level="6">81</value>
+			<value level="7">82</value>
+			<value level="8">83</value>
+			<value level="9">84</value>
+			<value level="10">85</value>
+			<value level="11">86</value>
+			<value level="12">87</value>
+			<value level="13">88</value>
+			<value level="14">89</value>
+			<value level="15">90</value>
+			<value level="16">91</value>
+			<value level="17">92</value>
+			<value level="18">93</value>
+			<value level="19">94</value>
+			<value level="20">95</value>
+		</magicLevel>
 		<mpConsume>
 			<value level="1">60</value>
 			<value level="2">60</value>
@@ -311,6 +304,11 @@
 			<value level="19">78</value>
 			<value level="20">80</value>
 		</mpConsume>
+		<nextAction>ATTACK</nextAction>
+		<operateType>A1</operateType>
+		<reuseDelay>1000</reuseDelay>
+		<reuseDelayGroup>87006</reuseDelayGroup>
+		<magicCriticalRate>5</magicCriticalRate>
 		<targetType>ENEMY</targetType>
 		<affectScope>SINGLE</affectScope>
 		<conditions>
@@ -344,8 +342,8 @@
 					<value level="16">8249</value>
 					<value level="17">9074</value>
 					<value level="18">9981</value>
-					<value level="19">10979</value>
-					<value level="20">12077</value>
+					<value level="19">10145</value>
+					<value level="20">10598</value>
 				</power>
 				<criticalChance>15</criticalChance>
 				<ignoreShieldDefence>true</ignoreShieldDefence>
@@ -356,10 +354,80 @@
 	<skill id="87007" toLevel="4" name="Unique Seal of Damage">
 		<!-- <Special imprisonment skill>. There is a certain chance to block the damage from the frontal enemy's <font color="FFBB00">additional attacks</font>. When the skill is used, there is a certain chance to apply Vampiric Decrease/P. Atk. Decrease. <Vampiric Decrease>. HP Drain -95%. <P. Atk. Decrease>. P. Atk. -100 -->
 		<icon>icon.unique_silence</icon>
-		<operateType>A1</operateType>
+		<abnormalLevel>
+			<value level="1">1</value>
+			<value level="2">2</value>
+			<value level="3">3</value>
+			<value level="4">4</value>
+		</abnormalLevel>
+		<abnormalTime>10</abnormalTime>
+		<abnormalType>UNIQUE_SILENCE</abnormalType>
+		<abnormalVisualEffect>H_P_UNIQUE_SILENCE_AVE</abnormalVisualEffect>
+		<activateRate>80</activateRate>
+		<castRange>700</castRange>
+		<effectRange>1400</effectRange>
+		<affectLimit>10-10</affectLimit>
+		<affectRange>300</affectRange>
+		<basicProperty>MAGIC</basicProperty>
+		<effectPoint>
+			<value level="1">-760</value>
+			<value level="2">-780</value>
+			<value level="3">-800</value>
+			<value level="4">-820</value>
+		</effectPoint>
+		<hitTime>3000</hitTime>
+		<isDebuff>true</isDebuff>
+		<isMagic>1</isMagic>
+		<itemConsumeCount>
+			<value level="1">3</value>
+			<value level="2">5</value>
+			<value level="3">10</value>
+			<value level="4">12</value>
+		</itemConsumeCount>
+		<itemConsumeId>3031</itemConsumeId> <!-- Spirit Ore -->
+		<lvlBonusRate>30</lvlBonusRate>
+		<magicLevel>
+			<value level="1">82</value>
+			<value level="2">85</value>
+			<value level="3">88</value>
+			<value level="4">90</value>
+		</magicLevel>
+		<mpConsume>
+			<value level="1">91</value>
+			<value level="2">96</value>
+			<value level="3">101</value>
+			<value level="4">105</value>
+		</mpConsume>
+		<operateType>A2</operateType>
+		<reuseDelay>
+			<value level="1">120000</value>
+			<value level="2">110000</value>
+			<value level="3">100000</value>
+			<value level="4">90000</value>
+		</reuseDelay>
+		<magicCriticalRate>5</magicCriticalRate>
+		<trait>DERANGEMENT</trait>
+		<targetType>ENEMY</targetType>
+		<affectScope>RANGE</affectScope>
+		<affectObject>NOT_FRIEND</affectObject>
+		<effects>
+			<effect name="PAtk">
+				<amount>
+					<value level="1">-100</value>
+					<value level="2">-300</value>
+					<value level="3">-500</value>
+					<value level="4">-1000</value>
+				</amount>
+				<mode>DIFF</mode>
+			</effect>
+			<effect name="VampiricAttack">
+				<amount>-95</amount>
+				<chance>80</chance>
+			</effect>
+		</effects>
 	</skill>
 	<skill id="87008" toLevel="1" name="Essential Energy">
-		<!-- <Skill upgrade>. Fatal Crush → Essential Fatal Crush. <Upgrade effect>. Number of targets is up to 2. Increases Power. Divine Beam → Essential Divine Beam. <Upgrade effect>. Increases Power. -->
+		<!-- <Skill upgrade>. Fatal Crush → Essential Fatal Crush. <Upgrade effect>. Number of targets is up to 2. Increases Power. Divine Beam → Essential Divine Beam. <Upgrade effect>. Increases Power. Holy Buster → Essential Holy Buster -->
 		<icon>icon.essential_energy</icon>
 		<operateType>P</operateType>
 		<effects>
@@ -511,7 +579,7 @@
 		</effects>
 	</skill>
 	<skill id="87011" toLevel="20" name="Essential Divine Beam">
-		<!-- Purifies with holy light. Inflicts magic damage with 128 power. The skill's power +10% if the target is inflicted with Hold. Deals heavy damage to demons and undead. Applies Essential Defense Decrease, which decreases enemy's P. Def. <Essential Defense Decrease>. P. Def. -100 -->
+		<!-- Purifies with holy light. Inflicts magic damage with 140 power. Deals heavy damage to demons and undead. Applies Essential Defense Decrease, which decreases enemy's P. Def. <Essential Defense Decrease>. P. Def. -100 -->
 		<icon>icon.essential_holy_ray</icon>
 		<castRange>700</castRange>
 		<effectPoint>
@@ -715,24 +783,10 @@
 	<skill id="87013" toLevel="3" name="Great Attack">
 		<!-- P. Atk. +500. M. Atk. +500. P. Skill Power +3% -->
 		<icon>icon.higher_attack</icon>
-		<operateType>A2</operateType>
-		<abnormalLevel>
-			<value level="1">1</value>
-			<value level="2">2</value>
-			<value level="3">3</value>
-		</abnormalLevel>
+		<abnormalLevel>1</abnormalLevel>
 		<abnormalTime>1200</abnormalTime>
-		<abnormalType>MULTI_BUFF_A</abnormalType>
 		<hitTime>1000</hitTime>
-		<isMagic>1</isMagic> <!-- Magic Skill -->
-		<itemConsumeCount>
-			<value level="1">5</value>
-			<value level="2">10</value>
-			<value level="3">15</value>
-		</itemConsumeCount>
-		<itemConsumeId>3031</itemConsumeId> <!-- Spirit Ore -->
-		<reuseDelay>15000</reuseDelay>
-		<basicProperty>NONE</basicProperty>
+		<isMagic>1</isMagic>
 		<magicLevel>
 			<value level="1">40</value>
 			<value level="2">60</value>
@@ -743,6 +797,19 @@
 			<value level="2">88</value>
 			<value level="3">91</value>
 		</mpConsume>
+		<itemConsumeCount>
+			<value level="1">5</value>
+			<value level="2">10</value>
+			<value level="3">15</value>
+			<value fromLevel="3" toLevel="3" fromSubLevel="1001" toSubLevel="1001">17</value>
+			<value fromLevel="3" toLevel="3" fromSubLevel="1002" toSubLevel="1002">17</value>
+			<value fromLevel="3" toLevel="3" fromSubLevel="1003" toSubLevel="1003">17</value>
+		</itemConsumeCount>
+		<itemConsumeId>3031</itemConsumeId>
+		<operateType>A2</operateType>
+		<reuseDelay>15000</reuseDelay>
+		<basicProperty>NONE</basicProperty>
+		<magicCriticalRate>5</magicCriticalRate>
 		<targetType>SELF</targetType>
 		<affectScope>SINGLE</affectScope>
 		<effects>
@@ -759,6 +826,9 @@
 					<value level="1">500</value>
 					<value level="2">1000</value>
 					<value level="3">2000</value>
+					<value fromLevel="3" toLevel="3" fromSubLevel="1001" toSubLevel="1001">2200</value>
+					<value fromLevel="3" toLevel="3" fromSubLevel="1002" toSubLevel="1002">2400</value>
+					<value fromLevel="3" toLevel="3" fromSubLevel="1003" toSubLevel="1003">2600</value>
 				</amount>
 				<mode>DIFF</mode>
 			</effect>
@@ -777,6 +847,15 @@
 					<value level="3">5</value>
 				</amount>
 				<mode>PER</mode>
+			</effect>
+			<effect name="MaxHp">
+				<amount>
+					<value fromLevel="1" toLevel="3">0</value>
+					<value fromLevel="3" toLevel="3" fromSubLevel="1001" toSubLevel="1001">2000</value>
+					<value fromLevel="3" toLevel="3" fromSubLevel="1002" toSubLevel="1002">4000</value>
+					<value fromLevel="3" toLevel="3" fromSubLevel="1003" toSubLevel="1003">6000</value>
+				</amount>
+				<mode>DIFF</mode>
 			</effect>
 		</effects>
 	</skill>
@@ -821,7 +900,7 @@
 	<skill id="87015" toLevel="6" name="Improved Sleep">
 		<!-- <Sleep skill>. With a high chance, inflicts Sleep on the target. -->
 		<icon>icon.mount_sleep</icon>
-		<abnormalLevel>1</abnormalLevel>
+		<abnormalLevel>2</abnormalLevel>
 		<abnormalTime>5</abnormalTime>
 		<abnormalType>SLEEP</abnormalType>
 		<abnormalVisualEffect>V_WIZARD_DEEP_SLEEP_AVE</abnormalVisualEffect>
@@ -898,7 +977,7 @@
 		</effects>
 	</skill>
 	<skill id="87017" toLevel="14" name="Enchanter's Armor Mastery">
-		<!-- <Main effect>. P. Def. +10. P. Atk. +40. <Heavy armor effect>. P. Def. +40. P. Atk. +400. Atk. Spd. +50. Casting Spd. +50. <Robe effect>. Received P. Skill Critical Damage -1%. M. Atk. +401. Max HP +50. <Light armor effect>. P. Def. +40. P. Atk. +402. Atk. Spd. +100. Casting Spd. +100. Max MP +40 -->
+		<!-- <Base effect>. P. Def. +10. P. Atk. +40. <Heavy armor effect>. P. Def. +40. P. Atk. +400. Atk. Spd. +50. Casting Spd. +50. <Robe effect>. Received P. Skill Critical Damage -1%. M. Atk. +401. Max HP +50. <Light armor effect>. P. Def. +40. P. Atk. +402. Atk. Spd. +100. Casting Spd. +100. Max MP +40 -->
 		<icon>icon.enchanter_armor_mastery</icon>
 		<operateType>P</operateType>
 		<magicLevel>
@@ -1511,22 +1590,77 @@
 	<skill id="87023" toLevel="1" name="Power of Intelligence">
 		<!-- Increases P. Atk. according to INT. <INT 65 - 77>. P. Atk. +200. <INT 78 - 90>. P. Atk. +1000. <INT 91+>. P. Atk. +3000 -->
 		<icon>icon.heirophant_mastery</icon>
-		<operateType>A1</operateType>
+		<abnormalLevel>1</abnormalLevel>
+		<abnormalTime>-1</abnormalTime>
+		<abnormalType>POWER_STAT</abnormalType>
+		<magicLevel>80</magicLevel>
+		<magicCriticalRate>5</magicCriticalRate>
+		<operateType>A5</operateType>
+		<isTriggeredSkill>true</isTriggeredSkill>
+		<canBeDispelled>false</canBeDispelled>
 	</skill>
 	<skill id="87024" toLevel="1" name="Power of Intelligence Lv. 1">
 		<!-- <INT 65 - 77>. P. Atk. +200 -->
 		<icon>icon.heirophant_mastery</icon>
-		<operateType>A1</operateType>
+		<abnormalLevel>1</abnormalLevel>
+		<abnormalTime>-1</abnormalTime>
+		<abnormalType>POWER_STAT</abnormalType>
+		<magicLevel>80</magicLevel>
+		<magicCriticalRate>5</magicCriticalRate>
+		<operateType>A5</operateType>
+		<isTriggeredSkill>true</isTriggeredSkill>
+		<canBeDispelled>false</canBeDispelled>
+		<effects>
+			<effect name="StatAddForStat">
+				<stat>STAT_INT</stat>
+				<min>65</min>
+				<max>77</max>
+				<addStat>PHYSICAL_ATTACK</addStat>
+				<amount>200</amount>
+			</effect>
+		</effects>
 	</skill>
 	<skill id="87025" toLevel="1" name="Power of Intelligence Lv. 2">
 		<!-- <INT 78 - 90>. P. Atk. +1000 -->
 		<icon>icon.heirophant_mastery</icon>
-		<operateType>A1</operateType>
+		<abnormalLevel>1</abnormalLevel>
+		<abnormalTime>-1</abnormalTime>
+		<abnormalType>POWER_STAT</abnormalType>
+		<magicLevel>80</magicLevel>
+		<magicCriticalRate>5</magicCriticalRate>
+		<operateType>A5</operateType>
+		<isTriggeredSkill>true</isTriggeredSkill>
+		<canBeDispelled>false</canBeDispelled>
+		<effects>
+			<effect name="StatAddForStat">
+				<stat>STAT_INT</stat>
+				<min>78</min>
+				<max>90</max>
+				<addStat>PHYSICAL_ATTACK</addStat>
+				<amount>1000</amount>
+			</effect>
+		</effects>
 	</skill>
 	<skill id="87026" toLevel="1" name="Power of Intelligence Lv. 3">
 		<!-- <INT 91+>. P. Atk. +3000 -->
 		<icon>icon.heirophant_mastery</icon>
-		<operateType>A1</operateType>
+		<abnormalLevel>1</abnormalLevel>
+		<abnormalTime>-1</abnormalTime>
+		<abnormalType>POWER_STAT</abnormalType>
+		<magicLevel>80</magicLevel>
+		<magicCriticalRate>5</magicCriticalRate>
+		<operateType>A5</operateType>
+		<isTriggeredSkill>true</isTriggeredSkill>
+		<canBeDispelled>false</canBeDispelled>
+		<effects>
+			<effect name="StatAddForStat">
+				<stat>STAT_INT</stat>
+				<min>91</min>
+				<max>999</max>
+				<addStat>PHYSICAL_ATTACK</addStat>
+				<amount>3000</amount>
+			</effect>
+		</effects>
 	</skill>
 	<skill id="87027" toLevel="1" name="Mystic Resilience">
 		<icon>icon.skill1411_a</icon>
@@ -1587,9 +1721,27 @@
 		<operateType>A1</operateType>
 	</skill>
 	<skill id="87034" toLevel="1" name="Essential Holy Buster">
-		<!-- When using the Essential Divine Beam skill:. With a certain chance, makes an additional attack. The skill's power is increased if the target is inflicted with Hold. (Trigger cooldown: 10 sec.). <font color="FFBB00">The additional attack deals heavy damage to demons and undead. -->
+		<!-- M. Atk. +100. When using the Essential Divine Beam skill:. With a certain chance, makes an <font color="FFBB00">additional attack</font>. (Cooldown: 10 sec.). <font color="FFBB00">The additional attack</font> deals heavy damage to demons and undead. -->
 		<icon>icon.skill11763</icon>
-		<operateType>A1</operateType>
+		<operateType>P</operateType>
+		<effects>
+			<effect name="MAtk">
+				<amount>100</amount>
+				<mode>DIFF</mode>
+			</effect>
+			<effect name="TriggerSkillBySkill">
+				<castSkillId>87011</castSkillId>
+				<skillId>
+					<value level="1">47246</value>
+					<value toLevel="1" fromLevel="1" fromSubLevel="1001" toSubLevel="1001">1047246</value>
+					<value toLevel="1" fromLevel="1" fromSubLevel="1002" toSubLevel="1002">2047246</value>
+					<value toLevel="1" fromLevel="1" fromSubLevel="1003" toSubLevel="1003">3047246</value>
+				</skillId>
+				<skillLevel>1</skillLevel>
+				<chance>15</chance>
+				<targetType>TARGET</targetType>
+			</effect>
+		</effects>
 	</skill>
 	<skill id="87035" toLevel="2" name="Protective Shield">
 		<!-- The barrier's HP: 500. Can be activated up to 3. The barrier disappears when its HP is 0 or after all trigger attempts. -->
@@ -1618,7 +1770,29 @@
 	<skill id="87037" toLevel="4" name="Unique Seal of Damage">
 		<!-- Blocks damage from <font color="FFBB00">additional attacks</font> with a certain chance. -->
 		<icon>icon.unique_silence</icon>
-		<operateType>A1</operateType>
+		<operateType>A2</operateType>
+		<abnormalTime>10</abnormalTime>
+		<abnormalType>SEAL_OF_DAMAGE</abnormalType>
+		<isTriggeredSkill>true</isTriggeredSkill>
+		<isDebuff>true</isDebuff>
+		<castRange>700</castRange>
+		<hitTime>2500</hitTime>
+		<coolTime>500</coolTime>
+		<reuseDelay>90000</reuseDelay>
+		<abnormalLevel>
+			<value level="1">1</value>
+			<value level="2">2</value>
+			<value level="3">3</value>
+			<value level="4">4</value>
+		</abnormalLevel>
+		<effectPoint>
+			<value level="1">-760</value>
+			<value level="2">-780</value>
+			<value level="3">-800</value>
+			<value level="4">-820</value>
+		</effectPoint>
+		<targetType>ENEMY_ONLY</targetType>
+		<affectScope>SINGLE</affectScope>
 	</skill>
 	<skill id="87038" toLevel="1" name="Crusader's Purple Seal">
 		<!-- Blocks damage from <font color="FFBB00">additional attacks</font> with a certain chance. -->

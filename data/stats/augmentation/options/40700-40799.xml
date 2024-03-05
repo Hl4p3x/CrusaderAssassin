@@ -166,19 +166,19 @@
 		<!-- Item skill: P. Def. in PvE +3% -->
 	</option>
 	<option id="40745" name="option_id_40745">
-		<!-- Item skill: Acquired XP/ SP (hunting) +3% -->
+		<!-- Item skill: Acquired XP/ SP while hunting +3% -->
 	</option>
 	<option id="40746" name="option_id_40746">
-		<!-- Item skill: Acquired XP/ SP (hunting) +3% -->
+		<!-- Item skill: Acquired XP/ SP while hunting +3% -->
 	</option>
 	<option id="40747" name="option_id_40747">
-		<!-- Item skill: Acquired XP/ SP (hunting) +5% -->
+		<!-- Item skill: Acquired XP/ SP while hunting +5% -->
 	</option>
 	<option id="40748" name="option_id_40748">
-		<!-- Item skill: Acquired XP/ SP (hunting) +5% -->
+		<!-- Item skill: Acquired XP/ SP while hunting +5% -->
 	</option>
 	<option id="40749" name="option_id_40749">
-		<!-- Item skill: Acquired XP/ SP (hunting) +10% -->
+		<!-- Item skill: Acquired XP/ SP while hunting +10%. -->
 	</option>
 	<option id="40750" name="option_id_40750">
 		<!-- Active skill: Temporarily increases Atk. Spd. -->

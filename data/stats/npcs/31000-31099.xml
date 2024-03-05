@@ -38,7 +38,7 @@
 			<height normal="22" />
 		</collision>
 	</npc>
-	<npc id="31002" level="70" type="Folk" name="Reorin" title="Maestro">
+	<npc id="31002" level="70" type="Folk" name="Reorin" title="Master">
 		<parameters>
 			<param name="MoveAroundSocial" value="0" />
 			<param name="MoveAroundSocial1" value="85" />
@@ -144,7 +144,7 @@
 			<height normal="15" />
 		</collision>
 	</npc>
-	<npc id="31005" level="70" type="Monster" name="Everlasting">
+	<npc id="31005" level="70" type="Monster" name="Eternity">
 		<race>CONSTRUCT</race>
 		<sex>MALE</sex>
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
@@ -1168,7 +1168,7 @@
 			<height normal="23.5" />
 		</collision>
 	</npc>
-	<npc id="31034" level="75" type="Guard" name="Sentry">
+	<npc id="31034" level="75" type="Guard" name="Lookout">
 		<parameters>
 			<param name="NoFnHi" value="1" />
 			<param name="MoveAroundSocial" value="0" />

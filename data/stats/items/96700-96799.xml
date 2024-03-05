@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/items.xsd">
 	<item id="96700" name="Beryl Lv. 1" additionalName="Sealed" type="Armor">
-		<!-- <Properties>. P. Atk. +30. M. Atk. +30. P. Def. +50. M. Def. +50. Effects of two identical jewels do not stack, the higher-level jewel takes precedence. -->
+		<!-- <font color=bbaa88><Properties></font>. P. Atk. +30. M. Atk. +30. P. Def. +50. M. Def. +50. <font color=bbaa88><Compound></font>. Materials: identical Jewels and Jewelry Boxes. In case of failure, the current level remains the same, but materials disappear. Effects of two identical jewels do not stack, the higher-level jewel takes precedence. -->
 		<set name="icon" val="icon.etc_bm_jewel_beryl_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="bodypart" val="brooch_jewel" />
@@ -17,7 +17,7 @@
 		</skills>
 	</item>
 	<item id="96701" name="Beryl Lv. 2" additionalName="Sealed" type="Armor">
-		<!-- <Properties>. P. Atk. +100. M. Atk. +100. P. Def. +125. M. Def. +125. Effects of two identical jewels do not stack, the higher-level jewel takes precedence. -->
+		<!-- <font color=bbaa88><Properties></font>. P. Atk. +100. M. Atk. +100. P. Def. +125. M. Def. +125. <font color=bbaa88><Compound></font>. Materials: identical Jewels and Jewelry Boxes. In case of failure, the current level remains the same, but materials disappear. Effects of two identical jewels do not stack, the higher-level jewel takes precedence. -->
 		<set name="icon" val="icon.etc_bm_jewel_beryl_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="bodypart" val="brooch_jewel" />
@@ -33,7 +33,7 @@
 		</skills>
 	</item>
 	<item id="96702" name="Beryl Lv. 3" additionalName="Sealed" type="Armor">
-		<!-- <Properties>. P. Atk. +175. M. Atk. +175. P. Def. +245. M. Def. +245. Effects of two identical jewels do not stack, the higher-level jewel takes precedence. -->
+		<!-- <font color=bbaa88><Properties></font>. P. Atk. +175. M. Atk. +175. P. Def. +245. M. Def. +245. <font color=bbaa88><Compound></font>. Materials: identical Jewels and Jewelry Boxes. In case of failure, the current level remains the same, but materials disappear. Effects of two identical jewels do not stack, the higher-level jewel takes precedence. -->
 		<set name="icon" val="icon.etc_bm_jewel_beryl_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="bodypart" val="brooch_jewel" />
@@ -49,7 +49,7 @@
 		</skills>
 	</item>
 	<item id="96703" name="Beryl Lv. 4" additionalName="Sealed" type="Armor">
-		<!-- <Properties>. P. Atk. +250. M. Atk. +250. P. Def. +365. M. Def. +365. Effects of two identical jewels do not stack, the higher-level jewel takes precedence. -->
+		<!-- <font color=bbaa88><Properties></font>. P. Atk. +250. M. Atk. +250. P. Def. +365. M. Def. +365. <font color=bbaa88><Compound></font>. Materials: identical Jewels and Jewelry Boxes. In case of failure, the current level remains the same, but materials disappear. Effects of two identical jewels do not stack, the higher-level jewel takes precedence. -->
 		<set name="icon" val="icon.etc_bm_jewel_beryl_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="bodypart" val="brooch_jewel" />
@@ -65,7 +65,7 @@
 		</skills>
 	</item>
 	<item id="96704" name="Beryl Lv. 5" additionalName="Sealed" type="Armor">
-		<!-- <Properties>. P. Atk. +330. M. Atk. +330. P. Def. +495. M. Def. +495. Effects of two identical jewels do not stack, the higher-level jewel takes precedence. -->
+		<!-- <font color=bbaa88><Properties></font>. P. Atk. +330. M. Atk. +330. P. Def. +495. M. Def. +495. <font color=bbaa88><Compound></font>. Materials: identical Jewels and Jewelry Boxes. In case of failure, the current level remains the same, but materials disappear. Effects of two identical jewels do not stack, the higher-level jewel takes precedence. -->
 		<set name="icon" val="icon.etc_bm_jewel_beryl_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="bodypart" val="brooch_jewel" />
@@ -81,7 +81,7 @@
 		</skills>
 	</item>
 	<item id="96705" name="Beryl Lv. 6" additionalName="Sealed" type="Armor">
-		<!-- <Properties>. P. Atk. +410. M. Atk. +410. P. Def. +625. M. Def. +625. <Beryl - Barrier>. When hit, creates a barrier that absorbs 3000 damage for 10 sec. (Trigger cooldown: 60 sec.). Effects of two identical jewels do not stack, the higher-level jewel takes precedence. -->
+		<!-- <font color=bbaa88><Properties></font>. P. Atk. +410. M. Atk. +410. P. Def. +625. M. Def. +625. <Beryl - Barrier>. When hit, creates a protective barrier that absorbs 3000 damage for 10 sec. (Trigger cooldown: 60 sec.). <font color=bbaa88><Compound></font>. Materials: identical Jewels and Jewelry Boxes. In case of failure, the current level remains the same, but materials disappear. Effects of two identical jewels do not stack, the higher-level jewel takes precedence. -->
 		<set name="icon" val="icon.etc_bm_jewel_beryl_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="bodypart" val="brooch_jewel" />
@@ -97,7 +97,7 @@
 		</skills>
 	</item>
 	<item id="96706" name="Beryl Lv. 7" additionalName="Sealed" type="Armor">
-		<!-- <Properties>. P. Atk. +490. M. Atk. +490. P. Def. +765. M. Def. +765. <Beryl - Barrier>. When hit, creates a barrier that absorbs 4000 damage for 10 sec. (Trigger cooldown: 60 sec.). Effects of two identical jewels do not stack, the higher-level jewel takes precedence. -->
+		<!-- <font color=bbaa88><Properties></font>. P. Atk. +490. M. Atk. +490. P. Def. +765. M. Def. +765. <Beryl - Barrier>. When hit, creates a protective barrier that absorbs 4000 damage for 10 sec. (Trigger cooldown: 60 sec.). <font color=bbaa88><Compound></font>. Materials: identical Jewels and Jewelry Boxes. In case of failure, the current level remains the same, but materials disappear. Effects of two identical jewels do not stack, the higher-level jewel takes precedence. -->
 		<set name="icon" val="icon.etc_bm_jewel_beryl_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="bodypart" val="brooch_jewel" />
@@ -113,7 +113,7 @@
 		</skills>
 	</item>
 	<item id="96707" name="Beryl Lv. 8" additionalName="Sealed" type="Armor">
-		<!-- <Properties>. P. Atk. +570. M. Atk. +570. P. Def. +905. M. Def. +905. <Beryl - Barrier>. When hit, creates a barrier that absorbs 5000 damage for 10 sec. (Trigger cooldown: 60 sec.). Effects of two identical jewels do not stack, the higher-level jewel takes precedence. -->
+		<!-- <font color=bbaa88><Properties></font>. P. Atk. +570. M. Atk. +570. P. Def. +905. M. Def. +905. <Beryl - Barrier>. When hit, creates a barrier that absorbs 5000 damage for 10 sec. (Trigger cooldown: 60 sec.). Effects of two identical jewels do not stack, the higher-level jewel takes precedence. -->
 		<set name="icon" val="icon.etc_bm_jewel_beryl_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="bodypart" val="brooch_jewel" />
@@ -129,7 +129,7 @@
 		</skills>
 	</item>
 	<item id="96708" name="Beryl Jewelry Box Lv. 1" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.etc_bm_jewelbox_beryl_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -143,7 +143,7 @@
 		</capsuled_items>
 	</item>
 	<item id="96709" name="Beryl Jewelry Box Lv. 2" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.etc_bm_jewelbox_beryl_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -157,7 +157,7 @@
 		</capsuled_items>
 	</item>
 	<item id="96710" name="Beryl Jewelry Box Lv. 3" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.etc_bm_jewelbox_beryl_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -171,7 +171,7 @@
 		</capsuled_items>
 	</item>
 	<item id="96711" name="Beryl Jewelry Box Lv. 4" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.etc_bm_jewelbox_beryl_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -185,7 +185,7 @@
 		</capsuled_items>
 	</item>
 	<item id="96712" name="Beryl Jewelry Box Lv. 5" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.etc_bm_jewelbox_beryl_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -199,7 +199,7 @@
 		</capsuled_items>
 	</item>
 	<item id="96713" name="Beryl Jewelry Box Lv. 6" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.etc_bm_jewelbox_beryl_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -213,7 +213,7 @@
 		</capsuled_items>
 	</item>
 	<item id="96714" name="Beryl Jewelry Box Lv. 7" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.etc_bm_jewelbox_beryl_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -227,7 +227,7 @@
 		</capsuled_items>
 	</item>
 	<item id="96715" name="Beryl Jewelry Box Lv. 8" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.etc_bm_jewelbox_beryl_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -316,7 +316,7 @@
 		</stats>
 	</item>
 	<item id="96720" name="Giant's One-handed Axe" type="Weapon">
-		<!-- <Pet equipment effect>. Increases P./ M. Atk. <Acquisition>. Giant's Cave Purge. <font color=ff6666><Unavailable to Sylphs/ Vanguard Riders></font> -->
+		<!-- <Pet equipment effect>. Increases P./ M. Atk. <Acquisition>. Giant's Cave Purge. <font color=ff6666><Unavailable to Sylphs/ Vanguard Riders/ Assassins.></font> -->
 		<set name="icon" val="icon.subjugation_wp_blunt_2" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="BLUNT" />
@@ -347,7 +347,7 @@
 		</skills>
 	</item>
 	<item id="96721" name="Giant's Two-handed Staff" type="Weapon">
-		<!-- <Pet equipment effect>. Increases P./ M. Atk. <Acquisition>. Giant's Cave Purge. <font color=ff6666><Unavailable to Sylphs/ Vanguard Riders></font> -->
+		<!-- <Pet equipment effect>. Increases P./ M. Atk. <Acquisition>. Giant's Cave Purge. <font color=ff6666><Unavailable to Sylphs/ Vanguard Riders/ Assassins.></font> -->
 		<set name="icon" val="icon.subjugation_wp_twohandstaff_2" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="BLUNT" />
@@ -379,7 +379,7 @@
 		</skills>
 	</item>
 	<item id="96722" name="Giant's One-handed Axe" additionalName="Sealed" type="Weapon">
-		<!-- <Pet equipment effect>. Increases P./ M. Atk. <Acquisition>. Giant's Cave Purge. <font color=ff6666><Unavailable to Sylphs/ Vanguard Riders></font> -->
+		<!-- <Pet equipment effect>. Increases P./ M. Atk. <Acquisition>. Giant's Cave Purge. <font color=ff6666><Unavailable to Sylphs/ Vanguard Riders/ Assassins.></font> -->
 		<set name="icon" val="icon.subjugation_wp_blunt_2" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="BLUNT" />
@@ -411,7 +411,7 @@
 		</skills>
 	</item>
 	<item id="96723" name="Giant's Two-handed Staff" additionalName="Sealed" type="Weapon">
-		<!-- <Pet equipment effect>. Increases P./ M. Atk. <Acquisition>. Giant's Cave Purge. <font color=ff6666><Unavailable to Sylphs/ Vanguard Riders></font> -->
+		<!-- <Pet equipment effect>. Increases P./ M. Atk. <Acquisition>. Giant's Cave Purge. <font color=ff6666><Unavailable to Sylphs/ Vanguard Riders/ Assassins.></font> -->
 		<set name="icon" val="icon.subjugation_wp_twohandstaff_2" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="BLUNT" />
@@ -444,7 +444,7 @@
 		</skills>
 	</item>
 	<item id="96724" name="Giant's Cave Purge Rank Reward Pack" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.etc_treasure_box_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -466,7 +466,7 @@
 		</capsuled_items>
 	</item>
 	<item id="96725" name="Low-grade Supply Box - Giant's Cave Purge" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.etc_box_of_adventure_1_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -482,7 +482,7 @@
 		</capsuled_items>
 	</item>
 	<item id="96726" name="High-grade Supply Box - Giant's Cave Purge" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.etc_box_of_adventure_3_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -663,7 +663,7 @@
 		<set name="is_sellable" val="false" />
 	</item>
 	<item id="96735" name="Package: Excuro's Staff" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.subjugation_wp_staff_01" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -683,7 +683,7 @@
 		</capsuled_items>
 	</item>
 	<item id="96736" name="Package: Torfe's Claw" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.subjugation_wp_dualfist_01" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -703,7 +703,7 @@
 		</capsuled_items>
 	</item>
 	<item id="96737" name="Package: Giants' Club" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.subjugation_wp_blunt_01" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -723,7 +723,7 @@
 		</capsuled_items>
 	</item>
 	<item id="96738" name="Package: Ancient Rapier" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.subjugation_wp_rapier_01" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -743,7 +743,7 @@
 		</capsuled_items>
 	</item>
 	<item id="96739" name="Package: Guardian Messenger's Spear" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.subjugation_wp_pole_01" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -763,7 +763,7 @@
 		</capsuled_items>
 	</item>
 	<item id="96740" name="Package: Sealed Angel's Hammer" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.subjugation_wp_twohandblunt_01" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -783,7 +783,7 @@
 		</capsuled_items>
 	</item>
 	<item id="96741" name="Package: Lizardman Shaman's Staff" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.subjugation_wp_twohandstaff_01" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -803,7 +803,7 @@
 		</capsuled_items>
 	</item>
 	<item id="96742" name="Package: Lizard Slayer" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.shooter_monster_low" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -823,7 +823,7 @@
 		</capsuled_items>
 	</item>
 	<item id="96743" name="Package: Deadman's Dagger" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.subjugation_wp_dagger_01" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -843,7 +843,7 @@
 		</capsuled_items>
 	</item>
 	<item id="96744" name="Package: Dragon Bone Blade" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.subjugation_wp_ancientsword_01" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -863,7 +863,7 @@
 		</capsuled_items>
 	</item>
 	<item id="96745" name="Package: Berserker's Sword" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.subjugation_wp_sword_01" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -883,7 +883,7 @@
 		</capsuled_items>
 	</item>
 	<item id="96746" name="Package: Sel Mahum Sniper" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.subjugation_wp_bow_01" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -903,7 +903,7 @@
 		</capsuled_items>
 	</item>
 	<item id="96747" name="Package: Turek Orc Prefect's Dual Swords" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.subjugation_wp_dual_01" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -923,7 +923,7 @@
 		</capsuled_items>
 	</item>
 	<item id="96748" name="Package: Butcher's Long Sword" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.subjugation_wp_twohandsword_01" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -943,7 +943,7 @@
 		</capsuled_items>
 	</item>
 	<item id="96749" name="Package: Giant's One-handed Axe" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.subjugation_wp_blunt_2" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -963,7 +963,7 @@
 		</capsuled_items>
 	</item>
 	<item id="96750" name="Package: Giant's Two-handed Staff" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.subjugation_wp_twohandstaff_2" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -983,7 +983,7 @@
 		</capsuled_items>
 	</item>
 	<item id="96751" name="Frost Lord's Sword" additionalName="Sealed" type="Weapon">
-		<!-- <font color=ff6666><Unavailable to Sylphs/ Vanguard Riders.></font> -->
+		<!-- <font color=ff6666><Unavailable to Sylphs/ Vanguard Riders/ Assassins.></font> -->
 		<set name="icon" val="icon.frozen_weapon_sword" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="SWORD" />
@@ -1033,7 +1033,7 @@
 		</skills>
 	</item>
 	<item id="96752" name="Frost Lord's Two-handed Sword" additionalName="Sealed" type="Weapon">
-		<!-- <font color=ff6666><Unavailable to Sylphs/ Vanguard Riders.></font> -->
+		<!-- <font color=ff6666><Unavailable to Sylphs/ Vanguard Riders/ Assassins.></font> -->
 		<set name="icon" val="icon.frozen_weapon_two_hand_sword" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="SWORD" />
@@ -1083,7 +1083,7 @@
 		</skills>
 	</item>
 	<item id="96753" name="Frost Lord's Axe" additionalName="Sealed" type="Weapon">
-		<!-- <font color=ff6666><Unavailable to Sylphs/ Vanguard Riders.></font> -->
+		<!-- <font color=ff6666><Unavailable to Sylphs/ Vanguard Riders/ Assassins.></font> -->
 		<set name="icon" val="icon.frozen_weapon_blunt" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="BLUNT" />
@@ -1185,7 +1185,7 @@
 		</skills>
 	</item>
 	<item id="96755" name="Frost Lord's Spear" additionalName="Sealed" type="Weapon">
-		<!-- <font color=ff6666><Unavailable to Sylphs></font> -->
+		<!-- <font color=ff6666><Unavailable to Sylphs/ Assassins.></font> -->
 		<set name="icon" val="icon.frozen_weapon_pole" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="POLE" />
@@ -1237,7 +1237,7 @@
 		</skills>
 	</item>
 	<item id="96756" name="Frost Lord's Bow" additionalName="Sealed" type="Weapon">
-		<!-- <font color=ff6666><Unavailable to Sylphs/ Vanguard Riders.></font> -->
+		<!-- <font color=ff6666><Unavailable to Sylphs/ Vanguard Riders/ Assassins.></font> -->
 		<set name="icon" val="icon.frozen_weapon_bow" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="BOW" />
@@ -1289,7 +1289,7 @@
 		</skills>
 	</item>
 	<item id="96757" name="Frost Lord's Blade Fists" additionalName="Sealed" type="Weapon">
-		<!-- <font color=ff6666><Unavailable to Sylphs/ Vanguard Riders.></font> -->
+		<!-- <font color=ff6666><Unavailable to Sylphs/ Vanguard Riders/ Assassins.></font> -->
 		<set name="icon" val="icon.frozen_weapon_dualfist" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="FIST" />
@@ -1340,7 +1340,7 @@
 		</skills>
 	</item>
 	<item id="96758" name="Frost Lord's Magic Blunt Weapon" additionalName="Sealed" type="Weapon">
-		<!-- <font color=ff6666><Unavailable to Sylphs/ Vanguard Riders.></font> -->
+		<!-- <font color=ff6666><Unavailable to Sylphs/ Vanguard Riders/ Assassins.></font> -->
 		<set name="icon" val="icon.frozen_weapon_staff" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="BLUNT" />
@@ -1392,7 +1392,7 @@
 		</skills>
 	</item>
 	<item id="96759" name="Frost Lord's Staff" additionalName="Sealed" type="Weapon">
-		<!-- <font color=ff6666><Unavailable to Sylphs/ Vanguard Riders.></font> -->
+		<!-- <font color=ff6666><Unavailable to Sylphs/ Vanguard Riders/ Assassins.></font> -->
 		<set name="icon" val="icon.frozen_weapon_two_hand_staff" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="BLUNT" />
@@ -1444,7 +1444,7 @@
 		</skills>
 	</item>
 	<item id="96760" name="Frost Lord's Ancient Sword" additionalName="Sealed" type="Weapon">
-		<!-- <font color=ff6666><Unavailable to Humans/ Elves/ Dark Elves/ Sylphs/ Vanguard Riders.></font> -->
+		<!-- <font color=ff6666><Unavailable to Humans/ Elves/ Dark Elves/ Sylphs/ Vanguard Riders/ Assassins.></font> -->
 		<set name="icon" val="icon.frozen_weapon_ancientsword" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="ANCIENTSWORD" />
@@ -1495,7 +1495,7 @@
 		</skills>
 	</item>
 	<item id="96761" name="Frost Lord's Rapier" additionalName="Sealed" type="Weapon">
-		<!-- <font color=ff6666><Unavailable to Orcs/ Sylphs/ Dwarves.></font> -->
+		<!-- <font color=ff6666><Unavailable to Orcs/ Sylphs/ Dwarves/ Assassins.></font> -->
 		<set name="icon" val="icon.frozen_weapon_rapier" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="RAPIER" />
@@ -1597,7 +1597,7 @@
 		</skills>
 	</item>
 	<item id="96763" name="Frost Lord's Dual Swords" additionalName="Sealed" type="Weapon">
-		<!-- When enchanting dual swords, two-handed swords/ blunts and fists, the P. Atk. bonus is higher than that of one-handed weapons. <font color=ff6666><Unavailable to Sylphs/ Vanguard Riders.></font> -->
+		<!-- When enchanting dual swords, two-handed swords/ blunts and fists, the P. Atk. bonus is higher than that of one-handed weapons. <font color=ff6666><Unavailable to Sylphs/ Vanguard Riders/ Assassins.></font> -->
 		<set name="icon" val="icon.frozen_weapon_dual_sword" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="DUAL" />
@@ -1647,7 +1647,7 @@
 		</skills>
 	</item>
 	<item id="96764" name="Package: Beleth's Soul Eater" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.staff_of_bereth" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -1662,7 +1662,7 @@
 		</capsuled_items>
 	</item>
 	<item id="96765" name="Package: Beleth's Soul Eater" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.staff_of_bereth" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -1677,7 +1677,7 @@
 		</capsuled_items>
 	</item>
 	<item id="96766" name="Package: Frost Lord's Sword" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.frozen_weapon_sword" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -1692,7 +1692,7 @@
 		</capsuled_items>
 	</item>
 	<item id="96767" name="Package: Frost Lord's Two-handed Sword" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.frozen_weapon_two_hand_sword" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -1707,7 +1707,7 @@
 		</capsuled_items>
 	</item>
 	<item id="96768" name="Package: Frost Lord's Axe" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.frozen_weapon_blunt" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -1722,7 +1722,7 @@
 		</capsuled_items>
 	</item>
 	<item id="96769" name="Package: Frost Lord's Dagger" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.frozen_weapon_dagger" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -1737,7 +1737,7 @@
 		</capsuled_items>
 	</item>
 	<item id="96770" name="Package: Frost Lord's Spear" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.frozen_weapon_pole" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -1752,7 +1752,7 @@
 		</capsuled_items>
 	</item>
 	<item id="96771" name="Package: Frost Lord's Bow" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.frozen_weapon_bow" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -1767,7 +1767,7 @@
 		</capsuled_items>
 	</item>
 	<item id="96772" name="Package: Frost Lord's Blade Fists" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.frozen_weapon_dualfist" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -1782,7 +1782,7 @@
 		</capsuled_items>
 	</item>
 	<item id="96773" name="Package: Frost Lord's Magic Blunt Weapon" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.frozen_weapon_staff" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -1797,7 +1797,7 @@
 		</capsuled_items>
 	</item>
 	<item id="96774" name="Package: Frost Lord's Staff" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.frozen_weapon_two_hand_staff" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -1812,7 +1812,7 @@
 		</capsuled_items>
 	</item>
 	<item id="96775" name="Package: Frost Lord's Ancient Sword" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.frozen_weapon_ancientsword" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -1827,7 +1827,7 @@
 		</capsuled_items>
 	</item>
 	<item id="96776" name="Package: Frost Lord's Rapier" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.frozen_weapon_rapier" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -1842,7 +1842,7 @@
 		</capsuled_items>
 	</item>
 	<item id="96777" name="Package: Frost Lord's Pistols" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.frozen_weapon_shooter" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -1857,7 +1857,7 @@
 		</capsuled_items>
 	</item>
 	<item id="96778" name="Package: Frost Lord's Dual Swords" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.frozen_weapon_dual_sword" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -1872,7 +1872,7 @@
 		</capsuled_items>
 	</item>
 	<item id="96779" name="Crafting Pack: Frost Lord's Weapon" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain items required to craft Frost Lord's Weapon. -->
 		<set name="icon" val="icon.sayha2017_box_i02" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -1884,11 +1884,11 @@
 		<set name="handler" val="ExtractableItems" />
 		<capsuled_items>
 			<item id="95781" min="1" max="1" chance="100" /> <!-- Black Frozen Core -->
-			<item id="95782" min="1700" max="1700" chance="100" /> <!-- Frost Lord's Weapon Crystal - Sealed -->
+			<item id="95782" min="1700" max="1700" chance="100" /> <!-- Frost Lord's Weapon Crystal -->
 		</capsuled_items>
 	</item>
 	<item id="96780" name="Spellbook: Dragon Slayer" additionalName="Sealed" type="EtcItem">
-		<!-- Required for learning the Dragon Slayer Transformation. <Classes>. All classes. <Skill effect>. Transforms into Dragon Slayer. Increases Max HP, Max MP, P. Atk./ M. Atk./ P. Def./ M. Def., Atk. Spd., Casting Spd. -->
+		<!-- Required for learning the Dragon Slayer Transformation. <Classes>. All classes after the 3rd class change. <Skill effect>. Transforms into Dragon Slayer. Increases Max HP, Max MP, P. Atk./ M. Atk./ P. Def./ M. Def., Atk. Spd., Casting Spd. -->
 		<set name="icon" val="icon.si_phanteon_book" />
 		<set name="default_action" val="NONE" />
 		<set name="immediate_effect" val="true" />
@@ -1899,7 +1899,7 @@
 		<set name="is_stackable" val="true" />
 	</item>
 	<item id="96781" name="Package: Gauntlets of Protection" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.armor_t901_g_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -1914,7 +1914,7 @@
 		</capsuled_items>
 	</item>
 	<item id="96782" name="Package: Gauntlets of Protection" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.armor_t901_g_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -1929,7 +1929,7 @@
 		</capsuled_items>
 	</item>
 	<item id="96783" name="Package: Helmet of Protection" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.armor_leather_helmet_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -1944,7 +1944,7 @@
 		</capsuled_items>
 	</item>
 	<item id="96784" name="Package: Helmet of Protection" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.armor_leather_helmet_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -1959,7 +1959,7 @@
 		</capsuled_items>
 	</item>
 	<item id="96785" name="Package: Boots of Protection" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.armor_t901_b_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -1974,7 +1974,7 @@
 		</capsuled_items>
 	</item>
 	<item id="96786" name="Package: Boots of Protection" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.armor_t901_b_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -1989,7 +1989,7 @@
 		</capsuled_items>
 	</item>
 	<item id="96787" name="Enhanced Talisman of Speed Pack" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.bm_pirate_king_box" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -2019,7 +2019,7 @@
 		<set name="is_sellable" val="false" />
 	</item>
 	<item id="96789" name="Kit: Settling Support" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.etc_ev_kalie_treasure_box" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -2035,7 +2035,7 @@
 			<item id="96177" min="1" max="1" minEnchant="5" maxEnchant="5" chance="100" /> <!-- Circlet of Hero - 30-day -->
 			<item id="96175" min="1" max="1" minEnchant="5" maxEnchant="5" chance="100" /> <!-- Talisman of Authority - 30-day -->
 			<item id="96172" min="1" max="1" minEnchant="5" maxEnchant="5" chance="100" /> <!-- Talisman of Eva - 30-day -->
-			<item id="91712" min="1080" max="1080" chance="100" /> <!-- Sayha's Storm Lv. 3 - Sealed -->
+			<item id="91712" min="1080" max="1080" chance="100" /> <!-- Sayha's Storm - Sealed -->
 			<item id="94269" min="1080" max="1080" chance="100" /> <!-- Scroll: Boost Attack - Sealed -->
 			<item id="94271" min="1080" max="1080" chance="100" /> <!-- Scroll: Boost Defense - Sealed -->
 			<item id="90907" min="1000" max="1000" chance="100" /> <!-- Soulshot Ticket - Sealed -->
@@ -2045,7 +2045,7 @@
 		</capsuled_items>
 	</item>
 	<item id="96790" name="Package: Red Lantern (400 pcs.)" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. <Required level>. 85+ -->
+		<!-- Double-click to obtain various items. <Required level>. 85+ -->
 		<set name="icon" val="icon.r99_soul_stone_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -2060,7 +2060,7 @@
 		</capsuled_items>
 	</item>
 	<item id="96791" name="Moon's Gift Box" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.etc_pi_gift_box_i02" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -2077,7 +2077,7 @@
 		</capsuled_items>
 	</item>
 	<item id="96792" name="Moon's Supply Pack" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.etc_pi_box_joy_pack" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -2177,7 +2177,7 @@
 		<set name="time" val="43200" />
 	</item>
 	<item id="96797" name="Adventurers' Guide Coupon (Time-limited)" additionalName="Sealed" type="EtcItem">
-		<!-- Can be exchanged in the Adventurers' Guide Shop. Sayha's Grace points +1000, when used. -->
+		<!-- Can be exchanged in the Adventurers' Guide Shop. When used, Sayha's Grace points +1000. -->
 		<set name="icon" val="icon.bm_challenger_wp_trade_ticket" />
 		<set name="default_action" val="SKILL_REDUCE" />
 		<set name="immediate_effect" val="true" />
@@ -2187,7 +2187,7 @@
 		<set name="is_sellable" val="false" />
 	</item>
 	<item id="96798" name="+0 ~ +5 Talisman of Authority Pack" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.bm_silver_lure_box" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -2209,7 +2209,7 @@
 		</capsuled_items>
 	</item>
 	<item id="96799" name="+0 ~ +5 Dragon Belt Pack" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.etc_readybox_bronze" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />

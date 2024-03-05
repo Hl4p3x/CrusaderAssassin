@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/skills.xsd">
 	<skill id="55100" toLevel="1" name="Water Dragon Pendant Base Effect Lv. 1">
-		<!-- M. Atk. +9 when equipped. -->
+		<!-- M. Atk. +9. -->
 		<icon>BranchIcon.Icon.bm_pendant_pvp_blue</icon>
 		<magicLevel>1</magicLevel>
 		<operateType>P</operateType>
@@ -14,7 +14,7 @@
 		</effects>
 	</skill>
 	<skill id="55101" toLevel="10" name="Water Dragon Pendant Lv. 1: Enchant Effect">
-		<!-- M. Atk. +13 when equipped. -->
+		<!-- M. Atk. +13. -->
 		<icon>BranchIcon.Icon.bm_pendant_pvp_blue</icon>
 		<magicLevel>1</magicLevel>
 		<operateType>P</operateType>
@@ -2016,7 +2016,7 @@
 		</effects>
 	</skill>
 	<skill id="55169" toLevel="1" name="Clan's Unity Lv. 2">
-		<!-- Clan Alliance Buff. For 3 h., acquired XP/ SP +5%, Received PvE Damage -2%. -->
+		<!-- A clan alliance buff. For 3 h., acquired XP/ SP +5%, received PvE damage -2%. -->
 		<icon>icon.skill19011</icon>
 		<operateType>A2</operateType>
 		<isMagic>4</isMagic>
@@ -2047,7 +2047,7 @@
 		</effects>
 	</skill>
 	<skill id="55170" toLevel="1" name="Clan's Unity Lv. 3">
-		<!-- Clan Alliance Buff. For 3 h., acquired XP/ SP +7%, Received PvE Damage -5%. -->
+		<!-- A clan alliance buff. For 3 h., acquired XP/ SP +7%, received PvE damage -5%. -->
 		<icon>icon.skill19011</icon>
 		<operateType>A2</operateType>
 		<isMagic>4</isMagic>
@@ -2078,7 +2078,7 @@
 		</effects>
 	</skill>
 	<skill id="55171" toLevel="1" name="Clan's Unity Lv. 4">
-		<!-- Clan Alliance Buff. For 3 h., Acquired XP/ SP +10%, PvE damage +7%, Received PvE Damage -8%. -->
+		<!-- A clan alliance buff. For 3 h., acquired XP/ SP +10%, PvE damage +7%, received PvE damage -8%. -->
 		<icon>icon.skill19011</icon>
 		<operateType>A2</operateType>
 		<isMagic>4</isMagic>

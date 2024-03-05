@@ -118,6 +118,7 @@
 		<!-- Bow Resistance +10% -->
 	</option>
 	<option id="93539" name="Max HP +30">
+		<!-- Max HP +30 -->
 		<effects>
 			<effect name="MaxHp">
 				<amount>30</amount>
@@ -126,6 +127,7 @@
 		</effects>
 	</option>
 	<option id="93540" name="Max HP +32">
+		<!-- Max HP +32 -->
 		<effects>
 			<effect name="MaxHp">
 				<amount>32</amount>
@@ -134,6 +136,7 @@
 		</effects>
 	</option>
 	<option id="93541" name="Max HP +35">
+		<!-- Max HP +35 -->
 		<effects>
 			<effect name="MaxHp">
 				<amount>35</amount>
@@ -142,6 +145,7 @@
 		</effects>
 	</option>
 	<option id="93542" name="Max HP +38">
+		<!-- Max HP +38 -->
 		<effects>
 			<effect name="MaxHp">
 				<amount>38</amount>
@@ -150,6 +154,7 @@
 		</effects>
 	</option>
 	<option id="93543" name="Max HP +41">
+		<!-- Max HP +41 -->
 		<effects>
 			<effect name="MaxHp">
 				<amount>41</amount>
@@ -158,6 +163,7 @@
 		</effects>
 	</option>
 	<option id="93544" name="Max HP +44">
+		<!-- Max HP +44 -->
 		<effects>
 			<effect name="MaxHp">
 				<amount>44</amount>
@@ -166,6 +172,7 @@
 		</effects>
 	</option>
 	<option id="93545" name="Max HP +47">
+		<!-- Max HP +47 -->
 		<effects>
 			<effect name="MaxHp">
 				<amount>47</amount>
@@ -174,6 +181,7 @@
 		</effects>
 	</option>
 	<option id="93546" name="Max HP +51">
+		<!-- Max HP +51 -->
 		<effects>
 			<effect name="MaxHp">
 				<amount>51</amount>
@@ -182,6 +190,7 @@
 		</effects>
 	</option>
 	<option id="93547" name="Max HP +55">
+		<!-- Max HP +55 -->
 		<effects>
 			<effect name="MaxHp">
 				<amount>55</amount>
@@ -190,6 +199,7 @@
 		</effects>
 	</option>
 	<option id="93548" name="Max HP +59">
+		<!-- Max HP +59 -->
 		<effects>
 			<effect name="MaxHp">
 				<amount>59</amount>
@@ -198,6 +208,7 @@
 		</effects>
 	</option>
 	<option id="93549" name="Max HP +63">
+		<!-- Max HP +63 -->
 		<effects>
 			<effect name="MaxHp">
 				<amount>63</amount>
@@ -206,6 +217,7 @@
 		</effects>
 	</option>
 	<option id="93550" name="Max HP +68">
+		<!-- Max HP +68 -->
 		<effects>
 			<effect name="MaxHp">
 				<amount>68</amount>
@@ -214,6 +226,7 @@
 		</effects>
 	</option>
 	<option id="93551" name="Max HP +73">
+		<!-- Max HP +73 -->
 		<effects>
 			<effect name="MaxHp">
 				<amount>73</amount>
@@ -222,6 +235,7 @@
 		</effects>
 	</option>
 	<option id="93552" name="Max HP +75">
+		<!-- Max HP +75 -->
 		<effects>
 			<effect name="MaxHp">
 				<amount>75</amount>
@@ -230,6 +244,7 @@
 		</effects>
 	</option>
 	<option id="93553" name="Max HP +78">
+		<!-- Max HP +78 -->
 		<effects>
 			<effect name="MaxHp">
 				<amount>78</amount>
@@ -238,6 +253,7 @@
 		</effects>
 	</option>
 	<option id="93554" name="Max HP +82">
+		<!-- Max HP +82 -->
 		<effects>
 			<effect name="MaxHp">
 				<amount>82</amount>
@@ -246,6 +262,7 @@
 		</effects>
 	</option>
 	<option id="93555" name="Max HP +86">
+		<!-- Max HP +86 -->
 		<effects>
 			<effect name="MaxHp">
 				<amount>86</amount>
@@ -254,6 +271,7 @@
 		</effects>
 	</option>
 	<option id="93556" name="Max HP +90">
+		<!-- Max HP +90 -->
 		<effects>
 			<effect name="MaxHp">
 				<amount>90</amount>
@@ -262,6 +280,7 @@
 		</effects>
 	</option>
 	<option id="93557" name="Max HP +94">
+		<!-- Max HP +94 -->
 		<effects>
 			<effect name="MaxHp">
 				<amount>94</amount>
@@ -270,6 +289,7 @@
 		</effects>
 	</option>
 	<option id="93558" name="Max HP +100">
+		<!-- Max HP +100 -->
 		<effects>
 			<effect name="MaxHp">
 				<amount>100</amount>
@@ -278,6 +298,7 @@
 		</effects>
 	</option>
 	<option id="93559" name="Max HP +30">
+		<!-- Max HP +30 -->
 		<effects>
 			<effect name="MaxHp">
 				<amount>30</amount>
@@ -286,6 +307,7 @@
 		</effects>
 	</option>
 	<option id="93560" name="Max HP +32">
+		<!-- Max HP +32 -->
 		<effects>
 			<effect name="MaxHp">
 				<amount>32</amount>
@@ -294,6 +316,7 @@
 		</effects>
 	</option>
 	<option id="93561" name="Max HP +35">
+		<!-- Max HP +35 -->
 		<effects>
 			<effect name="MaxHp">
 				<amount>35</amount>
@@ -302,6 +325,7 @@
 		</effects>
 	</option>
 	<option id="93562" name="Max HP +38">
+		<!-- Max HP +38 -->
 		<effects>
 			<effect name="MaxHp">
 				<amount>38</amount>
@@ -310,6 +334,7 @@
 		</effects>
 	</option>
 	<option id="93563" name="Max HP +41">
+		<!-- Max HP +41 -->
 		<effects>
 			<effect name="MaxHp">
 				<amount>41</amount>
@@ -318,6 +343,7 @@
 		</effects>
 	</option>
 	<option id="93564" name="Max HP +44">
+		<!-- Max HP +44 -->
 		<effects>
 			<effect name="MaxHp">
 				<amount>44</amount>
@@ -326,6 +352,7 @@
 		</effects>
 	</option>
 	<option id="93565" name="Max HP +47">
+		<!-- Max HP +47 -->
 		<effects>
 			<effect name="MaxHp">
 				<amount>47</amount>
@@ -334,6 +361,7 @@
 		</effects>
 	</option>
 	<option id="93566" name="Max HP +51">
+		<!-- Max HP +51 -->
 		<effects>
 			<effect name="MaxHp">
 				<amount>51</amount>
@@ -342,6 +370,7 @@
 		</effects>
 	</option>
 	<option id="93567" name="Max HP +55">
+		<!-- Max HP +55 -->
 		<effects>
 			<effect name="MaxHp">
 				<amount>55</amount>
@@ -350,6 +379,7 @@
 		</effects>
 	</option>
 	<option id="93568" name="Max HP +59">
+		<!-- Max HP +59 -->
 		<effects>
 			<effect name="MaxHp">
 				<amount>59</amount>
@@ -358,6 +388,7 @@
 		</effects>
 	</option>
 	<option id="93569" name="Max HP +63">
+		<!-- Max HP +63 -->
 		<effects>
 			<effect name="MaxHp">
 				<amount>63</amount>
@@ -366,6 +397,7 @@
 		</effects>
 	</option>
 	<option id="93570" name="Max HP +68">
+		<!-- Max HP +68 -->
 		<effects>
 			<effect name="MaxHp">
 				<amount>68</amount>
@@ -374,6 +406,7 @@
 		</effects>
 	</option>
 	<option id="93571" name="Max HP +73">
+		<!-- Max HP +73 -->
 		<effects>
 			<effect name="MaxHp">
 				<amount>73</amount>
@@ -382,6 +415,7 @@
 		</effects>
 	</option>
 	<option id="93572" name="Max HP +75">
+		<!-- Max HP +75 -->
 		<effects>
 			<effect name="MaxHp">
 				<amount>75</amount>
@@ -390,6 +424,7 @@
 		</effects>
 	</option>
 	<option id="93573" name="Max HP +78">
+		<!-- Max HP +78 -->
 		<effects>
 			<effect name="MaxHp">
 				<amount>78</amount>
@@ -398,6 +433,7 @@
 		</effects>
 	</option>
 	<option id="93574" name="Max HP +82">
+		<!-- Max HP +82 -->
 		<effects>
 			<effect name="MaxHp">
 				<amount>82</amount>
@@ -406,6 +442,7 @@
 		</effects>
 	</option>
 	<option id="93575" name="Max HP +86">
+		<!-- Max HP +86 -->
 		<effects>
 			<effect name="MaxHp">
 				<amount>86</amount>
@@ -414,6 +451,7 @@
 		</effects>
 	</option>
 	<option id="93576" name="Max HP +90">
+		<!-- Max HP +90 -->
 		<effects>
 			<effect name="MaxHp">
 				<amount>90</amount>
@@ -422,6 +460,7 @@
 		</effects>
 	</option>
 	<option id="93577" name="Max HP +94">
+		<!-- Max HP +94 -->
 		<effects>
 			<effect name="MaxHp">
 				<amount>94</amount>
@@ -430,6 +469,7 @@
 		</effects>
 	</option>
 	<option id="93578" name="Max HP +100">
+		<!-- Max HP +100 -->
 		<effects>
 			<effect name="MaxHp">
 				<amount>100</amount>
@@ -438,6 +478,7 @@
 		</effects>
 	</option>
 	<option id="93579" name="Max HP +30">
+		<!-- Max HP +30 -->
 		<effects>
 			<effect name="MaxHp">
 				<amount>30</amount>
@@ -446,6 +487,7 @@
 		</effects>
 	</option>
 	<option id="93580" name="Max HP +32">
+		<!-- Max HP +32 -->
 		<effects>
 			<effect name="MaxHp">
 				<amount>32</amount>
@@ -454,6 +496,7 @@
 		</effects>
 	</option>
 	<option id="93581" name="Max HP +35">
+		<!-- Max HP +35 -->
 		<effects>
 			<effect name="MaxHp">
 				<amount>35</amount>
@@ -462,6 +505,7 @@
 		</effects>
 	</option>
 	<option id="93582" name="Max HP +38">
+		<!-- Max HP +38 -->
 		<effects>
 			<effect name="MaxHp">
 				<amount>38</amount>
@@ -470,6 +514,7 @@
 		</effects>
 	</option>
 	<option id="93583" name="Max HP +41">
+		<!-- Max HP +41 -->
 		<effects>
 			<effect name="MaxHp">
 				<amount>41</amount>
@@ -478,6 +523,7 @@
 		</effects>
 	</option>
 	<option id="93584" name="Max HP +44">
+		<!-- Max HP +44 -->
 		<effects>
 			<effect name="MaxHp">
 				<amount>44</amount>
@@ -486,6 +532,7 @@
 		</effects>
 	</option>
 	<option id="93585" name="Max HP +47">
+		<!-- Max HP +47 -->
 		<effects>
 			<effect name="MaxHp">
 				<amount>47</amount>
@@ -494,6 +541,7 @@
 		</effects>
 	</option>
 	<option id="93586" name="Max HP +51">
+		<!-- Max HP +51 -->
 		<effects>
 			<effect name="MaxHp">
 				<amount>51</amount>
@@ -502,6 +550,7 @@
 		</effects>
 	</option>
 	<option id="93587" name="Max HP +55">
+		<!-- Max HP +55 -->
 		<effects>
 			<effect name="MaxHp">
 				<amount>55</amount>
@@ -510,6 +559,7 @@
 		</effects>
 	</option>
 	<option id="93588" name="Max HP +59">
+		<!-- Max HP +59 -->
 		<effects>
 			<effect name="MaxHp">
 				<amount>59</amount>
@@ -518,6 +568,7 @@
 		</effects>
 	</option>
 	<option id="93589" name="Max HP +63">
+		<!-- Max HP +63 -->
 		<effects>
 			<effect name="MaxHp">
 				<amount>63</amount>
@@ -526,6 +577,7 @@
 		</effects>
 	</option>
 	<option id="93590" name="Max HP +68">
+		<!-- Max HP +68 -->
 		<effects>
 			<effect name="MaxHp">
 				<amount>68</amount>
@@ -534,6 +586,7 @@
 		</effects>
 	</option>
 	<option id="93591" name="Max HP +73">
+		<!-- Max HP +73 -->
 		<effects>
 			<effect name="MaxHp">
 				<amount>73</amount>
@@ -542,6 +595,7 @@
 		</effects>
 	</option>
 	<option id="93592" name="Max HP +75">
+		<!-- Max HP +75 -->
 		<effects>
 			<effect name="MaxHp">
 				<amount>75</amount>
@@ -550,6 +604,7 @@
 		</effects>
 	</option>
 	<option id="93593" name="Max HP +78">
+		<!-- Max HP +78 -->
 		<effects>
 			<effect name="MaxHp">
 				<amount>78</amount>
@@ -558,6 +613,7 @@
 		</effects>
 	</option>
 	<option id="93594" name="Max HP +82">
+		<!-- Max HP +82 -->
 		<effects>
 			<effect name="MaxHp">
 				<amount>82</amount>
@@ -566,6 +622,7 @@
 		</effects>
 	</option>
 	<option id="93595" name="Max HP +86">
+		<!-- Max HP +86 -->
 		<effects>
 			<effect name="MaxHp">
 				<amount>86</amount>
@@ -574,6 +631,7 @@
 		</effects>
 	</option>
 	<option id="93596" name="Max HP +90">
+		<!-- Max HP +90 -->
 		<effects>
 			<effect name="MaxHp">
 				<amount>90</amount>
@@ -582,6 +640,7 @@
 		</effects>
 	</option>
 	<option id="93597" name="Max HP +94">
+		<!-- Max HP +94 -->
 		<effects>
 			<effect name="MaxHp">
 				<amount>94</amount>
@@ -590,6 +649,7 @@
 		</effects>
 	</option>
 	<option id="93598" name="Max HP +100">
+		<!-- Max HP +100 -->
 		<effects>
 			<effect name="MaxHp">
 				<amount>100</amount>
@@ -598,6 +658,7 @@
 		</effects>
 	</option>
 	<option id="93599" name="Max MP +30">
+		<!-- Max MP +30 -->
 		<effects>
 			<effect name="MaxMp">
 				<amount>30</amount>

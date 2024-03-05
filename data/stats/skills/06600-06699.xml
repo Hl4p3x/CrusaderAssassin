@@ -2802,7 +2802,7 @@
 		<magicCriticalRate>-5</magicCriticalRate>
 	</skill>
 	<skill id="6664" toLevel="1" name="Raid Boss (Lv. 84)">
-		<!-- Though it appears human, it is actually an archangel who speaks directly with Einhasad. The ancient religious text discovered at the Tower of Insolence gave evidence that the grail was hidden somewhere in the Monastery of Silence. Afterward, extensive searches for the grail took place in the Temple of Bishop, but no one could escape the judgment of the Master of Splendor. -->
+		<!-- He may look like a mere Human, but in reality he is a high-ranking Angel who guards the Holy Grail. -->
 		<icon>icon.skillraid</icon>
 		<magicLevel>1</magicLevel>
 		<operateType>P</operateType>
@@ -2848,7 +2848,7 @@
 		</effects>
 	</skill>
 	<skill id="6667" toLevel="1" name="Feral Wind Walk">
-		<!-- Speed +33 for 5 min. -->
+		<!-- For 5 min., Speed +33. -->
 		<icon>icon.skill1204</icon>
 		<abnormalLevel>2</abnormalLevel>
 		<abnormalTime>315</abnormalTime>
@@ -3011,7 +3011,7 @@
 		</effects>
 	</skill>
 	<skill id="6672" toLevel="1" name="Feral Blessed Shield">
-		<!-- Increases Shield defense rate by 5% for 30 min. -->
+		<!-- For 5 min., Shield Defense Rate +30%. -->
 		<icon>icon.skill1243</icon>
 		<abnormalLevel>6</abnormalLevel>
 		<abnormalTime>315</abnormalTime>

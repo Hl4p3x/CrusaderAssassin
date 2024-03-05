@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/items.xsd">
 	<item id="38421" name="Blue Mackerel: One-handed Blunt Weapon" type="Weapon">
-		<!-- <font color=ff6666><Unavailable to Sylphs/ Vanguard Riders.></font> -->
+		<!-- <font color=ff6666><Unavailable to Sylphs/ Vanguard Riders/ Assassins.></font> -->
 		<set name="icon" val="icon.wp_fishing1" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="BLUNT" />
@@ -24,7 +24,7 @@
 		</stats>
 	</item>
 	<item id="38425" name="Monster Only: Amden Blunt Weapon" additionalName="Not Available" type="Weapon">
-		<!-- The item is not available. Monster weapon. -->
+		<!-- The item is not available. A monster weapon. -->
 		<set name="icon" val="icon.etc_ertheia2" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="BLUNT" />
@@ -48,7 +48,7 @@
 		</stats>
 	</item>
 	<item id="38426" name="Monster Only: Amden Bow" additionalName="Not Available" type="Weapon">
-		<!-- The item is not available. Monster weapon. Bow -->
+		<!-- The item is not available. A monster weapon. Type: bow. -->
 		<set name="icon" val="icon.etc_ertheia2" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="DAGGER" />
@@ -97,7 +97,7 @@
 		</stats>
 	</item>
 	<item id="38428" name="Monster Only: Minotaur Dagger" additionalName="Not Available" type="Weapon">
-		<!-- The item is not available. Monster weapon. Dagger -->
+		<!-- The item is not available. A monster weapon. Type: dagger. -->
 		<set name="icon" val="icon.etc_ertheia2" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="DAGGER" />
@@ -145,7 +145,7 @@
 		</stats>
 	</item>
 	<item id="38430" name="Monster Only: Tiger Bow" additionalName="Not Available" type="Weapon">
-		<!-- The item is not available. Monster weapon. Bow -->
+		<!-- The item is not available. A monster weapon. Type: bow. -->
 		<set name="icon" val="icon.etc_ertheia2" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="BOW" />
@@ -170,7 +170,7 @@
 		</stats>
 	</item>
 	<item id="38431" name="Monster Only: Tiger Dagger" additionalName="Not Available" type="Weapon">
-		<!-- The item is not available. Monster weapon. Dual Dagger -->
+		<!-- The item is not available. A monster weapon. Type: dual daggers. -->
 		<set name="icon" val="icon.etc_ertheia2" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="DUALDAGGER" />
@@ -215,7 +215,7 @@
 		</stats>
 	</item>
 	<item id="38433" name="Monster Only: Tiger Blunt Weapon" additionalName="Not Available" type="Weapon">
-		<!-- The item is not available. Monster weapon. -->
+		<!-- The item is not available. A monster weapon. -->
 		<set name="icon" val="icon.etc_ertheia2" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="BLUNT" />
@@ -266,7 +266,7 @@
 		</stats>
 	</item>
 	<item id="38435" name="Monster Only: Tiger Shield" additionalName="Not Available" type="Weapon">
-		<!-- The item is not available. Monster weapon. Shield -->
+		<!-- The item is not available. A monster weapon. Type: shield. -->
 		<set name="icon" val="icon.etc_ertheia2" />
 		<set name="default_action" val="EQUIP" />
 		<set name="bodypart" val="lhand" />
@@ -283,7 +283,7 @@
 		</stats>
 	</item>
 	<item id="38436" name="Monster Only: Tiger Sigil" additionalName="Not Available" type="Armor">
-		<!-- The item is not available. Monster weapon. Shield -->
+		<!-- The item is not available. A monster weapon. Type: shield. -->
 		<set name="icon" val="icon.etc_ertheia2" />
 		<set name="default_action" val="EQUIP" />
 		<set name="bodypart" val="lhand" />
@@ -351,7 +351,7 @@
 		</stats>
 	</item>
 	<item id="38444" name="Monster Only: Centaur Shield" additionalName="Not Available" type="Weapon">
-		<!-- The item is not available. Monster weapon. Shield -->
+		<!-- The item is not available. A monster weapon. Type: shield. -->
 		<set name="icon" val="icon.etc_ertheia2" />
 		<set name="default_action" val="EQUIP" />
 		<set name="bodypart" val="lhand" />
@@ -392,7 +392,7 @@
 		</stats>
 	</item>
 	<item id="38446" name="Monster Only: Centaur Throwing Blade" additionalName="Not Available" type="Weapon">
-		<!-- The item is not available. Monster weapon. Dagger -->
+		<!-- The item is not available. A monster weapon. Type: dagger. -->
 		<set name="icon" val="icon.etc_ertheia2" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="DAGGER" />
@@ -443,7 +443,7 @@
 		</stats>
 	</item>
 	<item id="38448" name="Monster Only: Minotaur Two-handed Axe" additionalName="Not Available" type="Weapon">
-		<!-- The item is not available. A monster's two-handed blunt weapon. -->
+		<!-- The item is not available. A monster weapon. Type: two-handed blunt weapon. -->
 		<set name="icon" val="icon.etc_ertheia2" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="BLUNT" />

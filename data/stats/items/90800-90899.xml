@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/items.xsd">
 	<item id="90800" name="+5 Fire Dragon Pendant Pack" additionalName="7-day" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.bm_freya_gift_box" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -19,7 +19,7 @@
 		</capsuled_items>
 	</item>
 	<item id="90801" name="Talisman of Border Pack Lv. 5" additionalName="7-day" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.bm_freya_gift_box" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -37,7 +37,7 @@
 		</capsuled_items>
 	</item>
 	<item id="90802" name="+6 Fire Dragon Pendant Pack" additionalName="7-day" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.bm_freya_gift_box" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -55,7 +55,7 @@
 		</capsuled_items>
 	</item>
 	<item id="90803" name="Talisman of Border Pack Lv. 6" additionalName="7-day" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.bm_freya_gift_box" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -73,7 +73,7 @@
 		</capsuled_items>
 	</item>
 	<item id="90804" name="+7 Fire Dragon Pendant Pack" additionalName="7-day" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.bm_freya_gift_box" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -91,7 +91,7 @@
 		</capsuled_items>
 	</item>
 	<item id="90805" name="Talisman of Border Pack Lv. 7" additionalName="7-day" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.bm_freya_gift_box" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -109,7 +109,7 @@
 		</capsuled_items>
 	</item>
 	<item id="90806" name="Lv. 4 Vital Stone Chest" additionalName="15-day" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.bm_freya_gift_box" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -125,7 +125,7 @@
 		</capsuled_items>
 	</item>
 	<item id="90807" name="Lv. 4 Diamond Chest" additionalName="15-day" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.bm_freya_gift_box" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -141,7 +141,7 @@
 		</capsuled_items>
 	</item>
 	<item id="90808" name="Lv. 4 Pearl Box" additionalName="15-day" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.bm_freya_gift_box" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -157,7 +157,7 @@
 		</capsuled_items>
 	</item>
 	<item id="90809" name="Lv. 4 Jade Chest" additionalName="15-day" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.bm_freya_gift_box" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -173,7 +173,7 @@
 		</capsuled_items>
 	</item>
 	<item id="90810" name="Fire Dragon Belt Pack" additionalName="7-day" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.bm_freya_gift_box" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -191,7 +191,7 @@
 		</capsuled_items>
 	</item>
 	<item id="90811" name="Lv. 4 Garnet Box" additionalName="15-day" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.bm_freya_gift_box" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -207,7 +207,7 @@
 		</capsuled_items>
 	</item>
 	<item id="90812" name="+8 Fire Dragon Pendant Pack" additionalName="7-day" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.bm_freya_gift_box" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -225,7 +225,7 @@
 		</capsuled_items>
 	</item>
 	<item id="90813" name="Talisman of Border Pack Lv. 8" additionalName="7-day" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.bm_freya_gift_box" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -243,7 +243,7 @@
 		</capsuled_items>
 	</item>
 	<item id="90814" name="Lv. 4 Topaz Chest" additionalName="15-day" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.bm_freya_gift_box" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -347,7 +347,7 @@
 		</stats>
 	</item>
 	<item id="90821" name="My Teleport Book - 1 slot" type="EtcItem">
-		<!-- My Teleport Slots +1 (maximum - 48). -->
+		<!-- My Teleport Slots +1 (max - 48). -->
 		<set name="icon" val="icon.bookmark_book_i00" />
 		<set name="default_action" val="CALL_SKILL" />
 		<set name="weight" val="5" />
@@ -363,7 +363,7 @@
 		</skills>
 	</item>
 	<item id="90822" name="Sealed Doll of Border - Baium" additionalName="30-day" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.bm_baium_doll_30d" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -377,7 +377,7 @@
 		</capsuled_items>
 	</item>
 	<item id="90823" name="Sealed Doll of Border - Queen Ant" additionalName="30-day" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.bm_queen_ant_doll_30d" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -391,7 +391,7 @@
 		</capsuled_items>
 	</item>
 	<item id="90824" name="Sealed Doll of Border - Orfen" additionalName="30-day" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.bm_orfen_doll_30d" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -829,7 +829,7 @@
 		<set name="material" val="WOOD" />
 	</item>
 	<item id="90858" name="Eva's Enhancement Pack - Hair Accessory" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.etc_box_of_adventure_2_i00" />
 		<set name="default_action" val="SKILL_REDUCE_ON_SKILL_SUCCESS" />
 		<set name="is_dropable" val="false" />
@@ -847,7 +847,7 @@
 		</capsuled_items>
 	</item>
 	<item id="90859" name="Eva's Hair Accessory Pack" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.npoint_earring_of_lind_30day_box" />
 		<set name="default_action" val="SKILL_REDUCE_ON_SKILL_SUCCESS" />
 		<set name="is_dropable" val="false" />
@@ -859,23 +859,23 @@
 		<set name="extractableCountMax" val="1" />
 		<capsuled_items>
 			<item id="90837" min="1" max="1" chance="5.555555" /> <!-- White Uniform Hat <STR+1 INT+1> -->
-			<item id="90838" min="1" max="1" chance="5.555555" /> <!-- White Uniform Hat <DEX+1 WIT+1> -->
+			<item id="90838" min="1" max="1" chance="5.555555" /> <!-- White Uniform Hat <DEX +1 WIT +1> -->
 			<item id="90839" min="1" max="1" chance="5.555555" /> <!-- White Uniform Hat <CON+1 MEN+1> -->
 			<item id="90840" min="1" max="1" chance="5.555555" /> <!-- Napoleon Hat <STR+1 INT+1> -->
-			<item id="90841" min="1" max="1" chance="5.555555" /> <!-- Napoleon Hat <DEX+1 WIT+1> -->
+			<item id="90841" min="1" max="1" chance="5.555555" /> <!-- Napoleon Hat <DEX +1 WIT +1> -->
 			<item id="90842" min="1" max="1" chance="5.555555" /> <!-- Napoleon Hat <CON+1 MEN+1> -->
 			<item id="90843" min="1" max="1" chance="5.555555" /> <!-- Ninja Head Accessory <STR+1 INT+1> -->
 			<item id="90844" min="1" max="1" chance="5.555555" /> <!-- Ninja Head Accessory <DEX+1 WIT+1> -->
 			<item id="90845" min="1" max="1" chance="5.555555" /> <!-- Ninja Head Accessory <CON+1 MEN+1> -->
 			<item id="90846" min="1" max="1" chance="5.555555" /> <!-- Warrior's Helmet <STR+1 INT+1> -->
-			<item id="90847" min="1" max="1" chance="5.555555" /> <!-- Warrior's Helmet <DEX+1 WIT+1> -->
+			<item id="90847" min="1" max="1" chance="5.555555" /> <!-- Warrior's Helmet <DEX +1 WIT +1> -->
 			<item id="90848" min="1" max="1" chance="5.555555" /> <!-- Warrior's Helmet <CON+1 MEN+1> -->
 			<item id="90849" min="1" max="1" chance="5.555555" /> <!-- First Mate Hat <STR+1 INT+1> -->
-			<item id="90850" min="1" max="1" chance="5.555555" /> <!-- First Mate Hat <DEX+1 WIT+1> -->
+			<item id="90850" min="1" max="1" chance="5.555555" /> <!-- First Mate Hat <DEX +1 WIT +1> -->
 			<item id="90851" min="1" max="1" chance="5.555555" /> <!-- First Mate Hat <CON+1 MEN+1> -->
-			<item id="90852" min="1" max="1" chance="5.555555" /> <!-- Artisan's Goggles <STR+1 INT+1> -->
-			<item id="90853" min="1" max="1" chance="5.555555" /> <!-- Artisan's Goggles <DEX+1 WIT+1> -->
-			<item id="90854" min="1" max="1" chance="5.555555" /> <!-- Artisan's Goggles <CON+1 MEN+1> -->
+			<item id="90852" min="1" max="1" chance="5.555555" /> <!-- Artisan's Goggles <STR +1 INT +1> -->
+			<item id="90853" min="1" max="1" chance="5.555555" /> <!-- Artisan's Goggles <DEX +1 WIT +1> -->
+			<item id="90854" min="1" max="1" chance="5.555555" /> <!-- Artisan's Goggles <CON +1 MEN +1> -->
 		</capsuled_items>
 	</item>
 	<item id="90860" name="Lucky Hat" additionalName="30-day" type="Armor">
@@ -906,7 +906,7 @@
 		</stats>
 	</item>
 	<item id="90862" name="Brooch Lv. 2" additionalName="30-day" type="Armor">
-		<!-- Available for 30 days. Unlocks 3 jewel slots. -->
+		<!-- Available for 30 d. Unlocks 3 jewel slots. -->
 		<set name="icon" val="icon.etc_bm_brooch_lavianrose_i01" />
 		<set name="default_action" val="EQUIP" />
 		<set name="bodypart" val="brooch" />
@@ -947,7 +947,7 @@
 		<set name="weight" val="5" />
 	</item>
 	<item id="90865" name="Jade Lv. 3" additionalName="30-day" type="Armor">
-		<!-- Available for 30 days. Atk. Spd./ Casting Spd. +4%. The effect doesn't stack if two identical jewels are equipped, the higher-level jewel takes precedence. -->
+		<!-- Available for 30 d. Atk. Spd./ Casting Spd. +4%. Effects of two identical jewels do not stack, the higher-level jewel takes precedence. -->
 		<set name="icon" val="icon.etc_bm_jewel_jade_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="bodypart" val="brooch_jewel" />
@@ -1104,7 +1104,7 @@
 		<set name="material" val="LIQUID" />
 	</item>
 	<item id="90873" name="Silver Bait Box" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.etc_treasure_box_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -1145,7 +1145,7 @@
 		</skills>
 	</item>
 	<item id="90876" name="Sayha's Grace Box" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.bm_nebit_box" />
 		<set name="default_action" val="SKILL_REDUCE" />
 		<set name="is_dropable" val="false" />
@@ -1158,7 +1158,7 @@
 		</skills>
 	</item>
 	<item id="90877" name="Sayha's Golden Treasure" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.bm_sayha_gold_present" />
 		<set name="default_action" val="SKILL_REDUCE_ON_SKILL_SUCCESS" />
 		<set name="is_dropable" val="false" />
@@ -1171,7 +1171,7 @@
 		</skills>
 	</item>
 	<item id="90878" name="Sayha's Silver Treasure" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.bm_sayha_silver_present" />
 		<set name="default_action" val="SKILL_REDUCE_ON_SKILL_SUCCESS" />
 		<set name="is_dropable" val="false" />
@@ -1193,7 +1193,7 @@
 		<set name="material" val="LIQUID" />
 	</item>
 	<item id="90880" name="Sayha's XP Amulet Box" additionalName="10-day" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.etc_box_of_adventure_2_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -1320,7 +1320,7 @@
 		</skills>
 	</item>
 	<item id="90888" name="Agathion Bracelet Lv. 1" type="Armor">
-		<!-- Agathion slots +4. Can be compounded with two other Agathion Bracelets of the same level. -->
+		<!-- Agathion slots +4. <font color=bbaa88><Compound></font>. Materials: Agathion Bracelets and packages of the same level. In case of failure, the current level remains the same, but materials disappear. -->
 		<set name="icon" val="icon.agathion_magmeld_teleport" />
 		<set name="default_action" val="EQUIP" />
 		<set name="bodypart" val="lbracelet" />
@@ -1335,7 +1335,7 @@
 		</skills>
 	</item>
 	<item id="90889" name="Agathion Bracelet Lv. 2" type="Armor">
-		<!-- Agathion slots +4. Paralysis Resistance +2%. Shock Resistance +2%. Sleep Resistance +2%. Silence Resistance +2%. Fear Resistance +2%. Can be compounded with two other Agathion Bracelets of the same level. -->
+		<!-- Agathion slots +4. Paralysis Resistance +2%. Shock Resistance +2%. Sleep Resistance +2%. Silence Resistance +2%. Fear Resistance +2%. <font color=bbaa88><Compound></font>. Materials: Agathion Bracelets and packages of the same level. In case of failure, the current level remains the same, but materials disappear. -->
 		<set name="icon" val="icon.bracelet_tersi_agathion" />
 		<set name="default_action" val="EQUIP" />
 		<set name="bodypart" val="lbracelet" />
@@ -1349,7 +1349,7 @@
 		</skills>
 	</item>
 	<item id="90890" name="Agathion Bracelet Lv. 3" type="Armor">
-		<!-- Agathion slots +4. Paralysis Resistance +3%. Shock Resistance +3%. Sleep Resistance +3%. Silence Resistance +3%. Fear Resistance +3%. Can be compounded with two other Agathion Bracelets of the same level. -->
+		<!-- Agathion slots +4. Paralysis Resistance +3%. Shock Resistance +3%. Sleep Resistance +3%. Silence Resistance +3%. Fear Resistance +3%. <font color=bbaa88><Compound></font>. Materials: Agathion Bracelets and packages of the same level. In case of failure, the current level remains the same, but materials disappear. -->
 		<set name="icon" val="icon.high_agathion_bracelet_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="bodypart" val="lbracelet" />
@@ -1363,7 +1363,7 @@
 		</skills>
 	</item>
 	<item id="90891" name="Agathion Bracelet Lv. 4" type="Armor">
-		<!-- Agathion slots +5. Paralysis Resistance +5%. Shock Resistance +5%. Sleep Resistance +5%. Silence Resistance +5%. Fear Resistance +5%. STR +1. INT +1. CON +1. MEN +1. Can be compounded with two other Agathion Bracelets of the same level. -->
+		<!-- Agathion slots +5. Paralysis Resistance +5%. Shock Resistance +5%. Sleep Resistance +5%. Silence Resistance +5%. Fear Resistance +5%. STR +1. INT +1. CON +1. MEN +1. <font color=bbaa88><Compound></font>. Materials: Agathion Bracelets and packages of the same level. In case of failure, the current level remains the same, but materials disappear. -->
 		<set name="icon" val="icon.high_agathion_bracelet_i01" />
 		<set name="default_action" val="EQUIP" />
 		<set name="bodypart" val="lbracelet" />

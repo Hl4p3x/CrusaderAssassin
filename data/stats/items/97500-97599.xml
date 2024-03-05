@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/items.xsd">
 	<item id="97500" name="Kit: Hero's Relic (Time-limited)" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.bm_dragon_present_4" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -61,7 +61,7 @@
 		<set name="is_freightable" val="true" />
 	</item>
 	<item id="97505" name="Spring Crystal Pack (Time-limited)" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.etc_pi_box_love_pack" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -78,7 +78,7 @@
 		</capsuled_items>
 	</item>
 	<item id="97506" name="Einhasad's Relic (Time-limited)" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.etc_bm_jewelbox_shhadai" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -136,7 +136,7 @@
 		</capsuled_items>
 	</item>
 	<item id="97507" name="Kit: Einhasad's Relics (Time-limited)" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.event_hero_treasure_box_gold" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -148,7 +148,7 @@
 		<set name="handler" val="ExtractableItems" />
 		<capsuled_items>
 			<item id="97506" min="100" max="100" chance="100" /> <!-- Einhasad's Relic (Time-limited) - Sealed -->
-			<item id="91712" min="100" max="100" chance="100" /> <!-- Sayha's Storm Lv. 3 - Sealed -->
+			<item id="91712" min="100" max="100" chance="100" /> <!-- Sayha's Storm - Sealed -->
 		</capsuled_items>
 	</item>
 	<item id="97508" name="Leona's Spear" additionalName="Event" type="Weapon">
@@ -229,7 +229,7 @@
 		</stats>
 	</item>
 	<item id="97512" name="Brooch Lv. 9" type="Armor">
-		<!-- Jewel slots +6. Inventory slots +25. P. Def. +700. M. Def. +700. Max HP +750. Max MP +750. Received damage -1%. Can be compounded with two other Brooches of the same level. -->
+		<!-- Jewel slots +6. Inventory slots +25. P. Def. +700. M. Def. +700. Max HP +750. Max MP +750. Received damage -1%. <font color=bbaa88><Compound></font>. Materials: Brooches and packages of the same level. In case of failure, the current level remains the same, but materials disappear. -->
 		<set name="icon" val="icon.etc_bm_brooch_lavianrose_i08" />
 		<set name="default_action" val="EQUIP" />
 		<set name="bodypart" val="brooch" />
@@ -265,7 +265,7 @@
 		</skills>
 	</item>
 	<item id="97514" name="Talisman Bracelet Lv. 9" type="Armor">
-		<!-- Talisman slots +6. P. Atk. +700. M. Atk. +700. Skill Power +2%. Inflicted damage +1%. Can be compounded with two other Talisman Bracelets of the same level. -->
+		<!-- Talisman slots +6. P. Atk. +700. M. Atk. +700. Skill Power +2%. Damage +1%. <font color=bbaa88><Compound></font>. Materials: Talisman Bracelets and packages of the same level. In case of failure, the current level remains the same, but materials disappear. -->
 		<set name="icon" val="icon.dimension_bracelet_i08" />
 		<set name="default_action" val="EQUIP" />
 		<set name="bodypart" val="rbracelet" />
@@ -293,7 +293,7 @@
 		</skills>
 	</item>
 	<item id="97516" name="Agathion Bracelet Lv. 9" type="Armor">
-		<!-- Agathion slots +5. Paralysis Resistance +15%. Shock Resistance +15%. Sleep Resistance +15%. Silence Resistance +15%. Fear Resistance +15%. Hold Resistance +10%. Imprisonment Resistance +10%. Pull Resistance +10%. Knockback Resistance +10%. Suppression Resistance +10%. STR +3. INT +3. DEX +3. WIT +3. CON +3. MEN +3. Can be compounded with two other Agathion Bracelets of the same level. -->
+		<!-- Agathion slots +5. Paralysis Resistance +15%. Shock Resistance +15%. Sleep Resistance +15%. Silence Resistance +15%. Fear Resistance +15%. Hold Resistance +10%. Imprisonment Resistance +10%. Pull Resistance +10%. Knockback Resistance +10%. Suppression Resistance +10%. STR +3. INT +3. DEX +3. WIT +3. CON +3. MEN +3. <font color=bbaa88><Compound></font>. Materials: Agathion Bracelets and packages of the same level. In case of failure, the current level remains the same, but materials disappear. -->
 		<set name="icon" val="icon.pi_high_agathion_bracelet_i04" />
 		<set name="default_action" val="EQUIP" />
 		<set name="bodypart" val="lbracelet" />
@@ -323,77 +323,82 @@
 		</skills>
 	</item>
 	<item id="97518" name="Growth Rune Lv. 16" additionalName="Sealed" type="EtcItem">
-		<!-- <Properties>. Acquired XP/ SP +16%. P. Atk. +270. M. Atk. +270. P. Def. +270. M. Def. +270. Boosts stats when in inventory. Can be upgraded through compounding with Growth Rune Fragment. <font color=ff6666>Note!</font>. In case of failure you get Growth Rune Lv. 16. Effects of runes of the same level do not stack. -->
+		<!-- <font color=bbaa88><Properties></font>. Acquired XP/ SP +16%. P. Atk. +270. M. Atk. +270. P. Def. +270. M. Def. +270. <font color=bbaa88><Compound></font>. Materials: Growth Rune Fragment. In case of failure you get <font color=eeaa22>Growth Rune Lv. 16</font>. Boosts stats when in inventory. Effects of runes of the same level do not stack. -->
 		<set name="icon" val="icon.pc_new_cafe_rune_i03" />
-		<set name="default_action" val="NONE" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="PAPER" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_freightable" val="true" />
+		<set name="etcitem_type" val="ENCHT_ATTR_RUNE" />
+		<set name="handler" val="ItemSkills" />
 		<skills>
 			<skill id="50470" level="16" /> <!-- Growth Rune -->
 		</skills>
 	</item>
 	<item id="97519" name="Growth Rune Lv. 17" additionalName="Sealed" type="EtcItem">
-		<!-- <Properties>. Acquired XP/ SP +17%. P. Atk. +300. M. Atk. +300. P. Def. +300. M. Def. +300. Boosts stats when in inventory. Can be upgraded through compounding with Growth Rune Fragment. <font color=ff6666>Note!</font>. In case of failure you get Growth Rune Lv. 16. Effects of runes of the same level do not stack. -->
+		<!-- <font color=bbaa88><Properties></font>. Acquired XP/ SP +17%. P. Atk. +300. M. Atk. +300. P. Def. +300. M. Def. +300. <font color=bbaa88><Compound></font>. Materials: Growth Rune Fragment. In case of failure you get <font color=eeaa22>Growth Rune Lv. 16</font>. Boosts stats when in inventory. Effects of runes of the same level do not stack. -->
 		<set name="icon" val="icon.pc_new_cafe_rune_i03" />
-		<set name="default_action" val="NONE" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="PAPER" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_freightable" val="true" />
+		<set name="etcitem_type" val="ENCHT_ATTR_RUNE" />
+		<set name="handler" val="ItemSkills" />
 		<skills>
 			<skill id="50470" level="17" /> <!-- Growth Rune -->
 		</skills>
 	</item>
 	<item id="97520" name="Growth Rune Lv. 18" additionalName="Sealed" type="EtcItem">
-		<!-- <Properties>. Acquired XP/ SP +18%. P. Atk. +330. M. Atk. +330. P. Def. +330. M. Def. +330. Boosts stats when in inventory. Can be upgraded through compounding with Growth Rune Fragment. <font color=ff6666>Note!</font>. In case of failure you get Growth Rune Lv. 16. Effects of runes of the same level do not stack. -->
+		<!-- <font color=bbaa88><Properties></font>. Acquired XP/ SP +18%. P. Atk. +330. M. Atk. +330. P. Def. +330. M. Def. +330. <font color=bbaa88><Compound></font>. Materials: Growth Rune Fragment. In case of failure you get <font color=eeaa22>Growth Rune Lv. 16</font>. Boosts stats when in inventory. Effects of runes of the same level do not stack. -->
 		<set name="icon" val="icon.pc_new_cafe_rune_i03" />
-		<set name="default_action" val="NONE" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="PAPER" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_freightable" val="true" />
+		<set name="etcitem_type" val="ENCHT_ATTR_RUNE" />
+		<set name="handler" val="ItemSkills" />
 		<skills>
 			<skill id="50470" level="18" /> <!-- Growth Rune -->
 		</skills>
 	</item>
 	<item id="97521" name="Growth Rune Lv. 19" additionalName="Sealed" type="EtcItem">
-		<!-- <Properties>. Acquired XP/ SP +19%. P. Atk. +360. M. Atk. +360. P. Def. +360. M. Def. +360. Boosts stats when in inventory. Can be upgraded through compounding with Growth Rune Fragment. <font color=ff6666>Note!</font>. In case of failure you get Growth Rune Lv. 16. Effects of runes of the same level do not stack. -->
+		<!-- <font color=bbaa88><Properties></font>. Acquired XP/ SP +19%. P. Atk. +360. M. Atk. +360. P. Def. +360. M. Def. +360. <font color=bbaa88><Compound></font>. Materials: Growth Rune Fragment. In case of failure you get <font color=eeaa22>Growth Rune Lv. 16</font>. Boosts stats when in inventory. Effects of runes of the same level do not stack. -->
 		<set name="icon" val="icon.pc_new_cafe_rune_i03" />
-		<set name="default_action" val="NONE" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="PAPER" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_freightable" val="true" />
+		<set name="etcitem_type" val="ENCHT_ATTR_RUNE" />
+		<set name="handler" val="ItemSkills" />
 		<skills>
 			<skill id="50470" level="19" /> <!-- Growth Rune -->
 		</skills>
 	</item>
 	<item id="97522" name="Growth Rune Lv. 20" additionalName="Sealed" type="EtcItem">
-		<!-- <Properties>. Acquired XP/ SP +20%. P. Atk. +390. M. Atk. +390. P. Def. +390. M. Def. +390. Boosts stats when in inventory. <font color=ff6666>Note!</font>. Effects of runes of the same level do not stack. -->
+		<!-- <font color=bbaa88><Properties></font>. Acquired XP/ SP +20%. P. Atk. +390. M. Atk. +390. P. Def. +390. M. Def. +390. <font color=bbaa88><Compound></font>. Materials: Growth Rune Fragment. In case of failure you get <font color=eeaa22>Growth Rune Lv. 16</font>. Boosts stats when in inventory. Effects of runes of the same level do not stack. -->
 		<set name="icon" val="icon.pc_new_cafe_rune_i03" />
-		<set name="default_action" val="NONE" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="PAPER" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_freightable" val="true" />
+		<set name="etcitem_type" val="ENCHT_ATTR_RUNE" />
+		<set name="handler" val="ItemSkills" />
 		<skills>
 			<skill id="50470" level="20" /> <!-- Growth Rune -->
 		</skills>
 	</item>
 	<item id="97523" name="Monsters Only - Demonic_Footman's_Sword2" additionalName="Not Available" type="Weapon">
-		<!-- The item is not available. Monster weapon. Sword -->
+		<!-- The item is not available. A monster weapon. Type: sword. -->
 		<set name="icon" val="icon.etc_ertheia2" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="SWORD" />
@@ -416,7 +421,7 @@
 		</stats>
 	</item>
 	<item id="97524" name="Monsters Only - Dragontroop_Soldier's_Shield2" additionalName="Not Available" type="Weapon">
-		<!-- The item is not available. Monster weapon. Shield -->
+		<!-- The item is not available. A monster weapon. Type: shield. -->
 		<set name="icon" val="icon.etc_ertheia2" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="FIST" />
@@ -433,7 +438,7 @@
 		</stats>
 	</item>
 	<item id="97525" name="Enhanced Talisman of Eva Pack" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.bm_pirate_treasure_box" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -463,7 +468,7 @@
 		<set name="is_sellable" val="false" />
 	</item>
 	<item id="97527" name="Package: Brooch Lv. 1" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- <font color=bbaa88><Compound></font>. Materials: Brooches and packages of the same level. In case of failure, the current level remains the same, but materials disappear. Double-click to obtain various items. -->
 		<set name="icon" val="icon.etc_bm_brooch_lavianrose_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -478,7 +483,7 @@
 		</capsuled_items>
 	</item>
 	<item id="97528" name="Package: Brooch Lv. 2" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- <font color=bbaa88><Compound></font>. Materials: Brooches and packages of the same level. In case of failure, the current level remains the same, but materials disappear. Double-click to obtain various items. -->
 		<set name="icon" val="icon.etc_bm_brooch_lavianrose_i01" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -493,7 +498,7 @@
 		</capsuled_items>
 	</item>
 	<item id="97529" name="Package: Brooch Lv. 4" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- <font color=bbaa88><Compound></font>. Materials: Brooches and packages of the same level. In case of failure, the current level remains the same, but materials disappear. Double-click to obtain various items. -->
 		<set name="icon" val="icon.etc_bm_brooch_lavianrose_i03" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -508,7 +513,7 @@
 		</capsuled_items>
 	</item>
 	<item id="97530" name="Package: Brooch Lv. 5" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- <font color=bbaa88><Compound></font>. Materials: Brooches and packages of the same level. In case of failure, the current level remains the same, but materials disappear. Double-click to obtain various items. -->
 		<set name="icon" val="icon.etc_bm_brooch_lavianrose_i04" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -523,7 +528,7 @@
 		</capsuled_items>
 	</item>
 	<item id="97531" name="Package: Brooch Lv. 6" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- <font color=bbaa88><Compound></font>. Materials: Brooches and packages of the same level. In case of failure, the current level remains the same, but materials disappear. Double-click to obtain various items. -->
 		<set name="icon" val="icon.etc_bm_brooch_lavianrose_i05" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -538,7 +543,7 @@
 		</capsuled_items>
 	</item>
 	<item id="97532" name="Package: Brooch Lv. 7" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- <font color=bbaa88><Compound></font>. Materials: Brooches and packages of the same level. In case of failure, the current level remains the same, but materials disappear. Double-click to obtain various items. -->
 		<set name="icon" val="icon.etc_bm_brooch_lavianrose_i06" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -553,7 +558,7 @@
 		</capsuled_items>
 	</item>
 	<item id="97533" name="Package: Brooch Lv. 8" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- <font color=bbaa88><Compound></font>. Materials: Brooches and packages of the same level. In case of failure, the current level remains the same, but materials disappear. Double-click to obtain various items. -->
 		<set name="icon" val="icon.etc_bm_brooch_lavianrose_i07" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -568,7 +573,7 @@
 		</capsuled_items>
 	</item>
 	<item id="97534" name="Package: Brooch Lv. 9" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- <font color=bbaa88><Compound></font>. Materials: Brooches and packages of the same level. In case of failure, the current level remains the same, but materials disappear. Double-click to obtain various items. -->
 		<set name="icon" val="icon.etc_bm_brooch_lavianrose_i08" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -583,7 +588,7 @@
 		</capsuled_items>
 	</item>
 	<item id="97535" name="Package: Brooch Lv. 10" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.etc_bm_brooch_lavianrose_i09" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -598,7 +603,7 @@
 		</capsuled_items>
 	</item>
 	<item id="97536" name="Package: Talisman Bracelet Lv. 1" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- <font color=bbaa88><Compound></font>. Materials: Talisman Bracelets and packages of the same level. In case of failure, the current level remains the same, but materials disappear. Double-click to obtain various items. -->
 		<set name="icon" val="icon.dimension_bracelet_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -613,7 +618,7 @@
 		</capsuled_items>
 	</item>
 	<item id="97537" name="Package: Talisman Bracelet Lv. 2" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- <font color=bbaa88><Compound></font>. Materials: Talisman Bracelets and packages of the same level. In case of failure, the current level remains the same, but materials disappear. Double-click to obtain various items. -->
 		<set name="icon" val="icon.dimension_bracelet_i01" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -628,7 +633,7 @@
 		</capsuled_items>
 	</item>
 	<item id="97538" name="Package: Talisman Bracelet Lv. 4" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- <font color=bbaa88><Compound></font>. Materials: Talisman Bracelets and packages of the same level. In case of failure, the current level remains the same, but materials disappear. Double-click to obtain various items. -->
 		<set name="icon" val="icon.dimension_bracelet_i03" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -643,7 +648,7 @@
 		</capsuled_items>
 	</item>
 	<item id="97539" name="Package: Talisman Bracelet Lv. 5" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- <font color=bbaa88><Compound></font>. Materials: Talisman Bracelets and packages of the same level. In case of failure, the current level remains the same, but materials disappear. Double-click to obtain various items. -->
 		<set name="icon" val="icon.dimension_bracelet_i04" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -658,7 +663,7 @@
 		</capsuled_items>
 	</item>
 	<item id="97540" name="Package: Talisman Bracelet Lv. 6" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- <font color=bbaa88><Compound></font>. Materials: Talisman Bracelets and packages of the same level. In case of failure, the current level remains the same, but materials disappear. Double-click to obtain various items. -->
 		<set name="icon" val="icon.dimension_bracelet_i05" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -673,7 +678,7 @@
 		</capsuled_items>
 	</item>
 	<item id="97541" name="Package: Talisman Bracelet Lv. 7" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- <font color=bbaa88><Compound></font>. Materials: Talisman Bracelets and packages of the same level. In case of failure, the current level remains the same, but materials disappear. Double-click to obtain various items. -->
 		<set name="icon" val="icon.dimension_bracelet_i06" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -688,7 +693,7 @@
 		</capsuled_items>
 	</item>
 	<item id="97542" name="Package: Talisman Bracelet Lv. 8" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- <font color=bbaa88><Compound></font>. Materials: Talisman Bracelets and packages of the same level. In case of failure, the current level remains the same, but materials disappear. Double-click to obtain various items. -->
 		<set name="icon" val="icon.dimension_bracelet_i07" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -703,7 +708,7 @@
 		</capsuled_items>
 	</item>
 	<item id="97543" name="Package: Talisman Bracelet Lv. 9" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- <font color=bbaa88><Compound></font>. Materials: Talisman Bracelets and packages of the same level. In case of failure, the current level remains the same, but materials disappear. Double-click to obtain various items. -->
 		<set name="icon" val="icon.dimension_bracelet_i08" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -718,7 +723,7 @@
 		</capsuled_items>
 	</item>
 	<item id="97544" name="Package: Talisman Bracelet Lv. 10" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.dimension_bracelet_i09" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -733,7 +738,7 @@
 		</capsuled_items>
 	</item>
 	<item id="97545" name="Package: Agathion Bracelet Lv. 1" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- <font color=bbaa88><Compound></font>. Materials: Agathion Bracelets and packages of the same level. In case of failure, the current level remains the same, but materials disappear. Double-click to obtain various items. -->
 		<set name="icon" val="icon.agathion_magmeld_teleport" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -748,7 +753,7 @@
 		</capsuled_items>
 	</item>
 	<item id="97546" name="Package: Agathion Bracelet Lv. 2" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- <font color=bbaa88><Compound></font>. Materials: Agathion Bracelets and packages of the same level. In case of failure, the current level remains the same, but materials disappear. Double-click to obtain various items. -->
 		<set name="icon" val="icon.bracelet_tersi_agathion" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -763,7 +768,7 @@
 		</capsuled_items>
 	</item>
 	<item id="97547" name="Package: Agathion Bracelet Lv. 4" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- <font color=bbaa88><Compound></font>. Materials: Agathion Bracelets and packages of the same level. In case of failure, the current level remains the same, but materials disappear. Double-click to obtain various items. -->
 		<set name="icon" val="icon.high_agathion_bracelet_i01" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -778,7 +783,7 @@
 		</capsuled_items>
 	</item>
 	<item id="97548" name="Package: Agathion Bracelet Lv. 5" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- <font color=bbaa88><Compound></font>. Materials: Agathion Bracelets and packages of the same level. In case of failure, the current level remains the same, but materials disappear. Double-click to obtain various items. -->
 		<set name="icon" val="icon.pi_high_agathion_bracelet_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -793,7 +798,7 @@
 		</capsuled_items>
 	</item>
 	<item id="97549" name="Package: Agathion Bracelet Lv. 6" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- <font color=bbaa88><Compound></font>. Materials: Agathion Bracelets and packages of the same level. In case of failure, the current level remains the same, but materials disappear. Double-click to obtain various items. -->
 		<set name="icon" val="icon.pi_high_agathion_bracelet_i01" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -808,7 +813,7 @@
 		</capsuled_items>
 	</item>
 	<item id="97550" name="Package: Agathion Bracelet Lv. 7" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- <font color=bbaa88><Compound></font>. Materials: Agathion Bracelets and packages of the same level. In case of failure, the current level remains the same, but materials disappear. Double-click to obtain various items. -->
 		<set name="icon" val="icon.pi_high_agathion_bracelet_i02" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -823,7 +828,7 @@
 		</capsuled_items>
 	</item>
 	<item id="97551" name="Package: Agathion Bracelet Lv. 8" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- <font color=bbaa88><Compound></font>. Materials: Agathion Bracelets and packages of the same level. In case of failure, the current level remains the same, but materials disappear. Double-click to obtain various items. -->
 		<set name="icon" val="icon.pi_high_agathion_bracelet_i03" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -838,7 +843,7 @@
 		</capsuled_items>
 	</item>
 	<item id="97552" name="Package: Agathion Bracelet Lv. 9" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- <font color=bbaa88><Compound></font>. Materials: Agathion Bracelets and packages of the same level. In case of failure, the current level remains the same, but materials disappear. Double-click to obtain various items. -->
 		<set name="icon" val="icon.pi_high_agathion_bracelet_i04" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -853,7 +858,7 @@
 		</capsuled_items>
 	</item>
 	<item id="97553" name="Package: Agathion Bracelet Lv. 10" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.pi_high_agathion_bracelet_i05" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -868,7 +873,7 @@
 		</capsuled_items>
 	</item>
 	<item id="97554" name="Kit: Eva's Brooch (Time-limited)" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.freya_box_i01" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -884,7 +889,7 @@
 		</capsuled_items>
 	</item>
 	<item id="97555" name="Kit: Talisman of Eva (Time-limited)" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.freya_box_i02" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -900,7 +905,7 @@
 		</capsuled_items>
 	</item>
 	<item id="97556" name="Kit: Eva's Agathion (Time-limited)" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.freya_box_i03" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -980,7 +985,7 @@
 		</skills>
 	</item>
 	<item id="97560" name="Package: +1 Blessed Talisman of Speed" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.card_event_black_box_01" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -995,7 +1000,7 @@
 		</capsuled_items>
 	</item>
 	<item id="97561" name="Package: +2 Blessed Talisman of Speed" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.card_event_black_box_01" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -1010,7 +1015,7 @@
 		</capsuled_items>
 	</item>
 	<item id="97562" name="Package: +3 Blessed Talisman of Speed" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.card_event_black_box_01" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -1025,7 +1030,7 @@
 		</capsuled_items>
 	</item>
 	<item id="97563" name="Package: +4 Blessed Talisman of Speed" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.card_event_black_box_01" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -1040,7 +1045,7 @@
 		</capsuled_items>
 	</item>
 	<item id="97564" name="Package: +5 Blessed Talisman of Speed" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.card_event_black_box_01" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -1055,7 +1060,7 @@
 		</capsuled_items>
 	</item>
 	<item id="97565" name="Package: +6 Blessed Talisman of Speed" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.card_event_black_box_01" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -1070,7 +1075,7 @@
 		</capsuled_items>
 	</item>
 	<item id="97566" name="Package: +7 Blessed Talisman of Speed" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.card_event_black_box_01" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -1085,7 +1090,7 @@
 		</capsuled_items>
 	</item>
 	<item id="97567" name="Package: +8 Blessed Talisman of Speed" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.card_event_black_box_01" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -1100,7 +1105,7 @@
 		</capsuled_items>
 	</item>
 	<item id="97568" name="Package: +9 Blessed Talisman of Speed" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.card_event_black_box_01" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -1115,7 +1120,7 @@
 		</capsuled_items>
 	</item>
 	<item id="97569" name="Package: +10 Blessed Talisman of Speed" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.card_event_black_box_01" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -1130,7 +1135,7 @@
 		</capsuled_items>
 	</item>
 	<item id="97570" name="Package: +1 Blessed Talisman of Eva" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.card_event_blue_box_01" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -1145,7 +1150,7 @@
 		</capsuled_items>
 	</item>
 	<item id="97571" name="Package: +2 Blessed Talisman of Eva" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.card_event_blue_box_01" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -1160,7 +1165,7 @@
 		</capsuled_items>
 	</item>
 	<item id="97572" name="Package: +3 Blessed Talisman of Eva" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.card_event_blue_box_01" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -1175,7 +1180,7 @@
 		</capsuled_items>
 	</item>
 	<item id="97573" name="Package: +4 Blessed Talisman of Eva" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.card_event_blue_box_01" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -1190,7 +1195,7 @@
 		</capsuled_items>
 	</item>
 	<item id="97574" name="Package: +5 Blessed Talisman of Eva" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.card_event_blue_box_01" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -1205,7 +1210,7 @@
 		</capsuled_items>
 	</item>
 	<item id="97575" name="Package: +6 Blessed Talisman of Eva" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.card_event_blue_box_01" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -1220,7 +1225,7 @@
 		</capsuled_items>
 	</item>
 	<item id="97576" name="Package: +7 Blessed Talisman of Eva" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.card_event_blue_box_01" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -1235,7 +1240,7 @@
 		</capsuled_items>
 	</item>
 	<item id="97577" name="Package: +8 Blessed Talisman of Eva" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.card_event_blue_box_01" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -1250,7 +1255,7 @@
 		</capsuled_items>
 	</item>
 	<item id="97578" name="Package: +9 Blessed Talisman of Eva" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.card_event_blue_box_01" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -1265,7 +1270,7 @@
 		</capsuled_items>
 	</item>
 	<item id="97579" name="Package: +10 Blessed Talisman of Eva" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.card_event_blue_box_01" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -1280,7 +1285,7 @@
 		</capsuled_items>
 	</item>
 	<item id="97580" name="+2 ~ +4 Talisman of Speed Pack" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.bm_pirate_king_box" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -1321,7 +1326,7 @@
 		<set name="is_sellable" val="false" />
 	</item>
 	<item id="97583" name="Sayha's Storm Pack (Time-limited)" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.bm_special_jewelbox_lv4" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -1371,12 +1376,12 @@
 			<item id="92314" min="5" max="5" chance="2.564103" /> <!-- Giran Seal -->
 			<item id="92314" min="3" max="3" chance="2.564103" /> <!-- Giran Seal -->
 			<item id="92314" min="1" max="1" chance="2.564103" /> <!-- Giran Seal -->
-			<item id="91713" min="3" max="3" chance="2.564103" /> <!-- Sayha's Storm Lv. 3 -->
-			<item id="91713" min="2" max="2" chance="2.564103" /> <!-- Sayha's Storm Lv. 3 -->
+			<item id="91713" min="3" max="3" chance="2.564103" /> <!-- Sayha's Storm -->
+			<item id="91713" min="2" max="2" chance="2.564103" /> <!-- Sayha's Storm -->
 		</capsuled_items>
 	</item>
 	<item id="97584" name="Kit: Sayha's Storm Pack (Time-limited)" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.present_of_destination_event" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -1388,11 +1393,11 @@
 		<set name="handler" val="ExtractableItems" />
 		<capsuled_items>
 			<item id="97583" min="100" max="100" chance="100" /> <!-- Sayha's Storm Pack (Time-limited) - Sealed -->
-			<item id="91712" min="100" max="100" chance="100" /> <!-- Sayha's Storm Lv. 3 - Sealed -->
+			<item id="91712" min="100" max="100" chance="100" /> <!-- Sayha's Storm - Sealed -->
 		</capsuled_items>
 	</item>
 	<item id="97585" name="Spellbook Chest - 4 Stars (Time-limited)" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.sayha2017_box_i01" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -1416,7 +1421,7 @@
 			<item id="95346" min="1" max="1" chance="3" /> <!-- Spellbook: Meteor -->
 			<item id="95347" min="1" max="1" chance="4" /> <!-- Spellbook: Rolling Dice -->
 			<item id="95354" min="1" max="1" chance="4" /> <!-- Spellbook: Dragon Strike -->
-			<item id="95861" min="1" max="1" chance="4" /> <!-- Spellbook: Mechanical Hero -->
+			<item id="95861" min="1" max="1" chance="4" /> <!-- Spellbook: Prime Master Transformation -->
 			<item id="96289" min="1" max="1" chance="3" /> <!-- Spellbook: Phoenix Shield -->
 			<item id="96291" min="1" max="1" chance="3" /> <!-- Spellbook: Hell -->
 			<item id="96293" min="1" max="1" chance="4" /> <!-- Spellbook: Shelter -->
@@ -1436,7 +1441,7 @@
 		</capsuled_items>
 	</item>
 	<item id="97586" name="Package: +5 Gloves of Silence" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.armor_t94_g_i01" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -1524,7 +1529,7 @@
 		<set name="is_sellable" val="false" />
 	</item>
 	<item id="97593" name="Hero's Supply Box (Time-limited)" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.etc_box_of_adventure_5_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -1546,7 +1551,7 @@
 		</capsuled_items>
 	</item>
 	<item id="97594" name="Scroll: Enchant Armor/ Weapon Pack (Time-limited)" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.etc_box_of_adventure_2_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -1610,7 +1615,7 @@
 		<set name="is_stackable" val="true" />
 	</item>
 	<item id="97598" name="Beryl Jewelry Box Lv. 1" additionalName="Sealed" type="EtcItem">
-		<!-- Can be compounded with a Jewelry Box of the same level and a jewel. Double-click to get more information about the contents. -->
+		<!-- <font color=bbaa88><Compound></font>. Materials: identical Jewels and Jewelry Boxes. In case of failure, the current level remains the same, but materials disappear. Double-click to obtain various items. -->
 		<set name="icon" val="icon.etc_bm_jewelbox_beryl_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -1625,7 +1630,7 @@
 		</capsuled_items>
 	</item>
 	<item id="97599" name="Beryl Jewelry Box Lv. 2" additionalName="Sealed" type="EtcItem">
-		<!-- Can be compounded with a Jewelry Box of the same level and a jewel. Double-click to get more information about the contents. -->
+		<!-- <font color=bbaa88><Compound></font>. Materials: identical Jewels and Jewelry Boxes. In case of failure, the current level remains the same, but materials disappear. Double-click to obtain various items. -->
 		<set name="icon" val="icon.etc_bm_jewelbox_beryl_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />

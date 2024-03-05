@@ -102,7 +102,7 @@
 		</stats>
 	</item>
 	<item id="49507" name="Fishing Rod Pack" additionalName="10-day" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.etc_box_of_adventure_1_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -164,7 +164,7 @@
 		<set name="is_questitem" val="true" />
 	</item>
 	<item id="49511" name="Sheep Gift" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.etc_treasure_box_i00" />
 		<set name="default_action" val="SKILL_REDUCE" />
 		<set name="material" val="FISH" />
@@ -202,7 +202,7 @@
 		</skills>
 	</item>
 	<item id="49513" name="Shining Pendant Polish box" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.bm_special_pendant_abradant_box" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -245,7 +245,7 @@
 		<set name="is_sellable" val="false" />
 	</item>
 	<item id="49517" name="Pirate Trophy Chest" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.bm_pirate_battle_box" />
 		<set name="default_action" val="SKILL_REDUCE" />
 		<set name="material" val="FISH" />
@@ -271,7 +271,7 @@
 		</skills>
 	</item>
 	<item id="49519" name="King Pirate's Treasure Chest" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.bm_pirate_treasure_box" />
 		<set name="default_action" val="SKILL_REDUCE_ON_SKILL_SUCCESS" />
 		<set name="material" val="FISH" />
@@ -283,7 +283,7 @@
 		</skills>
 	</item>
 	<item id="49520" name="Agation box: Aries" additionalName="60 days" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.bm_sheep_agathion_30d_box" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -327,7 +327,7 @@
 		<set name="enchant_enabled" val="true" />
 	</item>
 	<item id="49524" name="Captain Pirate Hat Box" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.bm_pirate_king_box" />
 		<set name="default_action" val="SKILL_REDUCE_ON_SKILL_SUCCESS" />
 		<set name="material" val="FISH" />
@@ -339,7 +339,7 @@
 		</skills>
 	</item>
 	<item id="49525" name="Rare Accessory Pack Lv. 1" additionalName="15-day" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.ev_10th_present2" />
 		<set name="default_action" val="SKILL_REDUCE" />
 		<set name="material" val="FISH" />
@@ -369,7 +369,7 @@
 		</skills>
 	</item>
 	<item id="49527" name="My Teleport Pack" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.etc_pi_gift_box_i01" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -394,7 +394,7 @@
 		<set name="weight" val="1" />
 	</item>
 	<item id="49529" name="Blue Dynasty - Heavy Armor" type="Armor">
-		<!-- An item intended for L2 Assist Application. Full Heavy Armor of Blue Dynasty It has no restrictions as to class, but for some races and classes heavy, light and magic armor look the same. Previous armor is taken off and becomes unavailable when it's equipped. Headpieces, weapon and magic armor are not removed. -->
+		<!-- An item for L2 Assist Application. Full Blue Dynasty heavy armor set. Has no class restrictions, but for some races and classes heavy armor, light armor and robe sets look the same. When equipping, your current armor is taken off and becomes unavailable. Headgear, weapons and accessories are not removed. -->
 		<set name="icon" val="icon.armor_t2000_ul_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="armor_type" val="HEAVY" />
@@ -413,7 +413,7 @@
 		<set name="is_sellable" val="false" />
 	</item>
 	<item id="49531" name="Red Zubei's Heavy Armor" type="Armor">
-		<!-- An item for L2 Assist Application. Full Red Zubei's heavy armor set. Has no class restrictions, but for some races and classes heavy armor, light armor and robe sets look the same. When equipping, your current armor is taken off and becomes unavailable. Headpieces, weapons and accessories are not removed. -->
+		<!-- An item for L2 Assist Application. Full Red Zubei's heavy armor set. Has no class restrictions, but for some races and classes heavy armor, light armor and robe sets look the same. When equipping, your current armor is taken off and becomes unavailable. Headgear, weapons and accessories are not removed. -->
 		<set name="icon" val="icon.armor_t2000_ul_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="armor_type" val="HEAVY" />
@@ -462,7 +462,7 @@
 		<set name="time" val="10080" />
 	</item>
 	<item id="49535" name="Returned Hero's Fishing Kit" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.etc_elite_marguene_collection_box_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -476,11 +476,11 @@
 		<capsuled_items>
 			<item id="49487" min="3" max="3" chance="100" /> <!-- Soulshot Ticket (Tradable within account) - Sealed -->
 			<item id="49506" min="1" max="1" chance="100" /> <!-- Fishing Rod - 10-day -->
-			<item id="49508" min="2160" max="2160" chance="100" /> <!-- Normal Bait - Sealed -->
+			<item id="49508" min="2160" max="2160" chance="100" /> <!-- Common Bait - Sealed -->
 		</capsuled_items>
 	</item>
 	<item id="49536" name="Box of Scroll of Escape to Base" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.etc_treasure_box_i04" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -669,7 +669,7 @@
 		<set name="is_stackable" val="true" />
 	</item>
 	<item id="49551" name="Blue Dynasty - Light Armor" type="Armor">
-		<!-- An item intended for L2 Assist Application. Full Light Armor of Blue Dynasty. It has no restrictions as to class, but for some races and classes heavy, light and magic armor look the same. Previous armor is taken off and becomes unavailable when it's equipped. Headpieces, weapon and magic armor are not removed. -->
+		<!-- An item for L2 Assist Application. Full Blue Dynasty light armor set. Has no class restrictions, but for some races and classes heavy armor, light armor and robe sets look the same. When equipping, your current armor is taken off and becomes unavailable. Headgear, weapons and accessories are not removed. -->
 		<set name="icon" val="icon.armor_t2000_ul_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="armor_type" val="LIGHT" />
@@ -679,7 +679,7 @@
 		<set name="is_sellable" val="false" />
 	</item>
 	<item id="49552" name="Blue Dynasty - Robe" type="Armor">
-		<!-- An item intended for L2 Assist Application. Full Magic Armor of Blue Dynasty. It has no restrictions as to class, but for some races and classes heavy, light and magic armor look the same. Previous armor is taken off and becomes unavailable when it's equipped. Headpieces, weapon and magic armor are not removed. -->
+		<!-- An item for L2 Assist Application. Full Blue Dynasty robe set. Has no class restrictions, but for some races and classes heavy armor, light armor and robe sets look the same. When equipping, your current armor is taken off and becomes unavailable. Headgear, weapons and accessories are not removed. -->
 		<set name="icon" val="icon.armor_t2000_ul_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="armor_type" val="MAGIC" />
@@ -689,7 +689,7 @@
 		<set name="is_sellable" val="false" />
 	</item>
 	<item id="49553" name="Red Zubei's Light Armor" type="Armor">
-		<!-- An item intended for L2 Assist Application. Full Light Armor of Blue Dynasty It has no restrictions as to class, but for some races and classes heavy, light and magic armor look the same. Previous armor is taken off and becomes unavailable when it's equipped. Headpieces, weapon and magic armor are not removed. -->
+		<!-- An item for L2 Assist Application. Full Red Zubei's light armor set. Has no class restrictions, but for some races and classes heavy armor, light armor and robe sets look the same. When equipping, your current armor is taken off and becomes unavailable. Headgear, weapons and accessories are not removed. -->
 		<set name="icon" val="icon.armor_t2000_ul_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="armor_type" val="LIGHT" />
@@ -699,7 +699,7 @@
 		<set name="is_sellable" val="false" />
 	</item>
 	<item id="49554" name="Red Zubei's Robe" type="Armor">
-		<!-- An item for L2 Assist Application. Full Red Zubei's robe set. Has no class restrictions, but for some races and classes heavy armor, light armor and robe sets look the same. When equipping, your current armor is taken off and becomes unavailable. Headpieces, weapons and accessories are not removed. -->
+		<!-- An item for L2 Assist Application. Full Red Zubei's robe set. Has no class restrictions, but for some races and classes heavy armor, light armor and robe sets look the same. When equipping, your current armor is taken off and becomes unavailable. Headgear, weapons and accessories are not removed. -->
 		<set name="icon" val="icon.armor_t2000_ul_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="armor_type" val="MAGIC" />
@@ -809,7 +809,7 @@
 		<set name="is_stackable" val="true" />
 	</item>
 	<item id="49565" name="Misfety's Gift" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.etc_pi_box_joy_pack" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -827,7 +827,7 @@
 		</capsuled_items>
 	</item>
 	<item id="49566" name="Roa's Gift" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.etc_ev_draco_gift_box" />
 		<set name="default_action" val="SKILL_REDUCE_ON_SKILL_SUCCESS" />
 		<set name="material" val="PAPER" />
@@ -1073,7 +1073,7 @@
 		</stats>
 	</item>
 	<item id="49583" name="Golden Chest of Mermaid's Fishing Supplies" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.etc_treasure_box_i08" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -1089,7 +1089,7 @@
 		</capsuled_items>
 	</item>
 	<item id="49584" name="Golden Boot" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.bm_gold_shose" />
 		<set name="default_action" val="SKILL_REDUCE_ON_SKILL_SUCCESS" />
 		<set name="material" val="PAPER" />
@@ -1157,7 +1157,7 @@
 		</stats>
 	</item>
 	<item id="49588" name="Golden Mermaid's Fishing Rod Chest" additionalName="30-day" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.etc_bm_lure_box_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -1183,7 +1183,7 @@
 		<set name="is_stackable" val="true" />
 	</item>
 	<item id="49590" name="Rare Accessory Pack Lv. 3" additionalName="30-day" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.etc_box_of_adventure_3_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -1302,7 +1302,7 @@
 		</skills>
 	</item>
 	<item id="49597" name="Golden Boot" additionalName="Not Available" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.etc_ertheia2" />
 		<set name="default_action" val="SKILL_REDUCE_ON_SKILL_SUCCESS" />
 		<set name="material" val="PAPER" />

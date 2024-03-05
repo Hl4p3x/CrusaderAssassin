@@ -12,7 +12,7 @@
 		<set name="is_stackable" val="true" />
 	</item>
 	<item id="96901" name="Aden's Soul Crystal Lv. 1 - Armor" type="EtcItem">
-		<!-- Double-click to imbue <font color=eeaa22>armor</font> with the <font color=eeaa22>Defense Property</font> effect (increases P./ M. Def.). Can be upgraded through compounding with Aden's Soul Crystal Lv. 1 - Armor. <font color=ff6666>Cannot be used for enhancing sigils/ shields/ sealed equipment.</font> -->
+		<!-- Double-click to imbue <font color=eeaa22>armor</font> with the <font color=eeaa22>Defense Property</font> effect (increases P./ M. Def.). <font color=bbaa88><Compound></font>. Materials: Aden's Soul Crystal Lv. 1 - Armor. In case of failure, you will get <font color=eeaa22>Aden's Soul Crystal Lv. 1 - Armor</font>. <font color=ff6666>Cannot be used for enhancing sigils/ shields/ sealed equipment.<font> -->
 		<set name="icon" val="icon.aden_rune_am_i01" />
 		<set name="etcitem_type" val="ENSOUL_STONE" />
 		<set name="immediate_effect" val="true" />
@@ -22,7 +22,7 @@
 		<set name="is_stackable" val="true" />
 	</item>
 	<item id="96902" name="Aden's Soul Crystal Lv. 2 - Armor" type="EtcItem">
-		<!-- Double-click to imbue <font color=eeaa22>armor</font> with the <font color=eeaa22>Defense Property</font> effect (increases P./ M. Def.). Can be upgraded through compounding with Aden's Soul Crystal Lv. 1 - Armor. <font color=ff6666>Note!</font>. In case of compound failure, Aden's Soul Crystal Lv. 1 - Armor is obtained. <font color=ff6666>Cannot be used for enhancing sigils/ shields/ sealed equipment.</font> -->
+		<!-- Double-click to imbue <font color=eeaa22>armor</font> with the <font color=eeaa22>Defense Property</font> effect (increases P./ M. Def.). <font color=bbaa88><Compound></font>. Materials: Aden's Soul Crystal Lv. 1 - Armor. In case of failure, you will get <font color=eeaa22>Aden's Soul Crystal Lv. 1 - Armor</font>. <font color=ff6666>Cannot be used for enhancing sigils/ shields/ sealed equipment.<font> -->
 		<set name="icon" val="icon.aden_rune_am_i01" />
 		<set name="default_action" val="NONE" />
 		<set name="immediate_effect" val="true" />
@@ -30,7 +30,7 @@
 		<set name="is_sellable" val="false" />
 	</item>
 	<item id="96903" name="Aden's Soul Crystal Lv. 3 - Armor" type="EtcItem">
-		<!-- Double-click to imbue <font color=eeaa22>armor</font> with the <font color=eeaa22>Defense Property</font> effect (increases P./ M. Def.). Can be upgraded through compounding with Aden's Soul Crystal Lv. 1 - Armor. <font color=ff6666>Note!</font>. In case of compound failure, Aden's Soul Crystal Lv. 1 - Armor is obtained. <font color=ff6666>Cannot be used for enhancing sigils/ shields/ sealed equipment.</font> -->
+		<!-- Double-click to imbue <font color=eeaa22>armor</font> with the <font color=eeaa22>Defense Property</font> effect (increases P./ M. Def.). <font color=bbaa88><Compound></font>. Materials: Aden's Soul Crystal Lv. 1 - Armor. In case of failure, you will get <font color=eeaa22>Aden's Soul Crystal Lv. 1 - Armor</font>. <font color=ff6666>Cannot be used for enhancing sigils/ shields/ sealed equipment.<font> -->
 		<set name="icon" val="icon.aden_rune_am_i01" />
 		<set name="etcitem_type" val="ENSOUL_STONE" />
 		<set name="immediate_effect" val="true" />
@@ -40,7 +40,7 @@
 		<set name="is_stackable" val="true" />
 	</item>
 	<item id="96904" name="Aden's Soul Crystal Lv. 4 - Armor" type="EtcItem">
-		<!-- Double-click to imbue <font color=eeaa22>armor</font> with the <font color=eeaa22>Defense Property</font> effect (increases P./ M. Def.). Can be upgraded through compounding with Aden's Soul Crystal Lv. 1 - Armor. <font color=ff6666>Note!</font>. In case of compound failure, Aden's Soul Crystal Lv. 1 - Armor is obtained. <font color=ff6666>Cannot be used for enhancing sigils/ shields/ sealed equipment.</font> -->
+		<!-- Double-click to imbue <font color=eeaa22>armor</font> with the <font color=eeaa22>Defense Property</font> effect (increases P./ M. Def.). <font color=bbaa88><Compound></font>. Materials: Aden's Soul Crystal Lv. 1 - Armor. In case of failure, you will get <font color=eeaa22>Aden's Soul Crystal Lv. 1 - Armor</font>. <font color=ff6666>Cannot be used for enhancing sigils/ shields/ sealed equipment.<font> -->
 		<set name="icon" val="icon.aden_rune_am_i01" />
 		<set name="etcitem_type" val="ENSOUL_STONE" />
 		<set name="immediate_effect" val="true" />
@@ -50,7 +50,7 @@
 		<set name="is_stackable" val="true" />
 	</item>
 	<item id="96905" name="Aden's Soul Crystal Lv. 5 - Armor" type="EtcItem">
-		<!-- Double-click to imbue <font color=eeaa22>armor</font> with the <font color=eeaa22>Defense Property</font> effect (increases P./ M. Def.). Can be upgraded through compounding with Aden's Soul Crystal Lv. 1 - Armor. <font color=ff6666>Note!</font>. In case of compound failure, Aden's Soul Crystal Lv. 1 - Armor is obtained. <font color=ff6666>Cannot be used for enhancing sigils/ shields/ sealed equipment.</font> -->
+		<!-- Double-click to imbue <font color=eeaa22>armor</font> with the <font color=eeaa22>Defense Property</font> effect (increases P./ M. Def.). <font color=bbaa88><Compound></font>. Materials: Aden's Soul Crystal Lv. 1 - Armor. In case of failure, you will get <font color=eeaa22>Aden's Soul Crystal Lv. 1 - Armor</font>. <font color=ff6666>Cannot be used for enhancing sigils/ shields/ sealed equipment.<font> -->
 		<set name="icon" val="icon.aden_rune_am_i01" />
 		<set name="default_action" val="NONE" />
 		<set name="immediate_effect" val="true" />
@@ -58,7 +58,7 @@
 		<set name="is_sellable" val="false" />
 	</item>
 	<item id="96906" name="Aden's Soul Crystal Lv. 6 - Armor" type="EtcItem">
-		<!-- Double-click to imbue <font color=eeaa22>armor</font> with the <font color=eeaa22>Defense Property</font> effect (increases P./ M. Def.). Can be upgraded through compounding with Aden's Soul Crystal Lv. 1 - Armor. <font color=ff6666>Note!</font>. In case of compound failure, Aden's Soul Crystal Lv. 6 - Armor is obtained. <font color=ff6666>Cannot be used for enhancing sigils/ shields/ sealed equipment.</font> -->
+		<!-- Double-click to imbue <font color=eeaa22>armor</font> with the <font color=eeaa22>Defense Property</font> effect (increases P./ M. Def.). <font color=bbaa88><Compound></font>. Materials: Aden's Soul Crystal Lv. 1 - Armor. In case of failure, you will get <font color=eeaa22>Aden's Soul Crystal Lv. 6 - Armor</font>. <font color=ff6666>Cannot be used for enhancing sigils/ shields/ sealed equipment.<font> -->
 		<set name="icon" val="icon.aden_rune_am_i02" />
 		<set name="etcitem_type" val="ENSOUL_STONE" />
 		<set name="immediate_effect" val="true" />
@@ -68,7 +68,7 @@
 		<set name="is_stackable" val="true" />
 	</item>
 	<item id="96907" name="Aden's Soul Crystal Lv. 7 - Armor" type="EtcItem">
-		<!-- Double-click to imbue <font color=eeaa22>armor</font> with the <font color=eeaa22>Defense Property</font> effect (increases P./ M. Def.). Can be upgraded through compounding with Aden's Soul Crystal Lv. 1 - Armor. <font color=ff6666>Note!</font>. In case of compound failure, Aden's Soul Crystal Lv. 6 - Armor is obtained. <font color=ff6666>Cannot be used for enhancing sigils/ shields/ sealed equipment.</font> -->
+		<!-- Double-click to imbue <font color=eeaa22>armor</font> with the <font color=eeaa22>Defense Property</font> effect (increases P./ M. Def.). <font color=bbaa88><Compound></font>. Materials: Aden's Soul Crystal Lv. 1 - Armor. In case of failure, you will get <font color=eeaa22>Aden's Soul Crystal Lv. 6 - Armor</font>. <font color=ff6666>Cannot be used for enhancing sigils/ shields/ sealed equipment.<font> -->
 		<set name="icon" val="icon.aden_rune_am_i02" />
 		<set name="etcitem_type" val="ENSOUL_STONE" />
 		<set name="immediate_effect" val="true" />
@@ -78,7 +78,7 @@
 		<set name="is_stackable" val="true" />
 	</item>
 	<item id="96908" name="Aden's Soul Crystal Lv. 8 - Armor" type="EtcItem">
-		<!-- Double-click to imbue <font color=eeaa22>armor</font> with the <font color=eeaa22>Defense Property</font> effect (increases P./ M. Def.). Can be upgraded through compounding with Aden's Soul Crystal Lv. 1 - Armor. <font color=ff6666>Note!</font>. In case of compound failure, Aden's Soul Crystal Lv. 6 - Armor is obtained. <font color=ff6666>Cannot be used for enhancing sigils/ shields/ sealed equipment.</font> -->
+		<!-- Double-click to imbue <font color=eeaa22>armor</font> with the <font color=eeaa22>Defense Property</font> effect (increases P./ M. Def.). <font color=bbaa88><Compound></font>. Materials: Aden's Soul Crystal Lv. 1 - Armor. In case of failure, you will get <font color=eeaa22>Aden's Soul Crystal Lv. 6 - Armor</font>. <font color=ff6666>Cannot be used for enhancing sigils/ shields/ sealed equipment.<font> -->
 		<set name="icon" val="icon.aden_rune_am_i02" />
 		<set name="etcitem_type" val="ENSOUL_STONE" />
 		<set name="immediate_effect" val="true" />
@@ -88,7 +88,7 @@
 		<set name="is_stackable" val="true" />
 	</item>
 	<item id="96909" name="Aden's Soul Crystal Lv. 9 - Armor" type="EtcItem">
-		<!-- Double-click to imbue <font color=eeaa22>armor</font> with the <font color=eeaa22>Defense Property</font> effect (increases P./ M. Def.). Can be upgraded through compounding with Aden's Soul Crystal Lv. 1 - Armor. <font color=ff6666>Note!</font>. In case of compound failure, Aden's Soul Crystal Lv. 6 - Armor is obtained. <font color=ff6666>Cannot be used for enhancing sigils/ shields/ sealed equipment.</font> -->
+		<!-- Double-click to imbue <font color=eeaa22>armor</font> with the <font color=eeaa22>Defense Property</font> effect (increases P./ M. Def.). <font color=bbaa88><Compound></font>. Materials: Aden's Soul Crystal Lv. 1 - Armor. In case of failure, you will get <font color=eeaa22>Aden's Soul Crystal Lv. 6 - Armor</font>. <font color=ff6666>Cannot be used for enhancing sigils/ shields/ sealed equipment.<font> -->
 		<set name="icon" val="icon.aden_rune_am_i02" />
 		<set name="etcitem_type" val="ENSOUL_STONE" />
 		<set name="immediate_effect" val="true" />
@@ -98,7 +98,7 @@
 		<set name="is_stackable" val="true" />
 	</item>
 	<item id="96910" name="Aden's Soul Crystal Lv. 10 - Armor" type="EtcItem">
-		<!-- Double-click to imbue <font color=eeaa22>armor</font> with the <font color=eeaa22>Defense Property</font> effect (increases P./ M. Def.). Can be upgraded through compounding with Aden's Soul Crystal Lv. 1 - Armor. <font color=ff6666>Note!</font>. In case of compound failure, Aden's Soul Crystal Lv. 6 - Armor is obtained. <font color=ff6666>Cannot be used for enhancing sigils/ shields/ sealed equipment.</font> -->
+		<!-- Double-click to imbue <font color=eeaa22>armor</font> with the <font color=eeaa22>Defense Property</font> effect (increases P./ M. Def.). <font color=bbaa88><Compound></font>. Materials: Aden's Soul Crystal Lv. 1 - Armor. In case of failure, you will get <font color=eeaa22>Aden's Soul Crystal Lv. 6 - Armor</font>. <font color=ff6666>Cannot be used for enhancing sigils/ shields/ sealed equipment.<font> -->
 		<set name="icon" val="icon.aden_rune_am_i02" />
 		<set name="etcitem_type" val="ENSOUL_STONE" />
 		<set name="immediate_effect" val="true" />
@@ -108,7 +108,7 @@
 		<set name="is_stackable" val="true" />
 	</item>
 	<item id="96911" name="Aden's Soul Crystal Lv. 11 - Armor" type="EtcItem">
-		<!-- Double-click to imbue <font color=eeaa22>armor</font> with the <font color=eeaa22>Defense Property</font> effect (increases P./ M. Def.). Can be upgraded through compounding with Aden's Soul Crystal Lv. 1 - Armor. <font color=ff6666>Note!</font>. In case of compound failure, Aden's Soul Crystal Lv. 11 - Armor is obtained. <font color=ff6666>Cannot be used for enhancing sigils/ shields/ sealed equipment.</font> -->
+		<!-- Double-click to imbue <font color=eeaa22>armor</font> with the <font color=eeaa22>Defense Property</font> effect (increases P./ M. Def.). <font color=bbaa88><Compound></font>. Materials: Aden's Soul Crystal Lv. 1 - Armor. In case of failure, you will get <font color=eeaa22>Aden's Soul Crystal Lv. 11 - Armor</font>. <font color=ff6666>Cannot be used for enhancing sigils/ shields/ sealed equipment.<font> -->
 		<set name="icon" val="icon.aden_rune_am_i03" />
 		<set name="etcitem_type" val="ENSOUL_STONE" />
 		<set name="immediate_effect" val="true" />
@@ -118,7 +118,7 @@
 		<set name="is_stackable" val="true" />
 	</item>
 	<item id="96912" name="Aden's Soul Crystal Lv. 12 - Armor" type="EtcItem">
-		<!-- Double-click to imbue <font color=eeaa22>armor</font> with the <font color=eeaa22>Defense Property</font> effect (increases P./ M. Def.). Can be upgraded through compounding with Aden's Soul Crystal Lv. 1 - Armor. <font color=ff6666>Note!</font>. In case of compound failure, Aden's Soul Crystal Lv. 11 - Armor is obtained. <font color=ff6666>Cannot be used for enhancing sigils/ shields/ sealed equipment.</font> -->
+		<!-- Double-click to imbue <font color=eeaa22>armor</font> with the <font color=eeaa22>Defense Property</font> effect (increases P./ M. Def.). <font color=bbaa88><Compound></font>. Materials: Aden's Soul Crystal Lv. 1 - Armor. In case of failure, you will get <font color=eeaa22>Aden's Soul Crystal Lv. 11 - Armor</font>. <font color=ff6666>Cannot be used for enhancing sigils/ shields/ sealed equipment.<font> -->
 		<set name="icon" val="icon.aden_rune_am_i03" />
 		<set name="etcitem_type" val="ENSOUL_STONE" />
 		<set name="immediate_effect" val="true" />
@@ -128,7 +128,7 @@
 		<set name="is_stackable" val="true" />
 	</item>
 	<item id="96913" name="Aden's Soul Crystal Lv. 13 - Armor" type="EtcItem">
-		<!-- Double-click to imbue <font color=eeaa22>armor</font> with the <font color=eeaa22>Defense Property</font> effect (increases P./ M. Def.). Can be upgraded through compounding with Aden's Soul Crystal Lv. 1 - Armor. <font color=ff6666>Note!</font>. In case of compound failure, Aden's Soul Crystal Lv. 11 - Armor is obtained. <font color=ff6666>Cannot be used for enhancing sigils/ shields/ sealed equipment.</font> -->
+		<!-- Double-click to imbue <font color=eeaa22>armor</font> with the <font color=eeaa22>Defense Property</font> effect (increases P./ M. Def.). <font color=bbaa88><Compound></font>. Materials: Aden's Soul Crystal Lv. 1 - Armor. In case of failure, you will get <font color=eeaa22>Aden's Soul Crystal Lv. 11 - Armor</font>. <font color=ff6666>Cannot be used for enhancing sigils/ shields/ sealed equipment.<font> -->
 		<set name="icon" val="icon.aden_rune_am_i03" />
 		<set name="etcitem_type" val="ENSOUL_STONE" />
 		<set name="immediate_effect" val="true" />
@@ -138,7 +138,7 @@
 		<set name="is_stackable" val="true" />
 	</item>
 	<item id="96914" name="Aden's Soul Crystal Lv. 14 - Armor" type="EtcItem">
-		<!-- Double-click to imbue <font color=eeaa22>armor</font> with the <font color=eeaa22>Defense Property</font> effect (increases P./ M. Def.). Can be upgraded through compounding with Aden's Soul Crystal Lv. 1 - Armor. <font color=ff6666>Note!</font>. In case of compound failure, Aden's Soul Crystal Lv. 11 - Armor is obtained. <font color=ff6666>Cannot be used for enhancing sigils/ shields/ sealed equipment.</font> -->
+		<!-- Double-click to imbue <font color=eeaa22>armor</font> with the <font color=eeaa22>Defense Property</font> effect (increases P./ M. Def.). <font color=bbaa88><Compound></font>. Materials: Aden's Soul Crystal Lv. 1 - Armor. In case of failure, you will get <font color=eeaa22>Aden's Soul Crystal Lv. 11 - Armor</font>. <font color=ff6666>Cannot be used for enhancing sigils/ shields/ sealed equipment.<font> -->
 		<set name="icon" val="icon.aden_rune_am_i03" />
 		<set name="etcitem_type" val="ENSOUL_STONE" />
 		<set name="immediate_effect" val="true" />
@@ -148,7 +148,7 @@
 		<set name="is_stackable" val="true" />
 	</item>
 	<item id="96915" name="Aden's Soul Crystal Lv. 15 - Armor" type="EtcItem">
-		<!-- Double-click to imbue <font color=eeaa22>armor</font> with the <font color=eeaa22>Defense Property</font> effect (increases P./ M. Def.). Can be upgraded through compounding with Aden's Soul Crystal Lv. 1 - Armor. <font color=ff6666>Note!</font>. In case of compound failure, Aden's Soul Crystal Lv. 11 - Armor is obtained. <font color=ff6666>Cannot be used for enhancing sigils/ shields/ sealed equipment.</font> -->
+		<!-- Double-click to imbue <font color=eeaa22>armor</font> with the <font color=eeaa22>Defense Property</font> effect (increases P./ M. Def.). <font color=bbaa88><Compound></font>. Materials: Aden's Soul Crystal Lv. 1 - Armor. In case of failure, you will get <font color=eeaa22>Aden's Soul Crystal Lv. 11 - Armor</font>. <font color=ff6666>Cannot be used for enhancing sigils/ shields/ sealed equipment.<font> -->
 		<set name="icon" val="icon.aden_rune_am_i03" />
 		<set name="etcitem_type" val="ENSOUL_STONE" />
 		<set name="immediate_effect" val="true" />
@@ -158,7 +158,7 @@
 		<set name="is_stackable" val="true" />
 	</item>
 	<item id="96916" name="Aden's Soul Crystal Lv. 16 - Armor" type="EtcItem">
-		<!-- Double-click to imbue <font color=eeaa22>armor</font> with the <font color=eeaa22>Defense Property</font> effect (increases P./ M. Def.). Can be upgraded through compounding with Aden's Soul Crystal Lv. 1 - Armor. <font color=ff6666>Note!</font>. In case of compound failure, Aden's Soul Crystal Lv. 16 - Armor is obtained. <font color=ff6666>Cannot be used for enhancing sigils/ shields/ sealed equipment.</font> -->
+		<!-- Double-click to imbue <font color=eeaa22>armor</font> with the <font color=eeaa22>Defense Property</font> effect (increases P./ M. Def.). <font color=bbaa88><Compound></font>. Materials: Aden's Soul Crystal Lv. 1 - Armor. In case of failure, you will get <font color=eeaa22>Aden's Soul Crystal Lv. 16 - Armor</font>. <font color=ff6666>Cannot be used for enhancing sigils/ shields/ sealed equipment.<font> -->
 		<set name="icon" val="icon.aden_rune_am_i04" />
 		<set name="etcitem_type" val="ENSOUL_STONE" />
 		<set name="immediate_effect" val="true" />
@@ -168,7 +168,7 @@
 		<set name="is_stackable" val="true" />
 	</item>
 	<item id="96917" name="Aden's Soul Crystal Lv. 17 - Armor" type="EtcItem">
-		<!-- Double-click to imbue <font color=eeaa22>armor</font> with the <font color=eeaa22>Defense Property</font> effect (increases P./ M. Def.). Can be upgraded through compounding with Aden's Soul Crystal Lv. 1 - Armor. <font color=ff6666>Note!</font>. In case of compound failure, Aden's Soul Crystal Lv. 16 - Armor is obtained. <font color=ff6666>Cannot be used for enhancing sigils/ shields/ sealed equipment.</font> -->
+		<!-- Double-click to imbue <font color=eeaa22>armor</font> with the <font color=eeaa22>Defense Property</font> effect (increases P./ M. Def.). <font color=bbaa88><Compound></font>. Materials: Aden's Soul Crystal Lv. 1 - Armor. In case of failure, you will get <font color=eeaa22>Aden's Soul Crystal Lv. 16 - Armor</font>. <font color=ff6666>Cannot be used for enhancing sigils/ shields/ sealed equipment.<font> -->
 		<set name="icon" val="icon.aden_rune_am_i04" />
 		<set name="etcitem_type" val="ENSOUL_STONE" />
 		<set name="immediate_effect" val="true" />
@@ -178,7 +178,7 @@
 		<set name="is_stackable" val="true" />
 	</item>
 	<item id="96918" name="Aden's Soul Crystal Lv. 18 - Armor" type="EtcItem">
-		<!-- Double-click to imbue <font color=eeaa22>armor</font> with the <font color=eeaa22>Defense Property</font> effect (increases P./ M. Def.). Can be upgraded through compounding with Aden's Soul Crystal Lv. 1 - Armor. <font color=ff6666>Note!</font>. In case of compound failure, Aden's Soul Crystal Lv. 16 - Armor is obtained. <font color=ff6666>Cannot be used for enhancing sigils/ shields/ sealed equipment.</font> -->
+		<!-- Double-click to imbue <font color=eeaa22>armor</font> with the <font color=eeaa22>Defense Property</font> effect (increases P./ M. Def.). <font color=bbaa88><Compound></font>. Materials: Aden's Soul Crystal Lv. 1 - Armor. In case of failure, you will get <font color=eeaa22>Aden's Soul Crystal Lv. 16 - Armor</font>. <font color=ff6666>Cannot be used for enhancing sigils/ shields/ sealed equipment.<font> -->
 		<set name="icon" val="icon.aden_rune_am_i04" />
 		<set name="etcitem_type" val="ENSOUL_STONE" />
 		<set name="immediate_effect" val="true" />
@@ -188,7 +188,7 @@
 		<set name="is_stackable" val="true" />
 	</item>
 	<item id="96919" name="Aden's Soul Crystal Lv. 19 - Armor" type="EtcItem">
-		<!-- Double-click to imbue <font color=eeaa22>armor</font> with the <font color=eeaa22>Defense Property</font> effect (increases P./ M. Def.). Can be upgraded through compounding with Aden's Soul Crystal Lv. 1 - Armor. <font color=ff6666>Note!</font>. In case of compound failure, Aden's Soul Crystal Lv. 16 - Armor is obtained. <font color=ff6666>Cannot be used for enhancing sigils/ shields/ sealed equipment.</font> -->
+		<!-- Double-click to imbue <font color=eeaa22>armor</font> with the <font color=eeaa22>Defense Property</font> effect (increases P./ M. Def.). <font color=bbaa88><Compound></font>. Materials: Aden's Soul Crystal Lv. 1 - Armor. In case of failure, you will get <font color=eeaa22>Aden's Soul Crystal Lv. 16 - Armor</font>. <font color=ff6666>Cannot be used for enhancing sigils/ shields/ sealed equipment.<font> -->
 		<set name="icon" val="icon.aden_rune_am_i04" />
 		<set name="etcitem_type" val="ENSOUL_STONE" />
 		<set name="immediate_effect" val="true" />
@@ -198,7 +198,7 @@
 		<set name="is_stackable" val="true" />
 	</item>
 	<item id="96920" name="Aden's Soul Crystal Lv. 20 - Armor" type="EtcItem">
-		<!-- Double-click to imbue <font color=eeaa22>armor</font> with the <font color=eeaa22>Defense Property</font> effect (increases P./ M. Def.). <font color=ff6666>Cannot be used for enhancing sigils/ shields/ sealed equipment.</font> -->
+		<!-- Double-click to imbue <font color=eeaa22>armor</font> with the <font color=eeaa22>Defense Property</font> effect (increases P./ M. Def.). <font color=ff6666>Cannot be used for enhancing sigils/ shields/ sealed equipment.<font> -->
 		<set name="icon" val="icon.aden_rune_am_i04" />
 		<set name="etcitem_type" val="ENSOUL_STONE" />
 		<set name="immediate_effect" val="true" />
@@ -231,7 +231,7 @@
 			<item id="96873" min="1" max="1" chance="2.12766" /> <!-- Spellbook: Legendary Archer -->
 			<item id="95354" min="1" max="1" chance="2.12766" /> <!-- Spellbook: Dragon Strike -->
 			<item id="95347" min="1" max="1" chance="2.12766" /> <!-- Spellbook: Rolling Dice -->
-			<item id="95861" min="1" max="1" chance="2.12766" /> <!-- Spellbook: Mechanical Hero -->
+			<item id="95861" min="1" max="1" chance="2.12766" /> <!-- Spellbook: Prime Master Transformation -->
 			<item id="95346" min="1" max="1" chance="2.12766" /> <!-- Spellbook: Meteor -->
 			<item id="94508" min="1" max="1" chance="2.12766" /> <!-- Spellbook: Cacophony of War -->
 			<item id="94862" min="1" max="1" chance="2.12766" /> <!-- Spellbook: Exclusion -->
@@ -320,7 +320,7 @@
 		<set name="is_sellable" val="false" />
 	</item>
 	<item id="96926" name="Package: +6 Circlet of Hero" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.accessory_barka_karm_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -335,153 +335,369 @@
 		</capsuled_items>
 	</item>
 	<item id="96927" name="Demon King's Great Axe" additionalName="In development" type="Weapon">
-		<set name="icon" val="icon.frozen_weapon_blunt" />
+		<!-- <font color=ff6666><Unavailable to Sylphs/ Vanguard Riders/ Assassins.></font> -->
+		<set name="icon" val="icon.immortal_weapon_bg0000" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="BLUNT" />
-		<set name="bodypart" val="lhand" />
+		<set name="bodypart" val="rhand" />
+		<set name="damage_range" val="0;0;40;120" />
 		<set name="immediate_effect" val="true" />
 		<set name="crystal_type" val="A" />
 		<set name="material" val="ORIHARUKON" />
 		<set name="weight" val="1550" />
 		<set name="soulshots" val="2" />
 		<set name="spiritshots" val="2" />
+		<set name="is_sellable" val="false" />
+		<set name="is_freightable" val="true" />
+		<set name="enchant_enabled" val="true" />
 		<set name="ensoulNormalSlots" val="2" />
 		<set name="ensoulSpecialSlots" val="1" />
+		<set name="commissionItemType" val="BLUNT_WEAPON" />
 		<stats>
-			<stat type="pAtk">279</stat>
-			<stat type="mAtk">151</stat>
+			<stat type="pAtk">543</stat>
+			<stat type="mAtk">304</stat>
 			<stat type="pAtkSpd">379</stat>
+			<stat type="accCombat">8</stat>
+			<stat type="rCrit">6</stat>
 			<stat type="randomDamage">19</stat>
 			<stat type="pAtkRange">40</stat>
 		</stats>
+		<skills>
+			<!-- Weapon Blessing Effect -->
+			<skill id="50397" level="1" type="ON_BLESSING" />
+			<skill id="50418" level="1" type="ON_BLESSING" />
+			<skill id="50419" level="1" type="ON_BLESSING" type_value="1" />
+			<skill id="50420" level="1" type="ON_BLESSING" type_value="2" />
+			<skill id="50421" level="1" type="ON_BLESSING" type_value="3" />
+			<skill id="50422" level="1" type="ON_BLESSING" type_value="4" />
+			<skill id="50423" level="1" type="ON_BLESSING" type_value="5" />
+			<!-- Weapon Enchant Effect -->
+			<skill id="50625" level="1" type="ON_ENCHANT" type_value="0" />
+			<skill id="50625" level="2" type="ON_ENCHANT" type_value="1" />
+			<skill id="50625" level="3" type="ON_ENCHANT" type_value="2" />
+			<skill id="50625" level="4" type="ON_ENCHANT" type_value="3" />
+			<skill id="50625" level="5" type="ON_ENCHANT" type_value="4" />
+			<skill id="50625" level="6" type="ON_ENCHANT" type_value="5" />
+			<skill id="50625" level="6" type="ON_ENCHANT" type_value="6" />
+			<skill id="50625" level="6" type="ON_ENCHANT" type_value="7" />
+			<skill id="50625" level="6" type="ON_ENCHANT" type_value="8" />
+			<skill id="50625" level="6" type="ON_ENCHANT" type_value="9" />
+			<skill id="50625" level="6" type="ON_ENCHANT" type_value="10" />
+		</skills>
 	</item>
 	<item id="96928" name="Demon King's Ancient Sword" additionalName="In development" type="Weapon">
-		<set name="icon" val="icon.frozen_weapon_ancientsword" />
+		<!-- <font color=ff6666><Unavailable to Humans/ Elves/ Dark Elves/ Sylphs/ Vanguard Riders/ Assassins.></font> -->
+		<set name="icon" val="icon.immortal_weapon_bg0000" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="ANCIENTSWORD" />
 		<set name="bodypart" val="lrhand" />
+		<set name="damage_range" val="0;0;40;120" />
 		<set name="immediate_effect" val="true" />
 		<set name="crystal_type" val="A" />
 		<set name="material" val="STEEL" />
 		<set name="weight" val="1530" />
 		<set name="soulshots" val="2" />
 		<set name="spiritshots" val="2" />
+		<set name="is_sellable" val="false" />
+		<set name="is_freightable" val="true" />
+		<set name="is_immortality_weapon" val="true" />
+		<set name="enchant_enabled" val="true" />
 		<set name="ensoulNormalSlots" val="2" />
 		<set name="ensoulSpecialSlots" val="1" />
+		<set name="commissionItemType" val="ANCIENT_SWORD" />
 		<stats>
-			<stat type="pAtk">309</stat>
-			<stat type="mAtk">151</stat>
+			<stat type="pAtk">597</stat>
+			<stat type="mAtk">304</stat>
 			<stat type="pAtkSpd">379</stat>
+			<stat type="accCombat">5</stat>
+			<stat type="rCrit">10</stat>
 			<stat type="randomDamage">15</stat>
 			<stat type="pAtkRange">40</stat>
 		</stats>
+		<skills>
+			<!-- Weapon Blessing Effect -->
+			<skill id="50392" level="1" type="ON_BLESSING" />
+			<skill id="50418" level="1" type="ON_BLESSING" />
+			<skill id="50419" level="1" type="ON_BLESSING" type_value="1" />
+			<skill id="50420" level="1" type="ON_BLESSING" type_value="2" />
+			<skill id="50421" level="1" type="ON_BLESSING" type_value="3" />
+			<skill id="50422" level="1" type="ON_BLESSING" type_value="4" />
+			<skill id="50423" level="1" type="ON_BLESSING" type_value="5" />
+			<!-- Weapon enchant Effect -->
+			<skill id="50628" level="1" type="ON_ENCHANT" type_value="0" />
+			<skill id="50628" level="2" type="ON_ENCHANT" type_value="1" />
+			<skill id="50628" level="3" type="ON_ENCHANT" type_value="2" />
+			<skill id="50628" level="4" type="ON_ENCHANT" type_value="3" />
+			<skill id="50628" level="5" type="ON_ENCHANT" type_value="4" />
+			<skill id="50628" level="6" type="ON_ENCHANT" type_value="5" />
+			<skill id="50628" level="6" type="ON_ENCHANT" type_value="6" />
+			<skill id="50628" level="6" type="ON_ENCHANT" type_value="7" />
+			<skill id="50628" level="6" type="ON_ENCHANT" type_value="8" />
+			<skill id="50628" level="6" type="ON_ENCHANT" type_value="9" />
+			<skill id="50628" level="6" type="ON_ENCHANT" type_value="10" />
+		</skills>
 	</item>
 	<item id="96929" name="Demon King's Magic Blunt Weapon" additionalName="In development" type="Weapon">
-		<set name="icon" val="icon.frozen_weapon_staff" />
+		<!-- <font color=ff6666><Unavailable to Sylphs/ Vanguard Riders/ Assassins.></font> -->
+		<set name="icon" val="icon.immortal_weapon_bg0000" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="BLUNT" />
-		<set name="bodypart" val="lhand" />
+		<set name="bodypart" val="rhand" />
+		<set name="damage_range" val="0;0;40;120" />
 		<set name="immediate_effect" val="true" />
 		<set name="crystal_type" val="A" />
 		<set name="material" val="FINE_STEEL" />
 		<set name="weight" val="1510" />
 		<set name="soulshots" val="2" />
 		<set name="spiritshots" val="2" />
+		<set name="is_sellable" val="false" />
+		<set name="is_freightable" val="true" />
 		<set name="is_magic_weapon" val="true" />
+		<set name="is_immortality_weapon" val="true" />
 		<set name="ensoulNormalSlots" val="2" />
 		<set name="ensoulSpecialSlots" val="1" />
+		<set name="enchant_enabled" val="true" />
+		<set name="commissionItemType" val="ONE_HAND_MAGIC_BLUNT_WEAPON" />
 		<stats>
-			<stat type="pAtk">222</stat>
-			<stat type="mAtk">204</stat>
+			<stat type="pAtk">462</stat>
+			<stat type="mAtk">357</stat>
 			<stat type="pAtkSpd">379</stat>
+			<stat type="accCombat">8</stat>
+			<stat type="rCrit">6</stat>
 			<stat type="randomDamage">19</stat>
 			<stat type="pAtkRange">40</stat>
 		</stats>
+		<skills>
+			<!-- Weapon Blessing Effect -->
+			<skill id="50397" level="1" type="ON_BLESSING" />
+			<skill id="50418" level="1" type="ON_BLESSING" />
+			<skill id="50419" level="1" type="ON_BLESSING" type_value="1" />
+			<skill id="50420" level="1" type="ON_BLESSING" type_value="2" />
+			<skill id="50421" level="1" type="ON_BLESSING" type_value="3" />
+			<skill id="50422" level="1" type="ON_BLESSING" type_value="4" />
+			<skill id="50423" level="1" type="ON_BLESSING" type_value="5" />
+			<!-- Weapon enchant Effect -->
+			<skill id="50634" level="1" type="ON_ENCHANT" type_value="0" />
+			<skill id="50634" level="2" type="ON_ENCHANT" type_value="1" />
+			<skill id="50634" level="3" type="ON_ENCHANT" type_value="2" />
+			<skill id="50634" level="4" type="ON_ENCHANT" type_value="3" />
+			<skill id="50634" level="5" type="ON_ENCHANT" type_value="4" />
+			<skill id="50634" level="6" type="ON_ENCHANT" type_value="5" />
+			<skill id="50634" level="6" type="ON_ENCHANT" type_value="6" />
+			<skill id="50634" level="6" type="ON_ENCHANT" type_value="7" />
+			<skill id="50634" level="6" type="ON_ENCHANT" type_value="8" />
+			<skill id="50634" level="6" type="ON_ENCHANT" type_value="9" />
+			<skill id="50634" level="6" type="ON_ENCHANT" type_value="10" />
+		</skills>
 	</item>
 	<item id="96930" name="Demon King's Fire Gloves" additionalName="In development" type="Weapon">
-		<set name="icon" val="icon.frozen_weapon_dualfist" />
+		<!-- <font color=ff6666><Unavailable to Sylphs/ Vanguard Riders/ Assassins.></font> -->
+		<set name="icon" val="icon.immortal_weapon_bg0000" />
 		<set name="default_action" val="EQUIP" />
-		<set name="weapon_type" val="FIST" />
+		<set name="weapon_type" val="DUALFIST" />
 		<set name="bodypart" val="lrhand" />
+		<set name="damage_range" val="0;0;32;120" />
 		<set name="immediate_effect" val="true" />
 		<set name="crystal_type" val="A" />
 		<set name="material" val="ADAMANTAITE" />
 		<set name="weight" val="1330" />
 		<set name="soulshots" val="2" />
 		<set name="spiritshots" val="2" />
+		<set name="is_sellable" val="false" />
+		<set name="is_freightable" val="true" />
+		<set name="is_immortality_weapon" val="true" />
+		<set name="enchant_enabled" val="true" />
 		<set name="ensoulNormalSlots" val="2" />
 		<set name="ensoulSpecialSlots" val="1" />
+		<set name="commissionItemType" val="FIST_WEAPON" />
 		<stats>
-			<stat type="pAtk">340</stat>
-			<stat type="mAtk">151</stat>
+			<stat type="pAtk">628</stat>
+			<stat type="mAtk">304</stat>
 			<stat type="pAtkSpd">325</stat>
+			<stat type="accCombat">8</stat>
+			<stat type="rCrit">6</stat>
 			<stat type="randomDamage">5</stat>
 			<stat type="pAtkRange">80</stat>
 		</stats>
+		<skills>
+			<!-- Weapon Blessing Effect -->
+			<skill id="50404" level="1" type="ON_BLESSING" />
+			<skill id="50418" level="1" type="ON_BLESSING" />
+			<skill id="50419" level="1" type="ON_BLESSING" type_value="1" />
+			<skill id="50420" level="1" type="ON_BLESSING" type_value="2" />
+			<skill id="50421" level="1" type="ON_BLESSING" type_value="3" />
+			<skill id="50422" level="1" type="ON_BLESSING" type_value="4" />
+			<skill id="50423" level="1" type="ON_BLESSING" type_value="5" />
+			<!-- Weapon enchant Effect -->
+			<skill id="50630" level="1" type="ON_ENCHANT" type_value="0" />
+			<skill id="50630" level="2" type="ON_ENCHANT" type_value="1" />
+			<skill id="50630" level="3" type="ON_ENCHANT" type_value="2" />
+			<skill id="50630" level="4" type="ON_ENCHANT" type_value="3" />
+			<skill id="50630" level="5" type="ON_ENCHANT" type_value="4" />
+			<skill id="50630" level="6" type="ON_ENCHANT" type_value="5" />
+			<skill id="50630" level="6" type="ON_ENCHANT" type_value="6" />
+			<skill id="50630" level="6" type="ON_ENCHANT" type_value="7" />
+			<skill id="50630" level="6" type="ON_ENCHANT" type_value="8" />
+			<skill id="50630" level="6" type="ON_ENCHANT" type_value="9" />
+			<skill id="50630" level="6" type="ON_ENCHANT" type_value="10" />
+		</skills>
 	</item>
 	<item id="96931" name="Demon King's Pistols" additionalName="In development" type="Weapon">
-		<set name="icon" val="icon.frozen_weapon_shooter" />
+		<!-- <font color=bbaa88><Sylph-exclusive Weapon.></font> -->
+		<set name="icon" val="icon.immortal_weapon_bg0000" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="PISTOLS" />
 		<set name="bodypart" val="lrhand" />
+		<set name="damage_range" val="0;0;10;0" />
 		<set name="immediate_effect" val="true" />
 		<set name="crystal_type" val="A" />
 		<set name="material" val="ADAMANTAITE" />
 		<set name="weight" val="1640" />
 		<set name="soulshots" val="3" />
 		<set name="spiritshots" val="2" />
+		<set name="is_sellable" val="false" />
+		<set name="is_freightable" val="true" />
+		<set name="is_immortality_weapon" val="true" />
+		<set name="enchant_enabled" val="true" />
 		<set name="ensoulNormalSlots" val="2" />
 		<set name="ensoulSpecialSlots" val="1" />
+		<set name="commissionItemType" val="SPEAR" />
 		<stats>
-			<stat type="pAtk">634</stat>
-			<stat type="mAtk">166</stat>
+			<stat type="pAtk">1018</stat>
+			<stat type="mAtk">319</stat>
 			<stat type="pAtkSpd">293</stat>
+			<stat type="accCombat">-3.75</stat>
+			<stat type="rCrit">10</stat>
 			<stat type="randomDamage">5</stat>
-			<stat type="pAtkRange">80</stat>
+			<stat type="pAtkRange">400</stat>
 		</stats>
+		<skills>
+			<!-- Weapon Blessing Effect -->
+			<skill id="50403" level="1" type="ON_BLESSING" />
+			<skill id="50418" level="1" type="ON_BLESSING" />
+			<skill id="50419" level="1" type="ON_BLESSING" type_value="1" />
+			<skill id="50420" level="1" type="ON_BLESSING" type_value="2" />
+			<skill id="50421" level="1" type="ON_BLESSING" type_value="3" />
+			<skill id="50422" level="1" type="ON_BLESSING" type_value="4" />
+			<skill id="50423" level="1" type="ON_BLESSING" type_value="5" />
+			<!-- Weapon enchant Effect -->
+			<skill id="50637" level="1" type="ON_ENCHANT" type_value="0" />
+			<skill id="50637" level="2" type="ON_ENCHANT" type_value="1" />
+			<skill id="50637" level="3" type="ON_ENCHANT" type_value="2" />
+			<skill id="50637" level="4" type="ON_ENCHANT" type_value="3" />
+			<skill id="50637" level="5" type="ON_ENCHANT" type_value="4" />
+			<skill id="50637" level="6" type="ON_ENCHANT" type_value="5" />
+			<skill id="50637" level="6" type="ON_ENCHANT" type_value="6" />
+			<skill id="50637" level="6" type="ON_ENCHANT" type_value="7" />
+			<skill id="50637" level="6" type="ON_ENCHANT" type_value="8" />
+			<skill id="50637" level="6" type="ON_ENCHANT" type_value="9" />
+			<skill id="50637" level="6" type="ON_ENCHANT" type_value="10" />
+		</skills>
 	</item>
 	<item id="96932" name="Demon King's Rapier" additionalName="In development" type="Weapon">
-		<set name="icon" val="icon.frozen_weapon_rapier" />
+		<!-- <font color=ff6666><Unavailable to Orcs/ Sylphs/ Dwarves/ Assassins.></font> -->
+		<set name="icon" val="icon.immortal_weapon_bg0000" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="RAPIER" />
-		<set name="bodypart" val="lhand" />
+		<set name="bodypart" val="rhand" />
+		<set name="damage_range" val="0;0;40;120" />
 		<set name="immediate_effect" val="true" />
 		<set name="crystal_type" val="A" />
 		<set name="material" val="STEEL" />
 		<set name="weight" val="1300" />
 		<set name="soulshots" val="2" />
 		<set name="spiritshots" val="2" />
+		<set name="is_sellable" val="false" />
+		<set name="is_freightable" val="true" />
+		<set name="is_immortality_weapon" val="true" />
+		<set name="enchant_enabled" val="true" />
 		<set name="ensoulNormalSlots" val="2" />
 		<set name="ensoulSpecialSlots" val="1" />
+		<set name="commissionItemType" val="RAPIER" />
 		<stats>
-			<stat type="pAtk">266</stat>
-			<stat type="mAtk">184</stat>
+			<stat type="pAtk">506</stat>
+			<stat type="mAtk">337</stat>
 			<stat type="pAtkSpd">406</stat>
+			<stat type="accCombat">8</stat>
+			<stat type="rCrit">10</stat>
 			<stat type="randomDamage">19</stat>
 			<stat type="pAtkRange">40</stat>
 		</stats>
+		<skills>
+			<!-- Weapon Blessing Effect -->
+			<skill id="50395" level="1" type="ON_BLESSING" />
+			<skill id="50418" level="1" type="ON_BLESSING" />
+			<skill id="50419" level="1" type="ON_BLESSING" type_value="1" />
+			<skill id="50420" level="1" type="ON_BLESSING" type_value="2" />
+			<skill id="50421" level="1" type="ON_BLESSING" type_value="3" />
+			<skill id="50422" level="1" type="ON_BLESSING" type_value="4" />
+			<skill id="50423" level="1" type="ON_BLESSING" type_value="5" />
+			<!-- Weapon enchant Effect -->
+			<skill id="50633" level="1" type="ON_ENCHANT" type_value="0" />
+			<skill id="50633" level="2" type="ON_ENCHANT" type_value="1" />
+			<skill id="50633" level="3" type="ON_ENCHANT" type_value="2" />
+			<skill id="50633" level="4" type="ON_ENCHANT" type_value="3" />
+			<skill id="50633" level="5" type="ON_ENCHANT" type_value="4" />
+			<skill id="50633" level="6" type="ON_ENCHANT" type_value="5" />
+			<skill id="50633" level="6" type="ON_ENCHANT" type_value="6" />
+			<skill id="50633" level="6" type="ON_ENCHANT" type_value="7" />
+			<skill id="50633" level="6" type="ON_ENCHANT" type_value="8" />
+			<skill id="50633" level="6" type="ON_ENCHANT" type_value="9" />
+			<skill id="50633" level="6" type="ON_ENCHANT" type_value="10" />
+		</skills>
 	</item>
 	<item id="96933" name="Demon King's Staff" additionalName="In development" type="Weapon">
-		<set name="icon" val="icon.frozen_weapon_two_hand_staff" />
+		<!-- <font color=ff6666><Unavailable to Sylphs/ Vanguard Riders/ Assassins.></font> -->
+		<set name="icon" val="icon.immortal_weapon_bg0000" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="BLUNT" />
 		<set name="bodypart" val="lrhand" />
+		<set name="damage_range" val="0;0;40;120" />
 		<set name="immediate_effect" val="true" />
 		<set name="crystal_type" val="A" />
 		<set name="material" val="WOOD" />
 		<set name="weight" val="880" />
 		<set name="soulshots" val="2" />
 		<set name="spiritshots" val="2" />
+		<set name="is_sellable" val="false" />
+		<set name="is_freightable" val="true" />
 		<set name="is_magic_weapon" val="true" />
+		<set name="is_immortality_weapon" val="true" />
 		<set name="ensoulNormalSlots" val="2" />
 		<set name="ensoulSpecialSlots" val="1" />
+		<set name="enchant_enabled" val="true" />
+		<set name="commissionItemType" val="TWO_HAND_MAGIC_BLUNT_WEAPON" />
 		<stats>
-			<stat type="pAtk">270</stat>
-			<stat type="mAtk">224</stat>
+			<stat type="pAtk">532</stat>
+			<stat type="mAtk">377</stat>
 			<stat type="pAtkSpd">325</stat>
+			<stat type="accCombat">8</stat>
+			<stat type="rCrit">6</stat>
 			<stat type="randomDamage">19</stat>
 			<stat type="pAtkRange">80</stat>
 		</stats>
+		<skills>
+			<!-- Weapon Blessing Effect -->
+			<skill id="50397" level="1" type="ON_BLESSING" />
+			<skill id="50418" level="1" type="ON_BLESSING" />
+			<skill id="50419" level="1" type="ON_BLESSING" type_value="1" />
+			<skill id="50420" level="1" type="ON_BLESSING" type_value="2" />
+			<skill id="50421" level="1" type="ON_BLESSING" type_value="3" />
+			<skill id="50422" level="1" type="ON_BLESSING" type_value="4" />
+			<skill id="50423" level="1" type="ON_BLESSING" type_value="5" />
+			<!-- Weapon enchant Effect -->
+			<skill id="50635" level="1" type="ON_ENCHANT" type_value="0" />
+			<skill id="50635" level="2" type="ON_ENCHANT" type_value="1" />
+			<skill id="50635" level="3" type="ON_ENCHANT" type_value="2" />
+			<skill id="50635" level="4" type="ON_ENCHANT" type_value="3" />
+			<skill id="50635" level="5" type="ON_ENCHANT" type_value="4" />
+			<skill id="50635" level="6" type="ON_ENCHANT" type_value="5" />
+			<skill id="50635" level="6" type="ON_ENCHANT" type_value="6" />
+			<skill id="50635" level="6" type="ON_ENCHANT" type_value="7" />
+			<skill id="50635" level="6" type="ON_ENCHANT" type_value="8" />
+			<skill id="50635" level="6" type="ON_ENCHANT" type_value="9" />
+			<skill id="50635" level="6" type="ON_ENCHANT" type_value="10" />
+		</skills>
 	</item>
 	<item id="96934" name="Demon King's Crossbow" additionalName="In development" type="Weapon">
 		<set name="icon" val="BranchSys3.Icon.g_beam_shield" />
@@ -501,25 +717,56 @@
 		</stats>
 	</item>
 	<item id="96935" name="Demon King's Dagger" additionalName="In development" type="Weapon">
-		<set name="icon" val="icon.frozen_weapon_dagger" />
+		<!-- <font color=ff6666><Unavailable to Sylphs/ Vanguard Riders.></font> -->
+		<set name="icon" val="icon.immortal_weapon_bg0000" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="DAGGER" />
-		<set name="bodypart" val="lhand" />
+		<set name="bodypart" val="rhand" />
+		<set name="damage_range" val="0;0;40;120" />
 		<set name="immediate_effect" val="true" />
 		<set name="crystal_type" val="A" />
 		<set name="material" val="ORIHARUKON" />
 		<set name="weight" val="930" />
 		<set name="soulshots" val="2" />
 		<set name="spiritshots" val="2" />
+		<set name="is_sellable" val="false" />
+		<set name="is_freightable" val="true" />
+		<set name="is_immortality_weapon" val="true" />
+		<set name="enchant_enabled" val="true" />
 		<set name="ensoulNormalSlots" val="2" />
 		<set name="ensoulSpecialSlots" val="1" />
+		<set name="commissionItemType" val="DAGGER" />
 		<stats>
-			<stat type="pAtk">245</stat>
-			<stat type="mAtk">151</stat>
+			<stat type="pAtk">458</stat>
+			<stat type="mAtk">304</stat>
 			<stat type="pAtkSpd">433</stat>
+			<stat type="accCombat">-3.75</stat>
+			<stat type="rCrit">12</stat>
 			<stat type="randomDamage">5</stat>
 			<stat type="pAtkRange">40</stat>
 		</stats>
+		<skills>
+			<!-- Weapon Blessing Effect -->
+			<skill id="50402" level="1" type="ON_BLESSING" />
+			<skill id="50418" level="1" type="ON_BLESSING" />
+			<skill id="50419" level="1" type="ON_BLESSING" type_value="1" />
+			<skill id="50420" level="1" type="ON_BLESSING" type_value="2" />
+			<skill id="50421" level="1" type="ON_BLESSING" type_value="3" />
+			<skill id="50422" level="1" type="ON_BLESSING" type_value="4" />
+			<skill id="50423" level="1" type="ON_BLESSING" type_value="5" />
+			<!-- Weapon enchant Effect -->
+			<skill id="50632" level="1" type="ON_ENCHANT" type_value="0" />
+			<skill id="50632" level="2" type="ON_ENCHANT" type_value="1" />
+			<skill id="50632" level="3" type="ON_ENCHANT" type_value="2" />
+			<skill id="50632" level="4" type="ON_ENCHANT" type_value="3" />
+			<skill id="50632" level="5" type="ON_ENCHANT" type_value="4" />
+			<skill id="50632" level="6" type="ON_ENCHANT" type_value="5" />
+			<skill id="50632" level="6" type="ON_ENCHANT" type_value="6" />
+			<skill id="50632" level="6" type="ON_ENCHANT" type_value="7" />
+			<skill id="50632" level="6" type="ON_ENCHANT" type_value="8" />
+			<skill id="50632" level="6" type="ON_ENCHANT" type_value="9" />
+			<skill id="50632" level="6" type="ON_ENCHANT" type_value="10" />
+		</skills>
 	</item>
 	<item id="96936" name="Demon King's Shield" additionalName="In development" type="Armor">
 		<set name="icon" val="icon.shield_of_protection" />
@@ -538,7 +785,7 @@
 		</stats>
 	</item>
 	<item id="96937" name="Demon King's Sigil" additionalName="In development" type="Armor">
-		<set name="icon" val="icon.sigil_of_protection" />
+		<set name="icon" val="icon.immortal_weapon_bg0000" />
 		<set name="default_action" val="EQUIP" />
 		<set name="armor_type" val="SIGIL" />
 		<set name="bodypart" val="lhand" />
@@ -553,71 +800,161 @@
 		</stats>
 	</item>
 	<item id="96938" name="Demon King's Two-handed Sword" additionalName="In development" type="Weapon">
-		<set name="icon" val="icon.frozen_weapon_two_hand_sword" />
+		<!-- <font color=ff6666><Unavailable to Sylphs/ Vanguard Riders/ Assassins.></font> -->
+		<set name="icon" val="icon.immortal_weapon_bg0000" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="SWORD" />
 		<set name="bodypart" val="lrhand" />
+		<set name="damage_range" val="0;0;46;120" />
 		<set name="immediate_effect" val="true" />
 		<set name="crystal_type" val="A" />
 		<set name="material" val="BONE" />
 		<set name="weight" val="1820" />
 		<set name="soulshots" val="2" />
 		<set name="spiritshots" val="2" />
+		<set name="is_sellable" val="false" />
+		<set name="is_freightable" val="true" />
+		<set name="is_immortality_weapon" val="true" />
+		<set name="enchant_enabled" val="true" />
 		<set name="ensoulNormalSlots" val="2" />
 		<set name="ensoulSpecialSlots" val="1" />
+		<set name="commissionItemType" val="TWO_HAND_SWORD" />
 		<stats>
-			<stat type="pAtk">340</stat>
-			<stat type="mAtk">151</stat>
+			<stat type="pAtk">628</stat>
+			<stat type="mAtk">304</stat>
 			<stat type="pAtkSpd">325</stat>
+			<stat type="rCrit">8</stat>
 			<stat type="randomDamage">10</stat>
 			<stat type="pAtkRange">40</stat>
 		</stats>
+		<skills>
+			<!-- Weapon Blessing Effect -->
+			<skill id="50392" level="1" type="ON_BLESSING" />
+			<skill id="50418" level="1" type="ON_BLESSING" />
+			<skill id="50419" level="1" type="ON_BLESSING" type_value="1" />
+			<skill id="50420" level="1" type="ON_BLESSING" type_value="2" />
+			<skill id="50421" level="1" type="ON_BLESSING" type_value="3" />
+			<skill id="50422" level="1" type="ON_BLESSING" type_value="4" />
+			<skill id="50423" level="1" type="ON_BLESSING" type_value="5" />
+			<!-- Weapon enchant Effect -->
+			<skill id="50626" level="1" type="ON_ENCHANT" type_value="0" />
+			<skill id="50626" level="2" type="ON_ENCHANT" type_value="1" />
+			<skill id="50626" level="3" type="ON_ENCHANT" type_value="2" />
+			<skill id="50626" level="4" type="ON_ENCHANT" type_value="3" />
+			<skill id="50626" level="5" type="ON_ENCHANT" type_value="4" />
+			<skill id="50626" level="6" type="ON_ENCHANT" type_value="5" />
+			<skill id="50626" level="6" type="ON_ENCHANT" type_value="6" />
+			<skill id="50626" level="6" type="ON_ENCHANT" type_value="7" />
+			<skill id="50626" level="6" type="ON_ENCHANT" type_value="8" />
+			<skill id="50626" level="6" type="ON_ENCHANT" type_value="9" />
+			<skill id="50626" level="6" type="ON_ENCHANT" type_value="10" />
+		</skills>
 	</item>
 	<item id="96939" name="Demon King's Spear" additionalName="In development" type="Weapon">
-		<set name="icon" val="icon.frozen_weapon_pole" />
+		<!-- <font color=ff6666><Unavailable to Sylphs/ Assassins.></font> -->
+		<set name="icon" val="icon.immortal_weapon_bg0000" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="POLE" />
 		<set name="bodypart" val="lrhand" />
+		<set name="damage_range" val="0;0;66;120" />
 		<set name="immediate_effect" val="true" />
 		<set name="crystal_type" val="A" />
 		<set name="material" val="CHRYSOLITE" />
 		<set name="weight" val="1820" />
 		<set name="soulshots" val="2" />
 		<set name="spiritshots" val="2" />
+		<set name="is_sellable" val="false" />
+		<set name="is_freightable" val="true" />
+		<set name="is_immortality_weapon" val="true" />
+		<set name="enchant_enabled" val="true" />
 		<set name="ensoulNormalSlots" val="2" />
 		<set name="ensoulSpecialSlots" val="1" />
-		<skills>
-			<skill id="3599" level="1" /> <!-- Polearm Multi-attack -->
-		</skills>
+		<set name="commissionItemType" val="SPEAR" />
 		<stats>
-			<stat type="pAtk">279</stat>
-			<stat type="mAtk">151</stat>
+			<stat type="pAtk">543</stat>
+			<stat type="mAtk">304</stat>
 			<stat type="pAtkSpd">325</stat>
+			<stat type="accCombat">-3.75</stat>
+			<stat type="rCrit">8</stat>
 			<stat type="randomDamage">10</stat>
 			<stat type="pAtkRange">80</stat>
 		</stats>
+		<skills>
+			<!-- Weapon Blessing Effect -->
+			<skill id="50405" level="1" type="ON_BLESSING" />
+			<skill id="50418" level="1" type="ON_BLESSING" />
+			<skill id="50419" level="1" type="ON_BLESSING" type_value="1" />
+			<skill id="50420" level="1" type="ON_BLESSING" type_value="2" />
+			<skill id="50421" level="1" type="ON_BLESSING" type_value="3" />
+			<skill id="50422" level="1" type="ON_BLESSING" type_value="4" />
+			<skill id="50423" level="1" type="ON_BLESSING" type_value="5" />
+			<!-- Weapon enchant Effect -->
+			<skill id="3599" level="1" /> <!-- Polearm Multi-attack -->
+			<skill id="50631" level="1" type="ON_ENCHANT" type_value="0" />
+			<skill id="50631" level="2" type="ON_ENCHANT" type_value="1" />
+			<skill id="50631" level="3" type="ON_ENCHANT" type_value="2" />
+			<skill id="50631" level="4" type="ON_ENCHANT" type_value="3" />
+			<skill id="50631" level="5" type="ON_ENCHANT" type_value="4" />
+			<skill id="50631" level="6" type="ON_ENCHANT" type_value="5" />
+			<skill id="50631" level="6" type="ON_ENCHANT" type_value="6" />
+			<skill id="50631" level="6" type="ON_ENCHANT" type_value="7" />
+			<skill id="50631" level="6" type="ON_ENCHANT" type_value="8" />
+			<skill id="50631" level="6" type="ON_ENCHANT" type_value="9" />
+			<skill id="50631" level="6" type="ON_ENCHANT" type_value="10" />
+		</skills>
 	</item>
 	<item id="96940" name="Demon King's Bow" additionalName="In development" type="Weapon">
-		<set name="icon" val="icon.frozen_weapon_bow" />
+		<!-- <font color=ff6666><Unavailable to Sylphs/ Vanguard Riders/ Assassins.></font> -->
+		<set name="icon" val="icon.immortal_weapon_bg0000" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="BOW" />
 		<set name="bodypart" val="lrhand" />
+		<set name="damage_range" val="0;0;10;0" />
 		<set name="immediate_effect" val="true" />
 		<set name="crystal_type" val="A" />
 		<set name="material" val="ORIHARUKON" />
 		<set name="weight" val="1640" />
+		<set name="mp_consume" val="5" />
 		<set name="soulshots" val="3" />
 		<set name="spiritshots" val="2" />
-		<set name="mp_consume" val="5" />
+		<set name="is_sellable" val="false" />
+		<set name="is_freightable" val="true" />
+		<set name="is_immortality_weapon" val="true" />
+		<set name="enchant_enabled" val="true" />
 		<set name="ensoulNormalSlots" val="2" />
 		<set name="ensoulSpecialSlots" val="1" />
+		<set name="commissionItemType" val="BOW" />
 		<stats>
-			<stat type="pAtk">634</stat>
-			<stat type="mAtk">166</stat>
+			<stat type="pAtk">1018</stat>
+			<stat type="mAtk">319</stat>
 			<stat type="pAtkSpd">293</stat>
+			<stat type="accCombat">-3.75</stat>
+			<stat type="rCrit">12</stat>
 			<stat type="randomDamage">5</stat>
 			<stat type="pAtkRange">500</stat>
 		</stats>
+		<skills>
+			<!-- Weapon Blessing Effect -->
+			<skill id="50401" level="1" type="ON_BLESSING" />
+			<skill id="50418" level="1" type="ON_BLESSING" />
+			<skill id="50419" level="1" type="ON_BLESSING" type_value="1" />
+			<skill id="50420" level="1" type="ON_BLESSING" type_value="2" />
+			<skill id="50421" level="1" type="ON_BLESSING" type_value="3" />
+			<skill id="50422" level="1" type="ON_BLESSING" type_value="4" />
+			<skill id="50423" level="1" type="ON_BLESSING" type_value="5" />
+			<!-- Weapon enchant Effect -->
+			<skill id="50636" level="1" type="ON_ENCHANT" type_value="0" />
+			<skill id="50636" level="2" type="ON_ENCHANT" type_value="1" />
+			<skill id="50636" level="3" type="ON_ENCHANT" type_value="2" />
+			<skill id="50636" level="4" type="ON_ENCHANT" type_value="3" />
+			<skill id="50636" level="5" type="ON_ENCHANT" type_value="4" />
+			<skill id="50636" level="6" type="ON_ENCHANT" type_value="5" />
+			<skill id="50636" level="6" type="ON_ENCHANT" type_value="6" />
+			<skill id="50636" level="6" type="ON_ENCHANT" type_value="7" />
+			<skill id="50636" level="6" type="ON_ENCHANT" type_value="8" />
+			<skill id="50636" level="6" type="ON_ENCHANT" type_value="9" />
+			<skill id="50636" level="6" type="ON_ENCHANT" type_value="10" />
+		</skills>
 	</item>
 	<item id="96941" name="Extra Pass: Training Zone" additionalName="Sealed" type="EtcItem">
 		<!-- Double-click to get an extra pass to the Training Zone. Note!. Can be used once a day outside of instance zones. Can only be used when the Training Zone is on cooldown. -->
@@ -727,7 +1064,7 @@
 		<set name="material" val="FISH" />
 	</item>
 	<item id="96952" name="Prime Watermelon's Seed (Time-limited)" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to grow Prime Watermelon. -->
+		<!-- Double-click to make a Prime Watermelon appear. -->
 		<set name="icon" val="icon.event_honey_watermelon_seed_i00" />
 		<set name="default_action" val="SKILL_REDUCE" />
 		<set name="immediate_effect" val="true" />
@@ -742,7 +1079,7 @@
 		</skills>
 	</item>
 	<item id="96953" name="Large Prime Watermelon's Seed (Time-limited)" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to grow Large Prime Watermelon. -->
+		<!-- Double-click to make a Large Prime Watermelon appear. -->
 		<set name="icon" val="icon.event_honey_watermelon_seed_i00" />
 		<set name="default_action" val="SKILL_REDUCE" />
 		<set name="immediate_effect" val="true" />
@@ -823,7 +1160,7 @@
 		<set name="weight" val="100" />
 	</item>
 	<item id="96960" name="Brooch Lv. 6" type="Armor">
-		<!-- Jewel slots +6. Inventory slots +18. P. Def. +300. M. Def. +300. Can be compounded with two other Brooches of the same level. -->
+		<!-- Jewel slots +6. Inventory slots +18. P. Def. +300. M. Def. +300. <font color=bbaa88><Compound></font>. Materials: Brooches and packages of the same level. In case of failure, the current level remains the same, but materials disappear. -->
 		<set name="icon" val="icon.etc_bm_brooch_lavianrose_i05" />
 		<set name="default_action" val="EQUIP" />
 		<set name="bodypart" val="brooch" />
@@ -841,7 +1178,7 @@
 		</skills>
 	</item>
 	<item id="96961" name="Brooch Lv. 7" type="Armor">
-		<!-- Jewel slots +6. Inventory slots +20. P. Def. +400. M. Def. +400. Max HP +250. Max MP +250. Can be compounded with two other Brooches of the same level. -->
+		<!-- Jewel slots +6. Inventory slots +20. P. Def. +400. M. Def. +400. Max HP +250. Max MP +250. <font color=bbaa88><Compound></font>. Materials: Brooches and packages of the same level. In case of failure, the current level remains the same, but materials disappear. -->
 		<set name="icon" val="icon.etc_bm_brooch_lavianrose_i06" />
 		<set name="default_action" val="EQUIP" />
 		<set name="bodypart" val="brooch" />
@@ -859,7 +1196,7 @@
 		</skills>
 	</item>
 	<item id="96962" name="Brooch Lv. 8" type="Armor">
-		<!-- Jewel slots +6. Inventory slots +25. P. Def. +500. M. Def. +500. Max HP +500. Max MP +500. Can be compounded with two other Brooches of the same level. -->
+		<!-- Jewel slots +6. Inventory slots +25. P. Def. +500. M. Def. +500. Max HP +500. Max MP +500. <font color=bbaa88><Compound></font>. Materials: Brooches and packages of the same level. In case of failure, the current level remains the same, but materials disappear. -->
 		<set name="icon" val="icon.etc_bm_brooch_lavianrose_i07" />
 		<set name="default_action" val="EQUIP" />
 		<set name="bodypart" val="brooch" />
@@ -877,7 +1214,7 @@
 		</skills>
 	</item>
 	<item id="96963" name="Talisman Bracelet Lv. 7" type="Armor">
-		<!-- Talisman slots +6. P. Atk. +400. M. Atk. +400. Skill Power +1%. Can be compounded with two other Talisman Bracelets of the same level. -->
+		<!-- Talisman slots +6. P. Atk. +400. M. Atk. +400. Skill Power +1%. <font color=bbaa88><Compound></font>. Materials: Talisman Bracelets and packages of the same level. In case of failure, the current level remains the same, but materials disappear. -->
 		<set name="icon" val="icon.dimension_bracelet_i06" />
 		<set name="default_action" val="EQUIP" />
 		<set name="bodypart" val="rbracelet" />
@@ -893,7 +1230,7 @@
 		</skills>
 	</item>
 	<item id="96964" name="Talisman Bracelet Lv. 8" type="Armor">
-		<!-- Talisman slots +6. P. Atk. +500. M. Atk. +500. Skill Power +2%. Can be compounded with two other Talisman Bracelets of the same level. -->
+		<!-- Talisman slots +6. P. Atk. + 500. M. Atk. +500. Skill Power +2%. <font color=bbaa88>< Compound></font>. Materials: Talisman Bracelets and packages of the same level. In case of failure, the current level remains the same, but materials disappear. -->
 		<set name="icon" val="icon.dimension_bracelet_i07" />
 		<set name="default_action" val="EQUIP" />
 		<set name="bodypart" val="rbracelet" />
@@ -909,7 +1246,7 @@
 		</skills>
 	</item>
 	<item id="96965" name="Agathion Bracelet Lv. 6" type="Armor">
-		<!-- Agathion slots +5. Paralysis Resistance +10%. Shock Resistance +10%. Sleep Resistance +10%. Silence Resistance +10%. Fear Resistance +10%. STR +1. INT +1. DEX +2. WIT +2. CON +2. MEN +2. Can be compounded with two other Agathion Bracelets of the same level. -->
+		<!-- Agathion slots +5. Paralysis Resistance +10%. Shock Resistance +10%. Sleep Resistance +10%. Silence Resistance +10%. Fear Resistance +10%. STR +1. INT +1. DEX +2. WIT +2. CON +2. MEN +2. <font color=bbaa88><Compound></font>. Materials: Agathion Bracelets and packages of the same level. In case of failure, the current level remains the same, but materials disappear. -->
 		<set name="icon" val="icon.pi_high_agathion_bracelet_i01" />
 		<set name="default_action" val="EQUIP" />
 		<set name="bodypart" val="lbracelet" />
@@ -924,7 +1261,7 @@
 		</skills>
 	</item>
 	<item id="96966" name="Agathion Bracelet Lv. 7" type="Armor">
-		<!-- Agathion slots +5. Paralysis Resistance +12%. Shock Resistance +12%. Sleep Resistance +12%. Silence Resistance +12%. Fear Resistance +12%. Hold Resistance +5%. Imprisonment Resistance +5%. Pull Resistance +5%. Knockback Resistance +5%. Suppression Resistance +5%. STR +2. INT +2. DEX +2. WIT +2. CON +2. MEN +2. Can be compounded with two other Agathion Bracelets of the same level. -->
+		<!-- Agathion slots +5. Paralysis Resistance +12%. Shock Resistance +12%. Sleep Resistance +12%. Silence Resistance +12%. Fear Resistance +12%. Hold Resistance +5%. Imprisonment Resistance +5%. Pull Resistance +5%. Knockback Resistance +5%. Suppression Resistance +5%. STR +2. INT +2. DEX +2. WIT +2. CON +2. MEN +2. <font color=bbaa88><Compound></font>. Materials: Agathion Bracelets and packages of the same level. In case of failure, the current level remains the same, but materials disappear. -->
 		<set name="icon" val="icon.pi_high_agathion_bracelet_i02" />
 		<set name="default_action" val="EQUIP" />
 		<set name="bodypart" val="lbracelet" />
@@ -939,7 +1276,7 @@
 		</skills>
 	</item>
 	<item id="96967" name="Agathion Bracelet Lv. 8" type="Armor">
-		<!-- Agathion slots +5. Paralysis Resistance +15%. Shock Resistance +15%. Sleep Resistance +15%. Silence Resistance +15%. Fear Resistance +15%. Hold Resistance +10%. Imprisonment Resistance +10%. Pull Resistance +10%. Knockback Resistance +10%. Suppression Resistance +10%. STR +2. INT +2. DEX +3. WIT +3. CON +3. MEN +3. Can be compounded with two other Agathion Bracelets of the same level. -->
+		<!-- Agathion slots +5. Paralysis Resistance +15%. Shock Resistance +15%. Sleep Resistance +15%. Silence Resistance +15%. Fear Resistance +15%. Hold Resistance +10%. Imprisonment Resistance +10%. Pull Resistance +10%. Knockback Resistance +10%. Suppression Resistance +10%. STR +2. INT +2. DEX +3. WIT +3. CON +3. MEN +3. <font color=bbaa88><Compound></font>. Materials: Agathion Bracelets and packages of the same level. In case of failure, the current level remains the same, but materials disappear. -->
 		<set name="icon" val="icon.pi_high_agathion_bracelet_i03" />
 		<set name="default_action" val="EQUIP" />
 		<set name="bodypart" val="lbracelet" />
@@ -954,7 +1291,7 @@
 		</skills>
 	</item>
 	<item id="96968" name="Aden Starter Kit" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.bm_starter_package_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -973,7 +1310,7 @@
 		</capsuled_items>
 	</item>
 	<item id="96969" name="Equipment Pack: Talisman - Lv. 40+" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.bm_talisman_package_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -994,7 +1331,7 @@
 		</capsuled_items>
 	</item>
 	<item id="96970" name="Jewel Box - Lv. 50+" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.bm_starter_package_jewell_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -1015,7 +1352,7 @@
 		</capsuled_items>
 	</item>
 	<item id="96971" name="Agathion Pack - Lv. 60+" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.bm_starter_package_agathion_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -1036,7 +1373,7 @@
 		</capsuled_items>
 	</item>
 	<item id="96972" name="Growth Support Box - Lv. 1+" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.bm_starter_package_boosting_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -1053,7 +1390,7 @@
 		</capsuled_items>
 	</item>
 	<item id="96973" name="Growth Support Box - Lv. 50+" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.bm_starter_package_boosting_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -1069,13 +1406,13 @@
 			<item id="3031" min="2000" max="2000" chance="100" /> <!-- Spirit Ore - Sealed -->
 			<item id="90907" min="100" max="100" chance="100" /> <!-- Soulshot Ticket - Sealed -->
 			<item id="94269" min="20" max="20" chance="100" /> <!-- Scroll: Boost Attack - Sealed -->
-			<item id="91712" min="20" max="20" chance="100" /> <!-- Sayha's Storm Lv. 3 - Sealed -->
+			<item id="91712" min="20" max="20" chance="100" /> <!-- Sayha's Storm - Sealed -->
 			<item id="93068" min="1" max="1" chance="100" /> <!-- Red Lantern - 1st Place - Sealed -->
 			<item id="96974" min="1" max="1" chance="100" /> <!-- Growth Support Box - Lv. 60+ - Sealed -->
 		</capsuled_items>
 	</item>
 	<item id="96974" name="Growth Support Box - Lv. 60+" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.bm_starter_package_boosting_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -1091,13 +1428,13 @@
 			<item id="3031" min="5000" max="5000" chance="100" /> <!-- Spirit Ore - Sealed -->
 			<item id="90907" min="200" max="200" chance="100" /> <!-- Soulshot Ticket - Sealed -->
 			<item id="94269" min="50" max="50" chance="100" /> <!-- Scroll: Boost Attack - Sealed -->
-			<item id="91712" min="50" max="50" chance="100" /> <!-- Sayha's Storm Lv. 3 - Sealed -->
+			<item id="91712" min="50" max="50" chance="100" /> <!-- Sayha's Storm - Sealed -->
 			<item id="93068" min="10" max="10" chance="100" /> <!-- Red Lantern - 1st Place - Sealed -->
 			<item id="96975" min="1" max="1" chance="100" /> <!-- Growth Support Box - Lv. 70+ - Sealed -->
 		</capsuled_items>
 	</item>
 	<item id="96975" name="Growth Support Box - Lv. 70+" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.bm_starter_package_boosting_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -1113,13 +1450,13 @@
 			<item id="3031" min="10000" max="10000" chance="100" /> <!-- Spirit Ore - Sealed -->
 			<item id="90907" min="500" max="500" chance="100" /> <!-- Soulshot Ticket - Sealed -->
 			<item id="94269" min="50" max="50" chance="100" /> <!-- Scroll: Boost Attack - Sealed -->
-			<item id="91712" min="50" max="50" chance="100" /> <!-- Sayha's Storm Lv. 3 - Sealed -->
+			<item id="91712" min="50" max="50" chance="100" /> <!-- Sayha's Storm - Sealed -->
 			<item id="93068" min="40" max="40" chance="100" /> <!-- Red Lantern - 1st Place - Sealed -->
 			<item id="96976" min="1" max="1" chance="100" /> <!-- Growth Support Box - Lv. 76+ - Sealed -->
 		</capsuled_items>
 	</item>
 	<item id="96976" name="Growth Support Box - Lv. 76+" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.bm_starter_package_boosting_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -1135,13 +1472,13 @@
 			<item id="3031" min="10000" max="10000" chance="100" /> <!-- Spirit Ore - Sealed -->
 			<item id="90907" min="1000" max="1000" chance="100" /> <!-- Soulshot Ticket - Sealed -->
 			<item id="94269" min="100" max="100" chance="100" /> <!-- Scroll: Boost Attack - Sealed -->
-			<item id="91712" min="100" max="100" chance="100" /> <!-- Sayha's Storm Lv. 3 - Sealed -->
+			<item id="91712" min="100" max="100" chance="100" /> <!-- Sayha's Storm - Sealed -->
 			<item id="93068" min="80" max="80" chance="100" /> <!-- Red Lantern - 1st Place - Sealed -->
 			<item id="96977" min="1" max="1" chance="100" /> <!-- Growth Support Box - Lv. 80+ - Sealed -->
 		</capsuled_items>
 	</item>
 	<item id="96977" name="Growth Support Box - Lv. 80+" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.bm_starter_package_boosting_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -1157,7 +1494,7 @@
 			<item id="3031" min="10000" max="10000" chance="100" /> <!-- Spirit Ore - Sealed -->
 			<item id="90907" min="1000" max="1000" chance="100" /> <!-- Soulshot Ticket - Sealed -->
 			<item id="94269" min="200" max="200" chance="100" /> <!-- Scroll: Boost Attack - Sealed -->
-			<item id="91712" min="200" max="200" chance="100" /> <!-- Sayha's Storm Lv. 3 - Sealed -->
+			<item id="91712" min="200" max="200" chance="100" /> <!-- Sayha's Storm - Sealed -->
 			<item id="93068" min="150" max="150" chance="100" /> <!-- Red Lantern - 1st Place - Sealed -->
 		</capsuled_items>
 		
@@ -1245,7 +1582,7 @@
 		</capsuled_items>
 	</item>
 	<item id="96980" name="Piggie's Enchant Scroll Pack Lv. 1" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.etc_piggy_bank" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -1267,7 +1604,7 @@
 		</capsuled_items>
 	</item>
 	<item id="96981" name="Piggie's Enchant Scroll Pack Lv. 2" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.etc_piggy_bank" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -1303,7 +1640,7 @@
 		</capsuled_items>
 	</item>
 	<item id="96983" name="Package: Agathion Bracelet Lv. 3" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- <font color=bbaa88><Compound></font>. Materials: Agathion Bracelets and packages of the same level. In case of failure, the current level remains the same, but materials disappear. Double-click to obtain various items. -->
 		<set name="icon" val="icon.high_agathion_bracelet_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -1318,7 +1655,7 @@
 		</capsuled_items>
 	</item>
 	<item id="96984" name="Package: Talisman Bracelet Lv. 3" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- <font color=bbaa88><Compound></font>. Materials: Talisman Bracelets and packages of the same level. In case of failure, the current level remains the same, but materials disappear. Double-click to obtain various items. -->
 		<set name="icon" val="icon.dimension_bracelet_i02" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -1333,7 +1670,7 @@
 		</capsuled_items>
 	</item>
 	<item id="96985" name="Package: Brooch Lv. 3" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- <font color=bbaa88><Compound></font>. Materials: Brooches and packages of the same level. In case of failure, the current level remains the same, but materials disappear. Double-click to obtain various items. -->
 		<set name="icon" val="icon.etc_bm_brooch_lavianrose_i02" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -1348,7 +1685,7 @@
 		</capsuled_items>
 	</item>
 	<item id="96986" name="Aden Adventure Reward (Time-limited)" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.etc_pi_gift_box_i01" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -1365,7 +1702,7 @@
 		</capsuled_items>
 	</item>
 	<item id="96987" name="Mini-game's Treasure Chest - Defeat (Time-limited)" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.bm_elmoaden_box" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -1385,7 +1722,7 @@
 		</capsuled_items>
 	</item>
 	<item id="96988" name="Mini-game's Treasure Chest - Victory (Time-limited)" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.bm_elmoaden_silver_box" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -1406,7 +1743,7 @@
 		</capsuled_items>
 	</item>
 	<item id="96989" name="Mini-game's Treasure Chest - Draw (Time-limited)" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.bm_elmoaden_gold_box" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -1428,7 +1765,7 @@
 		</capsuled_items>
 	</item>
 	<item id="96990" name="Artisan Black's Weapon Pack - A-grade" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.etc_treasure_box_i11" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -1481,7 +1818,7 @@
 		</capsuled_items>
 	</item>
 	<item id="96991" name="Artisan Black's Armor Pack - A-grade" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.etc_treasure_box_i11" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -1550,7 +1887,7 @@
 		</capsuled_items>
 	</item>
 	<item id="96992" name="Artisan Black's Weapon Pack - B-grade" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.etc_treasure_box_i09" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -1573,7 +1910,7 @@
 		</capsuled_items>
 	</item>
 	<item id="96993" name="Artisan Black's Armor Pack - B-grade" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.etc_treasure_box_i09" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -1598,7 +1935,7 @@
 		</capsuled_items>
 	</item>
 	<item id="96994" name="Artisan Black's Weapon Pack - A-grade" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.etc_treasure_box_i11" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -1651,7 +1988,7 @@
 		</capsuled_items>
 	</item>
 	<item id="96995" name="Artisan Black's Armor Pack - A-grade" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.etc_treasure_box_i11" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -1720,7 +2057,7 @@
 		</capsuled_items>
 	</item>
 	<item id="96996" name="Artisan Black's Weapon Pack - B-grade" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.etc_treasure_box_i09" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -1743,7 +2080,7 @@
 		</capsuled_items>
 	</item>
 	<item id="96997" name="Artisan Black's Armor Pack - B-grade" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.etc_treasure_box_i09" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -1768,7 +2105,7 @@
 		</capsuled_items>
 	</item>
 	<item id="96998" name="Artisan Black's Weapon Pack - A-grade" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.etc_treasure_box_i11" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -1821,7 +2158,7 @@
 		</capsuled_items>
 	</item>
 	<item id="96999" name="Artisan Black's Armor Pack - A-grade" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.etc_treasure_box_i11" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />

@@ -33,7 +33,7 @@
 			<skill id="4045" level="1" /> <!-- Full Magic Attack Resistance -->
 		</skillList>
 	</npc>
-	<npc id="4309" level="70" type="Folk" name="Small Angel Cat" title="Herald of Love">
+	<npc id="4309" level="70" type="Folk" name="Little Angel Cat" title="Herald of Love">
 		<!-- AUTO GENERATED NPC TODO: FIX IT -->
 		<sex>FEMALE</sex>
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">

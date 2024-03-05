@@ -118,6 +118,7 @@
 		<!-- Received Skill Critical Damage -300 -->
 	</option>
 	<option id="93239" name="P. Def. +60">
+		<!-- P. Def. +60 -->
 		<effects>
 			<effect name="PhysicalDefence">
 				<amount>60</amount>
@@ -126,6 +127,7 @@
 		</effects>
 	</option>
 	<option id="93240" name="P. Def. +64">
+		<!-- P. Def. +64 -->
 		<effects>
 			<effect name="PhysicalDefence">
 				<amount>64</amount>
@@ -134,6 +136,7 @@
 		</effects>
 	</option>
 	<option id="93241" name="P. Def. +68">
+		<!-- P. Def. +68 -->
 		<effects>
 			<effect name="PhysicalDefence">
 				<amount>68</amount>
@@ -142,6 +145,7 @@
 		</effects>
 	</option>
 	<option id="93242" name="P. Def. +72">
+		<!-- P. Def. +72 -->
 		<effects>
 			<effect name="PhysicalDefence">
 				<amount>72</amount>
@@ -150,6 +154,7 @@
 		</effects>
 	</option>
 	<option id="93243" name="P. Def. +76">
+		<!-- P. Def. +76 -->
 		<effects>
 			<effect name="PhysicalDefence">
 				<amount>76</amount>
@@ -158,6 +163,7 @@
 		</effects>
 	</option>
 	<option id="93244" name="P. Def. +80">
+		<!-- P. Def. +80 -->
 		<effects>
 			<effect name="PhysicalDefence">
 				<amount>80</amount>
@@ -166,6 +172,7 @@
 		</effects>
 	</option>
 	<option id="93245" name="P. Def. +85">
+		<!-- P. Def. +85 -->
 		<effects>
 			<effect name="PhysicalDefence">
 				<amount>85</amount>
@@ -174,6 +181,7 @@
 		</effects>
 	</option>
 	<option id="93246" name="P. Def. +90">
+		<!-- P. Def. +90 -->
 		<effects>
 			<effect name="PhysicalDefence">
 				<amount>90</amount>
@@ -182,6 +190,7 @@
 		</effects>
 	</option>
 	<option id="93247" name="P. Def. +95">
+		<!-- P. Def. +95 -->
 		<effects>
 			<effect name="PhysicalDefence">
 				<amount>95</amount>
@@ -190,6 +199,7 @@
 		</effects>
 	</option>
 	<option id="93248" name="P. Def. +100">
+		<!-- P. Def. +100 -->
 		<effects>
 			<effect name="PhysicalDefence">
 				<amount>100</amount>
@@ -198,6 +208,7 @@
 		</effects>
 	</option>
 	<option id="93249" name="P. Def. +106">
+		<!-- P. Def. +106 -->
 		<effects>
 			<effect name="PhysicalDefence">
 				<amount>106</amount>
@@ -206,6 +217,7 @@
 		</effects>
 	</option>
 	<option id="93250" name="P. Def. +112">
+		<!-- P. Def. +112 -->
 		<effects>
 			<effect name="PhysicalDefence">
 				<amount>112</amount>
@@ -214,6 +226,7 @@
 		</effects>
 	</option>
 	<option id="93251" name="P. Def. +118">
+		<!-- P. Def. +118 -->
 		<effects>
 			<effect name="PhysicalDefence">
 				<amount>118</amount>
@@ -222,6 +235,7 @@
 		</effects>
 	</option>
 	<option id="93252" name="P. Def. +120">
+		<!-- P. Def. +120 -->
 		<effects>
 			<effect name="PhysicalDefence">
 				<amount>120</amount>
@@ -230,6 +244,7 @@
 		</effects>
 	</option>
 	<option id="93253" name="P. Def. +130">
+		<!-- P. Def. +130 -->
 		<effects>
 			<effect name="PhysicalDefence">
 				<amount>130</amount>
@@ -238,6 +253,7 @@
 		</effects>
 	</option>
 	<option id="93254" name="P. Def. +141">
+		<!-- P. Def. +141 -->
 		<effects>
 			<effect name="PhysicalDefence">
 				<amount>141</amount>
@@ -246,6 +262,7 @@
 		</effects>
 	</option>
 	<option id="93255" name="P. Def. +153">
+		<!-- P. Def. +153 -->
 		<effects>
 			<effect name="PhysicalDefence">
 				<amount>153</amount>
@@ -254,6 +271,7 @@
 		</effects>
 	</option>
 	<option id="93256" name="P. Def. +166">
+		<!-- P. Def. +166 -->
 		<effects>
 			<effect name="PhysicalDefence">
 				<amount>166</amount>
@@ -262,6 +280,7 @@
 		</effects>
 	</option>
 	<option id="93257" name="P. Def. +180">
+		<!-- P. Def. +180 -->
 		<effects>
 			<effect name="PhysicalDefence">
 				<amount>180</amount>
@@ -270,6 +289,7 @@
 		</effects>
 	</option>
 	<option id="93258" name="P. Def. +200">
+		<!-- P. Def. +200 -->
 		<effects>
 			<effect name="PhysicalDefence">
 				<amount>200</amount>
@@ -278,6 +298,7 @@
 		</effects>
 	</option>
 	<option id="93259" name="P. Def. +60">
+		<!-- P. Def. +60 -->
 		<effects>
 			<effect name="PhysicalDefence">
 				<amount>60</amount>
@@ -286,6 +307,7 @@
 		</effects>
 	</option>
 	<option id="93260" name="P. Def. +64">
+		<!-- P. Def. +64 -->
 		<effects>
 			<effect name="PhysicalDefence">
 				<amount>64</amount>
@@ -294,6 +316,7 @@
 		</effects>
 	</option>
 	<option id="93261" name="P. Def. +68">
+		<!-- P. Def. +68 -->
 		<effects>
 			<effect name="PhysicalDefence">
 				<amount>68</amount>
@@ -302,6 +325,7 @@
 		</effects>
 	</option>
 	<option id="93262" name="P. Def. +72">
+		<!-- P. Def. +72 -->
 		<effects>
 			<effect name="PhysicalDefence">
 				<amount>72</amount>
@@ -310,6 +334,7 @@
 		</effects>
 	</option>
 	<option id="93263" name="P. Def. +76">
+		<!-- P. Def. +76 -->
 		<effects>
 			<effect name="PhysicalDefence">
 				<amount>76</amount>
@@ -318,6 +343,7 @@
 		</effects>
 	</option>
 	<option id="93264" name="P. Def. +80">
+		<!-- P. Def. +80 -->
 		<effects>
 			<effect name="PhysicalDefence">
 				<amount>80</amount>
@@ -326,6 +352,7 @@
 		</effects>
 	</option>
 	<option id="93265" name="P. Def. +85">
+		<!-- P. Def. +85 -->
 		<effects>
 			<effect name="PhysicalDefence">
 				<amount>85</amount>
@@ -334,6 +361,7 @@
 		</effects>
 	</option>
 	<option id="93266" name="P. Def. +90">
+		<!-- P. Def. +90 -->
 		<effects>
 			<effect name="PhysicalDefence">
 				<amount>90</amount>
@@ -342,6 +370,7 @@
 		</effects>
 	</option>
 	<option id="93267" name="P. Def. +95">
+		<!-- P. Def. +95 -->
 		<effects>
 			<effect name="PhysicalDefence">
 				<amount>95</amount>
@@ -350,6 +379,7 @@
 		</effects>
 	</option>
 	<option id="93268" name="P. Def. +100">
+		<!-- P. Def. +100 -->
 		<effects>
 			<effect name="PhysicalDefence">
 				<amount>100</amount>
@@ -358,6 +388,7 @@
 		</effects>
 	</option>
 	<option id="93269" name="P. Def. +106">
+		<!-- P. Def. +106 -->
 		<effects>
 			<effect name="PhysicalDefence">
 				<amount>106</amount>
@@ -366,6 +397,7 @@
 		</effects>
 	</option>
 	<option id="93270" name="P. Def. +112">
+		<!-- P. Def. +112 -->
 		<effects>
 			<effect name="PhysicalDefence">
 				<amount>112</amount>
@@ -374,6 +406,7 @@
 		</effects>
 	</option>
 	<option id="93271" name="P. Def. +118">
+		<!-- P. Def. +118 -->
 		<effects>
 			<effect name="PhysicalDefence">
 				<amount>118</amount>
@@ -382,6 +415,7 @@
 		</effects>
 	</option>
 	<option id="93272" name="P. Def. +120">
+		<!-- P. Def. +120 -->
 		<effects>
 			<effect name="PhysicalDefence">
 				<amount>120</amount>
@@ -390,6 +424,7 @@
 		</effects>
 	</option>
 	<option id="93273" name="P. Def. +130">
+		<!-- P. Def. +130 -->
 		<effects>
 			<effect name="PhysicalDefence">
 				<amount>130</amount>
@@ -398,6 +433,7 @@
 		</effects>
 	</option>
 	<option id="93274" name="P. Def. +141">
+		<!-- P. Def. +141 -->
 		<effects>
 			<effect name="PhysicalDefence">
 				<amount>141</amount>
@@ -406,6 +442,7 @@
 		</effects>
 	</option>
 	<option id="93275" name="P. Def. +153">
+		<!-- P. Def. +153 -->
 		<effects>
 			<effect name="PhysicalDefence">
 				<amount>153</amount>
@@ -414,6 +451,7 @@
 		</effects>
 	</option>
 	<option id="93276" name="P. Def. +166">
+		<!-- P. Def. +166 -->
 		<effects>
 			<effect name="PhysicalDefence">
 				<amount>166</amount>
@@ -422,6 +460,7 @@
 		</effects>
 	</option>
 	<option id="93277" name="P. Def. +180">
+		<!-- P. Def. +180 -->
 		<effects>
 			<effect name="PhysicalDefence">
 				<amount>180</amount>
@@ -430,6 +469,7 @@
 		</effects>
 	</option>
 	<option id="93278" name="P. Def. +200">
+		<!-- P. Def. +200 -->
 		<effects>
 			<effect name="PhysicalDefence">
 				<amount>200</amount>
@@ -438,6 +478,7 @@
 		</effects>
 	</option>
 	<option id="93279" name="P. Def. +60">
+		<!-- P. Def. +60 -->
 		<effects>
 			<effect name="PhysicalDefence">
 				<amount>60</amount>
@@ -446,6 +487,7 @@
 		</effects>
 	</option>
 	<option id="93280" name="P. Def. +64">
+		<!-- P. Def. +64 -->
 		<effects>
 			<effect name="PhysicalDefence">
 				<amount>64</amount>
@@ -454,6 +496,7 @@
 		</effects>
 	</option>
 	<option id="93281" name="P. Def. +68">
+		<!-- P. Def. +68 -->
 		<effects>
 			<effect name="PhysicalDefence">
 				<amount>68</amount>
@@ -462,6 +505,7 @@
 		</effects>
 	</option>
 	<option id="93282" name="P. Def. +72">
+		<!-- P. Def. +72 -->
 		<effects>
 			<effect name="PhysicalDefence">
 				<amount>72</amount>
@@ -470,6 +514,7 @@
 		</effects>
 	</option>
 	<option id="93283" name="P. Def. +76">
+		<!-- P. Def. +76 -->
 		<effects>
 			<effect name="PhysicalDefence">
 				<amount>76</amount>
@@ -478,6 +523,7 @@
 		</effects>
 	</option>
 	<option id="93284" name="P. Def. +80">
+		<!-- P. Def. +80 -->
 		<effects>
 			<effect name="PhysicalDefence">
 				<amount>80</amount>
@@ -486,6 +532,7 @@
 		</effects>
 	</option>
 	<option id="93285" name="P. Def. +85">
+		<!-- P. Def. +85 -->
 		<effects>
 			<effect name="PhysicalDefence">
 				<amount>85</amount>
@@ -494,6 +541,7 @@
 		</effects>
 	</option>
 	<option id="93286" name="P. Def. +90">
+		<!-- P. Def. +90 -->
 		<effects>
 			<effect name="PhysicalDefence">
 				<amount>90</amount>
@@ -502,6 +550,7 @@
 		</effects>
 	</option>
 	<option id="93287" name="P. Def. +95">
+		<!-- P. Def. +95 -->
 		<effects>
 			<effect name="PhysicalDefence">
 				<amount>95</amount>
@@ -510,6 +559,7 @@
 		</effects>
 	</option>
 	<option id="93288" name="P. Def. +100">
+		<!-- P. Def. +100 -->
 		<effects>
 			<effect name="PhysicalDefence">
 				<amount>100</amount>
@@ -518,6 +568,7 @@
 		</effects>
 	</option>
 	<option id="93289" name="P. Def. +106">
+		<!-- P. Def. +106 -->
 		<effects>
 			<effect name="PhysicalDefence">
 				<amount>106</amount>
@@ -526,6 +577,7 @@
 		</effects>
 	</option>
 	<option id="93290" name="P. Def. +112">
+		<!-- P. Def. +112 -->
 		<effects>
 			<effect name="PhysicalDefence">
 				<amount>112</amount>
@@ -534,6 +586,7 @@
 		</effects>
 	</option>
 	<option id="93291" name="P. Def. +118">
+		<!-- P. Def. +118 -->
 		<effects>
 			<effect name="PhysicalDefence">
 				<amount>118</amount>
@@ -542,6 +595,7 @@
 		</effects>
 	</option>
 	<option id="93292" name="P. Def. +120">
+		<!-- P. Def. +120 -->
 		<effects>
 			<effect name="PhysicalDefence">
 				<amount>120</amount>
@@ -550,6 +604,7 @@
 		</effects>
 	</option>
 	<option id="93293" name="P. Def. +130">
+		<!-- P. Def. +130 -->
 		<effects>
 			<effect name="PhysicalDefence">
 				<amount>130</amount>
@@ -558,6 +613,7 @@
 		</effects>
 	</option>
 	<option id="93294" name="P. Def. +141">
+		<!-- P. Def. +141 -->
 		<effects>
 			<effect name="PhysicalDefence">
 				<amount>141</amount>
@@ -566,6 +622,7 @@
 		</effects>
 	</option>
 	<option id="93295" name="P. Def. +153">
+		<!-- P. Def. +153 -->
 		<effects>
 			<effect name="PhysicalDefence">
 				<amount>153</amount>
@@ -574,6 +631,7 @@
 		</effects>
 	</option>
 	<option id="93296" name="P. Def. +166">
+		<!-- P. Def. +166 -->
 		<effects>
 			<effect name="PhysicalDefence">
 				<amount>166</amount>
@@ -582,6 +640,7 @@
 		</effects>
 	</option>
 	<option id="93297" name="P. Def. +180">
+		<!-- P. Def. +180 -->
 		<effects>
 			<effect name="PhysicalDefence">
 				<amount>180</amount>
@@ -590,6 +649,7 @@
 		</effects>
 	</option>
 	<option id="93298" name="P. Def. +200">
+		<!-- P. Def. +200 -->
 		<effects>
 			<effect name="PhysicalDefence">
 				<amount>200</amount>
@@ -598,6 +658,7 @@
 		</effects>
 	</option>
 	<option id="93299" name="M. Def. +60">
+		<!-- M. Def. +60 -->
 		<effects>
 			<effect name="MagicalDefence">
 				<amount>60</amount>

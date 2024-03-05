@@ -126,4 +126,13 @@
 	<class classId="218" name="Rider" parentClassId="217" />
 	<class classId="219" name="Dragoon" parentClassId="218" />
 	<class classId="220" name="Vanguard Rider" parentClassId="219" />
+	<!-- Assassin -->
+	<class classId="221" name="Assassin" />
+	<class classId="222" name="Assassin" parentClassId="221" />
+	<class classId="223" name="Assassin" parentClassId="222" />
+	<class classId="224" name="Assassin" parentClassId="223" />
+	<class classId="225" name="Assassin" />
+	<class classId="226" name="Assassin" parentClassId="225" />
+	<class classId="227" name="Assassin" parentClassId="226" />
+	<class classId="228" name="Assassin" parentClassId="227" />
 </list>

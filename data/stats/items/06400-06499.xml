@@ -92,7 +92,7 @@
 		</skills>
 	</item>
 	<item id="6408" name="Formal Wear" type="Armor">
-		<!-- A tuxedo for male characters, and a wedding dress for female characters. -->
+		<!-- A wedding attire that looks like a tuxedo for male characters and a wedding dress for female characters. -->
 		<set name="icon" val="icon.armor_t2000_ul_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="armor_type" val="HEAVY" />

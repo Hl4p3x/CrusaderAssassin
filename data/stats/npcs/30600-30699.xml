@@ -613,7 +613,7 @@
 			<height normal="21.5" />
 		</collision>
 	</npc>
-	<npc id="30621" level="70" type="Folk" name="Nikola" title="Maestro">
+	<npc id="30621" level="70" type="Folk" name="Nikola" title="Master">
 		<parameters>
 			<param name="MoveAroundSocial" value="0" />
 			<param name="MoveAroundSocial1" value="85" />
@@ -845,7 +845,7 @@
 			<height normal="23" />
 		</collision>
 	</npc>
-	<npc id="30627" level="70" type="Folk" name="Tree">
+	<npc id="30627" level="70" type="Folk" name="Wood">
 		<parameters>
 			<param name="MoveAroundSocial" value="0" />
 			<param name="MoveAroundSocial1" value="0" />
@@ -2301,7 +2301,7 @@
 			<height normal="23.5" />
 		</collision>
 	</npc>
-	<npc id="30665" level="70" type="Folk" name="Kristina" title="Saint">
+	<npc id="30665" level="70" type="Folk" name="Kristina" title="Saintess">
 		<parameters>
 			<param name="MoveAroundSocial" value="0" />
 			<param name="MoveAroundSocial1" value="120" />
@@ -2529,7 +2529,7 @@
 			<height normal="18" />
 		</collision>
 	</npc>
-	<npc id="30671" level="70" type="Folk" name="Croto" title="Chief">
+	<npc id="30671" level="70" type="Folk" name="Croto" title="Leader">
 		<parameters>
 			<param name="MoveAroundSocial" value="0" />
 			<param name="MoveAroundSocial1" value="140" />
@@ -2567,7 +2567,7 @@
 			<height normal="27" />
 		</collision>
 	</npc>
-	<npc id="30672" level="70" type="Folk" name="Dubabah" title="Jailer">
+	<npc id="30672" level="70" type="Folk" name="Dubabah" title="Warder">
 		<parameters>
 			<param name="MoveAroundSocial" value="0" />
 			<param name="MoveAroundSocial1" value="140" />

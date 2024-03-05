@@ -12,7 +12,7 @@
 		<set name="is_sellable" val="false" />
 	</item>
 	<item id="72305" name="Sparkling Accessory Pack (Time-limited)" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="BranchSys3.icon.g_cash_fortuna_box_r" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -48,7 +48,7 @@
 		<set name="is_freightable" val="true" />
 	</item>
 	<item id="72315" name="Olympiad Treasure Chest" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.etc_treasure_box_i11" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -72,7 +72,7 @@
 		</capsuled_items>
 	</item>
 	<item id="72316" name="Kit: Olympiad Survival (Time-limited)" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.present_of_destination_event" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -92,7 +92,7 @@
 		</capsuled_items>
 	</item>
 	<item id="72317" name="Kit: Pet Survival" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.bm_pirate_battle_box" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -149,7 +149,7 @@
 		<set name="is_sellable" val="false" />
 	</item>
 	<item id="72337" name="Package: Queen Ant Doll Lv. 3 (Time-limited)" additionalName="7-day" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.bm_queen_ant_doll_30d" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -165,7 +165,7 @@
 		</capsuled_items>
 	</item>
 	<item id="72338" name="Package: Baium Doll Lv. 3 (Time-limited)" additionalName="7-day" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.bm_baium_doll_30d" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -181,7 +181,7 @@
 		</capsuled_items>
 	</item>
 	<item id="72339" name="Package: Orfen Doll Lv. 3 (Time-limited)" additionalName="7-day" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.bm_orfen_doll_30d" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -262,7 +262,7 @@
 		<set name="is_sellable" val="false" />
 	</item>
 	<item id="72346" name="Aden's 2nd Anniversary Pack (Time-limited)" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.bm_pirate_battle_box" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -284,7 +284,7 @@
 		</capsuled_items>
 	</item>
 	<item id="72347" name="Music Spirit Kit (Time-limited)" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="BranchSys.icon.br_ghost_magicalbox_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -304,7 +304,7 @@
 			<item id="94382" min="50" max="50" chance="12.5" /> <!-- Special HP Recovery Potion (Time-limited) - Sealed -->
 			<item id="94445" min="3" max="3" chance="12.5" /> <!-- Augustina's Coupon (Time-limited) - Sealed -->
 			<item id="91838" min="2" max="2" chance="12.5" /> <!-- My Teleport Scroll (Time-limited) - Sealed -->
-			<item id="93073" min="3" max="3" chance="12.5" /> <!-- Sayha's Storm Lv. 3 (Time-limited) - Sealed -->
+			<item id="93073" min="3" max="3" chance="12.5" /> <!-- Sayha's Storm (Time-limited) - Sealed -->
 		</capsuled_items>
 	</item>
 	<item id="72348" name="L2M Launch Commemoration Coin (Time-limited)" additionalName="Sealed" type="EtcItem">
@@ -320,7 +320,7 @@
 		<set name="is_stackable" val="true" />
 	</item>
 	<item id="72349" name="L2M Gift Box (Time-limited)" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="BranchIcon.icon.etc_g_bm_godspirit_box" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -339,7 +339,7 @@
 		</capsuled_items>
 	</item>
 	<item id="72350" name="Black Friday Kit (Time-limited)" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.present_of_destination_event" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -356,7 +356,7 @@
 			<item id="90312" min="1" max="1" chance="100" /> <!-- Brooch Lv. 2 -->
 			<item id="94732" min="5" max="5" chance="100" /> <!-- Agathion Spirit Exchange Coupon - Sealed -->
 			<item id="91641" min="200" max="200" chance="100" /> <!-- Sayha's Blessing - Sealed -->
-			<item id="91712" min="200" max="200" chance="100" /> <!-- Sayha's Storm Lv. 3 - Sealed -->
+			<item id="91712" min="200" max="200" chance="100" /> <!-- Sayha's Storm - Sealed -->
 			<item id="91690" min="500" max="500" chance="100" /> <!-- Special HP Recovery Potion - Sealed -->
 		</capsuled_items>
 	</item>
@@ -371,7 +371,7 @@
 		<set name="is_sellable" val="false" />
 	</item>
 	<item id="72352" name="2022 Christmas Gift (Time-limited)" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.ev_10th_present2" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -393,7 +393,7 @@
 		</capsuled_items>
 	</item>
 	<item id="72353" name="Christmas Gift Kit I (Time-limited)" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.event_high_oriental_park_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -410,7 +410,7 @@
 		</capsuled_items>
 	</item>
 	<item id="72354" name="Christmas Gift Kit II (Time-limited)" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.event_high_oriental_park_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -424,14 +424,14 @@
 			<item id="91663" min="19000" max="19000" chance="100" /> <!-- L-Coin -->
 			<item id="94269" min="100" max="100" chance="100" /> <!-- Scroll: Boost Attack - Sealed -->
 			<item id="94271" min="100" max="100" chance="100" /> <!-- Scroll: Boost Defense - Sealed -->
-			<item id="91712" min="50" max="50" chance="100" /> <!-- Sayha's Storm Lv. 3 - Sealed -->
+			<item id="91712" min="50" max="50" chance="100" /> <!-- Sayha's Storm - Sealed -->
 			<item id="94732" min="15" max="15" chance="100" /> <!-- Agathion Spirit Exchange Coupon - Sealed -->
 			<item id="93977" min="12" max="12" chance="100" /> <!-- Scroll: Enchant A-grade Armor - Sealed -->
 			<item id="93976" min="4" max="4" chance="100" /> <!-- Scroll: Enchant A-grade Weapon - Sealed -->
 		</capsuled_items>
 	</item>
 	<item id="72355" name="Christmas Gift Kit III (Time-limited)" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.event_high_oriental_park_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -539,7 +539,7 @@
 			<item id="95346" min="1" max="1" chance="5.263158" /> <!-- Spellbook: Meteor -->
 			<item id="95347" min="1" max="1" chance="5.263158" /> <!-- Spellbook: Rolling Dice -->
 			<item id="95354" min="1" max="1" chance="5.263158" /> <!-- Spellbook: Dragon Strike -->
-			<item id="95861" min="1" max="1" chance="5.263158" /> <!-- Spellbook: Mechanical Hero -->
+			<item id="95861" min="1" max="1" chance="5.263158" /> <!-- Spellbook: Prime Master Transformation -->
 			<item id="96289" min="1" max="1" chance="5.263158" /> <!-- Spellbook: Phoenix Shield -->
 			<item id="96291" min="1" max="1" chance="5.263158" /> <!-- Spellbook: Hell -->
 			<item id="96293" min="1" max="1" chance="5.263158" /> <!-- Spellbook: Shelter -->
@@ -662,7 +662,7 @@
 			<item id="94269" min="5" max="5" chance="1.587302" /> <!-- Scroll: Boost Attack - Sealed -->
 			<item id="94271" min="5" max="5" chance="1.587302" /> <!-- Scroll: Boost Defense - Sealed -->
 			<item id="49674" min="5" max="5" chance="1.587302" /> <!-- XP Growth Scroll - Sealed -->
-			<item id="91712" min="5" max="5" chance="1.587302" /> <!-- Sayha's Storm Lv. 3 - Sealed -->
+			<item id="91712" min="5" max="5" chance="1.587302" /> <!-- Sayha's Storm - Sealed -->
 			<item id="91641" min="5" max="5" chance="1.587302" /> <!-- Sayha's Blessing - Sealed -->
 			<item id="95783" min="1" max="1" chance="1.587302" /> <!-- Aden's Soul Crystal Lv. 1 - Weapon -->
 			<item id="90405" min="3" max="3" chance="1.587302" /> <!-- My Teleport Scroll - Sealed -->
@@ -689,7 +689,7 @@
 			<item id="94271" min="100" max="100" chance="100" /> <!-- Scroll: Boost Defense - Sealed -->
 		</capsuled_items>
 	</item>
-	<item id="72368" name="Eva’s Treasure Chest (Time-limited)" additionalName="Sealed" type="EtcItem">
+	<item id="72368" name="Eva's Treasure Chest (Time-limited)" additionalName="Sealed" type="EtcItem">
 		<!-- Double-click to obtain a random item from the list or one of various items. -->
 		<set name="icon" val="icon.etc_bm_jewelbox_shhadai" />
 		<set name="default_action" val="PEEL" />
@@ -709,7 +709,7 @@
 			<item id="94861" min="1" max="1" chance="1.724138" /> <!-- Spellbook: Tranquility -->
 			<item id="94668" min="1" max="1" chance="1.724138" /> <!-- Spellbook: Pa'agrio's Touch -->
 			<item id="95347" min="1" max="1" chance="1.724138" /> <!-- Spellbook: Rolling Dice -->
-			<item id="95861" min="1" max="1" chance="1.724138" /> <!-- Spellbook: Mechanical Hero -->
+			<item id="95861" min="1" max="1" chance="1.724138" /> <!-- Spellbook: Prime Master Transformation -->
 			<item id="94508" min="1" max="1" chance="1.724138" /> <!-- Spellbook: Cacophony of War -->
 			<item id="94862" min="1" max="1" chance="1.724138" /> <!-- Spellbook: Exclusion -->
 			<item id="94863" min="1" max="1" chance="1.724138" /> <!-- Spellbook: Dark Disruption -->
@@ -751,7 +751,7 @@
 			<item id="93976" min="1" max="1" chance="1.724138" /> <!-- Scroll: Enchant A-grade Weapon - Sealed -->
 			<item id="93977" min="1" max="1" chance="1.724138" /> <!-- Scroll: Enchant A-grade Armor - Sealed -->
 			<item id="91641" min="5" max="5" chance="1.724138" /> <!-- Sayha's Blessing - Sealed -->
-			<item id="91712" min="2" max="2" chance="1.724138" /> <!-- Sayha's Storm Lv. 3 - Sealed -->
+			<item id="91712" min="2" max="2" chance="1.724138" /> <!-- Sayha's Storm - Sealed -->
 			<item id="94269" min="2" max="2" chance="1.724138" /> <!-- Scroll: Boost Attack - Sealed -->
 			<item id="94271" min="2" max="2" chance="1.724138" /> <!-- Scroll: Boost Defense - Sealed -->
 			<item id="91690" min="50" max="50" chance="1.724138" /> <!-- Special HP Recovery Potion - Sealed -->
@@ -764,7 +764,7 @@
 		</capsuled_items>
 	</item>
 	<item id="72369" name="Package: Eva's Coupon (1,000 pcs.) (Time-limited)" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.bm_gold_lure_box" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -790,7 +790,7 @@
 		<set name="is_stackable" val="true" />
 	</item>
 	<item id="72371" name="Vanguard Support Pack (Time-limited)" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.event_hero_treasure_box_silver" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -967,7 +967,7 @@
 			<item id="94861" min="1" max="1" chance="1.612903" /> <!-- Spellbook: Tranquility -->
 			<item id="94668" min="1" max="1" chance="1.612903" /> <!-- Spellbook: Pa'agrio's Touch -->
 			<item id="95347" min="1" max="1" chance="1.612903" /> <!-- Spellbook: Rolling Dice -->
-			<item id="95861" min="1" max="1" chance="1.612903" /> <!-- Spellbook: Mechanical Hero -->
+			<item id="95861" min="1" max="1" chance="1.612903" /> <!-- Spellbook: Prime Master Transformation -->
 			<item id="94508" min="1" max="1" chance="1.612903" /> <!-- Spellbook: Cacophony of War -->
 			<item id="94862" min="1" max="1" chance="1.612903" /> <!-- Spellbook: Exclusion -->
 			<item id="94863" min="1" max="1" chance="1.612903" /> <!-- Spellbook: Dark Disruption -->
@@ -1026,7 +1026,7 @@
 		</capsuled_items>
 	</item>
 	<item id="72377" name="Package: Aden Scroll (1000 pcs.) (Time-limited)" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.bm_challenger_scroll" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -1051,7 +1051,7 @@
 		<set name="is_sellable" val="false" />
 	</item>
 	<item id="72379" name="Alligator Island's Blessing Pack" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.etc_treasure_box_i06" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -1077,7 +1077,7 @@
 		</capsuled_items>
 	</item>
 	<item id="72380" name="Anniversary Kit (Time-limited)" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.bm_pirate_battle_box" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -1097,7 +1097,7 @@
 		</capsuled_items>
 	</item>
 	<item id="72381" name="Festival's Gift Box (Time-limited)" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="BranchSys.br_gold_box_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -1114,7 +1114,7 @@
 			<item id="94498" min="1" max="1" chance="1.612903" /> <!-- Spellbook: Titan Champion -->
 			<item id="95354" min="1" max="1" chance="1.612903" /> <!-- Spellbook: Dragon Strike -->
 			<item id="95347" min="1" max="1" chance="1.612903" /> <!-- Spellbook: Rolling Dice -->
-			<item id="95861" min="1" max="1" chance="1.612903" /> <!-- Spellbook: Mechanical Hero -->
+			<item id="95861" min="1" max="1" chance="1.612903" /> <!-- Spellbook: Prime Master Transformation -->
 			<item id="95346" min="1" max="1" chance="1.612903" /> <!-- Spellbook: Meteor -->
 			<item id="94508" min="1" max="1" chance="1.612903" /> <!-- Spellbook: Cacophony of War -->
 			<item id="94862" min="1" max="1" chance="1.612903" /> <!-- Spellbook: Exclusion -->
@@ -1217,7 +1217,7 @@
 		</capsuled_items>
 	</item>
 	<item id="72385" name="Kit: Giran Seals and Relic of Protection (Time-limited)" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.freya_box_i03" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -1327,7 +1327,7 @@
 		<set name="is_sellable" val="false" />
 	</item>
 	<item id="72394" name="Premier Doll Pack Lv. 1 (Time-limited)" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to get more information about the contents. -->
+		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.etc_pi_gift_box_i02" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
